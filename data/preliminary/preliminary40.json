@@ -1,0 +1,248 @@
+{
+  "title_kr": "예비편 어휘",
+  "title_mn": "Бэлтгэл үгсийн сан",
+  "description": "자음·모음 학습 자료에서 반복적으로 등장하는 초급 어휘 가운데 서울대 한국어 어휘 데이터의 몽골어 대응 표현을 확인해 선정한 40개.",
+  "count": 40,
+  "vocab": [
+    {
+      "id": 1,
+      "ko": "가다",
+      "mn": "явах",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 2,
+      "ko": "오다",
+      "mn": "ирэх",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 3,
+      "ko": "사다",
+      "mn": "худалдаж авах",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 4,
+      "ko": "주다",
+      "mn": "өгөх",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 5,
+      "ko": "마시다",
+      "mn": "уух",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 6,
+      "ko": "자다",
+      "mn": "унтах",
+      "snu_source": "1A/lesson03.json"
+    },
+    {
+      "id": 7,
+      "ko": "타다",
+      "mn": "унах",
+      "snu_source": "1A/lesson08.json"
+    },
+    {
+      "id": 8,
+      "ko": "쉬다",
+      "mn": "амрах",
+      "snu_source": "1A/lesson03.json"
+    },
+    {
+      "id": 9,
+      "ko": "읽다",
+      "mn": "унших",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 10,
+      "ko": "듣다",
+      "mn": "сонсох",
+      "snu_source": "1A/lesson08.json"
+    },
+    {
+      "id": 11,
+      "ko": "앉다",
+      "mn": "суух",
+      "snu_source": "1A/lesson06.json"
+    },
+    {
+      "id": 12,
+      "ko": "싸다",
+      "mn": "хямд",
+      "snu_source": "1A/lesson06.json"
+    },
+    {
+      "id": 13,
+      "ko": "가게",
+      "mn": "дэлгүүр",
+      "snu_source": "1A/lesson05.json"
+    },
+    {
+      "id": 14,
+      "ko": "모자",
+      "mn": "малгай",
+      "snu_source": "1B/lesson14.json"
+    },
+    {
+      "id": 15,
+      "ko": "의자",
+      "mn": "сандал",
+      "snu_source": "1A/lesson02.json"
+    },
+    {
+      "id": 16,
+      "ko": "시계",
+      "mn": "цаг",
+      "snu_source": "1A/lesson02.json"
+    },
+    {
+      "id": 17,
+      "ko": "의사",
+      "mn": "эмч",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 18,
+      "ko": "가수",
+      "mn": "дуучин",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 19,
+      "ko": "요리사",
+      "mn": "тогооч",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 20,
+      "ko": "마트",
+      "mn": "супермаркет",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 21,
+      "ko": "카페",
+      "mn": "кафе",
+      "snu_source": "3A/lesson06.json"
+    },
+    {
+      "id": 22,
+      "ko": "회사",
+      "mn": "компани",
+      "snu_source": "1A/lesson03.json"
+    },
+    {
+      "id": 23,
+      "ko": "학교",
+      "mn": "сургууль",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 24,
+      "ko": "시장",
+      "mn": "зах",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 25,
+      "ko": "집",
+      "mn": "гэр",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 26,
+      "ko": "책",
+      "mn": "ном",
+      "snu_source": "1A/lesson02.json"
+    },
+    {
+      "id": 27,
+      "ko": "공책",
+      "mn": "дэвтэр",
+      "snu_source": "1A/lesson02.json"
+    },
+    {
+      "id": 28,
+      "ko": "사람",
+      "mn": "хүн",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 29,
+      "ko": "수박",
+      "mn": "тарвас",
+      "snu_source": "1A/lesson06.json"
+    },
+    {
+      "id": 30,
+      "ko": "꽃",
+      "mn": "цэцэг",
+      "snu_source": "1A/lesson07.json"
+    },
+    {
+      "id": 31,
+      "ko": "물",
+      "mn": "ус",
+      "snu_source": "4B/lesson12.json"
+    },
+    {
+      "id": 32,
+      "ko": "라면",
+      "mn": "бэлэн гоймон",
+      "snu_source": "1A/lesson06.json"
+    },
+    {
+      "id": 33,
+      "ko": "우유",
+      "mn": "сүү",
+      "snu_source": "1A/lesson02.json"
+    },
+    {
+      "id": 34,
+      "ko": "구두",
+      "mn": "потинк",
+      "snu_source": "1B/lesson14.json"
+    },
+    {
+      "id": 35,
+      "ko": "기차",
+      "mn": "галт тэрэг",
+      "snu_source": "1B/lesson13.json"
+    },
+    {
+      "id": 36,
+      "ko": "바지",
+      "mn": "өмд",
+      "snu_source": "1B/lesson14.json"
+    },
+    {
+      "id": 37,
+      "ko": "사과",
+      "mn": "алим",
+      "snu_source": "1A/lesson06.json"
+    },
+    {
+      "id": 38,
+      "ko": "안경",
+      "mn": "нүдний шил",
+      "snu_source": "1A/lesson02.json"
+    },
+    {
+      "id": 39,
+      "ko": "선생님",
+      "mn": "багш",
+      "snu_source": "1A/lesson01.json"
+    },
+    {
+      "id": 40,
+      "ko": "학생",
+      "mn": "оюутан",
+      "snu_source": "1A/lesson01.json"
+    }
+  ]
+}

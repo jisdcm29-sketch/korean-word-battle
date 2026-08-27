@@ -1,0 +1,14 @@
+DATA SOURCE NOTE - v5
+=====================
+
+1) SNU Korean vocabulary / TOPIK 1 collocations
+The Korean-Mongolian data under data/snu and data/topik1 was copied from the user's supplied korean-quiz source data for game use.
+
+2) Preliminary vocabulary 40
+Path: data/preliminary/preliminary40.json
+The 40 preliminary items were selected from words repeatedly used in the user's supplied Hangul learning PPT materials covering basic consonants, double vowels, double consonants, batchim/liaison, and review/classroom expressions.
+The Mongolian meanings were checked against the Korean-Mongolian vocabulary pairs already present in the supplied SNU Korean data.
+The selection intentionally focuses on basic verbs and nouns suitable for learners who are still studying Hangul consonants and vowels.
+
+3) Quiz safety
+For Mongolian -> Korean questions, the game engine automatically removes items that could create multiple Korean answers from an identical Mongolian meaning.
