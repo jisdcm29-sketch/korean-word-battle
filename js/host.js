@@ -1,7 +1,8 @@
 import { CATALOG } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore, directionLabel, getQuizCapacity } from './game-engine.js';
-import { LocalBus, publicRoomState } from './local-bus.js';
+import { LocalBus } from './local-bus.js?v=7.3';
+import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin } from './firebase-bus.js?v=7.3';
 import { GameAudioEngine } from './audio-engine.js';
 
 const $ = (id) => document.getElementById(id);
@@ -36,6 +37,18 @@ let lastCountdownNumber = null;
 let lastTimerTickSecond = null;
 let currentMusicMode = 'normal';
 let blindTransitionPlayed = false;
+
+function nowMs() { return bus?.now ? bus.now() : Date.now(); }
+
+function updateBackendStatus() {
+  const el = $('backendStatus');
+  if (!el) return;
+  const ok = isFirebaseConfigured();
+  el.className = `backend-status ${ok ? 'ready' : 'warning'}`;
+  el.innerHTML = ok
+    ? '<strong>● Firebase 실시간 연결 준비 완료</strong><span>학생 스마트폰이 QR/PIN으로 같은 게임방에 접속할 수 있습니다.</span>'
+    : '<strong>⚠ Firebase 설정 필요</strong><span>10명 데모와 혼자 테스트는 가능하지만, 실제 학생 스마트폰 입장은 Firebase 설정 후 사용할 수 있습니다.</span>';
+}
 
 function setGameFocus(active) {
   document.body.classList.toggle('game-active', Boolean(active));
@@ -317,7 +330,8 @@ async function startSolo() {
   } catch (e) { toast(e.message); }
 }
 
-function makePin() {
+async function makePin() {
+  if (isFirebaseConfigured()) return createUniqueFirebasePin();
   for (let i=0;i<30;i++) {
     const pin = String(Math.floor(100000 + Math.random()*900000));
     if (!localStorage.getItem(`kwb_room_${pin}`)) return pin;
@@ -329,11 +343,14 @@ async function createRoom(demoMode = false) {
   try {
     setupAudioSettings();
     await audio.unlock();
+    if (!demoMode && !isFirebaseConfigured()) {
+      throw new Error('실제 학생이 입장하는 게임방은 Firebase 설정이 필요합니다. 먼저 Firebase 프로젝트를 연결해 주세요.');
+    }
     const data = await ensureData();
     validateQuestionCount();
     const config = getConfig();
     const quiz = buildQuiz(data.items, config);
-    const pin = makePin();
+    const pin = await makePin();
     room = {
       pin,
       status:'lobby',
@@ -347,10 +364,22 @@ async function createRoom(demoMode = false) {
       createdAt:Date.now()
     };
     bus?.close();
-    bus = new LocalBus(pin);
-    bus.on(handleMessage);
+
+    if (isFirebaseConfigured()) {
+      bus = new FirebaseBus(pin, 'host');
+      bus.on(handleMessage);
+      await bus.init();
+      room.createdAt = nowMs();
+      await bus.createRoom(room);
+    } else {
+      bus = new LocalBus(pin);
+      bus.on(handleMessage);
+      bus.saveRoom(room);
+    }
+
     if (demoMode) addDemoStudents(10, false);
-    persistAndBroadcast();
+    else persistAndBroadcast();
+
     setGameFocus(false);
     $('setupView').classList.add('hidden');
     $('hostView').classList.remove('hidden');
@@ -360,6 +389,7 @@ async function createRoom(demoMode = false) {
     $('roomPin').textContent = pin;
     const url = new URL('play.html', location.href);
     url.searchParams.set('pin',pin);
+    if (bus.mode === 'local') url.searchParams.set('local','1');
     $('joinUrl').textContent = url.href;
     $('openPlayerBtn').onclick = () => window.open(url.href,'_blank');
     renderQr(url.href);
@@ -420,14 +450,14 @@ function handleMessage(msg) {
     persistAndBroadcast();
     renderLobby();
   }
-  if (msg.type === 'answer') handleAnswer(msg.payload);
+  if (msg.type === 'answer') handleAnswer(msg.payload, msg.at);
   if (msg.type === 'request-state') broadcastState();
 }
 
-function handleAnswer({uid,qIndex,choice}) {
+function handleAnswer({uid,qIndex,choice}, receivedAt = null) {
   if (!room || room.status !== 'playing' || qIndex !== room.questionIndex) return;
   if (!room.players[uid] || room.questionResults[uid]) return;
-  const now=Date.now();
+  const now=Number(receivedAt) || nowMs();
   if (now > room.questionEndAt + 250) return;
   const q=room.quiz.questions[room.questionIndex];
   const selected=Number(choice);
@@ -452,7 +482,7 @@ function startGame() {
   lastTimerTickSecond = null;
   setMusicMode('countdown');
   room.status='countdown';
-  room.countdownEndAt=Date.now()+3200;
+  room.countdownEndAt=nowMs()+3200;
   setGameFocus(true);
   $('lobbyArea').classList.add('hidden');
   $('gameArea').classList.remove('hidden');
@@ -470,7 +500,7 @@ function scheduleBotAnswers() {
   if (!room || room.status !== 'playing') return;
   const q = room.quiz.questions[room.questionIndex];
   const duration = room.config.timeLimit * 1000;
-  const untilStart = Math.max(0, room.questionStartAt - Date.now());
+  const untilStart = Math.max(0, room.questionStartAt - nowMs());
   Object.values(room.players).filter(p => p.bot).forEach((bot, index) => {
     const jitter = (Math.random() - .5) * .13;
     const fraction = Math.max(.08, Math.min(.82, Number(bot.speed || .35) + jitter));
@@ -483,7 +513,7 @@ function scheduleBotAnswers() {
         const wrong = q.options.map((_,i)=>i).filter(i=>i!==q.correctIndex);
         choice = wrong[Math.floor(Math.random()*wrong.length)];
       }
-      handleAnswer({ uid:bot.uid, qIndex:room.questionIndex, choice });
+      handleAnswer({ uid:bot.uid, qIndex:room.questionIndex, choice }, nowMs());
     }, answerAfter + index * 18);
     botTimers.push(timer);
   });
@@ -495,7 +525,7 @@ function startQuestion(index) {
   room.status='playing';
   room.questionIndex=index;
   room.questionResults={};
-  room.questionStartAt=Date.now()+250;
+  room.questionStartAt=nowMs()+250;
   room.questionEndAt=room.questionStartAt+room.config.timeLimit*1000;
   closingQuestion=false;
   lastTimerTickSecond = null;
@@ -527,7 +557,7 @@ function endQuestion() {
   const ratio = Object.keys(room.players).length ? correctCount / Object.keys(room.players).length : 0;
   audio.playReveal(ratio);
   room.status='result';
-  room.resultEndAt=Date.now()+1900;
+  room.resultEndAt=nowMs()+1900;
   persistAndBroadcast();
   renderGame();
 }
@@ -537,7 +567,7 @@ function finishGame() {
   setMusicMode('final');
   audio.playFinish();
   room.status='finished';
-  room.finishedAt=Date.now();
+  room.finishedAt=nowMs();
   persistAndBroadcast();
   $('gameArea').classList.add('hidden');
   $('finalArea').classList.remove('hidden');
@@ -548,7 +578,7 @@ function startLoop() {
   clearInterval(loop);
   loop=setInterval(()=>{
     if (!room) return;
-    const now=Date.now();
+    const now=nowMs();
     if (room.status==='countdown') {
       renderCountdown();
       if (now>=room.countdownEndAt) startQuestion(0);
@@ -568,12 +598,13 @@ function startLoop() {
 
 function persistAndBroadcast() {
   if (!room||!bus) return;
-  bus.saveRoom(room);
-  broadcastState();
+  const pending = bus.saveRoom(room);
+  if (pending?.catch) pending.catch((e) => console.error('room sync failed', e));
+  if (bus.mode === 'local') broadcastState();
 }
 
 function broadcastState() {
-  if (room&&bus) bus.send('state',{room:publicRoomState(room)});
+  if (room&&bus?.mode === 'local') bus.send('state',{room:publicRoomState(room)});
 }
 
 function renderLobby() {
@@ -595,7 +626,7 @@ function renderCountdown() {
     $('countdownOverlay').classList.add('hidden');
     return;
   }
-  const n=Math.max(1,Math.ceil((room.countdownEndAt-Date.now())/1000));
+  const n=Math.max(1,Math.ceil((room.countdownEndAt-nowMs())/1000));
   if (n !== lastCountdownNumber) {
     lastCountdownNumber = n;
     audio.playCountdown(n);
@@ -641,7 +672,7 @@ function renderRanking() {
 function renderTimer() {
   if (!room||room.questionIndex<0) return;
   const duration=room.config.timeLimit*1000;
-  let remain=room.status==='playing'?room.questionEndAt-Date.now():0;
+  let remain=room.status==='playing'?room.questionEndAt-nowMs():0;
   remain=Math.max(0,Math.min(duration,remain));
   $('hostTimerBar').style.width=`${(remain/duration)*100}%`;
   $('hostTimerText').textContent=(remain/1000).toFixed(1);
@@ -684,8 +715,9 @@ function resetToSetup() {
   clearInterval(loop);
   loop=null;
   if (bus&&room) {
-    bus.send('room-closed',{});
-    bus.removeRoom();
+    if (bus.mode === 'local') bus.send('room-closed',{});
+    const removing = bus.removeRoom();
+    if (removing?.catch) removing.catch((e)=>console.error('room cleanup failed', e));
     bus.close();
   }
   bus=null;
@@ -701,6 +733,7 @@ function filterPreview() {
 
 fillCatalog();
 setupAudioSettings();
+updateBackendStatus();
 updateSourceFields();
 $('sourceType').addEventListener('change',updateSourceFields);
 $('snuBook').addEventListener('change',()=>{fillLessons();refreshSummary();});
