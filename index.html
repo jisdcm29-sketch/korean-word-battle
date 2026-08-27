@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>한·몽 실시간 단어 배틀 - 게임 호스트</title>
-  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/app.css?v=7.3" />
 </head>
 <body class="teacher-page">
   <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
@@ -18,7 +18,7 @@
     <div class="battle-brand">
       <div class="eyebrow">KOREAN · MONGOLIAN LIVE GAME</div>
       <h1>한·몽 실시간 단어 배틀</h1>
-      <p>게임 호스트 · 예비편 + 직접 어휘 선택 · 로컬 테스트 v6</p>
+      <p>게임 호스트 · 예비편 + 직접 어휘 선택 · Firebase 실시간 v7</p>
     </div>
     <div class="mode-badge game-badge">⚡ GAME ARENA</div>
   </header>
@@ -114,6 +114,7 @@
       </div>
 
       <div id="dataSummary" class="data-summary">자료를 불러오는 중입니다.</div>
+      <div id="backendStatus" class="backend-status warning"></div>
 
       <div class="demo-intro-card arena-demo-card">
         <div>
@@ -239,6 +240,6 @@
 
   <div id="toast" class="toast hidden"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/host.js"></script>
+  <script type="module" src="js/host.js?v=7.3"></script>
 </body>
 </html>
