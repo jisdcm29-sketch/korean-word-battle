@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#08162f" />
-  <title>문장 배틀 · 교사용 샘플</title>
-  <link rel="stylesheet" href="css/sentence-sample.css?v=2.6" />
+  <title>문장 배틀 · 교사용</title>
+  <link rel="stylesheet" href="css/sentence-sample.css?v=2.7" />
 </head>
 <body>
   <div class="bg-grid" aria-hidden="true"></div>
@@ -18,7 +18,7 @@
         <div class="flag-row"><span>🇰🇷</span><b>⚡</b><span>🇲🇳</span></div>
         <p class="eyebrow">SENTENCE BATTLE · TEACHER</p>
         <h1>문장 배틀</h1>
-        <p class="subtitle">교사용 샘플 설정</p>
+        <p class="subtitle">교사용 설정</p>
         <div id="sentenceContextNote" class="sentence-context-note"></div>
 
         <div class="setup-grid">
@@ -142,7 +142,7 @@
       </header>
       <div class="question-manager-toolbar">
         <div class="bulk-actions"><button id="addQuestionBtn" class="btn btn-add-question btn-small" type="button">＋ 새 문장 추가</button><button id="selectAllQuestionsBtn" class="btn btn-secondary btn-small" type="button">☑ 전체 선택</button><button id="clearAllQuestionsBtn" class="btn btn-secondary btn-small" type="button">☐ 전체 제외</button></div>
-        <div class="selection-summary">출제 문항 <b id="managerSelectedCount">6</b> / <span id="managerTotalCount">6</span></div>
+        <div class="selection-summary">출제 문항 <b id="managerSelectedCount">0</b> / <span id="managerTotalCount">0</span></div>
       </div>
       <div id="newQuestionEditor" class="new-question-editor hidden">
         <div class="new-question-title"><div><b>＋ 새 문장 만들기</b><span>대표 문장, 카드, 추가 정답을 입력하세요.</span></div><button id="closeNewQuestionBtn" class="manager-close" type="button">✕</button></div>
@@ -153,11 +153,11 @@
         <div class="editor-actions"><button id="cancelNewQuestionBtn" class="btn btn-secondary" type="button">취소</button><button id="saveNewQuestionBtn" class="btn btn-primary" type="button">＋ 문장 추가</button></div>
       </div>
       <div id="questionList" class="question-list"></div>
-      <footer class="question-manager-foot"><span>※ 수정 내용은 현재 샘플 실행 동안 유지됩니다.</span><button id="applyQuestionManagerBtn" class="btn btn-primary" type="button">✓ 확인하고 닫기</button></footer>
+      <footer class="question-manager-foot"><span>※ 수정 내용은 현재 게임방을 만드는 동안 유지됩니다.</span><button id="applyQuestionManagerBtn" class="btn btn-primary" type="button">✓ 확인하고 닫기</button></footer>
     </div>
   </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/sentence-host.js?v=2.7"></script>
+  <script type="module" src="js/sentence-host.js?v=2.8"></script>
 </body>
 </html>
