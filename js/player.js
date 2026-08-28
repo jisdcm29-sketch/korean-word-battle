@@ -101,7 +101,7 @@ if(!soloMode)$('answerGrid').addEventListener('click',e=>{const b=e.target.close
 
 function startSoloMode(){
   try{solo=JSON.parse(localStorage.getItem('kwb_solo_payload')||'null');}catch{}
-  if(!solo?.quiz?.questions?.length){alert('교사용 화면에서 [테스트 플레이]를 먼저 눌러 주세요.');location.href='index.html';return;}
+  if(!solo?.quiz?.questions?.length){alert('교사용 화면에서 [테스트 플레이]를 먼저 눌러 주세요.');location.href='word-battle.html';return;}
   uid='solo';selectedAvatar='🐻';soloScore=0;show('countdownView');let countEnd=nowMs()+3200;state={status:'countdown',countdownEndAt:countEnd};startTimerLoop();
   const wait=setInterval(()=>{renderCountdown();if(nowMs()>=countEnd){clearInterval(wait);runSoloQuestion(0);}},80);
 }

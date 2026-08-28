@@ -92,6 +92,35 @@ function fillLessons() {
   $('snuLesson').innerHTML = book.lessons.map(n => `<option value="${n}">${n}과</option>`).join('');
 }
 
+function applyPlatformLaunchParams() {
+  const params = new URLSearchParams(location.search);
+  const source = params.get('source');
+  if (['preliminary','snu','topik1'].includes(source)) $('sourceType').value = source;
+  const book = params.get('book');
+  if (book && CATALOG.snuBooks.some(b => b.id === book)) {
+    $('snuBook').value = book;
+    fillLessons();
+  }
+  const lesson = Number(params.get('lesson'));
+  if (lesson && [...$('snuLesson').options].some(o => Number(o.value) === lesson)) $('snuLesson').value = String(lesson);
+  const collocation = params.get('collocation');
+  if (collocation && [...$('collocationSet').options].some(o => o.value === collocation)) $('collocationSet').value = collocation;
+  const context = $('platformSelectionText');
+  if (context) {
+    if ($('sourceType').value === 'snu') context.textContent = `어휘 배틀 · 서울대 ${$('snuBook').value} · ${$('snuLesson').value}과`;
+    else if ($('sourceType').value === 'topik1') context.textContent = '어휘 배틀 · TOPIK 1 연어 표현';
+    else context.textContent = '어휘 배틀 · 예비편 어휘 40';
+  }
+}
+
+function syncPlatformContext() {
+  const context = $('platformSelectionText');
+  if (!context) return;
+  if ($('sourceType').value === 'snu') context.textContent = `어휘 배틀 · 서울대 ${$('snuBook').value} · ${$('snuLesson').value}과`;
+  else if ($('sourceType').value === 'topik1') context.textContent = '어휘 배틀 · TOPIK 1 연어 표현';
+  else context.textContent = '어휘 배틀 · 예비편 어휘 40';
+}
+
 function sourceKeyFromConfig(config) {
   if (config.sourceType === 'preliminary') return 'preliminary';
   if (config.sourceType === 'topik1') return `topik1:${config.collocationSet}`;
@@ -752,12 +781,13 @@ function filterPreview() {
 }
 
 fillCatalog();
+applyPlatformLaunchParams();
 setupAudioSettings();
 updateBackendStatus();
 updateSourceFields();
-$('sourceType').addEventListener('change',updateSourceFields);
-$('snuBook').addEventListener('change',()=>{fillLessons();refreshSummary();});
-$('snuLesson').addEventListener('change',refreshSummary);
+$('sourceType').addEventListener('change',()=>{updateSourceFields();syncPlatformContext();});
+$('snuBook').addEventListener('change',()=>{fillLessons();refreshSummary();syncPlatformContext();});
+$('snuLesson').addEventListener('change',()=>{refreshSummary();syncPlatformContext();});
 $('collocationSet').addEventListener('change',refreshSummary);
 $('direction').addEventListener('change',refreshSummary);
 $('questionCount').addEventListener('change',()=>{

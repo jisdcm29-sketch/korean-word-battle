@@ -1,6 +1,7 @@
 export class LocalBus {
   constructor(pin) {
     this.pin = String(pin);
+    this.mode = 'local';
     this.channelName = `kwb-${this.pin}`;
     this.channel = 'BroadcastChannel' in window ? new BroadcastChannel(this.channelName) : null;
     this.eventKey = `kwb_event_${this.pin}`;
@@ -21,6 +22,7 @@ export class LocalBus {
     this.handlers.forEach(fn => fn(msg));
   }
   on(fn) { this.handlers.add(fn); return () => this.handlers.delete(fn); }
+  now() { return Date.now(); }
   send(type, payload = {}) {
     const msg = { id: `${Date.now()}-${Math.random().toString(36).slice(2)}`, type, payload, at: Date.now() };
     if (this.channel) this.channel.postMessage(msg);
