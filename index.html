@@ -2,244 +2,51 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>한·몽 실시간 단어 배틀 - 게임 호스트</title>
-  <link rel="stylesheet" href="css/app.css?v=7.4" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07152f" />
+  <title>한·몽 한국어 게임 아레나</title>
+  <link rel="stylesheet" href="css/platform.css?v=1.0" />
 </head>
-<body class="teacher-page">
-  <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<body>
+  <div class="platform-bg" aria-hidden="true"><i></i><i></i><i></i></div>
+  <main class="platform-shell">
+    <header class="platform-hero">
+      <div class="flags"><span>🇰🇷</span><b>⚡</b><span>🇲🇳</span></div>
+      <p class="eyebrow">KOREAN · MONGOLIAN GAME PLATFORM</p>
+      <h1>한국어 게임 아레나</h1>
+      <p>게임을 먼저 선택하고, 같은 교재·단원을 고르면 해당 게임의 전용 설정 화면으로 이동합니다.</p>
+    </header>
 
-  <header class="topbar battle-topbar">
-    <div class="flag-showdown" aria-label="대한민국과 몽골">
-      <span class="flag-card korea"><b>🇰🇷</b><small>KOREA</small></span>
-      <span class="versus-mark">VS</span>
-      <span class="flag-card mongolia"><b>🇲🇳</b><small>MONGOLIA</small></span>
-    </div>
-    <div class="battle-brand">
-      <div class="eyebrow">KOREAN · MONGOLIAN LIVE GAME</div>
-      <h1>한·몽 실시간 단어 배틀</h1>
-      <p>게임 호스트 · 예비편 + 직접 어휘 선택 · Firebase 실시간 v7.4</p>
-    </div>
-    <div class="mode-badge game-badge">⚡ GAME ARENA</div>
-  </header>
-
-  <main class="page-shell">
-    <section id="setupView" class="panel setup-panel game-panel">
-      <div class="panel-heading">
-        <div>
-          <span class="step-chip">STEP 1</span>
-          <h2>게임 설정</h2>
-          <p class="heading-note">자료를 고른 뒤 <b>어휘 선택</b>을 눌러 원하는 단어만 직접 골라 게임을 만들 수 있습니다.</p>
-        </div>
-        <button id="previewBtn" class="btn vocab-select-btn">☑ 어휘 선택 · 목록 보기 <span id="selectedCountBadge">0/0</span></button>
-      </div>
-
-      <div class="source-hero-strip">
-        <span>🇰🇷 한국어</span><b>⚔</b><span>Монгол хэл 🇲🇳</span>
-        <em>읽고 · 고르고 · 빠르게 · 경쟁!</em>
-      </div>
-
-      <div class="form-grid">
-        <label class="field">
-          <span>출제 자료</span>
-          <select id="sourceType">
-            <option value="preliminary">예비편 어휘 40 · 자모음 학습</option>
-            <option value="snu">서울대 한국어 어휘</option>
-            <option value="topik1">TOPIK 1 연어 표현</option>
-          </select>
-        </label>
-
-        <label id="bookField" class="field hidden">
-          <span>교재</span>
-          <select id="snuBook"></select>
-        </label>
-
-        <label id="lessonField" class="field hidden">
-          <span>과</span>
-          <select id="snuLesson"></select>
-        </label>
-
-        <label id="collocationField" class="field hidden">
-          <span>연어 범위</span>
-          <select id="collocationSet"></select>
-        </label>
-
-        <label class="field">
-          <span>출제 방향</span>
-          <select id="direction">
-            <option value="ko-mn">한국어 → 몽골어</option>
-            <option value="mn-ko">몽골어 → 한국어</option>
-            <option value="mixed">랜덤 혼합</option>
-          </select>
-        </label>
-
-        <label class="field question-count-field">
-          <span>문제 수 <strong id="questionMaxText">최대 -문제</strong></span>
-          <div class="question-count-row">
-            <input id="questionCount" type="number" min="1" step="1" value="10" inputmode="numeric" />
-            <button id="allQuestionsBtn" type="button" class="btn small secondary">전체</button>
-          </div>
-          <small>선택한 어휘 가운데 출제 가능한 최대 문항까지 설정할 수 있습니다.</small>
-        </label>
-
-        <label class="field range-field">
-          <span>문제당 제한 시간 <strong id="timeValue">10초</strong></span>
-          <input id="timeLimit" type="range" min="5" max="30" step="1" value="10" />
-        </label>
-
-        <label class="toggle-field">
-          <span>
-            <strong>마지막 20% 순위 블라인드</strong>
-            <small>마지막 문제 구간에서는 교사용 순위와 점수를 숨깁니다.</small>
-          </span>
-          <input id="blindMode" type="checkbox" checked />
-        </label>
-
-        <div class="sound-settings-card">
-          <div class="sound-settings-head">
-            <div>
-              <span class="sound-chip">GAME SOUND</span>
-              <strong>게임 음악과 효과음</strong>
-              <small>교사용 대형 화면에서만 재생됩니다. 학생 휴대폰에서는 소리가 나지 않습니다.</small>
-            </div>
-            <button id="soundTestBtn" type="button" class="btn small secondary">♪ 소리 미리듣기</button>
-          </div>
-          <div class="sound-settings-grid">
-            <label class="sound-toggle"><span>🎵 배경음악(BGM)</span><input id="bgmEnabled" type="checkbox" checked /></label>
-            <label class="sound-toggle"><span>🔔 효과음</span><input id="sfxEnabled" type="checkbox" checked /></label>
-            <label class="sound-volume"><span>🔊 전체 음량 <strong id="volumeValue">70%</strong></span><input id="masterVolume" type="range" min="0" max="100" step="1" value="70" /></label>
-          </div>
-          <div class="sound-flow">대기실 음악 → 3·2·1 카운트다운 → 배틀 BGM → 마지막 20% 긴장 모드 → 최종 팡파르</div>
-        </div>
-      </div>
-
-      <div id="dataSummary" class="data-summary">자료를 불러오는 중입니다.</div>
-      <div id="backendStatus" class="backend-status warning"></div>
-
-      <div class="demo-intro-card arena-demo-card">
-        <div>
-          <span class="demo-chip">CLASS DEMO</span>
-          <strong>학생들에게 게임을 소개할 때는 10명 데모 시연을 사용하세요.</strong>
-          <small>가상 학생 10명이 자동으로 정답을 제출해 순위 이동, 점수, 선물 효과, 최종 시상식을 보여 줍니다.</small>
-        </div>
-        <button id="demoBtn" class="btn demo">🎮 10명 데모 시연</button>
-      </div>
-
-      <div class="action-row">
-        <button id="soloBtn" class="btn secondary">혼자 테스트</button>
-        <button id="createRoomBtn" class="btn primary battle-start-btn">⚡ 실제 게임 방 만들기</button>
+    <section class="platform-panel">
+      <div class="step-head"><span>STEP 1</span><div><h2>게임 선택</h2><p>학생은 게임을 선택하지 않습니다. 교사가 만든 방의 QR/PIN으로 바로 입장합니다.</p></div></div>
+      <div id="gameGrid" class="game-grid">
+        <button class="game-card active" type="button" data-game="word">
+          <span class="game-icon">⚡</span><strong>어휘 배틀</strong><small>단어·연어를 빠르게 고르는 실시간 경쟁</small><em>사용 가능</em>
+        </button>
+        <button class="game-card" type="button" data-game="sentence">
+          <span class="game-icon">🧩</span><strong>문장 배틀</strong><small>카드를 배열해 자연스러운 한국어 문장 완성</small><em>사용 가능</em>
+        </button>
+        <button class="game-card coming" type="button" data-game="speed" disabled>
+          <span class="game-icon">🚀</span><strong>스피드 러시</strong><small>제한시간 동안 최대한 많은 문제 해결</small><em>추후 추가</em>
+        </button>
       </div>
     </section>
 
-    <section id="hostView" class="panel host-panel hidden game-panel">
-      <button id="fullscreenBtn" type="button" class="fullscreen-btn" title="전체 화면으로 전환 (ESC로 종료)">⛶ 전체 화면</button>
-      <div id="lobbyArea" class="host-section">
-        <div class="arena-titlebar">
-          <span>🇰🇷 KOREA</span><strong>WORD BATTLE ARENA</strong><span>MONGOLIA 🇲🇳</span>
-        </div>
-        <div class="lobby-grid">
-          <div class="pin-card arena-pin-card">
-            <div class="pin-flags"><span>🇰🇷</span><b>⚔</b><span>🇲🇳</span></div>
-            <span class="label">ROOM PIN</span>
-            <div id="roomPin" class="pin-number">------</div>
-            <div id="qrBox" class="qr-box"><span>QR 준비 중</span></div>
-            <div id="joinUrl" class="join-url"></div>
-            <button id="openPlayerBtn" class="btn small secondary">학생 화면 새 탭으로 열기</button>
-          </div>
-          <div class="lobby-right arena-lobby-right">
-            <div class="panel-heading compact">
-              <div>
-                <span class="step-chip">STEP 2</span>
-                <h2>입장 대기실</h2>
-              </div>
-              <span id="playerCount" class="count-pill">0명</span>
-            </div>
-            <div class="lobby-hype"><b>READY?</b><span>참가자가 입장하면 캐릭터가 경기장에 나타납니다.</span></div>
-            <div id="demoInfo" class="demo-room-info hidden">
-              <strong>시연 모드</strong>
-              <span>가상 학생은 게임이 시작되면 자동으로 답을 제출합니다. 실제 학생은 QR/PIN으로 입장합니다.</span>
-            </div>
-            <div id="playerList" class="player-list empty-state">아직 입장한 학생이 없습니다.</div>
-            <div class="action-row split-actions">
-              <div class="action-row left no-margin">
-                <button id="backSetupBtn" class="btn ghost">설정으로</button>
-                <button id="addDemoStudentsBtn" class="btn secondary">데모 학생 10명 추가</button>
-              </div>
-              <button id="startGameBtn" class="btn primary battle-start-btn" disabled>🔥 게임 시작</button>
-            </div>
-          </div>
-        </div>
+    <section class="platform-panel selection-panel">
+      <div class="step-head"><span>STEP 2</span><div><h2>교재 · 단원 선택</h2><p id="selectionGuide">어휘 배틀에서 사용할 자료를 선택하세요.</p></div></div>
+      <div class="selection-grid">
+        <label class="field"><span>자료 / 교재</span><select id="platformSource"></select></label>
+        <label id="platformBookField" class="field"><span>교재</span><select id="platformBook"></select></label>
+        <label id="platformLessonField" class="field"><span>과</span><select id="platformLesson"></select></label>
       </div>
+      <div id="selectionSummary" class="selection-summary"></div>
+    </section>
 
-      <div id="gameArea" class="host-section hidden arena-game-area">
-        <div class="arena-titlebar live"><span>🇰🇷</span><strong>LIVE WORD BATTLE</strong><span>🇲🇳</span></div>
-        <div class="game-topline">
-          <div><span id="questionCounter">Q 1/10</span><span id="blindBadge" class="blind-badge hidden">순위 블라인드</span><span id="demoGameBadge" class="demo-game-badge hidden">10명 DEMO</span><span id="musicModeBadge" class="music-mode-badge">🎵 BATTLE</span></div>
-          <div class="timer-wrap"><div id="hostTimerBar" class="timer-bar"></div><span id="hostTimerText">10.0</span></div>
-        </div>
-        <div class="audio-toolbar" aria-label="게임 소리 조절">
-          <button id="gameBgmBtn" type="button" class="audio-control active">🎵 BGM ON</button>
-          <button id="gameSfxBtn" type="button" class="audio-control active">🔔 효과음 ON</button>
-          <label class="game-volume-control"><span>🔊</span><input id="gameVolume" type="range" min="0" max="100" step="1" value="70" /><strong id="gameVolumeText">70%</strong></label>
-        </div>
-
-        <div id="countdownOverlay" class="countdown-overlay hidden"><span id="countdownText">3</span></div>
-
-        <div class="host-game-grid">
-          <section class="question-card host-question-card arena-question-card">
-            <div id="directionBadge" class="direction-badge"></div>
-            <div id="hostPrompt" class="prompt">문제가 표시됩니다.</div>
-            <div id="hostOptions" class="host-options"></div>
-            <div id="hostResultLine" class="result-line"></div>
-          </section>
-
-          <aside class="ranking-card arena-ranking-card">
-            <div class="ranking-header"><h3>🏆 실시간 순위</h3><span id="answeredCount">0/0 제출</span></div>
-            <div id="podium" class="podium"></div>
-            <div id="rankingList" class="ranking-list"></div>
-            <div id="blindCover" class="blind-cover hidden"><div>?</div><strong>마지막 승부 중</strong><span>최종 순위는 게임 종료 후 공개됩니다.</span></div>
-          </aside>
-        </div>
-        <div class="action-row left game-controls">
-          <button id="endRoomBtn" class="btn ghost">게임 종료</button>
-        </div>
-      </div>
-
-      <div id="finalArea" class="host-section hidden final-arena">
-        <div class="final-title"><span>🇰🇷 FINAL RESULT 🇲🇳</span><h2>🏆 최종 시상식 🏆</h2></div>
-        <div id="finalPodium" class="final-podium"></div>
-        <div id="finalRanking" class="final-ranking"></div>
-        <div class="action-row">
-          <button id="newGameBtn" class="btn primary">새 게임 설정</button>
-        </div>
-      </div>
+    <section class="launch-panel">
+      <div class="launch-copy"><span>STEP 3</span><div><strong id="launchTitle">어휘 배틀 설정으로 이동</strong><small>다음 화면에는 선택한 게임에 필요한 설정만 나타납니다.</small></div></div>
+      <button id="launchBtn" class="launch-btn" type="button">게임 설정 열기 ⚡</button>
     </section>
   </main>
-
-  <div id="previewModal" class="modal hidden" role="dialog" aria-modal="true">
-    <div class="modal-card selection-modal-card">
-      <div class="modal-head">
-        <div><h3 id="previewTitle">어휘 선택</h3><span id="previewCount"></span></div>
-        <button id="closePreviewBtn" class="icon-btn" aria-label="닫기">×</button>
-      </div>
-      <div class="selection-help">게임에 사용할 어휘를 체크하세요. 최소 4개 이상 필요합니다. 선택한 어휘 안에서 문제 수를 따로 정할 수 있습니다.</div>
-      <div class="selection-toolbar">
-        <input id="previewSearch" class="search-input" type="search" placeholder="한국어 또는 몽골어 검색" />
-        <button id="selectAllBtn" class="btn small secondary" type="button">전체 선택</button>
-        <button id="clearAllBtn" class="btn small ghost" type="button">전체 해제</button>
-      </div>
-      <div class="table-wrap">
-        <table class="vocab-table selectable-table"><thead><tr><th>선택</th><th>#</th><th>한국어</th><th>몽골어</th></tr></thead><tbody id="previewBody"></tbody></table>
-      </div>
-      <div class="selection-footer">
-        <div><strong id="selectionFooterCount">0개 선택</strong><span>선택은 현재 자료 범위별로 기억됩니다.</span></div>
-        <button id="applySelectionBtn" class="btn primary" type="button">선택 적용</button>
-      </div>
-    </div>
-  </div>
-
-  <div id="toast" class="toast hidden"></div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/host.js?v=7.4"></script>
+  <script type="module" src="js/platform.js?v=1.0"></script>
 </body>
 </html>
