@@ -1,0 +1,996 @@
+{
+  "book": "4A",
+  "lesson": 9,
+  "source": "서울대 한국어 4A 학생 읽기 자료 · 9과 어휘/문법/예문/말하기 기반",
+  "questionCount": 23,
+  "questions": [
+    {
+      "id": "SNU-4A-09-001",
+      "displaySentence": "무슨 일이 있거든 먼저 엄마한테 연락해야 한다.",
+      "tokens": [
+        [
+          "SNU-4A-09-001_card_0",
+          "무슨"
+        ],
+        [
+          "SNU-4A-09-001_card_1",
+          "일"
+        ],
+        [
+          "SNU-4A-09-001_card_2",
+          "이"
+        ],
+        [
+          "SNU-4A-09-001_card_3",
+          "있거든"
+        ],
+        [
+          "SNU-4A-09-001_card_4",
+          "먼저"
+        ],
+        [
+          "SNU-4A-09-001_card_5",
+          "엄마"
+        ],
+        [
+          "SNU-4A-09-001_card_6",
+          "한테"
+        ],
+        [
+          "SNU-4A-09-001_card_7",
+          "연락해야"
+        ],
+        [
+          "SNU-4A-09-001_card_8",
+          "한다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-001_card_0",
+          "SNU-4A-09-001_card_1",
+          "SNU-4A-09-001_card_2",
+          "SNU-4A-09-001_card_3",
+          "SNU-4A-09-001_card_4",
+          "SNU-4A-09-001_card_5",
+          "SNU-4A-09-001_card_6",
+          "SNU-4A-09-001_card_7",
+          "SNU-4A-09-001_card_8"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-002",
+      "displaySentence": "콘서트 소식을 듣거든 저한테도 알려 주세요.",
+      "tokens": [
+        [
+          "SNU-4A-09-002_card_0",
+          "콘서트"
+        ],
+        [
+          "SNU-4A-09-002_card_1",
+          "소식"
+        ],
+        [
+          "SNU-4A-09-002_card_2",
+          "을"
+        ],
+        [
+          "SNU-4A-09-002_card_3",
+          "듣거든"
+        ],
+        [
+          "SNU-4A-09-002_card_4",
+          "저한테"
+        ],
+        [
+          "SNU-4A-09-002_card_5",
+          "도"
+        ],
+        [
+          "SNU-4A-09-002_card_6",
+          "알려"
+        ],
+        [
+          "SNU-4A-09-002_card_7",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-002_card_0",
+          "SNU-4A-09-002_card_1",
+          "SNU-4A-09-002_card_2",
+          "SNU-4A-09-002_card_3",
+          "SNU-4A-09-002_card_4",
+          "SNU-4A-09-002_card_5",
+          "SNU-4A-09-002_card_6",
+          "SNU-4A-09-002_card_7"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-003",
+      "displaySentence": "네, 소식을 듣자마자 바로 알려 드릴게요.",
+      "tokens": [
+        [
+          "SNU-4A-09-003_card_0",
+          "네"
+        ],
+        [
+          "SNU-4A-09-003_card_1",
+          "소식"
+        ],
+        [
+          "SNU-4A-09-003_card_2",
+          "을"
+        ],
+        [
+          "SNU-4A-09-003_card_3",
+          "듣자마자"
+        ],
+        [
+          "SNU-4A-09-003_card_4",
+          "바로"
+        ],
+        [
+          "SNU-4A-09-003_card_5",
+          "알려"
+        ],
+        [
+          "SNU-4A-09-003_card_6",
+          "드릴게요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-003_card_0",
+          "SNU-4A-09-003_card_1",
+          "SNU-4A-09-003_card_2",
+          "SNU-4A-09-003_card_3",
+          "SNU-4A-09-003_card_4",
+          "SNU-4A-09-003_card_5",
+          "SNU-4A-09-003_card_6"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-004",
+      "displaySentence": "조금만 더 늦었더라면 비행기를 놓칠 뻔했어.",
+      "tokens": [
+        [
+          "SNU-4A-09-004_card_0",
+          "조금"
+        ],
+        [
+          "SNU-4A-09-004_card_1",
+          "만"
+        ],
+        [
+          "SNU-4A-09-004_card_2",
+          "더"
+        ],
+        [
+          "SNU-4A-09-004_card_3",
+          "늦었더라면"
+        ],
+        [
+          "SNU-4A-09-004_card_4",
+          "비행기"
+        ],
+        [
+          "SNU-4A-09-004_card_5",
+          "를"
+        ],
+        [
+          "SNU-4A-09-004_card_6",
+          "놓칠"
+        ],
+        [
+          "SNU-4A-09-004_card_7",
+          "뻔했어"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-004_card_0",
+          "SNU-4A-09-004_card_1",
+          "SNU-4A-09-004_card_2",
+          "SNU-4A-09-004_card_3",
+          "SNU-4A-09-004_card_4",
+          "SNU-4A-09-004_card_5",
+          "SNU-4A-09-004_card_6",
+          "SNU-4A-09-004_card_7"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-005",
+      "displaySentence": "그래, 지금 도착해서 다행이야.",
+      "tokens": [
+        [
+          "SNU-4A-09-005_card_0",
+          "그래"
+        ],
+        [
+          "SNU-4A-09-005_card_1",
+          "지금"
+        ],
+        [
+          "SNU-4A-09-005_card_2",
+          "도착해서"
+        ],
+        [
+          "SNU-4A-09-005_card_3",
+          "다행이야"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-005_card_0",
+          "SNU-4A-09-005_card_1",
+          "SNU-4A-09-005_card_2",
+          "SNU-4A-09-005_card_3"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-006",
+      "displaySentence": "할 수 없지, 뭐.",
+      "tokens": [
+        [
+          "SNU-4A-09-006_card_0",
+          "할"
+        ],
+        [
+          "SNU-4A-09-006_card_1",
+          "수"
+        ],
+        [
+          "SNU-4A-09-006_card_2",
+          "없지"
+        ],
+        [
+          "SNU-4A-09-006_card_3",
+          "뭐"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-006_card_0",
+          "SNU-4A-09-006_card_1",
+          "SNU-4A-09-006_card_2",
+          "SNU-4A-09-006_card_3"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-007",
+      "displaySentence": "다음 영화표를 사자.",
+      "tokens": [
+        [
+          "SNU-4A-09-007_card_0",
+          "다음"
+        ],
+        [
+          "SNU-4A-09-007_card_1",
+          "영화표"
+        ],
+        [
+          "SNU-4A-09-007_card_2",
+          "를"
+        ],
+        [
+          "SNU-4A-09-007_card_3",
+          "사자"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-007_card_0",
+          "SNU-4A-09-007_card_1",
+          "SNU-4A-09-007_card_2",
+          "SNU-4A-09-007_card_3"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-008",
+      "displaySentence": "시험 기간에는 관계자 외에는 이 사무실에 들어오지 못함.",
+      "tokens": [
+        [
+          "SNU-4A-09-008_card_0",
+          "시험"
+        ],
+        [
+          "SNU-4A-09-008_card_1",
+          "기간에"
+        ],
+        [
+          "SNU-4A-09-008_card_2",
+          "는"
+        ],
+        [
+          "SNU-4A-09-008_card_3",
+          "관계자"
+        ],
+        [
+          "SNU-4A-09-008_card_4",
+          "외에"
+        ],
+        [
+          "SNU-4A-09-008_card_5",
+          "는"
+        ],
+        [
+          "SNU-4A-09-008_card_6",
+          "이"
+        ],
+        [
+          "SNU-4A-09-008_card_7",
+          "사무실"
+        ],
+        [
+          "SNU-4A-09-008_card_8",
+          "에"
+        ],
+        [
+          "SNU-4A-09-008_card_9",
+          "들어오지"
+        ],
+        [
+          "SNU-4A-09-008_card_10",
+          "못함"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-008_card_0",
+          "SNU-4A-09-008_card_1",
+          "SNU-4A-09-008_card_2",
+          "SNU-4A-09-008_card_3",
+          "SNU-4A-09-008_card_4",
+          "SNU-4A-09-008_card_5",
+          "SNU-4A-09-008_card_6",
+          "SNU-4A-09-008_card_7",
+          "SNU-4A-09-008_card_8",
+          "SNU-4A-09-008_card_9",
+          "SNU-4A-09-008_card_10"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-009",
+      "displaySentence": "대학 졸업 후 50여 개국을 여행하면서 작품 활동 중임.",
+      "tokens": [
+        [
+          "SNU-4A-09-009_card_0",
+          "대학"
+        ],
+        [
+          "SNU-4A-09-009_card_1",
+          "졸업"
+        ],
+        [
+          "SNU-4A-09-009_card_2",
+          "후"
+        ],
+        [
+          "SNU-4A-09-009_card_3",
+          "50여"
+        ],
+        [
+          "SNU-4A-09-009_card_4",
+          "개국"
+        ],
+        [
+          "SNU-4A-09-009_card_5",
+          "을"
+        ],
+        [
+          "SNU-4A-09-009_card_6",
+          "여행하면서"
+        ],
+        [
+          "SNU-4A-09-009_card_7",
+          "작품"
+        ],
+        [
+          "SNU-4A-09-009_card_8",
+          "활동"
+        ],
+        [
+          "SNU-4A-09-009_card_9",
+          "중임"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-009_card_0",
+          "SNU-4A-09-009_card_1",
+          "SNU-4A-09-009_card_2",
+          "SNU-4A-09-009_card_3",
+          "SNU-4A-09-009_card_4",
+          "SNU-4A-09-009_card_5",
+          "SNU-4A-09-009_card_6",
+          "SNU-4A-09-009_card_7",
+          "SNU-4A-09-009_card_8",
+          "SNU-4A-09-009_card_9"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-010",
+      "displaySentence": "마리코 씨는 요즘 회사 일 때문에 스트레스가 많은 듯하다.",
+      "tokens": [
+        [
+          "SNU-4A-09-010_card_0",
+          "마리코 씨"
+        ],
+        [
+          "SNU-4A-09-010_card_1",
+          "는"
+        ],
+        [
+          "SNU-4A-09-010_card_2",
+          "요즘"
+        ],
+        [
+          "SNU-4A-09-010_card_3",
+          "회사"
+        ],
+        [
+          "SNU-4A-09-010_card_4",
+          "일"
+        ],
+        [
+          "SNU-4A-09-010_card_5",
+          "때문"
+        ],
+        [
+          "SNU-4A-09-010_card_6",
+          "에"
+        ],
+        [
+          "SNU-4A-09-010_card_7",
+          "스트레스"
+        ],
+        [
+          "SNU-4A-09-010_card_8",
+          "가"
+        ],
+        [
+          "SNU-4A-09-010_card_9",
+          "많은"
+        ],
+        [
+          "SNU-4A-09-010_card_10",
+          "듯하다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-010_card_0",
+          "SNU-4A-09-010_card_1",
+          "SNU-4A-09-010_card_2",
+          "SNU-4A-09-010_card_3",
+          "SNU-4A-09-010_card_4",
+          "SNU-4A-09-010_card_5",
+          "SNU-4A-09-010_card_6",
+          "SNU-4A-09-010_card_7",
+          "SNU-4A-09-010_card_8",
+          "SNU-4A-09-010_card_9",
+          "SNU-4A-09-010_card_10"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-011",
+      "displaySentence": "이 작가는 내년에 새로운 작품을 가지고 귀국할 듯하다.",
+      "tokens": [
+        [
+          "SNU-4A-09-011_card_0",
+          "이"
+        ],
+        [
+          "SNU-4A-09-011_card_1",
+          "작가는"
+        ],
+        [
+          "SNU-4A-09-011_card_2",
+          "내년"
+        ],
+        [
+          "SNU-4A-09-011_card_3",
+          "에"
+        ],
+        [
+          "SNU-4A-09-011_card_4",
+          "새로운"
+        ],
+        [
+          "SNU-4A-09-011_card_5",
+          "작품"
+        ],
+        [
+          "SNU-4A-09-011_card_6",
+          "을"
+        ],
+        [
+          "SNU-4A-09-011_card_7",
+          "가지고"
+        ],
+        [
+          "SNU-4A-09-011_card_8",
+          "귀국할"
+        ],
+        [
+          "SNU-4A-09-011_card_9",
+          "듯하다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-011_card_0",
+          "SNU-4A-09-011_card_1",
+          "SNU-4A-09-011_card_2",
+          "SNU-4A-09-011_card_3",
+          "SNU-4A-09-011_card_4",
+          "SNU-4A-09-011_card_5",
+          "SNU-4A-09-011_card_6",
+          "SNU-4A-09-011_card_7",
+          "SNU-4A-09-011_card_8",
+          "SNU-4A-09-011_card_9"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-012",
+      "displaySentence": "저 어제 이준 봤어요.",
+      "tokens": [
+        [
+          "SNU-4A-09-012_card_0",
+          "저"
+        ],
+        [
+          "SNU-4A-09-012_card_1",
+          "어제"
+        ],
+        [
+          "SNU-4A-09-012_card_2",
+          "이준"
+        ],
+        [
+          "SNU-4A-09-012_card_3",
+          "봤어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-012_card_0",
+          "SNU-4A-09-012_card_1",
+          "SNU-4A-09-012_card_2",
+          "SNU-4A-09-012_card_3"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-013",
+      "displaySentence": "어제 K-POP 콘서트에 갔다 왔거든요.",
+      "tokens": [
+        [
+          "SNU-4A-09-013_card_0",
+          "어제"
+        ],
+        [
+          "SNU-4A-09-013_card_1",
+          "K-POP"
+        ],
+        [
+          "SNU-4A-09-013_card_2",
+          "콘서트"
+        ],
+        [
+          "SNU-4A-09-013_card_3",
+          "에"
+        ],
+        [
+          "SNU-4A-09-013_card_4",
+          "갔다"
+        ],
+        [
+          "SNU-4A-09-013_card_5",
+          "왔거든요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-013_card_0",
+          "SNU-4A-09-013_card_1",
+          "SNU-4A-09-013_card_2",
+          "SNU-4A-09-013_card_3",
+          "SNU-4A-09-013_card_4",
+          "SNU-4A-09-013_card_5"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-014",
+      "displaySentence": "와, 거기 갔군요.",
+      "tokens": [
+        [
+          "SNU-4A-09-014_card_0",
+          "와"
+        ],
+        [
+          "SNU-4A-09-014_card_1",
+          "거기"
+        ],
+        [
+          "SNU-4A-09-014_card_2",
+          "갔군요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-014_card_0",
+          "SNU-4A-09-014_card_1",
+          "SNU-4A-09-014_card_2"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-015",
+      "displaySentence": "직접 보니까 어때요?",
+      "tokens": [
+        [
+          "SNU-4A-09-015_card_0",
+          "직접"
+        ],
+        [
+          "SNU-4A-09-015_card_1",
+          "보니까"
+        ],
+        [
+          "SNU-4A-09-015_card_2",
+          "어때요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-015_card_0",
+          "SNU-4A-09-015_card_1",
+          "SNU-4A-09-015_card_2"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-016",
+      "displaySentence": "방송으로 보는 것보다 훨씬 멋있어요?",
+      "tokens": [
+        [
+          "SNU-4A-09-016_card_0",
+          "방송"
+        ],
+        [
+          "SNU-4A-09-016_card_1",
+          "으로"
+        ],
+        [
+          "SNU-4A-09-016_card_2",
+          "보는"
+        ],
+        [
+          "SNU-4A-09-016_card_3",
+          "것"
+        ],
+        [
+          "SNU-4A-09-016_card_4",
+          "보다"
+        ],
+        [
+          "SNU-4A-09-016_card_5",
+          "훨씬"
+        ],
+        [
+          "SNU-4A-09-016_card_6",
+          "멋있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-016_card_0",
+          "SNU-4A-09-016_card_1",
+          "SNU-4A-09-016_card_2",
+          "SNU-4A-09-016_card_3",
+          "SNU-4A-09-016_card_4",
+          "SNU-4A-09-016_card_5",
+          "SNU-4A-09-016_card_6"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-017",
+      "displaySentence": "정말 꿈만 같았어요.",
+      "tokens": [
+        [
+          "SNU-4A-09-017_card_0",
+          "정말"
+        ],
+        [
+          "SNU-4A-09-017_card_1",
+          "꿈"
+        ],
+        [
+          "SNU-4A-09-017_card_2",
+          "만"
+        ],
+        [
+          "SNU-4A-09-017_card_3",
+          "같았어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-017_card_0",
+          "SNU-4A-09-017_card_1",
+          "SNU-4A-09-017_card_2",
+          "SNU-4A-09-017_card_3"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-018",
+      "displaySentence": "공연 끝나고 나서 사인도 받았는데요.",
+      "tokens": [
+        [
+          "SNU-4A-09-018_card_0",
+          "공연"
+        ],
+        [
+          "SNU-4A-09-018_card_1",
+          "끝나고"
+        ],
+        [
+          "SNU-4A-09-018_card_2",
+          "나서"
+        ],
+        [
+          "SNU-4A-09-018_card_3",
+          "사인"
+        ],
+        [
+          "SNU-4A-09-018_card_4",
+          "도"
+        ],
+        [
+          "SNU-4A-09-018_card_5",
+          "받았는데요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-018_card_0",
+          "SNU-4A-09-018_card_1",
+          "SNU-4A-09-018_card_2",
+          "SNU-4A-09-018_card_3",
+          "SNU-4A-09-018_card_4",
+          "SNU-4A-09-018_card_5"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-019",
+      "displaySentence": "직접 만난 거예요?",
+      "tokens": [
+        [
+          "SNU-4A-09-019_card_0",
+          "직접"
+        ],
+        [
+          "SNU-4A-09-019_card_1",
+          "만난"
+        ],
+        [
+          "SNU-4A-09-019_card_2",
+          "거"
+        ],
+        [
+          "SNU-4A-09-019_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-019_card_0",
+          "SNU-4A-09-019_card_1",
+          "SNU-4A-09-019_card_2",
+          "SNU-4A-09-019_card_3"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-020",
+      "displaySentence": "네, 같이 사진도 찍었어요.",
+      "tokens": [
+        [
+          "SNU-4A-09-020_card_0",
+          "네"
+        ],
+        [
+          "SNU-4A-09-020_card_1",
+          "같이"
+        ],
+        [
+          "SNU-4A-09-020_card_2",
+          "사진"
+        ],
+        [
+          "SNU-4A-09-020_card_3",
+          "도"
+        ],
+        [
+          "SNU-4A-09-020_card_4",
+          "찍었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-020_card_0",
+          "SNU-4A-09-020_card_1",
+          "SNU-4A-09-020_card_2",
+          "SNU-4A-09-020_card_3",
+          "SNU-4A-09-020_card_4"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-021",
+      "displaySentence": "나도 갔더라면 좋았을 텐데..",
+      "tokens": [
+        [
+          "SNU-4A-09-021_card_0",
+          "나"
+        ],
+        [
+          "SNU-4A-09-021_card_1",
+          "도"
+        ],
+        [
+          "SNU-4A-09-021_card_2",
+          "갔더라면"
+        ],
+        [
+          "SNU-4A-09-021_card_3",
+          "좋았"
+        ],
+        [
+          "SNU-4A-09-021_card_4",
+          "을"
+        ],
+        [
+          "SNU-4A-09-021_card_5",
+          "텐데"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-021_card_0",
+          "SNU-4A-09-021_card_1",
+          "SNU-4A-09-021_card_2",
+          "SNU-4A-09-021_card_3",
+          "SNU-4A-09-021_card_4",
+          "SNU-4A-09-021_card_5"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-022",
+      "displaySentence": "공연은 어땠어요?",
+      "tokens": [
+        [
+          "SNU-4A-09-022_card_0",
+          "공연"
+        ],
+        [
+          "SNU-4A-09-022_card_1",
+          "은"
+        ],
+        [
+          "SNU-4A-09-022_card_2",
+          "어땠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-022_card_0",
+          "SNU-4A-09-022_card_1",
+          "SNU-4A-09-022_card_2"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    },
+    {
+      "id": "SNU-4A-09-023",
+      "displaySentence": "관객들이 모두 일어나서 다 같이 노래를 따라 불렀어요.",
+      "tokens": [
+        [
+          "SNU-4A-09-023_card_0",
+          "관객들"
+        ],
+        [
+          "SNU-4A-09-023_card_1",
+          "이"
+        ],
+        [
+          "SNU-4A-09-023_card_2",
+          "모두"
+        ],
+        [
+          "SNU-4A-09-023_card_3",
+          "일어나서"
+        ],
+        [
+          "SNU-4A-09-023_card_4",
+          "다"
+        ],
+        [
+          "SNU-4A-09-023_card_5",
+          "같이"
+        ],
+        [
+          "SNU-4A-09-023_card_6",
+          "노래"
+        ],
+        [
+          "SNU-4A-09-023_card_7",
+          "를"
+        ],
+        [
+          "SNU-4A-09-023_card_8",
+          "따라"
+        ],
+        [
+          "SNU-4A-09-023_card_9",
+          "불렀어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-4A-09-023_card_0",
+          "SNU-4A-09-023_card_1",
+          "SNU-4A-09-023_card_2",
+          "SNU-4A-09-023_card_3",
+          "SNU-4A-09-023_card_4",
+          "SNU-4A-09-023_card_5",
+          "SNU-4A-09-023_card_6",
+          "SNU-4A-09-023_card_7",
+          "SNU-4A-09-023_card_8",
+          "SNU-4A-09-023_card_9"
+        ]
+      ],
+      "note": "서울대 4A 9과 교재 기반"
+    }
+  ]
+}

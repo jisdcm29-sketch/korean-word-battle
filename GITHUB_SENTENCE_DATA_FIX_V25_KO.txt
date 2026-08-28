@@ -1,0 +1,15 @@
+문장 배틀 과별 데이터 GitHub 반영 수정 v25
+
+원인
+1) GitHub의 sentence-battle-sample/js/sentence-host.js가 샘플 6문장을 사용하는 구버전이었음.
+2) data/sentence/snu 아래 과별 JSON 69개가 GitHub에 없었음.
+3) 루트 js/platform.js도 과별 데이터 연결 전 버전이었음.
+
+필수 업로드
+- /index.html
+- /js/platform.js
+- /sentence-battle-sample/index.html
+- /sentence-battle-sample/js/sentence-host.js
+- /data/sentence/ 폴더 전체
+
+업로드 후 GitHub Pages에서 Ctrl+F5로 강력 새로고침.

@@ -1,0 +1,869 @@
+{
+  "book": "3A",
+  "lesson": 8,
+  "source": "서울대 한국어 3A 학생 읽기 자료 · 8과 어휘/문법/예문/말하기 기반",
+  "questionCount": 21,
+  "questions": [
+    {
+      "id": "SNU-3A-08-001",
+      "displaySentence": "늦게까지 자다가 학교에 지각했어요.",
+      "tokens": [
+        [
+          "SNU-3A-08-001_card_0",
+          "늦게"
+        ],
+        [
+          "SNU-3A-08-001_card_1",
+          "까지"
+        ],
+        [
+          "SNU-3A-08-001_card_2",
+          "자다"
+        ],
+        [
+          "SNU-3A-08-001_card_3",
+          "가"
+        ],
+        [
+          "SNU-3A-08-001_card_4",
+          "학교"
+        ],
+        [
+          "SNU-3A-08-001_card_5",
+          "에"
+        ],
+        [
+          "SNU-3A-08-001_card_6",
+          "지각했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-001_card_0",
+          "SNU-3A-08-001_card_1",
+          "SNU-3A-08-001_card_2",
+          "SNU-3A-08-001_card_3",
+          "SNU-3A-08-001_card_4",
+          "SNU-3A-08-001_card_5",
+          "SNU-3A-08-001_card_6"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-002",
+      "displaySentence": "딴생각을 하며 걷다가 하수구에 빠졌어요.",
+      "tokens": [
+        [
+          "SNU-3A-08-002_card_0",
+          "딴생각"
+        ],
+        [
+          "SNU-3A-08-002_card_1",
+          "을"
+        ],
+        [
+          "SNU-3A-08-002_card_2",
+          "하며"
+        ],
+        [
+          "SNU-3A-08-002_card_3",
+          "걷다"
+        ],
+        [
+          "SNU-3A-08-002_card_4",
+          "가"
+        ],
+        [
+          "SNU-3A-08-002_card_5",
+          "하수구"
+        ],
+        [
+          "SNU-3A-08-002_card_6",
+          "에"
+        ],
+        [
+          "SNU-3A-08-002_card_7",
+          "빠졌어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-002_card_0",
+          "SNU-3A-08-002_card_1",
+          "SNU-3A-08-002_card_2",
+          "SNU-3A-08-002_card_3",
+          "SNU-3A-08-002_card_4",
+          "SNU-3A-08-002_card_5",
+          "SNU-3A-08-002_card_6",
+          "SNU-3A-08-002_card_7"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-003",
+      "displaySentence": "음주 운전을 하다 사고가 났대요.",
+      "tokens": [
+        [
+          "SNU-3A-08-003_card_0",
+          "음주"
+        ],
+        [
+          "SNU-3A-08-003_card_1",
+          "운전"
+        ],
+        [
+          "SNU-3A-08-003_card_2",
+          "을"
+        ],
+        [
+          "SNU-3A-08-003_card_3",
+          "하다"
+        ],
+        [
+          "SNU-3A-08-003_card_4",
+          "사고"
+        ],
+        [
+          "SNU-3A-08-003_card_5",
+          "가"
+        ],
+        [
+          "SNU-3A-08-003_card_6",
+          "났대요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-003_card_0",
+          "SNU-3A-08-003_card_1",
+          "SNU-3A-08-003_card_2",
+          "SNU-3A-08-003_card_3",
+          "SNU-3A-08-003_card_4",
+          "SNU-3A-08-003_card_5",
+          "SNU-3A-08-003_card_6"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-004",
+      "displaySentence": "비가 정말 많이 오네요.",
+      "tokens": [
+        [
+          "SNU-3A-08-004_card_0",
+          "비"
+        ],
+        [
+          "SNU-3A-08-004_card_1",
+          "가"
+        ],
+        [
+          "SNU-3A-08-004_card_2",
+          "정말"
+        ],
+        [
+          "SNU-3A-08-004_card_3",
+          "많이"
+        ],
+        [
+          "SNU-3A-08-004_card_4",
+          "오네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-004_card_0",
+          "SNU-3A-08-004_card_1",
+          "SNU-3A-08-004_card_2",
+          "SNU-3A-08-004_card_3",
+          "SNU-3A-08-004_card_4"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-005",
+      "displaySentence": "비가 온다고요?",
+      "tokens": [
+        [
+          "SNU-3A-08-005_card_0",
+          "비"
+        ],
+        [
+          "SNU-3A-08-005_card_1",
+          "가"
+        ],
+        [
+          "SNU-3A-08-005_card_2",
+          "온다고요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-005_card_0",
+          "SNU-3A-08-005_card_1",
+          "SNU-3A-08-005_card_2"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-006",
+      "displaySentence": "우리 동네는 맑은데요.",
+      "tokens": [
+        [
+          "SNU-3A-08-006_card_0",
+          "우리"
+        ],
+        [
+          "SNU-3A-08-006_card_1",
+          "동네"
+        ],
+        [
+          "SNU-3A-08-006_card_2",
+          "는"
+        ],
+        [
+          "SNU-3A-08-006_card_3",
+          "맑은데요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-006_card_0",
+          "SNU-3A-08-006_card_1",
+          "SNU-3A-08-006_card_2",
+          "SNU-3A-08-006_card_3"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-007",
+      "displaySentence": "너무 바빠서 아직 점심도 못 먹었어요.",
+      "tokens": [
+        [
+          "SNU-3A-08-007_card_0",
+          "너무"
+        ],
+        [
+          "SNU-3A-08-007_card_1",
+          "바빠서"
+        ],
+        [
+          "SNU-3A-08-007_card_2",
+          "아직"
+        ],
+        [
+          "SNU-3A-08-007_card_3",
+          "점심"
+        ],
+        [
+          "SNU-3A-08-007_card_4",
+          "도"
+        ],
+        [
+          "SNU-3A-08-007_card_5",
+          "못"
+        ],
+        [
+          "SNU-3A-08-007_card_6",
+          "먹었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-007_card_0",
+          "SNU-3A-08-007_card_1",
+          "SNU-3A-08-007_card_2",
+          "SNU-3A-08-007_card_3",
+          "SNU-3A-08-007_card_4",
+          "SNU-3A-08-007_card_5",
+          "SNU-3A-08-007_card_6"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-008",
+      "displaySentence": "지금까지 점심을 못 먹었다고요?",
+      "tokens": [
+        [
+          "SNU-3A-08-008_card_0",
+          "지금"
+        ],
+        [
+          "SNU-3A-08-008_card_1",
+          "까지"
+        ],
+        [
+          "SNU-3A-08-008_card_2",
+          "점심"
+        ],
+        [
+          "SNU-3A-08-008_card_3",
+          "을"
+        ],
+        [
+          "SNU-3A-08-008_card_4",
+          "못"
+        ],
+        [
+          "SNU-3A-08-008_card_5",
+          "먹었다고요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-008_card_0",
+          "SNU-3A-08-008_card_1",
+          "SNU-3A-08-008_card_2",
+          "SNU-3A-08-008_card_3",
+          "SNU-3A-08-008_card_4",
+          "SNU-3A-08-008_card_5"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-009",
+      "displaySentence": "청바지가 얼마라고요?",
+      "tokens": [
+        [
+          "SNU-3A-08-009_card_0",
+          "청바지"
+        ],
+        [
+          "SNU-3A-08-009_card_1",
+          "가"
+        ],
+        [
+          "SNU-3A-08-009_card_2",
+          "얼마라고요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-009_card_0",
+          "SNU-3A-08-009_card_1",
+          "SNU-3A-08-009_card_2"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-010",
+      "displaySentence": "열이 나고 콧물도 나요.",
+      "tokens": [
+        [
+          "SNU-3A-08-010_card_0",
+          "열"
+        ],
+        [
+          "SNU-3A-08-010_card_1",
+          "이"
+        ],
+        [
+          "SNU-3A-08-010_card_2",
+          "나고"
+        ],
+        [
+          "SNU-3A-08-010_card_3",
+          "콧물"
+        ],
+        [
+          "SNU-3A-08-010_card_4",
+          "도"
+        ],
+        [
+          "SNU-3A-08-010_card_5",
+          "나요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-010_card_0",
+          "SNU-3A-08-010_card_1",
+          "SNU-3A-08-010_card_2",
+          "SNU-3A-08-010_card_3",
+          "SNU-3A-08-010_card_4",
+          "SNU-3A-08-010_card_5"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-011",
+      "displaySentence": "어디가 아프다고요?",
+      "tokens": [
+        [
+          "SNU-3A-08-011_card_0",
+          "어디"
+        ],
+        [
+          "SNU-3A-08-011_card_1",
+          "가"
+        ],
+        [
+          "SNU-3A-08-011_card_2",
+          "아프다고요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-011_card_0",
+          "SNU-3A-08-011_card_1",
+          "SNU-3A-08-011_card_2"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-012",
+      "displaySentence": "저는 아무리 피곤해도 운동을 꼭 하고 자요.",
+      "tokens": [
+        [
+          "SNU-3A-08-012_card_0",
+          "저"
+        ],
+        [
+          "SNU-3A-08-012_card_1",
+          "는"
+        ],
+        [
+          "SNU-3A-08-012_card_2",
+          "아무리"
+        ],
+        [
+          "SNU-3A-08-012_card_3",
+          "피곤해도"
+        ],
+        [
+          "SNU-3A-08-012_card_4",
+          "운동"
+        ],
+        [
+          "SNU-3A-08-012_card_5",
+          "을"
+        ],
+        [
+          "SNU-3A-08-012_card_6",
+          "꼭"
+        ],
+        [
+          "SNU-3A-08-012_card_7",
+          "하고"
+        ],
+        [
+          "SNU-3A-08-012_card_8",
+          "자요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-012_card_0",
+          "SNU-3A-08-012_card_1",
+          "SNU-3A-08-012_card_2",
+          "SNU-3A-08-012_card_3",
+          "SNU-3A-08-012_card_4",
+          "SNU-3A-08-012_card_5",
+          "SNU-3A-08-012_card_6",
+          "SNU-3A-08-012_card_7",
+          "SNU-3A-08-012_card_8"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-013",
+      "displaySentence": "아무리 힘들어도 열심히 공부해서 꼭 장학금을 탈 거예요.",
+      "tokens": [
+        [
+          "SNU-3A-08-013_card_0",
+          "아무리"
+        ],
+        [
+          "SNU-3A-08-013_card_1",
+          "힘들어도"
+        ],
+        [
+          "SNU-3A-08-013_card_2",
+          "열심히"
+        ],
+        [
+          "SNU-3A-08-013_card_3",
+          "공부해서"
+        ],
+        [
+          "SNU-3A-08-013_card_4",
+          "꼭"
+        ],
+        [
+          "SNU-3A-08-013_card_5",
+          "장학금"
+        ],
+        [
+          "SNU-3A-08-013_card_6",
+          "을"
+        ],
+        [
+          "SNU-3A-08-013_card_7",
+          "탈"
+        ],
+        [
+          "SNU-3A-08-013_card_8",
+          "거"
+        ],
+        [
+          "SNU-3A-08-013_card_9",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-013_card_0",
+          "SNU-3A-08-013_card_1",
+          "SNU-3A-08-013_card_2",
+          "SNU-3A-08-013_card_3",
+          "SNU-3A-08-013_card_4",
+          "SNU-3A-08-013_card_5",
+          "SNU-3A-08-013_card_6",
+          "SNU-3A-08-013_card_7",
+          "SNU-3A-08-013_card_8",
+          "SNU-3A-08-013_card_9"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-014",
+      "displaySentence": "아무리 생각해도 지갑을 어디에서 잃어버렸는지 모르겠어요.",
+      "tokens": [
+        [
+          "SNU-3A-08-014_card_0",
+          "아무리"
+        ],
+        [
+          "SNU-3A-08-014_card_1",
+          "생각해도"
+        ],
+        [
+          "SNU-3A-08-014_card_2",
+          "지갑"
+        ],
+        [
+          "SNU-3A-08-014_card_3",
+          "을"
+        ],
+        [
+          "SNU-3A-08-014_card_4",
+          "어디"
+        ],
+        [
+          "SNU-3A-08-014_card_5",
+          "에서"
+        ],
+        [
+          "SNU-3A-08-014_card_6",
+          "잃어버렸는지"
+        ],
+        [
+          "SNU-3A-08-014_card_7",
+          "모르겠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-014_card_0",
+          "SNU-3A-08-014_card_1",
+          "SNU-3A-08-014_card_2",
+          "SNU-3A-08-014_card_3",
+          "SNU-3A-08-014_card_4",
+          "SNU-3A-08-014_card_5",
+          "SNU-3A-08-014_card_6",
+          "SNU-3A-08-014_card_7"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-015",
+      "displaySentence": "이 책이 너무 어려워서 아무리 읽어도 모르겠어요.",
+      "tokens": [
+        [
+          "SNU-3A-08-015_card_0",
+          "이"
+        ],
+        [
+          "SNU-3A-08-015_card_1",
+          "책"
+        ],
+        [
+          "SNU-3A-08-015_card_2",
+          "이"
+        ],
+        [
+          "SNU-3A-08-015_card_3",
+          "너무"
+        ],
+        [
+          "SNU-3A-08-015_card_4",
+          "어려워서"
+        ],
+        [
+          "SNU-3A-08-015_card_5",
+          "아무리"
+        ],
+        [
+          "SNU-3A-08-015_card_6",
+          "읽어도"
+        ],
+        [
+          "SNU-3A-08-015_card_7",
+          "모르겠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-015_card_0",
+          "SNU-3A-08-015_card_1",
+          "SNU-3A-08-015_card_2",
+          "SNU-3A-08-015_card_3",
+          "SNU-3A-08-015_card_4",
+          "SNU-3A-08-015_card_5",
+          "SNU-3A-08-015_card_6",
+          "SNU-3A-08-015_card_7"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-016",
+      "displaySentence": "내일 체육 대회지요?",
+      "tokens": [
+        [
+          "SNU-3A-08-016_card_0",
+          "내일"
+        ],
+        [
+          "SNU-3A-08-016_card_1",
+          "체육"
+        ],
+        [
+          "SNU-3A-08-016_card_2",
+          "대회지요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-016_card_0",
+          "SNU-3A-08-016_card_1",
+          "SNU-3A-08-016_card_2"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-017",
+      "displaySentence": "날씨가 좋아야 할 텐데.",
+      "tokens": [
+        [
+          "SNU-3A-08-017_card_0",
+          "날씨"
+        ],
+        [
+          "SNU-3A-08-017_card_1",
+          "가"
+        ],
+        [
+          "SNU-3A-08-017_card_2",
+          "좋아야"
+        ],
+        [
+          "SNU-3A-08-017_card_3",
+          "할"
+        ],
+        [
+          "SNU-3A-08-017_card_4",
+          "텐데"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-017_card_0",
+          "SNU-3A-08-017_card_1",
+          "SNU-3A-08-017_card_2",
+          "SNU-3A-08-017_card_3",
+          "SNU-3A-08-017_card_4"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-018",
+      "displaySentence": "주말에 축구 보러 갈 거지?",
+      "tokens": [
+        [
+          "SNU-3A-08-018_card_0",
+          "주말"
+        ],
+        [
+          "SNU-3A-08-018_card_1",
+          "에"
+        ],
+        [
+          "SNU-3A-08-018_card_2",
+          "축구"
+        ],
+        [
+          "SNU-3A-08-018_card_3",
+          "보러"
+        ],
+        [
+          "SNU-3A-08-018_card_4",
+          "갈"
+        ],
+        [
+          "SNU-3A-08-018_card_5",
+          "거지"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-018_card_0",
+          "SNU-3A-08-018_card_1",
+          "SNU-3A-08-018_card_2",
+          "SNU-3A-08-018_card_3",
+          "SNU-3A-08-018_card_4",
+          "SNU-3A-08-018_card_5"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-019",
+      "displaySentence": "우리 팀이 꼭 이겨야 할 텐데.",
+      "tokens": [
+        [
+          "SNU-3A-08-019_card_0",
+          "우리"
+        ],
+        [
+          "SNU-3A-08-019_card_1",
+          "팀"
+        ],
+        [
+          "SNU-3A-08-019_card_2",
+          "이"
+        ],
+        [
+          "SNU-3A-08-019_card_3",
+          "꼭"
+        ],
+        [
+          "SNU-3A-08-019_card_4",
+          "이겨야"
+        ],
+        [
+          "SNU-3A-08-019_card_5",
+          "할"
+        ],
+        [
+          "SNU-3A-08-019_card_6",
+          "텐데"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-019_card_0",
+          "SNU-3A-08-019_card_1",
+          "SNU-3A-08-019_card_2",
+          "SNU-3A-08-019_card_3",
+          "SNU-3A-08-019_card_4",
+          "SNU-3A-08-019_card_5",
+          "SNU-3A-08-019_card_6"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-020",
+      "displaySentence": "인나 씨가 다음 학기 장학금을 신청했대요.",
+      "tokens": [
+        [
+          "SNU-3A-08-020_card_0",
+          "인나 씨"
+        ],
+        [
+          "SNU-3A-08-020_card_1",
+          "가"
+        ],
+        [
+          "SNU-3A-08-020_card_2",
+          "다음"
+        ],
+        [
+          "SNU-3A-08-020_card_3",
+          "학기"
+        ],
+        [
+          "SNU-3A-08-020_card_4",
+          "장학금"
+        ],
+        [
+          "SNU-3A-08-020_card_5",
+          "을"
+        ],
+        [
+          "SNU-3A-08-020_card_6",
+          "신청했대요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-020_card_0",
+          "SNU-3A-08-020_card_1",
+          "SNU-3A-08-020_card_2",
+          "SNU-3A-08-020_card_3",
+          "SNU-3A-08-020_card_4",
+          "SNU-3A-08-020_card_5",
+          "SNU-3A-08-020_card_6"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-3A-08-021",
+      "displaySentence": "꼭 받아야 할 텐데요.",
+      "tokens": [
+        [
+          "SNU-3A-08-021_card_0",
+          "꼭"
+        ],
+        [
+          "SNU-3A-08-021_card_1",
+          "받아야"
+        ],
+        [
+          "SNU-3A-08-021_card_2",
+          "할"
+        ],
+        [
+          "SNU-3A-08-021_card_3",
+          "텐데요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-3A-08-021_card_0",
+          "SNU-3A-08-021_card_1",
+          "SNU-3A-08-021_card_2",
+          "SNU-3A-08-021_card_3"
+        ]
+      ],
+      "note": "서울대 3A 8과 교재 기반"
+    }
+  ]
+}

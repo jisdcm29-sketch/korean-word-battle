@@ -1,0 +1,762 @@
+{
+  "book": "1A",
+  "lesson": 8,
+  "source": "서울대 한국어 1A 학생 읽기 자료 · 8과 어휘/문법/예문/말하기 기반",
+  "questionCount": 24,
+  "questions": [
+    {
+      "id": "SNU-1A-08-001",
+      "displaySentence": "주말에 같이 영화 볼까요?",
+      "tokens": [
+        [
+          "SNU-1A-08-001_card_0",
+          "주말"
+        ],
+        [
+          "SNU-1A-08-001_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-08-001_card_2",
+          "같이"
+        ],
+        [
+          "SNU-1A-08-001_card_3",
+          "영화"
+        ],
+        [
+          "SNU-1A-08-001_card_4",
+          "볼까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-001_card_0",
+          "SNU-1A-08-001_card_1",
+          "SNU-1A-08-001_card_2",
+          "SNU-1A-08-001_card_3",
+          "SNU-1A-08-001_card_4"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-002",
+      "displaySentence": "노래방에 갈까요?",
+      "tokens": [
+        [
+          "SNU-1A-08-002_card_0",
+          "노래방"
+        ],
+        [
+          "SNU-1A-08-002_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-08-002_card_2",
+          "갈까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-002_card_0",
+          "SNU-1A-08-002_card_1",
+          "SNU-1A-08-002_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-003",
+      "displaySentence": "네, 같이 가요.",
+      "tokens": [
+        [
+          "SNU-1A-08-003_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-08-003_card_1",
+          "같이"
+        ],
+        [
+          "SNU-1A-08-003_card_2",
+          "가요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-003_card_0",
+          "SNU-1A-08-003_card_1",
+          "SNU-1A-08-003_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-004",
+      "displaySentence": "여기에 앉을까요?",
+      "tokens": [
+        [
+          "SNU-1A-08-004_card_0",
+          "여기"
+        ],
+        [
+          "SNU-1A-08-004_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-08-004_card_2",
+          "앉을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-004_card_0",
+          "SNU-1A-08-004_card_1",
+          "SNU-1A-08-004_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-005",
+      "displaySentence": "내일은 누굴 만날까요?",
+      "tokens": [
+        [
+          "SNU-1A-08-005_card_0",
+          "내일"
+        ],
+        [
+          "SNU-1A-08-005_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-08-005_card_2",
+          "누굴"
+        ],
+        [
+          "SNU-1A-08-005_card_3",
+          "만날까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-005_card_0",
+          "SNU-1A-08-005_card_1",
+          "SNU-1A-08-005_card_2",
+          "SNU-1A-08-005_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-006",
+      "displaySentence": "우리 나나를 만나요.",
+      "tokens": [
+        [
+          "SNU-1A-08-006_card_0",
+          "우리"
+        ],
+        [
+          "SNU-1A-08-006_card_1",
+          "나나"
+        ],
+        [
+          "SNU-1A-08-006_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-08-006_card_3",
+          "만나요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-006_card_0",
+          "SNU-1A-08-006_card_1",
+          "SNU-1A-08-006_card_2",
+          "SNU-1A-08-006_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-007",
+      "displaySentence": "비빔밥을 먹어요.",
+      "tokens": [
+        [
+          "SNU-1A-08-007_card_0",
+          "비빔밥"
+        ],
+        [
+          "SNU-1A-08-007_card_1",
+          "을"
+        ],
+        [
+          "SNU-1A-08-007_card_2",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-007_card_0",
+          "SNU-1A-08-007_card_1",
+          "SNU-1A-08-007_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-008",
+      "displaySentence": "우리 같이 걸을까요?",
+      "tokens": [
+        [
+          "SNU-1A-08-008_card_0",
+          "우리"
+        ],
+        [
+          "SNU-1A-08-008_card_1",
+          "같이"
+        ],
+        [
+          "SNU-1A-08-008_card_2",
+          "걸을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-008_card_0",
+          "SNU-1A-08-008_card_1",
+          "SNU-1A-08-008_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-009",
+      "displaySentence": "어제 뭘 했어요?",
+      "tokens": [
+        [
+          "SNU-1A-08-009_card_0",
+          "어제"
+        ],
+        [
+          "SNU-1A-08-009_card_1",
+          "뭘"
+        ],
+        [
+          "SNU-1A-08-009_card_2",
+          "했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-009_card_0",
+          "SNU-1A-08-009_card_1",
+          "SNU-1A-08-009_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-010",
+      "displaySentence": "공원에서 걸었어요.",
+      "tokens": [
+        [
+          "SNU-1A-08-010_card_0",
+          "공원"
+        ],
+        [
+          "SNU-1A-08-010_card_1",
+          "에서"
+        ],
+        [
+          "SNU-1A-08-010_card_2",
+          "걸었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-010_card_0",
+          "SNU-1A-08-010_card_1",
+          "SNU-1A-08-010_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-011",
+      "displaySentence": "우리 버스를 탈까요?",
+      "tokens": [
+        [
+          "SNU-1A-08-011_card_0",
+          "우리"
+        ],
+        [
+          "SNU-1A-08-011_card_1",
+          "버스"
+        ],
+        [
+          "SNU-1A-08-011_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-08-011_card_3",
+          "탈까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-011_card_0",
+          "SNU-1A-08-011_card_1",
+          "SNU-1A-08-011_card_2",
+          "SNU-1A-08-011_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-012",
+      "displaySentence": "아니요, 걸어서 가요.",
+      "tokens": [
+        [
+          "SNU-1A-08-012_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-08-012_card_1",
+          "걸어서"
+        ],
+        [
+          "SNU-1A-08-012_card_2",
+          "가요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-012_card_0",
+          "SNU-1A-08-012_card_1",
+          "SNU-1A-08-012_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-013",
+      "displaySentence": "한국 음악은 듣지만 한국 뉴스는 안 들어요.",
+      "tokens": [
+        [
+          "SNU-1A-08-013_card_0",
+          "한국"
+        ],
+        [
+          "SNU-1A-08-013_card_1",
+          "음악"
+        ],
+        [
+          "SNU-1A-08-013_card_2",
+          "은"
+        ],
+        [
+          "SNU-1A-08-013_card_3",
+          "듣지만"
+        ],
+        [
+          "SNU-1A-08-013_card_4",
+          "한국"
+        ],
+        [
+          "SNU-1A-08-013_card_5",
+          "뉴스"
+        ],
+        [
+          "SNU-1A-08-013_card_6",
+          "는"
+        ],
+        [
+          "SNU-1A-08-013_card_7",
+          "안"
+        ],
+        [
+          "SNU-1A-08-013_card_8",
+          "들어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-013_card_0",
+          "SNU-1A-08-013_card_1",
+          "SNU-1A-08-013_card_2",
+          "SNU-1A-08-013_card_3",
+          "SNU-1A-08-013_card_4",
+          "SNU-1A-08-013_card_5",
+          "SNU-1A-08-013_card_6",
+          "SNU-1A-08-013_card_7",
+          "SNU-1A-08-013_card_8"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-014",
+      "displaySentence": "라디오를 잘 들으세요.",
+      "tokens": [
+        [
+          "SNU-1A-08-014_card_0",
+          "라디오"
+        ],
+        [
+          "SNU-1A-08-014_card_1",
+          "를"
+        ],
+        [
+          "SNU-1A-08-014_card_2",
+          "잘"
+        ],
+        [
+          "SNU-1A-08-014_card_3",
+          "들으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-014_card_0",
+          "SNU-1A-08-014_card_1",
+          "SNU-1A-08-014_card_2",
+          "SNU-1A-08-014_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-015",
+      "displaySentence": "무슨 영화를 볼까요?",
+      "tokens": [
+        [
+          "SNU-1A-08-015_card_0",
+          "무슨"
+        ],
+        [
+          "SNU-1A-08-015_card_1",
+          "영화"
+        ],
+        [
+          "SNU-1A-08-015_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-08-015_card_3",
+          "볼까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-015_card_0",
+          "SNU-1A-08-015_card_1",
+          "SNU-1A-08-015_card_2",
+          "SNU-1A-08-015_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-016",
+      "displaySentence": "이 영화를 봐요.",
+      "tokens": [
+        [
+          "SNU-1A-08-016_card_0",
+          "이"
+        ],
+        [
+          "SNU-1A-08-016_card_1",
+          "영화"
+        ],
+        [
+          "SNU-1A-08-016_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-08-016_card_3",
+          "봐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-016_card_0",
+          "SNU-1A-08-016_card_1",
+          "SNU-1A-08-016_card_2",
+          "SNU-1A-08-016_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-017",
+      "displaySentence": "이 가방 얼마예요?",
+      "tokens": [
+        [
+          "SNU-1A-08-017_card_0",
+          "이"
+        ],
+        [
+          "SNU-1A-08-017_card_1",
+          "가방"
+        ],
+        [
+          "SNU-1A-08-017_card_2",
+          "얼마"
+        ],
+        [
+          "SNU-1A-08-017_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-017_card_0",
+          "SNU-1A-08-017_card_1",
+          "SNU-1A-08-017_card_2",
+          "SNU-1A-08-017_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-018",
+      "displaySentence": "그 가방은 3만원이에요.",
+      "tokens": [
+        [
+          "SNU-1A-08-018_card_0",
+          "그"
+        ],
+        [
+          "SNU-1A-08-018_card_1",
+          "가방"
+        ],
+        [
+          "SNU-1A-08-018_card_2",
+          "은"
+        ],
+        [
+          "SNU-1A-08-018_card_3",
+          "3만원"
+        ],
+        [
+          "SNU-1A-08-018_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-018_card_0",
+          "SNU-1A-08-018_card_1",
+          "SNU-1A-08-018_card_2",
+          "SNU-1A-08-018_card_3",
+          "SNU-1A-08-018_card_4"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-019",
+      "displaySentence": "저 사람은 한국 가수예요.",
+      "tokens": [
+        [
+          "SNU-1A-08-019_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-08-019_card_1",
+          "사람"
+        ],
+        [
+          "SNU-1A-08-019_card_2",
+          "은"
+        ],
+        [
+          "SNU-1A-08-019_card_3",
+          "한국"
+        ],
+        [
+          "SNU-1A-08-019_card_4",
+          "가수"
+        ],
+        [
+          "SNU-1A-08-019_card_5",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-019_card_0",
+          "SNU-1A-08-019_card_1",
+          "SNU-1A-08-019_card_2",
+          "SNU-1A-08-019_card_3",
+          "SNU-1A-08-019_card_4",
+          "SNU-1A-08-019_card_5"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-020",
+      "displaySentence": "이 식당 음식이 맛있어요.",
+      "tokens": [
+        [
+          "SNU-1A-08-020_card_0",
+          "이"
+        ],
+        [
+          "SNU-1A-08-020_card_1",
+          "식당"
+        ],
+        [
+          "SNU-1A-08-020_card_2",
+          "음식"
+        ],
+        [
+          "SNU-1A-08-020_card_3",
+          "이"
+        ],
+        [
+          "SNU-1A-08-020_card_4",
+          "맛있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-020_card_0",
+          "SNU-1A-08-020_card_1",
+          "SNU-1A-08-020_card_2",
+          "SNU-1A-08-020_card_3",
+          "SNU-1A-08-020_card_4"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-021",
+      "displaySentence": "여기가 명동이에요.",
+      "tokens": [
+        [
+          "SNU-1A-08-021_card_0",
+          "여기"
+        ],
+        [
+          "SNU-1A-08-021_card_1",
+          "가"
+        ],
+        [
+          "SNU-1A-08-021_card_2",
+          "명동"
+        ],
+        [
+          "SNU-1A-08-021_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-021_card_0",
+          "SNU-1A-08-021_card_1",
+          "SNU-1A-08-021_card_2",
+          "SNU-1A-08-021_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-022",
+      "displaySentence": "와, 사람이 정말 많네요.",
+      "tokens": [
+        [
+          "SNU-1A-08-022_card_0",
+          "와"
+        ],
+        [
+          "SNU-1A-08-022_card_1",
+          "사람"
+        ],
+        [
+          "SNU-1A-08-022_card_2",
+          "이"
+        ],
+        [
+          "SNU-1A-08-022_card_3",
+          "정말"
+        ],
+        [
+          "SNU-1A-08-022_card_4",
+          "많네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-022_card_0",
+          "SNU-1A-08-022_card_1",
+          "SNU-1A-08-022_card_2",
+          "SNU-1A-08-022_card_3",
+          "SNU-1A-08-022_card_4"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-023",
+      "displaySentence": "모자가 정말 싸네요.",
+      "tokens": [
+        [
+          "SNU-1A-08-023_card_0",
+          "모자"
+        ],
+        [
+          "SNU-1A-08-023_card_1",
+          "가"
+        ],
+        [
+          "SNU-1A-08-023_card_2",
+          "정말"
+        ],
+        [
+          "SNU-1A-08-023_card_3",
+          "싸네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-023_card_0",
+          "SNU-1A-08-023_card_1",
+          "SNU-1A-08-023_card_2",
+          "SNU-1A-08-023_card_3"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-08-024",
+      "displaySentence": "네, 조금 덥네요.",
+      "tokens": [
+        [
+          "SNU-1A-08-024_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-08-024_card_1",
+          "조금"
+        ],
+        [
+          "SNU-1A-08-024_card_2",
+          "덥네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-08-024_card_0",
+          "SNU-1A-08-024_card_1",
+          "SNU-1A-08-024_card_2"
+        ]
+      ],
+      "note": "서울대 1A 8과 교재 기반"
+    }
+  ]
+}

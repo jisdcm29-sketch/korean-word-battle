@@ -4,6 +4,10 @@ const $=id=>document.getElementById(id);
 const els={gameGrid:$('gameGrid'),source:$('platformSource'),book:$('platformBook'),lesson:$('platformLesson'),bookField:$('platformBookField'),lessonField:$('platformLessonField'),guide:$('selectionGuide'),summary:$('selectionSummary'),launchTitle:$('launchTitle'),launchBtn:$('launchBtn')};
 let selectedGame='word';
 
+const SENTENCE_LESSON_OVERRIDES={
+  '4B':[10,11,12,13,14,15,16]
+};
+
 const SOURCES={
   word:[
     {id:'preliminary',label:'예비편 어휘 40 · 자모음 학습'},
@@ -25,7 +29,10 @@ function fillBooks(){
 }
 function fillLessons(){
   const book=CATALOG.snuBooks.find(b=>b.id===els.book.value)||CATALOG.snuBooks[0];
-  els.lesson.innerHTML=book.lessons.map(n=>`<option value="${n}">${n}과</option>`).join('');
+  const lessons=(selectedGame==='sentence'&&SENTENCE_LESSON_OVERRIDES[book.id])?SENTENCE_LESSON_OVERRIDES[book.id]:book.lessons;
+  const keep=Number(els.lesson.value);
+  els.lesson.innerHTML=lessons.map(n=>`<option value="${n}">${n}과</option>`).join('');
+  if(lessons.includes(keep))els.lesson.value=String(keep);
 }
 function render(){
   const source=els.source.value||'snu';
@@ -40,13 +47,14 @@ function render(){
   if(source==='snu')detail=`서울대 ${els.book.value} · ${els.lesson.value}과`;
   else if(source==='preliminary')detail='예비편 어휘 40';
   else detail='TOPIK 1 연어 표현';
-  const note=selectedGame==='sentence'?' <span class="sample-warn">현재 문장 배틀은 기능 샘플 문장으로 연결되며, 실제 교재 문장 데이터는 다음 단계에서 과별로 연결합니다.</span>':'';
+  const note=selectedGame==='sentence'?' <span class="sample-warn">선택한 과의 어휘·문법·예문을 바탕으로 만든 문장 배틀 데이터가 자동으로 연결됩니다.</span>':'';
   els.summary.innerHTML=`선택: <b>${gameName}</b> · <b>${detail}</b>${note}`;
 }
 function chooseGame(game){
   if(game==='speed')return;
   selectedGame=game;
   fillSources();
+  fillLessons();
   render();
 }
 function launch(){

@@ -1,0 +1,611 @@
+{
+  "book": "1A",
+  "lesson": 3,
+  "source": "서울대 한국어 1A 학생 읽기 자료 · 3과 어휘/문법/예문/말하기 기반",
+  "questionCount": 18,
+  "questions": [
+    {
+      "id": "SNU-1A-03-001",
+      "displaySentence": "스티븐은 지금 자요.",
+      "tokens": [
+        [
+          "SNU-1A-03-001_card_0",
+          "스티븐"
+        ],
+        [
+          "SNU-1A-03-001_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-03-001_card_2",
+          "지금"
+        ],
+        [
+          "SNU-1A-03-001_card_3",
+          "자요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-001_card_0",
+          "SNU-1A-03-001_card_1",
+          "SNU-1A-03-001_card_2",
+          "SNU-1A-03-001_card_3"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-002",
+      "displaySentence": "지금 뭐 해요?",
+      "tokens": [
+        [
+          "SNU-1A-03-002_card_0",
+          "지금"
+        ],
+        [
+          "SNU-1A-03-002_card_1",
+          "뭐"
+        ],
+        [
+          "SNU-1A-03-002_card_2",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-002_card_0",
+          "SNU-1A-03-002_card_1",
+          "SNU-1A-03-002_card_2"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-003",
+      "displaySentence": "한국어를 공부해요.",
+      "tokens": [
+        [
+          "SNU-1A-03-003_card_0",
+          "한국어"
+        ],
+        [
+          "SNU-1A-03-003_card_1",
+          "를"
+        ],
+        [
+          "SNU-1A-03-003_card_2",
+          "공부해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-003_card_0",
+          "SNU-1A-03-003_card_1",
+          "SNU-1A-03-003_card_2"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-004",
+      "displaySentence": "저는 커피를 마셔요.",
+      "tokens": [
+        [
+          "SNU-1A-03-004_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-03-004_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-03-004_card_2",
+          "커피"
+        ],
+        [
+          "SNU-1A-03-004_card_3",
+          "를"
+        ],
+        [
+          "SNU-1A-03-004_card_4",
+          "마셔요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-004_card_0",
+          "SNU-1A-03-004_card_1",
+          "SNU-1A-03-004_card_2",
+          "SNU-1A-03-004_card_3",
+          "SNU-1A-03-004_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-005",
+      "displaySentence": "스티븐은 책을 읽어요.",
+      "tokens": [
+        [
+          "SNU-1A-03-005_card_0",
+          "스티븐"
+        ],
+        [
+          "SNU-1A-03-005_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-03-005_card_2",
+          "책"
+        ],
+        [
+          "SNU-1A-03-005_card_3",
+          "을"
+        ],
+        [
+          "SNU-1A-03-005_card_4",
+          "읽어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-005_card_0",
+          "SNU-1A-03-005_card_1",
+          "SNU-1A-03-005_card_2",
+          "SNU-1A-03-005_card_3",
+          "SNU-1A-03-005_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-006",
+      "displaySentence": "어디에서 밥을 먹어요?",
+      "tokens": [
+        [
+          "SNU-1A-03-006_card_0",
+          "어디"
+        ],
+        [
+          "SNU-1A-03-006_card_1",
+          "에서"
+        ],
+        [
+          "SNU-1A-03-006_card_2",
+          "밥"
+        ],
+        [
+          "SNU-1A-03-006_card_3",
+          "을"
+        ],
+        [
+          "SNU-1A-03-006_card_4",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-006_card_0",
+          "SNU-1A-03-006_card_1",
+          "SNU-1A-03-006_card_2",
+          "SNU-1A-03-006_card_3",
+          "SNU-1A-03-006_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-007",
+      "displaySentence": "학생 식당에서 밥을 먹어요.",
+      "tokens": [
+        [
+          "SNU-1A-03-007_card_0",
+          "학생"
+        ],
+        [
+          "SNU-1A-03-007_card_1",
+          "식당"
+        ],
+        [
+          "SNU-1A-03-007_card_2",
+          "에서"
+        ],
+        [
+          "SNU-1A-03-007_card_3",
+          "밥"
+        ],
+        [
+          "SNU-1A-03-007_card_4",
+          "을"
+        ],
+        [
+          "SNU-1A-03-007_card_5",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-007_card_0",
+          "SNU-1A-03-007_card_1",
+          "SNU-1A-03-007_card_2",
+          "SNU-1A-03-007_card_3",
+          "SNU-1A-03-007_card_4",
+          "SNU-1A-03-007_card_5"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-008",
+      "displaySentence": "서울대학교에서 한국어를 공부해요.",
+      "tokens": [
+        [
+          "SNU-1A-03-008_card_0",
+          "서울대학교"
+        ],
+        [
+          "SNU-1A-03-008_card_1",
+          "에서"
+        ],
+        [
+          "SNU-1A-03-008_card_2",
+          "한국어"
+        ],
+        [
+          "SNU-1A-03-008_card_3",
+          "를"
+        ],
+        [
+          "SNU-1A-03-008_card_4",
+          "공부해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-008_card_0",
+          "SNU-1A-03-008_card_1",
+          "SNU-1A-03-008_card_2",
+          "SNU-1A-03-008_card_3",
+          "SNU-1A-03-008_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-009",
+      "displaySentence": "극장에서 영화를 봐요.",
+      "tokens": [
+        [
+          "SNU-1A-03-009_card_0",
+          "극장"
+        ],
+        [
+          "SNU-1A-03-009_card_1",
+          "에서"
+        ],
+        [
+          "SNU-1A-03-009_card_2",
+          "영화"
+        ],
+        [
+          "SNU-1A-03-009_card_3",
+          "를"
+        ],
+        [
+          "SNU-1A-03-009_card_4",
+          "봐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-009_card_0",
+          "SNU-1A-03-009_card_1",
+          "SNU-1A-03-009_card_2",
+          "SNU-1A-03-009_card_3",
+          "SNU-1A-03-009_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-010",
+      "displaySentence": "아니요, 안 자요.",
+      "tokens": [
+        [
+          "SNU-1A-03-010_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-03-010_card_1",
+          "안"
+        ],
+        [
+          "SNU-1A-03-010_card_2",
+          "자요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-010_card_0",
+          "SNU-1A-03-010_card_1",
+          "SNU-1A-03-010_card_2"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-011",
+      "displaySentence": "친구를 안 만나요.",
+      "tokens": [
+        [
+          "SNU-1A-03-011_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1A-03-011_card_1",
+          "를"
+        ],
+        [
+          "SNU-1A-03-011_card_2",
+          "안"
+        ],
+        [
+          "SNU-1A-03-011_card_3",
+          "만나요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-011_card_0",
+          "SNU-1A-03-011_card_1",
+          "SNU-1A-03-011_card_2",
+          "SNU-1A-03-011_card_3"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-012",
+      "displaySentence": "히엔 씨는 고기를 안 먹어요.",
+      "tokens": [
+        [
+          "SNU-1A-03-012_card_0",
+          "히엔 씨"
+        ],
+        [
+          "SNU-1A-03-012_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-03-012_card_2",
+          "고기"
+        ],
+        [
+          "SNU-1A-03-012_card_3",
+          "를"
+        ],
+        [
+          "SNU-1A-03-012_card_4",
+          "안"
+        ],
+        [
+          "SNU-1A-03-012_card_5",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-012_card_0",
+          "SNU-1A-03-012_card_1",
+          "SNU-1A-03-012_card_2",
+          "SNU-1A-03-012_card_3",
+          "SNU-1A-03-012_card_4",
+          "SNU-1A-03-012_card_5"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-013",
+      "displaySentence": "아니요, 공부 안 해요.",
+      "tokens": [
+        [
+          "SNU-1A-03-013_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-03-013_card_1",
+          "공부"
+        ],
+        [
+          "SNU-1A-03-013_card_2",
+          "안"
+        ],
+        [
+          "SNU-1A-03-013_card_3",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-013_card_0",
+          "SNU-1A-03-013_card_1",
+          "SNU-1A-03-013_card_2",
+          "SNU-1A-03-013_card_3"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-014",
+      "displaySentence": "스티븐 씨, 지금 뭐 해요?",
+      "tokens": [
+        [
+          "SNU-1A-03-014_card_0",
+          "스티븐"
+        ],
+        [
+          "SNU-1A-03-014_card_1",
+          "씨"
+        ],
+        [
+          "SNU-1A-03-014_card_2",
+          "지금"
+        ],
+        [
+          "SNU-1A-03-014_card_3",
+          "뭐"
+        ],
+        [
+          "SNU-1A-03-014_card_4",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-014_card_0",
+          "SNU-1A-03-014_card_1",
+          "SNU-1A-03-014_card_2",
+          "SNU-1A-03-014_card_3",
+          "SNU-1A-03-014_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-015",
+      "displaySentence": "마리코 씨는 뭐 해요?",
+      "tokens": [
+        [
+          "SNU-1A-03-015_card_0",
+          "마리코 씨"
+        ],
+        [
+          "SNU-1A-03-015_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-03-015_card_2",
+          "뭐"
+        ],
+        [
+          "SNU-1A-03-015_card_3",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-015_card_0",
+          "SNU-1A-03-015_card_1",
+          "SNU-1A-03-015_card_2",
+          "SNU-1A-03-015_card_3"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-016",
+      "displaySentence": "저는 책을 읽어요.",
+      "tokens": [
+        [
+          "SNU-1A-03-016_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-03-016_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-03-016_card_2",
+          "책"
+        ],
+        [
+          "SNU-1A-03-016_card_3",
+          "을"
+        ],
+        [
+          "SNU-1A-03-016_card_4",
+          "읽어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-016_card_0",
+          "SNU-1A-03-016_card_1",
+          "SNU-1A-03-016_card_2",
+          "SNU-1A-03-016_card_3",
+          "SNU-1A-03-016_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-017",
+      "displaySentence": "한국어 책을 읽어요?",
+      "tokens": [
+        [
+          "SNU-1A-03-017_card_0",
+          "한국어"
+        ],
+        [
+          "SNU-1A-03-017_card_1",
+          "책"
+        ],
+        [
+          "SNU-1A-03-017_card_2",
+          "을"
+        ],
+        [
+          "SNU-1A-03-017_card_3",
+          "읽어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-017_card_0",
+          "SNU-1A-03-017_card_1",
+          "SNU-1A-03-017_card_2",
+          "SNU-1A-03-017_card_3"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-03-018",
+      "displaySentence": "아니요, 일본어 책을 읽어요.",
+      "tokens": [
+        [
+          "SNU-1A-03-018_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-03-018_card_1",
+          "일본어"
+        ],
+        [
+          "SNU-1A-03-018_card_2",
+          "책"
+        ],
+        [
+          "SNU-1A-03-018_card_3",
+          "을"
+        ],
+        [
+          "SNU-1A-03-018_card_4",
+          "읽어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-03-018_card_0",
+          "SNU-1A-03-018_card_1",
+          "SNU-1A-03-018_card_2",
+          "SNU-1A-03-018_card_3",
+          "SNU-1A-03-018_card_4"
+        ]
+      ],
+      "note": "서울대 1A 3과 교재 기반"
+    }
+  ]
+}

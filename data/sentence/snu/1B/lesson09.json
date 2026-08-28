@@ -1,0 +1,709 @@
+{
+  "book": "1B",
+  "lesson": 9,
+  "source": "서울대 한국어 1B 학생 읽기 자료 · 9과 어휘/문법/예문/말하기 기반",
+  "questionCount": 21,
+  "questions": [
+    {
+      "id": "SNU-1B-09-001",
+      "displaySentence": "이거 스티븐 씨의 책이에요?",
+      "tokens": [
+        [
+          "SNU-1B-09-001_card_0",
+          "이거"
+        ],
+        [
+          "SNU-1B-09-001_card_1",
+          "스티븐 씨"
+        ],
+        [
+          "SNU-1B-09-001_card_2",
+          "의"
+        ],
+        [
+          "SNU-1B-09-001_card_3",
+          "책"
+        ],
+        [
+          "SNU-1B-09-001_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-001_card_0",
+          "SNU-1B-09-001_card_1",
+          "SNU-1B-09-001_card_2",
+          "SNU-1B-09-001_card_3",
+          "SNU-1B-09-001_card_4"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-002",
+      "displaySentence": "네, 제 책이에요.",
+      "tokens": [
+        [
+          "SNU-1B-09-002_card_0",
+          "네"
+        ],
+        [
+          "SNU-1B-09-002_card_1",
+          "제"
+        ],
+        [
+          "SNU-1B-09-002_card_2",
+          "책"
+        ],
+        [
+          "SNU-1B-09-002_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-002_card_0",
+          "SNU-1B-09-002_card_1",
+          "SNU-1B-09-002_card_2",
+          "SNU-1B-09-002_card_3"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-003",
+      "displaySentence": "저 사람은 누구예요?",
+      "tokens": [
+        [
+          "SNU-1B-09-003_card_0",
+          "저"
+        ],
+        [
+          "SNU-1B-09-003_card_1",
+          "사람"
+        ],
+        [
+          "SNU-1B-09-003_card_2",
+          "은"
+        ],
+        [
+          "SNU-1B-09-003_card_3",
+          "누구"
+        ],
+        [
+          "SNU-1B-09-003_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-003_card_0",
+          "SNU-1B-09-003_card_1",
+          "SNU-1B-09-003_card_2",
+          "SNU-1B-09-003_card_3",
+          "SNU-1B-09-003_card_4"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-004",
+      "displaySentence": "내 친구예요.",
+      "tokens": [
+        [
+          "SNU-1B-09-004_card_0",
+          "내"
+        ],
+        [
+          "SNU-1B-09-004_card_1",
+          "친구"
+        ],
+        [
+          "SNU-1B-09-004_card_2",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-004_card_0",
+          "SNU-1B-09-004_card_1",
+          "SNU-1B-09-004_card_2"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-005",
+      "displaySentence": "한국말을 잘해요?",
+      "tokens": [
+        [
+          "SNU-1B-09-005_card_0",
+          "한국말"
+        ],
+        [
+          "SNU-1B-09-005_card_1",
+          "을"
+        ],
+        [
+          "SNU-1B-09-005_card_2",
+          "잘해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-005_card_0",
+          "SNU-1B-09-005_card_1",
+          "SNU-1B-09-005_card_2"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-006",
+      "displaySentence": "아니요, 잘 못해요.",
+      "tokens": [
+        [
+          "SNU-1B-09-006_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1B-09-006_card_1",
+          "잘"
+        ],
+        [
+          "SNU-1B-09-006_card_2",
+          "못해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-006_card_0",
+          "SNU-1B-09-006_card_1",
+          "SNU-1B-09-006_card_2"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-007",
+      "displaySentence": "마리코 씨는 뭘 잘해요?",
+      "tokens": [
+        [
+          "SNU-1B-09-007_card_0",
+          "마리코 씨"
+        ],
+        [
+          "SNU-1B-09-007_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-007_card_2",
+          "뭘"
+        ],
+        [
+          "SNU-1B-09-007_card_3",
+          "잘해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-007_card_0",
+          "SNU-1B-09-007_card_1",
+          "SNU-1B-09-007_card_2",
+          "SNU-1B-09-007_card_3"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-008",
+      "displaySentence": "마리코 씨는 요리를 잘해요.",
+      "tokens": [
+        [
+          "SNU-1B-09-008_card_0",
+          "마리코 씨"
+        ],
+        [
+          "SNU-1B-09-008_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-008_card_2",
+          "요리"
+        ],
+        [
+          "SNU-1B-09-008_card_3",
+          "를"
+        ],
+        [
+          "SNU-1B-09-008_card_4",
+          "잘해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-008_card_0",
+          "SNU-1B-09-008_card_1",
+          "SNU-1B-09-008_card_2",
+          "SNU-1B-09-008_card_3",
+          "SNU-1B-09-008_card_4"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-009",
+      "displaySentence": "저는 운전을 잘 못해요.",
+      "tokens": [
+        [
+          "SNU-1B-09-009_card_0",
+          "저"
+        ],
+        [
+          "SNU-1B-09-009_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-009_card_2",
+          "운전"
+        ],
+        [
+          "SNU-1B-09-009_card_3",
+          "을"
+        ],
+        [
+          "SNU-1B-09-009_card_4",
+          "잘"
+        ],
+        [
+          "SNU-1B-09-009_card_5",
+          "못해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-009_card_0",
+          "SNU-1B-09-009_card_1",
+          "SNU-1B-09-009_card_2",
+          "SNU-1B-09-009_card_3",
+          "SNU-1B-09-009_card_4",
+          "SNU-1B-09-009_card_5"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-010",
+      "displaySentence": "저는 수학을 못했어요.",
+      "tokens": [
+        [
+          "SNU-1B-09-010_card_0",
+          "저"
+        ],
+        [
+          "SNU-1B-09-010_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-010_card_2",
+          "수학"
+        ],
+        [
+          "SNU-1B-09-010_card_3",
+          "을"
+        ],
+        [
+          "SNU-1B-09-010_card_4",
+          "못했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-010_card_0",
+          "SNU-1B-09-010_card_1",
+          "SNU-1B-09-010_card_2",
+          "SNU-1B-09-010_card_3",
+          "SNU-1B-09-010_card_4"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-011",
+      "displaySentence": "이분은 누구세요?",
+      "tokens": [
+        [
+          "SNU-1B-09-011_card_0",
+          "이분"
+        ],
+        [
+          "SNU-1B-09-011_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-09-011_card_2",
+          "누구세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-011_card_0",
+          "SNU-1B-09-011_card_1",
+          "SNU-1B-09-011_card_2"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-012",
+      "displaySentence": "이분은 우리 어머니세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-012_card_0",
+          "이분"
+        ],
+        [
+          "SNU-1B-09-012_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-09-012_card_2",
+          "우리"
+        ],
+        [
+          "SNU-1B-09-012_card_3",
+          "어머니세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-012_card_0",
+          "SNU-1B-09-012_card_1",
+          "SNU-1B-09-012_card_2",
+          "SNU-1B-09-012_card_3"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-013",
+      "displaySentence": "아버지는 회사원이세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-013_card_0",
+          "아버지"
+        ],
+        [
+          "SNU-1B-09-013_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-013_card_2",
+          "회사원"
+        ],
+        [
+          "SNU-1B-09-013_card_3",
+          "이세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-013_card_0",
+          "SNU-1B-09-013_card_1",
+          "SNU-1B-09-013_card_2",
+          "SNU-1B-09-013_card_3"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-014",
+      "displaySentence": "아버지는 무슨 일을 하세요?",
+      "tokens": [
+        [
+          "SNU-1B-09-014_card_0",
+          "아버지"
+        ],
+        [
+          "SNU-1B-09-014_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-014_card_2",
+          "무슨"
+        ],
+        [
+          "SNU-1B-09-014_card_3",
+          "일"
+        ],
+        [
+          "SNU-1B-09-014_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-09-014_card_5",
+          "하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-014_card_0",
+          "SNU-1B-09-014_card_1",
+          "SNU-1B-09-014_card_2",
+          "SNU-1B-09-014_card_3",
+          "SNU-1B-09-014_card_4",
+          "SNU-1B-09-014_card_5"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-015",
+      "displaySentence": "회사에 다니세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-015_card_0",
+          "회사"
+        ],
+        [
+          "SNU-1B-09-015_card_1",
+          "에"
+        ],
+        [
+          "SNU-1B-09-015_card_2",
+          "다니세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-015_card_0",
+          "SNU-1B-09-015_card_1",
+          "SNU-1B-09-015_card_2"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-016",
+      "displaySentence": "할머니는 친구가 많으세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-016_card_0",
+          "할머니"
+        ],
+        [
+          "SNU-1B-09-016_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-016_card_2",
+          "친구"
+        ],
+        [
+          "SNU-1B-09-016_card_3",
+          "가"
+        ],
+        [
+          "SNU-1B-09-016_card_4",
+          "많으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-016_card_0",
+          "SNU-1B-09-016_card_1",
+          "SNU-1B-09-016_card_2",
+          "SNU-1B-09-016_card_3",
+          "SNU-1B-09-016_card_4"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-017",
+      "displaySentence": "김 선생님은 지금 뭐 하세요?",
+      "tokens": [
+        [
+          "SNU-1B-09-017_card_0",
+          "김"
+        ],
+        [
+          "SNU-1B-09-017_card_1",
+          "선생님"
+        ],
+        [
+          "SNU-1B-09-017_card_2",
+          "은"
+        ],
+        [
+          "SNU-1B-09-017_card_3",
+          "지금"
+        ],
+        [
+          "SNU-1B-09-017_card_4",
+          "뭐"
+        ],
+        [
+          "SNU-1B-09-017_card_5",
+          "하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-017_card_0",
+          "SNU-1B-09-017_card_1",
+          "SNU-1B-09-017_card_2",
+          "SNU-1B-09-017_card_3",
+          "SNU-1B-09-017_card_4",
+          "SNU-1B-09-017_card_5"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-018",
+      "displaySentence": "책을 읽으세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-018_card_0",
+          "책"
+        ],
+        [
+          "SNU-1B-09-018_card_1",
+          "을"
+        ],
+        [
+          "SNU-1B-09-018_card_2",
+          "읽으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-018_card_0",
+          "SNU-1B-09-018_card_1",
+          "SNU-1B-09-018_card_2"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-019",
+      "displaySentence": "사장님은 어제 중국에 가셨어요.",
+      "tokens": [
+        [
+          "SNU-1B-09-019_card_0",
+          "사장님"
+        ],
+        [
+          "SNU-1B-09-019_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-09-019_card_2",
+          "어제"
+        ],
+        [
+          "SNU-1B-09-019_card_3",
+          "중국"
+        ],
+        [
+          "SNU-1B-09-019_card_4",
+          "에"
+        ],
+        [
+          "SNU-1B-09-019_card_5",
+          "가셨어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-019_card_0",
+          "SNU-1B-09-019_card_1",
+          "SNU-1B-09-019_card_2",
+          "SNU-1B-09-019_card_3",
+          "SNU-1B-09-019_card_4",
+          "SNU-1B-09-019_card_5"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-020",
+      "displaySentence": "지금 방에 안 계세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-020_card_0",
+          "지금"
+        ],
+        [
+          "SNU-1B-09-020_card_1",
+          "방"
+        ],
+        [
+          "SNU-1B-09-020_card_2",
+          "에"
+        ],
+        [
+          "SNU-1B-09-020_card_3",
+          "안"
+        ],
+        [
+          "SNU-1B-09-020_card_4",
+          "계세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-020_card_0",
+          "SNU-1B-09-020_card_1",
+          "SNU-1B-09-020_card_2",
+          "SNU-1B-09-020_card_3",
+          "SNU-1B-09-020_card_4"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-09-021",
+      "displaySentence": "어머니는 어제 비빔밥을 드셨어요.",
+      "tokens": [
+        [
+          "SNU-1B-09-021_card_0",
+          "어머니"
+        ],
+        [
+          "SNU-1B-09-021_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-021_card_2",
+          "어제"
+        ],
+        [
+          "SNU-1B-09-021_card_3",
+          "비빔밥"
+        ],
+        [
+          "SNU-1B-09-021_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-09-021_card_5",
+          "드셨어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-021_card_0",
+          "SNU-1B-09-021_card_1",
+          "SNU-1B-09-021_card_2",
+          "SNU-1B-09-021_card_3",
+          "SNU-1B-09-021_card_4",
+          "SNU-1B-09-021_card_5"
+        ]
+      ],
+      "note": "서울대 1B 9과 교재 기반"
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+{
+  "book": "1B",
+  "lesson": 14,
+  "source": "서울대 한국어 1B 학생 읽기 자료 · 14과 어휘/문법/예문/말하기 기반",
+  "questionCount": 24,
+  "questions": [
+    {
+      "id": "SNU-1B-14-001",
+      "displaySentence": "이 노래를 아세요?",
+      "tokens": [
+        [
+          "SNU-1B-14-001_card_0",
+          "이"
+        ],
+        [
+          "SNU-1B-14-001_card_1",
+          "노래"
+        ],
+        [
+          "SNU-1B-14-001_card_2",
+          "를"
+        ],
+        [
+          "SNU-1B-14-001_card_3",
+          "아세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-001_card_0",
+          "SNU-1B-14-001_card_1",
+          "SNU-1B-14-001_card_2",
+          "SNU-1B-14-001_card_3"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-002",
+      "displaySentence": "어디에 사세요?",
+      "tokens": [
+        [
+          "SNU-1B-14-002_card_0",
+          "어디"
+        ],
+        [
+          "SNU-1B-14-002_card_1",
+          "에"
+        ],
+        [
+          "SNU-1B-14-002_card_2",
+          "사세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-002_card_0",
+          "SNU-1B-14-002_card_1",
+          "SNU-1B-14-002_card_2"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-003",
+      "displaySentence": "서울에 삽니다.",
+      "tokens": [
+        [
+          "SNU-1B-14-003_card_0",
+          "서울"
+        ],
+        [
+          "SNU-1B-14-003_card_1",
+          "에"
+        ],
+        [
+          "SNU-1B-14-003_card_2",
+          "삽니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-003_card_0",
+          "SNU-1B-14-003_card_1",
+          "SNU-1B-14-003_card_2"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-004",
+      "displaySentence": "마리코 씨, 어제 케이크 만드셨어요?",
+      "tokens": [
+        [
+          "SNU-1B-14-004_card_0",
+          "마리코"
+        ],
+        [
+          "SNU-1B-14-004_card_1",
+          "씨"
+        ],
+        [
+          "SNU-1B-14-004_card_2",
+          "어제"
+        ],
+        [
+          "SNU-1B-14-004_card_3",
+          "케이크"
+        ],
+        [
+          "SNU-1B-14-004_card_4",
+          "만드셨어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-004_card_0",
+          "SNU-1B-14-004_card_1",
+          "SNU-1B-14-004_card_2",
+          "SNU-1B-14-004_card_3",
+          "SNU-1B-14-004_card_4"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-005",
+      "displaySentence": "아니요, 내일 만들 거예요.",
+      "tokens": [
+        [
+          "SNU-1B-14-005_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1B-14-005_card_1",
+          "내일"
+        ],
+        [
+          "SNU-1B-14-005_card_2",
+          "만들"
+        ],
+        [
+          "SNU-1B-14-005_card_3",
+          "거"
+        ],
+        [
+          "SNU-1B-14-005_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-005_card_0",
+          "SNU-1B-14-005_card_1",
+          "SNU-1B-14-005_card_2",
+          "SNU-1B-14-005_card_3",
+          "SNU-1B-14-005_card_4"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-006",
+      "displaySentence": "한국에서 미국까지 열 시간쯤 걸려요.",
+      "tokens": [
+        [
+          "SNU-1B-14-006_card_0",
+          "한국"
+        ],
+        [
+          "SNU-1B-14-006_card_1",
+          "에서"
+        ],
+        [
+          "SNU-1B-14-006_card_2",
+          "미국"
+        ],
+        [
+          "SNU-1B-14-006_card_3",
+          "까지"
+        ],
+        [
+          "SNU-1B-14-006_card_4",
+          "열"
+        ],
+        [
+          "SNU-1B-14-006_card_5",
+          "시간쯤"
+        ],
+        [
+          "SNU-1B-14-006_card_6",
+          "걸려요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-006_card_0",
+          "SNU-1B-14-006_card_1",
+          "SNU-1B-14-006_card_2",
+          "SNU-1B-14-006_card_3",
+          "SNU-1B-14-006_card_4",
+          "SNU-1B-14-006_card_5",
+          "SNU-1B-14-006_card_6"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-007",
+      "displaySentence": "어떤 치마가 유행이에요?",
+      "tokens": [
+        [
+          "SNU-1B-14-007_card_0",
+          "어떤"
+        ],
+        [
+          "SNU-1B-14-007_card_1",
+          "치마"
+        ],
+        [
+          "SNU-1B-14-007_card_2",
+          "가"
+        ],
+        [
+          "SNU-1B-14-007_card_3",
+          "유행"
+        ],
+        [
+          "SNU-1B-14-007_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-007_card_0",
+          "SNU-1B-14-007_card_1",
+          "SNU-1B-14-007_card_2",
+          "SNU-1B-14-007_card_3",
+          "SNU-1B-14-007_card_4"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-008",
+      "displaySentence": "짧은 치마가 유행이에요.",
+      "tokens": [
+        [
+          "SNU-1B-14-008_card_0",
+          "짧"
+        ],
+        [
+          "SNU-1B-14-008_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-14-008_card_2",
+          "치마"
+        ],
+        [
+          "SNU-1B-14-008_card_3",
+          "가"
+        ],
+        [
+          "SNU-1B-14-008_card_4",
+          "유행"
+        ],
+        [
+          "SNU-1B-14-008_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-008_card_0",
+          "SNU-1B-14-008_card_1",
+          "SNU-1B-14-008_card_2",
+          "SNU-1B-14-008_card_3",
+          "SNU-1B-14-008_card_4",
+          "SNU-1B-14-008_card_5"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-009",
+      "displaySentence": "따뜻한 커피를 마실까요?",
+      "tokens": [
+        [
+          "SNU-1B-14-009_card_0",
+          "따뜻한"
+        ],
+        [
+          "SNU-1B-14-009_card_1",
+          "커피"
+        ],
+        [
+          "SNU-1B-14-009_card_2",
+          "를"
+        ],
+        [
+          "SNU-1B-14-009_card_3",
+          "마실까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-009_card_0",
+          "SNU-1B-14-009_card_1",
+          "SNU-1B-14-009_card_2",
+          "SNU-1B-14-009_card_3"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-010",
+      "displaySentence": "정우 씨는 좋은 친구예요.",
+      "tokens": [
+        [
+          "SNU-1B-14-010_card_0",
+          "정우 씨"
+        ],
+        [
+          "SNU-1B-14-010_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-14-010_card_2",
+          "좋은"
+        ],
+        [
+          "SNU-1B-14-010_card_3",
+          "친구"
+        ],
+        [
+          "SNU-1B-14-010_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-010_card_0",
+          "SNU-1B-14-010_card_1",
+          "SNU-1B-14-010_card_2",
+          "SNU-1B-14-010_card_3",
+          "SNU-1B-14-010_card_4"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-011",
+      "displaySentence": "지난주에 긴 코트를 하나 샀어요.",
+      "tokens": [
+        [
+          "SNU-1B-14-011_card_0",
+          "지난주"
+        ],
+        [
+          "SNU-1B-14-011_card_1",
+          "에"
+        ],
+        [
+          "SNU-1B-14-011_card_2",
+          "긴"
+        ],
+        [
+          "SNU-1B-14-011_card_3",
+          "코트"
+        ],
+        [
+          "SNU-1B-14-011_card_4",
+          "를"
+        ],
+        [
+          "SNU-1B-14-011_card_5",
+          "하나"
+        ],
+        [
+          "SNU-1B-14-011_card_6",
+          "샀어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-011_card_0",
+          "SNU-1B-14-011_card_1",
+          "SNU-1B-14-011_card_2",
+          "SNU-1B-14-011_card_3",
+          "SNU-1B-14-011_card_4",
+          "SNU-1B-14-011_card_5",
+          "SNU-1B-14-011_card_6"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-012",
+      "displaySentence": "어떤 영화를 좋아하세요?",
+      "tokens": [
+        [
+          "SNU-1B-14-012_card_0",
+          "어떤"
+        ],
+        [
+          "SNU-1B-14-012_card_1",
+          "영화"
+        ],
+        [
+          "SNU-1B-14-012_card_2",
+          "를"
+        ],
+        [
+          "SNU-1B-14-012_card_3",
+          "좋아하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-012_card_0",
+          "SNU-1B-14-012_card_1",
+          "SNU-1B-14-012_card_2",
+          "SNU-1B-14-012_card_3"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-013",
+      "displaySentence": "재미있는 영화를 좋아해요.",
+      "tokens": [
+        [
+          "SNU-1B-14-013_card_0",
+          "재미있는"
+        ],
+        [
+          "SNU-1B-14-013_card_1",
+          "영화"
+        ],
+        [
+          "SNU-1B-14-013_card_2",
+          "를"
+        ],
+        [
+          "SNU-1B-14-013_card_3",
+          "좋아해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-013_card_0",
+          "SNU-1B-14-013_card_1",
+          "SNU-1B-14-013_card_2",
+          "SNU-1B-14-013_card_3"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-014",
+      "displaySentence": "유진 씨가 입을 거예요?",
+      "tokens": [
+        [
+          "SNU-1B-14-014_card_0",
+          "유진 씨"
+        ],
+        [
+          "SNU-1B-14-014_card_1",
+          "가"
+        ],
+        [
+          "SNU-1B-14-014_card_2",
+          "입"
+        ],
+        [
+          "SNU-1B-14-014_card_3",
+          "을"
+        ],
+        [
+          "SNU-1B-14-014_card_4",
+          "거"
+        ],
+        [
+          "SNU-1B-14-014_card_5",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-014_card_0",
+          "SNU-1B-14-014_card_1",
+          "SNU-1B-14-014_card_2",
+          "SNU-1B-14-014_card_3",
+          "SNU-1B-14-014_card_4",
+          "SNU-1B-14-014_card_5"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-015",
+      "displaySentence": "친구한테 선물할 거예요.",
+      "tokens": [
+        [
+          "SNU-1B-14-015_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1B-14-015_card_1",
+          "한테"
+        ],
+        [
+          "SNU-1B-14-015_card_2",
+          "선물할"
+        ],
+        [
+          "SNU-1B-14-015_card_3",
+          "거"
+        ],
+        [
+          "SNU-1B-14-015_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-015_card_0",
+          "SNU-1B-14-015_card_1",
+          "SNU-1B-14-015_card_2",
+          "SNU-1B-14-015_card_3",
+          "SNU-1B-14-015_card_4"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-016",
+      "displaySentence": "그 책은 누구한테 줄 거예요?",
+      "tokens": [
+        [
+          "SNU-1B-14-016_card_0",
+          "그"
+        ],
+        [
+          "SNU-1B-14-016_card_1",
+          "책"
+        ],
+        [
+          "SNU-1B-14-016_card_2",
+          "은"
+        ],
+        [
+          "SNU-1B-14-016_card_3",
+          "누구"
+        ],
+        [
+          "SNU-1B-14-016_card_4",
+          "한테"
+        ],
+        [
+          "SNU-1B-14-016_card_5",
+          "줄"
+        ],
+        [
+          "SNU-1B-14-016_card_6",
+          "거"
+        ],
+        [
+          "SNU-1B-14-016_card_7",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-016_card_0",
+          "SNU-1B-14-016_card_1",
+          "SNU-1B-14-016_card_2",
+          "SNU-1B-14-016_card_3",
+          "SNU-1B-14-016_card_4",
+          "SNU-1B-14-016_card_5",
+          "SNU-1B-14-016_card_6",
+          "SNU-1B-14-016_card_7"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-017",
+      "displaySentence": "동생한테 줄 거예요.",
+      "tokens": [
+        [
+          "SNU-1B-14-017_card_0",
+          "동생"
+        ],
+        [
+          "SNU-1B-14-017_card_1",
+          "한테"
+        ],
+        [
+          "SNU-1B-14-017_card_2",
+          "줄"
+        ],
+        [
+          "SNU-1B-14-017_card_3",
+          "거"
+        ],
+        [
+          "SNU-1B-14-017_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-017_card_0",
+          "SNU-1B-14-017_card_1",
+          "SNU-1B-14-017_card_2",
+          "SNU-1B-14-017_card_3",
+          "SNU-1B-14-017_card_4"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-018",
+      "displaySentence": "누가 선생님께 이메일을 보냈어요?",
+      "tokens": [
+        [
+          "SNU-1B-14-018_card_0",
+          "누가"
+        ],
+        [
+          "SNU-1B-14-018_card_1",
+          "선생님"
+        ],
+        [
+          "SNU-1B-14-018_card_2",
+          "께"
+        ],
+        [
+          "SNU-1B-14-018_card_3",
+          "이메일"
+        ],
+        [
+          "SNU-1B-14-018_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-14-018_card_5",
+          "보냈어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-018_card_0",
+          "SNU-1B-14-018_card_1",
+          "SNU-1B-14-018_card_2",
+          "SNU-1B-14-018_card_3",
+          "SNU-1B-14-018_card_4",
+          "SNU-1B-14-018_card_5"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-019",
+      "displaySentence": "켈리 씨가 보냈어요.",
+      "tokens": [
+        [
+          "SNU-1B-14-019_card_0",
+          "켈리 씨"
+        ],
+        [
+          "SNU-1B-14-019_card_1",
+          "가"
+        ],
+        [
+          "SNU-1B-14-019_card_2",
+          "보냈어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-019_card_0",
+          "SNU-1B-14-019_card_1",
+          "SNU-1B-14-019_card_2"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-020",
+      "displaySentence": "어머니께 무슨 선물을 드렸어요?",
+      "tokens": [
+        [
+          "SNU-1B-14-020_card_0",
+          "어머니"
+        ],
+        [
+          "SNU-1B-14-020_card_1",
+          "께"
+        ],
+        [
+          "SNU-1B-14-020_card_2",
+          "무슨"
+        ],
+        [
+          "SNU-1B-14-020_card_3",
+          "선물"
+        ],
+        [
+          "SNU-1B-14-020_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-14-020_card_5",
+          "드렸어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-020_card_0",
+          "SNU-1B-14-020_card_1",
+          "SNU-1B-14-020_card_2",
+          "SNU-1B-14-020_card_3",
+          "SNU-1B-14-020_card_4",
+          "SNU-1B-14-020_card_5"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-021",
+      "displaySentence": "가방을 사 드렸어요.",
+      "tokens": [
+        [
+          "SNU-1B-14-021_card_0",
+          "가방"
+        ],
+        [
+          "SNU-1B-14-021_card_1",
+          "을"
+        ],
+        [
+          "SNU-1B-14-021_card_2",
+          "사"
+        ],
+        [
+          "SNU-1B-14-021_card_3",
+          "드렸어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-021_card_0",
+          "SNU-1B-14-021_card_1",
+          "SNU-1B-14-021_card_2",
+          "SNU-1B-14-021_card_3"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-022",
+      "displaySentence": "이 구두 예쁘네요.",
+      "tokens": [
+        [
+          "SNU-1B-14-022_card_0",
+          "이"
+        ],
+        [
+          "SNU-1B-14-022_card_1",
+          "구두"
+        ],
+        [
+          "SNU-1B-14-022_card_2",
+          "예쁘네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-022_card_0",
+          "SNU-1B-14-022_card_1",
+          "SNU-1B-14-022_card_2"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-023",
+      "displaySentence": "한번 신어 보세요.",
+      "tokens": [
+        [
+          "SNU-1B-14-023_card_0",
+          "한번"
+        ],
+        [
+          "SNU-1B-14-023_card_1",
+          "신어"
+        ],
+        [
+          "SNU-1B-14-023_card_2",
+          "보세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-023_card_0",
+          "SNU-1B-14-023_card_1",
+          "SNU-1B-14-023_card_2"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    },
+    {
+      "id": "SNU-1B-14-024",
+      "displaySentence": "친구 선물을 사야 돼요.",
+      "tokens": [
+        [
+          "SNU-1B-14-024_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1B-14-024_card_1",
+          "선물"
+        ],
+        [
+          "SNU-1B-14-024_card_2",
+          "을"
+        ],
+        [
+          "SNU-1B-14-024_card_3",
+          "사야"
+        ],
+        [
+          "SNU-1B-14-024_card_4",
+          "돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-14-024_card_0",
+          "SNU-1B-14-024_card_1",
+          "SNU-1B-14-024_card_2",
+          "SNU-1B-14-024_card_3",
+          "SNU-1B-14-024_card_4"
+        ]
+      ],
+      "note": "서울대 1B 14과 교재 기반"
+    }
+  ]
+}

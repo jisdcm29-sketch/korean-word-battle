@@ -1,0 +1,597 @@
+{
+  "book": "1A",
+  "lesson": 2,
+  "source": "서울대 한국어 1A 학생 읽기 자료 · 2과 어휘/문법/예문/말하기 기반",
+  "questionCount": 19,
+  "questions": [
+    {
+      "id": "SNU-1A-02-001",
+      "displaySentence": "우산이 있어요?",
+      "tokens": [
+        [
+          "SNU-1A-02-001_card_0",
+          "우산"
+        ],
+        [
+          "SNU-1A-02-001_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-02-001_card_2",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-001_card_0",
+          "SNU-1A-02-001_card_1",
+          "SNU-1A-02-001_card_2"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-002",
+      "displaySentence": "남자 친구가 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-02-002_card_0",
+          "남자"
+        ],
+        [
+          "SNU-1A-02-002_card_1",
+          "친구"
+        ],
+        [
+          "SNU-1A-02-002_card_2",
+          "가"
+        ],
+        [
+          "SNU-1A-02-002_card_3",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-002_card_0",
+          "SNU-1A-02-002_card_1",
+          "SNU-1A-02-002_card_2",
+          "SNU-1A-02-002_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-003",
+      "displaySentence": "남자 친구가 없어요.",
+      "tokens": [
+        [
+          "SNU-1A-02-003_card_0",
+          "남자"
+        ],
+        [
+          "SNU-1A-02-003_card_1",
+          "친구"
+        ],
+        [
+          "SNU-1A-02-003_card_2",
+          "가"
+        ],
+        [
+          "SNU-1A-02-003_card_3",
+          "없어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-003_card_0",
+          "SNU-1A-02-003_card_1",
+          "SNU-1A-02-003_card_2",
+          "SNU-1A-02-003_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-004",
+      "displaySentence": "우산이 없어요.",
+      "tokens": [
+        [
+          "SNU-1A-02-004_card_0",
+          "우산"
+        ],
+        [
+          "SNU-1A-02-004_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-02-004_card_2",
+          "없어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-004_card_0",
+          "SNU-1A-02-004_card_1",
+          "SNU-1A-02-004_card_2"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-005",
+      "displaySentence": "이거는 뭐예요?",
+      "tokens": [
+        [
+          "SNU-1A-02-005_card_0",
+          "이거"
+        ],
+        [
+          "SNU-1A-02-005_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-005_card_2",
+          "뭐"
+        ],
+        [
+          "SNU-1A-02-005_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-005_card_0",
+          "SNU-1A-02-005_card_1",
+          "SNU-1A-02-005_card_2",
+          "SNU-1A-02-005_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-006",
+      "displaySentence": "이거는 모자예요.",
+      "tokens": [
+        [
+          "SNU-1A-02-006_card_0",
+          "이거"
+        ],
+        [
+          "SNU-1A-02-006_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-006_card_2",
+          "모자"
+        ],
+        [
+          "SNU-1A-02-006_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-006_card_0",
+          "SNU-1A-02-006_card_1",
+          "SNU-1A-02-006_card_2",
+          "SNU-1A-02-006_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-007",
+      "displaySentence": "저거는 창문이에요.",
+      "tokens": [
+        [
+          "SNU-1A-02-007_card_0",
+          "저거"
+        ],
+        [
+          "SNU-1A-02-007_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-007_card_2",
+          "창문"
+        ],
+        [
+          "SNU-1A-02-007_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-007_card_0",
+          "SNU-1A-02-007_card_1",
+          "SNU-1A-02-007_card_2",
+          "SNU-1A-02-007_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-008",
+      "displaySentence": "그거는 한국 지도예요?",
+      "tokens": [
+        [
+          "SNU-1A-02-008_card_0",
+          "그거"
+        ],
+        [
+          "SNU-1A-02-008_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-008_card_2",
+          "한국"
+        ],
+        [
+          "SNU-1A-02-008_card_3",
+          "지도"
+        ],
+        [
+          "SNU-1A-02-008_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-008_card_0",
+          "SNU-1A-02-008_card_1",
+          "SNU-1A-02-008_card_2",
+          "SNU-1A-02-008_card_3",
+          "SNU-1A-02-008_card_4"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-009",
+      "displaySentence": "아니요, 영국 지도예요.",
+      "tokens": [
+        [
+          "SNU-1A-02-009_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-02-009_card_1",
+          "영국"
+        ],
+        [
+          "SNU-1A-02-009_card_2",
+          "지도"
+        ],
+        [
+          "SNU-1A-02-009_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-009_card_0",
+          "SNU-1A-02-009_card_1",
+          "SNU-1A-02-009_card_2",
+          "SNU-1A-02-009_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-010",
+      "displaySentence": "신문 좀 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-02-010_card_0",
+          "신문"
+        ],
+        [
+          "SNU-1A-02-010_card_1",
+          "좀"
+        ],
+        [
+          "SNU-1A-02-010_card_2",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-010_card_0",
+          "SNU-1A-02-010_card_1",
+          "SNU-1A-02-010_card_2"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-011",
+      "displaySentence": "지우개하고 연필 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-02-011_card_0",
+          "지우개"
+        ],
+        [
+          "SNU-1A-02-011_card_1",
+          "하고"
+        ],
+        [
+          "SNU-1A-02-011_card_2",
+          "연필"
+        ],
+        [
+          "SNU-1A-02-011_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-011_card_0",
+          "SNU-1A-02-011_card_1",
+          "SNU-1A-02-011_card_2",
+          "SNU-1A-02-011_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-012",
+      "displaySentence": "네, 여기 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-02-012_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-02-012_card_1",
+          "여기"
+        ],
+        [
+          "SNU-1A-02-012_card_2",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-012_card_0",
+          "SNU-1A-02-012_card_1",
+          "SNU-1A-02-012_card_2"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-013",
+      "displaySentence": "콜라하고 주스가 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-02-013_card_0",
+          "콜라"
+        ],
+        [
+          "SNU-1A-02-013_card_1",
+          "하고"
+        ],
+        [
+          "SNU-1A-02-013_card_2",
+          "주스"
+        ],
+        [
+          "SNU-1A-02-013_card_3",
+          "가"
+        ],
+        [
+          "SNU-1A-02-013_card_4",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-013_card_0",
+          "SNU-1A-02-013_card_1",
+          "SNU-1A-02-013_card_2",
+          "SNU-1A-02-013_card_3",
+          "SNU-1A-02-013_card_4"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-014",
+      "displaySentence": "볼펜하고 공책 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-02-014_card_0",
+          "볼펜"
+        ],
+        [
+          "SNU-1A-02-014_card_1",
+          "하고"
+        ],
+        [
+          "SNU-1A-02-014_card_2",
+          "공책"
+        ],
+        [
+          "SNU-1A-02-014_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-014_card_0",
+          "SNU-1A-02-014_card_1",
+          "SNU-1A-02-014_card_2",
+          "SNU-1A-02-014_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-015",
+      "displaySentence": "지우개와 연필이 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-02-015_card_0",
+          "지우개"
+        ],
+        [
+          "SNU-1A-02-015_card_1",
+          "와"
+        ],
+        [
+          "SNU-1A-02-015_card_2",
+          "연필"
+        ],
+        [
+          "SNU-1A-02-015_card_3",
+          "이"
+        ],
+        [
+          "SNU-1A-02-015_card_4",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-015_card_0",
+          "SNU-1A-02-015_card_1",
+          "SNU-1A-02-015_card_2",
+          "SNU-1A-02-015_card_3",
+          "SNU-1A-02-015_card_4"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-016",
+      "displaySentence": "학생과 선생님입니다.",
+      "tokens": [
+        [
+          "SNU-1A-02-016_card_0",
+          "학생"
+        ],
+        [
+          "SNU-1A-02-016_card_1",
+          "과"
+        ],
+        [
+          "SNU-1A-02-016_card_2",
+          "선생님"
+        ],
+        [
+          "SNU-1A-02-016_card_3",
+          "입니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-016_card_0",
+          "SNU-1A-02-016_card_1",
+          "SNU-1A-02-016_card_2",
+          "SNU-1A-02-016_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-017",
+      "displaySentence": "이거는 한국어로 뭐예요?",
+      "tokens": [
+        [
+          "SNU-1A-02-017_card_0",
+          "이거"
+        ],
+        [
+          "SNU-1A-02-017_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-017_card_2",
+          "한국어"
+        ],
+        [
+          "SNU-1A-02-017_card_3",
+          "로"
+        ],
+        [
+          "SNU-1A-02-017_card_4",
+          "뭐"
+        ],
+        [
+          "SNU-1A-02-017_card_5",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-017_card_0",
+          "SNU-1A-02-017_card_1",
+          "SNU-1A-02-017_card_2",
+          "SNU-1A-02-017_card_3",
+          "SNU-1A-02-017_card_4",
+          "SNU-1A-02-017_card_5"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-018",
+      "displaySentence": "저거는 연필이에요?",
+      "tokens": [
+        [
+          "SNU-1A-02-018_card_0",
+          "저거"
+        ],
+        [
+          "SNU-1A-02-018_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-018_card_2",
+          "연필"
+        ],
+        [
+          "SNU-1A-02-018_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-018_card_0",
+          "SNU-1A-02-018_card_1",
+          "SNU-1A-02-018_card_2",
+          "SNU-1A-02-018_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-02-019",
+      "displaySentence": "아니요, 볼펜이에요.",
+      "tokens": [
+        [
+          "SNU-1A-02-019_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-02-019_card_1",
+          "볼펜"
+        ],
+        [
+          "SNU-1A-02-019_card_2",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-019_card_0",
+          "SNU-1A-02-019_card_1",
+          "SNU-1A-02-019_card_2"
+        ]
+      ],
+      "note": "서울대 1A 2과 교재 기반"
+    }
+  ]
+}

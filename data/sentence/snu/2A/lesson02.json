@@ -1,0 +1,962 @@
+{
+  "book": "2A",
+  "lesson": 2,
+  "source": "서울대 한국어 2A 학생 읽기 자료 · 2과 어휘/문법/예문/말하기 기반",
+  "questionCount": 24,
+  "questions": [
+    {
+      "id": "SNU-2A-02-001",
+      "displaySentence": "운동하는 것을 좋아하세요?",
+      "tokens": [
+        [
+          "SNU-2A-02-001_card_0",
+          "운동하는"
+        ],
+        [
+          "SNU-2A-02-001_card_1",
+          "것"
+        ],
+        [
+          "SNU-2A-02-001_card_2",
+          "을"
+        ],
+        [
+          "SNU-2A-02-001_card_3",
+          "좋아하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-001_card_0",
+          "SNU-2A-02-001_card_1",
+          "SNU-2A-02-001_card_2",
+          "SNU-2A-02-001_card_3"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-002",
+      "displaySentence": "네, 야구하는 것을 좋아해요.",
+      "tokens": [
+        [
+          "SNU-2A-02-002_card_0",
+          "네"
+        ],
+        [
+          "SNU-2A-02-002_card_1",
+          "야구하는"
+        ],
+        [
+          "SNU-2A-02-002_card_2",
+          "것"
+        ],
+        [
+          "SNU-2A-02-002_card_3",
+          "을"
+        ],
+        [
+          "SNU-2A-02-002_card_4",
+          "좋아해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-002_card_0",
+          "SNU-2A-02-002_card_1",
+          "SNU-2A-02-002_card_2",
+          "SNU-2A-02-002_card_3",
+          "SNU-2A-02-002_card_4"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-003",
+      "displaySentence": "한국어를 배우는 것이 재미있어요.",
+      "tokens": [
+        [
+          "SNU-2A-02-003_card_0",
+          "한국어"
+        ],
+        [
+          "SNU-2A-02-003_card_1",
+          "를"
+        ],
+        [
+          "SNU-2A-02-003_card_2",
+          "배우는"
+        ],
+        [
+          "SNU-2A-02-003_card_3",
+          "것"
+        ],
+        [
+          "SNU-2A-02-003_card_4",
+          "이"
+        ],
+        [
+          "SNU-2A-02-003_card_5",
+          "재미있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-003_card_0",
+          "SNU-2A-02-003_card_1",
+          "SNU-2A-02-003_card_2",
+          "SNU-2A-02-003_card_3",
+          "SNU-2A-02-003_card_4",
+          "SNU-2A-02-003_card_5"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-004",
+      "displaySentence": "저는 책 읽는 것을 좋아해요.",
+      "tokens": [
+        [
+          "SNU-2A-02-004_card_0",
+          "저"
+        ],
+        [
+          "SNU-2A-02-004_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-02-004_card_2",
+          "책"
+        ],
+        [
+          "SNU-2A-02-004_card_3",
+          "읽는"
+        ],
+        [
+          "SNU-2A-02-004_card_4",
+          "것"
+        ],
+        [
+          "SNU-2A-02-004_card_5",
+          "을"
+        ],
+        [
+          "SNU-2A-02-004_card_6",
+          "좋아해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-004_card_0",
+          "SNU-2A-02-004_card_1",
+          "SNU-2A-02-004_card_2",
+          "SNU-2A-02-004_card_3",
+          "SNU-2A-02-004_card_4",
+          "SNU-2A-02-004_card_5",
+          "SNU-2A-02-004_card_6"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-005",
+      "displaySentence": "수영할 줄 아세요?",
+      "tokens": [
+        [
+          "SNU-2A-02-005_card_0",
+          "수영할"
+        ],
+        [
+          "SNU-2A-02-005_card_1",
+          "줄"
+        ],
+        [
+          "SNU-2A-02-005_card_2",
+          "아세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-005_card_0",
+          "SNU-2A-02-005_card_1",
+          "SNU-2A-02-005_card_2"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-006",
+      "displaySentence": "아니요, 전혀 할 줄 몰라요.",
+      "tokens": [
+        [
+          "SNU-2A-02-006_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-2A-02-006_card_1",
+          "전혀"
+        ],
+        [
+          "SNU-2A-02-006_card_2",
+          "할"
+        ],
+        [
+          "SNU-2A-02-006_card_3",
+          "줄"
+        ],
+        [
+          "SNU-2A-02-006_card_4",
+          "몰라요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-006_card_0",
+          "SNU-2A-02-006_card_1",
+          "SNU-2A-02-006_card_2",
+          "SNU-2A-02-006_card_3",
+          "SNU-2A-02-006_card_4"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-007",
+      "displaySentence": "민수 씨는 수영할 줄 몰라요.",
+      "tokens": [
+        [
+          "SNU-2A-02-007_card_0",
+          "민수 씨"
+        ],
+        [
+          "SNU-2A-02-007_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-02-007_card_2",
+          "수영할"
+        ],
+        [
+          "SNU-2A-02-007_card_3",
+          "줄"
+        ],
+        [
+          "SNU-2A-02-007_card_4",
+          "몰라요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-007_card_0",
+          "SNU-2A-02-007_card_1",
+          "SNU-2A-02-007_card_2",
+          "SNU-2A-02-007_card_3",
+          "SNU-2A-02-007_card_4"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-008",
+      "displaySentence": "저는 한글을 읽을 줄 알아요.",
+      "tokens": [
+        [
+          "SNU-2A-02-008_card_0",
+          "저"
+        ],
+        [
+          "SNU-2A-02-008_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-02-008_card_2",
+          "한글"
+        ],
+        [
+          "SNU-2A-02-008_card_3",
+          "을"
+        ],
+        [
+          "SNU-2A-02-008_card_4",
+          "읽"
+        ],
+        [
+          "SNU-2A-02-008_card_5",
+          "을"
+        ],
+        [
+          "SNU-2A-02-008_card_6",
+          "줄"
+        ],
+        [
+          "SNU-2A-02-008_card_7",
+          "알아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-008_card_0",
+          "SNU-2A-02-008_card_1",
+          "SNU-2A-02-008_card_2",
+          "SNU-2A-02-008_card_3",
+          "SNU-2A-02-008_card_4",
+          "SNU-2A-02-008_card_5",
+          "SNU-2A-02-008_card_6",
+          "SNU-2A-02-008_card_7"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-009",
+      "displaySentence": "어제 본 영화 어땠어요?",
+      "tokens": [
+        [
+          "SNU-2A-02-009_card_0",
+          "어제"
+        ],
+        [
+          "SNU-2A-02-009_card_1",
+          "본"
+        ],
+        [
+          "SNU-2A-02-009_card_2",
+          "영화"
+        ],
+        [
+          "SNU-2A-02-009_card_3",
+          "어땠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-009_card_0",
+          "SNU-2A-02-009_card_1",
+          "SNU-2A-02-009_card_2",
+          "SNU-2A-02-009_card_3"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-010",
+      "displaySentence": "지난주에 산 옷을 바꾸고 싶어요.",
+      "tokens": [
+        [
+          "SNU-2A-02-010_card_0",
+          "지난주"
+        ],
+        [
+          "SNU-2A-02-010_card_1",
+          "에"
+        ],
+        [
+          "SNU-2A-02-010_card_2",
+          "산"
+        ],
+        [
+          "SNU-2A-02-010_card_3",
+          "옷"
+        ],
+        [
+          "SNU-2A-02-010_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-02-010_card_5",
+          "바꾸고"
+        ],
+        [
+          "SNU-2A-02-010_card_6",
+          "싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-010_card_0",
+          "SNU-2A-02-010_card_1",
+          "SNU-2A-02-010_card_2",
+          "SNU-2A-02-010_card_3",
+          "SNU-2A-02-010_card_4",
+          "SNU-2A-02-010_card_5",
+          "SNU-2A-02-010_card_6"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-011",
+      "displaySentence": "어제 먹은 음식 이름을 모르겠어요.",
+      "tokens": [
+        [
+          "SNU-2A-02-011_card_0",
+          "어제"
+        ],
+        [
+          "SNU-2A-02-011_card_1",
+          "먹은"
+        ],
+        [
+          "SNU-2A-02-011_card_2",
+          "음식"
+        ],
+        [
+          "SNU-2A-02-011_card_3",
+          "이름"
+        ],
+        [
+          "SNU-2A-02-011_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-02-011_card_5",
+          "모르겠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-011_card_0",
+          "SNU-2A-02-011_card_1",
+          "SNU-2A-02-011_card_2",
+          "SNU-2A-02-011_card_3",
+          "SNU-2A-02-011_card_4",
+          "SNU-2A-02-011_card_5"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-012",
+      "displaySentence": "요즘 많이 바쁘지요?",
+      "tokens": [
+        [
+          "SNU-2A-02-012_card_0",
+          "요즘"
+        ],
+        [
+          "SNU-2A-02-012_card_1",
+          "많이"
+        ],
+        [
+          "SNU-2A-02-012_card_2",
+          "바쁘지요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-012_card_0",
+          "SNU-2A-02-012_card_1",
+          "SNU-2A-02-012_card_2"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-013",
+      "displaySentence": "아니요, 별로 바쁘지 않아요.",
+      "tokens": [
+        [
+          "SNU-2A-02-013_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-2A-02-013_card_1",
+          "별로"
+        ],
+        [
+          "SNU-2A-02-013_card_2",
+          "바쁘지"
+        ],
+        [
+          "SNU-2A-02-013_card_3",
+          "않아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-013_card_0",
+          "SNU-2A-02-013_card_1",
+          "SNU-2A-02-013_card_2",
+          "SNU-2A-02-013_card_3"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-014",
+      "displaySentence": "내 방은 크지 않지만 싸고 좋아요.",
+      "tokens": [
+        [
+          "SNU-2A-02-014_card_0",
+          "내"
+        ],
+        [
+          "SNU-2A-02-014_card_1",
+          "방"
+        ],
+        [
+          "SNU-2A-02-014_card_2",
+          "은"
+        ],
+        [
+          "SNU-2A-02-014_card_3",
+          "크지"
+        ],
+        [
+          "SNU-2A-02-014_card_4",
+          "않지만"
+        ],
+        [
+          "SNU-2A-02-014_card_5",
+          "싸고"
+        ],
+        [
+          "SNU-2A-02-014_card_6",
+          "좋아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-014_card_0",
+          "SNU-2A-02-014_card_1",
+          "SNU-2A-02-014_card_2",
+          "SNU-2A-02-014_card_3",
+          "SNU-2A-02-014_card_4",
+          "SNU-2A-02-014_card_5",
+          "SNU-2A-02-014_card_6"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-015",
+      "displaySentence": "저는 고기를 전혀 먹지 않아요.",
+      "tokens": [
+        [
+          "SNU-2A-02-015_card_0",
+          "저"
+        ],
+        [
+          "SNU-2A-02-015_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-02-015_card_2",
+          "고기"
+        ],
+        [
+          "SNU-2A-02-015_card_3",
+          "를"
+        ],
+        [
+          "SNU-2A-02-015_card_4",
+          "전혀"
+        ],
+        [
+          "SNU-2A-02-015_card_5",
+          "먹지"
+        ],
+        [
+          "SNU-2A-02-015_card_6",
+          "않아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-015_card_0",
+          "SNU-2A-02-015_card_1",
+          "SNU-2A-02-015_card_2",
+          "SNU-2A-02-015_card_3",
+          "SNU-2A-02-015_card_4",
+          "SNU-2A-02-015_card_5",
+          "SNU-2A-02-015_card_6"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-016",
+      "displaySentence": "어제 아파서 학교에 가지 않았어요.",
+      "tokens": [
+        [
+          "SNU-2A-02-016_card_0",
+          "어제"
+        ],
+        [
+          "SNU-2A-02-016_card_1",
+          "아파서"
+        ],
+        [
+          "SNU-2A-02-016_card_2",
+          "학교"
+        ],
+        [
+          "SNU-2A-02-016_card_3",
+          "에"
+        ],
+        [
+          "SNU-2A-02-016_card_4",
+          "가지"
+        ],
+        [
+          "SNU-2A-02-016_card_5",
+          "않았어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-016_card_0",
+          "SNU-2A-02-016_card_1",
+          "SNU-2A-02-016_card_2",
+          "SNU-2A-02-016_card_3",
+          "SNU-2A-02-016_card_4",
+          "SNU-2A-02-016_card_5"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-017",
+      "displaySentence": "정우 씨는 취미가 뭐예요?",
+      "tokens": [
+        [
+          "SNU-2A-02-017_card_0",
+          "정우 씨"
+        ],
+        [
+          "SNU-2A-02-017_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-02-017_card_2",
+          "취미"
+        ],
+        [
+          "SNU-2A-02-017_card_3",
+          "가"
+        ],
+        [
+          "SNU-2A-02-017_card_4",
+          "뭐"
+        ],
+        [
+          "SNU-2A-02-017_card_5",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-017_card_0",
+          "SNU-2A-02-017_card_1",
+          "SNU-2A-02-017_card_2",
+          "SNU-2A-02-017_card_3",
+          "SNU-2A-02-017_card_4",
+          "SNU-2A-02-017_card_5"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-018",
+      "displaySentence": "저는 운동하는 것을 좋아해요.",
+      "tokens": [
+        [
+          "SNU-2A-02-018_card_0",
+          "저"
+        ],
+        [
+          "SNU-2A-02-018_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-02-018_card_2",
+          "운동하는"
+        ],
+        [
+          "SNU-2A-02-018_card_3",
+          "것"
+        ],
+        [
+          "SNU-2A-02-018_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-02-018_card_5",
+          "좋아해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-018_card_0",
+          "SNU-2A-02-018_card_1",
+          "SNU-2A-02-018_card_2",
+          "SNU-2A-02-018_card_3",
+          "SNU-2A-02-018_card_4",
+          "SNU-2A-02-018_card_5"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-019",
+      "displaySentence": "저도 운동하는 것을 좋아해요.",
+      "tokens": [
+        [
+          "SNU-2A-02-019_card_0",
+          "저도"
+        ],
+        [
+          "SNU-2A-02-019_card_1",
+          "운동하는"
+        ],
+        [
+          "SNU-2A-02-019_card_2",
+          "것"
+        ],
+        [
+          "SNU-2A-02-019_card_3",
+          "을"
+        ],
+        [
+          "SNU-2A-02-019_card_4",
+          "좋아해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-019_card_0",
+          "SNU-2A-02-019_card_1",
+          "SNU-2A-02-019_card_2",
+          "SNU-2A-02-019_card_3",
+          "SNU-2A-02-019_card_4"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-020",
+      "displaySentence": "정우 씨는 무슨 운동을 잘하세요?",
+      "tokens": [
+        [
+          "SNU-2A-02-020_card_0",
+          "정우 씨"
+        ],
+        [
+          "SNU-2A-02-020_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-02-020_card_2",
+          "무슨"
+        ],
+        [
+          "SNU-2A-02-020_card_3",
+          "운동"
+        ],
+        [
+          "SNU-2A-02-020_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-02-020_card_5",
+          "잘하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-020_card_0",
+          "SNU-2A-02-020_card_1",
+          "SNU-2A-02-020_card_2",
+          "SNU-2A-02-020_card_3",
+          "SNU-2A-02-020_card_4",
+          "SNU-2A-02-020_card_5"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-021",
+      "displaySentence": "테니스를 좀 칠 줄 알아요.",
+      "tokens": [
+        [
+          "SNU-2A-02-021_card_0",
+          "테니스"
+        ],
+        [
+          "SNU-2A-02-021_card_1",
+          "를"
+        ],
+        [
+          "SNU-2A-02-021_card_2",
+          "좀"
+        ],
+        [
+          "SNU-2A-02-021_card_3",
+          "칠"
+        ],
+        [
+          "SNU-2A-02-021_card_4",
+          "줄"
+        ],
+        [
+          "SNU-2A-02-021_card_5",
+          "알아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-021_card_0",
+          "SNU-2A-02-021_card_1",
+          "SNU-2A-02-021_card_2",
+          "SNU-2A-02-021_card_3",
+          "SNU-2A-02-021_card_4",
+          "SNU-2A-02-021_card_5"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-022",
+      "displaySentence": "나나 씨도 테니스를 칠 줄 아세요?",
+      "tokens": [
+        [
+          "SNU-2A-02-022_card_0",
+          "나나 씨"
+        ],
+        [
+          "SNU-2A-02-022_card_1",
+          "도"
+        ],
+        [
+          "SNU-2A-02-022_card_2",
+          "테니스"
+        ],
+        [
+          "SNU-2A-02-022_card_3",
+          "를"
+        ],
+        [
+          "SNU-2A-02-022_card_4",
+          "칠"
+        ],
+        [
+          "SNU-2A-02-022_card_5",
+          "줄"
+        ],
+        [
+          "SNU-2A-02-022_card_6",
+          "아세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-022_card_0",
+          "SNU-2A-02-022_card_1",
+          "SNU-2A-02-022_card_2",
+          "SNU-2A-02-022_card_3",
+          "SNU-2A-02-022_card_4",
+          "SNU-2A-02-022_card_5",
+          "SNU-2A-02-022_card_6"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-023",
+      "displaySentence": "아니요, 저는 테니스를 전혀 못 쳐요.",
+      "tokens": [
+        [
+          "SNU-2A-02-023_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-2A-02-023_card_1",
+          "저"
+        ],
+        [
+          "SNU-2A-02-023_card_2",
+          "는"
+        ],
+        [
+          "SNU-2A-02-023_card_3",
+          "테니스"
+        ],
+        [
+          "SNU-2A-02-023_card_4",
+          "를"
+        ],
+        [
+          "SNU-2A-02-023_card_5",
+          "전혀"
+        ],
+        [
+          "SNU-2A-02-023_card_6",
+          "못"
+        ],
+        [
+          "SNU-2A-02-023_card_7",
+          "쳐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-023_card_0",
+          "SNU-2A-02-023_card_1",
+          "SNU-2A-02-023_card_2",
+          "SNU-2A-02-023_card_3",
+          "SNU-2A-02-023_card_4",
+          "SNU-2A-02-023_card_5",
+          "SNU-2A-02-023_card_6",
+          "SNU-2A-02-023_card_7"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-02-024",
+      "displaySentence": "시간이 나면 한번 배워 보고 싶어요.",
+      "tokens": [
+        [
+          "SNU-2A-02-024_card_0",
+          "시간"
+        ],
+        [
+          "SNU-2A-02-024_card_1",
+          "이"
+        ],
+        [
+          "SNU-2A-02-024_card_2",
+          "나면"
+        ],
+        [
+          "SNU-2A-02-024_card_3",
+          "한번"
+        ],
+        [
+          "SNU-2A-02-024_card_4",
+          "배워"
+        ],
+        [
+          "SNU-2A-02-024_card_5",
+          "보고"
+        ],
+        [
+          "SNU-2A-02-024_card_6",
+          "싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-02-024_card_0",
+          "SNU-2A-02-024_card_1",
+          "SNU-2A-02-024_card_2",
+          "SNU-2A-02-024_card_3",
+          "SNU-2A-02-024_card_4",
+          "SNU-2A-02-024_card_5",
+          "SNU-2A-02-024_card_6"
+        ]
+      ],
+      "note": "서울대 2A 2과 교재 기반"
+    }
+  ]
+}

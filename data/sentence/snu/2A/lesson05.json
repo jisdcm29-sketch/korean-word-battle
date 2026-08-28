@@ -1,0 +1,1057 @@
+{
+  "book": "2A",
+  "lesson": 5,
+  "source": "서울대 한국어 2A 학생 읽기 자료 · 5과 어휘/문법/예문/말하기 기반",
+  "questionCount": 24,
+  "questions": [
+    {
+      "id": "SNU-2A-05-001",
+      "displaySentence": "어머니하고 어디에 가면 좋을까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-001_card_0",
+          "어머니"
+        ],
+        [
+          "SNU-2A-05-001_card_1",
+          "하고"
+        ],
+        [
+          "SNU-2A-05-001_card_2",
+          "어디"
+        ],
+        [
+          "SNU-2A-05-001_card_3",
+          "에"
+        ],
+        [
+          "SNU-2A-05-001_card_4",
+          "가면"
+        ],
+        [
+          "SNU-2A-05-001_card_5",
+          "좋을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-001_card_0",
+          "SNU-2A-05-001_card_1",
+          "SNU-2A-05-001_card_2",
+          "SNU-2A-05-001_card_3",
+          "SNU-2A-05-001_card_4",
+          "SNU-2A-05-001_card_5"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-002",
+      "displaySentence": "안동에 한번 가 보세요.",
+      "tokens": [
+        [
+          "SNU-2A-05-002_card_0",
+          "안동"
+        ],
+        [
+          "SNU-2A-05-002_card_1",
+          "에"
+        ],
+        [
+          "SNU-2A-05-002_card_2",
+          "한번"
+        ],
+        [
+          "SNU-2A-05-002_card_3",
+          "가"
+        ],
+        [
+          "SNU-2A-05-002_card_4",
+          "보세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-002_card_0",
+          "SNU-2A-05-002_card_1",
+          "SNU-2A-05-002_card_2",
+          "SNU-2A-05-002_card_3",
+          "SNU-2A-05-002_card_4"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-003",
+      "displaySentence": "이 옷이 스티븐 씨에게 클까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-003_card_0",
+          "이"
+        ],
+        [
+          "SNU-2A-05-003_card_1",
+          "옷"
+        ],
+        [
+          "SNU-2A-05-003_card_2",
+          "이"
+        ],
+        [
+          "SNU-2A-05-003_card_3",
+          "스티븐 씨"
+        ],
+        [
+          "SNU-2A-05-003_card_4",
+          "에게"
+        ],
+        [
+          "SNU-2A-05-003_card_5",
+          "클까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-003_card_0",
+          "SNU-2A-05-003_card_1",
+          "SNU-2A-05-003_card_2",
+          "SNU-2A-05-003_card_3",
+          "SNU-2A-05-003_card_4",
+          "SNU-2A-05-003_card_5"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-004",
+      "displaySentence": "제가 그걸 혼자 할 수 있을까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-004_card_0",
+          "제"
+        ],
+        [
+          "SNU-2A-05-004_card_1",
+          "가"
+        ],
+        [
+          "SNU-2A-05-004_card_2",
+          "그걸"
+        ],
+        [
+          "SNU-2A-05-004_card_3",
+          "혼자"
+        ],
+        [
+          "SNU-2A-05-004_card_4",
+          "할"
+        ],
+        [
+          "SNU-2A-05-004_card_5",
+          "수"
+        ],
+        [
+          "SNU-2A-05-004_card_6",
+          "있을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-004_card_0",
+          "SNU-2A-05-004_card_1",
+          "SNU-2A-05-004_card_2",
+          "SNU-2A-05-004_card_3",
+          "SNU-2A-05-004_card_4",
+          "SNU-2A-05-004_card_5",
+          "SNU-2A-05-004_card_6"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-005",
+      "displaySentence": "히엔 씨가 매운 음식을 잘 먹을까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-005_card_0",
+          "히엔 씨"
+        ],
+        [
+          "SNU-2A-05-005_card_1",
+          "가"
+        ],
+        [
+          "SNU-2A-05-005_card_2",
+          "매운"
+        ],
+        [
+          "SNU-2A-05-005_card_3",
+          "음식"
+        ],
+        [
+          "SNU-2A-05-005_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-05-005_card_5",
+          "잘"
+        ],
+        [
+          "SNU-2A-05-005_card_6",
+          "먹을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-005_card_0",
+          "SNU-2A-05-005_card_1",
+          "SNU-2A-05-005_card_2",
+          "SNU-2A-05-005_card_3",
+          "SNU-2A-05-005_card_4",
+          "SNU-2A-05-005_card_5",
+          "SNU-2A-05-005_card_6"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-006",
+      "displaySentence": "나나 씨가 집에 도착했을까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-006_card_0",
+          "나나 씨"
+        ],
+        [
+          "SNU-2A-05-006_card_1",
+          "가"
+        ],
+        [
+          "SNU-2A-05-006_card_2",
+          "집"
+        ],
+        [
+          "SNU-2A-05-006_card_3",
+          "에"
+        ],
+        [
+          "SNU-2A-05-006_card_4",
+          "도착했을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-006_card_0",
+          "SNU-2A-05-006_card_1",
+          "SNU-2A-05-006_card_2",
+          "SNU-2A-05-006_card_3",
+          "SNU-2A-05-006_card_4"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-007",
+      "displaySentence": "어머니가 안동을 좋아하실까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-007_card_0",
+          "어머니"
+        ],
+        [
+          "SNU-2A-05-007_card_1",
+          "가"
+        ],
+        [
+          "SNU-2A-05-007_card_2",
+          "안동"
+        ],
+        [
+          "SNU-2A-05-007_card_3",
+          "을"
+        ],
+        [
+          "SNU-2A-05-007_card_4",
+          "좋아하실까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-007_card_0",
+          "SNU-2A-05-007_card_1",
+          "SNU-2A-05-007_card_2",
+          "SNU-2A-05-007_card_3",
+          "SNU-2A-05-007_card_4"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-008",
+      "displaySentence": "아마 좋아하실 거예요.",
+      "tokens": [
+        [
+          "SNU-2A-05-008_card_0",
+          "아마"
+        ],
+        [
+          "SNU-2A-05-008_card_1",
+          "좋아하실"
+        ],
+        [
+          "SNU-2A-05-008_card_2",
+          "거"
+        ],
+        [
+          "SNU-2A-05-008_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-008_card_0",
+          "SNU-2A-05-008_card_1",
+          "SNU-2A-05-008_card_2",
+          "SNU-2A-05-008_card_3"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-009",
+      "displaySentence": "이 신발이 민수 씨에게 작을 거예요.",
+      "tokens": [
+        [
+          "SNU-2A-05-009_card_0",
+          "이"
+        ],
+        [
+          "SNU-2A-05-009_card_1",
+          "신발"
+        ],
+        [
+          "SNU-2A-05-009_card_2",
+          "이"
+        ],
+        [
+          "SNU-2A-05-009_card_3",
+          "민수 씨"
+        ],
+        [
+          "SNU-2A-05-009_card_4",
+          "에게"
+        ],
+        [
+          "SNU-2A-05-009_card_5",
+          "작"
+        ],
+        [
+          "SNU-2A-05-009_card_6",
+          "을"
+        ],
+        [
+          "SNU-2A-05-009_card_7",
+          "거"
+        ],
+        [
+          "SNU-2A-05-009_card_8",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-009_card_0",
+          "SNU-2A-05-009_card_1",
+          "SNU-2A-05-009_card_2",
+          "SNU-2A-05-009_card_3",
+          "SNU-2A-05-009_card_4",
+          "SNU-2A-05-009_card_5",
+          "SNU-2A-05-009_card_6",
+          "SNU-2A-05-009_card_7",
+          "SNU-2A-05-009_card_8"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-010",
+      "displaySentence": "오늘 나나 씨가 아마 학교에 못 올 거예요.",
+      "tokens": [
+        [
+          "SNU-2A-05-010_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-2A-05-010_card_1",
+          "나나 씨"
+        ],
+        [
+          "SNU-2A-05-010_card_2",
+          "가"
+        ],
+        [
+          "SNU-2A-05-010_card_3",
+          "아마"
+        ],
+        [
+          "SNU-2A-05-010_card_4",
+          "학교"
+        ],
+        [
+          "SNU-2A-05-010_card_5",
+          "에"
+        ],
+        [
+          "SNU-2A-05-010_card_6",
+          "못"
+        ],
+        [
+          "SNU-2A-05-010_card_7",
+          "올"
+        ],
+        [
+          "SNU-2A-05-010_card_8",
+          "거"
+        ],
+        [
+          "SNU-2A-05-010_card_9",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-010_card_0",
+          "SNU-2A-05-010_card_1",
+          "SNU-2A-05-010_card_2",
+          "SNU-2A-05-010_card_3",
+          "SNU-2A-05-010_card_4",
+          "SNU-2A-05-010_card_5",
+          "SNU-2A-05-010_card_6",
+          "SNU-2A-05-010_card_7",
+          "SNU-2A-05-010_card_8",
+          "SNU-2A-05-010_card_9"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-011",
+      "displaySentence": "수업이 끝났을까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-011_card_0",
+          "수업"
+        ],
+        [
+          "SNU-2A-05-011_card_1",
+          "이"
+        ],
+        [
+          "SNU-2A-05-011_card_2",
+          "끝났을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-011_card_0",
+          "SNU-2A-05-011_card_1",
+          "SNU-2A-05-011_card_2"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-012",
+      "displaySentence": "네, 끝났을 거예요.",
+      "tokens": [
+        [
+          "SNU-2A-05-012_card_0",
+          "네"
+        ],
+        [
+          "SNU-2A-05-012_card_1",
+          "끝났"
+        ],
+        [
+          "SNU-2A-05-012_card_2",
+          "을"
+        ],
+        [
+          "SNU-2A-05-012_card_3",
+          "거"
+        ],
+        [
+          "SNU-2A-05-012_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-012_card_0",
+          "SNU-2A-05-012_card_1",
+          "SNU-2A-05-012_card_2",
+          "SNU-2A-05-012_card_3",
+          "SNU-2A-05-012_card_4"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-013",
+      "displaySentence": "여행 일정이 어떻게 돼요?",
+      "tokens": [
+        [
+          "SNU-2A-05-013_card_0",
+          "여행"
+        ],
+        [
+          "SNU-2A-05-013_card_1",
+          "일정"
+        ],
+        [
+          "SNU-2A-05-013_card_2",
+          "이"
+        ],
+        [
+          "SNU-2A-05-013_card_3",
+          "어떻게"
+        ],
+        [
+          "SNU-2A-05-013_card_4",
+          "돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-013_card_0",
+          "SNU-2A-05-013_card_1",
+          "SNU-2A-05-013_card_2",
+          "SNU-2A-05-013_card_3",
+          "SNU-2A-05-013_card_4"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-014",
+      "displaySentence": "여기 자세한 일정이 있으니까 한번 보세요.",
+      "tokens": [
+        [
+          "SNU-2A-05-014_card_0",
+          "여기"
+        ],
+        [
+          "SNU-2A-05-014_card_1",
+          "자세한"
+        ],
+        [
+          "SNU-2A-05-014_card_2",
+          "일정"
+        ],
+        [
+          "SNU-2A-05-014_card_3",
+          "이"
+        ],
+        [
+          "SNU-2A-05-014_card_4",
+          "있으니까"
+        ],
+        [
+          "SNU-2A-05-014_card_5",
+          "한번"
+        ],
+        [
+          "SNU-2A-05-014_card_6",
+          "보세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-014_card_0",
+          "SNU-2A-05-014_card_1",
+          "SNU-2A-05-014_card_2",
+          "SNU-2A-05-014_card_3",
+          "SNU-2A-05-014_card_4",
+          "SNU-2A-05-014_card_5",
+          "SNU-2A-05-014_card_6"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-015",
+      "displaySentence": "오늘은 바쁘니까 내일 만납시다.",
+      "tokens": [
+        [
+          "SNU-2A-05-015_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-2A-05-015_card_1",
+          "은"
+        ],
+        [
+          "SNU-2A-05-015_card_2",
+          "바쁘니까"
+        ],
+        [
+          "SNU-2A-05-015_card_3",
+          "내일"
+        ],
+        [
+          "SNU-2A-05-015_card_4",
+          "만납시다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-015_card_0",
+          "SNU-2A-05-015_card_1",
+          "SNU-2A-05-015_card_2",
+          "SNU-2A-05-015_card_3",
+          "SNU-2A-05-015_card_4"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-016",
+      "displaySentence": "스티븐 씨는 책을 많이 읽으니까 책을 선물하세요.",
+      "tokens": [
+        [
+          "SNU-2A-05-016_card_0",
+          "스티븐 씨"
+        ],
+        [
+          "SNU-2A-05-016_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-05-016_card_2",
+          "책"
+        ],
+        [
+          "SNU-2A-05-016_card_3",
+          "을"
+        ],
+        [
+          "SNU-2A-05-016_card_4",
+          "많이"
+        ],
+        [
+          "SNU-2A-05-016_card_5",
+          "읽으니까"
+        ],
+        [
+          "SNU-2A-05-016_card_6",
+          "책"
+        ],
+        [
+          "SNU-2A-05-016_card_7",
+          "을"
+        ],
+        [
+          "SNU-2A-05-016_card_8",
+          "선물하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-016_card_0",
+          "SNU-2A-05-016_card_1",
+          "SNU-2A-05-016_card_2",
+          "SNU-2A-05-016_card_3",
+          "SNU-2A-05-016_card_4",
+          "SNU-2A-05-016_card_5",
+          "SNU-2A-05-016_card_6",
+          "SNU-2A-05-016_card_7",
+          "SNU-2A-05-016_card_8"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-017",
+      "displaySentence": "오늘은 토요일이니까 문을 일찍 닫을 거예요.",
+      "tokens": [
+        [
+          "SNU-2A-05-017_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-2A-05-017_card_1",
+          "은"
+        ],
+        [
+          "SNU-2A-05-017_card_2",
+          "토요일이니까"
+        ],
+        [
+          "SNU-2A-05-017_card_3",
+          "문"
+        ],
+        [
+          "SNU-2A-05-017_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-05-017_card_5",
+          "일찍"
+        ],
+        [
+          "SNU-2A-05-017_card_6",
+          "닫"
+        ],
+        [
+          "SNU-2A-05-017_card_7",
+          "을"
+        ],
+        [
+          "SNU-2A-05-017_card_8",
+          "거"
+        ],
+        [
+          "SNU-2A-05-017_card_9",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-017_card_0",
+          "SNU-2A-05-017_card_1",
+          "SNU-2A-05-017_card_2",
+          "SNU-2A-05-017_card_3",
+          "SNU-2A-05-017_card_4",
+          "SNU-2A-05-017_card_5",
+          "SNU-2A-05-017_card_6",
+          "SNU-2A-05-017_card_7",
+          "SNU-2A-05-017_card_8",
+          "SNU-2A-05-017_card_9"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-018",
+      "displaySentence": "아니요, 생각해 보고 나서 연락드릴게요.",
+      "tokens": [
+        [
+          "SNU-2A-05-018_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-2A-05-018_card_1",
+          "생각해"
+        ],
+        [
+          "SNU-2A-05-018_card_2",
+          "보고"
+        ],
+        [
+          "SNU-2A-05-018_card_3",
+          "나서"
+        ],
+        [
+          "SNU-2A-05-018_card_4",
+          "연락드릴게요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-018_card_0",
+          "SNU-2A-05-018_card_1",
+          "SNU-2A-05-018_card_2",
+          "SNU-2A-05-018_card_3",
+          "SNU-2A-05-018_card_4"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-019",
+      "displaySentence": "한국어 공부를 마치고 나서 대학원에 가려고 해요.",
+      "tokens": [
+        [
+          "SNU-2A-05-019_card_0",
+          "한국어"
+        ],
+        [
+          "SNU-2A-05-019_card_1",
+          "공부"
+        ],
+        [
+          "SNU-2A-05-019_card_2",
+          "를"
+        ],
+        [
+          "SNU-2A-05-019_card_3",
+          "마치고"
+        ],
+        [
+          "SNU-2A-05-019_card_4",
+          "나서"
+        ],
+        [
+          "SNU-2A-05-019_card_5",
+          "대학원"
+        ],
+        [
+          "SNU-2A-05-019_card_6",
+          "에"
+        ],
+        [
+          "SNU-2A-05-019_card_7",
+          "가려고"
+        ],
+        [
+          "SNU-2A-05-019_card_8",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-019_card_0",
+          "SNU-2A-05-019_card_1",
+          "SNU-2A-05-019_card_2",
+          "SNU-2A-05-019_card_3",
+          "SNU-2A-05-019_card_4",
+          "SNU-2A-05-019_card_5",
+          "SNU-2A-05-019_card_6",
+          "SNU-2A-05-019_card_7",
+          "SNU-2A-05-019_card_8"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-020",
+      "displaySentence": "이 책을 다 읽고 나서 친구에게 빌려줄 거예요.",
+      "tokens": [
+        [
+          "SNU-2A-05-020_card_0",
+          "이"
+        ],
+        [
+          "SNU-2A-05-020_card_1",
+          "책"
+        ],
+        [
+          "SNU-2A-05-020_card_2",
+          "을"
+        ],
+        [
+          "SNU-2A-05-020_card_3",
+          "다"
+        ],
+        [
+          "SNU-2A-05-020_card_4",
+          "읽고"
+        ],
+        [
+          "SNU-2A-05-020_card_5",
+          "나서"
+        ],
+        [
+          "SNU-2A-05-020_card_6",
+          "친구"
+        ],
+        [
+          "SNU-2A-05-020_card_7",
+          "에게"
+        ],
+        [
+          "SNU-2A-05-020_card_8",
+          "빌려줄"
+        ],
+        [
+          "SNU-2A-05-020_card_9",
+          "거"
+        ],
+        [
+          "SNU-2A-05-020_card_10",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-020_card_0",
+          "SNU-2A-05-020_card_1",
+          "SNU-2A-05-020_card_2",
+          "SNU-2A-05-020_card_3",
+          "SNU-2A-05-020_card_4",
+          "SNU-2A-05-020_card_5",
+          "SNU-2A-05-020_card_6",
+          "SNU-2A-05-020_card_7",
+          "SNU-2A-05-020_card_8",
+          "SNU-2A-05-020_card_9",
+          "SNU-2A-05-020_card_10"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-021",
+      "displaySentence": "다음 주에 친구가 한국에 와요.",
+      "tokens": [
+        [
+          "SNU-2A-05-021_card_0",
+          "다음"
+        ],
+        [
+          "SNU-2A-05-021_card_1",
+          "주"
+        ],
+        [
+          "SNU-2A-05-021_card_2",
+          "에"
+        ],
+        [
+          "SNU-2A-05-021_card_3",
+          "친구"
+        ],
+        [
+          "SNU-2A-05-021_card_4",
+          "가"
+        ],
+        [
+          "SNU-2A-05-021_card_5",
+          "한국"
+        ],
+        [
+          "SNU-2A-05-021_card_6",
+          "에"
+        ],
+        [
+          "SNU-2A-05-021_card_7",
+          "와요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-021_card_0",
+          "SNU-2A-05-021_card_1",
+          "SNU-2A-05-021_card_2",
+          "SNU-2A-05-021_card_3",
+          "SNU-2A-05-021_card_4",
+          "SNU-2A-05-021_card_5",
+          "SNU-2A-05-021_card_6",
+          "SNU-2A-05-021_card_7"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-022",
+      "displaySentence": "여행 오는 거예요?",
+      "tokens": [
+        [
+          "SNU-2A-05-022_card_0",
+          "여행"
+        ],
+        [
+          "SNU-2A-05-022_card_1",
+          "오는"
+        ],
+        [
+          "SNU-2A-05-022_card_2",
+          "거"
+        ],
+        [
+          "SNU-2A-05-022_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-022_card_0",
+          "SNU-2A-05-022_card_1",
+          "SNU-2A-05-022_card_2",
+          "SNU-2A-05-022_card_3"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-023",
+      "displaySentence": "네, 그런데 친구하고 어디에 가면 좋을까요?",
+      "tokens": [
+        [
+          "SNU-2A-05-023_card_0",
+          "네"
+        ],
+        [
+          "SNU-2A-05-023_card_1",
+          "그런데"
+        ],
+        [
+          "SNU-2A-05-023_card_2",
+          "친구"
+        ],
+        [
+          "SNU-2A-05-023_card_3",
+          "하고"
+        ],
+        [
+          "SNU-2A-05-023_card_4",
+          "어디"
+        ],
+        [
+          "SNU-2A-05-023_card_5",
+          "에"
+        ],
+        [
+          "SNU-2A-05-023_card_6",
+          "가면"
+        ],
+        [
+          "SNU-2A-05-023_card_7",
+          "좋을까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-023_card_0",
+          "SNU-2A-05-023_card_1",
+          "SNU-2A-05-023_card_2",
+          "SNU-2A-05-023_card_3",
+          "SNU-2A-05-023_card_4",
+          "SNU-2A-05-023_card_5",
+          "SNU-2A-05-023_card_6",
+          "SNU-2A-05-023_card_7"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-05-024",
+      "displaySentence": "안동에 가 봤어요?",
+      "tokens": [
+        [
+          "SNU-2A-05-024_card_0",
+          "안동"
+        ],
+        [
+          "SNU-2A-05-024_card_1",
+          "에"
+        ],
+        [
+          "SNU-2A-05-024_card_2",
+          "가"
+        ],
+        [
+          "SNU-2A-05-024_card_3",
+          "봤어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-024_card_0",
+          "SNU-2A-05-024_card_1",
+          "SNU-2A-05-024_card_2",
+          "SNU-2A-05-024_card_3"
+        ]
+      ],
+      "note": "서울대 2A 5과 교재 기반"
+    }
+  ]
+}

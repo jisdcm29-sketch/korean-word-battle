@@ -1,0 +1,725 @@
+{
+  "book": "1A",
+  "lesson": 5,
+  "source": "서울대 한국어 1A 학생 읽기 자료 · 5과 어휘/문법/예문/말하기 기반",
+  "questionCount": 22,
+  "questions": [
+    {
+      "id": "SNU-1A-05-001",
+      "displaySentence": "오늘이 며칠이에요?",
+      "tokens": [
+        [
+          "SNU-1A-05-001_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-1A-05-001_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-05-001_card_2",
+          "며칠"
+        ],
+        [
+          "SNU-1A-05-001_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-001_card_0",
+          "SNU-1A-05-001_card_1",
+          "SNU-1A-05-001_card_2",
+          "SNU-1A-05-001_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-002",
+      "displaySentence": "오월 구 일이에요.",
+      "tokens": [
+        [
+          "SNU-1A-05-002_card_0",
+          "오월"
+        ],
+        [
+          "SNU-1A-05-002_card_1",
+          "구"
+        ],
+        [
+          "SNU-1A-05-002_card_2",
+          "일"
+        ],
+        [
+          "SNU-1A-05-002_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-002_card_0",
+          "SNU-1A-05-002_card_1",
+          "SNU-1A-05-002_card_2",
+          "SNU-1A-05-002_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-003",
+      "displaySentence": "오늘이 무슨 요일이에요?",
+      "tokens": [
+        [
+          "SNU-1A-05-003_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-1A-05-003_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-05-003_card_2",
+          "무슨"
+        ],
+        [
+          "SNU-1A-05-003_card_3",
+          "요일"
+        ],
+        [
+          "SNU-1A-05-003_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-003_card_0",
+          "SNU-1A-05-003_card_1",
+          "SNU-1A-05-003_card_2",
+          "SNU-1A-05-003_card_3",
+          "SNU-1A-05-003_card_4"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-004",
+      "displaySentence": "유월 육 일이에요.",
+      "tokens": [
+        [
+          "SNU-1A-05-004_card_0",
+          "유월"
+        ],
+        [
+          "SNU-1A-05-004_card_1",
+          "육"
+        ],
+        [
+          "SNU-1A-05-004_card_2",
+          "일"
+        ],
+        [
+          "SNU-1A-05-004_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-004_card_0",
+          "SNU-1A-05-004_card_1",
+          "SNU-1A-05-004_card_2",
+          "SNU-1A-05-004_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-005",
+      "displaySentence": "시험이 언제예요?",
+      "tokens": [
+        [
+          "SNU-1A-05-005_card_0",
+          "시험"
+        ],
+        [
+          "SNU-1A-05-005_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-05-005_card_2",
+          "언제"
+        ],
+        [
+          "SNU-1A-05-005_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-005_card_0",
+          "SNU-1A-05-005_card_1",
+          "SNU-1A-05-005_card_2",
+          "SNU-1A-05-005_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-006",
+      "displaySentence": "팔월 이십삼 일이에요.",
+      "tokens": [
+        [
+          "SNU-1A-05-006_card_0",
+          "팔월"
+        ],
+        [
+          "SNU-1A-05-006_card_1",
+          "이십삼"
+        ],
+        [
+          "SNU-1A-05-006_card_2",
+          "일"
+        ],
+        [
+          "SNU-1A-05-006_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-006_card_0",
+          "SNU-1A-05-006_card_1",
+          "SNU-1A-05-006_card_2",
+          "SNU-1A-05-006_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-007",
+      "displaySentence": "오늘이 목요일이에요?",
+      "tokens": [
+        [
+          "SNU-1A-05-007_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-1A-05-007_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-05-007_card_2",
+          "목요일"
+        ],
+        [
+          "SNU-1A-05-007_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-007_card_0",
+          "SNU-1A-05-007_card_1",
+          "SNU-1A-05-007_card_2",
+          "SNU-1A-05-007_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-008",
+      "displaySentence": "아니요, 수요일이에요.",
+      "tokens": [
+        [
+          "SNU-1A-05-008_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-05-008_card_1",
+          "수요일"
+        ],
+        [
+          "SNU-1A-05-008_card_2",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-008_card_0",
+          "SNU-1A-05-008_card_1",
+          "SNU-1A-05-008_card_2"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-009",
+      "displaySentence": "토요일에 뭐 해요?",
+      "tokens": [
+        [
+          "SNU-1A-05-009_card_0",
+          "토요일"
+        ],
+        [
+          "SNU-1A-05-009_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-009_card_2",
+          "뭐"
+        ],
+        [
+          "SNU-1A-05-009_card_3",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-009_card_0",
+          "SNU-1A-05-009_card_1",
+          "SNU-1A-05-009_card_2",
+          "SNU-1A-05-009_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-010",
+      "displaySentence": "친구하고 영화를 봐요.",
+      "tokens": [
+        [
+          "SNU-1A-05-010_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1A-05-010_card_1",
+          "하고"
+        ],
+        [
+          "SNU-1A-05-010_card_2",
+          "영화"
+        ],
+        [
+          "SNU-1A-05-010_card_3",
+          "를"
+        ],
+        [
+          "SNU-1A-05-010_card_4",
+          "봐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-010_card_0",
+          "SNU-1A-05-010_card_1",
+          "SNU-1A-05-010_card_2",
+          "SNU-1A-05-010_card_3",
+          "SNU-1A-05-010_card_4"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-011",
+      "displaySentence": "크리스마스에 친구하고 파티를 해요.",
+      "tokens": [
+        [
+          "SNU-1A-05-011_card_0",
+          "크리스마스"
+        ],
+        [
+          "SNU-1A-05-011_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-011_card_2",
+          "친구"
+        ],
+        [
+          "SNU-1A-05-011_card_3",
+          "하고"
+        ],
+        [
+          "SNU-1A-05-011_card_4",
+          "파티"
+        ],
+        [
+          "SNU-1A-05-011_card_5",
+          "를"
+        ],
+        [
+          "SNU-1A-05-011_card_6",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-011_card_0",
+          "SNU-1A-05-011_card_1",
+          "SNU-1A-05-011_card_2",
+          "SNU-1A-05-011_card_3",
+          "SNU-1A-05-011_card_4",
+          "SNU-1A-05-011_card_5",
+          "SNU-1A-05-011_card_6"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-012",
+      "displaySentence": "월요일에 뭐 해요?",
+      "tokens": [
+        [
+          "SNU-1A-05-012_card_0",
+          "월요일"
+        ],
+        [
+          "SNU-1A-05-012_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-012_card_2",
+          "뭐"
+        ],
+        [
+          "SNU-1A-05-012_card_3",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-012_card_0",
+          "SNU-1A-05-012_card_1",
+          "SNU-1A-05-012_card_2",
+          "SNU-1A-05-012_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-013",
+      "displaySentence": "월요일에는 영어를 배워요.",
+      "tokens": [
+        [
+          "SNU-1A-05-013_card_0",
+          "월요일에"
+        ],
+        [
+          "SNU-1A-05-013_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-05-013_card_2",
+          "영어"
+        ],
+        [
+          "SNU-1A-05-013_card_3",
+          "를"
+        ],
+        [
+          "SNU-1A-05-013_card_4",
+          "배워요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-013_card_0",
+          "SNU-1A-05-013_card_1",
+          "SNU-1A-05-013_card_2",
+          "SNU-1A-05-013_card_3",
+          "SNU-1A-05-013_card_4"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-014",
+      "displaySentence": "어제 뭐 했어요?",
+      "tokens": [
+        [
+          "SNU-1A-05-014_card_0",
+          "어제"
+        ],
+        [
+          "SNU-1A-05-014_card_1",
+          "뭐"
+        ],
+        [
+          "SNU-1A-05-014_card_2",
+          "했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-014_card_0",
+          "SNU-1A-05-014_card_1",
+          "SNU-1A-05-014_card_2"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-015",
+      "displaySentence": "코엑스몰에 갔어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-015_card_0",
+          "코엑스몰"
+        ],
+        [
+          "SNU-1A-05-015_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-015_card_2",
+          "갔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-015_card_0",
+          "SNU-1A-05-015_card_1",
+          "SNU-1A-05-015_card_2"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-016",
+      "displaySentence": "친구를 만났어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-016_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1A-05-016_card_1",
+          "를"
+        ],
+        [
+          "SNU-1A-05-016_card_2",
+          "만났어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-016_card_0",
+          "SNU-1A-05-016_card_1",
+          "SNU-1A-05-016_card_2"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-017",
+      "displaySentence": "목요일에 운동했어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-017_card_0",
+          "목요일"
+        ],
+        [
+          "SNU-1A-05-017_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-017_card_2",
+          "운동했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-017_card_0",
+          "SNU-1A-05-017_card_1",
+          "SNU-1A-05-017_card_2"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-018",
+      "displaySentence": "어제 피자를 먹었어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-018_card_0",
+          "어제"
+        ],
+        [
+          "SNU-1A-05-018_card_1",
+          "피자"
+        ],
+        [
+          "SNU-1A-05-018_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-05-018_card_3",
+          "먹었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-018_card_0",
+          "SNU-1A-05-018_card_1",
+          "SNU-1A-05-018_card_2",
+          "SNU-1A-05-018_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-019",
+      "displaySentence": "주말에 뭐 했어요?",
+      "tokens": [
+        [
+          "SNU-1A-05-019_card_0",
+          "주말"
+        ],
+        [
+          "SNU-1A-05-019_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-019_card_2",
+          "뭐"
+        ],
+        [
+          "SNU-1A-05-019_card_3",
+          "했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-019_card_0",
+          "SNU-1A-05-019_card_1",
+          "SNU-1A-05-019_card_2",
+          "SNU-1A-05-019_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-020",
+      "displaySentence": "친구하고 같이 영화 보고 쇼핑했어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-020_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1A-05-020_card_1",
+          "하고"
+        ],
+        [
+          "SNU-1A-05-020_card_2",
+          "같이"
+        ],
+        [
+          "SNU-1A-05-020_card_3",
+          "영화"
+        ],
+        [
+          "SNU-1A-05-020_card_4",
+          "보고"
+        ],
+        [
+          "SNU-1A-05-020_card_5",
+          "쇼핑했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-020_card_0",
+          "SNU-1A-05-020_card_1",
+          "SNU-1A-05-020_card_2",
+          "SNU-1A-05-020_card_3",
+          "SNU-1A-05-020_card_4",
+          "SNU-1A-05-020_card_5"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-021",
+      "displaySentence": "숙제를 하고 텔레비전을 봐요.",
+      "tokens": [
+        [
+          "SNU-1A-05-021_card_0",
+          "숙제"
+        ],
+        [
+          "SNU-1A-05-021_card_1",
+          "를"
+        ],
+        [
+          "SNU-1A-05-021_card_2",
+          "하고"
+        ],
+        [
+          "SNU-1A-05-021_card_3",
+          "텔레비전"
+        ],
+        [
+          "SNU-1A-05-021_card_4",
+          "을"
+        ],
+        [
+          "SNU-1A-05-021_card_5",
+          "봐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-021_card_0",
+          "SNU-1A-05-021_card_1",
+          "SNU-1A-05-021_card_2",
+          "SNU-1A-05-021_card_3",
+          "SNU-1A-05-021_card_4",
+          "SNU-1A-05-021_card_5"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-05-022",
+      "displaySentence": "밥을 먹고 차를 마셨어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-022_card_0",
+          "밥"
+        ],
+        [
+          "SNU-1A-05-022_card_1",
+          "을"
+        ],
+        [
+          "SNU-1A-05-022_card_2",
+          "먹고"
+        ],
+        [
+          "SNU-1A-05-022_card_3",
+          "차"
+        ],
+        [
+          "SNU-1A-05-022_card_4",
+          "를"
+        ],
+        [
+          "SNU-1A-05-022_card_5",
+          "마셨어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-022_card_0",
+          "SNU-1A-05-022_card_1",
+          "SNU-1A-05-022_card_2",
+          "SNU-1A-05-022_card_3",
+          "SNU-1A-05-022_card_4",
+          "SNU-1A-05-022_card_5"
+        ]
+      ],
+      "note": "서울대 1A 5과 교재 기반"
+    }
+  ]
+}

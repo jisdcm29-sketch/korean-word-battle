@@ -1,0 +1,932 @@
+{
+  "book": "2B",
+  "lesson": 12,
+  "source": "서울대 한국어 2B 학생 읽기 자료 · 12과 어휘/문법/예문/말하기 기반",
+  "questionCount": 24,
+  "questions": [
+    {
+      "id": "SNU-2B-12-001",
+      "displaySentence": "스티븐 씨, 오늘 기분이 아주 좋아 보이네요.",
+      "tokens": [
+        [
+          "SNU-2B-12-001_card_0",
+          "스티븐"
+        ],
+        [
+          "SNU-2B-12-001_card_1",
+          "씨"
+        ],
+        [
+          "SNU-2B-12-001_card_2",
+          "오늘"
+        ],
+        [
+          "SNU-2B-12-001_card_3",
+          "기분"
+        ],
+        [
+          "SNU-2B-12-001_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-12-001_card_5",
+          "아주"
+        ],
+        [
+          "SNU-2B-12-001_card_6",
+          "좋아"
+        ],
+        [
+          "SNU-2B-12-001_card_7",
+          "보이네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-001_card_0",
+          "SNU-2B-12-001_card_1",
+          "SNU-2B-12-001_card_2",
+          "SNU-2B-12-001_card_3",
+          "SNU-2B-12-001_card_4",
+          "SNU-2B-12-001_card_5",
+          "SNU-2B-12-001_card_6",
+          "SNU-2B-12-001_card_7"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-002",
+      "displaySentence": "네, 수업 끝나고 데이트가 있어요.",
+      "tokens": [
+        [
+          "SNU-2B-12-002_card_0",
+          "네"
+        ],
+        [
+          "SNU-2B-12-002_card_1",
+          "수업"
+        ],
+        [
+          "SNU-2B-12-002_card_2",
+          "끝나고"
+        ],
+        [
+          "SNU-2B-12-002_card_3",
+          "데이트"
+        ],
+        [
+          "SNU-2B-12-002_card_4",
+          "가"
+        ],
+        [
+          "SNU-2B-12-002_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-002_card_0",
+          "SNU-2B-12-002_card_1",
+          "SNU-2B-12-002_card_2",
+          "SNU-2B-12-002_card_3",
+          "SNU-2B-12-002_card_4",
+          "SNU-2B-12-002_card_5"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-003",
+      "displaySentence": "치마가 너무 짧아 보여요.",
+      "tokens": [
+        [
+          "SNU-2B-12-003_card_0",
+          "치마"
+        ],
+        [
+          "SNU-2B-12-003_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-12-003_card_2",
+          "너무"
+        ],
+        [
+          "SNU-2B-12-003_card_3",
+          "짧아"
+        ],
+        [
+          "SNU-2B-12-003_card_4",
+          "보여요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-003_card_0",
+          "SNU-2B-12-003_card_1",
+          "SNU-2B-12-003_card_2",
+          "SNU-2B-12-003_card_3",
+          "SNU-2B-12-003_card_4"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-004",
+      "displaySentence": "저 신발이 편해 보여요.",
+      "tokens": [
+        [
+          "SNU-2B-12-004_card_0",
+          "저"
+        ],
+        [
+          "SNU-2B-12-004_card_1",
+          "신발"
+        ],
+        [
+          "SNU-2B-12-004_card_2",
+          "이"
+        ],
+        [
+          "SNU-2B-12-004_card_3",
+          "편해"
+        ],
+        [
+          "SNU-2B-12-004_card_4",
+          "보여요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-004_card_0",
+          "SNU-2B-12-004_card_1",
+          "SNU-2B-12-004_card_2",
+          "SNU-2B-12-004_card_3",
+          "SNU-2B-12-004_card_4"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-005",
+      "displaySentence": "가방이 무거워 보이는데 제가 들어 드릴까요?",
+      "tokens": [
+        [
+          "SNU-2B-12-005_card_0",
+          "가방"
+        ],
+        [
+          "SNU-2B-12-005_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-12-005_card_2",
+          "무거워"
+        ],
+        [
+          "SNU-2B-12-005_card_3",
+          "보이는데"
+        ],
+        [
+          "SNU-2B-12-005_card_4",
+          "제"
+        ],
+        [
+          "SNU-2B-12-005_card_5",
+          "가"
+        ],
+        [
+          "SNU-2B-12-005_card_6",
+          "들어"
+        ],
+        [
+          "SNU-2B-12-005_card_7",
+          "드릴까요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-005_card_0",
+          "SNU-2B-12-005_card_1",
+          "SNU-2B-12-005_card_2",
+          "SNU-2B-12-005_card_3",
+          "SNU-2B-12-005_card_4",
+          "SNU-2B-12-005_card_5",
+          "SNU-2B-12-005_card_6",
+          "SNU-2B-12-005_card_7"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-006",
+      "displaySentence": "이 사람은 누구예요?",
+      "tokens": [
+        [
+          "SNU-2B-12-006_card_0",
+          "이"
+        ],
+        [
+          "SNU-2B-12-006_card_1",
+          "사람"
+        ],
+        [
+          "SNU-2B-12-006_card_2",
+          "은"
+        ],
+        [
+          "SNU-2B-12-006_card_3",
+          "누구"
+        ],
+        [
+          "SNU-2B-12-006_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-006_card_0",
+          "SNU-2B-12-006_card_1",
+          "SNU-2B-12-006_card_2",
+          "SNU-2B-12-006_card_3",
+          "SNU-2B-12-006_card_4"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-007",
+      "displaySentence": "제일 친한 친구예요.",
+      "tokens": [
+        [
+          "SNU-2B-12-007_card_0",
+          "제일"
+        ],
+        [
+          "SNU-2B-12-007_card_1",
+          "친한"
+        ],
+        [
+          "SNU-2B-12-007_card_2",
+          "친구"
+        ],
+        [
+          "SNU-2B-12-007_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-007_card_0",
+          "SNU-2B-12-007_card_1",
+          "SNU-2B-12-007_card_2",
+          "SNU-2B-12-007_card_3"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-008",
+      "displaySentence": "어릴 때부터 가족처럼 지냈어요.",
+      "tokens": [
+        [
+          "SNU-2B-12-008_card_0",
+          "어릴"
+        ],
+        [
+          "SNU-2B-12-008_card_1",
+          "때"
+        ],
+        [
+          "SNU-2B-12-008_card_2",
+          "부터"
+        ],
+        [
+          "SNU-2B-12-008_card_3",
+          "가족"
+        ],
+        [
+          "SNU-2B-12-008_card_4",
+          "처럼"
+        ],
+        [
+          "SNU-2B-12-008_card_5",
+          "지냈어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-008_card_0",
+          "SNU-2B-12-008_card_1",
+          "SNU-2B-12-008_card_2",
+          "SNU-2B-12-008_card_3",
+          "SNU-2B-12-008_card_4",
+          "SNU-2B-12-008_card_5"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-009",
+      "displaySentence": "켈리 씨는 가수처럼 노래를 잘해요.",
+      "tokens": [
+        [
+          "SNU-2B-12-009_card_0",
+          "켈리 씨"
+        ],
+        [
+          "SNU-2B-12-009_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-12-009_card_2",
+          "가수"
+        ],
+        [
+          "SNU-2B-12-009_card_3",
+          "처럼"
+        ],
+        [
+          "SNU-2B-12-009_card_4",
+          "노래"
+        ],
+        [
+          "SNU-2B-12-009_card_5",
+          "를"
+        ],
+        [
+          "SNU-2B-12-009_card_6",
+          "잘해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-009_card_0",
+          "SNU-2B-12-009_card_1",
+          "SNU-2B-12-009_card_2",
+          "SNU-2B-12-009_card_3",
+          "SNU-2B-12-009_card_4",
+          "SNU-2B-12-009_card_5",
+          "SNU-2B-12-009_card_6"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-010",
+      "displaySentence": "제 동생은 열 살인데 어른같이 말해요.",
+      "tokens": [
+        [
+          "SNU-2B-12-010_card_0",
+          "제"
+        ],
+        [
+          "SNU-2B-12-010_card_1",
+          "동생"
+        ],
+        [
+          "SNU-2B-12-010_card_2",
+          "은"
+        ],
+        [
+          "SNU-2B-12-010_card_3",
+          "열"
+        ],
+        [
+          "SNU-2B-12-010_card_4",
+          "살인데"
+        ],
+        [
+          "SNU-2B-12-010_card_5",
+          "어른같"
+        ],
+        [
+          "SNU-2B-12-010_card_6",
+          "이"
+        ],
+        [
+          "SNU-2B-12-010_card_7",
+          "말해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-010_card_0",
+          "SNU-2B-12-010_card_1",
+          "SNU-2B-12-010_card_2",
+          "SNU-2B-12-010_card_3",
+          "SNU-2B-12-010_card_4",
+          "SNU-2B-12-010_card_5",
+          "SNU-2B-12-010_card_6",
+          "SNU-2B-12-010_card_7"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-011",
+      "displaySentence": "나나 씨는 성격이 어때요?",
+      "tokens": [
+        [
+          "SNU-2B-12-011_card_0",
+          "나나 씨"
+        ],
+        [
+          "SNU-2B-12-011_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-12-011_card_2",
+          "성격"
+        ],
+        [
+          "SNU-2B-12-011_card_3",
+          "이"
+        ],
+        [
+          "SNU-2B-12-011_card_4",
+          "어때요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-011_card_0",
+          "SNU-2B-12-011_card_1",
+          "SNU-2B-12-011_card_2",
+          "SNU-2B-12-011_card_3",
+          "SNU-2B-12-011_card_4"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-012",
+      "displaySentence": "여성적이고 조용한 편이에요.",
+      "tokens": [
+        [
+          "SNU-2B-12-012_card_0",
+          "여성적이고"
+        ],
+        [
+          "SNU-2B-12-012_card_1",
+          "조용한"
+        ],
+        [
+          "SNU-2B-12-012_card_2",
+          "편"
+        ],
+        [
+          "SNU-2B-12-012_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-012_card_0",
+          "SNU-2B-12-012_card_1",
+          "SNU-2B-12-012_card_2",
+          "SNU-2B-12-012_card_3"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-013",
+      "displaySentence": "제 동생은 좀 마른 편이에요.",
+      "tokens": [
+        [
+          "SNU-2B-12-013_card_0",
+          "제"
+        ],
+        [
+          "SNU-2B-12-013_card_1",
+          "동생"
+        ],
+        [
+          "SNU-2B-12-013_card_2",
+          "은"
+        ],
+        [
+          "SNU-2B-12-013_card_3",
+          "좀"
+        ],
+        [
+          "SNU-2B-12-013_card_4",
+          "마른"
+        ],
+        [
+          "SNU-2B-12-013_card_5",
+          "편"
+        ],
+        [
+          "SNU-2B-12-013_card_6",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-013_card_0",
+          "SNU-2B-12-013_card_1",
+          "SNU-2B-12-013_card_2",
+          "SNU-2B-12-013_card_3",
+          "SNU-2B-12-013_card_4",
+          "SNU-2B-12-013_card_5",
+          "SNU-2B-12-013_card_6"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-014",
+      "displaySentence": "이 식당은 사람이 많은 편이에요.",
+      "tokens": [
+        [
+          "SNU-2B-12-014_card_0",
+          "이"
+        ],
+        [
+          "SNU-2B-12-014_card_1",
+          "식당"
+        ],
+        [
+          "SNU-2B-12-014_card_2",
+          "은"
+        ],
+        [
+          "SNU-2B-12-014_card_3",
+          "사람"
+        ],
+        [
+          "SNU-2B-12-014_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-12-014_card_5",
+          "많은"
+        ],
+        [
+          "SNU-2B-12-014_card_6",
+          "편"
+        ],
+        [
+          "SNU-2B-12-014_card_7",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-014_card_0",
+          "SNU-2B-12-014_card_1",
+          "SNU-2B-12-014_card_2",
+          "SNU-2B-12-014_card_3",
+          "SNU-2B-12-014_card_4",
+          "SNU-2B-12-014_card_5",
+          "SNU-2B-12-014_card_6",
+          "SNU-2B-12-014_card_7"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-015",
+      "displaySentence": "저는 매운 음식을 잘 먹는 편이에요.",
+      "tokens": [
+        [
+          "SNU-2B-12-015_card_0",
+          "저"
+        ],
+        [
+          "SNU-2B-12-015_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-12-015_card_2",
+          "매운"
+        ],
+        [
+          "SNU-2B-12-015_card_3",
+          "음식"
+        ],
+        [
+          "SNU-2B-12-015_card_4",
+          "을"
+        ],
+        [
+          "SNU-2B-12-015_card_5",
+          "잘"
+        ],
+        [
+          "SNU-2B-12-015_card_6",
+          "먹는"
+        ],
+        [
+          "SNU-2B-12-015_card_7",
+          "편"
+        ],
+        [
+          "SNU-2B-12-015_card_8",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-015_card_0",
+          "SNU-2B-12-015_card_1",
+          "SNU-2B-12-015_card_2",
+          "SNU-2B-12-015_card_3",
+          "SNU-2B-12-015_card_4",
+          "SNU-2B-12-015_card_5",
+          "SNU-2B-12-015_card_6",
+          "SNU-2B-12-015_card_7",
+          "SNU-2B-12-015_card_8"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-016",
+      "displaySentence": "머리를 잘랐네요?",
+      "tokens": [
+        [
+          "SNU-2B-12-016_card_0",
+          "머리"
+        ],
+        [
+          "SNU-2B-12-016_card_1",
+          "를"
+        ],
+        [
+          "SNU-2B-12-016_card_2",
+          "잘랐네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-016_card_0",
+          "SNU-2B-12-016_card_1",
+          "SNU-2B-12-016_card_2"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-017",
+      "displaySentence": "네, 더워서 짧게 잘랐어요.",
+      "tokens": [
+        [
+          "SNU-2B-12-017_card_0",
+          "네"
+        ],
+        [
+          "SNU-2B-12-017_card_1",
+          "더워서"
+        ],
+        [
+          "SNU-2B-12-017_card_2",
+          "짧게"
+        ],
+        [
+          "SNU-2B-12-017_card_3",
+          "잘랐어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-017_card_0",
+          "SNU-2B-12-017_card_1",
+          "SNU-2B-12-017_card_2",
+          "SNU-2B-12-017_card_3"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-018",
+      "displaySentence": "오늘 데이트가 있어서 예쁘게 입었어요.",
+      "tokens": [
+        [
+          "SNU-2B-12-018_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-2B-12-018_card_1",
+          "데이트"
+        ],
+        [
+          "SNU-2B-12-018_card_2",
+          "가"
+        ],
+        [
+          "SNU-2B-12-018_card_3",
+          "있어서"
+        ],
+        [
+          "SNU-2B-12-018_card_4",
+          "예쁘게"
+        ],
+        [
+          "SNU-2B-12-018_card_5",
+          "입었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-018_card_0",
+          "SNU-2B-12-018_card_1",
+          "SNU-2B-12-018_card_2",
+          "SNU-2B-12-018_card_3",
+          "SNU-2B-12-018_card_4",
+          "SNU-2B-12-018_card_5"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-019",
+      "displaySentence": "주말에 친구들과 재미있게 놀았어요.",
+      "tokens": [
+        [
+          "SNU-2B-12-019_card_0",
+          "주말"
+        ],
+        [
+          "SNU-2B-12-019_card_1",
+          "에"
+        ],
+        [
+          "SNU-2B-12-019_card_2",
+          "친구들"
+        ],
+        [
+          "SNU-2B-12-019_card_3",
+          "과"
+        ],
+        [
+          "SNU-2B-12-019_card_4",
+          "재미있게"
+        ],
+        [
+          "SNU-2B-12-019_card_5",
+          "놀았어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-019_card_0",
+          "SNU-2B-12-019_card_1",
+          "SNU-2B-12-019_card_2",
+          "SNU-2B-12-019_card_3",
+          "SNU-2B-12-019_card_4",
+          "SNU-2B-12-019_card_5"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-020",
+      "displaySentence": "여기가 내 방이야.",
+      "tokens": [
+        [
+          "SNU-2B-12-020_card_0",
+          "여기"
+        ],
+        [
+          "SNU-2B-12-020_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-12-020_card_2",
+          "내"
+        ],
+        [
+          "SNU-2B-12-020_card_3",
+          "방이야"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-020_card_0",
+          "SNU-2B-12-020_card_1",
+          "SNU-2B-12-020_card_2",
+          "SNU-2B-12-020_card_3"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-021",
+      "displaySentence": "책이 많네요.",
+      "tokens": [
+        [
+          "SNU-2B-12-021_card_0",
+          "책"
+        ],
+        [
+          "SNU-2B-12-021_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-12-021_card_2",
+          "많네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-021_card_0",
+          "SNU-2B-12-021_card_1",
+          "SNU-2B-12-021_card_2"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-022",
+      "displaySentence": "이건 친구들 사진이에요?",
+      "tokens": [
+        [
+          "SNU-2B-12-022_card_0",
+          "이건"
+        ],
+        [
+          "SNU-2B-12-022_card_1",
+          "친구들"
+        ],
+        [
+          "SNU-2B-12-022_card_2",
+          "사진"
+        ],
+        [
+          "SNU-2B-12-022_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-022_card_0",
+          "SNU-2B-12-022_card_1",
+          "SNU-2B-12-022_card_2",
+          "SNU-2B-12-022_card_3"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-023",
+      "displaySentence": "작년 크리스마스 때 찍었어.",
+      "tokens": [
+        [
+          "SNU-2B-12-023_card_0",
+          "작년"
+        ],
+        [
+          "SNU-2B-12-023_card_1",
+          "크리스마스"
+        ],
+        [
+          "SNU-2B-12-023_card_2",
+          "때"
+        ],
+        [
+          "SNU-2B-12-023_card_3",
+          "찍었어"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-023_card_0",
+          "SNU-2B-12-023_card_1",
+          "SNU-2B-12-023_card_2",
+          "SNU-2B-12-023_card_3"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-12-024",
+      "displaySentence": "참 즐거워 보여요.",
+      "tokens": [
+        [
+          "SNU-2B-12-024_card_0",
+          "참"
+        ],
+        [
+          "SNU-2B-12-024_card_1",
+          "즐거워"
+        ],
+        [
+          "SNU-2B-12-024_card_2",
+          "보여요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-12-024_card_0",
+          "SNU-2B-12-024_card_1",
+          "SNU-2B-12-024_card_2"
+        ]
+      ],
+      "note": "서울대 2B 12과 교재 기반"
+    }
+  ]
+}

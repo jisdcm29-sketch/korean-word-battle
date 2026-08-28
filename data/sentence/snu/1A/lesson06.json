@@ -1,0 +1,722 @@
+{
+  "book": "1A",
+  "lesson": 6,
+  "source": "서울대 한국어 1A 학생 읽기 자료 · 6과 어휘/문법/예문/말하기 기반",
+  "questionCount": 24,
+  "questions": [
+    {
+      "id": "SNU-1A-06-001",
+      "displaySentence": "숙제를 하고 텔레비전을 보세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-001_card_0",
+          "숙제"
+        ],
+        [
+          "SNU-1A-06-001_card_1",
+          "를"
+        ],
+        [
+          "SNU-1A-06-001_card_2",
+          "하고"
+        ],
+        [
+          "SNU-1A-06-001_card_3",
+          "텔레비전"
+        ],
+        [
+          "SNU-1A-06-001_card_4",
+          "을"
+        ],
+        [
+          "SNU-1A-06-001_card_5",
+          "보세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-001_card_0",
+          "SNU-1A-06-001_card_1",
+          "SNU-1A-06-001_card_2",
+          "SNU-1A-06-001_card_3",
+          "SNU-1A-06-001_card_4",
+          "SNU-1A-06-001_card_5"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-002",
+      "displaySentence": "책을 좀 읽으세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-002_card_0",
+          "책"
+        ],
+        [
+          "SNU-1A-06-002_card_1",
+          "을"
+        ],
+        [
+          "SNU-1A-06-002_card_2",
+          "좀"
+        ],
+        [
+          "SNU-1A-06-002_card_3",
+          "읽으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-002_card_0",
+          "SNU-1A-06-002_card_1",
+          "SNU-1A-06-002_card_2",
+          "SNU-1A-06-002_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-003",
+      "displaySentence": "비빔밥 두 그릇 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-003_card_0",
+          "비빔밥"
+        ],
+        [
+          "SNU-1A-06-003_card_1",
+          "두"
+        ],
+        [
+          "SNU-1A-06-003_card_2",
+          "그릇"
+        ],
+        [
+          "SNU-1A-06-003_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-003_card_0",
+          "SNU-1A-06-003_card_1",
+          "SNU-1A-06-003_card_2",
+          "SNU-1A-06-003_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-004",
+      "displaySentence": "네, 잠깐만 기다리세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-004_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-06-004_card_1",
+          "잠깐"
+        ],
+        [
+          "SNU-1A-06-004_card_2",
+          "만"
+        ],
+        [
+          "SNU-1A-06-004_card_3",
+          "기다리세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-004_card_0",
+          "SNU-1A-06-004_card_1",
+          "SNU-1A-06-004_card_2",
+          "SNU-1A-06-004_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-005",
+      "displaySentence": "빵 한 개 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-005_card_0",
+          "빵"
+        ],
+        [
+          "SNU-1A-06-005_card_1",
+          "한"
+        ],
+        [
+          "SNU-1A-06-005_card_2",
+          "개"
+        ],
+        [
+          "SNU-1A-06-005_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-005_card_0",
+          "SNU-1A-06-005_card_1",
+          "SNU-1A-06-005_card_2",
+          "SNU-1A-06-005_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-006",
+      "displaySentence": "콜라 몇 병 샀어요?",
+      "tokens": [
+        [
+          "SNU-1A-06-006_card_0",
+          "콜라"
+        ],
+        [
+          "SNU-1A-06-006_card_1",
+          "몇"
+        ],
+        [
+          "SNU-1A-06-006_card_2",
+          "병"
+        ],
+        [
+          "SNU-1A-06-006_card_3",
+          "샀어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-006_card_0",
+          "SNU-1A-06-006_card_1",
+          "SNU-1A-06-006_card_2",
+          "SNU-1A-06-006_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-007",
+      "displaySentence": "두 병 샀어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-007_card_0",
+          "두"
+        ],
+        [
+          "SNU-1A-06-007_card_1",
+          "병"
+        ],
+        [
+          "SNU-1A-06-007_card_2",
+          "샀어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-007_card_0",
+          "SNU-1A-06-007_card_1",
+          "SNU-1A-06-007_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-008",
+      "displaySentence": "오늘 커피를 세 잔 마셨어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-008_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-1A-06-008_card_1",
+          "커피"
+        ],
+        [
+          "SNU-1A-06-008_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-06-008_card_3",
+          "세"
+        ],
+        [
+          "SNU-1A-06-008_card_4",
+          "잔"
+        ],
+        [
+          "SNU-1A-06-008_card_5",
+          "마셨어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-008_card_0",
+          "SNU-1A-06-008_card_1",
+          "SNU-1A-06-008_card_2",
+          "SNU-1A-06-008_card_3",
+          "SNU-1A-06-008_card_4",
+          "SNU-1A-06-008_card_5"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-009",
+      "displaySentence": "냉면 네 그릇 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-009_card_0",
+          "냉면"
+        ],
+        [
+          "SNU-1A-06-009_card_1",
+          "네"
+        ],
+        [
+          "SNU-1A-06-009_card_2",
+          "그릇"
+        ],
+        [
+          "SNU-1A-06-009_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-009_card_0",
+          "SNU-1A-06-009_card_1",
+          "SNU-1A-06-009_card_2",
+          "SNU-1A-06-009_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-010",
+      "displaySentence": "뭐가 맛있어요?",
+      "tokens": [
+        [
+          "SNU-1A-06-010_card_0",
+          "뭐"
+        ],
+        [
+          "SNU-1A-06-010_card_1",
+          "가"
+        ],
+        [
+          "SNU-1A-06-010_card_2",
+          "맛있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-010_card_0",
+          "SNU-1A-06-010_card_1",
+          "SNU-1A-06-010_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-011",
+      "displaySentence": "수박이 맛있어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-011_card_0",
+          "수박"
+        ],
+        [
+          "SNU-1A-06-011_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-06-011_card_2",
+          "맛있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-011_card_0",
+          "SNU-1A-06-011_card_1",
+          "SNU-1A-06-011_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-012",
+      "displaySentence": "오렌지가 싸요.",
+      "tokens": [
+        [
+          "SNU-1A-06-012_card_0",
+          "오렌지"
+        ],
+        [
+          "SNU-1A-06-012_card_1",
+          "가"
+        ],
+        [
+          "SNU-1A-06-012_card_2",
+          "싸요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-012_card_0",
+          "SNU-1A-06-012_card_1",
+          "SNU-1A-06-012_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-013",
+      "displaySentence": "학교가 좋아요.",
+      "tokens": [
+        [
+          "SNU-1A-06-013_card_0",
+          "학교"
+        ],
+        [
+          "SNU-1A-06-013_card_1",
+          "가"
+        ],
+        [
+          "SNU-1A-06-013_card_2",
+          "좋아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-013_card_0",
+          "SNU-1A-06-013_card_1",
+          "SNU-1A-06-013_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-014",
+      "displaySentence": "길이 복잡해요.",
+      "tokens": [
+        [
+          "SNU-1A-06-014_card_0",
+          "길"
+        ],
+        [
+          "SNU-1A-06-014_card_1",
+          "이"
+        ],
+        [
+          "SNU-1A-06-014_card_2",
+          "복잡해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-014_card_0",
+          "SNU-1A-06-014_card_1",
+          "SNU-1A-06-014_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-015",
+      "displaySentence": "무슨 음식이 맛있어요?",
+      "tokens": [
+        [
+          "SNU-1A-06-015_card_0",
+          "무슨"
+        ],
+        [
+          "SNU-1A-06-015_card_1",
+          "음식"
+        ],
+        [
+          "SNU-1A-06-015_card_2",
+          "이"
+        ],
+        [
+          "SNU-1A-06-015_card_3",
+          "맛있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-015_card_0",
+          "SNU-1A-06-015_card_1",
+          "SNU-1A-06-015_card_2",
+          "SNU-1A-06-015_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-016",
+      "displaySentence": "오렌지 좀 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-016_card_0",
+          "오렌지"
+        ],
+        [
+          "SNU-1A-06-016_card_1",
+          "좀"
+        ],
+        [
+          "SNU-1A-06-016_card_2",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-016_card_0",
+          "SNU-1A-06-016_card_1",
+          "SNU-1A-06-016_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-017",
+      "displaySentence": "그리고 사과도 주세요.",
+      "tokens": [
+        [
+          "SNU-1A-06-017_card_0",
+          "그리고"
+        ],
+        [
+          "SNU-1A-06-017_card_1",
+          "사과"
+        ],
+        [
+          "SNU-1A-06-017_card_2",
+          "도"
+        ],
+        [
+          "SNU-1A-06-017_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-017_card_0",
+          "SNU-1A-06-017_card_1",
+          "SNU-1A-06-017_card_2",
+          "SNU-1A-06-017_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-018",
+      "displaySentence": "네, 여기 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-018_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-06-018_card_1",
+          "여기"
+        ],
+        [
+          "SNU-1A-06-018_card_2",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-018_card_0",
+          "SNU-1A-06-018_card_1",
+          "SNU-1A-06-018_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-019",
+      "displaySentence": "저는 학생이에요.",
+      "tokens": [
+        [
+          "SNU-1A-06-019_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-06-019_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-06-019_card_2",
+          "학생"
+        ],
+        [
+          "SNU-1A-06-019_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-019_card_0",
+          "SNU-1A-06-019_card_1",
+          "SNU-1A-06-019_card_2",
+          "SNU-1A-06-019_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-020",
+      "displaySentence": "켈리 씨도 학생이에요.",
+      "tokens": [
+        [
+          "SNU-1A-06-020_card_0",
+          "켈리 씨"
+        ],
+        [
+          "SNU-1A-06-020_card_1",
+          "도"
+        ],
+        [
+          "SNU-1A-06-020_card_2",
+          "학생"
+        ],
+        [
+          "SNU-1A-06-020_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-020_card_0",
+          "SNU-1A-06-020_card_1",
+          "SNU-1A-06-020_card_2",
+          "SNU-1A-06-020_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-021",
+      "displaySentence": "불고기가 맛있어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-021_card_0",
+          "불고기"
+        ],
+        [
+          "SNU-1A-06-021_card_1",
+          "가"
+        ],
+        [
+          "SNU-1A-06-021_card_2",
+          "맛있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-021_card_0",
+          "SNU-1A-06-021_card_1",
+          "SNU-1A-06-021_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-022",
+      "displaySentence": "냉면도 맛있어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-022_card_0",
+          "냉면"
+        ],
+        [
+          "SNU-1A-06-022_card_1",
+          "도"
+        ],
+        [
+          "SNU-1A-06-022_card_2",
+          "맛있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-022_card_0",
+          "SNU-1A-06-022_card_1",
+          "SNU-1A-06-022_card_2"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-023",
+      "displaySentence": "어제 바지를 샀어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-023_card_0",
+          "어제"
+        ],
+        [
+          "SNU-1A-06-023_card_1",
+          "바지"
+        ],
+        [
+          "SNU-1A-06-023_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-06-023_card_3",
+          "샀어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-023_card_0",
+          "SNU-1A-06-023_card_1",
+          "SNU-1A-06-023_card_2",
+          "SNU-1A-06-023_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-06-024",
+      "displaySentence": "그리고 운동화도 샀어요.",
+      "tokens": [
+        [
+          "SNU-1A-06-024_card_0",
+          "그리고"
+        ],
+        [
+          "SNU-1A-06-024_card_1",
+          "운동화"
+        ],
+        [
+          "SNU-1A-06-024_card_2",
+          "도"
+        ],
+        [
+          "SNU-1A-06-024_card_3",
+          "샀어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-06-024_card_0",
+          "SNU-1A-06-024_card_1",
+          "SNU-1A-06-024_card_2",
+          "SNU-1A-06-024_card_3"
+        ]
+      ],
+      "note": "서울대 1A 6과 교재 기반"
+    }
+  ]
+}

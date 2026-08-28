@@ -1,0 +1,834 @@
+{
+  "book": "2A",
+  "lesson": 4,
+  "source": "서울대 한국어 2A 학생 읽기 자료 · 4과 어휘/문법/예문/말하기 기반",
+  "questionCount": 21,
+  "questions": [
+    {
+      "id": "SNU-2A-04-001",
+      "displaySentence": "준호는 지금 뭐 해요?",
+      "tokens": [
+        [
+          "SNU-2A-04-001_card_0",
+          "준호"
+        ],
+        [
+          "SNU-2A-04-001_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-04-001_card_2",
+          "지금"
+        ],
+        [
+          "SNU-2A-04-001_card_3",
+          "뭐"
+        ],
+        [
+          "SNU-2A-04-001_card_4",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-001_card_0",
+          "SNU-2A-04-001_card_1",
+          "SNU-2A-04-001_card_2",
+          "SNU-2A-04-001_card_3",
+          "SNU-2A-04-001_card_4"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-002",
+      "displaySentence": "공부하는 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2A-04-002_card_0",
+          "공부하는"
+        ],
+        [
+          "SNU-2A-04-002_card_1",
+          "것"
+        ],
+        [
+          "SNU-2A-04-002_card_2",
+          "같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-002_card_0",
+          "SNU-2A-04-002_card_1",
+          "SNU-2A-04-002_card_2"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-003",
+      "displaySentence": "유진 씨가 오늘 기분이 좋은 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2A-04-003_card_0",
+          "유진 씨"
+        ],
+        [
+          "SNU-2A-04-003_card_1",
+          "가"
+        ],
+        [
+          "SNU-2A-04-003_card_2",
+          "오늘"
+        ],
+        [
+          "SNU-2A-04-003_card_3",
+          "기분"
+        ],
+        [
+          "SNU-2A-04-003_card_4",
+          "이"
+        ],
+        [
+          "SNU-2A-04-003_card_5",
+          "좋은"
+        ],
+        [
+          "SNU-2A-04-003_card_6",
+          "것"
+        ],
+        [
+          "SNU-2A-04-003_card_7",
+          "같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-003_card_0",
+          "SNU-2A-04-003_card_1",
+          "SNU-2A-04-003_card_2",
+          "SNU-2A-04-003_card_3",
+          "SNU-2A-04-003_card_4",
+          "SNU-2A-04-003_card_5",
+          "SNU-2A-04-003_card_6",
+          "SNU-2A-04-003_card_7"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-004",
+      "displaySentence": "지금 밖에 비가 오는 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2A-04-004_card_0",
+          "지금"
+        ],
+        [
+          "SNU-2A-04-004_card_1",
+          "밖"
+        ],
+        [
+          "SNU-2A-04-004_card_2",
+          "에"
+        ],
+        [
+          "SNU-2A-04-004_card_3",
+          "비"
+        ],
+        [
+          "SNU-2A-04-004_card_4",
+          "가"
+        ],
+        [
+          "SNU-2A-04-004_card_5",
+          "오는"
+        ],
+        [
+          "SNU-2A-04-004_card_6",
+          "것"
+        ],
+        [
+          "SNU-2A-04-004_card_7",
+          "같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-004_card_0",
+          "SNU-2A-04-004_card_1",
+          "SNU-2A-04-004_card_2",
+          "SNU-2A-04-004_card_3",
+          "SNU-2A-04-004_card_4",
+          "SNU-2A-04-004_card_5",
+          "SNU-2A-04-004_card_6",
+          "SNU-2A-04-004_card_7"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-005",
+      "displaySentence": "저 사람은 우리 학교 학생인 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2A-04-005_card_0",
+          "저"
+        ],
+        [
+          "SNU-2A-04-005_card_1",
+          "사람"
+        ],
+        [
+          "SNU-2A-04-005_card_2",
+          "은"
+        ],
+        [
+          "SNU-2A-04-005_card_3",
+          "우리"
+        ],
+        [
+          "SNU-2A-04-005_card_4",
+          "학교"
+        ],
+        [
+          "SNU-2A-04-005_card_5",
+          "학생인"
+        ],
+        [
+          "SNU-2A-04-005_card_6",
+          "것"
+        ],
+        [
+          "SNU-2A-04-005_card_7",
+          "같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-005_card_0",
+          "SNU-2A-04-005_card_1",
+          "SNU-2A-04-005_card_2",
+          "SNU-2A-04-005_card_3",
+          "SNU-2A-04-005_card_4",
+          "SNU-2A-04-005_card_5",
+          "SNU-2A-04-005_card_6",
+          "SNU-2A-04-005_card_7"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-006",
+      "displaySentence": "이 치마보다 더 밝은 색은 없어요?",
+      "tokens": [
+        [
+          "SNU-2A-04-006_card_0",
+          "이"
+        ],
+        [
+          "SNU-2A-04-006_card_1",
+          "치마"
+        ],
+        [
+          "SNU-2A-04-006_card_2",
+          "보다"
+        ],
+        [
+          "SNU-2A-04-006_card_3",
+          "더"
+        ],
+        [
+          "SNU-2A-04-006_card_4",
+          "밝"
+        ],
+        [
+          "SNU-2A-04-006_card_5",
+          "은"
+        ],
+        [
+          "SNU-2A-04-006_card_6",
+          "색"
+        ],
+        [
+          "SNU-2A-04-006_card_7",
+          "은"
+        ],
+        [
+          "SNU-2A-04-006_card_8",
+          "없어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-006_card_0",
+          "SNU-2A-04-006_card_1",
+          "SNU-2A-04-006_card_2",
+          "SNU-2A-04-006_card_3",
+          "SNU-2A-04-006_card_4",
+          "SNU-2A-04-006_card_5",
+          "SNU-2A-04-006_card_6",
+          "SNU-2A-04-006_card_7",
+          "SNU-2A-04-006_card_8"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-007",
+      "displaySentence": "잠깐만 기다려 주세요.",
+      "tokens": [
+        [
+          "SNU-2A-04-007_card_0",
+          "잠깐"
+        ],
+        [
+          "SNU-2A-04-007_card_1",
+          "만"
+        ],
+        [
+          "SNU-2A-04-007_card_2",
+          "기다려"
+        ],
+        [
+          "SNU-2A-04-007_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-007_card_0",
+          "SNU-2A-04-007_card_1",
+          "SNU-2A-04-007_card_2",
+          "SNU-2A-04-007_card_3"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-008",
+      "displaySentence": "구두보다 운동화가 더 편해요.",
+      "tokens": [
+        [
+          "SNU-2A-04-008_card_0",
+          "구두"
+        ],
+        [
+          "SNU-2A-04-008_card_1",
+          "보다"
+        ],
+        [
+          "SNU-2A-04-008_card_2",
+          "운동화"
+        ],
+        [
+          "SNU-2A-04-008_card_3",
+          "가"
+        ],
+        [
+          "SNU-2A-04-008_card_4",
+          "더"
+        ],
+        [
+          "SNU-2A-04-008_card_5",
+          "편해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-008_card_0",
+          "SNU-2A-04-008_card_1",
+          "SNU-2A-04-008_card_2",
+          "SNU-2A-04-008_card_3",
+          "SNU-2A-04-008_card_4",
+          "SNU-2A-04-008_card_5"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-009",
+      "displaySentence": "저는 여름보다 겨울을 더 좋아해요.",
+      "tokens": [
+        [
+          "SNU-2A-04-009_card_0",
+          "저"
+        ],
+        [
+          "SNU-2A-04-009_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-04-009_card_2",
+          "여름"
+        ],
+        [
+          "SNU-2A-04-009_card_3",
+          "보다"
+        ],
+        [
+          "SNU-2A-04-009_card_4",
+          "겨울"
+        ],
+        [
+          "SNU-2A-04-009_card_5",
+          "을"
+        ],
+        [
+          "SNU-2A-04-009_card_6",
+          "더"
+        ],
+        [
+          "SNU-2A-04-009_card_7",
+          "좋아해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-009_card_0",
+          "SNU-2A-04-009_card_1",
+          "SNU-2A-04-009_card_2",
+          "SNU-2A-04-009_card_3",
+          "SNU-2A-04-009_card_4",
+          "SNU-2A-04-009_card_5",
+          "SNU-2A-04-009_card_6",
+          "SNU-2A-04-009_card_7"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-010",
+      "displaySentence": "이 구두는 어떠세요?",
+      "tokens": [
+        [
+          "SNU-2A-04-010_card_0",
+          "이"
+        ],
+        [
+          "SNU-2A-04-010_card_1",
+          "구두"
+        ],
+        [
+          "SNU-2A-04-010_card_2",
+          "는"
+        ],
+        [
+          "SNU-2A-04-010_card_3",
+          "어떠세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-010_card_0",
+          "SNU-2A-04-010_card_1",
+          "SNU-2A-04-010_card_2",
+          "SNU-2A-04-010_card_3"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-011",
+      "displaySentence": "디자인은 좋은데 발이 좀 불편해요.",
+      "tokens": [
+        [
+          "SNU-2A-04-011_card_0",
+          "디자인"
+        ],
+        [
+          "SNU-2A-04-011_card_1",
+          "은"
+        ],
+        [
+          "SNU-2A-04-011_card_2",
+          "좋은데"
+        ],
+        [
+          "SNU-2A-04-011_card_3",
+          "발"
+        ],
+        [
+          "SNU-2A-04-011_card_4",
+          "이"
+        ],
+        [
+          "SNU-2A-04-011_card_5",
+          "좀"
+        ],
+        [
+          "SNU-2A-04-011_card_6",
+          "불편해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-011_card_0",
+          "SNU-2A-04-011_card_1",
+          "SNU-2A-04-011_card_2",
+          "SNU-2A-04-011_card_3",
+          "SNU-2A-04-011_card_4",
+          "SNU-2A-04-011_card_5",
+          "SNU-2A-04-011_card_6"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-012",
+      "displaySentence": "사이즈가 좀 더 컸으면 좋겠어요.",
+      "tokens": [
+        [
+          "SNU-2A-04-012_card_0",
+          "사이즈"
+        ],
+        [
+          "SNU-2A-04-012_card_1",
+          "가"
+        ],
+        [
+          "SNU-2A-04-012_card_2",
+          "좀"
+        ],
+        [
+          "SNU-2A-04-012_card_3",
+          "더"
+        ],
+        [
+          "SNU-2A-04-012_card_4",
+          "컸으면"
+        ],
+        [
+          "SNU-2A-04-012_card_5",
+          "좋겠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-012_card_0",
+          "SNU-2A-04-012_card_1",
+          "SNU-2A-04-012_card_2",
+          "SNU-2A-04-012_card_3",
+          "SNU-2A-04-012_card_4",
+          "SNU-2A-04-012_card_5"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-013",
+      "displaySentence": "크리스마스에 눈이 왔으면 좋겠어요.",
+      "tokens": [
+        [
+          "SNU-2A-04-013_card_0",
+          "크리스마스"
+        ],
+        [
+          "SNU-2A-04-013_card_1",
+          "에"
+        ],
+        [
+          "SNU-2A-04-013_card_2",
+          "눈"
+        ],
+        [
+          "SNU-2A-04-013_card_3",
+          "이"
+        ],
+        [
+          "SNU-2A-04-013_card_4",
+          "왔으면"
+        ],
+        [
+          "SNU-2A-04-013_card_5",
+          "좋겠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-013_card_0",
+          "SNU-2A-04-013_card_1",
+          "SNU-2A-04-013_card_2",
+          "SNU-2A-04-013_card_3",
+          "SNU-2A-04-013_card_4",
+          "SNU-2A-04-013_card_5"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-014",
+      "displaySentence": "손님, 어떤 옷을 찾으세요?",
+      "tokens": [
+        [
+          "SNU-2A-04-014_card_0",
+          "손님"
+        ],
+        [
+          "SNU-2A-04-014_card_1",
+          "어떤"
+        ],
+        [
+          "SNU-2A-04-014_card_2",
+          "옷"
+        ],
+        [
+          "SNU-2A-04-014_card_3",
+          "을"
+        ],
+        [
+          "SNU-2A-04-014_card_4",
+          "찾으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-014_card_0",
+          "SNU-2A-04-014_card_1",
+          "SNU-2A-04-014_card_2",
+          "SNU-2A-04-014_card_3",
+          "SNU-2A-04-014_card_4"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-015",
+      "displaySentence": "코트 좀 보려고 왔어요.",
+      "tokens": [
+        [
+          "SNU-2A-04-015_card_0",
+          "코트"
+        ],
+        [
+          "SNU-2A-04-015_card_1",
+          "좀"
+        ],
+        [
+          "SNU-2A-04-015_card_2",
+          "보려고"
+        ],
+        [
+          "SNU-2A-04-015_card_3",
+          "왔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-015_card_0",
+          "SNU-2A-04-015_card_1",
+          "SNU-2A-04-015_card_2",
+          "SNU-2A-04-015_card_3"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-016",
+      "displaySentence": "요즘 유행하는 스타일이에요.",
+      "tokens": [
+        [
+          "SNU-2A-04-016_card_0",
+          "요즘"
+        ],
+        [
+          "SNU-2A-04-016_card_1",
+          "유행하는"
+        ],
+        [
+          "SNU-2A-04-016_card_2",
+          "스타일"
+        ],
+        [
+          "SNU-2A-04-016_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-016_card_0",
+          "SNU-2A-04-016_card_1",
+          "SNU-2A-04-016_card_2",
+          "SNU-2A-04-016_card_3"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-017",
+      "displaySentence": "네, 한번 입어 볼게요.",
+      "tokens": [
+        [
+          "SNU-2A-04-017_card_0",
+          "네"
+        ],
+        [
+          "SNU-2A-04-017_card_1",
+          "한번"
+        ],
+        [
+          "SNU-2A-04-017_card_2",
+          "입어"
+        ],
+        [
+          "SNU-2A-04-017_card_3",
+          "볼게요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-017_card_0",
+          "SNU-2A-04-017_card_1",
+          "SNU-2A-04-017_card_2",
+          "SNU-2A-04-017_card_3"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-018",
+      "displaySentence": "마음에 드세요?",
+      "tokens": [
+        [
+          "SNU-2A-04-018_card_0",
+          "마음"
+        ],
+        [
+          "SNU-2A-04-018_card_1",
+          "에"
+        ],
+        [
+          "SNU-2A-04-018_card_2",
+          "드세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-018_card_0",
+          "SNU-2A-04-018_card_1",
+          "SNU-2A-04-018_card_2"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-019",
+      "displaySentence": "사이즈가 좀 큰 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2A-04-019_card_0",
+          "사이즈"
+        ],
+        [
+          "SNU-2A-04-019_card_1",
+          "가"
+        ],
+        [
+          "SNU-2A-04-019_card_2",
+          "좀"
+        ],
+        [
+          "SNU-2A-04-019_card_3",
+          "큰"
+        ],
+        [
+          "SNU-2A-04-019_card_4",
+          "것"
+        ],
+        [
+          "SNU-2A-04-019_card_5",
+          "같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-019_card_0",
+          "SNU-2A-04-019_card_1",
+          "SNU-2A-04-019_card_2",
+          "SNU-2A-04-019_card_3",
+          "SNU-2A-04-019_card_4",
+          "SNU-2A-04-019_card_5"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-020",
+      "displaySentence": "그럼 한 사이즈 작은 거로 보여 드릴게요.",
+      "tokens": [
+        [
+          "SNU-2A-04-020_card_0",
+          "그럼"
+        ],
+        [
+          "SNU-2A-04-020_card_1",
+          "한"
+        ],
+        [
+          "SNU-2A-04-020_card_2",
+          "사이즈"
+        ],
+        [
+          "SNU-2A-04-020_card_3",
+          "작은"
+        ],
+        [
+          "SNU-2A-04-020_card_4",
+          "거"
+        ],
+        [
+          "SNU-2A-04-020_card_5",
+          "로"
+        ],
+        [
+          "SNU-2A-04-020_card_6",
+          "보여"
+        ],
+        [
+          "SNU-2A-04-020_card_7",
+          "드릴게요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-020_card_0",
+          "SNU-2A-04-020_card_1",
+          "SNU-2A-04-020_card_2",
+          "SNU-2A-04-020_card_3",
+          "SNU-2A-04-020_card_4",
+          "SNU-2A-04-020_card_5",
+          "SNU-2A-04-020_card_6",
+          "SNU-2A-04-020_card_7"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    },
+    {
+      "id": "SNU-2A-04-021",
+      "displaySentence": "잠깐만 기다리세요.",
+      "tokens": [
+        [
+          "SNU-2A-04-021_card_0",
+          "잠깐"
+        ],
+        [
+          "SNU-2A-04-021_card_1",
+          "만"
+        ],
+        [
+          "SNU-2A-04-021_card_2",
+          "기다리세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-04-021_card_0",
+          "SNU-2A-04-021_card_1",
+          "SNU-2A-04-021_card_2"
+        ]
+      ],
+      "note": "서울대 2A 4과 교재 기반"
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "book": "2B",
+  "lesson": 18,
+  "source": "서울대 한국어 2B 학생 읽기 자료 · 18과 어휘/문법/예문/말하기 기반",
+  "questionCount": 24,
+  "questions": [
+    {
+      "id": "SNU-2B-18-001",
+      "displaySentence": "한국에 온 지 얼마나 됐어요?",
+      "tokens": [
+        [
+          "SNU-2B-18-001_card_0",
+          "한국"
+        ],
+        [
+          "SNU-2B-18-001_card_1",
+          "에"
+        ],
+        [
+          "SNU-2B-18-001_card_2",
+          "온"
+        ],
+        [
+          "SNU-2B-18-001_card_3",
+          "지"
+        ],
+        [
+          "SNU-2B-18-001_card_4",
+          "얼마나"
+        ],
+        [
+          "SNU-2B-18-001_card_5",
+          "됐어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-001_card_0",
+          "SNU-2B-18-001_card_1",
+          "SNU-2B-18-001_card_2",
+          "SNU-2B-18-001_card_3",
+          "SNU-2B-18-001_card_4",
+          "SNU-2B-18-001_card_5"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-002",
+      "displaySentence": "한국에 온 지 벌써 네 달 됐어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-002_card_0",
+          "한국"
+        ],
+        [
+          "SNU-2B-18-002_card_1",
+          "에"
+        ],
+        [
+          "SNU-2B-18-002_card_2",
+          "온"
+        ],
+        [
+          "SNU-2B-18-002_card_3",
+          "지"
+        ],
+        [
+          "SNU-2B-18-002_card_4",
+          "벌써"
+        ],
+        [
+          "SNU-2B-18-002_card_5",
+          "네"
+        ],
+        [
+          "SNU-2B-18-002_card_6",
+          "달"
+        ],
+        [
+          "SNU-2B-18-002_card_7",
+          "됐어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-002_card_0",
+          "SNU-2B-18-002_card_1",
+          "SNU-2B-18-002_card_2",
+          "SNU-2B-18-002_card_3",
+          "SNU-2B-18-002_card_4",
+          "SNU-2B-18-002_card_5",
+          "SNU-2B-18-002_card_6",
+          "SNU-2B-18-002_card_7"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-003",
+      "displaySentence": "대학교를 졸업한 지 일 년 되었어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-003_card_0",
+          "대학교"
+        ],
+        [
+          "SNU-2B-18-003_card_1",
+          "를"
+        ],
+        [
+          "SNU-2B-18-003_card_2",
+          "졸업한"
+        ],
+        [
+          "SNU-2B-18-003_card_3",
+          "지"
+        ],
+        [
+          "SNU-2B-18-003_card_4",
+          "일"
+        ],
+        [
+          "SNU-2B-18-003_card_5",
+          "년"
+        ],
+        [
+          "SNU-2B-18-003_card_6",
+          "되었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-003_card_0",
+          "SNU-2B-18-003_card_1",
+          "SNU-2B-18-003_card_2",
+          "SNU-2B-18-003_card_3",
+          "SNU-2B-18-003_card_4",
+          "SNU-2B-18-003_card_5",
+          "SNU-2B-18-003_card_6"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-004",
+      "displaySentence": "이 약을 먹은 지 한 시간쯤 됐어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-004_card_0",
+          "이"
+        ],
+        [
+          "SNU-2B-18-004_card_1",
+          "약"
+        ],
+        [
+          "SNU-2B-18-004_card_2",
+          "을"
+        ],
+        [
+          "SNU-2B-18-004_card_3",
+          "먹은"
+        ],
+        [
+          "SNU-2B-18-004_card_4",
+          "지"
+        ],
+        [
+          "SNU-2B-18-004_card_5",
+          "한"
+        ],
+        [
+          "SNU-2B-18-004_card_6",
+          "시간쯤"
+        ],
+        [
+          "SNU-2B-18-004_card_7",
+          "됐어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-004_card_0",
+          "SNU-2B-18-004_card_1",
+          "SNU-2B-18-004_card_2",
+          "SNU-2B-18-004_card_3",
+          "SNU-2B-18-004_card_4",
+          "SNU-2B-18-004_card_5",
+          "SNU-2B-18-004_card_6",
+          "SNU-2B-18-004_card_7"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-005",
+      "displaySentence": "기숙사에 산 지 얼마나 됐어요?",
+      "tokens": [
+        [
+          "SNU-2B-18-005_card_0",
+          "기숙사"
+        ],
+        [
+          "SNU-2B-18-005_card_1",
+          "에"
+        ],
+        [
+          "SNU-2B-18-005_card_2",
+          "산"
+        ],
+        [
+          "SNU-2B-18-005_card_3",
+          "지"
+        ],
+        [
+          "SNU-2B-18-005_card_4",
+          "얼마나"
+        ],
+        [
+          "SNU-2B-18-005_card_5",
+          "됐어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-005_card_0",
+          "SNU-2B-18-005_card_1",
+          "SNU-2B-18-005_card_2",
+          "SNU-2B-18-005_card_3",
+          "SNU-2B-18-005_card_4",
+          "SNU-2B-18-005_card_5"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-006",
+      "displaySentence": "한 달밖에 안 됐어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-006_card_0",
+          "한"
+        ],
+        [
+          "SNU-2B-18-006_card_1",
+          "달밖"
+        ],
+        [
+          "SNU-2B-18-006_card_2",
+          "에"
+        ],
+        [
+          "SNU-2B-18-006_card_3",
+          "안"
+        ],
+        [
+          "SNU-2B-18-006_card_4",
+          "됐어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-006_card_0",
+          "SNU-2B-18-006_card_1",
+          "SNU-2B-18-006_card_2",
+          "SNU-2B-18-006_card_3",
+          "SNU-2B-18-006_card_4"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-007",
+      "displaySentence": "좀 더 드세요.",
+      "tokens": [
+        [
+          "SNU-2B-18-007_card_0",
+          "좀"
+        ],
+        [
+          "SNU-2B-18-007_card_1",
+          "더"
+        ],
+        [
+          "SNU-2B-18-007_card_2",
+          "드세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-007_card_0",
+          "SNU-2B-18-007_card_1",
+          "SNU-2B-18-007_card_2"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-008",
+      "displaySentence": "두 그릇이나 먹었어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-008_card_0",
+          "두"
+        ],
+        [
+          "SNU-2B-18-008_card_1",
+          "그릇이나"
+        ],
+        [
+          "SNU-2B-18-008_card_2",
+          "먹었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-008_card_0",
+          "SNU-2B-18-008_card_1",
+          "SNU-2B-18-008_card_2"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-009",
+      "displaySentence": "민영 씨는 개가 다섯 마리나 있어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-009_card_0",
+          "민영 씨"
+        ],
+        [
+          "SNU-2B-18-009_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-009_card_2",
+          "개"
+        ],
+        [
+          "SNU-2B-18-009_card_3",
+          "가"
+        ],
+        [
+          "SNU-2B-18-009_card_4",
+          "다섯"
+        ],
+        [
+          "SNU-2B-18-009_card_5",
+          "마리나"
+        ],
+        [
+          "SNU-2B-18-009_card_6",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-009_card_0",
+          "SNU-2B-18-009_card_1",
+          "SNU-2B-18-009_card_2",
+          "SNU-2B-18-009_card_3",
+          "SNU-2B-18-009_card_4",
+          "SNU-2B-18-009_card_5",
+          "SNU-2B-18-009_card_6"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-010",
+      "displaySentence": "그 가수 콘서트에 사람들이 만 명이나 왔어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-010_card_0",
+          "그"
+        ],
+        [
+          "SNU-2B-18-010_card_1",
+          "가수"
+        ],
+        [
+          "SNU-2B-18-010_card_2",
+          "콘서트"
+        ],
+        [
+          "SNU-2B-18-010_card_3",
+          "에"
+        ],
+        [
+          "SNU-2B-18-010_card_4",
+          "사람들"
+        ],
+        [
+          "SNU-2B-18-010_card_5",
+          "이"
+        ],
+        [
+          "SNU-2B-18-010_card_6",
+          "만"
+        ],
+        [
+          "SNU-2B-18-010_card_7",
+          "명이나"
+        ],
+        [
+          "SNU-2B-18-010_card_8",
+          "왔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-010_card_0",
+          "SNU-2B-18-010_card_1",
+          "SNU-2B-18-010_card_2",
+          "SNU-2B-18-010_card_3",
+          "SNU-2B-18-010_card_4",
+          "SNU-2B-18-010_card_5",
+          "SNU-2B-18-010_card_6",
+          "SNU-2B-18-010_card_7",
+          "SNU-2B-18-010_card_8"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-011",
+      "displaySentence": "시간이 빨리 지나간다.",
+      "tokens": [
+        [
+          "SNU-2B-18-011_card_0",
+          "시간"
+        ],
+        [
+          "SNU-2B-18-011_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-18-011_card_2",
+          "빨리"
+        ],
+        [
+          "SNU-2B-18-011_card_3",
+          "지나간다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-011_card_0",
+          "SNU-2B-18-011_card_1",
+          "SNU-2B-18-011_card_2",
+          "SNU-2B-18-011_card_3"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-012",
+      "displaySentence": "바람이 불어서 시원하다.",
+      "tokens": [
+        [
+          "SNU-2B-18-012_card_0",
+          "바람"
+        ],
+        [
+          "SNU-2B-18-012_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-18-012_card_2",
+          "불어서"
+        ],
+        [
+          "SNU-2B-18-012_card_3",
+          "시원하다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-012_card_0",
+          "SNU-2B-18-012_card_1",
+          "SNU-2B-18-012_card_2",
+          "SNU-2B-18-012_card_3"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-013",
+      "displaySentence": "사람이 너무 많아서 표 사기가 어렵다.",
+      "tokens": [
+        [
+          "SNU-2B-18-013_card_0",
+          "사람"
+        ],
+        [
+          "SNU-2B-18-013_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-18-013_card_2",
+          "너무"
+        ],
+        [
+          "SNU-2B-18-013_card_3",
+          "많아서"
+        ],
+        [
+          "SNU-2B-18-013_card_4",
+          "표"
+        ],
+        [
+          "SNU-2B-18-013_card_5",
+          "사기"
+        ],
+        [
+          "SNU-2B-18-013_card_6",
+          "가"
+        ],
+        [
+          "SNU-2B-18-013_card_7",
+          "어렵다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-013_card_0",
+          "SNU-2B-18-013_card_1",
+          "SNU-2B-18-013_card_2",
+          "SNU-2B-18-013_card_3",
+          "SNU-2B-18-013_card_4",
+          "SNU-2B-18-013_card_5",
+          "SNU-2B-18-013_card_6",
+          "SNU-2B-18-013_card_7"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-014",
+      "displaySentence": "나는 매일 아침 8시에 학교에 간다.",
+      "tokens": [
+        [
+          "SNU-2B-18-014_card_0",
+          "나"
+        ],
+        [
+          "SNU-2B-18-014_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-014_card_2",
+          "매일"
+        ],
+        [
+          "SNU-2B-18-014_card_3",
+          "아침"
+        ],
+        [
+          "SNU-2B-18-014_card_4",
+          "8시"
+        ],
+        [
+          "SNU-2B-18-014_card_5",
+          "에"
+        ],
+        [
+          "SNU-2B-18-014_card_6",
+          "학교"
+        ],
+        [
+          "SNU-2B-18-014_card_7",
+          "에"
+        ],
+        [
+          "SNU-2B-18-014_card_8",
+          "간다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-014_card_0",
+          "SNU-2B-18-014_card_1",
+          "SNU-2B-18-014_card_2",
+          "SNU-2B-18-014_card_3",
+          "SNU-2B-18-014_card_4",
+          "SNU-2B-18-014_card_5",
+          "SNU-2B-18-014_card_6",
+          "SNU-2B-18-014_card_7",
+          "SNU-2B-18-014_card_8"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-015",
+      "displaySentence": "나는 자기 전에 책을 읽는다.",
+      "tokens": [
+        [
+          "SNU-2B-18-015_card_0",
+          "나"
+        ],
+        [
+          "SNU-2B-18-015_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-015_card_2",
+          "자기"
+        ],
+        [
+          "SNU-2B-18-015_card_3",
+          "전"
+        ],
+        [
+          "SNU-2B-18-015_card_4",
+          "에"
+        ],
+        [
+          "SNU-2B-18-015_card_5",
+          "책"
+        ],
+        [
+          "SNU-2B-18-015_card_6",
+          "을"
+        ],
+        [
+          "SNU-2B-18-015_card_7",
+          "읽는다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-015_card_0",
+          "SNU-2B-18-015_card_1",
+          "SNU-2B-18-015_card_2",
+          "SNU-2B-18-015_card_3",
+          "SNU-2B-18-015_card_4",
+          "SNU-2B-18-015_card_5",
+          "SNU-2B-18-015_card_6",
+          "SNU-2B-18-015_card_7"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-016",
+      "displaySentence": "내일부터 방학이다.",
+      "tokens": [
+        [
+          "SNU-2B-18-016_card_0",
+          "내일"
+        ],
+        [
+          "SNU-2B-18-016_card_1",
+          "부터"
+        ],
+        [
+          "SNU-2B-18-016_card_2",
+          "방학이다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-016_card_0",
+          "SNU-2B-18-016_card_1",
+          "SNU-2B-18-016_card_2"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-017",
+      "displaySentence": "여기는 내가 졸업한 학교다.",
+      "tokens": [
+        [
+          "SNU-2B-18-017_card_0",
+          "여기"
+        ],
+        [
+          "SNU-2B-18-017_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-017_card_2",
+          "내"
+        ],
+        [
+          "SNU-2B-18-017_card_3",
+          "가"
+        ],
+        [
+          "SNU-2B-18-017_card_4",
+          "졸업한"
+        ],
+        [
+          "SNU-2B-18-017_card_5",
+          "학교다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-017_card_0",
+          "SNU-2B-18-017_card_1",
+          "SNU-2B-18-017_card_2",
+          "SNU-2B-18-017_card_3",
+          "SNU-2B-18-017_card_4",
+          "SNU-2B-18-017_card_5"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-018",
+      "displaySentence": "나는 대학생이다.",
+      "tokens": [
+        [
+          "SNU-2B-18-018_card_0",
+          "나"
+        ],
+        [
+          "SNU-2B-18-018_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-018_card_2",
+          "대학생이다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-018_card_0",
+          "SNU-2B-18-018_card_1",
+          "SNU-2B-18-018_card_2"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-019",
+      "displaySentence": "어제는 내 생일이었다.",
+      "tokens": [
+        [
+          "SNU-2B-18-019_card_0",
+          "어제"
+        ],
+        [
+          "SNU-2B-18-019_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-019_card_2",
+          "내"
+        ],
+        [
+          "SNU-2B-18-019_card_3",
+          "생일이었다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-019_card_0",
+          "SNU-2B-18-019_card_1",
+          "SNU-2B-18-019_card_2",
+          "SNU-2B-18-019_card_3"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-020",
+      "displaySentence": "우리가 한국에 온 지 벌써 6개월이나 됐네요.",
+      "tokens": [
+        [
+          "SNU-2B-18-020_card_0",
+          "우리"
+        ],
+        [
+          "SNU-2B-18-020_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-18-020_card_2",
+          "한국"
+        ],
+        [
+          "SNU-2B-18-020_card_3",
+          "에"
+        ],
+        [
+          "SNU-2B-18-020_card_4",
+          "온"
+        ],
+        [
+          "SNU-2B-18-020_card_5",
+          "지"
+        ],
+        [
+          "SNU-2B-18-020_card_6",
+          "벌써"
+        ],
+        [
+          "SNU-2B-18-020_card_7",
+          "6개월이나"
+        ],
+        [
+          "SNU-2B-18-020_card_8",
+          "됐네요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-020_card_0",
+          "SNU-2B-18-020_card_1",
+          "SNU-2B-18-020_card_2",
+          "SNU-2B-18-020_card_3",
+          "SNU-2B-18-020_card_4",
+          "SNU-2B-18-020_card_5",
+          "SNU-2B-18-020_card_6",
+          "SNU-2B-18-020_card_7",
+          "SNU-2B-18-020_card_8"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-021",
+      "displaySentence": "시간이 정말 빨리 지나간 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2B-18-021_card_0",
+          "시간"
+        ],
+        [
+          "SNU-2B-18-021_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-18-021_card_2",
+          "정말"
+        ],
+        [
+          "SNU-2B-18-021_card_3",
+          "빨리"
+        ],
+        [
+          "SNU-2B-18-021_card_4",
+          "지나간"
+        ],
+        [
+          "SNU-2B-18-021_card_5",
+          "것"
+        ],
+        [
+          "SNU-2B-18-021_card_6",
+          "같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-021_card_0",
+          "SNU-2B-18-021_card_1",
+          "SNU-2B-18-021_card_2",
+          "SNU-2B-18-021_card_3",
+          "SNU-2B-18-021_card_4",
+          "SNU-2B-18-021_card_5",
+          "SNU-2B-18-021_card_6"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-022",
+      "displaySentence": "나나 씨, 다음 학기에도 계속 공부하지요?",
+      "tokens": [
+        [
+          "SNU-2B-18-022_card_0",
+          "나나"
+        ],
+        [
+          "SNU-2B-18-022_card_1",
+          "씨"
+        ],
+        [
+          "SNU-2B-18-022_card_2",
+          "다음"
+        ],
+        [
+          "SNU-2B-18-022_card_3",
+          "학기에"
+        ],
+        [
+          "SNU-2B-18-022_card_4",
+          "도"
+        ],
+        [
+          "SNU-2B-18-022_card_5",
+          "계속"
+        ],
+        [
+          "SNU-2B-18-022_card_6",
+          "공부하지요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-022_card_0",
+          "SNU-2B-18-022_card_1",
+          "SNU-2B-18-022_card_2",
+          "SNU-2B-18-022_card_3",
+          "SNU-2B-18-022_card_4",
+          "SNU-2B-18-022_card_5",
+          "SNU-2B-18-022_card_6"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-023",
+      "displaySentence": "다음 학기에 고향으로 돌아가요.",
+      "tokens": [
+        [
+          "SNU-2B-18-023_card_0",
+          "다음"
+        ],
+        [
+          "SNU-2B-18-023_card_1",
+          "학기"
+        ],
+        [
+          "SNU-2B-18-023_card_2",
+          "에"
+        ],
+        [
+          "SNU-2B-18-023_card_3",
+          "고향"
+        ],
+        [
+          "SNU-2B-18-023_card_4",
+          "으로"
+        ],
+        [
+          "SNU-2B-18-023_card_5",
+          "돌아가요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-023_card_0",
+          "SNU-2B-18-023_card_1",
+          "SNU-2B-18-023_card_2",
+          "SNU-2B-18-023_card_3",
+          "SNU-2B-18-023_card_4",
+          "SNU-2B-18-023_card_5"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    },
+    {
+      "id": "SNU-2B-18-024",
+      "displaySentence": "왜 갑자기 돌아가게 됐어요?",
+      "tokens": [
+        [
+          "SNU-2B-18-024_card_0",
+          "왜"
+        ],
+        [
+          "SNU-2B-18-024_card_1",
+          "갑자기"
+        ],
+        [
+          "SNU-2B-18-024_card_2",
+          "돌아가게"
+        ],
+        [
+          "SNU-2B-18-024_card_3",
+          "됐어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-024_card_0",
+          "SNU-2B-18-024_card_1",
+          "SNU-2B-18-024_card_2",
+          "SNU-2B-18-024_card_3"
+        ]
+      ],
+      "note": "서울대 2B 18과 교재 기반"
+    }
+  ]
+}

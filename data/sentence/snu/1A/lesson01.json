@@ -1,0 +1,744 @@
+{
+  "book": "1A",
+  "lesson": 1,
+  "source": "서울대 한국어 1A 학생 읽기 자료 · 1과 어휘/문법/예문/말하기 기반",
+  "questionCount": 21,
+  "questions": [
+    {
+      "id": "SNU-1A-01-001",
+      "displaySentence": "저는 유진이에요.",
+      "tokens": [
+        [
+          "SNU-1A-01-001_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-01-001_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-001_card_2",
+          "유진"
+        ],
+        [
+          "SNU-1A-01-001_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-001_card_0",
+          "SNU-1A-01-001_card_1",
+          "SNU-1A-01-001_card_2",
+          "SNU-1A-01-001_card_3"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-002",
+      "displaySentence": "스티븐은 미국 사람이에요.",
+      "tokens": [
+        [
+          "SNU-1A-01-002_card_0",
+          "스티븐"
+        ],
+        [
+          "SNU-1A-01-002_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-01-002_card_2",
+          "미국"
+        ],
+        [
+          "SNU-1A-01-002_card_3",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-002_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-002_card_0",
+          "SNU-1A-01-002_card_1",
+          "SNU-1A-01-002_card_2",
+          "SNU-1A-01-002_card_3",
+          "SNU-1A-01-002_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-003",
+      "displaySentence": "저는 나나예요.",
+      "tokens": [
+        [
+          "SNU-1A-01-003_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-01-003_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-003_card_2",
+          "나나"
+        ],
+        [
+          "SNU-1A-01-003_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-003_card_0",
+          "SNU-1A-01-003_card_1",
+          "SNU-1A-01-003_card_2",
+          "SNU-1A-01-003_card_3"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-004",
+      "displaySentence": "스티븐은 학생이에요.",
+      "tokens": [
+        [
+          "SNU-1A-01-004_card_0",
+          "스티븐"
+        ],
+        [
+          "SNU-1A-01-004_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-01-004_card_2",
+          "학생"
+        ],
+        [
+          "SNU-1A-01-004_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-004_card_0",
+          "SNU-1A-01-004_card_1",
+          "SNU-1A-01-004_card_2",
+          "SNU-1A-01-004_card_3"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-005",
+      "displaySentence": "샤오밍 씨는 중국 사람이에요?",
+      "tokens": [
+        [
+          "SNU-1A-01-005_card_0",
+          "샤오밍 씨"
+        ],
+        [
+          "SNU-1A-01-005_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-005_card_2",
+          "중국"
+        ],
+        [
+          "SNU-1A-01-005_card_3",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-005_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-005_card_0",
+          "SNU-1A-01-005_card_1",
+          "SNU-1A-01-005_card_2",
+          "SNU-1A-01-005_card_3",
+          "SNU-1A-01-005_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-006",
+      "displaySentence": "네, 저는 중국 사람이에요.",
+      "tokens": [
+        [
+          "SNU-1A-01-006_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-01-006_card_1",
+          "저"
+        ],
+        [
+          "SNU-1A-01-006_card_2",
+          "는"
+        ],
+        [
+          "SNU-1A-01-006_card_3",
+          "중국"
+        ],
+        [
+          "SNU-1A-01-006_card_4",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-006_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-006_card_0",
+          "SNU-1A-01-006_card_1",
+          "SNU-1A-01-006_card_2",
+          "SNU-1A-01-006_card_3",
+          "SNU-1A-01-006_card_4",
+          "SNU-1A-01-006_card_5"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-007",
+      "displaySentence": "스티븐 씨는 미국 사람입니까?",
+      "tokens": [
+        [
+          "SNU-1A-01-007_card_0",
+          "스티븐 씨"
+        ],
+        [
+          "SNU-1A-01-007_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-007_card_2",
+          "미국"
+        ],
+        [
+          "SNU-1A-01-007_card_3",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-007_card_4",
+          "입니까"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-007_card_0",
+          "SNU-1A-01-007_card_1",
+          "SNU-1A-01-007_card_2",
+          "SNU-1A-01-007_card_3",
+          "SNU-1A-01-007_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-008",
+      "displaySentence": "네, 저는 미국 사람입니다.",
+      "tokens": [
+        [
+          "SNU-1A-01-008_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-01-008_card_1",
+          "저"
+        ],
+        [
+          "SNU-1A-01-008_card_2",
+          "는"
+        ],
+        [
+          "SNU-1A-01-008_card_3",
+          "미국"
+        ],
+        [
+          "SNU-1A-01-008_card_4",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-008_card_5",
+          "입니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-008_card_0",
+          "SNU-1A-01-008_card_1",
+          "SNU-1A-01-008_card_2",
+          "SNU-1A-01-008_card_3",
+          "SNU-1A-01-008_card_4",
+          "SNU-1A-01-008_card_5"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-009",
+      "displaySentence": "스티븐 씨는 학생입니까?",
+      "tokens": [
+        [
+          "SNU-1A-01-009_card_0",
+          "스티븐 씨"
+        ],
+        [
+          "SNU-1A-01-009_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-009_card_2",
+          "학생"
+        ],
+        [
+          "SNU-1A-01-009_card_3",
+          "입니까"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-009_card_0",
+          "SNU-1A-01-009_card_1",
+          "SNU-1A-01-009_card_2",
+          "SNU-1A-01-009_card_3"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-010",
+      "displaySentence": "네, 저는 학생입니다.",
+      "tokens": [
+        [
+          "SNU-1A-01-010_card_0",
+          "네"
+        ],
+        [
+          "SNU-1A-01-010_card_1",
+          "저"
+        ],
+        [
+          "SNU-1A-01-010_card_2",
+          "는"
+        ],
+        [
+          "SNU-1A-01-010_card_3",
+          "학생"
+        ],
+        [
+          "SNU-1A-01-010_card_4",
+          "입니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-010_card_0",
+          "SNU-1A-01-010_card_1",
+          "SNU-1A-01-010_card_2",
+          "SNU-1A-01-010_card_3",
+          "SNU-1A-01-010_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-011",
+      "displaySentence": "저는 최정우입니다.",
+      "tokens": [
+        [
+          "SNU-1A-01-011_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-01-011_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-011_card_2",
+          "최정우"
+        ],
+        [
+          "SNU-1A-01-011_card_3",
+          "입니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-011_card_0",
+          "SNU-1A-01-011_card_1",
+          "SNU-1A-01-011_card_2",
+          "SNU-1A-01-011_card_3"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-012",
+      "displaySentence": "마이클 씨는 미국 사람입니까?",
+      "tokens": [
+        [
+          "SNU-1A-01-012_card_0",
+          "마이클 씨"
+        ],
+        [
+          "SNU-1A-01-012_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-012_card_2",
+          "미국"
+        ],
+        [
+          "SNU-1A-01-012_card_3",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-012_card_4",
+          "입니까"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-012_card_0",
+          "SNU-1A-01-012_card_1",
+          "SNU-1A-01-012_card_2",
+          "SNU-1A-01-012_card_3",
+          "SNU-1A-01-012_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-013",
+      "displaySentence": "아니요, 저는 미국 사람이 아닙니다.",
+      "tokens": [
+        [
+          "SNU-1A-01-013_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-01-013_card_1",
+          "저"
+        ],
+        [
+          "SNU-1A-01-013_card_2",
+          "는"
+        ],
+        [
+          "SNU-1A-01-013_card_3",
+          "미국"
+        ],
+        [
+          "SNU-1A-01-013_card_4",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-013_card_5",
+          "이"
+        ],
+        [
+          "SNU-1A-01-013_card_6",
+          "아닙니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-013_card_0",
+          "SNU-1A-01-013_card_1",
+          "SNU-1A-01-013_card_2",
+          "SNU-1A-01-013_card_3",
+          "SNU-1A-01-013_card_4",
+          "SNU-1A-01-013_card_5",
+          "SNU-1A-01-013_card_6"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-014",
+      "displaySentence": "마이클 씨는 의사가 아닙니다.",
+      "tokens": [
+        [
+          "SNU-1A-01-014_card_0",
+          "마이클 씨"
+        ],
+        [
+          "SNU-1A-01-014_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-014_card_2",
+          "의사"
+        ],
+        [
+          "SNU-1A-01-014_card_3",
+          "가"
+        ],
+        [
+          "SNU-1A-01-014_card_4",
+          "아닙니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-014_card_0",
+          "SNU-1A-01-014_card_1",
+          "SNU-1A-01-014_card_2",
+          "SNU-1A-01-014_card_3",
+          "SNU-1A-01-014_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-015",
+      "displaySentence": "저는 학생이 아닙니다.",
+      "tokens": [
+        [
+          "SNU-1A-01-015_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-01-015_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-015_card_2",
+          "학생"
+        ],
+        [
+          "SNU-1A-01-015_card_3",
+          "이"
+        ],
+        [
+          "SNU-1A-01-015_card_4",
+          "아닙니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-015_card_0",
+          "SNU-1A-01-015_card_1",
+          "SNU-1A-01-015_card_2",
+          "SNU-1A-01-015_card_3",
+          "SNU-1A-01-015_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-016",
+      "displaySentence": "한국 사람입니까?",
+      "tokens": [
+        [
+          "SNU-1A-01-016_card_0",
+          "한국"
+        ],
+        [
+          "SNU-1A-01-016_card_1",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-016_card_2",
+          "입니까"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-016_card_0",
+          "SNU-1A-01-016_card_1",
+          "SNU-1A-01-016_card_2"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-017",
+      "displaySentence": "아니요, 한국 사람이 아닙니다.",
+      "tokens": [
+        [
+          "SNU-1A-01-017_card_0",
+          "아니요"
+        ],
+        [
+          "SNU-1A-01-017_card_1",
+          "한국"
+        ],
+        [
+          "SNU-1A-01-017_card_2",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-017_card_3",
+          "이"
+        ],
+        [
+          "SNU-1A-01-017_card_4",
+          "아닙니다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-017_card_0",
+          "SNU-1A-01-017_card_1",
+          "SNU-1A-01-017_card_2",
+          "SNU-1A-01-017_card_3",
+          "SNU-1A-01-017_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-018",
+      "displaySentence": "저는 마이클이에요.",
+      "tokens": [
+        [
+          "SNU-1A-01-018_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-01-018_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-018_card_2",
+          "마이클"
+        ],
+        [
+          "SNU-1A-01-018_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-018_card_0",
+          "SNU-1A-01-018_card_1",
+          "SNU-1A-01-018_card_2",
+          "SNU-1A-01-018_card_3"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-019",
+      "displaySentence": "만나서 반가워요, 마이클 씨.",
+      "tokens": [
+        [
+          "SNU-1A-01-019_card_0",
+          "만나서"
+        ],
+        [
+          "SNU-1A-01-019_card_1",
+          "반가워요"
+        ],
+        [
+          "SNU-1A-01-019_card_2",
+          "마이클"
+        ],
+        [
+          "SNU-1A-01-019_card_3",
+          "씨"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-019_card_0",
+          "SNU-1A-01-019_card_1",
+          "SNU-1A-01-019_card_2",
+          "SNU-1A-01-019_card_3"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-020",
+      "displaySentence": "나나 씨는 어느 나라 사람이에요?",
+      "tokens": [
+        [
+          "SNU-1A-01-020_card_0",
+          "나나 씨"
+        ],
+        [
+          "SNU-1A-01-020_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-020_card_2",
+          "어느"
+        ],
+        [
+          "SNU-1A-01-020_card_3",
+          "나라"
+        ],
+        [
+          "SNU-1A-01-020_card_4",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-020_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-020_card_0",
+          "SNU-1A-01-020_card_1",
+          "SNU-1A-01-020_card_2",
+          "SNU-1A-01-020_card_3",
+          "SNU-1A-01-020_card_4",
+          "SNU-1A-01-020_card_5"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    },
+    {
+      "id": "SNU-1A-01-021",
+      "displaySentence": "저는 중국 사람이에요.",
+      "tokens": [
+        [
+          "SNU-1A-01-021_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-01-021_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-01-021_card_2",
+          "중국"
+        ],
+        [
+          "SNU-1A-01-021_card_3",
+          "사람"
+        ],
+        [
+          "SNU-1A-01-021_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-01-021_card_0",
+          "SNU-1A-01-021_card_1",
+          "SNU-1A-01-021_card_2",
+          "SNU-1A-01-021_card_3",
+          "SNU-1A-01-021_card_4"
+        ]
+      ],
+      "note": "서울대 1A 1과 교재 기반"
+    }
+  ]
+}

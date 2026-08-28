@@ -4,40 +4,28 @@ const launchParams=new URLSearchParams(location.search);
 const selectedBook=launchParams.get('book')||'1A';
 const selectedLesson=Math.max(1,Number(launchParams.get('lesson'))||1);
 
-const SAMPLE_QUESTIONS=[
-  {
-    id:'S01',tokens:[['jeo','저'],['topic','는'],['oneul','오늘'],['hakgyo','학교'],['loc','에'],['ganda','갑니다']],
-    acceptedOrders:[['jeo','topic','oneul','hakgyo','loc','ganda'],['oneul','jeo','topic','hakgyo','loc','ganda']],
-    flexibleFrames:[{units:[['jeo','topic'],['oneul'],['hakgyo','loc']],tail:['ganda']}],note:'주제·시간·장소 성분의 자연스러운 이동 허용'
-  },
-  {
-    id:'S02',tokens:[['maria','마리아 씨'],['topic','는'],['doctor','의사'],['copula','입니다']],
-    acceptedOrders:[['maria','topic','doctor','copula'],['doctor','topic','maria','copula']],
-    flexibleFrames:[{units:[['maria','topic'],['doctor']],tail:['copula']},{units:[['doctor','topic'],['maria']],tail:['copula']}],note:'명사 서술문의 자연스러운 초점 이동 허용'
-  },
-  {
-    id:'S03',tokens:[['friend','친구'],['subj','가'],['library','도서관'],['at','에서'],['korean','한국어'],['obj','를'],['study','공부합니다']],
-    acceptedOrders:[['friend','subj','library','at','korean','obj','study'],['library','at','friend','subj','korean','obj','study']],
-    flexibleFrames:[{units:[['friend','subj'],['library','at'],['korean','obj']],tail:['study']}],note:'주어·장소·목적어의 자연스러운 이동 허용'
-  },
-  {
-    id:'S04',tokens:[['jeo','저'],['topic','는'],['usa','미국'],['person','사람'],['subj','이'],['not','아닙니다']],
-    acceptedOrders:[['jeo','topic','usa','person','subj','not']],
-    flexibleFrames:[{units:[['jeo','topic'],['usa','person','subj']],tail:['not']}],note:'주제와 명사구의 자연스러운 이동 허용'
-  },
-  {
-    id:'S05',tokens:[['bag','가방'],['loc','에'],['book','책'],['and','하고'],['pencil','연필'],['subj','이'],['exist','있어요']],
-    acceptedOrders:[['bag','loc','book','and','pencil','subj','exist'],['book','and','pencil','subj','bag','loc','exist']],
-    flexibleFrames:[{units:[['bag','loc'],['book','and','pencil','subj']],tail:['exist']}],note:'장소구와 주어 명사구의 자연스러운 이동 허용'
-  },
-  {
-    id:'S06',tokens:[['today','오늘'],['jeo','저'],['topic','는'],['friend','친구'],['obj','를'],['meet','만나요']],
-    acceptedOrders:[['today','jeo','topic','friend','obj','meet'],['jeo','topic','today','friend','obj','meet']],
-    flexibleFrames:[{units:[['today'],['jeo','topic'],['friend','obj']],tail:['meet']}],note:'시간·주제·목적어의 자연스러운 이동 허용'
-  }
-];
+let teacherQuestions=[];
+let lessonDataMeta=null;
 
-const teacherQuestions=SAMPLE_QUESTIONS.map(q=>({...q,tokens:q.tokens.map(t=>[...t]),acceptedOrders:q.acceptedOrders.map(o=>[...o]),flexibleFrames:(q.flexibleFrames||[]).map(f=>({units:f.units.map(u=>[...u]),tail:[...(f.tail||[])]})),enabled:true,edited:false}));
+async function loadLessonQuestions(){
+  const lessonCode=String(selectedLesson).padStart(2,'0');
+  const dataUrl=`../data/sentence/snu/${encodeURIComponent(selectedBook)}/lesson${lessonCode}.json`;
+  const response=await fetch(dataUrl,{cache:'no-store'});
+  if(!response.ok)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과 문장 데이터를 불러올 수 없습니다. (${response.status})`);
+  const data=await response.json();
+  const questions=Array.isArray(data?.questions)?data.questions:[];
+  if(!questions.length)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과에 사용할 문장 데이터가 없습니다.`);
+  teacherQuestions=questions.map((q,index)=>{
+    const tokens=Array.isArray(q.tokens)?q.tokens.map(t=>[String(t[0]),String(t[1])]):[];
+    const acceptedOrders=Array.isArray(q.acceptedOrders)?q.acceptedOrders.map(o=>o.map(String)):[];
+    const flexibleFrames=Array.isArray(q.flexibleFrames)&&q.flexibleFrames.length
+      ? q.flexibleFrames.map(f=>({units:(f.units||[]).map(u=>u.map(String)),tail:(f.tail||[]).map(String)}))
+      : inferFlexibleFrames(tokens,acceptedOrders);
+    return {...q,id:String(q.id||`SNU-${selectedBook}-${lessonCode}-${String(index+1).padStart(3,'0')}`),tokens,acceptedOrders,flexibleFrames,displaySentence:String(q.displaySentence||''),enabled:true,edited:false,custom:false};
+  }).filter(q=>q.tokens.length>=2&&q.acceptedOrders.length);
+  if(!teacherQuestions.length)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과 문장 데이터 형식이 올바르지 않습니다.`);
+  lessonDataMeta=data;
+}
 const DEMO_NAMES=[['Бат','🦊'],['Солонго','🐰'],['Тэмүүжин','🐯'],['Номин','🐼'],['Ану','🐱'],['Мөнх','🐻'],['Саруул','🐸'],['Энхжин','🦁'],['Төгөлдөр','🐨'],['Болор','🦄']];
 const SCORE_TABLE=[1200,1050,950,875,800,750,700,650,600,550];
 const BOUND_TEXTS=new Set(['은','는','이','가','을','를','에','에서','에게','한테','께','하고','와','과','도','만','부터','까지','으로','로','의','보다','처럼','입니다','입니까','이에요','예요']);
@@ -191,11 +179,11 @@ function celebrateCorrect(uid,rank,points){
 }
 
 function assembleSentence(order,q){const map=new Map(q.tokens),words=[];for(const id of order){const text=map.get(id)||'';if(words.length&&BOUND_TEXTS.has(text))words[words.length-1]+=text;else words.push(text);}let s=words.join(' ').trim();if(s&&!/[.!?]$/.test(s))s+='.';return s;}
-function canonicalSentence(q){return assembleSentence(q.acceptedOrders[0]||[],q);}
+function canonicalSentence(q){return String(q?.displaySentence||'').trim()||assembleSentence(q.acceptedOrders[0]||[],q);}
 
 function publicRoomState(){
   return {
-    kind:'sentence-sample',pin:room.pin,status:room.status,title:'문장 배틀 샘플',demoMode:isDemo,
+    kind:'sentence-sample',pin:room.pin,status:room.status,title:'문장 배틀',demoMode:isDemo,
     config:{timeLimit:room.config.timeLimit,revealSeconds:5,questionTotal:fullQuestions.length,sourceType:'snu',snuBook:room.config.snuBook||selectedBook,snuLesson:room.config.snuLesson||selectedLesson},
     players:room.players,questionIndex:room.questionIndex,questionTotal:fullQuestions.length,
     countdownEndAt:room.countdownEndAt||0,questionStartAt:room.questionStartAt||0,questionEndAt:room.questionEndAt||0,resultEndAt:room.resultEndAt||0,
@@ -344,7 +332,7 @@ async function toggleFullscreen(){try{if(!document.fullscreenElement)await docum
 document.querySelectorAll('.fullscreen-trigger').forEach(b=>b.addEventListener('click',toggleFullscreen));document.querySelectorAll('.sound-toggle').forEach(b=>b.addEventListener('click',()=>{muted=!muted;syncVolume();if(!muted){initAudio();sfx('start');if(room?.status==='playing')startTensionAudio();}else stopTensionAudio();}));document.querySelectorAll('.volume-slider').forEach(sl=>sl.addEventListener('input',()=>{volume=Math.max(0,Math.min(1,Number(sl.value)/100));muted=volume===0;syncVolume();if(room?.status==='playing'){if(muted)stopTensionAudio();else startTensionAudio();}}));
 
 // ---- 출제 문장 관리 ----
-function normalizeForMatch(text){return String(text||'').replace(/[\s\u00a0]+/g,'').replace(/[.!?。！？]+$/g,'').trim();}
+function normalizeForMatch(text){return String(text||'').normalize('NFC').replace(/[\s\u00a0]+/g,'').replace(/[.,!?;:'\"“”‘’()，。！？·…]/g,'').trim();}
 function orderFromSentence(cardLabels,sentence){const target=normalizeForMatch(sentence),norm=cardLabels.map(normalizeForMatch),used=new Array(cardLabels.length).fill(false),path=[];function dfs(pos){if(path.length===cardLabels.length)return pos===target.length?[...path]:null;for(let i=0;i<norm.length;i++){if(used[i])continue;const piece=norm[i];if(!piece||!target.startsWith(piece,pos))continue;used[i]=true;path.push(i);const r=dfs(pos+piece.length);if(r)return r;path.pop();used[i]=false;}return null;}return dfs(0);}
 function parseCardLabels(v){return String(v||'').split('|').map(s=>s.trim()).filter(Boolean);}
 function uniqueAnswerLines(primary,extra){const lines=[primary,...String(extra||'').split(/\r?\n/)].map(s=>s.trim()).filter(Boolean),seen=new Set();return lines.filter(line=>{const k=normalizeForMatch(line);if(!k||seen.has(k))return false;seen.add(k);return true;});}
@@ -374,16 +362,16 @@ function inferFlexibleFrames(tokens,orders){
 }
 function buildQuestionParts(id,cards,answers){if(cards.length<2)return{error:'카드는 2개 이상 입력해야 합니다.'};if(!answers.length)return{error:'대표 문장을 입력해야 합니다.'};const tokens=cards.map((label,i)=>[`${id}_card_${i}`,label]),orders=[];for(const line of answers){const idxs=orderFromSentence(cards,line);if(!idxs)return{error:`“${line}” 문장은 입력한 카드를 모두 한 번씩 사용해 만들 수 없습니다.`};orders.push(idxs.map(i=>tokens[i][0]));}return{tokens,orders,flexibleFrames:inferFlexibleFrames(tokens,orders)};}
 function suggestCards(sentence){const clean=String(sentence||'').trim().replace(/[.!?。！？]+$/g,'');if(!clean)return[];const chunks=clean.split(/\s+/).filter(Boolean),cards=[];for(const chunk of chunks){let done=false;for(const suffix of AUTO_COPULAS){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){cards.push(chunk.slice(0,-suffix.length),suffix);done=true;break;}}if(done)continue;for(const suffix of AUTO_PARTICLES){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){const base=chunk.slice(0,-suffix.length);if(base==='씨'&&cards.length&&!BOUND_TEXTS.has(cards[cards.length-1]))cards[cards.length-1]+=' 씨';else if(base)cards.push(base);cards.push(suffix);done=true;break;}}if(!done)cards.push(chunk);}return cards;}
-function questionSentence(q,index=0){return assembleSentence(q.acceptedOrders[index]||q.acceptedOrders[0]||[],q);}
+function questionSentence(q,index=0){if(index===0&&String(q?.displaySentence||'').trim())return String(q.displaySentence).trim();return assembleSentence(q.acceptedOrders[index]||q.acceptedOrders[0]||[],q);}
 function updateQuestionSelectionUI(){const selected=teacherQuestions.filter(q=>q.enabled).length,total=teacherQuestions.length;els.selectedQuestionBadge.textContent=`${selected}/${total}`;els.managerSelectedCount.textContent=String(selected);els.managerTotalCount.textContent=String(total);els.createRoomBtn.disabled=selected===0;els.demoBtn.disabled=selected===0;}
 function renderQuestionManager(){els.questionList.innerHTML='';teacherQuestions.forEach((q,index)=>{const item=document.createElement('article');item.className='question-item'+(q.enabled?'':' excluded');const primary=questionSentence(q),alternates=q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join(' / ');item.innerHTML=`<div class="question-item-main"><label class="question-check"><input class="question-enable" data-index="${index}" type="checkbox" ${q.enabled?'checked':''}></label><div><div class="question-no">Q ${index+1} · ${safeText(q.id)}</div><div class="question-preview">${safeText(primary)}</div><div class="question-meta"><span>카드 ${q.tokens.length}개</span><span>정답 어순 ${flexibleOrderCount(q)}개 자동 인정</span>${q.edited?'<span>수정됨</span>':''}${q.custom?'<span>직접 추가</span>':''}</div>${alternates?`<div class="accepted-preview"><b>추가 정답:</b> ${safeText(alternates)}</div>`:''}</div><div class="question-action-buttons"><button class="question-edit-btn" data-action="edit" data-index="${index}" type="button">${editingQuestionIndex===index?'수정 닫기':'✎ 문장 수정'}</button>${q.custom?`<button class="question-delete-btn" data-action="delete" data-index="${index}" type="button">삭제</button>`:''}</div></div>`;if(editingQuestionIndex===index){const ed=document.createElement('div');ed.className='question-editor';ed.innerHTML=`<div class="editor-field"><label>대표 문장</label><input id="editSentence-${index}" value="${safeText(primary)}"></div><div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button class="mini-action-btn" data-action="auto-edit" data-index="${index}" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="editCards-${index}" value="${safeText(q.tokens.map(t=>t[1]).join(' | '))}"><small>조사는 분리하고 동사·형용사의 종결형은 한 카드로 입력합니다.</small></div><div class="editor-field"><label>추가로 인정할 문장</label><textarea id="editAnswers-${index}" rows="3">${safeText(q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join('\n'))}</textarea></div><div id="editError-${index}" class="edit-error"></div><div class="editor-actions"><button class="btn btn-secondary" data-action="cancel-edit" data-index="${index}" type="button">취소</button><button class="btn btn-primary" data-action="save-edit" data-index="${index}" type="button">✓ 수정 저장</button></div>`;item.append(ed);}els.questionList.append(item);});updateQuestionSelectionUI();}
 function openQuestionManager(){renderQuestionManager();els.questionManager.classList.remove('hidden');els.questionManager.setAttribute('aria-hidden','false');}
 function closeQuestionManager(){editingQuestionIndex=null;closeNewEditor();els.questionManager.classList.add('hidden');els.questionManager.setAttribute('aria-hidden','true');updateQuestionSelectionUI();}
-function saveQuestionEdit(index){const q=teacherQuestions[index],primary=$(`editSentence-${index}`)?.value.trim()||'',cards=parseCardLabels($(`editCards-${index}`)?.value||''),answers=uniqueAnswerLines(primary,$(`editAnswers-${index}`)?.value||''),error=$(`editError-${index}`),r=buildQuestionParts(q.id,cards,answers);if(r.error){if(error)error.textContent=r.error;return;}q.tokens=r.tokens;q.acceptedOrders=r.orders;q.flexibleFrames=r.flexibleFrames;q.edited=true;editingQuestionIndex=null;renderQuestionManager();}
+function saveQuestionEdit(index){const q=teacherQuestions[index],primary=$(`editSentence-${index}`)?.value.trim()||'',cards=parseCardLabels($(`editCards-${index}`)?.value||''),answers=uniqueAnswerLines(primary,$(`editAnswers-${index}`)?.value||''),error=$(`editError-${index}`),r=buildQuestionParts(q.id,cards,answers);if(r.error){if(error)error.textContent=r.error;return;}q.tokens=r.tokens;q.acceptedOrders=r.orders;q.flexibleFrames=r.flexibleFrames;q.displaySentence=primary;q.edited=true;editingQuestionIndex=null;renderQuestionManager();}
 function openNewEditor(){editingQuestionIndex=null;renderQuestionManager();els.newQuestionEditor.classList.remove('hidden');els.newQuestionError.textContent='';els.newSentenceInput.focus();}
 function closeNewEditor(){els.newQuestionEditor.classList.add('hidden');els.newQuestionError.textContent='';}
 function nextCustomId(){let n=teacherQuestions.filter(q=>q.custom).length+1,id;do{id=`CUSTOM-${String(n++).padStart(3,'0')}`;}while(teacherQuestions.some(q=>q.id===id));return id;}
-function saveNewQuestion(){const primary=els.newSentenceInput.value.trim(),cards=parseCardLabels(els.newCardsInput.value),answers=uniqueAnswerLines(primary,els.newAnswersInput.value),id=nextCustomId(),r=buildQuestionParts(id,cards,answers);if(r.error){els.newQuestionError.textContent=r.error;return;}teacherQuestions.push({id,tokens:r.tokens,acceptedOrders:r.orders,flexibleFrames:r.flexibleFrames,note:'교사 직접 추가',enabled:true,edited:true,custom:true});els.newSentenceInput.value=els.newCardsInput.value=els.newAnswersInput.value='';closeNewEditor();renderQuestionManager();}
+function saveNewQuestion(){const primary=els.newSentenceInput.value.trim(),cards=parseCardLabels(els.newCardsInput.value),answers=uniqueAnswerLines(primary,els.newAnswersInput.value),id=nextCustomId(),r=buildQuestionParts(id,cards,answers);if(r.error){els.newQuestionError.textContent=r.error;return;}teacherQuestions.push({id,displaySentence:primary,tokens:r.tokens,acceptedOrders:r.orders,flexibleFrames:r.flexibleFrames,note:'교사 직접 추가',enabled:true,edited:true,custom:true});els.newSentenceInput.value=els.newCardsInput.value=els.newAnswersInput.value='';closeNewEditor();renderQuestionManager();}
 
 els.openQuestionManagerBtn.addEventListener('click',openQuestionManager);els.closeQuestionManagerBtn.addEventListener('click',closeQuestionManager);els.applyQuestionManagerBtn.addEventListener('click',closeQuestionManager);els.addQuestionBtn.addEventListener('click',openNewEditor);els.closeNewQuestionBtn.addEventListener('click',closeNewEditor);els.cancelNewQuestionBtn.addEventListener('click',closeNewEditor);els.autoCardsBtn.addEventListener('click',()=>{const cards=suggestCards(els.newSentenceInput.value);els.newCardsInput.value=cards.join(' | ');els.newQuestionError.textContent=cards.length?'':'먼저 대표 문장을 입력하세요.';});els.saveNewQuestionBtn.addEventListener('click',saveNewQuestion);els.selectAllQuestionsBtn.addEventListener('click',()=>{teacherQuestions.forEach(q=>q.enabled=true);renderQuestionManager();});els.clearAllQuestionsBtn.addEventListener('click',()=>{teacherQuestions.forEach(q=>q.enabled=false);renderQuestionManager();});els.questionManager.addEventListener('click',e=>{if(e.target===els.questionManager)closeQuestionManager();});
 els.questionList.addEventListener('change',e=>{const input=e.target.closest('.question-enable');if(!input)return;const i=Number(input.dataset.index);if(teacherQuestions[i])teacherQuestions[i].enabled=input.checked;renderQuestionManager();});
@@ -393,4 +381,23 @@ els.questionList.addEventListener('click',e=>{const b=e.target.closest('[data-ac
 els.createRoomBtn.addEventListener('click',()=>createRoom(false));els.demoBtn.addEventListener('click',()=>createRoom(true));els.startGameBtn.addEventListener('click',beginGame);els.lobbyHomeBtn.addEventListener('click',goHome);els.gameHomeBtn.addEventListener('click',goHome);els.finalHomeBtn.addEventListener('click',goHome);els.finalAgainBtn.addEventListener('click',()=>{goHome().then(()=>createRoom(lastMode==='demo'));});
 window.addEventListener('beforeunload',()=>{try{bus?.closeRoom();}catch{}});
 
-if(els.sentenceBookContext)els.sentenceBookContext.textContent=`문장 배틀 · 서울대 ${selectedBook} · ${selectedLesson}과`;if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>서울대 ${selectedBook} · ${selectedLesson}과</b> · 현재는 게임 기능을 검증하는 샘플 문장 6개가 연결되어 있습니다. 실제 과별 문장 데이터는 이 선택값을 기준으로 다음 단계에서 연결됩니다.`;syncVolume();renderQuestionManager();updateQuestionSelectionUI();setView('setup');
+async function initializeSentenceBattle(){
+  if(els.sentenceBookContext)els.sentenceBookContext.textContent=`문장 배틀 · 서울대 ${selectedBook} · ${selectedLesson}과`;
+  if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>서울대 ${selectedBook} · ${selectedLesson}과</b> · 교재 기반 문장 데이터를 불러오는 중입니다.`;
+  els.createRoomBtn.disabled=true;els.demoBtn.disabled=true;
+  els.setupMessage.textContent='선택한 과의 어휘·문법·예문을 바탕으로 출제 문장을 준비하고 있습니다.';
+  setView('setup');syncVolume();renderQuestionManager();
+  try{
+    await loadLessonQuestions();
+    const count=teacherQuestions.length;
+    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>서울대 ${selectedBook} · ${selectedLesson}과</b> · <b>${count}개</b>의 교재 기반 문장을 불러왔습니다. 출제 전 문장을 확인·수정하거나 제외할 수 있습니다.`;
+    els.setupMessage.textContent=`서울대 ${selectedBook} ${selectedLesson}과 문장 ${count}개 준비 완료 · 학생은 각자 휴대폰에서 PIN 또는 QR로 입장합니다.`;
+    els.setupMessage.style.color='';
+    renderQuestionManager();updateQuestionSelectionUI();
+  }catch(err){
+    teacherQuestions=[];renderQuestionManager();updateQuestionSelectionUI();
+    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`<b>서울대 ${selectedBook} · ${selectedLesson}과</b> 문장 데이터를 불러오지 못했습니다.`;
+    els.setupMessage.textContent=err?.message||'문장 데이터를 불러오지 못했습니다.';els.setupMessage.style.color='#ffb1bd';
+  }
+}
+initializeSentenceBattle();
