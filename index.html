@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>한·몽 실시간 단어 배틀 - 게임 호스트</title>
-  <link rel="stylesheet" href="css/app.css?v=7.3" />
+  <link rel="stylesheet" href="css/app.css?v=7.4" />
 </head>
 <body class="teacher-page">
   <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
@@ -18,7 +18,7 @@
     <div class="battle-brand">
       <div class="eyebrow">KOREAN · MONGOLIAN LIVE GAME</div>
       <h1>한·몽 실시간 단어 배틀</h1>
-      <p>게임 호스트 · 예비편 + 직접 어휘 선택 · Firebase 실시간 v7</p>
+      <p>게임 호스트 · 예비편 + 직접 어휘 선택 · Firebase 실시간 v7.4</p>
     </div>
     <div class="mode-badge game-badge">⚡ GAME ARENA</div>
   </header>
@@ -107,7 +107,7 @@
           <div class="sound-settings-grid">
             <label class="sound-toggle"><span>🎵 배경음악(BGM)</span><input id="bgmEnabled" type="checkbox" checked /></label>
             <label class="sound-toggle"><span>🔔 효과음</span><input id="sfxEnabled" type="checkbox" checked /></label>
-            <label class="sound-volume"><span>🔊 전체 음량 <strong id="volumeValue">55%</strong></span><input id="masterVolume" type="range" min="0" max="100" step="1" value="55" /></label>
+            <label class="sound-volume"><span>🔊 전체 음량 <strong id="volumeValue">70%</strong></span><input id="masterVolume" type="range" min="0" max="100" step="1" value="70" /></label>
           </div>
           <div class="sound-flow">대기실 음악 → 3·2·1 카운트다운 → 배틀 BGM → 마지막 20% 긴장 모드 → 최종 팡파르</div>
         </div>
@@ -180,7 +180,7 @@
         <div class="audio-toolbar" aria-label="게임 소리 조절">
           <button id="gameBgmBtn" type="button" class="audio-control active">🎵 BGM ON</button>
           <button id="gameSfxBtn" type="button" class="audio-control active">🔔 효과음 ON</button>
-          <label class="game-volume-control"><span>🔊</span><input id="gameVolume" type="range" min="0" max="100" step="1" value="55" /><strong id="gameVolumeText">55%</strong></label>
+          <label class="game-volume-control"><span>🔊</span><input id="gameVolume" type="range" min="0" max="100" step="1" value="70" /><strong id="gameVolumeText">70%</strong></label>
         </div>
 
         <div id="countdownOverlay" class="countdown-overlay hidden"><span id="countdownText">3</span></div>
@@ -240,6 +240,6 @@
 
   <div id="toast" class="toast hidden"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/host.js?v=7.3"></script>
+  <script type="module" src="js/host.js?v=7.4"></script>
 </body>
 </html>
