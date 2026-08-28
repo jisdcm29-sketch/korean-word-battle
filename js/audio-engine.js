@@ -6,11 +6,12 @@ export class GameAudioEngine {
   constructor() {
     this.ctx = null;
     this.master = null;
+    this.compressor = null;
     this.bgmGain = null;
     this.sfxGain = null;
     this.bgmEnabled = true;
     this.sfxEnabled = true;
-    this.volume = 0.55;
+    this.volume = 0.70;
     this.bgmTimer = null;
     this.bgmMode = null;
     this.requestedMode = null;
@@ -24,11 +25,19 @@ export class GameAudioEngine {
     if (!this.ctx) {
       this.ctx = new AudioCtx();
       this.master = this.ctx.createGain();
+      this.compressor = this.ctx.createDynamicsCompressor();
       this.bgmGain = this.ctx.createGain();
       this.sfxGain = this.ctx.createGain();
       this.bgmGain.connect(this.master);
       this.sfxGain.connect(this.master);
-      this.master.connect(this.ctx.destination);
+      // Give the classroom speaker noticeably more headroom while protecting peaks.
+      this.compressor.threshold.value = -18;
+      this.compressor.knee.value = 12;
+      this.compressor.ratio.value = 4;
+      this.compressor.attack.value = 0.003;
+      this.compressor.release.value = 0.22;
+      this.master.connect(this.compressor);
+      this.compressor.connect(this.ctx.destination);
       this._applyGains();
     }
     if (this.ctx.state === 'suspended') {
@@ -40,9 +49,14 @@ export class GameAudioEngine {
   _applyGains() {
     if (!this.ctx || !this.master) return;
     const now = this.ctx.currentTime;
-    this.master.gain.setTargetAtTime(Math.max(0, Math.min(1, this.volume)), now, 0.02);
-    this.bgmGain.gain.setTargetAtTime(this.bgmEnabled ? 0.34 : 0, now, 0.02);
-    this.sfxGain.gain.setTargetAtTime(this.sfxEnabled ? 0.72 : 0, now, 0.02);
+    const volume = Math.max(0, Math.min(1, this.volume));
+    // The old chain was intentionally quiet (55% × 34% for BGM).
+    // Map the UI slider to a classroom-friendly boosted range and use the
+    // compressor above to prevent harsh clipping at the loud end.
+    const boostedMaster = volume <= 0 ? 0 : 0.25 + volume * 1.95;
+    this.master.gain.setTargetAtTime(boostedMaster, now, 0.02);
+    this.bgmGain.gain.setTargetAtTime(this.bgmEnabled ? 0.62 : 0, now, 0.02);
+    this.sfxGain.gain.setTargetAtTime(this.sfxEnabled ? 0.98 : 0, now, 0.02);
   }
 
   setSettings({ bgmEnabled, sfxEnabled, volume } = {}) {
@@ -195,9 +209,14 @@ export class GameAudioEngine {
   playGift(points = 0) {
     if (!this.sfxEnabled || !this.ctx) return;
     const now = performance.now();
-    if (now - this.lastGiftAt < 260) return;
+    if (now - this.lastGiftAt < 220) return;
     this.lastGiftAt = now;
-    this._tone(Number(points) >= 850 ? 1046.5 : 783.99, .08, .07, 'sine', this.sfxGain);
+    const high = Number(points) >= 850;
+    const base = high ? 880.00 : 659.25;
+    this._tone(base, .10, .16, 'sine', this.sfxGain, 0);
+    this._tone(base * 1.25, .12, .14, 'triangle', this.sfxGain, .06);
+    this._tone(base * 1.50, .18, .12, 'sine', this.sfxGain, .13);
+    this._noiseClick(.055, .10, this.sfxGain, .04);
   }
 
   playFinish() {

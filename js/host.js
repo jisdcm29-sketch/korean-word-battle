@@ -3,7 +3,7 @@ import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore, directionLabel, getQuizCapacity } from './game-engine.js';
 import { LocalBus } from './local-bus.js?v=7.3';
 import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin } from './firebase-bus.js?v=7.3';
-import { GameAudioEngine } from './audio-engine.js';
+import { GameAudioEngine } from './audio-engine.js?v=7.4';
 
 const $ = (id) => document.getElementById(id);
 const audio = new GameAudioEngine();
@@ -698,13 +698,33 @@ function renderFinal() {
 
 function dropGift(points) {
   audio.playGift(points);
-  const el=document.createElement('div');
-  el.className='gift';
-  el.textContent='🎁';
-  el.style.left=`${15+Math.random()*70}vw`;
-  el.style.fontSize=`${points>=850?52:points>=700?42:32}px`;
-  document.body.appendChild(el);
-  setTimeout(()=>el.remove(),1400);
+
+  // In fullscreen mode only descendants of the fullscreen element are visible.
+  // Append the shower to that element so the gifts are never hidden behind it.
+  const root = document.fullscreenElement || $('hostView') || document.body;
+  const shower = document.createElement('div');
+  shower.className = 'gift-shower';
+  shower.setAttribute('aria-hidden', 'true');
+
+  const score = Number(points) || 0;
+  const count = score >= 850 ? 18 : score >= 700 ? 15 : 12;
+  const icons = ['🎁','🎁','🎁','🎁','🎁','🎀','✨','⭐'];
+
+  for (let i = 0; i < count; i++) {
+    const gift = document.createElement('span');
+    gift.className = 'gift';
+    gift.textContent = icons[Math.floor(Math.random() * icons.length)];
+    gift.style.setProperty('--gift-x', `${3 + Math.random() * 94}%`);
+    gift.style.setProperty('--gift-size', `${30 + Math.random() * 30}px`);
+    gift.style.setProperty('--gift-delay', `${Math.random() * 0.42}s`);
+    gift.style.setProperty('--gift-duration', `${1.45 + Math.random() * 0.85}s`);
+    gift.style.setProperty('--gift-drift', `${-150 + Math.random() * 300}px`);
+    gift.style.setProperty('--gift-rotate', `${-420 + Math.random() * 840}deg`);
+    shower.appendChild(gift);
+  }
+
+  root.appendChild(shower);
+  setTimeout(() => shower.remove(), 3200);
 }
 
 function resetToSetup() {
