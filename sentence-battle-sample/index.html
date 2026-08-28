@@ -1,1 +1,163 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#08162f" />
+  <title>문장 배틀 · 교사용 샘플</title>
+  <link rel="stylesheet" href="css/sentence-sample.css?v=2.6" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div id="fireworksLayer" class="fireworks-layer" aria-hidden="true"></div>
+  <div id="correctToast" class="correct-toast hidden" aria-live="polite"></div>
+  <main class="app-shell">
+    <section id="setupView" class="view setup-view">
+      <div class="setup-card">
+        <div class="sentence-platform-context"><a href="../index.html">← 게임 선택 홈</a><span id="sentenceBookContext">문장 배틀</span></div>
+        <div class="flag-row"><span>🇰🇷</span><b>⚡</b><span>🇲🇳</span></div>
+        <p class="eyebrow">SENTENCE BATTLE · TEACHER</p>
+        <h1>문장 배틀</h1>
+        <p class="subtitle">교사용 샘플 설정</p>
+        <div id="sentenceContextNote" class="sentence-context-note"></div>
 
+        <div class="setup-grid">
+          <div class="time-setting">
+            <div class="setting-title"><strong>⏱ 문제당 풀이 시간</strong><span>5~60초</span></div>
+            <div class="time-presets">
+              <button type="button" class="time-chip" data-time="10">10초</button>
+              <button type="button" class="time-chip" data-time="15">15초</button>
+              <button type="button" class="time-chip active" data-time="20">20초</button>
+              <button type="button" class="time-chip" data-time="30">30초</button>
+            </div>
+            <label class="custom-time"><span>직접 입력</span><input id="timeInput" type="number" min="5" max="60" step="1" value="20" /><b>초</b></label>
+          </div>
+
+          <div class="question-setting">
+            <div class="setting-title"><strong>📝 출제 문장</strong><span>선택·수정·추가</span></div>
+            <button id="openQuestionManagerBtn" class="btn btn-question-manager" type="button">출제 문장 확인·수정 <b id="selectedQuestionBadge">6/6</b></button>
+            <small>체크한 문장만 출제됩니다.</small>
+          </div>
+        </div>
+
+        <div class="mode-actions">
+          <button id="createRoomBtn" class="btn btn-primary" type="button">📱 실제 학생 방 만들기</button>
+          <button id="demoBtn" class="btn btn-demo" type="button">👥 10명 데모 시연</button>
+        </div>
+        <p id="setupMessage" class="setup-message">학생은 각자 휴대폰에서 PIN 또는 QR로 입장합니다.</p>
+      </div>
+    </section>
+
+    <section id="lobbyView" class="view lobby-view hidden">
+      <header class="monitor-header">
+        <div><p class="eyebrow">SENTENCE BATTLE</p><h2>입장 대기실</h2></div>
+        <div class="teacher-controls">
+          <button id="lobbyHomeBtn" class="control-btn" type="button">🏠 홈</button>
+          <button id="lobbyFullscreenBtn" class="control-btn fullscreen-trigger" type="button">⛶ 전체화면</button>
+          <div class="volume-box"><button class="sound-toggle" type="button">🔊</button><input class="volume-slider" type="range" min="0" max="100" step="5" value="100" /><b class="volume-label">100%</b></div>
+        </div>
+      </header>
+
+      <div class="lobby-layout">
+        <section class="join-card">
+          <span id="joinLabel" class="join-label">GAME PIN</span>
+          <div id="roomPin" class="room-pin">------</div>
+          <div id="qrBox" class="qr-box"></div>
+          <button id="openPlayerBtn" class="btn btn-secondary" type="button">📱 학생 모바일 화면 테스트</button>
+          <div class="join-url-wrap"><span>학생 접속 주소</span><code id="joinUrl"></code></div>
+          <div id="localhostHint" class="network-hint hidden">휴대폰에서 실제 접속하려면 <b>localhost 대신 PC의 IPv4 주소</b> 또는 GitHub Pages 주소를 사용하세요.</div>
+        </section>
+
+        <section class="player-lobby-card">
+          <div class="lobby-title-row"><h3>참가 학생</h3><span><b id="lobbyCount">0</b>명</span></div>
+          <div id="lobbyPlayers" class="lobby-players"></div>
+          <button id="startGameBtn" class="btn btn-primary" type="button" disabled>⚡ 게임 시작</button>
+        </section>
+      </div>
+    </section>
+
+    <section id="gameView" class="view game-view hidden">
+      <header class="monitor-header compact">
+        <div class="game-meta"><span id="questionLabel">Q 1/6</span><span>참가 <b id="playerCount">0</b>명</span></div>
+        <div class="teacher-controls">
+          <button id="gameHomeBtn" class="control-btn" type="button">🏠 홈</button>
+          <button class="control-btn fullscreen-trigger" type="button">⛶ 전체화면</button>
+          <div class="volume-box"><button class="sound-toggle" type="button">🔊</button><input class="volume-slider" type="range" min="0" max="100" step="5" value="100" /><b class="volume-label">100%</b></div>
+        </div>
+      </header>
+
+      <div class="arena-layout">
+        <section class="teacher-stage">
+          <div id="playingStage" class="playing-stage">
+            <div class="round-kicker">ROUND <span id="roundNumber">1</span></div>
+            <div class="prompt-card-wrap" aria-label="현재 문제의 제시 카드">
+              <div id="promptCards" class="prompt-cards"></div>
+            </div>
+            <div class="timer-space">
+              <div id="circleTimer" class="circle-timer" style="--progress:100%;--timer-color:#37d8ff" aria-label="남은 시간">
+                <div class="circle-timer-inner"><span id="bigTimer" class="big-timer">20.0</span><small>초</small></div>
+              </div>
+            </div>
+            <div class="submit-status"><span>제출</span><b id="submittedCount">0</b><em>/</em><strong id="submittedTotal">0</strong></div>
+          </div>
+
+          <div id="revealStage" class="reveal-stage hidden">
+            <div class="answer-label">정답</div>
+            <div id="revealedSentence" class="revealed-sentence">마리아 씨는 의사입니다.</div>
+            <div id="variantNote" class="variant-note hidden">다른 자연스러운 어순도 정답</div>
+            <div class="reveal-countdown"><span>다음 문제까지</span><b id="revealTimer">5.0</b></div>
+          </div>
+        </section>
+
+        <aside id="rankPanel" class="rank-panel">
+          <div class="rank-head"><span id="rankTitle">🏆 실시간 순위</span><small id="rankSubtitle">동시 문장 배틀</small></div>
+          <div id="rankList" class="rank-list"></div>
+          <div id="rankBlindMessage" class="rank-blind-message hidden">
+            <div class="rank-lock">🔒</div>
+            <strong>순위 비공개</strong>
+            <span>마지막 30% 문항입니다.</span>
+            <small>최종 결과에서 공개됩니다.</small>
+          </div>
+        </aside>
+      </div>
+      <div id="countdown" class="countdown hidden"><span>3</span></div>
+    </section>
+
+    <section id="finalView" class="view final-view hidden">
+      <div class="final-card">
+        <div class="final-icon">🏆</div>
+        <p class="eyebrow">BATTLE COMPLETE</p>
+        <h2>최종 결과</h2>
+        <div id="finalRanking" class="final-ranking"></div>
+        <div class="final-actions"><button id="finalHomeBtn" class="btn btn-secondary" type="button">🏠 홈으로</button><button id="finalAgainBtn" class="btn btn-primary" type="button">↻ 다시 시작</button></div>
+      </div>
+    </section>
+  </main>
+
+  <section id="questionManager" class="question-manager hidden" aria-hidden="true">
+    <div class="question-manager-panel" role="dialog" aria-modal="true" aria-labelledby="questionManagerTitle">
+      <header class="question-manager-head">
+        <div><p class="eyebrow">BEFORE BATTLE</p><h2 id="questionManagerTitle">출제 문장 확인·수정</h2><p>체크한 문장만 출제됩니다. 문장을 수정하거나 새 문장을 추가할 수 있습니다.</p></div>
+        <button id="closeQuestionManagerBtn" class="manager-close" type="button">✕</button>
+      </header>
+      <div class="question-manager-toolbar">
+        <div class="bulk-actions"><button id="addQuestionBtn" class="btn btn-add-question btn-small" type="button">＋ 새 문장 추가</button><button id="selectAllQuestionsBtn" class="btn btn-secondary btn-small" type="button">☑ 전체 선택</button><button id="clearAllQuestionsBtn" class="btn btn-secondary btn-small" type="button">☐ 전체 제외</button></div>
+        <div class="selection-summary">출제 문항 <b id="managerSelectedCount">6</b> / <span id="managerTotalCount">6</span></div>
+      </div>
+      <div id="newQuestionEditor" class="new-question-editor hidden">
+        <div class="new-question-title"><div><b>＋ 새 문장 만들기</b><span>대표 문장, 카드, 추가 정답을 입력하세요.</span></div><button id="closeNewQuestionBtn" class="manager-close" type="button">✕</button></div>
+        <div class="editor-field"><label>대표 문장</label><input id="newSentenceInput" type="text" placeholder="예: 오늘 저는 학교에 갑니다." /></div>
+        <div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button id="autoCardsBtn" class="mini-action-btn" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="newCardsInput" type="text" placeholder="오늘 | 저 | 는 | 학교 | 에 | 갑니다" /><small>조사는 분리하고 동사·형용사의 종결형은 한 카드로 입력합니다.</small></div>
+        <div class="editor-field"><label>추가로 인정할 문장</label><textarea id="newAnswersInput" rows="3" placeholder="저는 오늘 학교에 갑니다."></textarea><small>한 줄에 하나씩 입력합니다.</small></div>
+        <div id="newQuestionError" class="edit-error"></div>
+        <div class="editor-actions"><button id="cancelNewQuestionBtn" class="btn btn-secondary" type="button">취소</button><button id="saveNewQuestionBtn" class="btn btn-primary" type="button">＋ 문장 추가</button></div>
+      </div>
+      <div id="questionList" class="question-list"></div>
+      <footer class="question-manager-foot"><span>※ 수정 내용은 현재 샘플 실행 동안 유지됩니다.</span><button id="applyQuestionManagerBtn" class="btn btn-primary" type="button">✓ 확인하고 닫기</button></footer>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script type="module" src="js/sentence-host.js?v=2.7"></script>
+</body>
+</html>
