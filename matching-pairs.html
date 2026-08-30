@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#06142e" />
+  <title>한·몽 카드 매칭 · 게임 호스트</title>
+  <link rel="stylesheet" href="css/matching.css?v=1.0" />
+</head>
+<body class="match-host-page">
+  <div class="match-bg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <main class="match-shell">
+    <header class="match-hero">
+      <a class="home-link" href="index.html">← 게임 선택 홈</a>
+      <div class="hero-flags"><span>🇰🇷</span><b>🃏</b><span>🇲🇳</span></div>
+      <p class="eyebrow">KOREAN · MONGOLIAN MATCHING ARENA</p>
+      <h1>한·몽 카드 매칭</h1>
+      <p>한국어 카드와 몽골어 카드를 빠르게 짝지어 없애는 실시간 경쟁 게임</p>
+    </header>
+
+    <section id="setupView" class="match-panel setup-panel">
+      <div class="panel-title-row">
+        <div><span class="step-chip">STEP 1</span><h2>게임 설정</h2><p>어휘를 고르고 판 수·카드 수·제한 시간을 설정하세요.</p></div>
+        <button id="vocabBtn" class="btn btn-cyan" type="button">☑ 어휘 선택 <span id="selectedBadge">0/0</span></button>
+      </div>
+
+      <div class="source-banner"><span>한국어 🇰🇷</span><b>↔</b><span>Монгол 🇲🇳</span><em>같은 뜻을 찾아 카드를 없애세요!</em></div>
+
+      <div class="setup-grid">
+        <label class="field"><span>출제 자료</span><select id="sourceType"><option value="preliminary">예비편 어휘 40 · 자모음 학습</option><option value="snu">서울대 한국어 어휘</option><option value="topik1">TOPIK 1 연어 표현</option></select></label>
+        <label id="bookField" class="field hidden"><span>교재</span><select id="snuBook"></select></label>
+        <label id="lessonField" class="field hidden"><span>과</span><select id="snuLesson"></select></label>
+        <label id="collocationField" class="field hidden"><span>연어 범위</span><select id="collocationSet"></select></label>
+
+        <label class="field"><span>게임 판 수</span><select id="roundCount"><option value="1">1판 · 짧은 연습</option><option value="3" selected>3판 · 기본</option><option value="5">5판 · 수업 경쟁</option><option value="7">7판 · 긴 배틀</option><option value="10">10판 · 챌린지</option></select><small>한 판이 끝나면 자동으로 다음 판이 시작됩니다.</small></label>
+        <label class="field"><span>한 판 카드 쌍</span><select id="pairsPerRound"><option value="4">4쌍 · 8장</option><option value="5">5쌍 · 10장</option><option value="6" selected>6쌍 · 12장</option><option value="7">7쌍 · 14장</option><option value="8">8쌍 · 16장</option></select><small>휴대폰에서는 6쌍을 기본으로 권장합니다.</small></label>
+
+        <div class="time-card">
+          <div class="field-head"><span>한 판 제한 시간</span><strong id="timeValue">45초</strong></div>
+          <div id="timePresets" class="time-presets"><button type="button" data-time="20">20초</button><button type="button" data-time="30">30초</button><button type="button" class="active" data-time="45">45초</button><button type="button" data-time="60">60초</button><button type="button" data-time="90">90초</button></div>
+          <input id="roundTime" type="range" min="15" max="120" step="5" value="45" />
+          <small>15~120초 사이에서 직접 조절할 수 있습니다.</small>
+        </div>
+
+        <div class="blind-card"><div class="blind-icon">🙈</div><div><strong>마지막 30% 자동 블라인드</strong><span>전체 게임 진행률이 70%를 넘으면 학생 점수와 교사용 실시간 순위가 가려집니다. 종료 후 최종 결과를 공개합니다.</span></div><b>고정 ON</b></div>
+
+        <div class="sound-card">
+          <div class="sound-copy"><span class="sound-chip">GAME SOUND</span><strong>긴장감 BGM · 효과음</strong><small>교사용 화면에서 재생됩니다. 마지막 30%에는 긴장 모드 음악으로 자동 전환됩니다.</small></div>
+          <div class="sound-controls">
+            <label><span>🎵 BGM</span><input id="bgmEnabled" type="checkbox" checked /></label>
+            <label><span>🔔 효과음</span><input id="sfxEnabled" type="checkbox" checked /></label>
+            <label class="volume"><span>🔊 <b id="volumeValue">70%</b></span><input id="masterVolume" type="range" min="0" max="100" step="1" value="70" /></label>
+            <button id="soundTestBtn" class="btn btn-small" type="button">♪ 미리듣기</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="dataSummary" class="data-summary">자료를 불러오는 중입니다.</div>
+      <div id="backendStatus" class="backend-status"></div>
+
+      <div class="demo-card"><div><span>CLASS DEMO</span><strong>학생 설명용 10명 데모 시연</strong><small>가상 학생 10명이 자동으로 카드를 맞추며 점수 상승, 순위 변화, 마지막 30% 블라인드까지 보여 줍니다.</small></div><button id="demoBtn" class="btn btn-demo" type="button">🎮 데모 시연</button></div>
+
+      <div class="setup-actions"><button id="soloBtn" class="btn btn-secondary" type="button">👤 혼자 게임</button><button id="createRoomBtn" class="btn btn-primary" type="button">🃏 실제 게임 방 만들기</button></div>
+    </section>
+
+    <section id="hostView" class="match-panel host-panel hidden">
+      <button id="fullscreenBtn" class="fullscreen-btn" type="button">⛶ 전체 화면</button>
+
+      <div id="lobbyView" class="host-view">
+        <div class="lobby-layout">
+          <section class="pin-card">
+            <div class="mini-flags">🇰🇷 <b>🃏</b> 🇲🇳</div><span>ROOM PIN</span><strong id="roomPin">------</strong>
+            <div id="qrBox" class="qr-box"><span>QR 준비 중</span></div><div id="joinUrl" class="join-url"></div>
+            <button id="openPlayerBtn" class="btn btn-small" type="button">학생 화면 새 탭</button>
+          </section>
+          <section class="lobby-players-card">
+            <div class="lobby-head"><div><span class="step-chip">STEP 2</span><h2>입장 대기실</h2></div><b id="playerCount">0명</b></div>
+            <div id="demoInfo" class="demo-info hidden">DEMO MODE · 가상 학생이 자동으로 플레이합니다.</div>
+            <div id="playerList" class="player-list empty">QR 또는 PIN으로 학생이 입장하면 여기에 표시됩니다.</div>
+            <div class="lobby-actions"><button id="backSetupBtn" class="btn btn-secondary" type="button">설정으로</button><button id="addDemoBtn" class="btn btn-cyan" type="button">데모 학생 10명</button><button id="startGameBtn" class="btn btn-primary" type="button" disabled>🔥 게임 시작</button></div>
+          </section>
+        </div>
+      </div>
+
+      <div id="gameView" class="host-view hidden">
+        <header class="game-monitor-head"><div><span class="live-dot">LIVE</span><strong id="hostRoundLabel">ROUND 1/3</strong><span id="blindBadge" class="blind-badge hidden">마지막 30% · 순위 비공개</span></div><div class="monitor-audio"><span id="musicMode">🎵 BATTLE</span><button id="gameBgmBtn" type="button">BGM ON</button><button id="gameSfxBtn" type="button">SFX ON</button></div></header>
+        <div id="countdownOverlay" class="countdown-overlay hidden"><span>READY</span><b id="countdownText">3</b></div>
+        <div class="host-game-layout">
+          <section class="host-stage">
+            <div class="round-vocab-head"><span>이번 판 어휘</span><strong id="hostMatchedSummary">0/6쌍</strong></div>
+            <div id="hostVocabStrip" class="host-vocab-strip"></div>
+            <div class="host-timer-space"><div id="hostCircleTimer" class="circle-timer"><div class="circle-inner"><strong id="hostTimerText">45.0</strong><span>SECONDS</span></div></div></div>
+            <div class="stage-note">학생 화면에서 한국어 카드와 몽골어 카드를 짝지어 맞춥니다.</div>
+          </section>
+          <aside class="rank-panel">
+            <div class="rank-head"><h3>🏆 실시간 순위</h3><span id="progressText">0명 플레이 중</span></div>
+            <div id="rankingList" class="ranking-list"></div>
+            <div id="rankBlindCover" class="rank-blind-cover hidden"><div>?</div><strong>최종 30% 승부</strong><span>점수와 순위는 게임 종료 후 공개됩니다.</span></div>
+          </aside>
+        </div>
+        <div class="game-actions"><button id="endRoomBtn" class="btn btn-secondary" type="button">게임 종료</button></div>
+      </div>
+
+      <div id="roundResultView" class="host-view round-result-view hidden">
+        <p class="eyebrow">ROUND COMPLETE</p><h2 id="roundResultTitle">1판 종료</h2><div id="roundResultTimer" class="next-round-count">다음 판 3</div><div id="roundTop3" class="round-top3"></div>
+      </div>
+
+      <div id="finalView" class="host-view final-view hidden">
+        <div class="final-flags">🇰🇷 🏆 🇲🇳</div><p class="eyebrow">MATCHING BATTLE COMPLETE</p><h2>최종 시상식</h2><div id="finalPodium" class="final-podium"></div><div id="finalRanking" class="final-ranking"></div>
+        <div class="final-actions"><button id="newGameBtn" class="btn btn-primary" type="button">새 게임 만들기</button><a class="btn btn-secondary link-btn" href="index.html">게임 선택 홈</a></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="vocabModal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-panel">
+      <div class="modal-head"><div><span class="step-chip">VOCAB SELECT</span><h2>게임 어휘 선택</h2><p>한국어와 몽골어 뜻이 한 쌍으로 사용됩니다.</p></div><button id="closeVocabBtn" type="button" class="icon-btn">×</button></div>
+      <div class="modal-tools"><input id="vocabSearch" type="search" placeholder="한국어 또는 몽골어 검색" /><button id="selectAllBtn" class="btn btn-small" type="button">전체 선택</button><button id="clearAllBtn" class="btn btn-small btn-secondary" type="button">전체 해제</button></div>
+      <div id="vocabList" class="vocab-list"></div>
+      <div class="modal-foot"><div><strong id="modalSelectedCount">0개 선택</strong><span id="modalRequirement">최소 6개 필요</span></div><button id="applyVocabBtn" class="btn btn-primary" type="button">선택 적용</button></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script type="module" src="js/matching-host.js?v=1.0"></script>
+</body>
+</html>

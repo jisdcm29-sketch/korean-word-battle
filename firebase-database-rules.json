@@ -1,0 +1,31 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "rooms": {
+      "$pin": {
+        "ownerUid": {
+          ".read": "auth != null",
+          ".write": "auth != null && ((!data.exists() && newData.val() == auth.uid) || (data.val() == auth.uid && !newData.exists()))",
+          ".validate": "newData.val() == null || newData.isString()"
+        },
+        "createdAt": {
+          ".read": "auth != null",
+          ".write": "auth != null && root.child('rooms').child($pin).child('ownerUid').val() == auth.uid"
+        },
+        "state": {
+          ".read": "auth != null",
+          ".write": "auth != null && root.child('rooms').child($pin).child('ownerUid').val() == auth.uid"
+        },
+        "inbox": {
+          ".read": "auth != null && root.child('rooms').child($pin).child('ownerUid').val() == auth.uid",
+          ".write": "auth != null && root.child('rooms').child($pin).child('ownerUid').val() == auth.uid",
+          "$messageId": {
+            ".write": "auth != null && ((!data.exists() && newData.child('uid').val() == auth.uid && newData.child('payload').child('uid').val() == auth.uid) || (data.exists() && !newData.exists() && root.child('rooms').child($pin).child('ownerUid').val() == auth.uid))",
+            ".validate": "newData.val() == null || (newData.hasChildren(['type','uid','payload','at']) && newData.child('type').isString() && newData.child('uid').val() == auth.uid)"
+          }
+        }
+      }
+    }
+  }
+}
