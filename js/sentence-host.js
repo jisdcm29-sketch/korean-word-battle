@@ -144,27 +144,41 @@ function startTensionBed(){
   initAudio();
   if(!audioCtx)return;
   const t=audioCtx.currentTime;
+  // 교실 PC/노트북 스피커에서도 분명하게 들리도록 중저역을 올리고
+  // 컴프레서를 사용해 여러 음이 겹칠 때 찢어지지 않게 제한한다.
   const master=audioCtx.createGain();
-  master.gain.setValueAtTime(Math.max(.0001,.11*volume),t);
-  master.connect(audioCtx.destination);
+  const compressor=audioCtx.createDynamicsCompressor();
+  compressor.threshold.setValueAtTime(-18,t);
+  compressor.knee.setValueAtTime(12,t);
+  compressor.ratio.setValueAtTime(5,t);
+  compressor.attack.setValueAtTime(.006,t);
+  compressor.release.setValueAtTime(.18,t);
+  master.gain.setValueAtTime(Math.max(.0001,.24*volume),t);
+  master.connect(compressor);compressor.connect(audioCtx.destination);
 
   const bass=audioCtx.createOscillator();
   const bassGain=audioCtx.createGain();
-  bass.type='sine'; bass.frequency.setValueAtTime(82,t);
-  bassGain.gain.setValueAtTime(.58,t);
+  bass.type='triangle'; bass.frequency.setValueAtTime(110,t);
+  bassGain.gain.setValueAtTime(.34,t);
   bass.connect(bassGain); bassGain.connect(master); bass.start(t);
 
   const mid=audioCtx.createOscillator();
   const midGain=audioCtx.createGain();
-  mid.type='triangle'; mid.frequency.setValueAtTime(123,t);
-  midGain.gain.setValueAtTime(.22,t);
+  mid.type='triangle'; mid.frequency.setValueAtTime(165,t);
+  midGain.gain.setValueAtTime(.28,t);
   mid.connect(midGain); midGain.connect(master); mid.start(t);
+
+  const edge=audioCtx.createOscillator();
+  const edgeGain=audioCtx.createGain();
+  edge.type='sine'; edge.frequency.setValueAtTime(220,t);
+  edgeGain.gain.setValueAtTime(.12,t);
+  edge.connect(edgeGain); edgeGain.connect(master); edge.start(t);
 
   const lfo=audioCtx.createOscillator();
   const lfoGain=audioCtx.createGain();
-  lfo.type='sine'; lfo.frequency.setValueAtTime(2.25,t); lfoGain.gain.setValueAtTime(.065,t);
+  lfo.type='sine'; lfo.frequency.setValueAtTime(2.4,t); lfoGain.gain.setValueAtTime(.045,t);
   lfo.connect(lfoGain); lfoGain.connect(master.gain); lfo.start(t);
-  tensionBedNodes=[bass,mid,lfo,bassGain,midGain,lfoGain,master];
+  tensionBedNodes=[bass,mid,edge,lfo,bassGain,midGain,edgeGain,lfoGain,master,compressor];
 }
 function stopTensionAudio(){if(tensionTimer){clearTimeout(tensionTimer);tensionTimer=null;}stopTensionBed();}
 function startTensionAudio(){
@@ -177,12 +191,13 @@ function startTensionAudio(){
     if(!muted&&volume>0){
       const urgent=left<=5000;
       const tense=left<=10000;
-      // 분명하게 들리는 리듬 + 고음 펄스. 마지막 5초는 더 빠르고 강하게.
-      tone(urgent?168:tense?148:132,urgent?.15:.12,'triangle',urgent?.11:.075);
-      tone(urgent?252:tense?222:198,urgent?.11:.09,'square',urgent?.055:.038,urgent?.06:.07);
-      if(urgent)tone(336,.07,'sine',.04,.12);
+      // 긴장감이 분명하게 들리는 3단계 리듬. 마지막 5초는 더 빠르고 강하게.
+      tone(urgent?220:tense?196:176,urgent?.17:.14,'triangle',urgent?.17:tense?.135:.11);
+      tone(urgent?330:tense?294:264,urgent?.13:.11,'square',urgent?.105:tense?.082:.065,urgent?.055:.065);
+      tone(urgent?440:tense?392:352,urgent?.10:.085,'sine',urgent?.075:tense?.055:.042,urgent?.115:.13);
+      if(urgent)tone(660,.055,'square',.038,.175);
     }
-    const delay=left<=5000?240:left<=10000?360:Math.round(500+130*Math.max(0,ratio));
+    const delay=left<=5000?210:left<=10000?315:Math.round(420+95*Math.max(0,ratio));
     tensionTimer=setTimeout(pulse,Math.max(210,delay));
   };
   pulse();
@@ -294,6 +309,9 @@ async function handleMessage(msg){
 
 async function beginGame(){
   if(!room||activePlayerCount()<1)return;
+  // 시작 버튼 클릭 자체를 오디오 활성화 제스처로 사용한다.
+  // 브라우저 자동재생 제한 때문에 긴장음이 안 들리는 경우를 방지한다.
+  initAudio();sfx('start');
   room.questionIndex=0;room.status='countdown';room.countdownEndAt=now()+3300;room.answerCount=0;room.roundResults={};
   setView('game');renderGameMeta();showCountdown(room.countdownEndAt);void persist();countdownTimer=setTimeout(()=>startRound(),3400);
 }
