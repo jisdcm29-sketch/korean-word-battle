@@ -243,7 +243,17 @@ function renderRoundResult(){
 }
 function renderRoundResultCountdown(){ if(!room)return; const n=Math.max(0,Math.ceil((room.roundResultEndAt-nowMs())/1000)); $('roundResultTimer').textContent=room.roundIndex+1>=room.matching.roundCount?`최종 결과 ${n}`:`다음 판 ${n}`; }
 function renderFinal(){
-  const players=sortedPlayers(); const top=players.slice(0,3); const order=top.length>=3?[top[1],top[0],top[2]]:top; $('finalPodium').innerHTML=order.map((p)=>{const rank=players.findIndex((x)=>x.uid===p.uid)+1;return `<div class="podium-item rank${rank}"><div class="avatar">${p.avatar}</div><strong>${escapeHtml(p.name)}</strong><span>${(p.score||0).toLocaleString()} pt</span><em>${rank}위 · 총 실수 ${p.totalMistakes||0}회</em></div>`;}).join(''); $('finalRanking').innerHTML=players.map((p,i)=>`<div class="rank-row"><span class="rank-num">${i+1}</span><span class="rank-avatar">${p.avatar}</span><span class="rank-copy"><strong>${escapeHtml(p.name)}</strong><span>총 매칭 ${p.totalMatched||''}${p.bot?' · DEMO':''}</span></span><strong class="rank-score">${(p.score||0).toLocaleString()} pt</strong></div>`).join('');
+  const players=sortedPlayers();
+  const top=players.slice(0,3);
+  const order=top.length>=3?[top[1],top[0],top[2]]:top;
+  $('finalPodium').innerHTML=order.map((p)=>{const rank=players.findIndex((x)=>x.uid===p.uid)+1;return `<div class="podium-item rank${rank}"><div class="avatar">${p.avatar}</div><strong>${escapeHtml(p.name)}</strong><span>${(p.score||0).toLocaleString()} pt</span><em>${rank}위 · 총 실수 ${p.totalMistakes||0}회</em></div>`;}).join('');
+  const finalRanking=$('finalRanking');
+  const columns=players.length>24?3:(players.length>12?2:1);
+  const rows=Math.max(1,Math.ceil(players.length/columns));
+  finalRanking.dataset.columns=String(columns);
+  finalRanking.style.setProperty('--final-columns',String(columns));
+  finalRanking.style.setProperty('--final-rows',String(rows));
+  finalRanking.innerHTML=players.map((p,i)=>`<div class="rank-row"><span class="rank-num">${i+1}</span><span class="rank-avatar">${p.avatar}</span><span class="rank-copy"><strong>${escapeHtml(p.name)}</strong><span>총 매칭 ${p.totalMatched||''}${p.bot?' · DEMO':''}</span></span><strong class="rank-score">${(p.score||0).toLocaleString()} pt</strong></div>`).join('');
 }
 
 async function endRoom(){
