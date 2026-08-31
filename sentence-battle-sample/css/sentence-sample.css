@@ -43,3 +43,78 @@
 .sentence-platform-context{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:-8px 0 18px;padding:10px 12px;border-radius:15px;background:rgba(4,20,45,.66);border:1px solid rgba(255,255,255,.09);font-size:11px}.sentence-platform-context a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 17px;border-radius:12px;background:linear-gradient(135deg,#37d8ff,#5d8cff);border:1px solid rgba(255,255,255,.28);box-shadow:0 7px 18px rgba(55,216,255,.18);color:#07162f;text-decoration:none;font-size:14px;font-weight:1000;letter-spacing:-.01em;transition:.16s transform,.16s filter,.16s box-shadow}.sentence-platform-context a:hover{transform:translateY(-1px);filter:brightness(1.06);box-shadow:0 9px 22px rgba(55,216,255,.24)}.sentence-platform-context span{color:#dce9fc;font-weight:900;font-size:12px}.sentence-context-note{margin:12px auto 17px;max-width:680px;padding:10px 13px;border-radius:13px;background:rgba(255,200,61,.07);border:1px solid rgba(255,200,61,.14);color:#d7e4f7;font-size:11px;line-height:1.55}.sentence-context-note b{color:#ffd568}
 
 @media(max-width:620px){.sentence-platform-context{align-items:stretch;flex-direction:column}.sentence-platform-context a{width:100%;min-height:46px;font-size:15px}.sentence-platform-context span{text-align:center}}
+
+/* v3.0 안정화 및 가독성 개선
+   - 정답 제목 완전 중앙 정렬
+   - 실시간/최종 순위 이름과 점수 확대
+   - 정답 학생 이름 + 폭죽 알림 가독성 강화 */
+.answer-label{
+  width:100%;
+  align-self:stretch;
+  text-align:center;
+  padding-left:.16em;
+}
+
+@media(min-width:901px){
+  .arena-layout{grid-template-columns:minmax(0,1fr) 340px}
+  .rank-panel{padding:16px}
+  .rank-head{font-size:18px}
+  .rank-head small{font-size:11px}
+  .rank-list{gap:8px}
+  .rank-row{
+    grid-template-columns:34px 40px minmax(0,1fr) auto;
+    gap:9px;
+    min-height:54px;
+    padding:10px 11px;
+  }
+  .rank-pos{font-size:18px}
+  .rank-avatar{font-size:25px}
+  .rank-name{font-size:15px;line-height:1.2}
+  .rank-score{font-size:14px;white-space:nowrap}
+}
+
+.final-view{padding:16px}
+.final-card{
+  width:min(920px,100%);
+  max-height:calc(100vh - 32px);
+  padding:26px 34px;
+  overflow:hidden;
+}
+.final-icon{font-size:54px;line-height:1}
+.final-card h2{font-size:40px;margin:3px 0 14px}
+.final-ranking{width:100%;max-width:760px;gap:6px;margin:0 auto 14px}
+.final-rank-row{
+  grid-template-columns:50px 50px minmax(0,1fr) auto;
+  min-height:50px;
+  gap:11px;
+  padding:9px 15px;
+}
+.final-rank-row>b{font-size:20px;text-align:center;color:#a9c8f1}
+.final-rank-row>span{font-size:27px;text-align:center}
+.final-rank-row>strong{font-size:19px;line-height:1.15;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.final-rank-row>em{font-size:18px;font-weight:1000;font-style:normal;color:#f8fbff;white-space:nowrap}
+.final-rank-row:first-child>strong,.final-rank-row:first-child>em{color:#ffe16e}
+.final-actions{margin-top:4px}
+
+.correct-toast{
+  min-width:360px;
+  padding:16px 26px;
+  font-size:clamp(23px,2.2vw,34px);
+  animation-duration:1.4s;
+}
+.correct-toast .toast-points{font-size:.82em}
+
+@media(max-height:820px) and (min-width:901px){
+  .rank-row{min-height:46px;padding:7px 9px}
+  .rank-name{font-size:14px}
+  .rank-score{font-size:13px}
+  .final-card{padding:18px 28px}
+  .final-icon{font-size:42px}
+  .final-card h2{font-size:34px;margin:2px 0 10px}
+  .final-ranking{gap:4px;margin-bottom:10px}
+  .final-rank-row{min-height:42px;padding:6px 12px}
+  .final-rank-row>b{font-size:17px}
+  .final-rank-row>span{font-size:23px}
+  .final-rank-row>strong{font-size:17px}
+  .final-rank-row>em{font-size:16px}
+}
