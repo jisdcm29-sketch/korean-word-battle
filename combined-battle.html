@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#07152f" />
+  <title>종합 배틀 · 게임 호스트</title>
+  <link rel="stylesheet" href="css/combined.css?v=3.0" />
+</head>
+<body>
+  <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i></div>
+  <main class="shell">
+    <div class="context-bar"><a href="index.html">← 게임 선택 홈</a><span id="contextText">종합 배틀</span></div>
+
+    <section id="setupView" class="panel setup-panel">
+      <header class="hero">
+        <div class="hero-mark">🏆</div>
+        <div>
+          <p class="eyebrow">ALL-IN-ONE KOREAN BATTLE</p>
+          <h1>종합 배틀</h1>
+          <p>어휘 배틀 → 카드 매칭 → 문장 배틀을 한 경기처럼 연속 진행합니다.</p>
+        </div>
+        <span class="phase-badge">2단계 · LIVE ROOM</span>
+      </header>
+
+      <div class="source-card">
+        <div><span>선택 교재</span><strong id="sourceTitle">서울대 1A · 1과</strong></div>
+        <div id="syncStatus" class="sync-status">공통 수정 데이터를 확인하는 중입니다.</div>
+      </div>
+
+      <div class="stage-grid">
+        <article class="stage-card word">
+          <div class="stage-number">ROUND 1</div><span class="stage-icon">⚡</span><h2>어휘 배틀</h2><p>공통 Firebase 어휘 수정값을 그대로 사용합니다.</p>
+          <label>문제 수 <input id="wordCount" type="number" min="3" max="20" value="5"></label>
+          <label>문제당 시간 <select id="wordTime"><option value="7">7초</option><option value="10" selected>10초</option><option value="15">15초</option></select></label>
+          <b class="weight">최대 1,000점</b>
+        </article>
+        <article class="stage-card matching">
+          <div class="stage-number">ROUND 2</div><span class="stage-icon">🃏</span><h2>카드 매칭</h2><p>어휘 배틀과 동일한 공통 어휘를 사용합니다.</p>
+          <label>게임 판 수 <select id="matchRounds"><option value="1">1판</option><option value="2" selected>2판</option><option value="3">3판</option></select></label>
+          <label>한 판 카드 <select id="pairsPerRound"><option value="4">4쌍</option><option value="5">5쌍</option><option value="6" selected>6쌍</option></select></label>
+          <label>한 판 시간 <select id="matchTime"><option value="30">30초</option><option value="45" selected>45초</option><option value="60">60초</option></select></label>
+          <b class="weight">최대 1,000점</b>
+        </article>
+        <article class="stage-card sentence">
+          <div class="stage-number">ROUND 3</div><span class="stage-icon">🧩</span><h2>문장 배틀</h2><p>교사가 Firebase에 저장한 추가 정답·수정 문장을 반영합니다.</p>
+          <label>문제 수 <input id="sentenceCount" type="number" min="3" max="20" value="5"></label>
+          <label>문제당 시간 <select id="sentenceTime"><option value="10">10초</option><option value="15">15초</option><option value="20" selected>20초</option><option value="30">30초</option></select></label>
+          <b class="weight">최대 1,000점</b>
+        </article>
+      </div>
+
+      <div class="rule-strip"><span>⚖ 동일 비중</span><b>어휘 1,000 + 카드 매칭 1,000 + 문장 1,000 = 총 3,000점</b><span>🔒 마지막 30% 순위 비공개</span></div>
+      <div class="sound-strip">
+        <strong>🎵 게임 음향</strong>
+        <label><input id="bgmEnabled" type="checkbox" checked> 배경음악(BGM)</label>
+        <label><input id="sfxEnabled" type="checkbox" checked> 효과음</label>
+        <label class="volume-control">음량 <input id="masterVolume" type="range" min="0" max="100" value="75"><span id="volumeValue">75%</span></label>
+        <button id="audioPreviewBtn" class="sound-preview" type="button">🔊 미리듣기</button>
+      </div>
+      <div id="setupMessage" class="message">자료를 불러오는 중입니다.</div>
+      <div class="actions">
+        <button id="demoBtn" class="btn secondary" disabled>🎮 10명 종합 데모 시연</button>
+        <button id="liveBtn" class="btn primary" disabled>📱 실제 학생 방 만들기</button>
+      </div>
+      <p class="phase-note">실제 학생은 QR/PIN으로 한 번만 입장합니다. 세 게임이 바뀌어도 같은 방·같은 이름·같은 종합 점수를 유지합니다.</p>
+    </section>
+
+    <section id="lobbyView" class="panel lobby-panel hidden">
+      <header class="lobby-head">
+        <div><p class="eyebrow">COMBINED BATTLE · LIVE LOBBY</p><h2>학생 입장 대기</h2><p>학생은 한 번만 입장하면 세 게임을 끝까지 이어서 플레이합니다.</p></div>
+        <div class="pin-block"><span>ROOM PIN</span><strong id="roomPin">------</strong></div>
+      </header>
+      <div class="lobby-grid">
+        <div class="qr-card">
+          <div id="qrBox" class="qr-box"></div>
+          <button id="openPlayerBtn" class="btn secondary">학생 화면 열기</button>
+          <div id="joinUrl" class="join-url"></div>
+        </div>
+        <div class="players-card">
+          <div class="players-card-head"><h3>참가 학생</h3><strong><span id="lobbyCount">0</span>명</strong></div>
+          <div id="lobbyPlayers" class="lobby-players"><div class="empty-lobby">학생 입장을 기다리고 있습니다.</div></div>
+        </div>
+      </div>
+      <div class="lobby-actions">
+        <button id="closeRoomBtn" class="btn ghost">방 종료</button>
+        <button id="startLiveBtn" class="btn primary" disabled>🏆 종합 배틀 시작</button>
+      </div>
+    </section>
+
+    <section id="demoView" class="panel demo-panel hidden">
+      <header class="demo-head">
+        <div><p id="liveEyebrow" class="eyebrow">COMBINED BATTLE · LIVE</p><h2 id="stageTitle">ROUND 1 · 어휘 배틀</h2><p id="stageSubtitle">종합 경기가 진행됩니다.</p></div>
+        <div class="progress-wrap"><div class="progress-track"><i id="totalProgress"></i></div><strong id="totalProgressText">0%</strong></div>
+      </header>
+
+      <div class="stage-tabs">
+        <div id="tabWord" class="stage-tab active"><span>1</span><b>⚡ 어휘</b><em id="wordStageScore">0/1000</em></div>
+        <div id="tabMatching" class="stage-tab"><span>2</span><b>🃏 카드 매칭</b><em id="matchingStageScore">0/1000</em></div>
+        <div id="tabSentence" class="stage-tab"><span>3</span><b>🧩 문장</b><em id="sentenceStageScore">0/1000</em></div>
+      </div>
+
+      <div class="live-grid">
+        <section class="play-card">
+          <div class="play-top"><span id="roundCounter">준비 중</span><span id="liveTimer" class="live-timer hidden">0.0</span><span id="blindBadge" class="blind-badge hidden">🔒 FINAL ZONE · 순위 비공개</span></div>
+          <div id="gameVisual" class="game-visual"></div>
+          <div id="roundFeedback" class="round-feedback">준비 중...</div>
+        </section>
+        <aside class="rank-card">
+          <div class="rank-head"><h3>🏆 종합 실시간 순위</h3><small>각 게임 1,000점 환산</small></div>
+          <div id="rankList" class="rank-list"></div>
+          <div id="rankBlind" class="rank-blind hidden"><strong>?</strong><b>최종 승부 중</b><span>종합 순위는 종료 후 공개됩니다.</span></div>
+        </aside>
+      </div>
+
+      <div class="demo-actions"><button id="stopDemoBtn" class="btn ghost">게임 중단</button></div>
+    </section>
+
+    <section id="replicaView" class="stage-replica-view hidden" aria-label="종합 배틀 원본 게임 화면">
+      <iframe id="stageFrame" class="stage-replica-frame" title="종합 배틀 게임 진행 화면" allow="autoplay; fullscreen"></iframe>
+      <div id="stageFrameLoading" class="stage-frame-loading">게임 화면을 준비하는 중입니다.</div>
+    </section>
+
+    <section id="finalView" class="panel final-panel hidden">
+      <div class="final-title"><span>🏆 ALL-IN-ONE FINAL RESULT 🏆</span><h2>종합 배틀 최종 순위</h2><p>세 게임을 각각 1,000점으로 환산하여 합산했습니다.</p></div>
+      <div id="podium" class="podium"></div>
+      <div id="finalRanking" class="final-ranking"></div>
+      <div class="actions"><button id="againBtn" class="btn primary">다시 시작</button><a class="btn secondary link-btn" href="index.html">게임 선택 홈</a></div>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script type="module" src="js/combined-host.js?v=3.0"></script>
+</body>
+</html>

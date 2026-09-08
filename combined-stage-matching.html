@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#06142e" />
+  <title>종합 배틀 · 카드 매칭 교사 화면</title>
+  <link rel="stylesheet" href="css/matching.css?v=1.2" />
+  <style>
+    html,body{min-height:100%}body{margin:0}.match-hero .home-link{display:none!important}.game-actions{text-align:center!important}
+  </style>
+</head>
+<body class="match-host-page">
+  <div class="match-bg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <main class="match-shell">
+    <header class="match-hero">
+      <div class="hero-flags"><span>🇰🇷</span><b>🃏</b><span>🇲🇳</span></div>
+      <p class="eyebrow">KOREAN · MONGOLIAN MATCHING ARENA</p>
+      <h1>한·몽 카드 매칭</h1>
+      <p>한국어 카드와 몽골어 카드를 빠르게 짝지어 없애는 실시간 경쟁 게임</p>
+    </header>
+    <section id="hostView" class="match-panel host-panel">
+      <button id="fullscreenBtn" class="fullscreen-btn" type="button">⛶ 전체 화면</button>
+      <div id="gameView" class="host-view">
+        <header class="game-monitor-head"><div><span class="live-dot">LIVE</span><strong id="hostRoundLabel">ROUND 1/3</strong><span id="blindBadge" class="blind-badge hidden">마지막 30% · 순위 비공개</span></div><div class="monitor-audio"><span id="musicMode">🎵 BATTLE</span><button id="gameBgmBtn" type="button">BGM ON</button><button id="gameSfxBtn" type="button">SFX ON</button></div></header>
+        <div id="countdownOverlay" class="countdown-overlay hidden"><span>READY</span><b id="countdownText">3</b></div>
+        <div class="host-game-layout">
+          <section class="host-stage">
+            <div class="round-vocab-head"><span>이번 판 어휘</span><strong id="hostMatchedSummary">0/6쌍</strong></div>
+            <div id="hostVocabStrip" class="host-vocab-strip"></div>
+            <div class="host-timer-space"><div id="hostCircleTimer" class="circle-timer"><div class="circle-inner"><strong id="hostTimerText">45.0</strong><span>SECONDS</span></div></div></div>
+            <div class="stage-note">학생 화면에서 한국어 카드와 몽골어 카드를 짝지어 맞춥니다.</div>
+          </section>
+          <aside class="rank-panel">
+            <div class="rank-head"><h3>🏆 실시간 순위</h3><span id="progressText">0명 플레이 중</span></div>
+            <div id="rankingList" class="ranking-list"></div>
+            <div id="rankBlindCover" class="rank-blind-cover hidden"><div>?</div><strong>최종 30% 승부</strong><span>점수와 순위는 게임 종료 후 공개됩니다.</span></div>
+          </aside>
+        </div>
+        <div class="game-actions"><button id="endRoomBtn" class="btn btn-secondary" type="button">게임 종료</button></div>
+      </div>
+      <div id="roundResultView" class="host-view round-result-view hidden">
+        <p class="eyebrow">ROUND COMPLETE</p><h2 id="roundResultTitle">1판 종료</h2><div id="roundResultTimer" class="next-round-count">다음 판 3</div><div id="roundTop3" class="round-top3"></div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="js/combined-stage-matching.js?v=1.0"></script>
+</body>
+</html>

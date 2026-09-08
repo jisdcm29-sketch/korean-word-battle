@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#07152f" />
+  <title>종합 배틀 · 어휘 배틀 교사 화면</title>
+  <link rel="stylesheet" href="css/app.css?v=7.6" />
+  <style>
+    html,body{min-height:100%;}
+    body{margin:0;}
+    .combined-stage-context{pointer-events:none}
+    .combined-stage-context a{display:none!important}
+    .host-option{font-size:clamp(24px,2.1vw,34px)!important;text-align:center;display:grid;place-items:center;min-height:74px}
+    .host-option .option-number{display:none!important}
+    .game-controls{justify-content:center!important}
+  </style>
+</head>
+<body class="teacher-page game-active">
+  <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <header class="topbar battle-topbar">
+    <div class="flag-showdown" aria-label="대한민국과 몽골">
+      <span class="flag-card korea"><b>🇰🇷</b><small>KOREA</small></span>
+      <span class="versus-mark">VS</span>
+      <span class="flag-card mongolia"><b>🇲🇳</b><small>MONGOLIA</small></span>
+    </div>
+    <div class="battle-brand">
+      <div class="eyebrow">KOREAN · MONGOLIAN LIVE GAME</div>
+      <h1>한·몽 실시간 단어 배틀</h1>
+      <p>종합 배틀 · ROUND 1</p>
+    </div>
+    <div class="mode-badge game-badge">⚡ GAME ARENA</div>
+  </header>
+
+  <main class="page-shell">
+    <div class="platform-context-bar combined-stage-context"><span>종합 배틀 · ROUND 1 · 어휘 배틀</span><span id="combinedContext">서울대 한국어</span></div>
+    <section id="hostView" class="panel host-panel game-panel">
+      <button id="fullscreenBtn" type="button" class="fullscreen-btn" title="전체 화면으로 전환">⛶ 전체 화면</button>
+      <div id="gameArea" class="host-section arena-game-area">
+        <div class="arena-titlebar live"><span>🇰🇷</span><strong>LIVE WORD BATTLE</strong><span>🇲🇳</span></div>
+        <div class="game-topline">
+          <div><span id="questionCounter">Q 1/10</span><span id="blindBadge" class="blind-badge hidden">순위 블라인드</span><span id="demoGameBadge" class="demo-game-badge hidden">10명 DEMO</span><span id="musicModeBadge" class="music-mode-badge">🎵 BATTLE</span></div>
+          <div class="timer-wrap"><div id="hostTimerBar" class="timer-bar"></div><span id="hostTimerText">10.0</span></div>
+        </div>
+        <div class="audio-toolbar" aria-label="게임 소리 조절">
+          <button id="gameBgmBtn" type="button" class="audio-control active">🎵 BGM ON</button>
+          <button id="gameSfxBtn" type="button" class="audio-control active">🔔 효과음 ON</button>
+          <label class="game-volume-control"><span>🔊</span><input id="gameVolume" type="range" min="0" max="100" step="1" value="75" /><strong id="gameVolumeText">75%</strong></label>
+        </div>
+        <div id="countdownOverlay" class="countdown-overlay hidden"><span id="countdownText">3</span></div>
+        <div class="host-game-grid">
+          <section class="question-card host-question-card arena-question-card">
+            <div id="directionBadge" class="direction-badge"></div>
+            <div id="hostPrompt" class="prompt">문제가 표시됩니다.</div>
+            <div id="hostOptions" class="host-options"></div>
+            <div id="hostResultLine" class="result-line"></div>
+          </section>
+          <aside class="ranking-card arena-ranking-card">
+            <div class="ranking-header"><h3>🏆 실시간 순위</h3><span id="answeredCount">0/0 제출</span></div>
+            <div id="podium" class="podium"></div>
+            <div id="rankingList" class="ranking-list"></div>
+            <div id="blindCover" class="blind-cover hidden"><div>?</div><strong>마지막 승부 중</strong><span>최종 순위는 게임 종료 후 공개됩니다.</span></div>
+          </aside>
+        </div>
+        <div class="action-row left game-controls"><button id="endRoomBtn" class="btn ghost">게임 종료</button></div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="js/combined-stage-word.js?v=1.0"></script>
+</body>
+</html>

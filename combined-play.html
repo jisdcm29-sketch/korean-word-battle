@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="theme-color" content="#07152f" />
+  <title>종합 배틀 · 학생</title>
+  <link rel="stylesheet" href="css/combined-player.css?v=2.0" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"><i></i><i></i><i></i></div>
+  <main class="player-shell">
+    <section id="joinView" class="card join-card">
+      <div class="brand"><span>🏆 ALL-IN-ONE</span><h1>종합 배틀</h1><p>어휘 · 카드 매칭 · 문장 배틀</p></div>
+      <div class="steps"><span><b>1</b> 한 번 입장</span><span><b>2</b> 세 게임 연속</span><span><b>3</b> 종합 순위</span></div>
+      <label><span>PIN</span><input id="pinInput" inputmode="numeric" maxlength="6" placeholder="6자리 PIN"></label>
+      <label><span>이름 / Нэр</span><input id="nameInput" maxlength="20" placeholder="이름을 입력하세요"></label>
+      <div><span class="field-title">캐릭터 선택</span><div id="avatarGrid" class="avatar-grid"></div></div>
+      <button id="joinBtn" class="btn primary">입장하기</button>
+      <div id="joinError" class="error"></div>
+    </section>
+
+    <section id="waitingView" class="card center hidden">
+      <div id="myAvatar" class="big-avatar">🐻</div><h2 id="waitingName">입장 완료!</h2><p>선생님이 종합 배틀을 시작할 때까지 기다려 주세요.</p><div class="pulse">● ● ●</div>
+    </section>
+
+    <section id="transitionView" class="card center hidden">
+      <div id="transitionIcon" class="stage-icon">⚡</div><span id="transitionRound" class="round-chip">ROUND 1</span><h2 id="transitionTitle">어휘 배틀</h2><p id="transitionCopy">다음 경기를 준비합니다.</p>
+    </section>
+
+    <section id="countdownView" class="card center hidden">
+      <span id="countdownStage" class="round-chip">ROUND 1</span><div class="ready">READY</div><div id="countdownNumber" class="countdown">3</div>
+    </section>
+
+    <section id="wordView" class="game hidden">
+      <header class="game-top"><span id="wordCounter">Q 1/5</span><div><small>종합 점수</small><strong id="wordTotalScore">0</strong></div></header>
+      <div class="timer"><i id="wordTimerBar"></i><b id="wordTimerText">10.0</b></div>
+      <div id="wordDirection" class="direction"></div><div id="wordPrompt" class="prompt"></div><div id="wordOptions" class="option-grid"></div><div id="wordSubmitState" class="submit-state"></div>
+    </section>
+
+    <section id="matchingView" class="game hidden">
+      <header class="game-top"><span id="matchingCounter">ROUND 1/2</span><div><small>종합 점수</small><strong id="matchingTotalScore">0</strong></div></header>
+      <div class="timer"><i id="matchingTimerBar"></i><b id="matchingTimerText">45.0</b></div>
+      <div class="matching-meta"><span>맞춘 카드 <b id="matchedCount">0</b>/<b id="matchedTotal">6</b></span><span>COMBO <b id="comboCount">0</b></span></div>
+      <div id="matchingGrid" class="matching-grid"></div><div id="matchingState" class="submit-state"></div>
+    </section>
+
+    <section id="sentenceView" class="game hidden">
+      <header class="game-top"><span id="sentenceCounter">Q 1/5</span><div><small>종합 점수</small><strong id="sentenceTotalScore">0</strong></div></header>
+      <div class="timer"><i id="sentenceTimerBar"></i><b id="sentenceTimerText">20.0</b></div>
+      <p class="sentence-guide">카드를 눌러 자연스러운 문장을 만드세요.</p>
+      <div id="sentenceAnswer" class="sentence-answer"><span>여기에 문장을 만드세요.</span></div>
+      <div id="sentenceCards" class="sentence-cards"></div>
+      <div class="sentence-actions"><button id="sentenceResetBtn" class="btn secondary">다시 배열</button><button id="sentenceSubmitBtn" class="btn primary">정답 제출</button></div>
+      <div id="sentenceSubmitState" class="submit-state"></div>
+    </section>
+
+    <section id="resultView" class="card center hidden result-card">
+      <div id="resultIcon" class="result-icon">✓</div><span id="resultStage" class="round-chip">ROUND 1</span><h2 id="resultTitle">정답!</h2><div id="resultAnswer" class="result-answer"></div><div id="resultPoints" class="result-points">+0</div><p id="resultNote">다음 문제를 기다려 주세요.</p>
+    </section>
+
+    <section id="blindView" class="card center hidden blind-card"><div class="blind-lock">🔒</div><h2>FINAL ZONE</h2><p>마지막 30% 구간입니다.<br>점수와 순위는 종료 후 공개됩니다.</p></section>
+
+    <section id="finishView" class="card center hidden finish-card">
+      <div class="finish-label">ALL-IN-ONE FINISH</div><div id="finishAvatar" class="big-avatar">🐻</div><h2 id="finishName">수고했어요!</h2>
+      <div class="score-breakdown"><span>어휘 <b id="finishWord">0</b></span><span>매칭 <b id="finishMatching">0</b></span><span>문장 <b id="finishSentence">0</b></span></div>
+      <div class="total-box"><span>종합 점수</span><strong id="finishTotal">0 / 3,000</strong></div><div id="finishRank" class="finish-rank">1위</div><p>교실 화면에서 최종 시상식을 확인하세요.</p>
+    </section>
+  </main>
+  <script type="module" src="js/combined-player.js?v=2.1"></script>
+</body>
+</html>
