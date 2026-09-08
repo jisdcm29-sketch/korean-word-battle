@@ -1,11 +1,127 @@
-import { SentenceHostBus, createUniquePin, serverNow, firebaseReady } from './sentence-live.js?v=2.1';
+import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=2.2';
 
 const launchParams=new URLSearchParams(location.search);
 const selectedBook=launchParams.get('book')||'1A';
 const selectedLesson=Math.max(1,Number(launchParams.get('lesson'))||1);
 
+const TEACHER_STORE_PREFIX='kwb_sentence_teacher_v1';
 let teacherQuestions=[];
+let sourceQuestions=[];
 let lessonDataMeta=null;
+let loadedPersistentCount=0;
+let teacherSyncState='local';
+let teacherSyncError='';
+
+function cloneQuestion(q){
+  return {...q,tokens:(q.tokens||[]).map(t=>[...t]),acceptedOrders:(q.acceptedOrders||[]).map(o=>[...o]),flexibleFrames:(q.flexibleFrames||[]).map(f=>({units:(f.units||[]).map(u=>[...u]),tail:[...(f.tail||[])]}))};
+}
+function teacherStoreKey(){return `${TEACHER_STORE_PREFIX}:${selectedBook}:lesson${String(selectedLesson).padStart(2,'0')}`;}
+function emptyTeacherStore(){return{version:2,updatedAt:0,overrides:{},customQuestions:[]};}
+function normalizeTeacherStore(parsed){
+  const customRaw=parsed?.customQuestions;
+  const customQuestions=Array.isArray(customRaw)?customRaw:(customRaw&&typeof customRaw==='object'?Object.values(customRaw):[]);
+  return{
+    version:2,
+    updatedAt:Number(parsed?.updatedAt)||0,
+    overrides:parsed?.overrides&&typeof parsed.overrides==='object'?parsed.overrides:{},
+    customQuestions:customQuestions.filter(Boolean)
+  };
+}
+function teacherStoreHasContent(store){return Boolean(Object.keys(store?.overrides||{}).length||(store?.customQuestions||[]).length);}
+function readTeacherStore(){
+  try{
+    const raw=localStorage.getItem(teacherStoreKey());
+    if(!raw)return emptyTeacherStore();
+    return normalizeTeacherStore(JSON.parse(raw));
+  }catch(err){console.error('교사 문장 영구 저장 데이터를 읽지 못했습니다:',err);return emptyTeacherStore();}
+}
+function writeTeacherStore(store,{touch=true}={}){
+  try{
+    const next=normalizeTeacherStore(store);
+    if(touch)next.updatedAt=Date.now();
+    localStorage.setItem(teacherStoreKey(),JSON.stringify(next));
+    return{ok:true,store:next};
+  }catch(err){console.error('교사 문장 영구 저장 실패:',err);return{ok:false,error:'브라우저 영구 저장에 실패했습니다. 저장 공간/개인정보 보호 설정을 확인해 주세요.'};}
+}
+async function saveTeacherStoreEverywhere(store){
+  const localSaved=writeTeacherStore(store);
+  if(!localSaved.ok)return localSaved;
+  if(!firebaseReady()){
+    teacherSyncState='local';
+    teacherSyncError='Firebase 설정을 확인할 수 없어 이 PC에만 저장했습니다.';
+    return{ok:true,store:localSaved.store,cloudOk:false,warning:teacherSyncError};
+  }
+  try{
+    await saveSentenceTeacherStore(selectedBook,selectedLesson,localSaved.store);
+    teacherSyncState='firebase';teacherSyncError='';
+    return{ok:true,store:localSaved.store,cloudOk:true};
+  }catch(err){
+    console.error('Firebase 교사 문장 저장 실패:',err);
+    teacherSyncState='local';
+    teacherSyncError='Firebase 영구 저장에 실패했습니다. 이 PC에는 저장되었지만 GitHub와 아직 동기화되지 않았습니다. Firebase 규칙을 확인해 주세요.';
+    return{ok:true,store:localSaved.store,cloudOk:false,warning:teacherSyncError};
+  }
+}
+async function resolveTeacherStore(){
+  const local=readTeacherStore();
+  if(!firebaseReady()){teacherSyncState='local';teacherSyncError='';return local;}
+  try{
+    const remoteRaw=await loadSentenceTeacherStore(selectedBook,selectedLesson);
+    if(!remoteRaw){
+      if(teacherStoreHasContent(local))await saveSentenceTeacherStore(selectedBook,selectedLesson,local);
+      teacherSyncState='firebase';teacherSyncError='';
+      return local;
+    }
+    const remote=normalizeTeacherStore(remoteRaw);
+    // 최신 쪽 전체 저장본을 우선합니다. 삭제/원본복원도 다른 주소에서 다시 살아나지 않게 하기 위한 방식입니다.
+    if(local.updatedAt>remote.updatedAt){
+      await saveSentenceTeacherStore(selectedBook,selectedLesson,local);
+      teacherSyncState='firebase';teacherSyncError='';
+      return local;
+    }
+    writeTeacherStore(remote,{touch:false});
+    teacherSyncState='firebase';teacherSyncError='';
+    return remote;
+  }catch(err){
+    console.error('Firebase 교사 문장 불러오기 실패:',err);
+    teacherSyncState='local';
+    teacherSyncError='Firebase에서 교사 저장 내용을 불러오지 못해 이 PC의 저장 내용을 사용합니다.';
+    return local;
+  }
+}
+function storedQuestionRecord(q){
+  return{id:String(q.id),displaySentence:questionSentence(q),cards:(q.tokens||[]).map(t=>String(t[1])),answers:(q.acceptedOrders||[]).map((_,i)=>questionSentence(q,i)),updatedAt:Date.now()};
+}
+function questionFromStored(record,base=null,custom=false){
+  if(!record||!record.id||!Array.isArray(record.cards)||!Array.isArray(record.answers))return null;
+  const answers=record.answers.map(v=>String(v||'').trim()).filter(Boolean);
+  const r=buildQuestionParts(String(record.id),record.cards.map(String),answers);
+  if(r.error)return null;
+  return{...(base||{}),id:String(record.id),displaySentence:r.displaySentence||String(record.displaySentence||answers[0]||''),tokens:r.tokens,acceptedOrders:r.orders,flexibleFrames:r.flexibleFrames,note:custom?'교사 직접 추가':(base?.note||'교사 영구 수정'),enabled:base?.enabled!==false,edited:true,custom:Boolean(custom),persistent:true};
+}
+function applyTeacherStore(baseQuestions,store){
+  const useStore=normalizeTeacherStore(store||emptyTeacherStore());
+  const merged=baseQuestions.map(base=>questionFromStored(useStore.overrides?.[base.id],base,false)||cloneQuestion(base));
+  for(const record of useStore.customQuestions||[]){
+    const q=questionFromStored(record,null,true);
+    if(q&&!merged.some(x=>x.id===q.id))merged.push(q);
+  }
+  loadedPersistentCount=merged.filter(q=>q.persistent).length;
+  return merged;
+}
+async function saveQuestionPersistence(q){
+  const store=readTeacherStore(),record=storedQuestionRecord(q);
+  if(q.custom){store.customQuestions=(store.customQuestions||[]).filter(x=>String(x?.id)!==String(q.id));store.customQuestions.push(record);}
+  else store.overrides[String(q.id)]=record;
+  return saveTeacherStoreEverywhere(store);
+}
+async function removeQuestionPersistence(q){
+  const store=readTeacherStore();
+  if(q.custom)store.customQuestions=(store.customQuestions||[]).filter(x=>String(x?.id)!==String(q.id));
+  else delete store.overrides[String(q.id)];
+  return saveTeacherStoreEverywhere(store);
+}
+
 
 async function loadLessonQuestions(){
   const lessonCode=String(selectedLesson).padStart(2,'0');
@@ -15,15 +131,18 @@ async function loadLessonQuestions(){
   const data=await response.json();
   const questions=Array.isArray(data?.questions)?data.questions:[];
   if(!questions.length)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과에 사용할 문장 데이터가 없습니다.`);
-  teacherQuestions=questions.map((q,index)=>{
-    const tokens=Array.isArray(q.tokens)?q.tokens.map(t=>[String(t[0]),String(t[1])]):[];
-    const acceptedOrders=Array.isArray(q.acceptedOrders)?q.acceptedOrders.map(o=>o.map(String)):[];
-    const flexibleFrames=Array.isArray(q.flexibleFrames)&&q.flexibleFrames.length
-      ? q.flexibleFrames.map(f=>({units:(f.units||[]).map(u=>u.map(String)),tail:(f.tail||[]).map(String)}))
-      : inferFlexibleFrames(tokens,acceptedOrders);
-    return {...q,id:String(q.id||`SNU-${selectedBook}-${lessonCode}-${String(index+1).padStart(3,'0')}`),tokens,acceptedOrders,flexibleFrames,displaySentence:String(q.displaySentence||''),enabled:true,edited:false,custom:false};
+  const baseQuestions=questions.map((q,index)=>{
+    const id=String(q.id||`SNU-${selectedBook}-${lessonCode}-${String(index+1).padStart(3,'0')}`);
+    const rawTokens=Array.isArray(q.tokens)?q.tokens.map(t=>[String(t[0]),String(t[1])]):[];
+    const rawOrders=Array.isArray(q.acceptedOrders)?q.acceptedOrders.map(o=>o.map(String)):[];
+    const cleaned=applySentenceRules(String(q.displaySentence||''),rawTokens,rawOrders);
+    const flexibleFrames=inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders);
+    return {...q,id,tokens:cleaned.tokens,acceptedOrders:cleaned.acceptedOrders,flexibleFrames,displaySentence:cleaned.displaySentence,enabled:true,edited:false,custom:false,persistent:false};
   }).filter(q=>q.tokens.length>=2&&q.acceptedOrders.length);
-  if(!teacherQuestions.length)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과 문장 데이터 형식이 올바르지 않습니다.`);
+  if(!baseQuestions.length)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과 문장 데이터 형식이 올바르지 않습니다.`);
+  sourceQuestions=baseQuestions.map(cloneQuestion);
+  const teacherStore=await resolveTeacherStore();
+  teacherQuestions=applyTeacherStore(sourceQuestions,teacherStore);
   lessonDataMeta=data;
 }
 const DEMO_NAMES=[['Бат','🦊'],['Солонго','🐰'],['Тэмүүжин','🐯'],['Номин','🐼'],['Ану','🐱'],['Мөнх','🐻'],['Саруул','🐸'],['Энхжин','🦁'],['Төгөлдөр','🐨'],['Болор','🦄']];
@@ -31,6 +150,38 @@ const SCORE_TABLE=[1200,1050,950,875,800,750,700,650,600,550];
 const BOUND_TEXTS=new Set(['은','는','이','가','을','를','에','에서','에게','한테','께','하고','와','과','도','만','부터','까지','으로','로','의','보다','처럼','입니다','입니까','이에요','예요']);
 const AUTO_PARTICLES=['에서','에게','한테','께','부터','까지','으로','보다','처럼','하고','은','는','이','가','을','를','에','도','만','와','과','로','의'];
 const AUTO_COPULAS=['입니다','입니까','이에요','예요'];
+const RESPONSE_PREFIX_RE=/^(?:네|아니요|아니오)\s*[,，]\s*/;
+
+function terminalBase(text){return String(text||'').trim().replace(/[.。!！?？]+$/g,'');}
+function isBoundText(text){return BOUND_TEXTS.has(terminalBase(text));}
+function applySentenceRules(displaySentence,tokens,acceptedOrders){
+  let display=String(displaySentence||'').trim();
+  let nextTokens=(tokens||[]).map(t=>[String(t[0]),String(t[1])]);
+  let nextOrders=(acceptedOrders||[]).map(o=>o.map(String));
+
+  // 대화의 단순 응답인 “네,” “아니요,” “아니오,”는 문장 배열 카드에서 제외합니다.
+  if(RESPONSE_PREFIX_RE.test(display)&&nextOrders.length){
+    const tokenMap=new Map(nextTokens);
+    const firstId=nextOrders[0]?.[0];
+    const firstText=String(tokenMap.get(firstId)||'').trim();
+    if(['네','아니요','아니오'].includes(firstText)){
+      display=display.replace(RESPONSE_PREFIX_RE,'').trim();
+      nextTokens=nextTokens.filter(([id])=>id!==firstId);
+      nextOrders=nextOrders.map(order=>order.filter(id=>id!==firstId)).filter(order=>order.length);
+    }
+  }
+
+  // 질문 문장은 물음표를 종결어미 카드 자체에 붙여 학생·교사 화면 모두에서 명확히 보이게 합니다.
+  if(/[?？]\s*$/.test(display)&&nextOrders.length){
+    const finalIds=new Set(nextOrders.map(order=>order[order.length-1]).filter(Boolean));
+    nextTokens=nextTokens.map(([id,text])=>{
+      if(!finalIds.has(id))return[id,text];
+      const base=String(text).trim().replace(/[.。!！?？]+$/g,'');
+      return[id,`${base}?`];
+    });
+  }
+  return{displaySentence:display,tokens:nextTokens,acceptedOrders:nextOrders};
+}
 
 const $=id=>document.getElementById(id);
 const els={
@@ -47,7 +198,7 @@ const els={
   fireworksLayer:$('fireworksLayer'),correctToast:$('correctToast')
 };
 
-let room=null,bus=null,isDemo=false,fullQuestions=[],currentQuestion=null,roundSubmissions=new Map(),correctCount=0,roundTimers=[],raf=null,revealRaf=null,countdownTimer=null;
+let room=null,bus=null,isDemo=false,fullQuestions=[],currentQuestion=null,roundSubmissions=new Map(),correctCount=0,roundTimers=[],raf=null,revealRaf=null,countdownTimer=null,roundEndGuard=null,revealEndGuard=null;
 let audioCtx=null,muted=false,volume=1,editingQuestionIndex=null,lastMode='actual';
 let tensionTimer=null,toastTimer=null;
 let tensionBedNodes=[];
@@ -112,27 +263,41 @@ function startTensionBed(){
   initAudio();
   if(!audioCtx)return;
   const t=audioCtx.currentTime;
+  // 교실 PC/노트북 스피커에서도 분명하게 들리도록 중저역을 올리고
+  // 컴프레서를 사용해 여러 음이 겹칠 때 찢어지지 않게 제한한다.
   const master=audioCtx.createGain();
-  master.gain.setValueAtTime(Math.max(.0001,.11*volume),t);
-  master.connect(audioCtx.destination);
+  const compressor=audioCtx.createDynamicsCompressor();
+  compressor.threshold.setValueAtTime(-18,t);
+  compressor.knee.setValueAtTime(12,t);
+  compressor.ratio.setValueAtTime(5,t);
+  compressor.attack.setValueAtTime(.006,t);
+  compressor.release.setValueAtTime(.18,t);
+  master.gain.setValueAtTime(Math.max(.0001,.24*volume),t);
+  master.connect(compressor);compressor.connect(audioCtx.destination);
 
   const bass=audioCtx.createOscillator();
   const bassGain=audioCtx.createGain();
-  bass.type='sine'; bass.frequency.setValueAtTime(82,t);
-  bassGain.gain.setValueAtTime(.58,t);
+  bass.type='triangle'; bass.frequency.setValueAtTime(110,t);
+  bassGain.gain.setValueAtTime(.34,t);
   bass.connect(bassGain); bassGain.connect(master); bass.start(t);
 
   const mid=audioCtx.createOscillator();
   const midGain=audioCtx.createGain();
-  mid.type='triangle'; mid.frequency.setValueAtTime(123,t);
-  midGain.gain.setValueAtTime(.22,t);
+  mid.type='triangle'; mid.frequency.setValueAtTime(165,t);
+  midGain.gain.setValueAtTime(.28,t);
   mid.connect(midGain); midGain.connect(master); mid.start(t);
+
+  const edge=audioCtx.createOscillator();
+  const edgeGain=audioCtx.createGain();
+  edge.type='sine'; edge.frequency.setValueAtTime(220,t);
+  edgeGain.gain.setValueAtTime(.12,t);
+  edge.connect(edgeGain); edgeGain.connect(master); edge.start(t);
 
   const lfo=audioCtx.createOscillator();
   const lfoGain=audioCtx.createGain();
-  lfo.type='sine'; lfo.frequency.setValueAtTime(2.25,t); lfoGain.gain.setValueAtTime(.065,t);
+  lfo.type='sine'; lfo.frequency.setValueAtTime(2.4,t); lfoGain.gain.setValueAtTime(.045,t);
   lfo.connect(lfoGain); lfoGain.connect(master.gain); lfo.start(t);
-  tensionBedNodes=[bass,mid,lfo,bassGain,midGain,lfoGain,master];
+  tensionBedNodes=[bass,mid,edge,lfo,bassGain,midGain,edgeGain,lfoGain,master,compressor];
 }
 function stopTensionAudio(){if(tensionTimer){clearTimeout(tensionTimer);tensionTimer=null;}stopTensionBed();}
 function startTensionAudio(){
@@ -145,12 +310,13 @@ function startTensionAudio(){
     if(!muted&&volume>0){
       const urgent=left<=5000;
       const tense=left<=10000;
-      // 분명하게 들리는 리듬 + 고음 펄스. 마지막 5초는 더 빠르고 강하게.
-      tone(urgent?168:tense?148:132,urgent?.15:.12,'triangle',urgent?.11:.075);
-      tone(urgent?252:tense?222:198,urgent?.11:.09,'square',urgent?.055:.038,urgent?.06:.07);
-      if(urgent)tone(336,.07,'sine',.04,.12);
+      // 긴장감이 분명하게 들리는 3단계 리듬. 마지막 5초는 더 빠르고 강하게.
+      tone(urgent?220:tense?196:176,urgent?.17:.14,'triangle',urgent?.17:tense?.135:.11);
+      tone(urgent?330:tense?294:264,urgent?.13:.11,'square',urgent?.105:tense?.082:.065,urgent?.055:.065);
+      tone(urgent?440:tense?392:352,urgent?.10:.085,'sine',urgent?.075:tense?.055:.042,urgent?.115:.13);
+      if(urgent)tone(660,.055,'square',.038,.175);
     }
-    const delay=left<=5000?240:left<=10000?360:Math.round(500+130*Math.max(0,ratio));
+    const delay=left<=5000?210:left<=10000?315:Math.round(420+95*Math.max(0,ratio));
     tensionTimer=setTimeout(pulse,Math.max(210,delay));
   };
   pulse();
@@ -174,11 +340,11 @@ function celebrateCorrect(uid,rank,points){
   if(els.correctToast){
     if(toastTimer)clearTimeout(toastTimer);els.correctToast.classList.remove('hidden');void els.correctToast.offsetWidth;els.correctToast.classList.remove('correct-toast');void els.correctToast.offsetWidth;els.correctToast.classList.add('correct-toast');
     els.correctToast.innerHTML=`<span class="toast-avatar">${safeText(p.avatar)}</span><span><b>${safeText(p.name)}</b> 정답!</span><span class="toast-points">+${Number(points||0).toLocaleString()}점</span>`;
-    toastTimer=setTimeout(()=>{els.correctToast?.classList.add('hidden');},900);
+    toastTimer=setTimeout(()=>{els.correctToast?.classList.add('hidden');},1450);
   }
 }
 
-function assembleSentence(order,q){const map=new Map(q.tokens),words=[];for(const id of order){const text=map.get(id)||'';if(words.length&&BOUND_TEXTS.has(text))words[words.length-1]+=text;else words.push(text);}let s=words.join(' ').trim();if(s&&!/[.!?]$/.test(s))s+='.';return s;}
+function assembleSentence(order,q){const map=new Map(q.tokens),words=[];for(const id of order){const text=map.get(id)||'';if(words.length&&isBoundText(text))words[words.length-1]+=text;else words.push(text);}let s=words.join(' ').trim();if(s&&!/[.!?]$/.test(s))s+='.';return s;}
 function canonicalSentence(q){return String(q?.displaySentence||'').trim()||assembleSentence(q.acceptedOrders[0]||[],q);}
 
 function publicRoomState(){
@@ -191,7 +357,7 @@ function publicRoomState(){
     revealSentence:room.status==='result'?room.revealSentence||'':null,variantCount:room.status==='result'?room.variantCount||1:0,finishedAt:room.finishedAt||0
   };
 }
-async function persist(){if(bus&&!isDemo)await bus.saveState(publicRoomState());}
+async function persist(){if(!bus||isDemo)return true;try{await bus.saveState(publicRoomState());return true;}catch(err){console.error('문장 배틀 상태 동기화 실패:',err);return false;}}
 
 function renderLobby(){
   const players=Object.values(room?.players||{});
@@ -262,8 +428,11 @@ async function handleMessage(msg){
 
 async function beginGame(){
   if(!room||activePlayerCount()<1)return;
+  // 시작 버튼 클릭 자체를 오디오 활성화 제스처로 사용한다.
+  // 브라우저 자동재생 제한 때문에 긴장음이 안 들리는 경우를 방지한다.
+  initAudio();sfx('start');
   room.questionIndex=0;room.status='countdown';room.countdownEndAt=now()+3300;room.answerCount=0;room.roundResults={};
-  await persist();setView('game');renderGameMeta();showCountdown(room.countdownEndAt);countdownTimer=setTimeout(()=>startRound(),3400);
+  setView('game');renderGameMeta();showCountdown(room.countdownEndAt);void persist();countdownTimer=setTimeout(()=>startRound(),3400);
 }
 function showCountdown(endAt){
   els.countdown.classList.remove('hidden');
@@ -272,9 +441,11 @@ function showCountdown(endAt){
 
 async function startRound(){
   if(!room||room.questionIndex<0||room.questionIndex>=fullQuestions.length)return;
+  if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}
   currentQuestion=fullQuestions[room.questionIndex];roundSubmissions=new Map();correctCount=0;room.status='playing';room.answerCount=0;room.roundResults={};room.revealSentence='';room.variantCount=flexibleOrderCount(currentQuestion);
-  const t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;room.currentQuestion={id:currentQuestion.id,tokens:shuffle(currentQuestion.tokens).map(t=>[...t])};
-  els.playingStage.classList.remove('hidden');els.revealStage.classList.add('hidden');renderGameMeta();await persist();runHostTimer();startTensionAudio();if(isDemo)scheduleDemoSubmissions();
+  const roundIndex=room.questionIndex,t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;room.currentQuestion={id:currentQuestion.id,tokens:shuffle(currentQuestion.tokens).map(t=>[...t])};
+  els.playingStage.classList.remove('hidden');els.revealStage.classList.add('hidden');renderGameMeta();void persist();runHostTimer();startTensionAudio();if(isDemo)scheduleDemoSubmissions();
+  roundEndGuard=setTimeout(()=>{if(room?.status==='playing'&&room.questionIndex===roundIndex)endRound();},room.config.timeLimit*1000+900);
 }
 function runHostTimer(){cancelAnimationFrame(raf);let lastSecond=null;const frame=()=>{if(!room||room.status!=='playing')return;const left=Math.max(0,room.questionEndAt-now()),ratio=Math.max(0,Math.min(1,left/(room.config.timeLimit*1000)));els.bigTimer.textContent=(left/1000).toFixed(1);if(els.circleTimer){els.circleTimer.style.setProperty('--progress',`${ratio*100}%`);const color=ratio<=.25?'#ff5b6e':ratio<=.5?'#ffc83d':'#37d8ff';els.circleTimer.style.setProperty('--timer-color',color);els.circleTimer.classList.toggle('urgent',left<=5000);}const sec=Math.ceil(left/1000);if(sec<=5&&sec!==lastSecond){lastSecond=sec;sfx('tick');}if(left<=0){endRound();return;}raf=requestAnimationFrame(frame);};raf=requestAnimationFrame(frame);}
 
@@ -312,20 +483,20 @@ function fitRevealedSentence(){
   }
 }
 
-async function endRound(){
-  if(!room||room.status!=='playing')return;cancelAnimationFrame(raf);stopTensionAudio();roundTimers.forEach(clearTimeout);roundTimers=[];room.status='result';room.revealSentence=canonicalSentence(currentQuestion);room.variantCount=flexibleOrderCount(currentQuestion);room.resultEndAt=now()+((room.config?.revealSeconds||5)*1000);room.currentQuestion=null;await persist();
-  if(els.promptCards)els.promptCards.innerHTML='';els.playingStage.classList.add('hidden');els.revealStage.classList.remove('hidden');els.revealedSentence.textContent=room.revealSentence;els.variantNote.classList.toggle('hidden',room.variantCount<=1);requestAnimationFrame(()=>fitRevealedSentence());sfx('answer');renderRank();runRevealTimer();
+function endRound(){
+  if(!room||room.status!=='playing')return;if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}cancelAnimationFrame(raf);stopTensionAudio();roundTimers.forEach(clearTimeout);roundTimers=[];room.status='result';room.revealSentence=canonicalSentence(currentQuestion);room.variantCount=flexibleOrderCount(currentQuestion);room.resultEndAt=now()+((room.config?.revealSeconds||5)*1000);room.currentQuestion=null;
+  if(els.promptCards)els.promptCards.innerHTML='';els.playingStage.classList.add('hidden');els.revealStage.classList.remove('hidden');els.revealedSentence.textContent=room.revealSentence;els.variantNote.classList.toggle('hidden',room.variantCount<=1);requestAnimationFrame(()=>fitRevealedSentence());sfx('answer');renderRank();void persist();runRevealTimer();
 }
-function runRevealTimer(){cancelAnimationFrame(revealRaf);const frame=()=>{if(!room||room.status!=='result')return;const left=Math.max(0,room.resultEndAt-now());els.revealTimer.textContent=(left/1000).toFixed(1);if(left<=0){advanceRound();return;}revealRaf=requestAnimationFrame(frame);};revealRaf=requestAnimationFrame(frame);}
-async function advanceRound(){if(!room||room.status!=='result')return;cancelAnimationFrame(revealRaf);if(room.questionIndex+1>=fullQuestions.length){finishGame();return;}room.questionIndex+=1;await startRound();}
-async function finishGame(){room.status='finished';room.finishedAt=now();room.currentQuestion=null;await persist();renderFinal();setView('final');}
+function runRevealTimer(){cancelAnimationFrame(revealRaf);if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}const resultIndex=room?.questionIndex;const frame=()=>{if(!room||room.status!=='result')return;const left=Math.max(0,room.resultEndAt-now());els.revealTimer.textContent=(left/1000).toFixed(1);if(left<=0){advanceRound();return;}revealRaf=requestAnimationFrame(frame);};revealRaf=requestAnimationFrame(frame);const wait=Math.max(250,(room?.resultEndAt||now())-now()+700);revealEndGuard=setTimeout(()=>{if(room?.status==='result'&&room.questionIndex===resultIndex)advanceRound();},wait);}
+async function advanceRound(){if(!room||room.status!=='result')return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}cancelAnimationFrame(revealRaf);if(room.questionIndex+1>=fullQuestions.length){finishGame();return;}room.questionIndex+=1;await startRound();}
+async function finishGame(){if(!room)return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}room.status='finished';room.finishedAt=now();room.currentQuestion=null;renderFinal();setView('final');void persist();}
 function renderFinal(){const list=playerArray();els.finalRanking.innerHTML=list.map((p,i)=>`<div class="final-rank-row"><b>${i+1}</b><span>${safeText(p.avatar)}</span><strong>${safeText(p.name)}</strong><em>${Number(p.score||0).toLocaleString()}점</em></div>`).join('');}
 
 async function goHome(){
   if(room&&['playing','result','countdown'].includes(room.status)){if(!confirm('진행 중인 문장 배틀을 중단하고 홈으로 돌아가시겠습니까?'))return;}
   clearRuntime();if(bus&&!isDemo){try{await bus.closeRoom();}catch{}}bus=null;room=null;document.body.classList.remove('demo-mode');setView('setup');updateQuestionSelectionUI();
 }
-function clearRuntime(){cancelAnimationFrame(raf);cancelAnimationFrame(revealRaf);stopTensionAudio();if(toastTimer){clearTimeout(toastTimer);toastTimer=null;}els.correctToast?.classList.add('hidden');if(els.fireworksLayer)els.fireworksLayer.innerHTML='';if(countdownTimer)clearTimeout(countdownTimer);roundTimers.forEach(clearTimeout);roundTimers=[];raf=revealRaf=null;countdownTimer=null;}
+function clearRuntime(){cancelAnimationFrame(raf);cancelAnimationFrame(revealRaf);stopTensionAudio();if(toastTimer){clearTimeout(toastTimer);toastTimer=null;}if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}els.correctToast?.classList.add('hidden');if(els.fireworksLayer)els.fireworksLayer.innerHTML='';if(countdownTimer)clearTimeout(countdownTimer);roundTimers.forEach(clearTimeout);roundTimers=[];raf=revealRaf=null;countdownTimer=null;}
 
 async function toggleFullscreen(){try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen();}catch{}}
 
@@ -360,22 +531,24 @@ function inferFlexibleFrames(tokens,orders){
   for(const order of orders){const f=inferFlexibleFrame(tokens,order);if(!f)continue;const key=JSON.stringify(f);if(!seen.has(key)){seen.add(key);frames.push(f);}}
   return frames;
 }
-function buildQuestionParts(id,cards,answers){if(cards.length<2)return{error:'카드는 2개 이상 입력해야 합니다.'};if(!answers.length)return{error:'대표 문장을 입력해야 합니다.'};const tokens=cards.map((label,i)=>[`${id}_card_${i}`,label]),orders=[];for(const line of answers){const idxs=orderFromSentence(cards,line);if(!idxs)return{error:`“${line}” 문장은 입력한 카드를 모두 한 번씩 사용해 만들 수 없습니다.`};orders.push(idxs.map(i=>tokens[i][0]));}return{tokens,orders,flexibleFrames:inferFlexibleFrames(tokens,orders)};}
-function suggestCards(sentence){const clean=String(sentence||'').trim().replace(/[.!?。！？]+$/g,'');if(!clean)return[];const chunks=clean.split(/\s+/).filter(Boolean),cards=[];for(const chunk of chunks){let done=false;for(const suffix of AUTO_COPULAS){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){cards.push(chunk.slice(0,-suffix.length),suffix);done=true;break;}}if(done)continue;for(const suffix of AUTO_PARTICLES){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){const base=chunk.slice(0,-suffix.length);if(base==='씨'&&cards.length&&!BOUND_TEXTS.has(cards[cards.length-1]))cards[cards.length-1]+=' 씨';else if(base)cards.push(base);cards.push(suffix);done=true;break;}}if(!done)cards.push(chunk);}return cards;}
+function buildQuestionParts(id,cards,answers){if(cards.length<2)return{error:'카드는 2개 이상 입력해야 합니다.'};if(!answers.length)return{error:'대표 문장을 입력해야 합니다.'};const tokens=cards.map((label,i)=>[`${id}_card_${i}`,label]),orders=[];for(const line of answers){const idxs=orderFromSentence(cards,line);if(!idxs)return{error:`“${line}” 문장은 입력한 카드를 모두 한 번씩 사용해 만들 수 없습니다.`};orders.push(idxs.map(i=>tokens[i][0]));}const cleaned=applySentenceRules(answers[0],tokens,orders);return{tokens:cleaned.tokens,orders:cleaned.acceptedOrders,displaySentence:cleaned.displaySentence,flexibleFrames:inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders)};}
+function suggestCards(sentence){const clean=String(sentence||'').trim().replace(/[.!?。！？]+$/g,'');if(!clean)return[];const chunks=clean.split(/\s+/).filter(Boolean),cards=[];for(const chunk of chunks){let done=false;for(const suffix of AUTO_COPULAS){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){cards.push(chunk.slice(0,-suffix.length),suffix);done=true;break;}}if(done)continue;for(const suffix of AUTO_PARTICLES){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){const base=chunk.slice(0,-suffix.length);if(base==='씨'&&cards.length&&!isBoundText(cards[cards.length-1]))cards[cards.length-1]+=' 씨';else if(base)cards.push(base);cards.push(suffix);done=true;break;}}if(!done)cards.push(chunk);}return cards;}
 function questionSentence(q,index=0){if(index===0&&String(q?.displaySentence||'').trim())return String(q.displaySentence).trim();return assembleSentence(q.acceptedOrders[index]||q.acceptedOrders[0]||[],q);}
 function updateQuestionSelectionUI(){const selected=teacherQuestions.filter(q=>q.enabled).length,total=teacherQuestions.length;els.selectedQuestionBadge.textContent=`${selected}/${total}`;els.managerSelectedCount.textContent=String(selected);els.managerTotalCount.textContent=String(total);els.createRoomBtn.disabled=selected===0;els.demoBtn.disabled=selected===0;}
-function renderQuestionManager(){els.questionList.innerHTML='';teacherQuestions.forEach((q,index)=>{const item=document.createElement('article');item.className='question-item'+(q.enabled?'':' excluded');const primary=questionSentence(q),alternates=q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join(' / ');item.innerHTML=`<div class="question-item-main"><label class="question-check"><input class="question-enable" data-index="${index}" type="checkbox" ${q.enabled?'checked':''}></label><div><div class="question-no">Q ${index+1} · ${safeText(q.id)}</div><div class="question-preview">${safeText(primary)}</div><div class="question-meta"><span>카드 ${q.tokens.length}개</span><span>정답 어순 ${flexibleOrderCount(q)}개 자동 인정</span>${q.edited?'<span>수정됨</span>':''}${q.custom?'<span>직접 추가</span>':''}</div>${alternates?`<div class="accepted-preview"><b>추가 정답:</b> ${safeText(alternates)}</div>`:''}</div><div class="question-action-buttons"><button class="question-edit-btn" data-action="edit" data-index="${index}" type="button">${editingQuestionIndex===index?'수정 닫기':'✎ 문장 수정'}</button>${q.custom?`<button class="question-delete-btn" data-action="delete" data-index="${index}" type="button">삭제</button>`:''}</div></div>`;if(editingQuestionIndex===index){const ed=document.createElement('div');ed.className='question-editor';ed.innerHTML=`<div class="editor-field"><label>대표 문장</label><input id="editSentence-${index}" value="${safeText(primary)}"></div><div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button class="mini-action-btn" data-action="auto-edit" data-index="${index}" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="editCards-${index}" value="${safeText(q.tokens.map(t=>t[1]).join(' | '))}"><small>조사는 분리하고 동사·형용사의 종결형은 한 카드로 입력합니다.</small></div><div class="editor-field"><label>추가로 인정할 문장</label><textarea id="editAnswers-${index}" rows="3">${safeText(q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join('\n'))}</textarea></div><div id="editError-${index}" class="edit-error"></div><div class="editor-actions"><button class="btn btn-secondary" data-action="cancel-edit" data-index="${index}" type="button">취소</button><button class="btn btn-primary" data-action="save-edit" data-index="${index}" type="button">✓ 수정 저장</button></div>`;item.append(ed);}els.questionList.append(item);});updateQuestionSelectionUI();}
+function renderQuestionManager(){els.questionList.innerHTML='';teacherQuestions.forEach((q,index)=>{const item=document.createElement('article');item.className='question-item'+(q.enabled?'':' excluded');const primary=questionSentence(q),alternates=q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join(' / ');const persistenceBadge=q.persistent?`<span>${teacherSyncState==='firebase'?'☁ Firebase 영구 저장':'💾 PC 영구 저장'}</span>`:'';const restoreButton=!q.custom&&q.persistent?`<button class="question-delete-btn" data-action="restore" data-index="${index}" type="button">원본 복원</button>`:'';item.innerHTML=`<div class="question-item-main"><label class="question-check"><input class="question-enable" data-index="${index}" type="checkbox" ${q.enabled?'checked':''}></label><div><div class="question-no">Q ${index+1} · ${safeText(q.id)}</div><div class="question-preview">${safeText(primary)}</div><div class="question-meta"><span>카드 ${q.tokens.length}개</span><span>정답 어순 ${flexibleOrderCount(q)}개 자동 인정</span>${q.edited?'<span>수정됨</span>':''}${q.custom?'<span>직접 추가</span>':''}${persistenceBadge}</div>${alternates?`<div class="accepted-preview"><b>추가 정답:</b> ${safeText(alternates)}</div>`:''}</div><div class="question-action-buttons"><button class="question-edit-btn" data-action="edit" data-index="${index}" type="button">${editingQuestionIndex===index?'수정 닫기':'✎ 문장 수정'}</button>${restoreButton}${q.custom?`<button class="question-delete-btn" data-action="delete" data-index="${index}" type="button">영구 삭제</button>`:''}</div></div>`;if(editingQuestionIndex===index){const ed=document.createElement('div');ed.className='question-editor';ed.innerHTML=`<div class="editor-field"><label>대표 문장</label><input id="editSentence-${index}" value="${safeText(primary)}"></div><div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button class="mini-action-btn" data-action="auto-edit" data-index="${index}" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="editCards-${index}" value="${safeText(q.tokens.map(t=>t[1]).join(' | '))}"><small>조사는 분리하고 동사·형용사의 종결형은 한 카드로 입력합니다.</small></div><div class="editor-field"><label>추가로 인정할 문장 · Firebase 영구 저장</label><textarea id="editAnswers-${index}" rows="3">${safeText(q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join('\n'))}</textarea><small>한 줄에 하나씩 입력합니다. 삭제할 정답은 이 목록에서 지운 뒤 다시 저장하세요.</small></div><div id="editError-${index}" class="edit-error"></div><div class="editor-actions"><button class="btn btn-secondary" data-action="cancel-edit" data-index="${index}" type="button">취소</button><button class="btn btn-primary" data-action="save-edit" data-index="${index}" type="button">✓ Firebase 영구 저장</button></div>`;item.append(ed);}els.questionList.append(item);});updateQuestionSelectionUI();}
 function openQuestionManager(){renderQuestionManager();els.questionManager.classList.remove('hidden');els.questionManager.setAttribute('aria-hidden','false');}
 function closeQuestionManager(){editingQuestionIndex=null;closeNewEditor();els.questionManager.classList.add('hidden');els.questionManager.setAttribute('aria-hidden','true');updateQuestionSelectionUI();}
-function saveQuestionEdit(index){const q=teacherQuestions[index],primary=$(`editSentence-${index}`)?.value.trim()||'',cards=parseCardLabels($(`editCards-${index}`)?.value||''),answers=uniqueAnswerLines(primary,$(`editAnswers-${index}`)?.value||''),error=$(`editError-${index}`),r=buildQuestionParts(q.id,cards,answers);if(r.error){if(error)error.textContent=r.error;return;}q.tokens=r.tokens;q.acceptedOrders=r.orders;q.flexibleFrames=r.flexibleFrames;q.displaySentence=primary;q.edited=true;editingQuestionIndex=null;renderQuestionManager();}
+async function saveQuestionEdit(index){const q=teacherQuestions[index],primary=$(`editSentence-${index}`)?.value.trim()||'',cards=parseCardLabels($(`editCards-${index}`)?.value||''),answers=uniqueAnswerLines(primary,$(`editAnswers-${index}`)?.value||''),error=$(`editError-${index}`),r=buildQuestionParts(q.id,cards,answers);if(r.error){if(error)error.textContent=r.error;return;}if(error)error.textContent='Firebase에 영구 저장하는 중입니다…';const next={...q,tokens:r.tokens,acceptedOrders:r.orders,flexibleFrames:r.flexibleFrames,displaySentence:r.displaySentence||primary,edited:true,persistent:true};const saved=await saveQuestionPersistence(next);if(!saved.ok){if(error)error.textContent=saved.error;return;}teacherQuestions[index]=next;loadedPersistentCount=teacherQuestions.filter(x=>x.persistent).length;editingQuestionIndex=null;renderQuestionManager();if(saved.warning)alert(saved.warning);}
 function openNewEditor(){editingQuestionIndex=null;renderQuestionManager();els.newQuestionEditor.classList.remove('hidden');els.newQuestionError.textContent='';els.newSentenceInput.focus();}
 function closeNewEditor(){els.newQuestionEditor.classList.add('hidden');els.newQuestionError.textContent='';}
 function nextCustomId(){let n=teacherQuestions.filter(q=>q.custom).length+1,id;do{id=`CUSTOM-${String(n++).padStart(3,'0')}`;}while(teacherQuestions.some(q=>q.id===id));return id;}
-function saveNewQuestion(){const primary=els.newSentenceInput.value.trim(),cards=parseCardLabels(els.newCardsInput.value),answers=uniqueAnswerLines(primary,els.newAnswersInput.value),id=nextCustomId(),r=buildQuestionParts(id,cards,answers);if(r.error){els.newQuestionError.textContent=r.error;return;}teacherQuestions.push({id,displaySentence:primary,tokens:r.tokens,acceptedOrders:r.orders,flexibleFrames:r.flexibleFrames,note:'교사 직접 추가',enabled:true,edited:true,custom:true});els.newSentenceInput.value=els.newCardsInput.value=els.newAnswersInput.value='';closeNewEditor();renderQuestionManager();}
+async function saveNewQuestion(){const primary=els.newSentenceInput.value.trim(),cards=parseCardLabels(els.newCardsInput.value),answers=uniqueAnswerLines(primary,els.newAnswersInput.value),id=nextCustomId(),r=buildQuestionParts(id,cards,answers);if(r.error){els.newQuestionError.textContent=r.error;return;}els.newQuestionError.textContent='Firebase에 영구 저장하는 중입니다…';const q={id,displaySentence:r.displaySentence||primary,tokens:r.tokens,acceptedOrders:r.orders,flexibleFrames:r.flexibleFrames,note:'교사 직접 추가',enabled:true,edited:true,custom:true,persistent:true};const saved=await saveQuestionPersistence(q);if(!saved.ok){els.newQuestionError.textContent=saved.error;return;}teacherQuestions.push(q);loadedPersistentCount=teacherQuestions.filter(x=>x.persistent).length;els.newSentenceInput.value=els.newCardsInput.value=els.newAnswersInput.value='';closeNewEditor();renderQuestionManager();if(saved.warning)alert(saved.warning);}
 
 els.openQuestionManagerBtn.addEventListener('click',openQuestionManager);els.closeQuestionManagerBtn.addEventListener('click',closeQuestionManager);els.applyQuestionManagerBtn.addEventListener('click',closeQuestionManager);els.addQuestionBtn.addEventListener('click',openNewEditor);els.closeNewQuestionBtn.addEventListener('click',closeNewEditor);els.cancelNewQuestionBtn.addEventListener('click',closeNewEditor);els.autoCardsBtn.addEventListener('click',()=>{const cards=suggestCards(els.newSentenceInput.value);els.newCardsInput.value=cards.join(' | ');els.newQuestionError.textContent=cards.length?'':'먼저 대표 문장을 입력하세요.';});els.saveNewQuestionBtn.addEventListener('click',saveNewQuestion);els.selectAllQuestionsBtn.addEventListener('click',()=>{teacherQuestions.forEach(q=>q.enabled=true);renderQuestionManager();});els.clearAllQuestionsBtn.addEventListener('click',()=>{teacherQuestions.forEach(q=>q.enabled=false);renderQuestionManager();});els.questionManager.addEventListener('click',e=>{if(e.target===els.questionManager)closeQuestionManager();});
 els.questionList.addEventListener('change',e=>{const input=e.target.closest('.question-enable');if(!input)return;const i=Number(input.dataset.index);if(teacherQuestions[i])teacherQuestions[i].enabled=input.checked;renderQuestionManager();});
-els.questionList.addEventListener('click',e=>{const b=e.target.closest('[data-action]');if(!b)return;const i=Number(b.dataset.index),a=b.dataset.action;if(a==='edit'){editingQuestionIndex=editingQuestionIndex===i?null:i;closeNewEditor();renderQuestionManager();}else if(a==='cancel-edit'){editingQuestionIndex=null;renderQuestionManager();}else if(a==='save-edit')saveQuestionEdit(i);else if(a==='auto-edit'){const cards=suggestCards($(`editSentence-${i}`)?.value||'');$(`editCards-${i}`).value=cards.join(' | ');}else if(a==='delete'&&teacherQuestions[i]?.custom){teacherQuestions.splice(i,1);editingQuestionIndex=null;renderQuestionManager();}});
+async function restoreOriginalQuestion(index){const q=teacherQuestions[index];if(!q||q.custom)return;if(!confirm('이 문항에 영구 저장한 수정과 추가 정답을 지우고 교재 원본으로 복원할까요?'))return;const saved=await removeQuestionPersistence(q);if(!saved.ok){alert(saved.error);return;}const source=sourceQuestions.find(x=>x.id===q.id);if(!source)return;const enabled=q.enabled;teacherQuestions[index]=cloneQuestion(source);teacherQuestions[index].enabled=enabled;loadedPersistentCount=teacherQuestions.filter(x=>x.persistent).length;editingQuestionIndex=null;renderQuestionManager();if(saved.warning)alert(saved.warning);}
+async function deleteCustomQuestion(index){const q=teacherQuestions[index];if(!q?.custom)return;if(!confirm('직접 추가한 이 문장을 영구 삭제할까요?'))return;const saved=await removeQuestionPersistence(q);if(!saved.ok){alert(saved.error);return;}teacherQuestions.splice(index,1);loadedPersistentCount=teacherQuestions.filter(x=>x.persistent).length;editingQuestionIndex=null;renderQuestionManager();if(saved.warning)alert(saved.warning);}
+els.questionList.addEventListener('click',e=>{const b=e.target.closest('[data-action]');if(!b)return;const i=Number(b.dataset.index),a=b.dataset.action;if(a==='edit'){editingQuestionIndex=editingQuestionIndex===i?null:i;closeNewEditor();renderQuestionManager();}else if(a==='cancel-edit'){editingQuestionIndex=null;renderQuestionManager();}else if(a==='save-edit')saveQuestionEdit(i);else if(a==='auto-edit'){const cards=suggestCards($(`editSentence-${i}`)?.value||'');$(`editCards-${i}`).value=cards.join(' | ');}else if(a==='restore')restoreOriginalQuestion(i);else if(a==='delete')deleteCustomQuestion(i);});
 
 [...document.querySelectorAll('.time-chip')].forEach(ch=>ch.addEventListener('click',()=>{els.timeInput.value=ch.dataset.time;document.querySelectorAll('.time-chip').forEach(x=>x.classList.toggle('active',x===ch));}));els.timeInput.addEventListener('input',()=>{const v=Number(els.timeInput.value);document.querySelectorAll('.time-chip').forEach(x=>x.classList.toggle('active',Number(x.dataset.time)===v));});
 els.createRoomBtn.addEventListener('click',()=>createRoom(false));els.demoBtn.addEventListener('click',()=>createRoom(true));els.startGameBtn.addEventListener('click',beginGame);els.lobbyHomeBtn.addEventListener('click',goHome);els.gameHomeBtn.addEventListener('click',goHome);els.finalHomeBtn.addEventListener('click',goHome);els.finalAgainBtn.addEventListener('click',()=>{goHome().then(()=>createRoom(lastMode==='demo'));});
@@ -389,9 +562,10 @@ async function initializeSentenceBattle(){
   setView('setup');syncVolume();renderQuestionManager();
   try{
     await loadLessonQuestions();
-    const count=teacherQuestions.length;
-    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>서울대 ${selectedBook} · ${selectedLesson}과</b> · <b>${count}개</b>의 교재 기반 문장을 불러왔습니다. 출제 전 문장을 확인·수정하거나 제외할 수 있습니다.`;
-    els.setupMessage.textContent=`서울대 ${selectedBook} ${selectedLesson}과 문장 ${count}개 준비 완료 · 학생은 각자 휴대폰에서 PIN 또는 QR로 입장합니다.`;
+    const count=teacherQuestions.length,savedText=loadedPersistentCount?` · 교사 영구 저장 ${loadedPersistentCount}개 자동 적용`:'';
+    const syncText=teacherSyncState==='firebase'?' · Firebase 영구 저장 연결됨':(teacherSyncError?' · Firebase 동기화 대기(PC 저장 사용)':' · PC 영구 저장 사용');
+    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>서울대 ${selectedBook} · ${selectedLesson}과</b> · <b>${count}개</b>의 문장을 불러왔습니다${loadedPersistentCount?` · <b>${loadedPersistentCount}개</b> 교사 저장 내용 자동 적용`:''}. ${teacherSyncState==='firebase'?'<b>Firebase 공유 저장</b>이 연결되어 C드라이브와 GitHub에서 같은 수정 내용을 사용합니다.':'현재는 이 PC 저장 내용을 사용합니다.'}`;
+    els.setupMessage.textContent=`서울대 ${selectedBook} ${selectedLesson}과 문장 ${count}개 준비 완료${savedText}${syncText} · 학생은 각자 휴대폰에서 PIN 또는 QR로 입장합니다.`;
     els.setupMessage.style.color='';
     renderQuestionManager();updateQuestionSelectionUI();
   }catch(err){

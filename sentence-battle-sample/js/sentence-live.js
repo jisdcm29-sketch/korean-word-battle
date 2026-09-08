@@ -33,6 +33,35 @@ async function context(){
 export function serverNow(){ return Date.now()+serverOffset; }
 export function firebaseReady(){ return isFirebaseConfigured(); }
 
+function safeTeacherPathSegment(value){
+  return String(value??'').trim().replace(/[.#$\[\]\/]/g,'_')||'_';
+}
+function sentenceTeacherStorePath(book,lesson){
+  const lessonCode=String(Math.max(1,Number(lesson)||1)).padStart(2,'0');
+  return `teacherContent/sentence/v1/${safeTeacherPathSegment(book)}/lesson${lessonCode}`;
+}
+
+// 교사가 수정한 문장/추가 정답을 게임방과 분리된 영구 저장소에서 읽고 씁니다.
+// localhost와 GitHub Pages가 같은 Firebase 프로젝트를 사용하므로 두 주소에서 같은 내용을 공유할 수 있습니다.
+export async function loadSentenceTeacherStore(book,lesson){
+  const {db}=await context();
+  const snap=await get(ref(db,sentenceTeacherStorePath(book,lesson)));
+  return snap.exists()?snap.val():null;
+}
+export async function saveSentenceTeacherStore(book,lesson,store){
+  const {db,auth}=await context();
+  const payload={
+    version:2,
+    updatedAt:Number(store?.updatedAt)||Date.now(),
+    overrides:store?.overrides&&typeof store.overrides==='object'?store.overrides:{},
+    customQuestions:Array.isArray(store?.customQuestions)?store.customQuestions:[],
+    updatedBy:auth.currentUser?.uid||null,
+    firebaseWrittenAt:serverTimestamp()
+  };
+  await set(ref(db,sentenceTeacherStorePath(book,lesson)),payload);
+  return payload;
+}
+
 export async function createUniquePin(){
   const {db}=await context();
   for(let i=0;i<50;i++){
