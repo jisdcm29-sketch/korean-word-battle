@@ -2,7 +2,7 @@ import { CATALOG } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildMatchingRounds, calculateMatchingPairScore, calculateRoundClearBonus, isMatchingBlind } from './matching-engine.js';
 import { LocalBus } from './local-bus.js?v=7.6';
-import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin } from './firebase-bus.js?v=7.6';
+import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=7.7';
 import { GameAudioEngine } from './audio-engine.js?v=7.4';
 
 const $ = (id) => document.getElementById(id);
@@ -33,6 +33,149 @@ let blindTransitionPlayed = false;
 let currentMusicMode = 'normal';
 let closingRound = false;
 let toastTimer = null;
+
+
+// Shared teacher vocabulary store -------------------------------------------------
+// Word Battle and Matching Pairs intentionally use the same localStorage key and
+// the same Firebase path (teacherContent/vocabulary/v1). A correction saved in
+// either game is therefore reused by the other game the next time data is loaded.
+const VOCAB_TEACHER_STORE_KEY = 'kwb_teacher_vocabulary_v1';
+let teacherVocabStore = { version: 1, updatedAt: 0, overrides: {} };
+let teacherVocabStorePromise = null;
+let teacherVocabSyncState = 'local';
+let teacherVocabSyncError = '';
+let editingVocabId = null;
+const originalVocabById = new Map();
+
+function emptyVocabTeacherStore(){ return { version:1, updatedAt:0, overrides:{} }; }
+function normalizeVocabTeacherStore(raw){
+  const overrides = {};
+  if(raw?.overrides && typeof raw.overrides === 'object'){
+    Object.entries(raw.overrides).forEach(([id,rec])=>{
+      const ko=String(rec?.ko||'').trim();
+      const mn=String(rec?.mn||'').trim();
+      if(!id||!ko||!mn)return;
+      overrides[String(id)]={id:String(id),ko,mn,updatedAt:Number(rec?.updatedAt)||0};
+    });
+  }
+  return {version:1,updatedAt:Number(raw?.updatedAt)||0,overrides};
+}
+function vocabTeacherStoreHasContent(store){ return Object.keys(store?.overrides||{}).length>0; }
+function readLocalVocabTeacherStore(){
+  try{
+    const raw=localStorage.getItem(VOCAB_TEACHER_STORE_KEY);
+    return raw?normalizeVocabTeacherStore(JSON.parse(raw)):emptyVocabTeacherStore();
+  }catch(err){console.error('교사 어휘 영구 저장 데이터를 읽지 못했습니다:',err);return emptyVocabTeacherStore();}
+}
+function writeLocalVocabTeacherStore(store,{touch=true}={}){
+  const next=normalizeVocabTeacherStore(store);
+  if(touch)next.updatedAt=Date.now();
+  localStorage.setItem(VOCAB_TEACHER_STORE_KEY,JSON.stringify(next));
+  teacherVocabStore=next;
+  return next;
+}
+async function saveVocabTeacherStoreEverywhere(store){
+  const localSaved=writeLocalVocabTeacherStore(store);
+  if(!isFirebaseConfigured()){
+    teacherVocabSyncState='local';
+    teacherVocabSyncError='Firebase 설정을 확인할 수 없어 이 PC에만 저장했습니다.';
+    return {ok:true,store:localSaved,warning:teacherVocabSyncError};
+  }
+  try{
+    await saveVocabularyTeacherStore(localSaved);
+    teacherVocabSyncState='firebase';teacherVocabSyncError='';
+    return {ok:true,store:localSaved};
+  }catch(err){
+    console.error('Firebase 교사 어휘 저장 실패:',err);
+    teacherVocabSyncState='local';
+    teacherVocabSyncError='Firebase 영구 저장에 실패했습니다. 이 PC에는 저장되었습니다.';
+    return {ok:true,store:localSaved,warning:teacherVocabSyncError};
+  }
+}
+async function resolveVocabTeacherStore(){
+  const local=readLocalVocabTeacherStore();
+  teacherVocabStore=local;
+  if(!isFirebaseConfigured()){
+    teacherVocabSyncState='local';
+    teacherVocabSyncError='Firebase 설정을 확인할 수 없어 이 PC의 어휘 수정 내용을 사용합니다.';
+    return local;
+  }
+  try{
+    const remoteRaw=await loadVocabularyTeacherStore();
+    if(!remoteRaw){
+      if(vocabTeacherStoreHasContent(local))await saveVocabularyTeacherStore(local);
+      teacherVocabSyncState='firebase';teacherVocabSyncError='';return local;
+    }
+    const remote=normalizeVocabTeacherStore(remoteRaw);
+    if(local.updatedAt>remote.updatedAt && vocabTeacherStoreHasContent(local)){
+      await saveVocabularyTeacherStore(local);
+      teacherVocabSyncState='firebase';teacherVocabSyncError='';return local;
+    }
+    writeLocalVocabTeacherStore(remote,{touch:false});
+    teacherVocabSyncState='firebase';teacherVocabSyncError='';return remote;
+  }catch(err){
+    console.error('Firebase 교사 어휘 불러오기 실패:',err);
+    teacherVocabSyncState='local';
+    teacherVocabSyncError='Firebase에서 수정 어휘를 불러오지 못해 이 PC 저장 내용을 사용합니다.';
+    return local;
+  }
+}
+async function ensureVocabTeacherStore(force=false){
+  if(force)teacherVocabStorePromise=null;
+  if(!teacherVocabStorePromise){
+    teacherVocabStorePromise=resolveVocabTeacherStore().catch(err=>{teacherVocabStorePromise=null;throw err;});
+  }
+  teacherVocabStore=await teacherVocabStorePromise;
+  return teacherVocabStore;
+}
+function applyVocabTeacherOverrides(items){
+  return items.map(item=>{
+    originalVocabById.set(String(item.id),{...item});
+    const saved=teacherVocabStore?.overrides?.[String(item.id)];
+    if(!saved)return {...item,persistent:false};
+    return {...item,ko:saved.ko,mn:saved.mn,persistent:true};
+  });
+}
+async function loadTeacherAwareData(config,{forceSync=false}={}){
+  await ensureVocabTeacherStore(forceSync);
+  const data=await loadByConfig(config);
+  return {...data,items:applyVocabTeacherOverrides(data.items)};
+}
+function syncItemsAfterVocabStoreChange(id){
+  const saved=teacherVocabStore?.overrides?.[String(id)]||null;
+  const original=originalVocabById.get(String(id));
+  sourceItems=sourceItems.map(item=>{
+    if(String(item.id)!==String(id))return item;
+    if(saved)return {...item,ko:saved.ko,mn:saved.mn,persistent:true};
+    return original?{...original,persistent:false}:{...item,persistent:false};
+  });
+  currentItems=selectedItemsFor(activeSourceKey,sourceItems);
+  syncSelectedBadge();
+}
+async function saveVocabularyEdit(id,ko,mn){
+  await ensureVocabTeacherStore(true);
+  const cleanKo=String(ko||'').trim();
+  const cleanMn=String(mn||'').trim();
+  if(!cleanKo||!cleanMn)return {ok:false,error:'한국어와 몽골어를 모두 입력해 주세요.'};
+  const next=normalizeVocabTeacherStore(teacherVocabStore);
+  next.overrides[String(id)]={id:String(id),ko:cleanKo,mn:cleanMn,updatedAt:Date.now()};
+  next.updatedAt=Date.now();
+  const saved=await saveVocabTeacherStoreEverywhere(next);
+  teacherVocabStore=saved.store;syncItemsAfterVocabStoreChange(id);return saved;
+}
+async function restoreVocabularyOriginal(id){
+  await ensureVocabTeacherStore(true);
+  const next=normalizeVocabTeacherStore(teacherVocabStore);
+  delete next.overrides[String(id)];next.updatedAt=Date.now();
+  const saved=await saveVocabTeacherStoreEverywhere(next);
+  teacherVocabStore=saved.store;syncItemsAfterVocabStoreChange(id);return saved;
+}
+function updateVocabPersistenceStatus(){
+  const el=$('vocabPersistenceStatus');if(!el)return;
+  const savedCount=sourceItems.filter(v=>v.persistent).length;
+  if(teacherVocabSyncState==='firebase')el.textContent=`· 교사 수정 ${savedCount}개 · ☁ Firebase 공유 저장 연결됨`;
+  else el.textContent=`· 교사 수정 ${savedCount}개 · 💾 PC 저장 사용${teacherVocabSyncError?' · '+teacherVocabSyncError:''}`;
+}
 
 function nowMs(){ return bus?.now ? bus.now() : Date.now(); }
 function escapeHtml(value){ return String(value ?? '').replace(/[&<>'"]/g,(c)=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
@@ -85,7 +228,7 @@ async function refreshData(){
   try{
     updateSourceFields();
     const config=getConfig();
-    const data=await loadByConfig(config);
+    const data=await loadTeacherAwareData(config);
     activeSourceKey=sourceKeyFromConfig(config); sourceItems=data.items; currentItems=selectedItemsFor(activeSourceKey,sourceItems); currentTitle=data.title; syncSelectedBadge();
     const need=Number($('pairsPerRound').value)||6;
     const totalCards=need*2;
@@ -93,7 +236,7 @@ async function refreshData(){
   }catch(e){ $('dataSummary').textContent=e?.message||'자료를 불러오지 못했습니다.'; }
 }
 async function ensureData(){
-  const config=getConfig(); const data=await loadByConfig(config); const key=sourceKeyFromConfig(config); activeSourceKey=key; sourceItems=data.items; currentItems=selectedItemsFor(key,sourceItems); currentTitle=data.title; syncSelectedBadge(); return {title:data.title,items:currentItems};
+  const config=getConfig(); const data=await loadTeacherAwareData(config); const key=sourceKeyFromConfig(config); activeSourceKey=key; sourceItems=data.items; currentItems=selectedItemsFor(key,sourceItems); currentTitle=data.title; syncSelectedBadge(); return {title:data.title,items:currentItems};
 }
 
 function updateBackendStatus(){
@@ -108,16 +251,46 @@ function applyLiveAudio(patch={}){ const cur=audio.getSettings(); audio.setSetti
 function setRoundTime(value){ const v=Math.max(15,Math.min(120,Number(value)||45)); $('roundTime').value=String(v); $('timeValue').textContent=`${v}초`; document.querySelectorAll('#timePresets button').forEach((b)=>b.classList.toggle('active',Number(b.dataset.time)===v)); }
 
 async function openVocabModal(){
-  try{ await ensureData(); draftSelection=new Set(selectionBySource.get(activeSourceKey)||[]); $('vocabSearch').value=''; renderVocabList(); $('vocabModal').classList.remove('hidden'); }
-  catch(e){toast(e.message);}
+  try{
+    const config=getConfig();
+    const data=await loadTeacherAwareData(config,{forceSync:true});
+    activeSourceKey=sourceKeyFromConfig(config);
+    sourceItems=data.items;
+    currentItems=selectedItemsFor(activeSourceKey,sourceItems);
+    currentTitle=data.title;
+    draftSelection=new Set(selectionBySource.get(activeSourceKey)||[]);
+    editingVocabId=null;
+    $('vocabSearch').value='';
+    renderVocabList();
+    updateVocabPersistenceStatus();
+    $('vocabModal').classList.remove('hidden');
+  }catch(e){toast(e.message);}
+}
+function filteredVocabItems(){
+  const q=$('vocabSearch').value.trim().toLowerCase();
+  return sourceItems.filter(v=>!q||v.ko.toLowerCase().includes(q)||v.mn.toLowerCase().includes(q));
 }
 function renderVocabList(){
-  const q=$('vocabSearch').value.trim().toLowerCase();
-  const filtered=sourceItems.filter((v)=>!q||v.ko.toLowerCase().includes(q)||v.mn.toLowerCase().includes(q));
-  $('vocabList').innerHTML=filtered.map((v)=>`<label class="vocab-row ${draftSelection.has(v.id)?'selected':''}"><input type="checkbox" data-id="${escapeHtml(v.id)}" ${draftSelection.has(v.id)?'checked':''}/><strong>${escapeHtml(v.ko)}</strong><span>${escapeHtml(v.mn)}</span></label>`).join('');
-  $('modalSelectedCount').textContent=`${draftSelection.size}개 선택`; $('modalRequirement').textContent=`최소 ${$('pairsPerRound').value}개 필요`;
+  const filtered=filteredVocabItems();
+  $('vocabList').innerHTML=filtered.map((v)=>{
+    const id=String(v.id);
+    const editing=editingVocabId===id;
+    const saved=Boolean(teacherVocabStore?.overrides?.[id]);
+    const state=saved
+      ? `<span class="match-vocab-save-badge ${teacherVocabSyncState==='firebase'?'cloud':'local'}">${teacherVocabSyncState==='firebase'?'☁ Firebase 영구 저장':'💾 PC 영구 저장'}</span>`
+      : '<span class="match-vocab-original-badge">원본</span>';
+    const ko=editing?`<input class="match-vocab-input" data-vocab-field="ko" value="${escapeHtml(v.ko)}" aria-label="한국어 수정">`:`<strong>${escapeHtml(v.ko)}</strong>`;
+    const mn=editing?`<input class="match-vocab-input" data-vocab-field="mn" value="${escapeHtml(v.mn)}" aria-label="몽골어 수정">`:`<span class="match-vocab-mn">${escapeHtml(v.mn)}</span>`;
+    const actions=editing
+      ? `<div class="match-vocab-actions"><button class="match-vocab-action save" type="button" data-vocab-action="save" data-id="${escapeHtml(id)}">✓ 영구 저장</button><button class="match-vocab-action cancel" type="button" data-vocab-action="cancel" data-id="${escapeHtml(id)}">취소</button></div>`
+      : `<div class="match-vocab-actions"><button class="match-vocab-action edit" type="button" data-vocab-action="edit" data-id="${escapeHtml(id)}">✎ 수정</button>${saved?`<button class="match-vocab-action restore" type="button" data-vocab-action="restore" data-id="${escapeHtml(id)}">원본 복원</button>`:''}</div>`;
+    return `<div class="vocab-row ${draftSelection.has(v.id)?'selected':''} ${editing?'editing':''}" data-row-id="${escapeHtml(id)}"><input class="match-vocab-check" type="checkbox" data-id="${escapeHtml(id)}" ${draftSelection.has(v.id)?'checked':''}/><div class="match-vocab-ko">${ko}</div><div class="match-vocab-mn-cell">${mn}</div><div class="match-vocab-state">${state}</div>${actions}</div>`;
+  }).join('');
+  $('modalSelectedCount').textContent=`${draftSelection.size}개 선택`;
+  $('modalRequirement').textContent=`최소 ${$('pairsPerRound').value}개 필요`;
+  updateVocabPersistenceStatus();
 }
-function closeVocabModal(){ $('vocabModal').classList.add('hidden'); }
+function closeVocabModal(){ editingVocabId=null;$('vocabModal').classList.add('hidden'); }
 function applyVocabSelection(){ const need=Number($('pairsPerRound').value)||6; if(draftSelection.size<need){toast(`한 판 ${need}쌍을 위해 최소 ${need}개를 선택해 주세요.`);return;} selectionBySource.set(activeSourceKey,new Set(draftSelection)); closeVocabModal(); refreshData(); }
 
 function validateConfig(data){
@@ -264,7 +437,31 @@ async function toggleFullscreen(){ try{if(!document.fullscreenElement)await $('h
 fillCatalog(); applyLaunchParams(); updateSourceFields(); refreshData(); updateBackendStatus(); setRoundTime(45); syncAudioControls();
 $('sourceType').addEventListener('change',refreshData); $('snuBook').addEventListener('change',()=>{fillLessons();refreshData();}); $('snuLesson').addEventListener('change',refreshData); $('collocationSet').addEventListener('change',refreshData); $('roundCount').addEventListener('change',refreshData); $('pairsPerRound').addEventListener('change',()=>{refreshData();renderVocabList();});
 $('timePresets').addEventListener('click',(e)=>{const b=e.target.closest('button[data-time]');if(b)setRoundTime(b.dataset.time);}); $('roundTime').addEventListener('input',()=>setRoundTime($('roundTime').value));
-$('vocabBtn').addEventListener('click',openVocabModal); $('closeVocabBtn').addEventListener('click',closeVocabModal); $('vocabModal').addEventListener('click',(e)=>{if(e.target===$('vocabModal'))closeVocabModal();}); $('vocabSearch').addEventListener('input',renderVocabList); $('vocabList').addEventListener('change',(e)=>{const cb=e.target.closest('input[type=checkbox][data-id]');if(!cb)return; if(cb.checked)draftSelection.add(cb.dataset.id);else draftSelection.delete(cb.dataset.id); cb.closest('.vocab-row')?.classList.toggle('selected',cb.checked); $('modalSelectedCount').textContent=`${draftSelection.size}개 선택`;}); $('selectAllBtn').addEventListener('click',()=>{sourceItems.forEach((v)=>draftSelection.add(v.id));renderVocabList();}); $('clearAllBtn').addEventListener('click',()=>{draftSelection.clear();renderVocabList();}); $('applyVocabBtn').addEventListener('click',applyVocabSelection);
+$('vocabBtn').addEventListener('click',openVocabModal); $('closeVocabBtn').addEventListener('click',closeVocabModal); $('vocabModal').addEventListener('click',(e)=>{if(e.target===$('vocabModal'))closeVocabModal();}); $('vocabSearch').addEventListener('input',renderVocabList);
+$('vocabList').addEventListener('change',(e)=>{const cb=e.target.closest('input[type=checkbox][data-id]');if(!cb)return; const item=sourceItems.find(v=>String(v.id)===String(cb.dataset.id)); const id=item?.id ?? cb.dataset.id; if(cb.checked)draftSelection.add(id);else draftSelection.delete(id); cb.closest('.vocab-row')?.classList.toggle('selected',cb.checked); $('modalSelectedCount').textContent=`${draftSelection.size}개 선택`;});
+$('vocabList').addEventListener('click',async(e)=>{
+  const btn=e.target.closest('button[data-vocab-action]');if(!btn)return;
+  const id=String(btn.dataset.id||'');const action=btn.dataset.vocabAction;
+  if(action==='edit'){editingVocabId=id;renderVocabList();return;}
+  if(action==='cancel'){editingVocabId=null;renderVocabList();return;}
+  if(action==='save'){
+    const row=btn.closest('.vocab-row');
+    const ko=row?.querySelector('[data-vocab-field="ko"]')?.value||'';
+    const mn=row?.querySelector('[data-vocab-field="mn"]')?.value||'';
+    btn.disabled=true;btn.textContent='저장 중…';
+    const result=await saveVocabularyEdit(id,ko,mn);
+    if(!result.ok){btn.disabled=false;btn.textContent='✓ 영구 저장';toast(result.error||'어휘를 저장하지 못했습니다.');return;}
+    editingVocabId=null;renderVocabList();
+    toast(result.warning||'어휘 수정 내용을 Firebase에 영구 저장했습니다. 어휘 배틀에도 동일하게 적용됩니다.');
+    return;
+  }
+  if(action==='restore'){
+    if(!confirm('이 어휘를 원본 한국어·몽골어로 복원할까요? 어휘 배틀에도 동일하게 반영됩니다.'))return;
+    btn.disabled=true;const result=await restoreVocabularyOriginal(id);editingVocabId=null;renderVocabList();
+    toast(result.warning||'원본 어휘로 복원했습니다.');
+  }
+});
+$('selectAllBtn').addEventListener('click',()=>{sourceItems.forEach((v)=>draftSelection.add(v.id));renderVocabList();}); $('clearAllBtn').addEventListener('click',()=>{draftSelection.clear();renderVocabList();}); $('applyVocabBtn').addEventListener('click',applyVocabSelection);
 $('masterVolume').addEventListener('input',()=>{const v=Number($('masterVolume').value)/100;$('volumeValue').textContent=`${Math.round(v*100)}%`;audio.setSettings({volume:v});}); $('bgmEnabled').addEventListener('change',()=>audio.setSettings({bgmEnabled:$('bgmEnabled').checked})); $('sfxEnabled').addEventListener('change',()=>audio.setSettings({sfxEnabled:$('sfxEnabled').checked})); $('soundTestBtn').addEventListener('click',async()=>{setupAudio();await audio.preview();});
 $('gameBgmBtn').addEventListener('click',()=>applyLiveAudio({bgmEnabled:!audio.getSettings().bgmEnabled})); $('gameSfxBtn').addEventListener('click',()=>applyLiveAudio({sfxEnabled:!audio.getSettings().sfxEnabled}));
 $('soloBtn').addEventListener('click',startSolo); $('demoBtn').addEventListener('click',()=>createRoom(true)); $('createRoomBtn').addEventListener('click',()=>createRoom(false)); $('addDemoBtn').addEventListener('click',()=>addDemoStudents(10,true)); $('startGameBtn').addEventListener('click',startGame); $('backSetupBtn').addEventListener('click',backToSetup); $('endRoomBtn').addEventListener('click',endRoom); $('newGameBtn').addEventListener('click',endRoom); $('fullscreenBtn').addEventListener('click',toggleFullscreen);
