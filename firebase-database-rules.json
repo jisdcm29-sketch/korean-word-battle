@@ -26,6 +26,12 @@
           }
         }
       }
+    },
+    "teacherContent": {
+      "sentence": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
     }
   }
 }
