@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>어휘 배틀 · 게임 호스트</title>
-  <link rel="stylesheet" href="css/app.css?v=7.5.1" />
+  <link rel="stylesheet" href="css/app.css?v=7.6" />
 </head>
 <body class="teacher-page">
   <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
@@ -18,7 +18,7 @@
     <div class="battle-brand">
       <div class="eyebrow">KOREAN · MONGOLIAN LIVE GAME</div>
       <h1>한·몽 실시간 단어 배틀</h1>
-      <p>게임 호스트 · 예비편 + 직접 어휘 선택 · Firebase 실시간 v7.4</p>
+      <p>게임 호스트 · 직접 어휘 선택·수정 · Firebase 영구 저장 v7.6</p>
     </div>
     <div class="mode-badge game-badge">⚡ GAME ARENA</div>
   </header>
@@ -30,9 +30,9 @@
         <div>
           <span class="step-chip">STEP 1</span>
           <h2>게임 설정</h2>
-          <p class="heading-note">자료를 고른 뒤 <b>어휘 선택</b>을 눌러 원하는 단어만 직접 골라 게임을 만들 수 있습니다.</p>
+          <p class="heading-note">자료를 고른 뒤 <b>어휘 선택·수정</b>에서 사용할 단어를 고르고 한국어·몽골어를 바로 수정할 수 있습니다.</p>
         </div>
-        <button id="previewBtn" class="btn vocab-select-btn">☑ 어휘 선택 · 목록 보기 <span id="selectedCountBadge">0/0</span></button>
+        <button id="previewBtn" class="btn vocab-select-btn">☑ 어휘 선택·수정 <span id="selectedCountBadge">0/0</span></button>
       </div>
 
       <div class="source-hero-strip">
@@ -223,17 +223,17 @@
         <div><h3 id="previewTitle">어휘 선택</h3><span id="previewCount"></span></div>
         <button id="closePreviewBtn" class="icon-btn" aria-label="닫기">×</button>
       </div>
-      <div class="selection-help">게임에 사용할 어휘를 체크하세요. 최소 4개 이상 필요합니다. 선택한 어휘 안에서 문제 수를 따로 정할 수 있습니다.</div>
+      <div class="selection-help">게임에 사용할 어휘를 체크하세요. 한국어·몽골어가 잘못된 경우 각 행의 수정 버튼으로 고친 뒤 Firebase에 영구 저장할 수 있습니다.</div>
       <div class="selection-toolbar">
         <input id="previewSearch" class="search-input" type="search" placeholder="한국어 또는 몽골어 검색" />
         <button id="selectAllBtn" class="btn small secondary" type="button">전체 선택</button>
         <button id="clearAllBtn" class="btn small ghost" type="button">전체 해제</button>
       </div>
       <div class="table-wrap">
-        <table class="vocab-table selectable-table"><thead><tr><th>선택</th><th>#</th><th>한국어</th><th>몽골어</th></tr></thead><tbody id="previewBody"></tbody></table>
+        <table class="vocab-table selectable-table"><thead><tr><th>선택</th><th>#</th><th>한국어</th><th>몽골어</th><th>저장 상태</th><th>관리</th></tr></thead><tbody id="previewBody"></tbody></table>
       </div>
       <div class="selection-footer">
-        <div><strong id="selectionFooterCount">0개 선택</strong><span>선택은 현재 자료 범위별로 기억됩니다.</span></div>
+        <div><strong id="selectionFooterCount">0개 선택</strong><span id="vocabPersistenceNote">선택은 현재 자료 범위별로 기억되며, 어휘 수정은 영구 저장됩니다.</span></div>
         <button id="applySelectionBtn" class="btn primary" type="button">선택 적용</button>
       </div>
     </div>
@@ -241,6 +241,6 @@
 
   <div id="toast" class="toast hidden"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/host.js?v=7.5"></script>
+  <script type="module" src="js/host.js?v=7.6"></script>
 </body>
 </html>

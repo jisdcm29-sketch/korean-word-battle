@@ -31,6 +31,10 @@
       "sentence": {
         ".read": "auth != null",
         ".write": "auth != null"
+      },
+      "vocabulary": {
+        ".read": "auth != null",
+        ".write": "auth != null"
       }
     }
   }
