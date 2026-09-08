@@ -137,7 +137,7 @@
   <section id="questionManager" class="question-manager hidden" aria-hidden="true">
     <div class="question-manager-panel" role="dialog" aria-modal="true" aria-labelledby="questionManagerTitle">
       <header class="question-manager-head">
-        <div><p class="eyebrow">BEFORE BATTLE</p><h2 id="questionManagerTitle">출제 문장 확인·수정</h2><p>체크한 문장만 출제됩니다. 문장을 수정하거나 새 문장을 추가할 수 있습니다.</p></div>
+        <div><p class="eyebrow">BEFORE BATTLE</p><h2 id="questionManagerTitle">출제 문장 확인·수정</h2><p>체크한 문장만 출제됩니다. 수정한 문장과 추가 정답은 Firebase와 이 PC에 영구 저장되어 다음 게임은 물론 GitHub에서도 자동 적용됩니다.</p></div>
         <button id="closeQuestionManagerBtn" class="manager-close" type="button">✕</button>
       </header>
       <div class="question-manager-toolbar">
@@ -148,16 +148,16 @@
         <div class="new-question-title"><div><b>＋ 새 문장 만들기</b><span>대표 문장, 카드, 추가 정답을 입력하세요.</span></div><button id="closeNewQuestionBtn" class="manager-close" type="button">✕</button></div>
         <div class="editor-field"><label>대표 문장</label><input id="newSentenceInput" type="text" placeholder="예: 오늘 저는 학교에 갑니다." /></div>
         <div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button id="autoCardsBtn" class="mini-action-btn" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="newCardsInput" type="text" placeholder="오늘 | 저 | 는 | 학교 | 에 | 갑니다" /><small>조사는 분리하고 동사·형용사의 종결형은 한 카드로 입력합니다.</small></div>
-        <div class="editor-field"><label>추가로 인정할 문장</label><textarea id="newAnswersInput" rows="3" placeholder="저는 오늘 학교에 갑니다."></textarea><small>한 줄에 하나씩 입력합니다.</small></div>
+        <div class="editor-field"><label>추가로 인정할 문장 · Firebase 영구 저장</label><textarea id="newAnswersInput" rows="3" placeholder="저는 오늘 학교에 갑니다."></textarea><small>한 줄에 하나씩 입력합니다. 저장하면 C드라이브와 GitHub에서 같은 정답을 사용합니다.</small></div>
         <div id="newQuestionError" class="edit-error"></div>
-        <div class="editor-actions"><button id="cancelNewQuestionBtn" class="btn btn-secondary" type="button">취소</button><button id="saveNewQuestionBtn" class="btn btn-primary" type="button">＋ 문장 추가</button></div>
+        <div class="editor-actions"><button id="cancelNewQuestionBtn" class="btn btn-secondary" type="button">취소</button><button id="saveNewQuestionBtn" class="btn btn-primary" type="button">＋ Firebase 영구 저장</button></div>
       </div>
       <div id="questionList" class="question-list"></div>
-      <footer class="question-manager-foot"><span>※ 수정 내용은 현재 게임방을 만드는 동안 유지됩니다.</span><button id="applyQuestionManagerBtn" class="btn btn-primary" type="button">✓ 확인하고 닫기</button></footer>
+      <footer class="question-manager-foot"><span>※ 대표 문장·카드 구성·추가 정답·직접 추가 문장은 Firebase와 이 PC에 함께 저장됩니다. GitHub에서도 자동 복원되며 원본 복원/영구 삭제도 동기화됩니다.</span><button id="applyQuestionManagerBtn" class="btn btn-primary" type="button">✓ 확인하고 닫기</button></footer>
     </div>
   </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/sentence-host.js?v=3.1"></script>
+  <script type="module" src="js/sentence-host.js?v=3.3"></script>
 </body>
 </html>
