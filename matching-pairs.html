@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#06142e" />
   <title>한·몽 카드 매칭 · 게임 호스트</title>
-  <link rel="stylesheet" href="css/matching.css?v=1.0" />
+  <link rel="stylesheet" href="css/matching.css?v=1.2" />
 </head>
 <body class="match-host-page">
   <div class="match-bg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
@@ -21,7 +21,7 @@
     <section id="setupView" class="match-panel setup-panel">
       <div class="panel-title-row">
         <div><span class="step-chip">STEP 1</span><h2>게임 설정</h2><p>어휘를 고르고 판 수·카드 수·제한 시간을 설정하세요.</p></div>
-        <button id="vocabBtn" class="btn btn-cyan" type="button">☑ 어휘 선택 <span id="selectedBadge">0/0</span></button>
+        <button id="vocabBtn" class="btn btn-cyan" type="button">☑ 어휘 선택·수정 <span id="selectedBadge">0/0</span></button>
       </div>
 
       <div class="source-banner"><span>한국어 🇰🇷</span><b>↔</b><span>Монгол 🇲🇳</span><em>같은 뜻을 찾아 카드를 없애세요!</em></div>
@@ -114,7 +114,7 @@
 
   <div id="vocabModal" class="modal hidden" role="dialog" aria-modal="true">
     <div class="modal-panel">
-      <div class="modal-head"><div><span class="step-chip">VOCAB SELECT</span><h2>게임 어휘 선택</h2><p>한국어와 몽골어 뜻이 한 쌍으로 사용됩니다.</p></div><button id="closeVocabBtn" type="button" class="icon-btn">×</button></div>
+      <div class="modal-head"><div><span class="step-chip">VOCAB EDIT</span><h2>게임 어휘 선택·수정</h2><p>한국어·몽골어를 수정하면 어휘 배틀과 카드 매칭에 함께 적용됩니다. <span id="vocabPersistenceStatus"></span></p></div><button id="closeVocabBtn" type="button" class="icon-btn">×</button></div>
       <div class="modal-tools"><input id="vocabSearch" type="search" placeholder="한국어 또는 몽골어 검색" /><button id="selectAllBtn" class="btn btn-small" type="button">전체 선택</button><button id="clearAllBtn" class="btn btn-small btn-secondary" type="button">전체 해제</button></div>
       <div id="vocabList" class="vocab-list"></div>
       <div class="modal-foot"><div><strong id="modalSelectedCount">0개 선택</strong><span id="modalRequirement">최소 6개 필요</span></div><button id="applyVocabBtn" class="btn btn-primary" type="button">선택 적용</button></div>
@@ -123,6 +123,6 @@
 
   <div id="toast" class="toast hidden"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/matching-host.js?v=1.0"></script>
+  <script type="module" src="js/matching-host.js?v=1.1"></script>
 </body>
 </html>
