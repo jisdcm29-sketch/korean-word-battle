@@ -85,6 +85,89 @@ export async function saveVocabularyTeacherStore(store) {
 }
 
 export function publicRoomState(room) {
+  if (room?.config?.gameType === 'combined') {
+    const blind = Boolean(room.blindActive) && room.status !== 'finished';
+    const stageIndex = Number(room.stageIndex ?? -1);
+    const stageType = ['word','matching','sentence'][stageIndex] || null;
+    const players = Object.fromEntries(Object.entries(room.players || {}).map(([uid, p]) => [uid, {
+      uid,
+      name: p.name,
+      avatar: p.avatar,
+      score: blind ? null : (Number(p.score) || 0),
+      scores: blind ? null : {
+        word: Math.round(Number(p.scores?.word) || 0),
+        matching: Math.round(Number(p.scores?.matching) || 0),
+        sentence: Math.round(Number(p.scores?.sentence) || 0)
+      },
+      matchedPairIds: Array.isArray(p.matchedPairIds) ? p.matchedPairIds : [],
+      matchingMistakes: Number(p.matchingMistakes) || 0,
+      matchingCombo: Number(p.matchingCombo) || 0
+    }]));
+
+    let currentQuestion = null;
+    let currentRound = null;
+    let revealAnswer = null;
+    let revealSentence = null;
+    if (stageType === 'word' && room.currentWordQuestion) {
+      const q = room.currentWordQuestion;
+      currentQuestion = { id:q.id, direction:q.direction, prompt:q.prompt, options:q.options };
+      if (room.status === 'result') revealAnswer = q.answer || null;
+    }
+    if (stageType === 'matching' && room.currentMatchingRound) {
+      const r = room.currentMatchingRound;
+      currentRound = {
+        id: r.id,
+        number: r.number,
+        cards: (r.cards || []).map(card => ({ id:card.id, pairId:card.pairId, lang:card.lang, text:card.text })),
+        pairCount: (r.pairs || []).length
+      };
+    }
+    if (stageType === 'sentence' && room.currentSentenceQuestion) {
+      const q = room.currentSentenceQuestion;
+      currentQuestion = {
+        id: q.id,
+        tokens: (q.shuffledTokens || q.tokens || []).map(t => [String(t[0]), String(t[1])])
+      };
+      if (room.status === 'result') revealSentence = q.displaySentence || null;
+    }
+
+    return {
+      pin: room.pin,
+      title: room.title || '종합 배틀',
+      status: room.status,
+      config: {
+        gameType: 'combined',
+        wordCount: Number(room.config.wordCount) || 5,
+        wordTime: Number(room.config.wordTime) || 10,
+        matchRounds: Number(room.config.matchRounds) || 1,
+        pairsPerRound: Number(room.config.pairsPerRound) || 6,
+        matchTime: Number(room.config.matchTime) || 45,
+        sentenceCount: Number(room.config.sentenceCount) || 5,
+        sentenceTime: Number(room.config.sentenceTime) || 20,
+        blindAt: Number(room.config.blindAt) || 0.70
+      },
+      players,
+      stageIndex,
+      stageType,
+      unitIndex: Number(room.unitIndex ?? -1),
+      unitTotal: Number(room.unitTotal) || 0,
+      completedSteps: Number(room.completedSteps) || 0,
+      totalSteps: Number(room.totalSteps) || 1,
+      blindActive: blind,
+      countdownEndAt: Number(room.countdownEndAt) || 0,
+      transitionEndAt: Number(room.transitionEndAt) || 0,
+      unitStartAt: Number(room.unitStartAt) || 0,
+      unitEndAt: Number(room.unitEndAt) || 0,
+      resultEndAt: Number(room.resultEndAt) || 0,
+      currentQuestion,
+      currentRound,
+      answeredUids: Object.keys(room.unitResults || {}),
+      unitResults: room.unitResults || {},
+      revealAnswer,
+      revealSentence,
+      finishedAt: Number(room.finishedAt) || 0
+    };
+  }
   if (room?.config?.gameType === 'matching-pairs') {
     const currentRound = room.matching?.rounds?.[room.roundIndex] || null;
     const blind = Boolean(room.blindActive) && room.status !== 'finished';

@@ -15,6 +15,7 @@ const SOURCES={
     {id:'topik1',label:'TOPIK 1 연어 표현'}
   ],
   sentence:[{id:'snu',label:'서울대 한국어'}],
+  combined:[{id:'snu',label:'서울대 한국어'}],
   matching:[
     {id:'preliminary',label:'예비편 어휘 40 · 자모음 학습'},
     {id:'snu',label:'서울대 한국어'},
@@ -34,7 +35,8 @@ function fillBooks(){
 }
 function fillLessons(){
   const book=CATALOG.snuBooks.find(b=>b.id===els.book.value)||CATALOG.snuBooks[0];
-  const lessons=(selectedGame==='sentence'&&SENTENCE_LESSON_OVERRIDES[book.id])?SENTENCE_LESSON_OVERRIDES[book.id]:book.lessons;
+  const sentenceBased=(selectedGame==='sentence'||selectedGame==='combined');
+  const lessons=(sentenceBased&&SENTENCE_LESSON_OVERRIDES[book.id])?SENTENCE_LESSON_OVERRIDES[book.id]:book.lessons;
   const keep=Number(els.lesson.value);
   els.lesson.innerHTML=lessons.map(n=>`<option value="${n}">${n}과</option>`).join('');
   if(lessons.includes(keep))els.lesson.value=String(keep);
@@ -45,14 +47,14 @@ function render(){
   els.bookField.classList.toggle('hidden',!snu);
   els.lessonField.classList.toggle('hidden',!snu);
   document.querySelectorAll('.game-card').forEach(b=>b.classList.toggle('active',b.dataset.game===selectedGame));
-  const gameName=selectedGame==='sentence'?'문장 배틀':selectedGame==='matching'?'카드 매칭':'어휘 배틀';
-  els.guide.textContent=selectedGame==='sentence'?'문장 배틀에서 사용할 서울대 한국어 교재와 과를 선택하세요.':selectedGame==='matching'?'카드 매칭에 사용할 한국어·몽골어 어휘 자료를 선택하세요.':'어휘 배틀에서 사용할 자료를 선택하세요.';
+  const gameName=selectedGame==='sentence'?'문장 배틀':selectedGame==='matching'?'카드 매칭':selectedGame==='combined'?'종합 배틀':'어휘 배틀';
+  els.guide.textContent=selectedGame==='sentence'?'문장 배틀에서 사용할 서울대 한국어 교재와 과를 선택하세요.':selectedGame==='matching'?'카드 매칭에 사용할 한국어·몽골어 어휘 자료를 선택하세요.':selectedGame==='combined'?'세 게임을 연속 진행할 서울대 한국어 교재와 과를 선택하세요.':'어휘 배틀에서 사용할 자료를 선택하세요.';
   els.launchTitle.textContent=`${gameName} 설정으로 이동`;
   let detail='';
   if(source==='snu')detail=`서울대 ${els.book.value} · ${els.lesson.value}과`;
   else if(source==='preliminary')detail='예비편 어휘 40';
   else detail='TOPIK 1 연어 표현';
-  const note=selectedGame==='sentence'?' <span class="sample-warn">선택한 과의 어휘·문법·예문을 바탕으로 만든 문장 배틀 데이터가 자동으로 연결됩니다.</span>':selectedGame==='matching'?' <span class="sample-warn">한국어 카드와 몽골어 카드가 한 쌍으로 자동 구성됩니다.</span>':'';
+  const note=selectedGame==='sentence'?' <span class="sample-warn">선택한 과의 어휘·문법·예문을 바탕으로 만든 문장 배틀 데이터가 자동으로 연결됩니다.</span>':selectedGame==='matching'?' <span class="sample-warn">한국어 카드와 몽골어 카드가 한 쌍으로 자동 구성됩니다.</span>':selectedGame==='combined'?' <span class="sample-warn">공통 어휘 수정과 문장 추가 정답을 불러와 어휘 → 카드 매칭 → 문장 순서로 진행합니다.</span>':'';
   els.summary.innerHTML=`선택: <b>${gameName}</b> · <b>${detail}</b>${note}`;
 }
 function chooseGame(game){
@@ -75,6 +77,8 @@ function launch(){
     location.href=`sentence-battle-sample/index.html?${params.toString()}`;
   }else if(selectedGame==='matching'){
     location.href=`matching-pairs.html?${params.toString()}`;
+  }else if(selectedGame==='combined'){
+    location.href=`combined-battle.html?${params.toString()}`;
   }
 }
 
