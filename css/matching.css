@@ -470,3 +470,58 @@
   #hostView:fullscreen .final-ranking .rank-score,
   #hostView:-webkit-full-screen .final-ranking .rank-score{font-size:13px;min-width:84px}
 }
+
+
+/* Shared teacher vocabulary editing (Word Battle <-> Matching Pairs) */
+.vocab-list{grid-template-columns:1fr!important;gap:7px!important}
+.vocab-row{grid-template-columns:34px minmax(145px,1fr) minmax(170px,1.15fr) minmax(120px,.8fr) minmax(180px,auto)!important;gap:10px!important;min-height:56px!important}
+.match-vocab-check{width:19px!important;height:19px!important;accent-color:#37d8ff}
+.match-vocab-ko,.match-vocab-mn-cell{min-width:0;display:flex;align-items:center}
+.match-vocab-ko strong{font-size:14px;overflow-wrap:anywhere}
+.match-vocab-mn{font-size:13px;color:#aac0df;overflow-wrap:anywhere}
+.match-vocab-state{display:flex;align-items:center;justify-content:flex-start;min-width:0}
+.match-vocab-save-badge,.match-vocab-original-badge{display:inline-flex;align-items:center;justify-content:center;min-height:28px;padding:5px 9px;border-radius:999px;font-size:10px!important;font-weight:1000;white-space:nowrap}
+.match-vocab-save-badge.cloud{color:#95f7d0;background:rgba(39,194,129,.12);border:1px solid rgba(80,235,167,.25)}
+.match-vocab-save-badge.local{color:#ffd98a;background:rgba(255,191,61,.10);border:1px solid rgba(255,191,61,.22)}
+.match-vocab-original-badge{color:#91a9c8;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.07)}
+.match-vocab-actions{display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap}
+.match-vocab-action{border:1px solid rgba(255,255,255,.11);border-radius:10px;min-height:32px;padding:6px 10px;background:#123c72;color:white;font-weight:1000;font-size:11px;cursor:pointer}
+.match-vocab-action:hover{filter:brightness(1.12)}
+.match-vocab-action.save{background:#f4b43a;color:#10213e;border-color:#f4b43a}
+.match-vocab-action.restore{background:rgba(255,90,117,.10);color:#ff9aaa;border-color:rgba(255,90,117,.25)}
+.match-vocab-action.cancel{background:#17345f;color:#c9d8ed}
+.match-vocab-input{width:100%;min-width:0;height:38px;border:1px solid rgba(55,216,255,.28);border-radius:10px;background:#061a38;color:#fff;padding:0 10px;font:inherit;font-size:13px;outline:none}
+.match-vocab-input:focus{border-color:#37d8ff;box-shadow:0 0 0 3px rgba(55,216,255,.10)}
+.vocab-row.editing{background:rgba(55,216,255,.09)!important;border-color:rgba(55,216,255,.24)!important}
+#vocabPersistenceStatus{color:#91efd9;font-weight:900}
+@media(max-width:760px){
+  .vocab-row{grid-template-columns:32px minmax(0,1fr) minmax(0,1fr)!important;align-items:start!important}
+  .match-vocab-state{grid-column:2/3}
+  .match-vocab-actions{grid-column:3/4;justify-content:flex-start}
+  .match-vocab-ko,.match-vocab-mn-cell{min-height:34px}
+  .match-vocab-save-badge,.match-vocab-original-badge{white-space:normal;text-align:center}
+}
+
+/* Vocab editor text-input visibility fix.
+   The legacy .vocab-row input rule is intentionally for checkboxes; these
+   stronger selectors keep Korean/Mongolian edit fields full-size and legible. */
+.vocab-row input.match-vocab-input{
+  width:100%!important;
+  height:40px!important;
+  min-width:0!important;
+  border:1px solid rgba(55,216,255,.34)!important;
+  border-radius:10px!important;
+  background:#061a38!important;
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  caret-color:#37d8ff!important;
+  padding:0 11px!important;
+  font:inherit!important;
+  font-size:13px!important;
+  line-height:40px!important;
+  outline:none!important;
+}
+.vocab-row input.match-vocab-input:focus{
+  border-color:#37d8ff!important;
+  box-shadow:0 0 0 3px rgba(55,216,255,.10)!important;
+}
