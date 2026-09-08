@@ -61,6 +61,29 @@ export function firebaseNow() {
   return Date.now() + serverOffset;
 }
 
+const VOCABULARY_TEACHER_STORE_PATH = 'teacherContent/vocabulary/v1';
+
+// 교사가 수정한 한국어/몽골어 어휘쌍을 게임방과 분리된 영구 저장소에서 읽고 씁니다.
+// localhost와 GitHub Pages가 같은 Firebase 프로젝트를 사용하므로 두 주소에서 같은 수정 내용을 공유합니다.
+export async function loadVocabularyTeacherStore() {
+  const { db } = await firebaseContext();
+  const snapshot = await get(ref(db, VOCABULARY_TEACHER_STORE_PATH));
+  return snapshot.exists() ? snapshot.val() : null;
+}
+
+export async function saveVocabularyTeacherStore(store) {
+  const { db, auth } = await firebaseContext();
+  const payload = {
+    version: 1,
+    updatedAt: Number(store?.updatedAt) || Date.now(),
+    overrides: store?.overrides && typeof store.overrides === 'object' ? store.overrides : {},
+    updatedBy: auth.currentUser?.uid || null,
+    firebaseWrittenAt: serverTimestamp()
+  };
+  await set(ref(db, VOCABULARY_TEACHER_STORE_PATH), payload);
+  return payload;
+}
+
 export function publicRoomState(room) {
   if (room?.config?.gameType === 'matching-pairs') {
     const currentRound = room.matching?.rounds?.[room.roundIndex] || null;

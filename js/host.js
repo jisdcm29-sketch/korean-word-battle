@@ -2,7 +2,7 @@ import { CATALOG } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore, directionLabel, getQuizCapacity } from './game-engine.js';
 import { LocalBus } from './local-bus.js?v=7.3';
-import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin } from './firebase-bus.js?v=7.3';
+import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=7.6';
 import { GameAudioEngine } from './audio-engine.js?v=7.4';
 
 const $ = (id) => document.getElementById(id);
@@ -37,6 +37,14 @@ let lastCountdownNumber = null;
 let lastTimerTickSecond = null;
 let currentMusicMode = 'normal';
 let blindTransitionPlayed = false;
+
+const VOCAB_TEACHER_STORE_KEY = 'kwb_teacher_vocabulary_v1';
+let teacherVocabStore = { version: 1, updatedAt: 0, overrides: {} };
+let teacherVocabStorePromise = null;
+let teacherVocabSyncState = 'local';
+let teacherVocabSyncError = '';
+let editingVocabId = null;
+const originalVocabById = new Map();
 
 function nowMs() { return bus?.now ? bus.now() : Date.now(); }
 
@@ -125,6 +133,165 @@ function sourceKeyFromConfig(config) {
   if (config.sourceType === 'preliminary') return 'preliminary';
   if (config.sourceType === 'topik1') return `topik1:${config.collocationSet}`;
   return `snu:${config.snuBook}:${config.snuLesson}`;
+}
+
+function emptyVocabTeacherStore() {
+  return { version: 1, updatedAt: 0, overrides: {} };
+}
+
+function normalizeVocabTeacherStore(raw) {
+  const overrides = {};
+  if (raw?.overrides && typeof raw.overrides === 'object') {
+    Object.entries(raw.overrides).forEach(([id, rec]) => {
+      const ko = String(rec?.ko || '').trim();
+      const mn = String(rec?.mn || '').trim();
+      if (!id || !ko || !mn) return;
+      overrides[String(id)] = { id: String(id), ko, mn, updatedAt: Number(rec?.updatedAt) || 0 };
+    });
+  }
+  return { version: 1, updatedAt: Number(raw?.updatedAt) || 0, overrides };
+}
+
+function vocabTeacherStoreHasContent(store) {
+  return Object.keys(store?.overrides || {}).length > 0;
+}
+
+function readLocalVocabTeacherStore() {
+  try {
+    const raw = localStorage.getItem(VOCAB_TEACHER_STORE_KEY);
+    return raw ? normalizeVocabTeacherStore(JSON.parse(raw)) : emptyVocabTeacherStore();
+  } catch (err) {
+    console.error('교사 어휘 영구 저장 데이터를 읽지 못했습니다:', err);
+    return emptyVocabTeacherStore();
+  }
+}
+
+function writeLocalVocabTeacherStore(store, { touch = true } = {}) {
+  const next = normalizeVocabTeacherStore(store);
+  if (touch) next.updatedAt = Date.now();
+  localStorage.setItem(VOCAB_TEACHER_STORE_KEY, JSON.stringify(next));
+  teacherVocabStore = next;
+  return next;
+}
+
+async function saveVocabTeacherStoreEverywhere(store) {
+  const localSaved = writeLocalVocabTeacherStore(store);
+  if (!isFirebaseConfigured()) {
+    teacherVocabSyncState = 'local';
+    teacherVocabSyncError = 'Firebase 설정을 확인할 수 없어 이 PC에만 저장했습니다.';
+    return { ok: true, store: localSaved, warning: teacherVocabSyncError };
+  }
+  try {
+    await saveVocabularyTeacherStore(localSaved);
+    teacherVocabSyncState = 'firebase';
+    teacherVocabSyncError = '';
+    return { ok: true, store: localSaved };
+  } catch (err) {
+    console.error('Firebase 교사 어휘 저장 실패:', err);
+    teacherVocabSyncState = 'local';
+    teacherVocabSyncError = 'Firebase 영구 저장에 실패했습니다. 이 PC에는 저장되었지만 GitHub와 아직 동기화되지 않았습니다. Firebase 규칙을 확인해 주세요.';
+    return { ok: true, store: localSaved, warning: teacherVocabSyncError };
+  }
+}
+
+async function resolveVocabTeacherStore() {
+  const local = readLocalVocabTeacherStore();
+  teacherVocabStore = local;
+  if (!isFirebaseConfigured()) {
+    teacherVocabSyncState = 'local';
+    teacherVocabSyncError = 'Firebase 설정을 확인할 수 없어 이 PC의 어휘 수정 내용을 사용합니다.';
+    return local;
+  }
+  try {
+    const remoteRaw = await loadVocabularyTeacherStore();
+    if (!remoteRaw) {
+      if (vocabTeacherStoreHasContent(local)) await saveVocabularyTeacherStore(local);
+      teacherVocabSyncState = 'firebase';
+      teacherVocabSyncError = '';
+      return local;
+    }
+    const remote = normalizeVocabTeacherStore(remoteRaw);
+    if (local.updatedAt > remote.updatedAt && vocabTeacherStoreHasContent(local)) {
+      await saveVocabularyTeacherStore(local);
+      teacherVocabSyncState = 'firebase';
+      teacherVocabSyncError = '';
+      return local;
+    }
+    writeLocalVocabTeacherStore(remote, { touch: false });
+    teacherVocabSyncState = 'firebase';
+    teacherVocabSyncError = '';
+    return remote;
+  } catch (err) {
+    console.error('Firebase 교사 어휘 불러오기 실패:', err);
+    teacherVocabSyncState = 'local';
+    teacherVocabSyncError = 'Firebase에서 교사 어휘 수정 내용을 불러오지 못해 이 PC의 저장 내용을 사용합니다.';
+    return local;
+  }
+}
+
+async function ensureVocabTeacherStore(force = false) {
+  if (force) teacherVocabStorePromise = null;
+  if (!teacherVocabStorePromise) {
+    teacherVocabStorePromise = resolveVocabTeacherStore().catch(err => {
+      teacherVocabStorePromise = null;
+      throw err;
+    });
+  }
+  teacherVocabStore = await teacherVocabStorePromise;
+  return teacherVocabStore;
+}
+
+function applyVocabTeacherOverrides(items) {
+  return items.map(item => {
+    originalVocabById.set(String(item.id), { ...item });
+    const saved = teacherVocabStore?.overrides?.[String(item.id)];
+    if (!saved) return { ...item, persistent: false };
+    return { ...item, ko: saved.ko, mn: saved.mn, persistent: true };
+  });
+}
+
+async function loadTeacherAwareData(config, { forceSync = false } = {}) {
+  await ensureVocabTeacherStore(forceSync);
+  const data = await loadByConfig(config);
+  return { ...data, items: applyVocabTeacherOverrides(data.items) };
+}
+
+function syncItemsAfterVocabStoreChange(id) {
+  const saved = teacherVocabStore?.overrides?.[String(id)] || null;
+  const original = originalVocabById.get(String(id));
+  sourceItems = sourceItems.map(item => {
+    if (String(item.id) !== String(id)) return item;
+    if (saved) return { ...item, ko: saved.ko, mn: saved.mn, persistent: true };
+    return original ? { ...original, persistent: false } : { ...item, persistent: false };
+  });
+  currentItems = selectedItemsFor(activeSourceKey, sourceItems);
+  updateQuestionCountControl(currentItems);
+  syncSelectedBadge();
+}
+
+async function saveVocabularyEdit(id, ko, mn) {
+  await ensureVocabTeacherStore(true);
+  const cleanKo = String(ko || '').trim();
+  const cleanMn = String(mn || '').trim();
+  if (!cleanKo || !cleanMn) return { ok: false, error: '한국어와 몽골어를 모두 입력해 주세요.' };
+  const next = normalizeVocabTeacherStore(teacherVocabStore);
+  next.overrides[String(id)] = { id: String(id), ko: cleanKo, mn: cleanMn, updatedAt: Date.now() };
+  next.updatedAt = Date.now();
+  const saved = await saveVocabTeacherStoreEverywhere(next);
+  teacherVocabStore = saved.store;
+  syncItemsAfterVocabStoreChange(id);
+  return saved;
+}
+
+async function restoreVocabularyOriginal(id) {
+  await ensureVocabTeacherStore(true);
+  const next = normalizeVocabTeacherStore(teacherVocabStore);
+  delete next.overrides[String(id)];
+  next.updatedAt = Date.now();
+  const saved = await saveVocabTeacherStoreEverywhere(next);
+  teacherVocabStore = saved.store;
+  syncItemsAfterVocabStoreChange(id);
+  return saved;
 }
 
 function getConfig() {
@@ -231,7 +398,7 @@ function syncSelectedBadge() {
 async function refreshSummary() {
   try {
     const config = getConfig();
-    const data = await loadByConfig(config);
+    const data = await loadTeacherAwareData(config);
     const key = sourceKeyFromConfig(config);
     activeSourceKey = key;
     sourceItems = data.items;
@@ -268,7 +435,7 @@ function toast(text) {
 
 async function ensureData() {
   const config = getConfig();
-  const data = await loadByConfig(config);
+  const data = await loadTeacherAwareData(config);
   const key = sourceKeyFromConfig(config);
   activeSourceKey = key;
   sourceItems = data.items;
@@ -281,17 +448,21 @@ async function ensureData() {
 
 async function openPreview() {
   const config = getConfig();
-  const data = await loadByConfig(config);
+  const data = await loadTeacherAwareData(config, { forceSync: true });
   activeSourceKey = sourceKeyFromConfig(config);
   sourceItems = data.items;
   const selected = ensureSelectionForSource(activeSourceKey, sourceItems);
   draftSelection = new Set(selected);
   currentTitle = data.title;
-  $('previewTitle').textContent = `${data.title} · 어휘 선택`;
-  $('previewCount').textContent = `총 ${data.items.length}개`;
+  editingVocabId = null;
+  $('previewTitle').textContent = `${data.title} · 어휘 선택·수정`;
+  const savedCount = data.items.filter(v => v.persistent).length;
+  const syncLabel = teacherVocabSyncState === 'firebase' ? '☁ Firebase 공유 저장 연결됨' : '💾 PC 저장 사용';
+  $('previewCount').textContent = `총 ${data.items.length}개 · 교사 수정 ${savedCount}개 · ${syncLabel}`;
   $('previewSearch').value = '';
   renderPreview(data.items);
   updateDraftSelectionCount();
+  updatePreviewPersistenceStatus();
   $('previewModal').classList.remove('hidden');
 }
 
@@ -302,17 +473,45 @@ function previewFilteredItems() {
 
 function renderPreview(items) {
   const numberMap = new Map(sourceItems.map((v,i)=>[v.id,i+1]));
-  $('previewBody').innerHTML = items.map(v => `
-    <tr class="${draftSelection.has(v.id)?'selected-row':''}">
+  $('previewBody').innerHTML = items.map(v => {
+    const editing = editingVocabId === v.id;
+    const saved = Boolean(teacherVocabStore?.overrides?.[String(v.id)]);
+    const saveBadge = saved
+      ? `<span class="vocab-save-badge ${teacherVocabSyncState === 'firebase' ? 'cloud' : 'local'}">${teacherVocabSyncState === 'firebase' ? '☁ Firebase 영구 저장' : '💾 PC 영구 저장'}</span>`
+      : '<span class="vocab-original-badge">원본</span>';
+    const koCell = editing
+      ? `<input class="vocab-inline-input" data-vocab-field="ko" value="${escapeHtml(v.ko)}" aria-label="한국어 수정">`
+      : `<strong>${escapeHtml(v.ko)}</strong>`;
+    const mnCell = editing
+      ? `<input class="vocab-inline-input" data-vocab-field="mn" value="${escapeHtml(v.mn)}" aria-label="몽골어 수정">`
+      : escapeHtml(v.mn);
+    const actions = editing
+      ? `<div class="vocab-row-actions"><button class="btn small primary" data-vocab-action="save" data-id="${escapeHtml(v.id)}" type="button">✓ 영구 저장</button><button class="btn small ghost" data-vocab-action="cancel" data-id="${escapeHtml(v.id)}" type="button">취소</button></div>`
+      : `<div class="vocab-row-actions"><button class="btn small secondary" data-vocab-action="edit" data-id="${escapeHtml(v.id)}" type="button">✎ 수정</button>${saved ? `<button class="btn small ghost vocab-restore-btn" data-vocab-action="restore" data-id="${escapeHtml(v.id)}" type="button">원본 복원</button>` : ''}</div>`;
+    return `
+    <tr class="${draftSelection.has(v.id)?'selected-row':''}${editing?' editing-row':''}" data-vocab-id="${escapeHtml(v.id)}">
       <td><input class="vocab-check" type="checkbox" data-id="${escapeHtml(v.id)}" ${draftSelection.has(v.id)?'checked':''}></td>
       <td>${numberMap.get(v.id) || ''}</td>
-      <td><strong>${escapeHtml(v.ko)}</strong></td>
-      <td>${escapeHtml(v.mn)}</td>
-    </tr>`).join('');
+      <td>${koCell}</td>
+      <td>${mnCell}</td>
+      <td>${saveBadge}</td>
+      <td>${actions}</td>
+    </tr>`;
+  }).join('');
 }
 
 function updateDraftSelectionCount() {
   $('selectionFooterCount').textContent = `${draftSelection.size}개 선택`;
+}
+
+function updatePreviewPersistenceStatus() {
+  const savedCount = sourceItems.filter(v => teacherVocabStore?.overrides?.[String(v.id)]).length;
+  const syncLabel = teacherVocabSyncState === 'firebase' ? '☁ Firebase 공유 저장 연결됨' : '💾 PC 저장 사용';
+  $('previewCount').textContent = `총 ${sourceItems.length}개 · 교사 수정 ${savedCount}개 · ${syncLabel}`;
+  const footer = $('vocabPersistenceNote');
+  if (footer) footer.textContent = teacherVocabSyncState === 'firebase'
+    ? '어휘 수정은 Firebase에 영구 저장되어 C드라이브와 GitHub에서 함께 적용됩니다.'
+    : (teacherVocabSyncError || '어휘 수정은 이 PC에 영구 저장됩니다.');
 }
 
 function setVisibleSelection(checked) {
@@ -822,6 +1021,55 @@ $('previewBtn').addEventListener('click',openPreview);
 $('closePreviewBtn').addEventListener('click',()=> $('previewModal').classList.add('hidden'));
 $('previewModal').addEventListener('click',(e)=>{if(e.target===$('previewModal'))$('previewModal').classList.add('hidden')});
 $('previewSearch').addEventListener('input',filterPreview);
+$('previewBody').addEventListener('click', async (e)=>{
+  const btn = e.target.closest('button[data-vocab-action]');
+  if (!btn) return;
+  const action = btn.dataset.vocabAction;
+  const id = btn.dataset.id;
+  if (!id) return;
+  if (action === 'edit') {
+    editingVocabId = id;
+    renderPreview(previewFilteredItems());
+    return;
+  }
+  if (action === 'cancel') {
+    editingVocabId = null;
+    renderPreview(previewFilteredItems());
+    return;
+  }
+  if (action === 'save') {
+    const row = btn.closest('tr');
+    const ko = row?.querySelector('[data-vocab-field="ko"]')?.value || '';
+    const mn = row?.querySelector('[data-vocab-field="mn"]')?.value || '';
+    btn.disabled = true;
+    btn.textContent = '저장 중…';
+    const result = await saveVocabularyEdit(id, ko, mn);
+    if (!result.ok) {
+      btn.disabled = false;
+      btn.textContent = '✓ 영구 저장';
+      toast(result.error || '어휘를 저장하지 못했습니다.');
+      return;
+    }
+    editingVocabId = null;
+    renderPreview(previewFilteredItems());
+    updatePreviewPersistenceStatus();
+    toast(teacherVocabSyncState === 'firebase' ? '어휘 수정 내용을 Firebase에 영구 저장했습니다.' : '어휘 수정 내용을 이 PC에 저장했습니다.');
+    if (result.warning) alert(result.warning);
+    return;
+  }
+  if (action === 'restore') {
+    const original = originalVocabById.get(String(id));
+    if (!original) { toast('원본 어휘를 찾지 못했습니다.'); return; }
+    if (!confirm(`이 어휘를 원본으로 복원할까요?\n\n${original.ko}  /  ${original.mn}`)) return;
+    btn.disabled = true;
+    const result = await restoreVocabularyOriginal(id);
+    editingVocabId = null;
+    renderPreview(previewFilteredItems());
+    updatePreviewPersistenceStatus();
+    toast('원본 어휘로 복원했습니다.');
+    if (result.warning) alert(result.warning);
+  }
+});
 $('previewBody').addEventListener('change',(e)=>{
   const cb=e.target.closest('.vocab-check');
   if(!cb)return;
