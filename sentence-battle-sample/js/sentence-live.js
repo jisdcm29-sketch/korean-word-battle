@@ -159,46 +159,90 @@ export class SentencePlayerBus{
     this.handlers=new Set();
     this.unsubs=[];
     this.connected=true;
+    this.latestState=null;
+    this.flushingPending=false;
   }
   on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
   emit(msg){this.handlers.forEach(fn=>fn(msg));}
   now(){return serverNow();}
+  _domEvent(name,detail={}){try{window.dispatchEvent(new CustomEvent(name,{detail:{pin:this.pin,role:'player',...detail}}));}catch{}}
+  _stateKey(){return this.uid?`sentence_room_state_v2_${this.pin}_${this.uid}`:null;}
+  _pendingKey(){return this.uid?`sentence_pending_v2_${this.pin}_${this.uid}`:null;}
+  _cacheState(state){
+    if(!state)return;this.latestState=state;const key=this._stateKey();if(!key)return;
+    try{localStorage.setItem(key,JSON.stringify({savedAt:Date.now(),state}));}catch{}
+  }
+  _readCachedState(){
+    const key=this._stateKey();if(!key)return null;
+    try{const p=JSON.parse(localStorage.getItem(key)||'null');if(!p?.state)return null;if(Date.now()-Number(p.savedAt||0)>30*60*1000){localStorage.removeItem(key);return null;}return p.state;}catch{return null;}
+  }
+  _readPending(){
+    const key=this._pendingKey();if(!key)return[];
+    try{const list=JSON.parse(localStorage.getItem(key)||'[]');if(!Array.isArray(list))return[];const fresh=list.filter(x=>x?.id&&Date.now()-Number(x.queuedAt||0)<=10*60*1000);if(fresh.length!==list.length)localStorage.setItem(key,JSON.stringify(fresh));return fresh;}catch{return[];}
+  }
+  _writePending(list){const key=this._pendingKey();if(!key)return;try{if(list.length)localStorage.setItem(key,JSON.stringify(list));else localStorage.removeItem(key);}catch{}}
+  _queue(type,payload={}){
+    const at=this.now(),id=`${this.uid||'u'}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,10)}`;
+    const item={id,type,at,queuedAt:Date.now(),payload:{...payload,uid:this.uid,clientAt:at}};
+    const list=this._readPending();list.push(item);this._writePending(list.slice(-80));return item;
+  }
+  async _deliver(item){
+    const msgRef=ref(this.db,`rooms/${this.pin}/inbox/${item.id}`);
+    await set(msgRef,{type:item.type,uid:this.uid,payload:item.payload,at:Number(item.at)||this.now(),queuedAt:Number(item.queuedAt)||Date.now()});
+  }
+  async _flush(){
+    if(!this.db||!this.connected||this.flushingPending)return;this.flushingPending=true;
+    try{
+      let list=this._readPending();
+      while(list.length&&this.connected){
+        const item=list[0];
+        try{await this._deliver(item);list=this._readPending().filter(x=>x.id!==item.id);this._writePending(list);this._domEvent('kwb-delivery',{status:'sent',messageType:item.type});}
+        catch(err){console.warn('문장 배틀 대기 제출 전송이 일시 중단되었습니다.',err);break;}
+      }
+    }finally{this.flushingPending=false;if(this.connected&&this._readPending().length)setTimeout(()=>this._flush().catch(()=>{}),900);}
+  }
   async init(){
     const {db,auth}=await context();
     this.db=db;this.auth=auth;this.uid=auth.currentUser.uid;
     const connectedRef=ref(db,'.info/connected');
     const connUnsub=onValue(connectedRef,snap=>{
       const next=snap.val()===true;
-      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});}
+      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});this._domEvent('kwb-connection',{connected:next});}
+      if(next)this._flush().catch(()=>{});
     });
     this.unsubs.push(connUnsub);
 
     const stateRef=ref(db,`rooms/${this.pin}/state`);
     const unsub=onValue(stateRef,snap=>{
-      // 일시적인 연결 문제나 캐시 전환 중 state가 비어 보여도 즉시 방 종료로 간주하지 않습니다.
-      if(!snap.exists()) return;
-      const state=snap.val();
-      if(state?.status==='closed') this.emit({type:'closed'});
+      if(!snap.exists())return;
+      const state=snap.val();this._cacheState(state);
+      if(state?.status==='closed'){try{const k=this._stateKey();if(k)localStorage.removeItem(k);}catch{}this.emit({type:'closed'});}
       else this.emit({type:'state',state});
-    },err=>{
-      console.warn('문장 배틀 상태 수신이 일시 중단되었습니다. Firebase가 자동 재연결합니다.',err);
-    });
+    },err=>{console.warn('문장 배틀 상태 수신이 일시 중단되었습니다. Firebase가 자동 재연결합니다.',err);});
     this.unsubs.push(unsub);
+    this._flush().catch(()=>{});
     return this;
   }
   async exists(){
-    if(!this.db) await this.init();
-    const snap=await get(ref(this.db,`rooms/${this.pin}/state`));
-    const state=snap.val();
-    return Boolean(snap.exists()&&state?.status!=='closed'&&state?.kind==='sentence-sample');
+    if(!this.db)await this.init();
+    try{
+      const snap=await get(ref(this.db,`rooms/${this.pin}/state`));const state=snap.val();
+      if(snap.exists())this._cacheState(state);
+      return Boolean(snap.exists()&&state?.status!=='closed'&&state?.kind==='sentence-sample');
+    }catch(err){
+      const state=this._readCachedState();if(state?.status!=='closed'&&state?.kind==='sentence-sample'){this.latestState=state;return true;}throw err;
+    }
   }
   async send(type,payload={}){
-    if(!this.db) await this.init();
-    const msgRef=push(ref(this.db,`rooms/${this.pin}/inbox`));
-    await set(msgRef,{type,uid:this.uid,payload:{...payload,uid:this.uid},at:serverTimestamp()});
+    if(!this.db)await this.init();
+    const resume=this.latestState;
+    if(type==='join'&&resume?.status!=='closed'&&resume?.status!=='lobby'&&resume?.players?.[this.uid]){
+      setTimeout(()=>this.emit({type:'state',state:resume,resumed:true}),0);return{resumed:true};
+    }
+    if(type==='leave'&&!this.connected)return{skipped:true};
+    const item=this._queue(type,payload);
+    if(!this.connected){this._domEvent('kwb-delivery',{status:'queued',messageType:type});return{queued:true,id:item.id};}
+    this._flush().catch(()=>{});return{queued:false,id:item.id};
   }
-  close(){
-    this.unsubs.forEach(fn=>{try{fn();}catch{}});
-    this.unsubs=[];
-  }
+  close(){this.unsubs.forEach(fn=>{try{fn();}catch{}});this.unsubs=[];}
 }
