@@ -6,6 +6,8 @@ import {
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig, isFirebaseConfigured } from './firebase-config.js?v=7.3';
 
+export { isFirebaseConfigured };
+
 let contextPromise = null;
 let serverOffset = 0;
 let offsetUnsubscribe = null;
@@ -37,9 +39,6 @@ async function firebaseContext() {
     contextPromise = (async () => {
       const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
       const auth = getAuth(app);
-      // 새 탭이 열릴 때 기존 익명 로그인 복원이 끝나기 전에
-      // 또 signInAnonymously()를 호출하면 호스트의 UID가 바뀔 수 있습니다.
-      // 먼저 기존 인증 상태 복원을 기다린 뒤, 정말 사용자 정보가 없을 때만 익명 로그인합니다.
       await waitForInitialAuthState(auth);
       if (!auth.currentUser) await signInAnonymously(auth);
       const db = getDatabase(app);
@@ -63,8 +62,6 @@ export function firebaseNow() {
 
 const VOCABULARY_TEACHER_STORE_PATH = 'teacherContent/vocabulary/v1';
 
-// 교사가 수정한 한국어/몽골어 어휘쌍을 게임방과 분리된 영구 저장소에서 읽고 씁니다.
-// localhost와 GitHub Pages가 같은 Firebase 프로젝트를 사용하므로 두 주소에서 같은 수정 내용을 공유합니다.
 export async function loadVocabularyTeacherStore() {
   const { db } = await firebaseContext();
   const snapshot = await get(ref(db, VOCABULARY_TEACHER_STORE_PATH));
@@ -168,6 +165,7 @@ export function publicRoomState(room) {
       finishedAt: Number(room.finishedAt) || 0
     };
   }
+
   if (room?.config?.gameType === 'matching-pairs') {
     const currentRound = room.matching?.rounds?.[room.roundIndex] || null;
     const blind = Boolean(room.blindActive) && room.status !== 'finished';
@@ -266,6 +264,9 @@ export class FirebaseBus {
     this.writeQueue = Promise.resolve();
     this.closed = false;
     this.seen = new Set();
+    this.hostInboxAttached = false;
+    this.disconnectOp = null;
+    this.connected = true;
   }
 
   on(fn) {
@@ -275,7 +276,7 @@ export class FirebaseBus {
 
   _dispatch(msg) {
     if (!msg) return;
-    const key = msg.id || `${msg.type || 'event'}-${msg.at || ''}`;
+    const key = msg.id || null;
     if (key && this.seen.has(key)) return;
     if (key) {
       this.seen.add(key);
@@ -288,18 +289,28 @@ export class FirebaseBus {
     return firebaseNow();
   }
 
-  async _attachHostInboxListener() {
-    if (this.role !== 'host' || !this.db || this.hostInboxAttached) return;
+  _watchConnection() {
+    if (!this.db || this.connectionListenerAttached) return;
+    const connectedRef = ref(this.db, '.info/connected');
+    const unsub = onValue(connectedRef, (snapshot) => {
+      const connected = snapshot.val() === true;
+      const changed = connected !== this.connected;
+      this.connected = connected;
+      if (changed) this._dispatch({ type:'connection', connected, at:this.now() });
+      if (connected && this.role === 'host' && !this.closed) {
+        this._attachHostInboxListener().catch((err) => {
+          console.warn('Firebase host inbox reconnect failed:', err);
+        });
+      }
+    });
+    this.unsubscribers.push(unsub);
+    this.connectionListenerAttached = true;
+  }
 
-    // IMPORTANT: Realtime Database security rules allow the host to read inbox
-    // only after rooms/{pin}/ownerUid has been created. If the listener is
-    // attached before ownerUid exists, Firebase rejects the listener once and
-    // it will not automatically recover later. Therefore attach it only after
-    // createRoom() has written ownerUid/state successfully.
+  async _attachHostInboxListener() {
+    if (this.role !== 'host' || !this.db || this.hostInboxAttached || this.closed) return;
     const ownerSnapshot = await get(ref(this.db, `rooms/${this.pin}/ownerUid`));
-    if (!ownerSnapshot.exists() || ownerSnapshot.val() !== this.uid) {
-      throw new Error('게임방 소유자 확인에 실패했습니다. 새 방을 다시 만들어 주세요.');
-    }
+    if (!ownerSnapshot.exists() || ownerSnapshot.val() !== this.uid) return;
 
     const inboxRef = ref(this.db, `rooms/${this.pin}/inbox`);
     const unsub = onChildAdded(
@@ -326,22 +337,20 @@ export class FirebaseBus {
     this.db = db;
     this.auth = auth;
     this.uid = auth.currentUser.uid;
+    this._watchConnection();
 
     if (this.role !== 'host') {
       const stateRef = ref(db, `rooms/${this.pin}/state`);
-      let hadState = false;
       const unsub = onValue(stateRef, (snapshot) => {
-        if (snapshot.exists()) {
-          hadState = true;
-          const state = snapshot.val();
-          if (state?.status === 'closed') {
-            this._dispatch({ type:'room-closed', at:this.now() });
-          } else {
-            this._dispatch({ type:'state', payload:{ room:state }, at:this.now() });
-          }
-        } else if (hadState) {
+        if (!snapshot.exists()) return;
+        const state = snapshot.val();
+        if (state?.status === 'closed') {
           this._dispatch({ type:'room-closed', at:this.now() });
+        } else {
+          this._dispatch({ type:'state', payload:{ room:state }, at:this.now() });
         }
+      }, (err) => {
+        console.warn('Firebase room state listener paused; SDK will retry automatically:', err);
       });
       this.unsubscribers.push(unsub);
     }
@@ -366,16 +375,22 @@ export class FirebaseBus {
 
     const ownerRef = ref(this.db, `rooms/${this.pin}/ownerUid`);
     const currentOwner = await get(ownerRef);
-    if (currentOwner.exists()) throw new Error('이미 사용 중인 PIN입니다. 다시 방을 만들어 주세요.');
+    if (currentOwner.exists()) throw new Error('이미 사용 중인 게임 PIN입니다. 새 방을 다시 만들어 주세요.');
 
-    // 보안 규칙이 ownerUid 생성 시 기존 값이 없어야만 허용하도록 구성되어 있습니다.
     await set(ownerRef, this.uid);
     try {
       await set(ref(this.db, `rooms/${this.pin}/createdAt`), serverTimestamp());
-      await set(ref(this.db, `rooms/${this.pin}/state`), publicRoomState(room));
+      const initialState = publicRoomState(room);
+      initialState.hostDisconnectedAt = null;
+      initialState.hostUpdatedAt = serverTimestamp();
+      await set(ref(this.db, `rooms/${this.pin}/state`), initialState);
       await this._attachHostInboxListener();
-      const disconnectOp = onDisconnect(ref(this.db, `rooms/${this.pin}/state/status`));
-      await disconnectOp.set('closed');
+
+      // 중요: 통신이 잠깐 끊겨도 방을 종료하지 않습니다.
+      // 연결이 실제로 끊기면 종료 대신 '호스트 연결 끊김 시각'만 남깁니다.
+      // 따라서 학생은 마지막으로 받은 게임 상태를 그대로 유지할 수 있습니다.
+      const disconnectOp = onDisconnect(ref(this.db, `rooms/${this.pin}/state/hostDisconnectedAt`));
+      await disconnectOp.set(serverTimestamp());
       this.disconnectOp = disconnectOp;
     } catch (e) {
       try { await remove(ownerRef); } catch {}
@@ -386,6 +401,8 @@ export class FirebaseBus {
   saveRoom(room) {
     if (!this.db || this.closed) return Promise.resolve();
     const state = publicRoomState(room);
+    state.hostDisconnectedAt = null;
+    state.hostUpdatedAt = serverTimestamp();
     this.writeQueue = this.writeQueue
       .catch(() => {})
       .then(() => set(ref(this.db, `rooms/${this.pin}/state`), state));
@@ -411,21 +428,20 @@ export class FirebaseBus {
     try { await this.writeQueue.catch(() => {}); } catch {}
     try {
       await update(ref(this.db, `rooms/${this.pin}/state`), { status:'closed', closedAt:serverTimestamp() });
-      await new Promise((resolve) => setTimeout(resolve, 350));
+      await new Promise((resolve) => setTimeout(resolve, 500));
     } catch {}
     try { if (this.disconnectOp) await this.disconnectOp.cancel(); } catch {}
-    // ownerUid는 마지막에 지웁니다. 다른 경로의 쓰기 권한이 ownerUid를 기준으로 하기 때문입니다.
     for (const path of ['inbox', 'state', 'createdAt', 'ownerUid']) {
       try { await remove(ref(this.db, `rooms/${this.pin}/${path}`)); } catch {}
     }
   }
 
   close() {
+    try { this.disconnectOp?.cancel?.().catch?.(() => {}); } catch {}
     this.unsubscribers.forEach((unsub) => { try { unsub(); } catch {} });
     this.unsubscribers = [];
     this.hostInboxAttached = false;
+    this.connectionListenerAttached = false;
     this.handlers.clear();
   }
 }
-
-export { isFirebaseConfigured };
