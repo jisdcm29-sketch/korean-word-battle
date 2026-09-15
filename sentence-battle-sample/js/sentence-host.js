@@ -1,4 +1,4 @@
-import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=2.2';
+import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.0';
 
 const launchParams=new URLSearchParams(location.search);
 const selectedBook=launchParams.get('book')||'1A';
@@ -347,6 +347,10 @@ function celebrateCorrect(uid,rank,points){
 function assembleSentence(order,q){const map=new Map(q.tokens),words=[];for(const id of order){const text=map.get(id)||'';if(words.length&&isBoundText(text))words[words.length-1]+=text;else words.push(text);}let s=words.join(' ').trim();if(s&&!/[.!?]$/.test(s))s+='.';return s;}
 function canonicalSentence(q){return String(q?.displaySentence||'').trim()||assembleSentence(q.acceptedOrders[0]||[],q);}
 
+function phase3HashSeed(value){let h=2166136261;for(const ch of String(value??'')){h^=ch.charCodeAt(0);h=Math.imul(h,16777619);}return h>>>0;}
+function phase3ShuffleTokens(tokens,seedText){const a=(tokens||[]).map(t=>[String(t[0]),String(t[1])]);let seed=phase3HashSeed(seedText)||1;const rand=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};for(let i=a.length-1;i>0;i--){const j=Math.floor(rand()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function phase3SentencePackage(){return{version:3,kind:'sentence',questions:fullQuestions.map((q,i)=>({id:q.id,tokens:phase3ShuffleTokens(q.tokens,`${room?.pin||'room'}:${q.id}:${i}`)})),timing:{initialCountdownMs:3300,resultMs:Number(room?.config?.revealSeconds||5)*1000}};}
+
 function publicRoomState(){
   return {
     kind:'sentence-sample',pin:room.pin,status:room.status,title:'문장 배틀',demoMode:isDemo,
@@ -354,7 +358,8 @@ function publicRoomState(){
     players:room.players,questionIndex:room.questionIndex,questionTotal:fullQuestions.length,
     countdownEndAt:room.countdownEndAt||0,questionStartAt:room.questionStartAt||0,questionEndAt:room.questionEndAt||0,resultEndAt:room.resultEndAt||0,
     currentQuestion:room.currentQuestion||null,answerCount:room.answerCount||0,roundResults:room.status==='result'?room.roundResults||{}:{},
-    revealSentence:room.status==='result'?room.revealSentence||'':null,variantCount:room.status==='result'?room.variantCount||1:0,finishedAt:room.finishedAt||0
+    revealSentence:room.status==='result'?room.revealSentence||'':null,variantCount:room.status==='result'?room.variantCount||1:0,finishedAt:room.finishedAt||0,
+    offlinePackage:phase3SentencePackage()
   };
 }
 async function persist(){if(!bus||isDemo)return true;try{await bus.saveState(publicRoomState());return true;}catch(err){console.error('문장 배틀 상태 동기화 실패:',err);return false;}}
@@ -443,7 +448,7 @@ async function startRound(){
   if(!room||room.questionIndex<0||room.questionIndex>=fullQuestions.length)return;
   if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}
   currentQuestion=fullQuestions[room.questionIndex];roundSubmissions=new Map();correctCount=0;room.status='playing';room.answerCount=0;room.roundResults={};room.revealSentence='';room.variantCount=flexibleOrderCount(currentQuestion);
-  const roundIndex=room.questionIndex,t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;room.currentQuestion={id:currentQuestion.id,tokens:shuffle(currentQuestion.tokens).map(t=>[...t])};
+  const roundIndex=room.questionIndex,t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;room.currentQuestion={id:currentQuestion.id,tokens:phase3ShuffleTokens(currentQuestion.tokens,`${room.pin}:${currentQuestion.id}:${room.questionIndex}`)};
   els.playingStage.classList.remove('hidden');els.revealStage.classList.add('hidden');renderGameMeta();void persist();runHostTimer();startTensionAudio();if(isDemo)scheduleDemoSubmissions();
   roundEndGuard=setTimeout(()=>{if(room?.status==='playing'&&room.questionIndex===roundIndex)endRound();},room.config.timeLimit*1000+900);
 }

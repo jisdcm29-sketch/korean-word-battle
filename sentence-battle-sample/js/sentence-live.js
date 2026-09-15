@@ -86,6 +86,15 @@ export class SentenceHostBus{
   on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
   emit(msg){this.handlers.forEach(fn=>fn(msg));}
   now(){return serverNow();}
+  async _rearmDisconnectMarker(){
+    if(!this.db||this.closed)return;
+    const owner=await get(ref(this.db,`rooms/${this.pin}/ownerUid`));
+    if(!owner.exists()||owner.val()!==this.uid)return;
+    try{if(this.disconnectOp)await this.disconnectOp.cancel();}catch{}
+    await update(ref(this.db,`rooms/${this.pin}/state`),{hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()});
+    this.disconnectOp=onDisconnect(ref(this.db,`rooms/${this.pin}/state/hostDisconnectedAt`));
+    await this.disconnectOp.set(serverTimestamp());
+  }
   async init(){
     const {db,auth}=await context();
     this.db=db;this.auth=auth;this.uid=auth.currentUser.uid;
@@ -93,6 +102,7 @@ export class SentenceHostBus{
     const unsub=onValue(connectedRef,snap=>{
       const next=snap.val()===true;
       if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});}
+      if(next&&!this.closed)this._rearmDisconnectMarker().catch(err=>console.warn('문장 배틀 호스트 재연결 복구 실패:',err));
     });
     this.unsubs.push(unsub);
     return this;
@@ -116,8 +126,7 @@ export class SentenceHostBus{
 
       // 통신 단절을 게임 종료로 처리하지 않습니다.
       // 서버에는 호스트 연결이 끊긴 시각만 기록합니다.
-      this.disconnectOp=onDisconnect(ref(this.db,`rooms/${this.pin}/state/hostDisconnectedAt`));
-      await this.disconnectOp.set(serverTimestamp());
+      await this._rearmDisconnectMarker();
     }catch(err){
       try{await remove(ownerRef);}catch{}
       throw err;
@@ -126,7 +135,9 @@ export class SentenceHostBus{
   saveState(state){
     if(!this.db||this.closed) return Promise.resolve();
     const resilientState={...state,hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()};
-    this.writeQueue=this.writeQueue.catch(()=>{}).then(()=>set(ref(this.db,`rooms/${this.pin}/state`),resilientState));
+    // 사전 다운로드 패키지는 createRoom에서 한 번 저장하고 이후에는 유지합니다.
+    delete resilientState.offlinePackage;
+    this.writeQueue=this.writeQueue.catch(()=>{}).then(()=>update(ref(this.db,`rooms/${this.pin}/state`),resilientState));
     return this.writeQueue;
   }
   async closeRoom(){
@@ -161,20 +172,29 @@ export class SentencePlayerBus{
     this.connected=true;
     this.latestState=null;
     this.flushingPending=false;
+    this.hostDisconnected=false;
+    this.offlinePackage=null;
+    this.packageCached=false;
   }
   on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
   emit(msg){this.handlers.forEach(fn=>fn(msg));}
   now(){return serverNow();}
   _domEvent(name,detail={}){try{window.dispatchEvent(new CustomEvent(name,{detail:{pin:this.pin,role:'player',...detail}}));}catch{}}
   _stateKey(){return this.uid?`sentence_room_state_v2_${this.pin}_${this.uid}`:null;}
+  _packageKey(){return this.uid?`sentence_room_package_v3_${this.pin}_${this.uid}`:null;}
+  _readPackage(){if(this.offlinePackage)return this.offlinePackage;const key=this._packageKey();if(!key)return null;try{const p=JSON.parse(localStorage.getItem(key)||'null');if(p?.version>=3){this.offlinePackage=p;this.packageCached=true;return p;}}catch{}return null;}
   _pendingKey(){return this.uid?`sentence_pending_v2_${this.pin}_${this.uid}`:null;}
   _cacheState(state){
-    if(!state)return;this.latestState=state;const key=this._stateKey();if(!key)return;
-    try{localStorage.setItem(key,JSON.stringify({savedAt:Date.now(),state}));}catch{}
+    if(!state)return;this.latestState=state;
+    const disconnected=Boolean(state.hostDisconnectedAt);
+    if(disconnected!==this.hostDisconnected){this.hostDisconnected=disconnected;this._domEvent('kwb-host-connection',{connected:!disconnected});}
+    if(state.offlinePackage?.version>=3){const p=state.offlinePackage;this.offlinePackage=p;if(!this.packageCached){try{const pk=this._packageKey();if(pk)localStorage.setItem(pk,JSON.stringify(p));this.packageCached=true;}catch{}}this._domEvent('kwb-preload',{ready:true,kind:p.kind||'sentence',itemCount:Number(p.questions?.length)||0});}
+    const key=this._stateKey();if(!key)return;
+    try{const{offlinePackage,...lightState}=state;localStorage.setItem(key,JSON.stringify({savedAt:Date.now(),state:lightState}));}catch{}
   }
   _readCachedState(){
     const key=this._stateKey();if(!key)return null;
-    try{const p=JSON.parse(localStorage.getItem(key)||'null');if(!p?.state)return null;if(Date.now()-Number(p.savedAt||0)>30*60*1000){localStorage.removeItem(key);return null;}return p.state;}catch{return null;}
+    try{const p=JSON.parse(localStorage.getItem(key)||'null');if(!p?.state)return null;if(Date.now()-Number(p.savedAt||0)>30*60*1000){localStorage.removeItem(key);return null;}const pack=this._readPackage();return pack?{...p.state,offlinePackage:pack}:p.state;}catch{return null;}
   }
   _readPending(){
     const key=this._pendingKey();if(!key)return[];
@@ -216,7 +236,7 @@ export class SentencePlayerBus{
     const unsub=onValue(stateRef,snap=>{
       if(!snap.exists())return;
       const state=snap.val();this._cacheState(state);
-      if(state?.status==='closed'){try{const k=this._stateKey();if(k)localStorage.removeItem(k);}catch{}this.emit({type:'closed'});}
+      if(state?.status==='closed'){try{const k=this._stateKey(),pk=this._packageKey(),qk=this._pendingKey();if(k)localStorage.removeItem(k);if(pk)localStorage.removeItem(pk);if(qk)localStorage.removeItem(qk);this.offlinePackage=null;this.packageCached=false;}catch{}this.emit({type:'closed'});}
       else this.emit({type:'state',state});
     },err=>{console.warn('문장 배틀 상태 수신이 일시 중단되었습니다. Firebase가 자동 재연결합니다.',err);});
     this.unsubs.push(unsub);

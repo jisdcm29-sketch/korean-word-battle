@@ -1,4 +1,4 @@
-import { SentencePlayerBus } from './sentence-live.js?v=1.9';
+import { SentencePlayerBus } from './sentence-live.js?v=3.0';
 
 const $=id=>document.getElementById(id);
 const els={joinView:$('joinView'),waitView:$('waitView'),countdownView:$('countdownView'),playView:$('playView'),resultView:$('resultView'),studentFinalView:$('studentFinalView'),closedView:$('closedView'),pinInput:$('pinInput'),nameInput:$('nameInput'),avatarGrid:$('avatarGrid'),joinBtn:$('joinBtn'),joinMessage:$('joinMessage'),myAvatar:$('myAvatar'),waitName:$('waitName'),waitPin:$('waitPin'),studentCountdown:$('studentCountdown'),studentQuestion:$('studentQuestion'),studentScore:$('studentScore'),studentTimer:$('studentTimer'),studentTimerBar:$('studentTimerBar'),studentAnswer:$('studentAnswer'),studentCards:$('studentCards'),submitState:$('submitState'),undoBtn:$('undoBtn'),resetBtn:$('resetBtn'),submitBtn:$('submitBtn'),studentReveal:$('studentReveal'),myRoundResult:$('myRoundResult'),myFinalScore:$('myFinalScore'),myFinalRank:$('myFinalRank'),studentFinalRanking:$('studentFinalRanking'),leaveBtn:$('leaveBtn'),closedHomeBtn:$('closedHomeBtn')};
@@ -7,6 +7,7 @@ const BOUND_TEXTS=new Set(['은','는','이','가','을','를','에','에서','�
 function terminalBase(text){return String(text||'').trim().replace(/[.。!！?？]+$/g,'');}
 function isBoundText(text){return BOUND_TEXTS.has(terminalBase(text));}
 let selectedAvatar='🦊',bus=null,state=null,currentQuestionIndex=-1,currentTokens=[],available=[],chosen=[],submitted=false,timerRaf=null,countdownRaf=null;
+let networkConnected=true,hostDisconnected=false,offlinePackage=null,offlineLoop=null;
 
 function setView(name){['join','wait','countdown','play','result','studentFinal','closed'].forEach(v=>els[`${v}View`]?.classList.toggle('hidden',v!==name));}
 function now(){return bus?.now?.()||Date.now();}
@@ -32,7 +33,24 @@ async function joinRoom(){
   }catch(err){els.joinMessage.textContent=err.message;bus?.close();bus=null;setView('join');}finally{els.joinBtn.disabled=false;}
 }
 
-function handleBus(msg){if(msg.type==='closed'){stopLoops();setView('closed');return;}if(msg.type!=='state')return;state=msg.state;if(state.kind!=='sentence-sample'){els.joinMessage.textContent='문장 배틀 방이 아닙니다.';return;}renderState();}
+function offlineActive(){return !networkConnected||hostDisconnected;}
+function syncOfflineLoop(){if(offlineActive()){if(!offlineLoop)offlineLoop=setInterval(advanceOfflineState,90);}else if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
+function handleBus(msg){
+  if(msg.type==='connection'){networkConnected=msg.connected!==false;syncOfflineLoop();return;}
+  if(msg.type==='closed'){stopLoops();setView('closed');return;}
+  if(msg.type!=='state')return;
+  state=msg.state;if(state.kind!=='sentence-sample'){els.joinMessage.textContent='문장 배틀 방이 아닙니다.';return;}
+  offlinePackage=state.offlinePackage||offlinePackage;hostDisconnected=Boolean(state.hostDisconnectedAt);syncOfflineLoop();renderState();
+}
+function phase3SentenceStart(index,startAt){const qs=offlinePackage?.questions||[],q=qs[index];if(!q||!state)return false;const duration=Math.max(1000,Number(state.config?.timeLimit||20)*1000);state={...state,status:'playing',questionIndex:index,questionTotal:qs.length,questionStartAt:startAt,questionEndAt:startAt+duration,resultEndAt:0,currentQuestion:q,roundResults:{},revealSentence:null,offlineSynthetic:true,offlineFinal:false};renderState();return true;}
+function advanceOfflineState(){
+  if(!offlineActive()||!state||offlinePackage?.kind!=='sentence'||state.status==='lobby'||state.status==='finished'||state.status==='closed')return;
+  const t=now(),resultMs=Number(offlinePackage.timing?.resultMs)||5000;
+  if(state.status==='countdown'&&t>=Number(state.countdownEndAt||0)){phase3SentenceStart(Math.max(0,Number(state.questionIndex)||0),Number(state.countdownEndAt||t)+100);return;}
+  if(state.status==='playing'&&t>=Number(state.questionEndAt||0)){const last=Number(state.questionIndex)>=Number((offlinePackage.questions||[]).length)-1;state={...state,status:'result',resultEndAt:Number(state.questionEndAt||t)+resultMs,roundResults:{},revealSentence:null,offlineSynthetic:true,offlineFinal:last};renderState();return;}
+  if(state.status==='result'&&t>=Number(state.resultEndAt||0)&&!state.offlineFinal){phase3SentenceStart(Number(state.questionIndex)+1,Number(state.resultEndAt||t));}
+}
+
 function renderState(){
   const p=myPlayer();if(p)els.studentScore.textContent=Number(p.score||0).toLocaleString();
   if(state.status==='lobby'){setView('wait');return;}
@@ -53,7 +71,7 @@ function choose(id){if(submitted)return;const i=available.findIndex(t=>t[0]===id
 function renderAnswer(){if(!chosen.length){els.studentAnswer.textContent='카드를 순서대로 눌러 주세요';els.studentAnswer.classList.add('empty');return;}els.studentAnswer.classList.remove('empty');const words=[];for(const [,text] of chosen){if(words.length&&isBoundText(text))words[words.length-1]+=text;else words.push(text);}let s=words.join(' ');if(!available.length&&!/[.!?]$/.test(s))s+='.';els.studentAnswer.textContent=s;}
 function undo(){if(submitted||!chosen.length)return;available.push(chosen.pop());renderCards(false);}
 function reset(){if(submitted)return;available=[...currentTokens];chosen=[];renderCards(false);}
-async function submit(){if(submitted||available.length)return;submitted=true;renderCards(false);els.submitState.textContent='제출 완료 · 결과를 기다리는 중';els.submitState.className='submit-state done';try{await bus.send('submit',{questionIndex:state.questionIndex,order:chosen.map(t=>t[0])});}catch{els.submitState.textContent='제출 전송에 실패했습니다.';}}
+async function submit(){if(submitted||available.length)return;submitted=true;renderCards(false);els.submitState.textContent='제출 완료 · 결과를 기다리는 중';els.submitState.className='submit-state done';try{await bus.send('submit',{questionIndex:state.questionIndex,order:chosen.map(t=>t[0]),questionStartAt:state.questionStartAt,questionEndAt:state.questionEndAt});}catch{els.submitState.textContent='제출 전송에 실패했습니다.';}}
 function updateTimer(){if(!state||state.status!=='playing')return;const total=(state.config?.timeLimit||20)*1000,left=Math.max(0,(state.questionEndAt||0)-now());els.studentTimer.textContent=(left/1000).toFixed(1);els.studentTimerBar.style.width=`${Math.max(0,left/total*100)}%`;if(left<=0&&!submitted){submitted=true;renderCards(false);els.submitState.textContent='시간 종료';}}
 function runTimer(){cancelAnimationFrame(timerRaf);const frame=()=>{if(!state||state.status!=='playing')return;updateTimer();if((state.questionEndAt||0)>now())timerRaf=requestAnimationFrame(frame);};timerRaf=requestAnimationFrame(frame);}
 
@@ -84,7 +102,7 @@ function fitRevealSentence(){
   }
 }
 
-function showResult(){stopLoops();setView('result');els.studentReveal.textContent=state.revealSentence||'';requestAnimationFrame(fitRevealSentence);const r=state.roundResults?.[myUid()];els.myRoundResult.className='my-round-result';if(r?.correct){els.myRoundResult.textContent=`${r.rank}등 · +${Number(r.points||0).toLocaleString()}점`;els.myRoundResult.classList.add('good');}else if(r){els.myRoundResult.textContent='오답 · 0점';els.myRoundResult.classList.add('bad');}else{els.myRoundResult.textContent='시간 종료 · 0점';els.myRoundResult.classList.add('bad');}}
+function showResult(){stopLoops();setView('result');if(state.offlineSynthetic){els.studentReveal.textContent=state.offlineFinal?'문제 완료':'다음 문장 준비 중';els.myRoundResult.className='my-round-result';els.myRoundResult.textContent=state.offlineFinal?'연결 복구 후 최종 점수를 확인합니다.':'제출 내용은 안전하게 저장되어 있습니다.';return;}els.studentReveal.textContent=state.revealSentence||'';requestAnimationFrame(fitRevealSentence);const r=state.roundResults?.[myUid()];els.myRoundResult.className='my-round-result';if(r?.correct){els.myRoundResult.textContent=`${r.rank}등 · +${Number(r.points||0).toLocaleString()}점`;els.myRoundResult.classList.add('good');}else if(r){els.myRoundResult.textContent='오답 · 0점';els.myRoundResult.classList.add('bad');}else{els.myRoundResult.textContent='시간 종료 · 0점';els.myRoundResult.classList.add('bad');}}
 function showFinal(){stopLoops();setView('studentFinal');const p=myPlayer(),list=ranking(),rank=list.findIndex(x=>x.uid===myUid())+1;els.myFinalScore.textContent=Number(p?.score||0).toLocaleString();els.myFinalRank.textContent=rank>0?`${rank}위`:'-위';els.studentFinalRanking.innerHTML=list.slice(0,10).map((x,i)=>`<div class="student-rank-row ${x.uid===myUid()?'me':''}"><b>${i+1}</b><span>${safe(x.avatar)}</span><strong>${safe(x.name)}</strong><em>${Number(x.score||0).toLocaleString()}</em></div>`).join('');}
 function stopLoops(){cancelAnimationFrame(timerRaf);cancelAnimationFrame(countdownRaf);timerRaf=countdownRaf=null;}
 function resetHome(){stopLoops();bus?.close();bus=null;state=null;currentQuestionIndex=-1;els.joinMessage.textContent='';setView('join');}
