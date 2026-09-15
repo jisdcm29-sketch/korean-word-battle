@@ -41,8 +41,6 @@ function sentenceTeacherStorePath(book,lesson){
   return `teacherContent/sentence/v1/${safeTeacherPathSegment(book)}/lesson${lessonCode}`;
 }
 
-// 교사가 수정한 문장/추가 정답을 게임방과 분리된 영구 저장소에서 읽고 씁니다.
-// localhost와 GitHub Pages가 같은 Firebase 프로젝트를 사용하므로 두 주소에서 같은 내용을 공유할 수 있습니다.
 export async function loadSentenceTeacherStore(book,lesson){
   const {db}=await context();
   const snap=await get(ref(db,sentenceTeacherStorePath(book,lesson)));
@@ -83,6 +81,7 @@ export class SentenceHostBus{
     this.writeQueue=Promise.resolve();
     this.closed=false;
     this.disconnectOp=null;
+    this.connected=true;
   }
   on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
   emit(msg){this.handlers.forEach(fn=>fn(msg));}
@@ -90,6 +89,12 @@ export class SentenceHostBus{
   async init(){
     const {db,auth}=await context();
     this.db=db;this.auth=auth;this.uid=auth.currentUser.uid;
+    const connectedRef=ref(db,'.info/connected');
+    const unsub=onValue(connectedRef,snap=>{
+      const next=snap.val()===true;
+      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});}
+    });
+    this.unsubs.push(unsub);
     return this;
   }
   async createRoom(state){
@@ -100,7 +105,7 @@ export class SentenceHostBus{
     await set(ownerRef,this.uid);
     try{
       await set(ref(this.db,`rooms/${this.pin}/createdAt`),serverTimestamp());
-      await set(ref(this.db,`rooms/${this.pin}/state`),state);
+      await set(ref(this.db,`rooms/${this.pin}/state`),{...state,hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()});
       const inboxRef=ref(this.db,`rooms/${this.pin}/inbox`);
       const unsub=onChildAdded(inboxRef,async snap=>{
         const msg=snap.val();
@@ -108,8 +113,11 @@ export class SentenceHostBus{
         try{await remove(snap.ref);}catch{}
       });
       this.unsubs.push(unsub);
-      this.disconnectOp=onDisconnect(ref(this.db,`rooms/${this.pin}/state/status`));
-      await this.disconnectOp.set('closed');
+
+      // 통신 단절을 게임 종료로 처리하지 않습니다.
+      // 서버에는 호스트 연결이 끊긴 시각만 기록합니다.
+      this.disconnectOp=onDisconnect(ref(this.db,`rooms/${this.pin}/state/hostDisconnectedAt`));
+      await this.disconnectOp.set(serverTimestamp());
     }catch(err){
       try{await remove(ownerRef);}catch{}
       throw err;
@@ -117,14 +125,18 @@ export class SentenceHostBus{
   }
   saveState(state){
     if(!this.db||this.closed) return Promise.resolve();
-    this.writeQueue=this.writeQueue.catch(()=>{}).then(()=>set(ref(this.db,`rooms/${this.pin}/state`),state));
+    const resilientState={...state,hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()};
+    this.writeQueue=this.writeQueue.catch(()=>{}).then(()=>set(ref(this.db,`rooms/${this.pin}/state`),resilientState));
     return this.writeQueue;
   }
   async closeRoom(){
     if(!this.db||this.closed) return;
     this.closed=true;
     try{await this.writeQueue.catch(()=>{});}catch{}
-    try{await update(ref(this.db,`rooms/${this.pin}/state`),{status:'closed',closedAt:serverTimestamp()});}catch{}
+    try{
+      await update(ref(this.db,`rooms/${this.pin}/state`),{status:'closed',closedAt:serverTimestamp()});
+      await new Promise(resolve=>setTimeout(resolve,500));
+    }catch{}
     try{if(this.disconnectOp) await this.disconnectOp.cancel();}catch{}
     for(const path of ['inbox','state','createdAt','ownerUid']){
       try{await remove(ref(this.db,`rooms/${this.pin}/${path}`));}catch{}
@@ -132,6 +144,7 @@ export class SentenceHostBus{
     this.close();
   }
   close(){
+    try{this.disconnectOp?.cancel?.().catch?.(()=>{});}catch{}
     this.unsubs.forEach(fn=>{try{fn();}catch{}});
     this.unsubs=[];
   }
@@ -145,7 +158,7 @@ export class SentencePlayerBus{
     this.uid=null;
     this.handlers=new Set();
     this.unsubs=[];
-    this.hadState=false;
+    this.connected=true;
   }
   on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
   emit(msg){this.handlers.forEach(fn=>fn(msg));}
@@ -153,16 +166,22 @@ export class SentencePlayerBus{
   async init(){
     const {db,auth}=await context();
     this.db=db;this.auth=auth;this.uid=auth.currentUser.uid;
+    const connectedRef=ref(db,'.info/connected');
+    const connUnsub=onValue(connectedRef,snap=>{
+      const next=snap.val()===true;
+      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});}
+    });
+    this.unsubs.push(connUnsub);
+
     const stateRef=ref(db,`rooms/${this.pin}/state`);
     const unsub=onValue(stateRef,snap=>{
-      if(snap.exists()){
-        this.hadState=true;
-        const state=snap.val();
-        if(state?.status==='closed') this.emit({type:'closed'});
-        else this.emit({type:'state',state});
-      }else if(this.hadState){
-        this.emit({type:'closed'});
-      }
+      // 일시적인 연결 문제나 캐시 전환 중 state가 비어 보여도 즉시 방 종료로 간주하지 않습니다.
+      if(!snap.exists()) return;
+      const state=snap.val();
+      if(state?.status==='closed') this.emit({type:'closed'});
+      else this.emit({type:'state',state});
+    },err=>{
+      console.warn('문장 배틀 상태 수신이 일시 중단되었습니다. Firebase가 자동 재연결합니다.',err);
     });
     this.unsubs.push(unsub);
     return this;
