@@ -1,0 +1,603 @@
+/* Standalone game UI sync with the approved combined-battle layouts.
+   2026-09-16 - v2.0
+   Applies only to the standalone word / matching / sentence game pages that link this file. */
+
+/* =========================================================
+   1) WORD BATTLE - TEACHER
+   Match the approved combined ROUND 1 teacher layout.
+   ========================================================= */
+.teacher-page body.game-active .host-question-card,
+body.teacher-page.game-active .host-question-card{
+  position:relative!important;
+  display:block!important;
+  min-height:620px!important;
+  padding:24px 28px 20px!important;
+  overflow:hidden!important;
+}
+body.teacher-page.game-active .host-question-card .direction-badge{
+  position:absolute!important;
+  top:20px!important;
+  left:22px!important;
+  margin:0!important;
+}
+body.teacher-page.game-active .host-question-card .prompt{
+  position:absolute!important;
+  top:102px!important;
+  left:26px!important;
+  right:26px!important;
+  height:118px!important;
+  min-height:0!important;
+  margin:0!important;
+  padding:0 18px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  font-size:clamp(46px,3.55vw,60px)!important;
+  line-height:1.05!important;
+  letter-spacing:-.03em!important;
+  word-break:keep-all!important;
+  flex:none!important;
+}
+body.teacher-page.game-active .host-question-card .host-options{
+  position:absolute!important;
+  top:258px!important;
+  left:24px!important;
+  right:24px!important;
+  display:grid!important;
+  grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  grid-template-rows:92px 92px!important;
+  gap:12px!important;
+  margin:0!important;
+  padding:0!important;
+  align-items:stretch!important;
+}
+body.teacher-page.game-active .host-question-card .host-option{
+  width:100%!important;
+  height:92px!important;
+  min-height:92px!important;
+  margin:0!important;
+  padding:8px 18px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+  font-size:clamp(30px,2.25vw,40px)!important;
+  line-height:1.08!important;
+  font-weight:1000!important;
+  border-radius:14px!important;
+  word-break:keep-all!important;
+  flex:none!important;
+}
+body.teacher-page.game-active .host-question-card .host-option .option-number{display:none!important}
+body.teacher-page.game-active .host-question-card .result-line{
+  position:absolute!important;
+  top:466px!important;
+  left:24px!important;
+  right:24px!important;
+  min-height:24px!important;
+  margin:0!important;
+  text-align:center!important;
+  font-size:15px!important;
+}
+body.teacher-page.game-active .game-controls{justify-content:center!important}
+
+@media (max-height:760px){
+  body.teacher-page.game-active .host-question-card{min-height:520px!important;padding:18px 22px 14px!important}
+  body.teacher-page.game-active .host-question-card .direction-badge{top:15px!important;left:18px!important}
+  body.teacher-page.game-active .host-question-card .prompt{
+    top:74px!important;left:20px!important;right:20px!important;height:90px!important;
+    font-size:clamp(40px,3.2vw,54px)!important
+  }
+  body.teacher-page.game-active .host-question-card .host-options{
+    top:190px!important;left:18px!important;right:18px!important;
+    grid-template-rows:76px 76px!important;gap:10px!important
+  }
+  body.teacher-page.game-active .host-question-card .host-option{
+    height:76px!important;min-height:76px!important;
+    font-size:clamp(27px,2vw,35px)!important
+  }
+  body.teacher-page.game-active .host-question-card .result-line{top:356px!important;left:18px!important;right:18px!important}
+}
+
+/* =========================================================
+   2) WORD BATTLE - STUDENT
+   Center prompt + four answer choices vertically on the phone.
+   ========================================================= */
+.player-page #quizView.player-quiz{
+  min-height:calc(100dvh - 36px);
+  display:flex;
+  flex-direction:column;
+}
+.player-page #quizView #playerDirection{
+  margin-top:auto;
+  margin-bottom:10px;
+}
+.player-page #quizView #playerPrompt{
+  margin:0 0 18px!important;
+  line-height:1.15;
+  text-align:center;
+}
+.player-page #quizView #answerGrid{margin:0}
+.player-page #quizView #submitState{
+  margin-top:12px;
+  margin-bottom:auto;
+}
+@media(max-width:560px){
+  .player-page #quizView.player-quiz{min-height:calc(100dvh - 20px)}
+  .player-page #quizView #playerDirection{margin-bottom:8px}
+  .player-page #quizView #playerPrompt{margin-bottom:14px!important}
+}
+
+/* =========================================================
+   3) CARD MATCHING - STUDENT
+   Horizontal timer and vertically centered card board.
+   Existing matching-player.js continues updating --progress,
+   --timer-color, urgent state and #playerTimerText.
+   ========================================================= */
+.match-player-page #playView.play-screen{
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:stretch!important;
+  justify-content:flex-start!important;
+  min-height:100dvh!important;
+  gap:8px!important;
+  padding:10px 10px calc(14px + env(safe-area-inset-bottom))!important;
+}
+.match-player-page #playView .match-head-compact{
+  flex:0 0 auto;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+  margin:0;
+}
+.match-player-page #playView .match-head-compact>div:first-child{display:flex;flex-direction:column;gap:4px}
+.match-player-page #playView .matching-head-right{display:flex;align-items:flex-start;gap:10px}
+.match-player-page #playView .matching-timer-text{
+  min-width:64px;
+  text-align:right;
+  font-size:34px;
+  font-weight:1000;
+  line-height:1;
+  color:#37d8ff;
+  letter-spacing:-.04em;
+}
+.match-player-page #playView .matching-timer-text.urgent{color:#ff4f70}
+.match-player-page #playView .matching-timer-track-wrap{flex:0 0 auto;margin:0 0 2px}
+.match-player-page #playView .matching-timer-track{
+  width:100%;height:10px;border-radius:999px;background:rgba(255,255,255,.12);overflow:hidden
+}
+.match-player-page #playView .matching-timer-bar{
+  --progress:100%;--timer-color:#37d8ff;
+  height:100%;width:100%;border-radius:inherit;
+  background:linear-gradient(90deg,var(--timer-color) 0 var(--progress),rgba(255,255,255,.12) var(--progress) 100%)!important;
+  transition:background .08s linear;
+}
+.match-player-page #playView .matching-timer-bar.urgent{box-shadow:0 0 10px rgba(255,79,112,.45)}
+.match-player-page #playView .player-blind-badge,
+.match-player-page #playView .match-guide,
+.match-player-page #playView .pair-feedback{flex:0 0 auto}
+.match-player-page #playView #cardBoard.card-board{
+  flex:1 1 auto!important;
+  min-height:0!important;
+  align-content:center!important;
+  justify-content:stretch!important;
+  overflow:hidden!important;
+}
+@media(max-width:620px){
+  .match-player-page #playView .matching-timer-text{font-size:31px}
+  .match-player-page #playView.play-screen{gap:6px!important;padding:8px 8px calc(10px + env(safe-area-inset-bottom))!important}
+}
+
+/* =========================================================
+   4) SENTENCE BATTLE - STUDENT
+   Lift the controls and distinguish them by color.
+   ========================================================= */
+body #playView.play-screen .student-controls{
+  margin-bottom:clamp(16px,2.8vh,30px)!important;
+}
+body #playView.play-screen .student-controls #undoBtn{
+  background:linear-gradient(135deg,#5b49e9,#7668ff)!important;
+  border-color:rgba(170,158,255,.35)!important;
+  color:#fff!important;
+}
+body #playView.play-screen .student-controls #resetBtn{
+  background:linear-gradient(135deg,#ffc83d,#ff9f31)!important;
+  border-color:rgba(255,220,117,.4)!important;
+  color:#10213d!important;
+}
+body #playView.play-screen .student-controls #submitBtn{
+  background:linear-gradient(135deg,#2e79ff,#37d8ff)!important;
+  border:0!important;
+  color:#fff!important;
+}
+body #playView.play-screen .student-controls #undoBtn:disabled,
+body #playView.play-screen .student-controls #resetBtn:disabled,
+body #playView.play-screen .student-controls #submitBtn:disabled{opacity:.72}
+
+
+/* =========================================================
+   5) WORD BATTLE - SETUP SCREEN COMPACT MODE v2.1
+   Keep only controls and essential context visible so the
+   teacher can operate the entire setup from one desktop view.
+   ========================================================= */
+body.standalone-word-host .battle-topbar{
+  min-height:104px!important;
+  padding:14px max(28px,calc((100vw - 1320px)/2))!important;
+  gap:16px!important;
+}
+body.standalone-word-host .battle-topbar .battle-brand .eyebrow,
+body.standalone-word-host .battle-topbar .battle-brand p{display:none!important}
+body.standalone-word-host .battle-topbar .battle-brand h1{
+  margin:0!important;
+  font-size:30px!important;
+  line-height:1.05!important;
+}
+body.standalone-word-host .battle-topbar .flag-showdown{transform:scale(.82);transform-origin:left center}
+body.standalone-word-host .battle-topbar .game-badge{padding:7px 12px!important;font-size:11px!important}
+body.standalone-word-host .page-shell{
+  margin:-18px auto 24px!important;
+  padding:0 24px!important;
+}
+body.standalone-word-host .platform-context-bar{
+  min-height:40px!important;
+  margin-bottom:10px!important;
+  padding:7px 12px!important;
+}
+body.standalone-word-host #setupView{
+  padding:16px 22px 16px!important;
+  border-radius:18px!important;
+}
+body.standalone-word-host #setupView .panel-heading{
+  margin-bottom:10px!important;
+  gap:12px!important;
+}
+body.standalone-word-host #setupView .panel-heading h2{
+  margin:3px 0 0!important;
+  font-size:24px!important;
+}
+body.standalone-word-host #setupView .heading-note,
+body.standalone-word-host #setupView .source-hero-strip,
+body.standalone-word-host #setupView .question-count-field>small,
+body.standalone-word-host #setupView .toggle-field small,
+body.standalone-word-host #setupView .sound-settings-head small,
+body.standalone-word-host #setupView .sound-flow,
+body.standalone-word-host #setupView .data-summary{
+  display:none!important;
+}
+body.standalone-word-host #setupView .backend-status.ready,
+body.standalone-word-host #setupView .backend-status:empty{display:none!important}
+body.standalone-word-host #setupView .backend-status.warning{
+  margin:8px 0 0!important;
+  padding:8px 10px!important;
+  min-height:0!important;
+  border-radius:10px!important;
+  font-size:12px!important;
+}
+body.standalone-word-host #setupView .backend-status.warning span{display:none!important}
+body.standalone-word-host #setupView .vocab-select-btn{
+  padding:10px 15px!important;
+  min-height:42px!important;
+}
+body.standalone-word-host #setupView .form-grid{
+  grid-template-columns:repeat(4,minmax(0,1fr))!important;
+  gap:11px 13px!important;
+  align-items:stretch!important;
+}
+body.standalone-word-host #setupView .field{
+  gap:5px!important;
+  font-size:13px!important;
+  min-width:0!important;
+}
+body.standalone-word-host #setupView .field>span{
+  font-size:13px!important;
+  line-height:1.15!important;
+}
+body.standalone-word-host #setupView .field input,
+body.standalone-word-host #setupView .field select{
+  min-height:42px!important;
+  padding:9px 11px!important;
+  border-radius:10px!important;
+  font-size:14px!important;
+}
+body.standalone-word-host #setupView .range-field{
+  grid-column:auto!important;
+  justify-content:center!important;
+}
+body.standalone-word-host #setupView .range-field input{
+  min-height:20px!important;
+  padding:0!important;
+}
+body.standalone-word-host #setupView .question-count-row{
+  min-height:42px!important;
+  gap:7px!important;
+}
+body.standalone-word-host #setupView .question-count-row input{min-height:42px!important}
+body.standalone-word-host #setupView .question-count-row .btn{min-height:42px!important;padding:8px 12px!important}
+body.standalone-word-host #setupView .toggle-field{
+  grid-column:auto!important;
+  min-height:66px!important;
+  padding:9px 12px!important;
+  border-radius:11px!important;
+  gap:10px!important;
+}
+body.standalone-word-host #setupView .toggle-field strong{
+  font-size:13px!important;
+  line-height:1.25!important;
+}
+body.standalone-word-host #setupView .sound-settings-card{
+  grid-column:1/-1!important;
+  display:grid!important;
+  grid-template-columns:auto 1fr!important;
+  align-items:center!important;
+  gap:9px 14px!important;
+  margin:0!important;
+  padding:10px 12px!important;
+  border-radius:12px!important;
+}
+body.standalone-word-host #setupView .sound-settings-head{
+  display:flex!important;
+  align-items:center!important;
+  gap:10px!important;
+  margin:0!important;
+}
+body.standalone-word-host #setupView .sound-settings-head>div{
+  display:flex!important;
+  align-items:center!important;
+  gap:8px!important;
+  white-space:nowrap!important;
+}
+body.standalone-word-host #setupView .sound-settings-head .sound-chip{display:none!important}
+body.standalone-word-host #setupView .sound-settings-head>div>strong{
+  font-size:13px!important;
+  margin:0!important;
+}
+body.standalone-word-host #setupView #soundTestBtn{
+  min-height:34px!important;
+  padding:7px 10px!important;
+  white-space:nowrap!important;
+}
+body.standalone-word-host #setupView .sound-settings-grid{
+  display:grid!important;
+  grid-template-columns:auto auto minmax(250px,1fr)!important;
+  align-items:center!important;
+  gap:8px!important;
+  margin:0!important;
+}
+body.standalone-word-host #setupView .sound-toggle,
+body.standalone-word-host #setupView .sound-volume{
+  min-height:38px!important;
+  padding:7px 10px!important;
+  border-radius:10px!important;
+}
+body.standalone-word-host #setupView .sound-toggle span,
+body.standalone-word-host #setupView .sound-volume span{font-size:12px!important}
+body.standalone-word-host #setupView .compact-setup-actions{
+  justify-content:flex-end!important;
+  align-items:center!important;
+  margin-top:12px!important;
+  gap:9px!important;
+}
+body.standalone-word-host #setupView .compact-setup-actions .btn{
+  min-height:42px!important;
+  padding:9px 16px!important;
+}
+body.standalone-word-host #setupView .compact-setup-actions #demoBtn{
+  margin-right:auto!important;
+}
+@media(max-width:1080px){
+  body.standalone-word-host #setupView .form-grid{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  body.standalone-word-host #setupView .sound-settings-card{grid-template-columns:1fr!important}
+}
+@media(max-width:760px){
+  body.standalone-word-host .battle-topbar{min-height:86px!important;padding:10px 16px!important}
+  body.standalone-word-host .battle-topbar .flag-showdown{display:none!important}
+  body.standalone-word-host .battle-topbar .battle-brand h1{font-size:24px!important}
+  body.standalone-word-host #setupView .form-grid{grid-template-columns:1fr!important}
+  body.standalone-word-host #setupView .sound-settings-grid{grid-template-columns:1fr!important}
+  body.standalone-word-host #setupView .compact-setup-actions{flex-wrap:wrap!important}
+  body.standalone-word-host #setupView .compact-setup-actions #demoBtn{margin-right:0!important}
+}
+
+
+/* =========================================================
+   6) WORD BATTLE - SETUP SCREEN SENTENCE-BATTLE THEME v3.0
+   Preserve all existing controls while adopting the approved
+   compact dark teacher setup language of Sentence Battle.
+   ========================================================= */
+body.standalone-word-host:has(#setupView:not(.hidden)){
+  background:
+    radial-gradient(circle at 18% 0%,rgba(55,216,255,.12),transparent 30%),
+    radial-gradient(circle at 100% 100%,rgba(255,97,120,.09),transparent 28%),
+    linear-gradient(135deg,#07132a,#0b2147 55%,#08162f)!important;
+  min-height:100vh!important;
+  color:#f8fbff!important;
+}
+body.standalone-word-host:has(#setupView:not(.hidden)) .arena-bg{display:none!important}
+body.standalone-word-host:has(#setupView:not(.hidden)) .battle-topbar{display:none!important}
+body.standalone-word-host:has(#setupView:not(.hidden)) .page-shell{
+  width:min(1500px,100%)!important;
+  max-width:none!important;
+  min-height:100vh!important;
+  margin:0 auto!important;
+  padding:24px!important;
+  display:grid!important;
+  place-items:center!important;
+}
+body.standalone-word-host #setupView.word-setup-panel{
+  width:min(980px,100%)!important;
+  margin:0 auto!important;
+  padding:28px 32px 26px!important;
+  border-radius:30px!important;
+  color:#f8fbff!important;
+  background:linear-gradient(180deg,rgba(18,47,94,.97),rgba(7,24,52,.97))!important;
+  border:1px solid rgba(255,255,255,.13)!important;
+  box-shadow:0 30px 80px rgba(0,0,0,.34)!important;
+}
+body.standalone-word-host #setupView .word-setup-context{
+  min-height:48px!important;
+  margin:0 0 18px!important;
+  padding:9px 12px!important;
+  border-radius:14px!important;
+  background:rgba(5,18,41,.76)!important;
+  border:1px solid rgba(255,255,255,.08)!important;
+  color:#b8cae6!important;
+  font-size:12px!important;
+}
+body.standalone-word-host #setupView .word-setup-context a{
+  padding:7px 12px!important;
+  border-radius:10px!important;
+  background:linear-gradient(135deg,#37d8ff,#2e79ff)!important;
+  color:#07142c!important;
+  font-weight:1000!important;
+  text-decoration:none!important;
+}
+body.standalone-word-host #setupView .word-setup-brand{text-align:center;margin:0 0 16px!important}
+body.standalone-word-host #setupView .word-flag-row{display:flex;justify-content:center;align-items:center;gap:14px;font-size:22px;font-weight:1000;color:#fff}
+body.standalone-word-host #setupView .word-flag-row b{color:#ffc83d;font-size:18px}
+body.standalone-word-host #setupView .word-setup-eyebrow{margin:5px 0 0;color:#37d8ff;font-size:11px;font-weight:1000;letter-spacing:.15em}
+body.standalone-word-host #setupView .word-setup-brand h1{margin:4px 0 0!important;font-size:clamp(44px,5vw,64px)!important;line-height:1!important;letter-spacing:-.055em!important;color:#fff!important}
+body.standalone-word-host #setupView .word-setup-subtitle{margin:6px 0 0;color:#b8cae6;font-size:14px;font-weight:900;letter-spacing:.08em}
+
+body.standalone-word-host #setupView .word-setup-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0 12px!important}
+body.standalone-word-host #setupView .word-setting-card{
+  padding:15px 16px!important;
+  border-radius:18px!important;
+  background:rgba(255,255,255,.055)!important;
+  border:1px solid rgba(255,255,255,.10)!important;
+  color:#fff!important;
+  box-shadow:none!important;
+}
+body.standalone-word-host #setupView .word-sound-card{grid-column:1/-1;padding:13px 16px!important}
+body.standalone-word-host #setupView .word-setting-title{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:11px!important;text-align:left}
+body.standalone-word-host #setupView .word-setting-title>div{display:grid;gap:2px}
+body.standalone-word-host #setupView .word-setting-title strong{font-size:16px!important;color:#fff!important}
+body.standalone-word-host #setupView .word-setting-title span{font-size:10.5px!important;color:#91a9cf!important;font-weight:700!important}
+body.standalone-word-host #setupView .vocab-select-btn{
+  min-height:38px!important;
+  padding:0 13px!important;
+  border-radius:11px!important;
+  border:1px solid rgba(55,216,255,.22)!important;
+  background:#173d70!important;
+  color:white!important;
+  box-shadow:none!important;
+  font-size:12px!important;
+}
+body.standalone-word-host #setupView .vocab-select-btn span{margin-left:6px;padding:3px 7px;border-radius:999px;background:rgba(255,255,255,.11)!important;color:#fff!important}
+body.standalone-word-host #setupView .word-source-fields{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+body.standalone-word-host #setupView .word-source-fields .field:first-child{grid-column:1/-1}
+body.standalone-word-host #setupView .word-source-fields .field:only-child{grid-column:1/-1}
+body.standalone-word-host #setupView .word-source-fields #collocationField{grid-column:1/-1}
+body.standalone-word-host #setupView .field{gap:5px!important;font-size:11px!important;font-weight:900!important;text-align:left!important;color:#a9bedb!important}
+body.standalone-word-host #setupView .field>span{color:#a9bedb!important;font-size:11px!important}
+body.standalone-word-host #setupView .field input,
+body.standalone-word-host #setupView .field select{
+  min-height:40px!important;
+  padding:8px 10px!important;
+  border-radius:11px!important;
+  border:1px solid rgba(255,255,255,.13)!important;
+  background:#071a38!important;
+  color:#fff!important;
+  font-size:13px!important;
+  font-weight:900!important;
+  box-shadow:none!important;
+}
+body.standalone-word-host #setupView .field select option{color:#111;background:#fff}
+body.standalone-word-host #setupView .field input:focus,
+body.standalone-word-host #setupView .field select:focus{border-color:rgba(55,216,255,.56)!important;box-shadow:0 0 0 3px rgba(55,216,255,.09)!important}
+body.standalone-word-host #setupView .question-count-field small{display:none!important}
+body.standalone-word-host #setupView #questionMaxText{margin-left:6px;color:#37d8ff!important;font-size:10px!important}
+body.standalone-word-host #setupView .question-count-row{display:grid!important;grid-template-columns:1fr auto!important;gap:7px!important}
+body.standalone-word-host #setupView #allQuestionsBtn{min-height:40px!important;padding:0 12px!important;border-radius:10px!important;background:#163566!important;color:#e3edff!important}
+body.standalone-word-host #setupView .word-rule-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:end}
+body.standalone-word-host #setupView .word-rule-grid .range-field{grid-column:auto!important}
+body.standalone-word-host #setupView .range-field input{min-height:18px!important;height:18px!important;padding:0!important;border:0!important;background:transparent!important;accent-color:#37d8ff!important}
+body.standalone-word-host #setupView .range-field strong{margin-left:6px!important;color:#37d8ff!important;font-size:11px!important}
+body.standalone-word-host #setupView .word-blind-toggle{
+  grid-column:1/-1!important;
+  min-height:50px!important;
+  margin:0!important;
+  padding:10px 12px!important;
+  border-radius:12px!important;
+  border:1px solid rgba(255,255,255,.10)!important;
+  background:rgba(3,18,41,.36)!important;
+  color:#fff!important;
+}
+body.standalone-word-host #setupView .word-blind-toggle strong{font-size:12px!important;color:#fff!important}
+body.standalone-word-host #setupView .word-blind-toggle small{font-size:10px!important;color:#91a9cf!important}
+body.standalone-word-host #setupView .word-blind-toggle input{width:20px!important;height:20px!important;accent-color:#37d8ff!important}
+
+body.standalone-word-host #setupView .sound-title-row{margin-bottom:9px!important}
+body.standalone-word-host #setupView .sound-title-row .btn{min-height:34px!important;padding:0 11px!important;background:#163566!important;color:#e3edff!important;border:1px solid rgba(255,255,255,.1)!important}
+body.standalone-word-host #setupView .word-sound-grid{display:grid;grid-template-columns:.9fr .75fr 1.55fr;gap:8px}
+body.standalone-word-host #setupView .word-sound-grid>label{
+  min-height:42px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:space-between!important;
+  gap:8px!important;
+  margin:0!important;
+  padding:8px 10px!important;
+  border-radius:11px!important;
+  background:#0d2b52!important;
+  border:1px solid rgba(255,255,255,.09)!important;
+  color:#fff!important;
+  font-size:11px!important;
+  font-weight:900!important;
+}
+body.standalone-word-host #setupView .word-sound-grid input[type="checkbox"]{width:18px!important;height:18px!important;accent-color:#37d8ff!important}
+body.standalone-word-host #setupView .word-sound-grid .sound-volume{display:grid!important;grid-template-columns:auto 1fr!important;grid-template-rows:auto auto!important;column-gap:10px!important;padding:7px 10px!important}
+body.standalone-word-host #setupView .word-sound-grid .sound-volume>span{grid-column:1/-1;color:#fff!important;font-size:10.5px!important}
+body.standalone-word-host #setupView .word-sound-grid .sound-volume input{grid-column:1/-1;width:100%!important;height:16px!important;accent-color:#37d8ff!important}
+
+body.standalone-word-host #setupView .word-setup-summary{display:none!important}
+body.standalone-word-host #setupView .word-backend-status.ready{display:none!important}
+body.standalone-word-host #setupView .word-backend-status.warning{
+  margin:8px 0 0!important;
+  padding:8px 10px!important;
+  border-radius:11px!important;
+  background:rgba(255,200,61,.08)!important;
+  border:1px solid rgba(255,200,61,.17)!important;
+  color:#ffdfa0!important;
+  font-size:10.5px!important;
+}
+body.standalone-word-host #setupView .word-mode-actions{display:grid;grid-template-columns:1.3fr 1fr .72fr;gap:10px;margin-top:12px!important}
+body.standalone-word-host #setupView .word-mode-actions .btn{
+  min-height:48px!important;
+  border-radius:14px!important;
+  padding:0 14px!important;
+  font-size:14px!important;
+  font-weight:1000!important;
+}
+body.standalone-word-host #setupView .word-mode-actions #createRoomBtn{background:linear-gradient(135deg,#ffc83d,#ff9f31)!important;color:#08162f!important;box-shadow:0 10px 28px rgba(255,168,47,.18)!important}
+body.standalone-word-host #setupView .word-mode-actions #demoBtn{background:linear-gradient(135deg,#2b7eff,#37d8ff)!important;color:#fff!important;box-shadow:0 10px 26px rgba(46,121,255,.18)!important}
+body.standalone-word-host #setupView .word-mode-actions #soloBtn{background:#163566!important;color:#e3edff!important;border:1px solid rgba(255,255,255,.11)!important}
+
+@media(max-height:820px){
+  body.standalone-word-host:has(#setupView:not(.hidden)) .page-shell{padding:12px 20px!important}
+  body.standalone-word-host #setupView.word-setup-panel{padding:20px 26px 18px!important}
+  body.standalone-word-host #setupView .word-setup-context{min-height:42px!important;margin-bottom:12px!important}
+  body.standalone-word-host #setupView .word-setup-brand{margin-bottom:10px!important}
+  body.standalone-word-host #setupView .word-setup-brand h1{font-size:48px!important}
+  body.standalone-word-host #setupView .word-setup-subtitle{margin-top:4px!important;font-size:12px!important}
+  body.standalone-word-host #setupView .word-setup-grid{margin:10px 0!important;gap:9px!important}
+  body.standalone-word-host #setupView .word-setting-card{padding:12px 13px!important}
+  body.standalone-word-host #setupView .word-setting-title{margin-bottom:8px!important}
+  body.standalone-word-host #setupView .word-mode-actions{margin-top:9px!important}
+}
+@media(max-width:760px){
+  body.standalone-word-host:has(#setupView:not(.hidden)) .page-shell{padding:10px!important;display:block!important}
+  body.standalone-word-host #setupView.word-setup-panel{padding:16px!important;border-radius:22px!important}
+  body.standalone-word-host #setupView .word-setup-grid{grid-template-columns:1fr!important}
+  body.standalone-word-host #setupView .word-sound-card{grid-column:auto!important}
+  body.standalone-word-host #setupView .word-source-fields,
+  body.standalone-word-host #setupView .word-rule-grid{grid-template-columns:1fr!important}
+  body.standalone-word-host #setupView .word-source-fields .field:first-child,
+  body.standalone-word-host #setupView .word-source-fields #collocationField,
+  body.standalone-word-host #setupView .word-blind-toggle{grid-column:auto!important}
+  body.standalone-word-host #setupView .word-sound-grid{grid-template-columns:1fr!important}
+  body.standalone-word-host #setupView .word-mode-actions{grid-template-columns:1fr!important}
+}
+
+body.standalone-word-host #setupView .word-source-fields .word-direction-field{grid-column:1/-1!important}
