@@ -34,6 +34,15 @@ let currentMusicMode = 'normal';
 let closingRound = false;
 let toastTimer = null;
 
+// Phase 4: 과거 라운드의 지연 매칭도 실제 터치 시각을 기준으로 복구합니다.
+const PHASE4_RECEIPT_WINDOW_MS = 120000;
+const PHASE4_TAP_TOLERANCE_MS = 800;
+function phase4MatchingHistory(){if(!room)return null;room._phase4MatchingHistory||={};return room._phase4MatchingHistory;}
+function phase4EnsureMatchingRecord(index,startAt,endAt){const all=phase4MatchingHistory();if(!all)return null;const key=String(Number(index));all[key]||={index:Number(index),startAt:Number(startAt)||0,endAt:Number(endAt)||0,players:{}};if(startAt)all[key].startAt=Number(startAt);if(endAt)all[key].endAt=Number(endAt);return all[key];}
+function phase4MatchingPlayer(hist,uid){hist.players[uid]||={matchedPairIds:[],combo:0,mistakes:0,roundFinishedAt:0,score:0};return hist.players[uid];}
+function phase4MatchingTimingOk(hist,at){const tap=Number(at);if(!hist||!Number.isFinite(tap))return false;if(tap<hist.startAt-1500||tap>hist.endAt+PHASE4_TAP_TOLERANCE_MS)return false;return nowMs()<=hist.endAt+PHASE4_RECEIPT_WINDOW_MS;}
+function phase4RenderLateMatching(){persistAndBroadcast();if(room?.status==='finished')renderFinal();else if(room)renderGame(false);}
+
 
 // Shared teacher vocabulary store -------------------------------------------------
 // Word Battle and Matching Pairs intentionally use the same localStorage key and
@@ -343,23 +352,36 @@ function handleMessage(msg){
 }
 function currentRound(){ return room?.matching?.rounds?.[room.roundIndex]||null; }
 function handlePairMatch({uid,roundIndex,pairId}={},receivedAt=null){
-  if(!room||room.status!=='playing'||Number(roundIndex)!==room.roundIndex)return; const p=room.players[uid]; if(!p)return;
-  const round=currentRound(); if(!round?.pairs?.some((x)=>x.pairId===pairId))return; if((p.matchedPairIds||[]).includes(pairId))return;
-  const at=Number(receivedAt)||nowMs(); if(at>room.roundEndAt+300)return;
-  p.matchedPairIds=[...(p.matchedPairIds||[]),pairId]; p.matchedCount=p.matchedPairIds.length; p.combo=(Number(p.combo)||0)+1;
-  const duration=room.config.roundTime*1000; const elapsed=Math.max(0,at-room.roundStartAt); let points=calculateMatchingPairScore(duration,elapsed,p.combo);
-  if(p.matchedCount>=room.config.pairsPerRound&&!p.roundFinishedAt){ p.roundFinishedAt=at; points+=calculateRoundClearBonus(duration,elapsed); }
-  p.score=(Number(p.score)||0)+points; p.totalMatched=(Number(p.totalMatched)||0)+1; p.lastGain=points; p.lastGainAt=at; audio.playGift(points); persistAndBroadcast(); renderGame(); maybeEndRoundEarly();
+  if(!room)return;const p=room.players[uid];if(!p)return;
+  const index=Number(roundIndex),isCurrent=room.status==='playing'&&index===room.roundIndex,sameRound=index===room.roundIndex&&['playing','round-result'].includes(room.status);
+  const hist=phase4EnsureMatchingRecord(index,isCurrent?room.roundStartAt:0,isCurrent?room.roundEndAt:0);
+  if(!hist?.startAt||!hist?.endAt)return;const at=Number(receivedAt)||nowMs();if(!phase4MatchingTimingOk(hist,at))return;
+  const round=room.matching?.rounds?.[index],pid=String(pairId||'');if(!round?.pairs?.some(x=>String(x.pairId)===pid))return;
+  const hp=phase4MatchingPlayer(hist,uid);if(hp.matchedPairIds.includes(pid))return;
+  hp.matchedPairIds.push(pid);hp.combo=(Number(hp.combo)||0)+1;
+  const duration=room.config.roundTime*1000,elapsed=Math.max(0,at-hist.startAt);let points=calculateMatchingPairScore(duration,elapsed,hp.combo);
+  if(hp.matchedPairIds.length>=round.pairs.length&&!hp.roundFinishedAt){hp.roundFinishedAt=at;points+=calculateRoundClearBonus(duration,elapsed);}
+  hp.score=(Number(hp.score)||0)+points;p.score=(Number(p.score)||0)+points;p.totalMatched=(Number(p.totalMatched)||0)+1;
+  if(sameRound){p.matchedPairIds=[...hp.matchedPairIds];p.matchedCount=hp.matchedPairIds.length;p.combo=hp.combo;p.mistakes=hp.mistakes;p.roundFinishedAt=hp.roundFinishedAt;p.lastGain=points;p.lastGainAt=at;}
+  if(isCurrent){audio.playGift(points);persistAndBroadcast();renderGame();maybeEndRoundEarly();}
+  else{persistAndBroadcast();if(room.status==='round-result'&&sameRound)renderRoundResult();else if(room.status==='finished')renderFinal();else renderGame(false);}
 }
 function handlePairMiss({uid,roundIndex}={},receivedAt=null){
-  if(!room||room.status!=='playing'||Number(roundIndex)!==room.roundIndex)return; const p=room.players[uid]; if(!p)return; const at=Number(receivedAt)||nowMs(); if(at>room.roundEndAt+300)return; p.combo=0; p.mistakes=(Number(p.mistakes)||0)+1; p.totalMistakes=(Number(p.totalMistakes)||0)+1; p.lastGain=0; p.lastGainAt=at; persistAndBroadcast(); renderGame();
+  if(!room)return;const p=room.players[uid];if(!p)return;
+  const index=Number(roundIndex),isCurrent=room.status==='playing'&&index===room.roundIndex,sameRound=index===room.roundIndex&&['playing','round-result'].includes(room.status);
+  const hist=phase4EnsureMatchingRecord(index,isCurrent?room.roundStartAt:0,isCurrent?room.roundEndAt:0);
+  if(!hist?.startAt||!hist?.endAt)return;const at=Number(receivedAt)||nowMs();if(!phase4MatchingTimingOk(hist,at))return;
+  const hp=phase4MatchingPlayer(hist,uid);hp.combo=0;hp.mistakes=(Number(hp.mistakes)||0)+1;p.totalMistakes=(Number(p.totalMistakes)||0)+1;
+  if(sameRound){p.combo=0;p.mistakes=hp.mistakes;p.lastGain=0;p.lastGainAt=at;}
+  if(isCurrent){persistAndBroadcast();renderGame();}
+  else{persistAndBroadcast();if(room.status==='round-result'&&sameRound)renderRoundResult();else if(room.status==='finished')renderFinal();else renderGame(false);}
 }
 function startGame(){
   if(!room||!Object.keys(room.players).length)return; setupAudio(); audio.unlock(); audio.stopBgm(); clearBotTimers(); clearTimeout(earlyEndTimer); lastCountdownNumber=null; setMusicMode('countdown'); room.status='countdown'; room.countdownEndAt=nowMs()+3200; room.blindActive=false; showHostSubView('gameView'); persistAndBroadcast(); renderGame();
 }
 function resetPlayersForRound(){ Object.values(room.players).forEach((p)=>{p.matchedPairIds=[];p.matchedCount=0;p.mistakes=0;p.combo=0;p.roundFinishedAt=0;p.lastGain=0;p.lastGainAt=0;}); }
 function startRound(index){
-  if(!room||index>=room.matching.rounds.length)return finishGame(); clearBotTimers(); clearTimeout(earlyEndTimer); closingRound=false; room.status='playing'; room.roundIndex=index; resetPlayersForRound(); room.roundStartAt=nowMs()+260; room.roundEndAt=room.roundStartAt+room.config.roundTime*1000; room.roundResultEndAt=0; lastTimerTick=null;
+  if(!room||index>=room.matching.rounds.length)return finishGame(); clearBotTimers(); clearTimeout(earlyEndTimer); closingRound=false; room.status='playing'; room.roundIndex=index; resetPlayersForRound(); room.roundStartAt=nowMs()+260; room.roundEndAt=room.roundStartAt+room.config.roundTime*1000; phase4EnsureMatchingRecord(index,room.roundStartAt,room.roundEndAt); room.roundResultEndAt=0; lastTimerTick=null;
   const blind=isMatchingBlind(room,room.roundStartAt); room.blindActive=blind; if(blind&&!blindTransitionPlayed){blindTransitionPlayed=true;audio.playBlindTransition();} setMusicMode(blind?'blind':'normal'); audio.startBgm(blind?'blind':'normal'); audio.playQuestionStart(); persistAndBroadcast(); renderGame(); scheduleDemoRound();
 }
 function syncBlind(){ if(!room||room.status!=='playing')return; const blind=isMatchingBlind(room,nowMs()); if(blind!==room.blindActive){ room.blindActive=blind; if(blind&&!blindTransitionPlayed){blindTransitionPlayed=true;audio.playBlindTransition();} setMusicMode(blind?'blind':'normal'); audio.startBgm(blind?'blind':'normal'); persistAndBroadcast(); renderGame(); } }

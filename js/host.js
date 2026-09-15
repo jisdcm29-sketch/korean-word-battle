@@ -38,6 +38,25 @@ let lastTimerTickSecond = null;
 let currentMusicMode = 'normal';
 let blindTransitionPlayed = false;
 
+// Phase 4: 늦게 도착한 답안도 학생이 실제 제한시간 안에 눌렀다면 복구합니다.
+const PHASE4_RECEIPT_WINDOW_MS = 120000;
+const PHASE4_TAP_TOLERANCE_MS = 800;
+function phase4WordHistory(){ if(!room)return null; room._phase4WordHistory ||= {}; return room._phase4WordHistory; }
+function phase4EnsureWordRecord(index,startAt,endAt){
+  const all=phase4WordHistory(); if(!all)return null; const key=String(Number(index));
+  all[key] ||= {index:Number(index),startAt:Number(startAt)||0,endAt:Number(endAt)||0,results:{}};
+  if(startAt)all[key].startAt=Number(startAt); if(endAt)all[key].endAt=Number(endAt); return all[key];
+}
+function phase4WordTimingOk(hist,at){
+  const tap=Number(at); if(!hist||!Number.isFinite(tap))return false;
+  if(tap<hist.startAt-1500||tap>hist.endAt+PHASE4_TAP_TOLERANCE_MS)return false;
+  return nowMs()<=hist.endAt+PHASE4_RECEIPT_WINDOW_MS;
+}
+function phase4RefreshAfterLateScore(){
+  persistAndBroadcast();
+  if(room?.status==='finished')renderFinal(); else if(room)renderGame();
+}
+
 const VOCAB_TEACHER_STORE_KEY = 'kwb_teacher_vocabulary_v1';
 let teacherVocabStore = { version: 1, updatedAt: 0, overrides: {} };
 let teacherVocabStorePromise = null;
@@ -683,22 +702,30 @@ function handleMessage(msg) {
 }
 
 function handleAnswer({uid,qIndex,choice}, receivedAt = null) {
-  if (!room || room.status !== 'playing' || qIndex !== room.questionIndex) return;
-  if (!room.players[uid] || room.questionResults[uid]) return;
-  const now=Number(receivedAt) || nowMs();
-  if (now > room.questionEndAt + 250) return;
-  const q=room.quiz.questions[room.questionIndex];
-  const selected=Number(choice);
-  const correct=selected===q.correctIndex;
-  const elapsed=Math.max(0, now-room.questionStartAt);
-  const points=calculateScore(room.config.timeLimit*1000, elapsed, correct);
-  room.questionResults[uid]={selectedIndex:selected,correct,points,elapsed};
-  room.players[uid].score += points;
-  if (correct) dropGift(points);
-  persistAndBroadcast();
-  renderGame();
-  const active=Object.keys(room.players).length;
-  if (active>0 && Object.keys(room.questionResults).length>=active) endQuestion();
+  if (!room || !room.players[uid]) return;
+  const index=Number(qIndex);
+  if(!Number.isInteger(index)||index<0||index>=room.quiz.questions.length)return;
+  const isCurrent=room.status==='playing'&&index===room.questionIndex;
+  const isSameQuestion=index===room.questionIndex&&['playing','result'].includes(room.status);
+  const hist=phase4EnsureWordRecord(index,isCurrent?room.questionStartAt:0,isCurrent?room.questionEndAt:0);
+  if(!hist?.startAt||!hist?.endAt||hist.results?.[uid])return;
+  const tapAt=Number(receivedAt)||nowMs();
+  if(!phase4WordTimingOk(hist,tapAt))return;
+  const q=room.quiz.questions[index],selected=Number(choice),correct=selected===q.correctIndex;
+  const elapsed=Math.max(0,tapAt-hist.startAt);
+  const points=calculateScore(room.config.timeLimit*1000,elapsed,correct);
+  const result={selectedIndex:selected,correct,points,elapsed,at:tapAt,recovered:!isCurrent};
+  hist.results[uid]=result;
+  room.players[uid].score=(Number(room.players[uid].score)||0)+points;
+  if(isSameQuestion)room.questionResults[uid]=result;
+  if(isCurrent){
+    if(correct)dropGift(points);
+    persistAndBroadcast();renderGame();
+    const active=Object.keys(room.players).length;
+    if(active>0&&Object.keys(room.questionResults).length>=active)endQuestion();
+  }else{
+    phase4RefreshAfterLateScore();
+  }
 }
 
 function startGame() {
@@ -755,6 +782,7 @@ function startQuestion(index) {
   room.questionResults={};
   room.questionStartAt=nowMs()+250;
   room.questionEndAt=room.questionStartAt+room.config.timeLimit*1000;
+  phase4EnsureWordRecord(index,room.questionStartAt,room.questionEndAt);
   closingQuestion=false;
   lastTimerTickSecond = null;
 
