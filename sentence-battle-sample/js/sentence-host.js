@@ -6,6 +6,20 @@ const selectedLesson=Math.max(1,Number(launchParams.get('lesson'))||1);
 
 const TEACHER_STORE_PREFIX='kwb_sentence_teacher_v1';
 let teacherQuestions=[];
+
+// Phase 4: 늦게 도착한 문장 제출을 원래 제출 시각 순으로 다시 채점합니다.
+const PHASE4_RECEIPT_WINDOW_MS=120000;
+const PHASE4_TAP_TOLERANCE_MS=800;
+function phase4SentenceHistory(){if(!room)return null;room._phase4SentenceHistory||={};return room._phase4SentenceHistory;}
+function phase4EnsureSentenceRecord(index,startAt,endAt){const all=phase4SentenceHistory();if(!all)return null;const key=String(Number(index));all[key]||={index:Number(index),startAt:Number(startAt)||0,endAt:Number(endAt)||0,submissions:{},awards:{},results:{}};if(startAt)all[key].startAt=Number(startAt);if(endAt)all[key].endAt=Number(endAt);return all[key];}
+function phase4SentenceTimingOk(hist,at){const tap=Number(at);if(!hist||!Number.isFinite(tap))return false;if(tap<hist.startAt-1500||tap>hist.endAt+PHASE4_TAP_TOLERANCE_MS)return false;return now()<=hist.endAt+PHASE4_RECEIPT_WINDOW_MS;}
+function phase4RecomputeSentence(index,hist){
+  const correct=Object.values(hist.submissions).filter(x=>x.correct).sort((a,b)=>a.at-b.at||String(a.uid).localeCompare(String(b.uid)));
+  const rankByUid=new Map(correct.map((x,i)=>[x.uid,i+1])),nextResults={};
+  for(const [uid,sub] of Object.entries(hist.submissions)){const rank=sub.correct?(rankByUid.get(uid)||0):0,newPoints=sub.correct?pointForRank(rank):0,oldPoints=Number(hist.awards[uid])||0;if(room.players[uid])room.players[uid].score=(Number(room.players[uid].score)||0)+(newPoints-oldPoints);hist.awards[uid]=newPoints;nextResults[uid]={uid,correct:sub.correct,rank,points:newPoints,at:sub.at,recovered:sub.recovered};}
+  hist.results=nextResults;
+  if(Number(index)===room.questionIndex){room.roundResults={...nextResults};room.answerCount=Object.keys(hist.submissions).length;roundSubmissions=new Map(Object.entries(nextResults));correctCount=correct.length;}
+}
 let sourceQuestions=[];
 let lessonDataMeta=null;
 let loadedPersistentCount=0;
@@ -424,7 +438,7 @@ async function handleMessage(msg){
   if(msg.type==='join'&&room.status==='lobby'){
     const name=String(msg.payload?.name||'학생').trim().slice(0,18),avatar=String(msg.payload?.avatar||'🙂');
     room.players[uid]={uid,name,avatar,score:room.players[uid]?.score||0};renderLobby();sfx('join');await persist();
-  }else if(msg.type==='submit'&&room.status==='playing'){
+  }else if(msg.type==='submit'){
     processSubmission(uid,msg.payload?.questionIndex,msg.payload?.order,msg.at||now());
   }else if(msg.type==='leave'&&room.status==='lobby'){
     delete room.players[uid];renderLobby();await persist();
@@ -448,17 +462,20 @@ async function startRound(){
   if(!room||room.questionIndex<0||room.questionIndex>=fullQuestions.length)return;
   if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}
   currentQuestion=fullQuestions[room.questionIndex];roundSubmissions=new Map();correctCount=0;room.status='playing';room.answerCount=0;room.roundResults={};room.revealSentence='';room.variantCount=flexibleOrderCount(currentQuestion);
-  const roundIndex=room.questionIndex,t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;room.currentQuestion={id:currentQuestion.id,tokens:phase3ShuffleTokens(currentQuestion.tokens,`${room.pin}:${currentQuestion.id}:${room.questionIndex}`)};
+  const roundIndex=room.questionIndex,t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;phase4EnsureSentenceRecord(roundIndex,room.questionStartAt,room.questionEndAt);room.currentQuestion={id:currentQuestion.id,tokens:phase3ShuffleTokens(currentQuestion.tokens,`${room.pin}:${currentQuestion.id}:${room.questionIndex}`)};
   els.playingStage.classList.remove('hidden');els.revealStage.classList.add('hidden');renderGameMeta();void persist();runHostTimer();startTensionAudio();if(isDemo)scheduleDemoSubmissions();
   roundEndGuard=setTimeout(()=>{if(room?.status==='playing'&&room.questionIndex===roundIndex)endRound();},room.config.timeLimit*1000+900);
 }
 function runHostTimer(){cancelAnimationFrame(raf);let lastSecond=null;const frame=()=>{if(!room||room.status!=='playing')return;const left=Math.max(0,room.questionEndAt-now()),ratio=Math.max(0,Math.min(1,left/(room.config.timeLimit*1000)));els.bigTimer.textContent=(left/1000).toFixed(1);if(els.circleTimer){els.circleTimer.style.setProperty('--progress',`${ratio*100}%`);const color=ratio<=.25?'#ff5b6e':ratio<=.5?'#ffc83d':'#37d8ff';els.circleTimer.style.setProperty('--timer-color',color);els.circleTimer.classList.toggle('urgent',left<=5000);}const sec=Math.ceil(left/1000);if(sec<=5&&sec!==lastSecond){lastSecond=sec;sfx('tick');}if(left<=0){endRound();return;}raf=requestAnimationFrame(frame);};raf=requestAnimationFrame(frame);}
 
 function processSubmission(uid,questionIndex,order,at){
-  if(!room||room.status!=='playing'||Number(questionIndex)!==room.questionIndex||roundSubmissions.has(uid)||!room.players[uid])return;
-  const ids=Array.isArray(order)?order.map(String):[];const correct=isCorrectOrder(ids,currentQuestion);let rank=0,points=0;if(correct){rank=++correctCount;points=pointForRank(rank);room.players[uid].score=(room.players[uid].score||0)+points;}
-  const result={uid,correct,rank,points,at:Number(at)||now()};roundSubmissions.set(uid,result);room.answerCount=roundSubmissions.size;room.roundResults[uid]=result;if(correct)celebrateCorrect(uid,rank,points);else sfx('submit');renderGameMeta();persist();
-  if(room.answerCount>=activePlayerCount()&&activePlayerCount()>0)setTimeout(()=>endRound(),280);
+  if(!room||!room.players[uid])return;const index=Number(questionIndex);if(!Number.isInteger(index)||index<0||index>=fullQuestions.length)return;
+  const isCurrent=room.status==='playing'&&index===room.questionIndex;const hist=phase4EnsureSentenceRecord(index,isCurrent?room.questionStartAt:0,isCurrent?room.questionEndAt:0);
+  if(!hist?.startAt||!hist?.endAt||hist.submissions[uid])return;const tapAt=Number(at)||now();if(!phase4SentenceTimingOk(hist,tapAt))return;
+  const q=fullQuestions[index],ids=Array.isArray(order)?order.map(String):[],correct=isCorrectOrder(ids,q);hist.submissions[uid]={uid,correct,at:tapAt,recovered:!isCurrent};phase4RecomputeSentence(index,hist);
+  const result=hist.results[uid];
+  if(isCurrent){if(correct)celebrateCorrect(uid,result.rank,result.points);else sfx('submit');renderGameMeta();void persist();if(room.answerCount>=activePlayerCount()&&activePlayerCount()>0)setTimeout(()=>endRound(),280);}
+  else{void persist();if(room.status==='finished')renderFinal();else renderRank();}
 }
 function scheduleDemoSubmissions(){
   roundTimers.forEach(clearTimeout);roundTimers=[];const total=room.config.timeLimit*1000;Object.keys(room.players).forEach((uid,i)=>{if(Math.random()<.08)return;const delay=Math.max(800,Math.min(total-400,total*(.18+Math.random()*.68)));const timer=setTimeout(()=>{if(room.status!=='playing')return;const correct=Math.random()<(.88-i*.018);let order;if(correct)order=randomCorrectOrder(currentQuestion);else order=shuffle(currentQuestion.tokens.map(t=>t[0]));processSubmission(uid,room.questionIndex,order,now());},delay);roundTimers.push(timer);});}
