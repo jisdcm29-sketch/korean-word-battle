@@ -5,7 +5,97 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#07152f" />
   <title>종합 배틀 · 게임 호스트</title>
-  <link rel="stylesheet" href="css/combined.css?v=3.0" />
+  <link rel="stylesheet" href="css/combined.css?v=3.6" />
+  <style>
+    /* v3.6 - setup screen readability + one-screen compact layout */
+    #setupView{padding:18px 20px 16px}
+    #setupView .hero{gap:14px;padding:0 2px 12px}
+    #setupView .hero-mark{width:64px;height:64px;border-radius:19px;font-size:33px}
+    #setupView .eyebrow{font-size:12px;margin-bottom:3px;letter-spacing:.14em}
+    #setupView .hero h1{font-size:38px;line-height:1.05}
+    #setupView .hero p:last-child{margin-top:4px;font-size:14px;line-height:1.35}
+    #setupView .phase-badge{padding:8px 12px;font-size:13px}
+
+    #setupView .source-card{padding:10px 14px;margin-bottom:10px;border-radius:14px}
+    #setupView .source-card>div:first-child{gap:2px}
+    #setupView .source-card span{font-size:12px}
+    #setupView .source-card strong{font-size:21px;line-height:1.15}
+    #setupView .sync-status{font-size:13px;font-weight:800}
+
+    #setupView .stage-grid{gap:10px}
+    #setupView .stage-card{gap:7px;padding:14px 15px 13px;border-radius:17px}
+    #setupView .stage-number{font-size:11px}
+    #setupView .stage-icon{font-size:30px;line-height:1}
+    #setupView .stage-card h2{font-size:27px;line-height:1.1}
+    #setupView .stage-card p{min-height:32px;font-size:13px;line-height:1.35}
+    #setupView .stage-card label{
+      grid-template-columns:1fr 118px;
+      gap:10px;
+      font-size:15px;
+      line-height:1.2;
+      color:#dce8f8
+    }
+    #setupView .stage-card input,
+    #setupView .stage-card select{
+      height:42px;
+      padding:0 12px;
+      border-radius:11px;
+      font-size:15px;
+      font-weight:900
+    }
+    #setupView .weight{padding:6px 10px;font-size:12px}
+
+    #setupView .rule-strip{
+      gap:12px;
+      margin-top:10px;
+      padding:9px 12px;
+      min-height:38px;
+      font-size:13px
+    }
+    #setupView .rule-strip b{font-size:13px}
+
+    #setupView .sound-strip{
+      gap:12px;
+      margin-top:9px;
+      padding:9px 12px;
+      min-height:44px;
+      font-size:13px
+    }
+    #setupView .sound-strip>strong{font-size:14px}
+    #setupView .sound-strip label{font-size:13px;gap:7px}
+    #setupView .sound-strip input[type="checkbox"]{width:18px;height:18px}
+    #setupView .sound-strip .volume-control{min-width:270px}
+    #setupView .sound-strip input[type="range"]{width:155px}
+    #setupView .sound-strip #volumeValue{font-size:13px}
+    #setupView .sound-preview{min-height:36px;padding:0 13px;font-size:13px}
+
+    #setupView .message{margin-top:9px;padding:9px 12px;font-size:13px;line-height:1.3}
+    #setupView .actions{gap:10px;margin-top:10px}
+    #setupView .actions .btn{min-height:46px;padding:0 20px;font-size:16px}
+    #setupView .phase-note{margin:7px 0 0;font-size:11.5px;line-height:1.3}
+
+    @media (max-height:850px) and (min-width:981px){
+      .shell{padding-top:8px}
+      .context-bar{padding:7px 11px;margin-bottom:7px}
+      #setupView{padding:14px 18px 12px}
+      #setupView .hero{padding-bottom:8px}
+      #setupView .hero-mark{width:56px;height:56px;font-size:30px}
+      #setupView .hero h1{font-size:34px}
+      #setupView .hero p:last-child{font-size:13px}
+      #setupView .source-card{padding:8px 12px;margin-bottom:8px}
+      #setupView .stage-card{gap:5px;padding:11px 13px 10px}
+      #setupView .stage-card h2{font-size:24px}
+      #setupView .stage-card p{font-size:12px;min-height:28px}
+      #setupView .stage-card label{font-size:14px}
+      #setupView .stage-card input,#setupView .stage-card select{height:38px}
+      #setupView .rule-strip{margin-top:7px;padding:7px 10px}
+      #setupView .sound-strip{margin-top:7px;padding:7px 10px}
+      #setupView .message{margin-top:7px;padding:7px 10px}
+      #setupView .actions{margin-top:7px}
+      #setupView .actions .btn{min-height:42px}
+      #setupView .phase-note{margin-top:5px}
+    }
+  </style>
 </head>
 <body>
   <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -129,6 +219,6 @@
     </section>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/combined-host.js?v=3.0"></script>
+  <script type="module" src="js/combined-host.js?v=3.6"></script>
 </body>
 </html>

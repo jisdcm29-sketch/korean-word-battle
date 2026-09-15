@@ -6,8 +6,9 @@
   <meta name="theme-color" content="#06142e" />
   <title>한·몽 카드 매칭 · 게임 호스트</title>
   <link rel="stylesheet" href="css/matching.css?v=1.2" />
+  <link rel="stylesheet" href="css/matching-setup-word-theme-v1.css?v=1.0" />
 </head>
-<body class="match-host-page">
+<body class="match-host-page standalone-matching-host">
   <div class="match-bg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
   <main class="match-shell">
     <header class="match-hero">
@@ -18,49 +19,69 @@
       <p>한국어 카드와 몽골어 카드를 빠르게 짝지어 없애는 실시간 경쟁 게임</p>
     </header>
 
-    <section id="setupView" class="match-panel setup-panel">
-      <div class="panel-title-row">
-        <div><span class="step-chip">STEP 1</span><h2>게임 설정</h2><p>어휘를 고르고 판 수·카드 수·제한 시간을 설정하세요.</p></div>
-        <button id="vocabBtn" class="btn btn-cyan" type="button">☑ 어휘 선택·수정 <span id="selectedBadge">0/0</span></button>
+    <section id="setupView" class="match-panel setup-panel matching-word-setup-panel">
+      <div class="matching-setup-context"><a href="index.html">← 게임 선택 홈</a><span>카드 매칭</span></div>
+
+      <div class="matching-setup-brand">
+        <div class="matching-flag-row"><span>KR</span><b>🃏</b><span>MN</span></div>
+        <p class="matching-setup-eyebrow">CARD MATCHING · TEACHER</p>
+        <h1>카드 매칭</h1>
+        <p class="matching-setup-subtitle">교사용 설정</p>
       </div>
 
-      <div class="source-banner"><span>한국어 🇰🇷</span><b>↔</b><span>Монгол 🇲🇳</span><em>같은 뜻을 찾아 카드를 없애세요!</em></div>
+      <div class="matching-setup-grid">
+        <section class="matching-setting-card matching-data-card">
+          <div class="matching-setting-title">
+            <div><strong>📚 출제 자료</strong><span>자료 · 어휘 선택</span></div>
+            <button id="vocabBtn" class="btn btn-cyan matching-vocab-btn" type="button">☑ 어휘 선택·수정 <span id="selectedBadge">0/0</span></button>
+          </div>
 
-      <div class="setup-grid">
-        <label class="field"><span>출제 자료</span><select id="sourceType"><option value="preliminary">예비편 어휘 40 · 자모음 학습</option><option value="snu">서울대 한국어 어휘</option><option value="topik1">TOPIK 1 연어 표현</option></select></label>
-        <label id="bookField" class="field hidden"><span>교재</span><select id="snuBook"></select></label>
-        <label id="lessonField" class="field hidden"><span>과</span><select id="snuLesson"></select></label>
-        <label id="collocationField" class="field hidden"><span>연어 범위</span><select id="collocationSet"></select></label>
+          <div class="matching-source-fields">
+            <label class="field"><span>출제 자료</span><select id="sourceType"><option value="preliminary">예비편 어휘 40 · 자모음 학습</option><option value="snu">서울대 한국어 어휘</option><option value="topik1">TOPIK 1 연어 표현</option></select></label>
+            <label id="bookField" class="field hidden"><span>교재</span><select id="snuBook"></select></label>
+            <label id="lessonField" class="field hidden"><span>과</span><select id="snuLesson"></select></label>
+            <label id="collocationField" class="field hidden"><span>연어 범위</span><select id="collocationSet"></select></label>
+          </div>
+        </section>
 
-        <label class="field"><span>게임 판 수</span><select id="roundCount"><option value="1">1판 · 짧은 연습</option><option value="3" selected>3판 · 기본</option><option value="5">5판 · 수업 경쟁</option><option value="7">7판 · 긴 배틀</option><option value="10">10판 · 챌린지</option></select><small>한 판이 끝나면 자동으로 다음 판이 시작됩니다.</small></label>
-        <label class="field"><span>한 판 카드 쌍</span><select id="pairsPerRound"><option value="4">4쌍 · 8장</option><option value="5">5쌍 · 10장</option><option value="6" selected>6쌍 · 12장</option><option value="7">7쌍 · 14장</option><option value="8">8쌍 · 16장</option></select><small>휴대폰에서는 6쌍을 기본으로 권장합니다.</small></label>
+        <section class="matching-setting-card matching-rule-card">
+          <div class="matching-setting-title"><div><strong>⚡ 게임 설정</strong><span>판 수 · 카드 수 · 제한 시간</span></div></div>
 
-        <div class="time-card">
-          <div class="field-head"><span>한 판 제한 시간</span><strong id="timeValue">45초</strong></div>
-          <div id="timePresets" class="time-presets"><button type="button" data-time="20">20초</button><button type="button" data-time="30">30초</button><button type="button" class="active" data-time="45">45초</button><button type="button" data-time="60">60초</button><button type="button" data-time="90">90초</button></div>
-          <input id="roundTime" type="range" min="15" max="120" step="5" value="45" />
-          <small>15~120초 사이에서 직접 조절할 수 있습니다.</small>
-        </div>
+          <div class="matching-rule-fields">
+            <label class="field"><span>게임 판 수</span><select id="roundCount"><option value="1">1판 · 짧은 연습</option><option value="3" selected>3판 · 기본</option><option value="5">5판 · 수업 경쟁</option><option value="7">7판 · 긴 배틀</option><option value="10">10판 · 챌린지</option></select></label>
+            <label class="field"><span>한 판 카드 쌍</span><select id="pairsPerRound"><option value="4">4쌍 · 8장</option><option value="5">5쌍 · 10장</option><option value="6" selected>6쌍 · 12장</option><option value="7">7쌍 · 14장</option><option value="8">8쌍 · 16장</option></select></label>
+          </div>
 
-        <div class="blind-card"><div class="blind-icon">🙈</div><div><strong>마지막 30% 자동 블라인드</strong><span>전체 게임 진행률이 70%를 넘으면 학생 점수와 교사용 실시간 순위가 가려집니다. 종료 후 최종 결과를 공개합니다.</span></div><b>고정 ON</b></div>
+          <div class="matching-time-row">
+            <div class="matching-time-head"><span>한 판 제한 시간</span><strong id="timeValue">45초</strong></div>
+            <div id="timePresets" class="time-presets matching-time-presets"><button type="button" data-time="20">20초</button><button type="button" data-time="30">30초</button><button type="button" class="active" data-time="45">45초</button><button type="button" data-time="60">60초</button><button type="button" data-time="90">90초</button></div>
+            <input id="roundTime" type="range" min="15" max="120" step="5" value="45" />
+          </div>
 
-        <div class="sound-card">
-          <div class="sound-copy"><span class="sound-chip">GAME SOUND</span><strong>긴장감 BGM · 효과음</strong><small>교사용 화면에서 재생됩니다. 마지막 30%에는 긴장 모드 음악으로 자동 전환됩니다.</small></div>
-          <div class="sound-controls">
-            <label><span>🎵 BGM</span><input id="bgmEnabled" type="checkbox" checked /></label>
-            <label><span>🔔 효과음</span><input id="sfxEnabled" type="checkbox" checked /></label>
-            <label class="volume"><span>🔊 <b id="volumeValue">70%</b></span><input id="masterVolume" type="range" min="0" max="100" step="1" value="70" /></label>
+          <div class="matching-blind-row"><span>🙈 마지막 30% 순위 블라인드</span><b>자동 적용</b></div>
+        </section>
+
+        <section class="matching-setting-card matching-sound-card">
+          <div class="matching-setting-title matching-sound-title">
+            <div><strong>🎵 게임 음악과 효과음</strong><span>교사용 화면에서 재생</span></div>
             <button id="soundTestBtn" class="btn btn-small" type="button">♪ 미리듣기</button>
           </div>
-        </div>
+          <div class="matching-sound-controls">
+            <label><span>🎵 BGM</span><input id="bgmEnabled" type="checkbox" checked /></label>
+            <label><span>🔔 효과음</span><input id="sfxEnabled" type="checkbox" checked /></label>
+            <label class="matching-volume"><span>🔊 전체 음량 <b id="volumeValue">70%</b></span><input id="masterVolume" type="range" min="0" max="100" step="1" value="70" /></label>
+          </div>
+        </section>
       </div>
 
-      <div id="dataSummary" class="data-summary">자료를 불러오는 중입니다.</div>
-      <div id="backendStatus" class="backend-status"></div>
+      <div id="dataSummary" class="data-summary matching-setup-summary">자료를 불러오는 중입니다.</div>
+      <div id="backendStatus" class="backend-status matching-backend-status"></div>
 
-      <div class="demo-card"><div><span>CLASS DEMO</span><strong>학생 설명용 10명 데모 시연</strong><small>가상 학생 10명이 자동으로 카드를 맞추며 점수 상승, 순위 변화, 마지막 30% 블라인드까지 보여 줍니다.</small></div><button id="demoBtn" class="btn btn-demo" type="button">🎮 데모 시연</button></div>
-
-      <div class="setup-actions"><button id="soloBtn" class="btn btn-secondary" type="button">👤 혼자 게임</button><button id="createRoomBtn" class="btn btn-primary" type="button">🃏 실제 게임 방 만들기</button></div>
+      <div class="matching-mode-actions">
+        <button id="createRoomBtn" class="btn btn-primary" type="button">📱 실제 학생 방 만들기</button>
+        <button id="demoBtn" class="btn btn-demo" type="button">👥 10명 데모 시연</button>
+        <button id="soloBtn" class="btn btn-secondary" type="button">혼자 게임</button>
+      </div>
     </section>
 
     <section id="hostView" class="match-panel host-panel hidden">

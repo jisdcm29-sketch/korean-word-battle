@@ -4,16 +4,108 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#07152f" />
-  <title>종합 배틀 · 어휘 배틀 교사 화면</title>
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+  <title>종합 배틀 · 어휘 배틀 교사 화면 · v3.5</title>
   <link rel="stylesheet" href="css/app.css?v=7.6" />
   <style>
     html,body{min-height:100%;}
     body{margin:0;}
     .combined-stage-context{pointer-events:none}
     .combined-stage-context a{display:none!important}
-    .host-option{font-size:clamp(24px,2.1vw,34px)!important;text-align:center;display:grid;place-items:center;min-height:74px}
-    .host-option .option-number{display:none!important}
+    /* ROUND 1 교사 화면 v3.5 - 고정 배치 방식
+       기존 app.css의 flex/grid 규칙과 충돌하지 않도록 문제/선택지 위치를 직접 지정합니다. */
+    body.game-active .host-question-card{
+      position:relative!important;
+      display:block!important;
+      min-height:620px!important;
+      padding:24px 28px 20px!important;
+      overflow:hidden!important;
+    }
+    body.game-active .host-question-card .direction-badge{
+      position:absolute!important;
+      top:20px!important;
+      left:22px!important;
+      margin:0!important;
+    }
+    body.game-active .host-question-card .prompt{
+      position:absolute!important;
+      top:102px!important;
+      left:26px!important;
+      right:26px!important;
+      height:118px!important;
+      min-height:0!important;
+      margin:0!important;
+      padding:0 18px!important;
+      display:flex!important;
+      align-items:center!important;
+      justify-content:center!important;
+      text-align:center!important;
+      font-size:clamp(46px,3.55vw,60px)!important;
+      line-height:1.05!important;
+      letter-spacing:-.03em!important;
+      word-break:keep-all!important;
+      flex:none!important;
+    }
+    body.game-active .host-question-card .host-options{
+      position:absolute!important;
+      top:258px!important;
+      left:24px!important;
+      right:24px!important;
+      display:grid!important;
+      grid-template-columns:repeat(2,minmax(0,1fr))!important;
+      grid-template-rows:92px 92px!important;
+      gap:12px!important;
+      margin:0!important;
+      padding:0!important;
+      align-items:stretch!important;
+    }
+    body.game-active .host-question-card .host-option{
+      width:100%!important;
+      height:92px!important;
+      min-height:92px!important;
+      margin:0!important;
+      padding:8px 18px!important;
+      display:flex!important;
+      align-items:center!important;
+      justify-content:center!important;
+      text-align:center!important;
+      font-size:clamp(30px,2.25vw,40px)!important;
+      line-height:1.08!important;
+      font-weight:1000!important;
+      border-radius:14px!important;
+      word-break:keep-all!important;
+      flex:none!important;
+    }
+    body.game-active .host-question-card .host-option .option-number{display:none!important}
+    body.game-active .host-question-card .result-line{
+      position:absolute!important;
+      top:466px!important;
+      left:24px!important;
+      right:24px!important;
+      min-height:24px!important;
+      margin:0!important;
+      text-align:center!important;
+      font-size:15px!important;
+    }
     .game-controls{justify-content:center!important}
+
+    @media (max-height:760px){
+      body.game-active .host-question-card{min-height:520px!important;padding:18px 22px 14px!important}
+      body.game-active .host-question-card .direction-badge{top:15px!important;left:18px!important}
+      body.game-active .host-question-card .prompt{
+        top:74px!important;left:20px!important;right:20px!important;height:90px!important;
+        font-size:clamp(40px,3.2vw,54px)!important
+      }
+      body.game-active .host-question-card .host-options{
+        top:190px!important;left:18px!important;right:18px!important;
+        grid-template-rows:76px 76px!important;gap:10px!important
+      }
+      body.game-active .host-question-card .host-option{
+        height:76px!important;min-height:76px!important;
+        font-size:clamp(27px,2vw,35px)!important
+      }
+      body.game-active .host-question-card .result-line{top:356px!important;left:18px!important;right:18px!important}
+    }
   </style>
 </head>
 <body class="teacher-page game-active">

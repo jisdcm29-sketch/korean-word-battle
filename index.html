@@ -5,49 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#07152f" />
   <title>한·몽 한국어 게임 아레나</title>
-  <link rel="stylesheet" href="css/platform.css?v=1.6" />
+  <link rel="stylesheet" href="css/platform.css?v=2.0" />
 </head>
 <body>
   <div class="platform-bg" aria-hidden="true"><i></i><i></i><i></i></div>
   <main class="platform-shell">
     <header class="platform-hero">
-      <div class="flags"><span>🇰🇷</span><b>⚡</b><span>🇲🇳</span></div>
+      <div class="flags"><span>KR</span><b>⚡</b><span>MN</span></div>
       <p class="eyebrow">KOREAN · MONGOLIAN GAME PLATFORM</p>
       <h1>한국어 게임 아레나</h1>
-      <p>게임을 먼저 선택하고, 같은 교재·단원을 고르면 해당 게임의 전용 설정 화면으로 이동합니다.</p>
     </header>
 
-    <section class="platform-panel">
-      <div class="step-head"><span>STEP 1</span><div><h2>게임 선택</h2><p>학생은 게임을 선택하지 않습니다. 교사가 만든 방의 QR/PIN으로 바로 입장합니다.</p></div></div>
+    <section class="platform-panel platform-main-panel">
+      <div class="compact-head"><h2>게임 선택</h2></div>
+
       <div id="gameGrid" class="game-grid">
-        <button class="game-card active" type="button" data-game="word">
-          <span class="game-icon">⚡</span><strong>어휘 배틀</strong><small>단어·연어를 빠르게 고르는 실시간 경쟁</small><em>사용 가능</em>
+        <button class="game-card game-word active" type="button" data-game="word">
+          <span class="game-icon">⚡</span><strong>어휘 배틀</strong>
         </button>
-        <button class="game-card" type="button" data-game="sentence">
-          <span class="game-icon">🧩</span><strong>문장 배틀</strong><small>카드를 배열해 자연스러운 한국어 문장 완성</small><em>사용 가능</em>
+        <button class="game-card game-sentence" type="button" data-game="sentence">
+          <span class="game-icon">🧩</span><strong>문장 배틀</strong>
         </button>
-        <button class="game-card" type="button" data-game="matching">
-          <span class="game-icon">🃏</span><strong>카드 매칭</strong><small>한국어·몽골어 카드를 빠르게 짝지어 없애는 경쟁</small><em>사용 가능</em>
+        <button class="game-card game-matching" type="button" data-game="matching">
+          <span class="game-icon">🃏</span><strong>카드 매칭</strong>
         </button>
-        <button class="game-card combined" type="button" data-game="combined">
-          <span class="game-icon">🏆</span><strong>종합 배틀</strong><small>어휘 · 카드 매칭 · 문장 배틀을 한 경기로 연속 진행</small><em>사용 가능</em>
+        <button class="game-card game-combined combined" type="button" data-game="combined">
+          <span class="game-icon">🏆</span><strong>종합 배틀</strong>
         </button>
       </div>
-    </section>
 
-    <section class="platform-panel selection-panel">
-      <div class="step-head"><span>STEP 2</span><div><h2>교재 · 단원 선택</h2><p id="selectionGuide">어휘 배틀에서 사용할 자료를 선택하세요.</p></div></div>
-      <div class="selection-grid">
-        <label class="field"><span>자료 / 교재</span><select id="platformSource"></select></label>
-        <label id="platformBookField" class="field"><span>교재</span><select id="platformBook"></select></label>
-        <label id="platformLessonField" class="field"><span>과</span><select id="platformLesson"></select></label>
+      <div class="setup-divider"></div>
+
+      <div class="selection-launch-row">
+        <div class="selection-area">
+          <div class="compact-head selection-head"><h2>교재 · 단원</h2></div>
+          <p id="selectionGuide" class="visually-hidden">어휘 배틀에서 사용할 자료를 선택하세요.</p>
+          <div class="selection-grid">
+            <label class="field"><span>자료 / 교재</span><select id="platformSource"></select></label>
+            <label id="platformBookField" class="field"><span>교재</span><select id="platformBook"></select></label>
+            <label id="platformLessonField" class="field"><span>과</span><select id="platformLesson"></select></label>
+          </div>
+          <div id="selectionSummary" class="visually-hidden"></div>
+        </div>
+
+        <button id="launchBtn" class="launch-btn" type="button">
+          <span id="launchTitle">어휘 배틀 설정으로 이동</span><b>→</b>
+        </button>
       </div>
-      <div id="selectionSummary" class="selection-summary"></div>
-    </section>
-
-    <section class="launch-panel">
-      <div class="launch-copy"><span>STEP 3</span><div><strong id="launchTitle">어휘 배틀 설정으로 이동</strong><small>다음 화면에는 선택한 게임에 필요한 설정만 나타납니다.</small></div></div>
-      <button id="launchBtn" class="launch-btn" type="button">게임 설정 열기 ⚡</button>
     </section>
   </main>
   <script type="module" src="js/platform.js?v=1.5"></script>

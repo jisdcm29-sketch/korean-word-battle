@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>어휘 배틀 · 게임 호스트</title>
   <link rel="stylesheet" href="css/app.css?v=7.6" />
+  <link rel="stylesheet" href="css/standalone-ui-sync-v2.css?v=3.0" />
 </head>
-<body class="teacher-page">
+<body class="teacher-page standalone-word-host">
   <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
 
   <header class="topbar battle-topbar">
@@ -24,111 +25,103 @@
   </header>
 
   <main class="page-shell">
-    <div class="platform-context-bar"><a href="index.html" class="platform-home-link">← 게임 선택 홈</a><span id="platformSelectionText">어휘 배틀</span></div>
-    <section id="setupView" class="panel setup-panel game-panel">
-      <div class="panel-heading">
-        <div>
-          <span class="step-chip">STEP 1</span>
-          <h2>게임 설정</h2>
-          <p class="heading-note">자료를 고른 뒤 <b>어휘 선택·수정</b>에서 사용할 단어를 고르고 한국어·몽골어를 바로 수정할 수 있습니다.</p>
-        </div>
-        <button id="previewBtn" class="btn vocab-select-btn">☑ 어휘 선택·수정 <span id="selectedCountBadge">0/0</span></button>
+    <section id="setupView" class="panel setup-panel game-panel word-setup-panel">
+      <div class="platform-context-bar word-setup-context"><a href="index.html" class="platform-home-link">← 게임 선택 홈</a><span id="platformSelectionText">어휘 배틀</span></div>
+
+      <div class="word-setup-brand">
+        <div class="word-flag-row"><span>KR</span><b>⚡</b><span>MN</span></div>
+        <p class="word-setup-eyebrow">WORD BATTLE · TEACHER</p>
+        <h1>어휘 배틀</h1>
+        <p class="word-setup-subtitle">교사용 설정</p>
       </div>
 
-      <div class="source-hero-strip">
-        <span>🇰🇷 한국어</span><b>⚔</b><span>Монгол хэл 🇲🇳</span>
-        <em>읽고 · 고르고 · 빠르게 · 경쟁!</em>
-      </div>
-
-      <div class="form-grid">
-        <label class="field">
-          <span>출제 자료</span>
-          <select id="sourceType">
-            <option value="preliminary">예비편 어휘 40 · 자모음 학습</option>
-            <option value="snu">서울대 한국어 어휘</option>
-            <option value="topik1">TOPIK 1 연어 표현</option>
-          </select>
-        </label>
-
-        <label id="bookField" class="field hidden">
-          <span>교재</span>
-          <select id="snuBook"></select>
-        </label>
-
-        <label id="lessonField" class="field hidden">
-          <span>과</span>
-          <select id="snuLesson"></select>
-        </label>
-
-        <label id="collocationField" class="field hidden">
-          <span>연어 범위</span>
-          <select id="collocationSet"></select>
-        </label>
-
-        <label class="field">
-          <span>출제 방향</span>
-          <select id="direction">
-            <option value="ko-mn">한국어 → 몽골어</option>
-            <option value="mn-ko">몽골어 → 한국어</option>
-            <option value="mixed">랜덤 혼합</option>
-          </select>
-        </label>
-
-        <label class="field question-count-field">
-          <span>문제 수 <strong id="questionMaxText">최대 -문제</strong></span>
-          <div class="question-count-row">
-            <input id="questionCount" type="number" min="1" step="1" value="10" inputmode="numeric" />
-            <button id="allQuestionsBtn" type="button" class="btn small secondary">전체</button>
+      <div class="word-setup-grid">
+        <section class="word-setting-card word-data-card">
+          <div class="word-setting-title">
+            <div><strong>📚 출제 자료</strong><span>자료 · 방향 · 어휘 선택</span></div>
+            <button id="previewBtn" class="btn vocab-select-btn">☑ 어휘 선택·수정 <span id="selectedCountBadge">0/0</span></button>
           </div>
-          <small>선택한 어휘 가운데 출제 가능한 최대 문항까지 설정할 수 있습니다.</small>
-        </label>
 
-        <label class="field range-field">
-          <span>문제당 제한 시간 <strong id="timeValue">10초</strong></span>
-          <input id="timeLimit" type="range" min="5" max="30" step="1" value="10" />
-        </label>
+          <div class="word-source-fields">
+            <label class="field">
+              <span>출제 자료</span>
+              <select id="sourceType">
+                <option value="preliminary">예비편 어휘 40 · 자모음 학습</option>
+                <option value="snu">서울대 한국어 어휘</option>
+                <option value="topik1">TOPIK 1 연어 표현</option>
+              </select>
+            </label>
 
-        <label class="toggle-field">
-          <span>
-            <strong>마지막 20% 순위 블라인드</strong>
-            <small>마지막 문제 구간에서는 교사용 순위와 점수를 숨깁니다.</small>
-          </span>
-          <input id="blindMode" type="checkbox" checked />
-        </label>
+            <label id="bookField" class="field hidden">
+              <span>교재</span>
+              <select id="snuBook"></select>
+            </label>
 
-        <div class="sound-settings-card">
-          <div class="sound-settings-head">
-            <div>
-              <span class="sound-chip">GAME SOUND</span>
-              <strong>게임 음악과 효과음</strong>
-              <small>교사용 대형 화면에서만 재생됩니다. 학생 휴대폰에서는 소리가 나지 않습니다.</small>
-            </div>
+            <label id="lessonField" class="field hidden">
+              <span>과</span>
+              <select id="snuLesson"></select>
+            </label>
+
+            <label id="collocationField" class="field hidden">
+              <span>연어 범위</span>
+              <select id="collocationSet"></select>
+            </label>
+
+            <label class="field word-direction-field">
+              <span>출제 방향</span>
+              <select id="direction">
+                <option value="ko-mn">한국어 → 몽골어</option>
+                <option value="mn-ko">몽골어 → 한국어</option>
+                <option value="mixed">랜덤 혼합</option>
+              </select>
+            </label>
+          </div>
+        </section>
+
+        <section class="word-setting-card word-rule-card">
+          <div class="word-setting-title"><div><strong>⚡ 게임 설정</strong><span>문제 수 · 시간 · 블라인드</span></div></div>
+          <div class="word-rule-grid">
+            <label class="field question-count-field">
+              <span>문제 수 <strong id="questionMaxText">최대 -문제</strong></span>
+              <div class="question-count-row">
+                <input id="questionCount" type="number" min="1" step="1" value="10" inputmode="numeric" />
+                <button id="allQuestionsBtn" type="button" class="btn small secondary">전체</button>
+              </div>
+              <small>선택한 어휘 가운데 출제 가능한 최대 문항까지 설정할 수 있습니다.</small>
+            </label>
+
+            <label class="field range-field">
+              <span>문제당 제한 시간 <strong id="timeValue">10초</strong></span>
+              <input id="timeLimit" type="range" min="5" max="30" step="1" value="10" />
+            </label>
+
+            <label class="toggle-field word-blind-toggle">
+              <span><strong>마지막 20% 순위 블라인드</strong><small>마지막 문제 구간에서 순위와 점수를 숨깁니다.</small></span>
+              <input id="blindMode" type="checkbox" checked />
+            </label>
+          </div>
+        </section>
+
+        <section class="word-setting-card word-sound-card">
+          <div class="word-setting-title sound-title-row">
+            <div><strong>🎵 게임 음악과 효과음</strong><span>교사용 화면에서 재생</span></div>
             <button id="soundTestBtn" type="button" class="btn small secondary">♪ 소리 미리듣기</button>
           </div>
-          <div class="sound-settings-grid">
+          <div class="word-sound-grid">
             <label class="sound-toggle"><span>🎵 배경음악(BGM)</span><input id="bgmEnabled" type="checkbox" checked /></label>
             <label class="sound-toggle"><span>🔔 효과음</span><input id="sfxEnabled" type="checkbox" checked /></label>
             <label class="sound-volume"><span>🔊 전체 음량 <strong id="volumeValue">70%</strong></span><input id="masterVolume" type="range" min="0" max="100" step="1" value="70" /></label>
           </div>
-          <div class="sound-flow">대기실 음악 → 3·2·1 카운트다운 → 배틀 BGM → 마지막 20% 긴장 모드 → 최종 팡파르</div>
-        </div>
+        </section>
       </div>
 
-      <div id="dataSummary" class="data-summary">자료를 불러오는 중입니다.</div>
-      <div id="backendStatus" class="backend-status warning"></div>
+      <div id="dataSummary" class="data-summary word-setup-summary">자료를 불러오는 중입니다.</div>
+      <div id="backendStatus" class="backend-status warning word-backend-status"></div>
 
-      <div class="demo-intro-card arena-demo-card">
-        <div>
-          <span class="demo-chip">CLASS DEMO</span>
-          <strong>학생들에게 게임을 소개할 때는 10명 데모 시연을 사용하세요.</strong>
-          <small>가상 학생 10명이 자동으로 정답을 제출해 순위 이동, 점수, 선물 효과, 최종 시상식을 보여 줍니다.</small>
-        </div>
-        <button id="demoBtn" class="btn demo">🎮 10명 데모 시연</button>
-      </div>
-
-      <div class="action-row">
+      <div class="word-mode-actions">
+        <button id="createRoomBtn" class="btn primary battle-start-btn">📱 실제 학생 방 만들기</button>
+        <button id="demoBtn" class="btn demo">👥 10명 데모 시연</button>
         <button id="soloBtn" class="btn secondary">혼자 테스트</button>
-        <button id="createRoomBtn" class="btn primary battle-start-btn">⚡ 실제 게임 방 만들기</button>
       </div>
     </section>
 
