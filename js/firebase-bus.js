@@ -267,6 +267,10 @@ export class FirebaseBus {
     this.hostInboxAttached = false;
     this.disconnectOp = null;
     this.connected = true;
+    this.connectionListenerAttached = false;
+    this.latestState = null;
+    this.resumeRoom = null;
+    this.flushingPending = false;
   }
 
   on(fn) {
@@ -285,8 +289,138 @@ export class FirebaseBus {
     this.handlers.forEach((fn) => fn(msg));
   }
 
+  _domEvent(name, detail = {}) {
+    try {
+      if (typeof window !== 'undefined' && typeof CustomEvent !== 'undefined') {
+        window.dispatchEvent(new CustomEvent(name, { detail:{ pin:this.pin, role:this.role, ...detail } }));
+      }
+    } catch {}
+  }
+
   now() {
     return firebaseNow();
+  }
+
+  _stateCacheKey() {
+    return this.uid ? `kwb_room_state_v2_${this.pin}_${this.uid}` : null;
+  }
+
+  _pendingKey() {
+    return this.uid ? `kwb_pending_v2_${this.pin}_${this.uid}` : null;
+  }
+
+  _cacheState(state) {
+    if (!state) return;
+    this.latestState = state;
+    if (this.role === 'host') return;
+    const key = this._stateCacheKey();
+    if (!key) return;
+    try {
+      localStorage.setItem(key, JSON.stringify({ savedAt:Date.now(), state }));
+    } catch {}
+  }
+
+  _readCachedState() {
+    const key = this._stateCacheKey();
+    if (!key) return null;
+    try {
+      const parsed = JSON.parse(localStorage.getItem(key) || 'null');
+      if (!parsed?.state) return null;
+      if (Date.now() - Number(parsed.savedAt || 0) > 30 * 60 * 1000) {
+        localStorage.removeItem(key);
+        return null;
+      }
+      return parsed.state;
+    } catch {
+      return null;
+    }
+  }
+
+  _clearPlayerCache() {
+    if (this.role === 'host') return;
+    try {
+      const stateKey = this._stateCacheKey();
+      const pendingKey = this._pendingKey();
+      if (stateKey) localStorage.removeItem(stateKey);
+      if (pendingKey) localStorage.removeItem(pendingKey);
+    } catch {}
+  }
+
+  _readPending() {
+    const key = this._pendingKey();
+    if (!key) return [];
+    try {
+      const list = JSON.parse(localStorage.getItem(key) || '[]');
+      if (!Array.isArray(list)) return [];
+      const fresh = list.filter((item) => item?.id && Date.now() - Number(item.queuedAt || 0) <= 10 * 60 * 1000);
+      if (fresh.length !== list.length) localStorage.setItem(key, JSON.stringify(fresh));
+      return fresh;
+    } catch {
+      return [];
+    }
+  }
+
+  _writePending(list) {
+    const key = this._pendingKey();
+    if (!key) return;
+    try {
+      if (list.length) localStorage.setItem(key, JSON.stringify(list));
+      else localStorage.removeItem(key);
+    } catch {}
+  }
+
+  _queueMessage(type, payload = {}) {
+    const at = this.now();
+    const id = `${this.uid || 'u'}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,10)}`;
+    const item = {
+      id,
+      type,
+      at,
+      queuedAt: Date.now(),
+      payload: { ...payload, uid:this.uid, clientAt:at }
+    };
+    const list = this._readPending();
+    list.push(item);
+    this._writePending(list.slice(-80));
+    return item;
+  }
+
+  async _deliverPendingItem(item) {
+    const msgRef = ref(this.db, `rooms/${this.pin}/inbox/${item.id}`);
+    await set(msgRef, {
+      type:item.type,
+      uid:this.uid,
+      payload:item.payload,
+      // Phase 2: 연결이 끊긴 동안 눌렀던 시각을 보존합니다.
+      // 호스트의 기존 채점 로직은 msg.at을 사용하므로 짧은 단절 후에도 원래 제출 시각으로 처리됩니다.
+      at:Number(item.at) || this.now(),
+      queuedAt:Number(item.queuedAt) || Date.now()
+    });
+  }
+
+  async _flushPending() {
+    if (this.role === 'host' || !this.db || !this.connected || this.flushingPending || this.closed) return;
+    this.flushingPending = true;
+    try {
+      let list = this._readPending();
+      while (list.length && this.connected && !this.closed) {
+        const item = list[0];
+        try {
+          await this._deliverPendingItem(item);
+          list = this._readPending().filter((x) => x.id !== item.id);
+          this._writePending(list);
+          this._domEvent('kwb-delivery', { status:'sent', messageType:item.type });
+        } catch (err) {
+          console.warn('Firebase queued message delivery paused; will retry after reconnect:', err);
+          break;
+        }
+      }
+    } finally {
+      this.flushingPending = false;
+      if (this.connected && this._readPending().length && !this.closed) {
+        setTimeout(() => this._flushPending().catch(() => {}), 900);
+      }
+    }
   }
 
   _watchConnection() {
@@ -296,11 +430,17 @@ export class FirebaseBus {
       const connected = snapshot.val() === true;
       const changed = connected !== this.connected;
       this.connected = connected;
-      if (changed) this._dispatch({ type:'connection', connected, at:this.now() });
+      if (changed) {
+        this._dispatch({ type:'connection', connected, at:this.now() });
+        this._domEvent('kwb-connection', { connected });
+      }
       if (connected && this.role === 'host' && !this.closed) {
         this._attachHostInboxListener().catch((err) => {
           console.warn('Firebase host inbox reconnect failed:', err);
         });
+      }
+      if (connected && this.role !== 'host' && !this.closed) {
+        this._flushPending().catch(() => {});
       }
     });
     this.unsubscribers.push(unsub);
@@ -344,7 +484,9 @@ export class FirebaseBus {
       const unsub = onValue(stateRef, (snapshot) => {
         if (!snapshot.exists()) return;
         const state = snapshot.val();
+        this._cacheState(state);
         if (state?.status === 'closed') {
+          this._clearPlayerCache();
           this._dispatch({ type:'room-closed', at:this.now() });
         } else {
           this._dispatch({ type:'state', payload:{ room:state }, at:this.now() });
@@ -353,20 +495,51 @@ export class FirebaseBus {
         console.warn('Firebase room state listener paused; SDK will retry automatically:', err);
       });
       this.unsubscribers.push(unsub);
+      this._flushPending().catch(() => {});
     }
     return this;
   }
 
   async exists() {
     if (!this.db) await this.init();
-    const snapshot = await get(ref(this.db, `rooms/${this.pin}/state`));
-    return snapshot.exists() && snapshot.val()?.status !== 'closed';
+    try {
+      const snapshot = await get(ref(this.db, `rooms/${this.pin}/state`));
+      if (snapshot.exists()) {
+        const state = snapshot.val();
+        this._cacheState(state);
+        return state?.status !== 'closed';
+      }
+      return false;
+    } catch (err) {
+      const cached = this._readCachedState();
+      if (cached && cached.status !== 'closed') {
+        this.latestState = cached;
+        return true;
+      }
+      throw err;
+    }
   }
 
   async loadRoom() {
     if (!this.db) await this.init();
-    const snapshot = await get(ref(this.db, `rooms/${this.pin}/state`));
-    return snapshot.exists() ? snapshot.val() : null;
+    let state = null;
+    try {
+      const snapshot = await get(ref(this.db, `rooms/${this.pin}/state`));
+      if (snapshot.exists()) state = snapshot.val();
+    } catch (err) {
+      state = this._readCachedState();
+      if (!state) throw err;
+    }
+    if (!state) return null;
+    this._cacheState(state);
+
+    // 기존 참가자가 새로고침한 경우 플레이어 코드의 "lobby에서만 입장" 검사를 통과시킨 뒤,
+    // send('join')에서 실제 최신 상태를 즉시 복원합니다.
+    if (this.role !== 'host' && state.status !== 'closed' && state.status !== 'lobby' && state.players?.[this.uid]) {
+      this.resumeRoom = state;
+      return { ...state, status:'lobby', __resumeStatus:state.status };
+    }
+    return state;
   }
 
   async createRoom(room) {
@@ -386,9 +559,6 @@ export class FirebaseBus {
       await set(ref(this.db, `rooms/${this.pin}/state`), initialState);
       await this._attachHostInboxListener();
 
-      // 중요: 통신이 잠깐 끊겨도 방을 종료하지 않습니다.
-      // 연결이 실제로 끊기면 종료 대신 '호스트 연결 끊김 시각'만 남깁니다.
-      // 따라서 학생은 마지막으로 받은 게임 상태를 그대로 유지할 수 있습니다.
       const disconnectOp = onDisconnect(ref(this.db, `rooms/${this.pin}/state/hostDisconnectedAt`));
       await disconnectOp.set(serverTimestamp());
       this.disconnectOp = disconnectOp;
@@ -412,14 +582,26 @@ export class FirebaseBus {
   async send(type, payload = {}) {
     if (!this.db) await this.init();
     if (this.role === 'host') return;
-    const cleanPayload = { ...payload, uid: this.uid };
-    const msgRef = push(ref(this.db, `rooms/${this.pin}/inbox`));
-    await set(msgRef, {
-      type,
-      uid: this.uid,
-      payload: cleanPayload,
-      at: serverTimestamp()
-    });
+
+    // 새로고침 후 이미 참가 중인 학생은 새 참가 요청을 보내지 않고 곧바로 마지막 상태로 복원합니다.
+    const resume = this.resumeRoom || this.latestState;
+    if (type === 'join' && resume?.status !== 'closed' && resume?.status !== 'lobby' && resume?.players?.[this.uid]) {
+      this.resumeRoom = null;
+      setTimeout(() => this._dispatch({ type:'state', payload:{ room:resume }, at:this.now(), resumed:true }), 0);
+      return { resumed:true };
+    }
+
+    // 페이지를 닫은 순간 오프라인이면 leave를 나중에 보내지 않습니다.
+    // 늦게 도착한 leave가 복귀한 학생을 다시 제거하는 것을 방지합니다.
+    if (type === 'leave' && !this.connected) return { skipped:true };
+
+    const item = this._queueMessage(type, payload);
+    if (!this.connected) {
+      this._domEvent('kwb-delivery', { status:'queued', messageType:type });
+      return { queued:true, id:item.id };
+    }
+    this._flushPending().catch(() => {});
+    return { queued:false, id:item.id };
   }
 
   async removeRoom() {
