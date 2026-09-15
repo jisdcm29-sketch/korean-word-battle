@@ -1,5 +1,5 @@
 import { LocalBus, publicRoomState as localPublicRoomState } from './local-bus.js?v=7.6';
-import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=7.6';
+import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.0';
 import { calculateMatchingPairScore, calculateRoundClearBonus } from './matching-engine.js';
 
 const $=(id)=>document.getElementById(id);
@@ -8,6 +8,7 @@ let selectedAvatar='🐻';
 let uid=localStorage.getItem('kmp_player_uid') || (crypto.randomUUID?.() || `u-${Date.now()}-${Math.random()}`);
 localStorage.setItem('kmp_player_uid',uid);
 let bus=null,state=null,joined=false,joinConfirmed=false,joinTimer=null;
+let networkConnected=true,hostDisconnected=false,offlinePackage=null,offlineLoop=null;
 let selectedCardId=null,optimisticMatched=new Set(),boardRoundIndex=-99,timerRaf=null,countdownRaf=null;
 let previousScore=0,feedbackTimer=null;
 let solo=null,soloPlayer=null,soloRoundTimer=null,soloTransitionTimer=null;
@@ -35,7 +36,23 @@ async function join(){
   }catch(e){joined=false;joinConfirmed=false;clearTimeout(joinTimer);bus?.close();bus=null;setError(e?.message||'게임방에 입장하지 못했습니다.');}finally{$('joinBtn').disabled=false;}
 }
 function readLocalRoom(pin){try{return JSON.parse(localStorage.getItem(`kwb_room_${pin}`)||'null');}catch{return null;}}
-function handleMessage(msg){if(msg.type==='state'){state=msg.payload.room;renderState();}if(msg.type==='room-closed'){alert('선생님이 게임방을 종료했습니다.');location.href='matching-play.html';}}
+function offlineActive(){return !networkConnected||hostDisconnected;}
+function syncOfflineLoop(){if(offlineActive()){if(!offlineLoop)offlineLoop=setInterval(advanceOfflineState,90);}else if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
+function handleMessage(msg){
+  if(msg.type==='connection'){networkConnected=msg.connected!==false;syncOfflineLoop();return;}
+  if(msg.type==='state'){state=msg.payload.room;offlinePackage=state?.offlinePackage||offlinePackage;hostDisconnected=Boolean(state?.hostDisconnectedAt);syncOfflineLoop();renderState();}
+  if(msg.type==='room-closed'){alert('선생님이 게임방을 종료했습니다.');location.href='matching-play.html';}
+}
+
+function phase3ResetMatchingPlayers(){Object.values(state?.players||{}).forEach(p=>{p.matchedPairIds=[];p.matchedCount=0;p.mistakes=0;p.combo=0;p.roundFinishedAt=0;p.lastGain=0;});}
+function phase3MatchingStart(index,startAt){const rounds=offlinePackage?.rounds||[],round=rounds[index];if(!round||!state)return false;phase3ResetMatchingPlayers();const duration=Math.max(1000,Number(state.config?.roundTime||45)*1000);state={...state,status:'playing',roundIndex:index,roundTotal:rounds.length,roundStartAt:startAt,roundEndAt:startAt+duration,roundResultEndAt:0,currentRound:round,offlineSynthetic:true,offlineFinal:false};renderState();return true;}
+function advanceOfflineState(){
+  if(!offlineActive()||!state||offlinePackage?.kind!=='matching'||state.status==='lobby'||state.status==='finished')return;
+  const t=nowMs(),timing=offlinePackage.timing||{},delay=Number(timing.roundStartDelayMs)||260,resultMs=Number(timing.resultMs)||2800;
+  if(state.status==='countdown'&&t>=Number(state.countdownEndAt||0)){const idx=Math.max(0,Number(state.roundIndex)>=0?Number(state.roundIndex):0);phase3MatchingStart(idx,Number(state.countdownEndAt||t)+delay);return;}
+  if(state.status==='playing'&&t>=Number(state.roundEndAt||0)){const last=Number(state.roundIndex)>=Number((offlinePackage.rounds||[]).length)-1;state={...state,status:'round-result',roundResultEndAt:Number(state.roundEndAt||t)+resultMs,offlineSynthetic:true,offlineFinal:last};renderState();return;}
+  if(state.status==='round-result'&&t>=Number(state.roundResultEndAt||0)&&!state.offlineFinal){phase3MatchingStart(Number(state.roundIndex)+1,Number(state.roundResultEndAt||t)+delay);}
+}
 
 function renderState(){
   if(!joined||!state)return; const me=state.players?.[uid]; if(!me)return;
@@ -77,17 +94,17 @@ function clickCard(cardEl){
   const firstEl=document.querySelector(`.match-card[data-id="${CSS.escape(first.id)}"]`);const correct=first.pairId===card.pairId;
   if(correct){
     firstEl?.classList.add('matched');cardEl.classList.add('matched');optimisticMatched.add(card.pairId);selectedCardId=null;vibrate(35);setFeedback('정답! 카드 한 쌍이 사라집니다.','good');
-    if(soloMode)soloMatch(card.pairId);else bus?.send('pair-match',{uid,roundIndex:state.roundIndex,pairId:card.pairId});
+    if(soloMode)soloMatch(card.pairId);else bus?.send('pair-match',{uid,roundIndex:state.roundIndex,pairId:card.pairId,roundStartAt:state.roundStartAt,roundEndAt:state.roundEndAt});
     setTimeout(()=>{const currentMe=state?.players?.[uid];if(state?.status==='playing'&&currentMe)renderPlay(currentMe);},390);
   }else{
     firstEl?.classList.add('wrong');cardEl.classList.add('wrong');selectedCardId=null;vibrate([25,40,25]);setFeedback('다른 뜻입니다. 다시 찾아보세요!','bad');
-    if(soloMode)soloMiss();else bus?.send('pair-miss',{uid,roundIndex:state.roundIndex});
+    if(soloMode)soloMiss();else bus?.send('pair-miss',{uid,roundIndex:state.roundIndex,roundStartAt:state.roundStartAt,roundEndAt:state.roundEndAt});
     setTimeout(()=>{firstEl?.classList.remove('wrong','selected');cardEl.classList.remove('wrong','selected');},360);
   }
 }
 function setFeedback(text,type=''){clearTimeout(feedbackTimer);const el=$('pairFeedback');el.textContent=text;el.className=`pair-feedback ${type}`;if(text&&!text.includes('완료'))feedbackTimer=setTimeout(()=>{if(el.textContent===text){el.textContent='';el.className='pair-feedback';}},1300);}
 function showScoreFloat(gain){const el=$('scoreFloat');el.textContent=`+${Number(gain).toLocaleString()}`;el.classList.remove('hidden');el.style.animation='none';void el.offsetWidth;el.style.animation='floatScore .85s ease forwards';setTimeout(()=>el.classList.add('hidden'),900);}
-function renderRoundWait(me){ const matched=me.matchedPairIds?.length||0;$('roundWaitTitle').textContent=`${state.roundIndex+1}판 종료!`;$('roundWaitStats').textContent=`맞춘 카드 ${matched}/${state.config.pairsPerRound}쌍 · 실수 ${me.mistakes||0}회`; }
+function renderRoundWait(me){ const matched=me.matchedPairIds?.length||0;if(state.offlineSynthetic&&state.offlineFinal){$('roundWaitTitle').textContent='모든 판 완료!';$('roundWaitStats').textContent='연결 복구 후 최종 점수를 확인합니다.';return;}$('roundWaitTitle').textContent=`${state.roundIndex+1}판 종료!`;$('roundWaitStats').textContent=`맞춘 카드 ${matched}/${state.config.pairsPerRound}쌍 · 실수 ${me.mistakes||0}회`; }
 function renderFinish(me){ const players=Object.values(state.players||{}).filter((p)=>Number.isFinite(Number(p.score))).sort((a,b)=>Number(b.score)-Number(a.score)||a.name.localeCompare(b.name,'ko'));const rank=players.findIndex((p)=>p.uid===uid)+1;$('finishName').textContent=`${me.name}님, 수고했어요!`;$('finishScore').textContent=(Number(me.score)||0).toLocaleString();$('finishRank').textContent=rank>0?`${rank}위`:'-'; }
 
 /* Solo mode */

@@ -81,6 +81,79 @@ export async function saveVocabularyTeacherStore(store) {
   return payload;
 }
 
+function phase3HashSeed(value) {
+  let h = 2166136261;
+  const text = String(value ?? '');
+  for (let i = 0; i < text.length; i++) {
+    h ^= text.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return h >>> 0;
+}
+
+function phase3ShuffleTokens(tokens, seedText) {
+  const out = (tokens || []).map((t) => [String(t[0]), String(t[1])]);
+  let seed = phase3HashSeed(seedText) || 1;
+  const rand = () => {
+    seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0;
+    return seed / 4294967296;
+  };
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+function phase3PublicWordQuestion(q) {
+  return q ? { id:q.id, direction:q.direction, prompt:q.prompt, options:[...(q.options || [])] } : null;
+}
+
+function phase3PublicMatchingRound(r) {
+  if (!r) return null;
+  return {
+    id:r.id,
+    number:r.number,
+    cards:(r.cards || []).map((card) => ({ id:card.id, pairId:card.pairId, lang:card.lang, text:card.text })),
+    pairCount:(r.pairs || []).length,
+    vocabulary:(r.pairs || []).map((pair) => ({ ko:pair.ko, mn:pair.mn }))
+  };
+}
+
+function phase3OfflinePackage(room) {
+  const gameType = room?.config?.gameType;
+  if (gameType === 'combined') {
+    return {
+      version:3,
+      kind:'combined',
+      wordQuestions:(room.quiz?.questions || []).map(phase3PublicWordQuestion).filter(Boolean),
+      matchingRounds:(room.matching?.rounds || []).map(phase3PublicMatchingRound).filter(Boolean),
+      sentenceQuestions:(room.sentenceSet || []).map((q, i) => ({
+        id:q.id,
+        tokens:phase3ShuffleTokens(q.tokens || [], `${room.pin}:${q.id}:${i}`)
+      })),
+      timing:{ transitionMs:2450, firstCountdownMs:3000, nextCountdownMs:1600, unitStartDelayMs:150, resultMs:2500 }
+    };
+  }
+  if (gameType === 'matching-pairs') {
+    return {
+      version:3,
+      kind:'matching',
+      rounds:(room.matching?.rounds || []).map(phase3PublicMatchingRound).filter(Boolean),
+      timing:{ initialCountdownMs:3200, roundStartDelayMs:260, resultMs:2800 }
+    };
+  }
+  if (room?.quiz?.questions) {
+    return {
+      version:3,
+      kind:'word',
+      questions:(room.quiz.questions || []).map(phase3PublicWordQuestion).filter(Boolean),
+      timing:{ initialCountdownMs:3200, questionStartDelayMs:250, resultMs:1900 }
+    };
+  }
+  return null;
+}
+
 export function publicRoomState(room) {
   if (room?.config?.gameType === 'combined') {
     const blind = Boolean(room.blindActive) && room.status !== 'finished';
@@ -162,7 +235,8 @@ export function publicRoomState(room) {
       unitResults: room.unitResults || {},
       revealAnswer,
       revealSentence,
-      finishedAt: Number(room.finishedAt) || 0
+      finishedAt: Number(room.finishedAt) || 0,
+      offlinePackage: phase3OfflinePackage(room)
     };
   }
 
@@ -211,7 +285,8 @@ export function publicRoomState(room) {
         vocabulary: (currentRound.pairs || []).map((pair) => ({ ko: pair.ko, mn: pair.mn }))
       } : null,
       blindActive: blind,
-      finishedAt: Number(room.finishedAt) || 0
+      finishedAt: Number(room.finishedAt) || 0,
+      offlinePackage: phase3OfflinePackage(room)
     };
   }
 
@@ -237,7 +312,8 @@ export function publicRoomState(room) {
     answeredUids: Object.keys(room.questionResults || {}),
     myResults: room.questionResults || {},
     revealAnswer: room.status === 'result' && q ? q.answer : null,
-    finishedAt: room.finishedAt || 0
+    finishedAt: room.finishedAt || 0,
+    offlinePackage: phase3OfflinePackage(room)
   };
 }
 
@@ -271,6 +347,9 @@ export class FirebaseBus {
     this.latestState = null;
     this.resumeRoom = null;
     this.flushingPending = false;
+    this.hostDisconnected = false;
+    this.offlinePackage = null;
+    this.packageCached = false;
   }
 
   on(fn) {
@@ -305,6 +384,21 @@ export class FirebaseBus {
     return this.uid ? `kwb_room_state_v2_${this.pin}_${this.uid}` : null;
   }
 
+  _packageCacheKey() {
+    return this.uid ? `kwb_room_package_v3_${this.pin}_${this.uid}` : null;
+  }
+
+  _readCachedPackage() {
+    if (this.offlinePackage) return this.offlinePackage;
+    const key = this._packageCacheKey();
+    if (!key) return null;
+    try {
+      const pack = JSON.parse(localStorage.getItem(key) || 'null');
+      if (pack?.version >= 3) { this.offlinePackage = pack; this.packageCached = true; return pack; }
+    } catch {}
+    return null;
+  }
+
   _pendingKey() {
     return this.uid ? `kwb_pending_v2_${this.pin}_${this.uid}` : null;
   }
@@ -312,11 +406,33 @@ export class FirebaseBus {
   _cacheState(state) {
     if (!state) return;
     this.latestState = state;
+    if (this.role !== 'host') {
+      const disconnected = Boolean(state.hostDisconnectedAt);
+      if (disconnected !== this.hostDisconnected) {
+        this.hostDisconnected = disconnected;
+        this._domEvent('kwb-host-connection', { connected:!disconnected });
+      }
+      if (state.offlinePackage?.version >= 3) {
+        const pack = state.offlinePackage;
+        const itemCount = Number(pack.questions?.length || pack.rounds?.length || 0)
+          + Number(pack.wordQuestions?.length || 0)
+          + Number(pack.matchingRounds?.length || 0)
+          + Number(pack.sentenceQuestions?.length || 0);
+        this._domEvent('kwb-preload', { ready:true, kind:pack.kind || 'game', itemCount });
+      }
+    }
     if (this.role === 'host') return;
+    if (state.offlinePackage?.version >= 3) {
+      this.offlinePackage = state.offlinePackage;
+      if (!this.packageCached) {
+        try { const pk=this._packageCacheKey(); if(pk)localStorage.setItem(pk,JSON.stringify(state.offlinePackage)); this.packageCached=true; } catch {}
+      }
+    }
     const key = this._stateCacheKey();
     if (!key) return;
     try {
-      localStorage.setItem(key, JSON.stringify({ savedAt:Date.now(), state }));
+      const { offlinePackage, ...lightState } = state;
+      localStorage.setItem(key, JSON.stringify({ savedAt:Date.now(), state:lightState }));
     } catch {}
   }
 
@@ -330,7 +446,8 @@ export class FirebaseBus {
         localStorage.removeItem(key);
         return null;
       }
-      return parsed.state;
+      const pack = this._readCachedPackage();
+      return pack ? { ...parsed.state, offlinePackage:pack } : parsed.state;
     } catch {
       return null;
     }
@@ -341,8 +458,11 @@ export class FirebaseBus {
     try {
       const stateKey = this._stateCacheKey();
       const pendingKey = this._pendingKey();
+      const packageKey = this._packageCacheKey();
       if (stateKey) localStorage.removeItem(stateKey);
       if (pendingKey) localStorage.removeItem(pendingKey);
+      if (packageKey) localStorage.removeItem(packageKey);
+      this.offlinePackage=null;this.packageCached=false;
     } catch {}
   }
 
@@ -423,6 +543,17 @@ export class FirebaseBus {
     }
   }
 
+  async _rearmHostDisconnectMarker() {
+    if (this.role !== 'host' || !this.db || this.closed) return;
+    const ownerSnapshot = await get(ref(this.db, `rooms/${this.pin}/ownerUid`));
+    if (!ownerSnapshot.exists() || ownerSnapshot.val() !== this.uid) return;
+    try { if (this.disconnectOp) await this.disconnectOp.cancel(); } catch {}
+    await update(ref(this.db, `rooms/${this.pin}/state`), { hostDisconnectedAt:null, hostUpdatedAt:serverTimestamp() });
+    const op = onDisconnect(ref(this.db, `rooms/${this.pin}/state/hostDisconnectedAt`));
+    await op.set(serverTimestamp());
+    this.disconnectOp = op;
+  }
+
   _watchConnection() {
     if (!this.db || this.connectionListenerAttached) return;
     const connectedRef = ref(this.db, '.info/connected');
@@ -435,9 +566,11 @@ export class FirebaseBus {
         this._domEvent('kwb-connection', { connected });
       }
       if (connected && this.role === 'host' && !this.closed) {
-        this._attachHostInboxListener().catch((err) => {
-          console.warn('Firebase host inbox reconnect failed:', err);
-        });
+        this._attachHostInboxListener()
+          .then(() => this._rearmHostDisconnectMarker())
+          .catch((err) => {
+            console.warn('Firebase host reconnect recovery failed:', err);
+          });
       }
       if (connected && this.role !== 'host' && !this.closed) {
         this._flushPending().catch(() => {});
@@ -559,9 +692,7 @@ export class FirebaseBus {
       await set(ref(this.db, `rooms/${this.pin}/state`), initialState);
       await this._attachHostInboxListener();
 
-      const disconnectOp = onDisconnect(ref(this.db, `rooms/${this.pin}/state/hostDisconnectedAt`));
-      await disconnectOp.set(serverTimestamp());
-      this.disconnectOp = disconnectOp;
+      await this._rearmHostDisconnectMarker();
     } catch (e) {
       try { await remove(ownerRef); } catch {}
       throw e;
@@ -571,11 +702,14 @@ export class FirebaseBus {
   saveRoom(room) {
     if (!this.db || this.closed) return Promise.resolve();
     const state = publicRoomState(room);
+    // Phase 3 패키지는 방 생성 시 한 번만 저장하고 이후 상태 갱신 때는 다시 쓰지 않습니다.
+    // RTDB의 update()를 사용하면 state/offlinePackage는 그대로 유지되어 통신량이 크게 줄어듭니다.
+    delete state.offlinePackage;
     state.hostDisconnectedAt = null;
     state.hostUpdatedAt = serverTimestamp();
     this.writeQueue = this.writeQueue
       .catch(() => {})
-      .then(() => set(ref(this.db, `rooms/${this.pin}/state`), state));
+      .then(() => update(ref(this.db, `rooms/${this.pin}/state`), state));
     return this.writeQueue;
   }
 

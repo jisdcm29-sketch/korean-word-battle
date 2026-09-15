@@ -11,7 +11,7 @@
     return { name:`kwb_name_${pin}`, avatar:`kwb_avatar_${pin}` };
   }
 
-  let badge = null, hideTimer = null, hadDisconnect = false;
+  let badge = null, hideTimer = null, hadDisconnect = false, preloadShown = false;
   function ensureBadge() {
     if (badge) return badge;
     badge = document.createElement('div');
@@ -37,6 +37,8 @@
   window.addEventListener('offline', disconnected);
   window.addEventListener('online', connected);
   window.addEventListener('kwb-connection', e => e.detail?.connected ? connected() : disconnected());
+  window.addEventListener('kwb-host-connection', e => { if(e.detail?.connected){connected();}else{hadDisconnect=true;showBadge('교사 연결 복구 중… 게임은 계속 진행됩니다.');} });
+  window.addEventListener('kwb-preload', e => { if(e.detail?.ready && !preloadShown){preloadShown=true;const n=Number(e.detail?.itemCount)||0;showBadge(n?`게임 자료 준비 완료 · ${n}개`:'게임 자료 준비 완료',true,1300);} });
   window.addEventListener('kwb-delivery', e => {
     if(e.detail?.status==='queued') showBadge('답안 저장됨 · 연결되면 자동 전송됩니다.');
     if(e.detail?.status==='sent' && hadDisconnect===false) showBadge('저장한 답안 전송 완료',true,1100);

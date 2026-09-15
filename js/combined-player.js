@@ -1,4 +1,4 @@
-import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=7.7';
+import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.0';
 import { directionLabel } from './game-engine.js';
 
 const $ = (id) => document.getElementById(id);
@@ -32,6 +32,7 @@ let sentenceOrder = [];
 let previousMatchingScore = 0;
 let matchingFeedbackTimer = null;
 let lastKnownScores = { word:0, matching:0, sentence:0, total:0 };
+let networkConnected=true,hostDisconnected=false,offlinePackage=null,offlineLoop=null;
 
 function esc(value){
   return String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -156,14 +157,61 @@ async function join(){
     $('joinBtn').disabled = false;
   }
 }
+function offlineActive(){return !networkConnected||hostDisconnected;}
+function syncOfflineLoop(){if(offlineActive()){if(!offlineLoop)offlineLoop=setInterval(advanceOfflineState,90);}else if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
 function handleMessage(msg){
+  if(msg.type === 'connection'){
+    networkConnected=msg.connected!==false;
+    syncOfflineLoop();
+    return;
+  }
   if(msg.type === 'state'){
     state = msg.payload.room;
+    offlinePackage=state?.offlinePackage||offlinePackage;
+    hostDisconnected=Boolean(state?.hostDisconnectedAt);
+    syncOfflineLoop();
     renderState();
   }
   if(msg.type === 'room-closed'){
     alert('교사가 종합 배틀 방을 종료했습니다.');
     location.href = 'combined-play.html';
+  }
+}
+
+function phase3StageItems(stage){if(stage===0)return offlinePackage?.wordQuestions||[];if(stage===1)return offlinePackage?.matchingRounds||[];return offlinePackage?.sentenceQuestions||[];}
+function phase3ResetCombinedMatchingPlayers(){Object.values(state?.players||{}).forEach(p=>{p.matchedPairIds=[];p.matchingMistakes=0;p.matchingCombo=0;});}
+function phase3StartCombinedUnit(stage,index,startAt){
+  const items=phase3StageItems(stage),item=items[index];if(!item||!state)return false;
+  const config=state.config||{};let duration=10000,currentQuestion=null,currentRound=null;
+  if(stage===0){duration=Math.max(1000,Number(config.wordTime||10)*1000);currentQuestion=item;}
+  else if(stage===1){duration=Math.max(1000,Number(config.matchTime||45)*1000);currentRound=item;phase3ResetCombinedMatchingPlayers();}
+  else{duration=Math.max(1000,Number(config.sentenceTime||20)*1000);currentQuestion=item;}
+  state={...state,status:'playing',stageIndex:stage,stageType:['word','matching','sentence'][stage],unitIndex:index,unitTotal:items.length,unitStartAt:startAt,unitEndAt:startAt+duration,resultEndAt:0,currentQuestion,currentRound,answeredUids:[],unitResults:{},revealAnswer:null,revealSentence:null,offlineSynthetic:true,offlineFinal:false};
+  renderState();return true;
+}
+function phase3BeginCombinedCountdown(stage,index,endAt){
+  if(stage===1)phase3ResetCombinedMatchingPlayers();
+  state={...state,status:'countdown',stageIndex:stage,stageType:['word','matching','sentence'][stage],unitIndex:index,unitTotal:phase3StageItems(stage).length,countdownEndAt:endAt,unitStartAt:0,unitEndAt:0,resultEndAt:0,currentQuestion:null,currentRound:null,answeredUids:[],unitResults:{},revealAnswer:null,revealSentence:null,offlineSynthetic:true,offlineFinal:false};
+  renderState();
+}
+function advanceOfflineState(){
+  if(!offlineActive()||!state||offlinePackage?.kind!=='combined'||state.status==='lobby'||state.status==='finished')return;
+  const t=now(),timing=offlinePackage.timing||{},firstCountdown=Number(timing.firstCountdownMs)||3000,nextCountdown=Number(timing.nextCountdownMs)||1600,startDelay=Number(timing.unitStartDelayMs)||150,resultMs=Number(timing.resultMs)||2500;
+  const stage=Math.max(0,Math.min(2,Number(state.stageIndex)||0));
+  if(state.status==='transition'&&t>=Number(state.transitionEndAt||0)+40){phase3BeginCombinedCountdown(stage,0,Number(state.transitionEndAt||t)+50+firstCountdown);return;}
+  if(state.status==='countdown'&&t>=Number(state.countdownEndAt||0)){phase3StartCombinedUnit(stage,Math.max(0,Number(state.unitIndex)||0),Number(state.countdownEndAt||t)+startDelay);return;}
+  if(state.status==='playing'&&t>=Number(state.unitEndAt||0)){
+    const items=phase3StageItems(stage),last=Number(state.unitIndex)>=items.length-1;
+    const completed=Math.min(Number(state.totalSteps)||1,Number(state.completedSteps||0)+1);
+    state={...state,status:'result',completedSteps:completed,resultEndAt:Number(state.unitEndAt||t)+resultMs,unitResults:{},answeredUids:[],revealAnswer:null,revealSentence:null,offlineSynthetic:true,offlineFinal:last&&stage===2};renderState();return;
+  }
+  if(state.status==='result'&&t>=Number(state.resultEndAt||0)){
+    const items=phase3StageItems(stage),next=Number(state.unitIndex)+1;
+    if(next<items.length){phase3BeginCombinedCountdown(stage,next,Number(state.resultEndAt||t)+nextCountdown);return;}
+    if(stage<2){
+      const nextStage=stage+1;
+      state={...state,status:'transition',stageIndex:nextStage,stageType:['word','matching','sentence'][nextStage],unitIndex:0,unitTotal:phase3StageItems(nextStage).length,transitionEndAt:Number(state.resultEndAt||t)+2400,countdownEndAt:0,unitStartAt:0,unitEndAt:0,resultEndAt:0,currentQuestion:null,currentRound:null,answeredUids:[],unitResults:{},offlineSynthetic:true,offlineFinal:false};renderState();
+    }
   }
 }
 
@@ -292,7 +340,7 @@ function submitWord(choice){
     button.classList.toggle('chosen', Number(button.dataset.i) === choice);
   });
   $('wordSubmitState').textContent = '제출 완료!';
-  bus.send('combined-word-answer',{unitIndex:state.unitIndex,choice});
+  bus.send('combined-word-answer',{unitIndex:state.unitIndex,choice,unitStartAt:state.unitStartAt,unitEndAt:state.unitEndAt});
 }
 
 // -----------------------------------------------------------------------------
@@ -413,7 +461,7 @@ function clickMatchCard(cardEl){
     selectedMatchCardId = null;
     try{ navigator.vibrate?.(35); }catch{}
     setMatchingFeedback('정답! 카드 한 쌍이 사라집니다.','good');
-    bus.send('combined-match-pair',{unitIndex:state.unitIndex,pairId:card.pairId});
+    bus.send('combined-match-pair',{unitIndex:state.unitIndex,pairId:card.pairId,unitStartAt:state.unitStartAt,unitEndAt:state.unitEndAt});
     setTimeout(() => {
       const currentMe = myPlayer();
       if(state?.status === 'playing' && state.stageIndex === 1 && currentMe) renderMatching(currentMe);
@@ -424,7 +472,7 @@ function clickMatchCard(cardEl){
     selectedMatchCardId = null;
     try{ navigator.vibrate?.([25,40,25]); }catch{}
     setMatchingFeedback('다른 뜻입니다. 다시 찾아보세요!','bad');
-    bus.send('combined-match-mistake',{unitIndex:state.unitIndex});
+    bus.send('combined-match-mistake',{unitIndex:state.unitIndex,unitStartAt:state.unitStartAt,unitEndAt:state.unitEndAt});
     setTimeout(() => {
       firstEl?.classList.remove('wrong','selected');
       cardEl.classList.remove('wrong','selected');
@@ -515,7 +563,7 @@ function submitSentence(){
   renderSentence(myPlayer(),false);
   $('sentenceSubmitState').textContent = '제출 완료 · 결과를 기다리는 중';
   $('sentenceSubmitState').className = 'submit-state done';
-  bus.send('combined-sentence-submit',{unitIndex:state.unitIndex,order:[...sentenceOrder]});
+  bus.send('combined-sentence-submit',{unitIndex:state.unitIndex,order:[...sentenceOrder],unitStartAt:state.unitStartAt,unitEndAt:state.unitEndAt});
 }
 
 // -----------------------------------------------------------------------------
@@ -537,6 +585,11 @@ function fitSentenceReveal(){
   }
 }
 function renderResult(me){
+  if(state.offlineSynthetic){
+    if(state.stageIndex===0){$('wordResultCard').classList.remove('wrong');$('wordResultIcon').textContent=state.offlineFinal?'✓':'⟳';$('wordResultTitle').textContent=state.offlineFinal?'어휘 완료':'다음 문제 준비';$('wordResultAnswer').textContent='통신 복구 후 채점 결과가 자동 반영됩니다.';$('wordResultPoints').textContent='답안 안전 저장 중';return;}
+    if(state.stageIndex===1){$('matchingResultTitle').textContent=state.offlineFinal?'카드 매칭 완료':'다음 판 준비';$('matchingResultStats').textContent='플레이 기록을 저장했습니다. 연결 복구 후 점수가 반영됩니다.';return;}
+    $('sentenceResultReveal').textContent=state.offlineFinal?'종합 배틀 문제 완료':'다음 문장 준비 중';$('sentenceRoundResult').className='my-round-result';$('sentenceRoundResult').textContent=state.offlineFinal?'연결 복구 후 최종 점수를 확인합니다.':'제출 내용은 안전하게 저장되어 있습니다.';return;
+  }
   const result = state.unitResults?.[uid] || {correct:false,points:0};
   rememberScores(me);
 
