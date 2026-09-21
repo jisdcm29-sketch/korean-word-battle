@@ -5,6 +5,9 @@ import { LocalBus } from './local-bus.js?v=7.3';
 import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.0';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
+import { requireTeacherAccess } from './access-control.js?v=1.2';
+
+await requireTeacherAccess({ game:'word' });
 
 const $ = (id) => document.getElementById(id);
 const audio = new GameAudioEngine();

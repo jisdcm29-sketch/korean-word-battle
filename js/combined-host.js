@@ -6,6 +6,9 @@ import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-samp
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { CombinedSentenceAudio } from './combined-sentence-audio.js?v=1.0';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
+import { requireTeacherAccess } from './access-control.js?v=1.2';
+
+await requireTeacherAccess({ game:'combined' });
 
 const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search);
