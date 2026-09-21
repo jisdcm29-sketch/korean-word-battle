@@ -1,4 +1,5 @@
 import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.0';
+import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.1';
 
 const launchParams=new URLSearchParams(location.search);
 const selectedBook=launchParams.get('book')||'1A';
@@ -265,6 +266,8 @@ function safeText(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<
 function initAudio(){if(muted)return;if(!audioCtx){const C=window.AudioContext||window.webkitAudioContext;if(C)audioCtx=new C();}if(audioCtx?.state==='suspended')audioCtx.resume();}
 function tone(freq=440,dur=.08,type='sine',gain=.05,delay=0){if(muted||volume<=0)return;initAudio();if(!audioCtx)return;const t=audioCtx.currentTime+delay,o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type=type;o.frequency.setValueAtTime(freq,t);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(.0001,gain*volume),t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+dur);o.connect(g);g.connect(audioCtx.destination);o.start(t);o.stop(t+dur+.03);}
 function sfx(kind){if(kind==='tick')tone(340,.06,'square',.055);if(kind==='start'){tone(470,.1,'square',.085);tone(650,.15,'square',.095,.09);}if(kind==='answer'){tone(520,.13,'triangle',.095);tone(690,.16,'triangle',.11,.08);tone(860,.2,'triangle',.12,.16);}if(kind==='join')tone(620,.11,'sine',.065);if(kind==='submit')tone(430,.07,'triangle',.05);}
+function luckyDrawSfx(){for(let i=0;i<14;i++){const f=330*Math.pow(2,(i%7)/12);tone(f,.055,i%2?'square':'triangle',.072,i*.105);}}
+function luckyWinnerSfx(){[523.25,659.25,783.99,1046.5,1318.51].forEach((f,i)=>tone(f,.18+i*.025,'sine',.12,i*.085));}
 function syncVolume(){document.querySelectorAll('.volume-slider').forEach(x=>x.value=String(Math.round(volume*100)));document.querySelectorAll('.volume-label').forEach(x=>x.textContent=`${Math.round(volume*100)}%`);document.querySelectorAll('.sound-toggle').forEach(x=>x.textContent=(muted||volume===0)?'🔇':volume<.5?'🔉':'🔊');}
 
 function stopTensionBed(){
@@ -372,7 +375,7 @@ function publicRoomState(){
     players:room.players,questionIndex:room.questionIndex,questionTotal:fullQuestions.length,
     countdownEndAt:room.countdownEndAt||0,questionStartAt:room.questionStartAt||0,questionEndAt:room.questionEndAt||0,resultEndAt:room.resultEndAt||0,
     currentQuestion:room.currentQuestion||null,answerCount:room.answerCount||0,roundResults:room.status==='result'?room.roundResults||{}:{},
-    revealSentence:room.status==='result'?room.revealSentence||'':null,variantCount:room.status==='result'?room.variantCount||1:0,finishedAt:room.finishedAt||0,
+    revealSentence:room.status==='result'?room.revealSentence||'':null,variantCount:room.status==='result'?room.variantCount||1:0,luckyAward:room.luckyAward||null,finishedAt:room.finishedAt||0,
     offlinePackage:phase3SentencePackage()
   };
 }
@@ -511,8 +514,8 @@ function endRound(){
 }
 function runRevealTimer(){cancelAnimationFrame(revealRaf);if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}const resultIndex=room?.questionIndex;const frame=()=>{if(!room||room.status!=='result')return;const left=Math.max(0,room.resultEndAt-now());els.revealTimer.textContent=(left/1000).toFixed(1);if(left<=0){advanceRound();return;}revealRaf=requestAnimationFrame(frame);};revealRaf=requestAnimationFrame(frame);const wait=Math.max(250,(room?.resultEndAt||now())-now()+700);revealEndGuard=setTimeout(()=>{if(room?.status==='result'&&room.questionIndex===resultIndex)advanceRound();},wait);}
 async function advanceRound(){if(!room||room.status!=='result')return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}cancelAnimationFrame(revealRaf);if(room.questionIndex+1>=fullQuestions.length){finishGame();return;}room.questionIndex+=1;await startRound();}
-async function finishGame(){if(!room)return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}room.status='finished';room.finishedAt=now();room.currentQuestion=null;renderFinal();setView('final');void persist();}
-function renderFinal(){const list=playerArray();els.finalRanking.innerHTML=list.map((p,i)=>`<div class="final-rank-row"><b>${i+1}</b><span>${safeText(p.avatar)}</span><strong>${safeText(p.name)}</strong><em>${Number(p.score||0).toLocaleString()}점</em></div>`).join('');}
+async function finishGame(){if(!room)return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}room.status='finished';room.finishedAt=now();room.currentQuestion=null;ensureLuckyAward(room,playerArray(),room.finishedAt);renderFinal();setView('final');void persist();}
+function renderFinal(){const list=playerArray();els.finalRanking.innerHTML=list.map((p,i)=>`<div class="final-rank-row"><b>${i+1}</b><span>${safeText(p.avatar)}</span><strong>${safeText(p.name)}</strong><em>${Number(p.score||0).toLocaleString()}점</em></div>`).join('');const lucky=ensureLuckyAward(room,list,room.finishedAt||now());renderLuckyAward({anchor:els.finalRanking,award:lucky.award,eligible:lucky.eligible,onDraw:luckyDrawSfx,onReveal:luckyWinnerSfx,startDelay:1100,position:'before'});if(lucky.changed)void persist();}
 
 async function goHome(){
   if(room&&['playing','result','countdown'].includes(room.status)){if(!confirm('진행 중인 문장 배틀을 중단하고 홈으로 돌아가시겠습니까?'))return;}
