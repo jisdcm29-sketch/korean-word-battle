@@ -3,7 +3,7 @@ import { buildQuiz, calculateScore } from './game-engine.js';
 import { buildMatchingRounds } from './matching-engine.js';
 import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore } from './firebase-bus.js?v=8.0';
 import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-sample/js/sentence-live.js?v=3.0';
-import { GameAudioEngine } from './audio-engine.js?v=7.4';
+import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { CombinedSentenceAudio } from './combined-sentence-audio.js?v=1.0';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.1';
 

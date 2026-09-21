@@ -17,6 +17,10 @@ export class GameAudioEngine {
     this.requestedMode = null;
     this.step = 0;
     this.lastGiftAt = 0;
+    this.ceremonyTrack = null;
+    this.ceremonyTrackUrl = new URL('../audio/final-award.m4a', import.meta.url).href;
+    this.ceremonyRequested = false;
+    this.ceremonyPrimed = false;
   }
 
   async unlock() {
@@ -43,6 +47,7 @@ export class GameAudioEngine {
     if (this.ctx.state === 'suspended') {
       try { await this.ctx.resume(); } catch {}
     }
+    this._primeCeremonyTrack().catch(() => {});
     return this.ctx.state === 'running';
   }
 
@@ -64,12 +69,91 @@ export class GameAudioEngine {
     if (typeof sfxEnabled === 'boolean') this.sfxEnabled = sfxEnabled;
     if (Number.isFinite(volume)) this.volume = Math.max(0, Math.min(1, volume));
     this._applyGains();
-    if (!this.bgmEnabled) this._clearBgmTimer();
-    else if (this.requestedMode && !this.bgmTimer && this.ctx) this._beginBgmLoop(this.requestedMode);
+    this._syncCeremonyTrack();
+    if (!this.bgmEnabled) {
+      this._clearBgmTimer();
+      this._pauseCeremonyTrack();
+    } else if (this.ceremonyRequested) {
+      this._resumeCeremonyTrack();
+    } else if (this.requestedMode && !this.bgmTimer && this.ctx) {
+      this._beginBgmLoop(this.requestedMode);
+    }
   }
 
   getSettings() {
     return { bgmEnabled: this.bgmEnabled, sfxEnabled: this.sfxEnabled, volume: this.volume };
+  }
+
+  _ensureCeremonyTrack() {
+    if (!this.ceremonyTrack) {
+      const track = new Audio(this.ceremonyTrackUrl);
+      track.loop = true;
+      track.preload = 'auto';
+      track.playsInline = true;
+      this.ceremonyTrack = track;
+    }
+    this._syncCeremonyTrack();
+    return this.ceremonyTrack;
+  }
+
+  _syncCeremonyTrack() {
+    if (!this.ceremonyTrack) return;
+    this.ceremonyTrack.volume = Math.max(0, Math.min(1, (Number(this.volume) || 0) * 0.68));
+    this.ceremonyTrack.muted = !this.bgmEnabled || this.volume <= 0;
+  }
+
+  _pauseCeremonyTrack() {
+    if (!this.ceremonyTrack) return;
+    try { this.ceremonyTrack.pause(); } catch {}
+  }
+
+  _resumeCeremonyTrack() {
+    if (!this.ceremonyRequested || !this.bgmEnabled || this.volume <= 0) return;
+    const track = this._ensureCeremonyTrack();
+    this._syncCeremonyTrack();
+    const promise = track.play();
+    if (promise?.catch) promise.catch((err) => console.warn('최종 시상식 음악 재생을 시작하지 못했습니다:', err));
+  }
+
+  async _primeCeremonyTrack() {
+    if (this.ceremonyPrimed) return;
+    const track = this._ensureCeremonyTrack();
+    const oldMuted = track.muted;
+    try {
+      track.muted = true;
+      const promise = track.play();
+      if (promise?.then) await promise;
+      track.pause();
+      track.currentTime = 0;
+      this.ceremonyPrimed = true;
+    } catch {}
+    finally {
+      track.muted = oldMuted;
+      this._syncCeremonyTrack();
+    }
+  }
+
+  playCeremonyMusic({ restart = true } = {}) {
+    this._clearBgmTimer();
+    this.bgmMode = null;
+    this.requestedMode = null;
+    this.ceremonyRequested = true;
+    const track = this._ensureCeremonyTrack();
+    if (restart) { try { track.currentTime = 0; } catch {} }
+    this._syncCeremonyTrack();
+    if (!this.bgmEnabled || this.volume <= 0) {
+      this._pauseCeremonyTrack();
+      return;
+    }
+    const promise = track.play();
+    if (promise?.catch) promise.catch((err) => console.warn('최종 시상식 음악 재생을 시작하지 못했습니다:', err));
+  }
+
+  stopCeremonyMusic({ reset = true } = {}) {
+    this.ceremonyRequested = false;
+    if (!this.ceremonyTrack) return;
+    try { this.ceremonyTrack.pause(); } catch {}
+    if (reset) { try { this.ceremonyTrack.currentTime = 0; } catch {} }
   }
 
   async preview() {
@@ -82,6 +166,7 @@ export class GameAudioEngine {
   }
 
   startBgm(mode = 'normal') {
+    this.stopCeremonyMusic();
     this.requestedMode = mode;
     if (!this.ctx || !this.bgmEnabled) return;
     if (this.bgmMode === mode && this.bgmTimer) return;
@@ -91,6 +176,7 @@ export class GameAudioEngine {
   stopBgm({ keepRequest = false } = {}) {
     this._clearBgmTimer();
     this.bgmMode = null;
+    this.stopCeremonyMusic();
     if (!keepRequest) this.requestedMode = null;
   }
 
@@ -237,12 +323,8 @@ export class GameAudioEngine {
   }
 
   playFinish() {
-    this.stopBgm();
-    if (!this.sfxEnabled) return;
-    for (let i = 0; i < 12; i++) this._noiseClick(.035, .08 + i * .003, this.sfxGain, i * .075);
-    const base = .95;
-    [523.25,659.25,783.99].forEach((f,i) => this._tone(f,.22,.14,'triangle',this.sfxGain,base+i*.10));
-    [659.25,783.99,1046.50].forEach((f,i) => this._tone(f,.30,.15,'triangle',this.sfxGain,base+.34+i*.09));
-    this._tone(1046.50,.55,.17,'sine',this.sfxGain,base+.66,1318.51);
+    // V1.5: the user-provided ceremony song replaces the synthesized final jingle.
+    // It starts with the award screen and loops until the teacher leaves the final view.
+    this.playCeremonyMusic({ restart:true });
   }
 }
