@@ -1,0 +1,251 @@
+.lucky-award-card{position:relative;width:min(760px,calc(100% - 16px));margin:22px auto 18px;padding:22px 24px 24px;border-radius:28px;overflow:hidden;text-align:center;color:#fff;background:radial-gradient(circle at 50% 0%,rgba(255,235,117,.30),transparent 36%),linear-gradient(145deg,rgba(91,55,182,.98),rgba(28,78,156,.97) 54%,rgba(9,39,90,.98));border:1px solid rgba(255,230,115,.42);box-shadow:0 20px 54px rgba(0,0,0,.28),0 0 0 3px rgba(255,207,68,.08),inset 0 1px rgba(255,255,255,.18)}
+.lucky-award-card:before{content:"";position:absolute;inset:-50%;background:conic-gradient(from 0deg,transparent,rgba(255,234,120,.10),transparent 16%,rgba(103,222,255,.10),transparent 36%,rgba(255,132,202,.09),transparent 56%);animation:luckyGlowSpin 8s linear infinite;pointer-events:none}
+.lucky-ribbon,.lucky-title,.lucky-stage{position:relative;z-index:2}
+.lucky-ribbon{display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:6px 13px;border-radius:999px;background:linear-gradient(135deg,#ffd95c,#ffad35);color:#3d2700;font-size:11px;font-weight:1000;letter-spacing:.11em;box-shadow:0 8px 20px rgba(255,179,52,.22)}
+.lucky-title{margin-top:9px;font-size:clamp(27px,3vw,39px);font-weight:1000;letter-spacing:-.045em;text-shadow:0 7px 24px rgba(0,0,0,.24)}
+.lucky-stage{width:min(590px,100%);margin:14px auto 0;min-height:112px;padding:15px 20px;border-radius:22px;display:flex;align-items:center;justify-content:center;gap:16px;background:rgba(6,24,66,.50);border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(5px);box-shadow:inset 0 1px rgba(255,255,255,.07)}
+.lucky-avatar{flex:0 0 auto;width:82px;height:82px;display:grid;place-items:center;border-radius:50%;font-size:49px;background:radial-gradient(circle at 35% 30%,#fff7cf,#ffc83d 72%);box-shadow:0 9px 0 #b67414,0 16px 26px rgba(0,0,0,.24);transition:.18s transform}
+.lucky-copy{display:grid;gap:7px;text-align:left;min-width:0}.lucky-name{font-size:clamp(22px,3vw,34px);line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.lucky-sub{color:#d9e7ff;font-size:12px;line-height:1.5}.lucky-sub b{color:#ffe66f}
+.lucky-award-card.drawing .lucky-avatar{animation:luckyPulse .42s ease-in-out infinite alternate}.lucky-award-card.drawing .lucky-name{color:#fff3a8;text-shadow:0 0 16px rgba(255,231,107,.3)}
+.lucky-award-card.revealed{animation:luckyReveal .7s cubic-bezier(.2,.8,.2,1) both;border-color:rgba(255,235,125,.78);box-shadow:0 22px 60px rgba(0,0,0,.30),0 0 34px rgba(255,211,77,.18)}
+.lucky-award-card.revealed .lucky-avatar{transform:scale(1.08);box-shadow:0 10px 0 #b67414,0 0 34px rgba(255,217,83,.46),0 18px 30px rgba(0,0,0,.25)}
+.lucky-award-card.revealed .lucky-name{color:#fff4a8;text-shadow:0 0 18px rgba(255,228,104,.34)}
+.lucky-sparkles{position:absolute;inset:0;z-index:1;pointer-events:none}.lucky-sparkles i{position:absolute;font-style:normal;color:#ffe56b;opacity:.8;animation:luckyFloat 1.8s ease-in-out infinite alternate}.lucky-sparkles i:nth-child(1){left:6%;top:17%;font-size:25px}.lucky-sparkles i:nth-child(2){left:15%;bottom:13%;font-size:18px;animation-delay:.3s}.lucky-sparkles i:nth-child(3){right:8%;top:16%;font-size:27px;animation-delay:.55s}.lucky-sparkles i:nth-child(4){right:17%;bottom:16%;font-size:19px;animation-delay:.8s}.lucky-sparkles i:nth-child(5){left:45%;top:5%;font-size:15px;animation-delay:1s}.lucky-sparkles i:nth-child(6){right:42%;bottom:7%;font-size:17px;animation-delay:1.2s}
+@keyframes luckyGlowSpin{to{transform:rotate(360deg)}}@keyframes luckyPulse{to{transform:scale(1.12) rotate(3deg)}}@keyframes luckyFloat{to{transform:translateY(-8px) scale(1.16);opacity:1}}@keyframes luckyReveal{0%{transform:scale(.88);opacity:.45}55%{transform:scale(1.035);opacity:1}100%{transform:scale(1);opacity:1}}
+@media(max-width:640px){.lucky-award-card{padding:18px 14px 20px;border-radius:22px}.lucky-stage{padding:14px 12px;gap:12px;min-height:100px}.lucky-avatar{width:68px;height:68px;font-size:40px}.lucky-copy{gap:5px}.lucky-name{font-size:24px}.lucky-sub{font-size:11px}}
+
+/* --------------------------------------------------------------------------
+   V1.4 - Teacher final ceremony: compact two-column dashboard
+   Goal: keep podium, lucky award and up to 10 ranks on one 16:9 teacher screen
+   without shrinking names/scores to unreadable sizes.
+   -------------------------------------------------------------------------- */
+@media (min-width:901px){
+  /* Shared lucky card in the compact final layout */
+  .lucky-final-dashboard>.lucky-award-card{
+    width:100%;
+    max-width:none;
+    margin:0;
+    padding:12px 14px 14px;
+    border-radius:20px;
+    align-self:start;
+  }
+  .lucky-final-dashboard>.lucky-award-card .lucky-ribbon{min-height:26px;padding:4px 11px;font-size:10px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-title{margin-top:6px;font-size:26px;line-height:1.05}
+  .lucky-final-dashboard>.lucky-award-card .lucky-stage{width:100%;margin-top:9px;min-height:78px;padding:9px 13px;border-radius:16px;gap:12px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-avatar{width:60px;height:60px;font-size:36px;box-shadow:0 6px 0 #b67414,0 11px 20px rgba(0,0,0,.22)}
+  .lucky-final-dashboard>.lucky-award-card .lucky-copy{gap:4px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-name{font-size:25px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-sub{font-size:11px;line-height:1.35}
+
+  /* Matching + Memory Battle ------------------------------------------------ */
+  .final-view.lucky-final-dashboard{
+    min-height:0!important;
+    height:auto!important;
+    max-height:calc(100dvh - 24px);
+    padding:10px 14px 12px!important;
+    display:grid!important;
+    grid-template-columns:minmax(540px,1.08fr) minmax(430px,.92fr);
+    grid-template-rows:auto auto auto auto auto auto;
+    column-gap:16px!important;
+    row-gap:5px!important;
+    align-items:start!important;
+    justify-items:stretch!important;
+    justify-content:stretch!important;
+    text-align:center;
+    overflow:hidden!important;
+  }
+  .final-view.lucky-final-dashboard>.final-flags{grid-column:1;grid-row:1;font-size:31px!important;line-height:1;margin:0!important}
+  .final-view.lucky-final-dashboard>.eyebrow{grid-column:1;grid-row:2;margin:2px 0 0!important;font-size:9px!important;line-height:1.1}
+  .final-view.lucky-final-dashboard>h2{grid-column:1;grid-row:3;margin:1px 0 5px!important;font-size:35px!important;line-height:1.05}
+  .final-view.lucky-final-dashboard>.final-podium{grid-column:1;grid-row:4;width:100%!important;margin:0!important;gap:9px!important;align-items:end!important}
+  .final-view.lucky-final-dashboard>.lucky-award-card{grid-column:1;grid-row:5}
+  .final-view.lucky-final-dashboard>.final-actions{grid-column:1;grid-row:6;margin:4px 0 0!important;justify-content:center!important;align-items:center;min-height:44px}
+  .final-view.lucky-final-dashboard>.final-ranking{
+    grid-column:2;
+    grid-row:1 / 7;
+    width:100%!important;
+    min-width:0;
+    max-width:none!important;
+    max-height:calc(100dvh - 48px);
+    margin:0!important;
+    padding:10px!important;
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    grid-template-rows:none!important;
+    grid-auto-flow:row!important;
+    grid-auto-rows:minmax(49px,auto)!important;
+    gap:5px!important;
+    align-content:start;
+    overflow:auto!important;
+    border-radius:18px;
+    background:rgba(4,18,42,.42);
+    border:1px solid rgba(255,255,255,.08);
+  }
+  .final-view.lucky-final-dashboard>.final-ranking:before{content:"🏆 최종 순위";display:block;grid-column:1/-1;text-align:left;font-size:18px;font-weight:1000;padding:2px 5px 6px;color:#fff}
+  .final-view.lucky-final-dashboard>.final-ranking:has(> .rank-row:nth-of-type(11)){grid-template-columns:repeat(2,minmax(0,1fr))!important;grid-auto-rows:minmax(49px,auto)!important}
+  .final-view.lucky-final-dashboard>.final-ranking:has(> .rank-row:nth-of-type(21)){grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  .final-view.lucky-final-dashboard>.final-ranking .rank-row{
+    min-height:49px!important;
+    height:auto!important;
+    max-height:none!important;
+    grid-template-columns:34px 39px minmax(0,1fr) auto!important;
+    padding:5px 10px!important;
+    column-gap:8px!important;
+    border-radius:11px!important;
+  }
+  .final-view.lucky-final-dashboard>.final-ranking .rank-num{font-size:18px!important;font-weight:1000}
+  .final-view.lucky-final-dashboard>.final-ranking .rank-avatar{font-size:24px!important;line-height:1}
+  .final-view.lucky-final-dashboard>.final-ranking .rank-copy{gap:1px!important;text-align:left}
+  .final-view.lucky-final-dashboard>.final-ranking .rank-copy strong{font-size:15px!important;line-height:1.12}
+  .final-view.lucky-final-dashboard>.final-ranking .rank-copy span{font-size:9px!important;line-height:1.12}
+  .final-view.lucky-final-dashboard>.final-ranking .rank-score{font-size:16px!important;line-height:1;min-width:86px;text-align:right}
+  .final-view.lucky-final-dashboard .podium-item{width:min(31%,185px)!important;min-height:126px!important;padding:9px 10px!important;border-radius:18px 18px 8px 8px!important}
+  .final-view.lucky-final-dashboard .podium-item.rank1{min-height:150px!important}
+  .final-view.lucky-final-dashboard .podium-item.rank2{min-height:138px!important}
+  .final-view.lucky-final-dashboard .podium-item.rank3{min-height:126px!important}
+  .final-view.lucky-final-dashboard .podium-item .avatar,.final-view.lucky-final-dashboard .podium-item .podium-avatar{font-size:40px!important;line-height:1}
+  .final-view.lucky-final-dashboard .podium-item strong,.final-view.lucky-final-dashboard .podium-item .podium-name{font-size:16px!important;line-height:1.12;margin-top:5px!important}
+  .final-view.lucky-final-dashboard .podium-item span,.final-view.lucky-final-dashboard .podium-item .final-podium-score strong{font-size:20px!important;line-height:1.08;margin-top:5px!important}
+  .final-view.lucky-final-dashboard .podium-item em{font-size:10px!important;line-height:1.12;margin-top:4px!important}
+
+  /* Hide the large matching/memory page hero only while the final ceremony is visible. */
+  body:has(.final-view.lucky-final-dashboard:not(.hidden)) .match-hero{display:none!important}
+  body:has(.final-view.lucky-final-dashboard:not(.hidden)) .match-shell{padding-top:8px!important;padding-bottom:8px!important}
+  body:has(.final-view.lucky-final-dashboard:not(.hidden)) .host-panel{min-height:0!important;padding:12px!important}
+
+  /* Word Battle ------------------------------------------------------------- */
+  #finalArea.lucky-final-dashboard{
+    min-height:0!important;
+    padding:6px 8px 8px!important;
+    display:grid!important;
+    grid-template-columns:minmax(540px,1.05fr) minmax(430px,.95fr);
+    grid-template-rows:auto auto auto auto;
+    column-gap:18px;
+    row-gap:7px;
+    align-items:start;
+    overflow:hidden;
+  }
+  #finalArea.lucky-final-dashboard>.final-title{grid-column:1;grid-row:1;margin:0!important;padding:0 0 3px!important}
+  #finalArea.lucky-final-dashboard>.final-title span{font-size:10px!important}
+  #finalArea.lucky-final-dashboard>.final-title h2{font-size:34px!important;line-height:1.05;margin:2px 0!important}
+  #finalArea.lucky-final-dashboard>#finalPodium{grid-column:1;grid-row:2;max-width:none!important;min-height:0!important;height:auto!important;margin:0!important;gap:10px!important}
+  #finalArea.lucky-final-dashboard>.lucky-award-card{grid-column:1;grid-row:3}
+  #finalArea.lucky-final-dashboard>.action-row{grid-column:1;grid-row:4;margin:4px 0 0!important;justify-content:center!important}
+  #finalArea.lucky-final-dashboard>#finalRanking{
+    grid-column:2;grid-row:1 / 5;
+    width:100%!important;max-width:none!important;margin:0!important;padding:10px!important;
+    display:grid!important;grid-template-columns:1fr;grid-auto-rows:minmax(49px,auto);gap:5px;
+    align-content:start;overflow:auto;max-height:calc(100dvh - 48px);
+    border-radius:18px;background:rgba(11,38,80,.06);border:1px solid rgba(47,111,237,.13)
+  }
+  #finalArea.lucky-final-dashboard>#finalRanking:before{content:"🏆 최종 순위";display:block;grid-column:1/-1;text-align:left;font-size:18px;font-weight:1000;color:#183a70;padding:2px 5px 6px}
+  #finalArea.lucky-final-dashboard>#finalRanking:has(> .rank-row:nth-of-type(11)){grid-template-columns:repeat(2,minmax(0,1fr))}
+  #finalArea.lucky-final-dashboard>#finalRanking .rank-row{min-height:49px!important;grid-template-columns:34px 39px minmax(0,1fr) auto!important;padding:6px 10px!important;font-size:14px!important}
+  #finalArea.lucky-final-dashboard>#finalRanking .rank-number{font-size:18px!important}
+  #finalArea.lucky-final-dashboard>#finalRanking .rank-avatar{font-size:24px!important}
+  #finalArea.lucky-final-dashboard>#finalRanking .rank-name{font-size:15px!important;text-align:left}
+  #finalArea.lucky-final-dashboard>#finalRanking .rank-score{font-size:16px!important;min-width:92px;text-align:right}
+  #finalArea.lucky-final-dashboard .final-podium .podium-item{max-width:190px!important;width:31%!important}
+  #finalArea.lucky-final-dashboard .final-podium .podium-avatar{font-size:45px!important}
+  #finalArea.lucky-final-dashboard .final-podium .podium-name{font-size:16px!important}
+  #finalArea.lucky-final-dashboard .final-podium .podium-step{font-size:18px!important;height:58px!important}
+  #finalArea.lucky-final-dashboard .final-podium .rank1 .podium-step{height:82px!important}
+  #finalArea.lucky-final-dashboard .final-podium .rank2 .podium-step{height:68px!important}
+  #finalArea.lucky-final-dashboard .final-podium .rank3 .podium-step{height:58px!important}
+  body:has(#finalArea.lucky-final-dashboard:not(.hidden)) .battle-topbar{display:none!important}
+  body:has(#finalArea.lucky-final-dashboard:not(.hidden)) .page-shell{margin:8px auto 10px!important;padding-top:0!important}
+  body:has(#finalArea.lucky-final-dashboard:not(.hidden)) #hostView{padding:12px!important}
+
+  /* Combined Battle --------------------------------------------------------- */
+  #finalView.final-panel.lucky-final-dashboard{
+    min-height:0!important;
+    height:auto!important;
+    max-height:calc(100dvh - 20px);
+    padding:12px 14px!important;
+    display:grid!important;
+    grid-template-columns:minmax(560px,1.05fr) minmax(500px,.95fr);
+    grid-template-rows:auto auto auto auto;
+    column-gap:18px;row-gap:7px;align-items:start;overflow:hidden
+  }
+  #finalView.final-panel.lucky-final-dashboard>.final-title{grid-column:1;grid-row:1;padding:0 0 4px!important;margin:0!important}
+  #finalView.final-panel.lucky-final-dashboard>.final-title h2{font-size:34px!important;line-height:1.05;margin:3px 0!important}
+  #finalView.final-panel.lucky-final-dashboard>.final-title p{font-size:11px!important;margin:4px 0 0!important}
+  #finalView.final-panel.lucky-final-dashboard>#podium{grid-column:1;grid-row:2;width:100%!important;margin:0!important;gap:9px!important}
+  #finalView.final-panel.lucky-final-dashboard>.lucky-award-card{grid-column:1;grid-row:3}
+  #finalView.final-panel.lucky-final-dashboard>.actions{grid-column:1;grid-row:4;margin:4px 0 0!important}
+  #finalView.final-panel.lucky-final-dashboard>#finalRanking{
+    grid-column:2;grid-row:1 / 5;width:100%!important;max-width:none!important;margin:0!important;padding:10px!important;
+    display:grid!important;grid-template-columns:1fr;grid-auto-rows:minmax(49px,auto);gap:5px;align-content:start;
+    max-height:calc(100dvh - 48px);overflow:auto;border-radius:18px;background:rgba(4,18,43,.46);border:1px solid rgba(255,255,255,.08)
+  }
+  #finalView.final-panel.lucky-final-dashboard>#finalRanking:before{content:"🏆 최종 순위";display:block;grid-column:1/-1;text-align:left;font-size:18px;font-weight:1000;padding:2px 5px 6px;color:#fff}
+  #finalView.final-panel.lucky-final-dashboard>#finalRanking:has(> .final-row:nth-of-type(11)){grid-template-columns:repeat(2,minmax(0,1fr))}
+  #finalView.final-panel.lucky-final-dashboard .podium-card{min-height:128px!important;padding:11px!important;border-radius:17px!important}
+  #finalView.final-panel.lucky-final-dashboard .podium-card.first{min-height:150px!important}
+  #finalView.final-panel.lucky-final-dashboard .podium-card .avatar{font-size:39px!important}
+  #finalView.final-panel.lucky-final-dashboard .podium-card .name{font-size:16px!important}
+  #finalView.final-panel.lucky-final-dashboard .podium-card .score{font-size:18px!important}
+  #finalView.final-panel.lucky-final-dashboard .final-row{
+    min-height:49px!important;padding:6px 8px!important;gap:6px!important;
+    grid-template-columns:28px 31px minmax(90px,1fr) 64px 64px 64px 78px!important;
+    font-size:12px!important
+  }
+  #finalView.final-panel.lucky-final-dashboard .final-row>b{font-size:15px!important}
+  #finalView.final-panel.lucky-final-dashboard .final-row .sub{font-size:9px!important}
+  #finalView.final-panel.lucky-final-dashboard .final-row .total{font-size:15px!important;font-weight:1000}
+  body:has(#finalView.final-panel.lucky-final-dashboard:not(.hidden)) .context-bar{display:none!important}
+  body:has(#finalView.final-panel.lucky-final-dashboard:not(.hidden)) .shell{padding-top:8px!important;padding-bottom:8px!important}
+
+  /* Sentence Battle --------------------------------------------------------- */
+  .final-card.lucky-final-dashboard{
+    width:min(1180px,calc(100vw - 38px))!important;
+    max-width:none!important;
+    max-height:calc(100dvh - 34px);
+    padding:20px 22px!important;
+    display:grid!important;
+    grid-template-columns:minmax(430px,.9fr) minmax(520px,1.1fr);
+    grid-template-rows:auto auto auto auto auto;
+    column-gap:18px;row-gap:6px;align-items:start;overflow:hidden;text-align:center
+  }
+  .final-card.lucky-final-dashboard>.final-icon{grid-column:1;grid-row:1;font-size:46px!important;line-height:1;margin:0!important}
+  .final-card.lucky-final-dashboard>.eyebrow{grid-column:1;grid-row:2;margin:0!important;font-size:10px!important}
+  .final-card.lucky-final-dashboard>h2{grid-column:1;grid-row:3;margin:2px 0 5px!important;font-size:34px!important;line-height:1.05}
+  .final-card.lucky-final-dashboard>.lucky-award-card{grid-column:1;grid-row:4}
+  .final-card.lucky-final-dashboard>.final-actions{grid-column:1;grid-row:5;margin:5px 0 0!important;justify-content:center!important}
+  .final-card.lucky-final-dashboard>#finalRanking{
+    grid-column:2;grid-row:1 / 6;width:100%!important;max-width:none!important;margin:0!important;padding:10px!important;
+    display:grid!important;grid-template-columns:1fr;grid-auto-rows:minmax(50px,auto);gap:5px;align-content:start;
+    max-height:calc(100dvh - 76px);overflow:auto;border-radius:18px;background:rgba(4,18,43,.36);border:1px solid rgba(255,255,255,.08)
+  }
+  .final-card.lucky-final-dashboard>#finalRanking:before{content:"🏆 최종 순위";display:block;grid-column:1/-1;text-align:left;font-size:18px;font-weight:1000;padding:2px 5px 6px;color:#fff}
+  .final-card.lucky-final-dashboard>#finalRanking:has(> .final-rank-row:nth-of-type(11)){grid-template-columns:repeat(2,minmax(0,1fr))}
+  .final-card.lucky-final-dashboard .final-rank-row{min-height:50px!important;padding:7px 10px!important;grid-template-columns:34px 40px minmax(0,1fr) auto!important;gap:8px!important}
+  .final-card.lucky-final-dashboard .final-rank-row>b{font-size:18px!important}
+  .final-card.lucky-final-dashboard .final-rank-row>span{font-size:25px!important}
+  .final-card.lucky-final-dashboard .final-rank-row>strong{font-size:16px!important;text-align:left}
+  .final-card.lucky-final-dashboard .final-rank-row>em{font-size:16px!important;min-width:92px;text-align:right}
+  body:has(.final-card.lucky-final-dashboard) .final-view{padding:12px!important;min-height:100dvh!important}
+}
+
+/* Short classroom/projector screens: preserve readable names/scores first. */
+@media (min-width:901px) and (max-height:820px){
+  .lucky-final-dashboard>.lucky-award-card{padding:9px 11px 10px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-title{font-size:22px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-stage{min-height:66px;padding:7px 10px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-avatar{width:50px;height:50px;font-size:31px}
+  .lucky-final-dashboard>.lucky-award-card .lucky-name{font-size:21px}
+  .final-view.lucky-final-dashboard .podium-item{min-height:105px!important}
+  .final-view.lucky-final-dashboard .podium-item.rank1{min-height:124px!important}
+  .final-view.lucky-final-dashboard .podium-item.rank2{min-height:114px!important}
+  .final-view.lucky-final-dashboard .podium-item.rank3{min-height:105px!important}
+  .final-view.lucky-final-dashboard .podium-item .avatar,.final-view.lucky-final-dashboard .podium-item .podium-avatar{font-size:34px!important}
+  .final-view.lucky-final-dashboard>.final-ranking,.final-card.lucky-final-dashboard>#finalRanking,#finalArea.lucky-final-dashboard>#finalRanking,#finalView.final-panel.lucky-final-dashboard>#finalRanking{grid-auto-rows:minmax(40px,auto)!important;gap:3px!important}
+  .final-view.lucky-final-dashboard>.final-ranking .rank-row,#finalArea.lucky-final-dashboard>#finalRanking .rank-row,.final-card.lucky-final-dashboard .final-rank-row{min-height:40px!important;padding-top:4px!important;padding-bottom:4px!important}
+}
+
+/* On smaller teacher screens readability wins over forcing two columns. */
+@media (max-width:900px){
+  .lucky-final-dashboard>.lucky-award-card{width:min(760px,calc(100% - 12px));margin:14px auto}
+}
+
+.lucky-final-dashboard.hidden{display:none!important}
