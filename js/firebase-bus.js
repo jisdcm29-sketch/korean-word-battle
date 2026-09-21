@@ -135,6 +135,14 @@ function phase3OfflinePackage(room) {
       timing:{ transitionMs:2450, firstCountdownMs:3000, nextCountdownMs:1600, unitStartDelayMs:150, resultMs:2500 }
     };
   }
+  if (gameType === 'memory-pairs') {
+    return {
+      version:3,
+      kind:'memory',
+      rounds:(room.memory?.rounds || []).map(phase3PublicMatchingRound).filter(Boolean),
+      timing:{ initialCountdownMs:3200, previewMs:Number(room.config?.previewTime || 0) * 1000, roundStartDelayMs:150, resultMs:3000 }
+    };
+  }
   if (gameType === 'matching-pairs') {
     return {
       version:3,
@@ -235,6 +243,63 @@ export function publicRoomState(room) {
       unitResults: room.unitResults || {},
       revealAnswer,
       revealSentence,
+      luckyAward: room.luckyAward || null,
+      finishedAt: Number(room.finishedAt) || 0,
+      offlinePackage: phase3OfflinePackage(room)
+    };
+  }
+
+  if (room?.config?.gameType === 'memory-pairs') {
+    const currentRound = room.memory?.rounds?.[room.roundIndex] || null;
+    const blind = Boolean(room.blindActive) && room.status !== 'finished';
+    return {
+      pin: room.pin,
+      title: room.title || '한·몽 기억력 배틀',
+      status: room.status,
+      config: {
+        gameType: 'memory-pairs',
+        roundTime: Number(room.config.roundTime) || 60,
+        roundCount: Number(room.config.roundCount) || room.memory?.roundCount || 1,
+        pairsPerRound: Number(room.config.pairsPerRound) || room.memory?.pairsPerRound || 6,
+        previewTime: Number(room.config.previewTime) || 0,
+        blindAt: 0.70
+      },
+      players: Object.fromEntries(Object.entries(room.players || {}).map(([uid, p]) => [uid, {
+        uid,
+        name: p.name,
+        avatar: p.avatar,
+        score: blind ? null : (Number(p.score) || 0),
+        matchedPairIds: Array.isArray(p.matchedPairIds) ? p.matchedPairIds : [],
+        matchedCount: Number(p.matchedCount) || 0,
+        mistakes: Number(p.mistakes) || 0,
+        totalMistakes: Number(p.totalMistakes) || 0,
+        combo: Number(p.combo) || 0,
+        missStreak: Number(p.missStreak) || 0,
+        roundFinishedAt: Number(p.roundFinishedAt) || 0,
+        completionRank: Number(p.completionRank) || 0,
+        lastGain: blind ? 0 : (Number(p.lastGain) || 0),
+        lastGainAt: Number(p.lastGainAt) || 0
+      }])),
+      roundIndex: Number(room.roundIndex) || 0,
+      roundTotal: Number(room.memory?.roundCount || room.config.roundCount || 1),
+      previewEndAt: Number(room.previewEndAt) || 0,
+      roundStartAt: Number(room.roundStartAt) || 0,
+      roundEndAt: Number(room.roundEndAt) || 0,
+      countdownEndAt: Number(room.countdownEndAt) || 0,
+      roundResultEndAt: Number(room.roundResultEndAt) || 0,
+      currentRound: currentRound ? {
+        id: currentRound.id,
+        number: currentRound.number,
+        cards: (currentRound.cards || []).map((card) => ({
+          id: card.id,
+          pairId: card.pairId,
+          lang: card.lang,
+          text: card.text
+        })),
+        vocabulary: (currentRound.pairs || []).map((pair) => ({ ko: pair.ko, mn: pair.mn }))
+      } : null,
+      blindActive: blind,
+      luckyAward: room.luckyAward || null,
       finishedAt: Number(room.finishedAt) || 0,
       offlinePackage: phase3OfflinePackage(room)
     };
@@ -285,6 +350,7 @@ export function publicRoomState(room) {
         vocabulary: (currentRound.pairs || []).map((pair) => ({ ko: pair.ko, mn: pair.mn }))
       } : null,
       blindActive: blind,
+      luckyAward: room.luckyAward || null,
       finishedAt: Number(room.finishedAt) || 0,
       offlinePackage: phase3OfflinePackage(room)
     };
@@ -312,6 +378,7 @@ export function publicRoomState(room) {
     answeredUids: Object.keys(room.questionResults || {}),
     myResults: room.questionResults || {},
     revealAnswer: room.status === 'result' && q ? q.answer : null,
+    luckyAward: room.luckyAward || null,
     finishedAt: room.finishedAt || 0,
     offlinePackage: phase3OfflinePackage(room)
   };

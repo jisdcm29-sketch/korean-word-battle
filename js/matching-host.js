@@ -4,6 +4,7 @@ import { buildMatchingRounds, calculateMatchingPairScore, calculateRoundClearBon
 import { LocalBus } from './local-bus.js?v=7.6';
 import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.0';
 import { GameAudioEngine } from './audio-engine.js?v=7.4';
+import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.1';
 
 const $ = (id) => document.getElementById(id);
 const audio = new GameAudioEngine();
@@ -390,7 +391,7 @@ function endRound(){
 }
 function maybeEndRoundEarly(){ if(!room||room.status!=='playing')return; const players=Object.values(room.players); if(!players.length)return; const allDone=players.every((p)=>(p.matchedPairIds||[]).length>=room.config.pairsPerRound); if(allDone&&!earlyEndTimer) earlyEndTimer=setTimeout(()=>{earlyEndTimer=null;if(room?.status==='playing')endRound();},650); }
 function finishGame(){
-  if(!room)return; clearBotTimers(); clearTimeout(earlyEndTimer); room.status='finished'; room.blindActive=false; room.finishedAt=nowMs(); setMusicMode('final'); audio.playFinish(); persistAndBroadcast(); renderFinal(); showHostSubView('finalView');
+  if(!room)return; clearBotTimers(); clearTimeout(earlyEndTimer); room.status='finished'; room.blindActive=false; room.finishedAt=nowMs(); ensureLuckyAward(room,sortedPlayers(),room.finishedAt); setMusicMode('final'); audio.playFinish(); persistAndBroadcast(); renderFinal(); showHostSubView('finalView');
 }
 function clearBotTimers(){ botTimers.forEach(clearTimeout); botTimers=[]; }
 function scheduleDemoRound(){
@@ -449,6 +450,9 @@ function renderFinal(){
   finalRanking.style.setProperty('--final-columns',String(columns));
   finalRanking.style.setProperty('--final-rows',String(rows));
   finalRanking.innerHTML=players.map((p,i)=>`<div class="rank-row"><span class="rank-num">${i+1}</span><span class="rank-avatar">${p.avatar}</span><span class="rank-copy"><strong>${escapeHtml(p.name)}</strong><span>총 매칭 ${p.totalMatched||''}${p.bot?' · DEMO':''}</span></span><strong class="rank-score">${(p.score||0).toLocaleString()} pt</strong></div>`).join('');
+  const lucky=ensureLuckyAward(room,players,room.finishedAt||nowMs());
+  renderLuckyAward({anchor:$('finalPodium'),award:lucky.award,eligible:lucky.eligible,onDraw:()=>audio.playLuckyDraw(),onReveal:()=>audio.playLuckyWinner()});
+  if(lucky.changed)persistAndBroadcast();
 }
 
 async function endRoom(){

@@ -219,6 +219,23 @@ export class GameAudioEngine {
     this._noiseClick(.055, .10, this.sfxGain, .04);
   }
 
+  playLuckyDraw() {
+    if (!this.sfxEnabled || !this.ctx) return;
+    for (let i = 0; i < 14; i++) {
+      const step = i % 7;
+      const freq = 330 * Math.pow(2, step / 12);
+      this._tone(freq, .055, .095, i % 2 ? 'square' : 'triangle', this.sfxGain, i * .105, freq * 1.05);
+      if (i % 3 === 0) this._noiseClick(.026, .055, this.sfxGain, i * .105 + .025);
+    }
+  }
+
+  playLuckyWinner() {
+    if (!this.sfxEnabled || !this.ctx) return;
+    const notes = [523.25,659.25,783.99,1046.50,1318.51];
+    notes.forEach((f,i)=>this._tone(f,.18 + i*.025,.15,'sine',this.sfxGain,i*.085,i===notes.length-1?1567.98:null));
+    for (let i = 0; i < 9; i++) this._noiseClick(.032,.065 + i*.004,this.sfxGain,.12 + i*.052);
+  }
+
   playFinish() {
     this.stopBgm();
     if (!this.sfxEnabled) return;
