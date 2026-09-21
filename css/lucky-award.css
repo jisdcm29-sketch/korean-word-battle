@@ -249,3 +249,62 @@
 }
 
 .lucky-final-dashboard.hidden{display:none!important}
+
+/* --------------------------------------------------------------------------
+   V1.6 - Lucky Award roulette timing
+   Shared teacher setting: 5 / 7 / 10 / 15 / 20 seconds, default 10 seconds.
+   -------------------------------------------------------------------------- */
+.lucky-duration-setting{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  margin-top:12px;
+  padding:11px 13px;
+  border-radius:14px;
+  background:linear-gradient(135deg,rgba(255,200,61,.10),rgba(91,73,233,.09));
+  border:1px solid rgba(255,210,79,.20);
+  color:inherit
+}
+.lucky-duration-setting.inside-setting-card{margin-top:13px}
+.lucky-duration-copy{display:grid;gap:3px;min-width:0;text-align:left}
+.lucky-duration-copy strong{font-size:13px;font-weight:1000}
+.lucky-duration-copy span{font-size:10px;line-height:1.35;opacity:.72}
+.lucky-duration-control{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.lucky-duration-control>span{
+  min-width:42px;
+  text-align:right;
+  font-size:14px;
+  font-weight:1000;
+  color:#ffd96b
+}
+.lucky-duration-control select{
+  min-width:112px;
+  height:38px;
+  padding:0 10px;
+  border-radius:11px;
+  border:1px solid rgba(255,255,255,.14);
+  background:#0b2a55;
+  color:#fff;
+  font-weight:900;
+  outline:none
+}
+body:not(.match-host-page):not(.memory-host-page) .lucky-duration-control select{background:#102f61}
+.setup-card .lucky-duration-setting{
+  margin:14px 0 0;
+  background:rgba(255,200,61,.07);
+  border-color:rgba(255,200,61,.16)
+}
+.setup-card .lucky-duration-control select{background:#071a38}
+#setupView>.lucky-duration-setting{
+  margin:10px 0 0;
+  width:100%
+}
+.lucky-award-card.drawing.slowing .lucky-avatar{animation-duration:.72s}
+.lucky-award-card.drawing.slowing .lucky-name{letter-spacing:.005em}
+@media(max-width:720px){
+  .lucky-duration-setting{align-items:stretch;flex-direction:column;gap:9px}
+  .lucky-duration-control{justify-content:space-between}
+  .lucky-duration-control>span{text-align:left}
+  .lucky-duration-control select{min-width:140px}
+}
