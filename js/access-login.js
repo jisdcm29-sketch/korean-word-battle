@@ -1,4 +1,4 @@
-import { loginTeacher, validateTeacherAccess, clearTeacherAccess, isAccessApiConfigured } from './access-control.js?v=1.2';
+import { loginTeacher, validateTeacherAccess, clearTeacherAccess, isAccessApiConfigured } from './access-control.js?v=1.3';
 
 const $=id=>document.getElementById(id);
 const form=$('accessForm'),auth=$('authCode'),permit=$('permitCode'),submit=$('accessSubmit'),message=$('accessMessage'),setup=$('setupWarning');

@@ -1,4 +1,4 @@
-import { ACCESS_API_URL, ACCESS_STORAGE_KEY, ACCESS_DEVICE_KEY, ACCESS_SCHEMA_VERSION } from './access-config.js?v=1.2';
+import { ACCESS_API_URL, ACCESS_STORAGE_KEY, ACCESS_DEVICE_KEY, ACCESS_SCHEMA_VERSION } from './access-config.js?v=1.3';
 
 const PLAY_ONLY_BLOCKED_SELECTORS = [
   '#previewBtn', '#vocabBtn', '#openQuestionManagerBtn', '#addQuestionBtn',
