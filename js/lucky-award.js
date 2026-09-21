@@ -1,5 +1,9 @@
 const presentationState = new WeakMap();
 
+const LUCKY_DRAW_SECONDS_KEY='kwb_lucky_draw_seconds_v1';
+const LUCKY_DRAW_OPTIONS=[5,7,10,15,20];
+const DEFAULT_LUCKY_DRAW_SECONDS=10;
+
 function keyOf(player){
   return String(player?.uid ?? player?.id ?? player?.name ?? '').trim();
 }
@@ -12,9 +16,95 @@ function ensureStyles(){
   if(document.querySelector('link[data-lucky-award-style]')) return;
   const link=document.createElement('link');
   link.rel='stylesheet';
-  link.href=new URL('../css/lucky-award.css?v=1.4',import.meta.url).href;
+  link.href=new URL('../css/lucky-award.css?v=1.6',import.meta.url).href;
   link.dataset.luckyAwardStyle='1';
   document.head.append(link);
+}
+
+function safeStorageGet(){
+  try{return localStorage.getItem(LUCKY_DRAW_SECONDS_KEY);}catch{return null;}
+}
+
+function safeStorageSet(value){
+  try{localStorage.setItem(LUCKY_DRAW_SECONDS_KEY,String(value));}catch{}
+}
+
+function normalizeSeconds(value){
+  const n=Number(value);
+  return LUCKY_DRAW_OPTIONS.includes(n)?n:DEFAULT_LUCKY_DRAW_SECONDS;
+}
+
+export function getLuckyDrawSeconds(){
+  return normalizeSeconds(safeStorageGet());
+}
+
+export function setLuckyDrawSeconds(value){
+  const seconds=normalizeSeconds(value);
+  safeStorageSet(seconds);
+  document.querySelectorAll('[data-lucky-duration-select]').forEach((select)=>{
+    if(select.value!==String(seconds))select.value=String(seconds);
+  });
+  document.querySelectorAll('[data-lucky-duration-value]').forEach((el)=>{el.textContent=`${seconds}초`;});
+  return seconds;
+}
+
+export function getLuckyDrawDurationMs(){
+  return getLuckyDrawSeconds()*1000;
+}
+
+function buildDurationSetting(){
+  const wrap=document.createElement('div');
+  wrap.className='lucky-duration-setting';
+  wrap.dataset.luckyDurationSetting='1';
+  const current=getLuckyDrawSeconds();
+  wrap.innerHTML=`
+    <div class="lucky-duration-copy">
+      <strong>🎁 행운상 추첨 시간</strong>
+      <span>모든 게임에 공통 적용 · 마지막에 점점 느려집니다.</span>
+    </div>
+    <label class="lucky-duration-control">
+      <span data-lucky-duration-value>${current}초</span>
+      <select data-lucky-duration-select aria-label="행운상 추첨 시간">
+        ${LUCKY_DRAW_OPTIONS.map((sec)=>`<option value="${sec}"${sec===current?' selected':''}>${sec}초${sec===10?' · 기본':''}</option>`).join('')}
+      </select>
+    </label>
+  `;
+  const select=wrap.querySelector('[data-lucky-duration-select]');
+  select?.addEventListener('change',()=>setLuckyDrawSeconds(select.value));
+  return wrap;
+}
+
+export function installLuckyAwardSettings(){
+  if(typeof document==='undefined')return null;
+  if(document.querySelector('[data-lucky-duration-setting]'))return document.querySelector('[data-lucky-duration-setting]');
+  const setup=document.querySelector('#setupView');
+  if(!setup)return null;
+  ensureStyles();
+  const control=buildDurationSetting();
+
+  const appendTarget=
+    setup.querySelector('.word-sound-card') ||
+    setup.querySelector('.matching-sound-card') ||
+    setup.querySelector('.sound-card');
+
+  if(appendTarget){
+    appendTarget.append(control);
+    control.classList.add('inside-setting-card');
+    return control;
+  }
+
+  const afterTarget=
+    setup.querySelector('.sound-strip') ||
+    setup.querySelector('.setup-grid') ||
+    setup.querySelector('.stage-grid');
+
+  if(afterTarget){
+    afterTarget.insertAdjacentElement('afterend',control);
+    return control;
+  }
+
+  setup.append(control);
+  return control;
 }
 
 export function ensureLuckyAward(holder, rankedPlayers, at=Date.now()){
@@ -55,8 +145,8 @@ export function ensureLuckyAward(holder, rankedPlayers, at=Date.now()){
 function clearTimers(card){
   const state=presentationState.get(card);
   if(!state) return;
-  clearInterval(state.interval);
   clearTimeout(state.startTimer);
+  clearTimeout(state.spinTimer);
   clearTimeout(state.revealTimer);
   presentationState.delete(card);
 }
@@ -90,7 +180,23 @@ function buildCard(){
   return card;
 }
 
-export function renderLuckyAward({anchor,award,eligible=[],onDraw,onReveal,startDelay=1300,drawDuration=2200,position='after'}={}){
+function shuffleCandidates(items){
+  const list=[...items];
+  for(let i=list.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [list[i],list[j]]=[list[j],list[i]];
+  }
+  return list;
+}
+
+function spinDelay(progress){
+  const p=Math.max(0,Math.min(1,Number(progress)||0));
+  if(p<.70)return 95;
+  const t=(p-.70)/.30;
+  return Math.round(95+640*t*t);
+}
+
+export function renderLuckyAward({anchor,award,eligible=[],onDraw,onTick,onReveal,startDelay=250,drawDuration=null,position='after'}={}){
   ensureStyles();
   if(!anchor) return null;
   markCompactFinalLayout(anchor);
@@ -105,40 +211,85 @@ export function renderLuckyAward({anchor,award,eligible=[],onDraw,onReveal,start
   }
 
   const winnerKey=String(award.uid||'');
-  if(card.dataset.winnerUid===winnerKey && card.classList.contains('revealed')) return card;
+  if(card.dataset.winnerUid===winnerKey && (card.classList.contains('revealed') || presentationState.has(card))) return card;
   clearTimers(card);
   card.dataset.winnerUid=winnerKey;
-  card.classList.remove('revealed','drawing');
+  card.classList.remove('revealed','drawing','slowing');
 
   const avatarEl=card.querySelector('.lucky-avatar');
   const nameEl=card.querySelector('.lucky-name');
   const subEl=card.querySelector('.lucky-sub');
   const candidates=(Array.isArray(eligible)?eligible:[]).filter(Boolean);
-  let spinIndex=0;
+  const duration=Math.max(3000,Math.min(30000,Number(drawDuration)||getLuckyDrawDurationMs()));
+  let queue=[];
+  let lastKey='';
+
+  const nextCandidate=()=>{
+    if(!candidates.length)return award;
+    if(!queue.length)queue=shuffleCandidates(candidates);
+    let candidate=queue.shift()||award;
+    if(candidates.length>1&&keyOf(candidate)===lastKey){
+      const alternate=queue.findIndex((p)=>keyOf(p)!==lastKey);
+      if(alternate>=0){
+        [candidate,queue[alternate]]=[queue[alternate],candidate];
+      }else{
+        queue=shuffleCandidates(candidates.filter((p)=>keyOf(p)!==lastKey));
+        candidate=queue.shift()||candidate;
+      }
+    }
+    lastKey=keyOf(candidate);
+    return candidate;
+  };
+
+  const reveal=()=>{
+    const state=presentationState.get(card);
+    if(state?.spinTimer)clearTimeout(state.spinTimer);
+    avatarEl.textContent=String(award.avatar||'🎁');
+    nameEl.textContent=String(award.name||'행운의 참가자');
+    subEl.innerHTML='<b>🎉 축하합니다!</b> · 순위와 관계없는 무작위 행운상';
+    card.classList.remove('drawing','slowing');
+    card.classList.add('revealed');
+    try{onReveal?.();}catch{}
+    presentationState.delete(card);
+  };
 
   const startTimer=setTimeout(()=>{
+    const started=performance.now();
     card.classList.add('drawing');
     nameEl.textContent='행운의 주인공을 찾는 중...';
-    subEl.textContent='누구에게 행운이 찾아올까요?';
+    subEl.textContent=`누구에게 행운이 찾아올까요? · ${Math.ceil(duration/1000)}초`;
     try{onDraw?.();}catch{}
-    const interval=setInterval(()=>{
-      const p=candidates.length?candidates[spinIndex++%candidates.length]:award;
+
+    const spin=()=>{
+      const elapsed=Math.max(0,performance.now()-started);
+      const progress=Math.max(0,Math.min(1,elapsed/duration));
+      if(progress>=1)return;
+      const p=nextCandidate();
       avatarEl.textContent=String(p?.avatar||'🎁');
       nameEl.textContent=String(p?.name||'행운상 후보');
-    },115);
-    const revealTimer=setTimeout(()=>{
-      clearInterval(interval);
-      avatarEl.textContent=String(award.avatar||'🎁');
-      nameEl.textContent=String(award.name||'행운의 참가자');
-      subEl.innerHTML='<b>🎉 축하합니다!</b> · 순위와 관계없는 무작위 행운상';
-      card.classList.remove('drawing');
-      card.classList.add('revealed');
-      try{onReveal?.();}catch{}
-      presentationState.delete(card);
-    },Math.max(800,Number(drawDuration)||2200));
-    presentationState.set(card,{interval,startTimer:null,revealTimer});
+      const remaining=Math.max(1,Math.ceil((duration-elapsed)/1000));
+      subEl.textContent=progress>=.70?`곧 멈춥니다... · ${remaining}초`:`누구에게 행운이 찾아올까요? · ${remaining}초`;
+      card.classList.toggle('slowing',progress>=.70);
+      try{onTick?.(progress,p);}catch{}
+      const delay=spinDelay(progress);
+      const state=presentationState.get(card)||{};
+      state.spinTimer=setTimeout(spin,Math.min(delay,Math.max(20,duration-elapsed)));
+      presentationState.set(card,state);
+    };
+
+    spin();
+    const revealTimer=setTimeout(reveal,duration);
+    const state=presentationState.get(card)||{};
+    state.startTimer=null;
+    state.revealTimer=revealTimer;
+    presentationState.set(card,state);
   },Math.max(0,Number(startDelay)||0));
 
-  presentationState.set(card,{interval:null,startTimer,revealTimer:null});
+  presentationState.set(card,{startTimer,spinTimer:null,revealTimer:null});
   return card;
+}
+
+if(typeof document!=='undefined'){
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>installLuckyAwardSettings(),{once:true});
+  else queueMicrotask(()=>installLuckyAwardSettings());
 }

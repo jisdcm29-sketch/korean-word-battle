@@ -17,6 +17,7 @@ export class GameAudioEngine {
     this.requestedMode = null;
     this.step = 0;
     this.lastGiftAt = 0;
+    this.lastLuckyTickAt = 0;
     this.ceremonyTrack = null;
     this.ceremonyTrackUrl = new URL('../audio/final-award.m4a', import.meta.url).href;
     this.ceremonyRequested = false;
@@ -307,12 +308,21 @@ export class GameAudioEngine {
 
   playLuckyDraw() {
     if (!this.sfxEnabled || !this.ctx) return;
-    for (let i = 0; i < 14; i++) {
-      const step = i % 7;
-      const freq = 330 * Math.pow(2, step / 12);
-      this._tone(freq, .055, .095, i % 2 ? 'square' : 'triangle', this.sfxGain, i * .105, freq * 1.05);
-      if (i % 3 === 0) this._noiseClick(.026, .055, this.sfxGain, i * .105 + .025);
-    }
+    this._tone(392.00, .08, .11, 'triangle', this.sfxGain, 0, 440.00);
+    this._tone(523.25, .10, .12, 'square', this.sfxGain, .08, 587.33);
+    this._tone(659.25, .13, .13, 'triangle', this.sfxGain, .16, 739.99);
+  }
+
+  playLuckyTick(progress = 0) {
+    if (!this.sfxEnabled || !this.ctx) return;
+    const now = performance.now();
+    if (now - this.lastLuckyTickAt < 55) return;
+    this.lastLuckyTickAt = now;
+    const p = Math.max(0, Math.min(1, Number(progress) || 0));
+    const freq = 510 + p * 360;
+    const level = p >= .70 ? .080 : .055;
+    this._tone(freq, p >= .70 ? .055 : .038, level, 'square', this.sfxGain, 0, freq * 1.025);
+    if (p >= .88) this._noiseClick(.018, .035, this.sfxGain, .01);
   }
 
   playLuckyWinner() {

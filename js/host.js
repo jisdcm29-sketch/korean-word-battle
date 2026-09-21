@@ -4,7 +4,7 @@ import { buildQuiz, calculateScore, directionLabel, getQuizCapacity } from './ga
 import { LocalBus } from './local-bus.js?v=7.3';
 import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.0';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
-import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.1';
+import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
 
 const $ = (id) => document.getElementById(id);
 const audio = new GameAudioEngine();
@@ -953,7 +953,7 @@ function renderFinal() {
   }).join('');
   $('finalRanking').innerHTML=players.map((p,i)=>`<div class="rank-row"><strong class="rank-number">${i+1}</strong><span class="rank-avatar">${p.avatar}</span><span class="rank-name">${escapeHtml(p.name)}${p.bot?' <em class="rank-demo">DEMO</em>':''}</span><strong class="rank-score">${p.score.toLocaleString()} pt</strong></div>`).join('');
   const lucky=ensureLuckyAward(room,players,room.finishedAt||nowMs());
-  renderLuckyAward({anchor:$('finalPodium'),award:lucky.award,eligible:lucky.eligible,onDraw:()=>audio.playLuckyDraw(),onReveal:()=>audio.playLuckyWinner()});
+  renderLuckyAward({anchor:$('finalPodium'),award:lucky.award,eligible:lucky.eligible,onDraw:()=>audio.playLuckyDraw(),onTick:(progress)=>audio.playLuckyTick(progress),onReveal:()=>audio.playLuckyWinner()});
   if(lucky.changed)persistAndBroadcast();
 }
 
