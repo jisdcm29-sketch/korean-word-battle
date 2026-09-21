@@ -1,5 +1,8 @@
 import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.0';
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
+import { requireTeacherAccess } from '../../js/access-control.js?v=1.2';
+
+await requireTeacherAccess({ game:'sentence' });
 
 const launchParams=new URLSearchParams(location.search);
 const selectedBook=launchParams.get('book')||'1A';
