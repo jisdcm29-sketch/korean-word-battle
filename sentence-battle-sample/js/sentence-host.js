@@ -217,6 +217,8 @@ let room=null,bus=null,isDemo=false,fullQuestions=[],currentQuestion=null,roundS
 let audioCtx=null,muted=false,volume=1,editingQuestionIndex=null,lastMode='actual';
 let tensionTimer=null,toastTimer=null;
 let tensionBedNodes=[];
+const FINAL_CEREMONY_URL=new URL('../../audio/final-award.m4a',import.meta.url).href;
+let finalCeremonyAudio=null,finalCeremonyWanted=false,finalCeremonyPrimed=false;
 
 function cloneQuestions(){return teacherQuestions.filter(q=>q.enabled).map(q=>({...q,tokens:q.tokens.map(t=>[...t]),acceptedOrders:q.acceptedOrders.map(o=>[...o]),flexibleFrames:(q.flexibleFrames||[]).map(f=>({units:f.units.map(u=>[...u]),tail:[...(f.tail||[])]}))}));}
 function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
@@ -263,12 +265,17 @@ function now(){return bus?.now?.()||serverNow();}
 function setView(name){['setup','lobby','game','final'].forEach(v=>els[`${v}View`]?.classList.toggle('hidden',v!==name));}
 function safeText(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
 
-function initAudio(){if(muted)return;if(!audioCtx){const C=window.AudioContext||window.webkitAudioContext;if(C)audioCtx=new C();}if(audioCtx?.state==='suspended')audioCtx.resume();}
+function ensureFinalCeremonyAudio(){if(!finalCeremonyAudio){finalCeremonyAudio=new Audio(FINAL_CEREMONY_URL);finalCeremonyAudio.loop=true;finalCeremonyAudio.preload='auto';finalCeremonyAudio.playsInline=true;}finalCeremonyAudio.volume=Math.max(0,Math.min(1,volume*0.68));finalCeremonyAudio.muted=muted||volume<=0;return finalCeremonyAudio;}
+function syncFinalCeremonyAudio(){if(!finalCeremonyAudio)return;finalCeremonyAudio.volume=Math.max(0,Math.min(1,volume*0.68));finalCeremonyAudio.muted=muted||volume<=0;if(finalCeremonyWanted&&!muted&&volume>0&&finalCeremonyAudio.paused){const p=finalCeremonyAudio.play();p?.catch?.(err=>console.warn('최종 시상식 음악 재생을 시작하지 못했습니다:',err));}else if((muted||volume<=0)&&!finalCeremonyAudio.paused){finalCeremonyAudio.pause();}}
+function primeFinalCeremonyAudio(){if(finalCeremonyPrimed)return;const a=ensureFinalCeremonyAudio(),oldMuted=a.muted;a.muted=true;const p=a.play();if(p?.then)p.then(()=>{a.pause();a.currentTime=0;finalCeremonyPrimed=true;a.muted=oldMuted;syncFinalCeremonyAudio();}).catch(()=>{a.muted=oldMuted;});}
+function startFinalCeremonyMusic(){stopTensionAudio();finalCeremonyWanted=true;const a=ensureFinalCeremonyAudio();try{a.currentTime=0;}catch{}syncFinalCeremonyAudio();}
+function stopFinalCeremonyMusic(){finalCeremonyWanted=false;if(!finalCeremonyAudio)return;try{finalCeremonyAudio.pause();finalCeremonyAudio.currentTime=0;}catch{}}
+function initAudio(){if(muted)return;if(!audioCtx){const C=window.AudioContext||window.webkitAudioContext;if(C)audioCtx=new C();}if(audioCtx?.state==='suspended')audioCtx.resume();primeFinalCeremonyAudio();}
 function tone(freq=440,dur=.08,type='sine',gain=.05,delay=0){if(muted||volume<=0)return;initAudio();if(!audioCtx)return;const t=audioCtx.currentTime+delay,o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type=type;o.frequency.setValueAtTime(freq,t);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(Math.max(.0001,gain*volume),t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+dur);o.connect(g);g.connect(audioCtx.destination);o.start(t);o.stop(t+dur+.03);}
 function sfx(kind){if(kind==='tick')tone(340,.06,'square',.055);if(kind==='start'){tone(470,.1,'square',.085);tone(650,.15,'square',.095,.09);}if(kind==='answer'){tone(520,.13,'triangle',.095);tone(690,.16,'triangle',.11,.08);tone(860,.2,'triangle',.12,.16);}if(kind==='join')tone(620,.11,'sine',.065);if(kind==='submit')tone(430,.07,'triangle',.05);}
 function luckyDrawSfx(){for(let i=0;i<14;i++){const f=330*Math.pow(2,(i%7)/12);tone(f,.055,i%2?'square':'triangle',.072,i*.105);}}
 function luckyWinnerSfx(){[523.25,659.25,783.99,1046.5,1318.51].forEach((f,i)=>tone(f,.18+i*.025,'sine',.12,i*.085));}
-function syncVolume(){document.querySelectorAll('.volume-slider').forEach(x=>x.value=String(Math.round(volume*100)));document.querySelectorAll('.volume-label').forEach(x=>x.textContent=`${Math.round(volume*100)}%`);document.querySelectorAll('.sound-toggle').forEach(x=>x.textContent=(muted||volume===0)?'🔇':volume<.5?'🔉':'🔊');}
+function syncVolume(){document.querySelectorAll('.volume-slider').forEach(x=>x.value=String(Math.round(volume*100)));document.querySelectorAll('.volume-label').forEach(x=>x.textContent=`${Math.round(volume*100)}%`);document.querySelectorAll('.sound-toggle').forEach(x=>x.textContent=(muted||volume===0)?'🔇':volume<.5?'🔉':'🔊');syncFinalCeremonyAudio();}
 
 function stopTensionBed(){
   tensionBedNodes.forEach(node=>{try{node.stop?.();}catch{} try{node.disconnect?.();}catch{}});
@@ -514,14 +521,14 @@ function endRound(){
 }
 function runRevealTimer(){cancelAnimationFrame(revealRaf);if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}const resultIndex=room?.questionIndex;const frame=()=>{if(!room||room.status!=='result')return;const left=Math.max(0,room.resultEndAt-now());els.revealTimer.textContent=(left/1000).toFixed(1);if(left<=0){advanceRound();return;}revealRaf=requestAnimationFrame(frame);};revealRaf=requestAnimationFrame(frame);const wait=Math.max(250,(room?.resultEndAt||now())-now()+700);revealEndGuard=setTimeout(()=>{if(room?.status==='result'&&room.questionIndex===resultIndex)advanceRound();},wait);}
 async function advanceRound(){if(!room||room.status!=='result')return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}cancelAnimationFrame(revealRaf);if(room.questionIndex+1>=fullQuestions.length){finishGame();return;}room.questionIndex+=1;await startRound();}
-async function finishGame(){if(!room)return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}room.status='finished';room.finishedAt=now();room.currentQuestion=null;ensureLuckyAward(room,playerArray(),room.finishedAt);renderFinal();setView('final');void persist();}
+async function finishGame(){if(!room)return;if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}room.status='finished';room.finishedAt=now();room.currentQuestion=null;ensureLuckyAward(room,playerArray(),room.finishedAt);renderFinal();setView('final');startFinalCeremonyMusic();void persist();}
 function renderFinal(){const list=playerArray();els.finalRanking.innerHTML=list.map((p,i)=>`<div class="final-rank-row"><b>${i+1}</b><span>${safeText(p.avatar)}</span><strong>${safeText(p.name)}</strong><em>${Number(p.score||0).toLocaleString()}점</em></div>`).join('');const lucky=ensureLuckyAward(room,list,room.finishedAt||now());renderLuckyAward({anchor:els.finalRanking,award:lucky.award,eligible:lucky.eligible,onDraw:luckyDrawSfx,onReveal:luckyWinnerSfx,startDelay:1100,position:'before'});if(lucky.changed)void persist();}
 
 async function goHome(){
   if(room&&['playing','result','countdown'].includes(room.status)){if(!confirm('진행 중인 문장 배틀을 중단하고 홈으로 돌아가시겠습니까?'))return;}
   clearRuntime();if(bus&&!isDemo){try{await bus.closeRoom();}catch{}}bus=null;room=null;document.body.classList.remove('demo-mode');setView('setup');updateQuestionSelectionUI();
 }
-function clearRuntime(){cancelAnimationFrame(raf);cancelAnimationFrame(revealRaf);stopTensionAudio();if(toastTimer){clearTimeout(toastTimer);toastTimer=null;}if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}els.correctToast?.classList.add('hidden');if(els.fireworksLayer)els.fireworksLayer.innerHTML='';if(countdownTimer)clearTimeout(countdownTimer);roundTimers.forEach(clearTimeout);roundTimers=[];raf=revealRaf=null;countdownTimer=null;}
+function clearRuntime(){cancelAnimationFrame(raf);cancelAnimationFrame(revealRaf);stopTensionAudio();stopFinalCeremonyMusic();if(toastTimer){clearTimeout(toastTimer);toastTimer=null;}if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}els.correctToast?.classList.add('hidden');if(els.fireworksLayer)els.fireworksLayer.innerHTML='';if(countdownTimer)clearTimeout(countdownTimer);roundTimers.forEach(clearTimeout);roundTimers=[];raf=revealRaf=null;countdownTimer=null;}
 
 async function toggleFullscreen(){try{if(!document.fullscreenElement)await document.documentElement.requestFullscreen();else await document.exitFullscreen();}catch{}}
 
