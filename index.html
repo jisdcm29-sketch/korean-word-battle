@@ -2,61 +2,32 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#07152f" />
-  <title>한·몽 한국어 게임 아레나</title>
-  <link rel="stylesheet" href="css/platform.css?v=2.1" />
+  <title>한국어 게임 아레나 · 교사 인증</title>
+  <link rel="stylesheet" href="css/access.css?v=1.0" />
 </head>
 <body>
-  <div class="platform-bg" aria-hidden="true"><i></i><i></i><i></i></div>
-  <main class="platform-shell">
-    <header class="platform-hero">
-      <div class="flags"><span>KR</span><b>⚡</b><span>MN</span></div>
+  <div class="access-bg" aria-hidden="true"></div>
+  <main class="access-shell">
+    <header class="access-hero">
+      <div class="access-flags"><span>KR</span><b>⚡</b><span>MN</span></div>
       <p class="eyebrow">KOREAN · MONGOLIAN GAME PLATFORM</p>
       <h1>한국어 게임 아레나</h1>
+      <p>허가된 교사만 사용할 수 있는 수업용 게임 플랫폼입니다.</p>
     </header>
-
-    <section class="platform-panel platform-main-panel">
-      <div class="compact-head"><h2>게임 선택</h2></div>
-
-      <div id="gameGrid" class="game-grid">
-        <button class="game-card game-word active" type="button" data-game="word">
-          <span class="game-icon">⚡</span><strong>어휘 배틀</strong>
-        </button>
-        <button class="game-card game-sentence" type="button" data-game="sentence">
-          <span class="game-icon">🧩</span><strong>문장 배틀</strong>
-        </button>
-        <button class="game-card game-matching" type="button" data-game="matching">
-          <span class="game-icon">🃏</span><strong>카드 매칭</strong>
-        </button>
-        <button class="game-card game-memory" type="button" data-game="memory">
-          <span class="game-icon">🧠</span><strong>기억력 배틀</strong>
-        </button>
-        <button class="game-card game-combined combined" type="button" data-game="combined">
-          <span class="game-icon">🏆</span><strong>종합 배틀</strong>
-        </button>
-      </div>
-
-      <div class="setup-divider"></div>
-
-      <div class="selection-launch-row">
-        <div class="selection-area">
-          <div class="compact-head selection-head"><h2>교재 · 단원</h2></div>
-          <p id="selectionGuide" class="visually-hidden">어휘 배틀에서 사용할 자료를 선택하세요.</p>
-          <div class="selection-grid">
-            <label class="field"><span>자료 / 교재</span><select id="platformSource"></select></label>
-            <label id="platformBookField" class="field"><span>교재</span><select id="platformBook"></select></label>
-            <label id="platformLessonField" class="field"><span>과</span><select id="platformLesson"></select></label>
-          </div>
-          <div id="selectionSummary" class="visually-hidden"></div>
-        </div>
-
-        <button id="launchBtn" class="launch-btn" type="button">
-          <span id="launchTitle">어휘 배틀 설정으로 이동</span><b>→</b>
-        </button>
-      </div>
+    <section class="access-card">
+      <div class="access-card-head"><div class="access-lock">🔐</div><h2>교사 사용 인증</h2><p>발급받은 인증번호와 허가번호를 입력하세요.<br>허가된 기간과 기기에서만 사용할 수 있습니다.</p></div>
+      <div id="setupWarning" class="setup-warning hidden"><b>관리자 설정 필요</b><br>Google Apps Script 웹 앱 주소가 아직 연결되지 않았습니다.</div>
+      <form id="accessForm" class="access-form" autocomplete="off">
+        <label class="access-field"><span>인증번호</span><input id="authCode" type="password" inputmode="numeric" maxlength="20" placeholder="인증번호 입력" required /></label>
+        <label class="access-field"><span>허가번호</span><input id="permitCode" type="password" maxlength="80" placeholder="허가번호 입력" required /></label>
+        <button id="accessSubmit" class="access-submit" type="submit">인증하고 게임 시작</button>
+        <p id="accessMessage" class="access-message" aria-live="polite">인증 후 허가된 기간 동안 게임을 사용할 수 있습니다.</p>
+      </form>
+      <div class="access-note"><span>사용 권한은 서버에서 주기적으로 다시 확인됩니다.</span><button id="clearAccessBtn" type="button">이 기기의 저장된 인증 지우기</button></div>
     </section>
   </main>
-  <script type="module" src="js/platform.js?v=1.6"></script>
+  <script type="module" src="js/access-login.js?v=1.2"></script>
 </body>
 </html>
