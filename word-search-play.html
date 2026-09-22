@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover" />
+  <meta name="theme-color" content="#06142e" />
+  <title>한·몽 단어 찾기 배틀 · 학생</title>
+  <link rel="stylesheet" href="css/word-search.css?v=1.3" />
+</head>
+<body class="search-player-page">
+  <div class="search-bg player-bg" aria-hidden="true"><i></i><i></i><i></i></div>
+  <main class="phone-shell">
+    <section id="joinView" class="player-screen join-screen"><div class="player-logo">KR <b>🔎</b> MN</div><p class="eyebrow">WORD SEARCH ARENA</p><h1>단어 찾기 배틀</h1><p class="mn-sub">Монгол утгыг хараад солонгос үгийг олоорой.</p><div class="how-strip"><span><b>1</b>몽골어 뜻 확인</span><span><b>2</b>첫 글자부터 스와이프</span><span><b>3</b>한국어 단어 완성</span></div><label class="field"><span>PIN</span><input id="pinInput" inputmode="numeric" maxlength="6" placeholder="6자리 PIN" /></label><label class="field"><span>이름 / Нэр</span><input id="nameInput" maxlength="20" placeholder="이름 또는 별명" /></label><div class="avatar-title">캐릭터 선택</div><div id="avatarGrid" class="avatar-grid"></div><button id="joinBtn" class="btn btn-primary full" type="button">입장하기 🔎</button><p id="joinError" class="error-text"></p></section>
+    <section id="waitingView" class="player-screen center-screen hidden"><div id="myAvatar" class="big-avatar">🐻</div><h2 id="waitingName">입장 완료!</h2><p>선생님이 게임을 시작할 때까지 기다려 주세요.</p><div class="wait-pulse">● ● ●</div></section>
+    <section id="countdownView" class="player-screen center-screen countdown-screen hidden"><p>READY</p><div id="playerCountdown" class="big-countdown">3</div></section>
+    <section id="playView" class="player-screen play-screen hidden">
+      <header class="player-game-head"><div><strong id="playerRoundLabel">ROUND 1/3</strong><span id="foundProgress">0/6개</span></div><div class="head-right"><div class="score-box"><span>내 점수</span><strong id="myScore">0</strong></div><div id="playerTimerText" class="timer-text">60.0</div></div></header>
+      <div class="timer-track"><i id="playerTimerBar"></i></div>
+      <div class="search-guide"><span>몽골어 뜻을 보고 한국어 단어를 찾으세요.</span><b id="comboText">COMBO 0</b></div>
+      <div id="targetList" class="target-list"></div>
+      <div id="letterGrid" class="letter-grid" aria-label="단어 찾기 글자판"></div>
+      <div id="selectionPreview" class="selection-preview">첫 글자에서 마지막 글자까지 손가락으로 연결하세요.</div>
+    </section>
+    <section id="roundWaitView" class="player-screen center-screen round-wait-screen hidden"><div class="round-check">✓</div><h2 id="roundWaitTitle">1판 완료!</h2><p id="roundWaitStats">찾은 단어 6/6개</p><div class="next-round-pulse">다음 판 준비 중…</div></section>
+    <section id="finishView" class="player-screen center-screen finish-screen hidden"><div class="trophy">🏆</div><p class="eyebrow">WORD SEARCH COMPLETE</p><h2 id="finishName">수고했어요!</h2><div class="finish-score"><span>최종 점수</span><strong id="finishScore">0</strong></div><div id="finishRank" class="finish-rank">1위</div><p>교실 화면에서 최종 시상식을 확인하세요.</p><button id="homeBtn" class="btn btn-primary full" type="button">처음으로</button></section>
+  </main>
+  <div id="scoreFloat" class="score-float hidden">+900</div>
+  <script type="module" src="js/word-search-player.js?v=1.3"></script>
+</body>
+</html>
