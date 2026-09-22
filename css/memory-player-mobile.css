@@ -1,0 +1,261 @@
+/* Memory Battle student mobile full-screen layout v1.8
+   Keeps the phone game board full-width/full-height and prevents layout
+   movement when cards are opened or matched. */
+
+.memory-player-page{
+  width:100%;
+  min-height:100dvh;
+  overflow-x:hidden;
+}
+
+.memory-player-page .phone-shell{
+  width:100%;
+  max-width:650px;
+  min-height:100dvh;
+  margin:0 auto;
+}
+
+/* Only force flex layout while the play view is actually visible. */
+.memory-player-page #playView.play-screen:not(.hidden){
+  position:relative;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:stretch!important;
+  justify-content:flex-start!important;
+  width:100%!important;
+  min-height:100dvh!important;
+  height:100dvh!important;
+  max-height:100dvh!important;
+  overflow:hidden!important;
+  gap:6px!important;
+  padding:8px 8px calc(10px + env(safe-area-inset-bottom))!important;
+}
+
+.memory-player-page #playView .player-game-head{
+  flex:0 0 auto;
+  width:100%;
+  min-height:74px;
+  margin:0;
+}
+
+.memory-player-page #playView .timer-track{
+  flex:0 0 8px;
+  width:100%;
+  height:8px;
+  margin:0;
+}
+
+.memory-player-page #playView .memory-guide{
+  flex:0 0 42px;
+  width:100%;
+  height:42px;
+  min-height:42px;
+  margin:0;
+  gap:8px;
+  overflow:hidden;
+}
+
+.memory-player-page #playView .memory-guide>span{
+  flex:1 1 auto;
+  min-width:0;
+  max-height:30px;
+  line-height:1.25;
+  overflow:hidden;
+}
+
+.memory-player-page #playView .memory-guide>b{
+  flex:0 0 auto;
+  white-space:nowrap;
+}
+
+/* The board occupies every remaining pixel, like Card Matching. */
+.memory-player-page #playView #cardBoard.memory-board{
+  flex:1 1 0!important;
+  width:100%!important;
+  min-width:0!important;
+  min-height:0!important;
+  height:auto!important;
+  margin:0!important;
+  padding:10px 8px 14px!important;
+  border-radius:22px!important;
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  grid-auto-flow:row!important;
+  grid-auto-rows:minmax(0,1fr)!important;
+  gap:8px!important;
+  align-content:stretch!important;
+  justify-content:stretch!important;
+  overflow:hidden!important;
+  box-shadow:inset 0 1px rgba(255,255,255,.03),0 15px 32px rgba(0,0,0,.2);
+}
+
+/* Every card permanently owns its grid slot. Opening/matching changes only
+   the face, never width/height/position. */
+.memory-player-page #playView .memory-card{
+  width:100%!important;
+  height:100%!important;
+  min-width:0!important;
+  min-height:0!important;
+  margin:0!important;
+  transform:none!important;
+  align-self:stretch!important;
+  justify-self:stretch!important;
+}
+
+.memory-player-page #playView .memory-card.face-up,
+.memory-player-page #playView .memory-card.matched{
+  transform:none!important;
+}
+
+.memory-player-page #playView .memory-card .card-face{
+  width:100%;
+  height:100%;
+  min-width:0;
+  min-height:0;
+  overflow:hidden;
+}
+
+/* Feedback is a reserved fixed row, so a correct/wrong message cannot push
+   the card board up or down. */
+.memory-player-page #playView .pair-feedback{
+  flex:0 0 28px;
+  width:100%;
+  height:28px;
+  min-height:28px;
+  margin:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+@media(max-width:760px){
+  .memory-player-page .phone-shell{
+    width:100vw!important;
+    max-width:none!important;
+    margin:0!important;
+  }
+
+  .memory-player-page #playView.play-screen:not(.hidden){
+    width:100vw!important;
+    max-width:100vw!important;
+  }
+}
+
+@media(max-width:420px){
+  .memory-player-page #playView #cardBoard.memory-board{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:7px!important;
+    padding:8px 6px 12px!important;
+  }
+
+  .memory-player-page #playView .player-game-head{
+    min-height:68px;
+  }
+
+  .memory-player-page #playView .memory-guide{
+    flex-basis:38px;
+    height:38px;
+    min-height:38px;
+  }
+
+  .memory-player-page #playView .memory-card:before{
+    font-size:clamp(25px,8vw,31px);
+  }
+}
+
+@media(max-height:720px){
+  .memory-player-page #playView.play-screen:not(.hidden){
+    gap:5px!important;
+    padding-top:6px!important;
+  }
+
+  .memory-player-page #playView .player-game-head{
+    min-height:62px;
+    padding-top:6px;
+    padding-bottom:6px;
+  }
+
+  .memory-player-page #playView .memory-guide{
+    flex-basis:36px;
+    height:36px;
+    min-height:36px;
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+
+  .memory-player-page #playView .pair-feedback{
+    flex-basis:24px;
+    height:24px;
+    min-height:24px;
+  }
+}
+
+/* V1.8.1 - Larger vocabulary text without changing card geometry. */
+.memory-player-page #playView .memory-card .card-face{
+  font-size:clamp(20px,4.6vw,28px)!important;
+  line-height:1.12!important;
+  font-weight:1000!important;
+  letter-spacing:-.025em!important;
+  padding:9px 8px!important;
+  word-break:keep-all!important;
+  overflow-wrap:anywhere!important;
+  text-wrap:balance;
+}
+.memory-player-page #playView .memory-card.lang-mn .card-face{
+  font-size:clamp(18px,4.2vw,25px)!important;
+  line-height:1.12!important;
+  word-break:break-word!important;
+}
+.memory-player-page #playView .memory-card.text-medium .card-face{
+  font-size:clamp(17px,3.8vw,23px)!important;
+}
+.memory-player-page #playView .memory-card.lang-mn.text-medium .card-face{
+  font-size:clamp(16px,3.6vw,21px)!important;
+}
+.memory-player-page #playView .memory-card.text-long .card-face{
+  font-size:clamp(14px,3.2vw,19px)!important;
+  line-height:1.1!important;
+  padding:7px 6px!important;
+}
+.memory-player-page #playView .memory-card.lang-mn.text-long .card-face{
+  font-size:clamp(13.5px,3vw,18px)!important;
+}
+.memory-player-page #playView .memory-card.text-xlong .card-face{
+  font-size:clamp(12.5px,2.8vw,16px)!important;
+  line-height:1.08!important;
+  padding:6px 5px!important;
+}
+.memory-player-page #playView .memory-card.lang-mn.text-xlong .card-face{
+  font-size:clamp(12px,2.7vw,15.5px)!important;
+}
+
+@media(max-width:390px){
+  .memory-player-page #playView .memory-card .card-face{
+    font-size:clamp(19px,5.2vw,22px)!important;
+    padding:7px 5px!important;
+  }
+  .memory-player-page #playView .memory-card.lang-mn .card-face{
+    font-size:clamp(17px,4.8vw,20px)!important;
+  }
+  .memory-player-page #playView .memory-card.text-medium .card-face{
+    font-size:clamp(15.5px,4.25vw,18px)!important;
+  }
+  .memory-player-page #playView .memory-card.lang-mn.text-medium .card-face{
+    font-size:clamp(14.5px,4vw,17px)!important;
+  }
+  .memory-player-page #playView .memory-card.text-long .card-face{
+    font-size:clamp(13px,3.6vw,15px)!important;
+  }
+  .memory-player-page #playView .memory-card.lang-mn.text-long .card-face{
+    font-size:clamp(12.5px,3.45vw,14.5px)!important;
+  }
+  .memory-player-page #playView .memory-card.text-xlong .card-face{
+    font-size:clamp(11.5px,3.15vw,13.5px)!important;
+  }
+  .memory-player-page #playView .memory-card.lang-mn.text-xlong .card-face{
+    font-size:clamp(11px,3vw,13px)!important;
+  }
+}
