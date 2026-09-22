@@ -36,13 +36,27 @@ function fitLetterGrid(){
   const padding=size<=6?7:size<=8?6:4;
   const usable=Math.max(120,board-padding*2-gap*(size-1));
   const cell=usable/size;
-  const font=Math.max(12,Math.min(46,Math.floor(cell*(size<=6?.56:size<=8?.52:.48))));
+  // V1.4: Korean board letters are slightly smaller so the Mongolian targets can carry equal visual weight.
+  const font=Math.max(12,Math.min(40,Math.floor(cell*(size<=6?.49:size<=8?.46:.43))));
   const radius=Math.max(4,Math.min(12,Math.floor(cell*.18)));
   grid.style.setProperty('--board-px',`${Math.floor(board)}px`);
   grid.style.setProperty('--cell-font',`${font}px`);
   grid.style.setProperty('--grid-gap',`${gap}px`);
   grid.style.setProperty('--grid-pad',`${padding}px`);
   grid.style.setProperty('--cell-radius',`${radius}px`);
+
+  // Make Mongolian target words as large as the Korean board letters whenever they fit.
+  // Longer Mongolian words are reduced only enough to stay within two lines.
+  const chips=[...$('targetList').querySelectorAll('.target-chip')];
+  chips.forEach((chip)=>{
+    const text=String(chip.textContent||'').trim();
+    const chars=Math.max(1,Array.from(text).length);
+    const foundReserve=chip.classList.contains('found')?24:0;
+    const usableW=Math.max(54,chip.clientWidth-12-foundReserve);
+    const twoLineFit=Math.floor((usableW*2)/(chars*.62));
+    const targetFont=Math.max(18,Math.min(font,twoLineFit));
+    chip.style.setProperty('--target-font',`${targetFont}px`);
+  });
 }
 function scheduleGridFit(){cancelAnimationFrame(fitRaf);fitRaf=requestAnimationFrame(()=>{fitRaf=requestAnimationFrame(fitLetterGrid);});}
 function renderGrid(r,found,foundPaths=[]){const grid=$('letterGrid'),colors=targetColorMap(r);grid.style.setProperty('--size',r.size);if(grid.dataset.roundId!==r.id){grid.dataset.roundId=r.id;grid.innerHTML=r.grid.map((ch,i)=>`<button type="button" class="letter-cell" data-index="${i}">${esc(ch)}</button>`).join('');startIndex=null;path=[];}const cellMarks=new Map();for(const fp of foundPaths){if(!Array.isArray(fp?.cells)||!found.has(fp.id))continue;const color=colors.get(String(fp.id));if(!color)continue;for(const idx of fp.cells){const key=Number(idx);if(!Number.isInteger(key))continue;const list=cellMarks.get(key)||[];if(!list.some(c=>c.bg===color.bg))list.push(color);cellMarks.set(key,list);}}grid.querySelectorAll('.letter-cell').forEach(x=>{const idx=Number(x.dataset.index),marks=cellMarks.get(idx)||[];x.classList.remove('selecting','found','found-multi');x.style.removeProperty('--word-bg');x.style.removeProperty('--word-fg');x.style.removeProperty('--word-shadow');x.style.removeProperty('--word-bg-2');if(marks.length){x.classList.add('found');x.style.setProperty('--word-bg',marks[0].bg);x.style.setProperty('--word-fg',marks[0].fg);x.style.setProperty('--word-shadow',marks[0].shadow);if(marks.length>1){x.classList.add('found-multi');x.style.setProperty('--word-bg-2',marks[1].bg);}}});scheduleGridFit();}
