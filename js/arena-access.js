@@ -1,7 +1,7 @@
 import { requireTeacherAccess, isGameAllowedForAccess, logoutTeacher } from './access-control.js?v=1.3';
 
 const access=await requireTeacherAccess({game:'arena'});
-const gameNames={word:'어휘 배틀',sentence:'문장 배틀',matching:'카드 매칭',memory:'기억력 배틀',combined:'종합 배틀'};
+const gameNames={word:'어휘 배틀',sentence:'문장 배틀',matching:'카드 매칭',memory:'기억력 배틀',search:'단어 찾기 배틀',combined:'종합 배틀'};
 document.querySelectorAll('.game-card[data-game]').forEach(card=>{
   const game=card.dataset.game;
   if(!isGameAllowedForAccess(access,game)){
