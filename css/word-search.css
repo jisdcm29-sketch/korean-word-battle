@@ -27,3 +27,47 @@
 @media(max-height:680px) and (max-width:650px){.target-list{gap:4px}.target-chip{min-height:32px;padding:4px;font-size:12.5px}.selection-preview{min-height:22px}}
 
 /* V1.3: larger Mongolian targets + per-word matched colors shared by target chip and grid path. */
+
+/* V1.4: target typography balance ------------------------------------------------
+   Teacher: Mongolian targets are centered and use the same font size as the board.
+   Student: Mongolian targets grow to near board-letter size; Korean board letters are
+   slightly reduced by JS so both scripts carry similar visual weight. */
+.host-targets{align-items:stretch}
+.host-target{
+  min-height:64px;
+  padding:8px 12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.host-target strong{
+  display:block;
+  width:100%;
+  font-size:var(--host-mn-font,28px)!important;
+  line-height:1.02;
+  font-weight:1000;
+  color:#f5fbff;
+  letter-spacing:-.025em;
+  overflow-wrap:anywhere;
+}
+.host-target span,.host-target>b{display:none!important}
+
+.search-player-page .target-chip{
+  min-height:68px;
+  padding:8px 6px;
+  font-size:var(--target-font,26px)!important;
+  line-height:1.02;
+  font-weight:1000;
+  letter-spacing:-.035em;
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
+.search-player-page .target-chip.found:before{font-size:.78em;flex:0 0 auto}
+
+@media(max-width:480px){
+  .search-player-page .target-chip{min-height:64px;padding:7px 4px}
+}
+@media(max-height:680px) and (max-width:650px){
+  .search-player-page .target-chip{min-height:58px!important;padding:5px 4px!important;font-size:var(--target-font,22px)!important}
+}
