@@ -71,3 +71,25 @@
 @media(max-height:680px) and (max-width:650px){
   .search-player-page .target-chip{min-height:58px!important;padding:5px 4px!important;font-size:var(--target-font,22px)!important}
 }
+
+
+/* V1.5: click/tap selection ---------------------------------------------------
+   First tap selects a start cell. Second tap selects the end cell. */
+.letter-cell.selecting,.letter-cell.found.selecting,.letter-cell.found-multi.selecting{
+  background:linear-gradient(180deg,#fff3a9,#ffd75d)!important;
+  color:#402f00!important;
+  transform:scale(.96);
+  box-shadow:0 3px 0 #b98a23!important;
+}
+.letter-cell.selection-start{
+  outline:3px solid #37d8ff;
+  outline-offset:-3px;
+  box-shadow:0 0 0 2px rgba(55,216,255,.28),0 3px 0 #1688a8!important;
+}
+
+/* V1.6: teacher-side correct-answer gift shower -----------------------------
+   Mirrors the existing vocabulary battle effect. The animation is rendered
+   only on the teacher/host screen; student phones remain unchanged. */
+.gift-shower{position:fixed;inset:0;z-index:140;pointer-events:none;overflow:hidden;contain:layout paint}
+.gift{position:absolute;top:-12vh;left:var(--gift-x,50%);font-size:var(--gift-size,42px);line-height:1;filter:drop-shadow(0 8px 8px rgba(24,45,86,.24));will-change:transform,opacity;animation:giftFall var(--gift-duration,1.9s) cubic-bezier(.16,.72,.24,1) var(--gift-delay,0s) both}
+@keyframes giftFall{0%{transform:translate3d(0,-10vh,0) rotate(0deg) scale(.72);opacity:0}8%{opacity:1}78%{opacity:1}100%{transform:translate3d(var(--gift-drift,0px),118vh,0) rotate(var(--gift-rotate,540deg)) scale(1.08);opacity:0}}
