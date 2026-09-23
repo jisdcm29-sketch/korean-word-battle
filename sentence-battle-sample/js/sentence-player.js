@@ -1,4 +1,4 @@
-import { SentencePlayerBus } from './sentence-live.js?v=3.0';
+import { SentencePlayerBus } from './sentence-live.js?v=3.1';
 
 const $=id=>document.getElementById(id);
 const els={joinView:$('joinView'),waitView:$('waitView'),countdownView:$('countdownView'),playView:$('playView'),resultView:$('resultView'),studentFinalView:$('studentFinalView'),closedView:$('closedView'),pinInput:$('pinInput'),nameInput:$('nameInput'),avatarGrid:$('avatarGrid'),joinBtn:$('joinBtn'),joinMessage:$('joinMessage'),myAvatar:$('myAvatar'),waitName:$('waitName'),waitPin:$('waitPin'),studentCountdown:$('studentCountdown'),studentQuestion:$('studentQuestion'),studentScore:$('studentScore'),studentTimer:$('studentTimer'),studentTimerBar:$('studentTimerBar'),studentAnswer:$('studentAnswer'),studentCards:$('studentCards'),submitState:$('submitState'),undoBtn:$('undoBtn'),resetBtn:$('resetBtn'),submitBtn:$('submitBtn'),studentReveal:$('studentReveal'),myRoundResult:$('myRoundResult'),myFinalScore:$('myFinalScore'),myFinalRank:$('myFinalRank'),studentFinalRanking:$('studentFinalRanking'),leaveBtn:$('leaveBtn'),closedHomeBtn:$('closedHomeBtn')};

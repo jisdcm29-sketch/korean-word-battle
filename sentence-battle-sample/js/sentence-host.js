@@ -1,6 +1,12 @@
-import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.0';
+import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.1';
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
-import { requireTeacherAccess } from '../../js/access-control.js?v=1.3';
+import { requireTeacherAccess } from '../../js/access-control.js?v=1.4';
+function buildStudentEntryUrl(pin){
+  const nested=location.pathname.includes('/sentence-battle-sample/');
+  const u=new URL(nested?'../join.html':'join.html',location.href);
+  u.searchParams.set('pin',String(pin||''));
+  return u;
+}
 
 await requireTeacherAccess({ game:'sentence' });
 
@@ -12,7 +18,7 @@ const TEACHER_STORE_PREFIX='kwb_sentence_teacher_v1';
 let teacherQuestions=[];
 
 // Phase 4: 늦게 도착한 문장 제출을 원래 제출 시각 순으로 다시 채점합니다.
-const PHASE4_RECEIPT_WINDOW_MS=120000;
+const PHASE4_RECEIPT_WINDOW_MS=30*60*1000;
 const PHASE4_TAP_TOLERANCE_MS=800;
 function phase4SentenceHistory(){if(!room)return null;room._phase4SentenceHistory||={};return room._phase4SentenceHistory;}
 function phase4EnsureSentenceRecord(index,startAt,endAt){const all=phase4SentenceHistory();if(!all)return null;const key=String(Number(index));all[key]||={index:Number(index),startAt:Number(startAt)||0,endAt:Number(endAt)||0,submissions:{},awards:{},results:{}};if(startAt)all[key].startAt=Number(startAt);if(endAt)all[key].endAt=Number(endAt);return all[key];}
@@ -422,7 +428,7 @@ function renderPromptCards(){
 }
 function renderGameMeta(){els.questionLabel.textContent=`Q ${room.questionIndex+1}/${fullQuestions.length}`;els.roundNumber.textContent=String(room.questionIndex+1);els.playerCount.textContent=String(activePlayerCount());els.submittedTotal.textContent=String(activePlayerCount());els.submittedCount.textContent=String(room.answerCount||0);renderPromptCards();renderRank();}
 
-function buildJoinUrl(){const u=new URL('play.html',location.href);u.searchParams.set('pin',room.pin);return u.href;}
+function buildJoinUrl(){return buildStudentEntryUrl(room.pin).href;}
 function renderQr(url){els.qrBox.innerHTML='';if(window.QRCode)new QRCode(els.qrBox,{text:url,width:170,height:170,correctLevel:QRCode.CorrectLevel.M});else els.qrBox.textContent='QR 로드 실패';}
 
 async function createRoom(demo=false){

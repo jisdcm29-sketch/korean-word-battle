@@ -6,6 +6,12 @@ import {
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig, isFirebaseConfigured } from '../../js/firebase-config.js?v=7.4';
 
+
+const SENTENCE_PENDING_MAX_AGE_MS=30*60*1000;
+function registerOfflineWorker(){try{if(!('serviceWorker' in navigator))return;const url=new URL('../../sw.js',import.meta.url);navigator.serviceWorker.register(url).catch(()=>{});}catch{}}
+function updateNetworkBadge(connected){if(typeof document==='undefined')return;let el=document.querySelector('.kwb-network-badge');if(!el){el=document.createElement('div');el.className='kwb-network-badge';Object.assign(el.style,{position:'fixed',left:'12px',bottom:'10px',zIndex:'99998',padding:'8px 12px',borderRadius:'999px',font:'800 12px/1.25 system-ui,sans-serif',boxShadow:'0 8px 24px rgba(0,0,0,.25)',pointerEvents:'none'});document.body?.appendChild(el);}if(!el)return;if(!connected){el.dataset.offline='1';el.textContent='⚠ 인터넷 연결 끊김 · 게임 계속 진행 · 답안 저장 중';el.style.background='rgba(117,72,0,.94)';el.style.color='#fff2bd';el.style.display='block';el.style.opacity='1';}else{delete el.dataset.offline;el.textContent='✓ 인터넷 연결 복구 · 자동 동기화 중';el.style.background='rgba(5,92,67,.94)';el.style.color='#d7fff1';el.style.display='block';el.style.opacity='1';setTimeout(()=>{if(el&&!el.dataset.offline)el.style.opacity='0';},2400);}}
+registerOfflineWorker();
+
 let ctxPromise = null;
 let serverOffset = 0;
 let offsetUnsub = null;
@@ -80,6 +86,8 @@ export class SentenceHostBus{
     this.unsubs=[];
     this.writeQueue=Promise.resolve();
     this.closed=false;
+    this.pendingHostState=null;
+    this.hostWriteInFlight=false;
     this.disconnectOp=null;
     this.connected=true;
   }
@@ -101,8 +109,8 @@ export class SentenceHostBus{
     const connectedRef=ref(db,'.info/connected');
     const unsub=onValue(connectedRef,snap=>{
       const next=snap.val()===true;
-      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});}
-      if(next&&!this.closed)this._rearmDisconnectMarker().catch(err=>console.warn('문장 배틀 호스트 재연결 복구 실패:',err));
+      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});updateNetworkBadge(next);}
+      if(next&&!this.closed)this._rearmDisconnectMarker().then(()=>this._flushHostState()).catch(err=>console.warn('문장 배틀 호스트 재연결 복구 실패:',err));
     });
     this.unsubs.push(unsub);
     return this;
@@ -132,13 +140,22 @@ export class SentenceHostBus{
       throw err;
     }
   }
+  _hostCheckpointKey(){return `kwb_sentence_host_checkpoint_v1_${this.pin}`;}
+  _cacheHostState(state){try{localStorage.setItem(this._hostCheckpointKey(),JSON.stringify({savedAt:Date.now(),state}));}catch{}}
+  _flushHostState(){
+    if(!this.db||this.closed||!this.connected||this.hostWriteInFlight||!this.pendingHostState)return Promise.resolve();
+    const state=this.pendingHostState;this.pendingHostState=null;this.hostWriteInFlight=true;
+    const task=update(ref(this.db,`rooms/${this.pin}/state`),state).catch(err=>{if(!this.pendingHostState)this.pendingHostState=state;console.warn('문장 배틀 상태 동기화 대기:',err);}).finally(()=>{this.hostWriteInFlight=false;if(this.connected&&this.pendingHostState&&!this.closed)setTimeout(()=>this._flushHostState(),0);});
+    this.writeQueue=task;return task;
+  }
   saveState(state){
     if(!this.db||this.closed) return Promise.resolve();
     const resilientState={...state,hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()};
-    // 사전 다운로드 패키지는 createRoom에서 한 번 저장하고 이후에는 유지합니다.
     delete resilientState.offlinePackage;
-    this.writeQueue=this.writeQueue.catch(()=>{}).then(()=>update(ref(this.db,`rooms/${this.pin}/state`),resilientState));
-    return this.writeQueue;
+    this._cacheHostState(resilientState);
+    this.pendingHostState=resilientState;
+    if(this.connected)this._flushHostState().catch(()=>{});
+    return Promise.resolve({queued:!this.connected});
   }
   async closeRoom(){
     if(!this.db||this.closed) return;
@@ -198,13 +215,13 @@ export class SentencePlayerBus{
   }
   _readPending(){
     const key=this._pendingKey();if(!key)return[];
-    try{const list=JSON.parse(localStorage.getItem(key)||'[]');if(!Array.isArray(list))return[];const fresh=list.filter(x=>x?.id&&Date.now()-Number(x.queuedAt||0)<=10*60*1000);if(fresh.length!==list.length)localStorage.setItem(key,JSON.stringify(fresh));return fresh;}catch{return[];}
+    try{const list=JSON.parse(localStorage.getItem(key)||'[]');if(!Array.isArray(list))return[];const fresh=list.filter(x=>x?.id&&Date.now()-Number(x.queuedAt||0)<=SENTENCE_PENDING_MAX_AGE_MS);if(fresh.length!==list.length)localStorage.setItem(key,JSON.stringify(fresh));return fresh;}catch{return[];}
   }
   _writePending(list){const key=this._pendingKey();if(!key)return;try{if(list.length)localStorage.setItem(key,JSON.stringify(list));else localStorage.removeItem(key);}catch{}}
   _queue(type,payload={}){
     const at=this.now(),id=`${this.uid||'u'}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,10)}`;
     const item={id,type,at,queuedAt:Date.now(),payload:{...payload,uid:this.uid,clientAt:at}};
-    const list=this._readPending();list.push(item);this._writePending(list.slice(-80));return item;
+    const list=this._readPending();list.push(item);this._writePending(list.slice(-500));return item;
   }
   async _deliver(item){
     const msgRef=ref(this.db,`rooms/${this.pin}/inbox/${item.id}`);
@@ -227,7 +244,7 @@ export class SentencePlayerBus{
     const connectedRef=ref(db,'.info/connected');
     const connUnsub=onValue(connectedRef,snap=>{
       const next=snap.val()===true;
-      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});this._domEvent('kwb-connection',{connected:next});}
+      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});this._domEvent('kwb-connection',{connected:next});updateNetworkBadge(next);}
       if(next)this._flush().catch(()=>{});
     });
     this.unsubs.push(connUnsub);
