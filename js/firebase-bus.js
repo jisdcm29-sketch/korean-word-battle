@@ -8,6 +8,19 @@ import { firebaseConfig, isFirebaseConfigured } from './firebase-config.js?v=7.3
 
 export { isFirebaseConfigured };
 
+const KWB_PENDING_MAX_AGE_MS=30*60*1000;
+function registerOfflineWorker(){try{if(!('serviceWorker' in navigator))return;const url=new URL('../sw.js',import.meta.url);navigator.serviceWorker.register(url).catch(()=>{});}catch{}}
+function updateNetworkBadge(connected){
+  if(typeof document==='undefined')return;
+  let el=document.querySelector('.kwb-network-badge');
+  if(!el){el=document.createElement('div');el.className='kwb-network-badge';Object.assign(el.style,{position:'fixed',left:'12px',bottom:'10px',zIndex:'99998',padding:'8px 12px',borderRadius:'999px',font:'800 12px/1.25 system-ui,sans-serif',boxShadow:'0 8px 24px rgba(0,0,0,.25)',pointerEvents:'none',transition:'opacity .2s ease'});document.body?.appendChild(el);}
+  if(!el)return;
+  if(!connected){el.dataset.offline='1';el.textContent='⚠ 인터넷 연결 끊김 · 게임 계속 진행 · 답안 저장 중';el.style.background='rgba(117,72,0,.94)';el.style.color='#fff2bd';el.style.border='1px solid rgba(255,211,96,.45)';el.style.display='block';el.style.opacity='1';}
+  else{delete el.dataset.offline;el.textContent='✓ 인터넷 연결 복구 · 자동 동기화 중';el.style.background='rgba(5,92,67,.94)';el.style.color='#d7fff1';el.style.border='1px solid rgba(91,235,184,.42)';el.style.display='block';el.style.opacity='1';setTimeout(()=>{if(el&&!el.dataset.offline)el.style.opacity='0';},2400);}
+}
+registerOfflineWorker();
+
+
 let contextPromise = null;
 let serverOffset = 0;
 let offsetUnsubscribe = null;
@@ -417,6 +430,8 @@ export class FirebaseBus {
     this.hostDisconnected = false;
     this.offlinePackage = null;
     this.packageCached = false;
+    this.pendingHostState = null;
+    this.hostWriteInFlight = false;
   }
 
   on(fn) {
@@ -539,7 +554,7 @@ export class FirebaseBus {
     try {
       const list = JSON.parse(localStorage.getItem(key) || '[]');
       if (!Array.isArray(list)) return [];
-      const fresh = list.filter((item) => item?.id && Date.now() - Number(item.queuedAt || 0) <= 10 * 60 * 1000);
+      const fresh = list.filter((item) => item?.id && Date.now() - Number(item.queuedAt || 0) <= KWB_PENDING_MAX_AGE_MS);
       if (fresh.length !== list.length) localStorage.setItem(key, JSON.stringify(fresh));
       return fresh;
     } catch {
@@ -568,7 +583,7 @@ export class FirebaseBus {
     };
     const list = this._readPending();
     list.push(item);
-    this._writePending(list.slice(-80));
+    this._writePending(list.slice(-500));
     return item;
   }
 
@@ -610,6 +625,22 @@ export class FirebaseBus {
     }
   }
 
+  _hostCheckpointKey(){ return `kwb_host_checkpoint_v1_${this.pin}`; }
+
+  _cacheHostState(state){
+    if(this.role!=='host'||!state)return;
+    try{localStorage.setItem(this._hostCheckpointKey(),JSON.stringify({savedAt:Date.now(),state}));}catch{}
+  }
+
+  _flushHostState(){
+    if(this.role!=='host'||!this.db||this.closed||!this.connected||this.hostWriteInFlight||!this.pendingHostState)return Promise.resolve();
+    const state=this.pendingHostState;this.pendingHostState=null;this.hostWriteInFlight=true;
+    const task=update(ref(this.db,`rooms/${this.pin}/state`),state)
+      .catch(err=>{if(!this.pendingHostState)this.pendingHostState=state;console.warn('Firebase host state sync paused; latest state will retry after reconnect:',err);})
+      .finally(()=>{this.hostWriteInFlight=false;if(this.connected&&this.pendingHostState&&!this.closed)setTimeout(()=>this._flushHostState(),0);});
+    this.writeQueue=task;return task;
+  }
+
   async _rearmHostDisconnectMarker() {
     if (this.role !== 'host' || !this.db || this.closed) return;
     const ownerSnapshot = await get(ref(this.db, `rooms/${this.pin}/ownerUid`));
@@ -632,9 +663,11 @@ export class FirebaseBus {
         this._dispatch({ type:'connection', connected, at:this.now() });
         this._domEvent('kwb-connection', { connected });
       }
+      if(changed||!connected) updateNetworkBadge(connected);
       if (connected && this.role === 'host' && !this.closed) {
         this._attachHostInboxListener()
           .then(() => this._rearmHostDisconnectMarker())
+          .then(() => this._flushHostState())
           .catch((err) => {
             console.warn('Firebase host reconnect recovery failed:', err);
           });
@@ -757,6 +790,7 @@ export class FirebaseBus {
       initialState.hostDisconnectedAt = null;
       initialState.hostUpdatedAt = serverTimestamp();
       await set(ref(this.db, `rooms/${this.pin}/state`), initialState);
+      this._cacheHostState(initialState);
       await this._attachHostInboxListener();
 
       await this._rearmHostDisconnectMarker();
@@ -769,15 +803,14 @@ export class FirebaseBus {
   saveRoom(room) {
     if (!this.db || this.closed) return Promise.resolve();
     const state = publicRoomState(room);
-    // Phase 3 패키지는 방 생성 시 한 번만 저장하고 이후 상태 갱신 때는 다시 쓰지 않습니다.
-    // RTDB의 update()를 사용하면 state/offlinePackage는 그대로 유지되어 통신량이 크게 줄어듭니다.
+    // 오프라인 패키지는 방 생성 시 1회 저장하고 이후에는 최신 상태만 동기화합니다.
     delete state.offlinePackage;
     state.hostDisconnectedAt = null;
     state.hostUpdatedAt = serverTimestamp();
-    this.writeQueue = this.writeQueue
-      .catch(() => {})
-      .then(() => update(ref(this.db, `rooms/${this.pin}/state`), state));
-    return this.writeQueue;
+    this._cacheHostState(state);
+    this.pendingHostState = state; // 여러 변경은 최신 상태 1개로 합쳐서 전송합니다.
+    if (this.connected) this._flushHostState().catch(()=>{});
+    return Promise.resolve({queued:!this.connected});
   }
 
   async send(type, payload = {}) {

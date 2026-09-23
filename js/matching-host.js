@@ -2,10 +2,16 @@ import { CATALOG } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildMatchingRounds, calculateMatchingPairScore, calculateRoundClearBonus, isMatchingBlind } from './matching-engine.js';
 import { LocalBus } from './local-bus.js?v=7.6';
-import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.0';
+import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.3';
+import { requireTeacherAccess } from './access-control.js?v=1.4';
+function buildStudentEntryUrl(pin){
+  const nested=location.pathname.includes('/sentence-battle-sample/');
+  const u=new URL(nested?'../join.html':'join.html',location.href);
+  u.searchParams.set('pin',String(pin||''));
+  return u;
+}
 
 await requireTeacherAccess({ game:'matching' });
 
@@ -39,7 +45,7 @@ let closingRound = false;
 let toastTimer = null;
 
 // Phase 4: 과거 라운드의 지연 매칭도 실제 터치 시각을 기준으로 복구합니다.
-const PHASE4_RECEIPT_WINDOW_MS = 120000;
+const PHASE4_RECEIPT_WINDOW_MS = 30 * 60 * 1000;
 const PHASE4_TAP_TOLERANCE_MS = 800;
 function phase4MatchingHistory(){if(!room)return null;room._phase4MatchingHistory||={};return room._phase4MatchingHistory;}
 function phase4EnsureMatchingRecord(index,startAt,endAt){const all=phase4MatchingHistory();if(!all)return null;const key=String(Number(index));all[key]||={index:Number(index),startAt:Number(startAt)||0,endAt:Number(endAt)||0,players:{}};if(startAt)all[key].startAt=Number(startAt);if(endAt)all[key].endAt=Number(endAt);return all[key];}
@@ -331,7 +337,7 @@ async function createRoom(demoMode=false){
     else { bus=new FirebaseBus(pin,'host'); bus.on(handleMessage); await bus.init(); room.createdAt=nowMs(); await bus.createRoom(room); }
     if(demoMode) addDemoStudents(10,false); else persistAndBroadcast();
     $('setupView').classList.add('hidden'); $('hostView').classList.remove('hidden'); showHostSubView('lobbyView'); $('roomPin').textContent=pin;
-    const url=new URL('matching-play.html',location.href); url.searchParams.set('pin',pin); if(bus.mode==='local') url.searchParams.set('local','1'); $('joinUrl').textContent=url.href; $('openPlayerBtn').onclick=()=>window.open(url.href,'_blank'); renderQr(url.href); renderLobby(); startLoop();
+    const url=bus.mode==='local'?new URL('matching-play.html',location.href):buildStudentEntryUrl(pin); if(bus.mode==='local'){url.searchParams.set('pin',pin);url.searchParams.set('local','1');} $('joinUrl').textContent=url.href; $('openPlayerBtn').onclick=()=>window.open(url.href,'_blank'); renderQr(url.href); renderLobby(); startLoop();
     lastCountdownNumber=null; lastTimerTick=null; blindTransitionPlayed=false; setMusicMode('lobby'); audio.startBgm('lobby');
     if(demoMode) toast('가상 학생 10명이 입장했습니다. [게임 시작]을 누르면 시연이 시작됩니다.');
   }catch(e){toast(e?.message||'게임방을 만들지 못했습니다.');}

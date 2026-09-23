@@ -1,5 +1,5 @@
 import { LocalBus, publicRoomState as localPublicRoomState } from './local-bus.js?v=7.6';
-import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.0';
+import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.2';
 import { calculateMatchingPairScore, calculateRoundClearBonus } from './matching-engine.js';
 
 const $=(id)=>document.getElementById(id);

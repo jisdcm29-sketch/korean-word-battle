@@ -10,8 +10,34 @@ const PLAY_ONLY_BLOCKED_SELECTORS = [
 let watchTimer = null;
 let expiryTimer = null;
 let redirecting = false;
+let networkListenersAttached = false;
+let accessNetworkOffline = false;
 
 function nowMs(){ return Date.now(); }
+
+function registerOfflineWorker(){
+  try{
+    if(!('serviceWorker' in navigator))return;
+    if(location.protocol!=='https:'&&location.hostname!=='localhost'&&location.hostname!=='127.0.0.1')return;
+    const url=new URL('../sw.js',import.meta.url);
+    navigator.serviceWorker.register(url).catch(()=>{});
+  }catch{}
+}
+registerOfflineWorker();
+
+function setAccessNetworkBadge(offline,message=''){
+  accessNetworkOffline=Boolean(offline);
+  let badge=document.querySelector('.kwb-network-badge');
+  if(!badge){
+    badge=document.createElement('div');badge.className='kwb-network-badge';
+    Object.assign(badge.style,{position:'fixed',left:'12px',bottom:'10px',zIndex:'99999',padding:'8px 12px',borderRadius:'999px',font:'800 12px/1.25 system-ui,sans-serif',boxShadow:'0 8px 24px rgba(0,0,0,.25)',pointerEvents:'none',transition:'opacity .2s ease'});
+    document.body?.appendChild(badge);
+  }
+  if(!badge)return;
+  if(offline){badge.textContent=message||'⚠ 인터넷 연결 끊김 · 게임은 계속 진행됩니다';badge.style.background='rgba(117,72,0,.94)';badge.style.color='#fff2bd';badge.style.border='1px solid rgba(255,211,96,.45)';badge.style.opacity='1';badge.style.display='block';}
+  else{badge.textContent='✓ 인터넷 연결 복구 · 자동 동기화 중';badge.style.background='rgba(5,92,67,.94)';badge.style.color='#d7fff1';badge.style.border='1px solid rgba(91,235,184,.42)';badge.style.display='block';badge.style.opacity='1';setTimeout(()=>{if(!accessNetworkOffline&&badge)badge.style.opacity='0';},2400);}
+}
+
 function clean(v){ return String(v ?? '').trim(); }
 function apiReady(){ return /^https:\/\/script\.google\.com\/macros\/s\/.+\/exec(?:\?.*)?$/i.test(clean(ACCESS_API_URL)); }
 
@@ -173,7 +199,13 @@ export async function validateTeacherAccess({force=false}={}){
     access=saveAccess({...access,...data,lastCheckedAt:nowMs()});
     return {ok:true,access,cached:false};
   }catch(err){
-    return {ok:false,code:err?.message==='ACCESS_API_NOT_CONFIGURED'?'NOT_CONFIGURED':'NETWORK',message:'사용 권한 서버를 확인할 수 없습니다.'};
+    const code=err?.message==='ACCESS_API_NOT_CONFIGURED'?'NOT_CONFIGURED':'NETWORK';
+    // 이미 정상 인증된 세션은 네트워크 장애만으로 종료하지 않습니다.
+    // 만료 시각은 이 기기에서 계속 검사하고, 연결 복구 후 서버 검증을 다시 수행합니다.
+    if(access?.sessionToken && (!expiresAtMs(access) || nowMs()<expiresAtMs(access))){
+      return {ok:true,access,cached:true,offline:true,code,message:'인터넷 연결이 불안정하지만 기존 인증으로 게임을 계속합니다.'};
+    }
+    return {ok:false,code,message:'사용 권한 서버를 확인할 수 없습니다.'};
   }
 }
 
@@ -225,10 +257,20 @@ function scheduleChecks(access){
   if(watchTimer) clearInterval(watchTimer);
   if(expiryTimer) clearTimeout(expiryTimer);
   const checkMin=Math.max(1,Number(access?.checkMinutes)||1);
-  watchTimer=setInterval(async()=>{
+  const check=async()=>{
     const r=await validateTeacherAccess({force:true});
-    if(!r.ok){showAccessExpired(r.message);setTimeout(()=>goToLogin(r.code||'expired'),1200);}
-  },checkMin*60*1000);
+    if(r.ok){if(r.offline)setAccessNetworkBadge(true,'⚠ 인터넷 연결 끊김 · 인증 유지 · 게임 계속 진행');else if(accessNetworkOffline)setAccessNetworkBadge(false);return;}
+    // NETWORK/NOT_CONFIGURED는 위 validateTeacherAccess에서 유효한 기존 세션을 ok:true로 반환합니다.
+    // 여기까지 오는 실패는 만료·해제 등 실제 권한 종료로 봅니다.
+    showAccessExpired(r.message);setTimeout(()=>goToLogin(r.code||'expired'),1200);
+  };
+  watchTimer=setInterval(check,checkMin*60*1000);
+  if(!networkListenersAttached){
+    networkListenersAttached=true;
+    window.addEventListener('offline',()=>setAccessNetworkBadge(true));
+    window.addEventListener('online',()=>{setAccessNetworkBadge(false);check().catch(()=>{});});
+  }
+  if(navigator.onLine===false)setAccessNetworkBadge(true);
   const exp=expiresAtMs(access);
   if(exp>nowMs()){
     expiryTimer=setTimeout(()=>{clearTeacherAccess();showAccessExpired();setTimeout(()=>goToLogin('expired'),1200);},Math.min(2147483000,Math.max(1000,exp-nowMs()+500)));

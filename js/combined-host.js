@@ -1,12 +1,18 @@
 import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore } from './game-engine.js';
 import { buildMatchingRounds } from './matching-engine.js';
-import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore } from './firebase-bus.js?v=8.0';
-import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-sample/js/sentence-live.js?v=3.0';
+import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
+import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-sample/js/sentence-live.js?v=3.1';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { CombinedSentenceAudio } from './combined-sentence-audio.js?v=1.0';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.3';
+import { requireTeacherAccess } from './access-control.js?v=1.4';
+function buildStudentEntryUrl(pin){
+  const nested=location.pathname.includes('/sentence-battle-sample/');
+  const u=new URL(nested?'../join.html':'join.html',location.href);
+  u.searchParams.set('pin',String(pin||''));
+  return u;
+}
 
 await requireTeacherAccess({ game:'combined' });
 
@@ -59,7 +65,7 @@ let replicaReady=false;
 let demoReplicaState=null;
 
 // Phase 4: 통신 복구 후 과거 유닛의 제출도 원래 터치 시각을 기준으로 복원합니다.
-const PHASE4_RECEIPT_WINDOW_MS=120000;
+const PHASE4_RECEIPT_WINDOW_MS=30*60*1000;
 const PHASE4_TAP_TOLERANCE_MS=800;
 function phase4CombinedHistory(){if(!liveRoom)return null;liveRoom._phase4History||={};return liveRoom._phase4History;}
 function phase4UnitKey(stage,index){return `${Number(stage)}:${Number(index)}`;}
@@ -252,7 +258,7 @@ async function createLiveRoom(){
   try{
     const s=settings();quiz=buildQuiz(vocabItems,{direction:'mixed',questionCount:s.wordCount});validateQuizIntegrity(quiz);matching=buildMatchingRounds(vocabItems,{roundCount:s.matchRounds,pairsPerRound:s.pairsPerRound});validateMatchingIntegrity(matching);const selectedSentence=shuffle(sentenceQuestions).slice(0,s.sentenceCount);
     const pin=await createUniqueFirebasePin();liveRoom={pin,title:`종합 배틀 · 서울대 ${book} ${lesson}과`,status:'lobby',config:{gameType:'combined',...s},players:{},stageIndex:-1,unitIndex:-1,unitTotal:0,unitResults:{},completedSteps:0,totalSteps:s.wordCount+s.matchRounds+s.sentenceCount,blindActive:false,quiz,matching,sentenceSet:selectedSentence,createdAt:Date.now()};
-    liveBus?.close();liveBus=new FirebaseBus(pin,'host');liveBus.on(handleLiveMessage);await liveBus.init();liveRoom.createdAt=now();await liveBus.createRoom(liveRoom);mode='live';setView('lobby');$('roomPin').textContent=pin;const url=new URL('combined-play.html',location.href);url.searchParams.set('pin',pin);$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);renderLobby();startLiveTick();audio.startBgm('lobby');audio.playChime();
+    liveBus?.close();liveBus=new FirebaseBus(pin,'host');liveBus.on(handleLiveMessage);await liveBus.init();liveRoom.createdAt=now();await liveBus.createRoom(liveRoom);mode='live';setView('lobby');$('roomPin').textContent=pin;const url=buildStudentEntryUrl(pin);$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);renderLobby();startLiveTick();audio.startBgm('lobby');audio.playChime();
   }catch(err){console.error(err);alert(err?.message||'실제 학생 종합 배틀 방을 만들지 못했습니다.');}
 }
 function handleLiveMessage(msg){if(!liveRoom)return;const p=msg.payload||{},uid=String(p.uid||msg.uid||'');if(msg.type==='join'){if(liveRoom.status!=='lobby'||!uid||!p.name)return;liveRoom.players[uid]={uid,name:String(p.name).slice(0,20),avatar:AVATARS.includes(p.avatar)?p.avatar:'🐻',scores:{word:0,matching:0,sentence:0},score:0,matchedPairIds:[],matchingMistakes:0,matchingCombo:0};persistLive();renderLobby();return;}if(msg.type==='request-state'){persistLive();return;}if(msg.type==='combined-word-answer')handleWordAnswer(uid,p,msg.at);if(msg.type==='combined-match-pair')handleMatchPair(uid,p,msg.at);if(msg.type==='combined-match-mistake')handleMatchMistake(uid,p,msg.at);if(msg.type==='combined-sentence-submit')handleSentenceSubmit(uid,p,msg.at);}

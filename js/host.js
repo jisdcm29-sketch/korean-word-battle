@@ -2,10 +2,16 @@ import { CATALOG } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore, directionLabel, getQuizCapacity } from './game-engine.js';
 import { LocalBus } from './local-bus.js?v=7.3';
-import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.0';
+import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.3';
+import { requireTeacherAccess } from './access-control.js?v=1.4';
+function buildStudentEntryUrl(pin){
+  const nested=location.pathname.includes('/sentence-battle-sample/');
+  const u=new URL(nested?'../join.html':'join.html',location.href);
+  u.searchParams.set('pin',String(pin||''));
+  return u;
+}
 
 await requireTeacherAccess({ game:'word' });
 
@@ -43,7 +49,7 @@ let currentMusicMode = 'normal';
 let blindTransitionPlayed = false;
 
 // Phase 4: 늦게 도착한 답안도 학생이 실제 제한시간 안에 눌렀다면 복구합니다.
-const PHASE4_RECEIPT_WINDOW_MS = 120000;
+const PHASE4_RECEIPT_WINDOW_MS = 30 * 60 * 1000;
 const PHASE4_TAP_TOLERANCE_MS = 800;
 function phase4WordHistory(){ if(!room)return null; room._phase4WordHistory ||= {}; return room._phase4WordHistory; }
 function phase4EnsureWordRecord(index,startAt,endAt){
@@ -638,9 +644,8 @@ async function createRoom(demoMode = false) {
     $('gameArea').classList.add('hidden');
     $('finalArea').classList.add('hidden');
     $('roomPin').textContent = pin;
-    const url = new URL('play.html', location.href);
-    url.searchParams.set('pin',pin);
-    if (bus.mode === 'local') url.searchParams.set('local','1');
+    const url = bus.mode==='local' ? new URL('play.html',location.href) : buildStudentEntryUrl(pin);
+    if(bus.mode==='local'){url.searchParams.set('pin',pin);url.searchParams.set('local','1');}
     $('joinUrl').textContent = url.href;
     $('openPlayerBtn').onclick = () => window.open(url.href,'_blank');
     renderQr(url.href);
