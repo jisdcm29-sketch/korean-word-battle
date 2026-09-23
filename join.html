@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#0a2c63" />
+  <title>학생 게임 입장 · Korean Game Arena</title>
+  <link rel="stylesheet" href="css/join.css?v=1.0" />
+</head>
+<body>
+  <main class="entry-shell">
+    <section class="entry-card" aria-labelledby="entryTitle">
+      <div class="versus" aria-hidden="true"><span>KR<small>KOREA</small></span><b>VS</b><span>MN<small>MONGOLIA</small></span></div>
+      <p class="eyebrow">KOREAN · MONGOLIAN CLASSROOM GAME ARENA</p>
+      <h1 id="entryTitle">학생 게임 입장</h1>
+      <p class="mn-title">Тоглоомд нэвтрэх</p>
+      <p class="guide">선생님 화면의 <strong>6자리 PIN</strong>을 입력하세요.<br><span>Багшийн дэлгэц дээрх 6 оронтой PIN кодыг оруулна уу.</span></p>
+      <form id="joinForm" novalidate>
+        <label for="pinInput">GAME PIN</label>
+        <input id="pinInput" name="pin" inputmode="numeric" autocomplete="one-time-code" enterkeyhint="go" maxlength="6" pattern="[0-9]{6}" placeholder="000000" aria-describedby="statusText" />
+        <button id="joinBtn" type="submit">게임 입장 · Нэвтрэх</button>
+      </form>
+      <div id="statusBox" class="status" aria-live="polite"><span id="statusText">PIN을 입력하면 게임을 자동으로 찾아 연결합니다.</span></div>
+      <div class="hint"><b>QR로 들어온 경우</b><span>게임방을 확인한 뒤 자동으로 이동합니다.</span></div>
+    </section>
+  </main>
+  <script type="module" src="js/join.js?v=1.2"></script>
+
+  <script>/* KWB_OFFLINE_SW_V1 */if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>
+</body>
+</html>
