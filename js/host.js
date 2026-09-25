@@ -6,6 +6,7 @@ import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebas
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
 import { requireTeacherAccess } from './access-control.js?v=1.5';
+import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
@@ -649,6 +650,7 @@ async function createRoom(demoMode = false) {
     $('joinUrl').textContent = url.href;
     $('openPlayerBtn').onclick = () => window.open(url.href,'_blank');
     renderQr(url.href);
+    createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'});
     renderLobby();
     startLoop();
     blindTransitionPlayed = false;
@@ -694,17 +696,18 @@ function addDemoStudents(limit = 10, announce = true) {
 function handleMessage(msg) {
   if (!room) return;
   if (msg.type === 'join') {
-    const {uid,name,avatar} = msg.payload;
-    if (!uid || !name || room.status !== 'lobby') return;
-    room.players[uid] = {
-      uid,
-      name:String(name).slice(0,20),
-      avatar:AVATARS.includes(avatar)?avatar:'🐻',
-      score:room.players[uid]?.score || 0,
-      bot:false
-    };
+    const {uid,name,avatar} = msg.payload||{};
+    if (!uid || !name || !canAcceptLateJoin(room.status)) return;
+    const existing=room.players[uid];
+    if(existing){
+      existing.name=String(name).slice(0,20);
+      existing.avatar=AVATARS.includes(avatar)?avatar:(existing.avatar||'🐻');
+      existing.bot=false;
+    }else{
+      room.players[uid]={uid,name:String(name).slice(0,20),avatar:AVATARS.includes(avatar)?avatar:'🐻',score:0,bot:false,lateJoin:room.status!=='lobby',joinedAt:nowMs()};
+    }
     persistAndBroadcast();
-    renderLobby();
+    if(room.status==='lobby')renderLobby(); else renderGame();
   }
   if (msg.type === 'answer') handleAnswer(msg.payload, msg.at);
   if (msg.type === 'request-state') broadcastState();

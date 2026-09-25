@@ -42,12 +42,13 @@ async function join(){
       initialRoom=await bus.loadRoom();
       if(!initialRoom || initialRoom.status==='closed')throw new Error('방을 찾을 수 없습니다. PIN을 확인해 주세요.');
     }
-    if(initialRoom.status!=='lobby')throw new Error('이미 게임이 시작된 방입니다.');
+    if(initialRoom.status==='finished'&&!initialRoom.players?.[uid])throw new Error('이미 종료된 게임입니다.');
+    const lateJoin=initialRoom.status!=='lobby';
     joined=true;
     joinConfirmed=false;
     localStorage.setItem(`kwb_name_${pin}`,name); localStorage.setItem(`kwb_avatar_${pin}`,selectedAvatar);
     $('myAvatar').textContent=selectedAvatar;
-    $('waitingName').textContent=`${name}님, 입장 요청 중...`;
+    $('waitingName').textContent=lateJoin?`${name}님, 진행 중인 게임에 입장 중...`:`${name}님, 입장 요청 중...`;
     show('waitingView');
     await bus.send('join',{uid,name,avatar:selectedAvatar});
     if(bus.mode==='local') bus.send('request-state',{});

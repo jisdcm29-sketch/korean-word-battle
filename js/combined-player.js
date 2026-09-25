@@ -137,14 +137,15 @@ async function join(){
     const initial = await bus.loadRoom();
     if(!initial || initial.status === 'closed') throw new Error('방을 찾을 수 없습니다. PIN을 확인해 주세요.');
     if(initial.config?.gameType !== 'combined') throw new Error('종합 배틀 방이 아닙니다.');
-    if(initial.status !== 'lobby') throw new Error('이미 시작된 종합 배틀입니다.');
+    if(initial.status === 'finished' && !initial.players?.[uid]) throw new Error('이미 종료된 종합 배틀입니다.');
+    const lateJoin = initial.status !== 'lobby';
 
     joined = true;
     joinConfirmed = false;
     localStorage.setItem(`kwb_combined_name_${pin}`, name);
     localStorage.setItem(`kwb_combined_avatar_${pin}`, selectedAvatar);
     $('myAvatar').textContent = selectedAvatar;
-    $('waitingName').textContent = `${name}님, 입장 요청 중...`;
+    $('waitingName').textContent = lateJoin ? `${name}님, 진행 중인 게임에 입장 중...` : `${name}님, 입장 요청 중...`;
     show('waitingView');
     await bus.send('join',{uid,name,avatar:selectedAvatar});
   }catch(err){

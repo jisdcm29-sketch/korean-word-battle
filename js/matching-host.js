@@ -6,6 +6,7 @@ import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebas
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
 import { requireTeacherAccess } from './access-control.js?v=1.5';
+import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
@@ -337,7 +338,7 @@ async function createRoom(demoMode=false){
     else { bus=new FirebaseBus(pin,'host'); bus.on(handleMessage); await bus.init(); room.createdAt=nowMs(); await bus.createRoom(room); }
     if(demoMode) addDemoStudents(10,false); else persistAndBroadcast();
     $('setupView').classList.add('hidden'); $('hostView').classList.remove('hidden'); showHostSubView('lobbyView'); $('roomPin').textContent=pin;
-    const url=bus.mode==='local'?new URL('matching-play.html',location.href):buildStudentEntryUrl(pin); if(bus.mode==='local'){url.searchParams.set('pin',pin);url.searchParams.set('local','1');} $('joinUrl').textContent=url.href; $('openPlayerBtn').onclick=()=>window.open(url.href,'_blank'); renderQr(url.href); renderLobby(); startLoop();
+    const url=bus.mode==='local'?new URL('matching-play.html',location.href):buildStudentEntryUrl(pin); if(bus.mode==='local'){url.searchParams.set('pin',pin);url.searchParams.set('local','1');} $('joinUrl').textContent=url.href; $('openPlayerBtn').onclick=()=>window.open(url.href,'_blank'); renderQr(url.href); createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'}); renderLobby(); startLoop();
     lastCountdownNumber=null; lastTimerTick=null; blindTransitionPlayed=false; setMusicMode('lobby'); audio.startBgm('lobby');
     if(demoMode) toast('가상 학생 10명이 입장했습니다. [게임 시작]을 누르면 시연이 시작됩니다.');
   }catch(e){toast(e?.message||'게임방을 만들지 못했습니다.');}
@@ -353,8 +354,12 @@ function addDemoStudents(limit=10,announce=true){
 function handleMessage(msg){
   if(!room)return;
   if(msg.type==='join'){
-    const {uid,name,avatar}=msg.payload||{}; if(!uid||!name||room.status!=='lobby')return;
-    room.players[uid]={uid,name:String(name).slice(0,20),avatar:AVATARS.includes(avatar)?avatar:'🐻',score:room.players[uid]?.score||0,bot:false,matchedPairIds:[],matchedCount:0,totalMatched:0,mistakes:0,totalMistakes:0,combo:0,roundFinishedAt:0,lastGain:0,lastGainAt:0}; persistAndBroadcast(); renderLobby();
+    const {uid,name,avatar}=msg.payload||{}; if(!uid||!name||!canAcceptLateJoin(room.status))return;
+    const existing=room.players[uid];
+    if(existing){existing.name=String(name).slice(0,20);existing.avatar=AVATARS.includes(avatar)?avatar:(existing.avatar||'🐻');existing.bot=false;}
+    else room.players[uid]={uid,name:String(name).slice(0,20),avatar:AVATARS.includes(avatar)?avatar:'🐻',score:0,bot:false,matchedPairIds:[],matchedCount:0,totalMatched:0,mistakes:0,totalMistakes:0,combo:0,roundFinishedAt:0,lastGain:0,lastGainAt:0,lateJoin:room.status!=='lobby',joinedAt:nowMs()};
+    persistAndBroadcast();
+    if(room.status==='lobby')renderLobby();else if(room.status==='round-result')renderRoundResult();else renderGame(false);
   }
   if(msg.type==='pair-match') handlePairMatch(msg.payload,msg.at);
   if(msg.type==='pair-miss') handlePairMiss(msg.payload,msg.at);
