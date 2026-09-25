@@ -147,7 +147,7 @@
       <div id="newQuestionEditor" class="new-question-editor hidden">
         <div class="new-question-title"><div><b>＋ 새 문장 만들기</b><span>대표 문장, 카드, 추가 정답을 입력하세요.</span></div><button id="closeNewQuestionBtn" class="manager-close" type="button">✕</button></div>
         <div class="editor-field"><label>대표 문장</label><input id="newSentenceInput" type="text" placeholder="예: 오늘 저는 학교에 갑니다." /></div>
-        <div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button id="autoCardsBtn" class="mini-action-btn" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="newCardsInput" type="text" placeholder="오늘 | 저 | 는 | 학교 | 에 | 갑니다" /><small>조사는 분리하고 동사·형용사의 종결형은 한 카드로 입력합니다.</small></div>
+        <div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button id="autoCardsBtn" class="mini-action-btn" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="newCardsInput" type="text" placeholder="오늘 | 저 | 는 | 학교 | 에 | 갑니다" /><small>명사+조사는 분리합니다. 동사·형용사의 연결·종결형과 ‘-(으)ㄹ 거예요 / -(으)ㄹ 수 있다’ 같은 문법 표현은 용언과 한 덩어리 카드로 입력합니다. 의문문 마지막 카드에는 ?를 포함합니다.</small></div>
         <div class="editor-field"><label>추가로 인정할 문장 · Firebase 영구 저장</label><textarea id="newAnswersInput" rows="3" placeholder="저는 오늘 학교에 갑니다."></textarea><small>한 줄에 하나씩 입력합니다. 저장하면 C드라이브와 GitHub에서 같은 정답을 사용합니다.</small></div>
         <div id="newQuestionError" class="edit-error"></div>
         <div class="editor-actions"><button id="cancelNewQuestionBtn" class="btn btn-secondary" type="button">취소</button><button id="saveNewQuestionBtn" class="btn btn-primary" type="button">＋ Firebase 영구 저장</button></div>
@@ -158,6 +158,6 @@
   </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/sentence-host.js?v=4.6"></script>
+  <script type="module" src="js/sentence-host.js?v=4.8"></script>
 </body>
 </html>
