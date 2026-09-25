@@ -8,6 +8,7 @@ import { CombinedSentenceAudio } from './combined-sentence-audio.js?v=1.0';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
 import { requireTeacherAccess } from './access-control.js?v=1.5';
 import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.0';
+import { normalizeSentenceCards } from './sentence-card-rules.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
@@ -124,7 +125,6 @@ async function resolveSentenceStore(){
   }catch(err){console.warn('종합 배틀 문장 저장소 읽기 실패',err);return{store:local,state:'local'};}
 }
 
-const RESPONSE_PREFIX_RE=/^(?:네|아니요|아니오)\s*[,，]\s*/;
 const FLEX_PARTICLES=new Set(['은','는','이','가','을','를','에','에서','에게','한테','께','도','만','부터','까지','으로','로','의','보다','처럼','하고','와','과']);
 const FLEX_CONJUNCTIONS=new Set(['하고','와','과']);
 function normalizeForMatch(text){return String(text||'').normalize('NFC').replace(/[\s\u00a0]+/g,'').replace(/[.,!?;:'"“”‘’()，。！？·…]/g,'').trim();}
@@ -136,12 +136,7 @@ function inferFlexibleFrame(tokens,order){
   const merged=[];for(let i=0;i<units.length;i++){const u=[...units[i]],last=String(label.get(u[u.length-1])||'').replace(/[.?!]+$/g,'');if(FLEX_CONJUNCTIONS.has(last)&&i+1<units.length)u.push(...units[++i]);merged.push(u);}return merged.length?{units:merged,tail}:null;
 }
 function inferFlexibleFrames(tokens,orders){const out=[],seen=new Set();for(const order of orders||[]){const f=inferFlexibleFrame(tokens,order);if(!f)continue;const k=JSON.stringify(f);if(!seen.has(k)){seen.add(k);out.push(f);}}return out;}
-function applySentenceRules(displaySentence,tokens,acceptedOrders){
-  let display=String(displaySentence||'').trim(),nextTokens=(tokens||[]).map(t=>[String(t[0]),String(t[1])]),nextOrders=(acceptedOrders||[]).map(o=>o.map(String));
-  if(RESPONSE_PREFIX_RE.test(display)&&nextOrders.length){const map=new Map(nextTokens),firstId=nextOrders[0]?.[0],firstText=String(map.get(firstId)||'').trim();if(['네','아니요','아니오'].includes(firstText)){display=display.replace(RESPONSE_PREFIX_RE,'').trim();nextTokens=nextTokens.filter(([id])=>id!==firstId);nextOrders=nextOrders.map(o=>o.filter(id=>id!==firstId)).filter(o=>o.length);}}
-  if(/[?？]\s*$/.test(display)&&nextOrders.length){const finals=new Set(nextOrders.map(o=>o[o.length-1]).filter(Boolean));nextTokens=nextTokens.map(([id,text])=>finals.has(id)?[id,String(text).trim().replace(/[.。!！?？]+$/g,'')+'?']:[id,text]);}
-  return{displaySentence:display,tokens:nextTokens,acceptedOrders:nextOrders};
-}
+function applySentenceRules(displaySentence,tokens,acceptedOrders){return normalizeSentenceCards(displaySentence,tokens,acceptedOrders);}
 function cleanBaseSentence(q,index){
   const id=String(q.id||`SNU-${book}-${String(lesson).padStart(2,'0')}-${String(index+1).padStart(3,'0')}`),tokens=(q.tokens||[]).map(t=>[String(t[0]),String(t[1])]),orders=(q.acceptedOrders||[]).map(o=>o.map(String));
   const cleaned=applySentenceRules(q.displaySentence,tokens,orders);return{...q,id,displaySentence:cleaned.displaySentence,tokens:cleaned.tokens,acceptedOrders:cleaned.acceptedOrders,flexibleFrames:inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders),teacherEdited:false};
