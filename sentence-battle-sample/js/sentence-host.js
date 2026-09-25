@@ -1,6 +1,6 @@
 import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.1';
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
-import { requireTeacherAccess } from '../../js/access-control.js?v=1.4';
+import { requireTeacherAccess } from '../../js/access-control.js?v=1.5';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
