@@ -1,6 +1,7 @@
 import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.1';
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
 import { requireTeacherAccess } from '../../js/access-control.js?v=1.5';
+import { createLateJoinPanel, canAcceptLateJoin } from '../../js/late-join-panel.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
@@ -446,7 +447,7 @@ async function createRoom(demo=false){
       bus=new SentenceHostBus(pin);bus.on(handleMessage);await bus.init();await bus.createRoom(publicRoomState());
     }
     els.roomPin.textContent=demo?'DEMO':pin;els.joinLabel.textContent=demo?'10명 자동 시연':'GAME PIN';
-    const join=buildJoinUrl();els.joinUrl.textContent=join;renderQr(join);els.openPlayerBtn.onclick=()=>{const preview=new URL(join);preview.searchParams.set('preview','1');window.open(preview.href,'_blank');};
+    const join=buildJoinUrl();els.joinUrl.textContent=join;renderQr(join);if(!demo)createLateJoinPanel({pin,url:join,getStatus:()=>room?.status,enabled:()=>!isDemo});els.openPlayerBtn.onclick=()=>{const preview=new URL(join);preview.searchParams.set('preview','1');window.open(preview.href,'_blank');};
     els.localhostHint.classList.toggle('hidden',location.hostname!=='localhost'&&location.hostname!=='127.0.0.1');
     renderLobby();setView('lobby');sfx('start');
   }catch(err){els.setupMessage.textContent=err.message;els.setupMessage.style.color='#ffb1bd';}
@@ -455,9 +456,11 @@ async function createRoom(demo=false){
 async function handleMessage(msg){
   if(!room||isDemo)return;
   const uid=msg.uid||msg.payload?.uid;if(!uid)return;
-  if(msg.type==='join'&&room.status==='lobby'){
-    const name=String(msg.payload?.name||'학생').trim().slice(0,18),avatar=String(msg.payload?.avatar||'🙂');
-    room.players[uid]={uid,name,avatar,score:room.players[uid]?.score||0};renderLobby();sfx('join');await persist();
+  if(msg.type==='join'){
+    if(!canAcceptLateJoin(room.status))return;
+    const name=String(msg.payload?.name||'학생').trim().slice(0,18),avatar=String(msg.payload?.avatar||'🙂'),existing=room.players[uid];
+    if(existing){existing.name=name;existing.avatar=avatar;}else room.players[uid]={uid,name,avatar,score:0,lateJoin:room.status!=='lobby',joinedAt:now()};
+    if(room.status==='lobby')renderLobby();else renderGameMeta();sfx('join');await persist();
   }else if(msg.type==='submit'){
     processSubmission(uid,msg.payload?.questionIndex,msg.payload?.order,msg.at||now());
   }else if(msg.type==='leave'&&room.status==='lobby'){

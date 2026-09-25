@@ -27,9 +27,10 @@ async function joinRoom(){
   try{
     bus?.close();bus=new SentencePlayerBus(pin);bus.on(handleBus);await bus.init();
     if(!(await bus.exists()))throw new Error('문장 배틀 게임방을 찾을 수 없습니다.');
+    const initial=bus.latestState;if(initial?.status==='finished'&&!initial.players?.[bus.uid])throw new Error('이미 종료된 게임입니다.');
     localStorage.setItem('sentence_sample_name',name);localStorage.setItem('sentence_sample_avatar',selectedAvatar);
     await bus.send('join',{name,avatar:selectedAvatar});
-    els.myAvatar.textContent=selectedAvatar;els.waitName.textContent=name;els.waitPin.textContent=pin;setView('wait');els.joinMessage.textContent='';
+    els.myAvatar.textContent=selectedAvatar;els.waitName.textContent=initial?.status&&initial.status!=='lobby'?`${name} · 진행 중 입장` : name;els.waitPin.textContent=pin;setView('wait');els.joinMessage.textContent='';
   }catch(err){els.joinMessage.textContent=err.message;bus?.close();bus=null;setView('join');}finally{els.joinBtn.disabled=false;}
 }
 
