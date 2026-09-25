@@ -11,7 +11,7 @@
   <div class="memory-bg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
   <main class="memory-shell">
     <header class="memory-hero">
-      <a class="home-link" href="index.html">← 게임 선택 홈</a>
+      <a class="home-link" href="arena.html">← 게임 선택 홈</a>
       <div class="hero-flags"><span>🇰🇷</span><b>🧠</b><span>🇲🇳</span></div>
       <p class="eyebrow">KOREAN · MONGOLIAN MEMORY ARENA</p>
       <h1>기억력 배틀</h1>
@@ -19,7 +19,7 @@
     </header>
 
     <section id="setupView" class="memory-panel setup-panel">
-      <div class="setup-context"><a href="index.html">← 게임 선택 홈</a><span>기억력 배틀 · 교사용 설정</span></div>
+      <div class="setup-context"><a href="arena.html">← 게임 선택 홈</a><span>기억력 배틀 · 교사용 설정</span></div>
       <div class="setup-grid">
         <section class="setting-card data-card">
           <div class="setting-title"><div><strong>📚 출제 자료</strong><span>자료 · 어휘 선택</span></div><button id="vocabBtn" class="btn btn-cyan small" type="button">☑ 어휘 선택·수정 <span id="selectedBadge">0/0</span></button></div>
@@ -72,13 +72,13 @@
       </div>
 
       <div id="roundResultView" class="host-view round-result-view hidden"><p class="eyebrow">ROUND COMPLETE</p><h2 id="roundResultTitle">1판 종료</h2><div id="roundResultTimer" class="next-round-count">다음 판 준비</div><div id="roundTop3" class="round-top3"></div></div>
-      <div id="finalView" class="host-view final-view hidden"><div class="final-flags">🇰🇷 🧠 🏆 🇲🇳</div><p class="eyebrow">MEMORY BATTLE COMPLETE</p><h2>최종 시상식</h2><div id="finalPodium" class="final-podium"></div><div id="finalRanking" class="final-ranking"></div><div class="final-actions"><button id="newGameBtn" class="btn btn-primary" type="button">새 게임 만들기</button><a class="btn btn-secondary link-btn" href="index.html">게임 선택 홈</a></div></div>
+      <div id="finalView" class="host-view final-view hidden"><div class="final-flags">🇰🇷 🧠 🏆 🇲🇳</div><p class="eyebrow">MEMORY BATTLE COMPLETE</p><h2>최종 시상식</h2><div id="finalPodium" class="final-podium"></div><div id="finalRanking" class="final-ranking"></div><div class="final-actions"><button id="newGameBtn" class="btn btn-primary" type="button">새 게임 만들기</button><a class="btn btn-secondary link-btn" href="arena.html">게임 선택 홈</a></div></div>
     </section>
   </main>
 
   <div id="vocabModal" class="modal hidden" role="dialog" aria-modal="true"><div class="modal-panel"><div class="modal-head"><div><span class="step-chip">VOCAB EDIT</span><h2>게임 어휘 선택·수정</h2><p>한국어·몽골어 수정 내용은 기존 어휘/카드 매칭과 같은 교사 공용 저장소를 사용합니다. <span id="vocabPersistenceStatus"></span></p></div><button id="closeVocabBtn" type="button" class="icon-btn">×</button></div><div class="modal-tools"><input id="vocabSearch" type="search" placeholder="한국어 또는 몽골어 검색" /><button id="selectAllBtn" class="btn small" type="button">전체 선택</button><button id="clearAllBtn" class="btn small btn-secondary" type="button">전체 해제</button></div><div id="vocabList" class="vocab-list"></div><div class="modal-foot"><div><strong id="modalSelectedCount">0개 선택</strong><span id="modalRequirement">최소 6개 필요</span></div><button id="applyVocabBtn" class="btn btn-primary" type="button">선택 적용</button></div></div></div>
   <div id="toast" class="toast hidden"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/memory-host.js?v=1.6"></script>
+  <script type="module" src="js/memory-host.js?v=1.7"></script>
 </body>
 </html>
