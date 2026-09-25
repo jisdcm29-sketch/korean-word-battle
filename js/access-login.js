@@ -1,4 +1,4 @@
-import { loginTeacher, validateTeacherAccess, clearTeacherAccess, isAccessApiConfigured } from './access-control.js?v=1.3';
+import { loginTeacher, validateTeacherAccess, clearTeacherAccess, isAccessApiConfigured } from './access-control.js?v=1.6';
 
 const $=id=>document.getElementById(id);
 const form=$('accessForm'),auth=$('authCode'),permit=$('permitCode'),submit=$('accessSubmit'),message=$('accessMessage'),setup=$('setupWarning');
@@ -30,7 +30,7 @@ form.addEventListener('submit',async e=>{
     setTimeout(go,650);
   }catch(err){
     const code=String(err?.message||'');
-    const detail=code==='ACCESS_API_NOT_CONFIGURED'?'관리자 설정이 필요합니다.':code==='ACCESS_POST_TIMEOUT'?'인증 서버는 호출되었지만 브라우저가 응답을 받지 못했습니다. Apps Script가 최신 버전(1.7.2)으로 배포되었는지 확인해 주세요.':'인증 서버에 연결하지 못했습니다. Apps Script 배포 상태를 확인해 주세요.';
+    const detail=code==='ACCESS_API_NOT_CONFIGURED'?'관리자 설정이 필요합니다.':code==='ACCESS_POST_TIMEOUT'?'인증 서버는 호출되었지만 브라우저가 응답을 받지 못했습니다. Apps Script가 최신 버전(1.8.2)으로 배포되었는지 확인해 주세요.':'인증 서버에 연결하지 못했습니다. Apps Script 배포 상태를 확인해 주세요.';
     console.error('[KWB access]',err);
     msg(detail,'error');
   }finally{

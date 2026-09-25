@@ -1,14 +1,22 @@
 import { ACCESS_API_URL, ACCESS_STORAGE_KEY, ACCESS_DEVICE_KEY, ACCESS_SCHEMA_VERSION } from './access-config.js?v=1.3';
 
-const PLAY_ONLY_BLOCKED_SELECTORS = [
-  '#previewBtn', '#vocabBtn', '#openQuestionManagerBtn', '#addQuestionBtn',
-  '#selectAllQuestionsBtn', '#clearAllQuestionsBtn', '#applyQuestionManagerBtn',
-  '[data-vocab-action]', '[data-action="save-edit"]', '[data-action="restore"]',
-  '[data-action="delete"]', '#saveNewQuestionBtn', '#autoCardsBtn'
+// FULL만 공용 교재/문항을 영구 수정할 수 있습니다.
+// TESTER와 PLAY_ONLY는 출제 항목 선택/게임 설정은 가능하지만 영구 저장·수정·삭제·복원은 차단합니다.
+const CONTENT_WRITE_BLOCKED_SELECTORS = [
+  '[data-vocab-action]',
+  '[data-action="edit"]', '[data-action="auto-edit"]', '[data-action="save-edit"]',
+  '[data-action="restore"]', '[data-action="delete"]',
+  '#addQuestionBtn', '#saveNewQuestionBtn', '#autoCardsBtn'
 ].join(',');
+
+const INACTIVITY_TIMEOUT_MS = 30 * 60 * 1000;
+const ACTIVITY_THROTTLE_MS = 1500;
 
 let watchTimer = null;
 let expiryTimer = null;
+let inactivityTimer = null;
+let lastTeacherActivityAt = 0;
+let activityListenersAttached = false;
 let redirecting = false;
 let networkListenersAttached = false;
 let accessNetworkOffline = false;
@@ -60,7 +68,8 @@ export function clearTeacherAccess(){
   localStorage.removeItem(ACCESS_STORAGE_KEY);
   if(watchTimer) clearInterval(watchTimer);
   if(expiryTimer) clearTimeout(expiryTimer);
-  watchTimer=expiryTimer=null;
+  if(inactivityTimer) clearTimeout(inactivityTimer);
+  watchTimer=expiryTimer=inactivityTimer=null;
 }
 
 function saveAccess(data){
@@ -209,24 +218,29 @@ export async function validateTeacherAccess({force=false}={}){
   }
 }
 
+function accessLevel(access){const level=clean(access?.accessLevel).toUpperCase();return ['FULL','TESTER','PLAY_ONLY'].includes(level)?level:'PLAY_ONLY';}
+function accessLevelLabel(access){const level=accessLevel(access);return level==='FULL'?'FULL':level==='TESTER'?'TESTER':'PLAY ONLY';}
+
 function addAccessBadge(access){
   if(document.querySelector('.kwb-access-badge')) return;
   const badge=document.createElement('div');
   badge.className='kwb-access-badge';
-  const level=clean(access?.accessLevel).toUpperCase()==='FULL'?'FULL':'PLAY ONLY';
+  const level=accessLevelLabel(access);
   const expiry=access?.expiresAt?new Date(access.expiresAt).toLocaleString('ko-KR',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'}):'';
   badge.textContent=`🔐 ${access?.teacherName||'교사'} · ${level}${expiry?` · ~ ${expiry}`:''}`;
   Object.assign(badge.style,{position:'fixed',right:'12px',bottom:'10px',zIndex:'99999',padding:'7px 11px',borderRadius:'999px',font:'700 11px/1.2 system-ui,sans-serif',background:'rgba(6,20,50,.88)',color:'#dff6ff',border:'1px solid rgba(85,213,255,.35)',boxShadow:'0 8px 24px rgba(0,0,0,.24)',pointerEvents:'none'});
   document.body.appendChild(badge);
 }
 
-function lockPlayOnlyUi(access){
-  if(clean(access?.accessLevel).toUpperCase()==='FULL') return;
+function lockContentWriteUi(access){
+  const level=accessLevel(access);
+  if(level==='FULL') return;
+  const roleLabel=level==='TESTER'?'TESTER':'PLAY_ONLY';
   const lock=()=>{
-    document.querySelectorAll(PLAY_ONLY_BLOCKED_SELECTORS).forEach(el=>{
+    document.querySelectorAll(CONTENT_WRITE_BLOCKED_SELECTORS).forEach(el=>{
       el.setAttribute('disabled','disabled');
       el.setAttribute('aria-disabled','true');
-      el.title='외부 교사 PLAY_ONLY 권한에서는 공용 자료 수정 기능을 사용할 수 없습니다.';
+      el.title=`${roleLabel} 권한에서는 공용 자료를 영구 수정·추가·삭제·복원할 수 없습니다.`;
       el.style.opacity='.45';
       el.style.pointerEvents='none';
     });
@@ -235,22 +249,73 @@ function lockPlayOnlyUi(access){
   const observer=new MutationObserver(lock);
   observer.observe(document.documentElement,{childList:true,subtree:true});
   document.addEventListener('click',e=>{
-    if(e.target.closest?.(PLAY_ONLY_BLOCKED_SELECTORS)){
+    if(e.target.closest?.(CONTENT_WRITE_BLOCKED_SELECTORS)){
       e.preventDefault();e.stopImmediatePropagation();
     }
   },true);
 }
 
-function showAccessExpired(message='사용 허가 기간이 종료되었거나 권한이 해제되었습니다.'){
+function showAccessExpired(message='사용 허가 기간이 종료되었거나 권한이 해제되었습니다.',title='🔒 사용 권한 종료'){
   if(document.querySelector('.kwb-access-blocker')) return;
   const box=document.createElement('div');
   box.className='kwb-access-blocker';
-  box.innerHTML=`<div><b>🔒 사용 권한 종료</b><p>${message}</p><small>잠시 후 인증 화면으로 이동합니다.</small></div>`;
+  box.innerHTML=`<div><b>${title}</b><p>${message}</p><small>잠시 후 인증 화면으로 이동합니다.</small></div>`;
   Object.assign(box.style,{position:'fixed',inset:'0',zIndex:'100000',display:'grid',placeItems:'center',background:'rgba(3,11,28,.94)',color:'#fff',textAlign:'center',fontFamily:'system-ui,sans-serif'});
   const card=box.firstElementChild;Object.assign(card.style,{padding:'30px 34px',borderRadius:'24px',background:'linear-gradient(145deg,#142d62,#07152f)',border:'1px solid rgba(104,218,255,.35)',boxShadow:'0 24px 70px rgba(0,0,0,.45)'});
   card.querySelector('b').style.fontSize='28px';
   card.querySelector('p').style.margin='14px 0 8px';
   document.body.appendChild(box);
+}
+
+function armInactivityTimer(){
+  if(inactivityTimer) clearTimeout(inactivityTimer);
+  if(!getStoredAccess()?.sessionToken) return;
+  const elapsed=Math.max(0,nowMs()-lastTeacherActivityAt);
+  const remaining=Math.max(250,INACTIVITY_TIMEOUT_MS-elapsed);
+  inactivityTimer=setTimeout(()=>{
+    if(!getStoredAccess()?.sessionToken) return;
+    if(nowMs()-lastTeacherActivityAt<INACTIVITY_TIMEOUT_MS){armInactivityTimer();return;}
+    const access=getStoredAccess();
+    const logoutPayload=access?.sessionToken?{sessionToken:access.sessionToken,deviceId:getDeviceId()}:null;
+    clearTeacherAccess();
+    showAccessExpired('30분 동안 아무 조작이 없어 자동으로 로그아웃되었습니다. 다시 인증해 주세요.','🔒 자동 로그아웃');
+    if(logoutPayload&&apiReady()) callAccessApi('logout',logoutPayload).catch(()=>{});
+    setTimeout(()=>goToLogin('idle-timeout'),1200);
+  },remaining);
+}
+
+function startInactivityWatch(){
+  lastTeacherActivityAt=nowMs();
+  armInactivityTimer();
+  if(activityListenersAttached) return;
+  activityListenersAttached=true;
+  const noteActivity=(event)=>{
+    if(event&&event.isTrusted===false) return;
+    if(!getStoredAccess()?.sessionToken) return;
+    const t=nowMs();
+    if(t-lastTeacherActivityAt<ACTIVITY_THROTTLE_MS) return;
+    lastTeacherActivityAt=t;
+    armInactivityTimer();
+  };
+  ['pointerdown','pointermove','keydown','touchstart','wheel','input','change'].forEach(type=>{
+    window.addEventListener(type,noteActivity,{capture:true,passive:true});
+  });
+  document.addEventListener('visibilitychange',()=>{
+    if(document.visibilityState!=='visible'||!getStoredAccess()?.sessionToken) return;
+    if(nowMs()-lastTeacherActivityAt>=INACTIVITY_TIMEOUT_MS){
+      if(inactivityTimer) clearTimeout(inactivityTimer);
+      inactivityTimer=setTimeout(()=>{
+        if(nowMs()-lastTeacherActivityAt>=INACTIVITY_TIMEOUT_MS){
+          const access=getStoredAccess();
+          const logoutPayload=access?.sessionToken?{sessionToken:access.sessionToken,deviceId:getDeviceId()}:null;
+          clearTeacherAccess();
+          showAccessExpired('30분 동안 아무 조작이 없어 자동으로 로그아웃되었습니다. 다시 인증해 주세요.','🔒 자동 로그아웃');
+          if(logoutPayload&&apiReady()) callAccessApi('logout',logoutPayload).catch(()=>{});
+          setTimeout(()=>goToLogin('idle-timeout'),1200);
+        }
+      },0);
+    }else armInactivityTimer();
+  });
 }
 
 function scheduleChecks(access){
@@ -278,9 +343,9 @@ function scheduleChecks(access){
 }
 
 export function applyTeacherRestrictions(access){
-  document.documentElement.dataset.accessLevel=clean(access?.accessLevel||'PLAY_ONLY').toUpperCase();
-  if(document.body){addAccessBadge(access);lockPlayOnlyUi(access);}else{
-    document.addEventListener('DOMContentLoaded',()=>{addAccessBadge(access);lockPlayOnlyUi(access);},{once:true});
+  document.documentElement.dataset.accessLevel=accessLevel(access);
+  if(document.body){addAccessBadge(access);lockContentWriteUi(access);}else{
+    document.addEventListener('DOMContentLoaded',()=>{addAccessBadge(access);lockContentWriteUi(access);},{once:true});
   }
 }
 
@@ -295,6 +360,7 @@ export async function requireTeacherAccess({game}={}){
   }
   applyTeacherRestrictions(access);
   scheduleChecks(access);
+  startInactivityWatch();
   return access;
 }
 

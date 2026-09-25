@@ -5,7 +5,7 @@ import { WordSearchBus,createSearchPin } from './word-search-bus.js?v=2.1';
 import { loadVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward,renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.4';
+import { requireTeacherAccess } from './access-control.js?v=1.5';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
