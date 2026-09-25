@@ -2,6 +2,7 @@ import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenc
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
 import { requireTeacherAccess } from '../../js/access-control.js?v=1.5';
 import { createLateJoinPanel, canAcceptLateJoin } from '../../js/late-join-panel.js?v=1.0';
+import { normalizeSentenceCards, suggestSentenceCards } from '../../js/sentence-card-rules.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
@@ -131,8 +132,9 @@ function applyTeacherStore(baseQuestions,store){
     const q=questionFromStored(record,null,true);
     if(q&&!merged.some(x=>x.id===q.id))merged.push(q);
   }
-  loadedPersistentCount=merged.filter(q=>q.persistent).length;
-  return merged;
+  const eligible=merged.filter(q=>Array.isArray(q.tokens)&&q.tokens.length>=2&&Array.isArray(q.acceptedOrders)&&q.acceptedOrders.length);
+  loadedPersistentCount=eligible.filter(q=>q.persistent).length;
+  return eligible;
 }
 async function saveQuestionPersistence(q){
   const store=readTeacherStore(),record=storedQuestionRecord(q);
@@ -173,40 +175,9 @@ async function loadLessonQuestions(){
 const DEMO_NAMES=[['Бат','🦊'],['Солонго','🐰'],['Тэмүүжин','🐯'],['Номин','🐼'],['Ану','🐱'],['Мөнх','🐻'],['Саруул','🐸'],['Энхжин','🦁'],['Төгөлдөр','🐨'],['Болор','🦄']];
 const SCORE_TABLE=[1200,1050,950,875,800,750,700,650,600,550];
 const BOUND_TEXTS=new Set(['은','는','이','가','을','를','에','에서','에게','한테','께','하고','와','과','도','만','부터','까지','으로','로','의','보다','처럼','입니다','입니까','이에요','예요']);
-const AUTO_PARTICLES=['에서','에게','한테','께','부터','까지','으로','보다','처럼','하고','은','는','이','가','을','를','에','도','만','와','과','로','의'];
-const AUTO_COPULAS=['입니다','입니까','이에요','예요'];
-const RESPONSE_PREFIX_RE=/^(?:네|아니요|아니오)\s*[,，]\s*/;
-
 function terminalBase(text){return String(text||'').trim().replace(/[.。!！?？]+$/g,'');}
 function isBoundText(text){return BOUND_TEXTS.has(terminalBase(text));}
-function applySentenceRules(displaySentence,tokens,acceptedOrders){
-  let display=String(displaySentence||'').trim();
-  let nextTokens=(tokens||[]).map(t=>[String(t[0]),String(t[1])]);
-  let nextOrders=(acceptedOrders||[]).map(o=>o.map(String));
-
-  // 대화의 단순 응답인 “네,” “아니요,” “아니오,”는 문장 배열 카드에서 제외합니다.
-  if(RESPONSE_PREFIX_RE.test(display)&&nextOrders.length){
-    const tokenMap=new Map(nextTokens);
-    const firstId=nextOrders[0]?.[0];
-    const firstText=String(tokenMap.get(firstId)||'').trim();
-    if(['네','아니요','아니오'].includes(firstText)){
-      display=display.replace(RESPONSE_PREFIX_RE,'').trim();
-      nextTokens=nextTokens.filter(([id])=>id!==firstId);
-      nextOrders=nextOrders.map(order=>order.filter(id=>id!==firstId)).filter(order=>order.length);
-    }
-  }
-
-  // 질문 문장은 물음표를 종결어미 카드 자체에 붙여 학생·교사 화면 모두에서 명확히 보이게 합니다.
-  if(/[?？]\s*$/.test(display)&&nextOrders.length){
-    const finalIds=new Set(nextOrders.map(order=>order[order.length-1]).filter(Boolean));
-    nextTokens=nextTokens.map(([id,text])=>{
-      if(!finalIds.has(id))return[id,text];
-      const base=String(text).trim().replace(/[.。!！?？]+$/g,'');
-      return[id,`${base}?`];
-    });
-  }
-  return{displaySentence:display,tokens:nextTokens,acceptedOrders:nextOrders};
-}
+function applySentenceRules(displaySentence,tokens,acceptedOrders){return normalizeSentenceCards(displaySentence,tokens,acceptedOrders);}
 
 const $=id=>document.getElementById(id);
 const els={
@@ -576,11 +547,11 @@ function inferFlexibleFrames(tokens,orders){
   for(const order of orders){const f=inferFlexibleFrame(tokens,order);if(!f)continue;const key=JSON.stringify(f);if(!seen.has(key)){seen.add(key);frames.push(f);}}
   return frames;
 }
-function buildQuestionParts(id,cards,answers){if(cards.length<2)return{error:'카드는 2개 이상 입력해야 합니다.'};if(!answers.length)return{error:'대표 문장을 입력해야 합니다.'};const tokens=cards.map((label,i)=>[`${id}_card_${i}`,label]),orders=[];for(const line of answers){const idxs=orderFromSentence(cards,line);if(!idxs)return{error:`“${line}” 문장은 입력한 카드를 모두 한 번씩 사용해 만들 수 없습니다.`};orders.push(idxs.map(i=>tokens[i][0]));}const cleaned=applySentenceRules(answers[0],tokens,orders);return{tokens:cleaned.tokens,orders:cleaned.acceptedOrders,displaySentence:cleaned.displaySentence,flexibleFrames:inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders)};}
-function suggestCards(sentence){const clean=String(sentence||'').trim().replace(/[.!?。！？]+$/g,'');if(!clean)return[];const chunks=clean.split(/\s+/).filter(Boolean),cards=[];for(const chunk of chunks){let done=false;for(const suffix of AUTO_COPULAS){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){cards.push(chunk.slice(0,-suffix.length),suffix);done=true;break;}}if(done)continue;for(const suffix of AUTO_PARTICLES){if(chunk.length>suffix.length&&chunk.endsWith(suffix)){const base=chunk.slice(0,-suffix.length);if(base==='씨'&&cards.length&&!isBoundText(cards[cards.length-1]))cards[cards.length-1]+=' 씨';else if(base)cards.push(base);cards.push(suffix);done=true;break;}}if(!done)cards.push(chunk);}return cards;}
+function buildQuestionParts(id,cards,answers){if(cards.length<2)return{error:'문장 배틀은 배열할 카드가 필요하므로 카드는 2개 이상이어야 합니다.'};if(!answers.length)return{error:'대표 문장을 입력해야 합니다.'};const tokens=cards.map((label,i)=>[`${id}_card_${i}`,label]),orders=[];for(const line of answers){const idxs=orderFromSentence(cards,line);if(!idxs)return{error:`“${line}” 문장은 입력한 카드를 모두 한 번씩 사용해 만들 수 없습니다.`};orders.push(idxs.map(i=>tokens[i][0]));}const cleaned=applySentenceRules(answers[0],tokens,orders);if(cleaned.tokens.length<2)return{error:'문법 덩어리 규칙을 적용하면 카드가 1개가 되어 문장 배틀 출제 대상이 아닙니다.'};return{tokens:cleaned.tokens,orders:cleaned.acceptedOrders,displaySentence:cleaned.displaySentence,flexibleFrames:inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders)};}
+function suggestCards(sentence){return suggestSentenceCards(sentence);}
 function questionSentence(q,index=0){if(index===0&&String(q?.displaySentence||'').trim())return String(q.displaySentence).trim();return assembleSentence(q.acceptedOrders[index]||q.acceptedOrders[0]||[],q);}
 function updateQuestionSelectionUI(){const selected=teacherQuestions.filter(q=>q.enabled).length,total=teacherQuestions.length;els.selectedQuestionBadge.textContent=`${selected}/${total}`;els.managerSelectedCount.textContent=String(selected);els.managerTotalCount.textContent=String(total);els.createRoomBtn.disabled=selected===0;els.demoBtn.disabled=selected===0;}
-function renderQuestionManager(){els.questionList.innerHTML='';teacherQuestions.forEach((q,index)=>{const item=document.createElement('article');item.className='question-item'+(q.enabled?'':' excluded');const primary=questionSentence(q),alternates=q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join(' / ');const persistenceBadge=q.persistent?`<span>${teacherSyncState==='firebase'?'☁ Firebase 영구 저장':'💾 PC 영구 저장'}</span>`:'';const restoreButton=!q.custom&&q.persistent?`<button class="question-delete-btn" data-action="restore" data-index="${index}" type="button">원본 복원</button>`:'';item.innerHTML=`<div class="question-item-main"><label class="question-check"><input class="question-enable" data-index="${index}" type="checkbox" ${q.enabled?'checked':''}></label><div><div class="question-no">Q ${index+1} · ${safeText(q.id)}</div><div class="question-preview">${safeText(primary)}</div><div class="question-meta"><span>카드 ${q.tokens.length}개</span><span>정답 어순 ${flexibleOrderCount(q)}개 자동 인정</span>${q.edited?'<span>수정됨</span>':''}${q.custom?'<span>직접 추가</span>':''}${persistenceBadge}</div>${alternates?`<div class="accepted-preview"><b>추가 정답:</b> ${safeText(alternates)}</div>`:''}</div><div class="question-action-buttons"><button class="question-edit-btn" data-action="edit" data-index="${index}" type="button">${editingQuestionIndex===index?'수정 닫기':'✎ 문장 수정'}</button>${restoreButton}${q.custom?`<button class="question-delete-btn" data-action="delete" data-index="${index}" type="button">영구 삭제</button>`:''}</div></div>`;if(editingQuestionIndex===index){const ed=document.createElement('div');ed.className='question-editor';ed.innerHTML=`<div class="editor-field"><label>대표 문장</label><input id="editSentence-${index}" value="${safeText(primary)}"></div><div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button class="mini-action-btn" data-action="auto-edit" data-index="${index}" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="editCards-${index}" value="${safeText(q.tokens.map(t=>t[1]).join(' | '))}"><small>조사는 분리하고 동사·형용사의 종결형은 한 카드로 입력합니다.</small></div><div class="editor-field"><label>추가로 인정할 문장 · Firebase 영구 저장</label><textarea id="editAnswers-${index}" rows="3">${safeText(q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join('\n'))}</textarea><small>한 줄에 하나씩 입력합니다. 삭제할 정답은 이 목록에서 지운 뒤 다시 저장하세요.</small></div><div id="editError-${index}" class="edit-error"></div><div class="editor-actions"><button class="btn btn-secondary" data-action="cancel-edit" data-index="${index}" type="button">취소</button><button class="btn btn-primary" data-action="save-edit" data-index="${index}" type="button">✓ Firebase 영구 저장</button></div>`;item.append(ed);}els.questionList.append(item);});updateQuestionSelectionUI();}
+function renderQuestionManager(){els.questionList.innerHTML='';teacherQuestions.forEach((q,index)=>{const item=document.createElement('article');item.className='question-item'+(q.enabled?'':' excluded');const primary=questionSentence(q),alternates=q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join(' / ');const persistenceBadge=q.persistent?`<span>${teacherSyncState==='firebase'?'☁ Firebase 영구 저장':'💾 PC 영구 저장'}</span>`:'';const restoreButton=!q.custom&&q.persistent?`<button class="question-delete-btn" data-action="restore" data-index="${index}" type="button">원본 복원</button>`:'';item.innerHTML=`<div class="question-item-main"><label class="question-check"><input class="question-enable" data-index="${index}" type="checkbox" ${q.enabled?'checked':''}></label><div><div class="question-no">Q ${index+1} · ${safeText(q.id)}</div><div class="question-preview">${safeText(primary)}</div><div class="question-meta"><span>카드 ${q.tokens.length}개</span><span>정답 어순 ${flexibleOrderCount(q)}개 자동 인정</span>${q.edited?'<span>수정됨</span>':''}${q.custom?'<span>직접 추가</span>':''}${persistenceBadge}</div>${alternates?`<div class="accepted-preview"><b>추가 정답:</b> ${safeText(alternates)}</div>`:''}</div><div class="question-action-buttons"><button class="question-edit-btn" data-action="edit" data-index="${index}" type="button">${editingQuestionIndex===index?'수정 닫기':'✎ 문장 수정'}</button>${restoreButton}${q.custom?`<button class="question-delete-btn" data-action="delete" data-index="${index}" type="button">영구 삭제</button>`:''}</div></div>`;if(editingQuestionIndex===index){const ed=document.createElement('div');ed.className='question-editor';ed.innerHTML=`<div class="editor-field"><label>대표 문장</label><input id="editSentence-${index}" value="${safeText(primary)}"></div><div class="editor-field"><div class="editor-label-row"><label>카드 구성</label><button class="mini-action-btn" data-action="auto-edit" data-index="${index}" type="button">대표 문장에서 카드 자동 만들기</button></div><input id="editCards-${index}" value="${safeText(q.tokens.map(t=>t[1]).join(' | '))}"><small>명사+조사는 분리합니다. 동사·형용사의 연결·종결형과 ‘-(으)ㄹ 거예요 / -(으)ㄹ 수 있다’ 같은 문법 표현은 용언과 한 덩어리 카드로 입력합니다. 의문문 마지막 카드에는 ?를 포함합니다.</small></div><div class="editor-field"><label>추가로 인정할 문장 · Firebase 영구 저장</label><textarea id="editAnswers-${index}" rows="3">${safeText(q.acceptedOrders.slice(1).map((_,i)=>questionSentence(q,i+1)).join('\n'))}</textarea><small>한 줄에 하나씩 입력합니다. 삭제할 정답은 이 목록에서 지운 뒤 다시 저장하세요.</small></div><div id="editError-${index}" class="edit-error"></div><div class="editor-actions"><button class="btn btn-secondary" data-action="cancel-edit" data-index="${index}" type="button">취소</button><button class="btn btn-primary" data-action="save-edit" data-index="${index}" type="button">✓ Firebase 영구 저장</button></div>`;item.append(ed);}els.questionList.append(item);});updateQuestionSelectionUI();}
 function openQuestionManager(){renderQuestionManager();els.questionManager.classList.remove('hidden');els.questionManager.setAttribute('aria-hidden','false');}
 function closeQuestionManager(){editingQuestionIndex=null;closeNewEditor();els.questionManager.classList.add('hidden');els.questionManager.setAttribute('aria-hidden','true');updateQuestionSelectionUI();}
 async function saveQuestionEdit(index){const q=teacherQuestions[index],primary=$(`editSentence-${index}`)?.value.trim()||'',cards=parseCardLabels($(`editCards-${index}`)?.value||''),answers=uniqueAnswerLines(primary,$(`editAnswers-${index}`)?.value||''),error=$(`editError-${index}`),r=buildQuestionParts(q.id,cards,answers);if(r.error){if(error)error.textContent=r.error;return;}if(error)error.textContent='Firebase에 영구 저장하는 중입니다…';const next={...q,tokens:r.tokens,acceptedOrders:r.orders,flexibleFrames:r.flexibleFrames,displaySentence:r.displaySentence||primary,edited:true,persistent:true};const saved=await saveQuestionPersistence(next);if(!saved.ok){if(error)error.textContent=saved.error;return;}teacherQuestions[index]=next;loadedPersistentCount=teacherQuestions.filter(x=>x.persistent).length;editingQuestionIndex=null;renderQuestionManager();if(saved.warning)alert(saved.warning);}
