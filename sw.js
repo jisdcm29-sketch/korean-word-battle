@@ -1,4 +1,4 @@
-const CACHE_NAME='kwb-offline-v1.0.4';
+const CACHE_NAME='kwb-offline-v1.0.5';
 const CORE_ASSETS=[
   './','./index.html','./arena.html','./join.html',
   './word-battle.html','./play.html','./matching-pairs.html','./matching-play.html',
@@ -7,7 +7,7 @@ const CORE_ASSETS=[
   './css/access.css','./css/join.css','./css/app.css','./css/standalone-ui-sync-v2.css','./css/platform.css',
   './css/matching.css','./css/matching-setup-word-theme-v1.css','./css/memory.css','./css/memory-player-mobile.css',
   './css/word-search.css','./css/combined.css','./css/combined-player.css','./sentence-battle-sample/css/sentence-sample.css','./sentence-battle-sample/css/sentence-player.css',
-  './js/access-config.js','./js/access-control.js','./js/access-login.js','./js/arena-access.js','./js/platform.js','./js/player-resume-helper.js','./js/local-bus.js','./js/firebase-config.js','./js/firebase-bus.js',
+  './js/access-config.js','./js/access-control.js','./js/access-login.js','./js/arena-access.js','./js/platform.js','./js/player-resume-helper.js','./js/late-join-panel.js','./js/local-bus.js','./js/firebase-config.js','./js/firebase-bus.js',
   './js/data-loader.js','./js/catalog.js','./js/game-engine.js','./js/audio-engine.js','./js/lucky-award.js',
   './js/host.js','./js/player.js','./js/matching-engine.js','./js/matching-host.js','./js/matching-player.js',
   './js/memory-engine.js','./js/memory-host.js','./js/memory-player.js',
