@@ -42,17 +42,18 @@ export function firebaseReady(){ return isFirebaseConfigured(); }
 function safeTeacherPathSegment(value){
   return String(value??'').trim().replace(/[.#$\[\]\/]/g,'_')||'_';
 }
-function sentenceTeacherStorePath(book,lesson){
+function sentenceTeacherStorePath(book,lesson,source='snu'){
   const lessonCode=String(Math.max(1,Number(lesson)||1)).padStart(2,'0');
-  return `teacherContent/sentence/v1/${safeTeacherPathSegment(book)}/lesson${lessonCode}`;
+  if(source==='snu') return `teacherContent/sentence/v1/${safeTeacherPathSegment(book)}/lesson${lessonCode}`;
+  return `teacherContent/sentence/v1/${safeTeacherPathSegment(source)}/${safeTeacherPathSegment(book)}/lesson${lessonCode}`;
 }
 
-export async function loadSentenceTeacherStore(book,lesson){
+export async function loadSentenceTeacherStore(book,lesson,source='snu'){
   const {db}=await context();
-  const snap=await get(ref(db,sentenceTeacherStorePath(book,lesson)));
+  const snap=await get(ref(db,sentenceTeacherStorePath(book,lesson,source)));
   return snap.exists()?snap.val():null;
 }
-export async function saveSentenceTeacherStore(book,lesson,store){
+export async function saveSentenceTeacherStore(book,lesson,store,source='snu'){
   const {db,auth}=await context();
   const payload={
     version:2,
@@ -62,7 +63,7 @@ export async function saveSentenceTeacherStore(book,lesson,store){
     updatedBy:auth.currentUser?.uid||null,
     firebaseWrittenAt:serverTimestamp()
   };
-  await set(ref(db,sentenceTeacherStorePath(book,lesson)),payload);
+  await set(ref(db,sentenceTeacherStorePath(book,lesson,source)),payload);
   return payload;
 }
 

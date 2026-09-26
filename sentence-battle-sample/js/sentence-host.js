@@ -1,4 +1,4 @@
-import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.1';
+import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.2';
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
 import { requireTeacherAccess } from '../../js/access-control.js?v=1.5';
 import { createLateJoinPanel, canAcceptLateJoin } from '../../js/late-join-panel.js?v=1.0';
@@ -13,10 +13,13 @@ function buildStudentEntryUrl(pin){
 await requireTeacherAccess({ game:'sentence' });
 
 const launchParams=new URLSearchParams(location.search);
+const selectedSource=launchParams.get('source')==='sejong'?'sejong':'snu';
 const selectedBook=launchParams.get('book')||'1A';
 const selectedLesson=Math.max(1,Number(launchParams.get('lesson'))||1);
 
 const TEACHER_STORE_PREFIX='kwb_sentence_teacher_v1';
+const selectedTextbookName=selectedSource==='sejong'?'세종한국어(개정판)':'서울대 한국어';
+const selectedIdPrefix=selectedSource==='sejong'?'SEJONG':'SNU';
 let teacherQuestions=[];
 
 // Phase 4: 늦게 도착한 문장 제출을 원래 제출 시각 순으로 다시 채점합니다.
@@ -41,7 +44,7 @@ let teacherSyncError='';
 function cloneQuestion(q){
   return {...q,tokens:(q.tokens||[]).map(t=>[...t]),acceptedOrders:(q.acceptedOrders||[]).map(o=>[...o]),flexibleFrames:(q.flexibleFrames||[]).map(f=>({units:(f.units||[]).map(u=>[...u]),tail:[...(f.tail||[])]}))};
 }
-function teacherStoreKey(){return `${TEACHER_STORE_PREFIX}:${selectedBook}:lesson${String(selectedLesson).padStart(2,'0')}`;}
+function teacherStoreKey(){const lessonCode=String(selectedLesson).padStart(2,'0');return selectedSource==='snu'?`${TEACHER_STORE_PREFIX}:${selectedBook}:lesson${lessonCode}`:`${TEACHER_STORE_PREFIX}:${selectedSource}:${selectedBook}:lesson${lessonCode}`;}
 function emptyTeacherStore(){return{version:2,updatedAt:0,overrides:{},customQuestions:[]};}
 function normalizeTeacherStore(parsed){
   const customRaw=parsed?.customQuestions;
@@ -78,7 +81,7 @@ async function saveTeacherStoreEverywhere(store){
     return{ok:true,store:localSaved.store,cloudOk:false,warning:teacherSyncError};
   }
   try{
-    await saveSentenceTeacherStore(selectedBook,selectedLesson,localSaved.store);
+    await saveSentenceTeacherStore(selectedBook,selectedLesson,localSaved.store,selectedSource);
     teacherSyncState='firebase';teacherSyncError='';
     return{ok:true,store:localSaved.store,cloudOk:true};
   }catch(err){
@@ -92,16 +95,16 @@ async function resolveTeacherStore(){
   const local=readTeacherStore();
   if(!firebaseReady()){teacherSyncState='local';teacherSyncError='';return local;}
   try{
-    const remoteRaw=await loadSentenceTeacherStore(selectedBook,selectedLesson);
+    const remoteRaw=await loadSentenceTeacherStore(selectedBook,selectedLesson,selectedSource);
     if(!remoteRaw){
-      if(teacherStoreHasContent(local))await saveSentenceTeacherStore(selectedBook,selectedLesson,local);
+      if(teacherStoreHasContent(local))await saveSentenceTeacherStore(selectedBook,selectedLesson,local,selectedSource);
       teacherSyncState='firebase';teacherSyncError='';
       return local;
     }
     const remote=normalizeTeacherStore(remoteRaw);
     // 최신 쪽 전체 저장본을 우선합니다. 삭제/원본복원도 다른 주소에서 다시 살아나지 않게 하기 위한 방식입니다.
     if(local.updatedAt>remote.updatedAt){
-      await saveSentenceTeacherStore(selectedBook,selectedLesson,local);
+      await saveSentenceTeacherStore(selectedBook,selectedLesson,local,selectedSource);
       teacherSyncState='firebase';teacherSyncError='';
       return local;
     }
@@ -152,21 +155,21 @@ async function removeQuestionPersistence(q){
 
 async function loadLessonQuestions(){
   const lessonCode=String(selectedLesson).padStart(2,'0');
-  const dataUrl=`../data/sentence/snu/${encodeURIComponent(selectedBook)}/lesson${lessonCode}.json`;
+  const dataUrl=`../data/sentence/${selectedSource}/${encodeURIComponent(selectedBook)}/lesson${lessonCode}.json`;
   const response=await fetch(dataUrl,{cache:'no-store'});
-  if(!response.ok)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과 문장 데이터를 불러올 수 없습니다. (${response.status})`);
+  if(!response.ok)throw new Error(`${selectedTextbookName} ${selectedBook} ${selectedLesson}과 문장 데이터를 불러올 수 없습니다. (${response.status})`);
   const data=await response.json();
   const questions=Array.isArray(data?.questions)?data.questions:[];
-  if(!questions.length)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과에 사용할 문장 데이터가 없습니다.`);
+  if(!questions.length)throw new Error(`${selectedTextbookName} ${selectedBook} ${selectedLesson}과에 사용할 문장 데이터가 없습니다.`);
   const baseQuestions=questions.map((q,index)=>{
-    const id=String(q.id||`SNU-${selectedBook}-${lessonCode}-${String(index+1).padStart(3,'0')}`);
+    const id=String(q.id||`${selectedIdPrefix}-${selectedBook}-${lessonCode}-${String(index+1).padStart(3,'0')}`);
     const rawTokens=Array.isArray(q.tokens)?q.tokens.map(t=>[String(t[0]),String(t[1])]):[];
     const rawOrders=Array.isArray(q.acceptedOrders)?q.acceptedOrders.map(o=>o.map(String)):[];
     const cleaned=applySentenceRules(String(q.displaySentence||''),rawTokens,rawOrders);
     const flexibleFrames=inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders);
     return {...q,id,tokens:cleaned.tokens,acceptedOrders:cleaned.acceptedOrders,flexibleFrames,displaySentence:cleaned.displaySentence,enabled:true,edited:false,custom:false,persistent:false};
   }).filter(q=>q.tokens.length>=2&&q.acceptedOrders.length);
-  if(!baseQuestions.length)throw new Error(`서울대 ${selectedBook} ${selectedLesson}과 문장 데이터 형식이 올바르지 않습니다.`);
+  if(!baseQuestions.length)throw new Error(`${selectedTextbookName} ${selectedBook} ${selectedLesson}과 문장 데이터 형식이 올바르지 않습니다.`);
   sourceQuestions=baseQuestions.map(cloneQuestion);
   const teacherStore=await resolveTeacherStore();
   teacherQuestions=applyTeacherStore(sourceQuestions,teacherStore);
@@ -360,7 +363,7 @@ function phase3SentencePackage(){return{version:3,kind:'sentence',questions:full
 function publicRoomState(){
   return {
     kind:'sentence-sample',pin:room.pin,status:room.status,title:'문장 배틀',demoMode:isDemo,
-    config:{timeLimit:room.config.timeLimit,revealSeconds:5,questionTotal:fullQuestions.length,sourceType:'snu',snuBook:room.config.snuBook||selectedBook,snuLesson:room.config.snuLesson||selectedLesson},
+    config:{timeLimit:room.config.timeLimit,revealSeconds:5,questionTotal:fullQuestions.length,sourceType:selectedSource,snuBook:room.config.snuBook||selectedBook,snuLesson:room.config.snuLesson||selectedLesson},
     players:room.players,questionIndex:room.questionIndex,questionTotal:fullQuestions.length,
     countdownEndAt:room.countdownEndAt||0,questionStartAt:room.questionStartAt||0,questionEndAt:room.questionEndAt||0,resultEndAt:room.resultEndAt||0,
     currentQuestion:room.currentQuestion||null,answerCount:room.answerCount||0,roundResults:room.status==='result'?room.roundResults||{}:{},
@@ -412,7 +415,7 @@ async function createRoom(demo=false){
     isDemo=demo;lastMode=demo?'demo':'actual';clearRuntime();document.body.classList.toggle('demo-mode',demo);
     if(!demo&&!firebaseReady())throw new Error('실제 학생 입장 테스트에는 Firebase 설정이 필요합니다.');
     const pin=demo?String(Math.floor(100000+Math.random()*900000)):await createUniquePin();
-    room={pin,status:'lobby',config:{timeLimit,sourceType:'snu',snuBook:selectedBook,snuLesson:selectedLesson},players:{},questionIndex:-1,answerCount:0,roundResults:{},createdAt:Date.now()};
+    room={pin,status:'lobby',config:{timeLimit,sourceType:selectedSource,snuBook:selectedBook,snuLesson:selectedLesson},players:{},questionIndex:-1,answerCount:0,roundResults:{},createdAt:Date.now()};
     if(demo){DEMO_NAMES.forEach(([name,avatar],i)=>{room.players[`demo-${i+1}`]={uid:`demo-${i+1}`,name,avatar,score:0};});}
     else{
       bus=new SentenceHostBus(pin);bus.on(handleMessage);await bus.init();await bus.createRoom(publicRoomState());
@@ -571,8 +574,8 @@ els.createRoomBtn.addEventListener('click',()=>createRoom(false));els.demoBtn.ad
 window.addEventListener('beforeunload',()=>{try{bus?.closeRoom();}catch{}});
 
 async function initializeSentenceBattle(){
-  if(els.sentenceBookContext)els.sentenceBookContext.textContent=`문장 배틀 · 서울대 ${selectedBook} · ${selectedLesson}과`;
-  if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>서울대 ${selectedBook} · ${selectedLesson}과</b> · 교재 기반 문장 데이터를 불러오는 중입니다.`;
+  if(els.sentenceBookContext)els.sentenceBookContext.textContent=`문장 배틀 · ${selectedTextbookName} ${selectedBook} · ${selectedLesson}과`;
+  if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>${selectedTextbookName} ${selectedBook} · ${selectedLesson}과</b> · 교재 기반 문장 데이터를 불러오는 중입니다.`;
   els.createRoomBtn.disabled=true;els.demoBtn.disabled=true;
   els.setupMessage.textContent='선택한 과의 어휘·문법·예문을 바탕으로 출제 문장을 준비하고 있습니다.';
   setView('setup');syncVolume();renderQuestionManager();
@@ -580,13 +583,13 @@ async function initializeSentenceBattle(){
     await loadLessonQuestions();
     const count=teacherQuestions.length,savedText=loadedPersistentCount?` · 교사 영구 저장 ${loadedPersistentCount}개 자동 적용`:'';
     const syncText=teacherSyncState==='firebase'?' · Firebase 영구 저장 연결됨':(teacherSyncError?' · Firebase 동기화 대기(PC 저장 사용)':' · PC 영구 저장 사용');
-    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>서울대 ${selectedBook} · ${selectedLesson}과</b> · <b>${count}개</b>의 문장을 불러왔습니다${loadedPersistentCount?` · <b>${loadedPersistentCount}개</b> 교사 저장 내용 자동 적용`:''}. ${teacherSyncState==='firebase'?'<b>Firebase 공유 저장</b>이 연결되어 C드라이브와 GitHub에서 같은 수정 내용을 사용합니다.':'현재는 이 PC 저장 내용을 사용합니다.'}`;
-    els.setupMessage.textContent=`서울대 ${selectedBook} ${selectedLesson}과 문장 ${count}개 준비 완료${savedText}${syncText} · 학생은 각자 휴대폰에서 PIN 또는 QR로 입장합니다.`;
+    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`선택한 교재: <b>${selectedTextbookName} ${selectedBook} · ${selectedLesson}과</b> · <b>${count}개</b>의 문장을 불러왔습니다${loadedPersistentCount?` · <b>${loadedPersistentCount}개</b> 교사 저장 내용 자동 적용`:''}. ${teacherSyncState==='firebase'?'<b>Firebase 공유 저장</b>이 연결되어 C드라이브와 GitHub에서 같은 수정 내용을 사용합니다.':'현재는 이 PC 저장 내용을 사용합니다.'}`;
+    els.setupMessage.textContent=`${selectedTextbookName} ${selectedBook} ${selectedLesson}과 문장 ${count}개 준비 완료${savedText}${syncText} · 학생은 각자 휴대폰에서 PIN 또는 QR로 입장합니다.`;
     els.setupMessage.style.color='';
     renderQuestionManager();updateQuestionSelectionUI();
   }catch(err){
     teacherQuestions=[];renderQuestionManager();updateQuestionSelectionUI();
-    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`<b>서울대 ${selectedBook} · ${selectedLesson}과</b> 문장 데이터를 불러오지 못했습니다.`;
+    if(els.sentenceContextNote)els.sentenceContextNote.innerHTML=`<b>${selectedTextbookName} ${selectedBook} · ${selectedLesson}과</b> 문장 데이터를 불러오지 못했습니다.`;
     els.setupMessage.textContent=err?.message||'문장 데이터를 불러오지 못했습니다.';els.setupMessage.style.color='#ffb1bd';
   }
 }
