@@ -10,7 +10,7 @@ export const CATALOG = {
     { id: '4B', title: '서울대 4B', lessons: [10,11,12,13,14,15,16,17,18] }
   ],
   sejongBooks: [
-    { id: '1A', title: '세종 1A', lessons: [1] }
+    { id: '1A', title: '세종 1A', lessons: [1,2,3,4,5,6,7,8,9,10] }
   ],
   collocationSets: Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
