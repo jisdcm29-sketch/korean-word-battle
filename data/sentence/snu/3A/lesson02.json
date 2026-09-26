@@ -882,27 +882,27 @@
       "displaySentence": "알람이 울리자마자 일어나서 스트레칭을 해요.",
       "tokens": [
         [
-          "SNU-3A-02-020_card_6",
+          "SNU-3A-02-020_card_0",
           "알람"
         ],
         [
-          "SNU-3A-02-020_card_6",
+          "SNU-3A-02-020_card_1",
           "이"
         ],
         [
-          "SNU-3A-02-020_card_6",
+          "SNU-3A-02-020_card_2",
           "울리자마자"
         ],
         [
-          "SNU-3A-02-020_card_6",
+          "SNU-3A-02-020_card_3",
           "일어나서"
         ],
         [
-          "SNU-3A-02-020_card_6",
+          "SNU-3A-02-020_card_4",
           "스트레칭"
         ],
         [
-          "SNU-3A-02-020_card_6",
+          "SNU-3A-02-020_card_5",
           "을"
         ],
         [
@@ -912,12 +912,12 @@
       ],
       "acceptedOrders": [
         [
-          "SNU-3A-02-020_card_6",
-          "SNU-3A-02-020_card_6",
-          "SNU-3A-02-020_card_6",
-          "SNU-3A-02-020_card_6",
-          "SNU-3A-02-020_card_6",
-          "SNU-3A-02-020_card_6",
+          "SNU-3A-02-020_card_0",
+          "SNU-3A-02-020_card_1",
+          "SNU-3A-02-020_card_2",
+          "SNU-3A-02-020_card_3",
+          "SNU-3A-02-020_card_4",
+          "SNU-3A-02-020_card_5",
           "SNU-3A-02-020_card_6"
         ]
       ],

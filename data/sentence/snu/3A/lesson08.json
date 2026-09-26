@@ -746,27 +746,27 @@
       "displaySentence": "횡단보도를 건너다가 미끄러져서 발목을 삐었어요.",
       "tokens": [
         [
-          "SNU-3A-08-017_card_6",
+          "SNU-3A-08-017_card_0",
           "횡단보도"
         ],
         [
-          "SNU-3A-08-017_card_6",
+          "SNU-3A-08-017_card_1",
           "를"
         ],
         [
-          "SNU-3A-08-017_card_6",
+          "SNU-3A-08-017_card_2",
           "건너다가"
         ],
         [
-          "SNU-3A-08-017_card_6",
+          "SNU-3A-08-017_card_3",
           "미끄러져서"
         ],
         [
-          "SNU-3A-08-017_card_6",
+          "SNU-3A-08-017_card_4",
           "발목"
         ],
         [
-          "SNU-3A-08-017_card_6",
+          "SNU-3A-08-017_card_5",
           "을"
         ],
         [
@@ -776,12 +776,12 @@
       ],
       "acceptedOrders": [
         [
-          "SNU-3A-08-017_card_6",
-          "SNU-3A-08-017_card_6",
-          "SNU-3A-08-017_card_6",
-          "SNU-3A-08-017_card_6",
-          "SNU-3A-08-017_card_6",
-          "SNU-3A-08-017_card_6",
+          "SNU-3A-08-017_card_0",
+          "SNU-3A-08-017_card_1",
+          "SNU-3A-08-017_card_2",
+          "SNU-3A-08-017_card_3",
+          "SNU-3A-08-017_card_4",
+          "SNU-3A-08-017_card_5",
           "SNU-3A-08-017_card_6"
         ]
       ],
@@ -793,19 +793,19 @@
       "displaySentence": "운전자가 신호를 위반했다고요?",
       "tokens": [
         [
-          "SNU-3A-08-018_card_4",
+          "SNU-3A-08-018_card_0",
           "운전자"
         ],
         [
-          "SNU-3A-08-018_card_4",
+          "SNU-3A-08-018_card_1",
           "가"
         ],
         [
-          "SNU-3A-08-018_card_4",
+          "SNU-3A-08-018_card_2",
           "신호"
         ],
         [
-          "SNU-3A-08-018_card_4",
+          "SNU-3A-08-018_card_3",
           "를"
         ],
         [
@@ -815,10 +815,10 @@
       ],
       "acceptedOrders": [
         [
-          "SNU-3A-08-018_card_4",
-          "SNU-3A-08-018_card_4",
-          "SNU-3A-08-018_card_4",
-          "SNU-3A-08-018_card_4",
+          "SNU-3A-08-018_card_0",
+          "SNU-3A-08-018_card_1",
+          "SNU-3A-08-018_card_2",
+          "SNU-3A-08-018_card_3",
           "SNU-3A-08-018_card_4"
         ]
       ],
@@ -830,23 +830,23 @@
       "displaySentence": "아무리 급해도 안전벨트는 꼭 매야 해요.",
       "tokens": [
         [
-          "SNU-3A-08-019_card_5",
+          "SNU-3A-08-019_card_0",
           "아무리"
         ],
         [
-          "SNU-3A-08-019_card_5",
+          "SNU-3A-08-019_card_1",
           "급해도"
         ],
         [
-          "SNU-3A-08-019_card_5",
+          "SNU-3A-08-019_card_2",
           "안전벨트"
         ],
         [
-          "SNU-3A-08-019_card_5",
+          "SNU-3A-08-019_card_3",
           "는"
         ],
         [
-          "SNU-3A-08-019_card_5",
+          "SNU-3A-08-019_card_4",
           "꼭"
         ],
         [
@@ -856,11 +856,11 @@
       ],
       "acceptedOrders": [
         [
-          "SNU-3A-08-019_card_5",
-          "SNU-3A-08-019_card_5",
-          "SNU-3A-08-019_card_5",
-          "SNU-3A-08-019_card_5",
-          "SNU-3A-08-019_card_5",
+          "SNU-3A-08-019_card_0",
+          "SNU-3A-08-019_card_1",
+          "SNU-3A-08-019_card_2",
+          "SNU-3A-08-019_card_3",
+          "SNU-3A-08-019_card_4",
           "SNU-3A-08-019_card_5"
         ]
       ],
@@ -872,23 +872,23 @@
       "displaySentence": "사고 현장에서 바로 구급차를 불렀다고요?",
       "tokens": [
         [
-          "SNU-3A-08-020_card_5",
+          "SNU-3A-08-020_card_0",
           "사고 현장"
         ],
         [
-          "SNU-3A-08-020_card_5",
+          "SNU-3A-08-020_card_1",
           "에서"
         ],
         [
-          "SNU-3A-08-020_card_5",
+          "SNU-3A-08-020_card_2",
           "바로"
         ],
         [
-          "SNU-3A-08-020_card_5",
+          "SNU-3A-08-020_card_3",
           "구급차"
         ],
         [
-          "SNU-3A-08-020_card_5",
+          "SNU-3A-08-020_card_4",
           "를"
         ],
         [
@@ -898,11 +898,11 @@
       ],
       "acceptedOrders": [
         [
-          "SNU-3A-08-020_card_5",
-          "SNU-3A-08-020_card_5",
-          "SNU-3A-08-020_card_5",
-          "SNU-3A-08-020_card_5",
-          "SNU-3A-08-020_card_5",
+          "SNU-3A-08-020_card_0",
+          "SNU-3A-08-020_card_1",
+          "SNU-3A-08-020_card_2",
+          "SNU-3A-08-020_card_3",
+          "SNU-3A-08-020_card_4",
           "SNU-3A-08-020_card_5"
         ]
       ],

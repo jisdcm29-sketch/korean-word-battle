@@ -1052,27 +1052,27 @@
       "displaySentence": "친구에게 내일 기온이 어떠냐고 물어봤어요.",
       "tokens": [
         [
-          "SNU-3A-03-020_card_6",
+          "SNU-3A-03-020_card_0",
           "친구"
         ],
         [
-          "SNU-3A-03-020_card_6",
+          "SNU-3A-03-020_card_1",
           "에게"
         ],
         [
-          "SNU-3A-03-020_card_6",
+          "SNU-3A-03-020_card_2",
           "내일"
         ],
         [
-          "SNU-3A-03-020_card_6",
+          "SNU-3A-03-020_card_3",
           "기온"
         ],
         [
-          "SNU-3A-03-020_card_6",
+          "SNU-3A-03-020_card_4",
           "이"
         ],
         [
-          "SNU-3A-03-020_card_6",
+          "SNU-3A-03-020_card_5",
           "어떠냐고"
         ],
         [
@@ -1082,12 +1082,12 @@
       ],
       "acceptedOrders": [
         [
-          "SNU-3A-03-020_card_6",
-          "SNU-3A-03-020_card_6",
-          "SNU-3A-03-020_card_6",
-          "SNU-3A-03-020_card_6",
-          "SNU-3A-03-020_card_6",
-          "SNU-3A-03-020_card_6",
+          "SNU-3A-03-020_card_0",
+          "SNU-3A-03-020_card_1",
+          "SNU-3A-03-020_card_2",
+          "SNU-3A-03-020_card_3",
+          "SNU-3A-03-020_card_4",
+          "SNU-3A-03-020_card_5",
           "SNU-3A-03-020_card_6"
         ]
       ],
