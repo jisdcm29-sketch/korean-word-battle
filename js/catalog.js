@@ -9,8 +9,20 @@ export const CATALOG = {
     { id: '4A', title: '서울대 4A', lessons: [1,2,3,4,5,6,7,8,9] },
     { id: '4B', title: '서울대 4B', lessons: [10,11,12,13,14,15,16,17,18] }
   ],
+  sejongBooks: [
+    { id: '1A', title: '세종 1A', lessons: [1] }
+  ],
   collocationSets: Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
     label: `${i * 50 + 1}-${(i + 1) * 50}`
   }))
 };
+
+
+export function booksForSource(sourceType) {
+  return sourceType === 'sejong' ? CATALOG.sejongBooks : CATALOG.snuBooks;
+}
+
+export function textbookName(sourceType) {
+  return sourceType === 'sejong' ? '세종한국어(개정판)' : '서울대 한국어';
+}

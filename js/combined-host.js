@@ -2,7 +2,7 @@ import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore } from './game-engine.js';
 import { buildMatchingRounds } from './matching-engine.js';
 import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
-import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-sample/js/sentence-live.js?v=3.1';
+import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-sample/js/sentence-live.js?v=3.2';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { CombinedSentenceAudio } from './combined-sentence-audio.js?v=1.0';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
@@ -20,6 +20,9 @@ await requireTeacherAccess({ game:'combined' });
 
 const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search);
+const source=params.get('source')==='sejong'?'sejong':'snu';
+const textbookName=source==='sejong'?'세종한국어(개정판)':'서울대 한국어';
+const idPrefix=source==='sejong'?'SEJONG':'SNU';
 const book=params.get('book')||'1A';
 const lesson=Math.max(1,Number(params.get('lesson'))||1);
 const VOCAB_LOCAL_KEY='kwb_teacher_vocabulary_v1';
@@ -110,13 +113,13 @@ async function resolveVocabStore(){
 }
 function applyVocabStore(items,store){return items.map(v=>{const s=store?.overrides?.[String(v.id)];return s?{...v,ko:s.ko,mn:s.mn,teacherEdited:true}:v;});}
 
-function sentenceStoreKey(){return`${SENTENCE_LOCAL_PREFIX}:${book}:lesson${String(lesson).padStart(2,'0')}`;}
+function sentenceStoreKey(){const code=String(lesson).padStart(2,'0');return source==='snu'?`${SENTENCE_LOCAL_PREFIX}:${book}:lesson${code}`:`${SENTENCE_LOCAL_PREFIX}:${source}:${book}:lesson${code}`;}
 function normalizeSentenceStore(raw){const customRaw=raw?.customQuestions;const custom=Array.isArray(customRaw)?customRaw:(customRaw&&typeof customRaw==='object'?Object.values(customRaw):[]);return{version:2,updatedAt:Number(raw?.updatedAt)||0,overrides:raw?.overrides&&typeof raw.overrides==='object'?raw.overrides:{},customQuestions:custom.filter(Boolean)};}
 async function resolveSentenceStore(){
   const local=normalizeSentenceStore(readJsonLocal(sentenceStoreKey(),{version:2,updatedAt:0,overrides:{},customQuestions:[]}));
   if(!firebaseReady())return{store:local,state:'local'};
   try{
-    const remoteRaw=await loadSentenceTeacherStore(book,lesson);
+    const remoteRaw=await loadSentenceTeacherStore(book,lesson,source);
     if(!remoteRaw)return{store:local,state:'firebase'};
     const remote=normalizeSentenceStore(remoteRaw);
     const chosen=remote.updatedAt>=local.updatedAt?remote:local;
@@ -138,7 +141,7 @@ function inferFlexibleFrame(tokens,order){
 function inferFlexibleFrames(tokens,orders){const out=[],seen=new Set();for(const order of orders||[]){const f=inferFlexibleFrame(tokens,order);if(!f)continue;const k=JSON.stringify(f);if(!seen.has(k)){seen.add(k);out.push(f);}}return out;}
 function applySentenceRules(displaySentence,tokens,acceptedOrders){return normalizeSentenceCards(displaySentence,tokens,acceptedOrders);}
 function cleanBaseSentence(q,index){
-  const id=String(q.id||`SNU-${book}-${String(lesson).padStart(2,'0')}-${String(index+1).padStart(3,'0')}`),tokens=(q.tokens||[]).map(t=>[String(t[0]),String(t[1])]),orders=(q.acceptedOrders||[]).map(o=>o.map(String));
+  const id=String(q.id||`${idPrefix}-${book}-${String(lesson).padStart(2,'0')}-${String(index+1).padStart(3,'0')}`),tokens=(q.tokens||[]).map(t=>[String(t[0]),String(t[1])]),orders=(q.acceptedOrders||[]).map(o=>o.map(String));
   const cleaned=applySentenceRules(q.displaySentence,tokens,orders);return{...q,id,displaySentence:cleaned.displaySentence,tokens:cleaned.tokens,acceptedOrders:cleaned.acceptedOrders,flexibleFrames:inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders),teacherEdited:false};
 }
 function storedSentence(record,base=null){
@@ -151,7 +154,7 @@ function sameOrder(a,b){return a.length===b.length&&a.every((v,i)=>String(v)===S
 function startsWithOrder(order,pos,unit){return pos+unit.length<=order.length&&unit.every((id,i)=>String(order[pos+i])===String(id));}
 function matchesFlexibleFrame(order,frame){const tail=Array.isArray(frame?.tail)?frame.tail:[],units=Array.isArray(frame?.units)?frame.units:[],bodyLength=units.reduce((n,u)=>n+u.length,0);if(order.length!==bodyLength+tail.length)return false;if(tail.length&&!sameOrder(order.slice(bodyLength),tail))return false;const body=order.slice(0,bodyLength),used=new Array(units.length).fill(false);function walk(pos,count){if(count===units.length)return pos===body.length;for(let i=0;i<units.length;i++){if(used[i]||!startsWithOrder(body,pos,units[i]))continue;used[i]=true;if(walk(pos+units[i].length,count+1))return true;used[i]=false;}return false;}return walk(0,0);}
 function isCorrectSentenceOrder(order,q){if((q.acceptedOrders||[]).some(ans=>sameOrder(order,ans)))return true;return(q.flexibleFrames||[]).some(frame=>matchesFlexibleFrame(order,frame));}
-async function loadSentenceBase(){const code=String(lesson).padStart(2,'0');const res=await fetch(`data/sentence/snu/${book}/lesson${code}.json`,{cache:'no-store'});if(!res.ok)throw new Error(`서울대 ${book} ${lesson}과 문장 데이터를 불러오지 못했습니다.`);return res.json();}
+async function loadSentenceBase(){const code=String(lesson).padStart(2,'0');const res=await fetch(`data/sentence/${source}/${book}/lesson${code}.json`,{cache:'no-store'});if(!res.ok)throw new Error(`${textbookName} ${book} ${lesson}과 문장 데이터를 불러오지 못했습니다.`);return res.json();}
 
 function settings(){return{
   wordCount:clamp(Number($('wordCount').value)||5,3,Math.min(20,vocabItems.length||20)),wordTime:Number($('wordTime').value)||10,
@@ -160,9 +163,9 @@ function settings(){return{
 };}
 
 async function preload(){
-  $('sourceTitle').textContent=`서울대 ${book} · ${lesson}과`;$('contextText').textContent=`종합 배틀 · 서울대 ${book} · ${lesson}과`;
+  $('sourceTitle').textContent=`${textbookName} ${book} · ${lesson}과`;$('contextText').textContent=`종합 배틀 · ${textbookName} ${book} · ${lesson}과`;
   try{
-    const [vocabBase,sentenceBase,vocabResolved,sentenceResolved]=await Promise.all([loadByConfig({sourceType:'snu',snuBook:book,snuLesson:lesson}),loadSentenceBase(),resolveVocabStore(),resolveSentenceStore()]);
+    const [vocabBase,sentenceBase,vocabResolved,sentenceResolved]=await Promise.all([loadByConfig({sourceType:source,snuBook:book,snuLesson:lesson}),loadSentenceBase(),resolveVocabStore(),resolveSentenceStore()]);
     vocabItems=applyVocabStore(vocabBase.items,vocabResolved.store);sentenceQuestions=applySentenceStore(sentenceBase.questions||[],sentenceResolved.store);
     const vocabEdited=vocabItems.filter(x=>x.teacherEdited).length,sentenceEdited=sentenceQuestions.filter(x=>x.teacherEdited).length;
     $('wordCount').max=String(Math.min(20,vocabItems.length));$('sentenceCount').max=String(Math.min(20,sentenceQuestions.length));
@@ -195,7 +198,7 @@ function liveReplicaState(){
   if(status==='countdown'){remainingMs=Math.max(0,Number(liveRoom.countdownEndAt||0)-t);durationMs=Math.max(1,Number(liveRoom.countdownEndAt||0)-Math.max(0,Number(liveRoom.countdownEndAt||0)-3000));}
   else if(status==='playing'){remainingMs=Math.max(0,Number(liveRoom.unitEndAt||0)-t);durationMs=Math.max(1,Number(liveRoom.unitEndAt||0)-Number(liveRoom.unitStartAt||0));}
   const players=Object.values(liveRoom.players||{}).map(p=>({uid:p.uid,name:p.name,avatar:p.avatar,bot:!!p.bot,scores:{word:Number(p.scores?.word)||0,matching:Number(p.scores?.matching)||0,sentence:Number(p.scores?.sentence)||0},matchedPairIds:[...(p.matchedPairIds||[])],matchingMistakes:Number(p.matchingMistakes)||0}));
-  return {status,stageIndex:liveRoom.stageIndex,unitIndex:liveRoom.unitIndex,unitTotal:liveRoom.unitTotal,blindActive:!!liveRoom.blindActive,remainingMs,durationMs,resultRemainingMs:status==='result'?Math.max(0,Number(liveRoom.resultEndAt||0)-t):0,currentWordQuestion:liveRoom.currentWordQuestion,currentMatchingRound:liveRoom.currentMatchingRound,currentSentenceQuestion:liveRoom.currentSentenceQuestion,players,submittedCount:Object.keys(liveRoom.unitResults||{}).length,config:liveRoom.config||{},audio:audio.getSettings(),context:`서울대 ${book} · ${lesson}과`,demoMode:false};
+  return {status,stageIndex:liveRoom.stageIndex,unitIndex:liveRoom.unitIndex,unitTotal:liveRoom.unitTotal,blindActive:!!liveRoom.blindActive,remainingMs,durationMs,resultRemainingMs:status==='result'?Math.max(0,Number(liveRoom.resultEndAt||0)-t):0,currentWordQuestion:liveRoom.currentWordQuestion,currentMatchingRound:liveRoom.currentMatchingRound,currentSentenceQuestion:liveRoom.currentSentenceQuestion,players,submittedCount:Object.keys(liveRoom.unitResults||{}).length,config:liveRoom.config||{},audio:audio.getSettings(),context:`${textbookName} ${book} · ${lesson}과`,demoMode:false};
 }
 function sendReplicaState(){if(!replicaReady)return;const frame=$('stageFrame'),state=liveRoom?liveReplicaState():demoReplicaState;if(!frame?.contentWindow||!state)return;frame.contentWindow.postMessage({type:'combined-stage-state',stage:currentReplicaKey(),state},location.origin);}
 function sendReplicaEvent(stage,event){const frame=$('stageFrame');if(!replicaReady||!frame?.contentWindow||currentReplicaKey()!==stage)return;frame.contentWindow.postMessage({type:'combined-stage-event',stage,event},location.origin);}
@@ -216,7 +219,7 @@ function renderMatchingRound(round,index,total){$('roundCounter').textContent=`R
 function renderSentenceQuestion(q,index,total,reveal=false){$('roundCounter').textContent=`Q ${index+1}/${total}`;const tokens=q.shuffledTokens||shuffle(q.tokens);$('gameVisual').innerHTML=`<div class="sentence-visual"><div class="sentence-guide">섞인 카드를 자연스러운 문장 순서로 배열하세요.</div><div class="sentence-cards">${tokens.map(t=>`<span class="sentence-card">${esc(Array.isArray(t)?t[1]:t)}</span>`).join('')}</div>${reveal?`<div class="sentence-answer">${esc(q.displaySentence)}</div>`:''}</div>`;}
 
 function demoPlayersPayload(extraById={}){return DEMO_PLAYERS.map(p=>({uid:p.id,name:p.name,avatar:p.avatar,bot:true,scores:{word:Number(p.scores.word)||0,matching:Number(p.scores.matching)||0,sentence:Number(p.scores.sentence)||0},matchedPairIds:[...(extraById[p.id]?.matchedPairIds||[])],matchingMistakes:Number(extraById[p.id]?.matchingMistakes)||0}));}
-function setDemoReplica(stageIndex,partial={}){ensureReplicaStage(stageIndex);demoReplicaState={status:'playing',stageIndex,unitIndex:0,unitTotal:1,blindActive:false,remainingMs:0,durationMs:1,resultRemainingMs:0,currentWordQuestion:null,currentMatchingRound:null,currentSentenceQuestion:null,players:demoPlayersPayload(),submittedCount:0,config:settings(),audio:audio.getSettings(),context:`서울대 ${book} · ${lesson}과`,demoMode:true,...partial};sendReplicaState();}
+function setDemoReplica(stageIndex,partial={}){ensureReplicaStage(stageIndex);demoReplicaState={status:'playing',stageIndex,unitIndex:0,unitTotal:1,blindActive:false,remainingMs:0,durationMs:1,resultRemainingMs:0,currentWordQuestion:null,currentMatchingRound:null,currentSentenceQuestion:null,players:demoPlayersPayload(),submittedCount:0,config:settings(),audio:audio.getSettings(),context:`${textbookName} ${book} · ${lesson}과`,demoMode:true,...partial};sendReplicaState();}
 /* ---------------- demo mode ---------------- */
 function updateDemoStageLabels(){const max=key=>Math.max(...DEMO_PLAYERS.map(p=>Math.round(p.scores[key])));$('wordStageScore').textContent=`최고 ${max('word')}/1000`;$('matchingStageScore').textContent=`최고 ${max('matching')}/1000`;$('sentenceStageScore').textContent=`최고 ${max('sentence')}/1000`;}
 function renderDemoRank(blind=false){$('rankBlind').classList.toggle('hidden',!blind);if(blind)return;$('rankList').innerHTML=sortedDemo().map((p,i)=>`<div class="rank-row ${i<3?'top':''}"><span class="rank-no">${i+1}</span><span class="rank-avatar">${p.avatar}</span><span class="rank-name">${esc(p.name)}</span><span class="rank-score">${demoTotal(p).toLocaleString()}</span></div>`).join('');}
@@ -253,7 +256,7 @@ async function createLiveRoom(){
   await unlockAudio();if(!isFirebaseConfigured()){alert('실제 학생 종합 배틀은 Firebase 연결이 필요합니다.');return;}
   try{
     const s=settings();quiz=buildQuiz(vocabItems,{direction:'mixed',questionCount:s.wordCount});validateQuizIntegrity(quiz);matching=buildMatchingRounds(vocabItems,{roundCount:s.matchRounds,pairsPerRound:s.pairsPerRound});validateMatchingIntegrity(matching);const selectedSentence=shuffle(sentenceQuestions).slice(0,s.sentenceCount);
-    const pin=await createUniqueFirebasePin();liveRoom={pin,title:`종합 배틀 · 서울대 ${book} ${lesson}과`,status:'lobby',config:{gameType:'combined',...s},players:{},stageIndex:-1,unitIndex:-1,unitTotal:0,unitResults:{},completedSteps:0,totalSteps:s.wordCount+s.matchRounds+s.sentenceCount,blindActive:false,quiz,matching,sentenceSet:selectedSentence,createdAt:Date.now()};
+    const pin=await createUniqueFirebasePin();liveRoom={pin,title:`종합 배틀 · ${textbookName} ${book} ${lesson}과`,status:'lobby',config:{gameType:'combined',sourceType:source,snuBook:book,snuLesson:lesson,...s},players:{},stageIndex:-1,unitIndex:-1,unitTotal:0,unitResults:{},completedSteps:0,totalSteps:s.wordCount+s.matchRounds+s.sentenceCount,blindActive:false,quiz,matching,sentenceSet:selectedSentence,createdAt:Date.now()};
     liveBus?.close();liveBus=new FirebaseBus(pin,'host');liveBus.on(handleLiveMessage);await liveBus.init();liveRoom.createdAt=now();await liveBus.createRoom(liveRoom);mode='live';setView('lobby');$('roomPin').textContent=pin;const url=buildStudentEntryUrl(pin);$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);createLateJoinPanel({pin,url:url.href,getStatus:()=>liveRoom?.status,enabled:()=>mode==='live'});renderLobby();startLiveTick();audio.startBgm('lobby');audio.playChime();
   }catch(err){console.error(err);alert(err?.message||'실제 학생 종합 배틀 방을 만들지 못했습니다.');}
 }

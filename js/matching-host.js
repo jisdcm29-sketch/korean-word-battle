@@ -1,4 +1,4 @@
-import { CATALOG } from './catalog.js';
+import { CATALOG, booksForSource } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildMatchingRounds, calculateMatchingPairScore, calculateRoundClearBonus, isMatchingBlind } from './matching-engine.js';
 import { LocalBus } from './local-bus.js?v=7.6';
@@ -202,28 +202,35 @@ function escapeHtml(value){ return String(value ?? '').replace(/[&<>'"]/g,(c)=>(
 function toast(text){ clearTimeout(toastTimer); const el=$('toast'); el.textContent=text; el.classList.remove('hidden'); toastTimer=setTimeout(()=>el.classList.add('hidden'),2600); }
 
 function fillCatalog(){
-  $('snuBook').innerHTML = CATALOG.snuBooks.map((b)=>`<option value="${b.id}">${b.title}</option>`).join('');
+  fillBooks();
   $('collocationSet').innerHTML = [...CATALOG.collocationSets.map((s)=>`<option value="${s.id}">${s.label}</option>`),'<option value="all">전체 1-500 랜덤</option>'].join('');
+}
+function fillBooks(){
+  const books=booksForSource($('sourceType').value||'snu'),keep=$('snuBook').value;
+  $('snuBook').innerHTML=books.map((b)=>`<option value="${b.id}">${b.title}</option>`).join('');
+  if(books.some((b)=>b.id===keep))$('snuBook').value=keep;
   fillLessons();
 }
 function fillLessons(){
-  const book = CATALOG.snuBooks.find((b)=>b.id===$('snuBook').value) || CATALOG.snuBooks[0];
+  const books=booksForSource($('sourceType').value||'snu');
+  const book = books.find((b)=>b.id===$('snuBook').value) || books[0];
   $('snuLesson').innerHTML = book.lessons.map((n)=>`<option value="${n}">${n}과</option>`).join('');
 }
 function applyLaunchParams(){
   const p=new URLSearchParams(location.search);
-  const source=p.get('source'); if(['preliminary','snu','topik1'].includes(source)) $('sourceType').value=source;
-  const book=p.get('book'); if(book && CATALOG.snuBooks.some((b)=>b.id===book)){ $('snuBook').value=book; fillLessons(); }
+  const source=p.get('source'); if(['preliminary','snu','sejong','topik1'].includes(source)) $('sourceType').value=source; if(source==='snu'||source==='sejong')fillBooks();
+  const book=p.get('book'); const books=booksForSource($('sourceType').value||'snu'); if(book && books.some((b)=>b.id===book)){ $('snuBook').value=book; fillLessons(); }
   const lesson=Number(p.get('lesson')); if(lesson && [...$('snuLesson').options].some((o)=>Number(o.value)===lesson)) $('snuLesson').value=String(lesson);
   const collocation=p.get('collocation'); if(collocation && [...$('collocationSet').options].some((o)=>o.value===collocation)) $('collocationSet').value=collocation;
 }
 function updateSourceFields(){
   const type=$('sourceType').value;
-  $('bookField').classList.toggle('hidden',type!=='snu');
-  $('lessonField').classList.toggle('hidden',type!=='snu');
+  const textbook=type==='snu'||type==='sejong';
+  $('bookField').classList.toggle('hidden',!textbook);
+  $('lessonField').classList.toggle('hidden',!textbook);
   $('collocationField').classList.toggle('hidden',type!=='topik1');
 }
-function sourceKeyFromConfig(c){ if(c.sourceType==='preliminary') return 'preliminary'; if(c.sourceType==='topik1') return `topik1:${c.collocationSet}`; return `snu:${c.snuBook}:${c.snuLesson}`; }
+function sourceKeyFromConfig(c){ if(c.sourceType==='preliminary') return 'preliminary'; if(c.sourceType==='topik1') return `topik1:${c.collocationSet}`; return `${c.sourceType}:${c.snuBook}:${c.snuLesson}`; }
 function getConfig(){
   return {
     gameType:'matching-pairs', sourceType:$('sourceType').value, snuBook:$('snuBook').value, snuLesson:Number($('snuLesson').value), collocationSet:$('collocationSet').value,
@@ -475,7 +482,7 @@ function backToSetup(){ if(!room||room.status!=='lobby')return; endRoom(); }
 async function toggleFullscreen(){ try{if(!document.fullscreenElement)await $('hostView').requestFullscreen();else await document.exitFullscreen();}catch(e){toast('전체 화면을 시작하지 못했습니다.');} }
 
 fillCatalog(); applyLaunchParams(); updateSourceFields(); refreshData(); updateBackendStatus(); setRoundTime(45); syncAudioControls();
-$('sourceType').addEventListener('change',refreshData); $('snuBook').addEventListener('change',()=>{fillLessons();refreshData();}); $('snuLesson').addEventListener('change',refreshData); $('collocationSet').addEventListener('change',refreshData); $('roundCount').addEventListener('change',refreshData); $('pairsPerRound').addEventListener('change',()=>{refreshData();renderVocabList();});
+$('sourceType').addEventListener('change',()=>{fillBooks();refreshData();}); $('snuBook').addEventListener('change',()=>{fillLessons();refreshData();}); $('snuLesson').addEventListener('change',refreshData); $('collocationSet').addEventListener('change',refreshData); $('roundCount').addEventListener('change',refreshData); $('pairsPerRound').addEventListener('change',()=>{refreshData();renderVocabList();});
 $('timePresets').addEventListener('click',(e)=>{const b=e.target.closest('button[data-time]');if(b)setRoundTime(b.dataset.time);}); $('roundTime').addEventListener('input',()=>setRoundTime($('roundTime').value));
 $('vocabBtn').addEventListener('click',openVocabModal); $('closeVocabBtn').addEventListener('click',closeVocabModal); $('vocabModal').addEventListener('click',(e)=>{if(e.target===$('vocabModal'))closeVocabModal();}); $('vocabSearch').addEventListener('input',renderVocabList);
 $('vocabList').addEventListener('change',(e)=>{const cb=e.target.closest('input[type=checkbox][data-id]');if(!cb)return; const item=sourceItems.find(v=>String(v.id)===String(cb.dataset.id)); const id=item?.id ?? cb.dataset.id; if(cb.checked)draftSelection.add(id);else draftSelection.delete(id); cb.closest('.vocab-row')?.classList.toggle('selected',cb.checked); $('modalSelectedCount').textContent=`${draftSelection.size}개 선택`;});

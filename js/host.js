@@ -1,4 +1,4 @@
-import { CATALOG } from './catalog.js';
+import { CATALOG, booksForSource, textbookName } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore, directionLabel, getQuizCapacity } from './game-engine.js';
 import { LocalBus } from './local-bus.js?v=7.3';
@@ -117,25 +117,35 @@ async function toggleFullscreen() {
 }
 
 function fillCatalog() {
-  $('snuBook').innerHTML = CATALOG.snuBooks.map(b => `<option value="${b.id}">${b.title}</option>`).join('');
   $('collocationSet').innerHTML = [
     ...CATALOG.collocationSets.map(s => `<option value="${s.id}">${s.label}</option>`),
     '<option value="all">전체 1-500 랜덤</option>'
   ].join('');
+  fillBooks();
+}
+
+function fillBooks() {
+  const books = booksForSource($('sourceType').value || 'snu');
+  const keep = $('snuBook').value;
+  $('snuBook').innerHTML = books.map(b => `<option value="${b.id}">${b.title}</option>`).join('');
+  if (books.some(b => b.id === keep)) $('snuBook').value = keep;
   fillLessons();
 }
 
 function fillLessons() {
-  const book = CATALOG.snuBooks.find(b => b.id === $('snuBook').value) || CATALOG.snuBooks[0];
+  const books = booksForSource($('sourceType').value || 'snu');
+  const book = books.find(b => b.id === $('snuBook').value) || books[0];
   $('snuLesson').innerHTML = book.lessons.map(n => `<option value="${n}">${n}과</option>`).join('');
 }
 
 function applyPlatformLaunchParams() {
   const params = new URLSearchParams(location.search);
   const source = params.get('source');
-  if (['preliminary','snu','topik1'].includes(source)) $('sourceType').value = source;
+  if (['preliminary','snu','sejong','topik1'].includes(source)) $('sourceType').value = source;
+  if (source === 'snu' || source === 'sejong') fillBooks();
   const book = params.get('book');
-  if (book && CATALOG.snuBooks.some(b => b.id === book)) {
+  const books = booksForSource($('sourceType').value || 'snu');
+  if (book && books.some(b => b.id === book)) {
     $('snuBook').value = book;
     fillLessons();
   }
@@ -145,7 +155,7 @@ function applyPlatformLaunchParams() {
   if (collocation && [...$('collocationSet').options].some(o => o.value === collocation)) $('collocationSet').value = collocation;
   const context = $('platformSelectionText');
   if (context) {
-    if ($('sourceType').value === 'snu') context.textContent = `어휘 배틀 · 서울대 ${$('snuBook').value} · ${$('snuLesson').value}과`;
+    if (['snu','sejong'].includes($('sourceType').value)) context.textContent = `어휘 배틀 · ${textbookName($('sourceType').value)} ${$('snuBook').value} · ${$('snuLesson').value}과`;
     else if ($('sourceType').value === 'topik1') context.textContent = '어휘 배틀 · TOPIK 1 연어 표현';
     else context.textContent = '어휘 배틀 · 예비편 어휘 40';
   }
@@ -154,7 +164,7 @@ function applyPlatformLaunchParams() {
 function syncPlatformContext() {
   const context = $('platformSelectionText');
   if (!context) return;
-  if ($('sourceType').value === 'snu') context.textContent = `어휘 배틀 · 서울대 ${$('snuBook').value} · ${$('snuLesson').value}과`;
+  if (['snu','sejong'].includes($('sourceType').value)) context.textContent = `어휘 배틀 · ${textbookName($('sourceType').value)} ${$('snuBook').value} · ${$('snuLesson').value}과`;
   else if ($('sourceType').value === 'topik1') context.textContent = '어휘 배틀 · TOPIK 1 연어 표현';
   else context.textContent = '어휘 배틀 · 예비편 어휘 40';
 }
@@ -162,7 +172,7 @@ function syncPlatformContext() {
 function sourceKeyFromConfig(config) {
   if (config.sourceType === 'preliminary') return 'preliminary';
   if (config.sourceType === 'topik1') return `topik1:${config.collocationSet}`;
-  return `snu:${config.snuBook}:${config.snuLesson}`;
+  return `${config.sourceType}:${config.snuBook}:${config.snuLesson}`;
 }
 
 function emptyVocabTeacherStore() {
@@ -449,9 +459,9 @@ async function refreshSummary() {
 function updateSourceFields() {
   const type = $('sourceType').value;
   const topik = type === 'topik1';
-  const snu = type === 'snu';
-  $('bookField').classList.toggle('hidden', !snu);
-  $('lessonField').classList.toggle('hidden', !snu);
+  const textbook = type === 'snu' || type === 'sejong';
+  $('bookField').classList.toggle('hidden', !textbook);
+  $('lessonField').classList.toggle('hidden', !textbook);
   $('collocationField').classList.toggle('hidden', !topik);
   refreshSummary();
 }
@@ -1028,7 +1038,7 @@ applyPlatformLaunchParams();
 setupAudioSettings();
 updateBackendStatus();
 updateSourceFields();
-$('sourceType').addEventListener('change',()=>{updateSourceFields();syncPlatformContext();});
+$('sourceType').addEventListener('change',()=>{fillBooks();updateSourceFields();syncPlatformContext();});
 $('snuBook').addEventListener('change',()=>{fillLessons();refreshSummary();syncPlatformContext();});
 $('snuLesson').addEventListener('change',()=>{refreshSummary();syncPlatformContext();});
 $('collocationSet').addEventListener('change',refreshSummary);

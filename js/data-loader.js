@@ -34,6 +34,19 @@ export async function loadSnu(book, lesson) {
   };
 }
 
+export async function loadSejong(book, lesson) {
+  const lessonNo = String(lesson).padStart(2, '0');
+  const data = await getJson(`data/sejong/${book}/lesson${lessonNo}.json`);
+  return {
+    title: `세종 ${book} ${Number(lesson)}과`,
+    items: (data.vocab || []).map((v, idx) => ({
+      id: String(v.id || `SEJONG-${book}-${lessonNo}-${String(idx + 1).padStart(3, '0')}`),
+      ko: String(v.ko || '').trim(),
+      mn: String(v.mn || '').trim()
+    })).filter(v => v.ko && v.mn)
+  };
+}
+
 export async function loadCollocation(setId) {
   if (setId === 'all') {
     const results = await Promise.all(CATALOG.collocationSets.map(s => loadCollocation(String(s.id))));
@@ -50,5 +63,6 @@ export async function loadCollocation(setId) {
 export async function loadByConfig(config) {
   if (config.sourceType === 'preliminary') return loadPreliminary();
   if (config.sourceType === 'topik1') return loadCollocation(String(config.collocationSet));
+  if (config.sourceType === 'sejong') return loadSejong(config.snuBook, Number(config.snuLesson));
   return loadSnu(config.snuBook, Number(config.snuLesson));
 }
