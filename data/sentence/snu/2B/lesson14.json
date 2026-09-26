@@ -1,189 +1,207 @@
 {
   "book": "2B",
   "lesson": 14,
-  "source": "서울대 한국어 2B 학생 읽기 자료 · 14과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "SNU Korean 2B Student's Book/Workbook official grammar scope; restructured with Arena 2B lesson vocabulary",
+  "grammarFocus": [
+    "V-(으)ㄴ 적(이) 있다/없다",
+    "A/V-았을/었을 때",
+    "V-아/어도 되다",
+    "V-(으)면 안 되다"
+  ],
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2B-14-001",
-      "displaySentence": "한국어를 잘 몰라서 실수한 적이 있어요?",
+      "displaySentence": "한국에서 한복을 입어 본 적이 있어요.",
       "tokens": [
         [
           "SNU-2B-14-001_card_0",
-          "한국어"
+          "한국"
         ],
         [
           "SNU-2B-14-001_card_1",
-          "를"
+          "에서"
         ],
         [
           "SNU-2B-14-001_card_2",
-          "잘"
+          "한복"
         ],
         [
           "SNU-2B-14-001_card_3",
-          "몰라서"
-        ],
-        [
-          "SNU-2B-14-001_card_4",
-          "실수한"
-        ],
-        [
-          "SNU-2B-14-001_card_5",
-          "적"
-        ],
-        [
-          "SNU-2B-14-001_card_6",
-          "이"
-        ],
-        [
-          "SNU-2B-14-001_card_7",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-001_card_0",
-          "SNU-2B-14-001_card_1",
-          "SNU-2B-14-001_card_2",
-          "SNU-2B-14-001_card_3",
-          "SNU-2B-14-001_card_4",
-          "SNU-2B-14-001_card_5",
-          "SNU-2B-14-001_card_6",
-          "SNU-2B-14-001_card_7"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-002",
-      "displaySentence": "그럼요, 실수한 적 많아요.",
-      "tokens": [
-        [
-          "SNU-2B-14-002_card_0",
-          "그럼요"
-        ],
-        [
-          "SNU-2B-14-002_card_1",
-          "실수한"
-        ],
-        [
-          "SNU-2B-14-002_card_2",
-          "적"
-        ],
-        [
-          "SNU-2B-14-002_card_3",
-          "많아요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-002_card_0",
-          "SNU-2B-14-002_card_1",
-          "SNU-2B-14-002_card_2",
-          "SNU-2B-14-002_card_3"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-003",
-      "displaySentence": "저 사람을 전에 만난 적이 있어요.",
-      "tokens": [
-        [
-          "SNU-2B-14-003_card_0",
-          "저"
-        ],
-        [
-          "SNU-2B-14-003_card_1",
-          "사람"
-        ],
-        [
-          "SNU-2B-14-003_card_2",
           "을"
         ],
         [
-          "SNU-2B-14-003_card_3",
-          "전"
+          "SNU-2B-14-001_card_4",
+          "입어"
         ],
         [
-          "SNU-2B-14-003_card_4",
-          "에"
-        ],
-        [
-          "SNU-2B-14-003_card_5",
-          "만난"
-        ],
-        [
-          "SNU-2B-14-003_card_6",
-          "적"
-        ],
-        [
-          "SNU-2B-14-003_card_7",
-          "이"
-        ],
-        [
-          "SNU-2B-14-003_card_8",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-003_card_0",
-          "SNU-2B-14-003_card_1",
-          "SNU-2B-14-003_card_2",
-          "SNU-2B-14-003_card_3",
-          "SNU-2B-14-003_card_4",
-          "SNU-2B-14-003_card_5",
-          "SNU-2B-14-003_card_6",
-          "SNU-2B-14-003_card_7",
-          "SNU-2B-14-003_card_8"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-004",
-      "displaySentence": "한국어로 쓴 소설책을 읽어 본 적이 있어요?",
-      "tokens": [
-        [
-          "SNU-2B-14-004_card_0",
-          "한국어"
-        ],
-        [
-          "SNU-2B-14-004_card_1",
-          "로"
-        ],
-        [
-          "SNU-2B-14-004_card_2",
-          "쓴"
-        ],
-        [
-          "SNU-2B-14-004_card_3",
-          "소설책"
-        ],
-        [
-          "SNU-2B-14-004_card_4",
-          "을"
-        ],
-        [
-          "SNU-2B-14-004_card_5",
-          "읽어"
-        ],
-        [
-          "SNU-2B-14-004_card_6",
+          "SNU-2B-14-001_card_5",
           "본"
         ],
         [
-          "SNU-2B-14-004_card_7",
+          "SNU-2B-14-001_card_6",
           "적"
         ],
         [
-          "SNU-2B-14-004_card_8",
+          "SNU-2B-14-001_card_7",
           "이"
         ],
         [
-          "SNU-2B-14-004_card_9",
+          "SNU-2B-14-001_card_8",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-001_card_0",
+          "SNU-2B-14-001_card_1",
+          "SNU-2B-14-001_card_2",
+          "SNU-2B-14-001_card_3",
+          "SNU-2B-14-001_card_4",
+          "SNU-2B-14-001_card_5",
+          "SNU-2B-14-001_card_6",
+          "SNU-2B-14-001_card_7",
+          "SNU-2B-14-001_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-002",
+      "displaySentence": "선물을 두 손으로 드린 적이 있어요.",
+      "tokens": [
+        [
+          "SNU-2B-14-002_card_0",
+          "선물"
+        ],
+        [
+          "SNU-2B-14-002_card_1",
+          "을"
+        ],
+        [
+          "SNU-2B-14-002_card_2",
+          "두"
+        ],
+        [
+          "SNU-2B-14-002_card_3",
+          "손"
+        ],
+        [
+          "SNU-2B-14-002_card_4",
+          "으로"
+        ],
+        [
+          "SNU-2B-14-002_card_5",
+          "드린"
+        ],
+        [
+          "SNU-2B-14-002_card_6",
+          "적"
+        ],
+        [
+          "SNU-2B-14-002_card_7",
+          "이"
+        ],
+        [
+          "SNU-2B-14-002_card_8",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-002_card_0",
+          "SNU-2B-14-002_card_1",
+          "SNU-2B-14-002_card_2",
+          "SNU-2B-14-002_card_3",
+          "SNU-2B-14-002_card_4",
+          "SNU-2B-14-002_card_5",
+          "SNU-2B-14-002_card_6",
+          "SNU-2B-14-002_card_7",
+          "SNU-2B-14-002_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-003",
+      "displaySentence": "지하철에서 자리를 양보한 적이 있어요.",
+      "tokens": [
+        [
+          "SNU-2B-14-003_card_0",
+          "지하철"
+        ],
+        [
+          "SNU-2B-14-003_card_1",
+          "에서"
+        ],
+        [
+          "SNU-2B-14-003_card_2",
+          "자리"
+        ],
+        [
+          "SNU-2B-14-003_card_3",
+          "를"
+        ],
+        [
+          "SNU-2B-14-003_card_4",
+          "양보한"
+        ],
+        [
+          "SNU-2B-14-003_card_5",
+          "적"
+        ],
+        [
+          "SNU-2B-14-003_card_6",
+          "이"
+        ],
+        [
+          "SNU-2B-14-003_card_7",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-003_card_0",
+          "SNU-2B-14-003_card_1",
+          "SNU-2B-14-003_card_2",
+          "SNU-2B-14-003_card_3",
+          "SNU-2B-14-003_card_4",
+          "SNU-2B-14-003_card_5",
+          "SNU-2B-14-003_card_6",
+          "SNU-2B-14-003_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-004",
+      "displaySentence": "공공장소에서 실수한 적이 있어요.",
+      "tokens": [
+        [
+          "SNU-2B-14-004_card_0",
+          "공공장소"
+        ],
+        [
+          "SNU-2B-14-004_card_1",
+          "에서"
+        ],
+        [
+          "SNU-2B-14-004_card_2",
+          "실수한"
+        ],
+        [
+          "SNU-2B-14-004_card_3",
+          "적"
+        ],
+        [
+          "SNU-2B-14-004_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-14-004_card_5",
           "있어요"
         ]
       ],
@@ -194,46 +212,43 @@
           "SNU-2B-14-004_card_2",
           "SNU-2B-14-004_card_3",
           "SNU-2B-14-004_card_4",
-          "SNU-2B-14-004_card_5",
-          "SNU-2B-14-004_card_6",
-          "SNU-2B-14-004_card_7",
-          "SNU-2B-14-004_card_8",
-          "SNU-2B-14-004_card_9"
+          "SNU-2B-14-004_card_5"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-005",
-      "displaySentence": "저는 그런 이야기를 들은 적이 없어요.",
+      "displaySentence": "한국 친구에게 반말을 해 본 적이 있어요.",
       "tokens": [
         [
           "SNU-2B-14-005_card_0",
-          "저"
+          "한국"
         ],
         [
           "SNU-2B-14-005_card_1",
-          "는"
+          "친구"
         ],
         [
           "SNU-2B-14-005_card_2",
-          "그런"
+          "에게"
         ],
         [
           "SNU-2B-14-005_card_3",
-          "이야기"
+          "반말"
         ],
         [
           "SNU-2B-14-005_card_4",
-          "를"
+          "을"
         ],
         [
           "SNU-2B-14-005_card_5",
-          "들"
+          "해"
         ],
         [
           "SNU-2B-14-005_card_6",
-          "은"
+          "본"
         ],
         [
           "SNU-2B-14-005_card_7",
@@ -245,7 +260,7 @@
         ],
         [
           "SNU-2B-14-005_card_9",
-          "없어요"
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -262,158 +277,148 @@
           "SNU-2B-14-005_card_9"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-006",
-      "displaySentence": "어른을 만나면 어떻게 인사해야 돼요?",
+      "displaySentence": "한국에 처음 왔을 때 존댓말이 어려웠어요.",
       "tokens": [
         [
           "SNU-2B-14-006_card_0",
-          "어른"
-        ],
-        [
-          "SNU-2B-14-006_card_1",
-          "을"
-        ],
-        [
-          "SNU-2B-14-006_card_2",
-          "만나면"
-        ],
-        [
-          "SNU-2B-14-006_card_3",
-          "어떻게"
-        ],
-        [
-          "SNU-2B-14-006_card_4",
-          "인사해야"
-        ],
-        [
-          "SNU-2B-14-006_card_5",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-006_card_0",
-          "SNU-2B-14-006_card_1",
-          "SNU-2B-14-006_card_2",
-          "SNU-2B-14-006_card_3",
-          "SNU-2B-14-006_card_4",
-          "SNU-2B-14-006_card_5"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-007",
-      "displaySentence": "어른을 만났을 때는 고개를 숙여서 인사해야 돼요.",
-      "tokens": [
-        [
-          "SNU-2B-14-007_card_0",
-          "어른"
-        ],
-        [
-          "SNU-2B-14-007_card_1",
-          "을"
-        ],
-        [
-          "SNU-2B-14-007_card_2",
-          "만났"
-        ],
-        [
-          "SNU-2B-14-007_card_3",
-          "을"
-        ],
-        [
-          "SNU-2B-14-007_card_4",
-          "때"
-        ],
-        [
-          "SNU-2B-14-007_card_5",
-          "는"
-        ],
-        [
-          "SNU-2B-14-007_card_6",
-          "고개"
-        ],
-        [
-          "SNU-2B-14-007_card_7",
-          "를"
-        ],
-        [
-          "SNU-2B-14-007_card_8",
-          "숙여서"
-        ],
-        [
-          "SNU-2B-14-007_card_9",
-          "인사해야"
-        ],
-        [
-          "SNU-2B-14-007_card_10",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-007_card_0",
-          "SNU-2B-14-007_card_1",
-          "SNU-2B-14-007_card_2",
-          "SNU-2B-14-007_card_3",
-          "SNU-2B-14-007_card_4",
-          "SNU-2B-14-007_card_5",
-          "SNU-2B-14-007_card_6",
-          "SNU-2B-14-007_card_7",
-          "SNU-2B-14-007_card_8",
-          "SNU-2B-14-007_card_9",
-          "SNU-2B-14-007_card_10"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-008",
-      "displaySentence": "어렸을 때 한국에 와 본 적이 있어요.",
-      "tokens": [
-        [
-          "SNU-2B-14-008_card_0",
-          "어렸"
-        ],
-        [
-          "SNU-2B-14-008_card_1",
-          "을"
-        ],
-        [
-          "SNU-2B-14-008_card_2",
-          "때"
-        ],
-        [
-          "SNU-2B-14-008_card_3",
           "한국"
         ],
         [
-          "SNU-2B-14-008_card_4",
+          "SNU-2B-14-006_card_1",
           "에"
         ],
         [
-          "SNU-2B-14-008_card_5",
-          "와"
+          "SNU-2B-14-006_card_2",
+          "처음"
         ],
         [
-          "SNU-2B-14-008_card_6",
-          "본"
+          "SNU-2B-14-006_card_3",
+          "왔을"
         ],
         [
-          "SNU-2B-14-008_card_7",
-          "적"
+          "SNU-2B-14-006_card_4",
+          "때"
         ],
         [
-          "SNU-2B-14-008_card_8",
+          "SNU-2B-14-006_card_5",
+          "존댓말"
+        ],
+        [
+          "SNU-2B-14-006_card_6",
           "이"
         ],
         [
-          "SNU-2B-14-008_card_9",
-          "있어요"
+          "SNU-2B-14-006_card_7",
+          "어려웠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-006_card_0",
+          "SNU-2B-14-006_card_1",
+          "SNU-2B-14-006_card_2",
+          "SNU-2B-14-006_card_3",
+          "SNU-2B-14-006_card_4",
+          "SNU-2B-14-006_card_5",
+          "SNU-2B-14-006_card_6",
+          "SNU-2B-14-006_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-007",
+      "displaySentence": "결혼식에 갔을 때 한복을 많이 봤어요.",
+      "tokens": [
+        [
+          "SNU-2B-14-007_card_0",
+          "결혼식"
+        ],
+        [
+          "SNU-2B-14-007_card_1",
+          "에"
+        ],
+        [
+          "SNU-2B-14-007_card_2",
+          "갔을"
+        ],
+        [
+          "SNU-2B-14-007_card_3",
+          "때"
+        ],
+        [
+          "SNU-2B-14-007_card_4",
+          "한복"
+        ],
+        [
+          "SNU-2B-14-007_card_5",
+          "을"
+        ],
+        [
+          "SNU-2B-14-007_card_6",
+          "많이"
+        ],
+        [
+          "SNU-2B-14-007_card_7",
+          "봤어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-007_card_0",
+          "SNU-2B-14-007_card_1",
+          "SNU-2B-14-007_card_2",
+          "SNU-2B-14-007_card_3",
+          "SNU-2B-14-007_card_4",
+          "SNU-2B-14-007_card_5",
+          "SNU-2B-14-007_card_6",
+          "SNU-2B-14-007_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-008",
+      "displaySentence": "술을 마셨을 때 고개를 돌렸어요.",
+      "tokens": [
+        [
+          "SNU-2B-14-008_card_0",
+          "술"
+        ],
+        [
+          "SNU-2B-14-008_card_1",
+          "을"
+        ],
+        [
+          "SNU-2B-14-008_card_2",
+          "마셨"
+        ],
+        [
+          "SNU-2B-14-008_card_3",
+          "을"
+        ],
+        [
+          "SNU-2B-14-008_card_4",
+          "때"
+        ],
+        [
+          "SNU-2B-14-008_card_5",
+          "고개"
+        ],
+        [
+          "SNU-2B-14-008_card_6",
+          "를"
+        ],
+        [
+          "SNU-2B-14-008_card_7",
+          "돌렸어요"
         ]
       ],
       "acceptedOrders": [
@@ -425,56 +430,51 @@
           "SNU-2B-14-008_card_4",
           "SNU-2B-14-008_card_5",
           "SNU-2B-14-008_card_6",
-          "SNU-2B-14-008_card_7",
-          "SNU-2B-14-008_card_8",
-          "SNU-2B-14-008_card_9"
+          "SNU-2B-14-008_card_7"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-009",
-      "displaySentence": "제가 교실에 도착했을 때 사람이 없었어요.",
+      "displaySentence": "기숙사에 살았을 때 밤에는 아주 조용했어요.",
       "tokens": [
         [
           "SNU-2B-14-009_card_0",
-          "제"
+          "기숙사"
         ],
         [
           "SNU-2B-14-009_card_1",
-          "가"
-        ],
-        [
-          "SNU-2B-14-009_card_2",
-          "교실"
-        ],
-        [
-          "SNU-2B-14-009_card_3",
           "에"
         ],
         [
-          "SNU-2B-14-009_card_4",
-          "도착했"
+          "SNU-2B-14-009_card_2",
+          "살았"
         ],
         [
-          "SNU-2B-14-009_card_5",
+          "SNU-2B-14-009_card_3",
           "을"
         ],
         [
-          "SNU-2B-14-009_card_6",
+          "SNU-2B-14-009_card_4",
           "때"
         ],
         [
+          "SNU-2B-14-009_card_5",
+          "밤에"
+        ],
+        [
+          "SNU-2B-14-009_card_6",
+          "는"
+        ],
+        [
           "SNU-2B-14-009_card_7",
-          "사람"
+          "아주"
         ],
         [
           "SNU-2B-14-009_card_8",
-          "이"
-        ],
-        [
-          "SNU-2B-14-009_card_9",
-          "없었어요"
+          "조용했어요"
         ]
       ],
       "acceptedOrders": [
@@ -487,55 +487,35 @@
           "SNU-2B-14-009_card_5",
           "SNU-2B-14-009_card_6",
           "SNU-2B-14-009_card_7",
-          "SNU-2B-14-009_card_8",
-          "SNU-2B-14-009_card_9"
+          "SNU-2B-14-009_card_8"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-010",
-      "displaySentence": "저녁을 다 먹었을 때 친구한테서 전화가 왔어요.",
+      "displaySentence": "박물관에서 사진을 찍어도 돼요?",
       "tokens": [
         [
           "SNU-2B-14-010_card_0",
-          "저녁"
+          "박물관"
         ],
         [
           "SNU-2B-14-010_card_1",
-          "을"
+          "에서"
         ],
         [
           "SNU-2B-14-010_card_2",
-          "다"
+          "사진"
         ],
         [
           "SNU-2B-14-010_card_3",
-          "먹었"
-        ],
-        [
-          "SNU-2B-14-010_card_4",
           "을"
         ],
         [
-          "SNU-2B-14-010_card_5",
-          "때"
-        ],
-        [
-          "SNU-2B-14-010_card_6",
-          "친구한테서"
-        ],
-        [
-          "SNU-2B-14-010_card_7",
-          "전화"
-        ],
-        [
-          "SNU-2B-14-010_card_8",
-          "가"
-        ],
-        [
-          "SNU-2B-14-010_card_9",
-          "왔어요"
+          "SNU-2B-14-010_card_4",
+          "찍어도 돼요?"
         ]
       ],
       "acceptedOrders": [
@@ -544,19 +524,15 @@
           "SNU-2B-14-010_card_1",
           "SNU-2B-14-010_card_2",
           "SNU-2B-14-010_card_3",
-          "SNU-2B-14-010_card_4",
-          "SNU-2B-14-010_card_5",
-          "SNU-2B-14-010_card_6",
-          "SNU-2B-14-010_card_7",
-          "SNU-2B-14-010_card_8",
-          "SNU-2B-14-010_card_9"
+          "SNU-2B-14-010_card_4"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-011",
-      "displaySentence": "이 컴퓨터 써도 돼요?",
+      "displaySentence": "이 자리에서 휴대 전화를 사용해도 돼요?",
       "tokens": [
         [
           "SNU-2B-14-011_card_0",
@@ -564,19 +540,27 @@
         ],
         [
           "SNU-2B-14-011_card_1",
-          "컴퓨터"
+          "자리"
         ],
         [
           "SNU-2B-14-011_card_2",
-          "써"
+          "에서"
         ],
         [
           "SNU-2B-14-011_card_3",
-          "도"
+          "휴대"
         ],
         [
           "SNU-2B-14-011_card_4",
-          "돼요"
+          "전화"
+        ],
+        [
+          "SNU-2B-14-011_card_5",
+          "를"
+        ],
+        [
+          "SNU-2B-14-011_card_6",
+          "사용해도 돼요?"
         ]
       ],
       "acceptedOrders": [
@@ -585,30 +569,49 @@
           "SNU-2B-14-011_card_1",
           "SNU-2B-14-011_card_2",
           "SNU-2B-14-011_card_3",
-          "SNU-2B-14-011_card_4"
+          "SNU-2B-14-011_card_4",
+          "SNU-2B-14-011_card_5",
+          "SNU-2B-14-011_card_6"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-012",
-      "displaySentence": "네, 써도 돼요.",
+      "displaySentence": "공연장 안에서 물을 마셔도 돼요?",
       "tokens": [
         [
           "SNU-2B-14-012_card_0",
-          "네"
+          "공연장"
         ],
         [
           "SNU-2B-14-012_card_1",
-          "써"
+          "안"
         ],
         [
           "SNU-2B-14-012_card_2",
-          "도"
+          "에서"
         ],
         [
           "SNU-2B-14-012_card_3",
-          "돼요"
+          "물"
+        ],
+        [
+          "SNU-2B-14-012_card_4",
+          "을"
+        ],
+        [
+          "SNU-2B-14-012_card_5",
+          "마셔"
+        ],
+        [
+          "SNU-2B-14-012_card_6",
+          "도"
+        ],
+        [
+          "SNU-2B-14-012_card_7",
+          "돼요?"
         ]
       ],
       "acceptedOrders": [
@@ -616,42 +619,47 @@
           "SNU-2B-14-012_card_0",
           "SNU-2B-14-012_card_1",
           "SNU-2B-14-012_card_2",
-          "SNU-2B-14-012_card_3"
+          "SNU-2B-14-012_card_3",
+          "SNU-2B-14-012_card_4",
+          "SNU-2B-14-012_card_5",
+          "SNU-2B-14-012_card_6",
+          "SNU-2B-14-012_card_7"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-013",
-      "displaySentence": "다 한 사람은 먼저 가도 돼요.",
+      "displaySentence": "도서관에서는 큰 소리로 떠들면 안 돼요.",
       "tokens": [
         [
           "SNU-2B-14-013_card_0",
-          "다"
+          "도서관에서"
         ],
         [
           "SNU-2B-14-013_card_1",
-          "한"
+          "는"
         ],
         [
           "SNU-2B-14-013_card_2",
-          "사람"
+          "큰"
         ],
         [
           "SNU-2B-14-013_card_3",
-          "은"
+          "소리"
         ],
         [
           "SNU-2B-14-013_card_4",
-          "먼저"
+          "로"
         ],
         [
           "SNU-2B-14-013_card_5",
-          "가"
+          "떠들면"
         ],
         [
           "SNU-2B-14-013_card_6",
-          "도"
+          "안"
         ],
         [
           "SNU-2B-14-013_card_7",
@@ -670,423 +678,407 @@
           "SNU-2B-14-013_card_7"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-14-014",
-      "displaySentence": "밤에 전화해도 돼요?",
+      "displaySentence": "금연 구역에서는 담배를 피우면 안 돼요.",
       "tokens": [
         [
           "SNU-2B-14-014_card_0",
-          "밤"
+          "금연"
         ],
         [
           "SNU-2B-14-014_card_1",
-          "에"
+          "구역에서"
         ],
         [
           "SNU-2B-14-014_card_2",
-          "전화해도"
-        ],
-        [
-          "SNU-2B-14-014_card_3",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-014_card_0",
-          "SNU-2B-14-014_card_1",
-          "SNU-2B-14-014_card_2",
-          "SNU-2B-14-014_card_3"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-015",
-      "displaySentence": "여기서 사진 찍어도 돼요?",
-      "tokens": [
-        [
-          "SNU-2B-14-015_card_0",
-          "여기서"
-        ],
-        [
-          "SNU-2B-14-015_card_1",
-          "사진"
-        ],
-        [
-          "SNU-2B-14-015_card_2",
-          "찍어도"
-        ],
-        [
-          "SNU-2B-14-015_card_3",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-015_card_0",
-          "SNU-2B-14-015_card_1",
-          "SNU-2B-14-015_card_2",
-          "SNU-2B-14-015_card_3"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-016",
-      "displaySentence": "네, 찍어도 돼요.",
-      "tokens": [
-        [
-          "SNU-2B-14-016_card_0",
-          "네"
-        ],
-        [
-          "SNU-2B-14-016_card_1",
-          "찍어도"
-        ],
-        [
-          "SNU-2B-14-016_card_2",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-016_card_0",
-          "SNU-2B-14-016_card_1",
-          "SNU-2B-14-016_card_2"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-017",
-      "displaySentence": "여기서 사진을 찍어도 돼요?",
-      "tokens": [
-        [
-          "SNU-2B-14-017_card_0",
-          "여기서"
-        ],
-        [
-          "SNU-2B-14-017_card_1",
-          "사진"
-        ],
-        [
-          "SNU-2B-14-017_card_2",
-          "을"
-        ],
-        [
-          "SNU-2B-14-017_card_3",
-          "찍어도"
-        ],
-        [
-          "SNU-2B-14-017_card_4",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-017_card_0",
-          "SNU-2B-14-017_card_1",
-          "SNU-2B-14-017_card_2",
-          "SNU-2B-14-017_card_3",
-          "SNU-2B-14-017_card_4"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-018",
-      "displaySentence": "아니요, 여기에서 사진을 찍으면 안 됩니다.",
-      "tokens": [
-        [
-          "SNU-2B-14-018_card_0",
-          "아니요"
-        ],
-        [
-          "SNU-2B-14-018_card_1",
-          "여기"
-        ],
-        [
-          "SNU-2B-14-018_card_2",
-          "에서"
-        ],
-        [
-          "SNU-2B-14-018_card_3",
-          "사진"
-        ],
-        [
-          "SNU-2B-14-018_card_4",
-          "을"
-        ],
-        [
-          "SNU-2B-14-018_card_5",
-          "찍으면"
-        ],
-        [
-          "SNU-2B-14-018_card_6",
-          "안"
-        ],
-        [
-          "SNU-2B-14-018_card_7",
-          "됩니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-018_card_0",
-          "SNU-2B-14-018_card_1",
-          "SNU-2B-14-018_card_2",
-          "SNU-2B-14-018_card_3",
-          "SNU-2B-14-018_card_4",
-          "SNU-2B-14-018_card_5",
-          "SNU-2B-14-018_card_6",
-          "SNU-2B-14-018_card_7"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-019",
-      "displaySentence": "여기에서는 담배를 피우면 안 됩니다.",
-      "tokens": [
-        [
-          "SNU-2B-14-019_card_0",
-          "여기에서는"
-        ],
-        [
-          "SNU-2B-14-019_card_1",
-          "담배"
-        ],
-        [
-          "SNU-2B-14-019_card_2",
-          "를"
-        ],
-        [
-          "SNU-2B-14-019_card_3",
-          "피우면"
-        ],
-        [
-          "SNU-2B-14-019_card_4",
-          "안"
-        ],
-        [
-          "SNU-2B-14-019_card_5",
-          "됩니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-019_card_0",
-          "SNU-2B-14-019_card_1",
-          "SNU-2B-14-019_card_2",
-          "SNU-2B-14-019_card_3",
-          "SNU-2B-14-019_card_4",
-          "SNU-2B-14-019_card_5"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-020",
-      "displaySentence": "교실에서 음식을 먹으면 안 돼요.",
-      "tokens": [
-        [
-          "SNU-2B-14-020_card_0",
-          "교실"
-        ],
-        [
-          "SNU-2B-14-020_card_1",
-          "에서"
-        ],
-        [
-          "SNU-2B-14-020_card_2",
-          "음식"
-        ],
-        [
-          "SNU-2B-14-020_card_3",
-          "을"
-        ],
-        [
-          "SNU-2B-14-020_card_4",
-          "먹으면"
-        ],
-        [
-          "SNU-2B-14-020_card_5",
-          "안"
-        ],
-        [
-          "SNU-2B-14-020_card_6",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-020_card_0",
-          "SNU-2B-14-020_card_1",
-          "SNU-2B-14-020_card_2",
-          "SNU-2B-14-020_card_3",
-          "SNU-2B-14-020_card_4",
-          "SNU-2B-14-020_card_5",
-          "SNU-2B-14-020_card_6"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-021",
-      "displaySentence": "한국어는 참 어려운 것 같아.",
-      "tokens": [
-        [
-          "SNU-2B-14-021_card_0",
-          "한국어"
-        ],
-        [
-          "SNU-2B-14-021_card_1",
           "는"
         ],
         [
-          "SNU-2B-14-021_card_2",
-          "참"
+          "SNU-2B-14-014_card_3",
+          "담배"
         ],
         [
-          "SNU-2B-14-021_card_3",
-          "어려운"
+          "SNU-2B-14-014_card_4",
+          "를"
         ],
         [
-          "SNU-2B-14-021_card_4",
-          "것"
+          "SNU-2B-14-014_card_5",
+          "피우면"
         ],
         [
-          "SNU-2B-14-021_card_5",
-          "같아"
+          "SNU-2B-14-014_card_6",
+          "안"
+        ],
+        [
+          "SNU-2B-14-014_card_7",
+          "돼요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-14-021_card_0",
-          "SNU-2B-14-021_card_1",
-          "SNU-2B-14-021_card_2",
-          "SNU-2B-14-021_card_3",
-          "SNU-2B-14-021_card_4",
-          "SNU-2B-14-021_card_5"
+          "SNU-2B-14-014_card_0",
+          "SNU-2B-14-014_card_1",
+          "SNU-2B-14-014_card_2",
+          "SNU-2B-14-014_card_3",
+          "SNU-2B-14-014_card_4",
+          "SNU-2B-14-014_card_5",
+          "SNU-2B-14-014_card_6",
+          "SNU-2B-14-014_card_7"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
-      "id": "SNU-2B-14-022",
-      "displaySentence": "너 한국어 잘하는데 왜?",
+      "id": "SNU-2B-14-015",
+      "displaySentence": "전시 작품을 손으로 만지면 안 돼요.",
       "tokens": [
         [
-          "SNU-2B-14-022_card_0",
-          "너"
+          "SNU-2B-14-015_card_0",
+          "전시"
         ],
         [
-          "SNU-2B-14-022_card_1",
-          "한국어"
+          "SNU-2B-14-015_card_1",
+          "작품"
         ],
         [
-          "SNU-2B-14-022_card_2",
-          "잘하는데"
-        ],
-        [
-          "SNU-2B-14-022_card_3",
-          "왜"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-022_card_0",
-          "SNU-2B-14-022_card_1",
-          "SNU-2B-14-022_card_2",
-          "SNU-2B-14-022_card_3"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-023",
-      "displaySentence": "무슨 일이 있었는데?",
-      "tokens": [
-        [
-          "SNU-2B-14-023_card_0",
-          "무슨"
-        ],
-        [
-          "SNU-2B-14-023_card_1",
-          "일"
-        ],
-        [
-          "SNU-2B-14-023_card_2",
-          "이"
-        ],
-        [
-          "SNU-2B-14-023_card_3",
-          "있었는데"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-14-023_card_0",
-          "SNU-2B-14-023_card_1",
-          "SNU-2B-14-023_card_2",
-          "SNU-2B-14-023_card_3"
-        ]
-      ],
-      "note": "서울대 2B 14과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-14-024",
-      "displaySentence": "의사 선생님을 ‘의사님’이라고 불러서 사람들이 웃었어.",
-      "tokens": [
-        [
-          "SNU-2B-14-024_card_0",
-          "의사"
-        ],
-        [
-          "SNU-2B-14-024_card_1",
-          "선생님"
-        ],
-        [
-          "SNU-2B-14-024_card_2",
+          "SNU-2B-14-015_card_2",
           "을"
         ],
         [
-          "SNU-2B-14-024_card_3",
-          "의사님’이라고"
+          "SNU-2B-14-015_card_3",
+          "손"
         ],
         [
-          "SNU-2B-14-024_card_4",
-          "불러서"
+          "SNU-2B-14-015_card_4",
+          "으로"
         ],
         [
-          "SNU-2B-14-024_card_5",
-          "사람들"
+          "SNU-2B-14-015_card_5",
+          "만지면"
         ],
         [
-          "SNU-2B-14-024_card_6",
-          "이"
+          "SNU-2B-14-015_card_6",
+          "안"
         ],
         [
-          "SNU-2B-14-024_card_7",
-          "웃었어"
+          "SNU-2B-14-015_card_7",
+          "돼요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-14-024_card_0",
-          "SNU-2B-14-024_card_1",
-          "SNU-2B-14-024_card_2",
-          "SNU-2B-14-024_card_3",
-          "SNU-2B-14-024_card_4",
-          "SNU-2B-14-024_card_5",
-          "SNU-2B-14-024_card_6",
-          "SNU-2B-14-024_card_7"
+          "SNU-2B-14-015_card_0",
+          "SNU-2B-14-015_card_1",
+          "SNU-2B-14-015_card_2",
+          "SNU-2B-14-015_card_3",
+          "SNU-2B-14-015_card_4",
+          "SNU-2B-14-015_card_5",
+          "SNU-2B-14-015_card_6",
+          "SNU-2B-14-015_card_7"
         ]
       ],
-      "note": "서울대 2B 14과 교재 기반"
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-016",
+      "displaySentence": "어른께 물건을 한 손으로 드리면 안 돼요.",
+      "tokens": [
+        [
+          "SNU-2B-14-016_card_0",
+          "어른"
+        ],
+        [
+          "SNU-2B-14-016_card_1",
+          "께"
+        ],
+        [
+          "SNU-2B-14-016_card_2",
+          "물건"
+        ],
+        [
+          "SNU-2B-14-016_card_3",
+          "을"
+        ],
+        [
+          "SNU-2B-14-016_card_4",
+          "한"
+        ],
+        [
+          "SNU-2B-14-016_card_5",
+          "손"
+        ],
+        [
+          "SNU-2B-14-016_card_6",
+          "으로"
+        ],
+        [
+          "SNU-2B-14-016_card_7",
+          "드리면"
+        ],
+        [
+          "SNU-2B-14-016_card_8",
+          "안"
+        ],
+        [
+          "SNU-2B-14-016_card_9",
+          "돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-016_card_0",
+          "SNU-2B-14-016_card_1",
+          "SNU-2B-14-016_card_2",
+          "SNU-2B-14-016_card_3",
+          "SNU-2B-14-016_card_4",
+          "SNU-2B-14-016_card_5",
+          "SNU-2B-14-016_card_6",
+          "SNU-2B-14-016_card_7",
+          "SNU-2B-14-016_card_8",
+          "SNU-2B-14-016_card_9"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-017",
+      "displaySentence": "기숙사에서는 밤늦게 음악을 크게 틀면 안 돼요.",
+      "tokens": [
+        [
+          "SNU-2B-14-017_card_0",
+          "기숙사에서"
+        ],
+        [
+          "SNU-2B-14-017_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-14-017_card_2",
+          "밤늦게"
+        ],
+        [
+          "SNU-2B-14-017_card_3",
+          "음악"
+        ],
+        [
+          "SNU-2B-14-017_card_4",
+          "을"
+        ],
+        [
+          "SNU-2B-14-017_card_5",
+          "크게"
+        ],
+        [
+          "SNU-2B-14-017_card_6",
+          "틀면"
+        ],
+        [
+          "SNU-2B-14-017_card_7",
+          "안"
+        ],
+        [
+          "SNU-2B-14-017_card_8",
+          "돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-017_card_0",
+          "SNU-2B-14-017_card_1",
+          "SNU-2B-14-017_card_2",
+          "SNU-2B-14-017_card_3",
+          "SNU-2B-14-017_card_4",
+          "SNU-2B-14-017_card_5",
+          "SNU-2B-14-017_card_6",
+          "SNU-2B-14-017_card_7",
+          "SNU-2B-14-017_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-018",
+      "displaySentence": "공공장소에서는 쓰레기를 아무 데나 버리면 안 돼요.",
+      "tokens": [
+        [
+          "SNU-2B-14-018_card_0",
+          "공공장소에서"
+        ],
+        [
+          "SNU-2B-14-018_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-14-018_card_2",
+          "쓰레기"
+        ],
+        [
+          "SNU-2B-14-018_card_3",
+          "를"
+        ],
+        [
+          "SNU-2B-14-018_card_4",
+          "아무"
+        ],
+        [
+          "SNU-2B-14-018_card_5",
+          "데나"
+        ],
+        [
+          "SNU-2B-14-018_card_6",
+          "버리면"
+        ],
+        [
+          "SNU-2B-14-018_card_7",
+          "안"
+        ],
+        [
+          "SNU-2B-14-018_card_8",
+          "돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-018_card_0",
+          "SNU-2B-14-018_card_1",
+          "SNU-2B-14-018_card_2",
+          "SNU-2B-14-018_card_3",
+          "SNU-2B-14-018_card_4",
+          "SNU-2B-14-018_card_5",
+          "SNU-2B-14-018_card_6",
+          "SNU-2B-14-018_card_7",
+          "SNU-2B-14-018_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-019",
+      "displaySentence": "규칙을 잘 모를 때는 먼저 질문해도 돼요.",
+      "tokens": [
+        [
+          "SNU-2B-14-019_card_0",
+          "규칙"
+        ],
+        [
+          "SNU-2B-14-019_card_1",
+          "을"
+        ],
+        [
+          "SNU-2B-14-019_card_2",
+          "잘"
+        ],
+        [
+          "SNU-2B-14-019_card_3",
+          "모"
+        ],
+        [
+          "SNU-2B-14-019_card_4",
+          "를"
+        ],
+        [
+          "SNU-2B-14-019_card_5",
+          "때"
+        ],
+        [
+          "SNU-2B-14-019_card_6",
+          "는"
+        ],
+        [
+          "SNU-2B-14-019_card_7",
+          "먼저"
+        ],
+        [
+          "SNU-2B-14-019_card_8",
+          "질문해도 돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-019_card_0",
+          "SNU-2B-14-019_card_1",
+          "SNU-2B-14-019_card_2",
+          "SNU-2B-14-019_card_3",
+          "SNU-2B-14-019_card_4",
+          "SNU-2B-14-019_card_5",
+          "SNU-2B-14-019_card_6",
+          "SNU-2B-14-019_card_7",
+          "SNU-2B-14-019_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-14-020",
+      "displaySentence": "문화가 다를 때 서로 예절을 존중해야 해요.",
+      "tokens": [
+        [
+          "SNU-2B-14-020_card_0",
+          "문화"
+        ],
+        [
+          "SNU-2B-14-020_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-14-020_card_2",
+          "다"
+        ],
+        [
+          "SNU-2B-14-020_card_3",
+          "를"
+        ],
+        [
+          "SNU-2B-14-020_card_4",
+          "때"
+        ],
+        [
+          "SNU-2B-14-020_card_5",
+          "서로"
+        ],
+        [
+          "SNU-2B-14-020_card_6",
+          "예절"
+        ],
+        [
+          "SNU-2B-14-020_card_7",
+          "을"
+        ],
+        [
+          "SNU-2B-14-020_card_8",
+          "존중해야"
+        ],
+        [
+          "SNU-2B-14-020_card_9",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-14-020_card_0",
+          "SNU-2B-14-020_card_1",
+          "SNU-2B-14-020_card_2",
+          "SNU-2B-14-020_card_3",
+          "SNU-2B-14-020_card_4",
+          "SNU-2B-14-020_card_5",
+          "SNU-2B-14-020_card_6",
+          "SNU-2B-14-020_card_7",
+          "SNU-2B-14-020_card_8",
+          "SNU-2B-14-020_card_9"
+        ]
+      ],
+      "note": "SNU 2B lesson 14 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     }
   ]
 }

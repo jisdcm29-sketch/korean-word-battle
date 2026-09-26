@@ -1,23 +1,32 @@
 {
   "book": "1A",
   "lesson": 2,
-  "source": "서울대 한국어 1A 학생 읽기 자료 · 2과 어휘/문법/예문/말하기 기반",
-  "questionCount": 19,
+  "source": "서울대 한국어 1A 학생책·워크북 2과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1A-02-001",
-      "displaySentence": "우산이 있어요?",
+      "displaySentence": "저는 우산이 있어요.",
       "tokens": [
         [
           "SNU-1A-02-001_card_0",
-          "우산"
+          "저"
         ],
         [
           "SNU-1A-02-001_card_1",
-          "이"
+          "는"
         ],
         [
           "SNU-1A-02-001_card_2",
+          "우산"
+        ],
+        [
+          "SNU-1A-02-001_card_3",
+          "이"
+        ],
+        [
+          "SNU-1A-02-001_card_4",
           "있어요"
         ]
       ],
@@ -25,29 +34,36 @@
         [
           "SNU-1A-02-001_card_0",
           "SNU-1A-02-001_card_1",
-          "SNU-1A-02-001_card_2"
+          "SNU-1A-02-001_card_2",
+          "SNU-1A-02-001_card_3",
+          "SNU-1A-02-001_card_4"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-002",
-      "displaySentence": "남자 친구가 있어요.",
+      "displaySentence": "민수는 교통카드가 있어요.",
       "tokens": [
         [
           "SNU-1A-02-002_card_0",
-          "남자"
+          "민수"
         ],
         [
           "SNU-1A-02-002_card_1",
-          "친구"
+          "는"
         ],
         [
           "SNU-1A-02-002_card_2",
-          "가"
+          "교통카드"
         ],
         [
           "SNU-1A-02-002_card_3",
+          "가"
+        ],
+        [
+          "SNU-1A-02-002_card_4",
           "있어요"
         ]
       ],
@@ -56,29 +72,35 @@
           "SNU-1A-02-002_card_0",
           "SNU-1A-02-002_card_1",
           "SNU-1A-02-002_card_2",
-          "SNU-1A-02-002_card_3"
+          "SNU-1A-02-002_card_3",
+          "SNU-1A-02-002_card_4"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-003",
-      "displaySentence": "남자 친구가 없어요.",
+      "displaySentence": "안나는 전자사전이 없어요.",
       "tokens": [
         [
           "SNU-1A-02-003_card_0",
-          "남자"
+          "안나"
         ],
         [
           "SNU-1A-02-003_card_1",
-          "친구"
+          "는"
         ],
         [
           "SNU-1A-02-003_card_2",
-          "가"
+          "전자사전"
         ],
         [
           "SNU-1A-02-003_card_3",
+          "이"
+        ],
+        [
+          "SNU-1A-02-003_card_4",
           "없어요"
         ]
       ],
@@ -87,75 +109,94 @@
           "SNU-1A-02-003_card_0",
           "SNU-1A-02-003_card_1",
           "SNU-1A-02-003_card_2",
-          "SNU-1A-02-003_card_3"
+          "SNU-1A-02-003_card_3",
+          "SNU-1A-02-003_card_4"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-004",
-      "displaySentence": "우산이 없어요.",
+      "displaySentence": "제 친구는 카메라가 있어요.",
       "tokens": [
         [
           "SNU-1A-02-004_card_0",
-          "우산"
+          "제 친구"
         ],
         [
           "SNU-1A-02-004_card_1",
-          "이"
+          "는"
         ],
         [
           "SNU-1A-02-004_card_2",
+          "카메라"
+        ],
+        [
+          "SNU-1A-02-004_card_3",
+          "가"
+        ],
+        [
+          "SNU-1A-02-004_card_4",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-004_card_0",
+          "SNU-1A-02-004_card_1",
+          "SNU-1A-02-004_card_2",
+          "SNU-1A-02-004_card_3",
+          "SNU-1A-02-004_card_4"
+        ]
+      ],
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
+    },
+    {
+      "id": "SNU-1A-02-005",
+      "displaySentence": "룸메이트는 컴퓨터가 없어요.",
+      "tokens": [
+        [
+          "SNU-1A-02-005_card_0",
+          "룸메이트"
+        ],
+        [
+          "SNU-1A-02-005_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-005_card_2",
+          "컴퓨터"
+        ],
+        [
+          "SNU-1A-02-005_card_3",
+          "가"
+        ],
+        [
+          "SNU-1A-02-005_card_4",
           "없어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1A-02-004_card_0",
-          "SNU-1A-02-004_card_1",
-          "SNU-1A-02-004_card_2"
-        ]
-      ],
-      "note": "서울대 1A 2과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-02-005",
-      "displaySentence": "이거는 뭐예요?",
-      "tokens": [
-        [
           "SNU-1A-02-005_card_0",
-          "이거"
-        ],
-        [
           "SNU-1A-02-005_card_1",
-          "는"
-        ],
-        [
           "SNU-1A-02-005_card_2",
-          "뭐"
-        ],
-        [
           "SNU-1A-02-005_card_3",
-          "예요"
+          "SNU-1A-02-005_card_4"
         ]
       ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-02-005_card_0",
-          "SNU-1A-02-005_card_1",
-          "SNU-1A-02-005_card_2",
-          "SNU-1A-02-005_card_3"
-        ]
-      ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-006",
-      "displaySentence": "이거는 모자예요.",
+      "displaySentence": "저는 한국 지도가 있어요.",
       "tokens": [
         [
           "SNU-1A-02-006_card_0",
-          "이거"
+          "저"
         ],
         [
           "SNU-1A-02-006_card_1",
@@ -163,11 +204,19 @@
         ],
         [
           "SNU-1A-02-006_card_2",
-          "모자"
+          "한국"
         ],
         [
           "SNU-1A-02-006_card_3",
-          "예요"
+          "지도"
+        ],
+        [
+          "SNU-1A-02-006_card_4",
+          "가"
+        ],
+        [
+          "SNU-1A-02-006_card_5",
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -175,18 +224,21 @@
           "SNU-1A-02-006_card_0",
           "SNU-1A-02-006_card_1",
           "SNU-1A-02-006_card_2",
-          "SNU-1A-02-006_card_3"
+          "SNU-1A-02-006_card_3",
+          "SNU-1A-02-006_card_4",
+          "SNU-1A-02-006_card_5"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-007",
-      "displaySentence": "저거는 창문이에요.",
+      "displaySentence": "이거는 공책이에요.",
       "tokens": [
         [
           "SNU-1A-02-007_card_0",
-          "저거"
+          "이거"
         ],
         [
           "SNU-1A-02-007_card_1",
@@ -194,7 +246,7 @@
         ],
         [
           "SNU-1A-02-007_card_2",
-          "창문"
+          "공책"
         ],
         [
           "SNU-1A-02-007_card_3",
@@ -209,11 +261,12 @@
           "SNU-1A-02-007_card_3"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-008",
-      "displaySentence": "그거는 한국 지도예요?",
+      "displaySentence": "그거는 전자사전이에요.",
       "tokens": [
         [
           "SNU-1A-02-008_card_0",
@@ -225,15 +278,11 @@
         ],
         [
           "SNU-1A-02-008_card_2",
-          "한국"
+          "전자사전"
         ],
         [
           "SNU-1A-02-008_card_3",
-          "지도"
-        ],
-        [
-          "SNU-1A-02-008_card_4",
-          "예요"
+          "이에요"
         ]
       ],
       "acceptedOrders": [
@@ -241,88 +290,104 @@
           "SNU-1A-02-008_card_0",
           "SNU-1A-02-008_card_1",
           "SNU-1A-02-008_card_2",
-          "SNU-1A-02-008_card_3",
-          "SNU-1A-02-008_card_4"
+          "SNU-1A-02-008_card_3"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-009",
-      "displaySentence": "아니요, 영국 지도예요.",
+      "displaySentence": "저거는 제 가방이에요.",
       "tokens": [
         [
           "SNU-1A-02-009_card_0",
-          "아니요"
+          "저거"
         ],
         [
           "SNU-1A-02-009_card_1",
-          "영국"
+          "는"
         ],
         [
           "SNU-1A-02-009_card_2",
-          "지도"
+          "제"
         ],
         [
           "SNU-1A-02-009_card_3",
+          "가방"
+        ],
+        [
+          "SNU-1A-02-009_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-009_card_0",
+          "SNU-1A-02-009_card_1",
+          "SNU-1A-02-009_card_2",
+          "SNU-1A-02-009_card_3",
+          "SNU-1A-02-009_card_4"
+        ]
+      ],
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
+    },
+    {
+      "id": "SNU-1A-02-010",
+      "displaySentence": "이거는 교통카드예요.",
+      "tokens": [
+        [
+          "SNU-1A-02-010_card_0",
+          "이거"
+        ],
+        [
+          "SNU-1A-02-010_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-010_card_2",
+          "교통카드"
+        ],
+        [
+          "SNU-1A-02-010_card_3",
           "예요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1A-02-009_card_0",
-          "SNU-1A-02-009_card_1",
-          "SNU-1A-02-009_card_2",
-          "SNU-1A-02-009_card_3"
-        ]
-      ],
-      "note": "서울대 1A 2과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-02-010",
-      "displaySentence": "신문 좀 주세요.",
-      "tokens": [
-        [
           "SNU-1A-02-010_card_0",
-          "신문"
-        ],
-        [
           "SNU-1A-02-010_card_1",
-          "좀"
-        ],
-        [
           "SNU-1A-02-010_card_2",
-          "주세요"
+          "SNU-1A-02-010_card_3"
         ]
       ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-02-010_card_0",
-          "SNU-1A-02-010_card_1",
-          "SNU-1A-02-010_card_2"
-        ]
-      ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-011",
-      "displaySentence": "지우개하고 연필 주세요.",
+      "displaySentence": "그거는 한국 지도예요.",
       "tokens": [
         [
           "SNU-1A-02-011_card_0",
-          "지우개"
+          "그거"
         ],
         [
           "SNU-1A-02-011_card_1",
-          "하고"
+          "는"
         ],
         [
           "SNU-1A-02-011_card_2",
-          "연필"
+          "한국"
         ],
         [
           "SNU-1A-02-011_card_3",
-          "주세요"
+          "지도"
+        ],
+        [
+          "SNU-1A-02-011_card_4",
+          "예요"
         ]
       ],
       "acceptedOrders": [
@@ -330,60 +395,68 @@
           "SNU-1A-02-011_card_0",
           "SNU-1A-02-011_card_1",
           "SNU-1A-02-011_card_2",
-          "SNU-1A-02-011_card_3"
+          "SNU-1A-02-011_card_3",
+          "SNU-1A-02-011_card_4"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-012",
-      "displaySentence": "네, 여기 있어요.",
+      "displaySentence": "저거는 잡지예요.",
       "tokens": [
         [
           "SNU-1A-02-012_card_0",
-          "네"
+          "저거"
         ],
         [
           "SNU-1A-02-012_card_1",
-          "여기"
+          "는"
         ],
         [
           "SNU-1A-02-012_card_2",
-          "있어요"
+          "잡지"
+        ],
+        [
+          "SNU-1A-02-012_card_3",
+          "예요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1A-02-012_card_0",
           "SNU-1A-02-012_card_1",
-          "SNU-1A-02-012_card_2"
+          "SNU-1A-02-012_card_2",
+          "SNU-1A-02-012_card_3"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-013",
-      "displaySentence": "콜라하고 주스가 있어요.",
+      "displaySentence": "이거는 누구 시계예요?",
       "tokens": [
         [
           "SNU-1A-02-013_card_0",
-          "콜라"
+          "이거"
         ],
         [
           "SNU-1A-02-013_card_1",
-          "하고"
+          "는"
         ],
         [
           "SNU-1A-02-013_card_2",
-          "주스"
+          "누구"
         ],
         [
           "SNU-1A-02-013_card_3",
-          "가"
+          "시계"
         ],
         [
           "SNU-1A-02-013_card_4",
-          "있어요"
+          "예요"
         ]
       ],
       "acceptedOrders": [
@@ -395,27 +468,28 @@
           "SNU-1A-02-013_card_4"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-014",
-      "displaySentence": "볼펜하고 공책 주세요.",
+      "displaySentence": "그거는 지갑이에요?",
       "tokens": [
         [
           "SNU-1A-02-014_card_0",
-          "볼펜"
+          "그거"
         ],
         [
           "SNU-1A-02-014_card_1",
-          "하고"
+          "는"
         ],
         [
           "SNU-1A-02-014_card_2",
-          "공책"
+          "지갑"
         ],
         [
           "SNU-1A-02-014_card_3",
-          "주세요"
+          "이에요"
         ]
       ],
       "acceptedOrders": [
@@ -426,82 +500,85 @@
           "SNU-1A-02-014_card_3"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-015",
-      "displaySentence": "지우개와 연필이 있어요.",
+      "displaySentence": "저거는 카메라예요?",
       "tokens": [
         [
           "SNU-1A-02-015_card_0",
-          "지우개"
+          "저거"
         ],
         [
           "SNU-1A-02-015_card_1",
-          "와"
+          "는"
         ],
         [
           "SNU-1A-02-015_card_2",
-          "연필"
+          "카메라"
         ],
         [
           "SNU-1A-02-015_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-015_card_0",
+          "SNU-1A-02-015_card_1",
+          "SNU-1A-02-015_card_2",
+          "SNU-1A-02-015_card_3"
+        ]
+      ],
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
+    },
+    {
+      "id": "SNU-1A-02-016",
+      "displaySentence": "민수는 안경이 있어요?",
+      "tokens": [
+        [
+          "SNU-1A-02-016_card_0",
+          "민수"
+        ],
+        [
+          "SNU-1A-02-016_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-016_card_2",
+          "안경"
+        ],
+        [
+          "SNU-1A-02-016_card_3",
           "이"
         ],
         [
-          "SNU-1A-02-015_card_4",
+          "SNU-1A-02-016_card_4",
           "있어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1A-02-015_card_0",
-          "SNU-1A-02-015_card_1",
-          "SNU-1A-02-015_card_2",
-          "SNU-1A-02-015_card_3",
-          "SNU-1A-02-015_card_4"
-        ]
-      ],
-      "note": "서울대 1A 2과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-02-016",
-      "displaySentence": "학생과 선생님입니다.",
-      "tokens": [
-        [
           "SNU-1A-02-016_card_0",
-          "학생"
-        ],
-        [
           "SNU-1A-02-016_card_1",
-          "과"
-        ],
-        [
           "SNU-1A-02-016_card_2",
-          "선생님"
-        ],
-        [
           "SNU-1A-02-016_card_3",
-          "입니다"
+          "SNU-1A-02-016_card_4"
         ]
       ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-02-016_card_0",
-          "SNU-1A-02-016_card_1",
-          "SNU-1A-02-016_card_2",
-          "SNU-1A-02-016_card_3"
-        ]
-      ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-017",
-      "displaySentence": "이거는 한국어로 뭐예요?",
+      "displaySentence": "유나는 휴대폰이 없어요.",
       "tokens": [
         [
           "SNU-1A-02-017_card_0",
-          "이거"
+          "유나"
         ],
         [
           "SNU-1A-02-017_card_1",
@@ -509,19 +586,15 @@
         ],
         [
           "SNU-1A-02-017_card_2",
-          "한국어"
+          "휴대폰"
         ],
         [
           "SNU-1A-02-017_card_3",
-          "로"
+          "이"
         ],
         [
           "SNU-1A-02-017_card_4",
-          "뭐"
-        ],
-        [
-          "SNU-1A-02-017_card_5",
-          "예요"
+          "없어요"
         ]
       ],
       "acceptedOrders": [
@@ -530,19 +603,19 @@
           "SNU-1A-02-017_card_1",
           "SNU-1A-02-017_card_2",
           "SNU-1A-02-017_card_3",
-          "SNU-1A-02-017_card_4",
-          "SNU-1A-02-017_card_5"
+          "SNU-1A-02-017_card_4"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-018",
-      "displaySentence": "저거는 연필이에요?",
+      "displaySentence": "이거는 볼펜이에요.",
       "tokens": [
         [
           "SNU-1A-02-018_card_0",
-          "저거"
+          "이거"
         ],
         [
           "SNU-1A-02-018_card_1",
@@ -550,7 +623,7 @@
         ],
         [
           "SNU-1A-02-018_card_2",
-          "연필"
+          "볼펜"
         ],
         [
           "SNU-1A-02-018_card_3",
@@ -565,33 +638,77 @@
           "SNU-1A-02-018_card_3"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     },
     {
       "id": "SNU-1A-02-019",
-      "displaySentence": "아니요, 볼펜이에요.",
+      "displaySentence": "이거는 녹차예요?",
       "tokens": [
         [
           "SNU-1A-02-019_card_0",
-          "아니요"
+          "이거"
         ],
         [
           "SNU-1A-02-019_card_1",
-          "볼펜"
+          "는"
         ],
         [
           "SNU-1A-02-019_card_2",
-          "이에요"
+          "녹차"
+        ],
+        [
+          "SNU-1A-02-019_card_3",
+          "예요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1A-02-019_card_0",
           "SNU-1A-02-019_card_1",
-          "SNU-1A-02-019_card_2"
+          "SNU-1A-02-019_card_2",
+          "SNU-1A-02-019_card_3"
         ]
       ],
-      "note": "서울대 1A 2과 교재 기반"
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
+    },
+    {
+      "id": "SNU-1A-02-020",
+      "displaySentence": "저거는 제 모자예요.",
+      "tokens": [
+        [
+          "SNU-1A-02-020_card_0",
+          "저거"
+        ],
+        [
+          "SNU-1A-02-020_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-02-020_card_2",
+          "제"
+        ],
+        [
+          "SNU-1A-02-020_card_3",
+          "모자"
+        ],
+        [
+          "SNU-1A-02-020_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-02-020_card_0",
+          "SNU-1A-02-020_card_1",
+          "SNU-1A-02-020_card_2",
+          "SNU-1A-02-020_card_3",
+          "SNU-1A-02-020_card_4"
+        ]
+      ],
+      "note": "서울대 1A 2과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 2과 SB/WB 문법(N이/가 있어요/없어요; 이거는/그거는/저거는 N이에요/예요) + data/snu/1A/lesson02.json 어휘"
     }
   ]
 }

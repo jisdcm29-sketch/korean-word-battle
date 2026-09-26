@@ -1,12 +1,18 @@
 {
   "book": "2B",
   "lesson": 11,
-  "source": "서울대 한국어 2B 학생 읽기 자료 · 11과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "SNU Korean 2B Student's Book/Workbook official grammar scope; restructured with Arena 2B lesson vocabulary",
+  "grammarFocus": [
+    "ㅅ 불규칙",
+    "N마다",
+    "V-는 게 어때요?",
+    "V-기로 하다"
+  ],
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2B-11-001",
-      "displaySentence": "감기 아직 안 나았어요?",
+      "displaySentence": "감기가 나으려면 푹 쉬는 게 어때요?",
       "tokens": [
         [
           "SNU-2B-11-001_card_0",
@@ -14,15 +20,31 @@
         ],
         [
           "SNU-2B-11-001_card_1",
-          "아직"
+          "가"
         ],
         [
           "SNU-2B-11-001_card_2",
-          "안"
+          "나으려면"
         ],
         [
           "SNU-2B-11-001_card_3",
-          "나았어요"
+          "푹"
+        ],
+        [
+          "SNU-2B-11-001_card_4",
+          "쉬"
+        ],
+        [
+          "SNU-2B-11-001_card_5",
+          "는"
+        ],
+        [
+          "SNU-2B-11-001_card_6",
+          "게"
+        ],
+        [
+          "SNU-2B-11-001_card_7",
+          "어때요?"
         ]
       ],
       "acceptedOrders": [
@@ -30,114 +52,174 @@
           "SNU-2B-11-001_card_0",
           "SNU-2B-11-001_card_1",
           "SNU-2B-11-001_card_2",
-          "SNU-2B-11-001_card_3"
+          "SNU-2B-11-001_card_3",
+          "SNU-2B-11-001_card_4",
+          "SNU-2B-11-001_card_5",
+          "SNU-2B-11-001_card_6",
+          "SNU-2B-11-001_card_7"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-002",
-      "displaySentence": "네, 기침이 계속 나요.",
+      "displaySentence": "눈이 많이 부었으면 안과에 가는 게 어때요?",
       "tokens": [
         [
           "SNU-2B-11-002_card_0",
-          "네"
-        ],
-        [
-          "SNU-2B-11-002_card_1",
-          "기침"
-        ],
-        [
-          "SNU-2B-11-002_card_2",
-          "이"
-        ],
-        [
-          "SNU-2B-11-002_card_3",
-          "계속"
-        ],
-        [
-          "SNU-2B-11-002_card_4",
-          "나요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-002_card_0",
-          "SNU-2B-11-002_card_1",
-          "SNU-2B-11-002_card_2",
-          "SNU-2B-11-002_card_3",
-          "SNU-2B-11-002_card_4"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-003",
-      "displaySentence": "감기가 빨리 나았으면 좋겠어요.",
-      "tokens": [
-        [
-          "SNU-2B-11-003_card_0",
-          "감기"
-        ],
-        [
-          "SNU-2B-11-003_card_1",
-          "가"
-        ],
-        [
-          "SNU-2B-11-003_card_2",
-          "빨리"
-        ],
-        [
-          "SNU-2B-11-003_card_3",
-          "나았으면"
-        ],
-        [
-          "SNU-2B-11-003_card_4",
-          "좋겠어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-003_card_0",
-          "SNU-2B-11-003_card_1",
-          "SNU-2B-11-003_card_2",
-          "SNU-2B-11-003_card_3",
-          "SNU-2B-11-003_card_4"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-004",
-      "displaySentence": "눈이 좀 부은 것 같아요.",
-      "tokens": [
-        [
-          "SNU-2B-11-004_card_0",
           "눈"
         ],
         [
-          "SNU-2B-11-004_card_1",
+          "SNU-2B-11-002_card_1",
           "이"
         ],
         [
+          "SNU-2B-11-002_card_2",
+          "많이"
+        ],
+        [
+          "SNU-2B-11-002_card_3",
+          "부었으면"
+        ],
+        [
+          "SNU-2B-11-002_card_4",
+          "안과"
+        ],
+        [
+          "SNU-2B-11-002_card_5",
+          "에"
+        ],
+        [
+          "SNU-2B-11-002_card_6",
+          "가"
+        ],
+        [
+          "SNU-2B-11-002_card_7",
+          "는"
+        ],
+        [
+          "SNU-2B-11-002_card_8",
+          "게"
+        ],
+        [
+          "SNU-2B-11-002_card_9",
+          "어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-11-002_card_0",
+          "SNU-2B-11-002_card_1",
+          "SNU-2B-11-002_card_2",
+          "SNU-2B-11-002_card_3",
+          "SNU-2B-11-002_card_4",
+          "SNU-2B-11-002_card_5",
+          "SNU-2B-11-002_card_6",
+          "SNU-2B-11-002_card_7",
+          "SNU-2B-11-002_card_8",
+          "SNU-2B-11-002_card_9"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-003",
+      "displaySentence": "몸살이 나면 내과에 가는 게 어때요?",
+      "tokens": [
+        [
+          "SNU-2B-11-003_card_0",
+          "몸살"
+        ],
+        [
+          "SNU-2B-11-003_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-11-003_card_2",
+          "나면"
+        ],
+        [
+          "SNU-2B-11-003_card_3",
+          "내과"
+        ],
+        [
+          "SNU-2B-11-003_card_4",
+          "에"
+        ],
+        [
+          "SNU-2B-11-003_card_5",
+          "가"
+        ],
+        [
+          "SNU-2B-11-003_card_6",
+          "는"
+        ],
+        [
+          "SNU-2B-11-003_card_7",
+          "게"
+        ],
+        [
+          "SNU-2B-11-003_card_8",
+          "어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-11-003_card_0",
+          "SNU-2B-11-003_card_1",
+          "SNU-2B-11-003_card_2",
+          "SNU-2B-11-003_card_3",
+          "SNU-2B-11-003_card_4",
+          "SNU-2B-11-003_card_5",
+          "SNU-2B-11-003_card_6",
+          "SNU-2B-11-003_card_7",
+          "SNU-2B-11-003_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-004",
+      "displaySentence": "이가 아프면 치과에 가는 게 어때요?",
+      "tokens": [
+        [
+          "SNU-2B-11-004_card_0",
+          "이"
+        ],
+        [
+          "SNU-2B-11-004_card_1",
+          "가"
+        ],
+        [
           "SNU-2B-11-004_card_2",
-          "좀"
+          "아프면"
         ],
         [
           "SNU-2B-11-004_card_3",
-          "부"
+          "치과"
         ],
         [
           "SNU-2B-11-004_card_4",
-          "은"
+          "에"
         ],
         [
           "SNU-2B-11-004_card_5",
-          "것"
+          "가"
         ],
         [
           "SNU-2B-11-004_card_6",
-          "같아요"
+          "는"
+        ],
+        [
+          "SNU-2B-11-004_card_7",
+          "게"
+        ],
+        [
+          "SNU-2B-11-004_card_8",
+          "어때요?"
         ]
       ],
       "acceptedOrders": [
@@ -148,42 +230,53 @@
           "SNU-2B-11-004_card_3",
           "SNU-2B-11-004_card_4",
           "SNU-2B-11-004_card_5",
-          "SNU-2B-11-004_card_6"
+          "SNU-2B-11-004_card_6",
+          "SNU-2B-11-004_card_7",
+          "SNU-2B-11-004_card_8"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-005",
-      "displaySentence": "이 집은 30년 전에 지었어요.",
+      "displaySentence": "피부가 가려우면 연고를 바르는 게 어때요?",
       "tokens": [
         [
           "SNU-2B-11-005_card_0",
-          "이"
+          "피부"
         ],
         [
           "SNU-2B-11-005_card_1",
-          "집"
+          "가"
         ],
         [
           "SNU-2B-11-005_card_2",
-          "은"
+          "가려우면"
         ],
         [
           "SNU-2B-11-005_card_3",
-          "30년"
+          "연고"
         ],
         [
           "SNU-2B-11-005_card_4",
-          "전"
+          "를"
         ],
         [
           "SNU-2B-11-005_card_5",
-          "에"
+          "바르"
         ],
         [
           "SNU-2B-11-005_card_6",
-          "지었어요"
+          "는"
+        ],
+        [
+          "SNU-2B-11-005_card_7",
+          "게"
+        ],
+        [
+          "SNU-2B-11-005_card_8",
+          "어때요?"
         ]
       ],
       "acceptedOrders": [
@@ -194,222 +287,216 @@
           "SNU-2B-11-005_card_3",
           "SNU-2B-11-005_card_4",
           "SNU-2B-11-005_card_5",
-          "SNU-2B-11-005_card_6"
+          "SNU-2B-11-005_card_6",
+          "SNU-2B-11-005_card_7",
+          "SNU-2B-11-005_card_8"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-006",
-      "displaySentence": "커피에 설탕을 넣었으니까 잘 저어서 드세요.",
+      "displaySentence": "저는 아침마다 스트레칭을 하기로 했어요.",
       "tokens": [
         [
           "SNU-2B-11-006_card_0",
-          "커피"
-        ],
-        [
-          "SNU-2B-11-006_card_1",
-          "에"
-        ],
-        [
-          "SNU-2B-11-006_card_2",
-          "설탕"
-        ],
-        [
-          "SNU-2B-11-006_card_3",
-          "을"
-        ],
-        [
-          "SNU-2B-11-006_card_4",
-          "넣었으니까"
-        ],
-        [
-          "SNU-2B-11-006_card_5",
-          "잘"
-        ],
-        [
-          "SNU-2B-11-006_card_6",
-          "저어서"
-        ],
-        [
-          "SNU-2B-11-006_card_7",
-          "드세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-006_card_0",
-          "SNU-2B-11-006_card_1",
-          "SNU-2B-11-006_card_2",
-          "SNU-2B-11-006_card_3",
-          "SNU-2B-11-006_card_4",
-          "SNU-2B-11-006_card_5",
-          "SNU-2B-11-006_card_6",
-          "SNU-2B-11-006_card_7"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-007",
-      "displaySentence": "이 약을 하루에 몇 번 먹어야 돼요?",
-      "tokens": [
-        [
-          "SNU-2B-11-007_card_0",
-          "이"
-        ],
-        [
-          "SNU-2B-11-007_card_1",
-          "약"
-        ],
-        [
-          "SNU-2B-11-007_card_2",
-          "을"
-        ],
-        [
-          "SNU-2B-11-007_card_3",
-          "하루"
-        ],
-        [
-          "SNU-2B-11-007_card_4",
-          "에"
-        ],
-        [
-          "SNU-2B-11-007_card_5",
-          "몇"
-        ],
-        [
-          "SNU-2B-11-007_card_6",
-          "번"
-        ],
-        [
-          "SNU-2B-11-007_card_7",
-          "먹어야"
-        ],
-        [
-          "SNU-2B-11-007_card_8",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-007_card_0",
-          "SNU-2B-11-007_card_1",
-          "SNU-2B-11-007_card_2",
-          "SNU-2B-11-007_card_3",
-          "SNU-2B-11-007_card_4",
-          "SNU-2B-11-007_card_5",
-          "SNU-2B-11-007_card_6",
-          "SNU-2B-11-007_card_7",
-          "SNU-2B-11-007_card_8"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-008",
-      "displaySentence": "하루에 세 번씩, 여덟 시간마다 드세요.",
-      "tokens": [
-        [
-          "SNU-2B-11-008_card_0",
-          "하루"
-        ],
-        [
-          "SNU-2B-11-008_card_1",
-          "에"
-        ],
-        [
-          "SNU-2B-11-008_card_2",
-          "세"
-        ],
-        [
-          "SNU-2B-11-008_card_3",
-          "번씩"
-        ],
-        [
-          "SNU-2B-11-008_card_4",
-          "여덟"
-        ],
-        [
-          "SNU-2B-11-008_card_5",
-          "시간마다"
-        ],
-        [
-          "SNU-2B-11-008_card_6",
-          "드세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-008_card_0",
-          "SNU-2B-11-008_card_1",
-          "SNU-2B-11-008_card_2",
-          "SNU-2B-11-008_card_3",
-          "SNU-2B-11-008_card_4",
-          "SNU-2B-11-008_card_5",
-          "SNU-2B-11-008_card_6"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-009",
-      "displaySentence": "날마다 한 시간씩 운동해요.",
-      "tokens": [
-        [
-          "SNU-2B-11-009_card_0",
-          "날마다"
-        ],
-        [
-          "SNU-2B-11-009_card_1",
-          "한"
-        ],
-        [
-          "SNU-2B-11-009_card_2",
-          "시간씩"
-        ],
-        [
-          "SNU-2B-11-009_card_3",
-          "운동해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-009_card_0",
-          "SNU-2B-11-009_card_1",
-          "SNU-2B-11-009_card_2",
-          "SNU-2B-11-009_card_3"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-010",
-      "displaySentence": "저는 아침마다 수영을 해요.",
-      "tokens": [
-        [
-          "SNU-2B-11-010_card_0",
           "저"
         ],
         [
-          "SNU-2B-11-010_card_1",
+          "SNU-2B-11-006_card_1",
           "는"
         ],
         [
-          "SNU-2B-11-010_card_2",
+          "SNU-2B-11-006_card_2",
           "아침마다"
         ],
         [
-          "SNU-2B-11-010_card_3",
-          "수영"
+          "SNU-2B-11-006_card_3",
+          "스트레칭"
         ],
         [
-          "SNU-2B-11-010_card_4",
+          "SNU-2B-11-006_card_4",
           "을"
         ],
         [
+          "SNU-2B-11-006_card_5",
+          "하기로 했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-11-006_card_0",
+          "SNU-2B-11-006_card_1",
+          "SNU-2B-11-006_card_2",
+          "SNU-2B-11-006_card_3",
+          "SNU-2B-11-006_card_4",
+          "SNU-2B-11-006_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-007",
+      "displaySentence": "건강을 위해 계단을 이용하기로 했어요.",
+      "tokens": [
+        [
+          "SNU-2B-11-007_card_0",
+          "건강"
+        ],
+        [
+          "SNU-2B-11-007_card_1",
+          "을"
+        ],
+        [
+          "SNU-2B-11-007_card_2",
+          "위해"
+        ],
+        [
+          "SNU-2B-11-007_card_3",
+          "계단"
+        ],
+        [
+          "SNU-2B-11-007_card_4",
+          "을"
+        ],
+        [
+          "SNU-2B-11-007_card_5",
+          "이용하기로 했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-11-007_card_0",
+          "SNU-2B-11-007_card_1",
+          "SNU-2B-11-007_card_2",
+          "SNU-2B-11-007_card_3",
+          "SNU-2B-11-007_card_4",
+          "SNU-2B-11-007_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-008",
+      "displaySentence": "감기가 나으면 다시 운동하기로 했어요.",
+      "tokens": [
+        [
+          "SNU-2B-11-008_card_0",
+          "감기"
+        ],
+        [
+          "SNU-2B-11-008_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-11-008_card_2",
+          "나으면"
+        ],
+        [
+          "SNU-2B-11-008_card_3",
+          "다시"
+        ],
+        [
+          "SNU-2B-11-008_card_4",
+          "운동하기로 했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-11-008_card_0",
+          "SNU-2B-11-008_card_1",
+          "SNU-2B-11-008_card_2",
+          "SNU-2B-11-008_card_3",
+          "SNU-2B-11-008_card_4"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-009",
+      "displaySentence": "저녁에는 커피를 안 마시기로 했어요.",
+      "tokens": [
+        [
+          "SNU-2B-11-009_card_0",
+          "저녁에"
+        ],
+        [
+          "SNU-2B-11-009_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-11-009_card_2",
+          "커피"
+        ],
+        [
+          "SNU-2B-11-009_card_3",
+          "를"
+        ],
+        [
+          "SNU-2B-11-009_card_4",
+          "안"
+        ],
+        [
+          "SNU-2B-11-009_card_5",
+          "마시기로 했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-11-009_card_0",
+          "SNU-2B-11-009_card_1",
+          "SNU-2B-11-009_card_2",
+          "SNU-2B-11-009_card_3",
+          "SNU-2B-11-009_card_4",
+          "SNU-2B-11-009_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-010",
+      "displaySentence": "병원에서 하루에 세 번 약을 먹기로 했어요.",
+      "tokens": [
+        [
+          "SNU-2B-11-010_card_0",
+          "병원"
+        ],
+        [
+          "SNU-2B-11-010_card_1",
+          "에서"
+        ],
+        [
+          "SNU-2B-11-010_card_2",
+          "하루"
+        ],
+        [
+          "SNU-2B-11-010_card_3",
+          "에"
+        ],
+        [
+          "SNU-2B-11-010_card_4",
+          "세"
+        ],
+        [
           "SNU-2B-11-010_card_5",
-          "해요"
+          "번"
+        ],
+        [
+          "SNU-2B-11-010_card_6",
+          "약"
+        ],
+        [
+          "SNU-2B-11-010_card_7",
+          "을"
+        ],
+        [
+          "SNU-2B-11-010_card_8",
+          "먹기로 했어요"
         ]
       ],
       "acceptedOrders": [
@@ -419,30 +506,58 @@
           "SNU-2B-11-010_card_2",
           "SNU-2B-11-010_card_3",
           "SNU-2B-11-010_card_4",
-          "SNU-2B-11-010_card_5"
+          "SNU-2B-11-010_card_5",
+          "SNU-2B-11-010_card_6",
+          "SNU-2B-11-010_card_7",
+          "SNU-2B-11-010_card_8"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-011",
-      "displaySentence": "나라마다 문화가 달라요.",
+      "displaySentence": "요즘 밤마다 기침이 나서 잠을 잘 못 자요.",
       "tokens": [
         [
           "SNU-2B-11-011_card_0",
-          "나라마다"
+          "요즘"
         ],
         [
           "SNU-2B-11-011_card_1",
-          "문화"
+          "밤마다"
         ],
         [
           "SNU-2B-11-011_card_2",
-          "가"
+          "기침"
         ],
         [
           "SNU-2B-11-011_card_3",
-          "달라요"
+          "이"
+        ],
+        [
+          "SNU-2B-11-011_card_4",
+          "나서"
+        ],
+        [
+          "SNU-2B-11-011_card_5",
+          "잠"
+        ],
+        [
+          "SNU-2B-11-011_card_6",
+          "을"
+        ],
+        [
+          "SNU-2B-11-011_card_7",
+          "잘"
+        ],
+        [
+          "SNU-2B-11-011_card_8",
+          "못"
+        ],
+        [
+          "SNU-2B-11-011_card_9",
+          "자요"
         ]
       ],
       "acceptedOrders": [
@@ -450,18 +565,25 @@
           "SNU-2B-11-011_card_0",
           "SNU-2B-11-011_card_1",
           "SNU-2B-11-011_card_2",
-          "SNU-2B-11-011_card_3"
+          "SNU-2B-11-011_card_3",
+          "SNU-2B-11-011_card_4",
+          "SNU-2B-11-011_card_5",
+          "SNU-2B-11-011_card_6",
+          "SNU-2B-11-011_card_7",
+          "SNU-2B-11-011_card_8",
+          "SNU-2B-11-011_card_9"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-012",
-      "displaySentence": "요즘 이가 계속 아파요.",
+      "displaySentence": "열이 날 때마다 체온을 재요.",
       "tokens": [
         [
           "SNU-2B-11-012_card_0",
-          "요즘"
+          "열"
         ],
         [
           "SNU-2B-11-012_card_1",
@@ -469,15 +591,23 @@
         ],
         [
           "SNU-2B-11-012_card_2",
-          "가"
+          "날"
         ],
         [
           "SNU-2B-11-012_card_3",
-          "계속"
+          "때마다"
         ],
         [
           "SNU-2B-11-012_card_4",
-          "아파요"
+          "체온"
+        ],
+        [
+          "SNU-2B-11-012_card_5",
+          "을"
+        ],
+        [
+          "SNU-2B-11-012_card_6",
+          "재요"
         ]
       ],
       "acceptedOrders": [
@@ -486,38 +616,45 @@
           "SNU-2B-11-012_card_1",
           "SNU-2B-11-012_card_2",
           "SNU-2B-11-012_card_3",
-          "SNU-2B-11-012_card_4"
+          "SNU-2B-11-012_card_4",
+          "SNU-2B-11-012_card_5",
+          "SNU-2B-11-012_card_6"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-013",
-      "displaySentence": "치과에 가 보는 게 어때요?",
+      "displaySentence": "약은 여덟 시간마다 한 번씩 드세요.",
       "tokens": [
         [
           "SNU-2B-11-013_card_0",
-          "치과"
+          "약"
         ],
         [
           "SNU-2B-11-013_card_1",
-          "에"
+          "은"
         ],
         [
           "SNU-2B-11-013_card_2",
-          "가"
+          "여덟"
         ],
         [
           "SNU-2B-11-013_card_3",
-          "보는"
+          "시간마다"
         ],
         [
           "SNU-2B-11-013_card_4",
-          "게"
+          "한"
         ],
         [
           "SNU-2B-11-013_card_5",
-          "어때요"
+          "번씩"
+        ],
+        [
+          "SNU-2B-11-013_card_6",
+          "드세요"
         ]
       ],
       "acceptedOrders": [
@@ -527,58 +664,48 @@
           "SNU-2B-11-013_card_2",
           "SNU-2B-11-013_card_3",
           "SNU-2B-11-013_card_4",
-          "SNU-2B-11-013_card_5"
+          "SNU-2B-11-013_card_5",
+          "SNU-2B-11-013_card_6"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-014",
-      "displaySentence": "많이 아프면 병원에 가서 진료를 받아 보는 게 어때요?",
+      "displaySentence": "저는 날마다 이를 깨끗이 닦아요.",
       "tokens": [
         [
           "SNU-2B-11-014_card_0",
-          "많이"
+          "저"
         ],
         [
           "SNU-2B-11-014_card_1",
-          "아프면"
+          "는"
         ],
         [
           "SNU-2B-11-014_card_2",
-          "병원"
+          "날마다"
         ],
         [
           "SNU-2B-11-014_card_3",
-          "에"
+          "이"
         ],
         [
           "SNU-2B-11-014_card_4",
-          "가서"
-        ],
-        [
-          "SNU-2B-11-014_card_5",
-          "진료"
-        ],
-        [
-          "SNU-2B-11-014_card_6",
           "를"
         ],
         [
+          "SNU-2B-11-014_card_5",
+          "깨끗"
+        ],
+        [
+          "SNU-2B-11-014_card_6",
+          "이"
+        ],
+        [
           "SNU-2B-11-014_card_7",
-          "받아"
-        ],
-        [
-          "SNU-2B-11-014_card_8",
-          "보는"
-        ],
-        [
-          "SNU-2B-11-014_card_9",
-          "게"
-        ],
-        [
-          "SNU-2B-11-014_card_10",
-          "어때요"
+          "닦아요"
         ]
       ],
       "acceptedOrders": [
@@ -590,158 +717,221 @@
           "SNU-2B-11-014_card_4",
           "SNU-2B-11-014_card_5",
           "SNU-2B-11-014_card_6",
-          "SNU-2B-11-014_card_7",
-          "SNU-2B-11-014_card_8",
-          "SNU-2B-11-014_card_9",
-          "SNU-2B-11-014_card_10"
+          "SNU-2B-11-014_card_7"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-015",
-      "displaySentence": "좀 싱거운 것 같아요.",
+      "displaySentence": "주말마다 한 시간씩 산책을 해요.",
       "tokens": [
         [
           "SNU-2B-11-015_card_0",
-          "좀"
+          "주말마다"
         ],
         [
           "SNU-2B-11-015_card_1",
-          "싱거운"
+          "한"
         ],
         [
           "SNU-2B-11-015_card_2",
-          "것"
+          "시간씩"
         ],
         [
           "SNU-2B-11-015_card_3",
-          "같아요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-015_card_0",
-          "SNU-2B-11-015_card_1",
-          "SNU-2B-11-015_card_2",
-          "SNU-2B-11-015_card_3"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-016",
-      "displaySentence": "그럼 소금을 더 넣는 게 어때요?",
-      "tokens": [
-        [
-          "SNU-2B-11-016_card_0",
-          "그럼"
+          "산책"
         ],
         [
-          "SNU-2B-11-016_card_1",
-          "소금"
-        ],
-        [
-          "SNU-2B-11-016_card_2",
+          "SNU-2B-11-015_card_4",
           "을"
         ],
         [
-          "SNU-2B-11-016_card_3",
-          "더"
-        ],
-        [
-          "SNU-2B-11-016_card_4",
-          "넣는"
-        ],
-        [
-          "SNU-2B-11-016_card_5",
-          "게"
-        ],
-        [
-          "SNU-2B-11-016_card_6",
-          "어때요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-016_card_0",
-          "SNU-2B-11-016_card_1",
-          "SNU-2B-11-016_card_2",
-          "SNU-2B-11-016_card_3",
-          "SNU-2B-11-016_card_4",
-          "SNU-2B-11-016_card_5",
-          "SNU-2B-11-016_card_6"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-017",
-      "displaySentence": "이번 주말에 뭐 해요?",
-      "tokens": [
-        [
-          "SNU-2B-11-017_card_0",
-          "이번"
-        ],
-        [
-          "SNU-2B-11-017_card_1",
-          "주말"
-        ],
-        [
-          "SNU-2B-11-017_card_2",
-          "에"
-        ],
-        [
-          "SNU-2B-11-017_card_3",
-          "뭐"
-        ],
-        [
-          "SNU-2B-11-017_card_4",
+          "SNU-2B-11-015_card_5",
           "해요"
         ]
       ],
       "acceptedOrders": [
         [
+          "SNU-2B-11-015_card_0",
+          "SNU-2B-11-015_card_1",
+          "SNU-2B-11-015_card_2",
+          "SNU-2B-11-015_card_3",
+          "SNU-2B-11-015_card_4",
+          "SNU-2B-11-015_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-016",
+      "displaySentence": "속이 안 좋으면 물을 마시는 게 어때요?",
+      "tokens": [
+        [
+          "SNU-2B-11-016_card_0",
+          "속"
+        ],
+        [
+          "SNU-2B-11-016_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-11-016_card_2",
+          "안"
+        ],
+        [
+          "SNU-2B-11-016_card_3",
+          "좋으면"
+        ],
+        [
+          "SNU-2B-11-016_card_4",
+          "물"
+        ],
+        [
+          "SNU-2B-11-016_card_5",
+          "을"
+        ],
+        [
+          "SNU-2B-11-016_card_6",
+          "마시"
+        ],
+        [
+          "SNU-2B-11-016_card_7",
+          "는"
+        ],
+        [
+          "SNU-2B-11-016_card_8",
+          "게"
+        ],
+        [
+          "SNU-2B-11-016_card_9",
+          "어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-11-016_card_0",
+          "SNU-2B-11-016_card_1",
+          "SNU-2B-11-016_card_2",
+          "SNU-2B-11-016_card_3",
+          "SNU-2B-11-016_card_4",
+          "SNU-2B-11-016_card_5",
+          "SNU-2B-11-016_card_6",
+          "SNU-2B-11-016_card_7",
+          "SNU-2B-11-016_card_8",
+          "SNU-2B-11-016_card_9"
+        ]
+      ],
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-11-017",
+      "displaySentence": "소화가 안 되면 소화제를 먹는 게 어때요?",
+      "tokens": [
+        [
+          "SNU-2B-11-017_card_0",
+          "소화"
+        ],
+        [
+          "SNU-2B-11-017_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-11-017_card_2",
+          "안"
+        ],
+        [
+          "SNU-2B-11-017_card_3",
+          "되면"
+        ],
+        [
+          "SNU-2B-11-017_card_4",
+          "소화제"
+        ],
+        [
+          "SNU-2B-11-017_card_5",
+          "를"
+        ],
+        [
+          "SNU-2B-11-017_card_6",
+          "먹"
+        ],
+        [
+          "SNU-2B-11-017_card_7",
+          "는"
+        ],
+        [
+          "SNU-2B-11-017_card_8",
+          "게"
+        ],
+        [
+          "SNU-2B-11-017_card_9",
+          "어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
           "SNU-2B-11-017_card_0",
           "SNU-2B-11-017_card_1",
           "SNU-2B-11-017_card_2",
           "SNU-2B-11-017_card_3",
-          "SNU-2B-11-017_card_4"
+          "SNU-2B-11-017_card_4",
+          "SNU-2B-11-017_card_5",
+          "SNU-2B-11-017_card_6",
+          "SNU-2B-11-017_card_7",
+          "SNU-2B-11-017_card_8",
+          "SNU-2B-11-017_card_9"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-018",
-      "displaySentence": "유진 씨랑 영화 보러 가기로 했어요.",
+      "displaySentence": "멀미가 심하면 멀미약을 미리 먹는 게 어때요?",
       "tokens": [
         [
           "SNU-2B-11-018_card_0",
-          "유진"
+          "멀미"
         ],
         [
           "SNU-2B-11-018_card_1",
-          "씨랑"
+          "가"
         ],
         [
           "SNU-2B-11-018_card_2",
-          "영화"
+          "심하면"
         ],
         [
           "SNU-2B-11-018_card_3",
-          "보러"
+          "멀미약"
         ],
         [
           "SNU-2B-11-018_card_4",
-          "가기"
+          "을"
         ],
         [
           "SNU-2B-11-018_card_5",
-          "로"
+          "미리"
         ],
         [
           "SNU-2B-11-018_card_6",
-          "했어요"
+          "먹"
+        ],
+        [
+          "SNU-2B-11-018_card_7",
+          "는"
+        ],
+        [
+          "SNU-2B-11-018_card_8",
+          "게"
+        ],
+        [
+          "SNU-2B-11-018_card_9",
+          "어때요?"
         ]
       ],
       "acceptedOrders": [
@@ -752,42 +942,46 @@
           "SNU-2B-11-018_card_3",
           "SNU-2B-11-018_card_4",
           "SNU-2B-11-018_card_5",
-          "SNU-2B-11-018_card_6"
+          "SNU-2B-11-018_card_6",
+          "SNU-2B-11-018_card_7",
+          "SNU-2B-11-018_card_8",
+          "SNU-2B-11-018_card_9"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-019",
-      "displaySentence": "주말에 친구를 만나기로 했어요.",
+      "displaySentence": "얼굴이 부어서 오늘은 충분히 쉬기로 했어요.",
       "tokens": [
         [
           "SNU-2B-11-019_card_0",
-          "주말"
+          "얼굴"
         ],
         [
           "SNU-2B-11-019_card_1",
-          "에"
+          "이"
         ],
         [
           "SNU-2B-11-019_card_2",
-          "친구"
+          "부어서"
         ],
         [
           "SNU-2B-11-019_card_3",
-          "를"
+          "오늘"
         ],
         [
           "SNU-2B-11-019_card_4",
-          "만나기"
+          "은"
         ],
         [
           "SNU-2B-11-019_card_5",
-          "로"
+          "충분히"
         ],
         [
           "SNU-2B-11-019_card_6",
-          "했어요"
+          "쉬기로 했어요"
         ]
       ],
       "acceptedOrders": [
@@ -801,43 +995,40 @@
           "SNU-2B-11-019_card_6"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-11-020",
-      "displaySentence": "내일 민수 씨와 저녁을 먹기로 했어요.",
+      "displaySentence": "배탈이 나서 찬 음식을 먹지 않기로 했어요.",
       "tokens": [
         [
           "SNU-2B-11-020_card_0",
-          "내일"
+          "배탈"
         ],
         [
           "SNU-2B-11-020_card_1",
-          "민수 씨"
+          "이"
         ],
         [
           "SNU-2B-11-020_card_2",
-          "와"
+          "나서"
         ],
         [
           "SNU-2B-11-020_card_3",
-          "저녁"
+          "찬"
         ],
         [
           "SNU-2B-11-020_card_4",
+          "음식"
+        ],
+        [
+          "SNU-2B-11-020_card_5",
           "을"
         ],
         [
-          "SNU-2B-11-020_card_5",
-          "먹기"
-        ],
-        [
           "SNU-2B-11-020_card_6",
-          "로"
-        ],
-        [
-          "SNU-2B-11-020_card_7",
-          "했어요"
+          "먹지 않기로 했어요"
         ]
       ],
       "acceptedOrders": [
@@ -848,150 +1039,11 @@
           "SNU-2B-11-020_card_3",
           "SNU-2B-11-020_card_4",
           "SNU-2B-11-020_card_5",
-          "SNU-2B-11-020_card_6",
-          "SNU-2B-11-020_card_7"
+          "SNU-2B-11-020_card_6"
         ]
       ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-021",
-      "displaySentence": "배가 아파서 왔는데요.",
-      "tokens": [
-        [
-          "SNU-2B-11-021_card_0",
-          "배"
-        ],
-        [
-          "SNU-2B-11-021_card_1",
-          "가"
-        ],
-        [
-          "SNU-2B-11-021_card_2",
-          "아파서"
-        ],
-        [
-          "SNU-2B-11-021_card_3",
-          "왔는데요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-021_card_0",
-          "SNU-2B-11-021_card_1",
-          "SNU-2B-11-021_card_2",
-          "SNU-2B-11-021_card_3"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-022",
-      "displaySentence": "속도 안 좋으세요?",
-      "tokens": [
-        [
-          "SNU-2B-11-022_card_0",
-          "속"
-        ],
-        [
-          "SNU-2B-11-022_card_1",
-          "도"
-        ],
-        [
-          "SNU-2B-11-022_card_2",
-          "안"
-        ],
-        [
-          "SNU-2B-11-022_card_3",
-          "좋으세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-022_card_0",
-          "SNU-2B-11-022_card_1",
-          "SNU-2B-11-022_card_2",
-          "SNU-2B-11-022_card_3"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-023",
-      "displaySentence": "네, 속도 안 좋고 토할 것 같아요.",
-      "tokens": [
-        [
-          "SNU-2B-11-023_card_0",
-          "네"
-        ],
-        [
-          "SNU-2B-11-023_card_1",
-          "속"
-        ],
-        [
-          "SNU-2B-11-023_card_2",
-          "도"
-        ],
-        [
-          "SNU-2B-11-023_card_3",
-          "안"
-        ],
-        [
-          "SNU-2B-11-023_card_4",
-          "좋고"
-        ],
-        [
-          "SNU-2B-11-023_card_5",
-          "토할"
-        ],
-        [
-          "SNU-2B-11-023_card_6",
-          "것"
-        ],
-        [
-          "SNU-2B-11-023_card_7",
-          "같아요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-023_card_0",
-          "SNU-2B-11-023_card_1",
-          "SNU-2B-11-023_card_2",
-          "SNU-2B-11-023_card_3",
-          "SNU-2B-11-023_card_4",
-          "SNU-2B-11-023_card_5",
-          "SNU-2B-11-023_card_6",
-          "SNU-2B-11-023_card_7"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-11-024",
-      "displaySentence": "언제부터 아프셨어요?",
-      "tokens": [
-        [
-          "SNU-2B-11-024_card_0",
-          "언제"
-        ],
-        [
-          "SNU-2B-11-024_card_1",
-          "부터"
-        ],
-        [
-          "SNU-2B-11-024_card_2",
-          "아프셨어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-11-024_card_0",
-          "SNU-2B-11-024_card_1",
-          "SNU-2B-11-024_card_2"
-        ]
-      ],
-      "note": "서울대 2B 11과 교재 기반"
+      "note": "SNU 2B lesson 11 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     }
   ]
 }

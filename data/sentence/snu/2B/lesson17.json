@@ -1,36 +1,50 @@
 {
   "book": "2B",
   "lesson": 17,
-  "source": "서울대 한국어 2B 학생 읽기 자료 · 17과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "SNU Korean 2B Student's Book/Workbook official grammar scope; restructured with Arena 2B lesson vocabulary",
+  "grammarFocus": [
+    "V-아다/어다 주다",
+    "V-(으)ㄹ 뻔하다",
+    "ㅎ 불규칙",
+    "V-아/어 있다"
+  ],
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2B-17-001",
-      "displaySentence": "어머니는 언제 중국으로 돌아가셨어요?",
+      "displaySentence": "아침에 어머니를 공항까지 모셔다 드렸어요.",
       "tokens": [
         [
           "SNU-2B-17-001_card_0",
-          "어머니"
+          "아침"
         ],
         [
           "SNU-2B-17-001_card_1",
-          "는"
+          "에"
         ],
         [
           "SNU-2B-17-001_card_2",
-          "언제"
+          "어머니"
         ],
         [
           "SNU-2B-17-001_card_3",
-          "중국"
+          "를"
         ],
         [
           "SNU-2B-17-001_card_4",
-          "으로"
+          "공항"
         ],
         [
           "SNU-2B-17-001_card_5",
-          "돌아가셨어요"
+          "까지"
+        ],
+        [
+          "SNU-2B-17-001_card_6",
+          "모셔다"
+        ],
+        [
+          "SNU-2B-17-001_card_7",
+          "드렸어요"
         ]
       ],
       "acceptedOrders": [
@@ -40,18 +54,21 @@
           "SNU-2B-17-001_card_2",
           "SNU-2B-17-001_card_3",
           "SNU-2B-17-001_card_4",
-          "SNU-2B-17-001_card_5"
+          "SNU-2B-17-001_card_5",
+          "SNU-2B-17-001_card_6",
+          "SNU-2B-17-001_card_7"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-002",
-      "displaySentence": "아침에 공항까지 모셔다 드리고 왔어요.",
+      "displaySentence": "집에 오는 길에 신문을 사다 주세요.",
       "tokens": [
         [
           "SNU-2B-17-002_card_0",
-          "아침"
+          "집"
         ],
         [
           "SNU-2B-17-002_card_1",
@@ -59,23 +76,35 @@
         ],
         [
           "SNU-2B-17-002_card_2",
-          "공항"
+          "오"
         ],
         [
           "SNU-2B-17-002_card_3",
-          "까지"
+          "는"
         ],
         [
           "SNU-2B-17-002_card_4",
-          "모셔다"
+          "길"
         ],
         [
           "SNU-2B-17-002_card_5",
-          "드리고"
+          "에"
         ],
         [
           "SNU-2B-17-002_card_6",
-          "왔어요"
+          "신문"
+        ],
+        [
+          "SNU-2B-17-002_card_7",
+          "을"
+        ],
+        [
+          "SNU-2B-17-002_card_8",
+          "사다"
+        ],
+        [
+          "SNU-2B-17-002_card_9",
+          "주세요"
         ]
       ],
       "acceptedOrders": [
@@ -86,38 +115,42 @@
           "SNU-2B-17-002_card_3",
           "SNU-2B-17-002_card_4",
           "SNU-2B-17-002_card_5",
-          "SNU-2B-17-002_card_6"
+          "SNU-2B-17-002_card_6",
+          "SNU-2B-17-002_card_7",
+          "SNU-2B-17-002_card_8",
+          "SNU-2B-17-002_card_9"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-003",
-      "displaySentence": "어머니를 공항까지 모셔다 드렸어요.",
+      "displaySentence": "부엌에서 물을 가져다 주세요.",
       "tokens": [
         [
           "SNU-2B-17-003_card_0",
-          "어머니"
+          "부엌"
         ],
         [
           "SNU-2B-17-003_card_1",
-          "를"
+          "에서"
         ],
         [
           "SNU-2B-17-003_card_2",
-          "공항"
+          "물"
         ],
         [
           "SNU-2B-17-003_card_3",
-          "까지"
+          "을"
         ],
         [
           "SNU-2B-17-003_card_4",
-          "모셔다"
+          "가져다"
         ],
         [
           "SNU-2B-17-003_card_5",
-          "드렸어요"
+          "주세요"
         ]
       ],
       "acceptedOrders": [
@@ -130,19 +163,20 @@
           "SNU-2B-17-003_card_5"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-004",
-      "displaySentence": "아이를 학교에 데려다 주고 왔어요.",
+      "displaySentence": "동생을 학교에 데려다 주고 왔어요.",
       "tokens": [
         [
           "SNU-2B-17-004_card_0",
-          "아이"
+          "동생"
         ],
         [
           "SNU-2B-17-004_card_1",
-          "를"
+          "을"
         ],
         [
           "SNU-2B-17-004_card_2",
@@ -176,263 +210,250 @@
           "SNU-2B-17-004_card_6"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-005",
-      "displaySentence": "여기 물 좀 가져다 주세요.",
+      "displaySentence": "늦게 일어나서 비행기를 놓칠 뻔했어요.",
       "tokens": [
         [
           "SNU-2B-17-005_card_0",
-          "여기"
-        ],
-        [
-          "SNU-2B-17-005_card_1",
-          "물"
-        ],
-        [
-          "SNU-2B-17-005_card_2",
-          "좀"
-        ],
-        [
-          "SNU-2B-17-005_card_3",
-          "가져다"
-        ],
-        [
-          "SNU-2B-17-005_card_4",
-          "주세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-005_card_0",
-          "SNU-2B-17-005_card_1",
-          "SNU-2B-17-005_card_2",
-          "SNU-2B-17-005_card_3",
-          "SNU-2B-17-005_card_4"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-006",
-      "displaySentence": "미안하지만 집에 올 때 신문 좀 사다 주세요.",
-      "tokens": [
-        [
-          "SNU-2B-17-006_card_0",
-          "미안하지만"
-        ],
-        [
-          "SNU-2B-17-006_card_1",
-          "집"
-        ],
-        [
-          "SNU-2B-17-006_card_2",
-          "에"
-        ],
-        [
-          "SNU-2B-17-006_card_3",
-          "올"
-        ],
-        [
-          "SNU-2B-17-006_card_4",
-          "때"
-        ],
-        [
-          "SNU-2B-17-006_card_5",
-          "신문"
-        ],
-        [
-          "SNU-2B-17-006_card_6",
-          "좀"
-        ],
-        [
-          "SNU-2B-17-006_card_7",
-          "사다"
-        ],
-        [
-          "SNU-2B-17-006_card_8",
-          "주세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-006_card_0",
-          "SNU-2B-17-006_card_1",
-          "SNU-2B-17-006_card_2",
-          "SNU-2B-17-006_card_3",
-          "SNU-2B-17-006_card_4",
-          "SNU-2B-17-006_card_5",
-          "SNU-2B-17-006_card_6",
-          "SNU-2B-17-006_card_7",
-          "SNU-2B-17-006_card_8"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-007",
-      "displaySentence": "오늘 다른 때보다 늦게 왔네요.",
-      "tokens": [
-        [
-          "SNU-2B-17-007_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-2B-17-007_card_1",
-          "다른"
-        ],
-        [
-          "SNU-2B-17-007_card_2",
-          "때"
-        ],
-        [
-          "SNU-2B-17-007_card_3",
-          "보다"
-        ],
-        [
-          "SNU-2B-17-007_card_4",
           "늦게"
         ],
         [
-          "SNU-2B-17-007_card_5",
-          "왔네요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-007_card_0",
-          "SNU-2B-17-007_card_1",
-          "SNU-2B-17-007_card_2",
-          "SNU-2B-17-007_card_3",
-          "SNU-2B-17-007_card_4",
-          "SNU-2B-17-007_card_5"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-008",
-      "displaySentence": "네, 길이 막혀서 지각할 뻔했어요.",
-      "tokens": [
-        [
-          "SNU-2B-17-008_card_0",
-          "네"
-        ],
-        [
-          "SNU-2B-17-008_card_1",
-          "길"
-        ],
-        [
-          "SNU-2B-17-008_card_2",
-          "이"
-        ],
-        [
-          "SNU-2B-17-008_card_3",
-          "막혀서"
-        ],
-        [
-          "SNU-2B-17-008_card_4",
-          "지각할"
-        ],
-        [
-          "SNU-2B-17-008_card_5",
-          "뻔했어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-008_card_0",
-          "SNU-2B-17-008_card_1",
-          "SNU-2B-17-008_card_2",
-          "SNU-2B-17-008_card_3",
-          "SNU-2B-17-008_card_4",
-          "SNU-2B-17-008_card_5"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-009",
-      "displaySentence": "학교에 오다가 사고가 날 뻔했어요.",
-      "tokens": [
-        [
-          "SNU-2B-17-009_card_0",
-          "학교"
-        ],
-        [
-          "SNU-2B-17-009_card_1",
-          "에"
-        ],
-        [
-          "SNU-2B-17-009_card_2",
-          "오다"
-        ],
-        [
-          "SNU-2B-17-009_card_3",
-          "가"
-        ],
-        [
-          "SNU-2B-17-009_card_4",
-          "사고"
-        ],
-        [
-          "SNU-2B-17-009_card_5",
-          "가"
-        ],
-        [
-          "SNU-2B-17-009_card_6",
-          "날"
-        ],
-        [
-          "SNU-2B-17-009_card_7",
-          "뻔했어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-009_card_0",
-          "SNU-2B-17-009_card_1",
-          "SNU-2B-17-009_card_2",
-          "SNU-2B-17-009_card_3",
-          "SNU-2B-17-009_card_4",
-          "SNU-2B-17-009_card_5",
-          "SNU-2B-17-009_card_6",
-          "SNU-2B-17-009_card_7"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-010",
-      "displaySentence": "늦게 일어나서 약속에 늦을 뻔했어요.",
-      "tokens": [
-        [
-          "SNU-2B-17-010_card_0",
-          "늦게"
-        ],
-        [
-          "SNU-2B-17-010_card_1",
+          "SNU-2B-17-005_card_1",
           "일어나서"
         ],
         [
-          "SNU-2B-17-010_card_2",
+          "SNU-2B-17-005_card_2",
+          "비행기"
+        ],
+        [
+          "SNU-2B-17-005_card_3",
+          "를"
+        ],
+        [
+          "SNU-2B-17-005_card_4",
+          "놓칠"
+        ],
+        [
+          "SNU-2B-17-005_card_5",
+          "뻔했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-17-005_card_0",
+          "SNU-2B-17-005_card_1",
+          "SNU-2B-17-005_card_2",
+          "SNU-2B-17-005_card_3",
+          "SNU-2B-17-005_card_4",
+          "SNU-2B-17-005_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-17-006",
+      "displaySentence": "길이 막혀서 약속 시간에 늦을 뻔했어요.",
+      "tokens": [
+        [
+          "SNU-2B-17-006_card_0",
+          "길"
+        ],
+        [
+          "SNU-2B-17-006_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-17-006_card_2",
+          "막혀서"
+        ],
+        [
+          "SNU-2B-17-006_card_3",
           "약속"
         ],
         [
-          "SNU-2B-17-010_card_3",
+          "SNU-2B-17-006_card_4",
+          "시간"
+        ],
+        [
+          "SNU-2B-17-006_card_5",
           "에"
         ],
         [
-          "SNU-2B-17-010_card_4",
-          "늦"
+          "SNU-2B-17-006_card_6",
+          "늦을"
         ],
         [
-          "SNU-2B-17-010_card_5",
+          "SNU-2B-17-006_card_7",
+          "뻔했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-17-006_card_0",
+          "SNU-2B-17-006_card_1",
+          "SNU-2B-17-006_card_2",
+          "SNU-2B-17-006_card_3",
+          "SNU-2B-17-006_card_4",
+          "SNU-2B-17-006_card_5",
+          "SNU-2B-17-006_card_6",
+          "SNU-2B-17-006_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-17-007",
+      "displaySentence": "계단에서 미끄러져서 넘어질 뻔했어요.",
+      "tokens": [
+        [
+          "SNU-2B-17-007_card_0",
+          "계단"
+        ],
+        [
+          "SNU-2B-17-007_card_1",
+          "에서"
+        ],
+        [
+          "SNU-2B-17-007_card_2",
+          "미끄러져서"
+        ],
+        [
+          "SNU-2B-17-007_card_3",
+          "넘어질"
+        ],
+        [
+          "SNU-2B-17-007_card_4",
+          "뻔했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-17-007_card_0",
+          "SNU-2B-17-007_card_1",
+          "SNU-2B-17-007_card_2",
+          "SNU-2B-17-007_card_3",
+          "SNU-2B-17-007_card_4"
+        ]
+      ],
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-17-008",
+      "displaySentence": "휴대 전화를 떨어뜨릴 뻔했어요.",
+      "tokens": [
+        [
+          "SNU-2B-17-008_card_0",
+          "휴대"
+        ],
+        [
+          "SNU-2B-17-008_card_1",
+          "전화"
+        ],
+        [
+          "SNU-2B-17-008_card_2",
+          "를"
+        ],
+        [
+          "SNU-2B-17-008_card_3",
+          "떨어뜨릴"
+        ],
+        [
+          "SNU-2B-17-008_card_4",
+          "뻔했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-17-008_card_0",
+          "SNU-2B-17-008_card_1",
+          "SNU-2B-17-008_card_2",
+          "SNU-2B-17-008_card_3",
+          "SNU-2B-17-008_card_4"
+        ]
+      ],
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-17-009",
+      "displaySentence": "지하철에서 가방을 놓고 내릴 뻔했어요.",
+      "tokens": [
+        [
+          "SNU-2B-17-009_card_0",
+          "지하철"
+        ],
+        [
+          "SNU-2B-17-009_card_1",
+          "에서"
+        ],
+        [
+          "SNU-2B-17-009_card_2",
+          "가방"
+        ],
+        [
+          "SNU-2B-17-009_card_3",
           "을"
         ],
         [
-          "SNU-2B-17-010_card_6",
+          "SNU-2B-17-009_card_4",
+          "놓고"
+        ],
+        [
+          "SNU-2B-17-009_card_5",
+          "내릴"
+        ],
+        [
+          "SNU-2B-17-009_card_6",
+          "뻔했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-17-009_card_0",
+          "SNU-2B-17-009_card_1",
+          "SNU-2B-17-009_card_2",
+          "SNU-2B-17-009_card_3",
+          "SNU-2B-17-009_card_4",
+          "SNU-2B-17-009_card_5",
+          "SNU-2B-17-009_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-17-010",
+      "displaySentence": "길에서 자동차와 부딪힐 뻔했어요.",
+      "tokens": [
+        [
+          "SNU-2B-17-010_card_0",
+          "길"
+        ],
+        [
+          "SNU-2B-17-010_card_1",
+          "에서"
+        ],
+        [
+          "SNU-2B-17-010_card_2",
+          "자동차"
+        ],
+        [
+          "SNU-2B-17-010_card_3",
+          "와"
+        ],
+        [
+          "SNU-2B-17-010_card_4",
+          "부딪힐"
+        ],
+        [
+          "SNU-2B-17-010_card_5",
           "뻔했어요"
         ]
       ],
@@ -443,35 +464,47 @@
           "SNU-2B-17-010_card_2",
           "SNU-2B-17-010_card_3",
           "SNU-2B-17-010_card_4",
-          "SNU-2B-17-010_card_5",
-          "SNU-2B-17-010_card_6"
+          "SNU-2B-17-010_card_5"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-011",
-      "displaySentence": "새로 산 가방을 잃어버렸어요.",
+      "displaySentence": "창문이 열려 있어서 바람이 많이 들어와요.",
       "tokens": [
         [
           "SNU-2B-17-011_card_0",
-          "새로"
+          "창문"
         ],
         [
           "SNU-2B-17-011_card_1",
-          "산"
+          "이"
         ],
         [
           "SNU-2B-17-011_card_2",
-          "가방"
+          "열려"
         ],
         [
           "SNU-2B-17-011_card_3",
-          "을"
+          "있어서"
         ],
         [
           "SNU-2B-17-011_card_4",
-          "잃어버렸어요"
+          "바람"
+        ],
+        [
+          "SNU-2B-17-011_card_5",
+          "이"
+        ],
+        [
+          "SNU-2B-17-011_card_6",
+          "많이"
+        ],
+        [
+          "SNU-2B-17-011_card_7",
+          "들어와요"
         ]
       ],
       "acceptedOrders": [
@@ -480,34 +513,50 @@
           "SNU-2B-17-011_card_1",
           "SNU-2B-17-011_card_2",
           "SNU-2B-17-011_card_3",
-          "SNU-2B-17-011_card_4"
+          "SNU-2B-17-011_card_4",
+          "SNU-2B-17-011_card_5",
+          "SNU-2B-17-011_card_6",
+          "SNU-2B-17-011_card_7"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-012",
-      "displaySentence": "아, 그 까만 가방요?",
+      "displaySentence": "교실 문이 닫혀 있어서 안으로 들어갈 수 없어요.",
       "tokens": [
         [
           "SNU-2B-17-012_card_0",
-          "아"
+          "교실"
         ],
         [
           "SNU-2B-17-012_card_1",
-          "그"
+          "문"
         ],
         [
           "SNU-2B-17-012_card_2",
-          "까"
+          "이"
         ],
         [
           "SNU-2B-17-012_card_3",
-          "만"
+          "닫혀"
         ],
         [
           "SNU-2B-17-012_card_4",
-          "가방요"
+          "있어서"
+        ],
+        [
+          "SNU-2B-17-012_card_5",
+          "안"
+        ],
+        [
+          "SNU-2B-17-012_card_6",
+          "으로"
+        ],
+        [
+          "SNU-2B-17-012_card_7",
+          "들어갈 수 없어요"
         ]
       ],
       "acceptedOrders": [
@@ -516,42 +565,46 @@
           "SNU-2B-17-012_card_1",
           "SNU-2B-17-012_card_2",
           "SNU-2B-17-012_card_3",
-          "SNU-2B-17-012_card_4"
+          "SNU-2B-17-012_card_4",
+          "SNU-2B-17-012_card_5",
+          "SNU-2B-17-012_card_6",
+          "SNU-2B-17-012_card_7"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-013",
-      "displaySentence": "한국 사람의 머리 색깔은 까매요.",
+      "displaySentence": "벽에 여행 사진이 걸려 있어요.",
       "tokens": [
         [
           "SNU-2B-17-013_card_0",
-          "한국"
+          "벽"
         ],
         [
           "SNU-2B-17-013_card_1",
-          "사람"
+          "에"
         ],
         [
           "SNU-2B-17-013_card_2",
-          "의"
+          "여행"
         ],
         [
           "SNU-2B-17-013_card_3",
-          "머리"
+          "사진"
         ],
         [
           "SNU-2B-17-013_card_4",
-          "색깔"
+          "이"
         ],
         [
           "SNU-2B-17-013_card_5",
-          "은"
+          "걸려"
         ],
         [
           "SNU-2B-17-013_card_6",
-          "까매요"
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -565,35 +618,36 @@
           "SNU-2B-17-013_card_6"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-014",
-      "displaySentence": "저는 창피하면 얼굴이 빨개져요.",
+      "displaySentence": "가방에 이름표가 붙어 있어요.",
       "tokens": [
         [
           "SNU-2B-17-014_card_0",
-          "저"
+          "가방"
         ],
         [
           "SNU-2B-17-014_card_1",
-          "는"
+          "에"
         ],
         [
           "SNU-2B-17-014_card_2",
-          "창피하면"
+          "이름표"
         ],
         [
           "SNU-2B-17-014_card_3",
-          "얼굴"
+          "가"
         ],
         [
           "SNU-2B-17-014_card_4",
-          "이"
+          "붙어"
         ],
         [
           "SNU-2B-17-014_card_5",
-          "빨개져요"
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -606,55 +660,44 @@
           "SNU-2B-17-014_card_5"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-015",
-      "displaySentence": "하얀 눈이 내리는 것을 보면 기분이 좋아요.",
+      "displaySentence": "분실물 센터에 까만 가방이 놓여 있어요.",
       "tokens": [
         [
           "SNU-2B-17-015_card_0",
-          "하얀"
+          "분실물"
         ],
         [
           "SNU-2B-17-015_card_1",
-          "눈"
+          "센터"
         ],
         [
           "SNU-2B-17-015_card_2",
-          "이"
+          "에"
         ],
         [
           "SNU-2B-17-015_card_3",
-          "내리"
+          "까만"
         ],
         [
           "SNU-2B-17-015_card_4",
-          "는"
+          "가방"
         ],
         [
           "SNU-2B-17-015_card_5",
-          "것"
-        ],
-        [
-          "SNU-2B-17-015_card_6",
-          "을"
-        ],
-        [
-          "SNU-2B-17-015_card_7",
-          "보면"
-        ],
-        [
-          "SNU-2B-17-015_card_8",
-          "기분"
-        ],
-        [
-          "SNU-2B-17-015_card_9",
           "이"
         ],
         [
-          "SNU-2B-17-015_card_10",
-          "좋아요"
+          "SNU-2B-17-015_card_6",
+          "놓여"
+        ],
+        [
+          "SNU-2B-17-015_card_7",
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -666,79 +709,107 @@
           "SNU-2B-17-015_card_4",
           "SNU-2B-17-015_card_5",
           "SNU-2B-17-015_card_6",
-          "SNU-2B-17-015_card_7",
-          "SNU-2B-17-015_card_8",
-          "SNU-2B-17-015_card_9",
-          "SNU-2B-17-015_card_10"
+          "SNU-2B-17-015_card_7"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-016",
-      "displaySentence": "저기 걸려 있는 옷 좀 보여 주세요.",
+      "displaySentence": "파란색 구두가 의자 밑에 놓여 있어요.",
       "tokens": [
         [
           "SNU-2B-17-016_card_0",
-          "저기"
-        ],
-        [
-          "SNU-2B-17-016_card_1",
-          "걸려"
-        ],
-        [
-          "SNU-2B-17-016_card_2",
-          "있는"
-        ],
-        [
-          "SNU-2B-17-016_card_3",
-          "옷"
-        ],
-        [
-          "SNU-2B-17-016_card_4",
-          "좀"
-        ],
-        [
-          "SNU-2B-17-016_card_5",
-          "보여"
-        ],
-        [
-          "SNU-2B-17-016_card_6",
-          "주세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-016_card_0",
-          "SNU-2B-17-016_card_1",
-          "SNU-2B-17-016_card_2",
-          "SNU-2B-17-016_card_3",
-          "SNU-2B-17-016_card_4",
-          "SNU-2B-17-016_card_5",
-          "SNU-2B-17-016_card_6"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-017",
-      "displaySentence": "네, 저 파란색 원피스요?",
-      "tokens": [
-        [
-          "SNU-2B-17-017_card_0",
-          "네"
-        ],
-        [
-          "SNU-2B-17-017_card_1",
-          "저"
-        ],
-        [
-          "SNU-2B-17-017_card_2",
           "파란색"
         ],
         [
+          "SNU-2B-17-016_card_1",
+          "구두"
+        ],
+        [
+          "SNU-2B-17-016_card_2",
+          "가"
+        ],
+        [
+          "SNU-2B-17-016_card_3",
+          "의자"
+        ],
+        [
+          "SNU-2B-17-016_card_4",
+          "밑"
+        ],
+        [
+          "SNU-2B-17-016_card_5",
+          "에"
+        ],
+        [
+          "SNU-2B-17-016_card_6",
+          "놓여"
+        ],
+        [
+          "SNU-2B-17-016_card_7",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-17-016_card_0",
+          "SNU-2B-17-016_card_1",
+          "SNU-2B-17-016_card_2",
+          "SNU-2B-17-016_card_3",
+          "SNU-2B-17-016_card_4",
+          "SNU-2B-17-016_card_5",
+          "SNU-2B-17-016_card_6",
+          "SNU-2B-17-016_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-17-017",
+      "displaySentence": "하얀 모자를 쓴 사람이 저쪽에 서 있어요.",
+      "tokens": [
+        [
+          "SNU-2B-17-017_card_0",
+          "하얀"
+        ],
+        [
+          "SNU-2B-17-017_card_1",
+          "모자"
+        ],
+        [
+          "SNU-2B-17-017_card_2",
+          "를"
+        ],
+        [
           "SNU-2B-17-017_card_3",
-          "원피스요"
+          "쓴"
+        ],
+        [
+          "SNU-2B-17-017_card_4",
+          "사람"
+        ],
+        [
+          "SNU-2B-17-017_card_5",
+          "이"
+        ],
+        [
+          "SNU-2B-17-017_card_6",
+          "저쪽"
+        ],
+        [
+          "SNU-2B-17-017_card_7",
+          "에"
+        ],
+        [
+          "SNU-2B-17-017_card_8",
+          "서"
+        ],
+        [
+          "SNU-2B-17-017_card_9",
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -746,42 +817,57 @@
           "SNU-2B-17-017_card_0",
           "SNU-2B-17-017_card_1",
           "SNU-2B-17-017_card_2",
-          "SNU-2B-17-017_card_3"
+          "SNU-2B-17-017_card_3",
+          "SNU-2B-17-017_card_4",
+          "SNU-2B-17-017_card_5",
+          "SNU-2B-17-017_card_6",
+          "SNU-2B-17-017_card_7",
+          "SNU-2B-17-017_card_8",
+          "SNU-2B-17-017_card_9"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-018",
-      "displaySentence": "저기 서 있는 사람이 누구예요?",
+      "displaySentence": "빨간색 옷을 입으니까 얼굴이 더 하얘 보여요.",
       "tokens": [
         [
           "SNU-2B-17-018_card_0",
-          "저기"
+          "빨간색"
         ],
         [
           "SNU-2B-17-018_card_1",
-          "서"
+          "옷"
         ],
         [
           "SNU-2B-17-018_card_2",
-          "있는"
+          "을"
         ],
         [
           "SNU-2B-17-018_card_3",
-          "사람"
+          "입으니까"
         ],
         [
           "SNU-2B-17-018_card_4",
-          "이"
+          "얼굴"
         ],
         [
           "SNU-2B-17-018_card_5",
-          "누구"
+          "이"
         ],
         [
           "SNU-2B-17-018_card_6",
-          "예요"
+          "더"
+        ],
+        [
+          "SNU-2B-17-018_card_7",
+          "하얘"
+        ],
+        [
+          "SNU-2B-17-018_card_8",
+          "보여요"
         ]
       ],
       "acceptedOrders": [
@@ -792,18 +878,21 @@
           "SNU-2B-17-018_card_3",
           "SNU-2B-17-018_card_4",
           "SNU-2B-17-018_card_5",
-          "SNU-2B-17-018_card_6"
+          "SNU-2B-17-018_card_6",
+          "SNU-2B-17-018_card_7",
+          "SNU-2B-17-018_card_8"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-17-019",
-      "displaySentence": "학생들이 교실에 앉아 있어요.",
+      "displaySentence": "노란색이 잘 어울려서 재킷을 하나 샀어요.",
       "tokens": [
         [
           "SNU-2B-17-019_card_0",
-          "학생들"
+          "노란색"
         ],
         [
           "SNU-2B-17-019_card_1",
@@ -811,237 +900,100 @@
         ],
         [
           "SNU-2B-17-019_card_2",
-          "교실"
-        ],
-        [
-          "SNU-2B-17-019_card_3",
-          "에"
-        ],
-        [
-          "SNU-2B-17-019_card_4",
-          "앉아"
-        ],
-        [
-          "SNU-2B-17-019_card_5",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-019_card_0",
-          "SNU-2B-17-019_card_1",
-          "SNU-2B-17-019_card_2",
-          "SNU-2B-17-019_card_3",
-          "SNU-2B-17-019_card_4",
-          "SNU-2B-17-019_card_5"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-020",
-      "displaySentence": "창문이 열려 있어요.",
-      "tokens": [
-        [
-          "SNU-2B-17-020_card_0",
-          "창문"
-        ],
-        [
-          "SNU-2B-17-020_card_1",
-          "이"
-        ],
-        [
-          "SNU-2B-17-020_card_2",
-          "열려"
-        ],
-        [
-          "SNU-2B-17-020_card_3",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-020_card_0",
-          "SNU-2B-17-020_card_1",
-          "SNU-2B-17-020_card_2",
-          "SNU-2B-17-020_card_3"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-021",
-      "displaySentence": "오늘은 다른 때보다 늦게 왔네요.",
-      "tokens": [
-        [
-          "SNU-2B-17-021_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-2B-17-021_card_1",
-          "은"
-        ],
-        [
-          "SNU-2B-17-021_card_2",
-          "다른"
-        ],
-        [
-          "SNU-2B-17-021_card_3",
-          "때"
-        ],
-        [
-          "SNU-2B-17-021_card_4",
-          "보다"
-        ],
-        [
-          "SNU-2B-17-021_card_5",
-          "늦게"
-        ],
-        [
-          "SNU-2B-17-021_card_6",
-          "왔네요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-021_card_0",
-          "SNU-2B-17-021_card_1",
-          "SNU-2B-17-021_card_2",
-          "SNU-2B-17-021_card_3",
-          "SNU-2B-17-021_card_4",
-          "SNU-2B-17-021_card_5",
-          "SNU-2B-17-021_card_6"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-022",
-      "displaySentence": "오늘 부모님이 고향으로 돌아가셔서 공항에 모셔다 드리고 왔어요.",
-      "tokens": [
-        [
-          "SNU-2B-17-022_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-2B-17-022_card_1",
-          "부모님"
-        ],
-        [
-          "SNU-2B-17-022_card_2",
-          "이"
-        ],
-        [
-          "SNU-2B-17-022_card_3",
-          "고향"
-        ],
-        [
-          "SNU-2B-17-022_card_4",
-          "으로"
-        ],
-        [
-          "SNU-2B-17-022_card_5",
-          "돌아가셔서"
-        ],
-        [
-          "SNU-2B-17-022_card_6",
-          "공항"
-        ],
-        [
-          "SNU-2B-17-022_card_7",
-          "에"
-        ],
-        [
-          "SNU-2B-17-022_card_8",
-          "모셔다"
-        ],
-        [
-          "SNU-2B-17-022_card_9",
-          "드리고"
-        ],
-        [
-          "SNU-2B-17-022_card_10",
-          "왔어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-17-022_card_0",
-          "SNU-2B-17-022_card_1",
-          "SNU-2B-17-022_card_2",
-          "SNU-2B-17-022_card_3",
-          "SNU-2B-17-022_card_4",
-          "SNU-2B-17-022_card_5",
-          "SNU-2B-17-022_card_6",
-          "SNU-2B-17-022_card_7",
-          "SNU-2B-17-022_card_8",
-          "SNU-2B-17-022_card_9",
-          "SNU-2B-17-022_card_10"
-        ]
-      ],
-      "note": "서울대 2B 17과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-17-023",
-      "displaySentence": "잘 모셔다 드렸어요?",
-      "tokens": [
-        [
-          "SNU-2B-17-023_card_0",
           "잘"
         ],
         [
-          "SNU-2B-17-023_card_1",
-          "모셔다"
+          "SNU-2B-17-019_card_3",
+          "어울려서"
         ],
         [
-          "SNU-2B-17-023_card_2",
-          "드렸어요"
+          "SNU-2B-17-019_card_4",
+          "재킷"
+        ],
+        [
+          "SNU-2B-17-019_card_5",
+          "을"
+        ],
+        [
+          "SNU-2B-17-019_card_6",
+          "하나"
+        ],
+        [
+          "SNU-2B-17-019_card_7",
+          "샀어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-17-023_card_0",
-          "SNU-2B-17-023_card_1",
-          "SNU-2B-17-023_card_2"
+          "SNU-2B-17-019_card_0",
+          "SNU-2B-17-019_card_1",
+          "SNU-2B-17-019_card_2",
+          "SNU-2B-17-019_card_3",
+          "SNU-2B-17-019_card_4",
+          "SNU-2B-17-019_card_5",
+          "SNU-2B-17-019_card_6",
+          "SNU-2B-17-019_card_7"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
-      "id": "SNU-2B-17-024",
-      "displaySentence": "그런데 비행기를 놓칠 뻔했어요.",
+      "id": "SNU-2B-17-020",
+      "displaySentence": "사고가 나서 길 한가운데 차가 멈춰 있어요.",
       "tokens": [
         [
-          "SNU-2B-17-024_card_0",
-          "그런데"
+          "SNU-2B-17-020_card_0",
+          "사고"
         ],
         [
-          "SNU-2B-17-024_card_1",
-          "비행기"
+          "SNU-2B-17-020_card_1",
+          "가"
         ],
         [
-          "SNU-2B-17-024_card_2",
-          "를"
+          "SNU-2B-17-020_card_2",
+          "나서"
         ],
         [
-          "SNU-2B-17-024_card_3",
-          "놓칠"
+          "SNU-2B-17-020_card_3",
+          "길"
         ],
         [
-          "SNU-2B-17-024_card_4",
-          "뻔했어요"
+          "SNU-2B-17-020_card_4",
+          "한가운데"
+        ],
+        [
+          "SNU-2B-17-020_card_5",
+          "차"
+        ],
+        [
+          "SNU-2B-17-020_card_6",
+          "가"
+        ],
+        [
+          "SNU-2B-17-020_card_7",
+          "멈춰"
+        ],
+        [
+          "SNU-2B-17-020_card_8",
+          "있어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-17-024_card_0",
-          "SNU-2B-17-024_card_1",
-          "SNU-2B-17-024_card_2",
-          "SNU-2B-17-024_card_3",
-          "SNU-2B-17-024_card_4"
+          "SNU-2B-17-020_card_0",
+          "SNU-2B-17-020_card_1",
+          "SNU-2B-17-020_card_2",
+          "SNU-2B-17-020_card_3",
+          "SNU-2B-17-020_card_4",
+          "SNU-2B-17-020_card_5",
+          "SNU-2B-17-020_card_6",
+          "SNU-2B-17-020_card_7",
+          "SNU-2B-17-020_card_8"
         ]
       ],
-      "note": "서울대 2B 17과 교재 기반"
+      "note": "SNU 2B lesson 17 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     }
   ]
 }

@@ -1,122 +1,125 @@
 {
   "book": "2A",
   "lesson": 7,
-  "source": "서울대 한국어 2A 학생 읽기 자료 · 7과 어휘/문법/예문/말하기 기반",
-  "questionCount": 23,
+  "source": "서울대 한국어 2A 학생책·워크북 7과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2A-07-001",
-      "displaySentence": "나나 씨한테 무슨 선물이 좋을까요?",
+      "displaySentence": "한옥마을은 지하철역에서 가까울 것 같아요.",
       "tokens": [
         [
           "SNU-2A-07-001_card_0",
-          "나나 씨"
+          "한옥마을"
         ],
         [
           "SNU-2A-07-001_card_1",
-          "한테"
-        ],
-        [
-          "SNU-2A-07-001_card_2",
-          "무슨"
-        ],
-        [
-          "SNU-2A-07-001_card_3",
-          "선물"
-        ],
-        [
-          "SNU-2A-07-001_card_4",
-          "이"
-        ],
-        [
-          "SNU-2A-07-001_card_5",
-          "좋을까요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-001_card_0",
-          "SNU-2A-07-001_card_1",
-          "SNU-2A-07-001_card_2",
-          "SNU-2A-07-001_card_3",
-          "SNU-2A-07-001_card_4",
-          "SNU-2A-07-001_card_5"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-002",
-      "displaySentence": "책이 좋을 것 같아요.",
-      "tokens": [
-        [
-          "SNU-2A-07-002_card_0",
-          "책"
-        ],
-        [
-          "SNU-2A-07-002_card_1",
-          "이"
-        ],
-        [
-          "SNU-2A-07-002_card_2",
-          "좋"
-        ],
-        [
-          "SNU-2A-07-002_card_3",
-          "을"
-        ],
-        [
-          "SNU-2A-07-002_card_4",
-          "것"
-        ],
-        [
-          "SNU-2A-07-002_card_5",
-          "같아요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-002_card_0",
-          "SNU-2A-07-002_card_1",
-          "SNU-2A-07-002_card_2",
-          "SNU-2A-07-002_card_3",
-          "SNU-2A-07-002_card_4",
-          "SNU-2A-07-002_card_5"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-003",
-      "displaySentence": "이 옷은 좀 클 것 같아요.",
-      "tokens": [
-        [
-          "SNU-2A-07-003_card_0",
-          "이"
-        ],
-        [
-          "SNU-2A-07-003_card_1",
-          "옷"
-        ],
-        [
-          "SNU-2A-07-003_card_2",
           "은"
         ],
         [
+          "SNU-2A-07-001_card_2",
+          "지하철역"
+        ],
+        [
+          "SNU-2A-07-001_card_3",
+          "에서"
+        ],
+        [
+          "SNU-2A-07-001_card_4",
+          "가까울 것 같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-001_card_0",
+          "SNU-2A-07-001_card_1",
+          "SNU-2A-07-001_card_2",
+          "SNU-2A-07-001_card_3",
+          "SNU-2A-07-001_card_4"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-002",
+      "displaySentence": "퇴근 시간에는 길이 많이 막힐 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2A-07-002_card_0",
+          "퇴근"
+        ],
+        [
+          "SNU-2A-07-002_card_1",
+          "시간에"
+        ],
+        [
+          "SNU-2A-07-002_card_2",
+          "는"
+        ],
+        [
+          "SNU-2A-07-002_card_3",
+          "길"
+        ],
+        [
+          "SNU-2A-07-002_card_4",
+          "이"
+        ],
+        [
+          "SNU-2A-07-002_card_5",
+          "많이"
+        ],
+        [
+          "SNU-2A-07-002_card_6",
+          "막힐 것 같아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-002_card_0",
+          "SNU-2A-07-002_card_1",
+          "SNU-2A-07-002_card_2",
+          "SNU-2A-07-002_card_3",
+          "SNU-2A-07-002_card_4",
+          "SNU-2A-07-002_card_5",
+          "SNU-2A-07-002_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-003",
+      "displaySentence": "오늘은 차가 많아서 늦게 도착할 것 같아요.",
+      "tokens": [
+        [
+          "SNU-2A-07-003_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-2A-07-003_card_1",
+          "은"
+        ],
+        [
+          "SNU-2A-07-003_card_2",
+          "차"
+        ],
+        [
           "SNU-2A-07-003_card_3",
-          "좀"
+          "가"
         ],
         [
           "SNU-2A-07-003_card_4",
-          "클"
+          "많아서"
         ],
         [
           "SNU-2A-07-003_card_5",
-          "것"
+          "늦게"
         ],
         [
           "SNU-2A-07-003_card_6",
-          "같아요"
+          "도착할 것 같아요"
         ]
       ],
       "acceptedOrders": [
@@ -130,35 +133,36 @@
           "SNU-2A-07-003_card_6"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-004",
-      "displaySentence": "내일 눈이 올 것 같아요.",
+      "displaySentence": "학교 근처는 교통이 편리할 것 같아요.",
       "tokens": [
         [
           "SNU-2A-07-004_card_0",
-          "내일"
+          "학교"
         ],
         [
           "SNU-2A-07-004_card_1",
-          "눈"
+          "근처"
         ],
         [
           "SNU-2A-07-004_card_2",
-          "이"
+          "는"
         ],
         [
           "SNU-2A-07-004_card_3",
-          "올"
+          "교통"
         ],
         [
           "SNU-2A-07-004_card_4",
-          "것"
+          "이"
         ],
         [
           "SNU-2A-07-004_card_5",
-          "같아요"
+          "편리할 것 같아요"
         ]
       ],
       "acceptedOrders": [
@@ -171,96 +175,91 @@
           "SNU-2A-07-004_card_5"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-005",
-      "displaySentence": "이건 맵지 않아서 아이들도 잘 먹을 것 같아요.",
+      "displaySentence": "버스 정류장이 어디에 있는지 아세요?",
       "tokens": [
         [
           "SNU-2A-07-005_card_0",
-          "이건"
+          "버스"
         ],
         [
           "SNU-2A-07-005_card_1",
-          "맵지"
+          "정류장"
         ],
         [
           "SNU-2A-07-005_card_2",
-          "않아서"
-        ],
-        [
-          "SNU-2A-07-005_card_3",
-          "아이들"
-        ],
-        [
-          "SNU-2A-07-005_card_4",
-          "도"
-        ],
-        [
-          "SNU-2A-07-005_card_5",
-          "잘"
-        ],
-        [
-          "SNU-2A-07-005_card_6",
-          "먹"
-        ],
-        [
-          "SNU-2A-07-005_card_7",
-          "을"
-        ],
-        [
-          "SNU-2A-07-005_card_8",
-          "것"
-        ],
-        [
-          "SNU-2A-07-005_card_9",
-          "같아요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-005_card_0",
-          "SNU-2A-07-005_card_1",
-          "SNU-2A-07-005_card_2",
-          "SNU-2A-07-005_card_3",
-          "SNU-2A-07-005_card_4",
-          "SNU-2A-07-005_card_5",
-          "SNU-2A-07-005_card_6",
-          "SNU-2A-07-005_card_7",
-          "SNU-2A-07-005_card_8",
-          "SNU-2A-07-005_card_9"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-006",
-      "displaySentence": "서점이 어디에 있는지 아세요?",
-      "tokens": [
-        [
-          "SNU-2A-07-006_card_0",
-          "서점"
-        ],
-        [
-          "SNU-2A-07-006_card_1",
           "이"
         ],
         [
-          "SNU-2A-07-006_card_2",
+          "SNU-2A-07-005_card_3",
           "어디"
         ],
         [
-          "SNU-2A-07-006_card_3",
+          "SNU-2A-07-005_card_4",
           "에"
         ],
         [
-          "SNU-2A-07-006_card_4",
+          "SNU-2A-07-005_card_5",
           "있는지"
         ],
         [
+          "SNU-2A-07-005_card_6",
+          "아세요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-005_card_0",
+          "SNU-2A-07-005_card_1",
+          "SNU-2A-07-005_card_2",
+          "SNU-2A-07-005_card_3",
+          "SNU-2A-07-005_card_4",
+          "SNU-2A-07-005_card_5",
+          "SNU-2A-07-005_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-006",
+      "displaySentence": "한옥마을까지 몇 번 버스를 타는지 아세요?",
+      "tokens": [
+        [
+          "SNU-2A-07-006_card_0",
+          "한옥마을"
+        ],
+        [
+          "SNU-2A-07-006_card_1",
+          "까지"
+        ],
+        [
+          "SNU-2A-07-006_card_2",
+          "몇"
+        ],
+        [
+          "SNU-2A-07-006_card_3",
+          "번"
+        ],
+        [
+          "SNU-2A-07-006_card_4",
+          "버스"
+        ],
+        [
           "SNU-2A-07-006_card_5",
-          "아세요"
+          "를"
+        ],
+        [
+          "SNU-2A-07-006_card_6",
+          "타는지"
+        ],
+        [
+          "SNU-2A-07-006_card_7",
+          "아세요?"
         ]
       ],
       "acceptedOrders": [
@@ -270,34 +269,45 @@
           "SNU-2A-07-006_card_2",
           "SNU-2A-07-006_card_3",
           "SNU-2A-07-006_card_4",
-          "SNU-2A-07-006_card_5"
+          "SNU-2A-07-006_card_5",
+          "SNU-2A-07-006_card_6",
+          "SNU-2A-07-006_card_7"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-007",
-      "displaySentence": "네, 학생회관 3층에 있어요.",
+      "displaySentence": "어느 역에서 지하철을 갈아타는지 모르겠어요.",
       "tokens": [
         [
           "SNU-2A-07-007_card_0",
-          "네"
+          "어느"
         ],
         [
           "SNU-2A-07-007_card_1",
-          "학생회관"
+          "역"
         ],
         [
           "SNU-2A-07-007_card_2",
-          "3층"
+          "에서"
         ],
         [
           "SNU-2A-07-007_card_3",
-          "에"
+          "지하철"
         ],
         [
           "SNU-2A-07-007_card_4",
-          "있어요"
+          "을"
+        ],
+        [
+          "SNU-2A-07-007_card_5",
+          "갈아타는지"
+        ],
+        [
+          "SNU-2A-07-007_card_6",
+          "모르겠어요"
         ]
       ],
       "acceptedOrders": [
@@ -306,42 +316,45 @@
           "SNU-2A-07-007_card_1",
           "SNU-2A-07-007_card_2",
           "SNU-2A-07-007_card_3",
-          "SNU-2A-07-007_card_4"
+          "SNU-2A-07-007_card_4",
+          "SNU-2A-07-007_card_5",
+          "SNU-2A-07-007_card_6"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-008",
-      "displaySentence": "나나 씨가 어떤 음식을 좋아하는지 아세요?",
+      "displaySentence": "이 길이 큰길인지 골목인지 잘 모르겠어요.",
       "tokens": [
         [
           "SNU-2A-07-008_card_0",
-          "나나 씨"
+          "이"
         ],
         [
           "SNU-2A-07-008_card_1",
-          "가"
+          "길"
         ],
         [
           "SNU-2A-07-008_card_2",
-          "어떤"
+          "이"
         ],
         [
           "SNU-2A-07-008_card_3",
-          "음식"
+          "큰길인지"
         ],
         [
           "SNU-2A-07-008_card_4",
-          "을"
+          "골목인지"
         ],
         [
           "SNU-2A-07-008_card_5",
-          "좋아하는지"
+          "잘"
         ],
         [
           "SNU-2A-07-008_card_6",
-          "아세요"
+          "모르겠어요"
         ]
       ],
       "acceptedOrders": [
@@ -355,39 +368,32 @@
           "SNU-2A-07-008_card_6"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-009",
-      "displaySentence": "유진 씨가 무슨 책을 읽는지 아세요?",
+      "displaySentence": "병원이 우체국 맞은편인지 아세요?",
       "tokens": [
         [
           "SNU-2A-07-009_card_0",
-          "유진 씨"
+          "병원"
         ],
         [
           "SNU-2A-07-009_card_1",
-          "가"
+          "이"
         ],
         [
           "SNU-2A-07-009_card_2",
-          "무슨"
+          "우체국"
         ],
         [
           "SNU-2A-07-009_card_3",
-          "책"
+          "맞은편인지"
         ],
         [
           "SNU-2A-07-009_card_4",
-          "을"
-        ],
-        [
-          "SNU-2A-07-009_card_5",
-          "읽는지"
-        ],
-        [
-          "SNU-2A-07-009_card_6",
-          "아세요"
+          "아세요?"
         ]
       ],
       "acceptedOrders": [
@@ -396,349 +402,384 @@
           "SNU-2A-07-009_card_1",
           "SNU-2A-07-009_card_2",
           "SNU-2A-07-009_card_3",
-          "SNU-2A-07-009_card_4",
-          "SNU-2A-07-009_card_5",
-          "SNU-2A-07-009_card_6"
+          "SNU-2A-07-009_card_4"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-010",
-      "displaySentence": "스티븐 씨가 어디 갔는지 잘 모르겠어요.",
+      "displaySentence": "한옥마을에 가려면 4번 출구로 나가세요.",
       "tokens": [
         [
           "SNU-2A-07-010_card_0",
-          "스티븐 씨"
-        ],
-        [
-          "SNU-2A-07-010_card_1",
-          "가"
-        ],
-        [
-          "SNU-2A-07-010_card_2",
-          "어디"
-        ],
-        [
-          "SNU-2A-07-010_card_3",
-          "갔는지"
-        ],
-        [
-          "SNU-2A-07-010_card_4",
-          "잘"
-        ],
-        [
-          "SNU-2A-07-010_card_5",
-          "모르겠어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-010_card_0",
-          "SNU-2A-07-010_card_1",
-          "SNU-2A-07-010_card_2",
-          "SNU-2A-07-010_card_3",
-          "SNU-2A-07-010_card_4",
-          "SNU-2A-07-010_card_5"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-011",
-      "displaySentence": "저 사람이 누구인지 아세요?",
-      "tokens": [
-        [
-          "SNU-2A-07-011_card_0",
-          "저"
-        ],
-        [
-          "SNU-2A-07-011_card_1",
-          "사람"
-        ],
-        [
-          "SNU-2A-07-011_card_2",
-          "이"
-        ],
-        [
-          "SNU-2A-07-011_card_3",
-          "누구인지"
-        ],
-        [
-          "SNU-2A-07-011_card_4",
-          "아세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-011_card_0",
-          "SNU-2A-07-011_card_1",
-          "SNU-2A-07-011_card_2",
-          "SNU-2A-07-011_card_3",
-          "SNU-2A-07-011_card_4"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-012",
-      "displaySentence": "네, 스티븐 씨 친구예요.",
-      "tokens": [
-        [
-          "SNU-2A-07-012_card_0",
-          "네"
-        ],
-        [
-          "SNU-2A-07-012_card_1",
-          "스티븐"
-        ],
-        [
-          "SNU-2A-07-012_card_2",
-          "씨"
-        ],
-        [
-          "SNU-2A-07-012_card_3",
-          "친구"
-        ],
-        [
-          "SNU-2A-07-012_card_4",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-012_card_0",
-          "SNU-2A-07-012_card_1",
-          "SNU-2A-07-012_card_2",
-          "SNU-2A-07-012_card_3",
-          "SNU-2A-07-012_card_4"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-013",
-      "displaySentence": "등록금이 얼마인지 잘 모르겠어요.",
-      "tokens": [
-        [
-          "SNU-2A-07-013_card_0",
-          "등록금"
-        ],
-        [
-          "SNU-2A-07-013_card_1",
-          "이"
-        ],
-        [
-          "SNU-2A-07-013_card_2",
-          "얼마인지"
-        ],
-        [
-          "SNU-2A-07-013_card_3",
-          "잘"
-        ],
-        [
-          "SNU-2A-07-013_card_4",
-          "모르겠어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-013_card_0",
-          "SNU-2A-07-013_card_1",
-          "SNU-2A-07-013_card_2",
-          "SNU-2A-07-013_card_3",
-          "SNU-2A-07-013_card_4"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-014",
-      "displaySentence": "오늘 파티에 올 사람이 몇 명인지 아세요?",
-      "tokens": [
-        [
-          "SNU-2A-07-014_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-2A-07-014_card_1",
-          "파티"
-        ],
-        [
-          "SNU-2A-07-014_card_2",
-          "에"
-        ],
-        [
-          "SNU-2A-07-014_card_3",
-          "올"
-        ],
-        [
-          "SNU-2A-07-014_card_4",
-          "사람"
-        ],
-        [
-          "SNU-2A-07-014_card_5",
-          "이"
-        ],
-        [
-          "SNU-2A-07-014_card_6",
-          "몇"
-        ],
-        [
-          "SNU-2A-07-014_card_7",
-          "명인지"
-        ],
-        [
-          "SNU-2A-07-014_card_8",
-          "아세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-014_card_0",
-          "SNU-2A-07-014_card_1",
-          "SNU-2A-07-014_card_2",
-          "SNU-2A-07-014_card_3",
-          "SNU-2A-07-014_card_4",
-          "SNU-2A-07-014_card_5",
-          "SNU-2A-07-014_card_6",
-          "SNU-2A-07-014_card_7",
-          "SNU-2A-07-014_card_8"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-015",
-      "displaySentence": "한옥마을에 가려면 몇 번 출구로 나가야 돼요?",
-      "tokens": [
-        [
-          "SNU-2A-07-015_card_0",
           "한옥마을"
         ],
         [
-          "SNU-2A-07-015_card_1",
+          "SNU-2A-07-010_card_1",
           "에"
         ],
         [
-          "SNU-2A-07-015_card_2",
+          "SNU-2A-07-010_card_2",
           "가려면"
         ],
         [
-          "SNU-2A-07-015_card_3",
-          "몇"
-        ],
-        [
-          "SNU-2A-07-015_card_4",
-          "번"
-        ],
-        [
-          "SNU-2A-07-015_card_5",
-          "출구"
-        ],
-        [
-          "SNU-2A-07-015_card_6",
-          "로"
-        ],
-        [
-          "SNU-2A-07-015_card_7",
-          "나가야"
-        ],
-        [
-          "SNU-2A-07-015_card_8",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-015_card_0",
-          "SNU-2A-07-015_card_1",
-          "SNU-2A-07-015_card_2",
-          "SNU-2A-07-015_card_3",
-          "SNU-2A-07-015_card_4",
-          "SNU-2A-07-015_card_5",
-          "SNU-2A-07-015_card_6",
-          "SNU-2A-07-015_card_7",
-          "SNU-2A-07-015_card_8"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-016",
-      "displaySentence": "4번 출구로 나가시면 됩니다.",
-      "tokens": [
-        [
-          "SNU-2A-07-016_card_0",
+          "SNU-2A-07-010_card_3",
           "4번"
         ],
         [
-          "SNU-2A-07-016_card_1",
+          "SNU-2A-07-010_card_4",
           "출구"
         ],
         [
-          "SNU-2A-07-016_card_2",
+          "SNU-2A-07-010_card_5",
           "로"
         ],
         [
-          "SNU-2A-07-016_card_3",
-          "나가시면"
-        ],
-        [
-          "SNU-2A-07-016_card_4",
-          "됩니다"
+          "SNU-2A-07-010_card_6",
+          "나가세요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2A-07-016_card_0",
-          "SNU-2A-07-016_card_1",
-          "SNU-2A-07-016_card_2",
-          "SNU-2A-07-016_card_3",
-          "SNU-2A-07-016_card_4"
+          "SNU-2A-07-010_card_0",
+          "SNU-2A-07-010_card_1",
+          "SNU-2A-07-010_card_2",
+          "SNU-2A-07-010_card_3",
+          "SNU-2A-07-010_card_4",
+          "SNU-2A-07-010_card_5",
+          "SNU-2A-07-010_card_6"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
-      "id": "SNU-2A-07-017",
-      "displaySentence": "김 선생님을 만나려면 사무실로 가 보세요.",
+      "id": "SNU-2A-07-011",
+      "displaySentence": "길을 잃지 않으려면 지도를 잘 보세요.",
       "tokens": [
         [
-          "SNU-2A-07-017_card_0",
-          "김"
+          "SNU-2A-07-011_card_0",
+          "길"
         ],
         [
-          "SNU-2A-07-017_card_1",
-          "선생님"
-        ],
-        [
-          "SNU-2A-07-017_card_2",
+          "SNU-2A-07-011_card_1",
           "을"
         ],
         [
-          "SNU-2A-07-017_card_3",
-          "만나려면"
+          "SNU-2A-07-011_card_2",
+          "잃지 않으려면"
         ],
         [
-          "SNU-2A-07-017_card_4",
-          "사무실"
+          "SNU-2A-07-011_card_3",
+          "지도"
         ],
         [
-          "SNU-2A-07-017_card_5",
-          "로"
+          "SNU-2A-07-011_card_4",
+          "를"
         ],
         [
-          "SNU-2A-07-017_card_6",
-          "가"
+          "SNU-2A-07-011_card_5",
+          "잘"
         ],
         [
-          "SNU-2A-07-017_card_7",
+          "SNU-2A-07-011_card_6",
           "보세요"
         ]
       ],
       "acceptedOrders": [
         [
+          "SNU-2A-07-011_card_0",
+          "SNU-2A-07-011_card_1",
+          "SNU-2A-07-011_card_2",
+          "SNU-2A-07-011_card_3",
+          "SNU-2A-07-011_card_4",
+          "SNU-2A-07-011_card_5",
+          "SNU-2A-07-011_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-012",
+      "displaySentence": "버스로 환승하려면 교통 카드를 찍으세요.",
+      "tokens": [
+        [
+          "SNU-2A-07-012_card_0",
+          "버스"
+        ],
+        [
+          "SNU-2A-07-012_card_1",
+          "로"
+        ],
+        [
+          "SNU-2A-07-012_card_2",
+          "환승하려면"
+        ],
+        [
+          "SNU-2A-07-012_card_3",
+          "교통"
+        ],
+        [
+          "SNU-2A-07-012_card_4",
+          "카드"
+        ],
+        [
+          "SNU-2A-07-012_card_5",
+          "를"
+        ],
+        [
+          "SNU-2A-07-012_card_6",
+          "찍으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-012_card_0",
+          "SNU-2A-07-012_card_1",
+          "SNU-2A-07-012_card_2",
+          "SNU-2A-07-012_card_3",
+          "SNU-2A-07-012_card_4",
+          "SNU-2A-07-012_card_5",
+          "SNU-2A-07-012_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-013",
+      "displaySentence": "택시를 타려면 큰길로 나가서 기다리세요.",
+      "tokens": [
+        [
+          "SNU-2A-07-013_card_0",
+          "택시"
+        ],
+        [
+          "SNU-2A-07-013_card_1",
+          "를"
+        ],
+        [
+          "SNU-2A-07-013_card_2",
+          "타려면"
+        ],
+        [
+          "SNU-2A-07-013_card_3",
+          "큰길"
+        ],
+        [
+          "SNU-2A-07-013_card_4",
+          "로"
+        ],
+        [
+          "SNU-2A-07-013_card_5",
+          "나가서"
+        ],
+        [
+          "SNU-2A-07-013_card_6",
+          "기다리세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-013_card_0",
+          "SNU-2A-07-013_card_1",
+          "SNU-2A-07-013_card_2",
+          "SNU-2A-07-013_card_3",
+          "SNU-2A-07-013_card_4",
+          "SNU-2A-07-013_card_5",
+          "SNU-2A-07-013_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-014",
+      "displaySentence": "횡단보도를 건너다가 친구를 만났어요.",
+      "tokens": [
+        [
+          "SNU-2A-07-014_card_0",
+          "횡단보도"
+        ],
+        [
+          "SNU-2A-07-014_card_1",
+          "를"
+        ],
+        [
+          "SNU-2A-07-014_card_2",
+          "건너다"
+        ],
+        [
+          "SNU-2A-07-014_card_3",
+          "가"
+        ],
+        [
+          "SNU-2A-07-014_card_4",
+          "친구"
+        ],
+        [
+          "SNU-2A-07-014_card_5",
+          "를"
+        ],
+        [
+          "SNU-2A-07-014_card_6",
+          "만났어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-014_card_0",
+          "SNU-2A-07-014_card_1",
+          "SNU-2A-07-014_card_2",
+          "SNU-2A-07-014_card_3",
+          "SNU-2A-07-014_card_4",
+          "SNU-2A-07-014_card_5",
+          "SNU-2A-07-014_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-015",
+      "displaySentence": "길을 걷다가 신호등 앞에서 멈췄어요.",
+      "tokens": [
+        [
+          "SNU-2A-07-015_card_0",
+          "길"
+        ],
+        [
+          "SNU-2A-07-015_card_1",
+          "을"
+        ],
+        [
+          "SNU-2A-07-015_card_2",
+          "걷다가"
+        ],
+        [
+          "SNU-2A-07-015_card_3",
+          "신호등"
+        ],
+        [
+          "SNU-2A-07-015_card_4",
+          "앞"
+        ],
+        [
+          "SNU-2A-07-015_card_5",
+          "에서"
+        ],
+        [
+          "SNU-2A-07-015_card_6",
+          "멈췄어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-015_card_0",
+          "SNU-2A-07-015_card_1",
+          "SNU-2A-07-015_card_2",
+          "SNU-2A-07-015_card_3",
+          "SNU-2A-07-015_card_4",
+          "SNU-2A-07-015_card_5",
+          "SNU-2A-07-015_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-016",
+      "displaySentence": "지하철을 타고 가다가 버스로 갈아탔어요.",
+      "tokens": [
+        [
+          "SNU-2A-07-016_card_0",
+          "지하철"
+        ],
+        [
+          "SNU-2A-07-016_card_1",
+          "을"
+        ],
+        [
+          "SNU-2A-07-016_card_2",
+          "타고"
+        ],
+        [
+          "SNU-2A-07-016_card_3",
+          "가다가"
+        ],
+        [
+          "SNU-2A-07-016_card_4",
+          "버스"
+        ],
+        [
+          "SNU-2A-07-016_card_5",
+          "로"
+        ],
+        [
+          "SNU-2A-07-016_card_6",
+          "갈아탔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-07-016_card_0",
+          "SNU-2A-07-016_card_1",
+          "SNU-2A-07-016_card_2",
+          "SNU-2A-07-016_card_3",
+          "SNU-2A-07-016_card_4",
+          "SNU-2A-07-016_card_5",
+          "SNU-2A-07-016_card_6"
+        ]
+      ],
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-07-017",
+      "displaySentence": "길을 찾다가 편의점에서 위치를 물어봤어요.",
+      "tokens": [
+        [
+          "SNU-2A-07-017_card_0",
+          "길"
+        ],
+        [
+          "SNU-2A-07-017_card_1",
+          "을"
+        ],
+        [
+          "SNU-2A-07-017_card_2",
+          "찾다"
+        ],
+        [
+          "SNU-2A-07-017_card_3",
+          "가"
+        ],
+        [
+          "SNU-2A-07-017_card_4",
+          "편의점"
+        ],
+        [
+          "SNU-2A-07-017_card_5",
+          "에서"
+        ],
+        [
+          "SNU-2A-07-017_card_6",
+          "위치"
+        ],
+        [
+          "SNU-2A-07-017_card_7",
+          "를"
+        ],
+        [
+          "SNU-2A-07-017_card_8",
+          "물어봤어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
           "SNU-2A-07-017_card_0",
           "SNU-2A-07-017_card_1",
           "SNU-2A-07-017_card_2",
@@ -746,50 +787,44 @@
           "SNU-2A-07-017_card_4",
           "SNU-2A-07-017_card_5",
           "SNU-2A-07-017_card_6",
-          "SNU-2A-07-017_card_7"
+          "SNU-2A-07-017_card_7",
+          "SNU-2A-07-017_card_8"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-018",
-      "displaySentence": "한국 신문을 읽으려면 단어를 많이 알아야 해요.",
+      "displaySentence": "택시에서 내리다가 휴대폰을 떨어뜨렸어요.",
       "tokens": [
         [
           "SNU-2A-07-018_card_0",
-          "한국"
+          "택시"
         ],
         [
           "SNU-2A-07-018_card_1",
-          "신문"
+          "에서"
         ],
         [
           "SNU-2A-07-018_card_2",
-          "을"
+          "내리다"
         ],
         [
           "SNU-2A-07-018_card_3",
-          "읽으려면"
+          "가"
         ],
         [
           "SNU-2A-07-018_card_4",
-          "단어"
+          "휴대폰"
         ],
         [
           "SNU-2A-07-018_card_5",
-          "를"
+          "을"
         ],
         [
           "SNU-2A-07-018_card_6",
-          "많이"
-        ],
-        [
-          "SNU-2A-07-018_card_7",
-          "알아야"
-        ],
-        [
-          "SNU-2A-07-018_card_8",
-          "해요"
+          "떨어뜨렸어요"
         ]
       ],
       "acceptedOrders": [
@@ -800,48 +835,47 @@
           "SNU-2A-07-018_card_3",
           "SNU-2A-07-018_card_4",
           "SNU-2A-07-018_card_5",
-          "SNU-2A-07-018_card_6",
-          "SNU-2A-07-018_card_7",
-          "SNU-2A-07-018_card_8"
+          "SNU-2A-07-018_card_6"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-019",
-      "displaySentence": "감기에 걸리지 않으려면 손을 자주 씻으세요.",
+      "displaySentence": "저녁에는 학교 앞 도로가 많이 밀릴 것 같아요.",
       "tokens": [
         [
           "SNU-2A-07-019_card_0",
-          "감기"
+          "저녁에"
         ],
         [
           "SNU-2A-07-019_card_1",
-          "에"
+          "는"
         ],
         [
           "SNU-2A-07-019_card_2",
-          "걸리지"
+          "학교"
         ],
         [
           "SNU-2A-07-019_card_3",
-          "않으려면"
+          "앞"
         ],
         [
           "SNU-2A-07-019_card_4",
-          "손"
+          "도로"
         ],
         [
           "SNU-2A-07-019_card_5",
-          "을"
+          "가"
         ],
         [
           "SNU-2A-07-019_card_6",
-          "자주"
+          "많이"
         ],
         [
           "SNU-2A-07-019_card_7",
-          "씻으세요"
+          "밀릴 것 같아요"
         ]
       ],
       "acceptedOrders": [
@@ -856,19 +890,20 @@
           "SNU-2A-07-019_card_7"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-07-020",
-      "displaySentence": "한옥마을이 어디에 있어요?",
+      "displaySentence": "사거리가 어디에 나오는지 지도에서 확인하세요.",
       "tokens": [
         [
           "SNU-2A-07-020_card_0",
-          "한옥마을"
+          "사거리"
         ],
         [
           "SNU-2A-07-020_card_1",
-          "이"
+          "가"
         ],
         [
           "SNU-2A-07-020_card_2",
@@ -880,7 +915,19 @@
         ],
         [
           "SNU-2A-07-020_card_4",
-          "있어요"
+          "나오는지"
+        ],
+        [
+          "SNU-2A-07-020_card_5",
+          "지도"
+        ],
+        [
+          "SNU-2A-07-020_card_6",
+          "에서"
+        ],
+        [
+          "SNU-2A-07-020_card_7",
+          "확인하세요"
         ]
       ],
       "acceptedOrders": [
@@ -889,148 +936,14 @@
           "SNU-2A-07-020_card_1",
           "SNU-2A-07-020_card_2",
           "SNU-2A-07-020_card_3",
-          "SNU-2A-07-020_card_4"
+          "SNU-2A-07-020_card_4",
+          "SNU-2A-07-020_card_5",
+          "SNU-2A-07-020_card_6",
+          "SNU-2A-07-020_card_7"
         ]
       ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-021",
-      "displaySentence": "쭉 가다가 사거리에서 길을 건너가세요.",
-      "tokens": [
-        [
-          "SNU-2A-07-021_card_0",
-          "쭉"
-        ],
-        [
-          "SNU-2A-07-021_card_1",
-          "가다"
-        ],
-        [
-          "SNU-2A-07-021_card_2",
-          "가"
-        ],
-        [
-          "SNU-2A-07-021_card_3",
-          "사거리"
-        ],
-        [
-          "SNU-2A-07-021_card_4",
-          "에서"
-        ],
-        [
-          "SNU-2A-07-021_card_5",
-          "길"
-        ],
-        [
-          "SNU-2A-07-021_card_6",
-          "을"
-        ],
-        [
-          "SNU-2A-07-021_card_7",
-          "건너가세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-021_card_0",
-          "SNU-2A-07-021_card_1",
-          "SNU-2A-07-021_card_2",
-          "SNU-2A-07-021_card_3",
-          "SNU-2A-07-021_card_4",
-          "SNU-2A-07-021_card_5",
-          "SNU-2A-07-021_card_6",
-          "SNU-2A-07-021_card_7"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-022",
-      "displaySentence": "영화를 보다가 재미없어서 잤어요.",
-      "tokens": [
-        [
-          "SNU-2A-07-022_card_0",
-          "영화"
-        ],
-        [
-          "SNU-2A-07-022_card_1",
-          "를"
-        ],
-        [
-          "SNU-2A-07-022_card_2",
-          "보다"
-        ],
-        [
-          "SNU-2A-07-022_card_3",
-          "가"
-        ],
-        [
-          "SNU-2A-07-022_card_4",
-          "재미없어서"
-        ],
-        [
-          "SNU-2A-07-022_card_5",
-          "잤어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-022_card_0",
-          "SNU-2A-07-022_card_1",
-          "SNU-2A-07-022_card_2",
-          "SNU-2A-07-022_card_3",
-          "SNU-2A-07-022_card_4",
-          "SNU-2A-07-022_card_5"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-07-023",
-      "displaySentence": "밥을 먹다가 전화를 받았어요.",
-      "tokens": [
-        [
-          "SNU-2A-07-023_card_0",
-          "밥"
-        ],
-        [
-          "SNU-2A-07-023_card_1",
-          "을"
-        ],
-        [
-          "SNU-2A-07-023_card_2",
-          "먹다"
-        ],
-        [
-          "SNU-2A-07-023_card_3",
-          "가"
-        ],
-        [
-          "SNU-2A-07-023_card_4",
-          "전화"
-        ],
-        [
-          "SNU-2A-07-023_card_5",
-          "를"
-        ],
-        [
-          "SNU-2A-07-023_card_6",
-          "받았어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-07-023_card_0",
-          "SNU-2A-07-023_card_1",
-          "SNU-2A-07-023_card_2",
-          "SNU-2A-07-023_card_3",
-          "SNU-2A-07-023_card_4",
-          "SNU-2A-07-023_card_5",
-          "SNU-2A-07-023_card_6"
-        ]
-      ],
-      "note": "서울대 2A 7과 교재 기반"
+      "note": "서울대 2A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ 것 같다; V-는지 알다[모르다]/N인지 알다[모르다]; V-(으)려면; V-다가) + data/snu/2A/lesson07.json 어휘 기반 재구성"
     }
   ]
 }

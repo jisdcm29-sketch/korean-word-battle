@@ -1,35 +1,37 @@
 {
   "book": "2B",
   "lesson": 15,
-  "source": "서울대 한국어 2B 학생 읽기 자료 · 15과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "SNU Korean 2B Student's Book/Workbook official grammar scope; restructured with Arena 2B lesson vocabulary",
+  "grammarFocus": [
+    "A-아/어지다",
+    "V-게 되다",
+    "V-기 전에",
+    "V-(으)ㄴ 후에"
+  ],
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2B-15-001",
-      "displaySentence": "아키라 씨, 회사 생활에 익숙해졌어요?",
+      "displaySentence": "한국 생활에 많이 익숙해졌어요.",
       "tokens": [
         [
           "SNU-2B-15-001_card_0",
-          "아키라"
+          "한국"
         ],
         [
           "SNU-2B-15-001_card_1",
-          "씨"
-        ],
-        [
-          "SNU-2B-15-001_card_2",
-          "회사"
-        ],
-        [
-          "SNU-2B-15-001_card_3",
           "생활"
         ],
         [
-          "SNU-2B-15-001_card_4",
+          "SNU-2B-15-001_card_2",
           "에"
         ],
         [
-          "SNU-2B-15-001_card_5",
+          "SNU-2B-15-001_card_3",
+          "많이"
+        ],
+        [
+          "SNU-2B-15-001_card_4",
           "익숙해졌어요"
         ]
       ],
@@ -39,82 +41,77 @@
           "SNU-2B-15-001_card_1",
           "SNU-2B-15-001_card_2",
           "SNU-2B-15-001_card_3",
-          "SNU-2B-15-001_card_4",
-          "SNU-2B-15-001_card_5"
+          "SNU-2B-15-001_card_4"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-002",
-      "displaySentence": "네, 처음에는 힘들었는데 이제는 조금 편해졌어요.",
+      "displaySentence": "요즘 한국어 실력이 많이 늘었어요.",
       "tokens": [
         [
           "SNU-2B-15-002_card_0",
-          "네"
+          "요즘"
         ],
         [
           "SNU-2B-15-002_card_1",
-          "처음에"
+          "한국어"
         ],
         [
           "SNU-2B-15-002_card_2",
-          "는"
+          "실력"
         ],
         [
           "SNU-2B-15-002_card_3",
-          "힘들었는데"
-        ],
-        [
-          "SNU-2B-15-002_card_4",
-          "이제"
-        ],
-        [
-          "SNU-2B-15-002_card_5",
-          "는"
-        ],
-        [
-          "SNU-2B-15-002_card_6",
-          "조금"
-        ],
-        [
-          "SNU-2B-15-002_card_7",
-          "편해졌어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-002_card_0",
-          "SNU-2B-15-002_card_1",
-          "SNU-2B-15-002_card_2",
-          "SNU-2B-15-002_card_3",
-          "SNU-2B-15-002_card_4",
-          "SNU-2B-15-002_card_5",
-          "SNU-2B-15-002_card_6",
-          "SNU-2B-15-002_card_7"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-003",
-      "displaySentence": "과일값이 많이 비싸졌어요.",
-      "tokens": [
-        [
-          "SNU-2B-15-003_card_0",
-          "과일값"
-        ],
-        [
-          "SNU-2B-15-003_card_1",
           "이"
         ],
         [
-          "SNU-2B-15-003_card_2",
+          "SNU-2B-15-002_card_4",
           "많이"
         ],
         [
+          "SNU-2B-15-002_card_5",
+          "늘었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-002_card_0",
+          "SNU-2B-15-002_card_1",
+          "SNU-2B-15-002_card_2",
+          "SNU-2B-15-002_card_3",
+          "SNU-2B-15-002_card_4",
+          "SNU-2B-15-002_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-003",
+      "displaySentence": "매운 음식을 잘 먹게 되었어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-003_card_0",
+          "매운"
+        ],
+        [
+          "SNU-2B-15-003_card_1",
+          "음식"
+        ],
+        [
+          "SNU-2B-15-003_card_2",
+          "을"
+        ],
+        [
           "SNU-2B-15-003_card_3",
-          "비싸졌어요"
+          "잘"
+        ],
+        [
+          "SNU-2B-15-003_card_4",
+          "먹게 되었어요"
         ]
       ],
       "acceptedOrders": [
@@ -122,14 +119,16 @@
           "SNU-2B-15-003_card_0",
           "SNU-2B-15-003_card_1",
           "SNU-2B-15-003_card_2",
-          "SNU-2B-15-003_card_3"
+          "SNU-2B-15-003_card_3",
+          "SNU-2B-15-003_card_4"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-004",
-      "displaySentence": "한국 생활에 익숙해졌어요.",
+      "displaySentence": "한국에 와서 좋은 친구를 많이 사귀게 되었어요.",
       "tokens": [
         [
           "SNU-2B-15-004_card_0",
@@ -137,15 +136,35 @@
         ],
         [
           "SNU-2B-15-004_card_1",
-          "생활"
-        ],
-        [
-          "SNU-2B-15-004_card_2",
           "에"
         ],
         [
+          "SNU-2B-15-004_card_2",
+          "와서"
+        ],
+        [
           "SNU-2B-15-004_card_3",
-          "익숙해졌어요"
+          "좋"
+        ],
+        [
+          "SNU-2B-15-004_card_4",
+          "은"
+        ],
+        [
+          "SNU-2B-15-004_card_5",
+          "친구"
+        ],
+        [
+          "SNU-2B-15-004_card_6",
+          "를"
+        ],
+        [
+          "SNU-2B-15-004_card_7",
+          "많이"
+        ],
+        [
+          "SNU-2B-15-004_card_8",
+          "사귀게 되었어요"
         ]
       ],
       "acceptedOrders": [
@@ -153,30 +172,36 @@
           "SNU-2B-15-004_card_0",
           "SNU-2B-15-004_card_1",
           "SNU-2B-15-004_card_2",
-          "SNU-2B-15-004_card_3"
+          "SNU-2B-15-004_card_3",
+          "SNU-2B-15-004_card_4",
+          "SNU-2B-15-004_card_5",
+          "SNU-2B-15-004_card_6",
+          "SNU-2B-15-004_card_7",
+          "SNU-2B-15-004_card_8"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-005",
-      "displaySentence": "날씨가 점점 더워지네요.",
+      "displaySentence": "무역 회사에 취직하게 되었어요.",
       "tokens": [
         [
           "SNU-2B-15-005_card_0",
-          "날씨"
+          "무역"
         ],
         [
           "SNU-2B-15-005_card_1",
-          "가"
+          "회사"
         ],
         [
           "SNU-2B-15-005_card_2",
-          "점점"
+          "에"
         ],
         [
           "SNU-2B-15-005_card_3",
-          "더워지네요"
+          "취직하게 되었어요"
         ]
       ],
       "acceptedOrders": [
@@ -187,39 +212,36 @@
           "SNU-2B-15-005_card_3"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-006",
-      "displaySentence": "나나 씨는 샤오밍 씨와 고향 친구예요?",
+      "displaySentence": "다음 달부터 중국에서 일하게 되었어요.",
       "tokens": [
         [
           "SNU-2B-15-006_card_0",
-          "나나 씨"
+          "다음"
         ],
         [
           "SNU-2B-15-006_card_1",
-          "는"
+          "달"
         ],
         [
           "SNU-2B-15-006_card_2",
-          "샤오밍 씨"
+          "부터"
         ],
         [
           "SNU-2B-15-006_card_3",
-          "와"
+          "중국"
         ],
         [
           "SNU-2B-15-006_card_4",
-          "고향"
+          "에서"
         ],
         [
           "SNU-2B-15-006_card_5",
-          "친구"
-        ],
-        [
-          "SNU-2B-15-006_card_6",
-          "예요"
+          "일하게 되었어요"
         ]
       ],
       "acceptedOrders": [
@@ -229,39 +251,47 @@
           "SNU-2B-15-006_card_2",
           "SNU-2B-15-006_card_3",
           "SNU-2B-15-006_card_4",
-          "SNU-2B-15-006_card_5",
-          "SNU-2B-15-006_card_6"
+          "SNU-2B-15-006_card_5"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-007",
-      "displaySentence": "아니요, 한국에 와서 알게 됐어요.",
+      "displaySentence": "대학에 입학하기 전에 한국어를 배웠어요.",
       "tokens": [
         [
           "SNU-2B-15-007_card_0",
-          "아니요"
+          "대학"
         ],
         [
           "SNU-2B-15-007_card_1",
-          "한국"
-        ],
-        [
-          "SNU-2B-15-007_card_2",
           "에"
         ],
         [
+          "SNU-2B-15-007_card_2",
+          "입학하기"
+        ],
+        [
           "SNU-2B-15-007_card_3",
-          "와서"
+          "전"
         ],
         [
           "SNU-2B-15-007_card_4",
-          "알게"
+          "에"
         ],
         [
           "SNU-2B-15-007_card_5",
-          "됐어요"
+          "한국어"
+        ],
+        [
+          "SNU-2B-15-007_card_6",
+          "를"
+        ],
+        [
+          "SNU-2B-15-007_card_7",
+          "배웠어요"
         ]
       ],
       "acceptedOrders": [
@@ -271,145 +301,148 @@
           "SNU-2B-15-007_card_2",
           "SNU-2B-15-007_card_3",
           "SNU-2B-15-007_card_4",
-          "SNU-2B-15-007_card_5"
+          "SNU-2B-15-007_card_5",
+          "SNU-2B-15-007_card_6",
+          "SNU-2B-15-007_card_7"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-008",
-      "displaySentence": "한국 노래를 좋아해서 한국어를 배우게 되었어요.",
+      "displaySentence": "출근하기 전에 아침을 꼭 먹어요.",
       "tokens": [
         [
           "SNU-2B-15-008_card_0",
-          "한국"
+          "출근하기"
         ],
         [
           "SNU-2B-15-008_card_1",
-          "노래"
-        ],
-        [
-          "SNU-2B-15-008_card_2",
-          "를"
-        ],
-        [
-          "SNU-2B-15-008_card_3",
-          "좋아해서"
-        ],
-        [
-          "SNU-2B-15-008_card_4",
-          "한국어"
-        ],
-        [
-          "SNU-2B-15-008_card_5",
-          "를"
-        ],
-        [
-          "SNU-2B-15-008_card_6",
-          "배우게"
-        ],
-        [
-          "SNU-2B-15-008_card_7",
-          "되었어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-008_card_0",
-          "SNU-2B-15-008_card_1",
-          "SNU-2B-15-008_card_2",
-          "SNU-2B-15-008_card_3",
-          "SNU-2B-15-008_card_4",
-          "SNU-2B-15-008_card_5",
-          "SNU-2B-15-008_card_6",
-          "SNU-2B-15-008_card_7"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-009",
-      "displaySentence": "출발하기 전에 전화해 주세요.",
-      "tokens": [
-        [
-          "SNU-2B-15-009_card_0",
-          "출발하기"
-        ],
-        [
-          "SNU-2B-15-009_card_1",
           "전"
         ],
         [
-          "SNU-2B-15-009_card_2",
+          "SNU-2B-15-008_card_2",
           "에"
         ],
         [
-          "SNU-2B-15-009_card_3",
-          "전화해"
+          "SNU-2B-15-008_card_3",
+          "아침"
         ],
         [
-          "SNU-2B-15-009_card_4",
-          "주세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-009_card_0",
-          "SNU-2B-15-009_card_1",
-          "SNU-2B-15-009_card_2",
-          "SNU-2B-15-009_card_3",
-          "SNU-2B-15-009_card_4"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-010",
-      "displaySentence": "고향에 돌아가기 전에 부산 여행을 할 거예요.",
-      "tokens": [
-        [
-          "SNU-2B-15-010_card_0",
-          "고향"
-        ],
-        [
-          "SNU-2B-15-010_card_1",
-          "에"
-        ],
-        [
-          "SNU-2B-15-010_card_2",
-          "돌아가기"
-        ],
-        [
-          "SNU-2B-15-010_card_3",
-          "전"
-        ],
-        [
-          "SNU-2B-15-010_card_4",
-          "에"
-        ],
-        [
-          "SNU-2B-15-010_card_5",
-          "부산"
-        ],
-        [
-          "SNU-2B-15-010_card_6",
-          "여행"
-        ],
-        [
-          "SNU-2B-15-010_card_7",
+          "SNU-2B-15-008_card_4",
           "을"
         ],
         [
-          "SNU-2B-15-010_card_8",
-          "할"
+          "SNU-2B-15-008_card_5",
+          "꼭"
         ],
         [
-          "SNU-2B-15-010_card_9",
-          "거"
+          "SNU-2B-15-008_card_6",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-008_card_0",
+          "SNU-2B-15-008_card_1",
+          "SNU-2B-15-008_card_2",
+          "SNU-2B-15-008_card_3",
+          "SNU-2B-15-008_card_4",
+          "SNU-2B-15-008_card_5",
+          "SNU-2B-15-008_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-009",
+      "displaySentence": "여행을 떠나기 전에 가족에게 연락했어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-009_card_0",
+          "여행"
         ],
         [
-          "SNU-2B-15-010_card_10",
-          "예요"
+          "SNU-2B-15-009_card_1",
+          "을"
+        ],
+        [
+          "SNU-2B-15-009_card_2",
+          "떠나기"
+        ],
+        [
+          "SNU-2B-15-009_card_3",
+          "전"
+        ],
+        [
+          "SNU-2B-15-009_card_4",
+          "에"
+        ],
+        [
+          "SNU-2B-15-009_card_5",
+          "가족"
+        ],
+        [
+          "SNU-2B-15-009_card_6",
+          "에게"
+        ],
+        [
+          "SNU-2B-15-009_card_7",
+          "연락했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-009_card_0",
+          "SNU-2B-15-009_card_1",
+          "SNU-2B-15-009_card_2",
+          "SNU-2B-15-009_card_3",
+          "SNU-2B-15-009_card_4",
+          "SNU-2B-15-009_card_5",
+          "SNU-2B-15-009_card_6",
+          "SNU-2B-15-009_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-010",
+      "displaySentence": "대학교를 졸업한 후에 회사에 취직했어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-010_card_0",
+          "대학교"
+        ],
+        [
+          "SNU-2B-15-010_card_1",
+          "를"
+        ],
+        [
+          "SNU-2B-15-010_card_2",
+          "졸업한"
+        ],
+        [
+          "SNU-2B-15-010_card_3",
+          "후"
+        ],
+        [
+          "SNU-2B-15-010_card_4",
+          "에"
+        ],
+        [
+          "SNU-2B-15-010_card_5",
+          "회사"
+        ],
+        [
+          "SNU-2B-15-010_card_6",
+          "에"
+        ],
+        [
+          "SNU-2B-15-010_card_7",
+          "취직했어요"
         ]
       ],
       "acceptedOrders": [
@@ -421,25 +454,23 @@
           "SNU-2B-15-010_card_4",
           "SNU-2B-15-010_card_5",
           "SNU-2B-15-010_card_6",
-          "SNU-2B-15-010_card_7",
-          "SNU-2B-15-010_card_8",
-          "SNU-2B-15-010_card_9",
-          "SNU-2B-15-010_card_10"
+          "SNU-2B-15-010_card_7"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-011",
-      "displaySentence": "수영하기 전에 준비 운동을 하세요.",
+      "displaySentence": "결혼한 후에 새 집으로 이사했어요.",
       "tokens": [
         [
           "SNU-2B-15-011_card_0",
-          "수영하기"
+          "결혼한"
         ],
         [
           "SNU-2B-15-011_card_1",
-          "전"
+          "후"
         ],
         [
           "SNU-2B-15-011_card_2",
@@ -447,19 +478,19 @@
         ],
         [
           "SNU-2B-15-011_card_3",
-          "준비"
+          "새"
         ],
         [
           "SNU-2B-15-011_card_4",
-          "운동"
+          "집"
         ],
         [
           "SNU-2B-15-011_card_5",
-          "을"
+          "으로"
         ],
         [
           "SNU-2B-15-011_card_6",
-          "하세요"
+          "이사했어요"
         ]
       ],
       "acceptedOrders": [
@@ -473,240 +504,236 @@
           "SNU-2B-15-011_card_6"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-012",
-      "displaySentence": "밥을 먹기 전에 손을 씻으세요.",
+      "displaySentence": "아이를 낳은 후에 생활이 많이 달라졌어요.",
       "tokens": [
         [
           "SNU-2B-15-012_card_0",
-          "밥"
+          "아이"
         ],
         [
           "SNU-2B-15-012_card_1",
-          "을"
-        ],
-        [
-          "SNU-2B-15-012_card_2",
-          "먹기"
-        ],
-        [
-          "SNU-2B-15-012_card_3",
-          "전"
-        ],
-        [
-          "SNU-2B-15-012_card_4",
-          "에"
-        ],
-        [
-          "SNU-2B-15-012_card_5",
-          "손"
-        ],
-        [
-          "SNU-2B-15-012_card_6",
-          "을"
-        ],
-        [
-          "SNU-2B-15-012_card_7",
-          "씻으세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-012_card_0",
-          "SNU-2B-15-012_card_1",
-          "SNU-2B-15-012_card_2",
-          "SNU-2B-15-012_card_3",
-          "SNU-2B-15-012_card_4",
-          "SNU-2B-15-012_card_5",
-          "SNU-2B-15-012_card_6",
-          "SNU-2B-15-012_card_7"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-013",
-      "displaySentence": "커피 마시러 갈까요?",
-      "tokens": [
-        [
-          "SNU-2B-15-013_card_0",
-          "커피"
-        ],
-        [
-          "SNU-2B-15-013_card_1",
-          "마시러"
-        ],
-        [
-          "SNU-2B-15-013_card_2",
-          "갈까요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-013_card_0",
-          "SNU-2B-15-013_card_1",
-          "SNU-2B-15-013_card_2"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-014",
-      "displaySentence": "지금 배고픈데 밥 먼저 먹은 후에 가면 어때요?",
-      "tokens": [
-        [
-          "SNU-2B-15-014_card_0",
-          "지금"
-        ],
-        [
-          "SNU-2B-15-014_card_1",
-          "배고픈데"
-        ],
-        [
-          "SNU-2B-15-014_card_2",
-          "밥"
-        ],
-        [
-          "SNU-2B-15-014_card_3",
-          "먼저"
-        ],
-        [
-          "SNU-2B-15-014_card_4",
-          "먹은"
-        ],
-        [
-          "SNU-2B-15-014_card_5",
-          "후"
-        ],
-        [
-          "SNU-2B-15-014_card_6",
-          "에"
-        ],
-        [
-          "SNU-2B-15-014_card_7",
-          "가면"
-        ],
-        [
-          "SNU-2B-15-014_card_8",
-          "어때요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-014_card_0",
-          "SNU-2B-15-014_card_1",
-          "SNU-2B-15-014_card_2",
-          "SNU-2B-15-014_card_3",
-          "SNU-2B-15-014_card_4",
-          "SNU-2B-15-014_card_5",
-          "SNU-2B-15-014_card_6",
-          "SNU-2B-15-014_card_7",
-          "SNU-2B-15-014_card_8"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-015",
-      "displaySentence": "숙제부터 한 후에 노는 게 어때?",
-      "tokens": [
-        [
-          "SNU-2B-15-015_card_0",
-          "숙제"
-        ],
-        [
-          "SNU-2B-15-015_card_1",
-          "부터"
-        ],
-        [
-          "SNU-2B-15-015_card_2",
-          "한"
-        ],
-        [
-          "SNU-2B-15-015_card_3",
-          "후"
-        ],
-        [
-          "SNU-2B-15-015_card_4",
-          "에"
-        ],
-        [
-          "SNU-2B-15-015_card_5",
-          "노"
-        ],
-        [
-          "SNU-2B-15-015_card_6",
-          "는"
-        ],
-        [
-          "SNU-2B-15-015_card_7",
-          "게"
-        ],
-        [
-          "SNU-2B-15-015_card_8",
-          "어때"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-015_card_0",
-          "SNU-2B-15-015_card_1",
-          "SNU-2B-15-015_card_2",
-          "SNU-2B-15-015_card_3",
-          "SNU-2B-15-015_card_4",
-          "SNU-2B-15-015_card_5",
-          "SNU-2B-15-015_card_6",
-          "SNU-2B-15-015_card_7",
-          "SNU-2B-15-015_card_8"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-016",
-      "displaySentence": "저는 아침을 먹은 후에 커피를 마셔요.",
-      "tokens": [
-        [
-          "SNU-2B-15-016_card_0",
-          "저"
-        ],
-        [
-          "SNU-2B-15-016_card_1",
-          "는"
-        ],
-        [
-          "SNU-2B-15-016_card_2",
-          "아침"
-        ],
-        [
-          "SNU-2B-15-016_card_3",
-          "을"
-        ],
-        [
-          "SNU-2B-15-016_card_4",
-          "먹은"
-        ],
-        [
-          "SNU-2B-15-016_card_5",
-          "후"
-        ],
-        [
-          "SNU-2B-15-016_card_6",
-          "에"
-        ],
-        [
-          "SNU-2B-15-016_card_7",
-          "커피"
-        ],
-        [
-          "SNU-2B-15-016_card_8",
           "를"
         ],
         [
-          "SNU-2B-15-016_card_9",
-          "마셔요"
+          "SNU-2B-15-012_card_2",
+          "낳"
+        ],
+        [
+          "SNU-2B-15-012_card_3",
+          "은"
+        ],
+        [
+          "SNU-2B-15-012_card_4",
+          "후"
+        ],
+        [
+          "SNU-2B-15-012_card_5",
+          "에"
+        ],
+        [
+          "SNU-2B-15-012_card_6",
+          "생활"
+        ],
+        [
+          "SNU-2B-15-012_card_7",
+          "이"
+        ],
+        [
+          "SNU-2B-15-012_card_8",
+          "많이"
+        ],
+        [
+          "SNU-2B-15-012_card_9",
+          "달라졌어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-012_card_0",
+          "SNU-2B-15-012_card_1",
+          "SNU-2B-15-012_card_2",
+          "SNU-2B-15-012_card_3",
+          "SNU-2B-15-012_card_4",
+          "SNU-2B-15-012_card_5",
+          "SNU-2B-15-012_card_6",
+          "SNU-2B-15-012_card_7",
+          "SNU-2B-15-012_card_8",
+          "SNU-2B-15-012_card_9"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-013",
+      "displaySentence": "도로가 넓어져서 교통이 편리해졌어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-013_card_0",
+          "도로"
+        ],
+        [
+          "SNU-2B-15-013_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-15-013_card_2",
+          "넓어져서"
+        ],
+        [
+          "SNU-2B-15-013_card_3",
+          "교통"
+        ],
+        [
+          "SNU-2B-15-013_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-15-013_card_5",
+          "편리해졌어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-013_card_0",
+          "SNU-2B-15-013_card_1",
+          "SNU-2B-15-013_card_2",
+          "SNU-2B-15-013_card_3",
+          "SNU-2B-15-013_card_4",
+          "SNU-2B-15-013_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-014",
+      "displaySentence": "공원이 생겨서 동네가 조용해졌어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-014_card_0",
+          "공원"
+        ],
+        [
+          "SNU-2B-15-014_card_1",
+          "이"
+        ],
+        [
+          "SNU-2B-15-014_card_2",
+          "생겨서"
+        ],
+        [
+          "SNU-2B-15-014_card_3",
+          "동네"
+        ],
+        [
+          "SNU-2B-15-014_card_4",
+          "가"
+        ],
+        [
+          "SNU-2B-15-014_card_5",
+          "조용해졌어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-014_card_0",
+          "SNU-2B-15-014_card_1",
+          "SNU-2B-15-014_card_2",
+          "SNU-2B-15-014_card_3",
+          "SNU-2B-15-014_card_4",
+          "SNU-2B-15-014_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-015",
+      "displaySentence": "월세가 올라서 생활비가 많아졌어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-015_card_0",
+          "월세"
+        ],
+        [
+          "SNU-2B-15-015_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-15-015_card_2",
+          "올라서"
+        ],
+        [
+          "SNU-2B-15-015_card_3",
+          "생활비"
+        ],
+        [
+          "SNU-2B-15-015_card_4",
+          "가"
+        ],
+        [
+          "SNU-2B-15-015_card_5",
+          "많아졌어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-015_card_0",
+          "SNU-2B-15-015_card_1",
+          "SNU-2B-15-015_card_2",
+          "SNU-2B-15-015_card_3",
+          "SNU-2B-15-015_card_4",
+          "SNU-2B-15-015_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-016",
+      "displaySentence": "한국 생활에 적응하면서 성격도 적극적으로 바뀌었어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-016_card_0",
+          "한국"
+        ],
+        [
+          "SNU-2B-15-016_card_1",
+          "생활"
+        ],
+        [
+          "SNU-2B-15-016_card_2",
+          "에"
+        ],
+        [
+          "SNU-2B-15-016_card_3",
+          "적응하면서"
+        ],
+        [
+          "SNU-2B-15-016_card_4",
+          "성격"
+        ],
+        [
+          "SNU-2B-15-016_card_5",
+          "도"
+        ],
+        [
+          "SNU-2B-15-016_card_6",
+          "적극적"
+        ],
+        [
+          "SNU-2B-15-016_card_7",
+          "으로"
+        ],
+        [
+          "SNU-2B-15-016_card_8",
+          "바뀌었어요"
         ]
       ],
       "acceptedOrders": [
@@ -719,128 +746,207 @@
           "SNU-2B-15-016_card_5",
           "SNU-2B-15-016_card_6",
           "SNU-2B-15-016_card_7",
-          "SNU-2B-15-016_card_8",
-          "SNU-2B-15-016_card_9"
+          "SNU-2B-15-016_card_8"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-15-017",
-      "displaySentence": "아키라 씨, 오래간만이에요.",
+      "displaySentence": "처음에는 외로웠지만 친구가 생겨서 즐거워졌어요.",
       "tokens": [
         [
           "SNU-2B-15-017_card_0",
-          "아키라"
+          "처음에"
         ],
         [
           "SNU-2B-15-017_card_1",
-          "씨"
-        ],
-        [
-          "SNU-2B-15-017_card_2",
-          "오래간만"
-        ],
-        [
-          "SNU-2B-15-017_card_3",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-017_card_0",
-          "SNU-2B-15-017_card_1",
-          "SNU-2B-15-017_card_2",
-          "SNU-2B-15-017_card_3"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-018",
-      "displaySentence": "지호 씨, 그동안 잘 지냈어요?",
-      "tokens": [
-        [
-          "SNU-2B-15-018_card_0",
-          "지호"
-        ],
-        [
-          "SNU-2B-15-018_card_1",
-          "씨"
-        ],
-        [
-          "SNU-2B-15-018_card_2",
-          "그동안"
-        ],
-        [
-          "SNU-2B-15-018_card_3",
-          "잘"
-        ],
-        [
-          "SNU-2B-15-018_card_4",
-          "지냈어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-018_card_0",
-          "SNU-2B-15-018_card_1",
-          "SNU-2B-15-018_card_2",
-          "SNU-2B-15-018_card_3",
-          "SNU-2B-15-018_card_4"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-019",
-      "displaySentence": "네, 잘 지냈어요.",
-      "tokens": [
-        [
-          "SNU-2B-15-019_card_0",
-          "네"
-        ],
-        [
-          "SNU-2B-15-019_card_1",
-          "잘"
-        ],
-        [
-          "SNU-2B-15-019_card_2",
-          "지냈어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-019_card_0",
-          "SNU-2B-15-019_card_1",
-          "SNU-2B-15-019_card_2"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-020",
-      "displaySentence": "아키라 씨는 요즘 어떻게 지내세요?",
-      "tokens": [
-        [
-          "SNU-2B-15-020_card_0",
-          "아키라 씨"
-        ],
-        [
-          "SNU-2B-15-020_card_1",
           "는"
         ],
         [
+          "SNU-2B-15-017_card_2",
+          "외로웠지"
+        ],
+        [
+          "SNU-2B-15-017_card_3",
+          "만"
+        ],
+        [
+          "SNU-2B-15-017_card_4",
+          "친구"
+        ],
+        [
+          "SNU-2B-15-017_card_5",
+          "가"
+        ],
+        [
+          "SNU-2B-15-017_card_6",
+          "생겨서"
+        ],
+        [
+          "SNU-2B-15-017_card_7",
+          "즐거워졌어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-017_card_0",
+          "SNU-2B-15-017_card_1",
+          "SNU-2B-15-017_card_2",
+          "SNU-2B-15-017_card_3",
+          "SNU-2B-15-017_card_4",
+          "SNU-2B-15-017_card_5",
+          "SNU-2B-15-017_card_6",
+          "SNU-2B-15-017_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-018",
+      "displaySentence": "운동을 시작한 후에 몸무게가 줄었어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-018_card_0",
+          "운동"
+        ],
+        [
+          "SNU-2B-15-018_card_1",
+          "을"
+        ],
+        [
+          "SNU-2B-15-018_card_2",
+          "시작한"
+        ],
+        [
+          "SNU-2B-15-018_card_3",
+          "후"
+        ],
+        [
+          "SNU-2B-15-018_card_4",
+          "에"
+        ],
+        [
+          "SNU-2B-15-018_card_5",
+          "몸무게"
+        ],
+        [
+          "SNU-2B-15-018_card_6",
+          "가"
+        ],
+        [
+          "SNU-2B-15-018_card_7",
+          "줄었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-018_card_0",
+          "SNU-2B-15-018_card_1",
+          "SNU-2B-15-018_card_2",
+          "SNU-2B-15-018_card_3",
+          "SNU-2B-15-018_card_4",
+          "SNU-2B-15-018_card_5",
+          "SNU-2B-15-018_card_6",
+          "SNU-2B-15-018_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-019",
+      "displaySentence": "한국에 오기 전에 회사에 다녔어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-019_card_0",
+          "한국"
+        ],
+        [
+          "SNU-2B-15-019_card_1",
+          "에"
+        ],
+        [
+          "SNU-2B-15-019_card_2",
+          "오기"
+        ],
+        [
+          "SNU-2B-15-019_card_3",
+          "전"
+        ],
+        [
+          "SNU-2B-15-019_card_4",
+          "에"
+        ],
+        [
+          "SNU-2B-15-019_card_5",
+          "회사"
+        ],
+        [
+          "SNU-2B-15-019_card_6",
+          "에"
+        ],
+        [
+          "SNU-2B-15-019_card_7",
+          "다녔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-15-019_card_0",
+          "SNU-2B-15-019_card_1",
+          "SNU-2B-15-019_card_2",
+          "SNU-2B-15-019_card_3",
+          "SNU-2B-15-019_card_4",
+          "SNU-2B-15-019_card_5",
+          "SNU-2B-15-019_card_6",
+          "SNU-2B-15-019_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-15-020",
+      "displaySentence": "과장으로 승진한 후에 일이 더 많아졌어요.",
+      "tokens": [
+        [
+          "SNU-2B-15-020_card_0",
+          "과장"
+        ],
+        [
+          "SNU-2B-15-020_card_1",
+          "으로"
+        ],
+        [
           "SNU-2B-15-020_card_2",
-          "요즘"
+          "승진한"
         ],
         [
           "SNU-2B-15-020_card_3",
-          "어떻게"
+          "후"
         ],
         [
           "SNU-2B-15-020_card_4",
-          "지내세요"
+          "에"
+        ],
+        [
+          "SNU-2B-15-020_card_5",
+          "일"
+        ],
+        [
+          "SNU-2B-15-020_card_6",
+          "이"
+        ],
+        [
+          "SNU-2B-15-020_card_7",
+          "더"
+        ],
+        [
+          "SNU-2B-15-020_card_8",
+          "많아졌어요"
         ]
       ],
       "acceptedOrders": [
@@ -849,194 +955,15 @@
           "SNU-2B-15-020_card_1",
           "SNU-2B-15-020_card_2",
           "SNU-2B-15-020_card_3",
-          "SNU-2B-15-020_card_4"
+          "SNU-2B-15-020_card_4",
+          "SNU-2B-15-020_card_5",
+          "SNU-2B-15-020_card_6",
+          "SNU-2B-15-020_card_7",
+          "SNU-2B-15-020_card_8"
         ]
       ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-021",
-      "displaySentence": "이제 한국 생활에 익숙해졌어요?",
-      "tokens": [
-        [
-          "SNU-2B-15-021_card_0",
-          "이제"
-        ],
-        [
-          "SNU-2B-15-021_card_1",
-          "한국"
-        ],
-        [
-          "SNU-2B-15-021_card_2",
-          "생활"
-        ],
-        [
-          "SNU-2B-15-021_card_3",
-          "에"
-        ],
-        [
-          "SNU-2B-15-021_card_4",
-          "익숙해졌어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-021_card_0",
-          "SNU-2B-15-021_card_1",
-          "SNU-2B-15-021_card_2",
-          "SNU-2B-15-021_card_3",
-          "SNU-2B-15-021_card_4"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-022",
-      "displaySentence": "네, 회사 일에도 익숙해지고 한국 음식도 잘 먹게 됐어요.",
-      "tokens": [
-        [
-          "SNU-2B-15-022_card_0",
-          "네"
-        ],
-        [
-          "SNU-2B-15-022_card_1",
-          "회사"
-        ],
-        [
-          "SNU-2B-15-022_card_2",
-          "일에"
-        ],
-        [
-          "SNU-2B-15-022_card_3",
-          "도"
-        ],
-        [
-          "SNU-2B-15-022_card_4",
-          "익숙해지고"
-        ],
-        [
-          "SNU-2B-15-022_card_5",
-          "한국"
-        ],
-        [
-          "SNU-2B-15-022_card_6",
-          "음식"
-        ],
-        [
-          "SNU-2B-15-022_card_7",
-          "도"
-        ],
-        [
-          "SNU-2B-15-022_card_8",
-          "잘"
-        ],
-        [
-          "SNU-2B-15-022_card_9",
-          "먹게"
-        ],
-        [
-          "SNU-2B-15-022_card_10",
-          "됐어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-022_card_0",
-          "SNU-2B-15-022_card_1",
-          "SNU-2B-15-022_card_2",
-          "SNU-2B-15-022_card_3",
-          "SNU-2B-15-022_card_4",
-          "SNU-2B-15-022_card_5",
-          "SNU-2B-15-022_card_6",
-          "SNU-2B-15-022_card_7",
-          "SNU-2B-15-022_card_8",
-          "SNU-2B-15-022_card_9",
-          "SNU-2B-15-022_card_10"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-023",
-      "displaySentence": "지호 씨도 별일 없지요?",
-      "tokens": [
-        [
-          "SNU-2B-15-023_card_0",
-          "지호 씨"
-        ],
-        [
-          "SNU-2B-15-023_card_1",
-          "도"
-        ],
-        [
-          "SNU-2B-15-023_card_2",
-          "별일"
-        ],
-        [
-          "SNU-2B-15-023_card_3",
-          "없지요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-023_card_0",
-          "SNU-2B-15-023_card_1",
-          "SNU-2B-15-023_card_2",
-          "SNU-2B-15-023_card_3"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-15-024",
-      "displaySentence": "전 다음 달부터 중국에서 일하게 됐어요.",
-      "tokens": [
-        [
-          "SNU-2B-15-024_card_0",
-          "전"
-        ],
-        [
-          "SNU-2B-15-024_card_1",
-          "다음"
-        ],
-        [
-          "SNU-2B-15-024_card_2",
-          "달"
-        ],
-        [
-          "SNU-2B-15-024_card_3",
-          "부터"
-        ],
-        [
-          "SNU-2B-15-024_card_4",
-          "중국"
-        ],
-        [
-          "SNU-2B-15-024_card_5",
-          "에서"
-        ],
-        [
-          "SNU-2B-15-024_card_6",
-          "일하게"
-        ],
-        [
-          "SNU-2B-15-024_card_7",
-          "됐어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-15-024_card_0",
-          "SNU-2B-15-024_card_1",
-          "SNU-2B-15-024_card_2",
-          "SNU-2B-15-024_card_3",
-          "SNU-2B-15-024_card_4",
-          "SNU-2B-15-024_card_5",
-          "SNU-2B-15-024_card_6",
-          "SNU-2B-15-024_card_7"
-        ]
-      ],
-      "note": "서울대 2B 15과 교재 기반"
+      "note": "SNU 2B lesson 15 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     }
   ]
 }

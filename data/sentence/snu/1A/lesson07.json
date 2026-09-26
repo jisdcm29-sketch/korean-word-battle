@@ -1,12 +1,13 @@
 {
   "book": "1A",
   "lesson": 7,
-  "source": "서울대 한국어 1A 학생 읽기 자료 · 7과 어휘/문법/예문/말하기 기반",
-  "questionCount": 22,
+  "source": "서울대 한국어 1A 학생책·워크북 7과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "A-아요/어요; N도",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1A-07-001",
-      "displaySentence": "오늘 날씨가 어때요?",
+      "displaySentence": "오늘 날씨가 아주 맑아요.",
       "tokens": [
         [
           "SNU-1A-07-001_card_0",
@@ -22,7 +23,11 @@
         ],
         [
           "SNU-1A-07-001_card_3",
-          "어때요"
+          "아주"
+        ],
+        [
+          "SNU-1A-07-001_card_4",
+          "맑아요"
         ]
       ],
       "acceptedOrders": [
@@ -30,29 +35,39 @@
           "SNU-1A-07-001_card_0",
           "SNU-1A-07-001_card_1",
           "SNU-1A-07-001_card_2",
-          "SNU-1A-07-001_card_3"
+          "SNU-1A-07-001_card_3",
+          "SNU-1A-07-001_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-002",
-      "displaySentence": "날씨가 아주 추워요.",
+      "displaySentence": "몽골은 겨울에 아주 추워요.",
       "tokens": [
         [
           "SNU-1A-07-002_card_0",
-          "날씨"
+          "몽골"
         ],
         [
           "SNU-1A-07-002_card_1",
-          "가"
+          "은"
         ],
         [
           "SNU-1A-07-002_card_2",
-          "아주"
+          "겨울"
         ],
         [
           "SNU-1A-07-002_card_3",
+          "에"
+        ],
+        [
+          "SNU-1A-07-002_card_4",
+          "아주"
+        ],
+        [
+          "SNU-1A-07-002_card_5",
           "추워요"
         ]
       ],
@@ -61,14 +76,17 @@
           "SNU-1A-07-002_card_0",
           "SNU-1A-07-002_card_1",
           "SNU-1A-07-002_card_2",
-          "SNU-1A-07-002_card_3"
+          "SNU-1A-07-002_card_3",
+          "SNU-1A-07-002_card_4",
+          "SNU-1A-07-002_card_5"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-003",
-      "displaySentence": "한국 음식이 매워요?",
+      "displaySentence": "한국은 봄에 따뜻해요.",
       "tokens": [
         [
           "SNU-1A-07-003_card_0",
@@ -76,15 +94,19 @@
         ],
         [
           "SNU-1A-07-003_card_1",
-          "음식"
+          "은"
         ],
         [
           "SNU-1A-07-003_card_2",
-          "이"
+          "봄"
         ],
         [
           "SNU-1A-07-003_card_3",
-          "매워요"
+          "에"
+        ],
+        [
+          "SNU-1A-07-003_card_4",
+          "따뜻해요"
         ]
       ],
       "acceptedOrders": [
@@ -92,48 +114,61 @@
           "SNU-1A-07-003_card_0",
           "SNU-1A-07-003_card_1",
           "SNU-1A-07-003_card_2",
-          "SNU-1A-07-003_card_3"
+          "SNU-1A-07-003_card_3",
+          "SNU-1A-07-003_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-004",
-      "displaySentence": "네, 좀 매워요.",
+      "displaySentence": "여름에는 날씨가 더워요.",
       "tokens": [
         [
           "SNU-1A-07-004_card_0",
-          "네"
+          "여름"
         ],
         [
           "SNU-1A-07-004_card_1",
-          "좀"
+          "에는"
         ],
         [
           "SNU-1A-07-004_card_2",
-          "매워요"
+          "날씨"
+        ],
+        [
+          "SNU-1A-07-004_card_3",
+          "가"
+        ],
+        [
+          "SNU-1A-07-004_card_4",
+          "더워요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1A-07-004_card_0",
           "SNU-1A-07-004_card_1",
-          "SNU-1A-07-004_card_2"
+          "SNU-1A-07-004_card_2",
+          "SNU-1A-07-004_card_3",
+          "SNU-1A-07-004_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-005",
-      "displaySentence": "어제는 날씨가 더웠어요.",
+      "displaySentence": "가을에는 날씨가 시원해요.",
       "tokens": [
         [
           "SNU-1A-07-005_card_0",
-          "어제"
+          "가을"
         ],
         [
           "SNU-1A-07-005_card_1",
-          "는"
+          "에는"
         ],
         [
           "SNU-1A-07-005_card_2",
@@ -145,7 +180,7 @@
         ],
         [
           "SNU-1A-07-005_card_4",
-          "더웠어요"
+          "시원해요"
         ]
       ],
       "acceptedOrders": [
@@ -157,27 +192,32 @@
           "SNU-1A-07-005_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-006",
-      "displaySentence": "시험이 아주 어려웠어요.",
+      "displaySentence": "오늘은 하늘도 파래요.",
       "tokens": [
         [
           "SNU-1A-07-006_card_0",
-          "시험"
+          "오늘"
         ],
         [
           "SNU-1A-07-006_card_1",
-          "이"
+          "은"
         ],
         [
           "SNU-1A-07-006_card_2",
-          "아주"
+          "하늘"
         ],
         [
           "SNU-1A-07-006_card_3",
-          "어려웠어요"
+          "도"
+        ],
+        [
+          "SNU-1A-07-006_card_4",
+          "파래요"
         ]
       ],
       "acceptedOrders": [
@@ -185,33 +225,39 @@
           "SNU-1A-07-006_card_0",
           "SNU-1A-07-006_card_1",
           "SNU-1A-07-006_card_2",
-          "SNU-1A-07-006_card_3"
+          "SNU-1A-07-006_card_3",
+          "SNU-1A-07-006_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-007",
-      "displaySentence": "오늘도 날씨가 추워요?",
+      "displaySentence": "제 고향도 겨울에 추워요.",
       "tokens": [
         [
           "SNU-1A-07-007_card_0",
-          "오늘"
+          "제"
         ],
         [
           "SNU-1A-07-007_card_1",
-          "도"
+          "고향"
         ],
         [
           "SNU-1A-07-007_card_2",
-          "날씨"
+          "도"
         ],
         [
           "SNU-1A-07-007_card_3",
-          "가"
+          "겨울"
         ],
         [
           "SNU-1A-07-007_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-07-007_card_5",
           "추워요"
         ]
       ],
@@ -221,30 +267,36 @@
           "SNU-1A-07-007_card_1",
           "SNU-1A-07-007_card_2",
           "SNU-1A-07-007_card_3",
-          "SNU-1A-07-007_card_4"
+          "SNU-1A-07-007_card_4",
+          "SNU-1A-07-007_card_5"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-008",
-      "displaySentence": "네, 춥지만 아주 맑아요.",
+      "displaySentence": "오늘도 비가 와요.",
       "tokens": [
         [
           "SNU-1A-07-008_card_0",
-          "네"
+          "오늘"
         ],
         [
           "SNU-1A-07-008_card_1",
-          "춥지만"
+          "도"
         ],
         [
           "SNU-1A-07-008_card_2",
-          "아주"
+          "비"
         ],
         [
           "SNU-1A-07-008_card_3",
-          "맑아요"
+          "가"
+        ],
+        [
+          "SNU-1A-07-008_card_4",
+          "와요"
         ]
       ],
       "acceptedOrders": [
@@ -252,30 +304,40 @@
           "SNU-1A-07-008_card_0",
           "SNU-1A-07-008_card_1",
           "SNU-1A-07-008_card_2",
-          "SNU-1A-07-008_card_3"
+          "SNU-1A-07-008_card_3",
+          "SNU-1A-07-008_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-009",
-      "displaySentence": "서울식당은 비싸지만 맛있어요.",
+      "displaySentence": "겨울에는 눈도 많이 와요.",
       "tokens": [
         [
           "SNU-1A-07-009_card_0",
-          "서울식당"
+          "겨울"
         ],
         [
           "SNU-1A-07-009_card_1",
-          "은"
+          "에는"
         ],
         [
           "SNU-1A-07-009_card_2",
-          "비싸지만"
+          "눈"
         ],
         [
           "SNU-1A-07-009_card_3",
-          "맛있어요"
+          "도"
+        ],
+        [
+          "SNU-1A-07-009_card_4",
+          "많이"
+        ],
+        [
+          "SNU-1A-07-009_card_5",
+          "와요"
         ]
       ],
       "acceptedOrders": [
@@ -283,34 +345,37 @@
           "SNU-1A-07-009_card_0",
           "SNU-1A-07-009_card_1",
           "SNU-1A-07-009_card_2",
-          "SNU-1A-07-009_card_3"
+          "SNU-1A-07-009_card_3",
+          "SNU-1A-07-009_card_4",
+          "SNU-1A-07-009_card_5"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-010",
-      "displaySentence": "한국어 공부는 어렵지만 재미있어요.",
+      "displaySentence": "이 가방은 아주 가벼워요.",
       "tokens": [
         [
           "SNU-1A-07-010_card_0",
-          "한국어"
+          "이"
         ],
         [
           "SNU-1A-07-010_card_1",
-          "공부"
+          "가방"
         ],
         [
           "SNU-1A-07-010_card_2",
-          "는"
+          "은"
         ],
         [
           "SNU-1A-07-010_card_3",
-          "어렵지만"
+          "아주"
         ],
         [
           "SNU-1A-07-010_card_4",
-          "재미있어요"
+          "가벼워요"
         ]
       ],
       "acceptedOrders": [
@@ -322,11 +387,12 @@
           "SNU-1A-07-010_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-011",
-      "displaySentence": "저는 김치를 먹지만 친구는 김치를 안 먹어요.",
+      "displaySentence": "저 가방은 너무 무거워요.",
       "tokens": [
         [
           "SNU-1A-07-011_card_0",
@@ -334,43 +400,19 @@
         ],
         [
           "SNU-1A-07-011_card_1",
-          "는"
+          "가방"
         ],
         [
           "SNU-1A-07-011_card_2",
-          "김치"
+          "은"
         ],
         [
           "SNU-1A-07-011_card_3",
-          "를"
+          "너무"
         ],
         [
           "SNU-1A-07-011_card_4",
-          "먹지만"
-        ],
-        [
-          "SNU-1A-07-011_card_5",
-          "친구"
-        ],
-        [
-          "SNU-1A-07-011_card_6",
-          "는"
-        ],
-        [
-          "SNU-1A-07-011_card_7",
-          "김치"
-        ],
-        [
-          "SNU-1A-07-011_card_8",
-          "를"
-        ],
-        [
-          "SNU-1A-07-011_card_9",
-          "안"
-        ],
-        [
-          "SNU-1A-07-011_card_10",
-          "먹어요"
+          "무거워요"
         ]
       ],
       "acceptedOrders": [
@@ -379,28 +421,23 @@
           "SNU-1A-07-011_card_1",
           "SNU-1A-07-011_card_2",
           "SNU-1A-07-011_card_3",
-          "SNU-1A-07-011_card_4",
-          "SNU-1A-07-011_card_5",
-          "SNU-1A-07-011_card_6",
-          "SNU-1A-07-011_card_7",
-          "SNU-1A-07-011_card_8",
-          "SNU-1A-07-011_card_9",
-          "SNU-1A-07-011_card_10"
+          "SNU-1A-07-011_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-012",
-      "displaySentence": "어제 저는 학교에 갔지만 동생은 안 갔어요.",
+      "displaySentence": "한국어 숙제는 조금 어려워요.",
       "tokens": [
         [
           "SNU-1A-07-012_card_0",
-          "어제"
+          "한국어"
         ],
         [
           "SNU-1A-07-012_card_1",
-          "저"
+          "숙제"
         ],
         [
           "SNU-1A-07-012_card_2",
@@ -408,31 +445,11 @@
         ],
         [
           "SNU-1A-07-012_card_3",
-          "학교"
+          "조금"
         ],
         [
           "SNU-1A-07-012_card_4",
-          "에"
-        ],
-        [
-          "SNU-1A-07-012_card_5",
-          "갔지만"
-        ],
-        [
-          "SNU-1A-07-012_card_6",
-          "동생"
-        ],
-        [
-          "SNU-1A-07-012_card_7",
-          "은"
-        ],
-        [
-          "SNU-1A-07-012_card_8",
-          "안"
-        ],
-        [
-          "SNU-1A-07-012_card_9",
-          "갔어요"
+          "어려워요"
         ]
       ],
       "acceptedOrders": [
@@ -441,39 +458,35 @@
           "SNU-1A-07-012_card_1",
           "SNU-1A-07-012_card_2",
           "SNU-1A-07-012_card_3",
-          "SNU-1A-07-012_card_4",
-          "SNU-1A-07-012_card_5",
-          "SNU-1A-07-012_card_6",
-          "SNU-1A-07-012_card_7",
-          "SNU-1A-07-012_card_8",
-          "SNU-1A-07-012_card_9"
+          "SNU-1A-07-012_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-013",
-      "displaySentence": "오늘은 날씨가 어떻습니까?",
+      "displaySentence": "이 문제는 아주 쉬워요.",
       "tokens": [
         [
           "SNU-1A-07-013_card_0",
-          "오늘"
+          "이"
         ],
         [
           "SNU-1A-07-013_card_1",
-          "은"
+          "문제"
         ],
         [
           "SNU-1A-07-013_card_2",
-          "날씨"
+          "는"
         ],
         [
           "SNU-1A-07-013_card_3",
-          "가"
+          "아주"
         ],
         [
           "SNU-1A-07-013_card_4",
-          "어떻습니까"
+          "쉬워요"
         ]
       ],
       "acceptedOrders": [
@@ -485,281 +498,262 @@
           "SNU-1A-07-013_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
       "id": "SNU-1A-07-014",
-      "displaySentence": "비가 옵니다.",
+      "displaySentence": "한국 음식은 조금 매워요.",
       "tokens": [
         [
           "SNU-1A-07-014_card_0",
-          "비"
-        ],
-        [
-          "SNU-1A-07-014_card_1",
-          "가"
-        ],
-        [
-          "SNU-1A-07-014_card_2",
-          "옵니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-07-014_card_0",
-          "SNU-1A-07-014_card_1",
-          "SNU-1A-07-014_card_2"
-        ]
-      ],
-      "note": "서울대 1A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-07-015",
-      "displaySentence": "날씨가 시원합니다.",
-      "tokens": [
-        [
-          "SNU-1A-07-015_card_0",
-          "날씨"
-        ],
-        [
-          "SNU-1A-07-015_card_1",
-          "가"
-        ],
-        [
-          "SNU-1A-07-015_card_2",
-          "시원합니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-07-015_card_0",
-          "SNU-1A-07-015_card_1",
-          "SNU-1A-07-015_card_2"
-        ]
-      ],
-      "note": "서울대 1A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-07-016",
-      "displaySentence": "김치가 맵습니다.",
-      "tokens": [
-        [
-          "SNU-1A-07-016_card_0",
-          "김치"
-        ],
-        [
-          "SNU-1A-07-016_card_1",
-          "가"
-        ],
-        [
-          "SNU-1A-07-016_card_2",
-          "맵습니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-07-016_card_0",
-          "SNU-1A-07-016_card_1",
-          "SNU-1A-07-016_card_2"
-        ]
-      ],
-      "note": "서울대 1A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-07-017",
-      "displaySentence": "영국 가수가 한국에 옵니다.",
-      "tokens": [
-        [
-          "SNU-1A-07-017_card_0",
-          "영국"
-        ],
-        [
-          "SNU-1A-07-017_card_1",
-          "가수"
-        ],
-        [
-          "SNU-1A-07-017_card_2",
-          "가"
-        ],
-        [
-          "SNU-1A-07-017_card_3",
           "한국"
         ],
         [
-          "SNU-1A-07-017_card_4",
-          "에"
+          "SNU-1A-07-014_card_1",
+          "음식"
         ],
         [
-          "SNU-1A-07-017_card_5",
-          "옵니다"
+          "SNU-1A-07-014_card_2",
+          "은"
+        ],
+        [
+          "SNU-1A-07-014_card_3",
+          "조금"
+        ],
+        [
+          "SNU-1A-07-014_card_4",
+          "매워요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1A-07-017_card_0",
-          "SNU-1A-07-017_card_1",
-          "SNU-1A-07-017_card_2",
-          "SNU-1A-07-017_card_3",
-          "SNU-1A-07-017_card_4",
-          "SNU-1A-07-017_card_5"
+          "SNU-1A-07-014_card_0",
+          "SNU-1A-07-014_card_1",
+          "SNU-1A-07-014_card_2",
+          "SNU-1A-07-014_card_3",
+          "SNU-1A-07-014_card_4"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     },
     {
-      "id": "SNU-1A-07-018",
-      "displaySentence": "무엇을 먹습니까?",
+      "id": "SNU-1A-07-015",
+      "displaySentence": "회도 아주 맛있어요.",
       "tokens": [
         [
-          "SNU-1A-07-018_card_0",
-          "무엇"
+          "SNU-1A-07-015_card_0",
+          "회"
         ],
         [
-          "SNU-1A-07-018_card_1",
-          "을"
+          "SNU-1A-07-015_card_1",
+          "도"
         ],
         [
-          "SNU-1A-07-018_card_2",
-          "먹습니까"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-07-018_card_0",
-          "SNU-1A-07-018_card_1",
-          "SNU-1A-07-018_card_2"
-        ]
-      ],
-      "note": "서울대 1A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-07-019",
-      "displaySentence": "비빔밥을 먹습니다.",
-      "tokens": [
-        [
-          "SNU-1A-07-019_card_0",
-          "비빔밥"
+          "SNU-1A-07-015_card_2",
+          "아주"
         ],
         [
-          "SNU-1A-07-019_card_1",
-          "을"
-        ],
-        [
-          "SNU-1A-07-019_card_2",
-          "먹습니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-07-019_card_0",
-          "SNU-1A-07-019_card_1",
-          "SNU-1A-07-019_card_2"
-        ]
-      ],
-      "note": "서울대 1A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-07-020",
-      "displaySentence": "파리는 요즘 날씨가 어떻습니까?",
-      "tokens": [
-        [
-          "SNU-1A-07-020_card_0",
-          "파리"
-        ],
-        [
-          "SNU-1A-07-020_card_1",
-          "는"
-        ],
-        [
-          "SNU-1A-07-020_card_2",
-          "요즘"
-        ],
-        [
-          "SNU-1A-07-020_card_3",
-          "날씨"
-        ],
-        [
-          "SNU-1A-07-020_card_4",
-          "가"
-        ],
-        [
-          "SNU-1A-07-020_card_5",
-          "어떻습니까"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-07-020_card_0",
-          "SNU-1A-07-020_card_1",
-          "SNU-1A-07-020_card_2",
-          "SNU-1A-07-020_card_3",
-          "SNU-1A-07-020_card_4",
-          "SNU-1A-07-020_card_5"
-        ]
-      ],
-      "note": "서울대 1A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-07-021",
-      "displaySentence": "춥고 눈이 옵니다.",
-      "tokens": [
-        [
-          "SNU-1A-07-021_card_0",
-          "춥고"
-        ],
-        [
-          "SNU-1A-07-021_card_1",
-          "눈"
-        ],
-        [
-          "SNU-1A-07-021_card_2",
-          "이"
-        ],
-        [
-          "SNU-1A-07-021_card_3",
-          "옵니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-07-021_card_0",
-          "SNU-1A-07-021_card_1",
-          "SNU-1A-07-021_card_2",
-          "SNU-1A-07-021_card_3"
-        ]
-      ],
-      "note": "서울대 1A 7과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-07-022",
-      "displaySentence": "사과가 싸고 맛있어요.",
-      "tokens": [
-        [
-          "SNU-1A-07-022_card_0",
-          "사과"
-        ],
-        [
-          "SNU-1A-07-022_card_1",
-          "가"
-        ],
-        [
-          "SNU-1A-07-022_card_2",
-          "싸고"
-        ],
-        [
-          "SNU-1A-07-022_card_3",
+          "SNU-1A-07-015_card_3",
           "맛있어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1A-07-022_card_0",
-          "SNU-1A-07-022_card_1",
-          "SNU-1A-07-022_card_2",
-          "SNU-1A-07-022_card_3"
+          "SNU-1A-07-015_card_0",
+          "SNU-1A-07-015_card_1",
+          "SNU-1A-07-015_card_2",
+          "SNU-1A-07-015_card_3"
         ]
       ],
-      "note": "서울대 1A 7과 교재 기반"
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
+    },
+    {
+      "id": "SNU-1A-07-016",
+      "displaySentence": "요즘 날씨가 흐려요.",
+      "tokens": [
+        [
+          "SNU-1A-07-016_card_0",
+          "요즘"
+        ],
+        [
+          "SNU-1A-07-016_card_1",
+          "날씨"
+        ],
+        [
+          "SNU-1A-07-016_card_2",
+          "가"
+        ],
+        [
+          "SNU-1A-07-016_card_3",
+          "흐려요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-07-016_card_0",
+          "SNU-1A-07-016_card_1",
+          "SNU-1A-07-016_card_2",
+          "SNU-1A-07-016_card_3"
+        ]
+      ],
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
+    },
+    {
+      "id": "SNU-1A-07-017",
+      "displaySentence": "가을에는 단풍도 아름다워요.",
+      "tokens": [
+        [
+          "SNU-1A-07-017_card_0",
+          "가을"
+        ],
+        [
+          "SNU-1A-07-017_card_1",
+          "에는"
+        ],
+        [
+          "SNU-1A-07-017_card_2",
+          "단풍"
+        ],
+        [
+          "SNU-1A-07-017_card_3",
+          "도"
+        ],
+        [
+          "SNU-1A-07-017_card_4",
+          "아름다워요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-07-017_card_0",
+          "SNU-1A-07-017_card_1",
+          "SNU-1A-07-017_card_2",
+          "SNU-1A-07-017_card_3",
+          "SNU-1A-07-017_card_4"
+        ]
+      ],
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
+    },
+    {
+      "id": "SNU-1A-07-018",
+      "displaySentence": "여름에는 바다도 시원해요.",
+      "tokens": [
+        [
+          "SNU-1A-07-018_card_0",
+          "여름"
+        ],
+        [
+          "SNU-1A-07-018_card_1",
+          "에는"
+        ],
+        [
+          "SNU-1A-07-018_card_2",
+          "바다"
+        ],
+        [
+          "SNU-1A-07-018_card_3",
+          "도"
+        ],
+        [
+          "SNU-1A-07-018_card_4",
+          "시원해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-07-018_card_0",
+          "SNU-1A-07-018_card_1",
+          "SNU-1A-07-018_card_2",
+          "SNU-1A-07-018_card_3",
+          "SNU-1A-07-018_card_4"
+        ]
+      ],
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
+    },
+    {
+      "id": "SNU-1A-07-019",
+      "displaySentence": "스키장은 겨울에 아주 추워요.",
+      "tokens": [
+        [
+          "SNU-1A-07-019_card_0",
+          "스키장"
+        ],
+        [
+          "SNU-1A-07-019_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-07-019_card_2",
+          "겨울"
+        ],
+        [
+          "SNU-1A-07-019_card_3",
+          "에"
+        ],
+        [
+          "SNU-1A-07-019_card_4",
+          "아주"
+        ],
+        [
+          "SNU-1A-07-019_card_5",
+          "추워요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-07-019_card_0",
+          "SNU-1A-07-019_card_1",
+          "SNU-1A-07-019_card_2",
+          "SNU-1A-07-019_card_3",
+          "SNU-1A-07-019_card_4",
+          "SNU-1A-07-019_card_5"
+        ]
+      ],
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
+    },
+    {
+      "id": "SNU-1A-07-020",
+      "displaySentence": "여행에는 선글라스도 필요해요.",
+      "tokens": [
+        [
+          "SNU-1A-07-020_card_0",
+          "여행"
+        ],
+        [
+          "SNU-1A-07-020_card_1",
+          "에는"
+        ],
+        [
+          "SNU-1A-07-020_card_2",
+          "선글라스"
+        ],
+        [
+          "SNU-1A-07-020_card_3",
+          "도"
+        ],
+        [
+          "SNU-1A-07-020_card_4",
+          "필요해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-07-020_card_0",
+          "SNU-1A-07-020_card_1",
+          "SNU-1A-07-020_card_2",
+          "SNU-1A-07-020_card_3",
+          "SNU-1A-07-020_card_4"
+        ]
+      ],
+      "note": "서울대 1A 7과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 7과 SB/WB 문법(A-아요/어요; N도) + data/snu/1A/lesson07.json 어휘"
     }
   ]
 }

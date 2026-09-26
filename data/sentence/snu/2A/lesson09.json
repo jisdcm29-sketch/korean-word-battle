@@ -1,32 +1,37 @@
 {
   "book": "2A",
   "lesson": 9,
-  "source": "서울대 한국어 2A 학생 읽기 자료 · 9과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "서울대 한국어 2A 학생책·워크북 9과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2A-09-001",
-      "displaySentence": "켈리 씨 좀 바꿔 주세요.",
+      "displaySentence": "문의할 게 있는데요, 담당자와 통화할 수 있을까요?",
       "tokens": [
         [
           "SNU-2A-09-001_card_0",
-          "켈리"
+          "문의할"
         ],
         [
           "SNU-2A-09-001_card_1",
-          "씨"
+          "게"
         ],
         [
           "SNU-2A-09-001_card_2",
-          "좀"
+          "있는데요,"
         ],
         [
           "SNU-2A-09-001_card_3",
-          "바꿔"
+          "담당자"
         ],
         [
           "SNU-2A-09-001_card_4",
-          "주세요"
+          "와"
+        ],
+        [
+          "SNU-2A-09-001_card_5",
+          "통화할 수 있을까요?"
         ]
       ],
       "acceptedOrders": [
@@ -35,91 +40,130 @@
           "SNU-2A-09-001_card_1",
           "SNU-2A-09-001_card_2",
           "SNU-2A-09-001_card_3",
-          "SNU-2A-09-001_card_4"
+          "SNU-2A-09-001_card_4",
+          "SNU-2A-09-001_card_5"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-002",
-      "displaySentence": "지금 집에 없는데요.",
+      "displaySentence": "김 선생님은 지금 회의 중인데요.",
       "tokens": [
         [
           "SNU-2A-09-002_card_0",
-          "지금"
+          "김"
         ],
         [
           "SNU-2A-09-002_card_1",
-          "집"
+          "선생님"
         ],
         [
           "SNU-2A-09-002_card_2",
-          "에"
-        ],
-        [
-          "SNU-2A-09-002_card_3",
-          "없는데요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-002_card_0",
-          "SNU-2A-09-002_card_1",
-          "SNU-2A-09-002_card_2",
-          "SNU-2A-09-002_card_3"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-003",
-      "displaySentence": "이건 너무 비싼데요.",
-      "tokens": [
-        [
-          "SNU-2A-09-003_card_0",
-          "이건"
-        ],
-        [
-          "SNU-2A-09-003_card_1",
-          "너무"
-        ],
-        [
-          "SNU-2A-09-003_card_2",
-          "비싼데요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-003_card_0",
-          "SNU-2A-09-003_card_1",
-          "SNU-2A-09-003_card_2"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-004",
-      "displaySentence": "이 옷은 좀 작은데요.",
-      "tokens": [
-        [
-          "SNU-2A-09-004_card_0",
-          "이"
-        ],
-        [
-          "SNU-2A-09-004_card_1",
-          "옷"
-        ],
-        [
-          "SNU-2A-09-004_card_2",
           "은"
         ],
         [
+          "SNU-2A-09-002_card_3",
+          "지금"
+        ],
+        [
+          "SNU-2A-09-002_card_4",
+          "회"
+        ],
+        [
+          "SNU-2A-09-002_card_5",
+          "의"
+        ],
+        [
+          "SNU-2A-09-002_card_6",
+          "중인데요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-002_card_0",
+          "SNU-2A-09-002_card_1",
+          "SNU-2A-09-002_card_2",
+          "SNU-2A-09-002_card_3",
+          "SNU-2A-09-002_card_4",
+          "SNU-2A-09-002_card_5",
+          "SNU-2A-09-002_card_6"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-003",
+      "displaySentence": "담당자는 이번 주에 출장 중인데요.",
+      "tokens": [
+        [
+          "SNU-2A-09-003_card_0",
+          "담당자"
+        ],
+        [
+          "SNU-2A-09-003_card_1",
+          "는"
+        ],
+        [
+          "SNU-2A-09-003_card_2",
+          "이번"
+        ],
+        [
+          "SNU-2A-09-003_card_3",
+          "주"
+        ],
+        [
+          "SNU-2A-09-003_card_4",
+          "에"
+        ],
+        [
+          "SNU-2A-09-003_card_5",
+          "출장"
+        ],
+        [
+          "SNU-2A-09-003_card_6",
+          "중인데요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-003_card_0",
+          "SNU-2A-09-003_card_1",
+          "SNU-2A-09-003_card_2",
+          "SNU-2A-09-003_card_3",
+          "SNU-2A-09-003_card_4",
+          "SNU-2A-09-003_card_5",
+          "SNU-2A-09-003_card_6"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-004",
+      "displaySentence": "사장님은 잠깐 외출 중인데요.",
+      "tokens": [
+        [
+          "SNU-2A-09-004_card_0",
+          "사장님"
+        ],
+        [
+          "SNU-2A-09-004_card_1",
+          "은"
+        ],
+        [
+          "SNU-2A-09-004_card_2",
+          "잠깐"
+        ],
+        [
           "SNU-2A-09-004_card_3",
-          "좀"
+          "외출"
         ],
         [
           "SNU-2A-09-004_card_4",
-          "작은데요"
+          "중인데요"
         ]
       ],
       "acceptedOrders": [
@@ -131,149 +175,266 @@
           "SNU-2A-09-004_card_4"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-005",
-      "displaySentence": "지금 뭐 해요?",
+      "displaySentence": "직원에게 전화를 바꿔 드리는 중이에요.",
       "tokens": [
         [
           "SNU-2A-09-005_card_0",
-          "지금"
+          "직원"
         ],
         [
           "SNU-2A-09-005_card_1",
-          "뭐"
+          "에게"
         ],
         [
           "SNU-2A-09-005_card_2",
-          "해요"
+          "전화"
+        ],
+        [
+          "SNU-2A-09-005_card_3",
+          "를"
+        ],
+        [
+          "SNU-2A-09-005_card_4",
+          "바꿔"
+        ],
+        [
+          "SNU-2A-09-005_card_5",
+          "드리"
+        ],
+        [
+          "SNU-2A-09-005_card_6",
+          "는"
+        ],
+        [
+          "SNU-2A-09-005_card_7",
+          "중"
+        ],
+        [
+          "SNU-2A-09-005_card_8",
+          "이에요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-2A-09-005_card_0",
           "SNU-2A-09-005_card_1",
-          "SNU-2A-09-005_card_2"
+          "SNU-2A-09-005_card_2",
+          "SNU-2A-09-005_card_3",
+          "SNU-2A-09-005_card_4",
+          "SNU-2A-09-005_card_5",
+          "SNU-2A-09-005_card_6",
+          "SNU-2A-09-005_card_7",
+          "SNU-2A-09-005_card_8"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-006",
-      "displaySentence": "아니요, 저는 학생인데요.",
+      "displaySentence": "예약 날짜를 바꾸는 중이에요.",
       "tokens": [
         [
           "SNU-2A-09-006_card_0",
-          "아니요"
+          "예약"
         ],
         [
           "SNU-2A-09-006_card_1",
-          "저"
+          "날짜"
         ],
         [
           "SNU-2A-09-006_card_2",
-          "는"
-        ],
-        [
-          "SNU-2A-09-006_card_3",
-          "학생인데요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-006_card_0",
-          "SNU-2A-09-006_card_1",
-          "SNU-2A-09-006_card_2",
-          "SNU-2A-09-006_card_3"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-007",
-      "displaySentence": "지금 뭐 하고 있어요?",
-      "tokens": [
-        [
-          "SNU-2A-09-007_card_0",
-          "지금"
-        ],
-        [
-          "SNU-2A-09-007_card_1",
-          "뭐"
-        ],
-        [
-          "SNU-2A-09-007_card_2",
-          "하고"
-        ],
-        [
-          "SNU-2A-09-007_card_3",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-007_card_0",
-          "SNU-2A-09-007_card_1",
-          "SNU-2A-09-007_card_2",
-          "SNU-2A-09-007_card_3"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-008",
-      "displaySentence": "이메일 쓰는 중이에요.",
-      "tokens": [
-        [
-          "SNU-2A-09-008_card_0",
-          "이메일"
-        ],
-        [
-          "SNU-2A-09-008_card_1",
-          "쓰는"
-        ],
-        [
-          "SNU-2A-09-008_card_2",
-          "중"
-        ],
-        [
-          "SNU-2A-09-008_card_3",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-008_card_0",
-          "SNU-2A-09-008_card_1",
-          "SNU-2A-09-008_card_2",
-          "SNU-2A-09-008_card_3"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-009",
-      "displaySentence": "친구를 기다리는 중이에요.",
-      "tokens": [
-        [
-          "SNU-2A-09-009_card_0",
-          "친구"
-        ],
-        [
-          "SNU-2A-09-009_card_1",
           "를"
         ],
         [
-          "SNU-2A-09-009_card_2",
-          "기다리는"
+          "SNU-2A-09-006_card_3",
+          "바꾸"
         ],
         [
-          "SNU-2A-09-009_card_3",
+          "SNU-2A-09-006_card_4",
+          "는"
+        ],
+        [
+          "SNU-2A-09-006_card_5",
           "중"
         ],
         [
+          "SNU-2A-09-006_card_6",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-006_card_0",
+          "SNU-2A-09-006_card_1",
+          "SNU-2A-09-006_card_2",
+          "SNU-2A-09-006_card_3",
+          "SNU-2A-09-006_card_4",
+          "SNU-2A-09-006_card_5",
+          "SNU-2A-09-006_card_6"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-007",
+      "displaySentence": "홈페이지에서 이용 시간을 알아보는 중이에요.",
+      "tokens": [
+        [
+          "SNU-2A-09-007_card_0",
+          "홈페이지"
+        ],
+        [
+          "SNU-2A-09-007_card_1",
+          "에서"
+        ],
+        [
+          "SNU-2A-09-007_card_2",
+          "이용"
+        ],
+        [
+          "SNU-2A-09-007_card_3",
+          "시간"
+        ],
+        [
+          "SNU-2A-09-007_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-09-007_card_5",
+          "알아보"
+        ],
+        [
+          "SNU-2A-09-007_card_6",
+          "는"
+        ],
+        [
+          "SNU-2A-09-007_card_7",
+          "중"
+        ],
+        [
+          "SNU-2A-09-007_card_8",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-007_card_0",
+          "SNU-2A-09-007_card_1",
+          "SNU-2A-09-007_card_2",
+          "SNU-2A-09-007_card_3",
+          "SNU-2A-09-007_card_4",
+          "SNU-2A-09-007_card_5",
+          "SNU-2A-09-007_card_6",
+          "SNU-2A-09-007_card_7",
+          "SNU-2A-09-007_card_8"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-008",
+      "displaySentence": "직원이 손님의 메모를 남기는 중이에요.",
+      "tokens": [
+        [
+          "SNU-2A-09-008_card_0",
+          "직원"
+        ],
+        [
+          "SNU-2A-09-008_card_1",
+          "이"
+        ],
+        [
+          "SNU-2A-09-008_card_2",
+          "손님"
+        ],
+        [
+          "SNU-2A-09-008_card_3",
+          "의"
+        ],
+        [
+          "SNU-2A-09-008_card_4",
+          "메모"
+        ],
+        [
+          "SNU-2A-09-008_card_5",
+          "를"
+        ],
+        [
+          "SNU-2A-09-008_card_6",
+          "남기"
+        ],
+        [
+          "SNU-2A-09-008_card_7",
+          "는"
+        ],
+        [
+          "SNU-2A-09-008_card_8",
+          "중"
+        ],
+        [
+          "SNU-2A-09-008_card_9",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-008_card_0",
+          "SNU-2A-09-008_card_1",
+          "SNU-2A-09-008_card_2",
+          "SNU-2A-09-008_card_3",
+          "SNU-2A-09-008_card_4",
+          "SNU-2A-09-008_card_5",
+          "SNU-2A-09-008_card_6",
+          "SNU-2A-09-008_card_7",
+          "SNU-2A-09-008_card_8",
+          "SNU-2A-09-008_card_9"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-009",
+      "displaySentence": "인터넷으로 신청서를 쓰는 중이에요.",
+      "tokens": [
+        [
+          "SNU-2A-09-009_card_0",
+          "인터넷"
+        ],
+        [
+          "SNU-2A-09-009_card_1",
+          "으로"
+        ],
+        [
+          "SNU-2A-09-009_card_2",
+          "신청서"
+        ],
+        [
+          "SNU-2A-09-009_card_3",
+          "를"
+        ],
+        [
           "SNU-2A-09-009_card_4",
+          "쓰"
+        ],
+        [
+          "SNU-2A-09-009_card_5",
+          "는"
+        ],
+        [
+          "SNU-2A-09-009_card_6",
+          "중"
+        ],
+        [
+          "SNU-2A-09-009_card_7",
           "이에요"
         ]
       ],
@@ -283,46 +444,42 @@
           "SNU-2A-09-009_card_1",
           "SNU-2A-09-009_card_2",
           "SNU-2A-09-009_card_3",
-          "SNU-2A-09-009_card_4"
+          "SNU-2A-09-009_card_4",
+          "SNU-2A-09-009_card_5",
+          "SNU-2A-09-009_card_6",
+          "SNU-2A-09-009_card_7"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-010",
-      "displaySentence": "지금 밥 먹는 중이니까 조금만 기다려 주세요.",
+      "displaySentence": "오늘 오후에도 예약이 가능한가요?",
       "tokens": [
         [
           "SNU-2A-09-010_card_0",
-          "지금"
+          "오늘"
         ],
         [
           "SNU-2A-09-010_card_1",
-          "밥"
+          "오후에"
         ],
         [
           "SNU-2A-09-010_card_2",
-          "먹는"
+          "도"
         ],
         [
           "SNU-2A-09-010_card_3",
-          "중이니까"
+          "예약"
         ],
         [
           "SNU-2A-09-010_card_4",
-          "조금"
+          "이"
         ],
         [
           "SNU-2A-09-010_card_5",
-          "만"
-        ],
-        [
-          "SNU-2A-09-010_card_6",
-          "기다려"
-        ],
-        [
-          "SNU-2A-09-010_card_7",
-          "주세요"
+          "가능한가요?"
         ]
       ],
       "acceptedOrders": [
@@ -332,105 +489,119 @@
           "SNU-2A-09-010_card_2",
           "SNU-2A-09-010_card_3",
           "SNU-2A-09-010_card_4",
-          "SNU-2A-09-010_card_5",
-          "SNU-2A-09-010_card_6",
-          "SNU-2A-09-010_card_7"
+          "SNU-2A-09-010_card_5"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-011",
-      "displaySentence": "김민수 씨 좀 부탁합니다.",
+      "displaySentence": "이 번호가 안내 데스크 전화번호인가요?",
       "tokens": [
         [
           "SNU-2A-09-011_card_0",
-          "김민수"
+          "이"
         ],
         [
           "SNU-2A-09-011_card_1",
-          "씨"
+          "번호"
         ],
         [
           "SNU-2A-09-011_card_2",
-          "좀"
-        ],
-        [
-          "SNU-2A-09-011_card_3",
-          "부탁합니다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-011_card_0",
-          "SNU-2A-09-011_card_1",
-          "SNU-2A-09-011_card_2",
-          "SNU-2A-09-011_card_3"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-012",
-      "displaySentence": "지금 회의 중이신데요.",
-      "tokens": [
-        [
-          "SNU-2A-09-012_card_0",
-          "지금"
-        ],
-        [
-          "SNU-2A-09-012_card_1",
-          "회의"
-        ],
-        [
-          "SNU-2A-09-012_card_2",
-          "중이신데요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-012_card_0",
-          "SNU-2A-09-012_card_1",
-          "SNU-2A-09-012_card_2"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-013",
-      "displaySentence": "아키라 씨는 휴가 중이라서 회사에 없습니다.",
-      "tokens": [
-        [
-          "SNU-2A-09-013_card_0",
-          "아키라 씨"
-        ],
-        [
-          "SNU-2A-09-013_card_1",
-          "는"
-        ],
-        [
-          "SNU-2A-09-013_card_2",
-          "휴"
-        ],
-        [
-          "SNU-2A-09-013_card_3",
           "가"
         ],
         [
+          "SNU-2A-09-011_card_3",
+          "안내"
+        ],
+        [
+          "SNU-2A-09-011_card_4",
+          "데스크"
+        ],
+        [
+          "SNU-2A-09-011_card_5",
+          "전화번호인가요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-011_card_0",
+          "SNU-2A-09-011_card_1",
+          "SNU-2A-09-011_card_2",
+          "SNU-2A-09-011_card_3",
+          "SNU-2A-09-011_card_4",
+          "SNU-2A-09-011_card_5"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-012",
+      "displaySentence": "주말에도 전화 상담을 받나요?",
+      "tokens": [
+        [
+          "SNU-2A-09-012_card_0",
+          "주말에"
+        ],
+        [
+          "SNU-2A-09-012_card_1",
+          "도"
+        ],
+        [
+          "SNU-2A-09-012_card_2",
+          "전화"
+        ],
+        [
+          "SNU-2A-09-012_card_3",
+          "상담"
+        ],
+        [
+          "SNU-2A-09-012_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-09-012_card_5",
+          "받나요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-012_card_0",
+          "SNU-2A-09-012_card_1",
+          "SNU-2A-09-012_card_2",
+          "SNU-2A-09-012_card_3",
+          "SNU-2A-09-012_card_4",
+          "SNU-2A-09-012_card_5"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-013",
+      "displaySentence": "접수할 때 신분증을 보여 줘야 하나요?",
+      "tokens": [
+        [
+          "SNU-2A-09-013_card_0",
+          "접수할"
+        ],
+        [
+          "SNU-2A-09-013_card_1",
+          "때"
+        ],
+        [
+          "SNU-2A-09-013_card_2",
+          "신분증"
+        ],
+        [
+          "SNU-2A-09-013_card_3",
+          "을"
+        ],
+        [
           "SNU-2A-09-013_card_4",
-          "중이라서"
-        ],
-        [
-          "SNU-2A-09-013_card_5",
-          "회사"
-        ],
-        [
-          "SNU-2A-09-013_card_6",
-          "에"
-        ],
-        [
-          "SNU-2A-09-013_card_7",
-          "없습니다"
+          "보여 줘야 하나요?"
         ]
       ],
       "acceptedOrders": [
@@ -439,97 +610,117 @@
           "SNU-2A-09-013_card_1",
           "SNU-2A-09-013_card_2",
           "SNU-2A-09-013_card_3",
-          "SNU-2A-09-013_card_4",
-          "SNU-2A-09-013_card_5",
-          "SNU-2A-09-013_card_6",
-          "SNU-2A-09-013_card_7"
+          "SNU-2A-09-013_card_4"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-014",
-      "displaySentence": "뭐 하고 있어요?",
+      "displaySentence": "치료를 받으려면 먼저 접수하나요?",
       "tokens": [
         [
           "SNU-2A-09-014_card_0",
-          "뭐"
+          "치료"
         ],
         [
           "SNU-2A-09-014_card_1",
-          "하고"
+          "를"
         ],
         [
           "SNU-2A-09-014_card_2",
-          "있어요"
+          "받으려면"
+        ],
+        [
+          "SNU-2A-09-014_card_3",
+          "먼저"
+        ],
+        [
+          "SNU-2A-09-014_card_4",
+          "접수하나요?"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-2A-09-014_card_0",
           "SNU-2A-09-014_card_1",
-          "SNU-2A-09-014_card_2"
+          "SNU-2A-09-014_card_2",
+          "SNU-2A-09-014_card_3",
+          "SNU-2A-09-014_card_4"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-015",
-      "displaySentence": "운동 중이에요.",
+      "displaySentence": "이번 프로그램 참가비가 얼마인가요?",
       "tokens": [
         [
           "SNU-2A-09-015_card_0",
-          "운동"
+          "이번"
         ],
         [
           "SNU-2A-09-015_card_1",
-          "중"
+          "프로그램"
         ],
         [
           "SNU-2A-09-015_card_2",
-          "이에요"
+          "참가비"
+        ],
+        [
+          "SNU-2A-09-015_card_3",
+          "가"
+        ],
+        [
+          "SNU-2A-09-015_card_4",
+          "얼마인가요?"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-2A-09-015_card_0",
           "SNU-2A-09-015_card_1",
-          "SNU-2A-09-015_card_2"
+          "SNU-2A-09-015_card_2",
+          "SNU-2A-09-015_card_3",
+          "SNU-2A-09-015_card_4"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-016",
-      "displaySentence": "요리 수업을 신청하려면 어떻게 해야 하나요?",
+      "displaySentence": "연락할 수 있는 전화번호가 하나밖에 없어요.",
       "tokens": [
         [
           "SNU-2A-09-016_card_0",
-          "요리"
+          "연락할 수 있"
         ],
         [
           "SNU-2A-09-016_card_1",
-          "수업"
+          "는"
         ],
         [
           "SNU-2A-09-016_card_2",
-          "을"
+          "전화번호"
         ],
         [
           "SNU-2A-09-016_card_3",
-          "신청하려면"
+          "가"
         ],
         [
           "SNU-2A-09-016_card_4",
-          "어떻게"
+          "하나밖"
         ],
         [
           "SNU-2A-09-016_card_5",
-          "해야"
+          "에"
         ],
         [
           "SNU-2A-09-016_card_6",
-          "하나요"
+          "없어요"
         ]
       ],
       "acceptedOrders": [
@@ -543,31 +734,44 @@
           "SNU-2A-09-016_card_6"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-017",
-      "displaySentence": "전화나 인터넷으로 하시면 됩니다.",
+      "displaySentence": "접수 마감까지 십 분밖에 안 남았어요.",
       "tokens": [
         [
           "SNU-2A-09-017_card_0",
-          "전화나"
+          "접수"
         ],
         [
           "SNU-2A-09-017_card_1",
-          "인터넷"
+          "마감"
         ],
         [
           "SNU-2A-09-017_card_2",
-          "으로"
+          "까지"
         ],
         [
           "SNU-2A-09-017_card_3",
-          "하시면"
+          "십"
         ],
         [
           "SNU-2A-09-017_card_4",
-          "됩니다"
+          "분밖"
+        ],
+        [
+          "SNU-2A-09-017_card_5",
+          "에"
+        ],
+        [
+          "SNU-2A-09-017_card_6",
+          "안"
+        ],
+        [
+          "SNU-2A-09-017_card_7",
+          "남았어요"
         ]
       ],
       "acceptedOrders": [
@@ -576,317 +780,170 @@
           "SNU-2A-09-017_card_1",
           "SNU-2A-09-017_card_2",
           "SNU-2A-09-017_card_3",
-          "SNU-2A-09-017_card_4"
+          "SNU-2A-09-017_card_4",
+          "SNU-2A-09-017_card_5",
+          "SNU-2A-09-017_card_6",
+          "SNU-2A-09-017_card_7"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-09-018",
-      "displaySentence": "주말에 도서관에 사람이 많은가요?",
+      "displaySentence": "한국말을 조금밖에 못 해서 통역을 부탁했어요.",
       "tokens": [
         [
           "SNU-2A-09-018_card_0",
-          "주말"
+          "한국말"
         ],
         [
           "SNU-2A-09-018_card_1",
-          "에"
-        ],
-        [
-          "SNU-2A-09-018_card_2",
-          "도서관"
-        ],
-        [
-          "SNU-2A-09-018_card_3",
-          "에"
-        ],
-        [
-          "SNU-2A-09-018_card_4",
-          "사람"
-        ],
-        [
-          "SNU-2A-09-018_card_5",
-          "이"
-        ],
-        [
-          "SNU-2A-09-018_card_6",
-          "많은가요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-018_card_0",
-          "SNU-2A-09-018_card_1",
-          "SNU-2A-09-018_card_2",
-          "SNU-2A-09-018_card_3",
-          "SNU-2A-09-018_card_4",
-          "SNU-2A-09-018_card_5",
-          "SNU-2A-09-018_card_6"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-019",
-      "displaySentence": "켈리 씨, 지금 집에 있나요?",
-      "tokens": [
-        [
-          "SNU-2A-09-019_card_0",
-          "켈리"
-        ],
-        [
-          "SNU-2A-09-019_card_1",
-          "씨"
-        ],
-        [
-          "SNU-2A-09-019_card_2",
-          "지금"
-        ],
-        [
-          "SNU-2A-09-019_card_3",
-          "집"
-        ],
-        [
-          "SNU-2A-09-019_card_4",
-          "에"
-        ],
-        [
-          "SNU-2A-09-019_card_5",
-          "있나요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-019_card_0",
-          "SNU-2A-09-019_card_1",
-          "SNU-2A-09-019_card_2",
-          "SNU-2A-09-019_card_3",
-          "SNU-2A-09-019_card_4",
-          "SNU-2A-09-019_card_5"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-020",
-      "displaySentence": "책을 한 달에 몇 권 정도 읽으시나요?",
-      "tokens": [
-        [
-          "SNU-2A-09-020_card_0",
-          "책"
-        ],
-        [
-          "SNU-2A-09-020_card_1",
           "을"
         ],
         [
-          "SNU-2A-09-020_card_2",
-          "한"
-        ],
-        [
-          "SNU-2A-09-020_card_3",
-          "달"
-        ],
-        [
-          "SNU-2A-09-020_card_4",
-          "에"
-        ],
-        [
-          "SNU-2A-09-020_card_5",
-          "몇"
-        ],
-        [
-          "SNU-2A-09-020_card_6",
-          "권"
-        ],
-        [
-          "SNU-2A-09-020_card_7",
-          "정"
-        ],
-        [
-          "SNU-2A-09-020_card_8",
-          "도"
-        ],
-        [
-          "SNU-2A-09-020_card_9",
-          "읽으시나요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-020_card_0",
-          "SNU-2A-09-020_card_1",
-          "SNU-2A-09-020_card_2",
-          "SNU-2A-09-020_card_3",
-          "SNU-2A-09-020_card_4",
-          "SNU-2A-09-020_card_5",
-          "SNU-2A-09-020_card_6",
-          "SNU-2A-09-020_card_7",
-          "SNU-2A-09-020_card_8",
-          "SNU-2A-09-020_card_9"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-021",
-      "displaySentence": "이 책은 누구 책인가요?",
-      "tokens": [
-        [
-          "SNU-2A-09-021_card_0",
-          "이"
-        ],
-        [
-          "SNU-2A-09-021_card_1",
-          "책"
-        ],
-        [
-          "SNU-2A-09-021_card_2",
-          "은"
-        ],
-        [
-          "SNU-2A-09-021_card_3",
-          "누구"
-        ],
-        [
-          "SNU-2A-09-021_card_4",
-          "책인가요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-021_card_0",
-          "SNU-2A-09-021_card_1",
-          "SNU-2A-09-021_card_2",
-          "SNU-2A-09-021_card_3",
-          "SNU-2A-09-021_card_4"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-022",
-      "displaySentence": "내일이 시험인데 공부 많이 했어요?",
-      "tokens": [
-        [
-          "SNU-2A-09-022_card_0",
-          "내일"
-        ],
-        [
-          "SNU-2A-09-022_card_1",
-          "이"
-        ],
-        [
-          "SNU-2A-09-022_card_2",
-          "시험인데"
-        ],
-        [
-          "SNU-2A-09-022_card_3",
-          "공부"
-        ],
-        [
-          "SNU-2A-09-022_card_4",
-          "많이"
-        ],
-        [
-          "SNU-2A-09-022_card_5",
-          "했어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-09-022_card_0",
-          "SNU-2A-09-022_card_1",
-          "SNU-2A-09-022_card_2",
-          "SNU-2A-09-022_card_3",
-          "SNU-2A-09-022_card_4",
-          "SNU-2A-09-022_card_5"
-        ]
-      ],
-      "note": "서울대 2A 9과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-09-023",
-      "displaySentence": "아니요, 조금밖에 못 했어요.",
-      "tokens": [
-        [
-          "SNU-2A-09-023_card_0",
-          "아니요"
-        ],
-        [
-          "SNU-2A-09-023_card_1",
+          "SNU-2A-09-018_card_2",
           "조금밖"
         ],
         [
-          "SNU-2A-09-023_card_2",
+          "SNU-2A-09-018_card_3",
           "에"
         ],
         [
-          "SNU-2A-09-023_card_3",
+          "SNU-2A-09-018_card_4",
           "못"
         ],
         [
-          "SNU-2A-09-023_card_4",
-          "했어요"
+          "SNU-2A-09-018_card_5",
+          "해서"
+        ],
+        [
+          "SNU-2A-09-018_card_6",
+          "통역"
+        ],
+        [
+          "SNU-2A-09-018_card_7",
+          "을"
+        ],
+        [
+          "SNU-2A-09-018_card_8",
+          "부탁했어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2A-09-023_card_0",
-          "SNU-2A-09-023_card_1",
-          "SNU-2A-09-023_card_2",
-          "SNU-2A-09-023_card_3",
-          "SNU-2A-09-023_card_4"
+          "SNU-2A-09-018_card_0",
+          "SNU-2A-09-018_card_1",
+          "SNU-2A-09-018_card_2",
+          "SNU-2A-09-018_card_3",
+          "SNU-2A-09-018_card_4",
+          "SNU-2A-09-018_card_5",
+          "SNU-2A-09-018_card_6",
+          "SNU-2A-09-018_card_7",
+          "SNU-2A-09-018_card_8"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     },
     {
-      "id": "SNU-2A-09-024",
-      "displaySentence": "지금 돈이 천 원밖에 없어요.",
+      "id": "SNU-2A-09-019",
+      "displaySentence": "오늘 예약 가능한 자리가 한 개밖에 없어요.",
       "tokens": [
         [
-          "SNU-2A-09-024_card_0",
-          "지금"
+          "SNU-2A-09-019_card_0",
+          "오늘"
         ],
         [
-          "SNU-2A-09-024_card_1",
-          "돈"
+          "SNU-2A-09-019_card_1",
+          "예약"
         ],
         [
-          "SNU-2A-09-024_card_2",
-          "이"
+          "SNU-2A-09-019_card_2",
+          "가능한"
         ],
         [
-          "SNU-2A-09-024_card_3",
-          "천"
+          "SNU-2A-09-019_card_3",
+          "자리"
         ],
         [
-          "SNU-2A-09-024_card_4",
-          "원밖"
+          "SNU-2A-09-019_card_4",
+          "가"
         ],
         [
-          "SNU-2A-09-024_card_5",
+          "SNU-2A-09-019_card_5",
+          "한"
+        ],
+        [
+          "SNU-2A-09-019_card_6",
+          "개밖"
+        ],
+        [
+          "SNU-2A-09-019_card_7",
           "에"
         ],
         [
-          "SNU-2A-09-024_card_6",
+          "SNU-2A-09-019_card_8",
           "없어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2A-09-024_card_0",
-          "SNU-2A-09-024_card_1",
-          "SNU-2A-09-024_card_2",
-          "SNU-2A-09-024_card_3",
-          "SNU-2A-09-024_card_4",
-          "SNU-2A-09-024_card_5",
-          "SNU-2A-09-024_card_6"
+          "SNU-2A-09-019_card_0",
+          "SNU-2A-09-019_card_1",
+          "SNU-2A-09-019_card_2",
+          "SNU-2A-09-019_card_3",
+          "SNU-2A-09-019_card_4",
+          "SNU-2A-09-019_card_5",
+          "SNU-2A-09-019_card_6",
+          "SNU-2A-09-019_card_7",
+          "SNU-2A-09-019_card_8"
         ]
       ],
-      "note": "서울대 2A 9과 교재 기반"
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-09-020",
+      "displaySentence": "궁금한 점이 있는데요, 친절하게 답변해 주세요.",
+      "tokens": [
+        [
+          "SNU-2A-09-020_card_0",
+          "궁금한"
+        ],
+        [
+          "SNU-2A-09-020_card_1",
+          "점"
+        ],
+        [
+          "SNU-2A-09-020_card_2",
+          "이"
+        ],
+        [
+          "SNU-2A-09-020_card_3",
+          "있는데요,"
+        ],
+        [
+          "SNU-2A-09-020_card_4",
+          "친절하게"
+        ],
+        [
+          "SNU-2A-09-020_card_5",
+          "답변해 주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-09-020_card_0",
+          "SNU-2A-09-020_card_1",
+          "SNU-2A-09-020_card_2",
+          "SNU-2A-09-020_card_3",
+          "SNU-2A-09-020_card_4",
+          "SNU-2A-09-020_card_5"
+        ]
+      ],
+      "note": "서울대 2A 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A-(으)ㄴ데요/V-는데요/N인데요; V-는 중이다/N 중이다; A-(으)ㄴ가요?/V-나요?/N인가요?; N밖에) + data/snu/2A/lesson09.json 어휘 기반 재구성"
     }
   ]
 }

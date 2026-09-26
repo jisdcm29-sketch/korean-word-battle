@@ -1,28 +1,41 @@
 {
   "book": "1B",
   "lesson": 10,
-  "source": "서울대 한국어 1B 학생 읽기 자료 · 10과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "서울대 한국어 1B 학생책·워크북 10과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1B-10-001",
-      "displaySentence": "지금 몇 시예요?",
+      "displaySentence": "저는 오전 일곱 시에 일어나요.",
       "tokens": [
         [
           "SNU-1B-10-001_card_0",
-          "지금"
+          "저"
         ],
         [
           "SNU-1B-10-001_card_1",
-          "몇"
+          "는"
         ],
         [
           "SNU-1B-10-001_card_2",
-          "시"
+          "오전"
         ],
         [
           "SNU-1B-10-001_card_3",
-          "예요"
+          "일곱"
+        ],
+        [
+          "SNU-1B-10-001_card_4",
+          "시"
+        ],
+        [
+          "SNU-1B-10-001_card_5",
+          "에"
+        ],
+        [
+          "SNU-1B-10-001_card_6",
+          "일어나요"
         ]
       ],
       "acceptedOrders": [
@@ -30,34 +43,46 @@
           "SNU-1B-10-001_card_0",
           "SNU-1B-10-001_card_1",
           "SNU-1B-10-001_card_2",
-          "SNU-1B-10-001_card_3"
+          "SNU-1B-10-001_card_3",
+          "SNU-1B-10-001_card_4",
+          "SNU-1B-10-001_card_5",
+          "SNU-1B-10-001_card_6"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-002",
-      "displaySentence": "세 시 이십 분이에요.",
+      "displaySentence": "아침에 세수하고 이를 닦아요.",
       "tokens": [
         [
           "SNU-1B-10-002_card_0",
-          "세"
+          "아침"
         ],
         [
           "SNU-1B-10-002_card_1",
-          "시"
+          "에"
         ],
         [
           "SNU-1B-10-002_card_2",
-          "이십"
+          "세수"
         ],
         [
           "SNU-1B-10-002_card_3",
-          "분"
+          "하고"
         ],
         [
           "SNU-1B-10-002_card_4",
-          "이에요"
+          "이"
+        ],
+        [
+          "SNU-1B-10-002_card_5",
+          "를"
+        ],
+        [
+          "SNU-1B-10-002_card_6",
+          "닦아요"
         ]
       ],
       "acceptedOrders": [
@@ -66,38 +91,57 @@
           "SNU-1B-10-002_card_1",
           "SNU-1B-10-002_card_2",
           "SNU-1B-10-002_card_3",
-          "SNU-1B-10-002_card_4"
+          "SNU-1B-10-002_card_4",
+          "SNU-1B-10-002_card_5",
+          "SNU-1B-10-002_card_6"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-003",
-      "displaySentence": "몇 시에 점심을 먹어요?",
+      "displaySentence": "오전 아홉 시부터 열두 시까지 수업이 있어요.",
       "tokens": [
         [
           "SNU-1B-10-003_card_0",
-          "몇"
+          "오전"
         ],
         [
           "SNU-1B-10-003_card_1",
-          "시"
+          "아홉"
         ],
         [
           "SNU-1B-10-003_card_2",
-          "에"
+          "시"
         ],
         [
           "SNU-1B-10-003_card_3",
-          "점심"
+          "부터"
         ],
         [
           "SNU-1B-10-003_card_4",
-          "을"
+          "열두"
         ],
         [
           "SNU-1B-10-003_card_5",
-          "먹어요"
+          "시"
+        ],
+        [
+          "SNU-1B-10-003_card_6",
+          "까지"
+        ],
+        [
+          "SNU-1B-10-003_card_7",
+          "수업"
+        ],
+        [
+          "SNU-1B-10-003_card_8",
+          "이"
+        ],
+        [
+          "SNU-1B-10-003_card_9",
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -107,29 +151,42 @@
           "SNU-1B-10-003_card_2",
           "SNU-1B-10-003_card_3",
           "SNU-1B-10-003_card_4",
-          "SNU-1B-10-003_card_5"
+          "SNU-1B-10-003_card_5",
+          "SNU-1B-10-003_card_6",
+          "SNU-1B-10-003_card_7",
+          "SNU-1B-10-003_card_8",
+          "SNU-1B-10-003_card_9"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-004",
-      "displaySentence": "한 시쯤에 먹어요.",
+      "displaySentence": "점심은 한 시쯤에 먹어요.",
       "tokens": [
         [
           "SNU-1B-10-004_card_0",
-          "한"
+          "점심"
         ],
         [
           "SNU-1B-10-004_card_1",
-          "시쯤"
+          "은"
         ],
         [
           "SNU-1B-10-004_card_2",
-          "에"
+          "한"
         ],
         [
           "SNU-1B-10-004_card_3",
+          "시쯤"
+        ],
+        [
+          "SNU-1B-10-004_card_4",
+          "에"
+        ],
+        [
+          "SNU-1B-10-004_card_5",
           "먹어요"
         ]
       ],
@@ -138,177 +195,206 @@
           "SNU-1B-10-004_card_0",
           "SNU-1B-10-004_card_1",
           "SNU-1B-10-004_card_2",
-          "SNU-1B-10-004_card_3"
+          "SNU-1B-10-004_card_3",
+          "SNU-1B-10-004_card_4",
+          "SNU-1B-10-004_card_5"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-005",
-      "displaySentence": "두 시예요.",
+      "displaySentence": "오후 두 시에 회의를 시작해요.",
       "tokens": [
         [
           "SNU-1B-10-005_card_0",
+          "오후"
+        ],
+        [
+          "SNU-1B-10-005_card_1",
           "두"
         ],
         [
-          "SNU-1B-10-005_card_1",
+          "SNU-1B-10-005_card_2",
           "시"
         ],
         [
-          "SNU-1B-10-005_card_2",
-          "예요"
+          "SNU-1B-10-005_card_3",
+          "에"
+        ],
+        [
+          "SNU-1B-10-005_card_4",
+          "회의"
+        ],
+        [
+          "SNU-1B-10-005_card_5",
+          "를"
+        ],
+        [
+          "SNU-1B-10-005_card_6",
+          "시작해요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-10-005_card_0",
           "SNU-1B-10-005_card_1",
-          "SNU-1B-10-005_card_2"
+          "SNU-1B-10-005_card_2",
+          "SNU-1B-10-005_card_3",
+          "SNU-1B-10-005_card_4",
+          "SNU-1B-10-005_card_5",
+          "SNU-1B-10-005_card_6"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-006",
-      "displaySentence": "다섯 시 십오 분이에요.",
+      "displaySentence": "회의는 오후 네 시에 끝나요.",
       "tokens": [
         [
           "SNU-1B-10-006_card_0",
-          "다섯"
+          "회의"
         ],
         [
           "SNU-1B-10-006_card_1",
-          "시"
+          "는"
         ],
         [
           "SNU-1B-10-006_card_2",
-          "십오"
+          "오후"
         ],
         [
           "SNU-1B-10-006_card_3",
-          "분"
-        ],
-        [
-          "SNU-1B-10-006_card_4",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-10-006_card_0",
-          "SNU-1B-10-006_card_1",
-          "SNU-1B-10-006_card_2",
-          "SNU-1B-10-006_card_3",
-          "SNU-1B-10-006_card_4"
-        ]
-      ],
-      "note": "서울대 1B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-10-007",
-      "displaySentence": "열 시 삼십 분이에요.",
-      "tokens": [
-        [
-          "SNU-1B-10-007_card_0",
-          "열"
-        ],
-        [
-          "SNU-1B-10-007_card_1",
-          "시"
-        ],
-        [
-          "SNU-1B-10-007_card_2",
-          "삼십"
-        ],
-        [
-          "SNU-1B-10-007_card_3",
-          "분"
-        ],
-        [
-          "SNU-1B-10-007_card_4",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-10-007_card_0",
-          "SNU-1B-10-007_card_1",
-          "SNU-1B-10-007_card_2",
-          "SNU-1B-10-007_card_3",
-          "SNU-1B-10-007_card_4"
-        ]
-      ],
-      "note": "서울대 1B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-10-008",
-      "displaySentence": "몇 시에 친구를 만나요?",
-      "tokens": [
-        [
-          "SNU-1B-10-008_card_0",
-          "몇"
-        ],
-        [
-          "SNU-1B-10-008_card_1",
-          "시"
-        ],
-        [
-          "SNU-1B-10-008_card_2",
-          "에"
-        ],
-        [
-          "SNU-1B-10-008_card_3",
-          "친구"
-        ],
-        [
-          "SNU-1B-10-008_card_4",
-          "를"
-        ],
-        [
-          "SNU-1B-10-008_card_5",
-          "만나요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-10-008_card_0",
-          "SNU-1B-10-008_card_1",
-          "SNU-1B-10-008_card_2",
-          "SNU-1B-10-008_card_3",
-          "SNU-1B-10-008_card_4",
-          "SNU-1B-10-008_card_5"
-        ]
-      ],
-      "note": "서울대 1B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-10-009",
-      "displaySentence": "네 시에 친구를 만나요.",
-      "tokens": [
-        [
-          "SNU-1B-10-009_card_0",
           "네"
         ],
         [
-          "SNU-1B-10-009_card_1",
+          "SNU-1B-10-006_card_4",
           "시"
         ],
         [
-          "SNU-1B-10-009_card_2",
+          "SNU-1B-10-006_card_5",
           "에"
         ],
         [
+          "SNU-1B-10-006_card_6",
+          "끝나요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-10-006_card_0",
+          "SNU-1B-10-006_card_1",
+          "SNU-1B-10-006_card_2",
+          "SNU-1B-10-006_card_3",
+          "SNU-1B-10-006_card_4",
+          "SNU-1B-10-006_card_5",
+          "SNU-1B-10-006_card_6"
+        ]
+      ],
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
+    },
+    {
+      "id": "SNU-1B-10-007",
+      "displaySentence": "저는 여섯 시에 퇴근해요.",
+      "tokens": [
+        [
+          "SNU-1B-10-007_card_0",
+          "저"
+        ],
+        [
+          "SNU-1B-10-007_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-10-007_card_2",
+          "여섯"
+        ],
+        [
+          "SNU-1B-10-007_card_3",
+          "시"
+        ],
+        [
+          "SNU-1B-10-007_card_4",
+          "에"
+        ],
+        [
+          "SNU-1B-10-007_card_5",
+          "퇴근해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-10-007_card_0",
+          "SNU-1B-10-007_card_1",
+          "SNU-1B-10-007_card_2",
+          "SNU-1B-10-007_card_3",
+          "SNU-1B-10-007_card_4",
+          "SNU-1B-10-007_card_5"
+        ]
+      ],
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
+    },
+    {
+      "id": "SNU-1B-10-008",
+      "displaySentence": "집에 와서 바로 샤워해요.",
+      "tokens": [
+        [
+          "SNU-1B-10-008_card_0",
+          "집"
+        ],
+        [
+          "SNU-1B-10-008_card_1",
+          "에"
+        ],
+        [
+          "SNU-1B-10-008_card_2",
+          "와서"
+        ],
+        [
+          "SNU-1B-10-008_card_3",
+          "바로"
+        ],
+        [
+          "SNU-1B-10-008_card_4",
+          "샤워해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-10-008_card_0",
+          "SNU-1B-10-008_card_1",
+          "SNU-1B-10-008_card_2",
+          "SNU-1B-10-008_card_3",
+          "SNU-1B-10-008_card_4"
+        ]
+      ],
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
+    },
+    {
+      "id": "SNU-1B-10-009",
+      "displaySentence": "저녁을 먹고 빨래할 거예요.",
+      "tokens": [
+        [
+          "SNU-1B-10-009_card_0",
+          "저녁"
+        ],
+        [
+          "SNU-1B-10-009_card_1",
+          "을"
+        ],
+        [
+          "SNU-1B-10-009_card_2",
+          "먹고"
+        ],
+        [
           "SNU-1B-10-009_card_3",
-          "친구"
-        ],
-        [
-          "SNU-1B-10-009_card_4",
-          "를"
-        ],
-        [
-          "SNU-1B-10-009_card_5",
-          "만나요"
+          "빨래할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -316,40 +402,39 @@
           "SNU-1B-10-009_card_0",
           "SNU-1B-10-009_card_1",
           "SNU-1B-10-009_card_2",
-          "SNU-1B-10-009_card_3",
-          "SNU-1B-10-009_card_4",
-          "SNU-1B-10-009_card_5"
+          "SNU-1B-10-009_card_3"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-010",
-      "displaySentence": "몇 시까지 한국어를 배워요?",
+      "displaySentence": "오늘 밤에 방을 청소할 거예요.",
       "tokens": [
         [
           "SNU-1B-10-010_card_0",
-          "몇"
+          "오늘"
         ],
         [
           "SNU-1B-10-010_card_1",
-          "시"
+          "밤"
         ],
         [
           "SNU-1B-10-010_card_2",
-          "까지"
+          "에"
         ],
         [
           "SNU-1B-10-010_card_3",
-          "한국어"
+          "방"
         ],
         [
           "SNU-1B-10-010_card_4",
-          "를"
+          "을"
         ],
         [
           "SNU-1B-10-010_card_5",
-          "배워요"
+          "청소할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -362,39 +447,36 @@
           "SNU-1B-10-010_card_5"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-011",
-      "displaySentence": "아홉 시부터 한 시까지 배워요.",
+      "displaySentence": "내일 오전에 박물관에 갈 거예요.",
       "tokens": [
         [
           "SNU-1B-10-011_card_0",
-          "아홉"
+          "내일"
         ],
         [
           "SNU-1B-10-011_card_1",
-          "시"
+          "오전"
         ],
         [
           "SNU-1B-10-011_card_2",
-          "부터"
+          "에"
         ],
         [
           "SNU-1B-10-011_card_3",
-          "한"
+          "박물관"
         ],
         [
           "SNU-1B-10-011_card_4",
-          "시"
+          "에"
         ],
         [
           "SNU-1B-10-011_card_5",
-          "까지"
-        ],
-        [
-          "SNU-1B-10-011_card_6",
-          "배워요"
+          "갈 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -404,31 +486,43 @@
           "SNU-1B-10-011_card_2",
           "SNU-1B-10-011_card_3",
           "SNU-1B-10-011_card_4",
-          "SNU-1B-10-011_card_5",
-          "SNU-1B-10-011_card_6"
+          "SNU-1B-10-011_card_5"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-012",
-      "displaySentence": "몇 시까지 일해요?",
+      "displaySentence": "주말에 친구하고 케이크를 만들 거예요.",
       "tokens": [
         [
           "SNU-1B-10-012_card_0",
-          "몇"
+          "주말"
         ],
         [
           "SNU-1B-10-012_card_1",
-          "시"
+          "에"
         ],
         [
           "SNU-1B-10-012_card_2",
-          "까지"
+          "친구"
         ],
         [
           "SNU-1B-10-012_card_3",
-          "일해요"
+          "하고"
+        ],
+        [
+          "SNU-1B-10-012_card_4",
+          "케이크"
+        ],
+        [
+          "SNU-1B-10-012_card_5",
+          "를"
+        ],
+        [
+          "SNU-1B-10-012_card_6",
+          "만들 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -436,14 +530,18 @@
           "SNU-1B-10-012_card_0",
           "SNU-1B-10-012_card_1",
           "SNU-1B-10-012_card_2",
-          "SNU-1B-10-012_card_3"
+          "SNU-1B-10-012_card_3",
+          "SNU-1B-10-012_card_4",
+          "SNU-1B-10-012_card_5",
+          "SNU-1B-10-012_card_6"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-013",
-      "displaySentence": "오후 여섯 시까지 일해요.",
+      "displaySentence": "오후 세 시에 꽃집에서 친구를 만나요.",
       "tokens": [
         [
           "SNU-1B-10-013_card_0",
@@ -451,7 +549,7 @@
         ],
         [
           "SNU-1B-10-013_card_1",
-          "여섯"
+          "세"
         ],
         [
           "SNU-1B-10-013_card_2",
@@ -459,11 +557,27 @@
         ],
         [
           "SNU-1B-10-013_card_3",
-          "까지"
+          "에"
         ],
         [
           "SNU-1B-10-013_card_4",
-          "일해요"
+          "꽃집"
+        ],
+        [
+          "SNU-1B-10-013_card_5",
+          "에서"
+        ],
+        [
+          "SNU-1B-10-013_card_6",
+          "친구"
+        ],
+        [
+          "SNU-1B-10-013_card_7",
+          "를"
+        ],
+        [
+          "SNU-1B-10-013_card_8",
+          "만나요"
         ]
       ],
       "acceptedOrders": [
@@ -472,38 +586,43 @@
           "SNU-1B-10-013_card_1",
           "SNU-1B-10-013_card_2",
           "SNU-1B-10-013_card_3",
-          "SNU-1B-10-013_card_4"
+          "SNU-1B-10-013_card_4",
+          "SNU-1B-10-013_card_5",
+          "SNU-1B-10-013_card_6",
+          "SNU-1B-10-013_card_7",
+          "SNU-1B-10-013_card_8"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-014",
-      "displaySentence": "월요일부터 금요일까지 한국어 수업이 있어요.",
+      "displaySentence": "친구를 만나서 선물을 같이 골랐어요.",
       "tokens": [
         [
           "SNU-1B-10-014_card_0",
-          "월요일"
+          "친구"
         ],
         [
           "SNU-1B-10-014_card_1",
-          "부터"
+          "를"
         ],
         [
           "SNU-1B-10-014_card_2",
-          "금요일"
+          "만나서"
         ],
         [
           "SNU-1B-10-014_card_3",
-          "까지"
+          "선물"
         ],
         [
           "SNU-1B-10-014_card_4",
-          "한국어"
+          "을"
         ],
         [
           "SNU-1B-10-014_card_5",
-          "수업"
+          "같"
         ],
         [
           "SNU-1B-10-014_card_6",
@@ -511,7 +630,7 @@
         ],
         [
           "SNU-1B-10-014_card_7",
-          "있어요"
+          "골랐어요"
         ]
       ],
       "acceptedOrders": [
@@ -526,39 +645,32 @@
           "SNU-1B-10-014_card_7"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-015",
-      "displaySentence": "8월 12일부터 31일까지 방학이에요.",
+      "displaySentence": "아침부터 낮까지 운전했어요.",
       "tokens": [
         [
           "SNU-1B-10-015_card_0",
-          "8월"
+          "아침"
         ],
         [
           "SNU-1B-10-015_card_1",
-          "12일"
-        ],
-        [
-          "SNU-1B-10-015_card_2",
           "부터"
         ],
         [
-          "SNU-1B-10-015_card_3",
-          "31일"
+          "SNU-1B-10-015_card_2",
+          "낮"
         ],
         [
-          "SNU-1B-10-015_card_4",
+          "SNU-1B-10-015_card_3",
           "까지"
         ],
         [
-          "SNU-1B-10-015_card_5",
-          "방학"
-        ],
-        [
-          "SNU-1B-10-015_card_6",
-          "이에요"
+          "SNU-1B-10-015_card_4",
+          "운전했어요"
         ]
       ],
       "acceptedOrders": [
@@ -567,66 +679,72 @@
           "SNU-1B-10-015_card_1",
           "SNU-1B-10-015_card_2",
           "SNU-1B-10-015_card_3",
-          "SNU-1B-10-015_card_4",
-          "SNU-1B-10-015_card_5",
-          "SNU-1B-10-015_card_6"
+          "SNU-1B-10-015_card_4"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-016",
-      "displaySentence": "어제 뭐 했어요?",
+      "displaySentence": "저녁에 어머니께 전화할 거예요.",
       "tokens": [
         [
           "SNU-1B-10-016_card_0",
-          "어제"
+          "저녁"
         ],
         [
           "SNU-1B-10-016_card_1",
-          "뭐"
+          "에"
         ],
         [
           "SNU-1B-10-016_card_2",
-          "했어요"
+          "어머니"
+        ],
+        [
+          "SNU-1B-10-016_card_3",
+          "께"
+        ],
+        [
+          "SNU-1B-10-016_card_4",
+          "전화할 거예요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-10-016_card_0",
           "SNU-1B-10-016_card_1",
-          "SNU-1B-10-016_card_2"
+          "SNU-1B-10-016_card_2",
+          "SNU-1B-10-016_card_3",
+          "SNU-1B-10-016_card_4"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-017",
-      "displaySentence": "인사동에 가서 차를 마셨어요.",
+      "displaySentence": "내일 약속 시간을 정할 거예요.",
       "tokens": [
         [
           "SNU-1B-10-017_card_0",
-          "인사동"
+          "내일"
         ],
         [
           "SNU-1B-10-017_card_1",
-          "에"
+          "약속"
         ],
         [
           "SNU-1B-10-017_card_2",
-          "가서"
+          "시간"
         ],
         [
           "SNU-1B-10-017_card_3",
-          "차"
+          "을"
         ],
         [
           "SNU-1B-10-017_card_4",
-          "를"
-        ],
-        [
-          "SNU-1B-10-017_card_5",
-          "마셨어요"
+          "정할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -635,43 +753,39 @@
           "SNU-1B-10-017_card_1",
           "SNU-1B-10-017_card_2",
           "SNU-1B-10-017_card_3",
-          "SNU-1B-10-017_card_4",
-          "SNU-1B-10-017_card_5"
+          "SNU-1B-10-017_card_4"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-018",
-      "displaySentence": "친구를 만나서 같이 영화를 봤어요.",
+      "displaySentence": "퇴근해서 집에서 그림을 그렸어요.",
       "tokens": [
         [
           "SNU-1B-10-018_card_0",
-          "친구"
+          "퇴근해서"
         ],
         [
           "SNU-1B-10-018_card_1",
-          "를"
+          "집"
         ],
         [
           "SNU-1B-10-018_card_2",
-          "만나서"
+          "에서"
         ],
         [
           "SNU-1B-10-018_card_3",
-          "같이"
+          "그림"
         ],
         [
           "SNU-1B-10-018_card_4",
-          "영화"
+          "을"
         ],
         [
           "SNU-1B-10-018_card_5",
-          "를"
-        ],
-        [
-          "SNU-1B-10-018_card_6",
-          "봤어요"
+          "그렸어요"
         ]
       ],
       "acceptedOrders": [
@@ -681,39 +795,43 @@
           "SNU-1B-10-018_card_2",
           "SNU-1B-10-018_card_3",
           "SNU-1B-10-018_card_4",
-          "SNU-1B-10-018_card_5",
-          "SNU-1B-10-018_card_6"
+          "SNU-1B-10-018_card_5"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-019",
-      "displaySentence": "케이크를 만들어서 동생하고 먹었어요.",
+      "displaySentence": "오늘은 별일이 없어서 일찍 잘 거예요.",
       "tokens": [
         [
           "SNU-1B-10-019_card_0",
-          "케이크"
+          "오늘"
         ],
         [
           "SNU-1B-10-019_card_1",
-          "를"
+          "은"
         ],
         [
           "SNU-1B-10-019_card_2",
-          "만들어서"
+          "별일"
         ],
         [
           "SNU-1B-10-019_card_3",
-          "동생"
+          "이"
         ],
         [
           "SNU-1B-10-019_card_4",
-          "하고"
+          "없어서"
         ],
         [
           "SNU-1B-10-019_card_5",
-          "먹었어요"
+          "일찍"
+        ],
+        [
+          "SNU-1B-10-019_card_6",
+          "잘 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -723,38 +841,40 @@
           "SNU-1B-10-019_card_2",
           "SNU-1B-10-019_card_3",
           "SNU-1B-10-019_card_4",
-          "SNU-1B-10-019_card_5"
+          "SNU-1B-10-019_card_5",
+          "SNU-1B-10-019_card_6"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     },
     {
       "id": "SNU-1B-10-020",
-      "displaySentence": "주말에 뭐 할 거예요?",
+      "displaySentence": "매일 아침 한국어 발음을 연습할 거예요.",
       "tokens": [
         [
           "SNU-1B-10-020_card_0",
-          "주말"
+          "매일"
         ],
         [
           "SNU-1B-10-020_card_1",
-          "에"
+          "아침"
         ],
         [
           "SNU-1B-10-020_card_2",
-          "뭐"
+          "한국어"
         ],
         [
           "SNU-1B-10-020_card_3",
-          "할"
+          "발음"
         ],
         [
           "SNU-1B-10-020_card_4",
-          "거"
+          "을"
         ],
         [
           "SNU-1B-10-020_card_5",
-          "예요"
+          "연습할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -767,221 +887,8 @@
           "SNU-1B-10-020_card_5"
         ]
       ],
-      "note": "서울대 1B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-10-021",
-      "displaySentence": "친구하고 같이 영화를 볼 거예요.",
-      "tokens": [
-        [
-          "SNU-1B-10-021_card_0",
-          "친구"
-        ],
-        [
-          "SNU-1B-10-021_card_1",
-          "하고"
-        ],
-        [
-          "SNU-1B-10-021_card_2",
-          "같이"
-        ],
-        [
-          "SNU-1B-10-021_card_3",
-          "영화"
-        ],
-        [
-          "SNU-1B-10-021_card_4",
-          "를"
-        ],
-        [
-          "SNU-1B-10-021_card_5",
-          "볼"
-        ],
-        [
-          "SNU-1B-10-021_card_6",
-          "거"
-        ],
-        [
-          "SNU-1B-10-021_card_7",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-10-021_card_0",
-          "SNU-1B-10-021_card_1",
-          "SNU-1B-10-021_card_2",
-          "SNU-1B-10-021_card_3",
-          "SNU-1B-10-021_card_4",
-          "SNU-1B-10-021_card_5",
-          "SNU-1B-10-021_card_6",
-          "SNU-1B-10-021_card_7"
-        ]
-      ],
-      "note": "서울대 1B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-10-022",
-      "displaySentence": "오늘 오후에 친구를 만날 거예요.",
-      "tokens": [
-        [
-          "SNU-1B-10-022_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-1B-10-022_card_1",
-          "오후"
-        ],
-        [
-          "SNU-1B-10-022_card_2",
-          "에"
-        ],
-        [
-          "SNU-1B-10-022_card_3",
-          "친구"
-        ],
-        [
-          "SNU-1B-10-022_card_4",
-          "를"
-        ],
-        [
-          "SNU-1B-10-022_card_5",
-          "만날"
-        ],
-        [
-          "SNU-1B-10-022_card_6",
-          "거"
-        ],
-        [
-          "SNU-1B-10-022_card_7",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-10-022_card_0",
-          "SNU-1B-10-022_card_1",
-          "SNU-1B-10-022_card_2",
-          "SNU-1B-10-022_card_3",
-          "SNU-1B-10-022_card_4",
-          "SNU-1B-10-022_card_5",
-          "SNU-1B-10-022_card_6",
-          "SNU-1B-10-022_card_7"
-        ]
-      ],
-      "note": "서울대 1B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-10-023",
-      "displaySentence": "아니요, 조금 후에 먹을 거예요.",
-      "tokens": [
-        [
-          "SNU-1B-10-023_card_0",
-          "아니요"
-        ],
-        [
-          "SNU-1B-10-023_card_1",
-          "조금"
-        ],
-        [
-          "SNU-1B-10-023_card_2",
-          "후"
-        ],
-        [
-          "SNU-1B-10-023_card_3",
-          "에"
-        ],
-        [
-          "SNU-1B-10-023_card_4",
-          "먹"
-        ],
-        [
-          "SNU-1B-10-023_card_5",
-          "을"
-        ],
-        [
-          "SNU-1B-10-023_card_6",
-          "거"
-        ],
-        [
-          "SNU-1B-10-023_card_7",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-10-023_card_0",
-          "SNU-1B-10-023_card_1",
-          "SNU-1B-10-023_card_2",
-          "SNU-1B-10-023_card_3",
-          "SNU-1B-10-023_card_4",
-          "SNU-1B-10-023_card_5",
-          "SNU-1B-10-023_card_6",
-          "SNU-1B-10-023_card_7"
-        ]
-      ],
-      "note": "서울대 1B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-10-024",
-      "displaySentence": "오늘부터 매일 한국 뉴스를 들을 거예요.",
-      "tokens": [
-        [
-          "SNU-1B-10-024_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-1B-10-024_card_1",
-          "부터"
-        ],
-        [
-          "SNU-1B-10-024_card_2",
-          "매일"
-        ],
-        [
-          "SNU-1B-10-024_card_3",
-          "한국"
-        ],
-        [
-          "SNU-1B-10-024_card_4",
-          "뉴스"
-        ],
-        [
-          "SNU-1B-10-024_card_5",
-          "를"
-        ],
-        [
-          "SNU-1B-10-024_card_6",
-          "들"
-        ],
-        [
-          "SNU-1B-10-024_card_7",
-          "을"
-        ],
-        [
-          "SNU-1B-10-024_card_8",
-          "거"
-        ],
-        [
-          "SNU-1B-10-024_card_9",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-10-024_card_0",
-          "SNU-1B-10-024_card_1",
-          "SNU-1B-10-024_card_2",
-          "SNU-1B-10-024_card_3",
-          "SNU-1B-10-024_card_4",
-          "SNU-1B-10-024_card_5",
-          "SNU-1B-10-024_card_6",
-          "SNU-1B-10-024_card_7",
-          "SNU-1B-10-024_card_8",
-          "SNU-1B-10-024_card_9"
-        ]
-      ],
-      "note": "서울대 1B 10과 교재 기반"
+      "note": "서울대 1B 10과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 10과 SB/WB 문법(시간 N에; N부터 N까지; V-아서/어서; V-(으)ㄹ 거예요) + data/snu/1B/lesson10.json 어휘"
     }
   ]
 }

@@ -1,261 +1,371 @@
 {
   "book": "1B",
   "lesson": 11,
-  "source": "서울대 한국어 1B 학생 읽기 자료 · 11과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "서울대 한국어 1B 학생책·워크북 11과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1B-11-001",
-      "displaySentence": "어디가 아프세요?",
+      "displaySentence": "감기에 걸려서 기침이 심해요.",
       "tokens": [
         [
           "SNU-1B-11-001_card_0",
-          "어디"
+          "감기"
         ],
         [
           "SNU-1B-11-001_card_1",
-          "가"
-        ],
-        [
-          "SNU-1B-11-001_card_2",
-          "아프세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-001_card_0",
-          "SNU-1B-11-001_card_1",
-          "SNU-1B-11-001_card_2"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-002",
-      "displaySentence": "목이 아파요.",
-      "tokens": [
-        [
-          "SNU-1B-11-002_card_0",
-          "목"
-        ],
-        [
-          "SNU-1B-11-002_card_1",
-          "이"
-        ],
-        [
-          "SNU-1B-11-002_card_2",
-          "아파요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-002_card_0",
-          "SNU-1B-11-002_card_1",
-          "SNU-1B-11-002_card_2"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-003",
-      "displaySentence": "주말에 만날까요?",
-      "tokens": [
-        [
-          "SNU-1B-11-003_card_0",
-          "주말"
-        ],
-        [
-          "SNU-1B-11-003_card_1",
           "에"
         ],
         [
+          "SNU-1B-11-001_card_2",
+          "걸려서"
+        ],
+        [
+          "SNU-1B-11-001_card_3",
+          "기침"
+        ],
+        [
+          "SNU-1B-11-001_card_4",
+          "이"
+        ],
+        [
+          "SNU-1B-11-001_card_5",
+          "심해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-11-001_card_0",
+          "SNU-1B-11-001_card_1",
+          "SNU-1B-11-001_card_2",
+          "SNU-1B-11-001_card_3",
+          "SNU-1B-11-001_card_4",
+          "SNU-1B-11-001_card_5"
+        ]
+      ],
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
+    },
+    {
+      "id": "SNU-1B-11-002",
+      "displaySentence": "오늘은 열이 있지만 수업에 왔어요.",
+      "tokens": [
+        [
+          "SNU-1B-11-002_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-1B-11-002_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-11-002_card_2",
+          "열"
+        ],
+        [
+          "SNU-1B-11-002_card_3",
+          "이"
+        ],
+        [
+          "SNU-1B-11-002_card_4",
+          "있지"
+        ],
+        [
+          "SNU-1B-11-002_card_5",
+          "만"
+        ],
+        [
+          "SNU-1B-11-002_card_6",
+          "수업"
+        ],
+        [
+          "SNU-1B-11-002_card_7",
+          "에"
+        ],
+        [
+          "SNU-1B-11-002_card_8",
+          "왔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-11-002_card_0",
+          "SNU-1B-11-002_card_1",
+          "SNU-1B-11-002_card_2",
+          "SNU-1B-11-002_card_3",
+          "SNU-1B-11-002_card_4",
+          "SNU-1B-11-002_card_5",
+          "SNU-1B-11-002_card_6",
+          "SNU-1B-11-002_card_7",
+          "SNU-1B-11-002_card_8"
+        ]
+      ],
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
+    },
+    {
+      "id": "SNU-1B-11-003",
+      "displaySentence": "목이 아파서 말을 많이 안 해요.",
+      "tokens": [
+        [
+          "SNU-1B-11-003_card_0",
+          "목"
+        ],
+        [
+          "SNU-1B-11-003_card_1",
+          "이"
+        ],
+        [
           "SNU-1B-11-003_card_2",
-          "만날까요"
+          "아파서"
+        ],
+        [
+          "SNU-1B-11-003_card_3",
+          "말"
+        ],
+        [
+          "SNU-1B-11-003_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-11-003_card_5",
+          "많이"
+        ],
+        [
+          "SNU-1B-11-003_card_6",
+          "안"
+        ],
+        [
+          "SNU-1B-11-003_card_7",
+          "해요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-11-003_card_0",
           "SNU-1B-11-003_card_1",
-          "SNU-1B-11-003_card_2"
+          "SNU-1B-11-003_card_2",
+          "SNU-1B-11-003_card_3",
+          "SNU-1B-11-003_card_4",
+          "SNU-1B-11-003_card_5",
+          "SNU-1B-11-003_card_6",
+          "SNU-1B-11-003_card_7"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-004",
-      "displaySentence": "이번 주말에는 좀 바빠요.",
+      "displaySentence": "허리가 아프지만 천천히 걸을 수 있어요.",
       "tokens": [
         [
           "SNU-1B-11-004_card_0",
-          "이번"
+          "허리"
         ],
         [
           "SNU-1B-11-004_card_1",
-          "주말에"
-        ],
-        [
-          "SNU-1B-11-004_card_2",
-          "는"
-        ],
-        [
-          "SNU-1B-11-004_card_3",
-          "좀"
-        ],
-        [
-          "SNU-1B-11-004_card_4",
-          "바빠요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-004_card_0",
-          "SNU-1B-11-004_card_1",
-          "SNU-1B-11-004_card_2",
-          "SNU-1B-11-004_card_3",
-          "SNU-1B-11-004_card_4"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-005",
-      "displaySentence": "아침을 안 먹었어요.",
-      "tokens": [
-        [
-          "SNU-1B-11-005_card_0",
-          "아침"
-        ],
-        [
-          "SNU-1B-11-005_card_1",
-          "을"
-        ],
-        [
-          "SNU-1B-11-005_card_2",
-          "안"
-        ],
-        [
-          "SNU-1B-11-005_card_3",
-          "먹었어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-005_card_0",
-          "SNU-1B-11-005_card_1",
-          "SNU-1B-11-005_card_2",
-          "SNU-1B-11-005_card_3"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-006",
-      "displaySentence": "아키라 씨 여동생이 예뻐요.",
-      "tokens": [
-        [
-          "SNU-1B-11-006_card_0",
-          "아키라"
-        ],
-        [
-          "SNU-1B-11-006_card_1",
-          "씨"
-        ],
-        [
-          "SNU-1B-11-006_card_2",
-          "여동생"
-        ],
-        [
-          "SNU-1B-11-006_card_3",
-          "이"
-        ],
-        [
-          "SNU-1B-11-006_card_4",
-          "예뻐요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-006_card_0",
-          "SNU-1B-11-006_card_1",
-          "SNU-1B-11-006_card_2",
-          "SNU-1B-11-006_card_3",
-          "SNU-1B-11-006_card_4"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-007",
-      "displaySentence": "어제는 편지를 썼어요.",
-      "tokens": [
-        [
-          "SNU-1B-11-007_card_0",
-          "어제"
-        ],
-        [
-          "SNU-1B-11-007_card_1",
-          "는"
-        ],
-        [
-          "SNU-1B-11-007_card_2",
-          "편지"
-        ],
-        [
-          "SNU-1B-11-007_card_3",
-          "를"
-        ],
-        [
-          "SNU-1B-11-007_card_4",
-          "썼어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-007_card_0",
-          "SNU-1B-11-007_card_1",
-          "SNU-1B-11-007_card_2",
-          "SNU-1B-11-007_card_3",
-          "SNU-1B-11-007_card_4"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-008",
-      "displaySentence": "어제는 날씨가 나빴지만 오늘은 좋아요.",
-      "tokens": [
-        [
-          "SNU-1B-11-008_card_0",
-          "어제"
-        ],
-        [
-          "SNU-1B-11-008_card_1",
-          "는"
-        ],
-        [
-          "SNU-1B-11-008_card_2",
-          "날씨"
-        ],
-        [
-          "SNU-1B-11-008_card_3",
           "가"
         ],
         [
-          "SNU-1B-11-008_card_4",
-          "나빴지만"
+          "SNU-1B-11-004_card_2",
+          "아프지"
         ],
         [
-          "SNU-1B-11-008_card_5",
+          "SNU-1B-11-004_card_3",
+          "만"
+        ],
+        [
+          "SNU-1B-11-004_card_4",
+          "천천히"
+        ],
+        [
+          "SNU-1B-11-004_card_5",
+          "걸을 수 있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-11-004_card_0",
+          "SNU-1B-11-004_card_1",
+          "SNU-1B-11-004_card_2",
+          "SNU-1B-11-004_card_3",
+          "SNU-1B-11-004_card_4",
+          "SNU-1B-11-004_card_5"
+        ]
+      ],
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
+    },
+    {
+      "id": "SNU-1B-11-005",
+      "displaySentence": "여기에서는 담배를 피우지 마세요.",
+      "tokens": [
+        [
+          "SNU-1B-11-005_card_0",
+          "여기에서"
+        ],
+        [
+          "SNU-1B-11-005_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-11-005_card_2",
+          "담배"
+        ],
+        [
+          "SNU-1B-11-005_card_3",
+          "를"
+        ],
+        [
+          "SNU-1B-11-005_card_4",
+          "피우지"
+        ],
+        [
+          "SNU-1B-11-005_card_5",
+          "마세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-11-005_card_0",
+          "SNU-1B-11-005_card_1",
+          "SNU-1B-11-005_card_2",
+          "SNU-1B-11-005_card_3",
+          "SNU-1B-11-005_card_4",
+          "SNU-1B-11-005_card_5"
+        ]
+      ],
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
+    },
+    {
+      "id": "SNU-1B-11-006",
+      "displaySentence": "감기에 걸렸을 때 술을 마시지 마세요.",
+      "tokens": [
+        [
+          "SNU-1B-11-006_card_0",
+          "감기"
+        ],
+        [
+          "SNU-1B-11-006_card_1",
+          "에"
+        ],
+        [
+          "SNU-1B-11-006_card_2",
+          "걸렸"
+        ],
+        [
+          "SNU-1B-11-006_card_3",
+          "을"
+        ],
+        [
+          "SNU-1B-11-006_card_4",
+          "때"
+        ],
+        [
+          "SNU-1B-11-006_card_5",
+          "술"
+        ],
+        [
+          "SNU-1B-11-006_card_6",
+          "을"
+        ],
+        [
+          "SNU-1B-11-006_card_7",
+          "마시지"
+        ],
+        [
+          "SNU-1B-11-006_card_8",
+          "마세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-11-006_card_0",
+          "SNU-1B-11-006_card_1",
+          "SNU-1B-11-006_card_2",
+          "SNU-1B-11-006_card_3",
+          "SNU-1B-11-006_card_4",
+          "SNU-1B-11-006_card_5",
+          "SNU-1B-11-006_card_6",
+          "SNU-1B-11-006_card_7",
+          "SNU-1B-11-006_card_8"
+        ]
+      ],
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
+    },
+    {
+      "id": "SNU-1B-11-007",
+      "displaySentence": "머리가 아프면 너무 걱정하지 마세요.",
+      "tokens": [
+        [
+          "SNU-1B-11-007_card_0",
+          "머리"
+        ],
+        [
+          "SNU-1B-11-007_card_1",
+          "가"
+        ],
+        [
+          "SNU-1B-11-007_card_2",
+          "아프면"
+        ],
+        [
+          "SNU-1B-11-007_card_3",
+          "너무"
+        ],
+        [
+          "SNU-1B-11-007_card_4",
+          "걱정하지"
+        ],
+        [
+          "SNU-1B-11-007_card_5",
+          "마세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-11-007_card_0",
+          "SNU-1B-11-007_card_1",
+          "SNU-1B-11-007_card_2",
+          "SNU-1B-11-007_card_3",
+          "SNU-1B-11-007_card_4",
+          "SNU-1B-11-007_card_5"
+        ]
+      ],
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
+    },
+    {
+      "id": "SNU-1B-11-008",
+      "displaySentence": "오늘은 물만 많이 마셨어요.",
+      "tokens": [
+        [
+          "SNU-1B-11-008_card_0",
           "오늘"
         ],
         [
-          "SNU-1B-11-008_card_6",
+          "SNU-1B-11-008_card_1",
           "은"
         ],
         [
-          "SNU-1B-11-008_card_7",
-          "좋아요"
+          "SNU-1B-11-008_card_2",
+          "물"
+        ],
+        [
+          "SNU-1B-11-008_card_3",
+          "만"
+        ],
+        [
+          "SNU-1B-11-008_card_4",
+          "많이"
+        ],
+        [
+          "SNU-1B-11-008_card_5",
+          "마셨어요"
         ]
       ],
       "acceptedOrders": [
@@ -265,36 +375,35 @@
           "SNU-1B-11-008_card_2",
           "SNU-1B-11-008_card_3",
           "SNU-1B-11-008_card_4",
-          "SNU-1B-11-008_card_5",
-          "SNU-1B-11-008_card_6",
-          "SNU-1B-11-008_card_7"
+          "SNU-1B-11-008_card_5"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-009",
-      "displaySentence": "여기에서 담배 피우지 마세요.",
+      "displaySentence": "아침에는 빵만 먹었어요.",
       "tokens": [
         [
           "SNU-1B-11-009_card_0",
-          "여기"
+          "아침에"
         ],
         [
           "SNU-1B-11-009_card_1",
-          "에서"
+          "는"
         ],
         [
           "SNU-1B-11-009_card_2",
-          "담배"
+          "빵"
         ],
         [
           "SNU-1B-11-009_card_3",
-          "피우지"
+          "만"
         ],
         [
           "SNU-1B-11-009_card_4",
-          "마세요"
+          "먹었어요"
         ]
       ],
       "acceptedOrders": [
@@ -306,31 +415,36 @@
           "SNU-1B-11-009_card_4"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-010",
-      "displaySentence": "좀 늦을 거예요.",
+      "displaySentence": "저는 오른쪽 다리만 아파요.",
       "tokens": [
         [
           "SNU-1B-11-010_card_0",
-          "좀"
+          "저"
         ],
         [
           "SNU-1B-11-010_card_1",
-          "늦"
+          "는"
         ],
         [
           "SNU-1B-11-010_card_2",
-          "을"
+          "오른쪽"
         ],
         [
           "SNU-1B-11-010_card_3",
-          "거"
+          "다리"
         ],
         [
           "SNU-1B-11-010_card_4",
-          "예요"
+          "만"
+        ],
+        [
+          "SNU-1B-11-010_card_5",
+          "아파요"
         ]
       ],
       "acceptedOrders": [
@@ -339,34 +453,36 @@
           "SNU-1B-11-010_card_1",
           "SNU-1B-11-010_card_2",
           "SNU-1B-11-010_card_3",
-          "SNU-1B-11-010_card_4"
+          "SNU-1B-11-010_card_4",
+          "SNU-1B-11-010_card_5"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-011",
-      "displaySentence": "아이스크림을 많이 먹지 마세요.",
+      "displaySentence": "내일까지 리포트를 써야 돼요.",
       "tokens": [
         [
           "SNU-1B-11-011_card_0",
-          "아이스크림"
+          "내일"
         ],
         [
           "SNU-1B-11-011_card_1",
-          "을"
+          "까지"
         ],
         [
           "SNU-1B-11-011_card_2",
-          "많이"
+          "리포트"
         ],
         [
           "SNU-1B-11-011_card_3",
-          "먹지"
+          "를"
         ],
         [
           "SNU-1B-11-011_card_4",
-          "마세요"
+          "써야 돼요"
         ]
       ],
       "acceptedOrders": [
@@ -378,27 +494,32 @@
           "SNU-1B-11-011_card_4"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-012",
-      "displaySentence": "학생들이 모두 왔어요?",
+      "displaySentence": "오늘 저녁에는 일찍 자야 돼요.",
       "tokens": [
         [
           "SNU-1B-11-012_card_0",
-          "학생들"
+          "오늘"
         ],
         [
           "SNU-1B-11-012_card_1",
-          "이"
+          "저녁에"
         ],
         [
           "SNU-1B-11-012_card_2",
-          "모두"
+          "는"
         ],
         [
           "SNU-1B-11-012_card_3",
-          "왔어요"
+          "일찍"
+        ],
+        [
+          "SNU-1B-11-012_card_4",
+          "자야 돼요"
         ]
       ],
       "acceptedOrders": [
@@ -406,30 +527,40 @@
           "SNU-1B-11-012_card_0",
           "SNU-1B-11-012_card_1",
           "SNU-1B-11-012_card_2",
-          "SNU-1B-11-012_card_3"
+          "SNU-1B-11-012_card_3",
+          "SNU-1B-11-012_card_4"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-013",
-      "displaySentence": "아니요, 스티븐 씨만 왔어요.",
+      "displaySentence": "밥을 먹고 약을 먹어야 돼요.",
       "tokens": [
         [
           "SNU-1B-11-013_card_0",
-          "아니요"
+          "밥"
         ],
         [
           "SNU-1B-11-013_card_1",
-          "스티븐 씨"
+          "을"
         ],
         [
           "SNU-1B-11-013_card_2",
-          "만"
+          "먹고"
         ],
         [
           "SNU-1B-11-013_card_3",
-          "왔어요"
+          "약"
+        ],
+        [
+          "SNU-1B-11-013_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-11-013_card_5",
+          "먹어야 돼요"
         ]
       ],
       "acceptedOrders": [
@@ -437,56 +568,79 @@
           "SNU-1B-11-013_card_0",
           "SNU-1B-11-013_card_1",
           "SNU-1B-11-013_card_2",
-          "SNU-1B-11-013_card_3"
+          "SNU-1B-11-013_card_3",
+          "SNU-1B-11-013_card_4",
+          "SNU-1B-11-013_card_5"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-014",
-      "displaySentence": "커피만 마셨어요?",
+      "displaySentence": "수업 전에 휴대폰을 꺼야 돼요.",
       "tokens": [
         [
           "SNU-1B-11-014_card_0",
-          "커피"
+          "수업"
         ],
         [
           "SNU-1B-11-014_card_1",
-          "만"
+          "전"
         ],
         [
           "SNU-1B-11-014_card_2",
-          "마셨어요"
+          "에"
+        ],
+        [
+          "SNU-1B-11-014_card_3",
+          "휴대폰"
+        ],
+        [
+          "SNU-1B-11-014_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-11-014_card_5",
+          "꺼야 돼요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-11-014_card_0",
           "SNU-1B-11-014_card_1",
-          "SNU-1B-11-014_card_2"
+          "SNU-1B-11-014_card_2",
+          "SNU-1B-11-014_card_3",
+          "SNU-1B-11-014_card_4",
+          "SNU-1B-11-014_card_5"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-015",
-      "displaySentence": "아니요, 빵도 먹었어요.",
+      "displaySentence": "몸이 아프면 충분히 쉬어야 돼요.",
       "tokens": [
         [
           "SNU-1B-11-015_card_0",
-          "아니요"
+          "몸"
         ],
         [
           "SNU-1B-11-015_card_1",
-          "빵"
+          "이"
         ],
         [
           "SNU-1B-11-015_card_2",
-          "도"
+          "아프면"
         ],
         [
           "SNU-1B-11-015_card_3",
-          "먹었어요"
+          "충분히"
+        ],
+        [
+          "SNU-1B-11-015_card_4",
+          "쉬어야 돼요"
         ]
       ],
       "acceptedOrders": [
@@ -494,18 +648,20 @@
           "SNU-1B-11-015_card_0",
           "SNU-1B-11-015_card_1",
           "SNU-1B-11-015_card_2",
-          "SNU-1B-11-015_card_3"
+          "SNU-1B-11-015_card_3",
+          "SNU-1B-11-015_card_4"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-016",
-      "displaySentence": "여동생이 있어요?",
+      "displaySentence": "무릎이 아파서 운동을 안 했어요.",
       "tokens": [
         [
           "SNU-1B-11-016_card_0",
-          "여동생"
+          "무릎"
         ],
         [
           "SNU-1B-11-016_card_1",
@@ -513,45 +669,70 @@
         ],
         [
           "SNU-1B-11-016_card_2",
-          "있어요"
+          "아파서"
+        ],
+        [
+          "SNU-1B-11-016_card_3",
+          "운동"
+        ],
+        [
+          "SNU-1B-11-016_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-11-016_card_5",
+          "안"
+        ],
+        [
+          "SNU-1B-11-016_card_6",
+          "했어요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-11-016_card_0",
           "SNU-1B-11-016_card_1",
-          "SNU-1B-11-016_card_2"
+          "SNU-1B-11-016_card_2",
+          "SNU-1B-11-016_card_3",
+          "SNU-1B-11-016_card_4",
+          "SNU-1B-11-016_card_5",
+          "SNU-1B-11-016_card_6"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-017",
-      "displaySentence": "아니요, 남동생만 두 명 있어요.",
+      "displaySentence": "콧물이 나지만 열은 없어요.",
       "tokens": [
         [
           "SNU-1B-11-017_card_0",
-          "아니요"
+          "콧물"
         ],
         [
           "SNU-1B-11-017_card_1",
-          "남동생"
+          "이"
         ],
         [
           "SNU-1B-11-017_card_2",
-          "만"
+          "나지"
         ],
         [
           "SNU-1B-11-017_card_3",
-          "두"
+          "만"
         ],
         [
           "SNU-1B-11-017_card_4",
-          "명"
+          "열"
         ],
         [
           "SNU-1B-11-017_card_5",
-          "있어요"
+          "은"
+        ],
+        [
+          "SNU-1B-11-017_card_6",
+          "없어요"
         ]
       ],
       "acceptedOrders": [
@@ -561,38 +742,48 @@
           "SNU-1B-11-017_card_2",
           "SNU-1B-11-017_card_3",
           "SNU-1B-11-017_card_4",
-          "SNU-1B-11-017_card_5"
+          "SNU-1B-11-017_card_5",
+          "SNU-1B-11-017_card_6"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-018",
-      "displaySentence": "이 꽃은 한국에만 있어요.",
+      "displaySentence": "어깨가 아파서 무거운 가방을 안 들어요.",
       "tokens": [
         [
           "SNU-1B-11-018_card_0",
-          "이"
+          "어깨"
         ],
         [
           "SNU-1B-11-018_card_1",
-          "꽃"
+          "가"
         ],
         [
           "SNU-1B-11-018_card_2",
-          "은"
+          "아파서"
         ],
         [
           "SNU-1B-11-018_card_3",
-          "한국에"
+          "무거운"
         ],
         [
           "SNU-1B-11-018_card_4",
-          "만"
+          "가방"
         ],
         [
           "SNU-1B-11-018_card_5",
-          "있어요"
+          "을"
+        ],
+        [
+          "SNU-1B-11-018_card_6",
+          "안"
+        ],
+        [
+          "SNU-1B-11-018_card_7",
+          "들어요"
         ]
       ],
       "acceptedOrders": [
@@ -602,226 +793,112 @@
           "SNU-1B-11-018_card_2",
           "SNU-1B-11-018_card_3",
           "SNU-1B-11-018_card_4",
-          "SNU-1B-11-018_card_5"
+          "SNU-1B-11-018_card_5",
+          "SNU-1B-11-018_card_6",
+          "SNU-1B-11-018_card_7"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     },
     {
       "id": "SNU-1B-11-019",
-      "displaySentence": "시험이 있어요.",
+      "displaySentence": "안내문을 읽고 규칙을 지켜야 돼요.",
       "tokens": [
         [
           "SNU-1B-11-019_card_0",
-          "시험"
+          "안내문"
         ],
         [
           "SNU-1B-11-019_card_1",
-          "이"
-        ],
-        [
-          "SNU-1B-11-019_card_2",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-019_card_0",
-          "SNU-1B-11-019_card_1",
-          "SNU-1B-11-019_card_2"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-020",
-      "displaySentence": "선생님, 내일도 병원에 와야 돼요?",
-      "tokens": [
-        [
-          "SNU-1B-11-020_card_0",
-          "선생님"
-        ],
-        [
-          "SNU-1B-11-020_card_1",
-          "내일"
-        ],
-        [
-          "SNU-1B-11-020_card_2",
-          "도"
-        ],
-        [
-          "SNU-1B-11-020_card_3",
-          "병원"
-        ],
-        [
-          "SNU-1B-11-020_card_4",
-          "에"
-        ],
-        [
-          "SNU-1B-11-020_card_5",
-          "와야"
-        ],
-        [
-          "SNU-1B-11-020_card_6",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-020_card_0",
-          "SNU-1B-11-020_card_1",
-          "SNU-1B-11-020_card_2",
-          "SNU-1B-11-020_card_3",
-          "SNU-1B-11-020_card_4",
-          "SNU-1B-11-020_card_5",
-          "SNU-1B-11-020_card_6"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-021",
-      "displaySentence": "네, 내일도 오세요.",
-      "tokens": [
-        [
-          "SNU-1B-11-021_card_0",
-          "네"
-        ],
-        [
-          "SNU-1B-11-021_card_1",
-          "내일"
-        ],
-        [
-          "SNU-1B-11-021_card_2",
-          "도"
-        ],
-        [
-          "SNU-1B-11-021_card_3",
-          "오세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-021_card_0",
-          "SNU-1B-11-021_card_1",
-          "SNU-1B-11-021_card_2",
-          "SNU-1B-11-021_card_3"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-022",
-      "displaySentence": "집에 가서 청소해야 돼요.",
-      "tokens": [
-        [
-          "SNU-1B-11-022_card_0",
-          "집"
-        ],
-        [
-          "SNU-1B-11-022_card_1",
-          "에"
-        ],
-        [
-          "SNU-1B-11-022_card_2",
-          "가서"
-        ],
-        [
-          "SNU-1B-11-022_card_3",
-          "청소해야"
-        ],
-        [
-          "SNU-1B-11-022_card_4",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-022_card_0",
-          "SNU-1B-11-022_card_1",
-          "SNU-1B-11-022_card_2",
-          "SNU-1B-11-022_card_3",
-          "SNU-1B-11-022_card_4"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-023",
-      "displaySentence": "저녁에 손님이 오세요.",
-      "tokens": [
-        [
-          "SNU-1B-11-023_card_0",
-          "저녁"
-        ],
-        [
-          "SNU-1B-11-023_card_1",
-          "에"
-        ],
-        [
-          "SNU-1B-11-023_card_2",
-          "손님"
-        ],
-        [
-          "SNU-1B-11-023_card_3",
-          "이"
-        ],
-        [
-          "SNU-1B-11-023_card_4",
-          "오세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-11-023_card_0",
-          "SNU-1B-11-023_card_1",
-          "SNU-1B-11-023_card_2",
-          "SNU-1B-11-023_card_3",
-          "SNU-1B-11-023_card_4"
-        ]
-      ],
-      "note": "서울대 1B 11과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-11-024",
-      "displaySentence": "밥 먹고 약을 먹어야 돼요.",
-      "tokens": [
-        [
-          "SNU-1B-11-024_card_0",
-          "밥"
-        ],
-        [
-          "SNU-1B-11-024_card_1",
-          "먹고"
-        ],
-        [
-          "SNU-1B-11-024_card_2",
-          "약"
-        ],
-        [
-          "SNU-1B-11-024_card_3",
           "을"
         ],
         [
-          "SNU-1B-11-024_card_4",
-          "먹어야"
+          "SNU-1B-11-019_card_2",
+          "읽고"
         ],
         [
-          "SNU-1B-11-024_card_5",
-          "돼요"
+          "SNU-1B-11-019_card_3",
+          "규칙"
+        ],
+        [
+          "SNU-1B-11-019_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-11-019_card_5",
+          "지켜야 돼요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1B-11-024_card_0",
-          "SNU-1B-11-024_card_1",
-          "SNU-1B-11-024_card_2",
-          "SNU-1B-11-024_card_3",
-          "SNU-1B-11-024_card_4",
-          "SNU-1B-11-024_card_5"
+          "SNU-1B-11-019_card_0",
+          "SNU-1B-11-019_card_1",
+          "SNU-1B-11-019_card_2",
+          "SNU-1B-11-019_card_3",
+          "SNU-1B-11-019_card_4",
+          "SNU-1B-11-019_card_5"
         ]
       ],
-      "note": "서울대 1B 11과 교재 기반"
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
+    },
+    {
+      "id": "SNU-1B-11-020",
+      "displaySentence": "친구에게 걱정거리를 이야기하고 조언을 들었어요.",
+      "tokens": [
+        [
+          "SNU-1B-11-020_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1B-11-020_card_1",
+          "에게"
+        ],
+        [
+          "SNU-1B-11-020_card_2",
+          "걱정거리"
+        ],
+        [
+          "SNU-1B-11-020_card_3",
+          "를"
+        ],
+        [
+          "SNU-1B-11-020_card_4",
+          "이야기"
+        ],
+        [
+          "SNU-1B-11-020_card_5",
+          "하고"
+        ],
+        [
+          "SNU-1B-11-020_card_6",
+          "조언"
+        ],
+        [
+          "SNU-1B-11-020_card_7",
+          "을"
+        ],
+        [
+          "SNU-1B-11-020_card_8",
+          "들었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-11-020_card_0",
+          "SNU-1B-11-020_card_1",
+          "SNU-1B-11-020_card_2",
+          "SNU-1B-11-020_card_3",
+          "SNU-1B-11-020_card_4",
+          "SNU-1B-11-020_card_5",
+          "SNU-1B-11-020_card_6",
+          "SNU-1B-11-020_card_7",
+          "SNU-1B-11-020_card_8"
+        ]
+      ],
+      "note": "서울대 1B 11과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 11과 SB/WB 문법(A/V-지만; 안 V; V-지 마세요; N만; V-아/어야 돼요) + data/snu/1B/lesson11.json 어휘"
     }
   ]
 }

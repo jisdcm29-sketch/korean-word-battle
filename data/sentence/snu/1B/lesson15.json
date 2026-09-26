@@ -1,40 +1,37 @@
 {
   "book": "1B",
   "lesson": 15,
-  "source": "서울대 한국어 1B 학생 읽기 자료 · 15과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "서울대 한국어 1B 학생책·워크북 15과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1B-15-001",
-      "displaySentence": "고향에 가면 뭐 할 거예요?",
+      "displaySentence": "방학이 시작하면 고향에 갈 거예요.",
       "tokens": [
         [
           "SNU-1B-15-001_card_0",
+          "방학"
+        ],
+        [
+          "SNU-1B-15-001_card_1",
+          "이"
+        ],
+        [
+          "SNU-1B-15-001_card_2",
+          "시작하면"
+        ],
+        [
+          "SNU-1B-15-001_card_3",
           "고향"
         ],
         [
-          "SNU-1B-15-001_card_1",
+          "SNU-1B-15-001_card_4",
           "에"
         ],
         [
-          "SNU-1B-15-001_card_2",
-          "가면"
-        ],
-        [
-          "SNU-1B-15-001_card_3",
-          "뭐"
-        ],
-        [
-          "SNU-1B-15-001_card_4",
-          "할"
-        ],
-        [
           "SNU-1B-15-001_card_5",
-          "거"
-        ],
-        [
-          "SNU-1B-15-001_card_6",
-          "예요"
+          "갈 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -44,55 +41,39 @@
           "SNU-1B-15-001_card_2",
           "SNU-1B-15-001_card_3",
           "SNU-1B-15-001_card_4",
-          "SNU-1B-15-001_card_5",
-          "SNU-1B-15-001_card_6"
+          "SNU-1B-15-001_card_5"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-002",
-      "displaySentence": "친구들을 만나서 맛있는 음식을 먹을 거예요.",
+      "displaySentence": "날씨가 좋으면 바다에 가고 싶어요.",
       "tokens": [
         [
           "SNU-1B-15-002_card_0",
-          "친구들"
+          "날씨"
         ],
         [
           "SNU-1B-15-002_card_1",
-          "을"
+          "가"
         ],
         [
           "SNU-1B-15-002_card_2",
-          "만나서"
+          "좋으면"
         ],
         [
           "SNU-1B-15-002_card_3",
-          "맛있는"
+          "바다"
         ],
         [
           "SNU-1B-15-002_card_4",
-          "음식"
+          "에"
         ],
         [
           "SNU-1B-15-002_card_5",
-          "을"
-        ],
-        [
-          "SNU-1B-15-002_card_6",
-          "먹"
-        ],
-        [
-          "SNU-1B-15-002_card_7",
-          "을"
-        ],
-        [
-          "SNU-1B-15-002_card_8",
-          "거"
-        ],
-        [
-          "SNU-1B-15-002_card_9",
-          "예요"
+          "가고 싶어요"
         ]
       ],
       "acceptedOrders": [
@@ -102,22 +83,19 @@
           "SNU-1B-15-002_card_2",
           "SNU-1B-15-002_card_3",
           "SNU-1B-15-002_card_4",
-          "SNU-1B-15-002_card_5",
-          "SNU-1B-15-002_card_6",
-          "SNU-1B-15-002_card_7",
-          "SNU-1B-15-002_card_8",
-          "SNU-1B-15-002_card_9"
+          "SNU-1B-15-002_card_5"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-003",
-      "displaySentence": "길이 복잡하면 지하철을 타세요.",
+      "displaySentence": "시간이 있으면 유명한 관광지를 구경하고 싶어요.",
       "tokens": [
         [
           "SNU-1B-15-003_card_0",
-          "길"
+          "시간"
         ],
         [
           "SNU-1B-15-003_card_1",
@@ -125,19 +103,27 @@
         ],
         [
           "SNU-1B-15-003_card_2",
-          "복잡하면"
+          "있으면"
         ],
         [
           "SNU-1B-15-003_card_3",
-          "지하철"
+          "유명한"
         ],
         [
           "SNU-1B-15-003_card_4",
-          "을"
+          "관광지"
         ],
         [
           "SNU-1B-15-003_card_5",
-          "타세요"
+          "를"
+        ],
+        [
+          "SNU-1B-15-003_card_6",
+          "구경"
+        ],
+        [
+          "SNU-1B-15-003_card_7",
+          "하고 싶어요"
         ]
       ],
       "acceptedOrders": [
@@ -147,18 +133,21 @@
           "SNU-1B-15-003_card_2",
           "SNU-1B-15-003_card_3",
           "SNU-1B-15-003_card_4",
-          "SNU-1B-15-003_card_5"
+          "SNU-1B-15-003_card_5",
+          "SNU-1B-15-003_card_6",
+          "SNU-1B-15-003_card_7"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-004",
-      "displaySentence": "사람이 많으면 다음에 갈 거예요.",
+      "displaySentence": "물건값이 싸면 반지를 하나 사고 싶어요.",
       "tokens": [
         [
           "SNU-1B-15-004_card_0",
-          "사람"
+          "물건값"
         ],
         [
           "SNU-1B-15-004_card_1",
@@ -166,27 +155,23 @@
         ],
         [
           "SNU-1B-15-004_card_2",
-          "많으면"
+          "싸면"
         ],
         [
           "SNU-1B-15-004_card_3",
-          "다음"
+          "반지"
         ],
         [
           "SNU-1B-15-004_card_4",
-          "에"
+          "를"
         ],
         [
           "SNU-1B-15-004_card_5",
-          "갈"
+          "하나"
         ],
         [
           "SNU-1B-15-004_card_6",
-          "거"
-        ],
-        [
-          "SNU-1B-15-004_card_7",
-          "예요"
+          "사고 싶어요"
         ]
       ],
       "acceptedOrders": [
@@ -197,31 +182,31 @@
           "SNU-1B-15-004_card_3",
           "SNU-1B-15-004_card_4",
           "SNU-1B-15-004_card_5",
-          "SNU-1B-15-004_card_6",
-          "SNU-1B-15-004_card_7"
+          "SNU-1B-15-004_card_6"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-005",
-      "displaySentence": "집에 도착하면 전화하세요.",
+      "displaySentence": "조용한 호텔이면 오래 쉬고 싶어요.",
       "tokens": [
         [
           "SNU-1B-15-005_card_0",
-          "집"
+          "조용한"
         ],
         [
           "SNU-1B-15-005_card_1",
-          "에"
+          "호텔이면"
         ],
         [
           "SNU-1B-15-005_card_2",
-          "도착하면"
+          "오래"
         ],
         [
           "SNU-1B-15-005_card_3",
-          "전화하세요"
+          "쉬고 싶어요"
         ]
       ],
       "acceptedOrders": [
@@ -232,85 +217,106 @@
           "SNU-1B-15-005_card_3"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-006",
-      "displaySentence": "생일에 무슨 선물을 받으면 좋아요?",
+      "displaySentence": "제가 기억에 남는 여행지는 제주도예요.",
       "tokens": [
         [
           "SNU-1B-15-006_card_0",
-          "생일"
+          "제"
         ],
         [
           "SNU-1B-15-006_card_1",
-          "에"
+          "가"
         ],
         [
           "SNU-1B-15-006_card_2",
-          "무슨"
+          "기억"
         ],
         [
           "SNU-1B-15-006_card_3",
-          "선물"
-        ],
-        [
-          "SNU-1B-15-006_card_4",
-          "을"
-        ],
-        [
-          "SNU-1B-15-006_card_5",
-          "받으면"
-        ],
-        [
-          "SNU-1B-15-006_card_6",
-          "좋아요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-006_card_0",
-          "SNU-1B-15-006_card_1",
-          "SNU-1B-15-006_card_2",
-          "SNU-1B-15-006_card_3",
-          "SNU-1B-15-006_card_4",
-          "SNU-1B-15-006_card_5",
-          "SNU-1B-15-006_card_6"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-007",
-      "displaySentence": "회사에 다니는 친구가 있어요?",
-      "tokens": [
-        [
-          "SNU-1B-15-007_card_0",
-          "회사"
-        ],
-        [
-          "SNU-1B-15-007_card_1",
           "에"
         ],
         [
-          "SNU-1B-15-007_card_2",
-          "다니"
+          "SNU-1B-15-006_card_4",
+          "남"
         ],
         [
-          "SNU-1B-15-007_card_3",
+          "SNU-1B-15-006_card_5",
           "는"
         ],
         [
-          "SNU-1B-15-007_card_4",
+          "SNU-1B-15-006_card_6",
+          "여행지"
+        ],
+        [
+          "SNU-1B-15-006_card_7",
+          "는"
+        ],
+        [
+          "SNU-1B-15-006_card_8",
+          "제주도"
+        ],
+        [
+          "SNU-1B-15-006_card_9",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-15-006_card_0",
+          "SNU-1B-15-006_card_1",
+          "SNU-1B-15-006_card_2",
+          "SNU-1B-15-006_card_3",
+          "SNU-1B-15-006_card_4",
+          "SNU-1B-15-006_card_5",
+          "SNU-1B-15-006_card_6",
+          "SNU-1B-15-006_card_7",
+          "SNU-1B-15-006_card_8",
+          "SNU-1B-15-006_card_9"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-007",
+      "displaySentence": "친구가 추천한 호텔은 경치가 아름다워요.",
+      "tokens": [
+        [
+          "SNU-1B-15-007_card_0",
           "친구"
         ],
         [
-          "SNU-1B-15-007_card_5",
+          "SNU-1B-15-007_card_1",
           "가"
         ],
         [
+          "SNU-1B-15-007_card_2",
+          "추천한"
+        ],
+        [
+          "SNU-1B-15-007_card_3",
+          "호텔"
+        ],
+        [
+          "SNU-1B-15-007_card_4",
+          "은"
+        ],
+        [
+          "SNU-1B-15-007_card_5",
+          "경치"
+        ],
+        [
           "SNU-1B-15-007_card_6",
-          "있어요"
+          "가"
+        ],
+        [
+          "SNU-1B-15-007_card_7",
+          "아름다워요"
         ]
       ],
       "acceptedOrders": [
@@ -321,117 +327,175 @@
           "SNU-1B-15-007_card_3",
           "SNU-1B-15-007_card_4",
           "SNU-1B-15-007_card_5",
-          "SNU-1B-15-007_card_6"
+          "SNU-1B-15-007_card_6",
+          "SNU-1B-15-007_card_7"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-008",
-      "displaySentence": "네, 아키라 씨가 여행사에 다녀요.",
+      "displaySentence": "관광객들이 많이 찾는 곳은 구경거리가 많아요.",
       "tokens": [
         [
           "SNU-1B-15-008_card_0",
-          "네"
+          "관광객들"
         ],
         [
           "SNU-1B-15-008_card_1",
-          "아키라 씨"
-        ],
-        [
-          "SNU-1B-15-008_card_2",
-          "가"
-        ],
-        [
-          "SNU-1B-15-008_card_3",
-          "여행사"
-        ],
-        [
-          "SNU-1B-15-008_card_4",
-          "에"
-        ],
-        [
-          "SNU-1B-15-008_card_5",
-          "다녀요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-008_card_0",
-          "SNU-1B-15-008_card_1",
-          "SNU-1B-15-008_card_2",
-          "SNU-1B-15-008_card_3",
-          "SNU-1B-15-008_card_4",
-          "SNU-1B-15-008_card_5"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-009",
-      "displaySentence": "요즘 한국어를 배우는 사람들이 많아요.",
-      "tokens": [
-        [
-          "SNU-1B-15-009_card_0",
-          "요즘"
-        ],
-        [
-          "SNU-1B-15-009_card_1",
-          "한국어"
-        ],
-        [
-          "SNU-1B-15-009_card_2",
-          "를"
-        ],
-        [
-          "SNU-1B-15-009_card_3",
-          "배우는"
-        ],
-        [
-          "SNU-1B-15-009_card_4",
-          "사람들"
-        ],
-        [
-          "SNU-1B-15-009_card_5",
           "이"
         ],
         [
-          "SNU-1B-15-009_card_6",
+          "SNU-1B-15-008_card_2",
+          "많이"
+        ],
+        [
+          "SNU-1B-15-008_card_3",
+          "찾"
+        ],
+        [
+          "SNU-1B-15-008_card_4",
+          "는"
+        ],
+        [
+          "SNU-1B-15-008_card_5",
+          "곳"
+        ],
+        [
+          "SNU-1B-15-008_card_6",
+          "은"
+        ],
+        [
+          "SNU-1B-15-008_card_7",
+          "구경거리"
+        ],
+        [
+          "SNU-1B-15-008_card_8",
+          "가"
+        ],
+        [
+          "SNU-1B-15-008_card_9",
           "많아요"
         ]
       ],
       "acceptedOrders": [
         [
+          "SNU-1B-15-008_card_0",
+          "SNU-1B-15-008_card_1",
+          "SNU-1B-15-008_card_2",
+          "SNU-1B-15-008_card_3",
+          "SNU-1B-15-008_card_4",
+          "SNU-1B-15-008_card_5",
+          "SNU-1B-15-008_card_6",
+          "SNU-1B-15-008_card_7",
+          "SNU-1B-15-008_card_8",
+          "SNU-1B-15-008_card_9"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-009",
+      "displaySentence": "제가 좋아하는 베트남 음식은 아주 맛있어요.",
+      "tokens": [
+        [
+          "SNU-1B-15-009_card_0",
+          "제"
+        ],
+        [
+          "SNU-1B-15-009_card_1",
+          "가"
+        ],
+        [
+          "SNU-1B-15-009_card_2",
+          "좋아하"
+        ],
+        [
+          "SNU-1B-15-009_card_3",
+          "는"
+        ],
+        [
+          "SNU-1B-15-009_card_4",
+          "베트남"
+        ],
+        [
+          "SNU-1B-15-009_card_5",
+          "음식"
+        ],
+        [
+          "SNU-1B-15-009_card_6",
+          "은"
+        ],
+        [
+          "SNU-1B-15-009_card_7",
+          "아주"
+        ],
+        [
+          "SNU-1B-15-009_card_8",
+          "맛있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
           "SNU-1B-15-009_card_0",
           "SNU-1B-15-009_card_1",
           "SNU-1B-15-009_card_2",
           "SNU-1B-15-009_card_3",
           "SNU-1B-15-009_card_4",
           "SNU-1B-15-009_card_5",
-          "SNU-1B-15-009_card_6"
+          "SNU-1B-15-009_card_6",
+          "SNU-1B-15-009_card_7",
+          "SNU-1B-15-009_card_8"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-010",
-      "displaySentence": "무슨 과일을 좋아해요?",
+      "displaySentence": "여행에서 찍은 사진을 친구에게 보여 줬어요.",
       "tokens": [
         [
           "SNU-1B-15-010_card_0",
-          "무슨"
+          "여행"
         ],
         [
           "SNU-1B-15-010_card_1",
-          "과일"
+          "에서"
         ],
         [
           "SNU-1B-15-010_card_2",
-          "을"
+          "찍"
         ],
         [
           "SNU-1B-15-010_card_3",
-          "좋아해요"
+          "은"
+        ],
+        [
+          "SNU-1B-15-010_card_4",
+          "사진"
+        ],
+        [
+          "SNU-1B-15-010_card_5",
+          "을"
+        ],
+        [
+          "SNU-1B-15-010_card_6",
+          "친구"
+        ],
+        [
+          "SNU-1B-15-010_card_7",
+          "에게"
+        ],
+        [
+          "SNU-1B-15-010_card_8",
+          "보여"
+        ],
+        [
+          "SNU-1B-15-010_card_9",
+          "줬어요"
         ]
       ],
       "acceptedOrders": [
@@ -439,283 +503,348 @@
           "SNU-1B-15-010_card_0",
           "SNU-1B-15-010_card_1",
           "SNU-1B-15-010_card_2",
-          "SNU-1B-15-010_card_3"
+          "SNU-1B-15-010_card_3",
+          "SNU-1B-15-010_card_4",
+          "SNU-1B-15-010_card_5",
+          "SNU-1B-15-010_card_6",
+          "SNU-1B-15-010_card_7",
+          "SNU-1B-15-010_card_8",
+          "SNU-1B-15-010_card_9"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-011",
-      "displaySentence": "제가 좋아하는 과일은 딸기예요.",
+      "displaySentence": "저는 신혼여행으로 조용한 곳에 가고 싶어요.",
       "tokens": [
         [
           "SNU-1B-15-011_card_0",
-          "제"
-        ],
-        [
-          "SNU-1B-15-011_card_1",
-          "가"
-        ],
-        [
-          "SNU-1B-15-011_card_2",
-          "좋아하는"
-        ],
-        [
-          "SNU-1B-15-011_card_3",
-          "과일"
-        ],
-        [
-          "SNU-1B-15-011_card_4",
-          "은"
-        ],
-        [
-          "SNU-1B-15-011_card_5",
-          "딸기"
-        ],
-        [
-          "SNU-1B-15-011_card_6",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-011_card_0",
-          "SNU-1B-15-011_card_1",
-          "SNU-1B-15-011_card_2",
-          "SNU-1B-15-011_card_3",
-          "SNU-1B-15-011_card_4",
-          "SNU-1B-15-011_card_5",
-          "SNU-1B-15-011_card_6"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-012",
-      "displaySentence": "김치는 한국 사람들이 매일 먹는 음식이에요.",
-      "tokens": [
-        [
-          "SNU-1B-15-012_card_0",
-          "김치는"
-        ],
-        [
-          "SNU-1B-15-012_card_1",
-          "한국"
-        ],
-        [
-          "SNU-1B-15-012_card_2",
-          "사람들"
-        ],
-        [
-          "SNU-1B-15-012_card_3",
-          "이"
-        ],
-        [
-          "SNU-1B-15-012_card_4",
-          "매일"
-        ],
-        [
-          "SNU-1B-15-012_card_5",
-          "먹는"
-        ],
-        [
-          "SNU-1B-15-012_card_6",
-          "음식"
-        ],
-        [
-          "SNU-1B-15-012_card_7",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-012_card_0",
-          "SNU-1B-15-012_card_1",
-          "SNU-1B-15-012_card_2",
-          "SNU-1B-15-012_card_3",
-          "SNU-1B-15-012_card_4",
-          "SNU-1B-15-012_card_5",
-          "SNU-1B-15-012_card_6",
-          "SNU-1B-15-012_card_7"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-013",
-      "displaySentence": "스티븐은 내가 잘 아는 친구예요.",
-      "tokens": [
-        [
-          "SNU-1B-15-013_card_0",
-          "스티븐"
-        ],
-        [
-          "SNU-1B-15-013_card_1",
-          "은"
-        ],
-        [
-          "SNU-1B-15-013_card_2",
-          "내"
-        ],
-        [
-          "SNU-1B-15-013_card_3",
-          "가"
-        ],
-        [
-          "SNU-1B-15-013_card_4",
-          "잘"
-        ],
-        [
-          "SNU-1B-15-013_card_5",
-          "아"
-        ],
-        [
-          "SNU-1B-15-013_card_6",
-          "는"
-        ],
-        [
-          "SNU-1B-15-013_card_7",
-          "친구"
-        ],
-        [
-          "SNU-1B-15-013_card_8",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-013_card_0",
-          "SNU-1B-15-013_card_1",
-          "SNU-1B-15-013_card_2",
-          "SNU-1B-15-013_card_3",
-          "SNU-1B-15-013_card_4",
-          "SNU-1B-15-013_card_5",
-          "SNU-1B-15-013_card_6",
-          "SNU-1B-15-013_card_7",
-          "SNU-1B-15-013_card_8"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-014",
-      "displaySentence": "네, 정말 즐거웠어요.",
-      "tokens": [
-        [
-          "SNU-1B-15-014_card_0",
-          "네"
-        ],
-        [
-          "SNU-1B-15-014_card_1",
-          "정말"
-        ],
-        [
-          "SNU-1B-15-014_card_2",
-          "즐거웠어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-014_card_0",
-          "SNU-1B-15-014_card_1",
-          "SNU-1B-15-014_card_2"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-015",
-      "displaySentence": "또 가고 싶어요.",
-      "tokens": [
-        [
-          "SNU-1B-15-015_card_0",
-          "또"
-        ],
-        [
-          "SNU-1B-15-015_card_1",
-          "가고"
-        ],
-        [
-          "SNU-1B-15-015_card_2",
-          "싶어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-015_card_0",
-          "SNU-1B-15-015_card_1",
-          "SNU-1B-15-015_card_2"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-016",
-      "displaySentence": "모자를 하나 사고 싶어요.",
-      "tokens": [
-        [
-          "SNU-1B-15-016_card_0",
-          "모자"
-        ],
-        [
-          "SNU-1B-15-016_card_1",
-          "를"
-        ],
-        [
-          "SNU-1B-15-016_card_2",
-          "하나"
-        ],
-        [
-          "SNU-1B-15-016_card_3",
-          "사고"
-        ],
-        [
-          "SNU-1B-15-016_card_4",
-          "싶어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-016_card_0",
-          "SNU-1B-15-016_card_1",
-          "SNU-1B-15-016_card_2",
-          "SNU-1B-15-016_card_3",
-          "SNU-1B-15-016_card_4"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-017",
-      "displaySentence": "저는 한국어를 잘하고 싶어요.",
-      "tokens": [
-        [
-          "SNU-1B-15-017_card_0",
           "저"
         ],
         [
-          "SNU-1B-15-017_card_1",
+          "SNU-1B-15-011_card_1",
           "는"
         ],
         [
-          "SNU-1B-15-017_card_2",
-          "한국어"
+          "SNU-1B-15-011_card_2",
+          "신혼여행"
         ],
         [
-          "SNU-1B-15-017_card_3",
+          "SNU-1B-15-011_card_3",
+          "으로"
+        ],
+        [
+          "SNU-1B-15-011_card_4",
+          "조용한"
+        ],
+        [
+          "SNU-1B-15-011_card_5",
+          "곳"
+        ],
+        [
+          "SNU-1B-15-011_card_6",
+          "에"
+        ],
+        [
+          "SNU-1B-15-011_card_7",
+          "가고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-15-011_card_0",
+          "SNU-1B-15-011_card_1",
+          "SNU-1B-15-011_card_2",
+          "SNU-1B-15-011_card_3",
+          "SNU-1B-15-011_card_4",
+          "SNU-1B-15-011_card_5",
+          "SNU-1B-15-011_card_6",
+          "SNU-1B-15-011_card_7"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-012",
+      "displaySentence": "동생은 유명한 식당에서 찜닭을 먹고 싶어 해요.",
+      "tokens": [
+        [
+          "SNU-1B-15-012_card_0",
+          "동생"
+        ],
+        [
+          "SNU-1B-15-012_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-15-012_card_2",
+          "유명한"
+        ],
+        [
+          "SNU-1B-15-012_card_3",
+          "식당"
+        ],
+        [
+          "SNU-1B-15-012_card_4",
+          "에서"
+        ],
+        [
+          "SNU-1B-15-012_card_5",
+          "찜닭"
+        ],
+        [
+          "SNU-1B-15-012_card_6",
+          "을"
+        ],
+        [
+          "SNU-1B-15-012_card_7",
+          "먹고 싶어"
+        ],
+        [
+          "SNU-1B-15-012_card_8",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-15-012_card_0",
+          "SNU-1B-15-012_card_1",
+          "SNU-1B-15-012_card_2",
+          "SNU-1B-15-012_card_3",
+          "SNU-1B-15-012_card_4",
+          "SNU-1B-15-012_card_5",
+          "SNU-1B-15-012_card_6",
+          "SNU-1B-15-012_card_7",
+          "SNU-1B-15-012_card_8"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-013",
+      "displaySentence": "친구는 아름다운 바다를 보고 싶어 해요.",
+      "tokens": [
+        [
+          "SNU-1B-15-013_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1B-15-013_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-15-013_card_2",
+          "아름다운"
+        ],
+        [
+          "SNU-1B-15-013_card_3",
+          "바다"
+        ],
+        [
+          "SNU-1B-15-013_card_4",
           "를"
         ],
         [
+          "SNU-1B-15-013_card_5",
+          "보고 싶어"
+        ],
+        [
+          "SNU-1B-15-013_card_6",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-15-013_card_0",
+          "SNU-1B-15-013_card_1",
+          "SNU-1B-15-013_card_2",
+          "SNU-1B-15-013_card_3",
+          "SNU-1B-15-013_card_4",
+          "SNU-1B-15-013_card_5",
+          "SNU-1B-15-013_card_6"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-014",
+      "displaySentence": "아이들은 큰 공원에서 놀고 싶어 해요.",
+      "tokens": [
+        [
+          "SNU-1B-15-014_card_0",
+          "아이들"
+        ],
+        [
+          "SNU-1B-15-014_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-15-014_card_2",
+          "큰"
+        ],
+        [
+          "SNU-1B-15-014_card_3",
+          "공원"
+        ],
+        [
+          "SNU-1B-15-014_card_4",
+          "에서"
+        ],
+        [
+          "SNU-1B-15-014_card_5",
+          "놀고 싶어"
+        ],
+        [
+          "SNU-1B-15-014_card_6",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-15-014_card_0",
+          "SNU-1B-15-014_card_1",
+          "SNU-1B-15-014_card_2",
+          "SNU-1B-15-014_card_3",
+          "SNU-1B-15-014_card_4",
+          "SNU-1B-15-014_card_5",
+          "SNU-1B-15-014_card_6"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-015",
+      "displaySentence": "저는 여행 소감을 한국어로 쓰고 싶어요.",
+      "tokens": [
+        [
+          "SNU-1B-15-015_card_0",
+          "저"
+        ],
+        [
+          "SNU-1B-15-015_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-15-015_card_2",
+          "여행"
+        ],
+        [
+          "SNU-1B-15-015_card_3",
+          "소감"
+        ],
+        [
+          "SNU-1B-15-015_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-15-015_card_5",
+          "한국어"
+        ],
+        [
+          "SNU-1B-15-015_card_6",
+          "로"
+        ],
+        [
+          "SNU-1B-15-015_card_7",
+          "쓰고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-15-015_card_0",
+          "SNU-1B-15-015_card_1",
+          "SNU-1B-15-015_card_2",
+          "SNU-1B-15-015_card_3",
+          "SNU-1B-15-015_card_4",
+          "SNU-1B-15-015_card_5",
+          "SNU-1B-15-015_card_6",
+          "SNU-1B-15-015_card_7"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-016",
+      "displaySentence": "교통편이 편하면 그곳을 다시 방문하고 싶어요.",
+      "tokens": [
+        [
+          "SNU-1B-15-016_card_0",
+          "교통편"
+        ],
+        [
+          "SNU-1B-15-016_card_1",
+          "이"
+        ],
+        [
+          "SNU-1B-15-016_card_2",
+          "편하면"
+        ],
+        [
+          "SNU-1B-15-016_card_3",
+          "그곳"
+        ],
+        [
+          "SNU-1B-15-016_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-15-016_card_5",
+          "다시"
+        ],
+        [
+          "SNU-1B-15-016_card_6",
+          "방문"
+        ],
+        [
+          "SNU-1B-15-016_card_7",
+          "하고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-15-016_card_0",
+          "SNU-1B-15-016_card_1",
+          "SNU-1B-15-016_card_2",
+          "SNU-1B-15-016_card_3",
+          "SNU-1B-15-016_card_4",
+          "SNU-1B-15-016_card_5",
+          "SNU-1B-15-016_card_6",
+          "SNU-1B-15-016_card_7"
+        ]
+      ],
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
+    },
+    {
+      "id": "SNU-1B-15-017",
+      "displaySentence": "호텔이 작아도 깨끗하면 괜찮아요.",
+      "tokens": [
+        [
+          "SNU-1B-15-017_card_0",
+          "호텔"
+        ],
+        [
+          "SNU-1B-15-017_card_1",
+          "이"
+        ],
+        [
+          "SNU-1B-15-017_card_2",
+          "작아도"
+        ],
+        [
+          "SNU-1B-15-017_card_3",
+          "깨끗하면"
+        ],
+        [
           "SNU-1B-15-017_card_4",
-          "잘"
-        ],
-        [
-          "SNU-1B-15-017_card_5",
-          "하고"
-        ],
-        [
-          "SNU-1B-15-017_card_6",
-          "싶어요"
+          "괜찮아요"
         ]
       ],
       "acceptedOrders": [
@@ -724,24 +853,23 @@
           "SNU-1B-15-017_card_1",
           "SNU-1B-15-017_card_2",
           "SNU-1B-15-017_card_3",
-          "SNU-1B-15-017_card_4",
-          "SNU-1B-15-017_card_5",
-          "SNU-1B-15-017_card_6"
+          "SNU-1B-15-017_card_4"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-018",
-      "displaySentence": "어떤 책을 읽고 싶으세요?",
+      "displaySentence": "즐거운 여행을 하면 오래 기억에 남아요.",
       "tokens": [
         [
           "SNU-1B-15-018_card_0",
-          "어떤"
+          "즐거운"
         ],
         [
           "SNU-1B-15-018_card_1",
-          "책"
+          "여행"
         ],
         [
           "SNU-1B-15-018_card_2",
@@ -749,11 +877,23 @@
         ],
         [
           "SNU-1B-15-018_card_3",
-          "읽고"
+          "하면"
         ],
         [
           "SNU-1B-15-018_card_4",
-          "싶으세요"
+          "오래"
+        ],
+        [
+          "SNU-1B-15-018_card_5",
+          "기억"
+        ],
+        [
+          "SNU-1B-15-018_card_6",
+          "에"
+        ],
+        [
+          "SNU-1B-15-018_card_7",
+          "남아요"
         ]
       ],
       "acceptedOrders": [
@@ -762,42 +902,46 @@
           "SNU-1B-15-018_card_1",
           "SNU-1B-15-018_card_2",
           "SNU-1B-15-018_card_3",
-          "SNU-1B-15-018_card_4"
+          "SNU-1B-15-018_card_4",
+          "SNU-1B-15-018_card_5",
+          "SNU-1B-15-018_card_6",
+          "SNU-1B-15-018_card_7"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-019",
-      "displaySentence": "어제 연극을 보고 싶었지만 못 봤어요.",
+      "displaySentence": "친구가 프러포즈한 장소는 아주 조용했어요.",
       "tokens": [
         [
           "SNU-1B-15-019_card_0",
-          "어제"
+          "친구"
         ],
         [
           "SNU-1B-15-019_card_1",
-          "연극"
+          "가"
         ],
         [
           "SNU-1B-15-019_card_2",
-          "을"
+          "프러포즈한"
         ],
         [
           "SNU-1B-15-019_card_3",
-          "보고"
+          "장소"
         ],
         [
           "SNU-1B-15-019_card_4",
-          "싶었지만"
+          "는"
         ],
         [
           "SNU-1B-15-019_card_5",
-          "못"
+          "아주"
         ],
         [
           "SNU-1B-15-019_card_6",
-          "봤어요"
+          "조용했어요"
         ]
       ],
       "acceptedOrders": [
@@ -811,15 +955,16 @@
           "SNU-1B-15-019_card_6"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     },
     {
       "id": "SNU-1B-15-020",
-      "displaySentence": "주말에 뭐 할 거예요?",
+      "displaySentence": "목적지에 도착하면 가족에게 연락하고 싶어요.",
       "tokens": [
         [
           "SNU-1B-15-020_card_0",
-          "주말"
+          "목적지"
         ],
         [
           "SNU-1B-15-020_card_1",
@@ -827,19 +972,23 @@
         ],
         [
           "SNU-1B-15-020_card_2",
-          "뭐"
+          "도착하면"
         ],
         [
           "SNU-1B-15-020_card_3",
-          "할"
+          "가족"
         ],
         [
           "SNU-1B-15-020_card_4",
-          "거"
+          "에게"
         ],
         [
           "SNU-1B-15-020_card_5",
-          "예요"
+          "연락"
+        ],
+        [
+          "SNU-1B-15-020_card_6",
+          "하고 싶어요"
         ]
       ],
       "acceptedOrders": [
@@ -849,189 +998,12 @@
           "SNU-1B-15-020_card_2",
           "SNU-1B-15-020_card_3",
           "SNU-1B-15-020_card_4",
-          "SNU-1B-15-020_card_5"
+          "SNU-1B-15-020_card_5",
+          "SNU-1B-15-020_card_6"
         ]
       ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-021",
-      "displaySentence": "바다에 갈 거예요.",
-      "tokens": [
-        [
-          "SNU-1B-15-021_card_0",
-          "바다"
-        ],
-        [
-          "SNU-1B-15-021_card_1",
-          "에"
-        ],
-        [
-          "SNU-1B-15-021_card_2",
-          "갈"
-        ],
-        [
-          "SNU-1B-15-021_card_3",
-          "거"
-        ],
-        [
-          "SNU-1B-15-021_card_4",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-021_card_0",
-          "SNU-1B-15-021_card_1",
-          "SNU-1B-15-021_card_2",
-          "SNU-1B-15-021_card_3",
-          "SNU-1B-15-021_card_4"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-022",
-      "displaySentence": "아이들이 바다에 가고 싶어 해요.",
-      "tokens": [
-        [
-          "SNU-1B-15-022_card_0",
-          "아이들"
-        ],
-        [
-          "SNU-1B-15-022_card_1",
-          "이"
-        ],
-        [
-          "SNU-1B-15-022_card_2",
-          "바다"
-        ],
-        [
-          "SNU-1B-15-022_card_3",
-          "에"
-        ],
-        [
-          "SNU-1B-15-022_card_4",
-          "가고"
-        ],
-        [
-          "SNU-1B-15-022_card_5",
-          "싶어"
-        ],
-        [
-          "SNU-1B-15-022_card_6",
-          "해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-022_card_0",
-          "SNU-1B-15-022_card_1",
-          "SNU-1B-15-022_card_2",
-          "SNU-1B-15-022_card_3",
-          "SNU-1B-15-022_card_4",
-          "SNU-1B-15-022_card_5",
-          "SNU-1B-15-022_card_6"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-023",
-      "displaySentence": "켈리 씨는 운동화를 사고 싶어 해요.",
-      "tokens": [
-        [
-          "SNU-1B-15-023_card_0",
-          "켈리 씨"
-        ],
-        [
-          "SNU-1B-15-023_card_1",
-          "는"
-        ],
-        [
-          "SNU-1B-15-023_card_2",
-          "운동화"
-        ],
-        [
-          "SNU-1B-15-023_card_3",
-          "를"
-        ],
-        [
-          "SNU-1B-15-023_card_4",
-          "사고"
-        ],
-        [
-          "SNU-1B-15-023_card_5",
-          "싶어"
-        ],
-        [
-          "SNU-1B-15-023_card_6",
-          "해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-023_card_0",
-          "SNU-1B-15-023_card_1",
-          "SNU-1B-15-023_card_2",
-          "SNU-1B-15-023_card_3",
-          "SNU-1B-15-023_card_4",
-          "SNU-1B-15-023_card_5",
-          "SNU-1B-15-023_card_6"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-15-024",
-      "displaySentence": "제 동생은 불고기를 먹고 싶어 해요.",
-      "tokens": [
-        [
-          "SNU-1B-15-024_card_0",
-          "제"
-        ],
-        [
-          "SNU-1B-15-024_card_1",
-          "동생"
-        ],
-        [
-          "SNU-1B-15-024_card_2",
-          "은"
-        ],
-        [
-          "SNU-1B-15-024_card_3",
-          "불고기"
-        ],
-        [
-          "SNU-1B-15-024_card_4",
-          "를"
-        ],
-        [
-          "SNU-1B-15-024_card_5",
-          "먹고"
-        ],
-        [
-          "SNU-1B-15-024_card_6",
-          "싶어"
-        ],
-        [
-          "SNU-1B-15-024_card_7",
-          "해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-15-024_card_0",
-          "SNU-1B-15-024_card_1",
-          "SNU-1B-15-024_card_2",
-          "SNU-1B-15-024_card_3",
-          "SNU-1B-15-024_card_4",
-          "SNU-1B-15-024_card_5",
-          "SNU-1B-15-024_card_6",
-          "SNU-1B-15-024_card_7"
-        ]
-      ],
-      "note": "서울대 1B 15과 교재 기반"
+      "note": "서울대 1B 15과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 15과 SB/WB 문법(A/V-(으)면; V-는 N; V-고 싶다; V-고 싶어 하다) + data/snu/1B/lesson15.json 어휘"
     }
   ]
 }

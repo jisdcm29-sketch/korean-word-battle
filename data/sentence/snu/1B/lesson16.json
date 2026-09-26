@@ -1,12 +1,13 @@
 {
   "book": "1B",
   "lesson": 16,
-  "source": "서울대 한국어 1B 학생 읽기 자료 · 16과 어휘/문법/예문/말하기 기반",
-  "questionCount": 21,
+  "source": "서울대 한국어 1B 학생책·워크북 16과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1B-16-001",
-      "displaySentence": "금요일 모임에 올 수 있어요?",
+      "displaySentence": "금요일 모임에 참석할 수 있어요.",
       "tokens": [
         [
           "SNU-1B-16-001_card_0",
@@ -22,15 +23,7 @@
         ],
         [
           "SNU-1B-16-001_card_3",
-          "올"
-        ],
-        [
-          "SNU-1B-16-001_card_4",
-          "수"
-        ],
-        [
-          "SNU-1B-16-001_card_5",
-          "있어요"
+          "참석할 수 있어요"
         ]
       ],
       "acceptedOrders": [
@@ -38,32 +31,35 @@
           "SNU-1B-16-001_card_0",
           "SNU-1B-16-001_card_1",
           "SNU-1B-16-001_card_2",
-          "SNU-1B-16-001_card_3",
-          "SNU-1B-16-001_card_4",
-          "SNU-1B-16-001_card_5"
+          "SNU-1B-16-001_card_3"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-002",
-      "displaySentence": "네, 갈 수 있어요.",
+      "displaySentence": "한국어로 관광지를 소개할 수 있어요.",
       "tokens": [
         [
           "SNU-1B-16-002_card_0",
-          "네"
+          "한국어"
         ],
         [
           "SNU-1B-16-002_card_1",
-          "갈"
+          "로"
         ],
         [
           "SNU-1B-16-002_card_2",
-          "수"
+          "관광지"
         ],
         [
           "SNU-1B-16-002_card_3",
-          "있어요"
+          "를"
+        ],
+        [
+          "SNU-1B-16-002_card_4",
+          "소개할 수 있어요"
         ]
       ],
       "acceptedOrders": [
@@ -71,114 +67,82 @@
           "SNU-1B-16-002_card_0",
           "SNU-1B-16-002_card_1",
           "SNU-1B-16-002_card_2",
-          "SNU-1B-16-002_card_3"
+          "SNU-1B-16-002_card_3",
+          "SNU-1B-16-002_card_4"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-003",
-      "displaySentence": "앤드류 씨는 미국 사람이지만 한국말을 할 수 있어요.",
+      "displaySentence": "이 호텔은 인터넷으로 예약할 수 있어요.",
       "tokens": [
         [
           "SNU-1B-16-003_card_0",
-          "앤드류 씨"
+          "이"
         ],
         [
           "SNU-1B-16-003_card_1",
-          "는"
+          "호텔"
         ],
         [
           "SNU-1B-16-003_card_2",
-          "미국"
-        ],
-        [
-          "SNU-1B-16-003_card_3",
-          "사람이지만"
-        ],
-        [
-          "SNU-1B-16-003_card_4",
-          "한국말"
-        ],
-        [
-          "SNU-1B-16-003_card_5",
-          "을"
-        ],
-        [
-          "SNU-1B-16-003_card_6",
-          "할"
-        ],
-        [
-          "SNU-1B-16-003_card_7",
-          "수"
-        ],
-        [
-          "SNU-1B-16-003_card_8",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-16-003_card_0",
-          "SNU-1B-16-003_card_1",
-          "SNU-1B-16-003_card_2",
-          "SNU-1B-16-003_card_3",
-          "SNU-1B-16-003_card_4",
-          "SNU-1B-16-003_card_5",
-          "SNU-1B-16-003_card_6",
-          "SNU-1B-16-003_card_7",
-          "SNU-1B-16-003_card_8"
-        ]
-      ],
-      "note": "서울대 1B 16과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-16-004",
-      "displaySentence": "배가 아파서 지금은 밥을 먹을 수 없어요.",
-      "tokens": [
-        [
-          "SNU-1B-16-004_card_0",
-          "배"
-        ],
-        [
-          "SNU-1B-16-004_card_1",
-          "가"
-        ],
-        [
-          "SNU-1B-16-004_card_2",
-          "아파서"
-        ],
-        [
-          "SNU-1B-16-004_card_3",
-          "지금"
-        ],
-        [
-          "SNU-1B-16-004_card_4",
           "은"
         ],
         [
+          "SNU-1B-16-003_card_3",
+          "인터넷"
+        ],
+        [
+          "SNU-1B-16-003_card_4",
+          "으로"
+        ],
+        [
+          "SNU-1B-16-003_card_5",
+          "예약할 수 있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-16-003_card_0",
+          "SNU-1B-16-003_card_1",
+          "SNU-1B-16-003_card_2",
+          "SNU-1B-16-003_card_3",
+          "SNU-1B-16-003_card_4",
+          "SNU-1B-16-003_card_5"
+        ]
+      ],
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
+    },
+    {
+      "id": "SNU-1B-16-004",
+      "displaySentence": "오늘은 시간이 없어서 방문할 수 없어요.",
+      "tokens": [
+        [
+          "SNU-1B-16-004_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-1B-16-004_card_1",
+          "은"
+        ],
+        [
+          "SNU-1B-16-004_card_2",
+          "시간"
+        ],
+        [
+          "SNU-1B-16-004_card_3",
+          "이"
+        ],
+        [
+          "SNU-1B-16-004_card_4",
+          "없어서"
+        ],
+        [
           "SNU-1B-16-004_card_5",
-          "밥"
-        ],
-        [
-          "SNU-1B-16-004_card_6",
-          "을"
-        ],
-        [
-          "SNU-1B-16-004_card_7",
-          "먹"
-        ],
-        [
-          "SNU-1B-16-004_card_8",
-          "을"
-        ],
-        [
-          "SNU-1B-16-004_card_9",
-          "수"
-        ],
-        [
-          "SNU-1B-16-004_card_10",
-          "없어요"
+          "방문할 수 없어요"
         ]
       ],
       "acceptedOrders": [
@@ -188,47 +152,43 @@
           "SNU-1B-16-004_card_2",
           "SNU-1B-16-004_card_3",
           "SNU-1B-16-004_card_4",
-          "SNU-1B-16-004_card_5",
-          "SNU-1B-16-004_card_6",
-          "SNU-1B-16-004_card_7",
-          "SNU-1B-16-004_card_8",
-          "SNU-1B-16-004_card_9",
-          "SNU-1B-16-004_card_10"
+          "SNU-1B-16-004_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-005",
-      "displaySentence": "일곱 시까지 우리 집으로 오세요.",
+      "displaySentence": "여권이 없으면 비행기 표를 살 수 없어요.",
       "tokens": [
         [
           "SNU-1B-16-005_card_0",
-          "일곱"
+          "여권"
         ],
         [
           "SNU-1B-16-005_card_1",
-          "시"
+          "이"
         ],
         [
           "SNU-1B-16-005_card_2",
-          "까지"
+          "없으면"
         ],
         [
           "SNU-1B-16-005_card_3",
-          "우리"
+          "비행기"
         ],
         [
           "SNU-1B-16-005_card_4",
-          "집"
+          "표"
         ],
         [
           "SNU-1B-16-005_card_5",
-          "으로"
+          "를"
         ],
         [
           "SNU-1B-16-005_card_6",
-          "오세요"
+          "살 수 없어요"
         ]
       ],
       "acceptedOrders": [
@@ -242,30 +202,35 @@
           "SNU-1B-16-005_card_6"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-006",
-      "displaySentence": "네, 일곱 시까지 갈게요.",
+      "displaySentence": "집들이에 휴지를 가지고 갈게요.",
       "tokens": [
         [
           "SNU-1B-16-006_card_0",
-          "네"
+          "집들이"
         ],
         [
           "SNU-1B-16-006_card_1",
-          "일곱"
+          "에"
         ],
         [
           "SNU-1B-16-006_card_2",
-          "시"
+          "휴지"
         ],
         [
           "SNU-1B-16-006_card_3",
-          "까지"
+          "를"
         ],
         [
           "SNU-1B-16-006_card_4",
+          "가지고"
+        ],
+        [
+          "SNU-1B-16-006_card_5",
           "갈게요"
         ]
       ],
@@ -275,95 +240,124 @@
           "SNU-1B-16-006_card_1",
           "SNU-1B-16-006_card_2",
           "SNU-1B-16-006_card_3",
-          "SNU-1B-16-006_card_4"
+          "SNU-1B-16-006_card_4",
+          "SNU-1B-16-006_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-007",
-      "displaySentence": "내일은 일찍 오세요.",
+      "displaySentence": "모임에 세제를 가지고 올게요.",
       "tokens": [
         [
           "SNU-1B-16-007_card_0",
-          "내일"
+          "모임"
         ],
         [
           "SNU-1B-16-007_card_1",
-          "은"
+          "에"
         ],
         [
           "SNU-1B-16-007_card_2",
-          "일찍"
+          "세제"
         ],
         [
           "SNU-1B-16-007_card_3",
-          "오세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-16-007_card_0",
-          "SNU-1B-16-007_card_1",
-          "SNU-1B-16-007_card_2",
-          "SNU-1B-16-007_card_3"
-        ]
-      ],
-      "note": "서울대 1B 16과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-16-008",
-      "displaySentence": "네, 일찍 올게요.",
-      "tokens": [
-        [
-          "SNU-1B-16-008_card_0",
-          "네"
+          "를"
         ],
         [
-          "SNU-1B-16-008_card_1",
-          "일찍"
+          "SNU-1B-16-007_card_4",
+          "가지고"
         ],
         [
-          "SNU-1B-16-008_card_2",
+          "SNU-1B-16-007_card_5",
           "올게요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1B-16-008_card_0",
-          "SNU-1B-16-008_card_1",
-          "SNU-1B-16-008_card_2"
+          "SNU-1B-16-007_card_0",
+          "SNU-1B-16-007_card_1",
+          "SNU-1B-16-007_card_2",
+          "SNU-1B-16-007_card_3",
+          "SNU-1B-16-007_card_4",
+          "SNU-1B-16-007_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
+    },
+    {
+      "id": "SNU-1B-16-008",
+      "displaySentence": "친구에게 오늘 이메일로 답장할게요.",
+      "tokens": [
+        [
+          "SNU-1B-16-008_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1B-16-008_card_1",
+          "에게"
+        ],
+        [
+          "SNU-1B-16-008_card_2",
+          "오늘"
+        ],
+        [
+          "SNU-1B-16-008_card_3",
+          "이메일"
+        ],
+        [
+          "SNU-1B-16-008_card_4",
+          "로"
+        ],
+        [
+          "SNU-1B-16-008_card_5",
+          "답장할게요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-16-008_card_0",
+          "SNU-1B-16-008_card_1",
+          "SNU-1B-16-008_card_2",
+          "SNU-1B-16-008_card_3",
+          "SNU-1B-16-008_card_4",
+          "SNU-1B-16-008_card_5"
+        ]
+      ],
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-009",
-      "displaySentence": "이 약은 매일 드셔야 돼요.",
+      "displaySentence": "제가 저녁 음식을 차릴게요.",
       "tokens": [
         [
           "SNU-1B-16-009_card_0",
-          "이"
+          "제"
         ],
         [
           "SNU-1B-16-009_card_1",
-          "약"
+          "가"
         ],
         [
           "SNU-1B-16-009_card_2",
-          "은"
+          "저녁"
         ],
         [
           "SNU-1B-16-009_card_3",
-          "매일"
+          "음식"
         ],
         [
           "SNU-1B-16-009_card_4",
-          "드셔야"
+          "을"
         ],
         [
           "SNU-1B-16-009_card_5",
-          "돼요"
+          "차릴게요"
         ]
       ],
       "acceptedOrders": [
@@ -376,61 +370,68 @@
           "SNU-1B-16-009_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-010",
-      "displaySentence": "네, 매일 먹을게요.",
+      "displaySentence": "방을 깨끗하게 청소할게요.",
       "tokens": [
         [
           "SNU-1B-16-010_card_0",
-          "네"
+          "방"
         ],
         [
           "SNU-1B-16-010_card_1",
-          "매일"
+          "을"
         ],
         [
           "SNU-1B-16-010_card_2",
-          "먹을게요"
+          "깨끗하게"
+        ],
+        [
+          "SNU-1B-16-010_card_3",
+          "청소할게요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-16-010_card_0",
           "SNU-1B-16-010_card_1",
-          "SNU-1B-16-010_card_2"
+          "SNU-1B-16-010_card_2",
+          "SNU-1B-16-010_card_3"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-011",
-      "displaySentence": "누가 음식을 만들 거예요?",
+      "displaySentence": "돈을 바꾸러 은행에 가요.",
       "tokens": [
         [
           "SNU-1B-16-011_card_0",
-          "누가"
+          "돈"
         ],
         [
           "SNU-1B-16-011_card_1",
-          "음식"
-        ],
-        [
-          "SNU-1B-16-011_card_2",
           "을"
         ],
         [
+          "SNU-1B-16-011_card_2",
+          "바꾸러"
+        ],
+        [
           "SNU-1B-16-011_card_3",
-          "만들"
+          "은행"
         ],
         [
           "SNU-1B-16-011_card_4",
-          "거"
+          "에"
         ],
         [
           "SNU-1B-16-011_card_5",
-          "예요"
+          "가요"
         ]
       ],
       "acceptedOrders": [
@@ -443,48 +444,82 @@
           "SNU-1B-16-011_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-012",
-      "displaySentence": "제가 만들게요.",
+      "displaySentence": "비행기 표를 사러 여행사에 가요.",
       "tokens": [
         [
           "SNU-1B-16-012_card_0",
-          "제"
+          "비행기"
         ],
         [
           "SNU-1B-16-012_card_1",
-          "가"
+          "표"
         ],
         [
           "SNU-1B-16-012_card_2",
-          "만들게요"
+          "를"
+        ],
+        [
+          "SNU-1B-16-012_card_3",
+          "사러"
+        ],
+        [
+          "SNU-1B-16-012_card_4",
+          "여행사"
+        ],
+        [
+          "SNU-1B-16-012_card_5",
+          "에"
+        ],
+        [
+          "SNU-1B-16-012_card_6",
+          "가요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-16-012_card_0",
           "SNU-1B-16-012_card_1",
-          "SNU-1B-16-012_card_2"
+          "SNU-1B-16-012_card_2",
+          "SNU-1B-16-012_card_3",
+          "SNU-1B-16-012_card_4",
+          "SNU-1B-16-012_card_5",
+          "SNU-1B-16-012_card_6"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-013",
-      "displaySentence": "어디에 가요?",
+      "displaySentence": "여권을 만들러 사무실에 가요.",
       "tokens": [
         [
           "SNU-1B-16-013_card_0",
-          "어디"
+          "여권"
         ],
         [
           "SNU-1B-16-013_card_1",
-          "에"
+          "을"
         ],
         [
           "SNU-1B-16-013_card_2",
+          "만들러"
+        ],
+        [
+          "SNU-1B-16-013_card_3",
+          "사무실"
+        ],
+        [
+          "SNU-1B-16-013_card_4",
+          "에"
+        ],
+        [
+          "SNU-1B-16-013_card_5",
           "가요"
         ]
       ],
@@ -492,33 +527,41 @@
         [
           "SNU-1B-16-013_card_0",
           "SNU-1B-16-013_card_1",
-          "SNU-1B-16-013_card_2"
+          "SNU-1B-16-013_card_2",
+          "SNU-1B-16-013_card_3",
+          "SNU-1B-16-013_card_4",
+          "SNU-1B-16-013_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-014",
-      "displaySentence": "과일 사러 시장에 가요.",
+      "displaySentence": "관광지를 구경하러 시내에 가요.",
       "tokens": [
         [
           "SNU-1B-16-014_card_0",
-          "과일"
+          "관광지"
         ],
         [
           "SNU-1B-16-014_card_1",
-          "사러"
+          "를"
         ],
         [
           "SNU-1B-16-014_card_2",
-          "시장"
+          "구경하러"
         ],
         [
           "SNU-1B-16-014_card_3",
-          "에"
+          "시내"
         ],
         [
           "SNU-1B-16-014_card_4",
+          "에"
+        ],
+        [
+          "SNU-1B-16-014_card_5",
           "가요"
         ]
       ],
@@ -528,18 +571,20 @@
           "SNU-1B-16-014_card_1",
           "SNU-1B-16-014_card_2",
           "SNU-1B-16-014_card_3",
-          "SNU-1B-16-014_card_4"
+          "SNU-1B-16-014_card_4",
+          "SNU-1B-16-014_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-015",
-      "displaySentence": "돈을 찾으러 가요.",
+      "displaySentence": "호텔을 예약하러 여행사에 갔어요.",
       "tokens": [
         [
           "SNU-1B-16-015_card_0",
-          "돈"
+          "호텔"
         ],
         [
           "SNU-1B-16-015_card_1",
@@ -547,11 +592,19 @@
         ],
         [
           "SNU-1B-16-015_card_2",
-          "찾으러"
+          "예약하러"
         ],
         [
           "SNU-1B-16-015_card_3",
-          "가요"
+          "여행사"
+        ],
+        [
+          "SNU-1B-16-015_card_4",
+          "에"
+        ],
+        [
+          "SNU-1B-16-015_card_5",
+          "갔어요"
         ]
       ],
       "acceptedOrders": [
@@ -559,38 +612,41 @@
           "SNU-1B-16-015_card_0",
           "SNU-1B-16-015_card_1",
           "SNU-1B-16-015_card_2",
-          "SNU-1B-16-015_card_3"
+          "SNU-1B-16-015_card_3",
+          "SNU-1B-16-015_card_4",
+          "SNU-1B-16-015_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-016",
-      "displaySentence": "우리 집에 저녁 먹으러 오세요.",
+      "displaySentence": "음악을 들으면서 방을 청소해요.",
       "tokens": [
         [
           "SNU-1B-16-016_card_0",
-          "우리"
+          "음악"
         ],
         [
           "SNU-1B-16-016_card_1",
-          "집"
+          "을"
         ],
         [
           "SNU-1B-16-016_card_2",
-          "에"
+          "들으면서"
         ],
         [
           "SNU-1B-16-016_card_3",
-          "저녁"
+          "방"
         ],
         [
           "SNU-1B-16-016_card_4",
-          "먹으러"
+          "을"
         ],
         [
           "SNU-1B-16-016_card_5",
-          "오세요"
+          "청소해요"
         ]
       ],
       "acceptedOrders": [
@@ -603,51 +659,36 @@
           "SNU-1B-16-016_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-017",
-      "displaySentence": "주말에 나나 씨 집에 놀러 갈 거예요.",
+      "displaySentence": "친구하고 이야기하면서 저녁을 준비해요.",
       "tokens": [
         [
           "SNU-1B-16-017_card_0",
-          "주말"
+          "친구"
         ],
         [
           "SNU-1B-16-017_card_1",
-          "에"
+          "하고"
         ],
         [
           "SNU-1B-16-017_card_2",
-          "나나"
+          "이야기하면서"
         ],
         [
           "SNU-1B-16-017_card_3",
-          "씨"
+          "저녁"
         ],
         [
           "SNU-1B-16-017_card_4",
-          "집"
+          "을"
         ],
         [
           "SNU-1B-16-017_card_5",
-          "에"
-        ],
-        [
-          "SNU-1B-16-017_card_6",
-          "놀러"
-        ],
-        [
-          "SNU-1B-16-017_card_7",
-          "갈"
-        ],
-        [
-          "SNU-1B-16-017_card_8",
-          "거"
-        ],
-        [
-          "SNU-1B-16-017_card_9",
-          "예요"
+          "준비해요"
         ]
       ],
       "acceptedOrders": [
@@ -657,38 +698,35 @@
           "SNU-1B-16-017_card_2",
           "SNU-1B-16-017_card_3",
           "SNU-1B-16-017_card_4",
-          "SNU-1B-16-017_card_5",
-          "SNU-1B-16-017_card_6",
-          "SNU-1B-16-017_card_7",
-          "SNU-1B-16-017_card_8",
-          "SNU-1B-16-017_card_9"
+          "SNU-1B-16-017_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-018",
-      "displaySentence": "영화 보면서 팝콘을 먹을까요?",
+      "displaySentence": "경치를 구경하면서 천천히 걸어요.",
       "tokens": [
         [
           "SNU-1B-16-018_card_0",
-          "영화"
+          "경치"
         ],
         [
           "SNU-1B-16-018_card_1",
-          "보면서"
+          "를"
         ],
         [
           "SNU-1B-16-018_card_2",
-          "팝콘"
+          "구경하면서"
         ],
         [
           "SNU-1B-16-018_card_3",
-          "을"
+          "천천히"
         ],
         [
           "SNU-1B-16-018_card_4",
-          "먹을까요"
+          "걸어요"
         ]
       ],
       "acceptedOrders": [
@@ -700,61 +738,78 @@
           "SNU-1B-16-018_card_4"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-019",
-      "displaySentence": "운전하면서 전화하지 마세요.",
+      "displaySentence": "신호등을 보면서 길을 건너세요.",
       "tokens": [
         [
           "SNU-1B-16-019_card_0",
-          "운전하면서"
+          "신호등"
         ],
         [
           "SNU-1B-16-019_card_1",
-          "전화하지"
+          "을"
         ],
         [
           "SNU-1B-16-019_card_2",
-          "마세요"
+          "보면서"
+        ],
+        [
+          "SNU-1B-16-019_card_3",
+          "길"
+        ],
+        [
+          "SNU-1B-16-019_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-16-019_card_5",
+          "건너세요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-16-019_card_0",
           "SNU-1B-16-019_card_1",
-          "SNU-1B-16-019_card_2"
+          "SNU-1B-16-019_card_2",
+          "SNU-1B-16-019_card_3",
+          "SNU-1B-16-019_card_4",
+          "SNU-1B-16-019_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     },
     {
       "id": "SNU-1B-16-020",
-      "displaySentence": "저는 음악을 들으면서 공부해요.",
+      "displaySentence": "옷을 입어 보면서 잘 어울리는지 확인해요.",
       "tokens": [
         [
           "SNU-1B-16-020_card_0",
-          "저"
+          "옷"
         ],
         [
           "SNU-1B-16-020_card_1",
-          "는"
-        ],
-        [
-          "SNU-1B-16-020_card_2",
-          "음악"
-        ],
-        [
-          "SNU-1B-16-020_card_3",
           "을"
         ],
         [
+          "SNU-1B-16-020_card_2",
+          "입어 보면서"
+        ],
+        [
+          "SNU-1B-16-020_card_3",
+          "잘"
+        ],
+        [
           "SNU-1B-16-020_card_4",
-          "들으면서"
+          "어울리는지"
         ],
         [
           "SNU-1B-16-020_card_5",
-          "공부해요"
+          "확인해요"
         ]
       ],
       "acceptedOrders": [
@@ -767,58 +822,8 @@
           "SNU-1B-16-020_card_5"
         ]
       ],
-      "note": "서울대 1B 16과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-16-021",
-      "displaySentence": "스티븐과 유진은 케이크를 만들면서 이야기했어요.",
-      "tokens": [
-        [
-          "SNU-1B-16-021_card_0",
-          "스티븐"
-        ],
-        [
-          "SNU-1B-16-021_card_1",
-          "과"
-        ],
-        [
-          "SNU-1B-16-021_card_2",
-          "유진"
-        ],
-        [
-          "SNU-1B-16-021_card_3",
-          "은"
-        ],
-        [
-          "SNU-1B-16-021_card_4",
-          "케이크"
-        ],
-        [
-          "SNU-1B-16-021_card_5",
-          "를"
-        ],
-        [
-          "SNU-1B-16-021_card_6",
-          "만들면서"
-        ],
-        [
-          "SNU-1B-16-021_card_7",
-          "이야기했어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-16-021_card_0",
-          "SNU-1B-16-021_card_1",
-          "SNU-1B-16-021_card_2",
-          "SNU-1B-16-021_card_3",
-          "SNU-1B-16-021_card_4",
-          "SNU-1B-16-021_card_5",
-          "SNU-1B-16-021_card_6",
-          "SNU-1B-16-021_card_7"
-        ]
-      ],
-      "note": "서울대 1B 16과 교재 기반"
+      "note": "서울대 1B 16과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 16과 SB/WB 문법(V-(으)ㄹ 수 있다/없다; V-(으)ㄹ게요; V-(으)러 가다; V-(으)면서) + data/snu/1B/lesson16.json 어휘"
     }
   ]
 }

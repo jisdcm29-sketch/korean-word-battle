@@ -1,28 +1,33 @@
 {
   "book": "1A",
   "lesson": 5,
-  "source": "서울대 한국어 1A 학생 읽기 자료 · 5과 어휘/문법/예문/말하기 기반",
-  "questionCount": 22,
+  "source": "서울대 한국어 1A 학생책·워크북 5과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "N에(시간); V-았/었-; V-고",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1A-05-001",
-      "displaySentence": "오늘이 며칠이에요?",
+      "displaySentence": "월요일에 은행에 갔어요.",
       "tokens": [
         [
           "SNU-1A-05-001_card_0",
-          "오늘"
+          "월요일"
         ],
         [
           "SNU-1A-05-001_card_1",
-          "이"
+          "에"
         ],
         [
           "SNU-1A-05-001_card_2",
-          "며칠"
+          "은행"
         ],
         [
           "SNU-1A-05-001_card_3",
-          "이에요"
+          "에"
+        ],
+        [
+          "SNU-1A-05-001_card_4",
+          "갔어요"
         ]
       ],
       "acceptedOrders": [
@@ -30,30 +35,36 @@
           "SNU-1A-05-001_card_0",
           "SNU-1A-05-001_card_1",
           "SNU-1A-05-001_card_2",
-          "SNU-1A-05-001_card_3"
+          "SNU-1A-05-001_card_3",
+          "SNU-1A-05-001_card_4"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-002",
-      "displaySentence": "오월 구 일이에요.",
+      "displaySentence": "화요일에 친구를 만났어요.",
       "tokens": [
         [
           "SNU-1A-05-002_card_0",
-          "오월"
+          "화요일"
         ],
         [
           "SNU-1A-05-002_card_1",
-          "구"
+          "에"
         ],
         [
           "SNU-1A-05-002_card_2",
-          "일"
+          "친구"
         ],
         [
           "SNU-1A-05-002_card_3",
-          "이에요"
+          "를"
+        ],
+        [
+          "SNU-1A-05-002_card_4",
+          "만났어요"
         ]
       ],
       "acceptedOrders": [
@@ -61,34 +72,36 @@
           "SNU-1A-05-002_card_0",
           "SNU-1A-05-002_card_1",
           "SNU-1A-05-002_card_2",
-          "SNU-1A-05-002_card_3"
+          "SNU-1A-05-002_card_3",
+          "SNU-1A-05-002_card_4"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-003",
-      "displaySentence": "오늘이 무슨 요일이에요?",
+      "displaySentence": "수요일에 사진을 찍었어요.",
       "tokens": [
         [
           "SNU-1A-05-003_card_0",
-          "오늘"
+          "수요일"
         ],
         [
           "SNU-1A-05-003_card_1",
-          "이"
+          "에"
         ],
         [
           "SNU-1A-05-003_card_2",
-          "무슨"
+          "사진"
         ],
         [
           "SNU-1A-05-003_card_3",
-          "요일"
+          "을"
         ],
         [
           "SNU-1A-05-003_card_4",
-          "이에요"
+          "찍었어요"
         ]
       ],
       "acceptedOrders": [
@@ -100,120 +113,128 @@
           "SNU-1A-05-003_card_4"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-004",
-      "displaySentence": "유월 육 일이에요.",
+      "displaySentence": "목요일에 쇼핑했어요.",
       "tokens": [
         [
           "SNU-1A-05-004_card_0",
-          "유월"
-        ],
-        [
-          "SNU-1A-05-004_card_1",
-          "육"
-        ],
-        [
-          "SNU-1A-05-004_card_2",
-          "일"
-        ],
-        [
-          "SNU-1A-05-004_card_3",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-004_card_0",
-          "SNU-1A-05-004_card_1",
-          "SNU-1A-05-004_card_2",
-          "SNU-1A-05-004_card_3"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-005",
-      "displaySentence": "시험이 언제예요?",
-      "tokens": [
-        [
-          "SNU-1A-05-005_card_0",
-          "시험"
-        ],
-        [
-          "SNU-1A-05-005_card_1",
-          "이"
-        ],
-        [
-          "SNU-1A-05-005_card_2",
-          "언제"
-        ],
-        [
-          "SNU-1A-05-005_card_3",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-005_card_0",
-          "SNU-1A-05-005_card_1",
-          "SNU-1A-05-005_card_2",
-          "SNU-1A-05-005_card_3"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-006",
-      "displaySentence": "팔월 이십삼 일이에요.",
-      "tokens": [
-        [
-          "SNU-1A-05-006_card_0",
-          "팔월"
-        ],
-        [
-          "SNU-1A-05-006_card_1",
-          "이십삼"
-        ],
-        [
-          "SNU-1A-05-006_card_2",
-          "일"
-        ],
-        [
-          "SNU-1A-05-006_card_3",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-006_card_0",
-          "SNU-1A-05-006_card_1",
-          "SNU-1A-05-006_card_2",
-          "SNU-1A-05-006_card_3"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-007",
-      "displaySentence": "오늘이 목요일이에요?",
-      "tokens": [
-        [
-          "SNU-1A-05-007_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-1A-05-007_card_1",
-          "이"
-        ],
-        [
-          "SNU-1A-05-007_card_2",
           "목요일"
         ],
         [
+          "SNU-1A-05-004_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-004_card_2",
+          "쇼핑했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-004_card_0",
+          "SNU-1A-05-004_card_1",
+          "SNU-1A-05-004_card_2"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-005",
+      "displaySentence": "금요일에 산책했어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-005_card_0",
+          "금요일"
+        ],
+        [
+          "SNU-1A-05-005_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-005_card_2",
+          "산책했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-005_card_0",
+          "SNU-1A-05-005_card_1",
+          "SNU-1A-05-005_card_2"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-006",
+      "displaySentence": "토요일에 생일 파티를 했어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-006_card_0",
+          "토요일"
+        ],
+        [
+          "SNU-1A-05-006_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-006_card_2",
+          "생일"
+        ],
+        [
+          "SNU-1A-05-006_card_3",
+          "파티"
+        ],
+        [
+          "SNU-1A-05-006_card_4",
+          "를"
+        ],
+        [
+          "SNU-1A-05-006_card_5",
+          "했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-006_card_0",
+          "SNU-1A-05-006_card_1",
+          "SNU-1A-05-006_card_2",
+          "SNU-1A-05-006_card_3",
+          "SNU-1A-05-006_card_4",
+          "SNU-1A-05-006_card_5"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-007",
+      "displaySentence": "일요일에 집에서 쉬었어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-007_card_0",
+          "일요일"
+        ],
+        [
+          "SNU-1A-05-007_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-007_card_2",
+          "집"
+        ],
+        [
           "SNU-1A-05-007_card_3",
-          "이에요"
+          "에서"
+        ],
+        [
+          "SNU-1A-05-007_card_4",
+          "쉬었어요"
         ]
       ],
       "acceptedOrders": [
@@ -221,26 +242,28 @@
           "SNU-1A-05-007_card_0",
           "SNU-1A-05-007_card_1",
           "SNU-1A-05-007_card_2",
-          "SNU-1A-05-007_card_3"
+          "SNU-1A-05-007_card_3",
+          "SNU-1A-05-007_card_4"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-008",
-      "displaySentence": "아니요, 수요일이에요.",
+      "displaySentence": "어제 쇼핑하고 산책했어요.",
       "tokens": [
         [
           "SNU-1A-05-008_card_0",
-          "아니요"
+          "어제"
         ],
         [
           "SNU-1A-05-008_card_1",
-          "수요일"
+          "쇼핑하고"
         ],
         [
           "SNU-1A-05-008_card_2",
-          "이에요"
+          "산책했어요"
         ]
       ],
       "acceptedOrders": [
@@ -250,311 +273,420 @@
           "SNU-1A-05-008_card_2"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-009",
-      "displaySentence": "토요일에 뭐 해요?",
+      "displaySentence": "어제 친구를 만나고 사진을 찍었어요.",
       "tokens": [
         [
           "SNU-1A-05-009_card_0",
-          "토요일"
-        ],
-        [
-          "SNU-1A-05-009_card_1",
-          "에"
-        ],
-        [
-          "SNU-1A-05-009_card_2",
-          "뭐"
-        ],
-        [
-          "SNU-1A-05-009_card_3",
-          "해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-009_card_0",
-          "SNU-1A-05-009_card_1",
-          "SNU-1A-05-009_card_2",
-          "SNU-1A-05-009_card_3"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-010",
-      "displaySentence": "친구하고 영화를 봐요.",
-      "tokens": [
-        [
-          "SNU-1A-05-010_card_0",
-          "친구"
-        ],
-        [
-          "SNU-1A-05-010_card_1",
-          "하고"
-        ],
-        [
-          "SNU-1A-05-010_card_2",
-          "영화"
-        ],
-        [
-          "SNU-1A-05-010_card_3",
-          "를"
-        ],
-        [
-          "SNU-1A-05-010_card_4",
-          "봐요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-010_card_0",
-          "SNU-1A-05-010_card_1",
-          "SNU-1A-05-010_card_2",
-          "SNU-1A-05-010_card_3",
-          "SNU-1A-05-010_card_4"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-011",
-      "displaySentence": "크리스마스에 친구하고 파티를 해요.",
-      "tokens": [
-        [
-          "SNU-1A-05-011_card_0",
-          "크리스마스"
-        ],
-        [
-          "SNU-1A-05-011_card_1",
-          "에"
-        ],
-        [
-          "SNU-1A-05-011_card_2",
-          "친구"
-        ],
-        [
-          "SNU-1A-05-011_card_3",
-          "하고"
-        ],
-        [
-          "SNU-1A-05-011_card_4",
-          "파티"
-        ],
-        [
-          "SNU-1A-05-011_card_5",
-          "를"
-        ],
-        [
-          "SNU-1A-05-011_card_6",
-          "해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-011_card_0",
-          "SNU-1A-05-011_card_1",
-          "SNU-1A-05-011_card_2",
-          "SNU-1A-05-011_card_3",
-          "SNU-1A-05-011_card_4",
-          "SNU-1A-05-011_card_5",
-          "SNU-1A-05-011_card_6"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-012",
-      "displaySentence": "월요일에 뭐 해요?",
-      "tokens": [
-        [
-          "SNU-1A-05-012_card_0",
-          "월요일"
-        ],
-        [
-          "SNU-1A-05-012_card_1",
-          "에"
-        ],
-        [
-          "SNU-1A-05-012_card_2",
-          "뭐"
-        ],
-        [
-          "SNU-1A-05-012_card_3",
-          "해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-012_card_0",
-          "SNU-1A-05-012_card_1",
-          "SNU-1A-05-012_card_2",
-          "SNU-1A-05-012_card_3"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-013",
-      "displaySentence": "월요일에는 영어를 배워요.",
-      "tokens": [
-        [
-          "SNU-1A-05-013_card_0",
-          "월요일에"
-        ],
-        [
-          "SNU-1A-05-013_card_1",
-          "는"
-        ],
-        [
-          "SNU-1A-05-013_card_2",
-          "영어"
-        ],
-        [
-          "SNU-1A-05-013_card_3",
-          "를"
-        ],
-        [
-          "SNU-1A-05-013_card_4",
-          "배워요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-013_card_0",
-          "SNU-1A-05-013_card_1",
-          "SNU-1A-05-013_card_2",
-          "SNU-1A-05-013_card_3",
-          "SNU-1A-05-013_card_4"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-014",
-      "displaySentence": "어제 뭐 했어요?",
-      "tokens": [
-        [
-          "SNU-1A-05-014_card_0",
           "어제"
         ],
         [
-          "SNU-1A-05-014_card_1",
-          "뭐"
+          "SNU-1A-05-009_card_1",
+          "친구"
         ],
         [
-          "SNU-1A-05-014_card_2",
+          "SNU-1A-05-009_card_2",
+          "를"
+        ],
+        [
+          "SNU-1A-05-009_card_3",
+          "만나고"
+        ],
+        [
+          "SNU-1A-05-009_card_4",
+          "사진"
+        ],
+        [
+          "SNU-1A-05-009_card_5",
+          "을"
+        ],
+        [
+          "SNU-1A-05-009_card_6",
+          "찍었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-009_card_0",
+          "SNU-1A-05-009_card_1",
+          "SNU-1A-05-009_card_2",
+          "SNU-1A-05-009_card_3",
+          "SNU-1A-05-009_card_4",
+          "SNU-1A-05-009_card_5",
+          "SNU-1A-05-009_card_6"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-010",
+      "displaySentence": "주말에 공원에 가고 사진을 찍었어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-010_card_0",
+          "주말"
+        ],
+        [
+          "SNU-1A-05-010_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-010_card_2",
+          "공원"
+        ],
+        [
+          "SNU-1A-05-010_card_3",
+          "에"
+        ],
+        [
+          "SNU-1A-05-010_card_4",
+          "가고"
+        ],
+        [
+          "SNU-1A-05-010_card_5",
+          "사진"
+        ],
+        [
+          "SNU-1A-05-010_card_6",
+          "을"
+        ],
+        [
+          "SNU-1A-05-010_card_7",
+          "찍었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-010_card_0",
+          "SNU-1A-05-010_card_1",
+          "SNU-1A-05-010_card_2",
+          "SNU-1A-05-010_card_3",
+          "SNU-1A-05-010_card_4",
+          "SNU-1A-05-010_card_5",
+          "SNU-1A-05-010_card_6",
+          "SNU-1A-05-010_card_7"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-011",
+      "displaySentence": "생일에 선물을 받고 파티를 했어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-011_card_0",
+          "생일"
+        ],
+        [
+          "SNU-1A-05-011_card_1",
+          "에"
+        ],
+        [
+          "SNU-1A-05-011_card_2",
+          "선물"
+        ],
+        [
+          "SNU-1A-05-011_card_3",
+          "을"
+        ],
+        [
+          "SNU-1A-05-011_card_4",
+          "받고"
+        ],
+        [
+          "SNU-1A-05-011_card_5",
+          "파티"
+        ],
+        [
+          "SNU-1A-05-011_card_6",
+          "를"
+        ],
+        [
+          "SNU-1A-05-011_card_7",
           "했어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1A-05-014_card_0",
-          "SNU-1A-05-014_card_1",
-          "SNU-1A-05-014_card_2"
+          "SNU-1A-05-011_card_0",
+          "SNU-1A-05-011_card_1",
+          "SNU-1A-05-011_card_2",
+          "SNU-1A-05-011_card_3",
+          "SNU-1A-05-011_card_4",
+          "SNU-1A-05-011_card_5",
+          "SNU-1A-05-011_card_6",
+          "SNU-1A-05-011_card_7"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
-      "id": "SNU-1A-05-015",
-      "displaySentence": "코엑스몰에 갔어요.",
+      "id": "SNU-1A-05-012",
+      "displaySentence": "어제 은행에 가고 가게에 갔어요.",
       "tokens": [
         [
-          "SNU-1A-05-015_card_0",
-          "코엑스몰"
+          "SNU-1A-05-012_card_0",
+          "어제"
         ],
         [
-          "SNU-1A-05-015_card_1",
+          "SNU-1A-05-012_card_1",
+          "은행"
+        ],
+        [
+          "SNU-1A-05-012_card_2",
           "에"
         ],
         [
-          "SNU-1A-05-015_card_2",
+          "SNU-1A-05-012_card_3",
+          "가고"
+        ],
+        [
+          "SNU-1A-05-012_card_4",
+          "가게"
+        ],
+        [
+          "SNU-1A-05-012_card_5",
+          "에"
+        ],
+        [
+          "SNU-1A-05-012_card_6",
           "갔어요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-1A-05-015_card_0",
-          "SNU-1A-05-015_card_1",
-          "SNU-1A-05-015_card_2"
+          "SNU-1A-05-012_card_0",
+          "SNU-1A-05-012_card_1",
+          "SNU-1A-05-012_card_2",
+          "SNU-1A-05-012_card_3",
+          "SNU-1A-05-012_card_4",
+          "SNU-1A-05-012_card_5",
+          "SNU-1A-05-012_card_6"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-013",
+      "displaySentence": "내일 약속이 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-013_card_0",
+          "내일"
+        ],
+        [
+          "SNU-1A-05-013_card_1",
+          "약속"
+        ],
+        [
+          "SNU-1A-05-013_card_2",
+          "이"
+        ],
+        [
+          "SNU-1A-05-013_card_3",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-013_card_0",
+          "SNU-1A-05-013_card_1",
+          "SNU-1A-05-013_card_2",
+          "SNU-1A-05-013_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-014",
+      "displaySentence": "제 생일은 칠월 십 일이에요.",
+      "tokens": [
+        [
+          "SNU-1A-05-014_card_0",
+          "제"
+        ],
+        [
+          "SNU-1A-05-014_card_1",
+          "생일"
+        ],
+        [
+          "SNU-1A-05-014_card_2",
+          "은"
+        ],
+        [
+          "SNU-1A-05-014_card_3",
+          "칠월"
+        ],
+        [
+          "SNU-1A-05-014_card_4",
+          "십"
+        ],
+        [
+          "SNU-1A-05-014_card_5",
+          "일"
+        ],
+        [
+          "SNU-1A-05-014_card_6",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-014_card_0",
+          "SNU-1A-05-014_card_1",
+          "SNU-1A-05-014_card_2",
+          "SNU-1A-05-014_card_3",
+          "SNU-1A-05-014_card_4",
+          "SNU-1A-05-014_card_5",
+          "SNU-1A-05-014_card_6"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-015",
+      "displaySentence": "약속은 금요일이에요.",
+      "tokens": [
+        [
+          "SNU-1A-05-015_card_0",
+          "약속"
+        ],
+        [
+          "SNU-1A-05-015_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-05-015_card_2",
+          "금요일"
+        ],
+        [
+          "SNU-1A-05-015_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-015_card_0",
+          "SNU-1A-05-015_card_1",
+          "SNU-1A-05-015_card_2",
+          "SNU-1A-05-015_card_3"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-016",
-      "displaySentence": "친구를 만났어요.",
+      "displaySentence": "명절에 사진을 많이 찍었어요.",
       "tokens": [
         [
           "SNU-1A-05-016_card_0",
-          "친구"
+          "명절"
         ],
         [
           "SNU-1A-05-016_card_1",
-          "를"
-        ],
-        [
-          "SNU-1A-05-016_card_2",
-          "만났어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-016_card_0",
-          "SNU-1A-05-016_card_1",
-          "SNU-1A-05-016_card_2"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-017",
-      "displaySentence": "목요일에 운동했어요.",
-      "tokens": [
-        [
-          "SNU-1A-05-017_card_0",
-          "목요일"
-        ],
-        [
-          "SNU-1A-05-017_card_1",
           "에"
         ],
         [
+          "SNU-1A-05-016_card_2",
+          "사진"
+        ],
+        [
+          "SNU-1A-05-016_card_3",
+          "을"
+        ],
+        [
+          "SNU-1A-05-016_card_4",
+          "많이"
+        ],
+        [
+          "SNU-1A-05-016_card_5",
+          "찍었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-05-016_card_0",
+          "SNU-1A-05-016_card_1",
+          "SNU-1A-05-016_card_2",
+          "SNU-1A-05-016_card_3",
+          "SNU-1A-05-016_card_4",
+          "SNU-1A-05-016_card_5"
+        ]
+      ],
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
+    },
+    {
+      "id": "SNU-1A-05-017",
+      "displaySentence": "어제 세수하고 이를 닦았어요.",
+      "tokens": [
+        [
+          "SNU-1A-05-017_card_0",
+          "어제"
+        ],
+        [
+          "SNU-1A-05-017_card_1",
+          "세수하고"
+        ],
+        [
           "SNU-1A-05-017_card_2",
-          "운동했어요"
+          "이"
+        ],
+        [
+          "SNU-1A-05-017_card_3",
+          "를"
+        ],
+        [
+          "SNU-1A-05-017_card_4",
+          "닦았어요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1A-05-017_card_0",
           "SNU-1A-05-017_card_1",
-          "SNU-1A-05-017_card_2"
+          "SNU-1A-05-017_card_2",
+          "SNU-1A-05-017_card_3",
+          "SNU-1A-05-017_card_4"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-018",
-      "displaySentence": "어제 피자를 먹었어요.",
+      "displaySentence": "토요일에 시장에서 쇼핑했어요.",
       "tokens": [
         [
           "SNU-1A-05-018_card_0",
-          "어제"
+          "토요일"
         ],
         [
           "SNU-1A-05-018_card_1",
-          "피자"
+          "에"
         ],
         [
           "SNU-1A-05-018_card_2",
-          "를"
+          "시장"
         ],
         [
           "SNU-1A-05-018_card_3",
-          "먹었어요"
+          "에서"
+        ],
+        [
+          "SNU-1A-05-018_card_4",
+          "쇼핑했어요"
         ]
       ],
       "acceptedOrders": [
@@ -562,18 +694,20 @@
           "SNU-1A-05-018_card_0",
           "SNU-1A-05-018_card_1",
           "SNU-1A-05-018_card_2",
-          "SNU-1A-05-018_card_3"
+          "SNU-1A-05-018_card_3",
+          "SNU-1A-05-018_card_4"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-019",
-      "displaySentence": "주말에 뭐 했어요?",
+      "displaySentence": "일요일에 같이 산책했어요.",
       "tokens": [
         [
           "SNU-1A-05-019_card_0",
-          "주말"
+          "일요일"
         ],
         [
           "SNU-1A-05-019_card_1",
@@ -581,11 +715,11 @@
         ],
         [
           "SNU-1A-05-019_card_2",
-          "뭐"
+          "같이"
         ],
         [
           "SNU-1A-05-019_card_3",
-          "했어요"
+          "산책했어요"
         ]
       ],
       "acceptedOrders": [
@@ -596,35 +730,40 @@
           "SNU-1A-05-019_card_3"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     },
     {
       "id": "SNU-1A-05-020",
-      "displaySentence": "친구하고 같이 영화 보고 쇼핑했어요.",
+      "displaySentence": "어제 기념품을 사고 집에 왔어요.",
       "tokens": [
         [
           "SNU-1A-05-020_card_0",
-          "친구"
+          "어제"
         ],
         [
           "SNU-1A-05-020_card_1",
-          "하고"
+          "기념품"
         ],
         [
           "SNU-1A-05-020_card_2",
-          "같이"
+          "을"
         ],
         [
           "SNU-1A-05-020_card_3",
-          "영화"
+          "사고"
         ],
         [
           "SNU-1A-05-020_card_4",
-          "보고"
+          "집"
         ],
         [
           "SNU-1A-05-020_card_5",
-          "쇼핑했어요"
+          "에"
+        ],
+        [
+          "SNU-1A-05-020_card_6",
+          "왔어요"
         ]
       ],
       "acceptedOrders": [
@@ -634,92 +773,12 @@
           "SNU-1A-05-020_card_2",
           "SNU-1A-05-020_card_3",
           "SNU-1A-05-020_card_4",
-          "SNU-1A-05-020_card_5"
+          "SNU-1A-05-020_card_5",
+          "SNU-1A-05-020_card_6"
         ]
       ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-021",
-      "displaySentence": "숙제를 하고 텔레비전을 봐요.",
-      "tokens": [
-        [
-          "SNU-1A-05-021_card_0",
-          "숙제"
-        ],
-        [
-          "SNU-1A-05-021_card_1",
-          "를"
-        ],
-        [
-          "SNU-1A-05-021_card_2",
-          "하고"
-        ],
-        [
-          "SNU-1A-05-021_card_3",
-          "텔레비전"
-        ],
-        [
-          "SNU-1A-05-021_card_4",
-          "을"
-        ],
-        [
-          "SNU-1A-05-021_card_5",
-          "봐요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-021_card_0",
-          "SNU-1A-05-021_card_1",
-          "SNU-1A-05-021_card_2",
-          "SNU-1A-05-021_card_3",
-          "SNU-1A-05-021_card_4",
-          "SNU-1A-05-021_card_5"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-05-022",
-      "displaySentence": "밥을 먹고 차를 마셨어요.",
-      "tokens": [
-        [
-          "SNU-1A-05-022_card_0",
-          "밥"
-        ],
-        [
-          "SNU-1A-05-022_card_1",
-          "을"
-        ],
-        [
-          "SNU-1A-05-022_card_2",
-          "먹고"
-        ],
-        [
-          "SNU-1A-05-022_card_3",
-          "차"
-        ],
-        [
-          "SNU-1A-05-022_card_4",
-          "를"
-        ],
-        [
-          "SNU-1A-05-022_card_5",
-          "마셨어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-05-022_card_0",
-          "SNU-1A-05-022_card_1",
-          "SNU-1A-05-022_card_2",
-          "SNU-1A-05-022_card_3",
-          "SNU-1A-05-022_card_4",
-          "SNU-1A-05-022_card_5"
-        ]
-      ],
-      "note": "서울대 1A 5과 교재 기반"
+      "note": "서울대 1A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 5과 SB/WB 문법(N에(시간); V-았/었-; V-고) + data/snu/1A/lesson05.json 어휘"
     }
   ]
 }

@@ -1,12 +1,17 @@
 {
   "book": "2B",
   "lesson": 18,
-  "source": "서울대 한국어 2B 학생 읽기 자료 · 18과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "SNU Korean 2B Student's Book/Workbook official grammar scope; restructured with Arena 2B lesson vocabulary",
+  "grammarFocus": [
+    "V-(으)ㄴ 지",
+    "N(이)나 2",
+    "A-다/V-ㄴ다/는다/N(이)다"
+  ],
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2B-18-001",
-      "displaySentence": "한국에 온 지 얼마나 됐어요?",
+      "displaySentence": "한국에 온 지 벌써 여섯 달이 되었어요.",
       "tokens": [
         [
           "SNU-2B-18-001_card_0",
@@ -26,60 +31,84 @@
         ],
         [
           "SNU-2B-18-001_card_4",
-          "얼마나"
-        ],
-        [
-          "SNU-2B-18-001_card_5",
-          "됐어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-001_card_0",
-          "SNU-2B-18-001_card_1",
-          "SNU-2B-18-001_card_2",
-          "SNU-2B-18-001_card_3",
-          "SNU-2B-18-001_card_4",
-          "SNU-2B-18-001_card_5"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-002",
-      "displaySentence": "한국에 온 지 벌써 네 달 됐어요.",
-      "tokens": [
-        [
-          "SNU-2B-18-002_card_0",
-          "한국"
-        ],
-        [
-          "SNU-2B-18-002_card_1",
-          "에"
-        ],
-        [
-          "SNU-2B-18-002_card_2",
-          "온"
-        ],
-        [
-          "SNU-2B-18-002_card_3",
-          "지"
-        ],
-        [
-          "SNU-2B-18-002_card_4",
           "벌써"
         ],
         [
-          "SNU-2B-18-002_card_5",
-          "네"
+          "SNU-2B-18-001_card_5",
+          "여섯"
         ],
         [
-          "SNU-2B-18-002_card_6",
+          "SNU-2B-18-001_card_6",
           "달"
         ],
         [
+          "SNU-2B-18-001_card_7",
+          "이"
+        ],
+        [
+          "SNU-2B-18-001_card_8",
+          "되었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-001_card_0",
+          "SNU-2B-18-001_card_1",
+          "SNU-2B-18-001_card_2",
+          "SNU-2B-18-001_card_3",
+          "SNU-2B-18-001_card_4",
+          "SNU-2B-18-001_card_5",
+          "SNU-2B-18-001_card_6",
+          "SNU-2B-18-001_card_7",
+          "SNU-2B-18-001_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-002",
+      "displaySentence": "이 집에 산 지 한 달밖에 안 되었어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-002_card_0",
+          "이"
+        ],
+        [
+          "SNU-2B-18-002_card_1",
+          "집"
+        ],
+        [
+          "SNU-2B-18-002_card_2",
+          "에"
+        ],
+        [
+          "SNU-2B-18-002_card_3",
+          "산"
+        ],
+        [
+          "SNU-2B-18-002_card_4",
+          "지"
+        ],
+        [
+          "SNU-2B-18-002_card_5",
+          "한"
+        ],
+        [
+          "SNU-2B-18-002_card_6",
+          "달밖"
+        ],
+        [
           "SNU-2B-18-002_card_7",
-          "됐어요"
+          "에"
+        ],
+        [
+          "SNU-2B-18-002_card_8",
+          "안"
+        ],
+        [
+          "SNU-2B-18-002_card_9",
+          "되었어요"
         ]
       ],
       "acceptedOrders": [
@@ -91,18 +120,21 @@
           "SNU-2B-18-002_card_4",
           "SNU-2B-18-002_card_5",
           "SNU-2B-18-002_card_6",
-          "SNU-2B-18-002_card_7"
+          "SNU-2B-18-002_card_7",
+          "SNU-2B-18-002_card_8",
+          "SNU-2B-18-002_card_9"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-18-003",
-      "displaySentence": "대학교를 졸업한 지 일 년 되었어요.",
+      "displaySentence": "친구를 만난 지 벌써 일 년이 되었어요.",
       "tokens": [
         [
           "SNU-2B-18-003_card_0",
-          "대학교"
+          "친구"
         ],
         [
           "SNU-2B-18-003_card_1",
@@ -110,7 +142,7 @@
         ],
         [
           "SNU-2B-18-003_card_2",
-          "졸업한"
+          "만난"
         ],
         [
           "SNU-2B-18-003_card_3",
@@ -118,14 +150,22 @@
         ],
         [
           "SNU-2B-18-003_card_4",
-          "일"
+          "벌써"
         ],
         [
           "SNU-2B-18-003_card_5",
-          "년"
+          "일"
         ],
         [
           "SNU-2B-18-003_card_6",
+          "년"
+        ],
+        [
+          "SNU-2B-18-003_card_7",
+          "이"
+        ],
+        [
+          "SNU-2B-18-003_card_8",
           "되었어요"
         ]
       ],
@@ -137,46 +177,49 @@
           "SNU-2B-18-003_card_3",
           "SNU-2B-18-003_card_4",
           "SNU-2B-18-003_card_5",
-          "SNU-2B-18-003_card_6"
+          "SNU-2B-18-003_card_6",
+          "SNU-2B-18-003_card_7",
+          "SNU-2B-18-003_card_8"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-18-004",
-      "displaySentence": "이 약을 먹은 지 한 시간쯤 됐어요.",
+      "displaySentence": "운동을 시작한 지 세 달이 되었어요.",
       "tokens": [
         [
           "SNU-2B-18-004_card_0",
-          "이"
+          "운동"
         ],
         [
           "SNU-2B-18-004_card_1",
-          "약"
-        ],
-        [
-          "SNU-2B-18-004_card_2",
           "을"
         ],
         [
-          "SNU-2B-18-004_card_3",
-          "먹은"
+          "SNU-2B-18-004_card_2",
+          "시작한"
         ],
         [
-          "SNU-2B-18-004_card_4",
+          "SNU-2B-18-004_card_3",
           "지"
         ],
         [
+          "SNU-2B-18-004_card_4",
+          "세"
+        ],
+        [
           "SNU-2B-18-004_card_5",
-          "한"
+          "달"
         ],
         [
           "SNU-2B-18-004_card_6",
-          "시간쯤"
+          "이"
         ],
         [
           "SNU-2B-18-004_card_7",
-          "됐어요"
+          "되었어요"
         ]
       ],
       "acceptedOrders": [
@@ -191,23 +234,24 @@
           "SNU-2B-18-004_card_7"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-18-005",
-      "displaySentence": "기숙사에 산 지 얼마나 됐어요?",
+      "displaySentence": "한국어를 배운 지 얼마나 되었어요?",
       "tokens": [
         [
           "SNU-2B-18-005_card_0",
-          "기숙사"
+          "한국어"
         ],
         [
           "SNU-2B-18-005_card_1",
-          "에"
+          "를"
         ],
         [
           "SNU-2B-18-005_card_2",
-          "산"
+          "배운"
         ],
         [
           "SNU-2B-18-005_card_3",
@@ -219,7 +263,7 @@
         ],
         [
           "SNU-2B-18-005_card_5",
-          "됐어요"
+          "되었어요?"
         ]
       ],
       "acceptedOrders": [
@@ -232,127 +276,191 @@
           "SNU-2B-18-005_card_5"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-18-006",
-      "displaySentence": "한 달밖에 안 됐어요.",
+      "displaySentence": "어제는 눈이 삼십 센티미터나 내렸어요.",
       "tokens": [
         [
           "SNU-2B-18-006_card_0",
-          "한"
+          "어제"
         ],
         [
           "SNU-2B-18-006_card_1",
-          "달밖"
-        ],
-        [
-          "SNU-2B-18-006_card_2",
-          "에"
-        ],
-        [
-          "SNU-2B-18-006_card_3",
-          "안"
-        ],
-        [
-          "SNU-2B-18-006_card_4",
-          "됐어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-006_card_0",
-          "SNU-2B-18-006_card_1",
-          "SNU-2B-18-006_card_2",
-          "SNU-2B-18-006_card_3",
-          "SNU-2B-18-006_card_4"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-007",
-      "displaySentence": "좀 더 드세요.",
-      "tokens": [
-        [
-          "SNU-2B-18-007_card_0",
-          "좀"
-        ],
-        [
-          "SNU-2B-18-007_card_1",
-          "더"
-        ],
-        [
-          "SNU-2B-18-007_card_2",
-          "드세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-007_card_0",
-          "SNU-2B-18-007_card_1",
-          "SNU-2B-18-007_card_2"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-008",
-      "displaySentence": "두 그릇이나 먹었어요.",
-      "tokens": [
-        [
-          "SNU-2B-18-008_card_0",
-          "두"
-        ],
-        [
-          "SNU-2B-18-008_card_1",
-          "그릇이나"
-        ],
-        [
-          "SNU-2B-18-008_card_2",
-          "먹었어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-008_card_0",
-          "SNU-2B-18-008_card_1",
-          "SNU-2B-18-008_card_2"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-009",
-      "displaySentence": "민영 씨는 개가 다섯 마리나 있어요.",
-      "tokens": [
-        [
-          "SNU-2B-18-009_card_0",
-          "민영 씨"
-        ],
-        [
-          "SNU-2B-18-009_card_1",
           "는"
         ],
         [
-          "SNU-2B-18-009_card_2",
-          "개"
+          "SNU-2B-18-006_card_2",
+          "눈"
         ],
         [
-          "SNU-2B-18-009_card_3",
+          "SNU-2B-18-006_card_3",
+          "이"
+        ],
+        [
+          "SNU-2B-18-006_card_4",
+          "삼십"
+        ],
+        [
+          "SNU-2B-18-006_card_5",
+          "센티미터나"
+        ],
+        [
+          "SNU-2B-18-006_card_6",
+          "내렸어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-006_card_0",
+          "SNU-2B-18-006_card_1",
+          "SNU-2B-18-006_card_2",
+          "SNU-2B-18-006_card_3",
+          "SNU-2B-18-006_card_4",
+          "SNU-2B-18-006_card_5",
+          "SNU-2B-18-006_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-007",
+      "displaySentence": "한국에 와서 친구가 열 명이나 생겼어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-007_card_0",
+          "한국"
+        ],
+        [
+          "SNU-2B-18-007_card_1",
+          "에"
+        ],
+        [
+          "SNU-2B-18-007_card_2",
+          "와서"
+        ],
+        [
+          "SNU-2B-18-007_card_3",
+          "친구"
+        ],
+        [
+          "SNU-2B-18-007_card_4",
           "가"
         ],
         [
+          "SNU-2B-18-007_card_5",
+          "열"
+        ],
+        [
+          "SNU-2B-18-007_card_6",
+          "명이나"
+        ],
+        [
+          "SNU-2B-18-007_card_7",
+          "생겼어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-007_card_0",
+          "SNU-2B-18-007_card_1",
+          "SNU-2B-18-007_card_2",
+          "SNU-2B-18-007_card_3",
+          "SNU-2B-18-007_card_4",
+          "SNU-2B-18-007_card_5",
+          "SNU-2B-18-007_card_6",
+          "SNU-2B-18-007_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-008",
+      "displaySentence": "어제는 기온이 영하 십 도나 내려갔어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-008_card_0",
+          "어제"
+        ],
+        [
+          "SNU-2B-18-008_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-008_card_2",
+          "기온"
+        ],
+        [
+          "SNU-2B-18-008_card_3",
+          "이"
+        ],
+        [
+          "SNU-2B-18-008_card_4",
+          "영하"
+        ],
+        [
+          "SNU-2B-18-008_card_5",
+          "십"
+        ],
+        [
+          "SNU-2B-18-008_card_6",
+          "도나"
+        ],
+        [
+          "SNU-2B-18-008_card_7",
+          "내려갔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-008_card_0",
+          "SNU-2B-18-008_card_1",
+          "SNU-2B-18-008_card_2",
+          "SNU-2B-18-008_card_3",
+          "SNU-2B-18-008_card_4",
+          "SNU-2B-18-008_card_5",
+          "SNU-2B-18-008_card_6",
+          "SNU-2B-18-008_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-009",
+      "displaySentence": "장마가 시작돼서 비가 일주일이나 내렸어요.",
+      "tokens": [
+        [
+          "SNU-2B-18-009_card_0",
+          "장마"
+        ],
+        [
+          "SNU-2B-18-009_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-18-009_card_2",
+          "시작돼서"
+        ],
+        [
+          "SNU-2B-18-009_card_3",
+          "비"
+        ],
+        [
           "SNU-2B-18-009_card_4",
-          "다섯"
+          "가"
         ],
         [
           "SNU-2B-18-009_card_5",
-          "마리나"
+          "일주일이나"
         ],
         [
           "SNU-2B-18-009_card_6",
-          "있어요"
+          "내렸어요"
         ]
       ],
       "acceptedOrders": [
@@ -366,114 +474,137 @@
           "SNU-2B-18-009_card_6"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-18-010",
-      "displaySentence": "그 가수 콘서트에 사람들이 만 명이나 왔어요.",
+      "displaySentence": "오늘은 바람이 아주 세게 분다.",
       "tokens": [
         [
           "SNU-2B-18-010_card_0",
-          "그"
+          "오늘"
         ],
         [
           "SNU-2B-18-010_card_1",
-          "가수"
+          "은"
         ],
         [
           "SNU-2B-18-010_card_2",
-          "콘서트"
-        ],
-        [
-          "SNU-2B-18-010_card_3",
-          "에"
-        ],
-        [
-          "SNU-2B-18-010_card_4",
-          "사람들"
-        ],
-        [
-          "SNU-2B-18-010_card_5",
-          "이"
-        ],
-        [
-          "SNU-2B-18-010_card_6",
-          "만"
-        ],
-        [
-          "SNU-2B-18-010_card_7",
-          "명이나"
-        ],
-        [
-          "SNU-2B-18-010_card_8",
-          "왔어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-010_card_0",
-          "SNU-2B-18-010_card_1",
-          "SNU-2B-18-010_card_2",
-          "SNU-2B-18-010_card_3",
-          "SNU-2B-18-010_card_4",
-          "SNU-2B-18-010_card_5",
-          "SNU-2B-18-010_card_6",
-          "SNU-2B-18-010_card_7",
-          "SNU-2B-18-010_card_8"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-011",
-      "displaySentence": "시간이 빨리 지나간다.",
-      "tokens": [
-        [
-          "SNU-2B-18-011_card_0",
-          "시간"
-        ],
-        [
-          "SNU-2B-18-011_card_1",
-          "이"
-        ],
-        [
-          "SNU-2B-18-011_card_2",
-          "빨리"
-        ],
-        [
-          "SNU-2B-18-011_card_3",
-          "지나간다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-011_card_0",
-          "SNU-2B-18-011_card_1",
-          "SNU-2B-18-011_card_2",
-          "SNU-2B-18-011_card_3"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-012",
-      "displaySentence": "바람이 불어서 시원하다.",
-      "tokens": [
-        [
-          "SNU-2B-18-012_card_0",
           "바람"
         ],
         [
-          "SNU-2B-18-012_card_1",
+          "SNU-2B-18-010_card_3",
           "이"
         ],
         [
+          "SNU-2B-18-010_card_4",
+          "아주"
+        ],
+        [
+          "SNU-2B-18-010_card_5",
+          "세게"
+        ],
+        [
+          "SNU-2B-18-010_card_6",
+          "분다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-010_card_0",
+          "SNU-2B-18-010_card_1",
+          "SNU-2B-18-010_card_2",
+          "SNU-2B-18-010_card_3",
+          "SNU-2B-18-010_card_4",
+          "SNU-2B-18-010_card_5",
+          "SNU-2B-18-010_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-011",
+      "displaySentence": "봄에는 꽃이 많이 핀다.",
+      "tokens": [
+        [
+          "SNU-2B-18-011_card_0",
+          "봄에"
+        ],
+        [
+          "SNU-2B-18-011_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-011_card_2",
+          "꽃"
+        ],
+        [
+          "SNU-2B-18-011_card_3",
+          "이"
+        ],
+        [
+          "SNU-2B-18-011_card_4",
+          "많이"
+        ],
+        [
+          "SNU-2B-18-011_card_5",
+          "핀다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-011_card_0",
+          "SNU-2B-18-011_card_1",
+          "SNU-2B-18-011_card_2",
+          "SNU-2B-18-011_card_3",
+          "SNU-2B-18-011_card_4",
+          "SNU-2B-18-011_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-012",
+      "displaySentence": "여름에는 습도가 높아서 땀이 많이 난다.",
+      "tokens": [
+        [
+          "SNU-2B-18-012_card_0",
+          "여름에"
+        ],
+        [
+          "SNU-2B-18-012_card_1",
+          "는"
+        ],
+        [
           "SNU-2B-18-012_card_2",
-          "불어서"
+          "습도"
         ],
         [
           "SNU-2B-18-012_card_3",
-          "시원하다"
+          "가"
+        ],
+        [
+          "SNU-2B-18-012_card_4",
+          "높아서"
+        ],
+        [
+          "SNU-2B-18-012_card_5",
+          "땀"
+        ],
+        [
+          "SNU-2B-18-012_card_6",
+          "이"
+        ],
+        [
+          "SNU-2B-18-012_card_7",
+          "많이"
+        ],
+        [
+          "SNU-2B-18-012_card_8",
+          "난다"
         ]
       ],
       "acceptedOrders": [
@@ -481,46 +612,52 @@
           "SNU-2B-18-012_card_0",
           "SNU-2B-18-012_card_1",
           "SNU-2B-18-012_card_2",
-          "SNU-2B-18-012_card_3"
+          "SNU-2B-18-012_card_3",
+          "SNU-2B-18-012_card_4",
+          "SNU-2B-18-012_card_5",
+          "SNU-2B-18-012_card_6",
+          "SNU-2B-18-012_card_7",
+          "SNU-2B-18-012_card_8"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-18-013",
-      "displaySentence": "사람이 너무 많아서 표 사기가 어렵다.",
+      "displaySentence": "가을에는 단풍이 들고 나뭇잎이 떨어진다.",
       "tokens": [
         [
           "SNU-2B-18-013_card_0",
-          "사람"
+          "가을에"
         ],
         [
           "SNU-2B-18-013_card_1",
-          "이"
+          "는"
         ],
         [
           "SNU-2B-18-013_card_2",
-          "너무"
+          "단풍"
         ],
         [
           "SNU-2B-18-013_card_3",
-          "많아서"
+          "이"
         ],
         [
           "SNU-2B-18-013_card_4",
-          "표"
+          "들고"
         ],
         [
           "SNU-2B-18-013_card_5",
-          "사기"
+          "나뭇잎"
         ],
         [
           "SNU-2B-18-013_card_6",
-          "가"
+          "이"
         ],
         [
           "SNU-2B-18-013_card_7",
-          "어렵다"
+          "떨어진다"
         ]
       ],
       "acceptedOrders": [
@@ -535,15 +672,16 @@
           "SNU-2B-18-013_card_7"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-18-014",
-      "displaySentence": "나는 매일 아침 8시에 학교에 간다.",
+      "displaySentence": "겨울에는 기온이 영하로 내려가고 눈이 내린다.",
       "tokens": [
         [
           "SNU-2B-18-014_card_0",
-          "나"
+          "겨울에"
         ],
         [
           "SNU-2B-18-014_card_1",
@@ -551,442 +689,320 @@
         ],
         [
           "SNU-2B-18-014_card_2",
-          "매일"
+          "기온"
         ],
         [
           "SNU-2B-18-014_card_3",
-          "아침"
-        ],
-        [
-          "SNU-2B-18-014_card_4",
-          "8시"
-        ],
-        [
-          "SNU-2B-18-014_card_5",
-          "에"
-        ],
-        [
-          "SNU-2B-18-014_card_6",
-          "학교"
-        ],
-        [
-          "SNU-2B-18-014_card_7",
-          "에"
-        ],
-        [
-          "SNU-2B-18-014_card_8",
-          "간다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-014_card_0",
-          "SNU-2B-18-014_card_1",
-          "SNU-2B-18-014_card_2",
-          "SNU-2B-18-014_card_3",
-          "SNU-2B-18-014_card_4",
-          "SNU-2B-18-014_card_5",
-          "SNU-2B-18-014_card_6",
-          "SNU-2B-18-014_card_7",
-          "SNU-2B-18-014_card_8"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-015",
-      "displaySentence": "나는 자기 전에 책을 읽는다.",
-      "tokens": [
-        [
-          "SNU-2B-18-015_card_0",
-          "나"
-        ],
-        [
-          "SNU-2B-18-015_card_1",
-          "는"
-        ],
-        [
-          "SNU-2B-18-015_card_2",
-          "자기"
-        ],
-        [
-          "SNU-2B-18-015_card_3",
-          "전"
-        ],
-        [
-          "SNU-2B-18-015_card_4",
-          "에"
-        ],
-        [
-          "SNU-2B-18-015_card_5",
-          "책"
-        ],
-        [
-          "SNU-2B-18-015_card_6",
-          "을"
-        ],
-        [
-          "SNU-2B-18-015_card_7",
-          "읽는다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-015_card_0",
-          "SNU-2B-18-015_card_1",
-          "SNU-2B-18-015_card_2",
-          "SNU-2B-18-015_card_3",
-          "SNU-2B-18-015_card_4",
-          "SNU-2B-18-015_card_5",
-          "SNU-2B-18-015_card_6",
-          "SNU-2B-18-015_card_7"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-016",
-      "displaySentence": "내일부터 방학이다.",
-      "tokens": [
-        [
-          "SNU-2B-18-016_card_0",
-          "내일"
-        ],
-        [
-          "SNU-2B-18-016_card_1",
-          "부터"
-        ],
-        [
-          "SNU-2B-18-016_card_2",
-          "방학이다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-016_card_0",
-          "SNU-2B-18-016_card_1",
-          "SNU-2B-18-016_card_2"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-017",
-      "displaySentence": "여기는 내가 졸업한 학교다.",
-      "tokens": [
-        [
-          "SNU-2B-18-017_card_0",
-          "여기"
-        ],
-        [
-          "SNU-2B-18-017_card_1",
-          "는"
-        ],
-        [
-          "SNU-2B-18-017_card_2",
-          "내"
-        ],
-        [
-          "SNU-2B-18-017_card_3",
-          "가"
-        ],
-        [
-          "SNU-2B-18-017_card_4",
-          "졸업한"
-        ],
-        [
-          "SNU-2B-18-017_card_5",
-          "학교다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-017_card_0",
-          "SNU-2B-18-017_card_1",
-          "SNU-2B-18-017_card_2",
-          "SNU-2B-18-017_card_3",
-          "SNU-2B-18-017_card_4",
-          "SNU-2B-18-017_card_5"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-018",
-      "displaySentence": "나는 대학생이다.",
-      "tokens": [
-        [
-          "SNU-2B-18-018_card_0",
-          "나"
-        ],
-        [
-          "SNU-2B-18-018_card_1",
-          "는"
-        ],
-        [
-          "SNU-2B-18-018_card_2",
-          "대학생이다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-018_card_0",
-          "SNU-2B-18-018_card_1",
-          "SNU-2B-18-018_card_2"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-019",
-      "displaySentence": "어제는 내 생일이었다.",
-      "tokens": [
-        [
-          "SNU-2B-18-019_card_0",
-          "어제"
-        ],
-        [
-          "SNU-2B-18-019_card_1",
-          "는"
-        ],
-        [
-          "SNU-2B-18-019_card_2",
-          "내"
-        ],
-        [
-          "SNU-2B-18-019_card_3",
-          "생일이었다"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-019_card_0",
-          "SNU-2B-18-019_card_1",
-          "SNU-2B-18-019_card_2",
-          "SNU-2B-18-019_card_3"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-020",
-      "displaySentence": "우리가 한국에 온 지 벌써 6개월이나 됐네요.",
-      "tokens": [
-        [
-          "SNU-2B-18-020_card_0",
-          "우리"
-        ],
-        [
-          "SNU-2B-18-020_card_1",
-          "가"
-        ],
-        [
-          "SNU-2B-18-020_card_2",
-          "한국"
-        ],
-        [
-          "SNU-2B-18-020_card_3",
-          "에"
-        ],
-        [
-          "SNU-2B-18-020_card_4",
-          "온"
-        ],
-        [
-          "SNU-2B-18-020_card_5",
-          "지"
-        ],
-        [
-          "SNU-2B-18-020_card_6",
-          "벌써"
-        ],
-        [
-          "SNU-2B-18-020_card_7",
-          "6개월이나"
-        ],
-        [
-          "SNU-2B-18-020_card_8",
-          "됐네요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-18-020_card_0",
-          "SNU-2B-18-020_card_1",
-          "SNU-2B-18-020_card_2",
-          "SNU-2B-18-020_card_3",
-          "SNU-2B-18-020_card_4",
-          "SNU-2B-18-020_card_5",
-          "SNU-2B-18-020_card_6",
-          "SNU-2B-18-020_card_7",
-          "SNU-2B-18-020_card_8"
-        ]
-      ],
-      "note": "서울대 2B 18과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-18-021",
-      "displaySentence": "시간이 정말 빨리 지나간 것 같아요.",
-      "tokens": [
-        [
-          "SNU-2B-18-021_card_0",
-          "시간"
-        ],
-        [
-          "SNU-2B-18-021_card_1",
           "이"
         ],
         [
-          "SNU-2B-18-021_card_2",
-          "정말"
+          "SNU-2B-18-014_card_4",
+          "영하"
         ],
         [
-          "SNU-2B-18-021_card_3",
-          "빨리"
+          "SNU-2B-18-014_card_5",
+          "로"
         ],
         [
-          "SNU-2B-18-021_card_4",
-          "지나간"
+          "SNU-2B-18-014_card_6",
+          "내려가고"
         ],
         [
-          "SNU-2B-18-021_card_5",
-          "것"
+          "SNU-2B-18-014_card_7",
+          "눈"
         ],
         [
-          "SNU-2B-18-021_card_6",
-          "같아요"
+          "SNU-2B-18-014_card_8",
+          "이"
+        ],
+        [
+          "SNU-2B-18-014_card_9",
+          "내린다"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-18-021_card_0",
-          "SNU-2B-18-021_card_1",
-          "SNU-2B-18-021_card_2",
-          "SNU-2B-18-021_card_3",
-          "SNU-2B-18-021_card_4",
-          "SNU-2B-18-021_card_5",
-          "SNU-2B-18-021_card_6"
+          "SNU-2B-18-014_card_0",
+          "SNU-2B-18-014_card_1",
+          "SNU-2B-18-014_card_2",
+          "SNU-2B-18-014_card_3",
+          "SNU-2B-18-014_card_4",
+          "SNU-2B-18-014_card_5",
+          "SNU-2B-18-014_card_6",
+          "SNU-2B-18-014_card_7",
+          "SNU-2B-18-014_card_8",
+          "SNU-2B-18-014_card_9"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
-      "id": "SNU-2B-18-022",
-      "displaySentence": "나나 씨, 다음 학기에도 계속 공부하지요?",
+      "id": "SNU-2B-18-015",
+      "displaySentence": "한국의 여름은 덥고 습하다.",
       "tokens": [
         [
-          "SNU-2B-18-022_card_0",
-          "나나"
+          "SNU-2B-18-015_card_0",
+          "한국"
         ],
         [
-          "SNU-2B-18-022_card_1",
-          "씨"
+          "SNU-2B-18-015_card_1",
+          "의"
         ],
         [
-          "SNU-2B-18-022_card_2",
-          "다음"
+          "SNU-2B-18-015_card_2",
+          "여름"
         ],
         [
-          "SNU-2B-18-022_card_3",
-          "학기에"
+          "SNU-2B-18-015_card_3",
+          "은"
         ],
         [
-          "SNU-2B-18-022_card_4",
-          "도"
+          "SNU-2B-18-015_card_4",
+          "덥고"
         ],
         [
-          "SNU-2B-18-022_card_5",
-          "계속"
-        ],
-        [
-          "SNU-2B-18-022_card_6",
-          "공부하지요"
+          "SNU-2B-18-015_card_5",
+          "습하다"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-18-022_card_0",
-          "SNU-2B-18-022_card_1",
-          "SNU-2B-18-022_card_2",
-          "SNU-2B-18-022_card_3",
-          "SNU-2B-18-022_card_4",
-          "SNU-2B-18-022_card_5",
-          "SNU-2B-18-022_card_6"
+          "SNU-2B-18-015_card_0",
+          "SNU-2B-18-015_card_1",
+          "SNU-2B-18-015_card_2",
+          "SNU-2B-18-015_card_3",
+          "SNU-2B-18-015_card_4",
+          "SNU-2B-18-015_card_5"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
-      "id": "SNU-2B-18-023",
-      "displaySentence": "다음 학기에 고향으로 돌아가요.",
+      "id": "SNU-2B-18-016",
+      "displaySentence": "오늘 밤은 날씨가 아주 쌀쌀하다.",
       "tokens": [
         [
-          "SNU-2B-18-023_card_0",
-          "다음"
+          "SNU-2B-18-016_card_0",
+          "오늘"
         ],
         [
-          "SNU-2B-18-023_card_1",
-          "학기"
+          "SNU-2B-18-016_card_1",
+          "밤"
         ],
         [
-          "SNU-2B-18-023_card_2",
-          "에"
+          "SNU-2B-18-016_card_2",
+          "은"
         ],
         [
-          "SNU-2B-18-023_card_3",
+          "SNU-2B-18-016_card_3",
+          "날씨"
+        ],
+        [
+          "SNU-2B-18-016_card_4",
+          "가"
+        ],
+        [
+          "SNU-2B-18-016_card_5",
+          "아주"
+        ],
+        [
+          "SNU-2B-18-016_card_6",
+          "쌀쌀하다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-016_card_0",
+          "SNU-2B-18-016_card_1",
+          "SNU-2B-18-016_card_2",
+          "SNU-2B-18-016_card_3",
+          "SNU-2B-18-016_card_4",
+          "SNU-2B-18-016_card_5",
+          "SNU-2B-18-016_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-017",
+      "displaySentence": "저는 한국에서 공부하는 학생이다.",
+      "tokens": [
+        [
+          "SNU-2B-18-017_card_0",
+          "저"
+        ],
+        [
+          "SNU-2B-18-017_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-18-017_card_2",
+          "한국"
+        ],
+        [
+          "SNU-2B-18-017_card_3",
+          "에서"
+        ],
+        [
+          "SNU-2B-18-017_card_4",
+          "공부하"
+        ],
+        [
+          "SNU-2B-18-017_card_5",
+          "는"
+        ],
+        [
+          "SNU-2B-18-017_card_6",
+          "학생이다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-017_card_0",
+          "SNU-2B-18-017_card_1",
+          "SNU-2B-18-017_card_2",
+          "SNU-2B-18-017_card_3",
+          "SNU-2B-18-017_card_4",
+          "SNU-2B-18-017_card_5",
+          "SNU-2B-18-017_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-018",
+      "displaySentence": "고향이 그리울 때 친구들과 이야기한다.",
+      "tokens": [
+        [
+          "SNU-2B-18-018_card_0",
           "고향"
         ],
         [
-          "SNU-2B-18-023_card_4",
-          "으로"
+          "SNU-2B-18-018_card_1",
+          "이"
         ],
         [
-          "SNU-2B-18-023_card_5",
-          "돌아가요"
+          "SNU-2B-18-018_card_2",
+          "그리울"
+        ],
+        [
+          "SNU-2B-18-018_card_3",
+          "때"
+        ],
+        [
+          "SNU-2B-18-018_card_4",
+          "친구들"
+        ],
+        [
+          "SNU-2B-18-018_card_5",
+          "과"
+        ],
+        [
+          "SNU-2B-18-018_card_6",
+          "이야기한다"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-18-023_card_0",
-          "SNU-2B-18-023_card_1",
-          "SNU-2B-18-023_card_2",
-          "SNU-2B-18-023_card_3",
-          "SNU-2B-18-023_card_4",
-          "SNU-2B-18-023_card_5"
+          "SNU-2B-18-018_card_0",
+          "SNU-2B-18-018_card_1",
+          "SNU-2B-18-018_card_2",
+          "SNU-2B-18-018_card_3",
+          "SNU-2B-18-018_card_4",
+          "SNU-2B-18-018_card_5",
+          "SNU-2B-18-018_card_6"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
-      "id": "SNU-2B-18-024",
-      "displaySentence": "왜 갑자기 돌아가게 됐어요?",
+      "id": "SNU-2B-18-019",
+      "displaySentence": "시험에 합격해서 정말 기쁘다.",
       "tokens": [
         [
-          "SNU-2B-18-024_card_0",
-          "왜"
+          "SNU-2B-18-019_card_0",
+          "시험"
         ],
         [
-          "SNU-2B-18-024_card_1",
-          "갑자기"
+          "SNU-2B-18-019_card_1",
+          "에"
         ],
         [
-          "SNU-2B-18-024_card_2",
-          "돌아가게"
+          "SNU-2B-18-019_card_2",
+          "합격해서"
         ],
         [
-          "SNU-2B-18-024_card_3",
-          "됐어요"
+          "SNU-2B-18-019_card_3",
+          "정말"
+        ],
+        [
+          "SNU-2B-18-019_card_4",
+          "기쁘다"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-18-024_card_0",
-          "SNU-2B-18-024_card_1",
-          "SNU-2B-18-024_card_2",
-          "SNU-2B-18-024_card_3"
+          "SNU-2B-18-019_card_0",
+          "SNU-2B-18-019_card_1",
+          "SNU-2B-18-019_card_2",
+          "SNU-2B-18-019_card_3",
+          "SNU-2B-18-019_card_4"
         ]
       ],
-      "note": "서울대 2B 18과 교재 기반"
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-18-020",
+      "displaySentence": "친구와 헤어져서 마음이 많이 슬프다.",
+      "tokens": [
+        [
+          "SNU-2B-18-020_card_0",
+          "친구"
+        ],
+        [
+          "SNU-2B-18-020_card_1",
+          "와"
+        ],
+        [
+          "SNU-2B-18-020_card_2",
+          "헤어져서"
+        ],
+        [
+          "SNU-2B-18-020_card_3",
+          "마음"
+        ],
+        [
+          "SNU-2B-18-020_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-18-020_card_5",
+          "많이"
+        ],
+        [
+          "SNU-2B-18-020_card_6",
+          "슬프다"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-18-020_card_0",
+          "SNU-2B-18-020_card_1",
+          "SNU-2B-18-020_card_2",
+          "SNU-2B-18-020_card_3",
+          "SNU-2B-18-020_card_4",
+          "SNU-2B-18-020_card_5",
+          "SNU-2B-18-020_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 18 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     }
   ]
 }

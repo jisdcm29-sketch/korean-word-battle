@@ -1,28 +1,37 @@
 {
   "book": "1A",
   "lesson": 4,
-  "source": "서울대 한국어 1A 학생 읽기 자료 · 4과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "서울대 한국어 1A 학생책·워크북 4과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "N에 있어요/없어요; N에 가요/와요",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1A-04-001",
-      "displaySentence": "여기가 인사동이에요?",
+      "displaySentence": "약국은 은행 옆에 있어요.",
       "tokens": [
         [
           "SNU-1A-04-001_card_0",
-          "여기"
+          "약국"
         ],
         [
           "SNU-1A-04-001_card_1",
-          "가"
+          "은"
         ],
         [
           "SNU-1A-04-001_card_2",
-          "인사동"
+          "은행"
         ],
         [
           "SNU-1A-04-001_card_3",
-          "이에요"
+          "옆"
+        ],
+        [
+          "SNU-1A-04-001_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-001_card_5",
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -30,340 +39,454 @@
           "SNU-1A-04-001_card_0",
           "SNU-1A-04-001_card_1",
           "SNU-1A-04-001_card_2",
-          "SNU-1A-04-001_card_3"
+          "SNU-1A-04-001_card_3",
+          "SNU-1A-04-001_card_4",
+          "SNU-1A-04-001_card_5"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-002",
-      "displaySentence": "네, 여기가 인사동이에요.",
+      "displaySentence": "병원은 우체국 앞에 있어요.",
       "tokens": [
         [
           "SNU-1A-04-002_card_0",
-          "네"
+          "병원"
         ],
         [
           "SNU-1A-04-002_card_1",
-          "여기"
+          "은"
         ],
         [
           "SNU-1A-04-002_card_2",
-          "가"
-        ],
-        [
-          "SNU-1A-04-002_card_3",
-          "인사동"
-        ],
-        [
-          "SNU-1A-04-002_card_4",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-002_card_0",
-          "SNU-1A-04-002_card_1",
-          "SNU-1A-04-002_card_2",
-          "SNU-1A-04-002_card_3",
-          "SNU-1A-04-002_card_4"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-003",
-      "displaySentence": "여기가 어디예요?",
-      "tokens": [
-        [
-          "SNU-1A-04-003_card_0",
-          "여기"
-        ],
-        [
-          "SNU-1A-04-003_card_1",
-          "가"
-        ],
-        [
-          "SNU-1A-04-003_card_2",
-          "어디"
-        ],
-        [
-          "SNU-1A-04-003_card_3",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-003_card_0",
-          "SNU-1A-04-003_card_1",
-          "SNU-1A-04-003_card_2",
-          "SNU-1A-04-003_card_3"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-004",
-      "displaySentence": "여기가 명동이에요.",
-      "tokens": [
-        [
-          "SNU-1A-04-004_card_0",
-          "여기"
-        ],
-        [
-          "SNU-1A-04-004_card_1",
-          "가"
-        ],
-        [
-          "SNU-1A-04-004_card_2",
-          "명동"
-        ],
-        [
-          "SNU-1A-04-004_card_3",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-004_card_0",
-          "SNU-1A-04-004_card_1",
-          "SNU-1A-04-004_card_2",
-          "SNU-1A-04-004_card_3"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-005",
-      "displaySentence": "남산에 있어요.",
-      "tokens": [
-        [
-          "SNU-1A-04-005_card_0",
-          "남산"
-        ],
-        [
-          "SNU-1A-04-005_card_1",
-          "에"
-        ],
-        [
-          "SNU-1A-04-005_card_2",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-005_card_0",
-          "SNU-1A-04-005_card_1",
-          "SNU-1A-04-005_card_2"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-006",
-      "displaySentence": "중국 대사관이 어디에 있어요?",
-      "tokens": [
-        [
-          "SNU-1A-04-006_card_0",
-          "중국"
-        ],
-        [
-          "SNU-1A-04-006_card_1",
-          "대사관"
-        ],
-        [
-          "SNU-1A-04-006_card_2",
-          "이"
-        ],
-        [
-          "SNU-1A-04-006_card_3",
-          "어디"
-        ],
-        [
-          "SNU-1A-04-006_card_4",
-          "에"
-        ],
-        [
-          "SNU-1A-04-006_card_5",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-006_card_0",
-          "SNU-1A-04-006_card_1",
-          "SNU-1A-04-006_card_2",
-          "SNU-1A-04-006_card_3",
-          "SNU-1A-04-006_card_4",
-          "SNU-1A-04-006_card_5"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-007",
-      "displaySentence": "명동에 있어요.",
-      "tokens": [
-        [
-          "SNU-1A-04-007_card_0",
-          "명동"
-        ],
-        [
-          "SNU-1A-04-007_card_1",
-          "에"
-        ],
-        [
-          "SNU-1A-04-007_card_2",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-007_card_0",
-          "SNU-1A-04-007_card_1",
-          "SNU-1A-04-007_card_2"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-008",
-      "displaySentence": "스티븐 씨 교실에 있어요?",
-      "tokens": [
-        [
-          "SNU-1A-04-008_card_0",
-          "스티븐"
-        ],
-        [
-          "SNU-1A-04-008_card_1",
-          "씨"
-        ],
-        [
-          "SNU-1A-04-008_card_2",
-          "교실"
-        ],
-        [
-          "SNU-1A-04-008_card_3",
-          "에"
-        ],
-        [
-          "SNU-1A-04-008_card_4",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-008_card_0",
-          "SNU-1A-04-008_card_1",
-          "SNU-1A-04-008_card_2",
-          "SNU-1A-04-008_card_3",
-          "SNU-1A-04-008_card_4"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-009",
-      "displaySentence": "아니요, 교실에 없어요.",
-      "tokens": [
-        [
-          "SNU-1A-04-009_card_0",
-          "아니요"
-        ],
-        [
-          "SNU-1A-04-009_card_1",
-          "교실"
-        ],
-        [
-          "SNU-1A-04-009_card_2",
-          "에"
-        ],
-        [
-          "SNU-1A-04-009_card_3",
-          "없어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-009_card_0",
-          "SNU-1A-04-009_card_1",
-          "SNU-1A-04-009_card_2",
-          "SNU-1A-04-009_card_3"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-010",
-      "displaySentence": "여기는 남산이에요.",
-      "tokens": [
-        [
-          "SNU-1A-04-010_card_0",
-          "여기"
-        ],
-        [
-          "SNU-1A-04-010_card_1",
-          "는"
-        ],
-        [
-          "SNU-1A-04-010_card_2",
-          "남산"
-        ],
-        [
-          "SNU-1A-04-010_card_3",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-010_card_0",
-          "SNU-1A-04-010_card_1",
-          "SNU-1A-04-010_card_2",
-          "SNU-1A-04-010_card_3"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-011",
-      "displaySentence": "어디에 가요?",
-      "tokens": [
-        [
-          "SNU-1A-04-011_card_0",
-          "어디"
-        ],
-        [
-          "SNU-1A-04-011_card_1",
-          "에"
-        ],
-        [
-          "SNU-1A-04-011_card_2",
-          "가요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-011_card_0",
-          "SNU-1A-04-011_card_1",
-          "SNU-1A-04-011_card_2"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-012",
-      "displaySentence": "우체국에 가요.",
-      "tokens": [
-        [
-          "SNU-1A-04-012_card_0",
           "우체국"
         ],
         [
-          "SNU-1A-04-012_card_1",
+          "SNU-1A-04-002_card_3",
+          "앞"
+        ],
+        [
+          "SNU-1A-04-002_card_4",
           "에"
         ],
         [
+          "SNU-1A-04-002_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-002_card_0",
+          "SNU-1A-04-002_card_1",
+          "SNU-1A-04-002_card_2",
+          "SNU-1A-04-002_card_3",
+          "SNU-1A-04-002_card_4",
+          "SNU-1A-04-002_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-003",
+      "displaySentence": "미용실은 가게 뒤에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-003_card_0",
+          "미용실"
+        ],
+        [
+          "SNU-1A-04-003_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-04-003_card_2",
+          "가게"
+        ],
+        [
+          "SNU-1A-04-003_card_3",
+          "뒤"
+        ],
+        [
+          "SNU-1A-04-003_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-003_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-003_card_0",
+          "SNU-1A-04-003_card_1",
+          "SNU-1A-04-003_card_2",
+          "SNU-1A-04-003_card_3",
+          "SNU-1A-04-003_card_4",
+          "SNU-1A-04-003_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-004",
+      "displaySentence": "찻집은 은행 안에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-004_card_0",
+          "찻집"
+        ],
+        [
+          "SNU-1A-04-004_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-04-004_card_2",
+          "은행"
+        ],
+        [
+          "SNU-1A-04-004_card_3",
+          "안"
+        ],
+        [
+          "SNU-1A-04-004_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-004_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-004_card_0",
+          "SNU-1A-04-004_card_1",
+          "SNU-1A-04-004_card_2",
+          "SNU-1A-04-004_card_3",
+          "SNU-1A-04-004_card_4",
+          "SNU-1A-04-004_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-005",
+      "displaySentence": "대사관은 공원 옆에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-005_card_0",
+          "대사관"
+        ],
+        [
+          "SNU-1A-04-005_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-04-005_card_2",
+          "공원"
+        ],
+        [
+          "SNU-1A-04-005_card_3",
+          "옆"
+        ],
+        [
+          "SNU-1A-04-005_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-005_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-005_card_0",
+          "SNU-1A-04-005_card_1",
+          "SNU-1A-04-005_card_2",
+          "SNU-1A-04-005_card_3",
+          "SNU-1A-04-005_card_4",
+          "SNU-1A-04-005_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-006",
+      "displaySentence": "서울타워는 남산에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-006_card_0",
+          "서울타워"
+        ],
+        [
+          "SNU-1A-04-006_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-04-006_card_2",
+          "남산"
+        ],
+        [
+          "SNU-1A-04-006_card_3",
+          "에"
+        ],
+        [
+          "SNU-1A-04-006_card_4",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-006_card_0",
+          "SNU-1A-04-006_card_1",
+          "SNU-1A-04-006_card_2",
+          "SNU-1A-04-006_card_3",
+          "SNU-1A-04-006_card_4"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-007",
+      "displaySentence": "한국은행은 명동에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-007_card_0",
+          "한국은행"
+        ],
+        [
+          "SNU-1A-04-007_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-04-007_card_2",
+          "명동"
+        ],
+        [
+          "SNU-1A-04-007_card_3",
+          "에"
+        ],
+        [
+          "SNU-1A-04-007_card_4",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-007_card_0",
+          "SNU-1A-04-007_card_1",
+          "SNU-1A-04-007_card_2",
+          "SNU-1A-04-007_card_3",
+          "SNU-1A-04-007_card_4"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-008",
+      "displaySentence": "기념품 가게는 인사동에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-008_card_0",
+          "기념품"
+        ],
+        [
+          "SNU-1A-04-008_card_1",
+          "가게"
+        ],
+        [
+          "SNU-1A-04-008_card_2",
+          "는"
+        ],
+        [
+          "SNU-1A-04-008_card_3",
+          "인사동"
+        ],
+        [
+          "SNU-1A-04-008_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-008_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-008_card_0",
+          "SNU-1A-04-008_card_1",
+          "SNU-1A-04-008_card_2",
+          "SNU-1A-04-008_card_3",
+          "SNU-1A-04-008_card_4",
+          "SNU-1A-04-008_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-009",
+      "displaySentence": "도서관은 학교 안에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-009_card_0",
+          "도서관"
+        ],
+        [
+          "SNU-1A-04-009_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-04-009_card_2",
+          "학교"
+        ],
+        [
+          "SNU-1A-04-009_card_3",
+          "안"
+        ],
+        [
+          "SNU-1A-04-009_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-009_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-009_card_0",
+          "SNU-1A-04-009_card_1",
+          "SNU-1A-04-009_card_2",
+          "SNU-1A-04-009_card_3",
+          "SNU-1A-04-009_card_4",
+          "SNU-1A-04-009_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-010",
+      "displaySentence": "학생 식당은 언어교육원 뒤에 있어요.",
+      "tokens": [
+        [
+          "SNU-1A-04-010_card_0",
+          "학생 식당"
+        ],
+        [
+          "SNU-1A-04-010_card_1",
+          "은"
+        ],
+        [
+          "SNU-1A-04-010_card_2",
+          "언어교육원"
+        ],
+        [
+          "SNU-1A-04-010_card_3",
+          "뒤"
+        ],
+        [
+          "SNU-1A-04-010_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-010_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-010_card_0",
+          "SNU-1A-04-010_card_1",
+          "SNU-1A-04-010_card_2",
+          "SNU-1A-04-010_card_3",
+          "SNU-1A-04-010_card_4",
+          "SNU-1A-04-010_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-011",
+      "displaySentence": "저는 오늘 병원에 가요.",
+      "tokens": [
+        [
+          "SNU-1A-04-011_card_0",
+          "저"
+        ],
+        [
+          "SNU-1A-04-011_card_1",
+          "는"
+        ],
+        [
+          "SNU-1A-04-011_card_2",
+          "오늘"
+        ],
+        [
+          "SNU-1A-04-011_card_3",
+          "병원"
+        ],
+        [
+          "SNU-1A-04-011_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-011_card_5",
+          "가요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-011_card_0",
+          "SNU-1A-04-011_card_1",
+          "SNU-1A-04-011_card_2",
+          "SNU-1A-04-011_card_3",
+          "SNU-1A-04-011_card_4",
+          "SNU-1A-04-011_card_5"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-012",
+      "displaySentence": "친구는 오후에 은행에 가요.",
+      "tokens": [
+        [
+          "SNU-1A-04-012_card_0",
+          "친구"
+        ],
+        [
+          "SNU-1A-04-012_card_1",
+          "는"
+        ],
+        [
           "SNU-1A-04-012_card_2",
+          "오후"
+        ],
+        [
+          "SNU-1A-04-012_card_3",
+          "에"
+        ],
+        [
+          "SNU-1A-04-012_card_4",
+          "은행"
+        ],
+        [
+          "SNU-1A-04-012_card_5",
+          "에"
+        ],
+        [
+          "SNU-1A-04-012_card_6",
           "가요"
         ]
       ],
@@ -371,26 +494,31 @@
         [
           "SNU-1A-04-012_card_0",
           "SNU-1A-04-012_card_1",
-          "SNU-1A-04-012_card_2"
+          "SNU-1A-04-012_card_2",
+          "SNU-1A-04-012_card_3",
+          "SNU-1A-04-012_card_4",
+          "SNU-1A-04-012_card_5",
+          "SNU-1A-04-012_card_6"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-013",
-      "displaySentence": "아키라는 회사에 가요.",
+      "displaySentence": "선생님은 학교에 와요.",
       "tokens": [
         [
           "SNU-1A-04-013_card_0",
-          "아키라"
+          "선생님"
         ],
         [
           "SNU-1A-04-013_card_1",
-          "는"
+          "은"
         ],
         [
           "SNU-1A-04-013_card_2",
-          "회사"
+          "학교"
         ],
         [
           "SNU-1A-04-013_card_3",
@@ -398,7 +526,7 @@
         ],
         [
           "SNU-1A-04-013_card_4",
-          "가요"
+          "와요"
         ]
       ],
       "acceptedOrders": [
@@ -410,39 +538,40 @@
           "SNU-1A-04-013_card_4"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-014",
-      "displaySentence": "스티븐은 오늘 학교에 안 와요.",
+      "displaySentence": "민수는 주말에 인사동에 가요.",
       "tokens": [
         [
           "SNU-1A-04-014_card_0",
-          "스티븐"
+          "민수"
         ],
         [
           "SNU-1A-04-014_card_1",
-          "은"
+          "는"
         ],
         [
           "SNU-1A-04-014_card_2",
-          "오늘"
+          "주말"
         ],
         [
           "SNU-1A-04-014_card_3",
-          "학교"
-        ],
-        [
-          "SNU-1A-04-014_card_4",
           "에"
         ],
         [
+          "SNU-1A-04-014_card_4",
+          "인사동"
+        ],
+        [
           "SNU-1A-04-014_card_5",
-          "안"
+          "에"
         ],
         [
           "SNU-1A-04-014_card_6",
-          "와요"
+          "가요"
         ]
       ],
       "acceptedOrders": [
@@ -456,23 +585,24 @@
           "SNU-1A-04-014_card_6"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-015",
-      "displaySentence": "우체국이 어디에 있어요?",
+      "displaySentence": "안나는 명동에 와요.",
       "tokens": [
         [
           "SNU-1A-04-015_card_0",
-          "우체국"
+          "안나"
         ],
         [
           "SNU-1A-04-015_card_1",
-          "이"
+          "는"
         ],
         [
           "SNU-1A-04-015_card_2",
-          "어디"
+          "명동"
         ],
         [
           "SNU-1A-04-015_card_3",
@@ -480,7 +610,7 @@
         ],
         [
           "SNU-1A-04-015_card_4",
-          "있어요"
+          "와요"
         ]
       ],
       "acceptedOrders": [
@@ -492,27 +622,36 @@
           "SNU-1A-04-015_card_4"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-016",
-      "displaySentence": "은행 앞에 있어요.",
+      "displaySentence": "저는 기념품 가게에 가요.",
       "tokens": [
         [
           "SNU-1A-04-016_card_0",
-          "은행"
+          "저"
         ],
         [
           "SNU-1A-04-016_card_1",
-          "앞"
+          "는"
         ],
         [
           "SNU-1A-04-016_card_2",
-          "에"
+          "기념품"
         ],
         [
           "SNU-1A-04-016_card_3",
-          "있어요"
+          "가게"
+        ],
+        [
+          "SNU-1A-04-016_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-016_card_5",
+          "가요"
         ]
       ],
       "acceptedOrders": [
@@ -520,26 +659,29 @@
           "SNU-1A-04-016_card_0",
           "SNU-1A-04-016_card_1",
           "SNU-1A-04-016_card_2",
-          "SNU-1A-04-016_card_3"
+          "SNU-1A-04-016_card_3",
+          "SNU-1A-04-016_card_4",
+          "SNU-1A-04-016_card_5"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-017",
-      "displaySentence": "약국이 어디에 있어요?",
+      "displaySentence": "친구들은 남산에 가요.",
       "tokens": [
         [
           "SNU-1A-04-017_card_0",
-          "약국"
+          "친구들"
         ],
         [
           "SNU-1A-04-017_card_1",
-          "이"
+          "은"
         ],
         [
           "SNU-1A-04-017_card_2",
-          "어디"
+          "남산"
         ],
         [
           "SNU-1A-04-017_card_3",
@@ -547,7 +689,7 @@
         ],
         [
           "SNU-1A-04-017_card_4",
-          "있어요"
+          "가요"
         ]
       ],
       "acceptedOrders": [
@@ -559,15 +701,16 @@
           "SNU-1A-04-017_card_4"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-018",
-      "displaySentence": "약국은 병원 뒤에 있어요.",
+      "displaySentence": "우체국은 어디에 있어요?",
       "tokens": [
         [
           "SNU-1A-04-018_card_0",
-          "약국"
+          "우체국"
         ],
         [
           "SNU-1A-04-018_card_1",
@@ -575,55 +718,55 @@
         ],
         [
           "SNU-1A-04-018_card_2",
-          "병원"
-        ],
-        [
-          "SNU-1A-04-018_card_3",
-          "뒤"
-        ],
-        [
-          "SNU-1A-04-018_card_4",
-          "에"
-        ],
-        [
-          "SNU-1A-04-018_card_5",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-018_card_0",
-          "SNU-1A-04-018_card_1",
-          "SNU-1A-04-018_card_2",
-          "SNU-1A-04-018_card_3",
-          "SNU-1A-04-018_card_4",
-          "SNU-1A-04-018_card_5"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-019",
-      "displaySentence": "스티븐이 어디에 있어요?",
-      "tokens": [
-        [
-          "SNU-1A-04-019_card_0",
-          "스티븐"
-        ],
-        [
-          "SNU-1A-04-019_card_1",
-          "이"
-        ],
-        [
-          "SNU-1A-04-019_card_2",
           "어디"
         ],
         [
-          "SNU-1A-04-019_card_3",
+          "SNU-1A-04-018_card_3",
           "에"
         ],
         [
+          "SNU-1A-04-018_card_4",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1A-04-018_card_0",
+          "SNU-1A-04-018_card_1",
+          "SNU-1A-04-018_card_2",
+          "SNU-1A-04-018_card_3",
+          "SNU-1A-04-018_card_4"
+        ]
+      ],
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
+    },
+    {
+      "id": "SNU-1A-04-019",
+      "displaySentence": "중국 대사관은 어디에 있어요?",
+      "tokens": [
+        [
+          "SNU-1A-04-019_card_0",
+          "중국"
+        ],
+        [
+          "SNU-1A-04-019_card_1",
+          "대사관"
+        ],
+        [
+          "SNU-1A-04-019_card_2",
+          "은"
+        ],
+        [
+          "SNU-1A-04-019_card_3",
+          "어디"
+        ],
+        [
           "SNU-1A-04-019_card_4",
+          "에"
+        ],
+        [
+          "SNU-1A-04-019_card_5",
           "있어요"
         ]
       ],
@@ -633,38 +776,32 @@
           "SNU-1A-04-019_card_1",
           "SNU-1A-04-019_card_2",
           "SNU-1A-04-019_card_3",
-          "SNU-1A-04-019_card_4"
+          "SNU-1A-04-019_card_4",
+          "SNU-1A-04-019_card_5"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     },
     {
       "id": "SNU-1A-04-020",
-      "displaySentence": "스티븐은 아키라 앞에 있어요.",
+      "displaySentence": "오늘 학교에 와요?",
       "tokens": [
         [
           "SNU-1A-04-020_card_0",
-          "스티븐"
+          "오늘"
         ],
         [
           "SNU-1A-04-020_card_1",
-          "은"
+          "학교"
         ],
         [
           "SNU-1A-04-020_card_2",
-          "아키라"
-        ],
-        [
-          "SNU-1A-04-020_card_3",
-          "앞"
-        ],
-        [
-          "SNU-1A-04-020_card_4",
           "에"
         ],
         [
-          "SNU-1A-04-020_card_5",
-          "있어요"
+          "SNU-1A-04-020_card_3",
+          "와요"
         ]
       ],
       "acceptedOrders": [
@@ -672,131 +809,11 @@
           "SNU-1A-04-020_card_0",
           "SNU-1A-04-020_card_1",
           "SNU-1A-04-020_card_2",
-          "SNU-1A-04-020_card_3",
-          "SNU-1A-04-020_card_4",
-          "SNU-1A-04-020_card_5"
+          "SNU-1A-04-020_card_3"
         ]
       ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-021",
-      "displaySentence": "네, 인사동이에요.",
-      "tokens": [
-        [
-          "SNU-1A-04-021_card_0",
-          "네"
-        ],
-        [
-          "SNU-1A-04-021_card_1",
-          "인사동"
-        ],
-        [
-          "SNU-1A-04-021_card_2",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-021_card_0",
-          "SNU-1A-04-021_card_1",
-          "SNU-1A-04-021_card_2"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-022",
-      "displaySentence": "인사동에서 뭐 해요?",
-      "tokens": [
-        [
-          "SNU-1A-04-022_card_0",
-          "인사동"
-        ],
-        [
-          "SNU-1A-04-022_card_1",
-          "에서"
-        ],
-        [
-          "SNU-1A-04-022_card_2",
-          "뭐"
-        ],
-        [
-          "SNU-1A-04-022_card_3",
-          "해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-022_card_0",
-          "SNU-1A-04-022_card_1",
-          "SNU-1A-04-022_card_2",
-          "SNU-1A-04-022_card_3"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-023",
-      "displaySentence": "차를 마셔요.",
-      "tokens": [
-        [
-          "SNU-1A-04-023_card_0",
-          "차"
-        ],
-        [
-          "SNU-1A-04-023_card_1",
-          "를"
-        ],
-        [
-          "SNU-1A-04-023_card_2",
-          "마셔요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-023_card_0",
-          "SNU-1A-04-023_card_1",
-          "SNU-1A-04-023_card_2"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
-    },
-    {
-      "id": "SNU-1A-04-024",
-      "displaySentence": "인사동에는 찻집이 있어요.",
-      "tokens": [
-        [
-          "SNU-1A-04-024_card_0",
-          "인사동에"
-        ],
-        [
-          "SNU-1A-04-024_card_1",
-          "는"
-        ],
-        [
-          "SNU-1A-04-024_card_2",
-          "찻집"
-        ],
-        [
-          "SNU-1A-04-024_card_3",
-          "이"
-        ],
-        [
-          "SNU-1A-04-024_card_4",
-          "있어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1A-04-024_card_0",
-          "SNU-1A-04-024_card_1",
-          "SNU-1A-04-024_card_2",
-          "SNU-1A-04-024_card_3",
-          "SNU-1A-04-024_card_4"
-        ]
-      ],
-      "note": "서울대 1A 4과 교재 기반"
+      "note": "서울대 1A 4과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1A 4과 SB/WB 문법(N에 있어요/없어요; N에 가요/와요) + data/snu/1A/lesson04.json 어휘"
     }
   ]
 }

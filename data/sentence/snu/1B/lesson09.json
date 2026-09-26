@@ -1,99 +1,107 @@
 {
   "book": "1B",
   "lesson": 9,
-  "source": "서울대 한국어 1B 학생 읽기 자료 · 9과 어휘/문법/예문/말하기 기반",
-  "questionCount": 21,
+  "source": "서울대 한국어 1B 학생책·워크북 9과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-1B-09-001",
-      "displaySentence": "이거 스티븐 씨의 책이에요?",
+      "displaySentence": "이분은 우리 할머니세요.",
       "tokens": [
         [
           "SNU-1B-09-001_card_0",
-          "이거"
+          "이분"
         ],
         [
           "SNU-1B-09-001_card_1",
-          "스티븐 씨"
-        ],
-        [
-          "SNU-1B-09-001_card_2",
-          "의"
-        ],
-        [
-          "SNU-1B-09-001_card_3",
-          "책"
-        ],
-        [
-          "SNU-1B-09-001_card_4",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-09-001_card_0",
-          "SNU-1B-09-001_card_1",
-          "SNU-1B-09-001_card_2",
-          "SNU-1B-09-001_card_3",
-          "SNU-1B-09-001_card_4"
-        ]
-      ],
-      "note": "서울대 1B 9과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-09-002",
-      "displaySentence": "네, 제 책이에요.",
-      "tokens": [
-        [
-          "SNU-1B-09-002_card_0",
-          "네"
-        ],
-        [
-          "SNU-1B-09-002_card_1",
-          "제"
-        ],
-        [
-          "SNU-1B-09-002_card_2",
-          "책"
-        ],
-        [
-          "SNU-1B-09-002_card_3",
-          "이에요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-09-002_card_0",
-          "SNU-1B-09-002_card_1",
-          "SNU-1B-09-002_card_2",
-          "SNU-1B-09-002_card_3"
-        ]
-      ],
-      "note": "서울대 1B 9과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-09-003",
-      "displaySentence": "저 사람은 누구예요?",
-      "tokens": [
-        [
-          "SNU-1B-09-003_card_0",
-          "저"
-        ],
-        [
-          "SNU-1B-09-003_card_1",
-          "사람"
-        ],
-        [
-          "SNU-1B-09-003_card_2",
           "은"
         ],
         [
+          "SNU-1B-09-001_card_2",
+          "우리"
+        ],
+        [
+          "SNU-1B-09-001_card_3",
+          "할머니세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-001_card_0",
+          "SNU-1B-09-001_card_1",
+          "SNU-1B-09-001_card_2",
+          "SNU-1B-09-001_card_3"
+        ]
+      ],
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
+    },
+    {
+      "id": "SNU-1B-09-002",
+      "displaySentence": "할아버지는 아침마다 신문을 읽으세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-002_card_0",
+          "할아버지"
+        ],
+        [
+          "SNU-1B-09-002_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-002_card_2",
+          "아침마다"
+        ],
+        [
+          "SNU-1B-09-002_card_3",
+          "신문"
+        ],
+        [
+          "SNU-1B-09-002_card_4",
+          "을"
+        ],
+        [
+          "SNU-1B-09-002_card_5",
+          "읽으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-1B-09-002_card_0",
+          "SNU-1B-09-002_card_1",
+          "SNU-1B-09-002_card_2",
+          "SNU-1B-09-002_card_3",
+          "SNU-1B-09-002_card_4",
+          "SNU-1B-09-002_card_5"
+        ]
+      ],
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
+    },
+    {
+      "id": "SNU-1B-09-003",
+      "displaySentence": "어머니는 회사에 다니세요.",
+      "tokens": [
+        [
+          "SNU-1B-09-003_card_0",
+          "어머니"
+        ],
+        [
+          "SNU-1B-09-003_card_1",
+          "는"
+        ],
+        [
+          "SNU-1B-09-003_card_2",
+          "회사"
+        ],
+        [
           "SNU-1B-09-003_card_3",
-          "누구"
+          "에"
         ],
         [
           "SNU-1B-09-003_card_4",
-          "예요"
+          "다니세요"
         ]
       ],
       "acceptedOrders": [
@@ -105,48 +113,73 @@
           "SNU-1B-09-003_card_4"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-004",
-      "displaySentence": "내 친구예요.",
+      "displaySentence": "아버지는 요리를 아주 잘하세요.",
       "tokens": [
         [
           "SNU-1B-09-004_card_0",
-          "내"
+          "아버지"
         ],
         [
           "SNU-1B-09-004_card_1",
-          "친구"
+          "는"
         ],
         [
           "SNU-1B-09-004_card_2",
-          "예요"
+          "요리"
+        ],
+        [
+          "SNU-1B-09-004_card_3",
+          "를"
+        ],
+        [
+          "SNU-1B-09-004_card_4",
+          "아주"
+        ],
+        [
+          "SNU-1B-09-004_card_5",
+          "잘하세요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-09-004_card_0",
           "SNU-1B-09-004_card_1",
-          "SNU-1B-09-004_card_2"
+          "SNU-1B-09-004_card_2",
+          "SNU-1B-09-004_card_3",
+          "SNU-1B-09-004_card_4",
+          "SNU-1B-09-004_card_5"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-005",
-      "displaySentence": "한국말을 잘해요?",
+      "displaySentence": "누나는 수영을 잘해요.",
       "tokens": [
         [
           "SNU-1B-09-005_card_0",
-          "한국말"
+          "누나"
         ],
         [
           "SNU-1B-09-005_card_1",
-          "을"
+          "는"
         ],
         [
           "SNU-1B-09-005_card_2",
+          "수영"
+        ],
+        [
+          "SNU-1B-09-005_card_3",
+          "을"
+        ],
+        [
+          "SNU-1B-09-005_card_4",
           "잘해요"
         ]
       ],
@@ -154,25 +187,40 @@
         [
           "SNU-1B-09-005_card_0",
           "SNU-1B-09-005_card_1",
-          "SNU-1B-09-005_card_2"
+          "SNU-1B-09-005_card_2",
+          "SNU-1B-09-005_card_3",
+          "SNU-1B-09-005_card_4"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-006",
-      "displaySentence": "아니요, 잘 못해요.",
+      "displaySentence": "남동생은 역사를 잘 못해요.",
       "tokens": [
         [
           "SNU-1B-09-006_card_0",
-          "아니요"
+          "남동생"
         ],
         [
           "SNU-1B-09-006_card_1",
-          "잘"
+          "은"
         ],
         [
           "SNU-1B-09-006_card_2",
+          "역사"
+        ],
+        [
+          "SNU-1B-09-006_card_3",
+          "를"
+        ],
+        [
+          "SNU-1B-09-006_card_4",
+          "잘"
+        ],
+        [
+          "SNU-1B-09-006_card_5",
           "못해요"
         ]
       ],
@@ -180,18 +228,22 @@
         [
           "SNU-1B-09-006_card_0",
           "SNU-1B-09-006_card_1",
-          "SNU-1B-09-006_card_2"
+          "SNU-1B-09-006_card_2",
+          "SNU-1B-09-006_card_3",
+          "SNU-1B-09-006_card_4",
+          "SNU-1B-09-006_card_5"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-007",
-      "displaySentence": "마리코 씨는 뭘 잘해요?",
+      "displaySentence": "언니는 대학생이에요.",
       "tokens": [
         [
           "SNU-1B-09-007_card_0",
-          "마리코 씨"
+          "언니"
         ],
         [
           "SNU-1B-09-007_card_1",
@@ -199,11 +251,11 @@
         ],
         [
           "SNU-1B-09-007_card_2",
-          "뭘"
+          "대학생"
         ],
         [
           "SNU-1B-09-007_card_3",
-          "잘해요"
+          "이에요"
         ]
       ],
       "acceptedOrders": [
@@ -214,31 +266,32 @@
           "SNU-1B-09-007_card_3"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-008",
-      "displaySentence": "마리코 씨는 요리를 잘해요.",
+      "displaySentence": "형은 신문사에 다녀요.",
       "tokens": [
         [
           "SNU-1B-09-008_card_0",
-          "마리코 씨"
+          "형"
         ],
         [
           "SNU-1B-09-008_card_1",
-          "는"
+          "은"
         ],
         [
           "SNU-1B-09-008_card_2",
-          "요리"
+          "신문사"
         ],
         [
           "SNU-1B-09-008_card_3",
-          "를"
+          "에"
         ],
         [
           "SNU-1B-09-008_card_4",
-          "잘해요"
+          "다녀요"
         ]
       ],
       "acceptedOrders": [
@@ -250,35 +303,32 @@
           "SNU-1B-09-008_card_4"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-009",
-      "displaySentence": "저는 운전을 잘 못해요.",
+      "displaySentence": "여동생은 중학교에 다녀요.",
       "tokens": [
         [
           "SNU-1B-09-009_card_0",
-          "저"
+          "여동생"
         ],
         [
           "SNU-1B-09-009_card_1",
-          "는"
+          "은"
         ],
         [
           "SNU-1B-09-009_card_2",
-          "운전"
+          "중학교"
         ],
         [
           "SNU-1B-09-009_card_3",
-          "을"
+          "에"
         ],
         [
           "SNU-1B-09-009_card_4",
-          "잘"
-        ],
-        [
-          "SNU-1B-09-009_card_5",
-          "못해요"
+          "다녀요"
         ]
       ],
       "acceptedOrders": [
@@ -287,19 +337,19 @@
           "SNU-1B-09-009_card_1",
           "SNU-1B-09-009_card_2",
           "SNU-1B-09-009_card_3",
-          "SNU-1B-09-009_card_4",
-          "SNU-1B-09-009_card_5"
+          "SNU-1B-09-009_card_4"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-010",
-      "displaySentence": "저는 수학을 못했어요.",
+      "displaySentence": "할머니는 지금 댁에 계세요.",
       "tokens": [
         [
           "SNU-1B-09-010_card_0",
-          "저"
+          "할머니"
         ],
         [
           "SNU-1B-09-010_card_1",
@@ -307,15 +357,19 @@
         ],
         [
           "SNU-1B-09-010_card_2",
-          "수학"
+          "지금"
         ],
         [
           "SNU-1B-09-010_card_3",
-          "을"
+          "댁"
         ],
         [
           "SNU-1B-09-010_card_4",
-          "못했어요"
+          "에"
+        ],
+        [
+          "SNU-1B-09-010_card_5",
+          "계세요"
         ]
       ],
       "acceptedOrders": [
@@ -324,56 +378,78 @@
           "SNU-1B-09-010_card_1",
           "SNU-1B-09-010_card_2",
           "SNU-1B-09-010_card_3",
-          "SNU-1B-09-010_card_4"
+          "SNU-1B-09-010_card_4",
+          "SNU-1B-09-010_card_5"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-011",
-      "displaySentence": "이분은 누구세요?",
+      "displaySentence": "할아버지는 밤에 일찍 주무세요.",
       "tokens": [
         [
           "SNU-1B-09-011_card_0",
-          "이분"
+          "할아버지"
         ],
         [
           "SNU-1B-09-011_card_1",
-          "은"
+          "는"
         ],
         [
           "SNU-1B-09-011_card_2",
-          "누구세요"
+          "밤"
+        ],
+        [
+          "SNU-1B-09-011_card_3",
+          "에"
+        ],
+        [
+          "SNU-1B-09-011_card_4",
+          "일찍"
+        ],
+        [
+          "SNU-1B-09-011_card_5",
+          "주무세요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-09-011_card_0",
           "SNU-1B-09-011_card_1",
-          "SNU-1B-09-011_card_2"
+          "SNU-1B-09-011_card_2",
+          "SNU-1B-09-011_card_3",
+          "SNU-1B-09-011_card_4",
+          "SNU-1B-09-011_card_5"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-012",
-      "displaySentence": "이분은 우리 어머니세요.",
+      "displaySentence": "어머니는 아침을 드셨어요.",
       "tokens": [
         [
           "SNU-1B-09-012_card_0",
-          "이분"
+          "어머니"
         ],
         [
           "SNU-1B-09-012_card_1",
-          "은"
+          "는"
         ],
         [
           "SNU-1B-09-012_card_2",
-          "우리"
+          "아침"
         ],
         [
           "SNU-1B-09-012_card_3",
-          "어머니세요"
+          "을"
+        ],
+        [
+          "SNU-1B-09-012_card_4",
+          "드셨어요"
         ]
       ],
       "acceptedOrders": [
@@ -381,14 +457,16 @@
           "SNU-1B-09-012_card_0",
           "SNU-1B-09-012_card_1",
           "SNU-1B-09-012_card_2",
-          "SNU-1B-09-012_card_3"
+          "SNU-1B-09-012_card_3",
+          "SNU-1B-09-012_card_4"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-013",
-      "displaySentence": "아버지는 회사원이세요.",
+      "displaySentence": "아버지는 항상 친절하세요.",
       "tokens": [
         [
           "SNU-1B-09-013_card_0",
@@ -400,11 +478,11 @@
         ],
         [
           "SNU-1B-09-013_card_2",
-          "회사원"
+          "항상"
         ],
         [
           "SNU-1B-09-013_card_3",
-          "이세요"
+          "친절하세요"
         ]
       ],
       "acceptedOrders": [
@@ -415,35 +493,40 @@
           "SNU-1B-09-013_card_3"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-014",
-      "displaySentence": "아버지는 무슨 일을 하세요?",
+      "displaySentence": "우리 가족은 모두 여섯 명이에요.",
       "tokens": [
         [
           "SNU-1B-09-014_card_0",
-          "아버지"
+          "우리"
         ],
         [
           "SNU-1B-09-014_card_1",
-          "는"
+          "가족"
         ],
         [
           "SNU-1B-09-014_card_2",
-          "무슨"
+          "은"
         ],
         [
           "SNU-1B-09-014_card_3",
-          "일"
+          "모두"
         ],
         [
           "SNU-1B-09-014_card_4",
-          "을"
+          "여섯"
         ],
         [
           "SNU-1B-09-014_card_5",
-          "하세요"
+          "명"
+        ],
+        [
+          "SNU-1B-09-014_card_6",
+          "이에요"
         ]
       ],
       "acceptedOrders": [
@@ -453,60 +536,68 @@
           "SNU-1B-09-014_card_2",
           "SNU-1B-09-014_card_3",
           "SNU-1B-09-014_card_4",
-          "SNU-1B-09-014_card_5"
+          "SNU-1B-09-014_card_5",
+          "SNU-1B-09-014_card_6"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-015",
-      "displaySentence": "회사에 다니세요.",
+      "displaySentence": "저분 성함이 어떻게 되세요?",
       "tokens": [
         [
           "SNU-1B-09-015_card_0",
-          "회사"
+          "저분"
         ],
         [
           "SNU-1B-09-015_card_1",
-          "에"
+          "성함"
         ],
         [
           "SNU-1B-09-015_card_2",
-          "다니세요"
+          "이"
+        ],
+        [
+          "SNU-1B-09-015_card_3",
+          "어떻게 되세요?"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-09-015_card_0",
           "SNU-1B-09-015_card_1",
-          "SNU-1B-09-015_card_2"
+          "SNU-1B-09-015_card_2",
+          "SNU-1B-09-015_card_3"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-016",
-      "displaySentence": "할머니는 친구가 많으세요.",
+      "displaySentence": "우리 아버지는 마흔여덟 살이세요.",
       "tokens": [
         [
           "SNU-1B-09-016_card_0",
-          "할머니"
+          "우리"
         ],
         [
           "SNU-1B-09-016_card_1",
-          "는"
+          "아버지"
         ],
         [
           "SNU-1B-09-016_card_2",
-          "친구"
+          "는"
         ],
         [
           "SNU-1B-09-016_card_3",
-          "가"
+          "마흔여덟"
         ],
         [
           "SNU-1B-09-016_card_4",
-          "많으세요"
+          "살이세요"
         ]
       ],
       "acceptedOrders": [
@@ -518,35 +609,28 @@
           "SNU-1B-09-016_card_4"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-017",
-      "displaySentence": "김 선생님은 지금 뭐 하세요?",
+      "displaySentence": "할머니 연세가 어떻게 되세요?",
       "tokens": [
         [
           "SNU-1B-09-017_card_0",
-          "김"
+          "할머니"
         ],
         [
           "SNU-1B-09-017_card_1",
-          "선생님"
+          "연세"
         ],
         [
           "SNU-1B-09-017_card_2",
-          "은"
+          "가"
         ],
         [
           "SNU-1B-09-017_card_3",
-          "지금"
-        ],
-        [
-          "SNU-1B-09-017_card_4",
-          "뭐"
-        ],
-        [
-          "SNU-1B-09-017_card_5",
-          "하세요"
+          "어떻게 되세요?"
         ]
       ],
       "acceptedOrders": [
@@ -554,66 +638,86 @@
           "SNU-1B-09-017_card_0",
           "SNU-1B-09-017_card_1",
           "SNU-1B-09-017_card_2",
-          "SNU-1B-09-017_card_3",
-          "SNU-1B-09-017_card_4",
-          "SNU-1B-09-017_card_5"
+          "SNU-1B-09-017_card_3"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-018",
-      "displaySentence": "책을 읽으세요.",
+      "displaySentence": "누나는 같은 과 친구를 소개했어요.",
       "tokens": [
         [
           "SNU-1B-09-018_card_0",
-          "책"
+          "누나"
         ],
         [
           "SNU-1B-09-018_card_1",
-          "을"
+          "는"
         ],
         [
           "SNU-1B-09-018_card_2",
-          "읽으세요"
+          "같은"
+        ],
+        [
+          "SNU-1B-09-018_card_3",
+          "과"
+        ],
+        [
+          "SNU-1B-09-018_card_4",
+          "친구"
+        ],
+        [
+          "SNU-1B-09-018_card_5",
+          "를"
+        ],
+        [
+          "SNU-1B-09-018_card_6",
+          "소개했어요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-1B-09-018_card_0",
           "SNU-1B-09-018_card_1",
-          "SNU-1B-09-018_card_2"
+          "SNU-1B-09-018_card_2",
+          "SNU-1B-09-018_card_3",
+          "SNU-1B-09-018_card_4",
+          "SNU-1B-09-018_card_5",
+          "SNU-1B-09-018_card_6"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-019",
-      "displaySentence": "사장님은 어제 중국에 가셨어요.",
+      "displaySentence": "제 아내는 요리를 잘해요.",
       "tokens": [
         [
           "SNU-1B-09-019_card_0",
-          "사장님"
+          "제"
         ],
         [
           "SNU-1B-09-019_card_1",
-          "은"
+          "아내"
         ],
         [
           "SNU-1B-09-019_card_2",
-          "어제"
+          "는"
         ],
         [
           "SNU-1B-09-019_card_3",
-          "중국"
+          "요리"
         ],
         [
           "SNU-1B-09-019_card_4",
-          "에"
+          "를"
         ],
         [
           "SNU-1B-09-019_card_5",
-          "가셨어요"
+          "잘해요"
         ]
       ],
       "acceptedOrders": [
@@ -626,31 +730,32 @@
           "SNU-1B-09-019_card_5"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     },
     {
       "id": "SNU-1B-09-020",
-      "displaySentence": "지금 방에 안 계세요.",
+      "displaySentence": "우리 남편은 회사원이에요.",
       "tokens": [
         [
           "SNU-1B-09-020_card_0",
-          "지금"
+          "우리"
         ],
         [
           "SNU-1B-09-020_card_1",
-          "방"
+          "남편"
         ],
         [
           "SNU-1B-09-020_card_2",
-          "에"
+          "은"
         ],
         [
           "SNU-1B-09-020_card_3",
-          "안"
+          "회사원"
         ],
         [
           "SNU-1B-09-020_card_4",
-          "계세요"
+          "이에요"
         ]
       ],
       "acceptedOrders": [
@@ -662,48 +767,8 @@
           "SNU-1B-09-020_card_4"
         ]
       ],
-      "note": "서울대 1B 9과 교재 기반"
-    },
-    {
-      "id": "SNU-1B-09-021",
-      "displaySentence": "어머니는 어제 비빔밥을 드셨어요.",
-      "tokens": [
-        [
-          "SNU-1B-09-021_card_0",
-          "어머니"
-        ],
-        [
-          "SNU-1B-09-021_card_1",
-          "는"
-        ],
-        [
-          "SNU-1B-09-021_card_2",
-          "어제"
-        ],
-        [
-          "SNU-1B-09-021_card_3",
-          "비빔밥"
-        ],
-        [
-          "SNU-1B-09-021_card_4",
-          "을"
-        ],
-        [
-          "SNU-1B-09-021_card_5",
-          "드셨어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-1B-09-021_card_0",
-          "SNU-1B-09-021_card_1",
-          "SNU-1B-09-021_card_2",
-          "SNU-1B-09-021_card_3",
-          "SNU-1B-09-021_card_4",
-          "SNU-1B-09-021_card_5"
-        ]
-      ],
-      "note": "서울대 1B 9과 교재 기반"
+      "note": "서울대 1B 9과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 1B 9과 SB/WB 문법(N의; 잘/못; N-(으)시-; 높임말(계시다/주무시다/드시다)) + data/snu/1B/lesson09.json 어휘"
     }
   ]
 }

@@ -1,36 +1,41 @@
 {
   "book": "2A",
   "lesson": 5,
-  "source": "서울대 한국어 2A 학생 읽기 자료 · 5과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "서울대 한국어 2A 학생책·워크북 5과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2A-05-001",
-      "displaySentence": "어머니하고 어디에 가면 좋을까요?",
+      "displaySentence": "이번 여행은 어디로 가면 좋을까요?",
       "tokens": [
         [
           "SNU-2A-05-001_card_0",
-          "어머니"
+          "이번"
         ],
         [
           "SNU-2A-05-001_card_1",
-          "하고"
+          "여행"
         ],
         [
           "SNU-2A-05-001_card_2",
+          "은"
+        ],
+        [
+          "SNU-2A-05-001_card_3",
           "어디"
         ],
         [
-          "SNU-2A-05-001_card_3",
-          "에"
-        ],
-        [
           "SNU-2A-05-001_card_4",
-          "가면"
+          "로"
         ],
         [
           "SNU-2A-05-001_card_5",
-          "좋을까요"
+          "가면"
+        ],
+        [
+          "SNU-2A-05-001_card_6",
+          "좋을까요?"
         ]
       ],
       "acceptedOrders": [
@@ -40,18 +45,20 @@
           "SNU-2A-05-001_card_2",
           "SNU-2A-05-001_card_3",
           "SNU-2A-05-001_card_4",
-          "SNU-2A-05-001_card_5"
+          "SNU-2A-05-001_card_5",
+          "SNU-2A-05-001_card_6"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-002",
-      "displaySentence": "안동에 한번 가 보세요.",
+      "displaySentence": "주말에 제주도에 한번 가 볼까요?",
       "tokens": [
         [
           "SNU-2A-05-002_card_0",
-          "안동"
+          "주말"
         ],
         [
           "SNU-2A-05-002_card_1",
@@ -59,15 +66,23 @@
         ],
         [
           "SNU-2A-05-002_card_2",
-          "한번"
+          "제주도"
         ],
         [
           "SNU-2A-05-002_card_3",
-          "가"
+          "에"
         ],
         [
           "SNU-2A-05-002_card_4",
-          "보세요"
+          "한번"
+        ],
+        [
+          "SNU-2A-05-002_card_5",
+          "가"
+        ],
+        [
+          "SNU-2A-05-002_card_6",
+          "볼까요?"
         ]
       ],
       "acceptedOrders": [
@@ -76,38 +91,41 @@
           "SNU-2A-05-002_card_1",
           "SNU-2A-05-002_card_2",
           "SNU-2A-05-002_card_3",
-          "SNU-2A-05-002_card_4"
+          "SNU-2A-05-002_card_4",
+          "SNU-2A-05-002_card_5",
+          "SNU-2A-05-002_card_6"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-003",
-      "displaySentence": "이 옷이 스티븐 씨에게 클까요?",
+      "displaySentence": "항공권을 지금 인터넷으로 예약할까요?",
       "tokens": [
         [
           "SNU-2A-05-003_card_0",
-          "이"
+          "항공권"
         ],
         [
           "SNU-2A-05-003_card_1",
-          "옷"
+          "을"
         ],
         [
           "SNU-2A-05-003_card_2",
-          "이"
+          "지금"
         ],
         [
           "SNU-2A-05-003_card_3",
-          "스티븐 씨"
+          "인터넷"
         ],
         [
           "SNU-2A-05-003_card_4",
-          "에게"
+          "으로"
         ],
         [
           "SNU-2A-05-003_card_5",
-          "클까요"
+          "예약할까요?"
         ]
       ],
       "acceptedOrders": [
@@ -120,39 +138,48 @@
           "SNU-2A-05-003_card_5"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-004",
-      "displaySentence": "제가 그걸 혼자 할 수 있을까요?",
+      "displaySentence": "여러 여행 상품 중에서 어떤 것을 고를까요?",
       "tokens": [
         [
           "SNU-2A-05-004_card_0",
-          "제"
+          "여러"
         ],
         [
           "SNU-2A-05-004_card_1",
-          "가"
+          "여행"
         ],
         [
           "SNU-2A-05-004_card_2",
-          "그걸"
+          "상품"
         ],
         [
           "SNU-2A-05-004_card_3",
-          "혼자"
+          "중"
         ],
         [
           "SNU-2A-05-004_card_4",
-          "할"
+          "에서"
         ],
         [
           "SNU-2A-05-004_card_5",
-          "수"
+          "어떤"
         ],
         [
           "SNU-2A-05-004_card_6",
-          "있을까요"
+          "것"
+        ],
+        [
+          "SNU-2A-05-004_card_7",
+          "을"
+        ],
+        [
+          "SNU-2A-05-004_card_8",
+          "고를까요?"
         ]
       ],
       "acceptedOrders": [
@@ -163,42 +190,53 @@
           "SNU-2A-05-004_card_3",
           "SNU-2A-05-004_card_4",
           "SNU-2A-05-004_card_5",
-          "SNU-2A-05-004_card_6"
+          "SNU-2A-05-004_card_6",
+          "SNU-2A-05-004_card_7",
+          "SNU-2A-05-004_card_8"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-005",
-      "displaySentence": "히엔 씨가 매운 음식을 잘 먹을까요?",
+      "displaySentence": "여행지를 소개하는 광고를 같이 만들까요?",
       "tokens": [
         [
           "SNU-2A-05-005_card_0",
-          "히엔 씨"
+          "여행지"
         ],
         [
           "SNU-2A-05-005_card_1",
-          "가"
+          "를"
         ],
         [
           "SNU-2A-05-005_card_2",
-          "매운"
+          "소개하"
         ],
         [
           "SNU-2A-05-005_card_3",
-          "음식"
+          "는"
         ],
         [
           "SNU-2A-05-005_card_4",
-          "을"
+          "광고"
         ],
         [
           "SNU-2A-05-005_card_5",
-          "잘"
+          "를"
         ],
         [
           "SNU-2A-05-005_card_6",
-          "먹을까요"
+          "같"
+        ],
+        [
+          "SNU-2A-05-005_card_7",
+          "이"
+        ],
+        [
+          "SNU-2A-05-005_card_8",
+          "만들까요?"
         ]
       ],
       "acceptedOrders": [
@@ -209,34 +247,49 @@
           "SNU-2A-05-005_card_3",
           "SNU-2A-05-005_card_4",
           "SNU-2A-05-005_card_5",
-          "SNU-2A-05-005_card_6"
+          "SNU-2A-05-005_card_6",
+          "SNU-2A-05-005_card_7",
+          "SNU-2A-05-005_card_8"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-006",
-      "displaySentence": "나나 씨가 집에 도착했을까요?",
+      "displaySentence": "다음 주에 친구와 부산으로 여행할 거예요.",
       "tokens": [
         [
           "SNU-2A-05-006_card_0",
-          "나나 씨"
+          "다음"
         ],
         [
           "SNU-2A-05-006_card_1",
-          "가"
+          "주"
         ],
         [
           "SNU-2A-05-006_card_2",
-          "집"
+          "에"
         ],
         [
           "SNU-2A-05-006_card_3",
-          "에"
+          "친구"
         ],
         [
           "SNU-2A-05-006_card_4",
-          "도착했을까요"
+          "와"
+        ],
+        [
+          "SNU-2A-05-006_card_5",
+          "부산"
+        ],
+        [
+          "SNU-2A-05-006_card_6",
+          "으로"
+        ],
+        [
+          "SNU-2A-05-006_card_7",
+          "여행할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -245,34 +298,42 @@
           "SNU-2A-05-006_card_1",
           "SNU-2A-05-006_card_2",
           "SNU-2A-05-006_card_3",
-          "SNU-2A-05-006_card_4"
+          "SNU-2A-05-006_card_4",
+          "SNU-2A-05-006_card_5",
+          "SNU-2A-05-006_card_6",
+          "SNU-2A-05-006_card_7"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-007",
-      "displaySentence": "어머니가 안동을 좋아하실까요?",
+      "displaySentence": "내일 비행기 표를 미리 예매할 거예요.",
       "tokens": [
         [
           "SNU-2A-05-007_card_0",
-          "어머니"
+          "내일"
         ],
         [
           "SNU-2A-05-007_card_1",
-          "가"
+          "비행기"
         ],
         [
           "SNU-2A-05-007_card_2",
-          "안동"
+          "표"
         ],
         [
           "SNU-2A-05-007_card_3",
-          "을"
+          "를"
         ],
         [
           "SNU-2A-05-007_card_4",
-          "좋아하실까요"
+          "미리"
+        ],
+        [
+          "SNU-2A-05-007_card_5",
+          "예매할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -281,81 +342,96 @@
           "SNU-2A-05-007_card_1",
           "SNU-2A-05-007_card_2",
           "SNU-2A-05-007_card_3",
-          "SNU-2A-05-007_card_4"
+          "SNU-2A-05-007_card_4",
+          "SNU-2A-05-007_card_5"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-008",
-      "displaySentence": "아마 좋아하실 거예요.",
+      "displaySentence": "새 여권을 만들고 나서 여행을 떠날 거예요.",
       "tokens": [
         [
           "SNU-2A-05-008_card_0",
-          "아마"
+          "새"
         ],
         [
           "SNU-2A-05-008_card_1",
-          "좋아하실"
+          "여권"
         ],
         [
           "SNU-2A-05-008_card_2",
-          "거"
-        ],
-        [
-          "SNU-2A-05-008_card_3",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-05-008_card_0",
-          "SNU-2A-05-008_card_1",
-          "SNU-2A-05-008_card_2",
-          "SNU-2A-05-008_card_3"
-        ]
-      ],
-      "note": "서울대 2A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-05-009",
-      "displaySentence": "이 신발이 민수 씨에게 작을 거예요.",
-      "tokens": [
-        [
-          "SNU-2A-05-009_card_0",
-          "이"
-        ],
-        [
-          "SNU-2A-05-009_card_1",
-          "신발"
-        ],
-        [
-          "SNU-2A-05-009_card_2",
-          "이"
-        ],
-        [
-          "SNU-2A-05-009_card_3",
-          "민수 씨"
-        ],
-        [
-          "SNU-2A-05-009_card_4",
-          "에게"
-        ],
-        [
-          "SNU-2A-05-009_card_5",
-          "작"
-        ],
-        [
-          "SNU-2A-05-009_card_6",
           "을"
         ],
         [
-          "SNU-2A-05-009_card_7",
-          "거"
+          "SNU-2A-05-008_card_3",
+          "만들고"
         ],
         [
-          "SNU-2A-05-009_card_8",
-          "예요"
+          "SNU-2A-05-008_card_4",
+          "나서"
+        ],
+        [
+          "SNU-2A-05-008_card_5",
+          "여행"
+        ],
+        [
+          "SNU-2A-05-008_card_6",
+          "을"
+        ],
+        [
+          "SNU-2A-05-008_card_7",
+          "떠날 거예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-05-008_card_0",
+          "SNU-2A-05-008_card_1",
+          "SNU-2A-05-008_card_2",
+          "SNU-2A-05-008_card_3",
+          "SNU-2A-05-008_card_4",
+          "SNU-2A-05-008_card_5",
+          "SNU-2A-05-008_card_6",
+          "SNU-2A-05-008_card_7"
+        ]
+      ],
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-05-009",
+      "displaySentence": "친구와 자세한 여행 일정을 세울 거예요.",
+      "tokens": [
+        [
+          "SNU-2A-05-009_card_0",
+          "친구"
+        ],
+        [
+          "SNU-2A-05-009_card_1",
+          "와"
+        ],
+        [
+          "SNU-2A-05-009_card_2",
+          "자세한"
+        ],
+        [
+          "SNU-2A-05-009_card_3",
+          "여행"
+        ],
+        [
+          "SNU-2A-05-009_card_4",
+          "일정"
+        ],
+        [
+          "SNU-2A-05-009_card_5",
+          "을"
+        ],
+        [
+          "SNU-2A-05-009_card_6",
+          "세울 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -366,56 +442,43 @@
           "SNU-2A-05-009_card_3",
           "SNU-2A-05-009_card_4",
           "SNU-2A-05-009_card_5",
-          "SNU-2A-05-009_card_6",
-          "SNU-2A-05-009_card_7",
-          "SNU-2A-05-009_card_8"
+          "SNU-2A-05-009_card_6"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-010",
-      "displaySentence": "오늘 나나 씨가 아마 학교에 못 올 거예요.",
+      "displaySentence": "경치가 아름다우니까 사진을 많이 찍으세요.",
       "tokens": [
         [
           "SNU-2A-05-010_card_0",
-          "오늘"
+          "경치"
         ],
         [
           "SNU-2A-05-010_card_1",
-          "나나 씨"
-        ],
-        [
-          "SNU-2A-05-010_card_2",
           "가"
         ],
         [
+          "SNU-2A-05-010_card_2",
+          "아름다우니까"
+        ],
+        [
           "SNU-2A-05-010_card_3",
-          "아마"
+          "사진"
         ],
         [
           "SNU-2A-05-010_card_4",
-          "학교"
+          "을"
         ],
         [
           "SNU-2A-05-010_card_5",
-          "에"
+          "많이"
         ],
         [
           "SNU-2A-05-010_card_6",
-          "못"
-        ],
-        [
-          "SNU-2A-05-010_card_7",
-          "올"
-        ],
-        [
-          "SNU-2A-05-010_card_8",
-          "거"
-        ],
-        [
-          "SNU-2A-05-010_card_9",
-          "예요"
+          "찍으세요"
         ]
       ],
       "acceptedOrders": [
@@ -426,21 +489,19 @@
           "SNU-2A-05-010_card_3",
           "SNU-2A-05-010_card_4",
           "SNU-2A-05-010_card_5",
-          "SNU-2A-05-010_card_6",
-          "SNU-2A-05-010_card_7",
-          "SNU-2A-05-010_card_8",
-          "SNU-2A-05-010_card_9"
+          "SNU-2A-05-010_card_6"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-011",
-      "displaySentence": "수업이 끝났을까요?",
+      "displaySentence": "물건값이 싸니까 기념품을 몇 개 살 거예요.",
       "tokens": [
         [
           "SNU-2A-05-011_card_0",
-          "수업"
+          "물건값"
         ],
         [
           "SNU-2A-05-011_card_1",
@@ -448,41 +509,75 @@
         ],
         [
           "SNU-2A-05-011_card_2",
-          "끝났을까요"
+          "싸니까"
+        ],
+        [
+          "SNU-2A-05-011_card_3",
+          "기념품"
+        ],
+        [
+          "SNU-2A-05-011_card_4",
+          "을"
+        ],
+        [
+          "SNU-2A-05-011_card_5",
+          "몇"
+        ],
+        [
+          "SNU-2A-05-011_card_6",
+          "개"
+        ],
+        [
+          "SNU-2A-05-011_card_7",
+          "살 거예요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-2A-05-011_card_0",
           "SNU-2A-05-011_card_1",
-          "SNU-2A-05-011_card_2"
+          "SNU-2A-05-011_card_2",
+          "SNU-2A-05-011_card_3",
+          "SNU-2A-05-011_card_4",
+          "SNU-2A-05-011_card_5",
+          "SNU-2A-05-011_card_6",
+          "SNU-2A-05-011_card_7"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-012",
-      "displaySentence": "네, 끝났을 거예요.",
+      "displaySentence": "길이 복잡하니까 지하철을 타고 갈 거예요.",
       "tokens": [
         [
           "SNU-2A-05-012_card_0",
-          "네"
+          "길"
         ],
         [
           "SNU-2A-05-012_card_1",
-          "끝났"
+          "이"
         ],
         [
           "SNU-2A-05-012_card_2",
-          "을"
+          "복잡하니까"
         ],
         [
           "SNU-2A-05-012_card_3",
-          "거"
+          "지하철"
         ],
         [
           "SNU-2A-05-012_card_4",
-          "예요"
+          "을"
+        ],
+        [
+          "SNU-2A-05-012_card_5",
+          "타고"
+        ],
+        [
+          "SNU-2A-05-012_card_6",
+          "갈 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -491,14 +586,17 @@
           "SNU-2A-05-012_card_1",
           "SNU-2A-05-012_card_2",
           "SNU-2A-05-012_card_3",
-          "SNU-2A-05-012_card_4"
+          "SNU-2A-05-012_card_4",
+          "SNU-2A-05-012_card_5",
+          "SNU-2A-05-012_card_6"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-013",
-      "displaySentence": "여행 일정이 어떻게 돼요?",
+      "displaySentence": "여행 상품이 다양하니까 천천히 알아보세요.",
       "tokens": [
         [
           "SNU-2A-05-013_card_0",
@@ -506,7 +604,7 @@
         ],
         [
           "SNU-2A-05-013_card_1",
-          "일정"
+          "상품"
         ],
         [
           "SNU-2A-05-013_card_2",
@@ -514,11 +612,15 @@
         ],
         [
           "SNU-2A-05-013_card_3",
-          "어떻게"
+          "다양하니까"
         ],
         [
           "SNU-2A-05-013_card_4",
-          "돼요"
+          "천천히"
+        ],
+        [
+          "SNU-2A-05-013_card_5",
+          "알아보세요"
         ]
       ],
       "acceptedOrders": [
@@ -527,42 +629,40 @@
           "SNU-2A-05-013_card_1",
           "SNU-2A-05-013_card_2",
           "SNU-2A-05-013_card_3",
-          "SNU-2A-05-013_card_4"
+          "SNU-2A-05-013_card_4",
+          "SNU-2A-05-013_card_5"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-014",
-      "displaySentence": "여기 자세한 일정이 있으니까 한번 보세요.",
+      "displaySentence": "놀이공원은 구경거리가 많으니까 재미있을 거예요.",
       "tokens": [
         [
           "SNU-2A-05-014_card_0",
-          "여기"
+          "놀이공원"
         ],
         [
           "SNU-2A-05-014_card_1",
-          "자세한"
+          "은"
         ],
         [
           "SNU-2A-05-014_card_2",
-          "일정"
+          "구경거리"
         ],
         [
           "SNU-2A-05-014_card_3",
-          "이"
+          "가"
         ],
         [
           "SNU-2A-05-014_card_4",
-          "있으니까"
+          "많으니까"
         ],
         [
           "SNU-2A-05-014_card_5",
-          "한번"
-        ],
-        [
-          "SNU-2A-05-014_card_6",
-          "보세요"
+          "재미있을 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -572,35 +672,47 @@
           "SNU-2A-05-014_card_2",
           "SNU-2A-05-014_card_3",
           "SNU-2A-05-014_card_4",
-          "SNU-2A-05-014_card_5",
-          "SNU-2A-05-014_card_6"
+          "SNU-2A-05-014_card_5"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-015",
-      "displaySentence": "오늘은 바쁘니까 내일 만납시다.",
+      "displaySentence": "공항에 도착하고 나서 친구에게 연락할 거예요.",
       "tokens": [
         [
           "SNU-2A-05-015_card_0",
-          "오늘"
+          "공항"
         ],
         [
           "SNU-2A-05-015_card_1",
-          "은"
+          "에"
         ],
         [
           "SNU-2A-05-015_card_2",
-          "바쁘니까"
+          "도착"
         ],
         [
           "SNU-2A-05-015_card_3",
-          "내일"
+          "하고"
         ],
         [
           "SNU-2A-05-015_card_4",
-          "만납시다"
+          "나서"
+        ],
+        [
+          "SNU-2A-05-015_card_5",
+          "친구"
+        ],
+        [
+          "SNU-2A-05-015_card_6",
+          "에게"
+        ],
+        [
+          "SNU-2A-05-015_card_7",
+          "연락할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -609,50 +721,50 @@
           "SNU-2A-05-015_card_1",
           "SNU-2A-05-015_card_2",
           "SNU-2A-05-015_card_3",
-          "SNU-2A-05-015_card_4"
+          "SNU-2A-05-015_card_4",
+          "SNU-2A-05-015_card_5",
+          "SNU-2A-05-015_card_6",
+          "SNU-2A-05-015_card_7"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-016",
-      "displaySentence": "스티븐 씨는 책을 많이 읽으니까 책을 선물하세요.",
+      "displaySentence": "호텔을 예약하고 나서 항공권을 살 거예요.",
       "tokens": [
         [
           "SNU-2A-05-016_card_0",
-          "스티븐 씨"
+          "호텔"
         ],
         [
           "SNU-2A-05-016_card_1",
-          "는"
+          "을"
         ],
         [
           "SNU-2A-05-016_card_2",
-          "책"
+          "예약"
         ],
         [
           "SNU-2A-05-016_card_3",
-          "을"
+          "하고"
         ],
         [
           "SNU-2A-05-016_card_4",
-          "많이"
+          "나서"
         ],
         [
           "SNU-2A-05-016_card_5",
-          "읽으니까"
+          "항공권"
         ],
         [
           "SNU-2A-05-016_card_6",
-          "책"
-        ],
-        [
-          "SNU-2A-05-016_card_7",
           "을"
         ],
         [
-          "SNU-2A-05-016_card_8",
-          "선물하세요"
+          "SNU-2A-05-016_card_7",
+          "살 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -664,55 +776,43 @@
           "SNU-2A-05-016_card_4",
           "SNU-2A-05-016_card_5",
           "SNU-2A-05-016_card_6",
-          "SNU-2A-05-016_card_7",
-          "SNU-2A-05-016_card_8"
+          "SNU-2A-05-016_card_7"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-017",
-      "displaySentence": "오늘은 토요일이니까 문을 일찍 닫을 거예요.",
+      "displaySentence": "돈을 바꾸고 나서 여행을 시작할 거예요.",
       "tokens": [
         [
           "SNU-2A-05-017_card_0",
-          "오늘"
+          "돈"
         ],
         [
           "SNU-2A-05-017_card_1",
-          "은"
+          "을"
         ],
         [
           "SNU-2A-05-017_card_2",
-          "토요일이니까"
+          "바꾸고"
         ],
         [
           "SNU-2A-05-017_card_3",
-          "문"
+          "나서"
         ],
         [
           "SNU-2A-05-017_card_4",
-          "을"
+          "여행"
         ],
         [
           "SNU-2A-05-017_card_5",
-          "일찍"
-        ],
-        [
-          "SNU-2A-05-017_card_6",
-          "닫"
-        ],
-        [
-          "SNU-2A-05-017_card_7",
           "을"
         ],
         [
-          "SNU-2A-05-017_card_8",
-          "거"
-        ],
-        [
-          "SNU-2A-05-017_card_9",
-          "예요"
+          "SNU-2A-05-017_card_6",
+          "시작할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -723,29 +823,27 @@
           "SNU-2A-05-017_card_3",
           "SNU-2A-05-017_card_4",
           "SNU-2A-05-017_card_5",
-          "SNU-2A-05-017_card_6",
-          "SNU-2A-05-017_card_7",
-          "SNU-2A-05-017_card_8",
-          "SNU-2A-05-017_card_9"
+          "SNU-2A-05-017_card_6"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-018",
-      "displaySentence": "아니요, 생각해 보고 나서 연락드릴게요.",
+      "displaySentence": "일정을 세우고 나서 숙박비와 식비를 계산했어요.",
       "tokens": [
         [
           "SNU-2A-05-018_card_0",
-          "아니요"
+          "일정"
         ],
         [
           "SNU-2A-05-018_card_1",
-          "생각해"
+          "을"
         ],
         [
           "SNU-2A-05-018_card_2",
-          "보고"
+          "세우고"
         ],
         [
           "SNU-2A-05-018_card_3",
@@ -753,7 +851,23 @@
         ],
         [
           "SNU-2A-05-018_card_4",
-          "연락드릴게요"
+          "숙박비"
+        ],
+        [
+          "SNU-2A-05-018_card_5",
+          "와"
+        ],
+        [
+          "SNU-2A-05-018_card_6",
+          "식비"
+        ],
+        [
+          "SNU-2A-05-018_card_7",
+          "를"
+        ],
+        [
+          "SNU-2A-05-018_card_8",
+          "계산했어요"
         ]
       ],
       "acceptedOrders": [
@@ -762,50 +876,51 @@
           "SNU-2A-05-018_card_1",
           "SNU-2A-05-018_card_2",
           "SNU-2A-05-018_card_3",
-          "SNU-2A-05-018_card_4"
+          "SNU-2A-05-018_card_4",
+          "SNU-2A-05-018_card_5",
+          "SNU-2A-05-018_card_6",
+          "SNU-2A-05-018_card_7",
+          "SNU-2A-05-018_card_8"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-019",
-      "displaySentence": "한국어 공부를 마치고 나서 대학원에 가려고 해요.",
+      "displaySentence": "신청서를 쓰고 나서 왕복 항공권을 예약할 거예요.",
       "tokens": [
         [
           "SNU-2A-05-019_card_0",
-          "한국어"
+          "신청서"
         ],
         [
           "SNU-2A-05-019_card_1",
-          "공부"
-        ],
-        [
-          "SNU-2A-05-019_card_2",
           "를"
         ],
         [
-          "SNU-2A-05-019_card_3",
-          "마치고"
+          "SNU-2A-05-019_card_2",
+          "쓰고"
         ],
         [
-          "SNU-2A-05-019_card_4",
+          "SNU-2A-05-019_card_3",
           "나서"
         ],
         [
+          "SNU-2A-05-019_card_4",
+          "왕복"
+        ],
+        [
           "SNU-2A-05-019_card_5",
-          "대학원"
+          "항공권"
         ],
         [
           "SNU-2A-05-019_card_6",
-          "에"
+          "을"
         ],
         [
           "SNU-2A-05-019_card_7",
-          "가려고"
-        ],
-        [
-          "SNU-2A-05-019_card_8",
-          "해요"
+          "예약할 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -817,59 +932,51 @@
           "SNU-2A-05-019_card_4",
           "SNU-2A-05-019_card_5",
           "SNU-2A-05-019_card_6",
-          "SNU-2A-05-019_card_7",
-          "SNU-2A-05-019_card_8"
+          "SNU-2A-05-019_card_7"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-05-020",
-      "displaySentence": "이 책을 다 읽고 나서 친구에게 빌려줄 거예요.",
+      "displaySentence": "고향에서 돌아오고 나서 친구에게 편지를 보낼 거예요.",
       "tokens": [
         [
           "SNU-2A-05-020_card_0",
-          "이"
+          "고향"
         ],
         [
           "SNU-2A-05-020_card_1",
-          "책"
+          "에서"
         ],
         [
           "SNU-2A-05-020_card_2",
-          "을"
+          "돌아오고"
         ],
         [
           "SNU-2A-05-020_card_3",
-          "다"
-        ],
-        [
-          "SNU-2A-05-020_card_4",
-          "읽고"
-        ],
-        [
-          "SNU-2A-05-020_card_5",
           "나서"
         ],
         [
-          "SNU-2A-05-020_card_6",
+          "SNU-2A-05-020_card_4",
           "친구"
         ],
         [
-          "SNU-2A-05-020_card_7",
+          "SNU-2A-05-020_card_5",
           "에게"
         ],
         [
+          "SNU-2A-05-020_card_6",
+          "편지"
+        ],
+        [
+          "SNU-2A-05-020_card_7",
+          "를"
+        ],
+        [
           "SNU-2A-05-020_card_8",
-          "빌려줄"
-        ],
-        [
-          "SNU-2A-05-020_card_9",
-          "거"
-        ],
-        [
-          "SNU-2A-05-020_card_10",
-          "예요"
+          "보낼 거예요"
         ]
       ],
       "acceptedOrders": [
@@ -882,176 +989,11 @@
           "SNU-2A-05-020_card_5",
           "SNU-2A-05-020_card_6",
           "SNU-2A-05-020_card_7",
-          "SNU-2A-05-020_card_8",
-          "SNU-2A-05-020_card_9",
-          "SNU-2A-05-020_card_10"
+          "SNU-2A-05-020_card_8"
         ]
       ],
-      "note": "서울대 2A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-05-021",
-      "displaySentence": "다음 주에 친구가 한국에 와요.",
-      "tokens": [
-        [
-          "SNU-2A-05-021_card_0",
-          "다음"
-        ],
-        [
-          "SNU-2A-05-021_card_1",
-          "주"
-        ],
-        [
-          "SNU-2A-05-021_card_2",
-          "에"
-        ],
-        [
-          "SNU-2A-05-021_card_3",
-          "친구"
-        ],
-        [
-          "SNU-2A-05-021_card_4",
-          "가"
-        ],
-        [
-          "SNU-2A-05-021_card_5",
-          "한국"
-        ],
-        [
-          "SNU-2A-05-021_card_6",
-          "에"
-        ],
-        [
-          "SNU-2A-05-021_card_7",
-          "와요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-05-021_card_0",
-          "SNU-2A-05-021_card_1",
-          "SNU-2A-05-021_card_2",
-          "SNU-2A-05-021_card_3",
-          "SNU-2A-05-021_card_4",
-          "SNU-2A-05-021_card_5",
-          "SNU-2A-05-021_card_6",
-          "SNU-2A-05-021_card_7"
-        ]
-      ],
-      "note": "서울대 2A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-05-022",
-      "displaySentence": "여행 오는 거예요?",
-      "tokens": [
-        [
-          "SNU-2A-05-022_card_0",
-          "여행"
-        ],
-        [
-          "SNU-2A-05-022_card_1",
-          "오는"
-        ],
-        [
-          "SNU-2A-05-022_card_2",
-          "거"
-        ],
-        [
-          "SNU-2A-05-022_card_3",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-05-022_card_0",
-          "SNU-2A-05-022_card_1",
-          "SNU-2A-05-022_card_2",
-          "SNU-2A-05-022_card_3"
-        ]
-      ],
-      "note": "서울대 2A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-05-023",
-      "displaySentence": "네, 그런데 친구하고 어디에 가면 좋을까요?",
-      "tokens": [
-        [
-          "SNU-2A-05-023_card_0",
-          "네"
-        ],
-        [
-          "SNU-2A-05-023_card_1",
-          "그런데"
-        ],
-        [
-          "SNU-2A-05-023_card_2",
-          "친구"
-        ],
-        [
-          "SNU-2A-05-023_card_3",
-          "하고"
-        ],
-        [
-          "SNU-2A-05-023_card_4",
-          "어디"
-        ],
-        [
-          "SNU-2A-05-023_card_5",
-          "에"
-        ],
-        [
-          "SNU-2A-05-023_card_6",
-          "가면"
-        ],
-        [
-          "SNU-2A-05-023_card_7",
-          "좋을까요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-05-023_card_0",
-          "SNU-2A-05-023_card_1",
-          "SNU-2A-05-023_card_2",
-          "SNU-2A-05-023_card_3",
-          "SNU-2A-05-023_card_4",
-          "SNU-2A-05-023_card_5",
-          "SNU-2A-05-023_card_6",
-          "SNU-2A-05-023_card_7"
-        ]
-      ],
-      "note": "서울대 2A 5과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-05-024",
-      "displaySentence": "안동에 가 봤어요?",
-      "tokens": [
-        [
-          "SNU-2A-05-024_card_0",
-          "안동"
-        ],
-        [
-          "SNU-2A-05-024_card_1",
-          "에"
-        ],
-        [
-          "SNU-2A-05-024_card_2",
-          "가"
-        ],
-        [
-          "SNU-2A-05-024_card_3",
-          "봤어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-05-024_card_0",
-          "SNU-2A-05-024_card_1",
-          "SNU-2A-05-024_card_2",
-          "SNU-2A-05-024_card_3"
-        ]
-      ],
-      "note": "서울대 2A 5과 교재 기반"
+      "note": "서울대 2A 5과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(A/V-(으)ㄹ까요?; A/V-(으)ㄹ 거예요; A/V-(으)니까/N(이)니까; V-고 나서) + data/snu/2A/lesson05.json 어휘 기반 재구성"
     }
   ]
 }

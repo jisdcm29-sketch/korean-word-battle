@@ -1,12 +1,18 @@
 {
   "book": "2B",
   "lesson": 10,
-  "source": "서울대 한국어 2B 학생 읽기 자료 · 10과 어휘/문법/예문/말하기 기반",
-  "questionCount": 19,
+  "source": "SNU Korean 2B Student's Book/Workbook official grammar scope; restructured with Arena 2B lesson vocabulary",
+  "grammarFocus": [
+    "N 중에(서)",
+    "반말",
+    "V-(으)ㄹ래요",
+    "A-(으)ㄴ데/V-는데/N인데 2"
+  ],
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2B-10-001",
-      "displaySentence": "한국 음식 중에서 뭘 제일 좋아해요?",
+      "displaySentence": "한국 음식 중에서 김치찌개를 제일 좋아해요.",
       "tokens": [
         [
           "SNU-2B-10-001_card_0",
@@ -26,14 +32,18 @@
         ],
         [
           "SNU-2B-10-001_card_4",
-          "뭘"
+          "김치찌개"
         ],
         [
           "SNU-2B-10-001_card_5",
-          "제일"
+          "를"
         ],
         [
           "SNU-2B-10-001_card_6",
+          "제일"
+        ],
+        [
+          "SNU-2B-10-001_card_7",
           "좋아해요"
         ]
       ],
@@ -45,30 +55,56 @@
           "SNU-2B-10-001_card_3",
           "SNU-2B-10-001_card_4",
           "SNU-2B-10-001_card_5",
-          "SNU-2B-10-001_card_6"
+          "SNU-2B-10-001_card_6",
+          "SNU-2B-10-001_card_7"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-002",
-      "displaySentence": "불고기를 제일 좋아해요.",
+      "displaySentence": "이 식당 메뉴 중에서 순두부찌개가 제일 인기 있어요.",
       "tokens": [
         [
           "SNU-2B-10-002_card_0",
-          "불고기"
+          "이"
         ],
         [
           "SNU-2B-10-002_card_1",
-          "를"
+          "식당"
         ],
         [
           "SNU-2B-10-002_card_2",
-          "제일"
+          "메뉴"
         ],
         [
           "SNU-2B-10-002_card_3",
-          "좋아해요"
+          "중"
+        ],
+        [
+          "SNU-2B-10-002_card_4",
+          "에서"
+        ],
+        [
+          "SNU-2B-10-002_card_5",
+          "순두부찌개"
+        ],
+        [
+          "SNU-2B-10-002_card_6",
+          "가"
+        ],
+        [
+          "SNU-2B-10-002_card_7",
+          "제일"
+        ],
+        [
+          "SNU-2B-10-002_card_8",
+          "인기"
+        ],
+        [
+          "SNU-2B-10-002_card_9",
+          "있어요"
         ]
       ],
       "acceptedOrders": [
@@ -76,50 +112,53 @@
           "SNU-2B-10-002_card_0",
           "SNU-2B-10-002_card_1",
           "SNU-2B-10-002_card_2",
-          "SNU-2B-10-002_card_3"
+          "SNU-2B-10-002_card_3",
+          "SNU-2B-10-002_card_4",
+          "SNU-2B-10-002_card_5",
+          "SNU-2B-10-002_card_6",
+          "SNU-2B-10-002_card_7",
+          "SNU-2B-10-002_card_8",
+          "SNU-2B-10-002_card_9"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-003",
-      "displaySentence": "저는 운동 중에서 야구를 가장 좋아해요.",
+      "displaySentence": "맛집 중에서 이 식당을 가장 추천해요.",
       "tokens": [
         [
           "SNU-2B-10-003_card_0",
-          "저"
+          "맛집"
         ],
         [
           "SNU-2B-10-003_card_1",
-          "는"
-        ],
-        [
-          "SNU-2B-10-003_card_2",
-          "운동"
-        ],
-        [
-          "SNU-2B-10-003_card_3",
           "중"
         ],
         [
-          "SNU-2B-10-003_card_4",
+          "SNU-2B-10-003_card_2",
           "에서"
         ],
         [
+          "SNU-2B-10-003_card_3",
+          "이"
+        ],
+        [
+          "SNU-2B-10-003_card_4",
+          "식당"
+        ],
+        [
           "SNU-2B-10-003_card_5",
-          "야구"
+          "을"
         ],
         [
           "SNU-2B-10-003_card_6",
-          "를"
-        ],
-        [
-          "SNU-2B-10-003_card_7",
           "가장"
         ],
         [
-          "SNU-2B-10-003_card_8",
-          "좋아해요"
+          "SNU-2B-10-003_card_7",
+          "추천해요"
         ]
       ],
       "acceptedOrders": [
@@ -131,55 +170,51 @@
           "SNU-2B-10-003_card_4",
           "SNU-2B-10-003_card_5",
           "SNU-2B-10-003_card_6",
-          "SNU-2B-10-003_card_7",
-          "SNU-2B-10-003_card_8"
+          "SNU-2B-10-003_card_7"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-004",
-      "displaySentence": "지금까지 본 영화 중에 뭐가 제일 재미있었어요?",
+      "displaySentence": "고기 음식 중에서 삼겹살을 가장 자주 먹어요.",
       "tokens": [
         [
           "SNU-2B-10-004_card_0",
-          "지금"
+          "고기"
         ],
         [
           "SNU-2B-10-004_card_1",
-          "까지"
+          "음식"
         ],
         [
           "SNU-2B-10-004_card_2",
-          "본"
-        ],
-        [
-          "SNU-2B-10-004_card_3",
-          "영화"
-        ],
-        [
-          "SNU-2B-10-004_card_4",
           "중"
         ],
         [
+          "SNU-2B-10-004_card_3",
+          "에서"
+        ],
+        [
+          "SNU-2B-10-004_card_4",
+          "삼겹살"
+        ],
+        [
           "SNU-2B-10-004_card_5",
-          "에"
+          "을"
         ],
         [
           "SNU-2B-10-004_card_6",
-          "뭐"
+          "가장"
         ],
         [
           "SNU-2B-10-004_card_7",
-          "가"
+          "자주"
         ],
         [
           "SNU-2B-10-004_card_8",
-          "제일"
-        ],
-        [
-          "SNU-2B-10-004_card_9",
-          "재미있었어요"
+          "먹어요"
         ]
       ],
       "acceptedOrders": [
@@ -192,51 +227,47 @@
           "SNU-2B-10-004_card_5",
           "SNU-2B-10-004_card_6",
           "SNU-2B-10-004_card_7",
-          "SNU-2B-10-004_card_8",
-          "SNU-2B-10-004_card_9"
+          "SNU-2B-10-004_card_8"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-005",
-      "displaySentence": "스티븐 씨는 우리 반에서 키가 제일 커요.",
+      "displaySentence": "여러 메뉴 중에서 갈비찜을 먼저 주문할래요.",
       "tokens": [
         [
           "SNU-2B-10-005_card_0",
-          "스티븐 씨"
+          "여러"
         ],
         [
           "SNU-2B-10-005_card_1",
-          "는"
+          "메뉴"
         ],
         [
           "SNU-2B-10-005_card_2",
-          "우리"
+          "중"
         ],
         [
           "SNU-2B-10-005_card_3",
-          "반"
-        ],
-        [
-          "SNU-2B-10-005_card_4",
           "에서"
         ],
         [
+          "SNU-2B-10-005_card_4",
+          "갈비찜"
+        ],
+        [
           "SNU-2B-10-005_card_5",
-          "키"
+          "을"
         ],
         [
           "SNU-2B-10-005_card_6",
-          "가"
+          "먼저"
         ],
         [
           "SNU-2B-10-005_card_7",
-          "제일"
-        ],
-        [
-          "SNU-2B-10-005_card_8",
-          "커요"
+          "주문할래요"
         ]
       ],
       "acceptedOrders": [
@@ -248,111 +279,118 @@
           "SNU-2B-10-005_card_4",
           "SNU-2B-10-005_card_5",
           "SNU-2B-10-005_card_6",
-          "SNU-2B-10-005_card_7",
-          "SNU-2B-10-005_card_8"
+          "SNU-2B-10-005_card_7"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-006",
-      "displaySentence": "수업 끝나고 뭐 해?",
+      "displaySentence": "저는 오늘 냉면을 먹을래요.",
       "tokens": [
         [
           "SNU-2B-10-006_card_0",
-          "수업"
+          "저"
         ],
         [
           "SNU-2B-10-006_card_1",
-          "끝나고"
-        ],
-        [
-          "SNU-2B-10-006_card_2",
-          "뭐"
-        ],
-        [
-          "SNU-2B-10-006_card_3",
-          "해"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-006_card_0",
-          "SNU-2B-10-006_card_1",
-          "SNU-2B-10-006_card_2",
-          "SNU-2B-10-006_card_3"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-007",
-      "displaySentence": "친구 만나러 명동에 갈 거야.",
-      "tokens": [
-        [
-          "SNU-2B-10-007_card_0",
-          "친구"
-        ],
-        [
-          "SNU-2B-10-007_card_1",
-          "만나러"
-        ],
-        [
-          "SNU-2B-10-007_card_2",
-          "명동"
-        ],
-        [
-          "SNU-2B-10-007_card_3",
-          "에"
-        ],
-        [
-          "SNU-2B-10-007_card_4",
-          "갈"
-        ],
-        [
-          "SNU-2B-10-007_card_5",
-          "거야"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-007_card_0",
-          "SNU-2B-10-007_card_1",
-          "SNU-2B-10-007_card_2",
-          "SNU-2B-10-007_card_3",
-          "SNU-2B-10-007_card_4",
-          "SNU-2B-10-007_card_5"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-008",
-      "displaySentence": "토요일에는 학교에 안 가.",
-      "tokens": [
-        [
-          "SNU-2B-10-008_card_0",
-          "토요일에"
-        ],
-        [
-          "SNU-2B-10-008_card_1",
           "는"
         ],
         [
+          "SNU-2B-10-006_card_2",
+          "오늘"
+        ],
+        [
+          "SNU-2B-10-006_card_3",
+          "냉면"
+        ],
+        [
+          "SNU-2B-10-006_card_4",
+          "을"
+        ],
+        [
+          "SNU-2B-10-006_card_5",
+          "먹을래요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-006_card_0",
+          "SNU-2B-10-006_card_1",
+          "SNU-2B-10-006_card_2",
+          "SNU-2B-10-006_card_3",
+          "SNU-2B-10-006_card_4",
+          "SNU-2B-10-006_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-007",
+      "displaySentence": "후식으로 과일을 먹을래요.",
+      "tokens": [
+        [
+          "SNU-2B-10-007_card_0",
+          "후식"
+        ],
+        [
+          "SNU-2B-10-007_card_1",
+          "으로"
+        ],
+        [
+          "SNU-2B-10-007_card_2",
+          "과일"
+        ],
+        [
+          "SNU-2B-10-007_card_3",
+          "을"
+        ],
+        [
+          "SNU-2B-10-007_card_4",
+          "먹을래요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-007_card_0",
+          "SNU-2B-10-007_card_1",
+          "SNU-2B-10-007_card_2",
+          "SNU-2B-10-007_card_3",
+          "SNU-2B-10-007_card_4"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-008",
+      "displaySentence": "오늘은 배달 음식을 시킬래요.",
+      "tokens": [
+        [
+          "SNU-2B-10-008_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-2B-10-008_card_1",
+          "은"
+        ],
+        [
           "SNU-2B-10-008_card_2",
-          "학교"
+          "배달"
         ],
         [
           "SNU-2B-10-008_card_3",
-          "에"
+          "음식"
         ],
         [
           "SNU-2B-10-008_card_4",
-          "안"
+          "을"
         ],
         [
           "SNU-2B-10-008_card_5",
-          "가"
+          "시킬래요"
         ]
       ],
       "acceptedOrders": [
@@ -365,289 +403,336 @@
           "SNU-2B-10-008_card_5"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-009",
-      "displaySentence": "지금 몇 시야?",
+      "displaySentence": "삼겹살을 구워 먹을래요.",
       "tokens": [
         [
           "SNU-2B-10-009_card_0",
-          "지금"
+          "삼겹살"
         ],
         [
           "SNU-2B-10-009_card_1",
-          "몇"
+          "을"
         ],
         [
           "SNU-2B-10-009_card_2",
-          "시야"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-009_card_0",
-          "SNU-2B-10-009_card_1",
-          "SNU-2B-10-009_card_2"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-010",
-      "displaySentence": "아니, 안 바빠.",
-      "tokens": [
-        [
-          "SNU-2B-10-010_card_0",
-          "아니"
+          "구워"
         ],
         [
-          "SNU-2B-10-010_card_1",
-          "안"
-        ],
-        [
-          "SNU-2B-10-010_card_2",
-          "바빠"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-010_card_0",
-          "SNU-2B-10-010_card_1",
-          "SNU-2B-10-010_card_2"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-011",
-      "displaySentence": "수업 끝나고 점심 같이 먹자.",
-      "tokens": [
-        [
-          "SNU-2B-10-011_card_0",
-          "수업"
-        ],
-        [
-          "SNU-2B-10-011_card_1",
-          "끝나고"
-        ],
-        [
-          "SNU-2B-10-011_card_2",
-          "점심"
-        ],
-        [
-          "SNU-2B-10-011_card_3",
-          "같이"
-        ],
-        [
-          "SNU-2B-10-011_card_4",
-          "먹자"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-011_card_0",
-          "SNU-2B-10-011_card_1",
-          "SNU-2B-10-011_card_2",
-          "SNU-2B-10-011_card_3",
-          "SNU-2B-10-011_card_4"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-012",
-      "displaySentence": "나는 칼국수 먹을래.",
-      "tokens": [
-        [
-          "SNU-2B-10-012_card_0",
-          "나"
-        ],
-        [
-          "SNU-2B-10-012_card_1",
-          "는"
-        ],
-        [
-          "SNU-2B-10-012_card_2",
-          "칼국수"
-        ],
-        [
-          "SNU-2B-10-012_card_3",
-          "먹을래"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-012_card_0",
-          "SNU-2B-10-012_card_1",
-          "SNU-2B-10-012_card_2",
-          "SNU-2B-10-012_card_3"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-013",
-      "displaySentence": "오늘 시간 있으면 같이 영화 보러 갈래요?",
-      "tokens": [
-        [
-          "SNU-2B-10-013_card_0",
-          "오늘"
-        ],
-        [
-          "SNU-2B-10-013_card_1",
-          "시간"
-        ],
-        [
-          "SNU-2B-10-013_card_2",
-          "있으면"
-        ],
-        [
-          "SNU-2B-10-013_card_3",
-          "같이"
-        ],
-        [
-          "SNU-2B-10-013_card_4",
-          "영화"
-        ],
-        [
-          "SNU-2B-10-013_card_5",
-          "보러"
-        ],
-        [
-          "SNU-2B-10-013_card_6",
-          "갈래요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-013_card_0",
-          "SNU-2B-10-013_card_1",
-          "SNU-2B-10-013_card_2",
-          "SNU-2B-10-013_card_3",
-          "SNU-2B-10-013_card_4",
-          "SNU-2B-10-013_card_5",
-          "SNU-2B-10-013_card_6"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-014",
-      "displaySentence": "배고픈데 밥 먹을래요?",
-      "tokens": [
-        [
-          "SNU-2B-10-014_card_0",
-          "배고픈데"
-        ],
-        [
-          "SNU-2B-10-014_card_1",
-          "밥"
-        ],
-        [
-          "SNU-2B-10-014_card_2",
+          "SNU-2B-10-009_card_3",
           "먹을래요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-10-014_card_0",
-          "SNU-2B-10-014_card_1",
-          "SNU-2B-10-014_card_2"
+          "SNU-2B-10-009_card_0",
+          "SNU-2B-10-009_card_1",
+          "SNU-2B-10-009_card_2",
+          "SNU-2B-10-009_card_3"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
-      "id": "SNU-2B-10-015",
-      "displaySentence": "닭고기는 좋아하는데 삼계탕은 별로 안 좋아해요.",
+      "id": "SNU-2B-10-010",
+      "displaySentence": "메뉴를 보고 천천히 고를래요.",
       "tokens": [
         [
-          "SNU-2B-10-015_card_0",
-          "닭고기"
+          "SNU-2B-10-010_card_0",
+          "메뉴"
         ],
         [
-          "SNU-2B-10-015_card_1",
-          "는"
+          "SNU-2B-10-010_card_1",
+          "를"
         ],
         [
-          "SNU-2B-10-015_card_2",
-          "좋아하는데"
+          "SNU-2B-10-010_card_2",
+          "보고"
         ],
         [
-          "SNU-2B-10-015_card_3",
-          "삼계탕"
+          "SNU-2B-10-010_card_3",
+          "천천히"
         ],
         [
-          "SNU-2B-10-015_card_4",
-          "은"
-        ],
-        [
-          "SNU-2B-10-015_card_5",
-          "별로"
-        ],
-        [
-          "SNU-2B-10-015_card_6",
-          "안"
-        ],
-        [
-          "SNU-2B-10-015_card_7",
-          "좋아해요"
+          "SNU-2B-10-010_card_4",
+          "고를래요"
         ]
       ],
       "acceptedOrders": [
         [
-          "SNU-2B-10-015_card_0",
-          "SNU-2B-10-015_card_1",
-          "SNU-2B-10-015_card_2",
-          "SNU-2B-10-015_card_3",
-          "SNU-2B-10-015_card_4",
-          "SNU-2B-10-015_card_5",
-          "SNU-2B-10-015_card_6",
-          "SNU-2B-10-015_card_7"
+          "SNU-2B-10-010_card_0",
+          "SNU-2B-10-010_card_1",
+          "SNU-2B-10-010_card_2",
+          "SNU-2B-10-010_card_3",
+          "SNU-2B-10-010_card_4"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
-      "id": "SNU-2B-10-016",
-      "displaySentence": "이 식당은 분위기는 좋은데 음식은 맛없어요.",
+      "id": "SNU-2B-10-011",
+      "displaySentence": "이 식당은 분위기가 좋은데 음식값도 싸요.",
       "tokens": [
         [
-          "SNU-2B-10-016_card_0",
+          "SNU-2B-10-011_card_0",
           "이"
         ],
         [
-          "SNU-2B-10-016_card_1",
+          "SNU-2B-10-011_card_1",
           "식당"
         ],
         [
-          "SNU-2B-10-016_card_2",
+          "SNU-2B-10-011_card_2",
           "은"
         ],
         [
-          "SNU-2B-10-016_card_3",
+          "SNU-2B-10-011_card_3",
           "분위기"
         ],
         [
-          "SNU-2B-10-016_card_4",
-          "는"
+          "SNU-2B-10-011_card_4",
+          "가"
         ],
         [
-          "SNU-2B-10-016_card_5",
+          "SNU-2B-10-011_card_5",
           "좋은데"
         ],
         [
-          "SNU-2B-10-016_card_6",
-          "음식"
+          "SNU-2B-10-011_card_6",
+          "음식값"
         ],
         [
-          "SNU-2B-10-016_card_7",
+          "SNU-2B-10-011_card_7",
+          "도"
+        ],
+        [
+          "SNU-2B-10-011_card_8",
+          "싸요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-011_card_0",
+          "SNU-2B-10-011_card_1",
+          "SNU-2B-10-011_card_2",
+          "SNU-2B-10-011_card_3",
+          "SNU-2B-10-011_card_4",
+          "SNU-2B-10-011_card_5",
+          "SNU-2B-10-011_card_6",
+          "SNU-2B-10-011_card_7",
+          "SNU-2B-10-011_card_8"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-012",
+      "displaySentence": "된장찌개는 맛있는데 국물이 조금 짜요.",
+      "tokens": [
+        [
+          "SNU-2B-10-012_card_0",
+          "된장찌개"
+        ],
+        [
+          "SNU-2B-10-012_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-10-012_card_2",
+          "맛있는데"
+        ],
+        [
+          "SNU-2B-10-012_card_3",
+          "국물"
+        ],
+        [
+          "SNU-2B-10-012_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-10-012_card_5",
+          "조금"
+        ],
+        [
+          "SNU-2B-10-012_card_6",
+          "짜요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-012_card_0",
+          "SNU-2B-10-012_card_1",
+          "SNU-2B-10-012_card_2",
+          "SNU-2B-10-012_card_3",
+          "SNU-2B-10-012_card_4",
+          "SNU-2B-10-012_card_5",
+          "SNU-2B-10-012_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-013",
+      "displaySentence": "떡갈비는 비싼데 돈이 아깝지 않아요.",
+      "tokens": [
+        [
+          "SNU-2B-10-013_card_0",
+          "떡갈비"
+        ],
+        [
+          "SNU-2B-10-013_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-10-013_card_2",
+          "비싼데"
+        ],
+        [
+          "SNU-2B-10-013_card_3",
+          "돈"
+        ],
+        [
+          "SNU-2B-10-013_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-10-013_card_5",
+          "아깝지 않아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-013_card_0",
+          "SNU-2B-10-013_card_1",
+          "SNU-2B-10-013_card_2",
+          "SNU-2B-10-013_card_3",
+          "SNU-2B-10-013_card_4",
+          "SNU-2B-10-013_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-014",
+      "displaySentence": "직원은 친절한데 주문이 조금 늦어요.",
+      "tokens": [
+        [
+          "SNU-2B-10-014_card_0",
+          "직원"
+        ],
+        [
+          "SNU-2B-10-014_card_1",
           "은"
         ],
         [
-          "SNU-2B-10-016_card_8",
-          "맛없어요"
+          "SNU-2B-10-014_card_2",
+          "친절한데"
+        ],
+        [
+          "SNU-2B-10-014_card_3",
+          "주문"
+        ],
+        [
+          "SNU-2B-10-014_card_4",
+          "이"
+        ],
+        [
+          "SNU-2B-10-014_card_5",
+          "조금"
+        ],
+        [
+          "SNU-2B-10-014_card_6",
+          "늦어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-014_card_0",
+          "SNU-2B-10-014_card_1",
+          "SNU-2B-10-014_card_2",
+          "SNU-2B-10-014_card_3",
+          "SNU-2B-10-014_card_4",
+          "SNU-2B-10-014_card_5",
+          "SNU-2B-10-014_card_6"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-015",
+      "displaySentence": "메뉴가 다양한데 자리가 많지 않아요.",
+      "tokens": [
+        [
+          "SNU-2B-10-015_card_0",
+          "메뉴"
+        ],
+        [
+          "SNU-2B-10-015_card_1",
+          "가"
+        ],
+        [
+          "SNU-2B-10-015_card_2",
+          "다양한데"
+        ],
+        [
+          "SNU-2B-10-015_card_3",
+          "자리"
+        ],
+        [
+          "SNU-2B-10-015_card_4",
+          "가"
+        ],
+        [
+          "SNU-2B-10-015_card_5",
+          "많지 않아요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-015_card_0",
+          "SNU-2B-10-015_card_1",
+          "SNU-2B-10-015_card_2",
+          "SNU-2B-10-015_card_3",
+          "SNU-2B-10-015_card_4",
+          "SNU-2B-10-015_card_5"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-016",
+      "displaySentence": "나는 오늘 비빔국수 먹을래.",
+      "tokens": [
+        [
+          "SNU-2B-10-016_card_0",
+          "나"
+        ],
+        [
+          "SNU-2B-10-016_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-10-016_card_2",
+          "오늘"
+        ],
+        [
+          "SNU-2B-10-016_card_3",
+          "비빔국수"
+        ],
+        [
+          "SNU-2B-10-016_card_4",
+          "먹을래"
         ]
       ],
       "acceptedOrders": [
@@ -656,98 +741,83 @@
           "SNU-2B-10-016_card_1",
           "SNU-2B-10-016_card_2",
           "SNU-2B-10-016_card_3",
-          "SNU-2B-10-016_card_4",
-          "SNU-2B-10-016_card_5",
-          "SNU-2B-10-016_card_6",
-          "SNU-2B-10-016_card_7",
-          "SNU-2B-10-016_card_8"
+          "SNU-2B-10-016_card_4"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-017",
-      "displaySentence": "형은 축구를 잘하는데 저는 잘 못해요.",
+      "displaySentence": "이 식당은 분위기는 좋은데 조금 비싸.",
       "tokens": [
         [
           "SNU-2B-10-017_card_0",
-          "형"
-        ],
-        [
-          "SNU-2B-10-017_card_1",
-          "은"
-        ],
-        [
-          "SNU-2B-10-017_card_2",
-          "축구"
-        ],
-        [
-          "SNU-2B-10-017_card_3",
-          "를"
-        ],
-        [
-          "SNU-2B-10-017_card_4",
-          "잘하는데"
-        ],
-        [
-          "SNU-2B-10-017_card_5",
-          "저"
-        ],
-        [
-          "SNU-2B-10-017_card_6",
-          "는"
-        ],
-        [
-          "SNU-2B-10-017_card_7",
-          "잘"
-        ],
-        [
-          "SNU-2B-10-017_card_8",
-          "못해요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2B-10-017_card_0",
-          "SNU-2B-10-017_card_1",
-          "SNU-2B-10-017_card_2",
-          "SNU-2B-10-017_card_3",
-          "SNU-2B-10-017_card_4",
-          "SNU-2B-10-017_card_5",
-          "SNU-2B-10-017_card_6",
-          "SNU-2B-10-017_card_7",
-          "SNU-2B-10-017_card_8"
-        ]
-      ],
-      "note": "서울대 2B 10과 교재 기반"
-    },
-    {
-      "id": "SNU-2B-10-018",
-      "displaySentence": "내일은 토요일인데 수업이 있어요.",
-      "tokens": [
-        [
-          "SNU-2B-10-018_card_0",
-          "내일"
-        ],
-        [
-          "SNU-2B-10-018_card_1",
-          "은"
-        ],
-        [
-          "SNU-2B-10-018_card_2",
-          "토요일인데"
-        ],
-        [
-          "SNU-2B-10-018_card_3",
-          "수업"
-        ],
-        [
-          "SNU-2B-10-018_card_4",
           "이"
         ],
         [
-          "SNU-2B-10-018_card_5",
-          "있어요"
+          "SNU-2B-10-017_card_1",
+          "식당"
+        ],
+        [
+          "SNU-2B-10-017_card_2",
+          "은"
+        ],
+        [
+          "SNU-2B-10-017_card_3",
+          "분위기"
+        ],
+        [
+          "SNU-2B-10-017_card_4",
+          "는"
+        ],
+        [
+          "SNU-2B-10-017_card_5",
+          "좋은데"
+        ],
+        [
+          "SNU-2B-10-017_card_6",
+          "조금"
+        ],
+        [
+          "SNU-2B-10-017_card_7",
+          "비싸"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-017_card_0",
+          "SNU-2B-10-017_card_1",
+          "SNU-2B-10-017_card_2",
+          "SNU-2B-10-017_card_3",
+          "SNU-2B-10-017_card_4",
+          "SNU-2B-10-017_card_5",
+          "SNU-2B-10-017_card_6",
+          "SNU-2B-10-017_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-018",
+      "displaySentence": "너는 매운탕 먹을래?",
+      "tokens": [
+        [
+          "SNU-2B-10-018_card_0",
+          "너"
+        ],
+        [
+          "SNU-2B-10-018_card_1",
+          "는"
+        ],
+        [
+          "SNU-2B-10-018_card_2",
+          "매운탕"
+        ],
+        [
+          "SNU-2B-10-018_card_3",
+          "먹을래?"
         ]
       ],
       "acceptedOrders": [
@@ -755,52 +825,43 @@
           "SNU-2B-10-018_card_0",
           "SNU-2B-10-018_card_1",
           "SNU-2B-10-018_card_2",
-          "SNU-2B-10-018_card_3",
-          "SNU-2B-10-018_card_4",
-          "SNU-2B-10-018_card_5"
+          "SNU-2B-10-018_card_3"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     },
     {
       "id": "SNU-2B-10-019",
-      "displaySentence": "공부를 열심히 했는데 시험을 잘 못 봤어요.",
+      "displaySentence": "나는 설렁탕 먹고 후식도 먹을래.",
       "tokens": [
         [
           "SNU-2B-10-019_card_0",
-          "공부"
+          "나"
         ],
         [
           "SNU-2B-10-019_card_1",
-          "를"
+          "는"
         ],
         [
           "SNU-2B-10-019_card_2",
-          "열심히"
+          "설렁탕"
         ],
         [
           "SNU-2B-10-019_card_3",
-          "했는데"
+          "먹고"
         ],
         [
           "SNU-2B-10-019_card_4",
-          "시험"
+          "후식"
         ],
         [
           "SNU-2B-10-019_card_5",
-          "을"
+          "도"
         ],
         [
           "SNU-2B-10-019_card_6",
-          "잘"
-        ],
-        [
-          "SNU-2B-10-019_card_7",
-          "못"
-        ],
-        [
-          "SNU-2B-10-019_card_8",
-          "봤어요"
+          "먹을래"
         ]
       ],
       "acceptedOrders": [
@@ -811,12 +872,63 @@
           "SNU-2B-10-019_card_3",
           "SNU-2B-10-019_card_4",
           "SNU-2B-10-019_card_5",
-          "SNU-2B-10-019_card_6",
-          "SNU-2B-10-019_card_7",
-          "SNU-2B-10-019_card_8"
+          "SNU-2B-10-019_card_6"
         ]
       ],
-      "note": "서울대 2B 10과 교재 기반"
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
+    },
+    {
+      "id": "SNU-2B-10-020",
+      "displaySentence": "오늘은 사람이 많은데 그냥 여기서 먹자.",
+      "tokens": [
+        [
+          "SNU-2B-10-020_card_0",
+          "오늘"
+        ],
+        [
+          "SNU-2B-10-020_card_1",
+          "은"
+        ],
+        [
+          "SNU-2B-10-020_card_2",
+          "사람"
+        ],
+        [
+          "SNU-2B-10-020_card_3",
+          "이"
+        ],
+        [
+          "SNU-2B-10-020_card_4",
+          "많은데"
+        ],
+        [
+          "SNU-2B-10-020_card_5",
+          "그냥"
+        ],
+        [
+          "SNU-2B-10-020_card_6",
+          "여기서"
+        ],
+        [
+          "SNU-2B-10-020_card_7",
+          "먹자"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2B-10-020_card_0",
+          "SNU-2B-10-020_card_1",
+          "SNU-2B-10-020_card_2",
+          "SNU-2B-10-020_card_3",
+          "SNU-2B-10-020_card_4",
+          "SNU-2B-10-020_card_5",
+          "SNU-2B-10-020_card_6",
+          "SNU-2B-10-020_card_7"
+        ]
+      ],
+      "note": "SNU 2B lesson 10 restructured for Sentence Battle",
+      "sourceRef": "SNU Korean 2B Student's Book/Workbook grammar scope + Arena lesson vocabulary"
     }
   ]
 }

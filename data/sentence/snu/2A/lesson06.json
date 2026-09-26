@@ -1,12 +1,13 @@
 {
   "book": "2A",
   "lesson": 6,
-  "source": "서울대 한국어 2A 학생 읽기 자료 · 6과 어휘/문법/예문/말하기 기반",
-  "questionCount": 24,
+  "source": "서울대 한국어 2A 학생책·워크북 6과 어휘/문법 기반 문장배틀 재구성",
+  "grammarFocus": "N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다",
+  "questionCount": 20,
   "questions": [
     {
       "id": "SNU-2A-06-001",
-      "displaySentence": "비행기로 보내면 얼마예요?",
+      "displaySentence": "비행기로 소포를 보내려고 해요.",
       "tokens": [
         [
           "SNU-2A-06-001_card_0",
@@ -18,15 +19,15 @@
         ],
         [
           "SNU-2A-06-001_card_2",
-          "보내면"
+          "소포"
         ],
         [
           "SNU-2A-06-001_card_3",
-          "얼마"
+          "를"
         ],
         [
           "SNU-2A-06-001_card_4",
-          "예요"
+          "보내려고 해요"
         ]
       ],
       "acceptedOrders": [
@@ -38,31 +39,40 @@
           "SNU-2A-06-001_card_4"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-002",
-      "displaySentence": "삼만 팔천 원입니다.",
+      "displaySentence": "배로 보내면 요금이 더 싸요.",
       "tokens": [
         [
           "SNU-2A-06-002_card_0",
-          "삼"
+          "배"
         ],
         [
           "SNU-2A-06-002_card_1",
-          "만"
+          "로"
         ],
         [
           "SNU-2A-06-002_card_2",
-          "팔천"
+          "보내면"
         ],
         [
           "SNU-2A-06-002_card_3",
-          "원"
+          "요금"
         ],
         [
           "SNU-2A-06-002_card_4",
-          "입니다"
+          "이"
+        ],
+        [
+          "SNU-2A-06-002_card_5",
+          "더"
+        ],
+        [
+          "SNU-2A-06-002_card_6",
+          "싸요"
         ]
       ],
       "acceptedOrders": [
@@ -71,122 +81,163 @@
           "SNU-2A-06-002_card_1",
           "SNU-2A-06-002_card_2",
           "SNU-2A-06-002_card_3",
-          "SNU-2A-06-002_card_4"
+          "SNU-2A-06-002_card_4",
+          "SNU-2A-06-002_card_5",
+          "SNU-2A-06-002_card_6"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-003",
-      "displaySentence": "휴대 전화로 사진을 찍었어요.",
+      "displaySentence": "연필로 상자에 주소를 썼어요.",
       "tokens": [
         [
           "SNU-2A-06-003_card_0",
-          "휴대"
-        ],
-        [
-          "SNU-2A-06-003_card_1",
-          "전화"
-        ],
-        [
-          "SNU-2A-06-003_card_2",
-          "로"
-        ],
-        [
-          "SNU-2A-06-003_card_3",
-          "사진"
-        ],
-        [
-          "SNU-2A-06-003_card_4",
-          "을"
-        ],
-        [
-          "SNU-2A-06-003_card_5",
-          "찍었어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-003_card_0",
-          "SNU-2A-06-003_card_1",
-          "SNU-2A-06-003_card_2",
-          "SNU-2A-06-003_card_3",
-          "SNU-2A-06-003_card_4",
-          "SNU-2A-06-003_card_5"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-004",
-      "displaySentence": "이 수건으로 닦으세요.",
-      "tokens": [
-        [
-          "SNU-2A-06-004_card_0",
-          "이"
-        ],
-        [
-          "SNU-2A-06-004_card_1",
-          "수건"
-        ],
-        [
-          "SNU-2A-06-004_card_2",
-          "으로"
-        ],
-        [
-          "SNU-2A-06-004_card_3",
-          "닦으세요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-004_card_0",
-          "SNU-2A-06-004_card_1",
-          "SNU-2A-06-004_card_2",
-          "SNU-2A-06-004_card_3"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-005",
-      "displaySentence": "연필로 편지를 썼어요.",
-      "tokens": [
-        [
-          "SNU-2A-06-005_card_0",
           "연필"
         ],
         [
-          "SNU-2A-06-005_card_1",
+          "SNU-2A-06-003_card_1",
           "로"
         ],
         [
-          "SNU-2A-06-005_card_2",
-          "편지"
+          "SNU-2A-06-003_card_2",
+          "상자"
         ],
         [
-          "SNU-2A-06-005_card_3",
+          "SNU-2A-06-003_card_3",
+          "에"
+        ],
+        [
+          "SNU-2A-06-003_card_4",
+          "주소"
+        ],
+        [
+          "SNU-2A-06-003_card_5",
           "를"
         ],
         [
-          "SNU-2A-06-005_card_4",
+          "SNU-2A-06-003_card_6",
           "썼어요"
         ]
       ],
       "acceptedOrders": [
         [
+          "SNU-2A-06-003_card_0",
+          "SNU-2A-06-003_card_1",
+          "SNU-2A-06-003_card_2",
+          "SNU-2A-06-003_card_3",
+          "SNU-2A-06-003_card_4",
+          "SNU-2A-06-003_card_5",
+          "SNU-2A-06-003_card_6"
+        ]
+      ],
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-06-004",
+      "displaySentence": "휴대 전화로 친구에게 문자를 보냈어요.",
+      "tokens": [
+        [
+          "SNU-2A-06-004_card_0",
+          "휴대"
+        ],
+        [
+          "SNU-2A-06-004_card_1",
+          "전화"
+        ],
+        [
+          "SNU-2A-06-004_card_2",
+          "로"
+        ],
+        [
+          "SNU-2A-06-004_card_3",
+          "친구"
+        ],
+        [
+          "SNU-2A-06-004_card_4",
+          "에게"
+        ],
+        [
+          "SNU-2A-06-004_card_5",
+          "문자"
+        ],
+        [
+          "SNU-2A-06-004_card_6",
+          "를"
+        ],
+        [
+          "SNU-2A-06-004_card_7",
+          "보냈어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-06-004_card_0",
+          "SNU-2A-06-004_card_1",
+          "SNU-2A-06-004_card_2",
+          "SNU-2A-06-004_card_3",
+          "SNU-2A-06-004_card_4",
+          "SNU-2A-06-004_card_5",
+          "SNU-2A-06-004_card_6",
+          "SNU-2A-06-004_card_7"
+        ]
+      ],
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-06-005",
+      "displaySentence": "현금 인출기로 필요한 돈을 찾았어요.",
+      "tokens": [
+        [
+          "SNU-2A-06-005_card_0",
+          "현금"
+        ],
+        [
+          "SNU-2A-06-005_card_1",
+          "인출기"
+        ],
+        [
+          "SNU-2A-06-005_card_2",
+          "로"
+        ],
+        [
+          "SNU-2A-06-005_card_3",
+          "필요한"
+        ],
+        [
+          "SNU-2A-06-005_card_4",
+          "돈"
+        ],
+        [
+          "SNU-2A-06-005_card_5",
+          "을"
+        ],
+        [
+          "SNU-2A-06-005_card_6",
+          "찾았어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
           "SNU-2A-06-005_card_0",
           "SNU-2A-06-005_card_1",
           "SNU-2A-06-005_card_2",
           "SNU-2A-06-005_card_3",
-          "SNU-2A-06-005_card_4"
+          "SNU-2A-06-005_card_4",
+          "SNU-2A-06-005_card_5",
+          "SNU-2A-06-005_card_6"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-006",
-      "displaySentence": "오늘 보내면 이번 주에 받을 수 있을까요?",
+      "displaySentence": "오늘은 일요일이라서 은행이 쉬어요.",
       "tokens": [
         [
           "SNU-2A-06-006_card_0",
@@ -194,35 +245,23 @@
         ],
         [
           "SNU-2A-06-006_card_1",
-          "보내면"
+          "은"
         ],
         [
           "SNU-2A-06-006_card_2",
-          "이번"
+          "일요일이라서"
         ],
         [
           "SNU-2A-06-006_card_3",
-          "주"
+          "은행"
         ],
         [
           "SNU-2A-06-006_card_4",
-          "에"
+          "이"
         ],
         [
           "SNU-2A-06-006_card_5",
-          "받"
-        ],
-        [
-          "SNU-2A-06-006_card_6",
-          "을"
-        ],
-        [
-          "SNU-2A-06-006_card_7",
-          "수"
-        ],
-        [
-          "SNU-2A-06-006_card_8",
-          "있을까요"
+          "쉬어요"
         ]
       ],
       "acceptedOrders": [
@@ -232,287 +271,249 @@
           "SNU-2A-06-006_card_2",
           "SNU-2A-06-006_card_3",
           "SNU-2A-06-006_card_4",
-          "SNU-2A-06-006_card_5",
-          "SNU-2A-06-006_card_6",
-          "SNU-2A-06-006_card_7",
-          "SNU-2A-06-006_card_8"
+          "SNU-2A-06-006_card_5"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-007",
-      "displaySentence": "내일이 휴일이라서 다음 주 월요일쯤 도착할 거예요.",
+      "displaySentence": "해외로 보낼 소포라서 단단하게 포장했어요.",
       "tokens": [
         [
           "SNU-2A-06-007_card_0",
-          "내일"
+          "해외"
         ],
         [
           "SNU-2A-06-007_card_1",
-          "이"
-        ],
-        [
-          "SNU-2A-06-007_card_2",
-          "휴일이라서"
-        ],
-        [
-          "SNU-2A-06-007_card_3",
-          "다음"
-        ],
-        [
-          "SNU-2A-06-007_card_4",
-          "주"
-        ],
-        [
-          "SNU-2A-06-007_card_5",
-          "월요일쯤"
-        ],
-        [
-          "SNU-2A-06-007_card_6",
-          "도착할"
-        ],
-        [
-          "SNU-2A-06-007_card_7",
-          "거"
-        ],
-        [
-          "SNU-2A-06-007_card_8",
-          "예요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-007_card_0",
-          "SNU-2A-06-007_card_1",
-          "SNU-2A-06-007_card_2",
-          "SNU-2A-06-007_card_3",
-          "SNU-2A-06-007_card_4",
-          "SNU-2A-06-007_card_5",
-          "SNU-2A-06-007_card_6",
-          "SNU-2A-06-007_card_7",
-          "SNU-2A-06-007_card_8"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-008",
-      "displaySentence": "저는 취미가 요리라서 요리책을 많이 사요.",
-      "tokens": [
-        [
-          "SNU-2A-06-008_card_0",
-          "저"
-        ],
-        [
-          "SNU-2A-06-008_card_1",
-          "는"
-        ],
-        [
-          "SNU-2A-06-008_card_2",
-          "취미"
-        ],
-        [
-          "SNU-2A-06-008_card_3",
-          "가"
-        ],
-        [
-          "SNU-2A-06-008_card_4",
-          "요리라서"
-        ],
-        [
-          "SNU-2A-06-008_card_5",
-          "요리책"
-        ],
-        [
-          "SNU-2A-06-008_card_6",
-          "을"
-        ],
-        [
-          "SNU-2A-06-008_card_7",
-          "많이"
-        ],
-        [
-          "SNU-2A-06-008_card_8",
-          "사요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-008_card_0",
-          "SNU-2A-06-008_card_1",
-          "SNU-2A-06-008_card_2",
-          "SNU-2A-06-008_card_3",
-          "SNU-2A-06-008_card_4",
-          "SNU-2A-06-008_card_5",
-          "SNU-2A-06-008_card_6",
-          "SNU-2A-06-008_card_7",
-          "SNU-2A-06-008_card_8"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-009",
-      "displaySentence": "겨울이라서 산에 사람들이 별로 없어요.",
-      "tokens": [
-        [
-          "SNU-2A-06-009_card_0",
-          "겨울이라서"
-        ],
-        [
-          "SNU-2A-06-009_card_1",
-          "산"
-        ],
-        [
-          "SNU-2A-06-009_card_2",
-          "에"
-        ],
-        [
-          "SNU-2A-06-009_card_3",
-          "사람들"
-        ],
-        [
-          "SNU-2A-06-009_card_4",
-          "이"
-        ],
-        [
-          "SNU-2A-06-009_card_5",
-          "별로"
-        ],
-        [
-          "SNU-2A-06-009_card_6",
-          "없어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-009_card_0",
-          "SNU-2A-06-009_card_1",
-          "SNU-2A-06-009_card_2",
-          "SNU-2A-06-009_card_3",
-          "SNU-2A-06-009_card_4",
-          "SNU-2A-06-009_card_5",
-          "SNU-2A-06-009_card_6"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-010",
-      "displaySentence": "커피값이 너무 비싼 것 같아요.",
-      "tokens": [
-        [
-          "SNU-2A-06-010_card_0",
-          "커피값"
-        ],
-        [
-          "SNU-2A-06-010_card_1",
-          "이"
-        ],
-        [
-          "SNU-2A-06-010_card_2",
-          "너무"
-        ],
-        [
-          "SNU-2A-06-010_card_3",
-          "비싼"
-        ],
-        [
-          "SNU-2A-06-010_card_4",
-          "것"
-        ],
-        [
-          "SNU-2A-06-010_card_5",
-          "같아요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-010_card_0",
-          "SNU-2A-06-010_card_1",
-          "SNU-2A-06-010_card_2",
-          "SNU-2A-06-010_card_3",
-          "SNU-2A-06-010_card_4",
-          "SNU-2A-06-010_card_5"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-011",
-      "displaySentence": "작년보다 많이 올랐어요.",
-      "tokens": [
-        [
-          "SNU-2A-06-011_card_0",
-          "작년"
-        ],
-        [
-          "SNU-2A-06-011_card_1",
-          "보다"
-        ],
-        [
-          "SNU-2A-06-011_card_2",
-          "많이"
-        ],
-        [
-          "SNU-2A-06-011_card_3",
-          "올랐어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-011_card_0",
-          "SNU-2A-06-011_card_1",
-          "SNU-2A-06-011_card_2",
-          "SNU-2A-06-011_card_3"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-012",
-      "displaySentence": "지금 길이 복잡해서 지하철로 가는 게 더 빨라요.",
-      "tokens": [
-        [
-          "SNU-2A-06-012_card_0",
-          "지금"
-        ],
-        [
-          "SNU-2A-06-012_card_1",
-          "길"
-        ],
-        [
-          "SNU-2A-06-012_card_2",
-          "이"
-        ],
-        [
-          "SNU-2A-06-012_card_3",
-          "복잡해서"
-        ],
-        [
-          "SNU-2A-06-012_card_4",
-          "지하철"
-        ],
-        [
-          "SNU-2A-06-012_card_5",
           "로"
         ],
         [
-          "SNU-2A-06-012_card_6",
-          "가는"
+          "SNU-2A-06-007_card_2",
+          "보낼"
         ],
         [
-          "SNU-2A-06-012_card_7",
-          "게"
+          "SNU-2A-06-007_card_3",
+          "소포라서"
         ],
         [
-          "SNU-2A-06-012_card_8",
-          "더"
+          "SNU-2A-06-007_card_4",
+          "단단하게"
         ],
         [
-          "SNU-2A-06-012_card_9",
-          "빨라요"
+          "SNU-2A-06-007_card_5",
+          "포장했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-06-007_card_0",
+          "SNU-2A-06-007_card_1",
+          "SNU-2A-06-007_card_2",
+          "SNU-2A-06-007_card_3",
+          "SNU-2A-06-007_card_4",
+          "SNU-2A-06-007_card_5"
+        ]
+      ],
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-06-008",
+      "displaySentence": "외국인이라서 신분증을 먼저 보여 줬어요.",
+      "tokens": [
+        [
+          "SNU-2A-06-008_card_0",
+          "외국인이라서"
+        ],
+        [
+          "SNU-2A-06-008_card_1",
+          "신분증"
+        ],
+        [
+          "SNU-2A-06-008_card_2",
+          "을"
+        ],
+        [
+          "SNU-2A-06-008_card_3",
+          "먼저"
+        ],
+        [
+          "SNU-2A-06-008_card_4",
+          "보여"
+        ],
+        [
+          "SNU-2A-06-008_card_5",
+          "줬어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-06-008_card_0",
+          "SNU-2A-06-008_card_1",
+          "SNU-2A-06-008_card_2",
+          "SNU-2A-06-008_card_3",
+          "SNU-2A-06-008_card_4",
+          "SNU-2A-06-008_card_5"
+        ]
+      ],
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-06-009",
+      "displaySentence": "선물이라서 상자에 예쁘게 넣었어요.",
+      "tokens": [
+        [
+          "SNU-2A-06-009_card_0",
+          "선물이라서"
+        ],
+        [
+          "SNU-2A-06-009_card_1",
+          "상자"
+        ],
+        [
+          "SNU-2A-06-009_card_2",
+          "에"
+        ],
+        [
+          "SNU-2A-06-009_card_3",
+          "예쁘게"
+        ],
+        [
+          "SNU-2A-06-009_card_4",
+          "넣었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-06-009_card_0",
+          "SNU-2A-06-009_card_1",
+          "SNU-2A-06-009_card_2",
+          "SNU-2A-06-009_card_3",
+          "SNU-2A-06-009_card_4"
+        ]
+      ],
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-06-010",
+      "displaySentence": "봉투에 우표를 붙이면 돼요.",
+      "tokens": [
+        [
+          "SNU-2A-06-010_card_0",
+          "봉투"
+        ],
+        [
+          "SNU-2A-06-010_card_1",
+          "에"
+        ],
+        [
+          "SNU-2A-06-010_card_2",
+          "우표"
+        ],
+        [
+          "SNU-2A-06-010_card_3",
+          "를"
+        ],
+        [
+          "SNU-2A-06-010_card_4",
+          "붙이면 돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-06-010_card_0",
+          "SNU-2A-06-010_card_1",
+          "SNU-2A-06-010_card_2",
+          "SNU-2A-06-010_card_3",
+          "SNU-2A-06-010_card_4"
+        ]
+      ],
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-06-011",
+      "displaySentence": "여기에 받는 사람 주소를 쓰면 돼요.",
+      "tokens": [
+        [
+          "SNU-2A-06-011_card_0",
+          "여기"
+        ],
+        [
+          "SNU-2A-06-011_card_1",
+          "에"
+        ],
+        [
+          "SNU-2A-06-011_card_2",
+          "받"
+        ],
+        [
+          "SNU-2A-06-011_card_3",
+          "는"
+        ],
+        [
+          "SNU-2A-06-011_card_4",
+          "사람"
+        ],
+        [
+          "SNU-2A-06-011_card_5",
+          "주소"
+        ],
+        [
+          "SNU-2A-06-011_card_6",
+          "를"
+        ],
+        [
+          "SNU-2A-06-011_card_7",
+          "쓰면 돼요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SNU-2A-06-011_card_0",
+          "SNU-2A-06-011_card_1",
+          "SNU-2A-06-011_card_2",
+          "SNU-2A-06-011_card_3",
+          "SNU-2A-06-011_card_4",
+          "SNU-2A-06-011_card_5",
+          "SNU-2A-06-011_card_6",
+          "SNU-2A-06-011_card_7"
+        ]
+      ],
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
+    },
+    {
+      "id": "SNU-2A-06-012",
+      "displaySentence": "번호표를 뽑고 차례를 기다리면 돼요.",
+      "tokens": [
+        [
+          "SNU-2A-06-012_card_0",
+          "번호표"
+        ],
+        [
+          "SNU-2A-06-012_card_1",
+          "를"
+        ],
+        [
+          "SNU-2A-06-012_card_2",
+          "뽑고"
+        ],
+        [
+          "SNU-2A-06-012_card_3",
+          "차례"
+        ],
+        [
+          "SNU-2A-06-012_card_4",
+          "를"
+        ],
+        [
+          "SNU-2A-06-012_card_5",
+          "기다리면 돼요"
         ]
       ],
       "acceptedOrders": [
@@ -522,46 +523,39 @@
           "SNU-2A-06-012_card_2",
           "SNU-2A-06-012_card_3",
           "SNU-2A-06-012_card_4",
-          "SNU-2A-06-012_card_5",
-          "SNU-2A-06-012_card_6",
-          "SNU-2A-06-012_card_7",
-          "SNU-2A-06-012_card_8",
-          "SNU-2A-06-012_card_9"
+          "SNU-2A-06-012_card_5"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-013",
-      "displaySentence": "저는 노래를 잘 못 불러요.",
+      "displaySentence": "현금 인출기에서 비밀번호를 누르면 돼요.",
       "tokens": [
         [
           "SNU-2A-06-013_card_0",
-          "저"
+          "현금"
         ],
         [
           "SNU-2A-06-013_card_1",
-          "는"
+          "인출기"
         ],
         [
           "SNU-2A-06-013_card_2",
-          "노래"
+          "에서"
         ],
         [
           "SNU-2A-06-013_card_3",
+          "비밀번호"
+        ],
+        [
+          "SNU-2A-06-013_card_4",
           "를"
         ],
         [
-          "SNU-2A-06-013_card_4",
-          "잘"
-        ],
-        [
           "SNU-2A-06-013_card_5",
-          "못"
-        ],
-        [
-          "SNU-2A-06-013_card_6",
-          "불러요"
+          "누르면 돼요"
         ]
       ],
       "acceptedOrders": [
@@ -571,61 +565,81 @@
           "SNU-2A-06-013_card_2",
           "SNU-2A-06-013_card_3",
           "SNU-2A-06-013_card_4",
-          "SNU-2A-06-013_card_5",
-          "SNU-2A-06-013_card_6"
+          "SNU-2A-06-013_card_5"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-014",
-      "displaySentence": "외국인등록증도 필요해요?",
+      "displaySentence": "통장을 만들려면 여기에 서명하면 돼요.",
       "tokens": [
         [
           "SNU-2A-06-014_card_0",
-          "외국인등록증"
+          "통장"
         ],
         [
           "SNU-2A-06-014_card_1",
-          "도"
+          "을"
         ],
         [
           "SNU-2A-06-014_card_2",
-          "필요해요"
+          "만들려면"
+        ],
+        [
+          "SNU-2A-06-014_card_3",
+          "여기"
+        ],
+        [
+          "SNU-2A-06-014_card_4",
+          "에"
+        ],
+        [
+          "SNU-2A-06-014_card_5",
+          "서명하면 돼요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-2A-06-014_card_0",
           "SNU-2A-06-014_card_1",
-          "SNU-2A-06-014_card_2"
+          "SNU-2A-06-014_card_2",
+          "SNU-2A-06-014_card_3",
+          "SNU-2A-06-014_card_4",
+          "SNU-2A-06-014_card_5"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-015",
-      "displaySentence": "아니요, 여권만 있으면 돼요.",
+      "displaySentence": "이 소포는 비행기로 보낸 것 같아요.",
       "tokens": [
         [
           "SNU-2A-06-015_card_0",
-          "아니요"
+          "이"
         ],
         [
           "SNU-2A-06-015_card_1",
-          "여권"
+          "소포"
         ],
         [
           "SNU-2A-06-015_card_2",
-          "만"
+          "는"
         ],
         [
           "SNU-2A-06-015_card_3",
-          "있으면"
+          "비행기"
         ],
         [
           "SNU-2A-06-015_card_4",
-          "돼요"
+          "로"
+        ],
+        [
+          "SNU-2A-06-015_card_5",
+          "보낸 것 같아요"
         ]
       ],
       "acceptedOrders": [
@@ -634,38 +648,44 @@
           "SNU-2A-06-015_card_1",
           "SNU-2A-06-015_card_2",
           "SNU-2A-06-015_card_3",
-          "SNU-2A-06-015_card_4"
+          "SNU-2A-06-015_card_4",
+          "SNU-2A-06-015_card_5"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-016",
-      "displaySentence": "내일 아침에 일찍 와야 돼요?",
+      "displaySentence": "저 사람은 방금 돈을 찾은 것 같아요.",
       "tokens": [
         [
           "SNU-2A-06-016_card_0",
-          "내일"
+          "저"
         ],
         [
           "SNU-2A-06-016_card_1",
-          "아침"
+          "사람"
         ],
         [
           "SNU-2A-06-016_card_2",
-          "에"
+          "은"
         ],
         [
           "SNU-2A-06-016_card_3",
-          "일찍"
+          "방금"
         ],
         [
           "SNU-2A-06-016_card_4",
-          "와야"
+          "돈"
         ],
         [
           "SNU-2A-06-016_card_5",
-          "돼요"
+          "을"
+        ],
+        [
+          "SNU-2A-06-016_card_6",
+          "찾은 것 같아요"
         ]
       ],
       "acceptedOrders": [
@@ -675,34 +695,44 @@
           "SNU-2A-06-016_card_2",
           "SNU-2A-06-016_card_3",
           "SNU-2A-06-016_card_4",
-          "SNU-2A-06-016_card_5"
+          "SNU-2A-06-016_card_5",
+          "SNU-2A-06-016_card_6"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-017",
-      "displaySentence": "아니요, 열 시까지만 오면 돼요.",
+      "displaySentence": "친구가 제 문자를 이미 받은 것 같아요.",
       "tokens": [
         [
           "SNU-2A-06-017_card_0",
-          "아니요"
+          "친구"
         ],
         [
           "SNU-2A-06-017_card_1",
-          "열"
+          "가"
         ],
         [
           "SNU-2A-06-017_card_2",
-          "시까지만"
+          "제"
         ],
         [
           "SNU-2A-06-017_card_3",
-          "오면"
+          "문자"
         ],
         [
           "SNU-2A-06-017_card_4",
-          "돼요"
+          "를"
+        ],
+        [
+          "SNU-2A-06-017_card_5",
+          "이미"
+        ],
+        [
+          "SNU-2A-06-017_card_6",
+          "받은 것 같아요"
         ]
       ],
       "acceptedOrders": [
@@ -711,74 +741,104 @@
           "SNU-2A-06-017_card_1",
           "SNU-2A-06-017_card_2",
           "SNU-2A-06-017_card_3",
-          "SNU-2A-06-017_card_4"
+          "SNU-2A-06-017_card_4",
+          "SNU-2A-06-017_card_5",
+          "SNU-2A-06-017_card_6"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-018",
-      "displaySentence": "벌써 한 시네요.",
+      "displaySentence": "우체국에서 오래 기다린 것 같아요.",
       "tokens": [
         [
           "SNU-2A-06-018_card_0",
-          "벌써"
+          "우체국"
         ],
         [
           "SNU-2A-06-018_card_1",
-          "한"
+          "에서"
         ],
         [
           "SNU-2A-06-018_card_2",
-          "시네요"
+          "오래"
+        ],
+        [
+          "SNU-2A-06-018_card_3",
+          "기다린 것 같아요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-2A-06-018_card_0",
           "SNU-2A-06-018_card_1",
-          "SNU-2A-06-018_card_2"
+          "SNU-2A-06-018_card_2",
+          "SNU-2A-06-018_card_3"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-019",
-      "displaySentence": "지금 가면 늦을까요?",
+      "displaySentence": "소포 안에 겨울옷이 들어 있는 것 같아요.",
       "tokens": [
         [
           "SNU-2A-06-019_card_0",
-          "지금"
+          "소포"
         ],
         [
           "SNU-2A-06-019_card_1",
-          "가면"
+          "안"
         ],
         [
           "SNU-2A-06-019_card_2",
-          "늦을까요"
+          "에"
+        ],
+        [
+          "SNU-2A-06-019_card_3",
+          "겨울옷"
+        ],
+        [
+          "SNU-2A-06-019_card_4",
+          "이"
+        ],
+        [
+          "SNU-2A-06-019_card_5",
+          "들어"
+        ],
+        [
+          "SNU-2A-06-019_card_6",
+          "있는 것 같아요"
         ]
       ],
       "acceptedOrders": [
         [
           "SNU-2A-06-019_card_0",
           "SNU-2A-06-019_card_1",
-          "SNU-2A-06-019_card_2"
+          "SNU-2A-06-019_card_2",
+          "SNU-2A-06-019_card_3",
+          "SNU-2A-06-019_card_4",
+          "SNU-2A-06-019_card_5",
+          "SNU-2A-06-019_card_6"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     },
     {
       "id": "SNU-2A-06-020",
-      "displaySentence": "늦지 않을 거예요.",
+      "displaySentence": "환전 방법을 모르면 은행 직원에게 물으면 돼요.",
       "tokens": [
         [
           "SNU-2A-06-020_card_0",
-          "늦지"
+          "환전"
         ],
         [
           "SNU-2A-06-020_card_1",
-          "않"
+          "방법"
         ],
         [
           "SNU-2A-06-020_card_2",
@@ -786,11 +846,23 @@
         ],
         [
           "SNU-2A-06-020_card_3",
-          "거"
+          "모르면"
         ],
         [
           "SNU-2A-06-020_card_4",
-          "예요"
+          "은행"
+        ],
+        [
+          "SNU-2A-06-020_card_5",
+          "직원"
+        ],
+        [
+          "SNU-2A-06-020_card_6",
+          "에게"
+        ],
+        [
+          "SNU-2A-06-020_card_7",
+          "물으면 돼요"
         ]
       ],
       "acceptedOrders": [
@@ -799,184 +871,14 @@
           "SNU-2A-06-020_card_1",
           "SNU-2A-06-020_card_2",
           "SNU-2A-06-020_card_3",
-          "SNU-2A-06-020_card_4"
+          "SNU-2A-06-020_card_4",
+          "SNU-2A-06-020_card_5",
+          "SNU-2A-06-020_card_6",
+          "SNU-2A-06-020_card_7"
         ]
       ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-021",
-      "displaySentence": "지금 빨리 출발하면 돼요.",
-      "tokens": [
-        [
-          "SNU-2A-06-021_card_0",
-          "지금"
-        ],
-        [
-          "SNU-2A-06-021_card_1",
-          "빨리"
-        ],
-        [
-          "SNU-2A-06-021_card_2",
-          "출발하면"
-        ],
-        [
-          "SNU-2A-06-021_card_3",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-021_card_0",
-          "SNU-2A-06-021_card_1",
-          "SNU-2A-06-021_card_2",
-          "SNU-2A-06-021_card_3"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-022",
-      "displaySentence": "은행에 갈 시간이 없는데 어떻게 하지요?",
-      "tokens": [
-        [
-          "SNU-2A-06-022_card_0",
-          "은행"
-        ],
-        [
-          "SNU-2A-06-022_card_1",
-          "에"
-        ],
-        [
-          "SNU-2A-06-022_card_2",
-          "갈"
-        ],
-        [
-          "SNU-2A-06-022_card_3",
-          "시간"
-        ],
-        [
-          "SNU-2A-06-022_card_4",
-          "이"
-        ],
-        [
-          "SNU-2A-06-022_card_5",
-          "없는데"
-        ],
-        [
-          "SNU-2A-06-022_card_6",
-          "어떻게"
-        ],
-        [
-          "SNU-2A-06-022_card_7",
-          "하지요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-022_card_0",
-          "SNU-2A-06-022_card_1",
-          "SNU-2A-06-022_card_2",
-          "SNU-2A-06-022_card_3",
-          "SNU-2A-06-022_card_4",
-          "SNU-2A-06-022_card_5",
-          "SNU-2A-06-022_card_6",
-          "SNU-2A-06-022_card_7"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-023",
-      "displaySentence": "저쪽에 있는 현금 인출기에서 찾으면 돼요.",
-      "tokens": [
-        [
-          "SNU-2A-06-023_card_0",
-          "저쪽"
-        ],
-        [
-          "SNU-2A-06-023_card_1",
-          "에"
-        ],
-        [
-          "SNU-2A-06-023_card_2",
-          "있는"
-        ],
-        [
-          "SNU-2A-06-023_card_3",
-          "현금"
-        ],
-        [
-          "SNU-2A-06-023_card_4",
-          "인출기"
-        ],
-        [
-          "SNU-2A-06-023_card_5",
-          "에서"
-        ],
-        [
-          "SNU-2A-06-023_card_6",
-          "찾으면"
-        ],
-        [
-          "SNU-2A-06-023_card_7",
-          "돼요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-023_card_0",
-          "SNU-2A-06-023_card_1",
-          "SNU-2A-06-023_card_2",
-          "SNU-2A-06-023_card_3",
-          "SNU-2A-06-023_card_4",
-          "SNU-2A-06-023_card_5",
-          "SNU-2A-06-023_card_6",
-          "SNU-2A-06-023_card_7"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
-    },
-    {
-      "id": "SNU-2A-06-024",
-      "displaySentence": "유진 씨, 스티븐 씨 지금 없어요?",
-      "tokens": [
-        [
-          "SNU-2A-06-024_card_0",
-          "유진"
-        ],
-        [
-          "SNU-2A-06-024_card_1",
-          "씨"
-        ],
-        [
-          "SNU-2A-06-024_card_2",
-          "스티븐"
-        ],
-        [
-          "SNU-2A-06-024_card_3",
-          "씨"
-        ],
-        [
-          "SNU-2A-06-024_card_4",
-          "지금"
-        ],
-        [
-          "SNU-2A-06-024_card_5",
-          "없어요"
-        ]
-      ],
-      "acceptedOrders": [
-        [
-          "SNU-2A-06-024_card_0",
-          "SNU-2A-06-024_card_1",
-          "SNU-2A-06-024_card_2",
-          "SNU-2A-06-024_card_3",
-          "SNU-2A-06-024_card_4",
-          "SNU-2A-06-024_card_5"
-        ]
-      ],
-      "note": "서울대 2A 6과 교재 기반"
+      "note": "서울대 2A 6과 어휘·문법 기반 재구성",
+      "sourceRef": "SNU 2A SB/WB 교재 구성표 문법(N(으)로; N(이)라서; ㄹ 불규칙; V-(으)면 되다; V-(으)ㄴ 것 같다) + data/snu/2A/lesson06.json 어휘 기반 재구성"
     }
   ]
 }
