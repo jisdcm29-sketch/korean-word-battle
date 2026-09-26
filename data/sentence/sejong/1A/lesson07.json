@@ -1,0 +1,762 @@
+{
+  "book": "1A",
+  "lesson": 7,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1A 및 세종한국어 어휘 문법과 표현 1A의 7과 어휘·문법 범위",
+  "selectionPolicy": [
+    "해당 과 핵심 문법과 어휘를 우선하고 이전 과 문법은 누적 활용",
+    "이후 과의 핵심 문법은 미리 도입하지 않음",
+    "질문·대답 한 세트 동시 출제를 피하고 문맥 없이 짧은 네/아니요 응답은 제외",
+    "문장 앞의 불필요한 접속사·간투사·단순 긍정/부정 대답은 사용하지 않음",
+    "최종 카드 4~8장을 우선하고 동일 골격 반복을 줄임"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1A-07-V1-001",
+      "displaySentence": "월요일에 뭐 해요?",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-001_card_0",
+          "월요일"
+        ],
+        [
+          "SEJONG-1A-07-V1-001_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-001_card_2",
+          "뭐"
+        ],
+        [
+          "SEJONG-1A-07-V1-001_card_3",
+          "해요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-001_card_0",
+          "SEJONG-1A-07-V1-001_card_1",
+          "SEJONG-1A-07-V1-001_card_2",
+          "SEJONG-1A-07-V1-001_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-002",
+      "displaySentence": "화요일에 영화를 봐요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-002_card_0",
+          "화요일"
+        ],
+        [
+          "SEJONG-1A-07-V1-002_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-002_card_2",
+          "영화"
+        ],
+        [
+          "SEJONG-1A-07-V1-002_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-07-V1-002_card_4",
+          "봐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-002_card_0",
+          "SEJONG-1A-07-V1-002_card_1",
+          "SEJONG-1A-07-V1-002_card_2",
+          "SEJONG-1A-07-V1-002_card_3",
+          "SEJONG-1A-07-V1-002_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-003",
+      "displaySentence": "수요일에 한국어 수업이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-003_card_0",
+          "수요일"
+        ],
+        [
+          "SEJONG-1A-07-V1-003_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-003_card_2",
+          "한국어"
+        ],
+        [
+          "SEJONG-1A-07-V1-003_card_3",
+          "수업"
+        ],
+        [
+          "SEJONG-1A-07-V1-003_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1A-07-V1-003_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-003_card_0",
+          "SEJONG-1A-07-V1-003_card_1",
+          "SEJONG-1A-07-V1-003_card_2",
+          "SEJONG-1A-07-V1-003_card_3",
+          "SEJONG-1A-07-V1-003_card_4",
+          "SEJONG-1A-07-V1-003_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-004",
+      "displaySentence": "목요일에 세종학당에 가요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-004_card_0",
+          "목요일"
+        ],
+        [
+          "SEJONG-1A-07-V1-004_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-004_card_2",
+          "세종학당"
+        ],
+        [
+          "SEJONG-1A-07-V1-004_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-004_card_4",
+          "가요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-004_card_0",
+          "SEJONG-1A-07-V1-004_card_1",
+          "SEJONG-1A-07-V1-004_card_2",
+          "SEJONG-1A-07-V1-004_card_3",
+          "SEJONG-1A-07-V1-004_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-005",
+      "displaySentence": "금요일에 수영을 해요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-005_card_0",
+          "금요일"
+        ],
+        [
+          "SEJONG-1A-07-V1-005_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-005_card_2",
+          "수영"
+        ],
+        [
+          "SEJONG-1A-07-V1-005_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-07-V1-005_card_4",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-005_card_0",
+          "SEJONG-1A-07-V1-005_card_1",
+          "SEJONG-1A-07-V1-005_card_2",
+          "SEJONG-1A-07-V1-005_card_3",
+          "SEJONG-1A-07-V1-005_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-006",
+      "displaySentence": "토요일에 친구를 만나요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-006_card_0",
+          "토요일"
+        ],
+        [
+          "SEJONG-1A-07-V1-006_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-006_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-07-V1-006_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-07-V1-006_card_4",
+          "만나요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-006_card_0",
+          "SEJONG-1A-07-V1-006_card_1",
+          "SEJONG-1A-07-V1-006_card_2",
+          "SEJONG-1A-07-V1-006_card_3",
+          "SEJONG-1A-07-V1-006_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-007",
+      "displaySentence": "일요일에 한국 영화를 봐요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-007_card_0",
+          "일요일"
+        ],
+        [
+          "SEJONG-1A-07-V1-007_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-007_card_2",
+          "한국"
+        ],
+        [
+          "SEJONG-1A-07-V1-007_card_3",
+          "영화"
+        ],
+        [
+          "SEJONG-1A-07-V1-007_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1A-07-V1-007_card_5",
+          "봐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-007_card_0",
+          "SEJONG-1A-07-V1-007_card_1",
+          "SEJONG-1A-07-V1-007_card_2",
+          "SEJONG-1A-07-V1-007_card_3",
+          "SEJONG-1A-07-V1-007_card_4",
+          "SEJONG-1A-07-V1-007_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-008",
+      "displaySentence": "팔월 오일에 여행을 가요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-008_card_0",
+          "팔월 오일"
+        ],
+        [
+          "SEJONG-1A-07-V1-008_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-008_card_2",
+          "여행"
+        ],
+        [
+          "SEJONG-1A-07-V1-008_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-07-V1-008_card_4",
+          "가요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-008_card_0",
+          "SEJONG-1A-07-V1-008_card_1",
+          "SEJONG-1A-07-V1-008_card_2",
+          "SEJONG-1A-07-V1-008_card_3",
+          "SEJONG-1A-07-V1-008_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-009",
+      "displaySentence": "생일은 십일월 삼일이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-009_card_0",
+          "생일"
+        ],
+        [
+          "SEJONG-1A-07-V1-009_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1A-07-V1-009_card_2",
+          "십일월 삼일"
+        ],
+        [
+          "SEJONG-1A-07-V1-009_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-009_card_0",
+          "SEJONG-1A-07-V1-009_card_1",
+          "SEJONG-1A-07-V1-009_card_2",
+          "SEJONG-1A-07-V1-009_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-010",
+      "displaySentence": "생일이 언제예요?",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-010_card_0",
+          "생일"
+        ],
+        [
+          "SEJONG-1A-07-V1-010_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1A-07-V1-010_card_2",
+          "언제"
+        ],
+        [
+          "SEJONG-1A-07-V1-010_card_3",
+          "예요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-010_card_0",
+          "SEJONG-1A-07-V1-010_card_1",
+          "SEJONG-1A-07-V1-010_card_2",
+          "SEJONG-1A-07-V1-010_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-011",
+      "displaySentence": "주말에 아르바이트를 해요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-011_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-1A-07-V1-011_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-011_card_2",
+          "아르바이트"
+        ],
+        [
+          "SEJONG-1A-07-V1-011_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-07-V1-011_card_4",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-011_card_0",
+          "SEJONG-1A-07-V1-011_card_1",
+          "SEJONG-1A-07-V1-011_card_2",
+          "SEJONG-1A-07-V1-011_card_3",
+          "SEJONG-1A-07-V1-011_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-012",
+      "displaySentence": "아침 일곱 시에 일어나요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-012_card_0",
+          "아침"
+        ],
+        [
+          "SEJONG-1A-07-V1-012_card_1",
+          "일곱 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-012_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-012_card_3",
+          "일어나요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-012_card_0",
+          "SEJONG-1A-07-V1-012_card_1",
+          "SEJONG-1A-07-V1-012_card_2",
+          "SEJONG-1A-07-V1-012_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-013",
+      "displaySentence": "점심 열두 시에 밥을 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-013_card_0",
+          "점심"
+        ],
+        [
+          "SEJONG-1A-07-V1-013_card_1",
+          "열두 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-013_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-013_card_3",
+          "밥"
+        ],
+        [
+          "SEJONG-1A-07-V1-013_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1A-07-V1-013_card_5",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-013_card_0",
+          "SEJONG-1A-07-V1-013_card_1",
+          "SEJONG-1A-07-V1-013_card_2",
+          "SEJONG-1A-07-V1-013_card_3",
+          "SEJONG-1A-07-V1-013_card_4",
+          "SEJONG-1A-07-V1-013_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-014",
+      "displaySentence": "오후 세 시에 친구를 만나요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-014_card_0",
+          "오후"
+        ],
+        [
+          "SEJONG-1A-07-V1-014_card_1",
+          "세 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-014_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-014_card_3",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-07-V1-014_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1A-07-V1-014_card_5",
+          "만나요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-014_card_0",
+          "SEJONG-1A-07-V1-014_card_1",
+          "SEJONG-1A-07-V1-014_card_2",
+          "SEJONG-1A-07-V1-014_card_3",
+          "SEJONG-1A-07-V1-014_card_4",
+          "SEJONG-1A-07-V1-014_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-015",
+      "displaySentence": "저녁 여섯 시에 운동을 해요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-015_card_0",
+          "저녁"
+        ],
+        [
+          "SEJONG-1A-07-V1-015_card_1",
+          "여섯 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-015_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-015_card_3",
+          "운동"
+        ],
+        [
+          "SEJONG-1A-07-V1-015_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1A-07-V1-015_card_5",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-015_card_0",
+          "SEJONG-1A-07-V1-015_card_1",
+          "SEJONG-1A-07-V1-015_card_2",
+          "SEJONG-1A-07-V1-015_card_3",
+          "SEJONG-1A-07-V1-015_card_4",
+          "SEJONG-1A-07-V1-015_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-016",
+      "displaySentence": "수업은 아홉 시에 시작해요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-016_card_0",
+          "수업"
+        ],
+        [
+          "SEJONG-1A-07-V1-016_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1A-07-V1-016_card_2",
+          "아홉 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-016_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-016_card_4",
+          "시작해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-016_card_0",
+          "SEJONG-1A-07-V1-016_card_1",
+          "SEJONG-1A-07-V1-016_card_2",
+          "SEJONG-1A-07-V1-016_card_3",
+          "SEJONG-1A-07-V1-016_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-017",
+      "displaySentence": "회의는 몇 시에 시작해요?",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-017_card_0",
+          "회의"
+        ],
+        [
+          "SEJONG-1A-07-V1-017_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-07-V1-017_card_2",
+          "몇 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-017_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-017_card_4",
+          "시작해요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-017_card_0",
+          "SEJONG-1A-07-V1-017_card_1",
+          "SEJONG-1A-07-V1-017_card_2",
+          "SEJONG-1A-07-V1-017_card_3",
+          "SEJONG-1A-07-V1-017_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-018",
+      "displaySentence": "지금 몇 시예요?",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-018_card_0",
+          "지금"
+        ],
+        [
+          "SEJONG-1A-07-V1-018_card_1",
+          "몇"
+        ],
+        [
+          "SEJONG-1A-07-V1-018_card_2",
+          "시"
+        ],
+        [
+          "SEJONG-1A-07-V1-018_card_3",
+          "예요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-018_card_0",
+          "SEJONG-1A-07-V1-018_card_1",
+          "SEJONG-1A-07-V1-018_card_2",
+          "SEJONG-1A-07-V1-018_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-019",
+      "displaySentence": "오후 네 시 삼십 분에 운동해요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-019_card_0",
+          "오후"
+        ],
+        [
+          "SEJONG-1A-07-V1-019_card_1",
+          "네 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-019_card_2",
+          "삼십 분"
+        ],
+        [
+          "SEJONG-1A-07-V1-019_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-019_card_4",
+          "운동해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-019_card_0",
+          "SEJONG-1A-07-V1-019_card_1",
+          "SEJONG-1A-07-V1-019_card_2",
+          "SEJONG-1A-07-V1-019_card_3",
+          "SEJONG-1A-07-V1-019_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-07-V1-020",
+      "displaySentence": "여덟 시 십삼 분에 수업이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-07-V1-020_card_0",
+          "여덟 시"
+        ],
+        [
+          "SEJONG-1A-07-V1-020_card_1",
+          "십삼 분"
+        ],
+        [
+          "SEJONG-1A-07-V1-020_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-07-V1-020_card_3",
+          "수업"
+        ],
+        [
+          "SEJONG-1A-07-V1-020_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1A-07-V1-020_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-07-V1-020_card_0",
+          "SEJONG-1A-07-V1-020_card_1",
+          "SEJONG-1A-07-V1-020_card_2",
+          "SEJONG-1A-07-V1-020_card_3",
+          "SEJONG-1A-07-V1-020_card_4",
+          "SEJONG-1A-07-V1-020_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 7과 · 에(시간)/○ 시 ○ 분 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 7과 · 문법/어휘 범위 재구성"
+    }
+  ]
+}

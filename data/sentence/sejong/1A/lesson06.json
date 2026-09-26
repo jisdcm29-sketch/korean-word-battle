@@ -1,0 +1,702 @@
+{
+  "book": "1A",
+  "lesson": 6,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1A 및 세종한국어 어휘 문법과 표현 1A의 6과 어휘·문법 범위",
+  "selectionPolicy": [
+    "해당 과 핵심 문법과 어휘를 우선하고 이전 과 문법은 누적 활용",
+    "이후 과의 핵심 문법은 미리 도입하지 않음",
+    "질문·대답 한 세트 동시 출제를 피하고 문맥 없이 짧은 네/아니요 응답은 제외",
+    "문장 앞의 불필요한 접속사·간투사·단순 긍정/부정 대답은 사용하지 않음",
+    "최종 카드 4~8장을 우선하고 동일 골격 반복을 줄임"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1A-06-V1-001",
+      "displaySentence": "사과 다섯 개 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-001_card_0",
+          "사과"
+        ],
+        [
+          "SEJONG-1A-06-V1-001_card_1",
+          "다섯"
+        ],
+        [
+          "SEJONG-1A-06-V1-001_card_2",
+          "개"
+        ],
+        [
+          "SEJONG-1A-06-V1-001_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-001_card_0",
+          "SEJONG-1A-06-V1-001_card_1",
+          "SEJONG-1A-06-V1-001_card_2",
+          "SEJONG-1A-06-V1-001_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-002",
+      "displaySentence": "커피를 한 잔 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-002_card_0",
+          "커피"
+        ],
+        [
+          "SEJONG-1A-06-V1-002_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1A-06-V1-002_card_2",
+          "한 잔"
+        ],
+        [
+          "SEJONG-1A-06-V1-002_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-002_card_0",
+          "SEJONG-1A-06-V1-002_card_1",
+          "SEJONG-1A-06-V1-002_card_2",
+          "SEJONG-1A-06-V1-002_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-003",
+      "displaySentence": "교실에 학생이 두 명 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-003_card_0",
+          "교실"
+        ],
+        [
+          "SEJONG-1A-06-V1-003_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-06-V1-003_card_2",
+          "학생"
+        ],
+        [
+          "SEJONG-1A-06-V1-003_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-1A-06-V1-003_card_4",
+          "두 명"
+        ],
+        [
+          "SEJONG-1A-06-V1-003_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-003_card_0",
+          "SEJONG-1A-06-V1-003_card_1",
+          "SEJONG-1A-06-V1-003_card_2",
+          "SEJONG-1A-06-V1-003_card_3",
+          "SEJONG-1A-06-V1-003_card_4",
+          "SEJONG-1A-06-V1-003_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-004",
+      "displaySentence": "공원에 고양이가 세 마리 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-004_card_0",
+          "공원"
+        ],
+        [
+          "SEJONG-1A-06-V1-004_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-06-V1-004_card_2",
+          "고양이"
+        ],
+        [
+          "SEJONG-1A-06-V1-004_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-1A-06-V1-004_card_4",
+          "세 마리"
+        ],
+        [
+          "SEJONG-1A-06-V1-004_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-004_card_0",
+          "SEJONG-1A-06-V1-004_card_1",
+          "SEJONG-1A-06-V1-004_card_2",
+          "SEJONG-1A-06-V1-004_card_3",
+          "SEJONG-1A-06-V1-004_card_4",
+          "SEJONG-1A-06-V1-004_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-005",
+      "displaySentence": "책상에 펜이 네 개 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-005_card_0",
+          "책상"
+        ],
+        [
+          "SEJONG-1A-06-V1-005_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-06-V1-005_card_2",
+          "펜"
+        ],
+        [
+          "SEJONG-1A-06-V1-005_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-1A-06-V1-005_card_4",
+          "네 개"
+        ],
+        [
+          "SEJONG-1A-06-V1-005_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-005_card_0",
+          "SEJONG-1A-06-V1-005_card_1",
+          "SEJONG-1A-06-V1-005_card_2",
+          "SEJONG-1A-06-V1-005_card_3",
+          "SEJONG-1A-06-V1-005_card_4",
+          "SEJONG-1A-06-V1-005_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-006",
+      "displaySentence": "제 동생은 열한 살이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-006_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-1A-06-V1-006_card_1",
+          "동생"
+        ],
+        [
+          "SEJONG-1A-06-V1-006_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-06-V1-006_card_3",
+          "열한 살"
+        ],
+        [
+          "SEJONG-1A-06-V1-006_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-006_card_0",
+          "SEJONG-1A-06-V1-006_card_1",
+          "SEJONG-1A-06-V1-006_card_2",
+          "SEJONG-1A-06-V1-006_card_3",
+          "SEJONG-1A-06-V1-006_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-007",
+      "displaySentence": "물을 한 병 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-007_card_0",
+          "물"
+        ],
+        [
+          "SEJONG-1A-06-V1-007_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1A-06-V1-007_card_2",
+          "한 병"
+        ],
+        [
+          "SEJONG-1A-06-V1-007_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-007_card_0",
+          "SEJONG-1A-06-V1-007_card_1",
+          "SEJONG-1A-06-V1-007_card_2",
+          "SEJONG-1A-06-V1-007_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-008",
+      "displaySentence": "책을 두 권 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-008_card_0",
+          "책"
+        ],
+        [
+          "SEJONG-1A-06-V1-008_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1A-06-V1-008_card_2",
+          "두 권"
+        ],
+        [
+          "SEJONG-1A-06-V1-008_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-008_card_0",
+          "SEJONG-1A-06-V1-008_card_1",
+          "SEJONG-1A-06-V1-008_card_2",
+          "SEJONG-1A-06-V1-008_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-009",
+      "displaySentence": "종이를 다섯 장 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-009_card_0",
+          "종이"
+        ],
+        [
+          "SEJONG-1A-06-V1-009_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1A-06-V1-009_card_2",
+          "다섯 장"
+        ],
+        [
+          "SEJONG-1A-06-V1-009_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-009_card_0",
+          "SEJONG-1A-06-V1-009_card_1",
+          "SEJONG-1A-06-V1-009_card_2",
+          "SEJONG-1A-06-V1-009_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-010",
+      "displaySentence": "계란이 아홉 개 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-010_card_0",
+          "계란"
+        ],
+        [
+          "SEJONG-1A-06-V1-010_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1A-06-V1-010_card_2",
+          "아홉 개"
+        ],
+        [
+          "SEJONG-1A-06-V1-010_card_3",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-010_card_0",
+          "SEJONG-1A-06-V1-010_card_1",
+          "SEJONG-1A-06-V1-010_card_2",
+          "SEJONG-1A-06-V1-010_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-011",
+      "displaySentence": "이 책을 읽으세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-011_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-1A-06-V1-011_card_1",
+          "책"
+        ],
+        [
+          "SEJONG-1A-06-V1-011_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1A-06-V1-011_card_3",
+          "읽으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-011_card_0",
+          "SEJONG-1A-06-V1-011_card_1",
+          "SEJONG-1A-06-V1-011_card_2",
+          "SEJONG-1A-06-V1-011_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-012",
+      "displaySentence": "다음 대화를 완성하세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-012_card_0",
+          "다음"
+        ],
+        [
+          "SEJONG-1A-06-V1-012_card_1",
+          "대화"
+        ],
+        [
+          "SEJONG-1A-06-V1-012_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-1A-06-V1-012_card_3",
+          "완성하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-012_card_0",
+          "SEJONG-1A-06-V1-012_card_1",
+          "SEJONG-1A-06-V1-012_card_2",
+          "SEJONG-1A-06-V1-012_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-013",
+      "displaySentence": "알맞은 것을 서로 연결하세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-013_card_0",
+          "알맞은 것"
+        ],
+        [
+          "SEJONG-1A-06-V1-013_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1A-06-V1-013_card_2",
+          "서로"
+        ],
+        [
+          "SEJONG-1A-06-V1-013_card_3",
+          "연결하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-013_card_0",
+          "SEJONG-1A-06-V1-013_card_1",
+          "SEJONG-1A-06-V1-013_card_2",
+          "SEJONG-1A-06-V1-013_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-014",
+      "displaySentence": "내일 학교에 일찍 오세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-014_card_0",
+          "내일"
+        ],
+        [
+          "SEJONG-1A-06-V1-014_card_1",
+          "학교"
+        ],
+        [
+          "SEJONG-1A-06-V1-014_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-06-V1-014_card_3",
+          "일찍"
+        ],
+        [
+          "SEJONG-1A-06-V1-014_card_4",
+          "오세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-014_card_0",
+          "SEJONG-1A-06-V1-014_card_1",
+          "SEJONG-1A-06-V1-014_card_2",
+          "SEJONG-1A-06-V1-014_card_3",
+          "SEJONG-1A-06-V1-014_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-015",
+      "displaySentence": "8번 버스를 타세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-015_card_0",
+          "8번"
+        ],
+        [
+          "SEJONG-1A-06-V1-015_card_1",
+          "버스"
+        ],
+        [
+          "SEJONG-1A-06-V1-015_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-1A-06-V1-015_card_3",
+          "타세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-015_card_0",
+          "SEJONG-1A-06-V1-015_card_1",
+          "SEJONG-1A-06-V1-015_card_2",
+          "SEJONG-1A-06-V1-015_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-016",
+      "displaySentence": "여기 의자에 편하게 앉으세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-016_card_0",
+          "여기"
+        ],
+        [
+          "SEJONG-1A-06-V1-016_card_1",
+          "의자"
+        ],
+        [
+          "SEJONG-1A-06-V1-016_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-06-V1-016_card_3",
+          "편하게"
+        ],
+        [
+          "SEJONG-1A-06-V1-016_card_4",
+          "앉으세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-016_card_0",
+          "SEJONG-1A-06-V1-016_card_1",
+          "SEJONG-1A-06-V1-016_card_2",
+          "SEJONG-1A-06-V1-016_card_3",
+          "SEJONG-1A-06-V1-016_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-017",
+      "displaySentence": "이 질문에 대답하세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-017_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-1A-06-V1-017_card_1",
+          "질문"
+        ],
+        [
+          "SEJONG-1A-06-V1-017_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-06-V1-017_card_3",
+          "대답하세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-017_card_0",
+          "SEJONG-1A-06-V1-017_card_1",
+          "SEJONG-1A-06-V1-017_card_2",
+          "SEJONG-1A-06-V1-017_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-018",
+      "displaySentence": "한국어 책을 펴세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-018_card_0",
+          "한국어"
+        ],
+        [
+          "SEJONG-1A-06-V1-018_card_1",
+          "책"
+        ],
+        [
+          "SEJONG-1A-06-V1-018_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1A-06-V1-018_card_3",
+          "펴세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-018_card_0",
+          "SEJONG-1A-06-V1-018_card_1",
+          "SEJONG-1A-06-V1-018_card_2",
+          "SEJONG-1A-06-V1-018_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-019",
+      "displaySentence": "여기 이름을 쓰세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-019_card_0",
+          "여기"
+        ],
+        [
+          "SEJONG-1A-06-V1-019_card_1",
+          "이름"
+        ],
+        [
+          "SEJONG-1A-06-V1-019_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1A-06-V1-019_card_3",
+          "쓰세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-019_card_0",
+          "SEJONG-1A-06-V1-019_card_1",
+          "SEJONG-1A-06-V1-019_card_2",
+          "SEJONG-1A-06-V1-019_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-06-V1-020",
+      "displaySentence": "계란 열 개 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1A-06-V1-020_card_0",
+          "계란"
+        ],
+        [
+          "SEJONG-1A-06-V1-020_card_1",
+          "열"
+        ],
+        [
+          "SEJONG-1A-06-V1-020_card_2",
+          "개"
+        ],
+        [
+          "SEJONG-1A-06-V1-020_card_3",
+          "주세요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-06-V1-020_card_0",
+          "SEJONG-1A-06-V1-020_card_1",
+          "SEJONG-1A-06-V1-020_card_2",
+          "SEJONG-1A-06-V1-020_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 6과 · 단위 명사/-(으)세요 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 6과 · 문법/어휘 범위 재구성"
+    }
+  ]
+}

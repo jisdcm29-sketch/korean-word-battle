@@ -1,0 +1,722 @@
+{
+  "book": "1A",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1A 및 세종한국어 어휘 문법과 표현 1A의 9과 어휘·문법 범위",
+  "selectionPolicy": [
+    "해당 과 핵심 문법과 어휘를 우선하고 이전 과 문법은 누적 활용",
+    "이후 과의 핵심 문법은 미리 도입하지 않음",
+    "질문·대답 한 세트 동시 출제를 피하고 문맥 없이 짧은 네/아니요 응답은 제외",
+    "문장 앞의 불필요한 접속사·간투사·단순 긍정/부정 대답은 사용하지 않음",
+    "최종 카드 4~8장을 우선하고 동일 골격 반복을 줄임"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1A-09-V1-001",
+      "displaySentence": "주말에 공원에서 산책했어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-001_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-1A-09-V1-001_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-09-V1-001_card_2",
+          "공원"
+        ],
+        [
+          "SEJONG-1A-09-V1-001_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-001_card_4",
+          "산책했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-001_card_0",
+          "SEJONG-1A-09-V1-001_card_1",
+          "SEJONG-1A-09-V1-001_card_2",
+          "SEJONG-1A-09-V1-001_card_3",
+          "SEJONG-1A-09-V1-001_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-002",
+      "displaySentence": "놀이공원에서 친구하고 놀았어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-002_card_0",
+          "놀이공원"
+        ],
+        [
+          "SEJONG-1A-09-V1-002_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-002_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-09-V1-002_card_3",
+          "하고"
+        ],
+        [
+          "SEJONG-1A-09-V1-002_card_4",
+          "놀았어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-002_card_0",
+          "SEJONG-1A-09-V1-002_card_1",
+          "SEJONG-1A-09-V1-002_card_2",
+          "SEJONG-1A-09-V1-002_card_3",
+          "SEJONG-1A-09-V1-002_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-003",
+      "displaySentence": "박물관에서 친구하고 구경했어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-003_card_0",
+          "박물관"
+        ],
+        [
+          "SEJONG-1A-09-V1-003_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-003_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-09-V1-003_card_3",
+          "하고"
+        ],
+        [
+          "SEJONG-1A-09-V1-003_card_4",
+          "구경했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-003_card_0",
+          "SEJONG-1A-09-V1-003_card_1",
+          "SEJONG-1A-09-V1-003_card_2",
+          "SEJONG-1A-09-V1-003_card_3",
+          "SEJONG-1A-09-V1-003_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-004",
+      "displaySentence": "어제 수영장에서 수영했어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-004_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1A-09-V1-004_card_1",
+          "수영장"
+        ],
+        [
+          "SEJONG-1A-09-V1-004_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-004_card_3",
+          "수영했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-004_card_0",
+          "SEJONG-1A-09-V1-004_card_1",
+          "SEJONG-1A-09-V1-004_card_2",
+          "SEJONG-1A-09-V1-004_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-005",
+      "displaySentence": "집에서 방을 청소했어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-005_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-1A-09-V1-005_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-005_card_2",
+          "방"
+        ],
+        [
+          "SEJONG-1A-09-V1-005_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-09-V1-005_card_4",
+          "청소했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-005_card_0",
+          "SEJONG-1A-09-V1-005_card_1",
+          "SEJONG-1A-09-V1-005_card_2",
+          "SEJONG-1A-09-V1-005_card_3",
+          "SEJONG-1A-09-V1-005_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-006",
+      "displaySentence": "공원에서 자전거를 탔어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-006_card_0",
+          "공원"
+        ],
+        [
+          "SEJONG-1A-09-V1-006_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-006_card_2",
+          "자전거"
+        ],
+        [
+          "SEJONG-1A-09-V1-006_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-09-V1-006_card_4",
+          "탔어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-006_card_0",
+          "SEJONG-1A-09-V1-006_card_1",
+          "SEJONG-1A-09-V1-006_card_2",
+          "SEJONG-1A-09-V1-006_card_3",
+          "SEJONG-1A-09-V1-006_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-007",
+      "displaySentence": "어제 집에서 쉬었어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-007_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1A-09-V1-007_card_1",
+          "집"
+        ],
+        [
+          "SEJONG-1A-09-V1-007_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-007_card_3",
+          "쉬었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-007_card_0",
+          "SEJONG-1A-09-V1-007_card_1",
+          "SEJONG-1A-09-V1-007_card_2",
+          "SEJONG-1A-09-V1-007_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-008",
+      "displaySentence": "친구하고 김밥을 만들었어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-008_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-09-V1-008_card_1",
+          "하고"
+        ],
+        [
+          "SEJONG-1A-09-V1-008_card_2",
+          "김밥"
+        ],
+        [
+          "SEJONG-1A-09-V1-008_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-09-V1-008_card_4",
+          "만들었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-008_card_0",
+          "SEJONG-1A-09-V1-008_card_1",
+          "SEJONG-1A-09-V1-008_card_2",
+          "SEJONG-1A-09-V1-008_card_3",
+          "SEJONG-1A-09-V1-008_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-009",
+      "displaySentence": "어제 한국 영화를 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-009_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1A-09-V1-009_card_1",
+          "한국"
+        ],
+        [
+          "SEJONG-1A-09-V1-009_card_2",
+          "영화"
+        ],
+        [
+          "SEJONG-1A-09-V1-009_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-09-V1-009_card_4",
+          "봤어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-009_card_0",
+          "SEJONG-1A-09-V1-009_card_1",
+          "SEJONG-1A-09-V1-009_card_2",
+          "SEJONG-1A-09-V1-009_card_3",
+          "SEJONG-1A-09-V1-009_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-010",
+      "displaySentence": "도서관에서 책을 읽었어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-010_card_0",
+          "도서관"
+        ],
+        [
+          "SEJONG-1A-09-V1-010_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-010_card_2",
+          "책"
+        ],
+        [
+          "SEJONG-1A-09-V1-010_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-09-V1-010_card_4",
+          "읽었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-010_card_0",
+          "SEJONG-1A-09-V1-010_card_1",
+          "SEJONG-1A-09-V1-010_card_2",
+          "SEJONG-1A-09-V1-010_card_3",
+          "SEJONG-1A-09-V1-010_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-011",
+      "displaySentence": "식당에서 불고기를 먹었어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-011_card_0",
+          "식당"
+        ],
+        [
+          "SEJONG-1A-09-V1-011_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-011_card_2",
+          "불고기"
+        ],
+        [
+          "SEJONG-1A-09-V1-011_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-09-V1-011_card_4",
+          "먹었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-011_card_0",
+          "SEJONG-1A-09-V1-011_card_1",
+          "SEJONG-1A-09-V1-011_card_2",
+          "SEJONG-1A-09-V1-011_card_3",
+          "SEJONG-1A-09-V1-011_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-012",
+      "displaySentence": "카페에서 친구를 만났어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-012_card_0",
+          "카페"
+        ],
+        [
+          "SEJONG-1A-09-V1-012_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-012_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-09-V1-012_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-09-V1-012_card_4",
+          "만났어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-012_card_0",
+          "SEJONG-1A-09-V1-012_card_1",
+          "SEJONG-1A-09-V1-012_card_2",
+          "SEJONG-1A-09-V1-012_card_3",
+          "SEJONG-1A-09-V1-012_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-013",
+      "displaySentence": "회사에서 하루 종일 일했어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-013_card_0",
+          "회사"
+        ],
+        [
+          "SEJONG-1A-09-V1-013_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-013_card_2",
+          "하루 종일"
+        ],
+        [
+          "SEJONG-1A-09-V1-013_card_3",
+          "일했어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-013_card_0",
+          "SEJONG-1A-09-V1-013_card_1",
+          "SEJONG-1A-09-V1-013_card_2",
+          "SEJONG-1A-09-V1-013_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-014",
+      "displaySentence": "백화점에서 옷을 샀어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-014_card_0",
+          "백화점"
+        ],
+        [
+          "SEJONG-1A-09-V1-014_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-014_card_2",
+          "옷"
+        ],
+        [
+          "SEJONG-1A-09-V1-014_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-09-V1-014_card_4",
+          "샀어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-014_card_0",
+          "SEJONG-1A-09-V1-014_card_1",
+          "SEJONG-1A-09-V1-014_card_2",
+          "SEJONG-1A-09-V1-014_card_3",
+          "SEJONG-1A-09-V1-014_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-015",
+      "displaySentence": "어제 날씨가 더웠어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-015_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1A-09-V1-015_card_1",
+          "날씨"
+        ],
+        [
+          "SEJONG-1A-09-V1-015_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-1A-09-V1-015_card_3",
+          "더웠어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-015_card_0",
+          "SEJONG-1A-09-V1-015_card_1",
+          "SEJONG-1A-09-V1-015_card_2",
+          "SEJONG-1A-09-V1-015_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-016",
+      "displaySentence": "놀이공원이 아주 재미있었어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-016_card_0",
+          "놀이공원"
+        ],
+        [
+          "SEJONG-1A-09-V1-016_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1A-09-V1-016_card_2",
+          "아주"
+        ],
+        [
+          "SEJONG-1A-09-V1-016_card_3",
+          "재미있었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-016_card_0",
+          "SEJONG-1A-09-V1-016_card_1",
+          "SEJONG-1A-09-V1-016_card_2",
+          "SEJONG-1A-09-V1-016_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-017",
+      "displaySentence": "어제 기분이 정말 좋았어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-017_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1A-09-V1-017_card_1",
+          "기분"
+        ],
+        [
+          "SEJONG-1A-09-V1-017_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-1A-09-V1-017_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-1A-09-V1-017_card_4",
+          "좋았어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-017_card_0",
+          "SEJONG-1A-09-V1-017_card_1",
+          "SEJONG-1A-09-V1-017_card_2",
+          "SEJONG-1A-09-V1-017_card_3",
+          "SEJONG-1A-09-V1-017_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-018",
+      "displaySentence": "어제 무엇을 했어요?",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-018_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1A-09-V1-018_card_1",
+          "무엇"
+        ],
+        [
+          "SEJONG-1A-09-V1-018_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1A-09-V1-018_card_3",
+          "했어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-018_card_0",
+          "SEJONG-1A-09-V1-018_card_1",
+          "SEJONG-1A-09-V1-018_card_2",
+          "SEJONG-1A-09-V1-018_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-019",
+      "displaySentence": "주말에 어디에서 놀았어요?",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-019_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-1A-09-V1-019_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-09-V1-019_card_2",
+          "어디"
+        ],
+        [
+          "SEJONG-1A-09-V1-019_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-09-V1-019_card_4",
+          "놀았어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-019_card_0",
+          "SEJONG-1A-09-V1-019_card_1",
+          "SEJONG-1A-09-V1-019_card_2",
+          "SEJONG-1A-09-V1-019_card_3",
+          "SEJONG-1A-09-V1-019_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-09-V1-020",
+      "displaySentence": "어제 누구하고 산책했어요?",
+      "tokens": [
+        [
+          "SEJONG-1A-09-V1-020_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1A-09-V1-020_card_1",
+          "누구"
+        ],
+        [
+          "SEJONG-1A-09-V1-020_card_2",
+          "하고"
+        ],
+        [
+          "SEJONG-1A-09-V1-020_card_3",
+          "산책했어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-09-V1-020_card_0",
+          "SEJONG-1A-09-V1-020_card_1",
+          "SEJONG-1A-09-V1-020_card_2",
+          "SEJONG-1A-09-V1-020_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 9과 · 에서/-았/었- 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 9과 · 문법/어휘 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,762 @@
+{
+  "book": "1A",
+  "lesson": 10,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1A 및 세종한국어 어휘 문법과 표현 1A의 10과 어휘·문법 범위",
+  "selectionPolicy": [
+    "해당 과 핵심 문법과 어휘를 우선하고 이전 과 문법은 누적 활용",
+    "이후 과의 핵심 문법은 미리 도입하지 않음",
+    "질문·대답 한 세트 동시 출제를 피하고 문맥 없이 짧은 네/아니요 응답은 제외",
+    "문장 앞의 불필요한 접속사·간투사·단순 긍정/부정 대답은 사용하지 않음",
+    "최종 카드 4~8장을 우선하고 동일 골격 반복을 줄임"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1A-10-V1-001",
+      "displaySentence": "저는 한국 음식을 먹고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-001_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1A-10-V1-001_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-10-V1-001_card_2",
+          "한국"
+        ],
+        [
+          "SEJONG-1A-10-V1-001_card_3",
+          "음식"
+        ],
+        [
+          "SEJONG-1A-10-V1-001_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1A-10-V1-001_card_5",
+          "먹고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-001_card_0",
+          "SEJONG-1A-10-V1-001_card_1",
+          "SEJONG-1A-10-V1-001_card_2",
+          "SEJONG-1A-10-V1-001_card_3",
+          "SEJONG-1A-10-V1-001_card_4",
+          "SEJONG-1A-10-V1-001_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-002",
+      "displaySentence": "주말에 축구를 하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-002_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-1A-10-V1-002_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-002_card_2",
+          "축구"
+        ],
+        [
+          "SEJONG-1A-10-V1-002_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-10-V1-002_card_4",
+          "하고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-002_card_0",
+          "SEJONG-1A-10-V1-002_card_1",
+          "SEJONG-1A-10-V1-002_card_2",
+          "SEJONG-1A-10-V1-002_card_3",
+          "SEJONG-1A-10-V1-002_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-003",
+      "displaySentence": "제주도에서 사진을 찍고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-003_card_0",
+          "제주도"
+        ],
+        [
+          "SEJONG-1A-10-V1-003_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-10-V1-003_card_2",
+          "사진"
+        ],
+        [
+          "SEJONG-1A-10-V1-003_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-10-V1-003_card_4",
+          "찍고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-003_card_0",
+          "SEJONG-1A-10-V1-003_card_1",
+          "SEJONG-1A-10-V1-003_card_2",
+          "SEJONG-1A-10-V1-003_card_3",
+          "SEJONG-1A-10-V1-003_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-004",
+      "displaySentence": "저는 한강에서 걷고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-004_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1A-10-V1-004_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-10-V1-004_card_2",
+          "한강"
+        ],
+        [
+          "SEJONG-1A-10-V1-004_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-10-V1-004_card_4",
+          "걷고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-004_card_0",
+          "SEJONG-1A-10-V1-004_card_1",
+          "SEJONG-1A-10-V1-004_card_2",
+          "SEJONG-1A-10-V1-004_card_3",
+          "SEJONG-1A-10-V1-004_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-005",
+      "displaySentence": "카페에서 커피를 마시고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-005_card_0",
+          "카페"
+        ],
+        [
+          "SEJONG-1A-10-V1-005_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-10-V1-005_card_2",
+          "커피"
+        ],
+        [
+          "SEJONG-1A-10-V1-005_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-10-V1-005_card_4",
+          "마시고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-005_card_0",
+          "SEJONG-1A-10-V1-005_card_1",
+          "SEJONG-1A-10-V1-005_card_2",
+          "SEJONG-1A-10-V1-005_card_3",
+          "SEJONG-1A-10-V1-005_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-006",
+      "displaySentence": "방학에 제주도에 가고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-006_card_0",
+          "방학"
+        ],
+        [
+          "SEJONG-1A-10-V1-006_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-006_card_2",
+          "제주도"
+        ],
+        [
+          "SEJONG-1A-10-V1-006_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-006_card_4",
+          "가고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-006_card_0",
+          "SEJONG-1A-10-V1-006_card_1",
+          "SEJONG-1A-10-V1-006_card_2",
+          "SEJONG-1A-10-V1-006_card_3",
+          "SEJONG-1A-10-V1-006_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-007",
+      "displaySentence": "한강에서 친구하고 산책하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-007_card_0",
+          "한강"
+        ],
+        [
+          "SEJONG-1A-10-V1-007_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-10-V1-007_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-10-V1-007_card_3",
+          "하고"
+        ],
+        [
+          "SEJONG-1A-10-V1-007_card_4",
+          "산책하고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-007_card_0",
+          "SEJONG-1A-10-V1-007_card_1",
+          "SEJONG-1A-10-V1-007_card_2",
+          "SEJONG-1A-10-V1-007_card_3",
+          "SEJONG-1A-10-V1-007_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-008",
+      "displaySentence": "친구하고 농구를 하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-008_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-10-V1-008_card_1",
+          "하고"
+        ],
+        [
+          "SEJONG-1A-10-V1-008_card_2",
+          "농구"
+        ],
+        [
+          "SEJONG-1A-10-V1-008_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-10-V1-008_card_4",
+          "하고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-008_card_0",
+          "SEJONG-1A-10-V1-008_card_1",
+          "SEJONG-1A-10-V1-008_card_2",
+          "SEJONG-1A-10-V1-008_card_3",
+          "SEJONG-1A-10-V1-008_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-009",
+      "displaySentence": "주말에 등산을 하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-009_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-1A-10-V1-009_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-009_card_2",
+          "등산"
+        ],
+        [
+          "SEJONG-1A-10-V1-009_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-10-V1-009_card_4",
+          "하고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-009_card_0",
+          "SEJONG-1A-10-V1-009_card_1",
+          "SEJONG-1A-10-V1-009_card_2",
+          "SEJONG-1A-10-V1-009_card_3",
+          "SEJONG-1A-10-V1-009_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-010",
+      "displaySentence": "저는 쇼핑몰에 가고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-010_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1A-10-V1-010_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-10-V1-010_card_2",
+          "쇼핑몰"
+        ],
+        [
+          "SEJONG-1A-10-V1-010_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-010_card_4",
+          "가고 싶어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-010_card_0",
+          "SEJONG-1A-10-V1-010_card_1",
+          "SEJONG-1A-10-V1-010_card_2",
+          "SEJONG-1A-10-V1-010_card_3",
+          "SEJONG-1A-10-V1-010_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-011",
+      "displaySentence": "여기에서 사진을 찍을까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-011_card_0",
+          "여기"
+        ],
+        [
+          "SEJONG-1A-10-V1-011_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-10-V1-011_card_2",
+          "사진"
+        ],
+        [
+          "SEJONG-1A-10-V1-011_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-10-V1-011_card_4",
+          "찍을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-011_card_0",
+          "SEJONG-1A-10-V1-011_card_1",
+          "SEJONG-1A-10-V1-011_card_2",
+          "SEJONG-1A-10-V1-011_card_3",
+          "SEJONG-1A-10-V1-011_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-012",
+      "displaySentence": "우리 같이 저녁을 먹을까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-012_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-1A-10-V1-012_card_1",
+          "같이"
+        ],
+        [
+          "SEJONG-1A-10-V1-012_card_2",
+          "저녁"
+        ],
+        [
+          "SEJONG-1A-10-V1-012_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-10-V1-012_card_4",
+          "먹을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-012_card_0",
+          "SEJONG-1A-10-V1-012_card_1",
+          "SEJONG-1A-10-V1-012_card_2",
+          "SEJONG-1A-10-V1-012_card_3",
+          "SEJONG-1A-10-V1-012_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-013",
+      "displaySentence": "오후에 노래방에 갈까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-013_card_0",
+          "오후"
+        ],
+        [
+          "SEJONG-1A-10-V1-013_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-013_card_2",
+          "노래방"
+        ],
+        [
+          "SEJONG-1A-10-V1-013_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-013_card_4",
+          "갈까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-013_card_0",
+          "SEJONG-1A-10-V1-013_card_1",
+          "SEJONG-1A-10-V1-013_card_2",
+          "SEJONG-1A-10-V1-013_card_3",
+          "SEJONG-1A-10-V1-013_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-014",
+      "displaySentence": "내일 같이 영화를 볼까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-014_card_0",
+          "내일"
+        ],
+        [
+          "SEJONG-1A-10-V1-014_card_1",
+          "같이"
+        ],
+        [
+          "SEJONG-1A-10-V1-014_card_2",
+          "영화"
+        ],
+        [
+          "SEJONG-1A-10-V1-014_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-10-V1-014_card_4",
+          "볼까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-014_card_0",
+          "SEJONG-1A-10-V1-014_card_1",
+          "SEJONG-1A-10-V1-014_card_2",
+          "SEJONG-1A-10-V1-014_card_3",
+          "SEJONG-1A-10-V1-014_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-015",
+      "displaySentence": "주말에 놀이공원에서 만날까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-015_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-1A-10-V1-015_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-015_card_2",
+          "놀이공원"
+        ],
+        [
+          "SEJONG-1A-10-V1-015_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-1A-10-V1-015_card_4",
+          "만날까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-015_card_0",
+          "SEJONG-1A-10-V1-015_card_1",
+          "SEJONG-1A-10-V1-015_card_2",
+          "SEJONG-1A-10-V1-015_card_3",
+          "SEJONG-1A-10-V1-015_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-016",
+      "displaySentence": "우리 같이 자전거를 탈까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-016_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-1A-10-V1-016_card_1",
+          "같이"
+        ],
+        [
+          "SEJONG-1A-10-V1-016_card_2",
+          "자전거"
+        ],
+        [
+          "SEJONG-1A-10-V1-016_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1A-10-V1-016_card_4",
+          "탈까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-016_card_0",
+          "SEJONG-1A-10-V1-016_card_1",
+          "SEJONG-1A-10-V1-016_card_2",
+          "SEJONG-1A-10-V1-016_card_3",
+          "SEJONG-1A-10-V1-016_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-017",
+      "displaySentence": "우리 같이 음악을 들을까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-017_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-1A-10-V1-017_card_1",
+          "같이"
+        ],
+        [
+          "SEJONG-1A-10-V1-017_card_2",
+          "음악"
+        ],
+        [
+          "SEJONG-1A-10-V1-017_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-10-V1-017_card_4",
+          "들을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-017_card_0",
+          "SEJONG-1A-10-V1-017_card_1",
+          "SEJONG-1A-10-V1-017_card_2",
+          "SEJONG-1A-10-V1-017_card_3",
+          "SEJONG-1A-10-V1-017_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-018",
+      "displaySentence": "다음 주에 같이 만날까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-018_card_0",
+          "다음 주"
+        ],
+        [
+          "SEJONG-1A-10-V1-018_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-018_card_2",
+          "같이"
+        ],
+        [
+          "SEJONG-1A-10-V1-018_card_3",
+          "만날까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-018_card_0",
+          "SEJONG-1A-10-V1-018_card_1",
+          "SEJONG-1A-10-V1-018_card_2",
+          "SEJONG-1A-10-V1-018_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-019",
+      "displaySentence": "우리 같이 케이팝 콘서트에 갈까요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-019_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-1A-10-V1-019_card_1",
+          "같이"
+        ],
+        [
+          "SEJONG-1A-10-V1-019_card_2",
+          "케이팝"
+        ],
+        [
+          "SEJONG-1A-10-V1-019_card_3",
+          "콘서트"
+        ],
+        [
+          "SEJONG-1A-10-V1-019_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-019_card_5",
+          "갈까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-019_card_0",
+          "SEJONG-1A-10-V1-019_card_1",
+          "SEJONG-1A-10-V1-019_card_2",
+          "SEJONG-1A-10-V1-019_card_3",
+          "SEJONG-1A-10-V1-019_card_4",
+          "SEJONG-1A-10-V1-019_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-10-V1-020",
+      "displaySentence": "방학에 무엇을 하고 싶어요?",
+      "tokens": [
+        [
+          "SEJONG-1A-10-V1-020_card_0",
+          "방학"
+        ],
+        [
+          "SEJONG-1A-10-V1-020_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1A-10-V1-020_card_2",
+          "무엇"
+        ],
+        [
+          "SEJONG-1A-10-V1-020_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1A-10-V1-020_card_4",
+          "하고 싶어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-10-V1-020_card_0",
+          "SEJONG-1A-10-V1-020_card_1",
+          "SEJONG-1A-10-V1-020_card_2",
+          "SEJONG-1A-10-V1-020_card_3",
+          "SEJONG-1A-10-V1-020_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 10과 · -고 싶다/-(으)ㄹ까요? 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 10과 · 문법/어휘 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,842 @@
+{
+  "book": "1A",
+  "lesson": 3,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1A 및 세종한국어 어휘 문법과 표현 1A의 3과 어휘·문법 범위",
+  "selectionPolicy": [
+    "해당 과 핵심 문법과 어휘를 우선하고 이전 과 문법은 누적 활용",
+    "이후 과의 핵심 문법은 미리 도입하지 않음",
+    "질문·대답 한 세트 동시 출제를 피하고 문맥 없이 짧은 네/아니요 응답은 제외",
+    "문장 앞의 불필요한 접속사·간투사·단순 긍정/부정 대답은 사용하지 않음",
+    "최종 카드 4~8장을 우선하고 동일 골격 반복을 줄임"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1A-03-V1-001",
+      "displaySentence": "이 시계는 누구 시계예요?",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-001_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-001_card_1",
+          "시계"
+        ],
+        [
+          "SEJONG-1A-03-V1-001_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-1A-03-V1-001_card_3",
+          "누구"
+        ],
+        [
+          "SEJONG-1A-03-V1-001_card_4",
+          "시계"
+        ],
+        [
+          "SEJONG-1A-03-V1-001_card_5",
+          "예요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-001_card_0",
+          "SEJONG-1A-03-V1-001_card_1",
+          "SEJONG-1A-03-V1-001_card_2",
+          "SEJONG-1A-03-V1-001_card_3",
+          "SEJONG-1A-03-V1-001_card_4",
+          "SEJONG-1A-03-V1-001_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-002",
+      "displaySentence": "그 모자는 유진 씨 모자예요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-002_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-1A-03-V1-002_card_1",
+          "모자"
+        ],
+        [
+          "SEJONG-1A-03-V1-002_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-1A-03-V1-002_card_3",
+          "유진 씨"
+        ],
+        [
+          "SEJONG-1A-03-V1-002_card_4",
+          "모자"
+        ],
+        [
+          "SEJONG-1A-03-V1-002_card_5",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-002_card_0",
+          "SEJONG-1A-03-V1-002_card_1",
+          "SEJONG-1A-03-V1-002_card_2",
+          "SEJONG-1A-03-V1-002_card_3",
+          "SEJONG-1A-03-V1-002_card_4",
+          "SEJONG-1A-03-V1-002_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-003",
+      "displaySentence": "저 가방은 제 가방이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-003_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1A-03-V1-003_card_1",
+          "가방"
+        ],
+        [
+          "SEJONG-1A-03-V1-003_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-03-V1-003_card_3",
+          "제"
+        ],
+        [
+          "SEJONG-1A-03-V1-003_card_4",
+          "가방"
+        ],
+        [
+          "SEJONG-1A-03-V1-003_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-003_card_0",
+          "SEJONG-1A-03-V1-003_card_1",
+          "SEJONG-1A-03-V1-003_card_2",
+          "SEJONG-1A-03-V1-003_card_3",
+          "SEJONG-1A-03-V1-003_card_4",
+          "SEJONG-1A-03-V1-003_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-004",
+      "displaySentence": "이 필통은 제 필통이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-004_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-004_card_1",
+          "필통"
+        ],
+        [
+          "SEJONG-1A-03-V1-004_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-03-V1-004_card_3",
+          "제"
+        ],
+        [
+          "SEJONG-1A-03-V1-004_card_4",
+          "필통"
+        ],
+        [
+          "SEJONG-1A-03-V1-004_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-004_card_0",
+          "SEJONG-1A-03-V1-004_card_1",
+          "SEJONG-1A-03-V1-004_card_2",
+          "SEJONG-1A-03-V1-004_card_3",
+          "SEJONG-1A-03-V1-004_card_4",
+          "SEJONG-1A-03-V1-004_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-005",
+      "displaySentence": "저 사람은 마리 씨예요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-005_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1A-03-V1-005_card_1",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-03-V1-005_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-03-V1-005_card_3",
+          "마리 씨"
+        ],
+        [
+          "SEJONG-1A-03-V1-005_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-005_card_0",
+          "SEJONG-1A-03-V1-005_card_1",
+          "SEJONG-1A-03-V1-005_card_2",
+          "SEJONG-1A-03-V1-005_card_3",
+          "SEJONG-1A-03-V1-005_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-006",
+      "displaySentence": "그 책은 유진 씨 책이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-006_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-1A-03-V1-006_card_1",
+          "책"
+        ],
+        [
+          "SEJONG-1A-03-V1-006_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-03-V1-006_card_3",
+          "유진 씨"
+        ],
+        [
+          "SEJONG-1A-03-V1-006_card_4",
+          "책"
+        ],
+        [
+          "SEJONG-1A-03-V1-006_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-006_card_0",
+          "SEJONG-1A-03-V1-006_card_1",
+          "SEJONG-1A-03-V1-006_card_2",
+          "SEJONG-1A-03-V1-006_card_3",
+          "SEJONG-1A-03-V1-006_card_4",
+          "SEJONG-1A-03-V1-006_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-007",
+      "displaySentence": "책상 위에 책이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-007_card_0",
+          "책상"
+        ],
+        [
+          "SEJONG-1A-03-V1-007_card_1",
+          "위"
+        ],
+        [
+          "SEJONG-1A-03-V1-007_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-007_card_3",
+          "책"
+        ],
+        [
+          "SEJONG-1A-03-V1-007_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-007_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-007_card_0",
+          "SEJONG-1A-03-V1-007_card_1",
+          "SEJONG-1A-03-V1-007_card_2",
+          "SEJONG-1A-03-V1-007_card_3",
+          "SEJONG-1A-03-V1-007_card_4",
+          "SEJONG-1A-03-V1-007_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-008",
+      "displaySentence": "의자 뒤에 가방이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-008_card_0",
+          "의자"
+        ],
+        [
+          "SEJONG-1A-03-V1-008_card_1",
+          "뒤"
+        ],
+        [
+          "SEJONG-1A-03-V1-008_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-008_card_3",
+          "가방"
+        ],
+        [
+          "SEJONG-1A-03-V1-008_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-008_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-008_card_0",
+          "SEJONG-1A-03-V1-008_card_1",
+          "SEJONG-1A-03-V1-008_card_2",
+          "SEJONG-1A-03-V1-008_card_3",
+          "SEJONG-1A-03-V1-008_card_4",
+          "SEJONG-1A-03-V1-008_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-009",
+      "displaySentence": "필통 안에 펜이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-009_card_0",
+          "필통"
+        ],
+        [
+          "SEJONG-1A-03-V1-009_card_1",
+          "안"
+        ],
+        [
+          "SEJONG-1A-03-V1-009_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-009_card_3",
+          "펜"
+        ],
+        [
+          "SEJONG-1A-03-V1-009_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-009_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-009_card_0",
+          "SEJONG-1A-03-V1-009_card_1",
+          "SEJONG-1A-03-V1-009_card_2",
+          "SEJONG-1A-03-V1-009_card_3",
+          "SEJONG-1A-03-V1-009_card_4",
+          "SEJONG-1A-03-V1-009_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-010",
+      "displaySentence": "책상 아래에 우산이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-010_card_0",
+          "책상"
+        ],
+        [
+          "SEJONG-1A-03-V1-010_card_1",
+          "아래"
+        ],
+        [
+          "SEJONG-1A-03-V1-010_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-010_card_3",
+          "우산"
+        ],
+        [
+          "SEJONG-1A-03-V1-010_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-010_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-010_card_0",
+          "SEJONG-1A-03-V1-010_card_1",
+          "SEJONG-1A-03-V1-010_card_2",
+          "SEJONG-1A-03-V1-010_card_3",
+          "SEJONG-1A-03-V1-010_card_4",
+          "SEJONG-1A-03-V1-010_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-011",
+      "displaySentence": "시계가 책상 위에 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-011_card_0",
+          "시계"
+        ],
+        [
+          "SEJONG-1A-03-V1-011_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1A-03-V1-011_card_2",
+          "책상"
+        ],
+        [
+          "SEJONG-1A-03-V1-011_card_3",
+          "위"
+        ],
+        [
+          "SEJONG-1A-03-V1-011_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-011_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-011_card_0",
+          "SEJONG-1A-03-V1-011_card_1",
+          "SEJONG-1A-03-V1-011_card_2",
+          "SEJONG-1A-03-V1-011_card_3",
+          "SEJONG-1A-03-V1-011_card_4",
+          "SEJONG-1A-03-V1-011_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-012",
+      "displaySentence": "핸드폰이 가방 안에 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-012_card_0",
+          "핸드폰"
+        ],
+        [
+          "SEJONG-1A-03-V1-012_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-012_card_2",
+          "가방"
+        ],
+        [
+          "SEJONG-1A-03-V1-012_card_3",
+          "안"
+        ],
+        [
+          "SEJONG-1A-03-V1-012_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-012_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-012_card_0",
+          "SEJONG-1A-03-V1-012_card_1",
+          "SEJONG-1A-03-V1-012_card_2",
+          "SEJONG-1A-03-V1-012_card_3",
+          "SEJONG-1A-03-V1-012_card_4",
+          "SEJONG-1A-03-V1-012_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-013",
+      "displaySentence": "피아노가 교실에 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-013_card_0",
+          "피아노"
+        ],
+        [
+          "SEJONG-1A-03-V1-013_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1A-03-V1-013_card_2",
+          "교실"
+        ],
+        [
+          "SEJONG-1A-03-V1-013_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-013_card_4",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-013_card_0",
+          "SEJONG-1A-03-V1-013_card_1",
+          "SEJONG-1A-03-V1-013_card_2",
+          "SEJONG-1A-03-V1-013_card_3",
+          "SEJONG-1A-03-V1-013_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-014",
+      "displaySentence": "가방이 교실에 없어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-014_card_0",
+          "가방"
+        ],
+        [
+          "SEJONG-1A-03-V1-014_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-014_card_2",
+          "교실"
+        ],
+        [
+          "SEJONG-1A-03-V1-014_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-014_card_4",
+          "없어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-014_card_0",
+          "SEJONG-1A-03-V1-014_card_1",
+          "SEJONG-1A-03-V1-014_card_2",
+          "SEJONG-1A-03-V1-014_card_3",
+          "SEJONG-1A-03-V1-014_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-015",
+      "displaySentence": "컴퓨터가 제 방에 없어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-015_card_0",
+          "컴퓨터"
+        ],
+        [
+          "SEJONG-1A-03-V1-015_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1A-03-V1-015_card_2",
+          "제"
+        ],
+        [
+          "SEJONG-1A-03-V1-015_card_3",
+          "방"
+        ],
+        [
+          "SEJONG-1A-03-V1-015_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-015_card_5",
+          "없어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-015_card_0",
+          "SEJONG-1A-03-V1-015_card_1",
+          "SEJONG-1A-03-V1-015_card_2",
+          "SEJONG-1A-03-V1-015_card_3",
+          "SEJONG-1A-03-V1-015_card_4",
+          "SEJONG-1A-03-V1-015_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-016",
+      "displaySentence": "우산이 의자 옆에 없어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-016_card_0",
+          "우산"
+        ],
+        [
+          "SEJONG-1A-03-V1-016_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-016_card_2",
+          "의자"
+        ],
+        [
+          "SEJONG-1A-03-V1-016_card_3",
+          "옆"
+        ],
+        [
+          "SEJONG-1A-03-V1-016_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-016_card_5",
+          "없어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-016_card_0",
+          "SEJONG-1A-03-V1-016_card_1",
+          "SEJONG-1A-03-V1-016_card_2",
+          "SEJONG-1A-03-V1-016_card_3",
+          "SEJONG-1A-03-V1-016_card_4",
+          "SEJONG-1A-03-V1-016_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-017",
+      "displaySentence": "학교 앞에 카페가 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-017_card_0",
+          "학교"
+        ],
+        [
+          "SEJONG-1A-03-V1-017_card_1",
+          "앞"
+        ],
+        [
+          "SEJONG-1A-03-V1-017_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-017_card_3",
+          "카페"
+        ],
+        [
+          "SEJONG-1A-03-V1-017_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-1A-03-V1-017_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-017_card_0",
+          "SEJONG-1A-03-V1-017_card_1",
+          "SEJONG-1A-03-V1-017_card_2",
+          "SEJONG-1A-03-V1-017_card_3",
+          "SEJONG-1A-03-V1-017_card_4",
+          "SEJONG-1A-03-V1-017_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-018",
+      "displaySentence": "집 안에 텔레비전이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-018_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-1A-03-V1-018_card_1",
+          "안"
+        ],
+        [
+          "SEJONG-1A-03-V1-018_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-018_card_3",
+          "텔레비전"
+        ],
+        [
+          "SEJONG-1A-03-V1-018_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-018_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-018_card_0",
+          "SEJONG-1A-03-V1-018_card_1",
+          "SEJONG-1A-03-V1-018_card_2",
+          "SEJONG-1A-03-V1-018_card_3",
+          "SEJONG-1A-03-V1-018_card_4",
+          "SEJONG-1A-03-V1-018_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-019",
+      "displaySentence": "피아노 옆에 의자가 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-019_card_0",
+          "피아노"
+        ],
+        [
+          "SEJONG-1A-03-V1-019_card_1",
+          "옆"
+        ],
+        [
+          "SEJONG-1A-03-V1-019_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-019_card_3",
+          "의자"
+        ],
+        [
+          "SEJONG-1A-03-V1-019_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-1A-03-V1-019_card_5",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-019_card_0",
+          "SEJONG-1A-03-V1-019_card_1",
+          "SEJONG-1A-03-V1-019_card_2",
+          "SEJONG-1A-03-V1-019_card_3",
+          "SEJONG-1A-03-V1-019_card_4",
+          "SEJONG-1A-03-V1-019_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    },
+    {
+      "id": "SEJONG-1A-03-V1-020",
+      "displaySentence": "제 가방이 어디에 있어요?",
+      "tokens": [
+        [
+          "SEJONG-1A-03-V1-020_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-1A-03-V1-020_card_1",
+          "가방"
+        ],
+        [
+          "SEJONG-1A-03-V1-020_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-1A-03-V1-020_card_3",
+          "어디"
+        ],
+        [
+          "SEJONG-1A-03-V1-020_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1A-03-V1-020_card_5",
+          "있어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-03-V1-020_card_0",
+          "SEJONG-1A-03-V1-020_card_1",
+          "SEJONG-1A-03-V1-020_card_2",
+          "SEJONG-1A-03-V1-020_card_3",
+          "SEJONG-1A-03-V1-020_card_4",
+          "SEJONG-1A-03-V1-020_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 3과 · 이/그/저/에 있다/없다 및 해당 과 어휘 범위",
+      "sourceRef": "세종한국어 어휘 문법과 표현 1A 3과 · 문법/어휘 범위 재구성"
+    }
+  ]
+}
