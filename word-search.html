@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#06142e" />
   <title>한·몽 단어 찾기 배틀 · 교사</title>
-  <link rel="stylesheet" href="css/word-search.css?v=1.7" />
+  <link rel="stylesheet" href="css/word-search.css?v=1.8" />
 </head>
 <body class="search-host-page">
   <div class="search-bg" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -22,9 +22,9 @@
       <div class="setup-context"><span>STEP 1 · 게임 설정</span><a href="arena.html">게임 선택으로</a></div>
       <div class="setup-grid">
         <section class="setting-card data-card">
-          <div class="setting-title"><div><strong>📚 어휘 자료</strong><span>기존 한국어·몽골어 어휘를 그대로 사용합니다.</span></div></div>
+          <div class="setting-title"><div><strong>📚 어휘 자료</strong><span>자료 · 어휘 선택</span></div><button id="vocabBtn" class="btn btn-cyan small vocab-select-btn" type="button">☑ 어휘 선택·수정 <span id="selectedBadge">0/0</span></button></div>
           <div class="source-fields">
-            <label class="field"><span>자료</span><select id="sourceType"><option value="preliminary">예비편 어휘 40</option><option value="snu">서울대 한국어</option><option value="topik1">TOPIK 1 연어</option></select></label>
+            <label class="field"><span>자료</span><select id="sourceType"><option value="preliminary">예비편 어휘 40</option><option value="snu">서울대 한국어</option><option value="sejong">세종한국어(개정판)</option><option value="topik1">TOPIK 1 연어</option></select></label>
             <label id="bookField" class="field"><span>교재</span><select id="snuBook"></select></label>
             <label id="lessonField" class="field"><span>과</span><select id="snuLesson"></select></label>
             <label id="collocationField" class="field hidden"><span>TOPIK 세트</span><select id="collocationSet"></select></label>
@@ -92,8 +92,19 @@
       <div id="finalView" class="host-view final-view hidden"><div class="final-flags">KR 🔎 🏆 MN</div><p class="eyebrow">WORD SEARCH BATTLE COMPLETE</p><h2>최종 시상식</h2><div id="finalPodium" class="final-podium"></div><div id="finalRanking" class="final-ranking"></div><div class="final-actions"><button id="newGameBtn" class="btn btn-primary" type="button">새 게임 만들기</button><a class="btn btn-secondary link-btn" href="arena.html">게임 선택 홈</a></div></div>
     </section>
   </main>
+  <div id="vocabModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="vocabModalTitle">
+    <div class="modal-panel">
+      <div class="modal-head">
+        <div><span class="step-chip">VOCAB EDIT</span><h2 id="vocabModalTitle">단어 찾기 출제 어휘 선택·수정</h2><p>체크한 어휘만 단어 찾기에 출제됩니다. 한국어·몽골어 수정 내용은 어휘 배틀·카드 매칭·기억력 배틀과 같은 교사 공용 저장소를 사용합니다. <span id="vocabPersistenceStatus"></span></p></div>
+        <button id="closeVocabBtn" type="button" class="icon-btn" aria-label="닫기">×</button>
+      </div>
+      <div class="modal-tools"><input id="vocabSearch" type="search" placeholder="한국어 또는 몽골어 검색" /><button id="selectAllBtn" class="btn small" type="button">전체 선택</button><button id="clearAllBtn" class="btn small btn-secondary" type="button">전체 해제</button></div>
+      <div id="vocabList" class="vocab-list"></div>
+      <div class="modal-foot"><div><strong id="modalSelectedCount">0개 선택</strong><span id="modalRequirement">최소 6개 필요</span></div><button id="applyVocabBtn" class="btn btn-primary" type="button">선택 적용</button></div>
+    </div>
+  </div>
   <div id="toast" class="toast hidden"></div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script type="module" src="js/word-search-host.js?v=1.13"></script>
+  <script type="module" src="js/word-search-host.js?v=1.15"></script>
 </body>
 </html>
