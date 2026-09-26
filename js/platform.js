@@ -5,7 +5,7 @@ const els={gameGrid:$('gameGrid'),source:$('platformSource'),book:$('platformBoo
 let selectedGame='word';
 
 const SENTENCE_LESSON_OVERRIDES={
-  '4B':[10,11,12,13,14,15,16]
+  '4B':[10,11,12,13,14,15,16,17,18]
 };
 
 const VOCAB_SOURCES=[
