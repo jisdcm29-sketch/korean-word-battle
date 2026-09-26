@@ -1,116 +1,721 @@
 {
+  "book": "1A",
+  "lesson": 1,
   "textbook": "SEJONG_REVISED",
-  "level": "1A",
-  "lesson": "01",
-  "title_kr": "안녕하세요? 저는 안나예요",
-  "title_mn": "Сайн байна уу? Намайг Анна гэдэг.",
-  "source_note": "개정판 세종한국어 어휘 문법과 표현 1A의 1과 어휘표(나라·직업) 21개 기준. 예비편 어휘는 기존 Arena 공통 자료를 그대로 사용.",
-  "translation_status": "prototype_teacher_review_required",
-  "vocab": [
+  "dataRevision": 3,
+  "source": "개정판 세종한국어 1A 본교재 + 익힘책 1A + 더하기 활동 1A의 1과 문장 재선정",
+  "selectionPolicy": [
+    "같은 문형의 이름만 바꾼 반복 문장은 가급적 제외",
+    "은/는·이에요/예요를 연습하되 나라·직업·가족·친구·이름 등 어휘 범주를 분산",
+    "교재 대화문은 질문과 대답을 한 세트로 동시에 쓰지 않고 한쪽만 채택",
+    "2카드짜리 단답형보다 4~6카드의 문장 완성형을 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
     {
-      "id": "SEJONG-1A-01-001",
-      "ko": "나라",
-      "mn": "улс"
+      "id": "SEJONG-1A-01-V2-001",
+      "displaySentence": "어느 나라 사람이에요?",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-001_card_0",
+          "어느"
+        ],
+        [
+          "SEJONG-1A-01-V2-001_card_1",
+          "나라"
+        ],
+        [
+          "SEJONG-1A-01-V2-001_card_2",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-001_card_3",
+          "이에요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-001_card_0",
+          "SEJONG-1A-01-V2-001_card_1",
+          "SEJONG-1A-01-V2-001_card_2",
+          "SEJONG-1A-01-V2-001_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 본교재 1과 · 나라/직업 표현"
     },
     {
-      "id": "SEJONG-1A-01-002",
-      "ko": "직업",
-      "mn": "мэргэжил"
+      "id": "SEJONG-1A-01-V2-002",
+      "displaySentence": "직업이 뭐예요?",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-002_card_0",
+          "직업"
+        ],
+        [
+          "SEJONG-1A-01-V2-002_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1A-01-V2-002_card_2",
+          "뭐"
+        ],
+        [
+          "SEJONG-1A-01-V2-002_card_3",
+          "예요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-002_card_0",
+          "SEJONG-1A-01-V2-002_card_1",
+          "SEJONG-1A-01-V2-002_card_2",
+          "SEJONG-1A-01-V2-002_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 본교재/더하기 활동 1과 · 직업 질문 표현"
     },
     {
-      "id": "SEJONG-1A-01-003",
-      "ko": "한국",
-      "mn": "Солонгос"
+      "id": "SEJONG-1A-01-V2-003",
+      "displaySentence": "유진 씨 동생은 대학생이에요?",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-003_card_0",
+          "유진 씨"
+        ],
+        [
+          "SEJONG-1A-01-V2-003_card_1",
+          "동생"
+        ],
+        [
+          "SEJONG-1A-01-V2-003_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-01-V2-003_card_3",
+          "대학생"
+        ],
+        [
+          "SEJONG-1A-01-V2-003_card_4",
+          "이에요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-003_card_0",
+          "SEJONG-1A-01-V2-003_card_1",
+          "SEJONG-1A-01-V2-003_card_2",
+          "SEJONG-1A-01-V2-003_card_3",
+          "SEJONG-1A-01-V2-003_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 본교재 1과 · 문법 은/는 대화에서 질문만 채택"
     },
     {
-      "id": "SEJONG-1A-01-004",
-      "ko": "사람",
-      "mn": "хүн"
+      "id": "SEJONG-1A-01-V2-004",
+      "displaySentence": "아버지는 요리사예요?",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-004_card_0",
+          "아버지"
+        ],
+        [
+          "SEJONG-1A-01-V2-004_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-004_card_2",
+          "요리사"
+        ],
+        [
+          "SEJONG-1A-01-V2-004_card_3",
+          "예요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-004_card_0",
+          "SEJONG-1A-01-V2-004_card_1",
+          "SEJONG-1A-01-V2-004_card_2",
+          "SEJONG-1A-01-V2-004_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 본교재 1과 · 문법 은/는 대화에서 질문만 채택"
     },
     {
-      "id": "SEJONG-1A-01-005",
-      "ko": "캐나다",
-      "mn": "Канад"
+      "id": "SEJONG-1A-01-V2-005",
+      "displaySentence": "저는 한국 사람이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-005_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1A-01-V2-005_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-005_card_2",
+          "한국"
+        ],
+        [
+          "SEJONG-1A-01-V2-005_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-005_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-005_card_0",
+          "SEJONG-1A-01-V2-005_card_1",
+          "SEJONG-1A-01-V2-005_card_2",
+          "SEJONG-1A-01-V2-005_card_3",
+          "SEJONG-1A-01-V2-005_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 본교재 1과 · 나라 표현"
     },
     {
-      "id": "SEJONG-1A-01-006",
-      "ko": "베트남",
-      "mn": "Вьетнам"
+      "id": "SEJONG-1A-01-V2-006",
+      "displaySentence": "마리 씨는 제 친구예요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-006_card_0",
+          "마리 씨"
+        ],
+        [
+          "SEJONG-1A-01-V2-006_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-006_card_2",
+          "제"
+        ],
+        [
+          "SEJONG-1A-01-V2-006_card_3",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-01-V2-006_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-006_card_0",
+          "SEJONG-1A-01-V2-006_card_1",
+          "SEJONG-1A-01-V2-006_card_2",
+          "SEJONG-1A-01-V2-006_card_3",
+          "SEJONG-1A-01-V2-006_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 본교재 1과 · 친구 소개"
     },
     {
-      "id": "SEJONG-1A-01-007",
-      "ko": "미국",
-      "mn": "Америк"
+      "id": "SEJONG-1A-01-V2-007",
+      "displaySentence": "이 사람은 제 동생이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-1A-01-V2-007_card_1",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-007_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-01-V2-007_card_3",
+          "제"
+        ],
+        [
+          "SEJONG-1A-01-V2-007_card_4",
+          "동생"
+        ],
+        [
+          "SEJONG-1A-01-V2-007_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-007_card_0",
+          "SEJONG-1A-01-V2-007_card_1",
+          "SEJONG-1A-01-V2-007_card_2",
+          "SEJONG-1A-01-V2-007_card_3",
+          "SEJONG-1A-01-V2-007_card_4",
+          "SEJONG-1A-01-V2-007_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 읽기 소개문"
     },
     {
-      "id": "SEJONG-1A-01-008",
-      "ko": "프랑스",
-      "mn": "Франц"
+      "id": "SEJONG-1A-01-V2-008",
+      "displaySentence": "이름은 박지은이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-008_card_0",
+          "이름"
+        ],
+        [
+          "SEJONG-1A-01-V2-008_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1A-01-V2-008_card_2",
+          "박지은"
+        ],
+        [
+          "SEJONG-1A-01-V2-008_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-008_card_0",
+          "SEJONG-1A-01-V2-008_card_1",
+          "SEJONG-1A-01-V2-008_card_2",
+          "SEJONG-1A-01-V2-008_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 읽기 소개문"
     },
     {
-      "id": "SEJONG-1A-01-009",
-      "ko": "태국",
-      "mn": "Тайланд"
+      "id": "SEJONG-1A-01-V2-009",
+      "displaySentence": "제 동생은 한국어 선생님이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-009_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-1A-01-V2-009_card_1",
+          "동생"
+        ],
+        [
+          "SEJONG-1A-01-V2-009_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-01-V2-009_card_3",
+          "한국어"
+        ],
+        [
+          "SEJONG-1A-01-V2-009_card_4",
+          "선생님"
+        ],
+        [
+          "SEJONG-1A-01-V2-009_card_5",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-009_card_0",
+          "SEJONG-1A-01-V2-009_card_1",
+          "SEJONG-1A-01-V2-009_card_2",
+          "SEJONG-1A-01-V2-009_card_3",
+          "SEJONG-1A-01-V2-009_card_4",
+          "SEJONG-1A-01-V2-009_card_5"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 읽기 소개문"
     },
     {
-      "id": "SEJONG-1A-01-010",
-      "ko": "인도네시아",
-      "mn": "Индонез"
+      "id": "SEJONG-1A-01-V2-010",
+      "displaySentence": "저는 의사예요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-010_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1A-01-V2-010_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-010_card_2",
+          "의사"
+        ],
+        [
+          "SEJONG-1A-01-V2-010_card_3",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-010_card_0",
+          "SEJONG-1A-01-V2-010_card_1",
+          "SEJONG-1A-01-V2-010_card_2",
+          "SEJONG-1A-01-V2-010_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 은/는 문장 완성"
     },
     {
-      "id": "SEJONG-1A-01-011",
-      "ko": "중국",
-      "mn": "Хятад"
+      "id": "SEJONG-1A-01-V2-011",
+      "displaySentence": "이 사람은 경찰이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-011_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-1A-01-V2-011_card_1",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-011_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-01-V2-011_card_3",
+          "경찰"
+        ],
+        [
+          "SEJONG-1A-01-V2-011_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-011_card_0",
+          "SEJONG-1A-01-V2-011_card_1",
+          "SEJONG-1A-01-V2-011_card_2",
+          "SEJONG-1A-01-V2-011_card_3",
+          "SEJONG-1A-01-V2-011_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 은/는 문장 완성"
     },
     {
-      "id": "SEJONG-1A-01-012",
-      "ko": "일본",
-      "mn": "Япон"
+      "id": "SEJONG-1A-01-V2-012",
+      "displaySentence": "재민 씨는 회사원이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-012_card_0",
+          "재민 씨"
+        ],
+        [
+          "SEJONG-1A-01-V2-012_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-012_card_2",
+          "회사원"
+        ],
+        [
+          "SEJONG-1A-01-V2-012_card_3",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-012_card_0",
+          "SEJONG-1A-01-V2-012_card_1",
+          "SEJONG-1A-01-V2-012_card_2",
+          "SEJONG-1A-01-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 더하기 활동 1A 1과 · 인물 소개"
     },
     {
-      "id": "SEJONG-1A-01-013",
-      "ko": "러시아",
-      "mn": "Орос"
+      "id": "SEJONG-1A-01-V2-013",
+      "displaySentence": "마리 씨는 일본 사람이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-013_card_0",
+          "마리 씨"
+        ],
+        [
+          "SEJONG-1A-01-V2-013_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-013_card_2",
+          "일본"
+        ],
+        [
+          "SEJONG-1A-01-V2-013_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-013_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-013_card_0",
+          "SEJONG-1A-01-V2-013_card_1",
+          "SEJONG-1A-01-V2-013_card_2",
+          "SEJONG-1A-01-V2-013_card_3",
+          "SEJONG-1A-01-V2-013_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 소개 쓰기"
     },
     {
-      "id": "SEJONG-1A-01-014",
-      "ko": "케냐",
-      "mn": "Кени"
+      "id": "SEJONG-1A-01-V2-014",
+      "displaySentence": "안나 씨는 학생이에요?",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-014_card_0",
+          "안나 씨"
+        ],
+        [
+          "SEJONG-1A-01-V2-014_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-014_card_2",
+          "학생"
+        ],
+        [
+          "SEJONG-1A-01-V2-014_card_3",
+          "이에요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-014_card_0",
+          "SEJONG-1A-01-V2-014_card_1",
+          "SEJONG-1A-01-V2-014_card_2",
+          "SEJONG-1A-01-V2-014_card_3"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 본교재 1과 · 인사 대화에서 질문만 채택"
     },
     {
-      "id": "SEJONG-1A-01-015",
-      "ko": "회사원",
-      "mn": "компанийн ажилтан"
+      "id": "SEJONG-1A-01-V2-015",
+      "displaySentence": "이 사람은 가수예요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-015_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-1A-01-V2-015_card_1",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-015_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1A-01-V2-015_card_3",
+          "가수"
+        ],
+        [
+          "SEJONG-1A-01-V2-015_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-015_card_0",
+          "SEJONG-1A-01-V2-015_card_1",
+          "SEJONG-1A-01-V2-015_card_2",
+          "SEJONG-1A-01-V2-015_card_3",
+          "SEJONG-1A-01-V2-015_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 은/는 문장 완성"
     },
     {
-      "id": "SEJONG-1A-01-016",
-      "ko": "대학생",
-      "mn": "их сургуулийн оюутан"
+      "id": "SEJONG-1A-01-V2-016",
+      "displaySentence": "제 친구는 요리사예요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-016_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-1A-01-V2-016_card_1",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-01-V2-016_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-016_card_3",
+          "요리사"
+        ],
+        [
+          "SEJONG-1A-01-V2-016_card_4",
+          "예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-016_card_0",
+          "SEJONG-1A-01-V2-016_card_1",
+          "SEJONG-1A-01-V2-016_card_2",
+          "SEJONG-1A-01-V2-016_card_3",
+          "SEJONG-1A-01-V2-016_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 은/는 문장 완성"
     },
     {
-      "id": "SEJONG-1A-01-017",
-      "ko": "의사",
-      "mn": "эмч"
+      "id": "SEJONG-1A-01-V2-017",
+      "displaySentence": "선생님은 한국 사람이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-017_card_0",
+          "선생님"
+        ],
+        [
+          "SEJONG-1A-01-V2-017_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1A-01-V2-017_card_2",
+          "한국"
+        ],
+        [
+          "SEJONG-1A-01-V2-017_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-017_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-017_card_0",
+          "SEJONG-1A-01-V2-017_card_1",
+          "SEJONG-1A-01-V2-017_card_2",
+          "SEJONG-1A-01-V2-017_card_3",
+          "SEJONG-1A-01-V2-017_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 익힘책 1A 1과 · 은/는 문장 완성"
     },
     {
-      "id": "SEJONG-1A-01-018",
-      "ko": "경찰",
-      "mn": "цагдаа"
+      "id": "SEJONG-1A-01-V2-018",
+      "displaySentence": "안나 씨는 캐나다 사람이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-018_card_0",
+          "안나 씨"
+        ],
+        [
+          "SEJONG-1A-01-V2-018_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-018_card_2",
+          "캐나다"
+        ],
+        [
+          "SEJONG-1A-01-V2-018_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-018_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-018_card_0",
+          "SEJONG-1A-01-V2-018_card_1",
+          "SEJONG-1A-01-V2-018_card_2",
+          "SEJONG-1A-01-V2-018_card_3",
+          "SEJONG-1A-01-V2-018_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 1과 · 나라/은·는/이에요·예요 범위 재구성"
     },
     {
-      "id": "SEJONG-1A-01-019",
-      "ko": "선생님",
-      "mn": "багш"
+      "id": "SEJONG-1A-01-V2-019",
+      "displaySentence": "제 친구는 대학생이에요.",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-019_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-1A-01-V2-019_card_1",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-01-V2-019_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-019_card_3",
+          "대학생"
+        ],
+        [
+          "SEJONG-1A-01-V2-019_card_4",
+          "이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-019_card_0",
+          "SEJONG-1A-01-V2-019_card_1",
+          "SEJONG-1A-01-V2-019_card_2",
+          "SEJONG-1A-01-V2-019_card_3",
+          "SEJONG-1A-01-V2-019_card_4"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 1과 · 친구/직업/은·는/이에요·예요 범위 재구성"
     },
     {
-      "id": "SEJONG-1A-01-020",
-      "ko": "가수",
-      "mn": "дуучин"
-    },
-    {
-      "id": "SEJONG-1A-01-021",
-      "ko": "요리사",
-      "mn": "тогооч"
+      "id": "SEJONG-1A-01-V2-020",
+      "displaySentence": "제 친구는 어느 나라 사람이에요?",
+      "tokens": [
+        [
+          "SEJONG-1A-01-V2-020_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-1A-01-V2-020_card_1",
+          "친구"
+        ],
+        [
+          "SEJONG-1A-01-V2-020_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-1A-01-V2-020_card_3",
+          "어느"
+        ],
+        [
+          "SEJONG-1A-01-V2-020_card_4",
+          "나라"
+        ],
+        [
+          "SEJONG-1A-01-V2-020_card_5",
+          "사람"
+        ],
+        [
+          "SEJONG-1A-01-V2-020_card_6",
+          "이에요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1A-01-V2-020_card_0",
+          "SEJONG-1A-01-V2-020_card_1",
+          "SEJONG-1A-01-V2-020_card_2",
+          "SEJONG-1A-01-V2-020_card_3",
+          "SEJONG-1A-01-V2-020_card_4",
+          "SEJONG-1A-01-V2-020_card_5",
+          "SEJONG-1A-01-V2-020_card_6"
+        ]
+      ],
+      "note": "개정판 세종한국어 1A 1과 · 나라 질문/은·는/이에요·예요 범위 재구성"
     }
   ]
 }
