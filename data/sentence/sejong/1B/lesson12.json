@@ -1,0 +1,842 @@
+{
+  "book": "1B",
+  "lesson": 12,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 12과 범위",
+  "selectionPolicy": [
+    "12과 핵심 문법 에게/한테 · -(으)니까을 중심으로 구성",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-12-V1-001",
+      "displaySentence": "저는 지니 씨에게 펜을 선물할 거예요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-001_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-12-V1-001_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-12-V1-001_card_2",
+          "지니 씨"
+        ],
+        [
+          "SEJONG-1B-12-V1-001_card_3",
+          "에게"
+        ],
+        [
+          "SEJONG-1B-12-V1-001_card_4",
+          "펜"
+        ],
+        [
+          "SEJONG-1B-12-V1-001_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-001_card_6",
+          "선물할 거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-001_card_0",
+          "SEJONG-1B-12-V1-001_card_1",
+          "SEJONG-1B-12-V1-001_card_2",
+          "SEJONG-1B-12-V1-001_card_3",
+          "SEJONG-1B-12-V1-001_card_4",
+          "SEJONG-1B-12-V1-001_card_5",
+          "SEJONG-1B-12-V1-001_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-002",
+      "displaySentence": "어버이날에 부모님께 꽃을 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-002_card_0",
+          "어버이날"
+        ],
+        [
+          "SEJONG-1B-12-V1-002_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-12-V1-002_card_2",
+          "부모님"
+        ],
+        [
+          "SEJONG-1B-12-V1-002_card_3",
+          "께"
+        ],
+        [
+          "SEJONG-1B-12-V1-002_card_4",
+          "꽃"
+        ],
+        [
+          "SEJONG-1B-12-V1-002_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-002_card_6",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-002_card_0",
+          "SEJONG-1B-12-V1-002_card_1",
+          "SEJONG-1B-12-V1-002_card_2",
+          "SEJONG-1B-12-V1-002_card_3",
+          "SEJONG-1B-12-V1-002_card_4",
+          "SEJONG-1B-12-V1-002_card_5",
+          "SEJONG-1B-12-V1-002_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-003",
+      "displaySentence": "어린이날에 동생한테 게임기를 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-003_card_0",
+          "어린이날"
+        ],
+        [
+          "SEJONG-1B-12-V1-003_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-12-V1-003_card_2",
+          "동생"
+        ],
+        [
+          "SEJONG-1B-12-V1-003_card_3",
+          "한테"
+        ],
+        [
+          "SEJONG-1B-12-V1-003_card_4",
+          "게임기"
+        ],
+        [
+          "SEJONG-1B-12-V1-003_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-1B-12-V1-003_card_6",
+          "줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-003_card_0",
+          "SEJONG-1B-12-V1-003_card_1",
+          "SEJONG-1B-12-V1-003_card_2",
+          "SEJONG-1B-12-V1-003_card_3",
+          "SEJONG-1B-12-V1-003_card_4",
+          "SEJONG-1B-12-V1-003_card_5",
+          "SEJONG-1B-12-V1-003_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-004",
+      "displaySentence": "친구에게 졸업 축하 카드를 보냈어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-004_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-12-V1-004_card_1",
+          "에게"
+        ],
+        [
+          "SEJONG-1B-12-V1-004_card_2",
+          "졸업 축하 카드"
+        ],
+        [
+          "SEJONG-1B-12-V1-004_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-12-V1-004_card_4",
+          "보냈어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-004_card_0",
+          "SEJONG-1B-12-V1-004_card_1",
+          "SEJONG-1B-12-V1-004_card_2",
+          "SEJONG-1B-12-V1-004_card_3",
+          "SEJONG-1B-12-V1-004_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-005",
+      "displaySentence": "누나한테 사진을 보내고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-005_card_0",
+          "누나"
+        ],
+        [
+          "SEJONG-1B-12-V1-005_card_1",
+          "한테"
+        ],
+        [
+          "SEJONG-1B-12-V1-005_card_2",
+          "사진"
+        ],
+        [
+          "SEJONG-1B-12-V1-005_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-005_card_4",
+          "보내고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-005_card_0",
+          "SEJONG-1B-12-V1-005_card_1",
+          "SEJONG-1B-12-V1-005_card_2",
+          "SEJONG-1B-12-V1-005_card_3",
+          "SEJONG-1B-12-V1-005_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-006",
+      "displaySentence": "선생님에게 감사 편지를 썼어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-006_card_0",
+          "선생님"
+        ],
+        [
+          "SEJONG-1B-12-V1-006_card_1",
+          "에게"
+        ],
+        [
+          "SEJONG-1B-12-V1-006_card_2",
+          "감사 편지"
+        ],
+        [
+          "SEJONG-1B-12-V1-006_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-12-V1-006_card_4",
+          "썼어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-006_card_0",
+          "SEJONG-1B-12-V1-006_card_1",
+          "SEJONG-1B-12-V1-006_card_2",
+          "SEJONG-1B-12-V1-006_card_3",
+          "SEJONG-1B-12-V1-006_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-007",
+      "displaySentence": "친구한테 축하 메시지를 보냈어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-007_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-12-V1-007_card_1",
+          "한테"
+        ],
+        [
+          "SEJONG-1B-12-V1-007_card_2",
+          "축하 메시지"
+        ],
+        [
+          "SEJONG-1B-12-V1-007_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-12-V1-007_card_4",
+          "보냈어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-007_card_0",
+          "SEJONG-1B-12-V1-007_card_1",
+          "SEJONG-1B-12-V1-007_card_2",
+          "SEJONG-1B-12-V1-007_card_3",
+          "SEJONG-1B-12-V1-007_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-008",
+      "displaySentence": "졸업식이 있으니까 선물을 준비해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-008_card_0",
+          "졸업식"
+        ],
+        [
+          "SEJONG-1B-12-V1-008_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-12-V1-008_card_2",
+          "있으니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-008_card_3",
+          "선물"
+        ],
+        [
+          "SEJONG-1B-12-V1-008_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-008_card_5",
+          "준비해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-008_card_0",
+          "SEJONG-1B-12-V1-008_card_1",
+          "SEJONG-1B-12-V1-008_card_2",
+          "SEJONG-1B-12-V1-008_card_3",
+          "SEJONG-1B-12-V1-008_card_4",
+          "SEJONG-1B-12-V1-008_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-009",
+      "displaySentence": "지갑이 오래됐으니까 새 지갑을 사요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-009_card_0",
+          "지갑"
+        ],
+        [
+          "SEJONG-1B-12-V1-009_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-12-V1-009_card_2",
+          "오래됐으니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-009_card_3",
+          "새 지갑"
+        ],
+        [
+          "SEJONG-1B-12-V1-009_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-009_card_5",
+          "사요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-009_card_0",
+          "SEJONG-1B-12-V1-009_card_1",
+          "SEJONG-1B-12-V1-009_card_2",
+          "SEJONG-1B-12-V1-009_card_3",
+          "SEJONG-1B-12-V1-009_card_4",
+          "SEJONG-1B-12-V1-009_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-010",
+      "displaySentence": "동생이 인형을 좋아하니까 인형을 사요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-010_card_0",
+          "동생"
+        ],
+        [
+          "SEJONG-1B-12-V1-010_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-12-V1-010_card_2",
+          "인형"
+        ],
+        [
+          "SEJONG-1B-12-V1-010_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-010_card_4",
+          "좋아하니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-010_card_5",
+          "인형"
+        ],
+        [
+          "SEJONG-1B-12-V1-010_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-010_card_7",
+          "사요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-010_card_0",
+          "SEJONG-1B-12-V1-010_card_1",
+          "SEJONG-1B-12-V1-010_card_2",
+          "SEJONG-1B-12-V1-010_card_3",
+          "SEJONG-1B-12-V1-010_card_4",
+          "SEJONG-1B-12-V1-010_card_5",
+          "SEJONG-1B-12-V1-010_card_6",
+          "SEJONG-1B-12-V1-010_card_7"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-011",
+      "displaySentence": "명절이니까 가족에게 선물을 보내요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-011_card_0",
+          "명절"
+        ],
+        [
+          "SEJONG-1B-12-V1-011_card_1",
+          "이니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-011_card_2",
+          "가족"
+        ],
+        [
+          "SEJONG-1B-12-V1-011_card_3",
+          "에게"
+        ],
+        [
+          "SEJONG-1B-12-V1-011_card_4",
+          "선물"
+        ],
+        [
+          "SEJONG-1B-12-V1-011_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-011_card_6",
+          "보내요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-011_card_0",
+          "SEJONG-1B-12-V1-011_card_1",
+          "SEJONG-1B-12-V1-011_card_2",
+          "SEJONG-1B-12-V1-011_card_3",
+          "SEJONG-1B-12-V1-011_card_4",
+          "SEJONG-1B-12-V1-011_card_5",
+          "SEJONG-1B-12-V1-011_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-012",
+      "displaySentence": "친구가 졸업하니까 진심으로 축하해 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-012_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-12-V1-012_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1B-12-V1-012_card_2",
+          "졸업하니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-012_card_3",
+          "진심으로"
+        ],
+        [
+          "SEJONG-1B-12-V1-012_card_4",
+          "축하해 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-012_card_0",
+          "SEJONG-1B-12-V1-012_card_1",
+          "SEJONG-1B-12-V1-012_card_2",
+          "SEJONG-1B-12-V1-012_card_3",
+          "SEJONG-1B-12-V1-012_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-013",
+      "displaySentence": "처음 만든 그릇이니까 아주 소중해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-013_card_0",
+          "처음"
+        ],
+        [
+          "SEJONG-1B-12-V1-013_card_1",
+          "만든"
+        ],
+        [
+          "SEJONG-1B-12-V1-013_card_2",
+          "그릇"
+        ],
+        [
+          "SEJONG-1B-12-V1-013_card_3",
+          "이니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-013_card_4",
+          "아주"
+        ],
+        [
+          "SEJONG-1B-12-V1-013_card_5",
+          "소중해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-013_card_0",
+          "SEJONG-1B-12-V1-013_card_1",
+          "SEJONG-1B-12-V1-013_card_2",
+          "SEJONG-1B-12-V1-013_card_3",
+          "SEJONG-1B-12-V1-013_card_4",
+          "SEJONG-1B-12-V1-013_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-014",
+      "displaySentence": "입학식이 내일이니까 일찍 자요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-014_card_0",
+          "입학식"
+        ],
+        [
+          "SEJONG-1B-12-V1-014_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-12-V1-014_card_2",
+          "내일"
+        ],
+        [
+          "SEJONG-1B-12-V1-014_card_3",
+          "이니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-014_card_4",
+          "일찍"
+        ],
+        [
+          "SEJONG-1B-12-V1-014_card_5",
+          "자요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-014_card_0",
+          "SEJONG-1B-12-V1-014_card_1",
+          "SEJONG-1B-12-V1-014_card_2",
+          "SEJONG-1B-12-V1-014_card_3",
+          "SEJONG-1B-12-V1-014_card_4",
+          "SEJONG-1B-12-V1-014_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-015",
+      "displaySentence": "최근에 친구한테 콘서트 표를 받았어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-015_card_0",
+          "최근"
+        ],
+        [
+          "SEJONG-1B-12-V1-015_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-12-V1-015_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-12-V1-015_card_3",
+          "한테"
+        ],
+        [
+          "SEJONG-1B-12-V1-015_card_4",
+          "콘서트 표"
+        ],
+        [
+          "SEJONG-1B-12-V1-015_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-1B-12-V1-015_card_6",
+          "받았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-015_card_0",
+          "SEJONG-1B-12-V1-015_card_1",
+          "SEJONG-1B-12-V1-015_card_2",
+          "SEJONG-1B-12-V1-015_card_3",
+          "SEJONG-1B-12-V1-015_card_4",
+          "SEJONG-1B-12-V1-015_card_5",
+          "SEJONG-1B-12-V1-015_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-016",
+      "displaySentence": "고등학교 졸업식에 가족이 함께 왔어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-016_card_0",
+          "고등학교 졸업식"
+        ],
+        [
+          "SEJONG-1B-12-V1-016_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-12-V1-016_card_2",
+          "가족"
+        ],
+        [
+          "SEJONG-1B-12-V1-016_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-1B-12-V1-016_card_4",
+          "함께"
+        ],
+        [
+          "SEJONG-1B-12-V1-016_card_5",
+          "왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-016_card_0",
+          "SEJONG-1B-12-V1-016_card_1",
+          "SEJONG-1B-12-V1-016_card_2",
+          "SEJONG-1B-12-V1-016_card_3",
+          "SEJONG-1B-12-V1-016_card_4",
+          "SEJONG-1B-12-V1-016_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-017",
+      "displaySentence": "좋은 생각이 있으니까 한번 말해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-017_card_0",
+          "좋은 생각"
+        ],
+        [
+          "SEJONG-1B-12-V1-017_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-12-V1-017_card_2",
+          "있으니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-017_card_3",
+          "한번"
+        ],
+        [
+          "SEJONG-1B-12-V1-017_card_4",
+          "말해 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-017_card_0",
+          "SEJONG-1B-12-V1-017_card_1",
+          "SEJONG-1B-12-V1-017_card_2",
+          "SEJONG-1B-12-V1-017_card_3",
+          "SEJONG-1B-12-V1-017_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-018",
+      "displaySentence": "열심히 공부했으니까 오늘은 푹 쉬어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-018_card_0",
+          "열심히"
+        ],
+        [
+          "SEJONG-1B-12-V1-018_card_1",
+          "공부했으니까"
+        ],
+        [
+          "SEJONG-1B-12-V1-018_card_2",
+          "오늘"
+        ],
+        [
+          "SEJONG-1B-12-V1-018_card_3",
+          "은"
+        ],
+        [
+          "SEJONG-1B-12-V1-018_card_4",
+          "푹"
+        ],
+        [
+          "SEJONG-1B-12-V1-018_card_5",
+          "쉬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-018_card_0",
+          "SEJONG-1B-12-V1-018_card_1",
+          "SEJONG-1B-12-V1-018_card_2",
+          "SEJONG-1B-12-V1-018_card_3",
+          "SEJONG-1B-12-V1-018_card_4",
+          "SEJONG-1B-12-V1-018_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-019",
+      "displaySentence": "동생에게 새 가방을 선물하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-019_card_0",
+          "동생"
+        ],
+        [
+          "SEJONG-1B-12-V1-019_card_1",
+          "에게"
+        ],
+        [
+          "SEJONG-1B-12-V1-019_card_2",
+          "새 가방"
+        ],
+        [
+          "SEJONG-1B-12-V1-019_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-019_card_4",
+          "선물하고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-019_card_0",
+          "SEJONG-1B-12-V1-019_card_1",
+          "SEJONG-1B-12-V1-019_card_2",
+          "SEJONG-1B-12-V1-019_card_3",
+          "SEJONG-1B-12-V1-019_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-12-V1-020",
+      "displaySentence": "친구한테 하고 싶은 말을 카드에 써요.",
+      "tokens": [
+        [
+          "SEJONG-1B-12-V1-020_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-12-V1-020_card_1",
+          "한테"
+        ],
+        [
+          "SEJONG-1B-12-V1-020_card_2",
+          "하고 싶은 말"
+        ],
+        [
+          "SEJONG-1B-12-V1-020_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-12-V1-020_card_4",
+          "카드"
+        ],
+        [
+          "SEJONG-1B-12-V1-020_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-1B-12-V1-020_card_6",
+          "써요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-12-V1-020_card_0",
+          "SEJONG-1B-12-V1-020_card_1",
+          "SEJONG-1B-12-V1-020_card_2",
+          "SEJONG-1B-12-V1-020_card_3",
+          "SEJONG-1B-12-V1-020_card_4",
+          "SEJONG-1B-12-V1-020_card_5",
+          "SEJONG-1B-12-V1-020_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 12과 문법 에게/한테 · -(으)니까 · 교육용 재구성"
+    }
+  ]
+}

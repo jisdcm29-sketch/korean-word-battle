@@ -1,0 +1,847 @@
+{
+  "book": "1B",
+  "lesson": 10,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 10과 범위",
+  "selectionPolicy": [
+    "10과 핵심 문법 -기 전에 · -아서/어서을 중심으로 구성",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-10-V1-001",
+      "displaySentence": "학교에 가기 전에 수영을 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-001_card_0",
+          "학교"
+        ],
+        [
+          "SEJONG-1B-10-V1-001_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-10-V1-001_card_2",
+          "가기 전에"
+        ],
+        [
+          "SEJONG-1B-10-V1-001_card_3",
+          "수영"
+        ],
+        [
+          "SEJONG-1B-10-V1-001_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-001_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-001_card_0",
+          "SEJONG-1B-10-V1-001_card_1",
+          "SEJONG-1B-10-V1-001_card_2",
+          "SEJONG-1B-10-V1-001_card_3",
+          "SEJONG-1B-10-V1-001_card_4",
+          "SEJONG-1B-10-V1-001_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-002",
+      "displaySentence": "밥을 먹기 전에 손을 씻어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-002_card_0",
+          "밥"
+        ],
+        [
+          "SEJONG-1B-10-V1-002_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-002_card_2",
+          "먹기 전에"
+        ],
+        [
+          "SEJONG-1B-10-V1-002_card_3",
+          "손"
+        ],
+        [
+          "SEJONG-1B-10-V1-002_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-002_card_5",
+          "씻어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-002_card_0",
+          "SEJONG-1B-10-V1-002_card_1",
+          "SEJONG-1B-10-V1-002_card_2",
+          "SEJONG-1B-10-V1-002_card_3",
+          "SEJONG-1B-10-V1-002_card_4",
+          "SEJONG-1B-10-V1-002_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-003",
+      "displaySentence": "자기 전에 이를 닦아요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-003_card_0",
+          "자기 전에"
+        ],
+        [
+          "SEJONG-1B-10-V1-003_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-10-V1-003_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-003_card_3",
+          "닦아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-003_card_0",
+          "SEJONG-1B-10-V1-003_card_1",
+          "SEJONG-1B-10-V1-003_card_2",
+          "SEJONG-1B-10-V1-003_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-004",
+      "displaySentence": "영화를 보기 전에 팝콘을 사요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-004_card_0",
+          "영화"
+        ],
+        [
+          "SEJONG-1B-10-V1-004_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-004_card_2",
+          "보기 전에"
+        ],
+        [
+          "SEJONG-1B-10-V1-004_card_3",
+          "팝콘"
+        ],
+        [
+          "SEJONG-1B-10-V1-004_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-004_card_5",
+          "사요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-004_card_0",
+          "SEJONG-1B-10-V1-004_card_1",
+          "SEJONG-1B-10-V1-004_card_2",
+          "SEJONG-1B-10-V1-004_card_3",
+          "SEJONG-1B-10-V1-004_card_4",
+          "SEJONG-1B-10-V1-004_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-005",
+      "displaySentence": "해외여행을 가기 전에 여권을 확인해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-005_card_0",
+          "해외여행"
+        ],
+        [
+          "SEJONG-1B-10-V1-005_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-005_card_2",
+          "가기 전에"
+        ],
+        [
+          "SEJONG-1B-10-V1-005_card_3",
+          "여권"
+        ],
+        [
+          "SEJONG-1B-10-V1-005_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-005_card_5",
+          "확인해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-005_card_0",
+          "SEJONG-1B-10-V1-005_card_1",
+          "SEJONG-1B-10-V1-005_card_2",
+          "SEJONG-1B-10-V1-005_card_3",
+          "SEJONG-1B-10-V1-005_card_4",
+          "SEJONG-1B-10-V1-005_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-006",
+      "displaySentence": "대학교를 졸업하기 전에 여행을 하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-006_card_0",
+          "대학교"
+        ],
+        [
+          "SEJONG-1B-10-V1-006_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-006_card_2",
+          "졸업하기 전에"
+        ],
+        [
+          "SEJONG-1B-10-V1-006_card_3",
+          "여행"
+        ],
+        [
+          "SEJONG-1B-10-V1-006_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-006_card_5",
+          "하고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-006_card_0",
+          "SEJONG-1B-10-V1-006_card_1",
+          "SEJONG-1B-10-V1-006_card_2",
+          "SEJONG-1B-10-V1-006_card_3",
+          "SEJONG-1B-10-V1-006_card_4",
+          "SEJONG-1B-10-V1-006_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-007",
+      "displaySentence": "친구를 초대하기 전에 방을 청소해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-007_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-10-V1-007_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-007_card_2",
+          "초대하기 전에"
+        ],
+        [
+          "SEJONG-1B-10-V1-007_card_3",
+          "방"
+        ],
+        [
+          "SEJONG-1B-10-V1-007_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-007_card_5",
+          "청소해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-007_card_0",
+          "SEJONG-1B-10-V1-007_card_1",
+          "SEJONG-1B-10-V1-007_card_2",
+          "SEJONG-1B-10-V1-007_card_3",
+          "SEJONG-1B-10-V1-007_card_4",
+          "SEJONG-1B-10-V1-007_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-008",
+      "displaySentence": "운동을 해서 몸이 더 건강해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-008_card_0",
+          "운동"
+        ],
+        [
+          "SEJONG-1B-10-V1-008_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-008_card_2",
+          "해서"
+        ],
+        [
+          "SEJONG-1B-10-V1-008_card_3",
+          "몸"
+        ],
+        [
+          "SEJONG-1B-10-V1-008_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1B-10-V1-008_card_5",
+          "더 건강해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-008_card_0",
+          "SEJONG-1B-10-V1-008_card_1",
+          "SEJONG-1B-10-V1-008_card_2",
+          "SEJONG-1B-10-V1-008_card_3",
+          "SEJONG-1B-10-V1-008_card_4",
+          "SEJONG-1B-10-V1-008_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-009",
+      "displaySentence": "아침을 꼭 먹어서 힘이 나요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-009_card_0",
+          "아침"
+        ],
+        [
+          "SEJONG-1B-10-V1-009_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-009_card_2",
+          "꼭"
+        ],
+        [
+          "SEJONG-1B-10-V1-009_card_3",
+          "먹어서"
+        ],
+        [
+          "SEJONG-1B-10-V1-009_card_4",
+          "힘"
+        ],
+        [
+          "SEJONG-1B-10-V1-009_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-1B-10-V1-009_card_6",
+          "나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-009_card_0",
+          "SEJONG-1B-10-V1-009_card_1",
+          "SEJONG-1B-10-V1-009_card_2",
+          "SEJONG-1B-10-V1-009_card_3",
+          "SEJONG-1B-10-V1-009_card_4",
+          "SEJONG-1B-10-V1-009_card_5",
+          "SEJONG-1B-10-V1-009_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-010",
+      "displaySentence": "자주 웃어서 기분이 아주 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-010_card_0",
+          "자주"
+        ],
+        [
+          "SEJONG-1B-10-V1-010_card_1",
+          "웃어서"
+        ],
+        [
+          "SEJONG-1B-10-V1-010_card_2",
+          "기분"
+        ],
+        [
+          "SEJONG-1B-10-V1-010_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-1B-10-V1-010_card_4",
+          "아주"
+        ],
+        [
+          "SEJONG-1B-10-V1-010_card_5",
+          "좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-010_card_0",
+          "SEJONG-1B-10-V1-010_card_1",
+          "SEJONG-1B-10-V1-010_card_2",
+          "SEJONG-1B-10-V1-010_card_3",
+          "SEJONG-1B-10-V1-010_card_4",
+          "SEJONG-1B-10-V1-010_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-011",
+      "displaySentence": "생활 습관을 잘 지켜서 몸이 건강해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-011_card_0",
+          "생활 습관"
+        ],
+        [
+          "SEJONG-1B-10-V1-011_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-011_card_2",
+          "잘"
+        ],
+        [
+          "SEJONG-1B-10-V1-011_card_3",
+          "지켜서"
+        ],
+        [
+          "SEJONG-1B-10-V1-011_card_4",
+          "몸"
+        ],
+        [
+          "SEJONG-1B-10-V1-011_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-1B-10-V1-011_card_6",
+          "건강해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-011_card_0",
+          "SEJONG-1B-10-V1-011_card_1",
+          "SEJONG-1B-10-V1-011_card_2",
+          "SEJONG-1B-10-V1-011_card_3",
+          "SEJONG-1B-10-V1-011_card_4",
+          "SEJONG-1B-10-V1-011_card_5",
+          "SEJONG-1B-10-V1-011_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-012",
+      "displaySentence": "퇴근해서 집에서 요가를 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-012_card_0",
+          "퇴근"
+        ],
+        [
+          "SEJONG-1B-10-V1-012_card_1",
+          "해서"
+        ],
+        [
+          "SEJONG-1B-10-V1-012_card_2",
+          "집"
+        ],
+        [
+          "SEJONG-1B-10-V1-012_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-10-V1-012_card_4",
+          "요가"
+        ],
+        [
+          "SEJONG-1B-10-V1-012_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-012_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-012_card_0",
+          "SEJONG-1B-10-V1-012_card_1",
+          "SEJONG-1B-10-V1-012_card_2",
+          "SEJONG-1B-10-V1-012_card_3",
+          "SEJONG-1B-10-V1-012_card_4",
+          "SEJONG-1B-10-V1-012_card_5",
+          "SEJONG-1B-10-V1-012_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-013",
+      "displaySentence": "가끔 공원에서 자전거를 타요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-013_card_0",
+          "가끔"
+        ],
+        [
+          "SEJONG-1B-10-V1-013_card_1",
+          "공원"
+        ],
+        [
+          "SEJONG-1B-10-V1-013_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-10-V1-013_card_3",
+          "자전거"
+        ],
+        [
+          "SEJONG-1B-10-V1-013_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-013_card_5",
+          "타요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-013_card_0",
+          "SEJONG-1B-10-V1-013_card_1",
+          "SEJONG-1B-10-V1-013_card_2",
+          "SEJONG-1B-10-V1-013_card_3",
+          "SEJONG-1B-10-V1-013_card_4",
+          "SEJONG-1B-10-V1-013_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-014",
+      "displaySentence": "샐러드를 만들어서 아침에 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-014_card_0",
+          "샐러드"
+        ],
+        [
+          "SEJONG-1B-10-V1-014_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-014_card_2",
+          "만들어서"
+        ],
+        [
+          "SEJONG-1B-10-V1-014_card_3",
+          "아침"
+        ],
+        [
+          "SEJONG-1B-10-V1-014_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1B-10-V1-014_card_5",
+          "먹어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-014_card_0",
+          "SEJONG-1B-10-V1-014_card_1",
+          "SEJONG-1B-10-V1-014_card_2",
+          "SEJONG-1B-10-V1-014_card_3",
+          "SEJONG-1B-10-V1-014_card_4",
+          "SEJONG-1B-10-V1-014_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-015",
+      "displaySentence": "건강을 위해 물을 많이 마셔요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-015_card_0",
+          "건강"
+        ],
+        [
+          "SEJONG-1B-10-V1-015_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-015_card_2",
+          "위해"
+        ],
+        [
+          "SEJONG-1B-10-V1-015_card_3",
+          "물"
+        ],
+        [
+          "SEJONG-1B-10-V1-015_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-015_card_5",
+          "많이 마셔요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-015_card_0",
+          "SEJONG-1B-10-V1-015_card_1",
+          "SEJONG-1B-10-V1-015_card_2",
+          "SEJONG-1B-10-V1-015_card_3",
+          "SEJONG-1B-10-V1-015_card_4",
+          "SEJONG-1B-10-V1-015_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-016",
+      "displaySentence": "저는 수영을 제일 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-016_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-10-V1-016_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-10-V1-016_card_2",
+          "수영"
+        ],
+        [
+          "SEJONG-1B-10-V1-016_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-016_card_4",
+          "제일"
+        ],
+        [
+          "SEJONG-1B-10-V1-016_card_5",
+          "좋아해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-016_card_0",
+          "SEJONG-1B-10-V1-016_card_1",
+          "SEJONG-1B-10-V1-016_card_2",
+          "SEJONG-1B-10-V1-016_card_3",
+          "SEJONG-1B-10-V1-016_card_4",
+          "SEJONG-1B-10-V1-016_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-017",
+      "displaySentence": "아침에 일찍 일어나는 습관이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-017_card_0",
+          "아침"
+        ],
+        [
+          "SEJONG-1B-10-V1-017_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-10-V1-017_card_2",
+          "일찍"
+        ],
+        [
+          "SEJONG-1B-10-V1-017_card_3",
+          "일어나는"
+        ],
+        [
+          "SEJONG-1B-10-V1-017_card_4",
+          "습관"
+        ],
+        [
+          "SEJONG-1B-10-V1-017_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-1B-10-V1-017_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-017_card_0",
+          "SEJONG-1B-10-V1-017_card_1",
+          "SEJONG-1B-10-V1-017_card_2",
+          "SEJONG-1B-10-V1-017_card_3",
+          "SEJONG-1B-10-V1-017_card_4",
+          "SEJONG-1B-10-V1-017_card_5",
+          "SEJONG-1B-10-V1-017_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-018",
+      "displaySentence": "주말에는 가끔 친구를 초대해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-018_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-1B-10-V1-018_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-1B-10-V1-018_card_2",
+          "가끔"
+        ],
+        [
+          "SEJONG-1B-10-V1-018_card_3",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-10-V1-018_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-018_card_5",
+          "초대해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-018_card_0",
+          "SEJONG-1B-10-V1-018_card_1",
+          "SEJONG-1B-10-V1-018_card_2",
+          "SEJONG-1B-10-V1-018_card_3",
+          "SEJONG-1B-10-V1-018_card_4",
+          "SEJONG-1B-10-V1-018_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-019",
+      "displaySentence": "대학교를 졸업해서 회사에 취직했어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-019_card_0",
+          "대학교"
+        ],
+        [
+          "SEJONG-1B-10-V1-019_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-10-V1-019_card_2",
+          "졸업해서"
+        ],
+        [
+          "SEJONG-1B-10-V1-019_card_3",
+          "회사"
+        ],
+        [
+          "SEJONG-1B-10-V1-019_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1B-10-V1-019_card_5",
+          "취직했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-019_card_0",
+          "SEJONG-1B-10-V1-019_card_1",
+          "SEJONG-1B-10-V1-019_card_2",
+          "SEJONG-1B-10-V1-019_card_3",
+          "SEJONG-1B-10-V1-019_card_4",
+          "SEJONG-1B-10-V1-019_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-10-V1-020",
+      "displaySentence": "해외여행을 다녀와서 사진을 정리해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-10-V1-020_card_0",
+          "해외여행"
+        ],
+        [
+          "SEJONG-1B-10-V1-020_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-020_card_2",
+          "다녀와서"
+        ],
+        [
+          "SEJONG-1B-10-V1-020_card_3",
+          "사진"
+        ],
+        [
+          "SEJONG-1B-10-V1-020_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-10-V1-020_card_5",
+          "정리해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-10-V1-020_card_0",
+          "SEJONG-1B-10-V1-020_card_1",
+          "SEJONG-1B-10-V1-020_card_2",
+          "SEJONG-1B-10-V1-020_card_3",
+          "SEJONG-1B-10-V1-020_card_4",
+          "SEJONG-1B-10-V1-020_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 10과 문법 -기 전에 · -아서/어서 · 교육용 재구성"
+    }
+  ]
+}

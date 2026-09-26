@@ -1,0 +1,807 @@
+{
+  "book": "1B",
+  "lesson": 1,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 1과 범위",
+  "selectionPolicy": [
+    "1과 핵심 문법 무슨·못을 중심으로 구성",
+    "1A에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-01-V1-001",
+      "displaySentence": "무슨 음식을 좋아해요?",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-001_card_0",
+          "무슨"
+        ],
+        [
+          "SEJONG-1B-01-V1-001_card_1",
+          "음식"
+        ],
+        [
+          "SEJONG-1B-01-V1-001_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-001_card_3",
+          "좋아해요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-001_card_0",
+          "SEJONG-1B-01-V1-001_card_1",
+          "SEJONG-1B-01-V1-001_card_2",
+          "SEJONG-1B-01-V1-001_card_3"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 무슨"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-002",
+      "displaySentence": "무슨 한국 음식을 자주 먹어요?",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-002_card_0",
+          "무슨"
+        ],
+        [
+          "SEJONG-1B-01-V1-002_card_1",
+          "한국"
+        ],
+        [
+          "SEJONG-1B-01-V1-002_card_2",
+          "음식"
+        ],
+        [
+          "SEJONG-1B-01-V1-002_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-002_card_4",
+          "자주"
+        ],
+        [
+          "SEJONG-1B-01-V1-002_card_5",
+          "먹어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-002_card_0",
+          "SEJONG-1B-01-V1-002_card_1",
+          "SEJONG-1B-01-V1-002_card_2",
+          "SEJONG-1B-01-V1-002_card_3",
+          "SEJONG-1B-01-V1-002_card_4",
+          "SEJONG-1B-01-V1-002_card_5"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 무슨 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-003",
+      "displaySentence": "무슨 선물을 받고 싶어요?",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-003_card_0",
+          "무슨"
+        ],
+        [
+          "SEJONG-1B-01-V1-003_card_1",
+          "선물"
+        ],
+        [
+          "SEJONG-1B-01-V1-003_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-003_card_3",
+          "받고 싶어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-003_card_0",
+          "SEJONG-1B-01-V1-003_card_1",
+          "SEJONG-1B-01-V1-003_card_2",
+          "SEJONG-1B-01-V1-003_card_3"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 무슨 · 1A 누적 문법"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-004",
+      "displaySentence": "무슨 동물을 가장 좋아해요?",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-004_card_0",
+          "무슨"
+        ],
+        [
+          "SEJONG-1B-01-V1-004_card_1",
+          "동물"
+        ],
+        [
+          "SEJONG-1B-01-V1-004_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-004_card_3",
+          "가장"
+        ],
+        [
+          "SEJONG-1B-01-V1-004_card_4",
+          "좋아해요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-004_card_0",
+          "SEJONG-1B-01-V1-004_card_1",
+          "SEJONG-1B-01-V1-004_card_2",
+          "SEJONG-1B-01-V1-004_card_3",
+          "SEJONG-1B-01-V1-004_card_4"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 무슨"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-005",
+      "displaySentence": "친구는 무슨 음식을 주문해요?",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-005_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-01-V1-005_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-005_card_2",
+          "무슨"
+        ],
+        [
+          "SEJONG-1B-01-V1-005_card_3",
+          "음식"
+        ],
+        [
+          "SEJONG-1B-01-V1-005_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-005_card_5",
+          "주문해요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-005_card_0",
+          "SEJONG-1B-01-V1-005_card_1",
+          "SEJONG-1B-01-V1-005_card_2",
+          "SEJONG-1B-01-V1-005_card_3",
+          "SEJONG-1B-01-V1-005_card_4",
+          "SEJONG-1B-01-V1-005_card_5"
+        ]
+      ],
+      "note": "SB 1B 1과 어휘·문법 재구성"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-006",
+      "displaySentence": "오늘 무슨 음식을 먹어요?",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-006_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-1B-01-V1-006_card_1",
+          "무슨"
+        ],
+        [
+          "SEJONG-1B-01-V1-006_card_2",
+          "음식"
+        ],
+        [
+          "SEJONG-1B-01-V1-006_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-006_card_4",
+          "먹어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-006_card_0",
+          "SEJONG-1B-01-V1-006_card_1",
+          "SEJONG-1B-01-V1-006_card_2",
+          "SEJONG-1B-01-V1-006_card_3",
+          "SEJONG-1B-01-V1-006_card_4"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 무슨 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-007",
+      "displaySentence": "저는 매운 음식을 못 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-007_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-01-V1-007_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-007_card_2",
+          "매운"
+        ],
+        [
+          "SEJONG-1B-01-V1-007_card_3",
+          "음식"
+        ],
+        [
+          "SEJONG-1B-01-V1-007_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-007_card_5",
+          "못"
+        ],
+        [
+          "SEJONG-1B-01-V1-007_card_6",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-007_card_0",
+          "SEJONG-1B-01-V1-007_card_1",
+          "SEJONG-1B-01-V1-007_card_2",
+          "SEJONG-1B-01-V1-007_card_3",
+          "SEJONG-1B-01-V1-007_card_4",
+          "SEJONG-1B-01-V1-007_card_5",
+          "SEJONG-1B-01-V1-007_card_6"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 못"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-008",
+      "displaySentence": "저는 수영을 못 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-008_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-01-V1-008_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-008_card_2",
+          "수영"
+        ],
+        [
+          "SEJONG-1B-01-V1-008_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-008_card_4",
+          "못"
+        ],
+        [
+          "SEJONG-1B-01-V1-008_card_5",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-008_card_0",
+          "SEJONG-1B-01-V1-008_card_1",
+          "SEJONG-1B-01-V1-008_card_2",
+          "SEJONG-1B-01-V1-008_card_3",
+          "SEJONG-1B-01-V1-008_card_4",
+          "SEJONG-1B-01-V1-008_card_5"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 못"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-009",
+      "displaySentence": "제 친구는 운전을 못 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-009_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-1B-01-V1-009_card_1",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-01-V1-009_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-009_card_3",
+          "운전"
+        ],
+        [
+          "SEJONG-1B-01-V1-009_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-009_card_5",
+          "못"
+        ],
+        [
+          "SEJONG-1B-01-V1-009_card_6",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-009_card_0",
+          "SEJONG-1B-01-V1-009_card_1",
+          "SEJONG-1B-01-V1-009_card_2",
+          "SEJONG-1B-01-V1-009_card_3",
+          "SEJONG-1B-01-V1-009_card_4",
+          "SEJONG-1B-01-V1-009_card_5",
+          "SEJONG-1B-01-V1-009_card_6"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 못"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-010",
+      "displaySentence": "저는 테니스를 잘 못 쳐요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-010_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-01-V1-010_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-010_card_2",
+          "테니스"
+        ],
+        [
+          "SEJONG-1B-01-V1-010_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-01-V1-010_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-1B-01-V1-010_card_5",
+          "못"
+        ],
+        [
+          "SEJONG-1B-01-V1-010_card_6",
+          "쳐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-010_card_0",
+          "SEJONG-1B-01-V1-010_card_1",
+          "SEJONG-1B-01-V1-010_card_2",
+          "SEJONG-1B-01-V1-010_card_3",
+          "SEJONG-1B-01-V1-010_card_4",
+          "SEJONG-1B-01-V1-010_card_5",
+          "SEJONG-1B-01-V1-010_card_6"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 못"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-011",
+      "displaySentence": "동생은 고기를 못 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-011_card_0",
+          "동생"
+        ],
+        [
+          "SEJONG-1B-01-V1-011_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-01-V1-011_card_2",
+          "고기"
+        ],
+        [
+          "SEJONG-1B-01-V1-011_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-01-V1-011_card_4",
+          "못"
+        ],
+        [
+          "SEJONG-1B-01-V1-011_card_5",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-011_card_0",
+          "SEJONG-1B-01-V1-011_card_1",
+          "SEJONG-1B-01-V1-011_card_2",
+          "SEJONG-1B-01-V1-011_card_3",
+          "SEJONG-1B-01-V1-011_card_4",
+          "SEJONG-1B-01-V1-011_card_5"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 못 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-012",
+      "displaySentence": "저는 생선 초밥을 못 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-012_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-01-V1-012_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-012_card_2",
+          "생선"
+        ],
+        [
+          "SEJONG-1B-01-V1-012_card_3",
+          "초밥"
+        ],
+        [
+          "SEJONG-1B-01-V1-012_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-012_card_5",
+          "못"
+        ],
+        [
+          "SEJONG-1B-01-V1-012_card_6",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-012_card_0",
+          "SEJONG-1B-01-V1-012_card_1",
+          "SEJONG-1B-01-V1-012_card_2",
+          "SEJONG-1B-01-V1-012_card_3",
+          "SEJONG-1B-01-V1-012_card_4",
+          "SEJONG-1B-01-V1-012_card_5",
+          "SEJONG-1B-01-V1-012_card_6"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 못"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-013",
+      "displaySentence": "저는 혼자 밥을 못 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-013_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-01-V1-013_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-013_card_2",
+          "혼자"
+        ],
+        [
+          "SEJONG-1B-01-V1-013_card_3",
+          "밥"
+        ],
+        [
+          "SEJONG-1B-01-V1-013_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-013_card_5",
+          "못"
+        ],
+        [
+          "SEJONG-1B-01-V1-013_card_6",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-013_card_0",
+          "SEJONG-1B-01-V1-013_card_1",
+          "SEJONG-1B-01-V1-013_card_2",
+          "SEJONG-1B-01-V1-013_card_3",
+          "SEJONG-1B-01-V1-013_card_4",
+          "SEJONG-1B-01-V1-013_card_5",
+          "SEJONG-1B-01-V1-013_card_6"
+        ]
+      ],
+      "note": "SB 1B 1과 문법 못"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-014",
+      "displaySentence": "저는 김치찌개를 가장 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-014_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-01-V1-014_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-014_card_2",
+          "김치찌개"
+        ],
+        [
+          "SEJONG-1B-01-V1-014_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-01-V1-014_card_4",
+          "가장"
+        ],
+        [
+          "SEJONG-1B-01-V1-014_card_5",
+          "좋아해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-014_card_0",
+          "SEJONG-1B-01-V1-014_card_1",
+          "SEJONG-1B-01-V1-014_card_2",
+          "SEJONG-1B-01-V1-014_card_3",
+          "SEJONG-1B-01-V1-014_card_4",
+          "SEJONG-1B-01-V1-014_card_5"
+        ]
+      ],
+      "note": "SB 1B 1과 어휘"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-015",
+      "displaySentence": "여름에 냉면을 자주 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-015_card_0",
+          "여름"
+        ],
+        [
+          "SEJONG-1B-01-V1-015_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-01-V1-015_card_2",
+          "냉면"
+        ],
+        [
+          "SEJONG-1B-01-V1-015_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-015_card_4",
+          "자주"
+        ],
+        [
+          "SEJONG-1B-01-V1-015_card_5",
+          "먹어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-015_card_0",
+          "SEJONG-1B-01-V1-015_card_1",
+          "SEJONG-1B-01-V1-015_card_2",
+          "SEJONG-1B-01-V1-015_card_3",
+          "SEJONG-1B-01-V1-015_card_4",
+          "SEJONG-1B-01-V1-015_card_5"
+        ]
+      ],
+      "note": "SB 1B 1과 어휘 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-016",
+      "displaySentence": "친구하고 볶음밥을 만들었어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-016_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-01-V1-016_card_1",
+          "하고"
+        ],
+        [
+          "SEJONG-1B-01-V1-016_card_2",
+          "볶음밥"
+        ],
+        [
+          "SEJONG-1B-01-V1-016_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-01-V1-016_card_4",
+          "만들었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-016_card_0",
+          "SEJONG-1B-01-V1-016_card_1",
+          "SEJONG-1B-01-V1-016_card_2",
+          "SEJONG-1B-01-V1-016_card_3",
+          "SEJONG-1B-01-V1-016_card_4"
+        ]
+      ],
+      "note": "VG 1B 1과 어휘 예문 기반"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-017",
+      "displaySentence": "어제 잡채를 먹었어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-017_card_0",
+          "어제"
+        ],
+        [
+          "SEJONG-1B-01-V1-017_card_1",
+          "잡채"
+        ],
+        [
+          "SEJONG-1B-01-V1-017_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-1B-01-V1-017_card_3",
+          "먹었어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-017_card_0",
+          "SEJONG-1B-01-V1-017_card_1",
+          "SEJONG-1B-01-V1-017_card_2",
+          "SEJONG-1B-01-V1-017_card_3"
+        ]
+      ],
+      "note": "VG 1B 1과 어휘 예문 기반"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-018",
+      "displaySentence": "우리 비빔밥하고 김치찌개를 주문해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-018_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-1B-01-V1-018_card_1",
+          "비빔밥"
+        ],
+        [
+          "SEJONG-1B-01-V1-018_card_2",
+          "하고"
+        ],
+        [
+          "SEJONG-1B-01-V1-018_card_3",
+          "김치찌개"
+        ],
+        [
+          "SEJONG-1B-01-V1-018_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-01-V1-018_card_5",
+          "주문해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-018_card_0",
+          "SEJONG-1B-01-V1-018_card_1",
+          "SEJONG-1B-01-V1-018_card_2",
+          "SEJONG-1B-01-V1-018_card_3",
+          "SEJONG-1B-01-V1-018_card_4",
+          "SEJONG-1B-01-V1-018_card_5"
+        ]
+      ],
+      "note": "VG 1B 1과 어휘 예문 기반"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-019",
+      "displaySentence": "김치찌개는 조금 매워요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-019_card_0",
+          "김치찌개"
+        ],
+        [
+          "SEJONG-1B-01-V1-019_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-01-V1-019_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-1B-01-V1-019_card_3",
+          "매워요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-019_card_0",
+          "SEJONG-1B-01-V1-019_card_1",
+          "SEJONG-1B-01-V1-019_card_2",
+          "SEJONG-1B-01-V1-019_card_3"
+        ]
+      ],
+      "note": "VG 1B 1과 어휘 예문 기반"
+    },
+    {
+      "id": "SEJONG-1B-01-V1-020",
+      "displaySentence": "일주일에 세 번 한국 식당에 가요.",
+      "tokens": [
+        [
+          "SEJONG-1B-01-V1-020_card_0",
+          "일주일"
+        ],
+        [
+          "SEJONG-1B-01-V1-020_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-01-V1-020_card_2",
+          "세 번"
+        ],
+        [
+          "SEJONG-1B-01-V1-020_card_3",
+          "한국 식당"
+        ],
+        [
+          "SEJONG-1B-01-V1-020_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1B-01-V1-020_card_5",
+          "가요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-01-V1-020_card_0",
+          "SEJONG-1B-01-V1-020_card_1",
+          "SEJONG-1B-01-V1-020_card_2",
+          "SEJONG-1B-01-V1-020_card_3",
+          "SEJONG-1B-01-V1-020_card_4",
+          "SEJONG-1B-01-V1-020_card_5"
+        ]
+      ],
+      "note": "VG 1B 1과 어휘 예문 기반"
+    }
+  ]
+}

@@ -1,0 +1,737 @@
+{
+  "book": "1B",
+  "lesson": 11,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 11과 범위",
+  "selectionPolicy": [
+    "11과 핵심 문법 -(으)ㄹ 수 있다/없다 · -고 있다을 중심으로 구성",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-11-V1-001",
+      "displaySentence": "한국 음식을 직접 만들 수 있어요?",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-001_card_0",
+          "한국 음식"
+        ],
+        [
+          "SEJONG-1B-11-V1-001_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-001_card_2",
+          "직접"
+        ],
+        [
+          "SEJONG-1B-11-V1-001_card_3",
+          "만들 수 있어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-001_card_0",
+          "SEJONG-1B-11-V1-001_card_1",
+          "SEJONG-1B-11-V1-001_card_2",
+          "SEJONG-1B-11-V1-001_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-002",
+      "displaySentence": "저는 스키를 잘 탈 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-002_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-11-V1-002_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-11-V1-002_card_2",
+          "스키"
+        ],
+        [
+          "SEJONG-1B-11-V1-002_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-002_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-1B-11-V1-002_card_5",
+          "탈 수 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-002_card_0",
+          "SEJONG-1B-11-V1-002_card_1",
+          "SEJONG-1B-11-V1-002_card_2",
+          "SEJONG-1B-11-V1-002_card_3",
+          "SEJONG-1B-11-V1-002_card_4",
+          "SEJONG-1B-11-V1-002_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-003",
+      "displaySentence": "오늘은 전화를 받을 수 없어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-003_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-1B-11-V1-003_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-11-V1-003_card_2",
+          "전화"
+        ],
+        [
+          "SEJONG-1B-11-V1-003_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-003_card_4",
+          "받을 수 없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-003_card_0",
+          "SEJONG-1B-11-V1-003_card_1",
+          "SEJONG-1B-11-V1-003_card_2",
+          "SEJONG-1B-11-V1-003_card_3",
+          "SEJONG-1B-11-V1-003_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-004",
+      "displaySentence": "다리를 다쳐서 춤을 출 수 없어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-004_card_0",
+          "다리"
+        ],
+        [
+          "SEJONG-1B-11-V1-004_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-004_card_2",
+          "다쳐서"
+        ],
+        [
+          "SEJONG-1B-11-V1-004_card_3",
+          "춤"
+        ],
+        [
+          "SEJONG-1B-11-V1-004_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-004_card_5",
+          "출 수 없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-004_card_0",
+          "SEJONG-1B-11-V1-004_card_1",
+          "SEJONG-1B-11-V1-004_card_2",
+          "SEJONG-1B-11-V1-004_card_3",
+          "SEJONG-1B-11-V1-004_card_4",
+          "SEJONG-1B-11-V1-004_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-005",
+      "displaySentence": "이 식당을 인터넷으로 예약할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-005_card_0",
+          "이 식당"
+        ],
+        [
+          "SEJONG-1B-11-V1-005_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-005_card_2",
+          "인터넷"
+        ],
+        [
+          "SEJONG-1B-11-V1-005_card_3",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-11-V1-005_card_4",
+          "예약할 수 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-005_card_0",
+          "SEJONG-1B-11-V1-005_card_1",
+          "SEJONG-1B-11-V1-005_card_2",
+          "SEJONG-1B-11-V1-005_card_3",
+          "SEJONG-1B-11-V1-005_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-006",
+      "displaySentence": "소강당에서 모임을 할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-006_card_0",
+          "소강당"
+        ],
+        [
+          "SEJONG-1B-11-V1-006_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-11-V1-006_card_2",
+          "모임"
+        ],
+        [
+          "SEJONG-1B-11-V1-006_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-006_card_4",
+          "할 수 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-006_card_0",
+          "SEJONG-1B-11-V1-006_card_1",
+          "SEJONG-1B-11-V1-006_card_2",
+          "SEJONG-1B-11-V1-006_card_3",
+          "SEJONG-1B-11-V1-006_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-007",
+      "displaySentence": "한국 노래를 아주 잘 부를 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-007_card_0",
+          "한국 노래"
+        ],
+        [
+          "SEJONG-1B-11-V1-007_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-007_card_2",
+          "아주"
+        ],
+        [
+          "SEJONG-1B-11-V1-007_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-1B-11-V1-007_card_4",
+          "부를 수 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-007_card_0",
+          "SEJONG-1B-11-V1-007_card_1",
+          "SEJONG-1B-11-V1-007_card_2",
+          "SEJONG-1B-11-V1-007_card_3",
+          "SEJONG-1B-11-V1-007_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-008",
+      "displaySentence": "지금 친구에게 전화를 하고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-008_card_0",
+          "지금"
+        ],
+        [
+          "SEJONG-1B-11-V1-008_card_1",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-11-V1-008_card_2",
+          "에게"
+        ],
+        [
+          "SEJONG-1B-11-V1-008_card_3",
+          "전화"
+        ],
+        [
+          "SEJONG-1B-11-V1-008_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-008_card_5",
+          "하고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-008_card_0",
+          "SEJONG-1B-11-V1-008_card_1",
+          "SEJONG-1B-11-V1-008_card_2",
+          "SEJONG-1B-11-V1-008_card_3",
+          "SEJONG-1B-11-V1-008_card_4",
+          "SEJONG-1B-11-V1-008_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-009",
+      "displaySentence": "친구들이 소강당에 모이고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-009_card_0",
+          "친구들"
+        ],
+        [
+          "SEJONG-1B-11-V1-009_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-11-V1-009_card_2",
+          "소강당"
+        ],
+        [
+          "SEJONG-1B-11-V1-009_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-11-V1-009_card_4",
+          "모이고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-009_card_0",
+          "SEJONG-1B-11-V1-009_card_1",
+          "SEJONG-1B-11-V1-009_card_2",
+          "SEJONG-1B-11-V1-009_card_3",
+          "SEJONG-1B-11-V1-009_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-010",
+      "displaySentence": "우리는 모임 시간을 정하고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-010_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-1B-11-V1-010_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-11-V1-010_card_2",
+          "모임 시간"
+        ],
+        [
+          "SEJONG-1B-11-V1-010_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-010_card_4",
+          "정하고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-010_card_0",
+          "SEJONG-1B-11-V1-010_card_1",
+          "SEJONG-1B-11-V1-010_card_2",
+          "SEJONG-1B-11-V1-010_card_3",
+          "SEJONG-1B-11-V1-010_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-011",
+      "displaySentence": "안나 씨가 초대장을 쓰고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-011_card_0",
+          "안나 씨"
+        ],
+        [
+          "SEJONG-1B-11-V1-011_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1B-11-V1-011_card_2",
+          "초대장"
+        ],
+        [
+          "SEJONG-1B-11-V1-011_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-011_card_4",
+          "쓰고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-011_card_0",
+          "SEJONG-1B-11-V1-011_card_1",
+          "SEJONG-1B-11-V1-011_card_2",
+          "SEJONG-1B-11-V1-011_card_3",
+          "SEJONG-1B-11-V1-011_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-012",
+      "displaySentence": "친구들이 함께 노래를 부르고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-012_card_0",
+          "친구들"
+        ],
+        [
+          "SEJONG-1B-11-V1-012_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-11-V1-012_card_2",
+          "함께"
+        ],
+        [
+          "SEJONG-1B-11-V1-012_card_3",
+          "노래"
+        ],
+        [
+          "SEJONG-1B-11-V1-012_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-012_card_5",
+          "부르고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-012_card_0",
+          "SEJONG-1B-11-V1-012_card_1",
+          "SEJONG-1B-11-V1-012_card_2",
+          "SEJONG-1B-11-V1-012_card_3",
+          "SEJONG-1B-11-V1-012_card_4",
+          "SEJONG-1B-11-V1-012_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-013",
+      "displaySentence": "매주 화요일에 모임을 하고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-013_card_0",
+          "매주 화요일"
+        ],
+        [
+          "SEJONG-1B-11-V1-013_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-11-V1-013_card_2",
+          "모임"
+        ],
+        [
+          "SEJONG-1B-11-V1-013_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-013_card_4",
+          "하고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-013_card_0",
+          "SEJONG-1B-11-V1-013_card_1",
+          "SEJONG-1B-11-V1-013_card_2",
+          "SEJONG-1B-11-V1-013_card_3",
+          "SEJONG-1B-11-V1-013_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-014",
+      "displaySentence": "결혼 축하 모임을 지금 준비하고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-014_card_0",
+          "결혼 축하 모임"
+        ],
+        [
+          "SEJONG-1B-11-V1-014_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-11-V1-014_card_2",
+          "지금"
+        ],
+        [
+          "SEJONG-1B-11-V1-014_card_3",
+          "준비하고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-014_card_0",
+          "SEJONG-1B-11-V1-014_card_1",
+          "SEJONG-1B-11-V1-014_card_2",
+          "SEJONG-1B-11-V1-014_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-015",
+      "displaySentence": "친구에게 모임 장소를 문의할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-015_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-11-V1-015_card_1",
+          "에게"
+        ],
+        [
+          "SEJONG-1B-11-V1-015_card_2",
+          "모임 장소"
+        ],
+        [
+          "SEJONG-1B-11-V1-015_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-015_card_4",
+          "문의할 수 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-015_card_0",
+          "SEJONG-1B-11-V1-015_card_1",
+          "SEJONG-1B-11-V1-015_card_2",
+          "SEJONG-1B-11-V1-015_card_3",
+          "SEJONG-1B-11-V1-015_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-016",
+      "displaySentence": "예약한 식당에 지금 연락할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-016_card_0",
+          "예약한 식당"
+        ],
+        [
+          "SEJONG-1B-11-V1-016_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-11-V1-016_card_2",
+          "지금"
+        ],
+        [
+          "SEJONG-1B-11-V1-016_card_3",
+          "연락할 수 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-016_card_0",
+          "SEJONG-1B-11-V1-016_card_1",
+          "SEJONG-1B-11-V1-016_card_2",
+          "SEJONG-1B-11-V1-016_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-017",
+      "displaySentence": "오늘은 함께 모일 수 없어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-017_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-1B-11-V1-017_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-11-V1-017_card_2",
+          "함께"
+        ],
+        [
+          "SEJONG-1B-11-V1-017_card_3",
+          "모일 수 없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-017_card_0",
+          "SEJONG-1B-11-V1-017_card_1",
+          "SEJONG-1B-11-V1-017_card_2",
+          "SEJONG-1B-11-V1-017_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-018",
+      "displaySentence": "친구가 다쳐서 스키를 탈 수 없어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-018_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-11-V1-018_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1B-11-V1-018_card_2",
+          "다쳐서"
+        ],
+        [
+          "SEJONG-1B-11-V1-018_card_3",
+          "스키"
+        ],
+        [
+          "SEJONG-1B-11-V1-018_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-018_card_5",
+          "탈 수 없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-018_card_0",
+          "SEJONG-1B-11-V1-018_card_1",
+          "SEJONG-1B-11-V1-018_card_2",
+          "SEJONG-1B-11-V1-018_card_3",
+          "SEJONG-1B-11-V1-018_card_4",
+          "SEJONG-1B-11-V1-018_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-019",
+      "displaySentence": "사람들이 축하 노래를 부르고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-019_card_0",
+          "사람들"
+        ],
+        [
+          "SEJONG-1B-11-V1-019_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-11-V1-019_card_2",
+          "축하 노래"
+        ],
+        [
+          "SEJONG-1B-11-V1-019_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-019_card_4",
+          "부르고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-019_card_0",
+          "SEJONG-1B-11-V1-019_card_1",
+          "SEJONG-1B-11-V1-019_card_2",
+          "SEJONG-1B-11-V1-019_card_3",
+          "SEJONG-1B-11-V1-019_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-11-V1-020",
+      "displaySentence": "지금 결혼식 장소를 예약하고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-11-V1-020_card_0",
+          "지금"
+        ],
+        [
+          "SEJONG-1B-11-V1-020_card_1",
+          "결혼식 장소"
+        ],
+        [
+          "SEJONG-1B-11-V1-020_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-1B-11-V1-020_card_3",
+          "예약하고 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-11-V1-020_card_0",
+          "SEJONG-1B-11-V1-020_card_1",
+          "SEJONG-1B-11-V1-020_card_2",
+          "SEJONG-1B-11-V1-020_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 11과 문법 -(으)ㄹ 수 있다/없다 · -고 있다 · 교육용 재구성"
+    }
+  ]
+}

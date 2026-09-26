@@ -1,0 +1,817 @@
+{
+  "book": "1B",
+  "lesson": 7,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 7과 범위",
+  "selectionPolicy": [
+    "7과 핵심 문법 -(으)려고 하다 · -고을 중심으로 구성",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-07-V1-001",
+      "displaySentence": "이번 휴가에 제주도에 가려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-001_card_0",
+          "이번 휴가"
+        ],
+        [
+          "SEJONG-1B-07-V1-001_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-001_card_2",
+          "제주도"
+        ],
+        [
+          "SEJONG-1B-07-V1-001_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-001_card_4",
+          "가려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-001_card_0",
+          "SEJONG-1B-07-V1-001_card_1",
+          "SEJONG-1B-07-V1-001_card_2",
+          "SEJONG-1B-07-V1-001_card_3",
+          "SEJONG-1B-07-V1-001_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-002",
+      "displaySentence": "경주에서 불국사를 구경하려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-002_card_0",
+          "경주"
+        ],
+        [
+          "SEJONG-1B-07-V1-002_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-07-V1-002_card_2",
+          "불국사"
+        ],
+        [
+          "SEJONG-1B-07-V1-002_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-07-V1-002_card_4",
+          "구경하려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-002_card_0",
+          "SEJONG-1B-07-V1-002_card_1",
+          "SEJONG-1B-07-V1-002_card_2",
+          "SEJONG-1B-07-V1-002_card_3",
+          "SEJONG-1B-07-V1-002_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-003",
+      "displaySentence": "설악산에 올라가려고 등산화를 샀어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-003_card_0",
+          "설악산"
+        ],
+        [
+          "SEJONG-1B-07-V1-003_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-003_card_2",
+          "올라가려고"
+        ],
+        [
+          "SEJONG-1B-07-V1-003_card_3",
+          "등산화"
+        ],
+        [
+          "SEJONG-1B-07-V1-003_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-07-V1-003_card_5",
+          "샀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-003_card_0",
+          "SEJONG-1B-07-V1-003_card_1",
+          "SEJONG-1B-07-V1-003_card_2",
+          "SEJONG-1B-07-V1-003_card_3",
+          "SEJONG-1B-07-V1-003_card_4",
+          "SEJONG-1B-07-V1-003_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-004",
+      "displaySentence": "바다에서 수영하려고 수영복을 준비해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-004_card_0",
+          "바다"
+        ],
+        [
+          "SEJONG-1B-07-V1-004_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-07-V1-004_card_2",
+          "수영하려고"
+        ],
+        [
+          "SEJONG-1B-07-V1-004_card_3",
+          "수영복"
+        ],
+        [
+          "SEJONG-1B-07-V1-004_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-004_card_5",
+          "준비해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-004_card_0",
+          "SEJONG-1B-07-V1-004_card_1",
+          "SEJONG-1B-07-V1-004_card_2",
+          "SEJONG-1B-07-V1-004_card_3",
+          "SEJONG-1B-07-V1-004_card_4",
+          "SEJONG-1B-07-V1-004_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-005",
+      "displaySentence": "여행을 가려고 여권을 만들었어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-005_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-1B-07-V1-005_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-005_card_2",
+          "가려고"
+        ],
+        [
+          "SEJONG-1B-07-V1-005_card_3",
+          "여권"
+        ],
+        [
+          "SEJONG-1B-07-V1-005_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-005_card_5",
+          "만들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-005_card_0",
+          "SEJONG-1B-07-V1-005_card_1",
+          "SEJONG-1B-07-V1-005_card_2",
+          "SEJONG-1B-07-V1-005_card_3",
+          "SEJONG-1B-07-V1-005_card_4",
+          "SEJONG-1B-07-V1-005_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-006",
+      "displaySentence": "맛집에서 닭갈비를 먹으려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-006_card_0",
+          "맛집"
+        ],
+        [
+          "SEJONG-1B-07-V1-006_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-07-V1-006_card_2",
+          "닭갈비"
+        ],
+        [
+          "SEJONG-1B-07-V1-006_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-07-V1-006_card_4",
+          "먹으려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-006_card_0",
+          "SEJONG-1B-07-V1-006_card_1",
+          "SEJONG-1B-07-V1-006_card_2",
+          "SEJONG-1B-07-V1-006_card_3",
+          "SEJONG-1B-07-V1-006_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-007",
+      "displaySentence": "밤에 친구들과 파티를 하려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-007_card_0",
+          "밤"
+        ],
+        [
+          "SEJONG-1B-07-V1-007_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-007_card_2",
+          "친구들"
+        ],
+        [
+          "SEJONG-1B-07-V1-007_card_3",
+          "과"
+        ],
+        [
+          "SEJONG-1B-07-V1-007_card_4",
+          "파티"
+        ],
+        [
+          "SEJONG-1B-07-V1-007_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-1B-07-V1-007_card_6",
+          "하려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-007_card_0",
+          "SEJONG-1B-07-V1-007_card_1",
+          "SEJONG-1B-07-V1-007_card_2",
+          "SEJONG-1B-07-V1-007_card_3",
+          "SEJONG-1B-07-V1-007_card_4",
+          "SEJONG-1B-07-V1-007_card_5",
+          "SEJONG-1B-07-V1-007_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-008",
+      "displaySentence": "여행 전에 머리를 자르려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-008_card_0",
+          "여행 전"
+        ],
+        [
+          "SEJONG-1B-07-V1-008_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-008_card_2",
+          "머리"
+        ],
+        [
+          "SEJONG-1B-07-V1-008_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-1B-07-V1-008_card_4",
+          "자르려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-008_card_0",
+          "SEJONG-1B-07-V1-008_card_1",
+          "SEJONG-1B-07-V1-008_card_2",
+          "SEJONG-1B-07-V1-008_card_3",
+          "SEJONG-1B-07-V1-008_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-009",
+      "displaySentence": "돈을 준비하고 여권도 확인해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-009_card_0",
+          "돈"
+        ],
+        [
+          "SEJONG-1B-07-V1-009_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-009_card_2",
+          "준비하고"
+        ],
+        [
+          "SEJONG-1B-07-V1-009_card_3",
+          "여권"
+        ],
+        [
+          "SEJONG-1B-07-V1-009_card_4",
+          "도"
+        ],
+        [
+          "SEJONG-1B-07-V1-009_card_5",
+          "확인해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-009_card_0",
+          "SEJONG-1B-07-V1-009_card_1",
+          "SEJONG-1B-07-V1-009_card_2",
+          "SEJONG-1B-07-V1-009_card_3",
+          "SEJONG-1B-07-V1-009_card_4",
+          "SEJONG-1B-07-V1-009_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-010",
+      "displaySentence": "수영복을 사고 선글라스도 샀어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-010_card_0",
+          "수영복"
+        ],
+        [
+          "SEJONG-1B-07-V1-010_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-010_card_2",
+          "사고"
+        ],
+        [
+          "SEJONG-1B-07-V1-010_card_3",
+          "선글라스"
+        ],
+        [
+          "SEJONG-1B-07-V1-010_card_4",
+          "도"
+        ],
+        [
+          "SEJONG-1B-07-V1-010_card_5",
+          "샀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-010_card_0",
+          "SEJONG-1B-07-V1-010_card_1",
+          "SEJONG-1B-07-V1-010_card_2",
+          "SEJONG-1B-07-V1-010_card_3",
+          "SEJONG-1B-07-V1-010_card_4",
+          "SEJONG-1B-07-V1-010_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-011",
+      "displaySentence": "산도 보고 호수도 구경할 거예요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-011_card_0",
+          "산"
+        ],
+        [
+          "SEJONG-1B-07-V1-011_card_1",
+          "도"
+        ],
+        [
+          "SEJONG-1B-07-V1-011_card_2",
+          "보고"
+        ],
+        [
+          "SEJONG-1B-07-V1-011_card_3",
+          "호수"
+        ],
+        [
+          "SEJONG-1B-07-V1-011_card_4",
+          "도"
+        ],
+        [
+          "SEJONG-1B-07-V1-011_card_5",
+          "구경할 거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-011_card_0",
+          "SEJONG-1B-07-V1-011_card_1",
+          "SEJONG-1B-07-V1-011_card_2",
+          "SEJONG-1B-07-V1-011_card_3",
+          "SEJONG-1B-07-V1-011_card_4",
+          "SEJONG-1B-07-V1-011_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-012",
+      "displaySentence": "도시에 가고 전통 시장도 볼 거예요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-012_card_0",
+          "도시"
+        ],
+        [
+          "SEJONG-1B-07-V1-012_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-012_card_2",
+          "가고"
+        ],
+        [
+          "SEJONG-1B-07-V1-012_card_3",
+          "전통 시장"
+        ],
+        [
+          "SEJONG-1B-07-V1-012_card_4",
+          "도"
+        ],
+        [
+          "SEJONG-1B-07-V1-012_card_5",
+          "볼 거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-012_card_0",
+          "SEJONG-1B-07-V1-012_card_1",
+          "SEJONG-1B-07-V1-012_card_2",
+          "SEJONG-1B-07-V1-012_card_3",
+          "SEJONG-1B-07-V1-012_card_4",
+          "SEJONG-1B-07-V1-012_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-013",
+      "displaySentence": "약을 사고 여행 가방에 넣어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-013_card_0",
+          "약"
+        ],
+        [
+          "SEJONG-1B-07-V1-013_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-013_card_2",
+          "사고"
+        ],
+        [
+          "SEJONG-1B-07-V1-013_card_3",
+          "여행 가방"
+        ],
+        [
+          "SEJONG-1B-07-V1-013_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-013_card_5",
+          "넣어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-013_card_0",
+          "SEJONG-1B-07-V1-013_card_1",
+          "SEJONG-1B-07-V1-013_card_2",
+          "SEJONG-1B-07-V1-013_card_3",
+          "SEJONG-1B-07-V1-013_card_4",
+          "SEJONG-1B-07-V1-013_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-014",
+      "displaySentence": "제주도는 섬이고 경치가 아름다워요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-014_card_0",
+          "제주도"
+        ],
+        [
+          "SEJONG-1B-07-V1-014_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-07-V1-014_card_2",
+          "섬"
+        ],
+        [
+          "SEJONG-1B-07-V1-014_card_3",
+          "이고"
+        ],
+        [
+          "SEJONG-1B-07-V1-014_card_4",
+          "경치"
+        ],
+        [
+          "SEJONG-1B-07-V1-014_card_5",
+          "가"
+        ],
+        [
+          "SEJONG-1B-07-V1-014_card_6",
+          "아름다워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-014_card_0",
+          "SEJONG-1B-07-V1-014_card_1",
+          "SEJONG-1B-07-V1-014_card_2",
+          "SEJONG-1B-07-V1-014_card_3",
+          "SEJONG-1B-07-V1-014_card_4",
+          "SEJONG-1B-07-V1-014_card_5",
+          "SEJONG-1B-07-V1-014_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-015",
+      "displaySentence": "빨리 준비하고 공항에 가려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-015_card_0",
+          "빨리"
+        ],
+        [
+          "SEJONG-1B-07-V1-015_card_1",
+          "준비하고"
+        ],
+        [
+          "SEJONG-1B-07-V1-015_card_2",
+          "공항"
+        ],
+        [
+          "SEJONG-1B-07-V1-015_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-015_card_4",
+          "가려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-015_card_0",
+          "SEJONG-1B-07-V1-015_card_1",
+          "SEJONG-1B-07-V1-015_card_2",
+          "SEJONG-1B-07-V1-015_card_3",
+          "SEJONG-1B-07-V1-015_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-016",
+      "displaySentence": "휴가에 산으로 여행을 가고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-016_card_0",
+          "휴가"
+        ],
+        [
+          "SEJONG-1B-07-V1-016_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-016_card_2",
+          "산"
+        ],
+        [
+          "SEJONG-1B-07-V1-016_card_3",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-07-V1-016_card_4",
+          "여행"
+        ],
+        [
+          "SEJONG-1B-07-V1-016_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-016_card_6",
+          "가고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-016_card_0",
+          "SEJONG-1B-07-V1-016_card_1",
+          "SEJONG-1B-07-V1-016_card_2",
+          "SEJONG-1B-07-V1-016_card_3",
+          "SEJONG-1B-07-V1-016_card_4",
+          "SEJONG-1B-07-V1-016_card_5",
+          "SEJONG-1B-07-V1-016_card_6"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-017",
+      "displaySentence": "경주에 가서 불국사를 보려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-017_card_0",
+          "경주"
+        ],
+        [
+          "SEJONG-1B-07-V1-017_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-07-V1-017_card_2",
+          "가서"
+        ],
+        [
+          "SEJONG-1B-07-V1-017_card_3",
+          "불국사"
+        ],
+        [
+          "SEJONG-1B-07-V1-017_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-07-V1-017_card_5",
+          "보려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-017_card_0",
+          "SEJONG-1B-07-V1-017_card_1",
+          "SEJONG-1B-07-V1-017_card_2",
+          "SEJONG-1B-07-V1-017_card_3",
+          "SEJONG-1B-07-V1-017_card_4",
+          "SEJONG-1B-07-V1-017_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-018",
+      "displaySentence": "친구하고 여행 계획을 이야기하려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-018_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-1B-07-V1-018_card_1",
+          "하고"
+        ],
+        [
+          "SEJONG-1B-07-V1-018_card_2",
+          "여행 계획"
+        ],
+        [
+          "SEJONG-1B-07-V1-018_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-018_card_4",
+          "이야기하려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-018_card_0",
+          "SEJONG-1B-07-V1-018_card_1",
+          "SEJONG-1B-07-V1-018_card_2",
+          "SEJONG-1B-07-V1-018_card_3",
+          "SEJONG-1B-07-V1-018_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-019",
+      "displaySentence": "여행에서 맛있는 음식을 먹고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-019_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-1B-07-V1-019_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-07-V1-019_card_2",
+          "맛있는"
+        ],
+        [
+          "SEJONG-1B-07-V1-019_card_3",
+          "음식"
+        ],
+        [
+          "SEJONG-1B-07-V1-019_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-07-V1-019_card_5",
+          "먹고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-019_card_0",
+          "SEJONG-1B-07-V1-019_card_1",
+          "SEJONG-1B-07-V1-019_card_2",
+          "SEJONG-1B-07-V1-019_card_3",
+          "SEJONG-1B-07-V1-019_card_4",
+          "SEJONG-1B-07-V1-019_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-07-V1-020",
+      "displaySentence": "준비를 끝내고 일찍 자려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-07-V1-020_card_0",
+          "준비"
+        ],
+        [
+          "SEJONG-1B-07-V1-020_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-07-V1-020_card_2",
+          "끝내고"
+        ],
+        [
+          "SEJONG-1B-07-V1-020_card_3",
+          "일찍"
+        ],
+        [
+          "SEJONG-1B-07-V1-020_card_4",
+          "자려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-07-V1-020_card_0",
+          "SEJONG-1B-07-V1-020_card_1",
+          "SEJONG-1B-07-V1-020_card_2",
+          "SEJONG-1B-07-V1-020_card_3",
+          "SEJONG-1B-07-V1-020_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 7과 문법 -(으)려고 하다 · -고 · 교육용 재구성"
+    }
+  ]
+}

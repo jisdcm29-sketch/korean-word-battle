@@ -1,0 +1,712 @@
+{
+  "book": "1B",
+  "lesson": 5,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 5과 범위",
+  "selectionPolicy": [
+    "5과 핵심 문법 의문사 · (으)로을 중심으로 구성",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-05-V1-001",
+      "displaySentence": "세종식당이 어디에 있어요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-001_card_0",
+          "세종식당"
+        ],
+        [
+          "SEJONG-1B-05-V1-001_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-05-V1-001_card_2",
+          "어디"
+        ],
+        [
+          "SEJONG-1B-05-V1-001_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-001_card_4",
+          "있어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-001_card_0",
+          "SEJONG-1B-05-V1-001_card_1",
+          "SEJONG-1B-05-V1-001_card_2",
+          "SEJONG-1B-05-V1-001_card_3",
+          "SEJONG-1B-05-V1-001_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-002",
+      "displaySentence": "화장실은 몇 층에 있어요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-002_card_0",
+          "화장실"
+        ],
+        [
+          "SEJONG-1B-05-V1-002_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-05-V1-002_card_2",
+          "몇 층"
+        ],
+        [
+          "SEJONG-1B-05-V1-002_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-002_card_4",
+          "있어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-002_card_0",
+          "SEJONG-1B-05-V1-002_card_1",
+          "SEJONG-1B-05-V1-002_card_2",
+          "SEJONG-1B-05-V1-002_card_3",
+          "SEJONG-1B-05-V1-002_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-003",
+      "displaySentence": "시청까지 얼마나 걸려요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-003_card_0",
+          "시청"
+        ],
+        [
+          "SEJONG-1B-05-V1-003_card_1",
+          "까지"
+        ],
+        [
+          "SEJONG-1B-05-V1-003_card_2",
+          "얼마나"
+        ],
+        [
+          "SEJONG-1B-05-V1-003_card_3",
+          "걸려요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-003_card_0",
+          "SEJONG-1B-05-V1-003_card_1",
+          "SEJONG-1B-05-V1-003_card_2",
+          "SEJONG-1B-05-V1-003_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-004",
+      "displaySentence": "어느 방향으로 가요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-004_card_0",
+          "어느"
+        ],
+        [
+          "SEJONG-1B-05-V1-004_card_1",
+          "방향"
+        ],
+        [
+          "SEJONG-1B-05-V1-004_card_2",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-004_card_3",
+          "가요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-004_card_0",
+          "SEJONG-1B-05-V1-004_card_1",
+          "SEJONG-1B-05-V1-004_card_2",
+          "SEJONG-1B-05-V1-004_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-005",
+      "displaySentence": "병원은 어디로 가면 돼요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-005_card_0",
+          "병원"
+        ],
+        [
+          "SEJONG-1B-05-V1-005_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-05-V1-005_card_2",
+          "어디"
+        ],
+        [
+          "SEJONG-1B-05-V1-005_card_3",
+          "로"
+        ],
+        [
+          "SEJONG-1B-05-V1-005_card_4",
+          "가면 돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-005_card_0",
+          "SEJONG-1B-05-V1-005_card_1",
+          "SEJONG-1B-05-V1-005_card_2",
+          "SEJONG-1B-05-V1-005_card_3",
+          "SEJONG-1B-05-V1-005_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-006",
+      "displaySentence": "누구하고 시장에 가요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-006_card_0",
+          "누구"
+        ],
+        [
+          "SEJONG-1B-05-V1-006_card_1",
+          "하고"
+        ],
+        [
+          "SEJONG-1B-05-V1-006_card_2",
+          "시장"
+        ],
+        [
+          "SEJONG-1B-05-V1-006_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-006_card_4",
+          "가요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-006_card_0",
+          "SEJONG-1B-05-V1-006_card_1",
+          "SEJONG-1B-05-V1-006_card_2",
+          "SEJONG-1B-05-V1-006_card_3",
+          "SEJONG-1B-05-V1-006_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-007",
+      "displaySentence": "왜 약국에 가요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-007_card_0",
+          "왜"
+        ],
+        [
+          "SEJONG-1B-05-V1-007_card_1",
+          "약국"
+        ],
+        [
+          "SEJONG-1B-05-V1-007_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-007_card_3",
+          "가요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-007_card_0",
+          "SEJONG-1B-05-V1-007_card_1",
+          "SEJONG-1B-05-V1-007_card_2",
+          "SEJONG-1B-05-V1-007_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-008",
+      "displaySentence": "언제 시청에 갈 거예요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-008_card_0",
+          "언제"
+        ],
+        [
+          "SEJONG-1B-05-V1-008_card_1",
+          "시청"
+        ],
+        [
+          "SEJONG-1B-05-V1-008_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-008_card_3",
+          "갈 거예요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-008_card_0",
+          "SEJONG-1B-05-V1-008_card_1",
+          "SEJONG-1B-05-V1-008_card_2",
+          "SEJONG-1B-05-V1-008_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-009",
+      "displaySentence": "어떻게 테니스장에 가요?",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-009_card_0",
+          "어떻게"
+        ],
+        [
+          "SEJONG-1B-05-V1-009_card_1",
+          "테니스장"
+        ],
+        [
+          "SEJONG-1B-05-V1-009_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-009_card_3",
+          "가요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-009_card_0",
+          "SEJONG-1B-05-V1-009_card_1",
+          "SEJONG-1B-05-V1-009_card_2",
+          "SEJONG-1B-05-V1-009_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-010",
+      "displaySentence": "똑바로 앞으로 계속 가세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-010_card_0",
+          "똑바로"
+        ],
+        [
+          "SEJONG-1B-05-V1-010_card_1",
+          "앞"
+        ],
+        [
+          "SEJONG-1B-05-V1-010_card_2",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-010_card_3",
+          "계속"
+        ],
+        [
+          "SEJONG-1B-05-V1-010_card_4",
+          "가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-010_card_0",
+          "SEJONG-1B-05-V1-010_card_1",
+          "SEJONG-1B-05-V1-010_card_2",
+          "SEJONG-1B-05-V1-010_card_3",
+          "SEJONG-1B-05-V1-010_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-011",
+      "displaySentence": "오른쪽으로 천천히 돌아가세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-011_card_0",
+          "오른쪽"
+        ],
+        [
+          "SEJONG-1B-05-V1-011_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-011_card_2",
+          "천천히"
+        ],
+        [
+          "SEJONG-1B-05-V1-011_card_3",
+          "돌아가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-011_card_0",
+          "SEJONG-1B-05-V1-011_card_1",
+          "SEJONG-1B-05-V1-011_card_2",
+          "SEJONG-1B-05-V1-011_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-012",
+      "displaySentence": "왼쪽으로 길을 건너가세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-012_card_0",
+          "왼쪽"
+        ],
+        [
+          "SEJONG-1B-05-V1-012_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-012_card_2",
+          "길"
+        ],
+        [
+          "SEJONG-1B-05-V1-012_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-05-V1-012_card_4",
+          "건너가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-012_card_0",
+          "SEJONG-1B-05-V1-012_card_1",
+          "SEJONG-1B-05-V1-012_card_2",
+          "SEJONG-1B-05-V1-012_card_3",
+          "SEJONG-1B-05-V1-012_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-013",
+      "displaySentence": "엘리베이터로 이 층에 올라가세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-013_card_0",
+          "엘리베이터"
+        ],
+        [
+          "SEJONG-1B-05-V1-013_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-1B-05-V1-013_card_2",
+          "이 층"
+        ],
+        [
+          "SEJONG-1B-05-V1-013_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-013_card_4",
+          "올라가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-013_card_0",
+          "SEJONG-1B-05-V1-013_card_1",
+          "SEJONG-1B-05-V1-013_card_2",
+          "SEJONG-1B-05-V1-013_card_3",
+          "SEJONG-1B-05-V1-013_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-014",
+      "displaySentence": "계단으로 일 층에 내려가세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-014_card_0",
+          "계단"
+        ],
+        [
+          "SEJONG-1B-05-V1-014_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-014_card_2",
+          "일 층"
+        ],
+        [
+          "SEJONG-1B-05-V1-014_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-014_card_4",
+          "내려가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-014_card_0",
+          "SEJONG-1B-05-V1-014_card_1",
+          "SEJONG-1B-05-V1-014_card_2",
+          "SEJONG-1B-05-V1-014_card_3",
+          "SEJONG-1B-05-V1-014_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-015",
+      "displaySentence": "밖으로 나가서 왼쪽으로 가세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-015_card_0",
+          "밖"
+        ],
+        [
+          "SEJONG-1B-05-V1-015_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-015_card_2",
+          "나가서"
+        ],
+        [
+          "SEJONG-1B-05-V1-015_card_3",
+          "왼쪽"
+        ],
+        [
+          "SEJONG-1B-05-V1-015_card_4",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-015_card_5",
+          "가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-015_card_0",
+          "SEJONG-1B-05-V1-015_card_1",
+          "SEJONG-1B-05-V1-015_card_2",
+          "SEJONG-1B-05-V1-015_card_3",
+          "SEJONG-1B-05-V1-015_card_4",
+          "SEJONG-1B-05-V1-015_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-016",
+      "displaySentence": "건물 안으로 천천히 들어가세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-016_card_0",
+          "건물 안"
+        ],
+        [
+          "SEJONG-1B-05-V1-016_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-1B-05-V1-016_card_2",
+          "천천히"
+        ],
+        [
+          "SEJONG-1B-05-V1-016_card_3",
+          "들어가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-016_card_0",
+          "SEJONG-1B-05-V1-016_card_1",
+          "SEJONG-1B-05-V1-016_card_2",
+          "SEJONG-1B-05-V1-016_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-017",
+      "displaySentence": "주차장은 건물 뒤쪽에 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-017_card_0",
+          "주차장"
+        ],
+        [
+          "SEJONG-1B-05-V1-017_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-05-V1-017_card_2",
+          "건물 뒤쪽"
+        ],
+        [
+          "SEJONG-1B-05-V1-017_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-017_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-017_card_0",
+          "SEJONG-1B-05-V1-017_card_1",
+          "SEJONG-1B-05-V1-017_card_2",
+          "SEJONG-1B-05-V1-017_card_3",
+          "SEJONG-1B-05-V1-017_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-018",
+      "displaySentence": "지도로 길을 찾아 보세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-018_card_0",
+          "지도"
+        ],
+        [
+          "SEJONG-1B-05-V1-018_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-1B-05-V1-018_card_2",
+          "길"
+        ],
+        [
+          "SEJONG-1B-05-V1-018_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-05-V1-018_card_4",
+          "찾아 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-018_card_0",
+          "SEJONG-1B-05-V1-018_card_1",
+          "SEJONG-1B-05-V1-018_card_2",
+          "SEJONG-1B-05-V1-018_card_3",
+          "SEJONG-1B-05-V1-018_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-019",
+      "displaySentence": "빵집은 약국 옆에 있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-019_card_0",
+          "빵집"
+        ],
+        [
+          "SEJONG-1B-05-V1-019_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-05-V1-019_card_2",
+          "약국 옆"
+        ],
+        [
+          "SEJONG-1B-05-V1-019_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-05-V1-019_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-019_card_0",
+          "SEJONG-1B-05-V1-019_card_1",
+          "SEJONG-1B-05-V1-019_card_2",
+          "SEJONG-1B-05-V1-019_card_3",
+          "SEJONG-1B-05-V1-019_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-05-V1-020",
+      "displaySentence": "이 길로 가면 시장이 나와요.",
+      "tokens": [
+        [
+          "SEJONG-1B-05-V1-020_card_0",
+          "이 길"
+        ],
+        [
+          "SEJONG-1B-05-V1-020_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-1B-05-V1-020_card_2",
+          "가면"
+        ],
+        [
+          "SEJONG-1B-05-V1-020_card_3",
+          "시장"
+        ],
+        [
+          "SEJONG-1B-05-V1-020_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1B-05-V1-020_card_5",
+          "나와요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-05-V1-020_card_0",
+          "SEJONG-1B-05-V1-020_card_1",
+          "SEJONG-1B-05-V1-020_card_2",
+          "SEJONG-1B-05-V1-020_card_3",
+          "SEJONG-1B-05-V1-020_card_4",
+          "SEJONG-1B-05-V1-020_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 5과 문법 의문사 · (으)로 · 교육용 재구성"
+    }
+  ]
+}

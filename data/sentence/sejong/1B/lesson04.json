@@ -1,0 +1,777 @@
+{
+  "book": "1B",
+  "lesson": 4,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 4과 범위",
+  "selectionPolicy": [
+    "4과 핵심 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까?을 중심으로 구성",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-04-V1-001",
+      "displaySentence": "더 큰 사이즈는 없어요?",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-001_card_0",
+          "더"
+        ],
+        [
+          "SEJONG-1B-04-V1-001_card_1",
+          "큰"
+        ],
+        [
+          "SEJONG-1B-04-V1-001_card_2",
+          "사이즈"
+        ],
+        [
+          "SEJONG-1B-04-V1-001_card_3",
+          "는"
+        ],
+        [
+          "SEJONG-1B-04-V1-001_card_4",
+          "없어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-001_card_0",
+          "SEJONG-1B-04-V1-001_card_1",
+          "SEJONG-1B-04-V1-001_card_2",
+          "SEJONG-1B-04-V1-001_card_3",
+          "SEJONG-1B-04-V1-001_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-002",
+      "displaySentence": "조금 작은 수박을 사고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-002_card_0",
+          "조금"
+        ],
+        [
+          "SEJONG-1B-04-V1-002_card_1",
+          "작은"
+        ],
+        [
+          "SEJONG-1B-04-V1-002_card_2",
+          "수박"
+        ],
+        [
+          "SEJONG-1B-04-V1-002_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-04-V1-002_card_4",
+          "사고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-002_card_0",
+          "SEJONG-1B-04-V1-002_card_1",
+          "SEJONG-1B-04-V1-002_card_2",
+          "SEJONG-1B-04-V1-002_card_3",
+          "SEJONG-1B-04-V1-002_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-003",
+      "displaySentence": "넓은 방이 아주 편합니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-003_card_0",
+          "넓은"
+        ],
+        [
+          "SEJONG-1B-04-V1-003_card_1",
+          "방"
+        ],
+        [
+          "SEJONG-1B-04-V1-003_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-1B-04-V1-003_card_3",
+          "아주"
+        ],
+        [
+          "SEJONG-1B-04-V1-003_card_4",
+          "편합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-003_card_0",
+          "SEJONG-1B-04-V1-003_card_1",
+          "SEJONG-1B-04-V1-003_card_2",
+          "SEJONG-1B-04-V1-003_card_3",
+          "SEJONG-1B-04-V1-003_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-004",
+      "displaySentence": "좁은 길에는 차가 많습니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-004_card_0",
+          "좁은"
+        ],
+        [
+          "SEJONG-1B-04-V1-004_card_1",
+          "길"
+        ],
+        [
+          "SEJONG-1B-04-V1-004_card_2",
+          "에는"
+        ],
+        [
+          "SEJONG-1B-04-V1-004_card_3",
+          "차"
+        ],
+        [
+          "SEJONG-1B-04-V1-004_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-1B-04-V1-004_card_5",
+          "많습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-004_card_0",
+          "SEJONG-1B-04-V1-004_card_1",
+          "SEJONG-1B-04-V1-004_card_2",
+          "SEJONG-1B-04-V1-004_card_3",
+          "SEJONG-1B-04-V1-004_card_4",
+          "SEJONG-1B-04-V1-004_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-005",
+      "displaySentence": "높은 산을 좋아합니까?",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-005_card_0",
+          "높은"
+        ],
+        [
+          "SEJONG-1B-04-V1-005_card_1",
+          "산"
+        ],
+        [
+          "SEJONG-1B-04-V1-005_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1B-04-V1-005_card_3",
+          "좋아합니까?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-005_card_0",
+          "SEJONG-1B-04-V1-005_card_1",
+          "SEJONG-1B-04-V1-005_card_2",
+          "SEJONG-1B-04-V1-005_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-006",
+      "displaySentence": "낮은 의자가 조금 불편합니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-006_card_0",
+          "낮은"
+        ],
+        [
+          "SEJONG-1B-04-V1-006_card_1",
+          "의자"
+        ],
+        [
+          "SEJONG-1B-04-V1-006_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-1B-04-V1-006_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-1B-04-V1-006_card_4",
+          "불편합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-006_card_0",
+          "SEJONG-1B-04-V1-006_card_1",
+          "SEJONG-1B-04-V1-006_card_2",
+          "SEJONG-1B-04-V1-006_card_3",
+          "SEJONG-1B-04-V1-006_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-007",
+      "displaySentence": "저는 긴 치마를 찾습니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-007_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-04-V1-007_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-04-V1-007_card_2",
+          "긴"
+        ],
+        [
+          "SEJONG-1B-04-V1-007_card_3",
+          "치마"
+        ],
+        [
+          "SEJONG-1B-04-V1-007_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-04-V1-007_card_5",
+          "찾습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-007_card_0",
+          "SEJONG-1B-04-V1-007_card_1",
+          "SEJONG-1B-04-V1-007_card_2",
+          "SEJONG-1B-04-V1-007_card_3",
+          "SEJONG-1B-04-V1-007_card_4",
+          "SEJONG-1B-04-V1-007_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-008",
+      "displaySentence": "짧은 바지를 보여 주세요.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-008_card_0",
+          "짧은"
+        ],
+        [
+          "SEJONG-1B-04-V1-008_card_1",
+          "바지"
+        ],
+        [
+          "SEJONG-1B-04-V1-008_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-1B-04-V1-008_card_3",
+          "보여 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-008_card_0",
+          "SEJONG-1B-04-V1-008_card_1",
+          "SEJONG-1B-04-V1-008_card_2",
+          "SEJONG-1B-04-V1-008_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-009",
+      "displaySentence": "비싼 가방은 사지 않습니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-009_card_0",
+          "비싼"
+        ],
+        [
+          "SEJONG-1B-04-V1-009_card_1",
+          "가방"
+        ],
+        [
+          "SEJONG-1B-04-V1-009_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1B-04-V1-009_card_3",
+          "사지"
+        ],
+        [
+          "SEJONG-1B-04-V1-009_card_4",
+          "않습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-009_card_0",
+          "SEJONG-1B-04-V1-009_card_1",
+          "SEJONG-1B-04-V1-009_card_2",
+          "SEJONG-1B-04-V1-009_card_3",
+          "SEJONG-1B-04-V1-009_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-010",
+      "displaySentence": "싼 신발도 편합니까?",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-010_card_0",
+          "싼"
+        ],
+        [
+          "SEJONG-1B-04-V1-010_card_1",
+          "신발"
+        ],
+        [
+          "SEJONG-1B-04-V1-010_card_2",
+          "도"
+        ],
+        [
+          "SEJONG-1B-04-V1-010_card_3",
+          "편합니까?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-010_card_0",
+          "SEJONG-1B-04-V1-010_card_1",
+          "SEJONG-1B-04-V1-010_card_2",
+          "SEJONG-1B-04-V1-010_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-011",
+      "displaySentence": "편한 운동복을 자주 입습니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-011_card_0",
+          "편한"
+        ],
+        [
+          "SEJONG-1B-04-V1-011_card_1",
+          "운동복"
+        ],
+        [
+          "SEJONG-1B-04-V1-011_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1B-04-V1-011_card_3",
+          "자주"
+        ],
+        [
+          "SEJONG-1B-04-V1-011_card_4",
+          "입습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-011_card_0",
+          "SEJONG-1B-04-V1-011_card_1",
+          "SEJONG-1B-04-V1-011_card_2",
+          "SEJONG-1B-04-V1-011_card_3",
+          "SEJONG-1B-04-V1-011_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-012",
+      "displaySentence": "불편한 신발은 잘 안 신습니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-012_card_0",
+          "불편한"
+        ],
+        [
+          "SEJONG-1B-04-V1-012_card_1",
+          "신발"
+        ],
+        [
+          "SEJONG-1B-04-V1-012_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-1B-04-V1-012_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-1B-04-V1-012_card_4",
+          "안"
+        ],
+        [
+          "SEJONG-1B-04-V1-012_card_5",
+          "신습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-012_card_0",
+          "SEJONG-1B-04-V1-012_card_1",
+          "SEJONG-1B-04-V1-012_card_2",
+          "SEJONG-1B-04-V1-012_card_3",
+          "SEJONG-1B-04-V1-012_card_4",
+          "SEJONG-1B-04-V1-012_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-013",
+      "displaySentence": "저는 귀여운 인형을 찾습니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-013_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-1B-04-V1-013_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-04-V1-013_card_2",
+          "귀여운"
+        ],
+        [
+          "SEJONG-1B-04-V1-013_card_3",
+          "인형"
+        ],
+        [
+          "SEJONG-1B-04-V1-013_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-04-V1-013_card_5",
+          "찾습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-013_card_0",
+          "SEJONG-1B-04-V1-013_card_1",
+          "SEJONG-1B-04-V1-013_card_2",
+          "SEJONG-1B-04-V1-013_card_3",
+          "SEJONG-1B-04-V1-013_card_4",
+          "SEJONG-1B-04-V1-013_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-014",
+      "displaySentence": "머리가 긴 사람이 제 친구입니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-014_card_0",
+          "머리"
+        ],
+        [
+          "SEJONG-1B-04-V1-014_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1B-04-V1-014_card_2",
+          "긴"
+        ],
+        [
+          "SEJONG-1B-04-V1-014_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-1B-04-V1-014_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1B-04-V1-014_card_5",
+          "제 친구입니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-014_card_0",
+          "SEJONG-1B-04-V1-014_card_1",
+          "SEJONG-1B-04-V1-014_card_2",
+          "SEJONG-1B-04-V1-014_card_3",
+          "SEJONG-1B-04-V1-014_card_4",
+          "SEJONG-1B-04-V1-014_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-015",
+      "displaySentence": "손님은 어떤 사이즈를 찾습니까?",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-015_card_0",
+          "손님"
+        ],
+        [
+          "SEJONG-1B-04-V1-015_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-04-V1-015_card_2",
+          "어떤"
+        ],
+        [
+          "SEJONG-1B-04-V1-015_card_3",
+          "사이즈"
+        ],
+        [
+          "SEJONG-1B-04-V1-015_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-04-V1-015_card_5",
+          "찾습니까?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-015_card_0",
+          "SEJONG-1B-04-V1-015_card_1",
+          "SEJONG-1B-04-V1-015_card_2",
+          "SEJONG-1B-04-V1-015_card_3",
+          "SEJONG-1B-04-V1-015_card_4",
+          "SEJONG-1B-04-V1-015_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-016",
+      "displaySentence": "점원이 큰 바지를 보여 줍니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-016_card_0",
+          "점원"
+        ],
+        [
+          "SEJONG-1B-04-V1-016_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-04-V1-016_card_2",
+          "큰"
+        ],
+        [
+          "SEJONG-1B-04-V1-016_card_3",
+          "바지"
+        ],
+        [
+          "SEJONG-1B-04-V1-016_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-04-V1-016_card_5",
+          "보여 줍니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-016_card_0",
+          "SEJONG-1B-04-V1-016_card_1",
+          "SEJONG-1B-04-V1-016_card_2",
+          "SEJONG-1B-04-V1-016_card_3",
+          "SEJONG-1B-04-V1-016_card_4",
+          "SEJONG-1B-04-V1-016_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-017",
+      "displaySentence": "가격이 싼 옷이 어디에 있습니까?",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-017_card_0",
+          "가격"
+        ],
+        [
+          "SEJONG-1B-04-V1-017_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-04-V1-017_card_2",
+          "싼"
+        ],
+        [
+          "SEJONG-1B-04-V1-017_card_3",
+          "옷"
+        ],
+        [
+          "SEJONG-1B-04-V1-017_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1B-04-V1-017_card_5",
+          "어디"
+        ],
+        [
+          "SEJONG-1B-04-V1-017_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-1B-04-V1-017_card_7",
+          "있습니까?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-017_card_0",
+          "SEJONG-1B-04-V1-017_card_1",
+          "SEJONG-1B-04-V1-017_card_2",
+          "SEJONG-1B-04-V1-017_card_3",
+          "SEJONG-1B-04-V1-017_card_4",
+          "SEJONG-1B-04-V1-017_card_5",
+          "SEJONG-1B-04-V1-017_card_6",
+          "SEJONG-1B-04-V1-017_card_7"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-018",
+      "displaySentence": "잠시 여기에서 기다리십시오.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-018_card_0",
+          "잠시"
+        ],
+        [
+          "SEJONG-1B-04-V1-018_card_1",
+          "여기"
+        ],
+        [
+          "SEJONG-1B-04-V1-018_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-04-V1-018_card_3",
+          "기다리십시오."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-018_card_0",
+          "SEJONG-1B-04-V1-018_card_1",
+          "SEJONG-1B-04-V1-018_card_2",
+          "SEJONG-1B-04-V1-018_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-019",
+      "displaySentence": "어젯밤에 재미있는 꿈을 꾸었습니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-019_card_0",
+          "어젯밤"
+        ],
+        [
+          "SEJONG-1B-04-V1-019_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-04-V1-019_card_2",
+          "재미있는"
+        ],
+        [
+          "SEJONG-1B-04-V1-019_card_3",
+          "꿈"
+        ],
+        [
+          "SEJONG-1B-04-V1-019_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-04-V1-019_card_5",
+          "꾸었습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-019_card_0",
+          "SEJONG-1B-04-V1-019_card_1",
+          "SEJONG-1B-04-V1-019_card_2",
+          "SEJONG-1B-04-V1-019_card_3",
+          "SEJONG-1B-04-V1-019_card_4",
+          "SEJONG-1B-04-V1-019_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-04-V1-020",
+      "displaySentence": "오늘은 잠이 부족해서 피곤합니다.",
+      "tokens": [
+        [
+          "SEJONG-1B-04-V1-020_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-1B-04-V1-020_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-1B-04-V1-020_card_2",
+          "잠"
+        ],
+        [
+          "SEJONG-1B-04-V1-020_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-1B-04-V1-020_card_4",
+          "부족해서"
+        ],
+        [
+          "SEJONG-1B-04-V1-020_card_5",
+          "피곤합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-04-V1-020_card_0",
+          "SEJONG-1B-04-V1-020_card_1",
+          "SEJONG-1B-04-V1-020_card_2",
+          "SEJONG-1B-04-V1-020_card_3",
+          "SEJONG-1B-04-V1-020_card_4",
+          "SEJONG-1B-04-V1-020_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 4과 문법 -(으)ㄴ · 습니다/ㅂ니다, 습니까?/ㅂ니까? · 교육용 재구성"
+    }
+  ]
+}

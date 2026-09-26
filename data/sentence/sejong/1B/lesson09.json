@@ -1,0 +1,782 @@
+{
+  "book": "1B",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 1B 본교재 + 어휘 문법과 표현 1B의 9과 범위",
+  "selectionPolicy": [
+    "9과 핵심 문법 -지만 · -아야/어야 되다을 중심으로 구성",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-1B-09-V1-001",
+      "displaySentence": "감기에 걸렸지만 학교에 왔어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-001_card_0",
+          "감기"
+        ],
+        [
+          "SEJONG-1B-09-V1-001_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-09-V1-001_card_2",
+          "걸렸지만"
+        ],
+        [
+          "SEJONG-1B-09-V1-001_card_3",
+          "학교"
+        ],
+        [
+          "SEJONG-1B-09-V1-001_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-1B-09-V1-001_card_5",
+          "왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-001_card_0",
+          "SEJONG-1B-09-V1-001_card_1",
+          "SEJONG-1B-09-V1-001_card_2",
+          "SEJONG-1B-09-V1-001_card_3",
+          "SEJONG-1B-09-V1-001_card_4",
+          "SEJONG-1B-09-V1-001_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-002",
+      "displaySentence": "머리가 아프지만 숙제를 했어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-002_card_0",
+          "머리"
+        ],
+        [
+          "SEJONG-1B-09-V1-002_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1B-09-V1-002_card_2",
+          "아프지만"
+        ],
+        [
+          "SEJONG-1B-09-V1-002_card_3",
+          "숙제"
+        ],
+        [
+          "SEJONG-1B-09-V1-002_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-09-V1-002_card_5",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-002_card_0",
+          "SEJONG-1B-09-V1-002_card_1",
+          "SEJONG-1B-09-V1-002_card_2",
+          "SEJONG-1B-09-V1-002_card_3",
+          "SEJONG-1B-09-V1-002_card_4",
+          "SEJONG-1B-09-V1-002_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-003",
+      "displaySentence": "길이 복잡하지만 버스를 타고 가요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-003_card_0",
+          "길"
+        ],
+        [
+          "SEJONG-1B-09-V1-003_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-09-V1-003_card_2",
+          "복잡하지만"
+        ],
+        [
+          "SEJONG-1B-09-V1-003_card_3",
+          "버스"
+        ],
+        [
+          "SEJONG-1B-09-V1-003_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-1B-09-V1-003_card_5",
+          "타고 가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-003_card_0",
+          "SEJONG-1B-09-V1-003_card_1",
+          "SEJONG-1B-09-V1-003_card_2",
+          "SEJONG-1B-09-V1-003_card_3",
+          "SEJONG-1B-09-V1-003_card_4",
+          "SEJONG-1B-09-V1-003_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-004",
+      "displaySentence": "테니스는 힘들지만 아주 재미있어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-004_card_0",
+          "테니스"
+        ],
+        [
+          "SEJONG-1B-09-V1-004_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-1B-09-V1-004_card_2",
+          "힘들지만"
+        ],
+        [
+          "SEJONG-1B-09-V1-004_card_3",
+          "아주"
+        ],
+        [
+          "SEJONG-1B-09-V1-004_card_4",
+          "재미있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-004_card_0",
+          "SEJONG-1B-09-V1-004_card_1",
+          "SEJONG-1B-09-V1-004_card_2",
+          "SEJONG-1B-09-V1-004_card_3",
+          "SEJONG-1B-09-V1-004_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-005",
+      "displaySentence": "약을 먹었지만 열이 계속 나요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-005_card_0",
+          "약"
+        ],
+        [
+          "SEJONG-1B-09-V1-005_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-09-V1-005_card_2",
+          "먹었지만"
+        ],
+        [
+          "SEJONG-1B-09-V1-005_card_3",
+          "열"
+        ],
+        [
+          "SEJONG-1B-09-V1-005_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1B-09-V1-005_card_5",
+          "계속 나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-005_card_0",
+          "SEJONG-1B-09-V1-005_card_1",
+          "SEJONG-1B-09-V1-005_card_2",
+          "SEJONG-1B-09-V1-005_card_3",
+          "SEJONG-1B-09-V1-005_card_4",
+          "SEJONG-1B-09-V1-005_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-006",
+      "displaySentence": "콧물이 나지만 기침은 안 해요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-006_card_0",
+          "콧물"
+        ],
+        [
+          "SEJONG-1B-09-V1-006_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-09-V1-006_card_2",
+          "나지만"
+        ],
+        [
+          "SEJONG-1B-09-V1-006_card_3",
+          "기침"
+        ],
+        [
+          "SEJONG-1B-09-V1-006_card_4",
+          "은"
+        ],
+        [
+          "SEJONG-1B-09-V1-006_card_5",
+          "안 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-006_card_0",
+          "SEJONG-1B-09-V1-006_card_1",
+          "SEJONG-1B-09-V1-006_card_2",
+          "SEJONG-1B-09-V1-006_card_3",
+          "SEJONG-1B-09-V1-006_card_4",
+          "SEJONG-1B-09-V1-006_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-007",
+      "displaySentence": "집에서 푹 쉬어야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-007_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-1B-09-V1-007_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-1B-09-V1-007_card_2",
+          "푹"
+        ],
+        [
+          "SEJONG-1B-09-V1-007_card_3",
+          "쉬어야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-007_card_0",
+          "SEJONG-1B-09-V1-007_card_1",
+          "SEJONG-1B-09-V1-007_card_2",
+          "SEJONG-1B-09-V1-007_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-008",
+      "displaySentence": "하루에 약을 두 번 먹어야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-008_card_0",
+          "하루"
+        ],
+        [
+          "SEJONG-1B-09-V1-008_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-1B-09-V1-008_card_2",
+          "약"
+        ],
+        [
+          "SEJONG-1B-09-V1-008_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-1B-09-V1-008_card_4",
+          "두 번"
+        ],
+        [
+          "SEJONG-1B-09-V1-008_card_5",
+          "먹어야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-008_card_0",
+          "SEJONG-1B-09-V1-008_card_1",
+          "SEJONG-1B-09-V1-008_card_2",
+          "SEJONG-1B-09-V1-008_card_3",
+          "SEJONG-1B-09-V1-008_card_4",
+          "SEJONG-1B-09-V1-008_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-009",
+      "displaySentence": "따뜻한 물을 자주 마셔야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-009_card_0",
+          "따뜻한 물"
+        ],
+        [
+          "SEJONG-1B-09-V1-009_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-09-V1-009_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-1B-09-V1-009_card_3",
+          "마셔야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-009_card_0",
+          "SEJONG-1B-09-V1-009_card_1",
+          "SEJONG-1B-09-V1-009_card_2",
+          "SEJONG-1B-09-V1-009_card_3"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-010",
+      "displaySentence": "숙제를 오늘 다 해야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-010_card_0",
+          "숙제"
+        ],
+        [
+          "SEJONG-1B-09-V1-010_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-1B-09-V1-010_card_2",
+          "오늘"
+        ],
+        [
+          "SEJONG-1B-09-V1-010_card_3",
+          "다"
+        ],
+        [
+          "SEJONG-1B-09-V1-010_card_4",
+          "해야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-010_card_0",
+          "SEJONG-1B-09-V1-010_card_1",
+          "SEJONG-1B-09-V1-010_card_2",
+          "SEJONG-1B-09-V1-010_card_3",
+          "SEJONG-1B-09-V1-010_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-011",
+      "displaySentence": "새 단어를 매일 외워야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-011_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-1B-09-V1-011_card_1",
+          "단어"
+        ],
+        [
+          "SEJONG-1B-09-V1-011_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-1B-09-V1-011_card_3",
+          "매일"
+        ],
+        [
+          "SEJONG-1B-09-V1-011_card_4",
+          "외워야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-011_card_0",
+          "SEJONG-1B-09-V1-011_card_1",
+          "SEJONG-1B-09-V1-011_card_2",
+          "SEJONG-1B-09-V1-011_card_3",
+          "SEJONG-1B-09-V1-011_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-012",
+      "displaySentence": "지금 병원에 빨리 가야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-012_card_0",
+          "지금"
+        ],
+        [
+          "SEJONG-1B-09-V1-012_card_1",
+          "병원"
+        ],
+        [
+          "SEJONG-1B-09-V1-012_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-1B-09-V1-012_card_3",
+          "빨리"
+        ],
+        [
+          "SEJONG-1B-09-V1-012_card_4",
+          "가야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-012_card_0",
+          "SEJONG-1B-09-V1-012_card_1",
+          "SEJONG-1B-09-V1-012_card_2",
+          "SEJONG-1B-09-V1-012_card_3",
+          "SEJONG-1B-09-V1-012_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-013",
+      "displaySentence": "목이 아프면 따뜻한 물을 드셔야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-013_card_0",
+          "목"
+        ],
+        [
+          "SEJONG-1B-09-V1-013_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-09-V1-013_card_2",
+          "아프면"
+        ],
+        [
+          "SEJONG-1B-09-V1-013_card_3",
+          "따뜻한 물"
+        ],
+        [
+          "SEJONG-1B-09-V1-013_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-1B-09-V1-013_card_5",
+          "드셔야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-013_card_0",
+          "SEJONG-1B-09-V1-013_card_1",
+          "SEJONG-1B-09-V1-013_card_2",
+          "SEJONG-1B-09-V1-013_card_3",
+          "SEJONG-1B-09-V1-013_card_4",
+          "SEJONG-1B-09-V1-013_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-014",
+      "displaySentence": "코가 아프고 콧물이 많이 나요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-014_card_0",
+          "코"
+        ],
+        [
+          "SEJONG-1B-09-V1-014_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1B-09-V1-014_card_2",
+          "아프고"
+        ],
+        [
+          "SEJONG-1B-09-V1-014_card_3",
+          "콧물"
+        ],
+        [
+          "SEJONG-1B-09-V1-014_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-1B-09-V1-014_card_5",
+          "많이 나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-014_card_0",
+          "SEJONG-1B-09-V1-014_card_1",
+          "SEJONG-1B-09-V1-014_card_2",
+          "SEJONG-1B-09-V1-014_card_3",
+          "SEJONG-1B-09-V1-014_card_4",
+          "SEJONG-1B-09-V1-014_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-015",
+      "displaySentence": "열이 나고 몸도 많이 아파요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-015_card_0",
+          "열"
+        ],
+        [
+          "SEJONG-1B-09-V1-015_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-1B-09-V1-015_card_2",
+          "나고"
+        ],
+        [
+          "SEJONG-1B-09-V1-015_card_3",
+          "몸"
+        ],
+        [
+          "SEJONG-1B-09-V1-015_card_4",
+          "도"
+        ],
+        [
+          "SEJONG-1B-09-V1-015_card_5",
+          "많이 아파요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-015_card_0",
+          "SEJONG-1B-09-V1-015_card_1",
+          "SEJONG-1B-09-V1-015_card_2",
+          "SEJONG-1B-09-V1-015_card_3",
+          "SEJONG-1B-09-V1-015_card_4",
+          "SEJONG-1B-09-V1-015_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-016",
+      "displaySentence": "아까부터 배가 계속 아파요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-016_card_0",
+          "아까"
+        ],
+        [
+          "SEJONG-1B-09-V1-016_card_1",
+          "부터"
+        ],
+        [
+          "SEJONG-1B-09-V1-016_card_2",
+          "배"
+        ],
+        [
+          "SEJONG-1B-09-V1-016_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-1B-09-V1-016_card_4",
+          "계속"
+        ],
+        [
+          "SEJONG-1B-09-V1-016_card_5",
+          "아파요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-016_card_0",
+          "SEJONG-1B-09-V1-016_card_1",
+          "SEJONG-1B-09-V1-016_card_2",
+          "SEJONG-1B-09-V1-016_card_3",
+          "SEJONG-1B-09-V1-016_card_4",
+          "SEJONG-1B-09-V1-016_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-017",
+      "displaySentence": "다리가 아파서 오래 못 걸어요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-017_card_0",
+          "다리"
+        ],
+        [
+          "SEJONG-1B-09-V1-017_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-1B-09-V1-017_card_2",
+          "아파서"
+        ],
+        [
+          "SEJONG-1B-09-V1-017_card_3",
+          "오래"
+        ],
+        [
+          "SEJONG-1B-09-V1-017_card_4",
+          "못 걸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-017_card_0",
+          "SEJONG-1B-09-V1-017_card_1",
+          "SEJONG-1B-09-V1-017_card_2",
+          "SEJONG-1B-09-V1-017_card_3",
+          "SEJONG-1B-09-V1-017_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-018",
+      "displaySentence": "손을 깨끗이 자주 씻어야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-018_card_0",
+          "손"
+        ],
+        [
+          "SEJONG-1B-09-V1-018_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-09-V1-018_card_2",
+          "깨끗이"
+        ],
+        [
+          "SEJONG-1B-09-V1-018_card_3",
+          "자주"
+        ],
+        [
+          "SEJONG-1B-09-V1-018_card_4",
+          "씻어야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-018_card_0",
+          "SEJONG-1B-09-V1-018_card_1",
+          "SEJONG-1B-09-V1-018_card_2",
+          "SEJONG-1B-09-V1-018_card_3",
+          "SEJONG-1B-09-V1-018_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-019",
+      "displaySentence": "약을 물에 넣고 마셔야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-019_card_0",
+          "약"
+        ],
+        [
+          "SEJONG-1B-09-V1-019_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-1B-09-V1-019_card_2",
+          "물"
+        ],
+        [
+          "SEJONG-1B-09-V1-019_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-1B-09-V1-019_card_4",
+          "넣고"
+        ],
+        [
+          "SEJONG-1B-09-V1-019_card_5",
+          "마셔야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-019_card_0",
+          "SEJONG-1B-09-V1-019_card_1",
+          "SEJONG-1B-09-V1-019_card_2",
+          "SEJONG-1B-09-V1-019_card_3",
+          "SEJONG-1B-09-V1-019_card_4",
+          "SEJONG-1B-09-V1-019_card_5"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    },
+    {
+      "id": "SEJONG-1B-09-V1-020",
+      "displaySentence": "이제 건강을 더 조심해야 돼요.",
+      "tokens": [
+        [
+          "SEJONG-1B-09-V1-020_card_0",
+          "이제"
+        ],
+        [
+          "SEJONG-1B-09-V1-020_card_1",
+          "건강"
+        ],
+        [
+          "SEJONG-1B-09-V1-020_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-1B-09-V1-020_card_3",
+          "더"
+        ],
+        [
+          "SEJONG-1B-09-V1-020_card_4",
+          "조심해야 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-1B-09-V1-020_card_0",
+          "SEJONG-1B-09-V1-020_card_1",
+          "SEJONG-1B-09-V1-020_card_2",
+          "SEJONG-1B-09-V1-020_card_3",
+          "SEJONG-1B-09-V1-020_card_4"
+        ]
+      ],
+      "note": "VG/SB 1B 9과 문법 -지만 · -아야/어야 되다 · 교육용 재구성"
+    }
+  ]
+}
