@@ -1,0 +1,818 @@
+{
+  "book": "2A",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 9과 범위",
+  "selectionPolicy": [
+    "9과 핵심 문법 -는/(으)ㄴ/(으)ㄹ 것 같다·-는 게 어때요?을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-09-001",
+      "displaySentence": "점심으로 칼국수를 먹는 게 어때요?",
+      "tokens": [
+        [
+          "SEJONG-2A-09-001_card_0",
+          "점심"
+        ],
+        [
+          "SEJONG-2A-09-001_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-2A-09-001_card_2",
+          "칼국수"
+        ],
+        [
+          "SEJONG-2A-09-001_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-09-001_card_4",
+          "먹는 게 어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-001_card_0",
+          "SEJONG-2A-09-001_card_1",
+          "SEJONG-2A-09-001_card_2",
+          "SEJONG-2A-09-001_card_3",
+          "SEJONG-2A-09-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-002",
+      "displaySentence": "오늘은 순두부찌개를 시키는 게 어때요?",
+      "tokens": [
+        [
+          "SEJONG-2A-09-002_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2A-09-002_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-002_card_2",
+          "순두부찌개"
+        ],
+        [
+          "SEJONG-2A-09-002_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-09-002_card_4",
+          "시키는 게 어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-002_card_0",
+          "SEJONG-2A-09-002_card_1",
+          "SEJONG-2A-09-002_card_2",
+          "SEJONG-2A-09-002_card_3",
+          "SEJONG-2A-09-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-003",
+      "displaySentence": "후식으로 과일을 먹는 게 어때요?",
+      "tokens": [
+        [
+          "SEJONG-2A-09-003_card_0",
+          "후식"
+        ],
+        [
+          "SEJONG-2A-09-003_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-2A-09-003_card_2",
+          "과일"
+        ],
+        [
+          "SEJONG-2A-09-003_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-09-003_card_4",
+          "먹는 게 어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-003_card_0",
+          "SEJONG-2A-09-003_card_1",
+          "SEJONG-2A-09-003_card_2",
+          "SEJONG-2A-09-003_card_3",
+          "SEJONG-2A-09-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-004",
+      "displaySentence": "오늘 점심은 현금으로 계산하는 게 어때요?",
+      "tokens": [
+        [
+          "SEJONG-2A-09-004_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2A-09-004_card_1",
+          "점심"
+        ],
+        [
+          "SEJONG-2A-09-004_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-004_card_3",
+          "현금"
+        ],
+        [
+          "SEJONG-2A-09-004_card_4",
+          "으로"
+        ],
+        [
+          "SEJONG-2A-09-004_card_5",
+          "계산하는 게 어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-004_card_0",
+          "SEJONG-2A-09-004_card_1",
+          "SEJONG-2A-09-004_card_2",
+          "SEJONG-2A-09-004_card_3",
+          "SEJONG-2A-09-004_card_4",
+          "SEJONG-2A-09-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-005",
+      "displaySentence": "집에서 배달 음식을 시키는 게 어때요?",
+      "tokens": [
+        [
+          "SEJONG-2A-09-005_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-2A-09-005_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-09-005_card_2",
+          "배달 음식"
+        ],
+        [
+          "SEJONG-2A-09-005_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-09-005_card_4",
+          "시키는 게 어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-005_card_0",
+          "SEJONG-2A-09-005_card_1",
+          "SEJONG-2A-09-005_card_2",
+          "SEJONG-2A-09-005_card_3",
+          "SEJONG-2A-09-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-006",
+      "displaySentence": "이 찌개는 조금 짠 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-006_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-006_card_1",
+          "찌개"
+        ],
+        [
+          "SEJONG-2A-09-006_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-2A-09-006_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-2A-09-006_card_4",
+          "짠 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-006_card_0",
+          "SEJONG-2A-09-006_card_1",
+          "SEJONG-2A-09-006_card_2",
+          "SEJONG-2A-09-006_card_3",
+          "SEJONG-2A-09-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-007",
+      "displaySentence": "떡국은 따뜻한 국물 음식 인 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-007_card_0",
+          "떡국"
+        ],
+        [
+          "SEJONG-2A-09-007_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-007_card_2",
+          "따뜻한"
+        ],
+        [
+          "SEJONG-2A-09-007_card_3",
+          "국물 음식"
+        ],
+        [
+          "SEJONG-2A-09-007_card_4",
+          "인 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-007_card_0",
+          "SEJONG-2A-09-007_card_1",
+          "SEJONG-2A-09-007_card_2",
+          "SEJONG-2A-09-007_card_3",
+          "SEJONG-2A-09-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-008",
+      "displaySentence": "이 식당은 칼국수가 맛있는 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-008_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-008_card_1",
+          "식당"
+        ],
+        [
+          "SEJONG-2A-09-008_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-008_card_3",
+          "칼국수"
+        ],
+        [
+          "SEJONG-2A-09-008_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-2A-09-008_card_5",
+          "맛있는 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-008_card_0",
+          "SEJONG-2A-09-008_card_1",
+          "SEJONG-2A-09-008_card_2",
+          "SEJONG-2A-09-008_card_3",
+          "SEJONG-2A-09-008_card_4",
+          "SEJONG-2A-09-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-009",
+      "displaySentence": "오늘은 식당에 사람이 많은 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-009_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2A-09-009_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-009_card_2",
+          "식당"
+        ],
+        [
+          "SEJONG-2A-09-009_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-2A-09-009_card_4",
+          "사람"
+        ],
+        [
+          "SEJONG-2A-09-009_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-009_card_6",
+          "많은 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-009_card_0",
+          "SEJONG-2A-09-009_card_1",
+          "SEJONG-2A-09-009_card_2",
+          "SEJONG-2A-09-009_card_3",
+          "SEJONG-2A-09-009_card_4",
+          "SEJONG-2A-09-009_card_5",
+          "SEJONG-2A-09-009_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-010",
+      "displaySentence": "짜장면보다 짬뽕이 더 매운 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-010_card_0",
+          "짜장면"
+        ],
+        [
+          "SEJONG-2A-09-010_card_1",
+          "보다"
+        ],
+        [
+          "SEJONG-2A-09-010_card_2",
+          "짬뽕"
+        ],
+        [
+          "SEJONG-2A-09-010_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-010_card_4",
+          "더"
+        ],
+        [
+          "SEJONG-2A-09-010_card_5",
+          "매운 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-010_card_0",
+          "SEJONG-2A-09-010_card_1",
+          "SEJONG-2A-09-010_card_2",
+          "SEJONG-2A-09-010_card_3",
+          "SEJONG-2A-09-010_card_4",
+          "SEJONG-2A-09-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-011",
+      "displaySentence": "갈비탕은 아이들이 먹기 좋은 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-011_card_0",
+          "갈비탕"
+        ],
+        [
+          "SEJONG-2A-09-011_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-011_card_2",
+          "아이들"
+        ],
+        [
+          "SEJONG-2A-09-011_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-011_card_4",
+          "먹기 좋은 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-011_card_0",
+          "SEJONG-2A-09-011_card_1",
+          "SEJONG-2A-09-011_card_2",
+          "SEJONG-2A-09-011_card_3",
+          "SEJONG-2A-09-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-012",
+      "displaySentence": "이 반찬은 아주머니가 만든 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-012_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-012_card_1",
+          "반찬"
+        ],
+        [
+          "SEJONG-2A-09-012_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-012_card_3",
+          "아주머니"
+        ],
+        [
+          "SEJONG-2A-09-012_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-2A-09-012_card_5",
+          "만든 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-012_card_0",
+          "SEJONG-2A-09-012_card_1",
+          "SEJONG-2A-09-012_card_2",
+          "SEJONG-2A-09-012_card_3",
+          "SEJONG-2A-09-012_card_4",
+          "SEJONG-2A-09-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-013",
+      "displaySentence": "설날에는 가족이 모이는 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-013_card_0",
+          "설날"
+        ],
+        [
+          "SEJONG-2A-09-013_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-09-013_card_2",
+          "가족"
+        ],
+        [
+          "SEJONG-2A-09-013_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-013_card_4",
+          "모이는 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-013_card_0",
+          "SEJONG-2A-09-013_card_1",
+          "SEJONG-2A-09-013_card_2",
+          "SEJONG-2A-09-013_card_3",
+          "SEJONG-2A-09-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-014",
+      "displaySentence": "추석에는 송편을 먹는 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-014_card_0",
+          "추석"
+        ],
+        [
+          "SEJONG-2A-09-014_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-09-014_card_2",
+          "송편"
+        ],
+        [
+          "SEJONG-2A-09-014_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-09-014_card_4",
+          "먹는 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-014_card_0",
+          "SEJONG-2A-09-014_card_1",
+          "SEJONG-2A-09-014_card_2",
+          "SEJONG-2A-09-014_card_3",
+          "SEJONG-2A-09-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-015",
+      "displaySentence": "음력 날짜를 확인해야 할 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-015_card_0",
+          "음력"
+        ],
+        [
+          "SEJONG-2A-09-015_card_1",
+          "날짜"
+        ],
+        [
+          "SEJONG-2A-09-015_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-09-015_card_3",
+          "확인해야 할 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-015_card_0",
+          "SEJONG-2A-09-015_card_1",
+          "SEJONG-2A-09-015_card_2",
+          "SEJONG-2A-09-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-016",
+      "displaySentence": "이 음식은 국보다 찌개 인 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-016_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-016_card_1",
+          "음식"
+        ],
+        [
+          "SEJONG-2A-09-016_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-2A-09-016_card_3",
+          "국"
+        ],
+        [
+          "SEJONG-2A-09-016_card_4",
+          "보다"
+        ],
+        [
+          "SEJONG-2A-09-016_card_5",
+          "찌개"
+        ],
+        [
+          "SEJONG-2A-09-016_card_6",
+          "인 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-016_card_0",
+          "SEJONG-2A-09-016_card_1",
+          "SEJONG-2A-09-016_card_2",
+          "SEJONG-2A-09-016_card_3",
+          "SEJONG-2A-09-016_card_4",
+          "SEJONG-2A-09-016_card_5",
+          "SEJONG-2A-09-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-017",
+      "displaySentence": "스파게티는 한국 음식이 아닌 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-017_card_0",
+          "스파게티"
+        ],
+        [
+          "SEJONG-2A-09-017_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-09-017_card_2",
+          "한국 음식"
+        ],
+        [
+          "SEJONG-2A-09-017_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-017_card_4",
+          "아닌 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-017_card_0",
+          "SEJONG-2A-09-017_card_1",
+          "SEJONG-2A-09-017_card_2",
+          "SEJONG-2A-09-017_card_3",
+          "SEJONG-2A-09-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-018",
+      "displaySentence": "이 메뉴는 값이 조금 비싼 것 같아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-09-018_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-018_card_1",
+          "메뉴"
+        ],
+        [
+          "SEJONG-2A-09-018_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-2A-09-018_card_3",
+          "값"
+        ],
+        [
+          "SEJONG-2A-09-018_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-09-018_card_5",
+          "조금"
+        ],
+        [
+          "SEJONG-2A-09-018_card_6",
+          "비싼 것 같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-018_card_0",
+          "SEJONG-2A-09-018_card_1",
+          "SEJONG-2A-09-018_card_2",
+          "SEJONG-2A-09-018_card_3",
+          "SEJONG-2A-09-018_card_4",
+          "SEJONG-2A-09-018_card_5",
+          "SEJONG-2A-09-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-019",
+      "displaySentence": "국수에 반찬을 같이 먹는 게 어때요?",
+      "tokens": [
+        [
+          "SEJONG-2A-09-019_card_0",
+          "국수"
+        ],
+        [
+          "SEJONG-2A-09-019_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-09-019_card_2",
+          "반찬"
+        ],
+        [
+          "SEJONG-2A-09-019_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-09-019_card_4",
+          "같이"
+        ],
+        [
+          "SEJONG-2A-09-019_card_5",
+          "먹는 게 어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-019_card_0",
+          "SEJONG-2A-09-019_card_1",
+          "SEJONG-2A-09-019_card_2",
+          "SEJONG-2A-09-019_card_3",
+          "SEJONG-2A-09-019_card_4",
+          "SEJONG-2A-09-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-09-020",
+      "displaySentence": "메뉴 의미를 모르면 직원에게 물어보는 게 어때요?",
+      "tokens": [
+        [
+          "SEJONG-2A-09-020_card_0",
+          "메뉴"
+        ],
+        [
+          "SEJONG-2A-09-020_card_1",
+          "의미"
+        ],
+        [
+          "SEJONG-2A-09-020_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-09-020_card_3",
+          "모르면"
+        ],
+        [
+          "SEJONG-2A-09-020_card_4",
+          "직원"
+        ],
+        [
+          "SEJONG-2A-09-020_card_5",
+          "에게"
+        ],
+        [
+          "SEJONG-2A-09-020_card_6",
+          "물어보는 게 어때요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-09-020_card_0",
+          "SEJONG-2A-09-020_card_1",
+          "SEJONG-2A-09-020_card_2",
+          "SEJONG-2A-09-020_card_3",
+          "SEJONG-2A-09-020_card_4",
+          "SEJONG-2A-09-020_card_5",
+          "SEJONG-2A-09-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 9과 · -는/(으)ㄴ/(으)ㄹ 것 같다, -는 게 어때요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 9과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

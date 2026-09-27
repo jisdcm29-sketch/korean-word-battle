@@ -1,0 +1,783 @@
+{
+  "book": "2A",
+  "lesson": 11,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 11과 범위",
+  "selectionPolicy": [
+    "11과 핵심 문법 -(으)ㄴ 적이 있다·동안을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-11-001",
+      "displaySentence": "친구와 함께 한국을 여행한 적이 있어요?",
+      "tokens": [
+        [
+          "SEJONG-2A-11-001_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-11-001_card_1",
+          "와"
+        ],
+        [
+          "SEJONG-2A-11-001_card_2",
+          "함께"
+        ],
+        [
+          "SEJONG-2A-11-001_card_3",
+          "한국"
+        ],
+        [
+          "SEJONG-2A-11-001_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-11-001_card_5",
+          "여행한 적이 있어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-001_card_0",
+          "SEJONG-2A-11-001_card_1",
+          "SEJONG-2A-11-001_card_2",
+          "SEJONG-2A-11-001_card_3",
+          "SEJONG-2A-11-001_card_4",
+          "SEJONG-2A-11-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-002",
+      "displaySentence": "밤에 엔 서울 타워에 간 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-002_card_0",
+          "밤"
+        ],
+        [
+          "SEJONG-2A-11-002_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-11-002_card_2",
+          "엔 서울 타워"
+        ],
+        [
+          "SEJONG-2A-11-002_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-2A-11-002_card_4",
+          "간 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-002_card_0",
+          "SEJONG-2A-11-002_card_1",
+          "SEJONG-2A-11-002_card_2",
+          "SEJONG-2A-11-002_card_3",
+          "SEJONG-2A-11-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-003",
+      "displaySentence": "친구와 홍대에서 쇼핑한 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-003_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-11-003_card_1",
+          "와"
+        ],
+        [
+          "SEJONG-2A-11-003_card_2",
+          "홍대"
+        ],
+        [
+          "SEJONG-2A-11-003_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-11-003_card_4",
+          "쇼핑한 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-003_card_0",
+          "SEJONG-2A-11-003_card_1",
+          "SEJONG-2A-11-003_card_2",
+          "SEJONG-2A-11-003_card_3",
+          "SEJONG-2A-11-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-004",
+      "displaySentence": "동대문시장에서 옷을 산 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-004_card_0",
+          "동대문시장"
+        ],
+        [
+          "SEJONG-2A-11-004_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-11-004_card_2",
+          "옷"
+        ],
+        [
+          "SEJONG-2A-11-004_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-11-004_card_4",
+          "산 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-004_card_0",
+          "SEJONG-2A-11-004_card_1",
+          "SEJONG-2A-11-004_card_2",
+          "SEJONG-2A-11-004_card_3",
+          "SEJONG-2A-11-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-005",
+      "displaySentence": "가족과 청계천에서 산책한 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-005_card_0",
+          "가족"
+        ],
+        [
+          "SEJONG-2A-11-005_card_1",
+          "과"
+        ],
+        [
+          "SEJONG-2A-11-005_card_2",
+          "청계천"
+        ],
+        [
+          "SEJONG-2A-11-005_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-11-005_card_4",
+          "산책한 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-005_card_0",
+          "SEJONG-2A-11-005_card_1",
+          "SEJONG-2A-11-005_card_2",
+          "SEJONG-2A-11-005_card_3",
+          "SEJONG-2A-11-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-006",
+      "displaySentence": "친구와 북촌 한옥마을에 간 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-006_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-11-006_card_1",
+          "와"
+        ],
+        [
+          "SEJONG-2A-11-006_card_2",
+          "북촌 한옥마을"
+        ],
+        [
+          "SEJONG-2A-11-006_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-2A-11-006_card_4",
+          "간 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-006_card_0",
+          "SEJONG-2A-11-006_card_1",
+          "SEJONG-2A-11-006_card_2",
+          "SEJONG-2A-11-006_card_3",
+          "SEJONG-2A-11-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-007",
+      "displaySentence": "남이섬에서 사진을 찍은 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-007_card_0",
+          "남이섬"
+        ],
+        [
+          "SEJONG-2A-11-007_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-11-007_card_2",
+          "사진"
+        ],
+        [
+          "SEJONG-2A-11-007_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-11-007_card_4",
+          "찍은 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-007_card_0",
+          "SEJONG-2A-11-007_card_1",
+          "SEJONG-2A-11-007_card_2",
+          "SEJONG-2A-11-007_card_3",
+          "SEJONG-2A-11-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-008",
+      "displaySentence": "춘천에서 닭갈비를 먹은 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-008_card_0",
+          "춘천"
+        ],
+        [
+          "SEJONG-2A-11-008_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-11-008_card_2",
+          "닭갈비"
+        ],
+        [
+          "SEJONG-2A-11-008_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-008_card_4",
+          "먹은 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-008_card_0",
+          "SEJONG-2A-11-008_card_1",
+          "SEJONG-2A-11-008_card_2",
+          "SEJONG-2A-11-008_card_3",
+          "SEJONG-2A-11-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-009",
+      "displaySentence": "독일에서 기차를 탄 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-009_card_0",
+          "독일"
+        ],
+        [
+          "SEJONG-2A-11-009_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-11-009_card_2",
+          "기차"
+        ],
+        [
+          "SEJONG-2A-11-009_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-009_card_4",
+          "탄 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-009_card_0",
+          "SEJONG-2A-11-009_card_1",
+          "SEJONG-2A-11-009_card_2",
+          "SEJONG-2A-11-009_card_3",
+          "SEJONG-2A-11-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-010",
+      "displaySentence": "설날 동안 가족과 여행했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-010_card_0",
+          "설날"
+        ],
+        [
+          "SEJONG-2A-11-010_card_1",
+          "동안"
+        ],
+        [
+          "SEJONG-2A-11-010_card_2",
+          "가족"
+        ],
+        [
+          "SEJONG-2A-11-010_card_3",
+          "과"
+        ],
+        [
+          "SEJONG-2A-11-010_card_4",
+          "여행했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-010_card_0",
+          "SEJONG-2A-11-010_card_1",
+          "SEJONG-2A-11-010_card_2",
+          "SEJONG-2A-11-010_card_3",
+          "SEJONG-2A-11-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-011",
+      "displaySentence": "여행하는 동안 게스트하우스에 묵었어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-011_card_0",
+          "여행하는 동안"
+        ],
+        [
+          "SEJONG-2A-11-011_card_1",
+          "게스트하우스"
+        ],
+        [
+          "SEJONG-2A-11-011_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-11-011_card_3",
+          "묵었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-011_card_0",
+          "SEJONG-2A-11-011_card_1",
+          "SEJONG-2A-11-011_card_2",
+          "SEJONG-2A-11-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-012",
+      "displaySentence": "한국에 있는 동안 공항버스를 자주 탔어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-012_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-2A-11-012_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-11-012_card_2",
+          "있는 동안"
+        ],
+        [
+          "SEJONG-2A-11-012_card_3",
+          "공항버스"
+        ],
+        [
+          "SEJONG-2A-11-012_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-012_card_5",
+          "자주"
+        ],
+        [
+          "SEJONG-2A-11-012_card_6",
+          "탔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-012_card_0",
+          "SEJONG-2A-11-012_card_1",
+          "SEJONG-2A-11-012_card_2",
+          "SEJONG-2A-11-012_card_3",
+          "SEJONG-2A-11-012_card_4",
+          "SEJONG-2A-11-012_card_5",
+          "SEJONG-2A-11-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-013",
+      "displaySentence": "방학 동안 여행 계획을 세웠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-013_card_0",
+          "방학"
+        ],
+        [
+          "SEJONG-2A-11-013_card_1",
+          "동안"
+        ],
+        [
+          "SEJONG-2A-11-013_card_2",
+          "여행 계획"
+        ],
+        [
+          "SEJONG-2A-11-013_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-11-013_card_4",
+          "세웠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-013_card_0",
+          "SEJONG-2A-11-013_card_1",
+          "SEJONG-2A-11-013_card_2",
+          "SEJONG-2A-11-013_card_3",
+          "SEJONG-2A-11-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-014",
+      "displaySentence": "여행하는 동안 숙소 후기를 읽었어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-014_card_0",
+          "여행하는 동안"
+        ],
+        [
+          "SEJONG-2A-11-014_card_1",
+          "숙소"
+        ],
+        [
+          "SEJONG-2A-11-014_card_2",
+          "후기"
+        ],
+        [
+          "SEJONG-2A-11-014_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-014_card_4",
+          "읽었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-014_card_0",
+          "SEJONG-2A-11-014_card_1",
+          "SEJONG-2A-11-014_card_2",
+          "SEJONG-2A-11-014_card_3",
+          "SEJONG-2A-11-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-015",
+      "displaySentence": "숙소를 고르는 동안 위치를 비교했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-015_card_0",
+          "숙소"
+        ],
+        [
+          "SEJONG-2A-11-015_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-015_card_2",
+          "고르는 동안"
+        ],
+        [
+          "SEJONG-2A-11-015_card_3",
+          "위치"
+        ],
+        [
+          "SEJONG-2A-11-015_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-015_card_5",
+          "비교했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-015_card_0",
+          "SEJONG-2A-11-015_card_1",
+          "SEJONG-2A-11-015_card_2",
+          "SEJONG-2A-11-015_card_3",
+          "SEJONG-2A-11-015_card_4",
+          "SEJONG-2A-11-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-016",
+      "displaySentence": "조식 서비스가 있는 숙소에 묵은 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-016_card_0",
+          "조식 서비스"
+        ],
+        [
+          "SEJONG-2A-11-016_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-11-016_card_2",
+          "있는"
+        ],
+        [
+          "SEJONG-2A-11-016_card_3",
+          "숙소"
+        ],
+        [
+          "SEJONG-2A-11-016_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-2A-11-016_card_5",
+          "묵은 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-016_card_0",
+          "SEJONG-2A-11-016_card_1",
+          "SEJONG-2A-11-016_card_2",
+          "SEJONG-2A-11-016_card_3",
+          "SEJONG-2A-11-016_card_4",
+          "SEJONG-2A-11-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-017",
+      "displaySentence": "만족스러운 게스트하우스에 묵은 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-017_card_0",
+          "만족스러운"
+        ],
+        [
+          "SEJONG-2A-11-017_card_1",
+          "게스트하우스"
+        ],
+        [
+          "SEJONG-2A-11-017_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-11-017_card_3",
+          "묵은 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-017_card_0",
+          "SEJONG-2A-11-017_card_1",
+          "SEJONG-2A-11-017_card_2",
+          "SEJONG-2A-11-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-018",
+      "displaySentence": "동전을 던져서 순서를 정한 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-018_card_0",
+          "동전"
+        ],
+        [
+          "SEJONG-2A-11-018_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-11-018_card_2",
+          "던져서"
+        ],
+        [
+          "SEJONG-2A-11-018_card_3",
+          "순서"
+        ],
+        [
+          "SEJONG-2A-11-018_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-018_card_5",
+          "정한 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-018_card_0",
+          "SEJONG-2A-11-018_card_1",
+          "SEJONG-2A-11-018_card_2",
+          "SEJONG-2A-11-018_card_3",
+          "SEJONG-2A-11-018_card_4",
+          "SEJONG-2A-11-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-019",
+      "displaySentence": "유명한 작가를 직접 만난 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-019_card_0",
+          "유명한"
+        ],
+        [
+          "SEJONG-2A-11-019_card_1",
+          "작가"
+        ],
+        [
+          "SEJONG-2A-11-019_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-11-019_card_3",
+          "직접"
+        ],
+        [
+          "SEJONG-2A-11-019_card_4",
+          "만난 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-019_card_0",
+          "SEJONG-2A-11-019_card_1",
+          "SEJONG-2A-11-019_card_2",
+          "SEJONG-2A-11-019_card_3",
+          "SEJONG-2A-11-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-11-020",
+      "displaySentence": "여행 전에 숙소 직원에게 질문한 적이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-11-020_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-2A-11-020_card_1",
+          "전에"
+        ],
+        [
+          "SEJONG-2A-11-020_card_2",
+          "숙소"
+        ],
+        [
+          "SEJONG-2A-11-020_card_3",
+          "직원"
+        ],
+        [
+          "SEJONG-2A-11-020_card_4",
+          "에게"
+        ],
+        [
+          "SEJONG-2A-11-020_card_5",
+          "질문한 적이 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-11-020_card_0",
+          "SEJONG-2A-11-020_card_1",
+          "SEJONG-2A-11-020_card_2",
+          "SEJONG-2A-11-020_card_3",
+          "SEJONG-2A-11-020_card_4",
+          "SEJONG-2A-11-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 11과 · -(으)ㄴ 적이 있다, 동안 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 11과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

@@ -1,0 +1,888 @@
+{
+  "book": "2A",
+  "lesson": 12,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 12과 범위",
+  "selectionPolicy": [
+    "12과 핵심 문법 -아/어 보다·-(으)ㄴ을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-12-001",
+      "displaySentence": "박물관에서 도장을 만들어 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-001_card_0",
+          "박물관"
+        ],
+        [
+          "SEJONG-2A-12-001_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-001_card_2",
+          "도장"
+        ],
+        [
+          "SEJONG-2A-12-001_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-12-001_card_4",
+          "만들어 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-001_card_0",
+          "SEJONG-2A-12-001_card_1",
+          "SEJONG-2A-12-001_card_2",
+          "SEJONG-2A-12-001_card_3",
+          "SEJONG-2A-12-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-002",
+      "displaySentence": "전주에서 전통 음식을 먹어 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-002_card_0",
+          "전주"
+        ],
+        [
+          "SEJONG-2A-12-002_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-002_card_2",
+          "전통 음식"
+        ],
+        [
+          "SEJONG-2A-12-002_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-12-002_card_4",
+          "먹어 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-002_card_0",
+          "SEJONG-2A-12-002_card_1",
+          "SEJONG-2A-12-002_card_2",
+          "SEJONG-2A-12-002_card_3",
+          "SEJONG-2A-12-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-003",
+      "displaySentence": "남산에서 야경을 구경해 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-003_card_0",
+          "남산"
+        ],
+        [
+          "SEJONG-2A-12-003_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-003_card_2",
+          "야경"
+        ],
+        [
+          "SEJONG-2A-12-003_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-12-003_card_4",
+          "구경해 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-003_card_0",
+          "SEJONG-2A-12-003_card_1",
+          "SEJONG-2A-12-003_card_2",
+          "SEJONG-2A-12-003_card_3",
+          "SEJONG-2A-12-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-004",
+      "displaySentence": "한국 기념품을 직접 사 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-004_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-2A-12-004_card_1",
+          "기념품"
+        ],
+        [
+          "SEJONG-2A-12-004_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-12-004_card_3",
+          "직접"
+        ],
+        [
+          "SEJONG-2A-12-004_card_4",
+          "사 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-004_card_0",
+          "SEJONG-2A-12-004_card_1",
+          "SEJONG-2A-12-004_card_2",
+          "SEJONG-2A-12-004_card_3",
+          "SEJONG-2A-12-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-005",
+      "displaySentence": "여행에서 번지 점프를 해 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-005_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-2A-12-005_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-005_card_2",
+          "번지 점프"
+        ],
+        [
+          "SEJONG-2A-12-005_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-12-005_card_4",
+          "해 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-005_card_0",
+          "SEJONG-2A-12-005_card_1",
+          "SEJONG-2A-12-005_card_2",
+          "SEJONG-2A-12-005_card_3",
+          "SEJONG-2A-12-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-006",
+      "displaySentence": "주말에 전주로 놀러 가 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-006_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-2A-12-006_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-12-006_card_2",
+          "전주"
+        ],
+        [
+          "SEJONG-2A-12-006_card_3",
+          "로"
+        ],
+        [
+          "SEJONG-2A-12-006_card_4",
+          "놀러 가 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-006_card_0",
+          "SEJONG-2A-12-006_card_1",
+          "SEJONG-2A-12-006_card_2",
+          "SEJONG-2A-12-006_card_3",
+          "SEJONG-2A-12-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-007",
+      "displaySentence": "짜오프라야강에서 저녁 배를 타 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-007_card_0",
+          "짜오프라야강"
+        ],
+        [
+          "SEJONG-2A-12-007_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-007_card_2",
+          "저녁"
+        ],
+        [
+          "SEJONG-2A-12-007_card_3",
+          "배"
+        ],
+        [
+          "SEJONG-2A-12-007_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-12-007_card_5",
+          "타 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-007_card_0",
+          "SEJONG-2A-12-007_card_1",
+          "SEJONG-2A-12-007_card_2",
+          "SEJONG-2A-12-007_card_3",
+          "SEJONG-2A-12-007_card_4",
+          "SEJONG-2A-12-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-008",
+      "displaySentence": "신당동에서 떡볶이를 먹어 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-008_card_0",
+          "신당동"
+        ],
+        [
+          "SEJONG-2A-12-008_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-008_card_2",
+          "떡볶이"
+        ],
+        [
+          "SEJONG-2A-12-008_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-12-008_card_4",
+          "먹어 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-008_card_0",
+          "SEJONG-2A-12-008_card_1",
+          "SEJONG-2A-12-008_card_2",
+          "SEJONG-2A-12-008_card_3",
+          "SEJONG-2A-12-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-009",
+      "displaySentence": "여행에서 찍은 사진을 친구에게 보여 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-009_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-2A-12-009_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-009_card_2",
+          "찍은"
+        ],
+        [
+          "SEJONG-2A-12-009_card_3",
+          "사진"
+        ],
+        [
+          "SEJONG-2A-12-009_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-12-009_card_5",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-12-009_card_6",
+          "에게"
+        ],
+        [
+          "SEJONG-2A-12-009_card_7",
+          "보여 줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-009_card_0",
+          "SEJONG-2A-12-009_card_1",
+          "SEJONG-2A-12-009_card_2",
+          "SEJONG-2A-12-009_card_3",
+          "SEJONG-2A-12-009_card_4",
+          "SEJONG-2A-12-009_card_5",
+          "SEJONG-2A-12-009_card_6",
+          "SEJONG-2A-12-009_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-010",
+      "displaySentence": "박물관에서 만든 도장이 마음에 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-010_card_0",
+          "박물관"
+        ],
+        [
+          "SEJONG-2A-12-010_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-010_card_2",
+          "만든"
+        ],
+        [
+          "SEJONG-2A-12-010_card_3",
+          "도장"
+        ],
+        [
+          "SEJONG-2A-12-010_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-12-010_card_5",
+          "마음"
+        ],
+        [
+          "SEJONG-2A-12-010_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-2A-12-010_card_7",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-010_card_0",
+          "SEJONG-2A-12-010_card_1",
+          "SEJONG-2A-12-010_card_2",
+          "SEJONG-2A-12-010_card_3",
+          "SEJONG-2A-12-010_card_4",
+          "SEJONG-2A-12-010_card_5",
+          "SEJONG-2A-12-010_card_6",
+          "SEJONG-2A-12-010_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-011",
+      "displaySentence": "전주에서 먹은 음식이 입에 잘 맞았어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-011_card_0",
+          "전주"
+        ],
+        [
+          "SEJONG-2A-12-011_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-011_card_2",
+          "먹은"
+        ],
+        [
+          "SEJONG-2A-12-011_card_3",
+          "음식"
+        ],
+        [
+          "SEJONG-2A-12-011_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-12-011_card_5",
+          "입"
+        ],
+        [
+          "SEJONG-2A-12-011_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-2A-12-011_card_7",
+          "잘"
+        ],
+        [
+          "SEJONG-2A-12-011_card_8",
+          "맞았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-011_card_0",
+          "SEJONG-2A-12-011_card_1",
+          "SEJONG-2A-12-011_card_2",
+          "SEJONG-2A-12-011_card_3",
+          "SEJONG-2A-12-011_card_4",
+          "SEJONG-2A-12-011_card_5",
+          "SEJONG-2A-12-011_card_6",
+          "SEJONG-2A-12-011_card_7",
+          "SEJONG-2A-12-011_card_8"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-012",
+      "displaySentence": "남산에서 본 야경이 정말 아름다웠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-012_card_0",
+          "남산"
+        ],
+        [
+          "SEJONG-2A-12-012_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-012_card_2",
+          "본"
+        ],
+        [
+          "SEJONG-2A-12-012_card_3",
+          "야경"
+        ],
+        [
+          "SEJONG-2A-12-012_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-12-012_card_5",
+          "정말"
+        ],
+        [
+          "SEJONG-2A-12-012_card_6",
+          "아름다웠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-012_card_0",
+          "SEJONG-2A-12-012_card_1",
+          "SEJONG-2A-12-012_card_2",
+          "SEJONG-2A-12-012_card_3",
+          "SEJONG-2A-12-012_card_4",
+          "SEJONG-2A-12-012_card_5",
+          "SEJONG-2A-12-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-013",
+      "displaySentence": "한국에서 만난 사람들이 모두 친절했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-013_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-2A-12-013_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-013_card_2",
+          "만난"
+        ],
+        [
+          "SEJONG-2A-12-013_card_3",
+          "사람들"
+        ],
+        [
+          "SEJONG-2A-12-013_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-12-013_card_5",
+          "모두"
+        ],
+        [
+          "SEJONG-2A-12-013_card_6",
+          "친절했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-013_card_0",
+          "SEJONG-2A-12-013_card_1",
+          "SEJONG-2A-12-013_card_2",
+          "SEJONG-2A-12-013_card_3",
+          "SEJONG-2A-12-013_card_4",
+          "SEJONG-2A-12-013_card_5",
+          "SEJONG-2A-12-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-014",
+      "displaySentence": "여행할 때 산 기념품을 가족에게 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-014_card_0",
+          "여행할 때"
+        ],
+        [
+          "SEJONG-2A-12-014_card_1",
+          "산"
+        ],
+        [
+          "SEJONG-2A-12-014_card_2",
+          "기념품"
+        ],
+        [
+          "SEJONG-2A-12-014_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-12-014_card_4",
+          "가족"
+        ],
+        [
+          "SEJONG-2A-12-014_card_5",
+          "에게"
+        ],
+        [
+          "SEJONG-2A-12-014_card_6",
+          "줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-014_card_0",
+          "SEJONG-2A-12-014_card_1",
+          "SEJONG-2A-12-014_card_2",
+          "SEJONG-2A-12-014_card_3",
+          "SEJONG-2A-12-014_card_4",
+          "SEJONG-2A-12-014_card_5",
+          "SEJONG-2A-12-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-015",
+      "displaySentence": "지난주에 간 곳은 전주 예요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-015_card_0",
+          "지난주"
+        ],
+        [
+          "SEJONG-2A-12-015_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-12-015_card_2",
+          "간"
+        ],
+        [
+          "SEJONG-2A-12-015_card_3",
+          "곳"
+        ],
+        [
+          "SEJONG-2A-12-015_card_4",
+          "은"
+        ],
+        [
+          "SEJONG-2A-12-015_card_5",
+          "전주"
+        ],
+        [
+          "SEJONG-2A-12-015_card_6",
+          "예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-015_card_0",
+          "SEJONG-2A-12-015_card_1",
+          "SEJONG-2A-12-015_card_2",
+          "SEJONG-2A-12-015_card_3",
+          "SEJONG-2A-12-015_card_4",
+          "SEJONG-2A-12-015_card_5",
+          "SEJONG-2A-12-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-016",
+      "displaySentence": "게임에서 남은 점수를 모두 더해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-016_card_0",
+          "게임"
+        ],
+        [
+          "SEJONG-2A-12-016_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-12-016_card_2",
+          "남은"
+        ],
+        [
+          "SEJONG-2A-12-016_card_3",
+          "점수"
+        ],
+        [
+          "SEJONG-2A-12-016_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-12-016_card_5",
+          "모두"
+        ],
+        [
+          "SEJONG-2A-12-016_card_6",
+          "더해 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-016_card_0",
+          "SEJONG-2A-12-016_card_1",
+          "SEJONG-2A-12-016_card_2",
+          "SEJONG-2A-12-016_card_3",
+          "SEJONG-2A-12-016_card_4",
+          "SEJONG-2A-12-016_card_5",
+          "SEJONG-2A-12-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-017",
+      "displaySentence": "손가락을 접어서 숫자를 표시해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-017_card_0",
+          "손가락"
+        ],
+        [
+          "SEJONG-2A-12-017_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-12-017_card_2",
+          "접어서"
+        ],
+        [
+          "SEJONG-2A-12-017_card_3",
+          "숫자"
+        ],
+        [
+          "SEJONG-2A-12-017_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-12-017_card_5",
+          "표시해 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-017_card_0",
+          "SEJONG-2A-12-017_card_1",
+          "SEJONG-2A-12-017_card_2",
+          "SEJONG-2A-12-017_card_3",
+          "SEJONG-2A-12-017_card_4",
+          "SEJONG-2A-12-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-018",
+      "displaySentence": "총 점수를 한번 계산해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-018_card_0",
+          "총"
+        ],
+        [
+          "SEJONG-2A-12-018_card_1",
+          "점수"
+        ],
+        [
+          "SEJONG-2A-12-018_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-12-018_card_3",
+          "한번"
+        ],
+        [
+          "SEJONG-2A-12-018_card_4",
+          "계산해 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-018_card_0",
+          "SEJONG-2A-12-018_card_1",
+          "SEJONG-2A-12-018_card_2",
+          "SEJONG-2A-12-018_card_3",
+          "SEJONG-2A-12-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-019",
+      "displaySentence": "딱 한 번 번지 점프를 해 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-019_card_0",
+          "딱"
+        ],
+        [
+          "SEJONG-2A-12-019_card_1",
+          "한"
+        ],
+        [
+          "SEJONG-2A-12-019_card_2",
+          "번"
+        ],
+        [
+          "SEJONG-2A-12-019_card_3",
+          "번지 점프"
+        ],
+        [
+          "SEJONG-2A-12-019_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-12-019_card_5",
+          "해 봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-019_card_0",
+          "SEJONG-2A-12-019_card_1",
+          "SEJONG-2A-12-019_card_2",
+          "SEJONG-2A-12-019_card_3",
+          "SEJONG-2A-12-019_card_4",
+          "SEJONG-2A-12-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-12-020",
+      "displaySentence": "나중에 다시 가고 싶은 곳은 전주 예요.",
+      "tokens": [
+        [
+          "SEJONG-2A-12-020_card_0",
+          "나중"
+        ],
+        [
+          "SEJONG-2A-12-020_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-12-020_card_2",
+          "다시"
+        ],
+        [
+          "SEJONG-2A-12-020_card_3",
+          "가고 싶은"
+        ],
+        [
+          "SEJONG-2A-12-020_card_4",
+          "곳"
+        ],
+        [
+          "SEJONG-2A-12-020_card_5",
+          "은"
+        ],
+        [
+          "SEJONG-2A-12-020_card_6",
+          "전주"
+        ],
+        [
+          "SEJONG-2A-12-020_card_7",
+          "예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-12-020_card_0",
+          "SEJONG-2A-12-020_card_1",
+          "SEJONG-2A-12-020_card_2",
+          "SEJONG-2A-12-020_card_3",
+          "SEJONG-2A-12-020_card_4",
+          "SEJONG-2A-12-020_card_5",
+          "SEJONG-2A-12-020_card_6",
+          "SEJONG-2A-12-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 12과 · -아/어 보다, -(으)ㄴ · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 12과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

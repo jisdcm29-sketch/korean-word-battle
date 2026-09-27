@@ -1,0 +1,833 @@
+{
+  "book": "2A",
+  "lesson": 3,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 3과 범위",
+  "selectionPolicy": [
+    "3과 핵심 문법 마다·-(으)ㄹ 때을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-03-001",
+      "displaySentence": "요즘 아침마다 회의가 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-001_card_0",
+          "요즘"
+        ],
+        [
+          "SEJONG-2A-03-001_card_1",
+          "아침"
+        ],
+        [
+          "SEJONG-2A-03-001_card_2",
+          "마다"
+        ],
+        [
+          "SEJONG-2A-03-001_card_3",
+          "회의"
+        ],
+        [
+          "SEJONG-2A-03-001_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-2A-03-001_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-001_card_0",
+          "SEJONG-2A-03-001_card_1",
+          "SEJONG-2A-03-001_card_2",
+          "SEJONG-2A-03-001_card_3",
+          "SEJONG-2A-03-001_card_4",
+          "SEJONG-2A-03-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-002",
+      "displaySentence": "평일마다 여덟 시에 출근해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-002_card_0",
+          "평일"
+        ],
+        [
+          "SEJONG-2A-03-002_card_1",
+          "마다"
+        ],
+        [
+          "SEJONG-2A-03-002_card_2",
+          "여덟"
+        ],
+        [
+          "SEJONG-2A-03-002_card_3",
+          "시"
+        ],
+        [
+          "SEJONG-2A-03-002_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-2A-03-002_card_5",
+          "출근해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-002_card_0",
+          "SEJONG-2A-03-002_card_1",
+          "SEJONG-2A-03-002_card_2",
+          "SEJONG-2A-03-002_card_3",
+          "SEJONG-2A-03-002_card_4",
+          "SEJONG-2A-03-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-003",
+      "displaySentence": "퇴근할 때 음악을 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-003_card_0",
+          "퇴근할 때"
+        ],
+        [
+          "SEJONG-2A-03-003_card_1",
+          "음악"
+        ],
+        [
+          "SEJONG-2A-03-003_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-03-003_card_3",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-003_card_0",
+          "SEJONG-2A-03-003_card_1",
+          "SEJONG-2A-03-003_card_2",
+          "SEJONG-2A-03-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-004",
+      "displaySentence": "출근할 때 지하철을 타요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-004_card_0",
+          "출근할 때"
+        ],
+        [
+          "SEJONG-2A-03-004_card_1",
+          "지하철"
+        ],
+        [
+          "SEJONG-2A-03-004_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-03-004_card_3",
+          "타요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-004_card_0",
+          "SEJONG-2A-03-004_card_1",
+          "SEJONG-2A-03-004_card_2",
+          "SEJONG-2A-03-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-005",
+      "displaySentence": "시험공부를 할 때 커피를 마셔요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-005_card_0",
+          "시험공부"
+        ],
+        [
+          "SEJONG-2A-03-005_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-005_card_2",
+          "할 때"
+        ],
+        [
+          "SEJONG-2A-03-005_card_3",
+          "커피"
+        ],
+        [
+          "SEJONG-2A-03-005_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-005_card_5",
+          "마셔요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-005_card_0",
+          "SEJONG-2A-03-005_card_1",
+          "SEJONG-2A-03-005_card_2",
+          "SEJONG-2A-03-005_card_3",
+          "SEJONG-2A-03-005_card_4",
+          "SEJONG-2A-03-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-006",
+      "displaySentence": "동아리 활동이 있을 때 친구를 만나요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-006_card_0",
+          "동아리 활동"
+        ],
+        [
+          "SEJONG-2A-03-006_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-03-006_card_2",
+          "있을 때"
+        ],
+        [
+          "SEJONG-2A-03-006_card_3",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-03-006_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-006_card_5",
+          "만나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-006_card_0",
+          "SEJONG-2A-03-006_card_1",
+          "SEJONG-2A-03-006_card_2",
+          "SEJONG-2A-03-006_card_3",
+          "SEJONG-2A-03-006_card_4",
+          "SEJONG-2A-03-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-007",
+      "displaySentence": "데이트할 때 시내에서 밥을 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-007_card_0",
+          "데이트할 때"
+        ],
+        [
+          "SEJONG-2A-03-007_card_1",
+          "시내"
+        ],
+        [
+          "SEJONG-2A-03-007_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-03-007_card_3",
+          "밥"
+        ],
+        [
+          "SEJONG-2A-03-007_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-03-007_card_5",
+          "먹어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-007_card_0",
+          "SEJONG-2A-03-007_card_1",
+          "SEJONG-2A-03-007_card_2",
+          "SEJONG-2A-03-007_card_3",
+          "SEJONG-2A-03-007_card_4",
+          "SEJONG-2A-03-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-008",
+      "displaySentence": "출발할 때 친구에게 문자를 보내요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-008_card_0",
+          "출발할 때"
+        ],
+        [
+          "SEJONG-2A-03-008_card_1",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-03-008_card_2",
+          "에게"
+        ],
+        [
+          "SEJONG-2A-03-008_card_3",
+          "문자"
+        ],
+        [
+          "SEJONG-2A-03-008_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-008_card_5",
+          "보내요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-008_card_0",
+          "SEJONG-2A-03-008_card_1",
+          "SEJONG-2A-03-008_card_2",
+          "SEJONG-2A-03-008_card_3",
+          "SEJONG-2A-03-008_card_4",
+          "SEJONG-2A-03-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-009",
+      "displaySentence": "발표할 때 사람들 앞에서 천천히 말해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-009_card_0",
+          "발표할 때"
+        ],
+        [
+          "SEJONG-2A-03-009_card_1",
+          "사람들"
+        ],
+        [
+          "SEJONG-2A-03-009_card_2",
+          "앞"
+        ],
+        [
+          "SEJONG-2A-03-009_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-03-009_card_4",
+          "천천히"
+        ],
+        [
+          "SEJONG-2A-03-009_card_5",
+          "말해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-009_card_0",
+          "SEJONG-2A-03-009_card_1",
+          "SEJONG-2A-03-009_card_2",
+          "SEJONG-2A-03-009_card_3",
+          "SEJONG-2A-03-009_card_4",
+          "SEJONG-2A-03-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-010",
+      "displaySentence": "날마다 하루 일과를 메모해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-010_card_0",
+          "날"
+        ],
+        [
+          "SEJONG-2A-03-010_card_1",
+          "마다"
+        ],
+        [
+          "SEJONG-2A-03-010_card_2",
+          "하루 일과"
+        ],
+        [
+          "SEJONG-2A-03-010_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-010_card_4",
+          "메모해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-010_card_0",
+          "SEJONG-2A-03-010_card_1",
+          "SEJONG-2A-03-010_card_2",
+          "SEJONG-2A-03-010_card_3",
+          "SEJONG-2A-03-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-011",
+      "displaySentence": "요즘 날마다 늦게 퇴근해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-011_card_0",
+          "요즘"
+        ],
+        [
+          "SEJONG-2A-03-011_card_1",
+          "날"
+        ],
+        [
+          "SEJONG-2A-03-011_card_2",
+          "마다"
+        ],
+        [
+          "SEJONG-2A-03-011_card_3",
+          "늦게"
+        ],
+        [
+          "SEJONG-2A-03-011_card_4",
+          "퇴근해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-011_card_0",
+          "SEJONG-2A-03-011_card_1",
+          "SEJONG-2A-03-011_card_2",
+          "SEJONG-2A-03-011_card_3",
+          "SEJONG-2A-03-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-012",
+      "displaySentence": "아침마다 찬물로 세수해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-012_card_0",
+          "아침"
+        ],
+        [
+          "SEJONG-2A-03-012_card_1",
+          "마다"
+        ],
+        [
+          "SEJONG-2A-03-012_card_2",
+          "찬물"
+        ],
+        [
+          "SEJONG-2A-03-012_card_3",
+          "로"
+        ],
+        [
+          "SEJONG-2A-03-012_card_4",
+          "세수해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-012_card_0",
+          "SEJONG-2A-03-012_card_1",
+          "SEJONG-2A-03-012_card_2",
+          "SEJONG-2A-03-012_card_3",
+          "SEJONG-2A-03-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-013",
+      "displaySentence": "홍대에 갈 때 친구를 만나요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-013_card_0",
+          "홍대"
+        ],
+        [
+          "SEJONG-2A-03-013_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-03-013_card_2",
+          "갈 때"
+        ],
+        [
+          "SEJONG-2A-03-013_card_3",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-03-013_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-013_card_5",
+          "만나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-013_card_0",
+          "SEJONG-2A-03-013_card_1",
+          "SEJONG-2A-03-013_card_2",
+          "SEJONG-2A-03-013_card_3",
+          "SEJONG-2A-03-013_card_4",
+          "SEJONG-2A-03-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-014",
+      "displaySentence": "회사에 갈 때 인사말을 먼저 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-014_card_0",
+          "회사"
+        ],
+        [
+          "SEJONG-2A-03-014_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-03-014_card_2",
+          "갈 때"
+        ],
+        [
+          "SEJONG-2A-03-014_card_3",
+          "인사말"
+        ],
+        [
+          "SEJONG-2A-03-014_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-03-014_card_5",
+          "먼저"
+        ],
+        [
+          "SEJONG-2A-03-014_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-014_card_0",
+          "SEJONG-2A-03-014_card_1",
+          "SEJONG-2A-03-014_card_2",
+          "SEJONG-2A-03-014_card_3",
+          "SEJONG-2A-03-014_card_4",
+          "SEJONG-2A-03-014_card_5",
+          "SEJONG-2A-03-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-015",
+      "displaySentence": "행복할 때 가족에게 문자를 보내요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-015_card_0",
+          "행복할 때"
+        ],
+        [
+          "SEJONG-2A-03-015_card_1",
+          "가족"
+        ],
+        [
+          "SEJONG-2A-03-015_card_2",
+          "에게"
+        ],
+        [
+          "SEJONG-2A-03-015_card_3",
+          "문자"
+        ],
+        [
+          "SEJONG-2A-03-015_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-015_card_5",
+          "보내요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-015_card_0",
+          "SEJONG-2A-03-015_card_1",
+          "SEJONG-2A-03-015_card_2",
+          "SEJONG-2A-03-015_card_3",
+          "SEJONG-2A-03-015_card_4",
+          "SEJONG-2A-03-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-016",
+      "displaySentence": "평일마다 출퇴근할 때 책을 읽어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-016_card_0",
+          "평일"
+        ],
+        [
+          "SEJONG-2A-03-016_card_1",
+          "마다"
+        ],
+        [
+          "SEJONG-2A-03-016_card_2",
+          "출퇴근할 때"
+        ],
+        [
+          "SEJONG-2A-03-016_card_3",
+          "책"
+        ],
+        [
+          "SEJONG-2A-03-016_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-03-016_card_5",
+          "읽어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-016_card_0",
+          "SEJONG-2A-03-016_card_1",
+          "SEJONG-2A-03-016_card_2",
+          "SEJONG-2A-03-016_card_3",
+          "SEJONG-2A-03-016_card_4",
+          "SEJONG-2A-03-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-017",
+      "displaySentence": "회의가 끝날 때 바로 퇴근해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-017_card_0",
+          "회의"
+        ],
+        [
+          "SEJONG-2A-03-017_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-03-017_card_2",
+          "끝날 때"
+        ],
+        [
+          "SEJONG-2A-03-017_card_3",
+          "바로"
+        ],
+        [
+          "SEJONG-2A-03-017_card_4",
+          "퇴근해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-017_card_0",
+          "SEJONG-2A-03-017_card_1",
+          "SEJONG-2A-03-017_card_2",
+          "SEJONG-2A-03-017_card_3",
+          "SEJONG-2A-03-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-018",
+      "displaySentence": "주말마다 동아리 친구들과 놀아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-018_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-2A-03-018_card_1",
+          "마다"
+        ],
+        [
+          "SEJONG-2A-03-018_card_2",
+          "동아리 친구들"
+        ],
+        [
+          "SEJONG-2A-03-018_card_3",
+          "과"
+        ],
+        [
+          "SEJONG-2A-03-018_card_4",
+          "놀아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-018_card_0",
+          "SEJONG-2A-03-018_card_1",
+          "SEJONG-2A-03-018_card_2",
+          "SEJONG-2A-03-018_card_3",
+          "SEJONG-2A-03-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-019",
+      "displaySentence": "오랜만에 친구를 만날 때 정말 반가워요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-019_card_0",
+          "오랜만"
+        ],
+        [
+          "SEJONG-2A-03-019_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-03-019_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-03-019_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-03-019_card_4",
+          "만날 때"
+        ],
+        [
+          "SEJONG-2A-03-019_card_5",
+          "정말"
+        ],
+        [
+          "SEJONG-2A-03-019_card_6",
+          "반가워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-019_card_0",
+          "SEJONG-2A-03-019_card_1",
+          "SEJONG-2A-03-019_card_2",
+          "SEJONG-2A-03-019_card_3",
+          "SEJONG-2A-03-019_card_4",
+          "SEJONG-2A-03-019_card_5",
+          "SEJONG-2A-03-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-03-020",
+      "displaySentence": "읽기 연습을 할 때 직접 소리 내어 읽어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-03-020_card_0",
+          "읽기"
+        ],
+        [
+          "SEJONG-2A-03-020_card_1",
+          "연습"
+        ],
+        [
+          "SEJONG-2A-03-020_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-03-020_card_3",
+          "할 때"
+        ],
+        [
+          "SEJONG-2A-03-020_card_4",
+          "직접"
+        ],
+        [
+          "SEJONG-2A-03-020_card_5",
+          "소리"
+        ],
+        [
+          "SEJONG-2A-03-020_card_6",
+          "내어"
+        ],
+        [
+          "SEJONG-2A-03-020_card_7",
+          "읽어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-03-020_card_0",
+          "SEJONG-2A-03-020_card_1",
+          "SEJONG-2A-03-020_card_2",
+          "SEJONG-2A-03-020_card_3",
+          "SEJONG-2A-03-020_card_4",
+          "SEJONG-2A-03-020_card_5",
+          "SEJONG-2A-03-020_card_6",
+          "SEJONG-2A-03-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 3과 · 마다, -(으)ㄹ 때 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 3과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

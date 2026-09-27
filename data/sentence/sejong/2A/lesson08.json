@@ -1,0 +1,833 @@
+{
+  "book": "2A",
+  "lesson": 8,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 8과 범위",
+  "selectionPolicy": [
+    "8과 핵심 문법 -는데/(으)ㄴ데·-아/어 보다을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-08-001",
+      "displaySentence": "잠이 안 오는데 어떻게 하면 좋을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-08-001_card_0",
+          "잠"
+        ],
+        [
+          "SEJONG-2A-08-001_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-001_card_2",
+          "안 오는데"
+        ],
+        [
+          "SEJONG-2A-08-001_card_3",
+          "어떻게"
+        ],
+        [
+          "SEJONG-2A-08-001_card_4",
+          "하면"
+        ],
+        [
+          "SEJONG-2A-08-001_card_5",
+          "좋을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-001_card_0",
+          "SEJONG-2A-08-001_card_1",
+          "SEJONG-2A-08-001_card_2",
+          "SEJONG-2A-08-001_card_3",
+          "SEJONG-2A-08-001_card_4",
+          "SEJONG-2A-08-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-002",
+      "displaySentence": "요즘 늦게 자는데 자꾸 피곤해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-002_card_0",
+          "요즘"
+        ],
+        [
+          "SEJONG-2A-08-002_card_1",
+          "늦게"
+        ],
+        [
+          "SEJONG-2A-08-002_card_2",
+          "자는데"
+        ],
+        [
+          "SEJONG-2A-08-002_card_3",
+          "자꾸"
+        ],
+        [
+          "SEJONG-2A-08-002_card_4",
+          "피곤해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-002_card_0",
+          "SEJONG-2A-08-002_card_1",
+          "SEJONG-2A-08-002_card_2",
+          "SEJONG-2A-08-002_card_3",
+          "SEJONG-2A-08-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-003",
+      "displaySentence": "야식을 많이 먹는데 속이 안 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-003_card_0",
+          "야식"
+        ],
+        [
+          "SEJONG-2A-08-003_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-003_card_2",
+          "많이"
+        ],
+        [
+          "SEJONG-2A-08-003_card_3",
+          "먹는데"
+        ],
+        [
+          "SEJONG-2A-08-003_card_4",
+          "속"
+        ],
+        [
+          "SEJONG-2A-08-003_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-003_card_6",
+          "안 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-003_card_0",
+          "SEJONG-2A-08-003_card_1",
+          "SEJONG-2A-08-003_card_2",
+          "SEJONG-2A-08-003_card_3",
+          "SEJONG-2A-08-003_card_4",
+          "SEJONG-2A-08-003_card_5",
+          "SEJONG-2A-08-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-004",
+      "displaySentence": "아침에 자주 지각하는데 좋은 방법이 있을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-08-004_card_0",
+          "아침"
+        ],
+        [
+          "SEJONG-2A-08-004_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-08-004_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2A-08-004_card_3",
+          "지각하는데"
+        ],
+        [
+          "SEJONG-2A-08-004_card_4",
+          "좋은"
+        ],
+        [
+          "SEJONG-2A-08-004_card_5",
+          "방법"
+        ],
+        [
+          "SEJONG-2A-08-004_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-004_card_7",
+          "있을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-004_card_0",
+          "SEJONG-2A-08-004_card_1",
+          "SEJONG-2A-08-004_card_2",
+          "SEJONG-2A-08-004_card_3",
+          "SEJONG-2A-08-004_card_4",
+          "SEJONG-2A-08-004_card_5",
+          "SEJONG-2A-08-004_card_6",
+          "SEJONG-2A-08-004_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-005",
+      "displaySentence": "건강하게 살고 싶은데 운동을 추천해 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-005_card_0",
+          "건강하게"
+        ],
+        [
+          "SEJONG-2A-08-005_card_1",
+          "살고 싶은데"
+        ],
+        [
+          "SEJONG-2A-08-005_card_2",
+          "운동"
+        ],
+        [
+          "SEJONG-2A-08-005_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-005_card_4",
+          "추천해 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-005_card_0",
+          "SEJONG-2A-08-005_card_1",
+          "SEJONG-2A-08-005_card_2",
+          "SEJONG-2A-08-005_card_3",
+          "SEJONG-2A-08-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-006",
+      "displaySentence": "이 약을 가져왔는데 한번 먹어 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-006_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-006_card_1",
+          "약"
+        ],
+        [
+          "SEJONG-2A-08-006_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-006_card_3",
+          "가져왔는데"
+        ],
+        [
+          "SEJONG-2A-08-006_card_4",
+          "한번"
+        ],
+        [
+          "SEJONG-2A-08-006_card_5",
+          "먹어 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-006_card_0",
+          "SEJONG-2A-08-006_card_1",
+          "SEJONG-2A-08-006_card_2",
+          "SEJONG-2A-08-006_card_3",
+          "SEJONG-2A-08-006_card_4",
+          "SEJONG-2A-08-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-007",
+      "displaySentence": "잠이 안 오면 가벼운 운동을 해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-007_card_0",
+          "잠"
+        ],
+        [
+          "SEJONG-2A-08-007_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-007_card_2",
+          "안 오면"
+        ],
+        [
+          "SEJONG-2A-08-007_card_3",
+          "가벼운"
+        ],
+        [
+          "SEJONG-2A-08-007_card_4",
+          "운동"
+        ],
+        [
+          "SEJONG-2A-08-007_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-007_card_6",
+          "해 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-007_card_0",
+          "SEJONG-2A-08-007_card_1",
+          "SEJONG-2A-08-007_card_2",
+          "SEJONG-2A-08-007_card_3",
+          "SEJONG-2A-08-007_card_4",
+          "SEJONG-2A-08-007_card_5",
+          "SEJONG-2A-08-007_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-008",
+      "displaySentence": "일찍 자고 일찍 일어나 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-008_card_0",
+          "일찍"
+        ],
+        [
+          "SEJONG-2A-08-008_card_1",
+          "자고"
+        ],
+        [
+          "SEJONG-2A-08-008_card_2",
+          "일찍"
+        ],
+        [
+          "SEJONG-2A-08-008_card_3",
+          "일어나 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-008_card_0",
+          "SEJONG-2A-08-008_card_1",
+          "SEJONG-2A-08-008_card_2",
+          "SEJONG-2A-08-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-009",
+      "displaySentence": "야식을 조금 줄여 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-009_card_0",
+          "야식"
+        ],
+        [
+          "SEJONG-2A-08-009_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-009_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-2A-08-009_card_3",
+          "줄여 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-009_card_0",
+          "SEJONG-2A-08-009_card_1",
+          "SEJONG-2A-08-009_card_2",
+          "SEJONG-2A-08-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-010",
+      "displaySentence": "낮에 몸을 많이 움직여 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-010_card_0",
+          "낮"
+        ],
+        [
+          "SEJONG-2A-08-010_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-08-010_card_2",
+          "몸"
+        ],
+        [
+          "SEJONG-2A-08-010_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-010_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-2A-08-010_card_5",
+          "움직여 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-010_card_0",
+          "SEJONG-2A-08-010_card_1",
+          "SEJONG-2A-08-010_card_2",
+          "SEJONG-2A-08-010_card_3",
+          "SEJONG-2A-08-010_card_4",
+          "SEJONG-2A-08-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-011",
+      "displaySentence": "짜증이 날 때 한숨을 쉬어 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-011_card_0",
+          "짜증"
+        ],
+        [
+          "SEJONG-2A-08-011_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-011_card_2",
+          "날 때"
+        ],
+        [
+          "SEJONG-2A-08-011_card_3",
+          "한숨"
+        ],
+        [
+          "SEJONG-2A-08-011_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-011_card_5",
+          "쉬어 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-011_card_0",
+          "SEJONG-2A-08-011_card_1",
+          "SEJONG-2A-08-011_card_2",
+          "SEJONG-2A-08-011_card_3",
+          "SEJONG-2A-08-011_card_4",
+          "SEJONG-2A-08-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-012",
+      "displaySentence": "좋아하는 영상을 보면서 잠깐 쉬어 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-012_card_0",
+          "좋아하는"
+        ],
+        [
+          "SEJONG-2A-08-012_card_1",
+          "영상"
+        ],
+        [
+          "SEJONG-2A-08-012_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-012_card_3",
+          "보면서"
+        ],
+        [
+          "SEJONG-2A-08-012_card_4",
+          "잠깐"
+        ],
+        [
+          "SEJONG-2A-08-012_card_5",
+          "쉬어 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-012_card_0",
+          "SEJONG-2A-08-012_card_1",
+          "SEJONG-2A-08-012_card_2",
+          "SEJONG-2A-08-012_card_3",
+          "SEJONG-2A-08-012_card_4",
+          "SEJONG-2A-08-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-013",
+      "displaySentence": "친구에게 조언을 물어 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-013_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-08-013_card_1",
+          "에게"
+        ],
+        [
+          "SEJONG-2A-08-013_card_2",
+          "조언"
+        ],
+        [
+          "SEJONG-2A-08-013_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-013_card_4",
+          "물어 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-013_card_0",
+          "SEJONG-2A-08-013_card_1",
+          "SEJONG-2A-08-013_card_2",
+          "SEJONG-2A-08-013_card_3",
+          "SEJONG-2A-08-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-014",
+      "displaySentence": "이 방법을 일주일 동안 해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-014_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-014_card_1",
+          "방법"
+        ],
+        [
+          "SEJONG-2A-08-014_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-014_card_3",
+          "일주일"
+        ],
+        [
+          "SEJONG-2A-08-014_card_4",
+          "동안"
+        ],
+        [
+          "SEJONG-2A-08-014_card_5",
+          "해 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-014_card_0",
+          "SEJONG-2A-08-014_card_1",
+          "SEJONG-2A-08-014_card_2",
+          "SEJONG-2A-08-014_card_3",
+          "SEJONG-2A-08-014_card_4",
+          "SEJONG-2A-08-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-015",
+      "displaySentence": "늦게 자는 습관을 고쳐 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-015_card_0",
+          "늦게"
+        ],
+        [
+          "SEJONG-2A-08-015_card_1",
+          "자는"
+        ],
+        [
+          "SEJONG-2A-08-015_card_2",
+          "습관"
+        ],
+        [
+          "SEJONG-2A-08-015_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-015_card_4",
+          "고쳐 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-015_card_0",
+          "SEJONG-2A-08-015_card_1",
+          "SEJONG-2A-08-015_card_2",
+          "SEJONG-2A-08-015_card_3",
+          "SEJONG-2A-08-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-016",
+      "displaySentence": "손을 자주 씻어 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-016_card_0",
+          "손"
+        ],
+        [
+          "SEJONG-2A-08-016_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-016_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2A-08-016_card_3",
+          "씻어 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-016_card_0",
+          "SEJONG-2A-08-016_card_1",
+          "SEJONG-2A-08-016_card_2",
+          "SEJONG-2A-08-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-017",
+      "displaySentence": "음식을 골고루 먹어 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-017_card_0",
+          "음식"
+        ],
+        [
+          "SEJONG-2A-08-017_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-017_card_2",
+          "골고루"
+        ],
+        [
+          "SEJONG-2A-08-017_card_3",
+          "먹어 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-017_card_0",
+          "SEJONG-2A-08-017_card_1",
+          "SEJONG-2A-08-017_card_2",
+          "SEJONG-2A-08-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-018",
+      "displaySentence": "운동을 시작하고 싶은데 어떤 운동이 좋아요?",
+      "tokens": [
+        [
+          "SEJONG-2A-08-018_card_0",
+          "운동"
+        ],
+        [
+          "SEJONG-2A-08-018_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-018_card_2",
+          "시작하고 싶은데"
+        ],
+        [
+          "SEJONG-2A-08-018_card_3",
+          "어떤"
+        ],
+        [
+          "SEJONG-2A-08-018_card_4",
+          "운동"
+        ],
+        [
+          "SEJONG-2A-08-018_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-018_card_6",
+          "좋아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-018_card_0",
+          "SEJONG-2A-08-018_card_1",
+          "SEJONG-2A-08-018_card_2",
+          "SEJONG-2A-08-018_card_3",
+          "SEJONG-2A-08-018_card_4",
+          "SEJONG-2A-08-018_card_5",
+          "SEJONG-2A-08-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-019",
+      "displaySentence": "아침에 일찍 일어나고 싶은데 방법을 알려 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-019_card_0",
+          "아침"
+        ],
+        [
+          "SEJONG-2A-08-019_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-08-019_card_2",
+          "일찍"
+        ],
+        [
+          "SEJONG-2A-08-019_card_3",
+          "일어나고 싶은데"
+        ],
+        [
+          "SEJONG-2A-08-019_card_4",
+          "방법"
+        ],
+        [
+          "SEJONG-2A-08-019_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-08-019_card_6",
+          "알려 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-019_card_0",
+          "SEJONG-2A-08-019_card_1",
+          "SEJONG-2A-08-019_card_2",
+          "SEJONG-2A-08-019_card_3",
+          "SEJONG-2A-08-019_card_4",
+          "SEJONG-2A-08-019_card_5",
+          "SEJONG-2A-08-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-08-020",
+      "displaySentence": "오늘은 몸이 무거운데 가볍게 움직여 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-08-020_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2A-08-020_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-08-020_card_2",
+          "몸"
+        ],
+        [
+          "SEJONG-2A-08-020_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-08-020_card_4",
+          "무거운데"
+        ],
+        [
+          "SEJONG-2A-08-020_card_5",
+          "가볍게"
+        ],
+        [
+          "SEJONG-2A-08-020_card_6",
+          "움직여 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-08-020_card_0",
+          "SEJONG-2A-08-020_card_1",
+          "SEJONG-2A-08-020_card_2",
+          "SEJONG-2A-08-020_card_3",
+          "SEJONG-2A-08-020_card_4",
+          "SEJONG-2A-08-020_card_5",
+          "SEJONG-2A-08-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 8과 · -는데/(으)ㄴ데, -아/어 보다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 8과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

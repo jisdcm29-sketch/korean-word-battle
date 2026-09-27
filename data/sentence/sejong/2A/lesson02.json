@@ -1,0 +1,943 @@
+{
+  "book": "2A",
+  "lesson": 2,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 2과 범위",
+  "selectionPolicy": [
+    "2과 핵심 문법 -거나·(이)나·-(으)ㄹ까요?을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-02-001",
+      "displaySentence": "주말에는 등산을 하거나 운동 모임에 가요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-001_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-2A-02-001_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-02-001_card_2",
+          "등산"
+        ],
+        [
+          "SEJONG-2A-02-001_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-001_card_4",
+          "하거나"
+        ],
+        [
+          "SEJONG-2A-02-001_card_5",
+          "운동 모임"
+        ],
+        [
+          "SEJONG-2A-02-001_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-001_card_7",
+          "가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-001_card_0",
+          "SEJONG-2A-02-001_card_1",
+          "SEJONG-2A-02-001_card_2",
+          "SEJONG-2A-02-001_card_3",
+          "SEJONG-2A-02-001_card_4",
+          "SEJONG-2A-02-001_card_5",
+          "SEJONG-2A-02-001_card_6",
+          "SEJONG-2A-02-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-002",
+      "displaySentence": "집에서는 소설을 읽거나 음악을 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-002_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-2A-02-002_card_1",
+          "에서는"
+        ],
+        [
+          "SEJONG-2A-02-002_card_2",
+          "소설"
+        ],
+        [
+          "SEJONG-2A-02-002_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-002_card_4",
+          "읽거나"
+        ],
+        [
+          "SEJONG-2A-02-002_card_5",
+          "음악"
+        ],
+        [
+          "SEJONG-2A-02-002_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-002_card_7",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-002_card_0",
+          "SEJONG-2A-02-002_card_1",
+          "SEJONG-2A-02-002_card_2",
+          "SEJONG-2A-02-002_card_3",
+          "SEJONG-2A-02-002_card_4",
+          "SEJONG-2A-02-002_card_5",
+          "SEJONG-2A-02-002_card_6",
+          "SEJONG-2A-02-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-003",
+      "displaySentence": "저녁에는 만화를 보거나 에스엔에스에 글을 써요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-003_card_0",
+          "저녁"
+        ],
+        [
+          "SEJONG-2A-02-003_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-02-003_card_2",
+          "만화"
+        ],
+        [
+          "SEJONG-2A-02-003_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-003_card_4",
+          "보거나"
+        ],
+        [
+          "SEJONG-2A-02-003_card_5",
+          "에스엔에스"
+        ],
+        [
+          "SEJONG-2A-02-003_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-003_card_7",
+          "글"
+        ],
+        [
+          "SEJONG-2A-02-003_card_8",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-003_card_9",
+          "써요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-003_card_0",
+          "SEJONG-2A-02-003_card_1",
+          "SEJONG-2A-02-003_card_2",
+          "SEJONG-2A-02-003_card_3",
+          "SEJONG-2A-02-003_card_4",
+          "SEJONG-2A-02-003_card_5",
+          "SEJONG-2A-02-003_card_6",
+          "SEJONG-2A-02-003_card_7",
+          "SEJONG-2A-02-003_card_8",
+          "SEJONG-2A-02-003_card_9"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-004",
+      "displaySentence": "휴일에는 배드민턴을 치거나 풍경 사진을 찍어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-004_card_0",
+          "휴일"
+        ],
+        [
+          "SEJONG-2A-02-004_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-02-004_card_2",
+          "배드민턴"
+        ],
+        [
+          "SEJONG-2A-02-004_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-004_card_4",
+          "치거나"
+        ],
+        [
+          "SEJONG-2A-02-004_card_5",
+          "풍경 사진"
+        ],
+        [
+          "SEJONG-2A-02-004_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-004_card_7",
+          "찍어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-004_card_0",
+          "SEJONG-2A-02-004_card_1",
+          "SEJONG-2A-02-004_card_2",
+          "SEJONG-2A-02-004_card_3",
+          "SEJONG-2A-02-004_card_4",
+          "SEJONG-2A-02-004_card_5",
+          "SEJONG-2A-02-004_card_6",
+          "SEJONG-2A-02-004_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-005",
+      "displaySentence": "점심에는 돈가스나 카레를 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-005_card_0",
+          "점심"
+        ],
+        [
+          "SEJONG-2A-02-005_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-02-005_card_2",
+          "돈가스"
+        ],
+        [
+          "SEJONG-2A-02-005_card_3",
+          "나"
+        ],
+        [
+          "SEJONG-2A-02-005_card_4",
+          "카레"
+        ],
+        [
+          "SEJONG-2A-02-005_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-005_card_6",
+          "먹어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-005_card_0",
+          "SEJONG-2A-02-005_card_1",
+          "SEJONG-2A-02-005_card_2",
+          "SEJONG-2A-02-005_card_3",
+          "SEJONG-2A-02-005_card_4",
+          "SEJONG-2A-02-005_card_5",
+          "SEJONG-2A-02-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-006",
+      "displaySentence": "친구와 악기를 연주하거나 스포츠 경기를 봐요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-006_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-02-006_card_1",
+          "와"
+        ],
+        [
+          "SEJONG-2A-02-006_card_2",
+          "악기"
+        ],
+        [
+          "SEJONG-2A-02-006_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-006_card_4",
+          "연주하거나"
+        ],
+        [
+          "SEJONG-2A-02-006_card_5",
+          "스포츠 경기"
+        ],
+        [
+          "SEJONG-2A-02-006_card_6",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-006_card_7",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-006_card_0",
+          "SEJONG-2A-02-006_card_1",
+          "SEJONG-2A-02-006_card_2",
+          "SEJONG-2A-02-006_card_3",
+          "SEJONG-2A-02-006_card_4",
+          "SEJONG-2A-02-006_card_5",
+          "SEJONG-2A-02-006_card_6",
+          "SEJONG-2A-02-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-007",
+      "displaySentence": "내일 운동 모임에 같이 갈까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-007_card_0",
+          "내일"
+        ],
+        [
+          "SEJONG-2A-02-007_card_1",
+          "운동 모임"
+        ],
+        [
+          "SEJONG-2A-02-007_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-007_card_3",
+          "같이"
+        ],
+        [
+          "SEJONG-2A-02-007_card_4",
+          "갈까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-007_card_0",
+          "SEJONG-2A-02-007_card_1",
+          "SEJONG-2A-02-007_card_2",
+          "SEJONG-2A-02-007_card_3",
+          "SEJONG-2A-02-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-008",
+      "displaySentence": "주말에 친구와 배드민턴을 칠까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-008_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-2A-02-008_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-008_card_2",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-02-008_card_3",
+          "와"
+        ],
+        [
+          "SEJONG-2A-02-008_card_4",
+          "배드민턴"
+        ],
+        [
+          "SEJONG-2A-02-008_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-008_card_6",
+          "칠까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-008_card_0",
+          "SEJONG-2A-02-008_card_1",
+          "SEJONG-2A-02-008_card_2",
+          "SEJONG-2A-02-008_card_3",
+          "SEJONG-2A-02-008_card_4",
+          "SEJONG-2A-02-008_card_5",
+          "SEJONG-2A-02-008_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-009",
+      "displaySentence": "점심에 돈가스를 먹을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-009_card_0",
+          "점심"
+        ],
+        [
+          "SEJONG-2A-02-009_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-009_card_2",
+          "돈가스"
+        ],
+        [
+          "SEJONG-2A-02-009_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-009_card_4",
+          "먹을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-009_card_0",
+          "SEJONG-2A-02-009_card_1",
+          "SEJONG-2A-02-009_card_2",
+          "SEJONG-2A-02-009_card_3",
+          "SEJONG-2A-02-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-010",
+      "displaySentence": "내일 풍경 사진을 같이 찍을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-010_card_0",
+          "내일"
+        ],
+        [
+          "SEJONG-2A-02-010_card_1",
+          "풍경 사진"
+        ],
+        [
+          "SEJONG-2A-02-010_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-010_card_3",
+          "같이"
+        ],
+        [
+          "SEJONG-2A-02-010_card_4",
+          "찍을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-010_card_0",
+          "SEJONG-2A-02-010_card_1",
+          "SEJONG-2A-02-010_card_2",
+          "SEJONG-2A-02-010_card_3",
+          "SEJONG-2A-02-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-011",
+      "displaySentence": "우리 팀을 두 개로 나눌까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-011_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-2A-02-011_card_1",
+          "팀"
+        ],
+        [
+          "SEJONG-2A-02-011_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-011_card_3",
+          "두"
+        ],
+        [
+          "SEJONG-2A-02-011_card_4",
+          "개"
+        ],
+        [
+          "SEJONG-2A-02-011_card_5",
+          "로"
+        ],
+        [
+          "SEJONG-2A-02-011_card_6",
+          "나눌까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-011_card_0",
+          "SEJONG-2A-02-011_card_1",
+          "SEJONG-2A-02-011_card_2",
+          "SEJONG-2A-02-011_card_3",
+          "SEJONG-2A-02-011_card_4",
+          "SEJONG-2A-02-011_card_5",
+          "SEJONG-2A-02-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-012",
+      "displaySentence": "카드를 가운데에 놓을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-012_card_0",
+          "카드"
+        ],
+        [
+          "SEJONG-2A-02-012_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-012_card_2",
+          "가운데"
+        ],
+        [
+          "SEJONG-2A-02-012_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-012_card_4",
+          "놓을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-012_card_0",
+          "SEJONG-2A-02-012_card_1",
+          "SEJONG-2A-02-012_card_2",
+          "SEJONG-2A-02-012_card_3",
+          "SEJONG-2A-02-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-013",
+      "displaySentence": "카드를 한 장 뒤집을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-013_card_0",
+          "카드"
+        ],
+        [
+          "SEJONG-2A-02-013_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-013_card_2",
+          "한"
+        ],
+        [
+          "SEJONG-2A-02-013_card_3",
+          "장"
+        ],
+        [
+          "SEJONG-2A-02-013_card_4",
+          "뒤집을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-013_card_0",
+          "SEJONG-2A-02-013_card_1",
+          "SEJONG-2A-02-013_card_2",
+          "SEJONG-2A-02-013_card_3",
+          "SEJONG-2A-02-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-014",
+      "displaySentence": "우리 다시 게임을 할까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-014_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-2A-02-014_card_1",
+          "다시"
+        ],
+        [
+          "SEJONG-2A-02-014_card_2",
+          "게임"
+        ],
+        [
+          "SEJONG-2A-02-014_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-014_card_4",
+          "할까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-014_card_0",
+          "SEJONG-2A-02-014_card_1",
+          "SEJONG-2A-02-014_card_2",
+          "SEJONG-2A-02-014_card_3",
+          "SEJONG-2A-02-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-015",
+      "displaySentence": "박수를 치거나 노래를 불러요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-015_card_0",
+          "박수"
+        ],
+        [
+          "SEJONG-2A-02-015_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-015_card_2",
+          "치거나"
+        ],
+        [
+          "SEJONG-2A-02-015_card_3",
+          "노래"
+        ],
+        [
+          "SEJONG-2A-02-015_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-015_card_5",
+          "불러요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-015_card_0",
+          "SEJONG-2A-02-015_card_1",
+          "SEJONG-2A-02-015_card_2",
+          "SEJONG-2A-02-015_card_3",
+          "SEJONG-2A-02-015_card_4",
+          "SEJONG-2A-02-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-016",
+      "displaySentence": "주말에 집안일을 하거나 친구를 만나요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-016_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-2A-02-016_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-016_card_2",
+          "집안일"
+        ],
+        [
+          "SEJONG-2A-02-016_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-016_card_4",
+          "하거나"
+        ],
+        [
+          "SEJONG-2A-02-016_card_5",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-02-016_card_6",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-016_card_7",
+          "만나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-016_card_0",
+          "SEJONG-2A-02-016_card_1",
+          "SEJONG-2A-02-016_card_2",
+          "SEJONG-2A-02-016_card_3",
+          "SEJONG-2A-02-016_card_4",
+          "SEJONG-2A-02-016_card_5",
+          "SEJONG-2A-02-016_card_6",
+          "SEJONG-2A-02-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-017",
+      "displaySentence": "저녁에 스파게티나 돈가스를 먹을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-017_card_0",
+          "저녁"
+        ],
+        [
+          "SEJONG-2A-02-017_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-017_card_2",
+          "스파게티"
+        ],
+        [
+          "SEJONG-2A-02-017_card_3",
+          "나"
+        ],
+        [
+          "SEJONG-2A-02-017_card_4",
+          "돈가스"
+        ],
+        [
+          "SEJONG-2A-02-017_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-017_card_6",
+          "먹을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-017_card_0",
+          "SEJONG-2A-02-017_card_1",
+          "SEJONG-2A-02-017_card_2",
+          "SEJONG-2A-02-017_card_3",
+          "SEJONG-2A-02-017_card_4",
+          "SEJONG-2A-02-017_card_5",
+          "SEJONG-2A-02-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-018",
+      "displaySentence": "휴일에 악기를 연주하거나 만화를 그려요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-018_card_0",
+          "휴일"
+        ],
+        [
+          "SEJONG-2A-02-018_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-02-018_card_2",
+          "악기"
+        ],
+        [
+          "SEJONG-2A-02-018_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-018_card_4",
+          "연주하거나"
+        ],
+        [
+          "SEJONG-2A-02-018_card_5",
+          "만화"
+        ],
+        [
+          "SEJONG-2A-02-018_card_6",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-018_card_7",
+          "그려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-018_card_0",
+          "SEJONG-2A-02-018_card_1",
+          "SEJONG-2A-02-018_card_2",
+          "SEJONG-2A-02-018_card_3",
+          "SEJONG-2A-02-018_card_4",
+          "SEJONG-2A-02-018_card_5",
+          "SEJONG-2A-02-018_card_6",
+          "SEJONG-2A-02-018_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-019",
+      "displaySentence": "친구와 스포츠 경기를 보거나 카레를 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-02-019_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-02-019_card_1",
+          "와"
+        ],
+        [
+          "SEJONG-2A-02-019_card_2",
+          "스포츠 경기"
+        ],
+        [
+          "SEJONG-2A-02-019_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-019_card_4",
+          "보거나"
+        ],
+        [
+          "SEJONG-2A-02-019_card_5",
+          "카레"
+        ],
+        [
+          "SEJONG-2A-02-019_card_6",
+          "를"
+        ],
+        [
+          "SEJONG-2A-02-019_card_7",
+          "먹어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-019_card_0",
+          "SEJONG-2A-02-019_card_1",
+          "SEJONG-2A-02-019_card_2",
+          "SEJONG-2A-02-019_card_3",
+          "SEJONG-2A-02-019_card_4",
+          "SEJONG-2A-02-019_card_5",
+          "SEJONG-2A-02-019_card_6",
+          "SEJONG-2A-02-019_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-02-020",
+      "displaySentence": "오늘은 만화나 소설을 읽을까요?",
+      "tokens": [
+        [
+          "SEJONG-2A-02-020_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2A-02-020_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-02-020_card_2",
+          "만화"
+        ],
+        [
+          "SEJONG-2A-02-020_card_3",
+          "나"
+        ],
+        [
+          "SEJONG-2A-02-020_card_4",
+          "소설"
+        ],
+        [
+          "SEJONG-2A-02-020_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-02-020_card_6",
+          "읽을까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-02-020_card_0",
+          "SEJONG-2A-02-020_card_1",
+          "SEJONG-2A-02-020_card_2",
+          "SEJONG-2A-02-020_card_3",
+          "SEJONG-2A-02-020_card_4",
+          "SEJONG-2A-02-020_card_5",
+          "SEJONG-2A-02-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 2과 · -거나, (이)나, -(으)ㄹ까요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 2과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

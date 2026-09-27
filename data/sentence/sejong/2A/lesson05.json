@@ -1,0 +1,803 @@
+{
+  "book": "2A",
+  "lesson": 5,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 5과 범위",
+  "selectionPolicy": [
+    "5과 핵심 문법 -기가 좋다·-지 않다·-지 못하다을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-05-001",
+      "displaySentence": "거실 창문이 커서 경치를 구경하기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-001_card_0",
+          "거실"
+        ],
+        [
+          "SEJONG-2A-05-001_card_1",
+          "창문"
+        ],
+        [
+          "SEJONG-2A-05-001_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-001_card_3",
+          "커서"
+        ],
+        [
+          "SEJONG-2A-05-001_card_4",
+          "경치"
+        ],
+        [
+          "SEJONG-2A-05-001_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-2A-05-001_card_6",
+          "구경하기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-001_card_0",
+          "SEJONG-2A-05-001_card_1",
+          "SEJONG-2A-05-001_card_2",
+          "SEJONG-2A-05-001_card_3",
+          "SEJONG-2A-05-001_card_4",
+          "SEJONG-2A-05-001_card_5",
+          "SEJONG-2A-05-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-002",
+      "displaySentence": "부엌이 넓어서 요리하기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-002_card_0",
+          "부엌"
+        ],
+        [
+          "SEJONG-2A-05-002_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-002_card_2",
+          "넓어서"
+        ],
+        [
+          "SEJONG-2A-05-002_card_3",
+          "요리하기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-002_card_0",
+          "SEJONG-2A-05-002_card_1",
+          "SEJONG-2A-05-002_card_2",
+          "SEJONG-2A-05-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-003",
+      "displaySentence": "집이 조용해서 공부하기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-003_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-2A-05-003_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-003_card_2",
+          "조용해서"
+        ],
+        [
+          "SEJONG-2A-05-003_card_3",
+          "공부하기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-003_card_0",
+          "SEJONG-2A-05-003_card_1",
+          "SEJONG-2A-05-003_card_2",
+          "SEJONG-2A-05-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-004",
+      "displaySentence": "방이 밝아서 책을 읽기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-004_card_0",
+          "방"
+        ],
+        [
+          "SEJONG-2A-05-004_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-004_card_2",
+          "밝아서"
+        ],
+        [
+          "SEJONG-2A-05-004_card_3",
+          "책"
+        ],
+        [
+          "SEJONG-2A-05-004_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-05-004_card_5",
+          "읽기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-004_card_0",
+          "SEJONG-2A-05-004_card_1",
+          "SEJONG-2A-05-004_card_2",
+          "SEJONG-2A-05-004_card_3",
+          "SEJONG-2A-05-004_card_4",
+          "SEJONG-2A-05-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-005",
+      "displaySentence": "새집이 깨끗해서 살기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-005_card_0",
+          "새집"
+        ],
+        [
+          "SEJONG-2A-05-005_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-005_card_2",
+          "깨끗해서"
+        ],
+        [
+          "SEJONG-2A-05-005_card_3",
+          "살기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-005_card_0",
+          "SEJONG-2A-05-005_card_1",
+          "SEJONG-2A-05-005_card_2",
+          "SEJONG-2A-05-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-006",
+      "displaySentence": "짐이 적어서 이사하기가 어렵지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-006_card_0",
+          "짐"
+        ],
+        [
+          "SEJONG-2A-05-006_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-006_card_2",
+          "적어서"
+        ],
+        [
+          "SEJONG-2A-05-006_card_3",
+          "이사하기가 어렵지 않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-006_card_0",
+          "SEJONG-2A-05-006_card_1",
+          "SEJONG-2A-05-006_card_2",
+          "SEJONG-2A-05-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-007",
+      "displaySentence": "집이 어둡지 않아서 마음에 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-007_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-2A-05-007_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-007_card_2",
+          "어둡지 않아서"
+        ],
+        [
+          "SEJONG-2A-05-007_card_3",
+          "마음"
+        ],
+        [
+          "SEJONG-2A-05-007_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-2A-05-007_card_5",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-007_card_0",
+          "SEJONG-2A-05-007_card_1",
+          "SEJONG-2A-05-007_card_2",
+          "SEJONG-2A-05-007_card_3",
+          "SEJONG-2A-05-007_card_4",
+          "SEJONG-2A-05-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-008",
+      "displaySentence": "아파트가 시끄럽지 않아서 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-008_card_0",
+          "아파트"
+        ],
+        [
+          "SEJONG-2A-05-008_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-05-008_card_2",
+          "시끄럽지 않아서"
+        ],
+        [
+          "SEJONG-2A-05-008_card_3",
+          "좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-008_card_0",
+          "SEJONG-2A-05-008_card_1",
+          "SEJONG-2A-05-008_card_2",
+          "SEJONG-2A-05-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-009",
+      "displaySentence": "냉장고가 무거워서 혼자 버리지 못해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-009_card_0",
+          "냉장고"
+        ],
+        [
+          "SEJONG-2A-05-009_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-05-009_card_2",
+          "무거워서"
+        ],
+        [
+          "SEJONG-2A-05-009_card_3",
+          "혼자"
+        ],
+        [
+          "SEJONG-2A-05-009_card_4",
+          "버리지 못해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-009_card_0",
+          "SEJONG-2A-05-009_card_1",
+          "SEJONG-2A-05-009_card_2",
+          "SEJONG-2A-05-009_card_3",
+          "SEJONG-2A-05-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-010",
+      "displaySentence": "운전면허증이 없어서 차를 운전하지 못해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-010_card_0",
+          "운전면허증"
+        ],
+        [
+          "SEJONG-2A-05-010_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-010_card_2",
+          "없어서"
+        ],
+        [
+          "SEJONG-2A-05-010_card_3",
+          "차"
+        ],
+        [
+          "SEJONG-2A-05-010_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-05-010_card_5",
+          "운전하지 못해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-010_card_0",
+          "SEJONG-2A-05-010_card_1",
+          "SEJONG-2A-05-010_card_2",
+          "SEJONG-2A-05-010_card_3",
+          "SEJONG-2A-05-010_card_4",
+          "SEJONG-2A-05-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-011",
+      "displaySentence": "정원이 넓어서 강아지와 놀기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-011_card_0",
+          "정원"
+        ],
+        [
+          "SEJONG-2A-05-011_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-011_card_2",
+          "넓어서"
+        ],
+        [
+          "SEJONG-2A-05-011_card_3",
+          "강아지"
+        ],
+        [
+          "SEJONG-2A-05-011_card_4",
+          "와"
+        ],
+        [
+          "SEJONG-2A-05-011_card_5",
+          "놀기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-011_card_0",
+          "SEJONG-2A-05-011_card_1",
+          "SEJONG-2A-05-011_card_2",
+          "SEJONG-2A-05-011_card_3",
+          "SEJONG-2A-05-011_card_4",
+          "SEJONG-2A-05-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-012",
+      "displaySentence": "주택 앞에 나무가 많아서 경치를 보기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-012_card_0",
+          "주택"
+        ],
+        [
+          "SEJONG-2A-05-012_card_1",
+          "앞"
+        ],
+        [
+          "SEJONG-2A-05-012_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-05-012_card_3",
+          "나무"
+        ],
+        [
+          "SEJONG-2A-05-012_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-2A-05-012_card_5",
+          "많아서"
+        ],
+        [
+          "SEJONG-2A-05-012_card_6",
+          "경치"
+        ],
+        [
+          "SEJONG-2A-05-012_card_7",
+          "를"
+        ],
+        [
+          "SEJONG-2A-05-012_card_8",
+          "보기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-012_card_0",
+          "SEJONG-2A-05-012_card_1",
+          "SEJONG-2A-05-012_card_2",
+          "SEJONG-2A-05-012_card_3",
+          "SEJONG-2A-05-012_card_4",
+          "SEJONG-2A-05-012_card_5",
+          "SEJONG-2A-05-012_card_6",
+          "SEJONG-2A-05-012_card_7",
+          "SEJONG-2A-05-012_card_8"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-013",
+      "displaySentence": "원룸은 넓지 않지만 아주 깨끗해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-013_card_0",
+          "원룸"
+        ],
+        [
+          "SEJONG-2A-05-013_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-05-013_card_2",
+          "넓지 않지만"
+        ],
+        [
+          "SEJONG-2A-05-013_card_3",
+          "아주"
+        ],
+        [
+          "SEJONG-2A-05-013_card_4",
+          "깨끗해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-013_card_0",
+          "SEJONG-2A-05-013_card_1",
+          "SEJONG-2A-05-013_card_2",
+          "SEJONG-2A-05-013_card_3",
+          "SEJONG-2A-05-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-014",
+      "displaySentence": "이 집은 별로 지저분하지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-014_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-014_card_1",
+          "집"
+        ],
+        [
+          "SEJONG-2A-05-014_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-2A-05-014_card_3",
+          "별로"
+        ],
+        [
+          "SEJONG-2A-05-014_card_4",
+          "지저분하지 않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-014_card_0",
+          "SEJONG-2A-05-014_card_1",
+          "SEJONG-2A-05-014_card_2",
+          "SEJONG-2A-05-014_card_3",
+          "SEJONG-2A-05-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-015",
+      "displaySentence": "오늘 이사를 도와주지 못해서 미안해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-015_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2A-05-015_card_1",
+          "이사"
+        ],
+        [
+          "SEJONG-2A-05-015_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-05-015_card_3",
+          "도와주지 못해서"
+        ],
+        [
+          "SEJONG-2A-05-015_card_4",
+          "미안해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-015_card_0",
+          "SEJONG-2A-05-015_card_1",
+          "SEJONG-2A-05-015_card_2",
+          "SEJONG-2A-05-015_card_3",
+          "SEJONG-2A-05-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-016",
+      "displaySentence": "거실이 그렇게 크지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-016_card_0",
+          "거실"
+        ],
+        [
+          "SEJONG-2A-05-016_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-016_card_2",
+          "그렇게"
+        ],
+        [
+          "SEJONG-2A-05-016_card_3",
+          "크지 않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-016_card_0",
+          "SEJONG-2A-05-016_card_1",
+          "SEJONG-2A-05-016_card_2",
+          "SEJONG-2A-05-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-017",
+      "displaySentence": "블로그에서 마음에 드는 집을 찾았어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-017_card_0",
+          "블로그"
+        ],
+        [
+          "SEJONG-2A-05-017_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-05-017_card_2",
+          "마음"
+        ],
+        [
+          "SEJONG-2A-05-017_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-2A-05-017_card_4",
+          "드는"
+        ],
+        [
+          "SEJONG-2A-05-017_card_5",
+          "집"
+        ],
+        [
+          "SEJONG-2A-05-017_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-2A-05-017_card_7",
+          "찾았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-017_card_0",
+          "SEJONG-2A-05-017_card_1",
+          "SEJONG-2A-05-017_card_2",
+          "SEJONG-2A-05-017_card_3",
+          "SEJONG-2A-05-017_card_4",
+          "SEJONG-2A-05-017_card_5",
+          "SEJONG-2A-05-017_card_6",
+          "SEJONG-2A-05-017_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-018",
+      "displaySentence": "아파트 주변이 시끄러워서 잠을 자기가 좋지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-018_card_0",
+          "아파트"
+        ],
+        [
+          "SEJONG-2A-05-018_card_1",
+          "주변"
+        ],
+        [
+          "SEJONG-2A-05-018_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-018_card_3",
+          "시끄러워서"
+        ],
+        [
+          "SEJONG-2A-05-018_card_4",
+          "잠"
+        ],
+        [
+          "SEJONG-2A-05-018_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-05-018_card_6",
+          "자기가 좋지 않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-018_card_0",
+          "SEJONG-2A-05-018_card_1",
+          "SEJONG-2A-05-018_card_2",
+          "SEJONG-2A-05-018_card_3",
+          "SEJONG-2A-05-018_card_4",
+          "SEJONG-2A-05-018_card_5",
+          "SEJONG-2A-05-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-019",
+      "displaySentence": "새집에는 짐이 많지 않아서 정리하기가 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-019_card_0",
+          "새집"
+        ],
+        [
+          "SEJONG-2A-05-019_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-05-019_card_2",
+          "짐"
+        ],
+        [
+          "SEJONG-2A-05-019_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-019_card_4",
+          "많지 않아서"
+        ],
+        [
+          "SEJONG-2A-05-019_card_5",
+          "정리하기가 좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-019_card_0",
+          "SEJONG-2A-05-019_card_1",
+          "SEJONG-2A-05-019_card_2",
+          "SEJONG-2A-05-019_card_3",
+          "SEJONG-2A-05-019_card_4",
+          "SEJONG-2A-05-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-05-020",
+      "displaySentence": "부엌이 어둡지 않아서 요리하기가 편해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-05-020_card_0",
+          "부엌"
+        ],
+        [
+          "SEJONG-2A-05-020_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-05-020_card_2",
+          "어둡지 않아서"
+        ],
+        [
+          "SEJONG-2A-05-020_card_3",
+          "요리하기가 편해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-05-020_card_0",
+          "SEJONG-2A-05-020_card_1",
+          "SEJONG-2A-05-020_card_2",
+          "SEJONG-2A-05-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 5과 · -기가 좋다, -지 않다, -지 못하다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 5과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

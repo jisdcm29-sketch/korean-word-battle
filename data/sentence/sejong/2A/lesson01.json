@@ -1,0 +1,898 @@
+{
+  "book": "2A",
+  "lesson": 1,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 1과 범위",
+  "selectionPolicy": [
+    "1과 핵심 문법 (이)라고 하다·-는을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "1A·1B에서 학습한 문법은 누적 활용 가능",
+    "2A 2과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-01-V2-001",
+      "displaySentence": "저는 수지라고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-001_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-2A-01-V2-001_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-001_card_2",
+          "수지"
+        ],
+        [
+          "SEJONG-2A-01-V2-001_card_3",
+          "라고 해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-001_card_0",
+          "SEJONG-2A-01-V2-001_card_1",
+          "SEJONG-2A-01-V2-001_card_2",
+          "SEJONG-2A-01-V2-001_card_3"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 듣고 말하기 · (이)라고 하다",
+      "sourceRef": "더하기 활동 2A 1과 듣고 말하기 · (이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-002",
+      "displaySentence": "친구들은 저를 수지라고 불러요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-002_card_0",
+          "친구들"
+        ],
+        [
+          "SEJONG-2A-01-V2-002_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-2A-01-V2-002_card_2",
+          "저"
+        ],
+        [
+          "SEJONG-2A-01-V2-002_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-01-V2-002_card_4",
+          "수지라고 불러요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-002_card_0",
+          "SEJONG-2A-01-V2-002_card_1",
+          "SEJONG-2A-01-V2-002_card_2",
+          "SEJONG-2A-01-V2-002_card_3",
+          "SEJONG-2A-01-V2-002_card_4"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 부르다 · (이)라고 하다 재구성",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 부르다 · (이)라고 하다 재구성"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-003",
+      "displaySentence": "이 단어는 한국어로 뭐라고 해요?",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-003_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-01-V2-003_card_1",
+          "단어"
+        ],
+        [
+          "SEJONG-2A-01-V2-003_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-003_card_3",
+          "한국어"
+        ],
+        [
+          "SEJONG-2A-01-V2-003_card_4",
+          "로"
+        ],
+        [
+          "SEJONG-2A-01-V2-003_card_5",
+          "뭐라고 해요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-003_card_0",
+          "SEJONG-2A-01-V2-003_card_1",
+          "SEJONG-2A-01-V2-003_card_2",
+          "SEJONG-2A-01-V2-003_card_3",
+          "SEJONG-2A-01-V2-003_card_4",
+          "SEJONG-2A-01-V2-003_card_5"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 단어 · (이)라고 하다",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 단어 · (이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-004",
+      "displaySentence": "이거는 한국어로 반지라고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-004_card_0",
+          "이거"
+        ],
+        [
+          "SEJONG-2A-01-V2-004_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-004_card_2",
+          "한국어"
+        ],
+        [
+          "SEJONG-2A-01-V2-004_card_3",
+          "로"
+        ],
+        [
+          "SEJONG-2A-01-V2-004_card_4",
+          "반지라고 해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-004_card_0",
+          "SEJONG-2A-01-V2-004_card_1",
+          "SEJONG-2A-01-V2-004_card_2",
+          "SEJONG-2A-01-V2-004_card_3",
+          "SEJONG-2A-01-V2-004_card_4"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 반지 · (이)라고 하다",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 반지 · (이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-005",
+      "displaySentence": "커피를 만드는 사람을 바리스타라고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-005_card_0",
+          "커피"
+        ],
+        [
+          "SEJONG-2A-01-V2-005_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-01-V2-005_card_2",
+          "만드는"
+        ],
+        [
+          "SEJONG-2A-01-V2-005_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-2A-01-V2-005_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-005_card_5",
+          "바리스타라고 해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-005_card_0",
+          "SEJONG-2A-01-V2-005_card_1",
+          "SEJONG-2A-01-V2-005_card_2",
+          "SEJONG-2A-01-V2-005_card_3",
+          "SEJONG-2A-01-V2-005_card_4",
+          "SEJONG-2A-01-V2-005_card_5"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 바리스타 · -는/(이)라고 하다",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 바리스타 · -는/(이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-006",
+      "displaySentence": "빵을 굽는 사람을 제빵사라고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-006_card_0",
+          "빵"
+        ],
+        [
+          "SEJONG-2A-01-V2-006_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-006_card_2",
+          "굽는"
+        ],
+        [
+          "SEJONG-2A-01-V2-006_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-2A-01-V2-006_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-006_card_5",
+          "제빵사라고 해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-006_card_0",
+          "SEJONG-2A-01-V2-006_card_1",
+          "SEJONG-2A-01-V2-006_card_2",
+          "SEJONG-2A-01-V2-006_card_3",
+          "SEJONG-2A-01-V2-006_card_4",
+          "SEJONG-2A-01-V2-006_card_5"
+        ]
+      ],
+      "note": "2A 1과 공식 어휘 · -는/(이)라고 하다",
+      "sourceRef": "2A 1과 공식 어휘 · -는/(이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-007",
+      "displaySentence": "프로그램을 만드는 사람을 프로그래머라고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-007_card_0",
+          "프로그램"
+        ],
+        [
+          "SEJONG-2A-01-V2-007_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-007_card_2",
+          "만드는"
+        ],
+        [
+          "SEJONG-2A-01-V2-007_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-2A-01-V2-007_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-007_card_5",
+          "프로그래머라고 해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-007_card_0",
+          "SEJONG-2A-01-V2-007_card_1",
+          "SEJONG-2A-01-V2-007_card_2",
+          "SEJONG-2A-01-V2-007_card_3",
+          "SEJONG-2A-01-V2-007_card_4",
+          "SEJONG-2A-01-V2-007_card_5"
+        ]
+      ],
+      "note": "2A 1과 공식 어휘 · -는/(이)라고 하다",
+      "sourceRef": "2A 1과 공식 어휘 · -는/(이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-008",
+      "displaySentence": "베트남어를 가르치는 사람을 교사라고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-008_card_0",
+          "베트남어"
+        ],
+        [
+          "SEJONG-2A-01-V2-008_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-01-V2-008_card_2",
+          "가르치는"
+        ],
+        [
+          "SEJONG-2A-01-V2-008_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-2A-01-V2-008_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-008_card_5",
+          "교사라고 해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-008_card_0",
+          "SEJONG-2A-01-V2-008_card_1",
+          "SEJONG-2A-01-V2-008_card_2",
+          "SEJONG-2A-01-V2-008_card_3",
+          "SEJONG-2A-01-V2-008_card_4",
+          "SEJONG-2A-01-V2-008_card_5"
+        ]
+      ],
+      "note": "2A 1과 공식 어휘 · -는/(이)라고 하다",
+      "sourceRef": "2A 1과 공식 어휘 · -는/(이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-009",
+      "displaySentence": "머리를 자르는 사람을 헤어 디자이너라고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-009_card_0",
+          "머리"
+        ],
+        [
+          "SEJONG-2A-01-V2-009_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-01-V2-009_card_2",
+          "자르는"
+        ],
+        [
+          "SEJONG-2A-01-V2-009_card_3",
+          "사람"
+        ],
+        [
+          "SEJONG-2A-01-V2-009_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-009_card_5",
+          "헤어 디자이너라고 해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-009_card_0",
+          "SEJONG-2A-01-V2-009_card_1",
+          "SEJONG-2A-01-V2-009_card_2",
+          "SEJONG-2A-01-V2-009_card_3",
+          "SEJONG-2A-01-V2-009_card_4",
+          "SEJONG-2A-01-V2-009_card_5"
+        ]
+      ],
+      "note": "2A 1과 직업 활동 · -는/(이)라고 하다",
+      "sourceRef": "2A 1과 직업 활동 · -는/(이)라고 하다"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-010",
+      "displaySentence": "저는 대학교에서 경영학을 전공하는 학생이에요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-010_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-2A-01-V2-010_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-010_card_2",
+          "대학교"
+        ],
+        [
+          "SEJONG-2A-01-V2-010_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-01-V2-010_card_4",
+          "경영학"
+        ],
+        [
+          "SEJONG-2A-01-V2-010_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-010_card_6",
+          "전공하는"
+        ],
+        [
+          "SEJONG-2A-01-V2-010_card_7",
+          "학생이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-010_card_0",
+          "SEJONG-2A-01-V2-010_card_1",
+          "SEJONG-2A-01-V2-010_card_2",
+          "SEJONG-2A-01-V2-010_card_3",
+          "SEJONG-2A-01-V2-010_card_4",
+          "SEJONG-2A-01-V2-010_card_5",
+          "SEJONG-2A-01-V2-010_card_6",
+          "SEJONG-2A-01-V2-010_card_7"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 전공 · -는",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 전공 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-011",
+      "displaySentence": "저는 중국어를 배우는 친구가 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-011_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-2A-01-V2-011_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-011_card_2",
+          "중국어"
+        ],
+        [
+          "SEJONG-2A-01-V2-011_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-01-V2-011_card_4",
+          "배우는"
+        ],
+        [
+          "SEJONG-2A-01-V2-011_card_5",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-01-V2-011_card_6",
+          "가"
+        ],
+        [
+          "SEJONG-2A-01-V2-011_card_7",
+          "있어요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-011_card_0",
+          "SEJONG-2A-01-V2-011_card_1",
+          "SEJONG-2A-01-V2-011_card_2",
+          "SEJONG-2A-01-V2-011_card_3",
+          "SEJONG-2A-01-V2-011_card_4",
+          "SEJONG-2A-01-V2-011_card_5",
+          "SEJONG-2A-01-V2-011_card_6",
+          "SEJONG-2A-01-V2-011_card_7"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 중국어 · -는",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 중국어 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-012",
+      "displaySentence": "제가 자주 보는 홈페이지에 글을 올려요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-012_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-2A-01-V2-012_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-01-V2-012_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2A-01-V2-012_card_3",
+          "보는"
+        ],
+        [
+          "SEJONG-2A-01-V2-012_card_4",
+          "홈페이지"
+        ],
+        [
+          "SEJONG-2A-01-V2-012_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-2A-01-V2-012_card_6",
+          "글을 올려요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-012_card_0",
+          "SEJONG-2A-01-V2-012_card_1",
+          "SEJONG-2A-01-V2-012_card_2",
+          "SEJONG-2A-01-V2-012_card_3",
+          "SEJONG-2A-01-V2-012_card_4",
+          "SEJONG-2A-01-V2-012_card_5",
+          "SEJONG-2A-01-V2-012_card_6"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 홈페이지/글/올리다 · -는",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 홈페이지/글/올리다 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-013",
+      "displaySentence": "누나는 전자 회사에서 일하는 회사원이에요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-013_card_0",
+          "누나"
+        ],
+        [
+          "SEJONG-2A-01-V2-013_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-013_card_2",
+          "전자 회사"
+        ],
+        [
+          "SEJONG-2A-01-V2-013_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-01-V2-013_card_4",
+          "일하는"
+        ],
+        [
+          "SEJONG-2A-01-V2-013_card_5",
+          "회사원이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-013_card_0",
+          "SEJONG-2A-01-V2-013_card_1",
+          "SEJONG-2A-01-V2-013_card_2",
+          "SEJONG-2A-01-V2-013_card_3",
+          "SEJONG-2A-01-V2-013_card_4",
+          "SEJONG-2A-01-V2-013_card_5"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 전자 회사 · -는",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 전자 회사 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-014",
+      "displaySentence": "이 배우는 제가 좋아하는 배우예요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-014_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-01-V2-014_card_1",
+          "배우"
+        ],
+        [
+          "SEJONG-2A-01-V2-014_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-014_card_3",
+          "제"
+        ],
+        [
+          "SEJONG-2A-01-V2-014_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-2A-01-V2-014_card_5",
+          "좋아하는"
+        ],
+        [
+          "SEJONG-2A-01-V2-014_card_6",
+          "배우예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-014_card_0",
+          "SEJONG-2A-01-V2-014_card_1",
+          "SEJONG-2A-01-V2-014_card_2",
+          "SEJONG-2A-01-V2-014_card_3",
+          "SEJONG-2A-01-V2-014_card_4",
+          "SEJONG-2A-01-V2-014_card_5",
+          "SEJONG-2A-01-V2-014_card_6"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 배우 · -는",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 배우 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-015",
+      "displaySentence": "마지막으로 소개하는 사람은 제 친구예요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-015_card_0",
+          "마지막으로"
+        ],
+        [
+          "SEJONG-2A-01-V2-015_card_1",
+          "소개하는"
+        ],
+        [
+          "SEJONG-2A-01-V2-015_card_2",
+          "사람"
+        ],
+        [
+          "SEJONG-2A-01-V2-015_card_3",
+          "은"
+        ],
+        [
+          "SEJONG-2A-01-V2-015_card_4",
+          "제"
+        ],
+        [
+          "SEJONG-2A-01-V2-015_card_5",
+          "친구예요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-015_card_0",
+          "SEJONG-2A-01-V2-015_card_1",
+          "SEJONG-2A-01-V2-015_card_2",
+          "SEJONG-2A-01-V2-015_card_3",
+          "SEJONG-2A-01-V2-015_card_4",
+          "SEJONG-2A-01-V2-015_card_5"
+        ]
+      ],
+      "note": "더하기 활동 2A 1과 새 어휘 마지막 · -는",
+      "sourceRef": "더하기 활동 2A 1과 새 어휘 마지막 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-016",
+      "displaySentence": "아버지가 만드는 가구는 아주 예뻐요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-016_card_0",
+          "아버지"
+        ],
+        [
+          "SEJONG-2A-01-V2-016_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-01-V2-016_card_2",
+          "만드는"
+        ],
+        [
+          "SEJONG-2A-01-V2-016_card_3",
+          "가구"
+        ],
+        [
+          "SEJONG-2A-01-V2-016_card_4",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-016_card_5",
+          "아주"
+        ],
+        [
+          "SEJONG-2A-01-V2-016_card_6",
+          "예뻐요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-016_card_0",
+          "SEJONG-2A-01-V2-016_card_1",
+          "SEJONG-2A-01-V2-016_card_2",
+          "SEJONG-2A-01-V2-016_card_3",
+          "SEJONG-2A-01-V2-016_card_4",
+          "SEJONG-2A-01-V2-016_card_5",
+          "SEJONG-2A-01-V2-016_card_6"
+        ]
+      ],
+      "note": "2A 1과 공식 어휘 가구 · -는",
+      "sourceRef": "2A 1과 공식 어휘 가구 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-017",
+      "displaySentence": "제가 자주 잃어버리는 물건은 우산이에요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-017_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-2A-01-V2-017_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-01-V2-017_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2A-01-V2-017_card_3",
+          "잃어버리는"
+        ],
+        [
+          "SEJONG-2A-01-V2-017_card_4",
+          "물건"
+        ],
+        [
+          "SEJONG-2A-01-V2-017_card_5",
+          "은"
+        ],
+        [
+          "SEJONG-2A-01-V2-017_card_6",
+          "우산이에요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-017_card_0",
+          "SEJONG-2A-01-V2-017_card_1",
+          "SEJONG-2A-01-V2-017_card_2",
+          "SEJONG-2A-01-V2-017_card_3",
+          "SEJONG-2A-01-V2-017_card_4",
+          "SEJONG-2A-01-V2-017_card_5",
+          "SEJONG-2A-01-V2-017_card_6"
+        ]
+      ],
+      "note": "2A 1과 공식 어휘 잃어버리다 · -는",
+      "sourceRef": "2A 1과 공식 어휘 잃어버리다 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-018",
+      "displaySentence": "휴게실에서 새 친구를 만나서 정말 반가워요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-018_card_0",
+          "휴게실"
+        ],
+        [
+          "SEJONG-2A-01-V2-018_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-01-V2-018_card_2",
+          "새 친구"
+        ],
+        [
+          "SEJONG-2A-01-V2-018_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-01-V2-018_card_4",
+          "만나서"
+        ],
+        [
+          "SEJONG-2A-01-V2-018_card_5",
+          "정말"
+        ],
+        [
+          "SEJONG-2A-01-V2-018_card_6",
+          "반가워요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-018_card_0",
+          "SEJONG-2A-01-V2-018_card_1",
+          "SEJONG-2A-01-V2-018_card_2",
+          "SEJONG-2A-01-V2-018_card_3",
+          "SEJONG-2A-01-V2-018_card_4",
+          "SEJONG-2A-01-V2-018_card_5",
+          "SEJONG-2A-01-V2-018_card_6"
+        ]
+      ],
+      "note": "2A 1과 공식 어휘 휴게실/반갑다 · 이전 문법 누적",
+      "sourceRef": "2A 1과 공식 어휘 휴게실/반갑다 · 이전 문법 누적"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-019",
+      "displaySentence": "친구들과 한국어를 배우는 일이 즐거워요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-019_card_0",
+          "친구들"
+        ],
+        [
+          "SEJONG-2A-01-V2-019_card_1",
+          "과"
+        ],
+        [
+          "SEJONG-2A-01-V2-019_card_2",
+          "한국어"
+        ],
+        [
+          "SEJONG-2A-01-V2-019_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-01-V2-019_card_4",
+          "배우는"
+        ],
+        [
+          "SEJONG-2A-01-V2-019_card_5",
+          "일"
+        ],
+        [
+          "SEJONG-2A-01-V2-019_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-2A-01-V2-019_card_7",
+          "즐거워요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-019_card_0",
+          "SEJONG-2A-01-V2-019_card_1",
+          "SEJONG-2A-01-V2-019_card_2",
+          "SEJONG-2A-01-V2-019_card_3",
+          "SEJONG-2A-01-V2-019_card_4",
+          "SEJONG-2A-01-V2-019_card_5",
+          "SEJONG-2A-01-V2-019_card_6",
+          "SEJONG-2A-01-V2-019_card_7"
+        ]
+      ],
+      "note": "2A 1과 공식 어휘 즐겁다 + 더하기 새 어휘 배우 · -는",
+      "sourceRef": "2A 1과 공식 어휘 즐겁다 + 더하기 새 어휘 배우 · -는"
+    },
+    {
+      "id": "SEJONG-2A-01-V2-020",
+      "displaySentence": "저는 프로그램 만드는 일을 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-01-V2-020_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-2A-01-V2-020_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-01-V2-020_card_2",
+          "프로그램"
+        ],
+        [
+          "SEJONG-2A-01-V2-020_card_3",
+          "만드는"
+        ],
+        [
+          "SEJONG-2A-01-V2-020_card_4",
+          "일"
+        ],
+        [
+          "SEJONG-2A-01-V2-020_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-01-V2-020_card_6",
+          "해요"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-01-V2-020_card_0",
+          "SEJONG-2A-01-V2-020_card_1",
+          "SEJONG-2A-01-V2-020_card_2",
+          "SEJONG-2A-01-V2-020_card_3",
+          "SEJONG-2A-01-V2-020_card_4",
+          "SEJONG-2A-01-V2-020_card_5",
+          "SEJONG-2A-01-V2-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 1과 제목 · -는",
+      "sourceRef": "세종한국어 2A 1과 제목 · -는"
+    }
+  ]
+}

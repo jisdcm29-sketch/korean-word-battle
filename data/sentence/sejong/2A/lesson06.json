@@ -1,0 +1,848 @@
+{
+  "book": "2A",
+  "lesson": 6,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 6과 범위",
+  "selectionPolicy": [
+    "6과 핵심 문법 -(으)면서·-지요?을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-06-001",
+      "displaySentence": "커피를 마시면서 음악을 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-001_card_0",
+          "커피"
+        ],
+        [
+          "SEJONG-2A-06-001_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-001_card_2",
+          "마시면서"
+        ],
+        [
+          "SEJONG-2A-06-001_card_3",
+          "음악"
+        ],
+        [
+          "SEJONG-2A-06-001_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-001_card_5",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-001_card_0",
+          "SEJONG-2A-06-001_card_1",
+          "SEJONG-2A-06-001_card_2",
+          "SEJONG-2A-06-001_card_3",
+          "SEJONG-2A-06-001_card_4",
+          "SEJONG-2A-06-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-002",
+      "displaySentence": "책을 읽으면서 커피를 마셔요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-002_card_0",
+          "책"
+        ],
+        [
+          "SEJONG-2A-06-002_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-002_card_2",
+          "읽으면서"
+        ],
+        [
+          "SEJONG-2A-06-002_card_3",
+          "커피"
+        ],
+        [
+          "SEJONG-2A-06-002_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-002_card_5",
+          "마셔요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-002_card_0",
+          "SEJONG-2A-06-002_card_1",
+          "SEJONG-2A-06-002_card_2",
+          "SEJONG-2A-06-002_card_3",
+          "SEJONG-2A-06-002_card_4",
+          "SEJONG-2A-06-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-003",
+      "displaySentence": "음악을 들으면서 책을 읽어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-003_card_0",
+          "음악"
+        ],
+        [
+          "SEJONG-2A-06-003_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-003_card_2",
+          "들으면서"
+        ],
+        [
+          "SEJONG-2A-06-003_card_3",
+          "책"
+        ],
+        [
+          "SEJONG-2A-06-003_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-003_card_5",
+          "읽어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-003_card_0",
+          "SEJONG-2A-06-003_card_1",
+          "SEJONG-2A-06-003_card_2",
+          "SEJONG-2A-06-003_card_3",
+          "SEJONG-2A-06-003_card_4",
+          "SEJONG-2A-06-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-004",
+      "displaySentence": "외국어를 공부하면서 음악을 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-004_card_0",
+          "외국어"
+        ],
+        [
+          "SEJONG-2A-06-004_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-004_card_2",
+          "공부하면서"
+        ],
+        [
+          "SEJONG-2A-06-004_card_3",
+          "음악"
+        ],
+        [
+          "SEJONG-2A-06-004_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-004_card_5",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-004_card_0",
+          "SEJONG-2A-06-004_card_1",
+          "SEJONG-2A-06-004_card_2",
+          "SEJONG-2A-06-004_card_3",
+          "SEJONG-2A-06-004_card_4",
+          "SEJONG-2A-06-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-005",
+      "displaySentence": "친구와 이야기하면서 차를 마셔요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-005_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-06-005_card_1",
+          "와"
+        ],
+        [
+          "SEJONG-2A-06-005_card_2",
+          "이야기하면서"
+        ],
+        [
+          "SEJONG-2A-06-005_card_3",
+          "차"
+        ],
+        [
+          "SEJONG-2A-06-005_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-005_card_5",
+          "마셔요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-005_card_0",
+          "SEJONG-2A-06-005_card_1",
+          "SEJONG-2A-06-005_card_2",
+          "SEJONG-2A-06-005_card_3",
+          "SEJONG-2A-06-005_card_4",
+          "SEJONG-2A-06-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-006",
+      "displaySentence": "메뉴를 보면서 음식을 골라요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-006_card_0",
+          "메뉴"
+        ],
+        [
+          "SEJONG-2A-06-006_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-006_card_2",
+          "보면서"
+        ],
+        [
+          "SEJONG-2A-06-006_card_3",
+          "음식"
+        ],
+        [
+          "SEJONG-2A-06-006_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-006_card_5",
+          "골라요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-006_card_0",
+          "SEJONG-2A-06-006_card_1",
+          "SEJONG-2A-06-006_card_2",
+          "SEJONG-2A-06-006_card_3",
+          "SEJONG-2A-06-006_card_4",
+          "SEJONG-2A-06-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-007",
+      "displaySentence": "친구를 기다리면서 메뉴를 봐요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-007_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-06-007_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-007_card_2",
+          "기다리면서"
+        ],
+        [
+          "SEJONG-2A-06-007_card_3",
+          "메뉴"
+        ],
+        [
+          "SEJONG-2A-06-007_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-007_card_5",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-007_card_0",
+          "SEJONG-2A-06-007_card_1",
+          "SEJONG-2A-06-007_card_2",
+          "SEJONG-2A-06-007_card_3",
+          "SEJONG-2A-06-007_card_4",
+          "SEJONG-2A-06-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-008",
+      "displaySentence": "전화를 하면서 방을 정리해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-008_card_0",
+          "전화를"
+        ],
+        [
+          "SEJONG-2A-06-008_card_1",
+          "하면서"
+        ],
+        [
+          "SEJONG-2A-06-008_card_2",
+          "방"
+        ],
+        [
+          "SEJONG-2A-06-008_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-008_card_4",
+          "정리해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-008_card_0",
+          "SEJONG-2A-06-008_card_1",
+          "SEJONG-2A-06-008_card_2",
+          "SEJONG-2A-06-008_card_3",
+          "SEJONG-2A-06-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-009",
+      "displaySentence": "요리하면서 라디오를 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-009_card_0",
+          "요리하면서"
+        ],
+        [
+          "SEJONG-2A-06-009_card_1",
+          "라디오"
+        ],
+        [
+          "SEJONG-2A-06-009_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-009_card_3",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-009_card_0",
+          "SEJONG-2A-06-009_card_1",
+          "SEJONG-2A-06-009_card_2",
+          "SEJONG-2A-06-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-010",
+      "displaySentence": "테이블 위에 꽃병이 놓여 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-010_card_0",
+          "테이블"
+        ],
+        [
+          "SEJONG-2A-06-010_card_1",
+          "위"
+        ],
+        [
+          "SEJONG-2A-06-010_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-010_card_3",
+          "꽃병"
+        ],
+        [
+          "SEJONG-2A-06-010_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-06-010_card_5",
+          "놓여 있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-010_card_0",
+          "SEJONG-2A-06-010_card_1",
+          "SEJONG-2A-06-010_card_2",
+          "SEJONG-2A-06-010_card_3",
+          "SEJONG-2A-06-010_card_4",
+          "SEJONG-2A-06-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-011",
+      "displaySentence": "벽에 사진이 걸려 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-011_card_0",
+          "벽"
+        ],
+        [
+          "SEJONG-2A-06-011_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-011_card_2",
+          "사진"
+        ],
+        [
+          "SEJONG-2A-06-011_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-06-011_card_4",
+          "걸려 있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-011_card_0",
+          "SEJONG-2A-06-011_card_1",
+          "SEJONG-2A-06-011_card_2",
+          "SEJONG-2A-06-011_card_3",
+          "SEJONG-2A-06-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-012",
+      "displaySentence": "소파 위에 쿠션이 놓여 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-012_card_0",
+          "소파"
+        ],
+        [
+          "SEJONG-2A-06-012_card_1",
+          "위"
+        ],
+        [
+          "SEJONG-2A-06-012_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-012_card_3",
+          "쿠션"
+        ],
+        [
+          "SEJONG-2A-06-012_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-06-012_card_5",
+          "놓여 있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-012_card_0",
+          "SEJONG-2A-06-012_card_1",
+          "SEJONG-2A-06-012_card_2",
+          "SEJONG-2A-06-012_card_3",
+          "SEJONG-2A-06-012_card_4",
+          "SEJONG-2A-06-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-013",
+      "displaySentence": "화분이 창문 옆에 놓여 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-013_card_0",
+          "화분"
+        ],
+        [
+          "SEJONG-2A-06-013_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-06-013_card_2",
+          "창문"
+        ],
+        [
+          "SEJONG-2A-06-013_card_3",
+          "옆"
+        ],
+        [
+          "SEJONG-2A-06-013_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-013_card_5",
+          "놓여 있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-013_card_0",
+          "SEJONG-2A-06-013_card_1",
+          "SEJONG-2A-06-013_card_2",
+          "SEJONG-2A-06-013_card_3",
+          "SEJONG-2A-06-013_card_4",
+          "SEJONG-2A-06-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-014",
+      "displaySentence": "옷걸이가 문 옆에 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-014_card_0",
+          "옷걸이"
+        ],
+        [
+          "SEJONG-2A-06-014_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-06-014_card_2",
+          "문"
+        ],
+        [
+          "SEJONG-2A-06-014_card_3",
+          "옆"
+        ],
+        [
+          "SEJONG-2A-06-014_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-014_card_5",
+          "있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-014_card_0",
+          "SEJONG-2A-06-014_card_1",
+          "SEJONG-2A-06-014_card_2",
+          "SEJONG-2A-06-014_card_3",
+          "SEJONG-2A-06-014_card_4",
+          "SEJONG-2A-06-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-015",
+      "displaySentence": "이 카페 분위기가 정말 좋지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-015_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-06-015_card_1",
+          "카페"
+        ],
+        [
+          "SEJONG-2A-06-015_card_2",
+          "분위기"
+        ],
+        [
+          "SEJONG-2A-06-015_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-2A-06-015_card_4",
+          "정말"
+        ],
+        [
+          "SEJONG-2A-06-015_card_5",
+          "좋지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-015_card_0",
+          "SEJONG-2A-06-015_card_1",
+          "SEJONG-2A-06-015_card_2",
+          "SEJONG-2A-06-015_card_3",
+          "SEJONG-2A-06-015_card_4",
+          "SEJONG-2A-06-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-016",
+      "displaySentence": "카페 여기저기에 작은 포스터가 걸려 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-016_card_0",
+          "카페"
+        ],
+        [
+          "SEJONG-2A-06-016_card_1",
+          "여기저기"
+        ],
+        [
+          "SEJONG-2A-06-016_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-016_card_3",
+          "작은"
+        ],
+        [
+          "SEJONG-2A-06-016_card_4",
+          "포스터"
+        ],
+        [
+          "SEJONG-2A-06-016_card_5",
+          "가"
+        ],
+        [
+          "SEJONG-2A-06-016_card_6",
+          "걸려 있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-016_card_0",
+          "SEJONG-2A-06-016_card_1",
+          "SEJONG-2A-06-016_card_2",
+          "SEJONG-2A-06-016_card_3",
+          "SEJONG-2A-06-016_card_4",
+          "SEJONG-2A-06-016_card_5",
+          "SEJONG-2A-06-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-017",
+      "displaySentence": "벽에 포스터가 두 장 걸려 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-017_card_0",
+          "벽"
+        ],
+        [
+          "SEJONG-2A-06-017_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-017_card_2",
+          "포스터"
+        ],
+        [
+          "SEJONG-2A-06-017_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-2A-06-017_card_4",
+          "두"
+        ],
+        [
+          "SEJONG-2A-06-017_card_5",
+          "장"
+        ],
+        [
+          "SEJONG-2A-06-017_card_6",
+          "걸려 있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-017_card_0",
+          "SEJONG-2A-06-017_card_1",
+          "SEJONG-2A-06-017_card_2",
+          "SEJONG-2A-06-017_card_3",
+          "SEJONG-2A-06-017_card_4",
+          "SEJONG-2A-06-017_card_5",
+          "SEJONG-2A-06-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-018",
+      "displaySentence": "테이블 옆에 소파가 있지요?",
+      "tokens": [
+        [
+          "SEJONG-2A-06-018_card_0",
+          "테이블"
+        ],
+        [
+          "SEJONG-2A-06-018_card_1",
+          "옆"
+        ],
+        [
+          "SEJONG-2A-06-018_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-06-018_card_3",
+          "소파"
+        ],
+        [
+          "SEJONG-2A-06-018_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-2A-06-018_card_5",
+          "있지요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-018_card_0",
+          "SEJONG-2A-06-018_card_1",
+          "SEJONG-2A-06-018_card_2",
+          "SEJONG-2A-06-018_card_3",
+          "SEJONG-2A-06-018_card_4",
+          "SEJONG-2A-06-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-019",
+      "displaySentence": "오래 이야기하면서 차를 마셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-019_card_0",
+          "오래"
+        ],
+        [
+          "SEJONG-2A-06-019_card_1",
+          "이야기하면서"
+        ],
+        [
+          "SEJONG-2A-06-019_card_2",
+          "차"
+        ],
+        [
+          "SEJONG-2A-06-019_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-06-019_card_4",
+          "마셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-019_card_0",
+          "SEJONG-2A-06-019_card_1",
+          "SEJONG-2A-06-019_card_2",
+          "SEJONG-2A-06-019_card_3",
+          "SEJONG-2A-06-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-06-020",
+      "displaySentence": "창문 밖을 보면서 음악을 들어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-06-020_card_0",
+          "창문"
+        ],
+        [
+          "SEJONG-2A-06-020_card_1",
+          "밖"
+        ],
+        [
+          "SEJONG-2A-06-020_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-020_card_3",
+          "보면서"
+        ],
+        [
+          "SEJONG-2A-06-020_card_4",
+          "음악"
+        ],
+        [
+          "SEJONG-2A-06-020_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-06-020_card_6",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-06-020_card_0",
+          "SEJONG-2A-06-020_card_1",
+          "SEJONG-2A-06-020_card_2",
+          "SEJONG-2A-06-020_card_3",
+          "SEJONG-2A-06-020_card_4",
+          "SEJONG-2A-06-020_card_5",
+          "SEJONG-2A-06-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 6과 · -(으)면서, -지요? · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 6과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

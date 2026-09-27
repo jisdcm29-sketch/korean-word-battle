@@ -1,0 +1,853 @@
+{
+  "book": "2A",
+  "lesson": 10,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 10과 범위",
+  "selectionPolicy": [
+    "10과 핵심 문법 ㅎ 불규칙·-(으)면 좋겠다을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-10-001",
+      "displaySentence": "저 까만 구두는 정장에 잘 어울려요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-001_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-2A-10-001_card_1",
+          "까만"
+        ],
+        [
+          "SEJONG-2A-10-001_card_2",
+          "구두"
+        ],
+        [
+          "SEJONG-2A-10-001_card_3",
+          "는"
+        ],
+        [
+          "SEJONG-2A-10-001_card_4",
+          "정장"
+        ],
+        [
+          "SEJONG-2A-10-001_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-2A-10-001_card_6",
+          "잘"
+        ],
+        [
+          "SEJONG-2A-10-001_card_7",
+          "어울려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-001_card_0",
+          "SEJONG-2A-10-001_card_1",
+          "SEJONG-2A-10-001_card_2",
+          "SEJONG-2A-10-001_card_3",
+          "SEJONG-2A-10-001_card_4",
+          "SEJONG-2A-10-001_card_5",
+          "SEJONG-2A-10-001_card_6",
+          "SEJONG-2A-10-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-002",
+      "displaySentence": "하얀 셔츠가 검은색 바지에 잘 어울려요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-002_card_0",
+          "하얀"
+        ],
+        [
+          "SEJONG-2A-10-002_card_1",
+          "셔츠"
+        ],
+        [
+          "SEJONG-2A-10-002_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-2A-10-002_card_3",
+          "검은색"
+        ],
+        [
+          "SEJONG-2A-10-002_card_4",
+          "바지"
+        ],
+        [
+          "SEJONG-2A-10-002_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-2A-10-002_card_6",
+          "잘"
+        ],
+        [
+          "SEJONG-2A-10-002_card_7",
+          "어울려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-002_card_0",
+          "SEJONG-2A-10-002_card_1",
+          "SEJONG-2A-10-002_card_2",
+          "SEJONG-2A-10-002_card_3",
+          "SEJONG-2A-10-002_card_4",
+          "SEJONG-2A-10-002_card_5",
+          "SEJONG-2A-10-002_card_6",
+          "SEJONG-2A-10-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-003",
+      "displaySentence": "파란 가방은 디자인이 아주 단순해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-003_card_0",
+          "파란"
+        ],
+        [
+          "SEJONG-2A-10-003_card_1",
+          "가방"
+        ],
+        [
+          "SEJONG-2A-10-003_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-2A-10-003_card_3",
+          "디자인"
+        ],
+        [
+          "SEJONG-2A-10-003_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-003_card_5",
+          "아주"
+        ],
+        [
+          "SEJONG-2A-10-003_card_6",
+          "단순해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-003_card_0",
+          "SEJONG-2A-10-003_card_1",
+          "SEJONG-2A-10-003_card_2",
+          "SEJONG-2A-10-003_card_3",
+          "SEJONG-2A-10-003_card_4",
+          "SEJONG-2A-10-003_card_5",
+          "SEJONG-2A-10-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-004",
+      "displaySentence": "빨간 장미를 선물하면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-004_card_0",
+          "빨간"
+        ],
+        [
+          "SEJONG-2A-10-004_card_1",
+          "장미"
+        ],
+        [
+          "SEJONG-2A-10-004_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-10-004_card_3",
+          "선물하면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-004_card_0",
+          "SEJONG-2A-10-004_card_1",
+          "SEJONG-2A-10-004_card_2",
+          "SEJONG-2A-10-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-005",
+      "displaySentence": "노란 우산을 하나 사면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-005_card_0",
+          "노란"
+        ],
+        [
+          "SEJONG-2A-10-005_card_1",
+          "우산"
+        ],
+        [
+          "SEJONG-2A-10-005_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-2A-10-005_card_3",
+          "하나"
+        ],
+        [
+          "SEJONG-2A-10-005_card_4",
+          "사면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-005_card_0",
+          "SEJONG-2A-10-005_card_1",
+          "SEJONG-2A-10-005_card_2",
+          "SEJONG-2A-10-005_card_3",
+          "SEJONG-2A-10-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-006",
+      "displaySentence": "가방 크기가 조금 작으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-006_card_0",
+          "가방"
+        ],
+        [
+          "SEJONG-2A-10-006_card_1",
+          "크기"
+        ],
+        [
+          "SEJONG-2A-10-006_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-2A-10-006_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-2A-10-006_card_4",
+          "작으면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-006_card_0",
+          "SEJONG-2A-10-006_card_1",
+          "SEJONG-2A-10-006_card_2",
+          "SEJONG-2A-10-006_card_3",
+          "SEJONG-2A-10-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-007",
+      "displaySentence": "치마 길이가 조금 더 길면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-007_card_0",
+          "치마"
+        ],
+        [
+          "SEJONG-2A-10-007_card_1",
+          "길이"
+        ],
+        [
+          "SEJONG-2A-10-007_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-2A-10-007_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-2A-10-007_card_4",
+          "더"
+        ],
+        [
+          "SEJONG-2A-10-007_card_5",
+          "길면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-007_card_0",
+          "SEJONG-2A-10-007_card_1",
+          "SEJONG-2A-10-007_card_2",
+          "SEJONG-2A-10-007_card_3",
+          "SEJONG-2A-10-007_card_4",
+          "SEJONG-2A-10-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-008",
+      "displaySentence": "디자인이 더 단순하면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-008_card_0",
+          "디자인"
+        ],
+        [
+          "SEJONG-2A-10-008_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-008_card_2",
+          "더"
+        ],
+        [
+          "SEJONG-2A-10-008_card_3",
+          "단순하면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-008_card_0",
+          "SEJONG-2A-10-008_card_1",
+          "SEJONG-2A-10-008_card_2",
+          "SEJONG-2A-10-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-009",
+      "displaySentence": "검은색 구두가 하나 있으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-009_card_0",
+          "검은색"
+        ],
+        [
+          "SEJONG-2A-10-009_card_1",
+          "구두"
+        ],
+        [
+          "SEJONG-2A-10-009_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-2A-10-009_card_3",
+          "하나"
+        ],
+        [
+          "SEJONG-2A-10-009_card_4",
+          "있으면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-009_card_0",
+          "SEJONG-2A-10-009_card_1",
+          "SEJONG-2A-10-009_card_2",
+          "SEJONG-2A-10-009_card_3",
+          "SEJONG-2A-10-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-010",
+      "displaySentence": "흰색 셔츠를 입으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-010_card_0",
+          "흰색"
+        ],
+        [
+          "SEJONG-2A-10-010_card_1",
+          "셔츠"
+        ],
+        [
+          "SEJONG-2A-10-010_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-2A-10-010_card_3",
+          "입으면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-010_card_0",
+          "SEJONG-2A-10-010_card_1",
+          "SEJONG-2A-10-010_card_2",
+          "SEJONG-2A-10-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-011",
+      "displaySentence": "월급을 받으면 새 가방을 사고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-011_card_0",
+          "월급"
+        ],
+        [
+          "SEJONG-2A-10-011_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2A-10-011_card_2",
+          "받으면"
+        ],
+        [
+          "SEJONG-2A-10-011_card_3",
+          "새"
+        ],
+        [
+          "SEJONG-2A-10-011_card_4",
+          "가방"
+        ],
+        [
+          "SEJONG-2A-10-011_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-10-011_card_6",
+          "사고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-011_card_0",
+          "SEJONG-2A-10-011_card_1",
+          "SEJONG-2A-10-011_card_2",
+          "SEJONG-2A-10-011_card_3",
+          "SEJONG-2A-10-011_card_4",
+          "SEJONG-2A-10-011_card_5",
+          "SEJONG-2A-10-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-012",
+      "displaySentence": "장례식에는 보통 검은색 옷을 입어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-012_card_0",
+          "장례식"
+        ],
+        [
+          "SEJONG-2A-10-012_card_1",
+          "에는"
+        ],
+        [
+          "SEJONG-2A-10-012_card_2",
+          "보통"
+        ],
+        [
+          "SEJONG-2A-10-012_card_3",
+          "검은색"
+        ],
+        [
+          "SEJONG-2A-10-012_card_4",
+          "옷"
+        ],
+        [
+          "SEJONG-2A-10-012_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-2A-10-012_card_6",
+          "입어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-012_card_0",
+          "SEJONG-2A-10-012_card_1",
+          "SEJONG-2A-10-012_card_2",
+          "SEJONG-2A-10-012_card_3",
+          "SEJONG-2A-10-012_card_4",
+          "SEJONG-2A-10-012_card_5",
+          "SEJONG-2A-10-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-013",
+      "displaySentence": "드레스에 어울리는 구두가 있으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-013_card_0",
+          "드레스"
+        ],
+        [
+          "SEJONG-2A-10-013_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-10-013_card_2",
+          "어울리는"
+        ],
+        [
+          "SEJONG-2A-10-013_card_3",
+          "구두"
+        ],
+        [
+          "SEJONG-2A-10-013_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-2A-10-013_card_5",
+          "있으면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-013_card_0",
+          "SEJONG-2A-10-013_card_1",
+          "SEJONG-2A-10-013_card_2",
+          "SEJONG-2A-10-013_card_3",
+          "SEJONG-2A-10-013_card_4",
+          "SEJONG-2A-10-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-014",
+      "displaySentence": "방이 더우면 에어컨을 켜면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-014_card_0",
+          "방"
+        ],
+        [
+          "SEJONG-2A-10-014_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-014_card_2",
+          "더우면"
+        ],
+        [
+          "SEJONG-2A-10-014_card_3",
+          "에어컨"
+        ],
+        [
+          "SEJONG-2A-10-014_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-10-014_card_5",
+          "켜면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-014_card_0",
+          "SEJONG-2A-10-014_card_1",
+          "SEJONG-2A-10-014_card_2",
+          "SEJONG-2A-10-014_card_3",
+          "SEJONG-2A-10-014_card_4",
+          "SEJONG-2A-10-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-015",
+      "displaySentence": "공기가 답답하면 창문을 열면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-015_card_0",
+          "공기"
+        ],
+        [
+          "SEJONG-2A-10-015_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-10-015_card_2",
+          "답답하면"
+        ],
+        [
+          "SEJONG-2A-10-015_card_3",
+          "창문"
+        ],
+        [
+          "SEJONG-2A-10-015_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-10-015_card_5",
+          "열면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-015_card_0",
+          "SEJONG-2A-10-015_card_1",
+          "SEJONG-2A-10-015_card_2",
+          "SEJONG-2A-10-015_card_3",
+          "SEJONG-2A-10-015_card_4",
+          "SEJONG-2A-10-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-016",
+      "displaySentence": "책상 위에 종이와 연필이 있으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-016_card_0",
+          "책상"
+        ],
+        [
+          "SEJONG-2A-10-016_card_1",
+          "위"
+        ],
+        [
+          "SEJONG-2A-10-016_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-10-016_card_3",
+          "종이"
+        ],
+        [
+          "SEJONG-2A-10-016_card_4",
+          "와"
+        ],
+        [
+          "SEJONG-2A-10-016_card_5",
+          "연필"
+        ],
+        [
+          "SEJONG-2A-10-016_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-016_card_7",
+          "있으면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-016_card_0",
+          "SEJONG-2A-10-016_card_1",
+          "SEJONG-2A-10-016_card_2",
+          "SEJONG-2A-10-016_card_3",
+          "SEJONG-2A-10-016_card_4",
+          "SEJONG-2A-10-016_card_5",
+          "SEJONG-2A-10-016_card_6",
+          "SEJONG-2A-10-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-017",
+      "displaySentence": "볼펜 색이 파랗거나 검으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-017_card_0",
+          "볼펜"
+        ],
+        [
+          "SEJONG-2A-10-017_card_1",
+          "색"
+        ],
+        [
+          "SEJONG-2A-10-017_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-017_card_3",
+          "파랗거나"
+        ],
+        [
+          "SEJONG-2A-10-017_card_4",
+          "검으면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-017_card_0",
+          "SEJONG-2A-10-017_card_1",
+          "SEJONG-2A-10-017_card_2",
+          "SEJONG-2A-10-017_card_3",
+          "SEJONG-2A-10-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-018",
+      "displaySentence": "이 다이어리 모양이 더 단순하면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-018_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-018_card_1",
+          "다이어리"
+        ],
+        [
+          "SEJONG-2A-10-018_card_2",
+          "모양"
+        ],
+        [
+          "SEJONG-2A-10-018_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-018_card_4",
+          "더"
+        ],
+        [
+          "SEJONG-2A-10-018_card_5",
+          "단순하면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-018_card_0",
+          "SEJONG-2A-10-018_card_1",
+          "SEJONG-2A-10-018_card_2",
+          "SEJONG-2A-10-018_card_3",
+          "SEJONG-2A-10-018_card_4",
+          "SEJONG-2A-10-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-019",
+      "displaySentence": "문방구에서 가격을 확인하면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-019_card_0",
+          "문방구"
+        ],
+        [
+          "SEJONG-2A-10-019_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-10-019_card_2",
+          "가격"
+        ],
+        [
+          "SEJONG-2A-10-019_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-10-019_card_4",
+          "확인하면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-019_card_0",
+          "SEJONG-2A-10-019_card_1",
+          "SEJONG-2A-10-019_card_2",
+          "SEJONG-2A-10-019_card_3",
+          "SEJONG-2A-10-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-10-020",
+      "displaySentence": "우리 회사 월급이 조금 더 많으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-10-020_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-2A-10-020_card_1",
+          "회사"
+        ],
+        [
+          "SEJONG-2A-10-020_card_2",
+          "월급"
+        ],
+        [
+          "SEJONG-2A-10-020_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-2A-10-020_card_4",
+          "조금"
+        ],
+        [
+          "SEJONG-2A-10-020_card_5",
+          "더"
+        ],
+        [
+          "SEJONG-2A-10-020_card_6",
+          "많으면 좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-10-020_card_0",
+          "SEJONG-2A-10-020_card_1",
+          "SEJONG-2A-10-020_card_2",
+          "SEJONG-2A-10-020_card_3",
+          "SEJONG-2A-10-020_card_4",
+          "SEJONG-2A-10-020_card_5",
+          "SEJONG-2A-10-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 10과 · ㅎ 불규칙, -(으)면 좋겠다 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 10과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}

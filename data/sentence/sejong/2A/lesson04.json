@@ -1,0 +1,813 @@
+{
+  "book": "2A",
+  "lesson": 4,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 2A 본교재 + 익힘책 2A + 어휘 문법과 표현 2A + 더하기 활동 2A의 4과 범위",
+  "selectionPolicy": [
+    "4과 핵심 문법 -기로 하다·에다가을 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과 문법은 누적 활용 가능",
+    "이후 과 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2A-04-001",
+      "displaySentence": "오늘 저녁에 친구를 만나기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-001_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2A-04-001_card_1",
+          "저녁"
+        ],
+        [
+          "SEJONG-2A-04-001_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-001_card_3",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-04-001_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-001_card_5",
+          "만나기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-001_card_0",
+          "SEJONG-2A-04-001_card_1",
+          "SEJONG-2A-04-001_card_2",
+          "SEJONG-2A-04-001_card_3",
+          "SEJONG-2A-04-001_card_4",
+          "SEJONG-2A-04-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-002",
+      "displaySentence": "주말에 시내에서 쇼핑하기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-002_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-2A-04-002_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-002_card_2",
+          "시내"
+        ],
+        [
+          "SEJONG-2A-04-002_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-04-002_card_4",
+          "쇼핑하기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-002_card_0",
+          "SEJONG-2A-04-002_card_1",
+          "SEJONG-2A-04-002_card_2",
+          "SEJONG-2A-04-002_card_3",
+          "SEJONG-2A-04-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-003",
+      "displaySentence": "내일 와이셔츠 에다가 넥타이를 하기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-003_card_0",
+          "내일"
+        ],
+        [
+          "SEJONG-2A-04-003_card_1",
+          "와이셔츠"
+        ],
+        [
+          "SEJONG-2A-04-003_card_2",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-003_card_3",
+          "넥타이"
+        ],
+        [
+          "SEJONG-2A-04-003_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-003_card_5",
+          "하기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-003_card_0",
+          "SEJONG-2A-04-003_card_1",
+          "SEJONG-2A-04-003_card_2",
+          "SEJONG-2A-04-003_card_3",
+          "SEJONG-2A-04-003_card_4",
+          "SEJONG-2A-04-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-004",
+      "displaySentence": "청바지 에다가 티셔츠를 입으려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-004_card_0",
+          "청바지"
+        ],
+        [
+          "SEJONG-2A-04-004_card_1",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-004_card_2",
+          "티셔츠"
+        ],
+        [
+          "SEJONG-2A-04-004_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-004_card_4",
+          "입으려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-004_card_0",
+          "SEJONG-2A-04-004_card_1",
+          "SEJONG-2A-04-004_card_2",
+          "SEJONG-2A-04-004_card_3",
+          "SEJONG-2A-04-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-005",
+      "displaySentence": "스웨터 에다가 목도리를 하려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-005_card_0",
+          "스웨터"
+        ],
+        [
+          "SEJONG-2A-04-005_card_1",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-005_card_2",
+          "목도리"
+        ],
+        [
+          "SEJONG-2A-04-005_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-005_card_4",
+          "하려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-005_card_0",
+          "SEJONG-2A-04-005_card_1",
+          "SEJONG-2A-04-005_card_2",
+          "SEJONG-2A-04-005_card_3",
+          "SEJONG-2A-04-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-006",
+      "displaySentence": "정장 바지 에다가 와이셔츠를 입어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-006_card_0",
+          "정장 바지"
+        ],
+        [
+          "SEJONG-2A-04-006_card_1",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-006_card_2",
+          "와이셔츠"
+        ],
+        [
+          "SEJONG-2A-04-006_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-006_card_4",
+          "입어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-006_card_0",
+          "SEJONG-2A-04-006_card_1",
+          "SEJONG-2A-04-006_card_2",
+          "SEJONG-2A-04-006_card_3",
+          "SEJONG-2A-04-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-007",
+      "displaySentence": "결혼식에 원피스를 입기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-007_card_0",
+          "결혼식"
+        ],
+        [
+          "SEJONG-2A-04-007_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-007_card_2",
+          "원피스"
+        ],
+        [
+          "SEJONG-2A-04-007_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-007_card_4",
+          "입기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-007_card_0",
+          "SEJONG-2A-04-007_card_1",
+          "SEJONG-2A-04-007_card_2",
+          "SEJONG-2A-04-007_card_3",
+          "SEJONG-2A-04-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-008",
+      "displaySentence": "소개팅에 블라우스를 입기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-008_card_0",
+          "소개팅"
+        ],
+        [
+          "SEJONG-2A-04-008_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-008_card_2",
+          "블라우스"
+        ],
+        [
+          "SEJONG-2A-04-008_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-008_card_4",
+          "입기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-008_card_0",
+          "SEJONG-2A-04-008_card_1",
+          "SEJONG-2A-04-008_card_2",
+          "SEJONG-2A-04-008_card_3",
+          "SEJONG-2A-04-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-009",
+      "displaySentence": "날씨가 추워서 장갑을 끼기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-009_card_0",
+          "날씨"
+        ],
+        [
+          "SEJONG-2A-04-009_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2A-04-009_card_2",
+          "추워서"
+        ],
+        [
+          "SEJONG-2A-04-009_card_3",
+          "장갑"
+        ],
+        [
+          "SEJONG-2A-04-009_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-04-009_card_5",
+          "끼기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-009_card_0",
+          "SEJONG-2A-04-009_card_1",
+          "SEJONG-2A-04-009_card_2",
+          "SEJONG-2A-04-009_card_3",
+          "SEJONG-2A-04-009_card_4",
+          "SEJONG-2A-04-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-010",
+      "displaySentence": "학교 행사에 교복을 입기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-010_card_0",
+          "학교"
+        ],
+        [
+          "SEJONG-2A-04-010_card_1",
+          "행사"
+        ],
+        [
+          "SEJONG-2A-04-010_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-010_card_3",
+          "교복"
+        ],
+        [
+          "SEJONG-2A-04-010_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-04-010_card_5",
+          "입기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-010_card_0",
+          "SEJONG-2A-04-010_card_1",
+          "SEJONG-2A-04-010_card_2",
+          "SEJONG-2A-04-010_card_3",
+          "SEJONG-2A-04-010_card_4",
+          "SEJONG-2A-04-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-011",
+      "displaySentence": "출장에 코트를 가져가기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-011_card_0",
+          "출장"
+        ],
+        [
+          "SEJONG-2A-04-011_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-011_card_2",
+          "코트"
+        ],
+        [
+          "SEJONG-2A-04-011_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-011_card_4",
+          "가져가기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-011_card_0",
+          "SEJONG-2A-04-011_card_1",
+          "SEJONG-2A-04-011_card_2",
+          "SEJONG-2A-04-011_card_3",
+          "SEJONG-2A-04-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-012",
+      "displaySentence": "홍차 에다가 설탕을 넣어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-012_card_0",
+          "홍차"
+        ],
+        [
+          "SEJONG-2A-04-012_card_1",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-012_card_2",
+          "설탕"
+        ],
+        [
+          "SEJONG-2A-04-012_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-04-012_card_4",
+          "넣어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-012_card_0",
+          "SEJONG-2A-04-012_card_1",
+          "SEJONG-2A-04-012_card_2",
+          "SEJONG-2A-04-012_card_3",
+          "SEJONG-2A-04-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-013",
+      "displaySentence": "종이 에다가 이름을 써 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-013_card_0",
+          "종이"
+        ],
+        [
+          "SEJONG-2A-04-013_card_1",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-013_card_2",
+          "이름"
+        ],
+        [
+          "SEJONG-2A-04-013_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-04-013_card_4",
+          "써 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-013_card_0",
+          "SEJONG-2A-04-013_card_1",
+          "SEJONG-2A-04-013_card_2",
+          "SEJONG-2A-04-013_card_3",
+          "SEJONG-2A-04-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-014",
+      "displaySentence": "책상 위에 사전과 종이를 놓기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-014_card_0",
+          "책상"
+        ],
+        [
+          "SEJONG-2A-04-014_card_1",
+          "위"
+        ],
+        [
+          "SEJONG-2A-04-014_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-014_card_3",
+          "사전"
+        ],
+        [
+          "SEJONG-2A-04-014_card_4",
+          "과"
+        ],
+        [
+          "SEJONG-2A-04-014_card_5",
+          "종이"
+        ],
+        [
+          "SEJONG-2A-04-014_card_6",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-014_card_7",
+          "놓기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-014_card_0",
+          "SEJONG-2A-04-014_card_1",
+          "SEJONG-2A-04-014_card_2",
+          "SEJONG-2A-04-014_card_3",
+          "SEJONG-2A-04-014_card_4",
+          "SEJONG-2A-04-014_card_5",
+          "SEJONG-2A-04-014_card_6",
+          "SEJONG-2A-04-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-015",
+      "displaySentence": "셔츠 에다가 재킷을 입기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-015_card_0",
+          "셔츠"
+        ],
+        [
+          "SEJONG-2A-04-015_card_1",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-015_card_2",
+          "재킷"
+        ],
+        [
+          "SEJONG-2A-04-015_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-04-015_card_4",
+          "입기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-015_card_0",
+          "SEJONG-2A-04-015_card_1",
+          "SEJONG-2A-04-015_card_2",
+          "SEJONG-2A-04-015_card_3",
+          "SEJONG-2A-04-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-016",
+      "displaySentence": "남자는 정장 에다가 나비넥타이를 하기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-016_card_0",
+          "남자"
+        ],
+        [
+          "SEJONG-2A-04-016_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2A-04-016_card_2",
+          "정장"
+        ],
+        [
+          "SEJONG-2A-04-016_card_3",
+          "에다가"
+        ],
+        [
+          "SEJONG-2A-04-016_card_4",
+          "나비넥타이"
+        ],
+        [
+          "SEJONG-2A-04-016_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-2A-04-016_card_6",
+          "하기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-016_card_0",
+          "SEJONG-2A-04-016_card_1",
+          "SEJONG-2A-04-016_card_2",
+          "SEJONG-2A-04-016_card_3",
+          "SEJONG-2A-04-016_card_4",
+          "SEJONG-2A-04-016_card_5",
+          "SEJONG-2A-04-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-017",
+      "displaySentence": "중학교 행사에서 교복을 입기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-017_card_0",
+          "중학교"
+        ],
+        [
+          "SEJONG-2A-04-017_card_1",
+          "행사"
+        ],
+        [
+          "SEJONG-2A-04-017_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-2A-04-017_card_3",
+          "교복"
+        ],
+        [
+          "SEJONG-2A-04-017_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-2A-04-017_card_5",
+          "입기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-017_card_0",
+          "SEJONG-2A-04-017_card_1",
+          "SEJONG-2A-04-017_card_2",
+          "SEJONG-2A-04-017_card_3",
+          "SEJONG-2A-04-017_card_4",
+          "SEJONG-2A-04-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-018",
+      "displaySentence": "잠깐 시내에 나가기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-018_card_0",
+          "잠깐"
+        ],
+        [
+          "SEJONG-2A-04-018_card_1",
+          "시내"
+        ],
+        [
+          "SEJONG-2A-04-018_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-018_card_3",
+          "나가기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-018_card_0",
+          "SEJONG-2A-04-018_card_1",
+          "SEJONG-2A-04-018_card_2",
+          "SEJONG-2A-04-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-019",
+      "displaySentence": "올해 친구 결혼식에 가기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-019_card_0",
+          "올해"
+        ],
+        [
+          "SEJONG-2A-04-019_card_1",
+          "친구"
+        ],
+        [
+          "SEJONG-2A-04-019_card_2",
+          "결혼식"
+        ],
+        [
+          "SEJONG-2A-04-019_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-019_card_4",
+          "가기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-019_card_0",
+          "SEJONG-2A-04-019_card_1",
+          "SEJONG-2A-04-019_card_2",
+          "SEJONG-2A-04-019_card_3",
+          "SEJONG-2A-04-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    },
+    {
+      "id": "SEJONG-2A-04-020",
+      "displaySentence": "홍차에 설탕을 넣고 잘 섞기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2A-04-020_card_0",
+          "홍차"
+        ],
+        [
+          "SEJONG-2A-04-020_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2A-04-020_card_2",
+          "설탕"
+        ],
+        [
+          "SEJONG-2A-04-020_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-2A-04-020_card_4",
+          "넣고"
+        ],
+        [
+          "SEJONG-2A-04-020_card_5",
+          "잘"
+        ],
+        [
+          "SEJONG-2A-04-020_card_6",
+          "섞기로 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2A-04-020_card_0",
+          "SEJONG-2A-04-020_card_1",
+          "SEJONG-2A-04-020_card_2",
+          "SEJONG-2A-04-020_card_3",
+          "SEJONG-2A-04-020_card_4",
+          "SEJONG-2A-04-020_card_5",
+          "SEJONG-2A-04-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 2A 4과 · -기로 하다, 에다가 · 공식/더하기 활동 어휘 범위 재구성",
+      "sourceRef": "세종한국어 2A 4과 학생책·익힘책 문법 범위 + 어휘·문법과 표현 공식 어휘 + 더하기 활동 새 어휘 재구성"
+    }
+  ]
+}
