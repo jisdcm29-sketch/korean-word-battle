@@ -1,3 +1,4 @@
+import { bindCombinedFullscreen } from './combined-fullscreen.js?v=1.0';
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 let lastState=null;
@@ -14,5 +15,5 @@ function render(s){lastState=s;const round=s.currentMatchingRound||null,showResu
 }
 function syncAudioUi(a){const bgm=a.bgmEnabled!==false,sfx=a.sfxEnabled!==false;$('gameBgmBtn').textContent=`BGM ${bgm?'ON':'OFF'}`;$('gameSfxBtn').textContent=`SFX ${sfx?'ON':'OFF'}`;}
 window.addEventListener('message',e=>{if(e.origin!==location.origin)return;const m=e.data||{};if(m.type==='combined-stage-state'&&m.stage==='matching')render(m.state||{});});
-$('fullscreenBtn').addEventListener('click',()=>send('combined-fullscreen'));$('endRoomBtn').addEventListener('click',()=>send('combined-stop-request'));$('gameBgmBtn').addEventListener('click',()=>send('combined-audio-change',{patch:{bgmEnabled:!(lastState?.audio?.bgmEnabled!==false)}}));$('gameSfxBtn').addEventListener('click',()=>send('combined-audio-change',{patch:{sfxEnabled:!(lastState?.audio?.sfxEnabled!==false)}}));
+bindCombinedFullscreen($('fullscreenBtn'));$('endRoomBtn').addEventListener('click',()=>send('combined-stop-request'));$('gameBgmBtn').addEventListener('click',()=>send('combined-audio-change',{patch:{bgmEnabled:!(lastState?.audio?.bgmEnabled!==false)}}));$('gameSfxBtn').addEventListener('click',()=>send('combined-audio-change',{patch:{sfxEnabled:!(lastState?.audio?.sfxEnabled!==false)}}));
 send('combined-stage-ready',{stage:'matching'});
