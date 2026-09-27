@@ -14,7 +14,8 @@ export const CATALOG = {
     { id: '1B', title: '세종 1B', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] },
     { id: '2A', title: '세종 2A', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] },
     { id: '2B', title: '세종 2B', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] },
-    { id: '3A', title: '세종 3A', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] }
+    { id: '3A', title: '세종 3A', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] },
+    { id: '3B', title: '세종 3B', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] }
   ],
   collocationSets: Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
