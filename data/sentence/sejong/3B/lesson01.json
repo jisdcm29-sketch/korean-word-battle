@@ -1,0 +1,768 @@
+{
+  "book": "3B",
+  "lesson": 1,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 1과 범위",
+  "selectionPolicy": [
+    "1과 핵심 문법 -아도/어도·-아/어 드리다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-01-V1-001",
+      "displaySentence": "시간이 없어도 봉사 활동을 계속해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-001_card_0",
+          "시간이"
+        ],
+        [
+          "SEJONG-3B-01-V1-001_card_1",
+          "없어도"
+        ],
+        [
+          "SEJONG-3B-01-V1-001_card_2",
+          "봉사"
+        ],
+        [
+          "SEJONG-3B-01-V1-001_card_3",
+          "활동을"
+        ],
+        [
+          "SEJONG-3B-01-V1-001_card_4",
+          "계속해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-001_card_0",
+          "SEJONG-3B-01-V1-001_card_1",
+          "SEJONG-3B-01-V1-001_card_2",
+          "SEJONG-3B-01-V1-001_card_3",
+          "SEJONG-3B-01-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-002",
+      "displaySentence": "혼자 여행해도 새로운 것을 많이 배워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-002_card_0",
+          "혼자"
+        ],
+        [
+          "SEJONG-3B-01-V1-002_card_1",
+          "여행해도"
+        ],
+        [
+          "SEJONG-3B-01-V1-002_card_2",
+          "새로운"
+        ],
+        [
+          "SEJONG-3B-01-V1-002_card_3",
+          "것을"
+        ],
+        [
+          "SEJONG-3B-01-V1-002_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-01-V1-002_card_5",
+          "배워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-002_card_0",
+          "SEJONG-3B-01-V1-002_card_1",
+          "SEJONG-3B-01-V1-002_card_2",
+          "SEJONG-3B-01-V1-002_card_3",
+          "SEJONG-3B-01-V1-002_card_4",
+          "SEJONG-3B-01-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-003",
+      "displaySentence": "비가 와도 배낭여행을 갈 거예요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-003_card_0",
+          "비가"
+        ],
+        [
+          "SEJONG-3B-01-V1-003_card_1",
+          "와도"
+        ],
+        [
+          "SEJONG-3B-01-V1-003_card_2",
+          "배낭여행을"
+        ],
+        [
+          "SEJONG-3B-01-V1-003_card_3",
+          "갈"
+        ],
+        [
+          "SEJONG-3B-01-V1-003_card_4",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-003_card_0",
+          "SEJONG-3B-01-V1-003_card_1",
+          "SEJONG-3B-01-V1-003_card_2",
+          "SEJONG-3B-01-V1-003_card_3",
+          "SEJONG-3B-01-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-004",
+      "displaySentence": "힘들어도 외국어 공부를 포기하지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-004_card_0",
+          "힘들어도"
+        ],
+        [
+          "SEJONG-3B-01-V1-004_card_1",
+          "외국어"
+        ],
+        [
+          "SEJONG-3B-01-V1-004_card_2",
+          "공부를"
+        ],
+        [
+          "SEJONG-3B-01-V1-004_card_3",
+          "포기하지"
+        ],
+        [
+          "SEJONG-3B-01-V1-004_card_4",
+          "마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-004_card_0",
+          "SEJONG-3B-01-V1-004_card_1",
+          "SEJONG-3B-01-V1-004_card_2",
+          "SEJONG-3B-01-V1-004_card_3",
+          "SEJONG-3B-01-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-005",
+      "displaySentence": "아르바이트를 해도 시간을 알차게 보낼 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-005_card_0",
+          "아르바이트를"
+        ],
+        [
+          "SEJONG-3B-01-V1-005_card_1",
+          "해도"
+        ],
+        [
+          "SEJONG-3B-01-V1-005_card_2",
+          "시간을"
+        ],
+        [
+          "SEJONG-3B-01-V1-005_card_3",
+          "알차게"
+        ],
+        [
+          "SEJONG-3B-01-V1-005_card_4",
+          "보낼"
+        ],
+        [
+          "SEJONG-3B-01-V1-005_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-3B-01-V1-005_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-005_card_0",
+          "SEJONG-3B-01-V1-005_card_1",
+          "SEJONG-3B-01-V1-005_card_2",
+          "SEJONG-3B-01-V1-005_card_3",
+          "SEJONG-3B-01-V1-005_card_4",
+          "SEJONG-3B-01-V1-005_card_5",
+          "SEJONG-3B-01-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-006",
+      "displaySentence": "할머니께 여행 사진을 보여 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-006_card_0",
+          "할머니께"
+        ],
+        [
+          "SEJONG-3B-01-V1-006_card_1",
+          "여행"
+        ],
+        [
+          "SEJONG-3B-01-V1-006_card_2",
+          "사진을"
+        ],
+        [
+          "SEJONG-3B-01-V1-006_card_3",
+          "보여"
+        ],
+        [
+          "SEJONG-3B-01-V1-006_card_4",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-006_card_0",
+          "SEJONG-3B-01-V1-006_card_1",
+          "SEJONG-3B-01-V1-006_card_2",
+          "SEJONG-3B-01-V1-006_card_3",
+          "SEJONG-3B-01-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-007",
+      "displaySentence": "할아버지께 제 경험을 이야기해 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-007_card_0",
+          "할아버지께"
+        ],
+        [
+          "SEJONG-3B-01-V1-007_card_1",
+          "제"
+        ],
+        [
+          "SEJONG-3B-01-V1-007_card_2",
+          "경험을"
+        ],
+        [
+          "SEJONG-3B-01-V1-007_card_3",
+          "이야기해"
+        ],
+        [
+          "SEJONG-3B-01-V1-007_card_4",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-007_card_0",
+          "SEJONG-3B-01-V1-007_card_1",
+          "SEJONG-3B-01-V1-007_card_2",
+          "SEJONG-3B-01-V1-007_card_3",
+          "SEJONG-3B-01-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-008",
+      "displaySentence": "부모님께 기차표를 예매해 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-008_card_0",
+          "부모님께"
+        ],
+        [
+          "SEJONG-3B-01-V1-008_card_1",
+          "기차표를"
+        ],
+        [
+          "SEJONG-3B-01-V1-008_card_2",
+          "예매해"
+        ],
+        [
+          "SEJONG-3B-01-V1-008_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-008_card_0",
+          "SEJONG-3B-01-V1-008_card_1",
+          "SEJONG-3B-01-V1-008_card_2",
+          "SEJONG-3B-01-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-009",
+      "displaySentence": "선생님께 필요한 자료를 찾아 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-009_card_0",
+          "선생님께"
+        ],
+        [
+          "SEJONG-3B-01-V1-009_card_1",
+          "필요한"
+        ],
+        [
+          "SEJONG-3B-01-V1-009_card_2",
+          "자료를"
+        ],
+        [
+          "SEJONG-3B-01-V1-009_card_3",
+          "찾아"
+        ],
+        [
+          "SEJONG-3B-01-V1-009_card_4",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-009_card_0",
+          "SEJONG-3B-01-V1-009_card_1",
+          "SEJONG-3B-01-V1-009_card_2",
+          "SEJONG-3B-01-V1-009_card_3",
+          "SEJONG-3B-01-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-010",
+      "displaySentence": "친구 어머니께 짐을 들어 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-010_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3B-01-V1-010_card_1",
+          "어머니께"
+        ],
+        [
+          "SEJONG-3B-01-V1-010_card_2",
+          "짐을"
+        ],
+        [
+          "SEJONG-3B-01-V1-010_card_3",
+          "들어"
+        ],
+        [
+          "SEJONG-3B-01-V1-010_card_4",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-010_card_0",
+          "SEJONG-3B-01-V1-010_card_1",
+          "SEJONG-3B-01-V1-010_card_2",
+          "SEJONG-3B-01-V1-010_card_3",
+          "SEJONG-3B-01-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-011",
+      "displaySentence": "돈이 많지 않아도 혼자 여행할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-011_card_0",
+          "돈이"
+        ],
+        [
+          "SEJONG-3B-01-V1-011_card_1",
+          "많지"
+        ],
+        [
+          "SEJONG-3B-01-V1-011_card_2",
+          "않아도"
+        ],
+        [
+          "SEJONG-3B-01-V1-011_card_3",
+          "혼자"
+        ],
+        [
+          "SEJONG-3B-01-V1-011_card_4",
+          "여행할"
+        ],
+        [
+          "SEJONG-3B-01-V1-011_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-3B-01-V1-011_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-011_card_0",
+          "SEJONG-3B-01-V1-011_card_1",
+          "SEJONG-3B-01-V1-011_card_2",
+          "SEJONG-3B-01-V1-011_card_3",
+          "SEJONG-3B-01-V1-011_card_4",
+          "SEJONG-3B-01-V1-011_card_5",
+          "SEJONG-3B-01-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-012",
+      "displaySentence": "외국어가 어려워도 매일 공부하고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-012_card_0",
+          "외국어가"
+        ],
+        [
+          "SEJONG-3B-01-V1-012_card_1",
+          "어려워도"
+        ],
+        [
+          "SEJONG-3B-01-V1-012_card_2",
+          "매일"
+        ],
+        [
+          "SEJONG-3B-01-V1-012_card_3",
+          "공부하고"
+        ],
+        [
+          "SEJONG-3B-01-V1-012_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-012_card_0",
+          "SEJONG-3B-01-V1-012_card_1",
+          "SEJONG-3B-01-V1-012_card_2",
+          "SEJONG-3B-01-V1-012_card_3",
+          "SEJONG-3B-01-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-013",
+      "displaySentence": "피곤해도 인턴 활동을 끝까지 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-013_card_0",
+          "피곤해도"
+        ],
+        [
+          "SEJONG-3B-01-V1-013_card_1",
+          "인턴"
+        ],
+        [
+          "SEJONG-3B-01-V1-013_card_2",
+          "활동을"
+        ],
+        [
+          "SEJONG-3B-01-V1-013_card_3",
+          "끝까지"
+        ],
+        [
+          "SEJONG-3B-01-V1-013_card_4",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-013_card_0",
+          "SEJONG-3B-01-V1-013_card_1",
+          "SEJONG-3B-01-V1-013_card_2",
+          "SEJONG-3B-01-V1-013_card_3",
+          "SEJONG-3B-01-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-014",
+      "displaySentence": "처음이어도 자신 있게 도전해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-014_card_0",
+          "처음이어도"
+        ],
+        [
+          "SEJONG-3B-01-V1-014_card_1",
+          "자신"
+        ],
+        [
+          "SEJONG-3B-01-V1-014_card_2",
+          "있게"
+        ],
+        [
+          "SEJONG-3B-01-V1-014_card_3",
+          "도전해"
+        ],
+        [
+          "SEJONG-3B-01-V1-014_card_4",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-014_card_0",
+          "SEJONG-3B-01-V1-014_card_1",
+          "SEJONG-3B-01-V1-014_card_2",
+          "SEJONG-3B-01-V1-014_card_3",
+          "SEJONG-3B-01-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-015",
+      "displaySentence": "길이 멀어도 걸어서 여행하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-015_card_0",
+          "길이"
+        ],
+        [
+          "SEJONG-3B-01-V1-015_card_1",
+          "멀어도"
+        ],
+        [
+          "SEJONG-3B-01-V1-015_card_2",
+          "걸어서"
+        ],
+        [
+          "SEJONG-3B-01-V1-015_card_3",
+          "여행하고"
+        ],
+        [
+          "SEJONG-3B-01-V1-015_card_4",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-015_card_0",
+          "SEJONG-3B-01-V1-015_card_1",
+          "SEJONG-3B-01-V1-015_card_2",
+          "SEJONG-3B-01-V1-015_card_3",
+          "SEJONG-3B-01-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-016",
+      "displaySentence": "할머니께 따뜻한 차를 준비해 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-016_card_0",
+          "할머니께"
+        ],
+        [
+          "SEJONG-3B-01-V1-016_card_1",
+          "따뜻한"
+        ],
+        [
+          "SEJONG-3B-01-V1-016_card_2",
+          "차를"
+        ],
+        [
+          "SEJONG-3B-01-V1-016_card_3",
+          "준비해"
+        ],
+        [
+          "SEJONG-3B-01-V1-016_card_4",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-016_card_0",
+          "SEJONG-3B-01-V1-016_card_1",
+          "SEJONG-3B-01-V1-016_card_2",
+          "SEJONG-3B-01-V1-016_card_3",
+          "SEJONG-3B-01-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-017",
+      "displaySentence": "할아버지께 휴대폰 사용법을 알려 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-017_card_0",
+          "할아버지께"
+        ],
+        [
+          "SEJONG-3B-01-V1-017_card_1",
+          "휴대폰"
+        ],
+        [
+          "SEJONG-3B-01-V1-017_card_2",
+          "사용법을"
+        ],
+        [
+          "SEJONG-3B-01-V1-017_card_3",
+          "알려"
+        ],
+        [
+          "SEJONG-3B-01-V1-017_card_4",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-017_card_0",
+          "SEJONG-3B-01-V1-017_card_1",
+          "SEJONG-3B-01-V1-017_card_2",
+          "SEJONG-3B-01-V1-017_card_3",
+          "SEJONG-3B-01-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-018",
+      "displaySentence": "부모님께 여행 일정을 설명해 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-018_card_0",
+          "부모님께"
+        ],
+        [
+          "SEJONG-3B-01-V1-018_card_1",
+          "여행"
+        ],
+        [
+          "SEJONG-3B-01-V1-018_card_2",
+          "일정을"
+        ],
+        [
+          "SEJONG-3B-01-V1-018_card_3",
+          "설명해"
+        ],
+        [
+          "SEJONG-3B-01-V1-018_card_4",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-018_card_0",
+          "SEJONG-3B-01-V1-018_card_1",
+          "SEJONG-3B-01-V1-018_card_2",
+          "SEJONG-3B-01-V1-018_card_3",
+          "SEJONG-3B-01-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-019",
+      "displaySentence": "선생님께 책을 가져다 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-019_card_0",
+          "선생님께"
+        ],
+        [
+          "SEJONG-3B-01-V1-019_card_1",
+          "책을"
+        ],
+        [
+          "SEJONG-3B-01-V1-019_card_2",
+          "가져다"
+        ],
+        [
+          "SEJONG-3B-01-V1-019_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-019_card_0",
+          "SEJONG-3B-01-V1-019_card_1",
+          "SEJONG-3B-01-V1-019_card_2",
+          "SEJONG-3B-01-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-01-V1-020",
+      "displaySentence": "어르신께 자리를 양보해 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-01-V1-020_card_0",
+          "어르신께"
+        ],
+        [
+          "SEJONG-3B-01-V1-020_card_1",
+          "자리를"
+        ],
+        [
+          "SEJONG-3B-01-V1-020_card_2",
+          "양보해"
+        ],
+        [
+          "SEJONG-3B-01-V1-020_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-01-V1-020_card_0",
+          "SEJONG-3B-01-V1-020_card_1",
+          "SEJONG-3B-01-V1-020_card_2",
+          "SEJONG-3B-01-V1-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 1과 문법 -아도/어도 / -아/어 드리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 1과 범위 재구성"
+    }
+  ]
+}

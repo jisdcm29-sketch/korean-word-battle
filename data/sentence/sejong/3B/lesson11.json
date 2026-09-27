@@ -1,0 +1,788 @@
+{
+  "book": "3B",
+  "lesson": 11,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 11과 범위",
+  "selectionPolicy": [
+    "11과 핵심 문법 -아/어 가다·-아/어 두다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-11-V1-001",
+      "displaySentence": "앞으로 경력을 계속 쌓아 갈 거예요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-001_card_0",
+          "앞으로"
+        ],
+        [
+          "SEJONG-3B-11-V1-001_card_1",
+          "경력을"
+        ],
+        [
+          "SEJONG-3B-11-V1-001_card_2",
+          "계속"
+        ],
+        [
+          "SEJONG-3B-11-V1-001_card_3",
+          "쌓아"
+        ],
+        [
+          "SEJONG-3B-11-V1-001_card_4",
+          "갈"
+        ],
+        [
+          "SEJONG-3B-11-V1-001_card_5",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-001_card_0",
+          "SEJONG-3B-11-V1-001_card_1",
+          "SEJONG-3B-11-V1-001_card_2",
+          "SEJONG-3B-11-V1-001_card_3",
+          "SEJONG-3B-11-V1-001_card_4",
+          "SEJONG-3B-11-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-002",
+      "displaySentence": "외국어 실력을 조금씩 키워 갈 거예요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-002_card_0",
+          "외국어"
+        ],
+        [
+          "SEJONG-3B-11-V1-002_card_1",
+          "실력을"
+        ],
+        [
+          "SEJONG-3B-11-V1-002_card_2",
+          "조금씩"
+        ],
+        [
+          "SEJONG-3B-11-V1-002_card_3",
+          "키워"
+        ],
+        [
+          "SEJONG-3B-11-V1-002_card_4",
+          "갈"
+        ],
+        [
+          "SEJONG-3B-11-V1-002_card_5",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-002_card_0",
+          "SEJONG-3B-11-V1-002_card_1",
+          "SEJONG-3B-11-V1-002_card_2",
+          "SEJONG-3B-11-V1-002_card_3",
+          "SEJONG-3B-11-V1-002_card_4",
+          "SEJONG-3B-11-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-003",
+      "displaySentence": "회사에서 경험을 많이 쌓아 가고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-003_card_0",
+          "회사에서"
+        ],
+        [
+          "SEJONG-3B-11-V1-003_card_1",
+          "경험을"
+        ],
+        [
+          "SEJONG-3B-11-V1-003_card_2",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-11-V1-003_card_3",
+          "쌓아"
+        ],
+        [
+          "SEJONG-3B-11-V1-003_card_4",
+          "가고"
+        ],
+        [
+          "SEJONG-3B-11-V1-003_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-003_card_0",
+          "SEJONG-3B-11-V1-003_card_1",
+          "SEJONG-3B-11-V1-003_card_2",
+          "SEJONG-3B-11-V1-003_card_3",
+          "SEJONG-3B-11-V1-003_card_4",
+          "SEJONG-3B-11-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-004",
+      "displaySentence": "직장 동료와 좋은 관계를 만들어 가고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-004_card_0",
+          "직장"
+        ],
+        [
+          "SEJONG-3B-11-V1-004_card_1",
+          "동료와"
+        ],
+        [
+          "SEJONG-3B-11-V1-004_card_2",
+          "좋은"
+        ],
+        [
+          "SEJONG-3B-11-V1-004_card_3",
+          "관계를"
+        ],
+        [
+          "SEJONG-3B-11-V1-004_card_4",
+          "만들어"
+        ],
+        [
+          "SEJONG-3B-11-V1-004_card_5",
+          "가고"
+        ],
+        [
+          "SEJONG-3B-11-V1-004_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-004_card_0",
+          "SEJONG-3B-11-V1-004_card_1",
+          "SEJONG-3B-11-V1-004_card_2",
+          "SEJONG-3B-11-V1-004_card_3",
+          "SEJONG-3B-11-V1-004_card_4",
+          "SEJONG-3B-11-V1-004_card_5",
+          "SEJONG-3B-11-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-005",
+      "displaySentence": "진로를 천천히 찾아 가고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-005_card_0",
+          "진로를"
+        ],
+        [
+          "SEJONG-3B-11-V1-005_card_1",
+          "천천히"
+        ],
+        [
+          "SEJONG-3B-11-V1-005_card_2",
+          "찾아"
+        ],
+        [
+          "SEJONG-3B-11-V1-005_card_3",
+          "가고"
+        ],
+        [
+          "SEJONG-3B-11-V1-005_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-005_card_0",
+          "SEJONG-3B-11-V1-005_card_1",
+          "SEJONG-3B-11-V1-005_card_2",
+          "SEJONG-3B-11-V1-005_card_3",
+          "SEJONG-3B-11-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-006",
+      "displaySentence": "자격증이나 외국어 공부도 미리 해 두면 좋을 거야.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-006_card_0",
+          "자격증이나"
+        ],
+        [
+          "SEJONG-3B-11-V1-006_card_1",
+          "외국어"
+        ],
+        [
+          "SEJONG-3B-11-V1-006_card_2",
+          "공부도"
+        ],
+        [
+          "SEJONG-3B-11-V1-006_card_3",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-11-V1-006_card_4",
+          "해"
+        ],
+        [
+          "SEJONG-3B-11-V1-006_card_5",
+          "두면"
+        ],
+        [
+          "SEJONG-3B-11-V1-006_card_6",
+          "좋을"
+        ],
+        [
+          "SEJONG-3B-11-V1-006_card_7",
+          "거야."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-006_card_0",
+          "SEJONG-3B-11-V1-006_card_1",
+          "SEJONG-3B-11-V1-006_card_2",
+          "SEJONG-3B-11-V1-006_card_3",
+          "SEJONG-3B-11-V1-006_card_4",
+          "SEJONG-3B-11-V1-006_card_5",
+          "SEJONG-3B-11-V1-006_card_6",
+          "SEJONG-3B-11-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-007",
+      "displaySentence": "면접 전에 자기 소개를 준비해 두세요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-007_card_0",
+          "면접"
+        ],
+        [
+          "SEJONG-3B-11-V1-007_card_1",
+          "전에"
+        ],
+        [
+          "SEJONG-3B-11-V1-007_card_2",
+          "자기"
+        ],
+        [
+          "SEJONG-3B-11-V1-007_card_3",
+          "소개를"
+        ],
+        [
+          "SEJONG-3B-11-V1-007_card_4",
+          "준비해"
+        ],
+        [
+          "SEJONG-3B-11-V1-007_card_5",
+          "두세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-007_card_0",
+          "SEJONG-3B-11-V1-007_card_1",
+          "SEJONG-3B-11-V1-007_card_2",
+          "SEJONG-3B-11-V1-007_card_3",
+          "SEJONG-3B-11-V1-007_card_4",
+          "SEJONG-3B-11-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-008",
+      "displaySentence": "이력서를 미리 써 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-008_card_0",
+          "이력서를"
+        ],
+        [
+          "SEJONG-3B-11-V1-008_card_1",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-11-V1-008_card_2",
+          "써"
+        ],
+        [
+          "SEJONG-3B-11-V1-008_card_3",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-008_card_0",
+          "SEJONG-3B-11-V1-008_card_1",
+          "SEJONG-3B-11-V1-008_card_2",
+          "SEJONG-3B-11-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-009",
+      "displaySentence": "입사 지원서를 제출해 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-009_card_0",
+          "입사"
+        ],
+        [
+          "SEJONG-3B-11-V1-009_card_1",
+          "지원서를"
+        ],
+        [
+          "SEJONG-3B-11-V1-009_card_2",
+          "제출해"
+        ],
+        [
+          "SEJONG-3B-11-V1-009_card_3",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-009_card_0",
+          "SEJONG-3B-11-V1-009_card_1",
+          "SEJONG-3B-11-V1-009_card_2",
+          "SEJONG-3B-11-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-010",
+      "displaySentence": "필요한 서류를 복사해 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-010_card_0",
+          "필요한"
+        ],
+        [
+          "SEJONG-3B-11-V1-010_card_1",
+          "서류를"
+        ],
+        [
+          "SEJONG-3B-11-V1-010_card_2",
+          "복사해"
+        ],
+        [
+          "SEJONG-3B-11-V1-010_card_3",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-010_card_0",
+          "SEJONG-3B-11-V1-010_card_1",
+          "SEJONG-3B-11-V1-010_card_2",
+          "SEJONG-3B-11-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-011",
+      "displaySentence": "인턴십을 하면서 경력을 쌓아 가요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-011_card_0",
+          "인턴십을"
+        ],
+        [
+          "SEJONG-3B-11-V1-011_card_1",
+          "하면서"
+        ],
+        [
+          "SEJONG-3B-11-V1-011_card_2",
+          "경력을"
+        ],
+        [
+          "SEJONG-3B-11-V1-011_card_3",
+          "쌓아"
+        ],
+        [
+          "SEJONG-3B-11-V1-011_card_4",
+          "가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-011_card_0",
+          "SEJONG-3B-11-V1-011_card_1",
+          "SEJONG-3B-11-V1-011_card_2",
+          "SEJONG-3B-11-V1-011_card_3",
+          "SEJONG-3B-11-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-012",
+      "displaySentence": "꾸준히 공부하면서 실력을 높여 가요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-012_card_0",
+          "꾸준히"
+        ],
+        [
+          "SEJONG-3B-11-V1-012_card_1",
+          "공부하면서"
+        ],
+        [
+          "SEJONG-3B-11-V1-012_card_2",
+          "실력을"
+        ],
+        [
+          "SEJONG-3B-11-V1-012_card_3",
+          "높여"
+        ],
+        [
+          "SEJONG-3B-11-V1-012_card_4",
+          "가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-012_card_0",
+          "SEJONG-3B-11-V1-012_card_1",
+          "SEJONG-3B-11-V1-012_card_2",
+          "SEJONG-3B-11-V1-012_card_3",
+          "SEJONG-3B-11-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-013",
+      "displaySentence": "회사 생활에 조금씩 적응해 가고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-013_card_0",
+          "회사"
+        ],
+        [
+          "SEJONG-3B-11-V1-013_card_1",
+          "생활에"
+        ],
+        [
+          "SEJONG-3B-11-V1-013_card_2",
+          "조금씩"
+        ],
+        [
+          "SEJONG-3B-11-V1-013_card_3",
+          "적응해"
+        ],
+        [
+          "SEJONG-3B-11-V1-013_card_4",
+          "가고"
+        ],
+        [
+          "SEJONG-3B-11-V1-013_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-013_card_0",
+          "SEJONG-3B-11-V1-013_card_1",
+          "SEJONG-3B-11-V1-013_card_2",
+          "SEJONG-3B-11-V1-013_card_3",
+          "SEJONG-3B-11-V1-013_card_4",
+          "SEJONG-3B-11-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-014",
+      "displaySentence": "새로운 일을 배워 가는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-014_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-3B-11-V1-014_card_1",
+          "일을"
+        ],
+        [
+          "SEJONG-3B-11-V1-014_card_2",
+          "배워"
+        ],
+        [
+          "SEJONG-3B-11-V1-014_card_3",
+          "가는"
+        ],
+        [
+          "SEJONG-3B-11-V1-014_card_4",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-014_card_0",
+          "SEJONG-3B-11-V1-014_card_1",
+          "SEJONG-3B-11-V1-014_card_2",
+          "SEJONG-3B-11-V1-014_card_3",
+          "SEJONG-3B-11-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-015",
+      "displaySentence": "좋은 인맥을 만들어 가고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-015_card_0",
+          "좋은"
+        ],
+        [
+          "SEJONG-3B-11-V1-015_card_1",
+          "인맥을"
+        ],
+        [
+          "SEJONG-3B-11-V1-015_card_2",
+          "만들어"
+        ],
+        [
+          "SEJONG-3B-11-V1-015_card_3",
+          "가고"
+        ],
+        [
+          "SEJONG-3B-11-V1-015_card_4",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-015_card_0",
+          "SEJONG-3B-11-V1-015_card_1",
+          "SEJONG-3B-11-V1-015_card_2",
+          "SEJONG-3B-11-V1-015_card_3",
+          "SEJONG-3B-11-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-016",
+      "displaySentence": "면접 연습을 미리 해 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-016_card_0",
+          "면접"
+        ],
+        [
+          "SEJONG-3B-11-V1-016_card_1",
+          "연습을"
+        ],
+        [
+          "SEJONG-3B-11-V1-016_card_2",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-11-V1-016_card_3",
+          "해"
+        ],
+        [
+          "SEJONG-3B-11-V1-016_card_4",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-016_card_0",
+          "SEJONG-3B-11-V1-016_card_1",
+          "SEJONG-3B-11-V1-016_card_2",
+          "SEJONG-3B-11-V1-016_card_3",
+          "SEJONG-3B-11-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-017",
+      "displaySentence": "외국어 공부 계획을 세워 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-017_card_0",
+          "외국어"
+        ],
+        [
+          "SEJONG-3B-11-V1-017_card_1",
+          "공부"
+        ],
+        [
+          "SEJONG-3B-11-V1-017_card_2",
+          "계획을"
+        ],
+        [
+          "SEJONG-3B-11-V1-017_card_3",
+          "세워"
+        ],
+        [
+          "SEJONG-3B-11-V1-017_card_4",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-017_card_0",
+          "SEJONG-3B-11-V1-017_card_1",
+          "SEJONG-3B-11-V1-017_card_2",
+          "SEJONG-3B-11-V1-017_card_3",
+          "SEJONG-3B-11-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-018",
+      "displaySentence": "입사 시험 날짜를 확인해 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-018_card_0",
+          "입사"
+        ],
+        [
+          "SEJONG-3B-11-V1-018_card_1",
+          "시험"
+        ],
+        [
+          "SEJONG-3B-11-V1-018_card_2",
+          "날짜를"
+        ],
+        [
+          "SEJONG-3B-11-V1-018_card_3",
+          "확인해"
+        ],
+        [
+          "SEJONG-3B-11-V1-018_card_4",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-018_card_0",
+          "SEJONG-3B-11-V1-018_card_1",
+          "SEJONG-3B-11-V1-018_card_2",
+          "SEJONG-3B-11-V1-018_card_3",
+          "SEJONG-3B-11-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-019",
+      "displaySentence": "담당자 연락처를 저장해 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-019_card_0",
+          "담당자"
+        ],
+        [
+          "SEJONG-3B-11-V1-019_card_1",
+          "연락처를"
+        ],
+        [
+          "SEJONG-3B-11-V1-019_card_2",
+          "저장해"
+        ],
+        [
+          "SEJONG-3B-11-V1-019_card_3",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-019_card_0",
+          "SEJONG-3B-11-V1-019_card_1",
+          "SEJONG-3B-11-V1-019_card_2",
+          "SEJONG-3B-11-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-11-V1-020",
+      "displaySentence": "봉사 활동 경력을 정리해 두었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-11-V1-020_card_0",
+          "봉사"
+        ],
+        [
+          "SEJONG-3B-11-V1-020_card_1",
+          "활동"
+        ],
+        [
+          "SEJONG-3B-11-V1-020_card_2",
+          "경력을"
+        ],
+        [
+          "SEJONG-3B-11-V1-020_card_3",
+          "정리해"
+        ],
+        [
+          "SEJONG-3B-11-V1-020_card_4",
+          "두었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-11-V1-020_card_0",
+          "SEJONG-3B-11-V1-020_card_1",
+          "SEJONG-3B-11-V1-020_card_2",
+          "SEJONG-3B-11-V1-020_card_3",
+          "SEJONG-3B-11-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 11과 문법 -아/어 가다 / -아/어 두다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 11과 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "book": "3B",
+  "lesson": 3,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 3과 범위",
+  "selectionPolicy": [
+    "3과 핵심 문법 -거든요·-는구나/-구나 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-03-V1-001",
+      "displaySentence": "매운 음식을 정말 잘 먹거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-001_card_0",
+          "매운"
+        ],
+        [
+          "SEJONG-3B-03-V1-001_card_1",
+          "음식을"
+        ],
+        [
+          "SEJONG-3B-03-V1-001_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-03-V1-001_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-3B-03-V1-001_card_4",
+          "먹거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-001_card_0",
+          "SEJONG-3B-03-V1-001_card_1",
+          "SEJONG-3B-03-V1-001_card_2",
+          "SEJONG-3B-03-V1-001_card_3",
+          "SEJONG-3B-03-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-002",
+      "displaySentence": "이 음식은 조금 짜거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-002_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-002_card_1",
+          "음식은"
+        ],
+        [
+          "SEJONG-3B-03-V1-002_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-3B-03-V1-002_card_3",
+          "짜거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-002_card_0",
+          "SEJONG-3B-03-V1-002_card_1",
+          "SEJONG-3B-03-V1-002_card_2",
+          "SEJONG-3B-03-V1-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-003",
+      "displaySentence": "저는 단 음식을 좋아하거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-003_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-3B-03-V1-003_card_1",
+          "단"
+        ],
+        [
+          "SEJONG-3B-03-V1-003_card_2",
+          "음식을"
+        ],
+        [
+          "SEJONG-3B-03-V1-003_card_3",
+          "좋아하거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-003_card_0",
+          "SEJONG-3B-03-V1-003_card_1",
+          "SEJONG-3B-03-V1-003_card_2",
+          "SEJONG-3B-03-V1-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-004",
+      "displaySentence": "속이 쓰려서 매운 음식은 피하거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-004_card_0",
+          "속이"
+        ],
+        [
+          "SEJONG-3B-03-V1-004_card_1",
+          "쓰려서"
+        ],
+        [
+          "SEJONG-3B-03-V1-004_card_2",
+          "매운"
+        ],
+        [
+          "SEJONG-3B-03-V1-004_card_3",
+          "음식은"
+        ],
+        [
+          "SEJONG-3B-03-V1-004_card_4",
+          "피하거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-004_card_0",
+          "SEJONG-3B-03-V1-004_card_1",
+          "SEJONG-3B-03-V1-004_card_2",
+          "SEJONG-3B-03-V1-004_card_3",
+          "SEJONG-3B-03-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-005",
+      "displaySentence": "이 국은 담백해서 자주 먹거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-005_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-005_card_1",
+          "국은"
+        ],
+        [
+          "SEJONG-3B-03-V1-005_card_2",
+          "담백해서"
+        ],
+        [
+          "SEJONG-3B-03-V1-005_card_3",
+          "자주"
+        ],
+        [
+          "SEJONG-3B-03-V1-005_card_4",
+          "먹거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-005_card_0",
+          "SEJONG-3B-03-V1-005_card_1",
+          "SEJONG-3B-03-V1-005_card_2",
+          "SEJONG-3B-03-V1-005_card_3",
+          "SEJONG-3B-03-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-006",
+      "displaySentence": "매운 음식을 진짜 잘 먹는구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-006_card_0",
+          "매운"
+        ],
+        [
+          "SEJONG-3B-03-V1-006_card_1",
+          "음식을"
+        ],
+        [
+          "SEJONG-3B-03-V1-006_card_2",
+          "진짜"
+        ],
+        [
+          "SEJONG-3B-03-V1-006_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-3B-03-V1-006_card_4",
+          "먹는구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-006_card_0",
+          "SEJONG-3B-03-V1-006_card_1",
+          "SEJONG-3B-03-V1-006_card_2",
+          "SEJONG-3B-03-V1-006_card_3",
+          "SEJONG-3B-03-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-007",
+      "displaySentence": "이 과일은 정말 시구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-007_card_1",
+          "과일은"
+        ],
+        [
+          "SEJONG-3B-03-V1-007_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-03-V1-007_card_3",
+          "시구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-007_card_0",
+          "SEJONG-3B-03-V1-007_card_1",
+          "SEJONG-3B-03-V1-007_card_2",
+          "SEJONG-3B-03-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-008",
+      "displaySentence": "한국 음식은 생각보다 맵구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-008_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-3B-03-V1-008_card_1",
+          "음식은"
+        ],
+        [
+          "SEJONG-3B-03-V1-008_card_2",
+          "생각보다"
+        ],
+        [
+          "SEJONG-3B-03-V1-008_card_3",
+          "맵구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-008_card_0",
+          "SEJONG-3B-03-V1-008_card_1",
+          "SEJONG-3B-03-V1-008_card_2",
+          "SEJONG-3B-03-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-009",
+      "displaySentence": "이 과자는 아주 바삭하구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-009_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-009_card_1",
+          "과자는"
+        ],
+        [
+          "SEJONG-3B-03-V1-009_card_2",
+          "아주"
+        ],
+        [
+          "SEJONG-3B-03-V1-009_card_3",
+          "바삭하구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-009_card_0",
+          "SEJONG-3B-03-V1-009_card_1",
+          "SEJONG-3B-03-V1-009_card_2",
+          "SEJONG-3B-03-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-010",
+      "displaySentence": "이 국은 조금 싱겁구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-010_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-010_card_1",
+          "국은"
+        ],
+        [
+          "SEJONG-3B-03-V1-010_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-3B-03-V1-010_card_3",
+          "싱겁구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-010_card_0",
+          "SEJONG-3B-03-V1-010_card_1",
+          "SEJONG-3B-03-V1-010_card_2",
+          "SEJONG-3B-03-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-011",
+      "displaySentence": "속이 편안해서 이 죽을 먹거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-011_card_0",
+          "속이"
+        ],
+        [
+          "SEJONG-3B-03-V1-011_card_1",
+          "편안해서"
+        ],
+        [
+          "SEJONG-3B-03-V1-011_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-011_card_3",
+          "죽을"
+        ],
+        [
+          "SEJONG-3B-03-V1-011_card_4",
+          "먹거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-011_card_0",
+          "SEJONG-3B-03-V1-011_card_1",
+          "SEJONG-3B-03-V1-011_card_2",
+          "SEJONG-3B-03-V1-011_card_3",
+          "SEJONG-3B-03-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-012",
+      "displaySentence": "저는 얼큰한 국을 좋아하거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-012_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-3B-03-V1-012_card_1",
+          "얼큰한"
+        ],
+        [
+          "SEJONG-3B-03-V1-012_card_2",
+          "국을"
+        ],
+        [
+          "SEJONG-3B-03-V1-012_card_3",
+          "좋아하거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-012_card_0",
+          "SEJONG-3B-03-V1-012_card_1",
+          "SEJONG-3B-03-V1-012_card_2",
+          "SEJONG-3B-03-V1-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-013",
+      "displaySentence": "입안이 얼얼해서 물을 마시거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-013_card_0",
+          "입안이"
+        ],
+        [
+          "SEJONG-3B-03-V1-013_card_1",
+          "얼얼해서"
+        ],
+        [
+          "SEJONG-3B-03-V1-013_card_2",
+          "물을"
+        ],
+        [
+          "SEJONG-3B-03-V1-013_card_3",
+          "마시거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-013_card_0",
+          "SEJONG-3B-03-V1-013_card_1",
+          "SEJONG-3B-03-V1-013_card_2",
+          "SEJONG-3B-03-V1-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-014",
+      "displaySentence": "부드러운 음식이 먹기 좋거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-014_card_0",
+          "부드러운"
+        ],
+        [
+          "SEJONG-3B-03-V1-014_card_1",
+          "음식이"
+        ],
+        [
+          "SEJONG-3B-03-V1-014_card_2",
+          "먹기"
+        ],
+        [
+          "SEJONG-3B-03-V1-014_card_3",
+          "좋거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-014_card_0",
+          "SEJONG-3B-03-V1-014_card_1",
+          "SEJONG-3B-03-V1-014_card_2",
+          "SEJONG-3B-03-V1-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-015",
+      "displaySentence": "이 음식은 매콤해서 맛있거든요.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-015_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-015_card_1",
+          "음식은"
+        ],
+        [
+          "SEJONG-3B-03-V1-015_card_2",
+          "매콤해서"
+        ],
+        [
+          "SEJONG-3B-03-V1-015_card_3",
+          "맛있거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-015_card_0",
+          "SEJONG-3B-03-V1-015_card_1",
+          "SEJONG-3B-03-V1-015_card_2",
+          "SEJONG-3B-03-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-016",
+      "displaySentence": "달콤한 디저트를 정말 좋아하는구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-016_card_0",
+          "달콤한"
+        ],
+        [
+          "SEJONG-3B-03-V1-016_card_1",
+          "디저트를"
+        ],
+        [
+          "SEJONG-3B-03-V1-016_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-03-V1-016_card_3",
+          "좋아하는구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-016_card_0",
+          "SEJONG-3B-03-V1-016_card_1",
+          "SEJONG-3B-03-V1-016_card_2",
+          "SEJONG-3B-03-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-017",
+      "displaySentence": "한국의 주식은 역시 밥이구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-017_card_0",
+          "한국의"
+        ],
+        [
+          "SEJONG-3B-03-V1-017_card_1",
+          "주식은"
+        ],
+        [
+          "SEJONG-3B-03-V1-017_card_2",
+          "역시"
+        ],
+        [
+          "SEJONG-3B-03-V1-017_card_3",
+          "밥이구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-017_card_0",
+          "SEJONG-3B-03-V1-017_card_1",
+          "SEJONG-3B-03-V1-017_card_2",
+          "SEJONG-3B-03-V1-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-018",
+      "displaySentence": "이 지역은 어업이 발달했구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-018_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3B-03-V1-018_card_1",
+          "지역은"
+        ],
+        [
+          "SEJONG-3B-03-V1-018_card_2",
+          "어업이"
+        ],
+        [
+          "SEJONG-3B-03-V1-018_card_3",
+          "발달했구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-018_card_0",
+          "SEJONG-3B-03-V1-018_card_1",
+          "SEJONG-3B-03-V1-018_card_2",
+          "SEJONG-3B-03-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-019",
+      "displaySentence": "우리 지역은 밭농사가 중요하구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-019_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-3B-03-V1-019_card_1",
+          "지역은"
+        ],
+        [
+          "SEJONG-3B-03-V1-019_card_2",
+          "밭농사가"
+        ],
+        [
+          "SEJONG-3B-03-V1-019_card_3",
+          "중요하구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-019_card_0",
+          "SEJONG-3B-03-V1-019_card_1",
+          "SEJONG-3B-03-V1-019_card_2",
+          "SEJONG-3B-03-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-03-V1-020",
+      "displaySentence": "부식도 정말 다양하게 먹는구나.",
+      "tokens": [
+        [
+          "SEJONG-3B-03-V1-020_card_0",
+          "부식도"
+        ],
+        [
+          "SEJONG-3B-03-V1-020_card_1",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-03-V1-020_card_2",
+          "다양하게"
+        ],
+        [
+          "SEJONG-3B-03-V1-020_card_3",
+          "먹는구나."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-03-V1-020_card_0",
+          "SEJONG-3B-03-V1-020_card_1",
+          "SEJONG-3B-03-V1-020_card_2",
+          "SEJONG-3B-03-V1-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 3과 문법 -거든요 / -는구나/-구나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 3과 범위 재구성"
+    }
+  ]
+}

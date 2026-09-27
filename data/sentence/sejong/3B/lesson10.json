@@ -1,0 +1,688 @@
+{
+  "book": "3B",
+  "lesson": 10,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 10과 범위",
+  "selectionPolicy": [
+    "10과 핵심 문법 -던데요·-았더니/었더니 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-10-V1-001",
+      "displaySentence": "설날 음식이 정말 맛있던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-001_card_0",
+          "설날"
+        ],
+        [
+          "SEJONG-3B-10-V1-001_card_1",
+          "음식이"
+        ],
+        [
+          "SEJONG-3B-10-V1-001_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-10-V1-001_card_3",
+          "맛있던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-001_card_0",
+          "SEJONG-3B-10-V1-001_card_1",
+          "SEJONG-3B-10-V1-001_card_2",
+          "SEJONG-3B-10-V1-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-002",
+      "displaySentence": "한과가 생각보다 정말 달던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-002_card_0",
+          "한과가"
+        ],
+        [
+          "SEJONG-3B-10-V1-002_card_1",
+          "생각보다"
+        ],
+        [
+          "SEJONG-3B-10-V1-002_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-10-V1-002_card_3",
+          "달던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-002_card_0",
+          "SEJONG-3B-10-V1-002_card_1",
+          "SEJONG-3B-10-V1-002_card_2",
+          "SEJONG-3B-10-V1-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-003",
+      "displaySentence": "정월 대보름 행사가 재미있던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-003_card_0",
+          "정월"
+        ],
+        [
+          "SEJONG-3B-10-V1-003_card_1",
+          "대보름"
+        ],
+        [
+          "SEJONG-3B-10-V1-003_card_2",
+          "행사가"
+        ],
+        [
+          "SEJONG-3B-10-V1-003_card_3",
+          "재미있던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-003_card_0",
+          "SEJONG-3B-10-V1-003_card_1",
+          "SEJONG-3B-10-V1-003_card_2",
+          "SEJONG-3B-10-V1-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-004",
+      "displaySentence": "세배를 하니까 분위기가 좋던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-004_card_0",
+          "세배를"
+        ],
+        [
+          "SEJONG-3B-10-V1-004_card_1",
+          "하니까"
+        ],
+        [
+          "SEJONG-3B-10-V1-004_card_2",
+          "분위기가"
+        ],
+        [
+          "SEJONG-3B-10-V1-004_card_3",
+          "좋던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-004_card_0",
+          "SEJONG-3B-10-V1-004_card_1",
+          "SEJONG-3B-10-V1-004_card_2",
+          "SEJONG-3B-10-V1-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-005",
+      "displaySentence": "추석에 사람이 정말 많던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-005_card_0",
+          "추석에"
+        ],
+        [
+          "SEJONG-3B-10-V1-005_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-3B-10-V1-005_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-10-V1-005_card_3",
+          "많던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-005_card_0",
+          "SEJONG-3B-10-V1-005_card_1",
+          "SEJONG-3B-10-V1-005_card_2",
+          "SEJONG-3B-10-V1-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-006",
+      "displaySentence": "떡국을 한 그릇 다 먹었더니 배가 불러요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-006_card_0",
+          "떡국을"
+        ],
+        [
+          "SEJONG-3B-10-V1-006_card_1",
+          "한"
+        ],
+        [
+          "SEJONG-3B-10-V1-006_card_2",
+          "그릇"
+        ],
+        [
+          "SEJONG-3B-10-V1-006_card_3",
+          "다"
+        ],
+        [
+          "SEJONG-3B-10-V1-006_card_4",
+          "먹었더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-006_card_5",
+          "배가"
+        ],
+        [
+          "SEJONG-3B-10-V1-006_card_6",
+          "불러요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-006_card_0",
+          "SEJONG-3B-10-V1-006_card_1",
+          "SEJONG-3B-10-V1-006_card_2",
+          "SEJONG-3B-10-V1-006_card_3",
+          "SEJONG-3B-10-V1-006_card_4",
+          "SEJONG-3B-10-V1-006_card_5",
+          "SEJONG-3B-10-V1-006_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-007",
+      "displaySentence": "두통약을 먹었더니 머리가 괜찮아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-007_card_0",
+          "두통약을"
+        ],
+        [
+          "SEJONG-3B-10-V1-007_card_1",
+          "먹었더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-007_card_2",
+          "머리가"
+        ],
+        [
+          "SEJONG-3B-10-V1-007_card_3",
+          "괜찮아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-007_card_0",
+          "SEJONG-3B-10-V1-007_card_1",
+          "SEJONG-3B-10-V1-007_card_2",
+          "SEJONG-3B-10-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-008",
+      "displaySentence": "매일 연습했더니 실력이 늘었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-008_card_0",
+          "매일"
+        ],
+        [
+          "SEJONG-3B-10-V1-008_card_1",
+          "연습했더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-008_card_2",
+          "실력이"
+        ],
+        [
+          "SEJONG-3B-10-V1-008_card_3",
+          "늘었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-008_card_0",
+          "SEJONG-3B-10-V1-008_card_1",
+          "SEJONG-3B-10-V1-008_card_2",
+          "SEJONG-3B-10-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-009",
+      "displaySentence": "일찍 신청했더니 선착순에 들었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-009_card_0",
+          "일찍"
+        ],
+        [
+          "SEJONG-3B-10-V1-009_card_1",
+          "신청했더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-009_card_2",
+          "선착순에"
+        ],
+        [
+          "SEJONG-3B-10-V1-009_card_3",
+          "들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-009_card_0",
+          "SEJONG-3B-10-V1-009_card_1",
+          "SEJONG-3B-10-V1-009_card_2",
+          "SEJONG-3B-10-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-010",
+      "displaySentence": "운동을 매일 했더니 건강해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-010_card_0",
+          "운동을"
+        ],
+        [
+          "SEJONG-3B-10-V1-010_card_1",
+          "매일"
+        ],
+        [
+          "SEJONG-3B-10-V1-010_card_2",
+          "했더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-010_card_3",
+          "건강해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-010_card_0",
+          "SEJONG-3B-10-V1-010_card_1",
+          "SEJONG-3B-10-V1-010_card_2",
+          "SEJONG-3B-10-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-011",
+      "displaySentence": "송편을 직접 만들어 보니 생각보다 어렵던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-011_card_0",
+          "송편을"
+        ],
+        [
+          "SEJONG-3B-10-V1-011_card_1",
+          "직접"
+        ],
+        [
+          "SEJONG-3B-10-V1-011_card_2",
+          "만들어"
+        ],
+        [
+          "SEJONG-3B-10-V1-011_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-10-V1-011_card_4",
+          "생각보다"
+        ],
+        [
+          "SEJONG-3B-10-V1-011_card_5",
+          "어렵던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-011_card_0",
+          "SEJONG-3B-10-V1-011_card_1",
+          "SEJONG-3B-10-V1-011_card_2",
+          "SEJONG-3B-10-V1-011_card_3",
+          "SEJONG-3B-10-V1-011_card_4",
+          "SEJONG-3B-10-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-012",
+      "displaySentence": "윷놀이를 해 보니 정말 재미있던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-012_card_0",
+          "윷놀이를"
+        ],
+        [
+          "SEJONG-3B-10-V1-012_card_1",
+          "해"
+        ],
+        [
+          "SEJONG-3B-10-V1-012_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-10-V1-012_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-10-V1-012_card_4",
+          "재미있던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-012_card_0",
+          "SEJONG-3B-10-V1-012_card_1",
+          "SEJONG-3B-10-V1-012_card_2",
+          "SEJONG-3B-10-V1-012_card_3",
+          "SEJONG-3B-10-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-013",
+      "displaySentence": "고향에 가니 사람들이 많던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-013_card_0",
+          "고향에"
+        ],
+        [
+          "SEJONG-3B-10-V1-013_card_1",
+          "가니"
+        ],
+        [
+          "SEJONG-3B-10-V1-013_card_2",
+          "사람들이"
+        ],
+        [
+          "SEJONG-3B-10-V1-013_card_3",
+          "많던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-013_card_0",
+          "SEJONG-3B-10-V1-013_card_1",
+          "SEJONG-3B-10-V1-013_card_2",
+          "SEJONG-3B-10-V1-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-014",
+      "displaySentence": "명절에 무료 행사가 많던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-014_card_0",
+          "명절에"
+        ],
+        [
+          "SEJONG-3B-10-V1-014_card_1",
+          "무료"
+        ],
+        [
+          "SEJONG-3B-10-V1-014_card_2",
+          "행사가"
+        ],
+        [
+          "SEJONG-3B-10-V1-014_card_3",
+          "많던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-014_card_0",
+          "SEJONG-3B-10-V1-014_card_1",
+          "SEJONG-3B-10-V1-014_card_2",
+          "SEJONG-3B-10-V1-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-015",
+      "displaySentence": "연날리기가 생각보다 정말 어렵던데요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-015_card_0",
+          "연날리기가"
+        ],
+        [
+          "SEJONG-3B-10-V1-015_card_1",
+          "생각보다"
+        ],
+        [
+          "SEJONG-3B-10-V1-015_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-10-V1-015_card_3",
+          "어렵던데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-015_card_0",
+          "SEJONG-3B-10-V1-015_card_1",
+          "SEJONG-3B-10-V1-015_card_2",
+          "SEJONG-3B-10-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-016",
+      "displaySentence": "소원을 빌었더니 마음이 편해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-016_card_0",
+          "소원을"
+        ],
+        [
+          "SEJONG-3B-10-V1-016_card_1",
+          "빌었더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-016_card_2",
+          "마음이"
+        ],
+        [
+          "SEJONG-3B-10-V1-016_card_3",
+          "편해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-016_card_0",
+          "SEJONG-3B-10-V1-016_card_1",
+          "SEJONG-3B-10-V1-016_card_2",
+          "SEJONG-3B-10-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-017",
+      "displaySentence": "덕담을 들었더니 기분이 좋아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-017_card_0",
+          "덕담을"
+        ],
+        [
+          "SEJONG-3B-10-V1-017_card_1",
+          "들었더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-017_card_2",
+          "기분이"
+        ],
+        [
+          "SEJONG-3B-10-V1-017_card_3",
+          "좋아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-017_card_0",
+          "SEJONG-3B-10-V1-017_card_1",
+          "SEJONG-3B-10-V1-017_card_2",
+          "SEJONG-3B-10-V1-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-018",
+      "displaySentence": "오곡밥을 먹었더니 배가 든든해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-018_card_0",
+          "오곡밥을"
+        ],
+        [
+          "SEJONG-3B-10-V1-018_card_1",
+          "먹었더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-018_card_2",
+          "배가"
+        ],
+        [
+          "SEJONG-3B-10-V1-018_card_3",
+          "든든해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-018_card_0",
+          "SEJONG-3B-10-V1-018_card_1",
+          "SEJONG-3B-10-V1-018_card_2",
+          "SEJONG-3B-10-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-019",
+      "displaySentence": "씨름을 했더니 온몸이 아파요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-019_card_0",
+          "씨름을"
+        ],
+        [
+          "SEJONG-3B-10-V1-019_card_1",
+          "했더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-019_card_2",
+          "온몸이"
+        ],
+        [
+          "SEJONG-3B-10-V1-019_card_3",
+          "아파요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-019_card_0",
+          "SEJONG-3B-10-V1-019_card_1",
+          "SEJONG-3B-10-V1-019_card_2",
+          "SEJONG-3B-10-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-10-V1-020",
+      "displaySentence": "열심히 공부했더니 시험에 합격했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-10-V1-020_card_0",
+          "열심히"
+        ],
+        [
+          "SEJONG-3B-10-V1-020_card_1",
+          "공부했더니"
+        ],
+        [
+          "SEJONG-3B-10-V1-020_card_2",
+          "시험에"
+        ],
+        [
+          "SEJONG-3B-10-V1-020_card_3",
+          "합격했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-10-V1-020_card_0",
+          "SEJONG-3B-10-V1-020_card_1",
+          "SEJONG-3B-10-V1-020_card_2",
+          "SEJONG-3B-10-V1-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 10과 문법 -던데요 / -았더니/었더니 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 10과 범위 재구성"
+    }
+  ]
+}

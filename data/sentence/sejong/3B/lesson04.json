@@ -1,0 +1,688 @@
+{
+  "book": "3B",
+  "lesson": 4,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 4과 범위",
+  "selectionPolicy": [
+    "4과 핵심 문법 -아/어 놓다·-(으)ㄴ 다음에 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-04-V1-001",
+      "displaySentence": "채소를 씻어서 썰어 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-001_card_0",
+          "채소를"
+        ],
+        [
+          "SEJONG-3B-04-V1-001_card_1",
+          "씻어서"
+        ],
+        [
+          "SEJONG-3B-04-V1-001_card_2",
+          "썰어"
+        ],
+        [
+          "SEJONG-3B-04-V1-001_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-001_card_0",
+          "SEJONG-3B-04-V1-001_card_1",
+          "SEJONG-3B-04-V1-001_card_2",
+          "SEJONG-3B-04-V1-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-002",
+      "displaySentence": "과일을 미리 깎아 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-002_card_0",
+          "과일을"
+        ],
+        [
+          "SEJONG-3B-04-V1-002_card_1",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-04-V1-002_card_2",
+          "깎아"
+        ],
+        [
+          "SEJONG-3B-04-V1-002_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-002_card_0",
+          "SEJONG-3B-04-V1-002_card_1",
+          "SEJONG-3B-04-V1-002_card_2",
+          "SEJONG-3B-04-V1-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-003",
+      "displaySentence": "접시를 식탁에 꺼내 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-003_card_0",
+          "접시를"
+        ],
+        [
+          "SEJONG-3B-04-V1-003_card_1",
+          "식탁에"
+        ],
+        [
+          "SEJONG-3B-04-V1-003_card_2",
+          "꺼내"
+        ],
+        [
+          "SEJONG-3B-04-V1-003_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-003_card_0",
+          "SEJONG-3B-04-V1-003_card_1",
+          "SEJONG-3B-04-V1-003_card_2",
+          "SEJONG-3B-04-V1-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-004",
+      "displaySentence": "마늘을 미리 다져 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-004_card_0",
+          "마늘을"
+        ],
+        [
+          "SEJONG-3B-04-V1-004_card_1",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-04-V1-004_card_2",
+          "다져"
+        ],
+        [
+          "SEJONG-3B-04-V1-004_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-004_card_0",
+          "SEJONG-3B-04-V1-004_card_1",
+          "SEJONG-3B-04-V1-004_card_2",
+          "SEJONG-3B-04-V1-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-005",
+      "displaySentence": "달걀을 미리 삶아 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-005_card_0",
+          "달걀을"
+        ],
+        [
+          "SEJONG-3B-04-V1-005_card_1",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-04-V1-005_card_2",
+          "삶아"
+        ],
+        [
+          "SEJONG-3B-04-V1-005_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-005_card_0",
+          "SEJONG-3B-04-V1-005_card_1",
+          "SEJONG-3B-04-V1-005_card_2",
+          "SEJONG-3B-04-V1-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-006",
+      "displaySentence": "채소를 씻은 다음에 썰어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-006_card_0",
+          "채소를"
+        ],
+        [
+          "SEJONG-3B-04-V1-006_card_1",
+          "씻은"
+        ],
+        [
+          "SEJONG-3B-04-V1-006_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-006_card_3",
+          "썰어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-006_card_0",
+          "SEJONG-3B-04-V1-006_card_1",
+          "SEJONG-3B-04-V1-006_card_2",
+          "SEJONG-3B-04-V1-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-007",
+      "displaySentence": "감자를 깎은 다음에 튀겨요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-007_card_0",
+          "감자를"
+        ],
+        [
+          "SEJONG-3B-04-V1-007_card_1",
+          "깎은"
+        ],
+        [
+          "SEJONG-3B-04-V1-007_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-007_card_3",
+          "튀겨요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-007_card_0",
+          "SEJONG-3B-04-V1-007_card_1",
+          "SEJONG-3B-04-V1-007_card_2",
+          "SEJONG-3B-04-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-008",
+      "displaySentence": "마늘을 다진 다음에 볶아요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-008_card_0",
+          "마늘을"
+        ],
+        [
+          "SEJONG-3B-04-V1-008_card_1",
+          "다진"
+        ],
+        [
+          "SEJONG-3B-04-V1-008_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-008_card_3",
+          "볶아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-008_card_0",
+          "SEJONG-3B-04-V1-008_card_1",
+          "SEJONG-3B-04-V1-008_card_2",
+          "SEJONG-3B-04-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-009",
+      "displaySentence": "생선을 손질한 다음에 구워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-009_card_0",
+          "생선을"
+        ],
+        [
+          "SEJONG-3B-04-V1-009_card_1",
+          "손질한"
+        ],
+        [
+          "SEJONG-3B-04-V1-009_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-009_card_3",
+          "구워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-009_card_0",
+          "SEJONG-3B-04-V1-009_card_1",
+          "SEJONG-3B-04-V1-009_card_2",
+          "SEJONG-3B-04-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-010",
+      "displaySentence": "만두를 만든 다음에 쪄요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-010_card_0",
+          "만두를"
+        ],
+        [
+          "SEJONG-3B-04-V1-010_card_1",
+          "만든"
+        ],
+        [
+          "SEJONG-3B-04-V1-010_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-010_card_3",
+          "쪄요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-010_card_0",
+          "SEJONG-3B-04-V1-010_card_1",
+          "SEJONG-3B-04-V1-010_card_2",
+          "SEJONG-3B-04-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-011",
+      "displaySentence": "냄비에 물을 받아 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-011_card_0",
+          "냄비에"
+        ],
+        [
+          "SEJONG-3B-04-V1-011_card_1",
+          "물을"
+        ],
+        [
+          "SEJONG-3B-04-V1-011_card_2",
+          "받아"
+        ],
+        [
+          "SEJONG-3B-04-V1-011_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-011_card_0",
+          "SEJONG-3B-04-V1-011_card_1",
+          "SEJONG-3B-04-V1-011_card_2",
+          "SEJONG-3B-04-V1-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-012",
+      "displaySentence": "전자레인지에 데울 음식을 준비해 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-012_card_0",
+          "전자레인지에"
+        ],
+        [
+          "SEJONG-3B-04-V1-012_card_1",
+          "데울"
+        ],
+        [
+          "SEJONG-3B-04-V1-012_card_2",
+          "음식을"
+        ],
+        [
+          "SEJONG-3B-04-V1-012_card_3",
+          "준비해"
+        ],
+        [
+          "SEJONG-3B-04-V1-012_card_4",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-012_card_0",
+          "SEJONG-3B-04-V1-012_card_1",
+          "SEJONG-3B-04-V1-012_card_2",
+          "SEJONG-3B-04-V1-012_card_3",
+          "SEJONG-3B-04-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-013",
+      "displaySentence": "손님이 오기 전에 그릇을 차려 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-013_card_0",
+          "손님이"
+        ],
+        [
+          "SEJONG-3B-04-V1-013_card_1",
+          "오기"
+        ],
+        [
+          "SEJONG-3B-04-V1-013_card_2",
+          "전에"
+        ],
+        [
+          "SEJONG-3B-04-V1-013_card_3",
+          "그릇을"
+        ],
+        [
+          "SEJONG-3B-04-V1-013_card_4",
+          "차려"
+        ],
+        [
+          "SEJONG-3B-04-V1-013_card_5",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-013_card_0",
+          "SEJONG-3B-04-V1-013_card_1",
+          "SEJONG-3B-04-V1-013_card_2",
+          "SEJONG-3B-04-V1-013_card_3",
+          "SEJONG-3B-04-V1-013_card_4",
+          "SEJONG-3B-04-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-014",
+      "displaySentence": "올리브유를 미리 꺼내 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-014_card_0",
+          "올리브유를"
+        ],
+        [
+          "SEJONG-3B-04-V1-014_card_1",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-04-V1-014_card_2",
+          "꺼내"
+        ],
+        [
+          "SEJONG-3B-04-V1-014_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-014_card_0",
+          "SEJONG-3B-04-V1-014_card_1",
+          "SEJONG-3B-04-V1-014_card_2",
+          "SEJONG-3B-04-V1-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-015",
+      "displaySentence": "포크와 숟가락을 놓아 놓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-015_card_0",
+          "포크와"
+        ],
+        [
+          "SEJONG-3B-04-V1-015_card_1",
+          "숟가락을"
+        ],
+        [
+          "SEJONG-3B-04-V1-015_card_2",
+          "놓아"
+        ],
+        [
+          "SEJONG-3B-04-V1-015_card_3",
+          "놓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-015_card_0",
+          "SEJONG-3B-04-V1-015_card_1",
+          "SEJONG-3B-04-V1-015_card_2",
+          "SEJONG-3B-04-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-016",
+      "displaySentence": "요리를 한 다음에 설거지해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-016_card_0",
+          "요리를"
+        ],
+        [
+          "SEJONG-3B-04-V1-016_card_1",
+          "한"
+        ],
+        [
+          "SEJONG-3B-04-V1-016_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-016_card_3",
+          "설거지해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-016_card_0",
+          "SEJONG-3B-04-V1-016_card_1",
+          "SEJONG-3B-04-V1-016_card_2",
+          "SEJONG-3B-04-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-017",
+      "displaySentence": "껍질을 벗긴 다음에 채를 썰어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-017_card_0",
+          "껍질을"
+        ],
+        [
+          "SEJONG-3B-04-V1-017_card_1",
+          "벗긴"
+        ],
+        [
+          "SEJONG-3B-04-V1-017_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-017_card_3",
+          "채를"
+        ],
+        [
+          "SEJONG-3B-04-V1-017_card_4",
+          "썰어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-017_card_0",
+          "SEJONG-3B-04-V1-017_card_1",
+          "SEJONG-3B-04-V1-017_card_2",
+          "SEJONG-3B-04-V1-017_card_3",
+          "SEJONG-3B-04-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-018",
+      "displaySentence": "재료를 준비한 다음에 요리를 시작해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-018_card_0",
+          "재료를"
+        ],
+        [
+          "SEJONG-3B-04-V1-018_card_1",
+          "준비한"
+        ],
+        [
+          "SEJONG-3B-04-V1-018_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-018_card_3",
+          "요리를"
+        ],
+        [
+          "SEJONG-3B-04-V1-018_card_4",
+          "시작해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-018_card_0",
+          "SEJONG-3B-04-V1-018_card_1",
+          "SEJONG-3B-04-V1-018_card_2",
+          "SEJONG-3B-04-V1-018_card_3",
+          "SEJONG-3B-04-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-019",
+      "displaySentence": "가스레인지를 끈 다음에 확인해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-019_card_0",
+          "가스레인지를"
+        ],
+        [
+          "SEJONG-3B-04-V1-019_card_1",
+          "끈"
+        ],
+        [
+          "SEJONG-3B-04-V1-019_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-019_card_3",
+          "확인해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-019_card_0",
+          "SEJONG-3B-04-V1-019_card_1",
+          "SEJONG-3B-04-V1-019_card_2",
+          "SEJONG-3B-04-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-04-V1-020",
+      "displaySentence": "음식을 차린 다음에 가족을 불러요.",
+      "tokens": [
+        [
+          "SEJONG-3B-04-V1-020_card_0",
+          "음식을"
+        ],
+        [
+          "SEJONG-3B-04-V1-020_card_1",
+          "차린"
+        ],
+        [
+          "SEJONG-3B-04-V1-020_card_2",
+          "다음에"
+        ],
+        [
+          "SEJONG-3B-04-V1-020_card_3",
+          "가족을"
+        ],
+        [
+          "SEJONG-3B-04-V1-020_card_4",
+          "불러요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-04-V1-020_card_0",
+          "SEJONG-3B-04-V1-020_card_1",
+          "SEJONG-3B-04-V1-020_card_2",
+          "SEJONG-3B-04-V1-020_card_3",
+          "SEJONG-3B-04-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 4과 문법 -아/어 놓다 / -(으)ㄴ 다음에 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 4과 범위 재구성"
+    }
+  ]
+}

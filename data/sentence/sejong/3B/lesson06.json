@@ -1,0 +1,683 @@
+{
+  "book": "3B",
+  "lesson": 6,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 6과 범위",
+  "selectionPolicy": [
+    "6과 핵심 문법 -았었/었었-·-(으)ㄹ 걸 그랬다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-06-V1-001",
+      "displaySentence": "예전에는 친구와 자주 싸웠었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-001_card_0",
+          "예전에는"
+        ],
+        [
+          "SEJONG-3B-06-V1-001_card_1",
+          "친구와"
+        ],
+        [
+          "SEJONG-3B-06-V1-001_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-3B-06-V1-001_card_3",
+          "싸웠었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-001_card_0",
+          "SEJONG-3B-06-V1-001_card_1",
+          "SEJONG-3B-06-V1-001_card_2",
+          "SEJONG-3B-06-V1-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-002",
+      "displaySentence": "학생 때 말실수를 많이 했었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-002_card_0",
+          "학생"
+        ],
+        [
+          "SEJONG-3B-06-V1-002_card_1",
+          "때"
+        ],
+        [
+          "SEJONG-3B-06-V1-002_card_2",
+          "말실수를"
+        ],
+        [
+          "SEJONG-3B-06-V1-002_card_3",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-06-V1-002_card_4",
+          "했었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-002_card_0",
+          "SEJONG-3B-06-V1-002_card_1",
+          "SEJONG-3B-06-V1-002_card_2",
+          "SEJONG-3B-06-V1-002_card_3",
+          "SEJONG-3B-06-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-003",
+      "displaySentence": "어릴 때는 높임말을 잘 몰랐었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-003_card_0",
+          "어릴"
+        ],
+        [
+          "SEJONG-3B-06-V1-003_card_1",
+          "때는"
+        ],
+        [
+          "SEJONG-3B-06-V1-003_card_2",
+          "높임말을"
+        ],
+        [
+          "SEJONG-3B-06-V1-003_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-3B-06-V1-003_card_4",
+          "몰랐었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-003_card_0",
+          "SEJONG-3B-06-V1-003_card_1",
+          "SEJONG-3B-06-V1-003_card_2",
+          "SEJONG-3B-06-V1-003_card_3",
+          "SEJONG-3B-06-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-004",
+      "displaySentence": "전에는 사과하는 것을 어려워했었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-004_card_0",
+          "전에는"
+        ],
+        [
+          "SEJONG-3B-06-V1-004_card_1",
+          "사과하는"
+        ],
+        [
+          "SEJONG-3B-06-V1-004_card_2",
+          "것을"
+        ],
+        [
+          "SEJONG-3B-06-V1-004_card_3",
+          "어려워했었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-004_card_0",
+          "SEJONG-3B-06-V1-004_card_1",
+          "SEJONG-3B-06-V1-004_card_2",
+          "SEJONG-3B-06-V1-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-005",
+      "displaySentence": "예전에는 회의를 자주 미뤘었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-005_card_0",
+          "예전에는"
+        ],
+        [
+          "SEJONG-3B-06-V1-005_card_1",
+          "회의를"
+        ],
+        [
+          "SEJONG-3B-06-V1-005_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-3B-06-V1-005_card_3",
+          "미뤘었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-005_card_0",
+          "SEJONG-3B-06-V1-005_card_1",
+          "SEJONG-3B-06-V1-005_card_2",
+          "SEJONG-3B-06-V1-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-006",
+      "displaySentence": "제가 좀 참을걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-006_card_0",
+          "제가"
+        ],
+        [
+          "SEJONG-3B-06-V1-006_card_1",
+          "좀"
+        ],
+        [
+          "SEJONG-3B-06-V1-006_card_2",
+          "참을걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-006_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-006_card_0",
+          "SEJONG-3B-06-V1-006_card_1",
+          "SEJONG-3B-06-V1-006_card_2",
+          "SEJONG-3B-06-V1-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-007",
+      "displaySentence": "친구에게 바로 사과할걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-007_card_0",
+          "친구에게"
+        ],
+        [
+          "SEJONG-3B-06-V1-007_card_1",
+          "바로"
+        ],
+        [
+          "SEJONG-3B-06-V1-007_card_2",
+          "사과할걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-007_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-007_card_0",
+          "SEJONG-3B-06-V1-007_card_1",
+          "SEJONG-3B-06-V1-007_card_2",
+          "SEJONG-3B-06-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-008",
+      "displaySentence": "말실수를 하지 말걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-008_card_0",
+          "말실수를"
+        ],
+        [
+          "SEJONG-3B-06-V1-008_card_1",
+          "하지"
+        ],
+        [
+          "SEJONG-3B-06-V1-008_card_2",
+          "말걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-008_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-008_card_0",
+          "SEJONG-3B-06-V1-008_card_1",
+          "SEJONG-3B-06-V1-008_card_2",
+          "SEJONG-3B-06-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-009",
+      "displaySentence": "비밀을 말하지 말걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-009_card_0",
+          "비밀을"
+        ],
+        [
+          "SEJONG-3B-06-V1-009_card_1",
+          "말하지"
+        ],
+        [
+          "SEJONG-3B-06-V1-009_card_2",
+          "말걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-009_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-009_card_0",
+          "SEJONG-3B-06-V1-009_card_1",
+          "SEJONG-3B-06-V1-009_card_2",
+          "SEJONG-3B-06-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-010",
+      "displaySentence": "조금 더 정확하게 설명할걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-010_card_0",
+          "조금"
+        ],
+        [
+          "SEJONG-3B-06-V1-010_card_1",
+          "더"
+        ],
+        [
+          "SEJONG-3B-06-V1-010_card_2",
+          "정확하게"
+        ],
+        [
+          "SEJONG-3B-06-V1-010_card_3",
+          "설명할걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-010_card_4",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-010_card_0",
+          "SEJONG-3B-06-V1-010_card_1",
+          "SEJONG-3B-06-V1-010_card_2",
+          "SEJONG-3B-06-V1-010_card_3",
+          "SEJONG-3B-06-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-011",
+      "displaySentence": "예전에는 생활비를 많이 아꼈었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-011_card_0",
+          "예전에는"
+        ],
+        [
+          "SEJONG-3B-06-V1-011_card_1",
+          "생활비를"
+        ],
+        [
+          "SEJONG-3B-06-V1-011_card_2",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-06-V1-011_card_3",
+          "아꼈었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-011_card_0",
+          "SEJONG-3B-06-V1-011_card_1",
+          "SEJONG-3B-06-V1-011_card_2",
+          "SEJONG-3B-06-V1-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-012",
+      "displaySentence": "처음에는 그 말을 오해했었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-012_card_0",
+          "처음에는"
+        ],
+        [
+          "SEJONG-3B-06-V1-012_card_1",
+          "그"
+        ],
+        [
+          "SEJONG-3B-06-V1-012_card_2",
+          "말을"
+        ],
+        [
+          "SEJONG-3B-06-V1-012_card_3",
+          "오해했었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-012_card_0",
+          "SEJONG-3B-06-V1-012_card_1",
+          "SEJONG-3B-06-V1-012_card_2",
+          "SEJONG-3B-06-V1-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-013",
+      "displaySentence": "그때는 정말 용기가 없었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-013_card_0",
+          "그때는"
+        ],
+        [
+          "SEJONG-3B-06-V1-013_card_1",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-06-V1-013_card_2",
+          "용기가"
+        ],
+        [
+          "SEJONG-3B-06-V1-013_card_3",
+          "없었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-013_card_0",
+          "SEJONG-3B-06-V1-013_card_1",
+          "SEJONG-3B-06-V1-013_card_2",
+          "SEJONG-3B-06-V1-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-014",
+      "displaySentence": "전에는 친구와 말다툼을 자주 했었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-014_card_0",
+          "전에는"
+        ],
+        [
+          "SEJONG-3B-06-V1-014_card_1",
+          "친구와"
+        ],
+        [
+          "SEJONG-3B-06-V1-014_card_2",
+          "말다툼을"
+        ],
+        [
+          "SEJONG-3B-06-V1-014_card_3",
+          "자주"
+        ],
+        [
+          "SEJONG-3B-06-V1-014_card_4",
+          "했었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-014_card_0",
+          "SEJONG-3B-06-V1-014_card_1",
+          "SEJONG-3B-06-V1-014_card_2",
+          "SEJONG-3B-06-V1-014_card_3",
+          "SEJONG-3B-06-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-015",
+      "displaySentence": "예전에는 입이 가벼운 편이었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-015_card_0",
+          "예전에는"
+        ],
+        [
+          "SEJONG-3B-06-V1-015_card_1",
+          "입이"
+        ],
+        [
+          "SEJONG-3B-06-V1-015_card_2",
+          "가벼운"
+        ],
+        [
+          "SEJONG-3B-06-V1-015_card_3",
+          "편이었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-015_card_0",
+          "SEJONG-3B-06-V1-015_card_1",
+          "SEJONG-3B-06-V1-015_card_2",
+          "SEJONG-3B-06-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-016",
+      "displaySentence": "화를 내지 말걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-016_card_0",
+          "화를"
+        ],
+        [
+          "SEJONG-3B-06-V1-016_card_1",
+          "내지"
+        ],
+        [
+          "SEJONG-3B-06-V1-016_card_2",
+          "말걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-016_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-016_card_0",
+          "SEJONG-3B-06-V1-016_card_1",
+          "SEJONG-3B-06-V1-016_card_2",
+          "SEJONG-3B-06-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-017",
+      "displaySentence": "먼저 오해를 풀걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-017_card_0",
+          "먼저"
+        ],
+        [
+          "SEJONG-3B-06-V1-017_card_1",
+          "오해를"
+        ],
+        [
+          "SEJONG-3B-06-V1-017_card_2",
+          "풀걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-017_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-017_card_0",
+          "SEJONG-3B-06-V1-017_card_1",
+          "SEJONG-3B-06-V1-017_card_2",
+          "SEJONG-3B-06-V1-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-018",
+      "displaySentence": "회의를 미루지 말걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-018_card_0",
+          "회의를"
+        ],
+        [
+          "SEJONG-3B-06-V1-018_card_1",
+          "미루지"
+        ],
+        [
+          "SEJONG-3B-06-V1-018_card_2",
+          "말걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-018_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-018_card_0",
+          "SEJONG-3B-06-V1-018_card_1",
+          "SEJONG-3B-06-V1-018_card_2",
+          "SEJONG-3B-06-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-019",
+      "displaySentence": "친구의 말을 끝까지 들을걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-019_card_0",
+          "친구의"
+        ],
+        [
+          "SEJONG-3B-06-V1-019_card_1",
+          "말을"
+        ],
+        [
+          "SEJONG-3B-06-V1-019_card_2",
+          "끝까지"
+        ],
+        [
+          "SEJONG-3B-06-V1-019_card_3",
+          "들을걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-019_card_4",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-019_card_0",
+          "SEJONG-3B-06-V1-019_card_1",
+          "SEJONG-3B-06-V1-019_card_2",
+          "SEJONG-3B-06-V1-019_card_3",
+          "SEJONG-3B-06-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-06-V1-020",
+      "displaySentence": "부품을 바로 확인할걸 그랬어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-06-V1-020_card_0",
+          "부품을"
+        ],
+        [
+          "SEJONG-3B-06-V1-020_card_1",
+          "바로"
+        ],
+        [
+          "SEJONG-3B-06-V1-020_card_2",
+          "확인할걸"
+        ],
+        [
+          "SEJONG-3B-06-V1-020_card_3",
+          "그랬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-06-V1-020_card_0",
+          "SEJONG-3B-06-V1-020_card_1",
+          "SEJONG-3B-06-V1-020_card_2",
+          "SEJONG-3B-06-V1-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 6과 문법 -았었/었었- / -(으)ㄹ 걸 그랬다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 6과 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+{
+  "book": "3B",
+  "lesson": 2,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 2과 범위",
+  "selectionPolicy": [
+    "2과 핵심 문법 -(으)ㄹ까 봐·-(으)ㄹ 텐데 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-02-V1-001",
+      "displaySentence": "표가 매진될까 봐 미리 예매했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-001_card_0",
+          "표가"
+        ],
+        [
+          "SEJONG-3B-02-V1-001_card_1",
+          "매진될까"
+        ],
+        [
+          "SEJONG-3B-02-V1-001_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-001_card_3",
+          "미리"
+        ],
+        [
+          "SEJONG-3B-02-V1-001_card_4",
+          "예매했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-001_card_0",
+          "SEJONG-3B-02-V1-001_card_1",
+          "SEJONG-3B-02-V1-001_card_2",
+          "SEJONG-3B-02-V1-001_card_3",
+          "SEJONG-3B-02-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-002",
+      "displaySentence": "공연에 늦을까 봐 일찍 출발했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-002_card_0",
+          "공연에"
+        ],
+        [
+          "SEJONG-3B-02-V1-002_card_1",
+          "늦을까"
+        ],
+        [
+          "SEJONG-3B-02-V1-002_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-002_card_3",
+          "일찍"
+        ],
+        [
+          "SEJONG-3B-02-V1-002_card_4",
+          "출발했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-002_card_0",
+          "SEJONG-3B-02-V1-002_card_1",
+          "SEJONG-3B-02-V1-002_card_2",
+          "SEJONG-3B-02-V1-002_card_3",
+          "SEJONG-3B-02-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-003",
+      "displaySentence": "사인회를 놓칠까 봐 서둘렀어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-003_card_0",
+          "사인회를"
+        ],
+        [
+          "SEJONG-3B-02-V1-003_card_1",
+          "놓칠까"
+        ],
+        [
+          "SEJONG-3B-02-V1-003_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-003_card_3",
+          "서둘렀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-003_card_0",
+          "SEJONG-3B-02-V1-003_card_1",
+          "SEJONG-3B-02-V1-003_card_2",
+          "SEJONG-3B-02-V1-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-004",
+      "displaySentence": "팬 미팅에 사람이 많을까 봐 걱정했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-004_card_0",
+          "팬"
+        ],
+        [
+          "SEJONG-3B-02-V1-004_card_1",
+          "미팅에"
+        ],
+        [
+          "SEJONG-3B-02-V1-004_card_2",
+          "사람이"
+        ],
+        [
+          "SEJONG-3B-02-V1-004_card_3",
+          "많을까"
+        ],
+        [
+          "SEJONG-3B-02-V1-004_card_4",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-004_card_5",
+          "걱정했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-004_card_0",
+          "SEJONG-3B-02-V1-004_card_1",
+          "SEJONG-3B-02-V1-004_card_2",
+          "SEJONG-3B-02-V1-004_card_3",
+          "SEJONG-3B-02-V1-004_card_4",
+          "SEJONG-3B-02-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-005",
+      "displaySentence": "비가 올까 봐 우산을 가져왔어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-005_card_0",
+          "비가"
+        ],
+        [
+          "SEJONG-3B-02-V1-005_card_1",
+          "올까"
+        ],
+        [
+          "SEJONG-3B-02-V1-005_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-005_card_3",
+          "우산을"
+        ],
+        [
+          "SEJONG-3B-02-V1-005_card_4",
+          "가져왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-005_card_0",
+          "SEJONG-3B-02-V1-005_card_1",
+          "SEJONG-3B-02-V1-005_card_2",
+          "SEJONG-3B-02-V1-005_card_3",
+          "SEJONG-3B-02-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-006",
+      "displaySentence": "티켓을 구하기 어려웠을 텐데 어떻게 샀어요?",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-006_card_0",
+          "티켓을"
+        ],
+        [
+          "SEJONG-3B-02-V1-006_card_1",
+          "구하기"
+        ],
+        [
+          "SEJONG-3B-02-V1-006_card_2",
+          "어려웠을"
+        ],
+        [
+          "SEJONG-3B-02-V1-006_card_3",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-006_card_4",
+          "어떻게"
+        ],
+        [
+          "SEJONG-3B-02-V1-006_card_5",
+          "샀어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-006_card_0",
+          "SEJONG-3B-02-V1-006_card_1",
+          "SEJONG-3B-02-V1-006_card_2",
+          "SEJONG-3B-02-V1-006_card_3",
+          "SEJONG-3B-02-V1-006_card_4",
+          "SEJONG-3B-02-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-007",
+      "displaySentence": "콘서트가 재미있었을 텐데 어땠어요?",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-007_card_0",
+          "콘서트가"
+        ],
+        [
+          "SEJONG-3B-02-V1-007_card_1",
+          "재미있었을"
+        ],
+        [
+          "SEJONG-3B-02-V1-007_card_2",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-007_card_3",
+          "어땠어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-007_card_0",
+          "SEJONG-3B-02-V1-007_card_1",
+          "SEJONG-3B-02-V1-007_card_2",
+          "SEJONG-3B-02-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-008",
+      "displaySentence": "표가 비쌌을 텐데 두 장이나 샀어요?",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-008_card_0",
+          "표가"
+        ],
+        [
+          "SEJONG-3B-02-V1-008_card_1",
+          "비쌌을"
+        ],
+        [
+          "SEJONG-3B-02-V1-008_card_2",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-008_card_3",
+          "두"
+        ],
+        [
+          "SEJONG-3B-02-V1-008_card_4",
+          "장이나"
+        ],
+        [
+          "SEJONG-3B-02-V1-008_card_5",
+          "샀어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-008_card_0",
+          "SEJONG-3B-02-V1-008_card_1",
+          "SEJONG-3B-02-V1-008_card_2",
+          "SEJONG-3B-02-V1-008_card_3",
+          "SEJONG-3B-02-V1-008_card_4",
+          "SEJONG-3B-02-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-009",
+      "displaySentence": "공연장이 복잡했을 텐데 잘 찾았어요?",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-009_card_0",
+          "공연장이"
+        ],
+        [
+          "SEJONG-3B-02-V1-009_card_1",
+          "복잡했을"
+        ],
+        [
+          "SEJONG-3B-02-V1-009_card_2",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-009_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-3B-02-V1-009_card_4",
+          "찾았어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-009_card_0",
+          "SEJONG-3B-02-V1-009_card_1",
+          "SEJONG-3B-02-V1-009_card_2",
+          "SEJONG-3B-02-V1-009_card_3",
+          "SEJONG-3B-02-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-010",
+      "displaySentence": "팬이 많았을 텐데 가까이에서 봤어요?",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-010_card_0",
+          "팬이"
+        ],
+        [
+          "SEJONG-3B-02-V1-010_card_1",
+          "많았을"
+        ],
+        [
+          "SEJONG-3B-02-V1-010_card_2",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-010_card_3",
+          "가까이에서"
+        ],
+        [
+          "SEJONG-3B-02-V1-010_card_4",
+          "봤어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-010_card_0",
+          "SEJONG-3B-02-V1-010_card_1",
+          "SEJONG-3B-02-V1-010_card_2",
+          "SEJONG-3B-02-V1-010_card_3",
+          "SEJONG-3B-02-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-011",
+      "displaySentence": "기념품이 품절될까 봐 일찍 샀어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-011_card_0",
+          "기념품이"
+        ],
+        [
+          "SEJONG-3B-02-V1-011_card_1",
+          "품절될까"
+        ],
+        [
+          "SEJONG-3B-02-V1-011_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-011_card_3",
+          "일찍"
+        ],
+        [
+          "SEJONG-3B-02-V1-011_card_4",
+          "샀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-011_card_0",
+          "SEJONG-3B-02-V1-011_card_1",
+          "SEJONG-3B-02-V1-011_card_2",
+          "SEJONG-3B-02-V1-011_card_3",
+          "SEJONG-3B-02-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-012",
+      "displaySentence": "길을 잃을까 봐 지도를 준비했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-012_card_0",
+          "길을"
+        ],
+        [
+          "SEJONG-3B-02-V1-012_card_1",
+          "잃을까"
+        ],
+        [
+          "SEJONG-3B-02-V1-012_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-012_card_3",
+          "지도를"
+        ],
+        [
+          "SEJONG-3B-02-V1-012_card_4",
+          "준비했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-012_card_0",
+          "SEJONG-3B-02-V1-012_card_1",
+          "SEJONG-3B-02-V1-012_card_2",
+          "SEJONG-3B-02-V1-012_card_3",
+          "SEJONG-3B-02-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-013",
+      "displaySentence": "날씨가 추울까 봐 두꺼운 옷을 입었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-013_card_0",
+          "날씨가"
+        ],
+        [
+          "SEJONG-3B-02-V1-013_card_1",
+          "추울까"
+        ],
+        [
+          "SEJONG-3B-02-V1-013_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-013_card_3",
+          "두꺼운"
+        ],
+        [
+          "SEJONG-3B-02-V1-013_card_4",
+          "옷을"
+        ],
+        [
+          "SEJONG-3B-02-V1-013_card_5",
+          "입었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-013_card_0",
+          "SEJONG-3B-02-V1-013_card_1",
+          "SEJONG-3B-02-V1-013_card_2",
+          "SEJONG-3B-02-V1-013_card_3",
+          "SEJONG-3B-02-V1-013_card_4",
+          "SEJONG-3B-02-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-014",
+      "displaySentence": "공연이 취소될까 봐 계속 확인했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-014_card_0",
+          "공연이"
+        ],
+        [
+          "SEJONG-3B-02-V1-014_card_1",
+          "취소될까"
+        ],
+        [
+          "SEJONG-3B-02-V1-014_card_2",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-014_card_3",
+          "계속"
+        ],
+        [
+          "SEJONG-3B-02-V1-014_card_4",
+          "확인했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-014_card_0",
+          "SEJONG-3B-02-V1-014_card_1",
+          "SEJONG-3B-02-V1-014_card_2",
+          "SEJONG-3B-02-V1-014_card_3",
+          "SEJONG-3B-02-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-015",
+      "displaySentence": "사진을 못 찍을까 봐 충전기를 가져갔어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-015_card_0",
+          "사진을"
+        ],
+        [
+          "SEJONG-3B-02-V1-015_card_1",
+          "못"
+        ],
+        [
+          "SEJONG-3B-02-V1-015_card_2",
+          "찍을까"
+        ],
+        [
+          "SEJONG-3B-02-V1-015_card_3",
+          "봐"
+        ],
+        [
+          "SEJONG-3B-02-V1-015_card_4",
+          "충전기를"
+        ],
+        [
+          "SEJONG-3B-02-V1-015_card_5",
+          "가져갔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-015_card_0",
+          "SEJONG-3B-02-V1-015_card_1",
+          "SEJONG-3B-02-V1-015_card_2",
+          "SEJONG-3B-02-V1-015_card_3",
+          "SEJONG-3B-02-V1-015_card_4",
+          "SEJONG-3B-02-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-016",
+      "displaySentence": "커버 댄스가 어려웠을 텐데 잘 췄네요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-016_card_0",
+          "커버"
+        ],
+        [
+          "SEJONG-3B-02-V1-016_card_1",
+          "댄스가"
+        ],
+        [
+          "SEJONG-3B-02-V1-016_card_2",
+          "어려웠을"
+        ],
+        [
+          "SEJONG-3B-02-V1-016_card_3",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-016_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-3B-02-V1-016_card_5",
+          "췄네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-016_card_0",
+          "SEJONG-3B-02-V1-016_card_1",
+          "SEJONG-3B-02-V1-016_card_2",
+          "SEJONG-3B-02-V1-016_card_3",
+          "SEJONG-3B-02-V1-016_card_4",
+          "SEJONG-3B-02-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-017",
+      "displaySentence": "단체 응원이 힘들었을 텐데 끝까지 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-017_card_0",
+          "단체"
+        ],
+        [
+          "SEJONG-3B-02-V1-017_card_1",
+          "응원이"
+        ],
+        [
+          "SEJONG-3B-02-V1-017_card_2",
+          "힘들었을"
+        ],
+        [
+          "SEJONG-3B-02-V1-017_card_3",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-017_card_4",
+          "끝까지"
+        ],
+        [
+          "SEJONG-3B-02-V1-017_card_5",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-017_card_0",
+          "SEJONG-3B-02-V1-017_card_1",
+          "SEJONG-3B-02-V1-017_card_2",
+          "SEJONG-3B-02-V1-017_card_3",
+          "SEJONG-3B-02-V1-017_card_4",
+          "SEJONG-3B-02-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-018",
+      "displaySentence": "콘서트가 늦게 끝났을 텐데 집에 잘 갔어요?",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-018_card_0",
+          "콘서트가"
+        ],
+        [
+          "SEJONG-3B-02-V1-018_card_1",
+          "늦게"
+        ],
+        [
+          "SEJONG-3B-02-V1-018_card_2",
+          "끝났을"
+        ],
+        [
+          "SEJONG-3B-02-V1-018_card_3",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-018_card_4",
+          "집에"
+        ],
+        [
+          "SEJONG-3B-02-V1-018_card_5",
+          "잘"
+        ],
+        [
+          "SEJONG-3B-02-V1-018_card_6",
+          "갔어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-018_card_0",
+          "SEJONG-3B-02-V1-018_card_1",
+          "SEJONG-3B-02-V1-018_card_2",
+          "SEJONG-3B-02-V1-018_card_3",
+          "SEJONG-3B-02-V1-018_card_4",
+          "SEJONG-3B-02-V1-018_card_5",
+          "SEJONG-3B-02-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-019",
+      "displaySentence": "팬클럽 가입이 복잡했을 텐데 괜찮았어요?",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-019_card_0",
+          "팬클럽"
+        ],
+        [
+          "SEJONG-3B-02-V1-019_card_1",
+          "가입이"
+        ],
+        [
+          "SEJONG-3B-02-V1-019_card_2",
+          "복잡했을"
+        ],
+        [
+          "SEJONG-3B-02-V1-019_card_3",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-019_card_4",
+          "괜찮았어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-019_card_0",
+          "SEJONG-3B-02-V1-019_card_1",
+          "SEJONG-3B-02-V1-019_card_2",
+          "SEJONG-3B-02-V1-019_card_3",
+          "SEJONG-3B-02-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-02-V1-020",
+      "displaySentence": "표를 예매하느라 바빴을 텐데 고생했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-02-V1-020_card_0",
+          "표를"
+        ],
+        [
+          "SEJONG-3B-02-V1-020_card_1",
+          "예매하느라"
+        ],
+        [
+          "SEJONG-3B-02-V1-020_card_2",
+          "바빴을"
+        ],
+        [
+          "SEJONG-3B-02-V1-020_card_3",
+          "텐데"
+        ],
+        [
+          "SEJONG-3B-02-V1-020_card_4",
+          "고생했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-02-V1-020_card_0",
+          "SEJONG-3B-02-V1-020_card_1",
+          "SEJONG-3B-02-V1-020_card_2",
+          "SEJONG-3B-02-V1-020_card_3",
+          "SEJONG-3B-02-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 2과 문법 -(으)ㄹ까 봐 / -(으)ㄹ 텐데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 2과 범위 재구성"
+    }
+  ]
+}

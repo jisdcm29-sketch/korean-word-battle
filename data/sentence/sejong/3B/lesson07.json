@@ -1,0 +1,793 @@
+{
+  "book": "3B",
+  "lesson": 7,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 7과 범위",
+  "selectionPolicy": [
+    "7과 핵심 문법 -아/어 가지고·-는다거나/-다거나 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-07-V1-001",
+      "displaySentence": "친구들이 모여 가지고 동호회를 만들었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-001_card_0",
+          "친구들이"
+        ],
+        [
+          "SEJONG-3B-07-V1-001_card_1",
+          "모여"
+        ],
+        [
+          "SEJONG-3B-07-V1-001_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-001_card_3",
+          "동호회를"
+        ],
+        [
+          "SEJONG-3B-07-V1-001_card_4",
+          "만들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-001_card_0",
+          "SEJONG-3B-07-V1-001_card_1",
+          "SEJONG-3B-07-V1-001_card_2",
+          "SEJONG-3B-07-V1-001_card_3",
+          "SEJONG-3B-07-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-002",
+      "displaySentence": "회비를 내 가지고 모임에 참가했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-002_card_0",
+          "회비를"
+        ],
+        [
+          "SEJONG-3B-07-V1-002_card_1",
+          "내"
+        ],
+        [
+          "SEJONG-3B-07-V1-002_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-002_card_3",
+          "모임에"
+        ],
+        [
+          "SEJONG-3B-07-V1-002_card_4",
+          "참가했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-002_card_0",
+          "SEJONG-3B-07-V1-002_card_1",
+          "SEJONG-3B-07-V1-002_card_2",
+          "SEJONG-3B-07-V1-002_card_3",
+          "SEJONG-3B-07-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-003",
+      "displaySentence": "정보를 공유해 가지고 도움이 많이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-003_card_0",
+          "정보를"
+        ],
+        [
+          "SEJONG-3B-07-V1-003_card_1",
+          "공유해"
+        ],
+        [
+          "SEJONG-3B-07-V1-003_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-003_card_3",
+          "도움이"
+        ],
+        [
+          "SEJONG-3B-07-V1-003_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-07-V1-003_card_5",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-003_card_0",
+          "SEJONG-3B-07-V1-003_card_1",
+          "SEJONG-3B-07-V1-003_card_2",
+          "SEJONG-3B-07-V1-003_card_3",
+          "SEJONG-3B-07-V1-003_card_4",
+          "SEJONG-3B-07-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-004",
+      "displaySentence": "사람들과 어울려 가지고 친목을 쌓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-004_card_0",
+          "사람들과"
+        ],
+        [
+          "SEJONG-3B-07-V1-004_card_1",
+          "어울려"
+        ],
+        [
+          "SEJONG-3B-07-V1-004_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-004_card_3",
+          "친목을"
+        ],
+        [
+          "SEJONG-3B-07-V1-004_card_4",
+          "쌓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-004_card_0",
+          "SEJONG-3B-07-V1-004_card_1",
+          "SEJONG-3B-07-V1-004_card_2",
+          "SEJONG-3B-07-V1-004_card_3",
+          "SEJONG-3B-07-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-005",
+      "displaySentence": "회원들을 모집해 가지고 활동을 시작했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-005_card_0",
+          "회원들을"
+        ],
+        [
+          "SEJONG-3B-07-V1-005_card_1",
+          "모집해"
+        ],
+        [
+          "SEJONG-3B-07-V1-005_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-005_card_3",
+          "활동을"
+        ],
+        [
+          "SEJONG-3B-07-V1-005_card_4",
+          "시작했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-005_card_0",
+          "SEJONG-3B-07-V1-005_card_1",
+          "SEJONG-3B-07-V1-005_card_2",
+          "SEJONG-3B-07-V1-005_card_3",
+          "SEJONG-3B-07-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-006",
+      "displaySentence": "주말에는 캠핑을 간다거나 낚시를 해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-006_card_0",
+          "주말에는"
+        ],
+        [
+          "SEJONG-3B-07-V1-006_card_1",
+          "캠핑을"
+        ],
+        [
+          "SEJONG-3B-07-V1-006_card_2",
+          "간다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-006_card_3",
+          "낚시를"
+        ],
+        [
+          "SEJONG-3B-07-V1-006_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-006_card_0",
+          "SEJONG-3B-07-V1-006_card_1",
+          "SEJONG-3B-07-V1-006_card_2",
+          "SEJONG-3B-07-V1-006_card_3",
+          "SEJONG-3B-07-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-007",
+      "displaySentence": "퇴근 후에는 커피를 마신다거나 모임에 나가요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-007_card_0",
+          "퇴근"
+        ],
+        [
+          "SEJONG-3B-07-V1-007_card_1",
+          "후에는"
+        ],
+        [
+          "SEJONG-3B-07-V1-007_card_2",
+          "커피를"
+        ],
+        [
+          "SEJONG-3B-07-V1-007_card_3",
+          "마신다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-007_card_4",
+          "모임에"
+        ],
+        [
+          "SEJONG-3B-07-V1-007_card_5",
+          "나가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-007_card_0",
+          "SEJONG-3B-07-V1-007_card_1",
+          "SEJONG-3B-07-V1-007_card_2",
+          "SEJONG-3B-07-V1-007_card_3",
+          "SEJONG-3B-07-V1-007_card_4",
+          "SEJONG-3B-07-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-008",
+      "displaySentence": "취미로 자전거를 탄다거나 마라톤을 해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-008_card_0",
+          "취미로"
+        ],
+        [
+          "SEJONG-3B-07-V1-008_card_1",
+          "자전거를"
+        ],
+        [
+          "SEJONG-3B-07-V1-008_card_2",
+          "탄다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-008_card_3",
+          "마라톤을"
+        ],
+        [
+          "SEJONG-3B-07-V1-008_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-008_card_0",
+          "SEJONG-3B-07-V1-008_card_1",
+          "SEJONG-3B-07-V1-008_card_2",
+          "SEJONG-3B-07-V1-008_card_3",
+          "SEJONG-3B-07-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-009",
+      "displaySentence": "친구들과 와인을 마신다거나 맛집 탐방을 해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-009_card_0",
+          "친구들과"
+        ],
+        [
+          "SEJONG-3B-07-V1-009_card_1",
+          "와인을"
+        ],
+        [
+          "SEJONG-3B-07-V1-009_card_2",
+          "마신다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-009_card_3",
+          "맛집"
+        ],
+        [
+          "SEJONG-3B-07-V1-009_card_4",
+          "탐방을"
+        ],
+        [
+          "SEJONG-3B-07-V1-009_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-009_card_0",
+          "SEJONG-3B-07-V1-009_card_1",
+          "SEJONG-3B-07-V1-009_card_2",
+          "SEJONG-3B-07-V1-009_card_3",
+          "SEJONG-3B-07-V1-009_card_4",
+          "SEJONG-3B-07-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-010",
+      "displaySentence": "겨울에는 스키를 탄다거나 실내 운동을 해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-010_card_0",
+          "겨울에는"
+        ],
+        [
+          "SEJONG-3B-07-V1-010_card_1",
+          "스키를"
+        ],
+        [
+          "SEJONG-3B-07-V1-010_card_2",
+          "탄다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-010_card_3",
+          "실내"
+        ],
+        [
+          "SEJONG-3B-07-V1-010_card_4",
+          "운동을"
+        ],
+        [
+          "SEJONG-3B-07-V1-010_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-010_card_0",
+          "SEJONG-3B-07-V1-010_card_1",
+          "SEJONG-3B-07-V1-010_card_2",
+          "SEJONG-3B-07-V1-010_card_3",
+          "SEJONG-3B-07-V1-010_card_4",
+          "SEJONG-3B-07-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-011",
+      "displaySentence": "동호회에 가입해 가지고 새로운 친구를 만났어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-011_card_0",
+          "동호회에"
+        ],
+        [
+          "SEJONG-3B-07-V1-011_card_1",
+          "가입해"
+        ],
+        [
+          "SEJONG-3B-07-V1-011_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-011_card_3",
+          "새로운"
+        ],
+        [
+          "SEJONG-3B-07-V1-011_card_4",
+          "친구를"
+        ],
+        [
+          "SEJONG-3B-07-V1-011_card_5",
+          "만났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-011_card_0",
+          "SEJONG-3B-07-V1-011_card_1",
+          "SEJONG-3B-07-V1-011_card_2",
+          "SEJONG-3B-07-V1-011_card_3",
+          "SEJONG-3B-07-V1-011_card_4",
+          "SEJONG-3B-07-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-012",
+      "displaySentence": "정기적으로 만나 가지고 정보를 나눠요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-012_card_0",
+          "정기적으로"
+        ],
+        [
+          "SEJONG-3B-07-V1-012_card_1",
+          "만나"
+        ],
+        [
+          "SEJONG-3B-07-V1-012_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-012_card_3",
+          "정보를"
+        ],
+        [
+          "SEJONG-3B-07-V1-012_card_4",
+          "나눠요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-012_card_0",
+          "SEJONG-3B-07-V1-012_card_1",
+          "SEJONG-3B-07-V1-012_card_2",
+          "SEJONG-3B-07-V1-012_card_3",
+          "SEJONG-3B-07-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-013",
+      "displaySentence": "초보 회원들과 연습해 가지고 실력이 늘었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-013_card_0",
+          "초보"
+        ],
+        [
+          "SEJONG-3B-07-V1-013_card_1",
+          "회원들과"
+        ],
+        [
+          "SEJONG-3B-07-V1-013_card_2",
+          "연습해"
+        ],
+        [
+          "SEJONG-3B-07-V1-013_card_3",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-013_card_4",
+          "실력이"
+        ],
+        [
+          "SEJONG-3B-07-V1-013_card_5",
+          "늘었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-013_card_0",
+          "SEJONG-3B-07-V1-013_card_1",
+          "SEJONG-3B-07-V1-013_card_2",
+          "SEJONG-3B-07-V1-013_card_3",
+          "SEJONG-3B-07-V1-013_card_4",
+          "SEJONG-3B-07-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-014",
+      "displaySentence": "친구들과 이야기해 가지고 관계가 좋아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-014_card_0",
+          "친구들과"
+        ],
+        [
+          "SEJONG-3B-07-V1-014_card_1",
+          "이야기해"
+        ],
+        [
+          "SEJONG-3B-07-V1-014_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-014_card_3",
+          "관계가"
+        ],
+        [
+          "SEJONG-3B-07-V1-014_card_4",
+          "좋아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-014_card_0",
+          "SEJONG-3B-07-V1-014_card_1",
+          "SEJONG-3B-07-V1-014_card_2",
+          "SEJONG-3B-07-V1-014_card_3",
+          "SEJONG-3B-07-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-015",
+      "displaySentence": "자동차 동호회에 나가 가지고 인맥을 쌓았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-015_card_0",
+          "자동차"
+        ],
+        [
+          "SEJONG-3B-07-V1-015_card_1",
+          "동호회에"
+        ],
+        [
+          "SEJONG-3B-07-V1-015_card_2",
+          "나가"
+        ],
+        [
+          "SEJONG-3B-07-V1-015_card_3",
+          "가지고"
+        ],
+        [
+          "SEJONG-3B-07-V1-015_card_4",
+          "인맥을"
+        ],
+        [
+          "SEJONG-3B-07-V1-015_card_5",
+          "쌓았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-015_card_0",
+          "SEJONG-3B-07-V1-015_card_1",
+          "SEJONG-3B-07-V1-015_card_2",
+          "SEJONG-3B-07-V1-015_card_3",
+          "SEJONG-3B-07-V1-015_card_4",
+          "SEJONG-3B-07-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-016",
+      "displaySentence": "주말마다 캠핑을 간다거나 자전거를 타요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-016_card_0",
+          "주말마다"
+        ],
+        [
+          "SEJONG-3B-07-V1-016_card_1",
+          "캠핑을"
+        ],
+        [
+          "SEJONG-3B-07-V1-016_card_2",
+          "간다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-016_card_3",
+          "자전거를"
+        ],
+        [
+          "SEJONG-3B-07-V1-016_card_4",
+          "타요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-016_card_0",
+          "SEJONG-3B-07-V1-016_card_1",
+          "SEJONG-3B-07-V1-016_card_2",
+          "SEJONG-3B-07-V1-016_card_3",
+          "SEJONG-3B-07-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-017",
+      "displaySentence": "동호회에서 운동한다거나 식사를 같이 해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-017_card_0",
+          "동호회에서"
+        ],
+        [
+          "SEJONG-3B-07-V1-017_card_1",
+          "운동한다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-017_card_2",
+          "식사를"
+        ],
+        [
+          "SEJONG-3B-07-V1-017_card_3",
+          "같이"
+        ],
+        [
+          "SEJONG-3B-07-V1-017_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-017_card_0",
+          "SEJONG-3B-07-V1-017_card_1",
+          "SEJONG-3B-07-V1-017_card_2",
+          "SEJONG-3B-07-V1-017_card_3",
+          "SEJONG-3B-07-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-018",
+      "displaySentence": "새 회원을 모집한다거나 행사를 준비해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-018_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-3B-07-V1-018_card_1",
+          "회원을"
+        ],
+        [
+          "SEJONG-3B-07-V1-018_card_2",
+          "모집한다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-018_card_3",
+          "행사를"
+        ],
+        [
+          "SEJONG-3B-07-V1-018_card_4",
+          "준비해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-018_card_0",
+          "SEJONG-3B-07-V1-018_card_1",
+          "SEJONG-3B-07-V1-018_card_2",
+          "SEJONG-3B-07-V1-018_card_3",
+          "SEJONG-3B-07-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-019",
+      "displaySentence": "사람들과 어울린다거나 혼자 취미를 즐겨요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-019_card_0",
+          "사람들과"
+        ],
+        [
+          "SEJONG-3B-07-V1-019_card_1",
+          "어울린다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-019_card_2",
+          "혼자"
+        ],
+        [
+          "SEJONG-3B-07-V1-019_card_3",
+          "취미를"
+        ],
+        [
+          "SEJONG-3B-07-V1-019_card_4",
+          "즐겨요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-019_card_0",
+          "SEJONG-3B-07-V1-019_card_1",
+          "SEJONG-3B-07-V1-019_card_2",
+          "SEJONG-3B-07-V1-019_card_3",
+          "SEJONG-3B-07-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-07-V1-020",
+      "displaySentence": "커피를 마신다거나 와인을 조금 마셔요.",
+      "tokens": [
+        [
+          "SEJONG-3B-07-V1-020_card_0",
+          "커피를"
+        ],
+        [
+          "SEJONG-3B-07-V1-020_card_1",
+          "마신다거나"
+        ],
+        [
+          "SEJONG-3B-07-V1-020_card_2",
+          "와인을"
+        ],
+        [
+          "SEJONG-3B-07-V1-020_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-3B-07-V1-020_card_4",
+          "마셔요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-07-V1-020_card_0",
+          "SEJONG-3B-07-V1-020_card_1",
+          "SEJONG-3B-07-V1-020_card_2",
+          "SEJONG-3B-07-V1-020_card_3",
+          "SEJONG-3B-07-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 7과 문법 -아/어 가지고 / -는다거나/-다거나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 7과 범위 재구성"
+    }
+  ]
+}

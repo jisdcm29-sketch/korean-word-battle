@@ -1,0 +1,733 @@
+{
+  "book": "3B",
+  "lesson": 8,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 8과 범위",
+  "selectionPolicy": [
+    "8과 핵심 문법 -느라고·-기는요 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-08-V1-001",
+      "displaySentence": "일하느라고 바빠서 오랫동안 못 갔어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-001_card_0",
+          "일하느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-001_card_1",
+          "바빠서"
+        ],
+        [
+          "SEJONG-3B-08-V1-001_card_2",
+          "오랫동안"
+        ],
+        [
+          "SEJONG-3B-08-V1-001_card_3",
+          "못"
+        ],
+        [
+          "SEJONG-3B-08-V1-001_card_4",
+          "갔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-001_card_0",
+          "SEJONG-3B-08-V1-001_card_1",
+          "SEJONG-3B-08-V1-001_card_2",
+          "SEJONG-3B-08-V1-001_card_3",
+          "SEJONG-3B-08-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-002",
+      "displaySentence": "밀린 일을 처리하느라고 휴가를 못 갔어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-002_card_0",
+          "밀린"
+        ],
+        [
+          "SEJONG-3B-08-V1-002_card_1",
+          "일을"
+        ],
+        [
+          "SEJONG-3B-08-V1-002_card_2",
+          "처리하느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-002_card_3",
+          "휴가를"
+        ],
+        [
+          "SEJONG-3B-08-V1-002_card_4",
+          "못"
+        ],
+        [
+          "SEJONG-3B-08-V1-002_card_5",
+          "갔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-002_card_0",
+          "SEJONG-3B-08-V1-002_card_1",
+          "SEJONG-3B-08-V1-002_card_2",
+          "SEJONG-3B-08-V1-002_card_3",
+          "SEJONG-3B-08-V1-002_card_4",
+          "SEJONG-3B-08-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-003",
+      "displaySentence": "호텔을 예약하느라고 시간이 많이 걸렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-003_card_0",
+          "호텔을"
+        ],
+        [
+          "SEJONG-3B-08-V1-003_card_1",
+          "예약하느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-003_card_2",
+          "시간이"
+        ],
+        [
+          "SEJONG-3B-08-V1-003_card_3",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-08-V1-003_card_4",
+          "걸렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-003_card_0",
+          "SEJONG-3B-08-V1-003_card_1",
+          "SEJONG-3B-08-V1-003_card_2",
+          "SEJONG-3B-08-V1-003_card_3",
+          "SEJONG-3B-08-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-004",
+      "displaySentence": "여행 계획을 세우느라고 밤늦게 잤어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-004_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-3B-08-V1-004_card_1",
+          "계획을"
+        ],
+        [
+          "SEJONG-3B-08-V1-004_card_2",
+          "세우느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-004_card_3",
+          "밤늦게"
+        ],
+        [
+          "SEJONG-3B-08-V1-004_card_4",
+          "잤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-004_card_0",
+          "SEJONG-3B-08-V1-004_card_1",
+          "SEJONG-3B-08-V1-004_card_2",
+          "SEJONG-3B-08-V1-004_card_3",
+          "SEJONG-3B-08-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-005",
+      "displaySentence": "기념품을 고르느라고 친구를 기다리게 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-005_card_0",
+          "기념품을"
+        ],
+        [
+          "SEJONG-3B-08-V1-005_card_1",
+          "고르느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-005_card_2",
+          "친구를"
+        ],
+        [
+          "SEJONG-3B-08-V1-005_card_3",
+          "기다리게"
+        ],
+        [
+          "SEJONG-3B-08-V1-005_card_4",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-005_card_0",
+          "SEJONG-3B-08-V1-005_card_1",
+          "SEJONG-3B-08-V1-005_card_2",
+          "SEJONG-3B-08-V1-005_card_3",
+          "SEJONG-3B-08-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-006",
+      "displaySentence": "비싸기는요, 생각보다 아주 저렴했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-006_card_0",
+          "비싸기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-006_card_1",
+          "생각보다"
+        ],
+        [
+          "SEJONG-3B-08-V1-006_card_2",
+          "아주"
+        ],
+        [
+          "SEJONG-3B-08-V1-006_card_3",
+          "저렴했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-006_card_0",
+          "SEJONG-3B-08-V1-006_card_1",
+          "SEJONG-3B-08-V1-006_card_2",
+          "SEJONG-3B-08-V1-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-007",
+      "displaySentence": "멀기는요, 버스로 한 시간이면 가요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-007_card_0",
+          "멀기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-007_card_1",
+          "버스로"
+        ],
+        [
+          "SEJONG-3B-08-V1-007_card_2",
+          "한"
+        ],
+        [
+          "SEJONG-3B-08-V1-007_card_3",
+          "시간이면"
+        ],
+        [
+          "SEJONG-3B-08-V1-007_card_4",
+          "가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-007_card_0",
+          "SEJONG-3B-08-V1-007_card_1",
+          "SEJONG-3B-08-V1-007_card_2",
+          "SEJONG-3B-08-V1-007_card_3",
+          "SEJONG-3B-08-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-008",
+      "displaySentence": "붐비기는요, 평일에는 아주 한가해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-008_card_0",
+          "붐비기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-008_card_1",
+          "평일에는"
+        ],
+        [
+          "SEJONG-3B-08-V1-008_card_2",
+          "아주"
+        ],
+        [
+          "SEJONG-3B-08-V1-008_card_3",
+          "한가해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-008_card_0",
+          "SEJONG-3B-08-V1-008_card_1",
+          "SEJONG-3B-08-V1-008_card_2",
+          "SEJONG-3B-08-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-009",
+      "displaySentence": "힘들기는요, 오히려 재충전이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-009_card_0",
+          "힘들기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-009_card_1",
+          "오히려"
+        ],
+        [
+          "SEJONG-3B-08-V1-009_card_2",
+          "재충전이"
+        ],
+        [
+          "SEJONG-3B-08-V1-009_card_3",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-009_card_0",
+          "SEJONG-3B-08-V1-009_card_1",
+          "SEJONG-3B-08-V1-009_card_2",
+          "SEJONG-3B-08-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-010",
+      "displaySentence": "복잡하기는요, 길이 아주 쉬워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-010_card_0",
+          "복잡하기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-010_card_1",
+          "길이"
+        ],
+        [
+          "SEJONG-3B-08-V1-010_card_2",
+          "아주"
+        ],
+        [
+          "SEJONG-3B-08-V1-010_card_3",
+          "쉬워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-010_card_0",
+          "SEJONG-3B-08-V1-010_card_1",
+          "SEJONG-3B-08-V1-010_card_2",
+          "SEJONG-3B-08-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-011",
+      "displaySentence": "관광지를 둘러보느라고 점심을 늦게 먹었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-011_card_0",
+          "관광지를"
+        ],
+        [
+          "SEJONG-3B-08-V1-011_card_1",
+          "둘러보느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-011_card_2",
+          "점심을"
+        ],
+        [
+          "SEJONG-3B-08-V1-011_card_3",
+          "늦게"
+        ],
+        [
+          "SEJONG-3B-08-V1-011_card_4",
+          "먹었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-011_card_0",
+          "SEJONG-3B-08-V1-011_card_1",
+          "SEJONG-3B-08-V1-011_card_2",
+          "SEJONG-3B-08-V1-011_card_3",
+          "SEJONG-3B-08-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-012",
+      "displaySentence": "현지 문화를 체험하느라고 사진을 많이 못 찍었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-012_card_0",
+          "현지"
+        ],
+        [
+          "SEJONG-3B-08-V1-012_card_1",
+          "문화를"
+        ],
+        [
+          "SEJONG-3B-08-V1-012_card_2",
+          "체험하느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-012_card_3",
+          "사진을"
+        ],
+        [
+          "SEJONG-3B-08-V1-012_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-08-V1-012_card_5",
+          "못"
+        ],
+        [
+          "SEJONG-3B-08-V1-012_card_6",
+          "찍었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-012_card_0",
+          "SEJONG-3B-08-V1-012_card_1",
+          "SEJONG-3B-08-V1-012_card_2",
+          "SEJONG-3B-08-V1-012_card_3",
+          "SEJONG-3B-08-V1-012_card_4",
+          "SEJONG-3B-08-V1-012_card_5",
+          "SEJONG-3B-08-V1-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-013",
+      "displaySentence": "숙소를 찾느라고 시간이 오래 걸렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-013_card_0",
+          "숙소를"
+        ],
+        [
+          "SEJONG-3B-08-V1-013_card_1",
+          "찾느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-013_card_2",
+          "시간이"
+        ],
+        [
+          "SEJONG-3B-08-V1-013_card_3",
+          "오래"
+        ],
+        [
+          "SEJONG-3B-08-V1-013_card_4",
+          "걸렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-013_card_0",
+          "SEJONG-3B-08-V1-013_card_1",
+          "SEJONG-3B-08-V1-013_card_2",
+          "SEJONG-3B-08-V1-013_card_3",
+          "SEJONG-3B-08-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-014",
+      "displaySentence": "사람이 많아서 기다리느라고 지쳤어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-014_card_0",
+          "사람이"
+        ],
+        [
+          "SEJONG-3B-08-V1-014_card_1",
+          "많아서"
+        ],
+        [
+          "SEJONG-3B-08-V1-014_card_2",
+          "기다리느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-014_card_3",
+          "지쳤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-014_card_0",
+          "SEJONG-3B-08-V1-014_card_1",
+          "SEJONG-3B-08-V1-014_card_2",
+          "SEJONG-3B-08-V1-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-015",
+      "displaySentence": "여행 준비를 꼼꼼히 하느라고 며칠 걸렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-015_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-3B-08-V1-015_card_1",
+          "준비를"
+        ],
+        [
+          "SEJONG-3B-08-V1-015_card_2",
+          "꼼꼼히"
+        ],
+        [
+          "SEJONG-3B-08-V1-015_card_3",
+          "하느라고"
+        ],
+        [
+          "SEJONG-3B-08-V1-015_card_4",
+          "며칠"
+        ],
+        [
+          "SEJONG-3B-08-V1-015_card_5",
+          "걸렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-015_card_0",
+          "SEJONG-3B-08-V1-015_card_1",
+          "SEJONG-3B-08-V1-015_card_2",
+          "SEJONG-3B-08-V1-015_card_3",
+          "SEJONG-3B-08-V1-015_card_4",
+          "SEJONG-3B-08-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-016",
+      "displaySentence": "비싸기는요, 할인해서 가격이 괜찮았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-016_card_0",
+          "비싸기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-016_card_1",
+          "할인해서"
+        ],
+        [
+          "SEJONG-3B-08-V1-016_card_2",
+          "가격이"
+        ],
+        [
+          "SEJONG-3B-08-V1-016_card_3",
+          "괜찮았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-016_card_0",
+          "SEJONG-3B-08-V1-016_card_1",
+          "SEJONG-3B-08-V1-016_card_2",
+          "SEJONG-3B-08-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-017",
+      "displaySentence": "이국적이기는요, 한국 문화도 많이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-017_card_0",
+          "이국적이기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-017_card_1",
+          "한국"
+        ],
+        [
+          "SEJONG-3B-08-V1-017_card_2",
+          "문화도"
+        ],
+        [
+          "SEJONG-3B-08-V1-017_card_3",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-08-V1-017_card_4",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-017_card_0",
+          "SEJONG-3B-08-V1-017_card_1",
+          "SEJONG-3B-08-V1-017_card_2",
+          "SEJONG-3B-08-V1-017_card_3",
+          "SEJONG-3B-08-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-018",
+      "displaySentence": "멀기는요, 버스로 금방 도착해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-018_card_0",
+          "멀기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-018_card_1",
+          "버스로"
+        ],
+        [
+          "SEJONG-3B-08-V1-018_card_2",
+          "금방"
+        ],
+        [
+          "SEJONG-3B-08-V1-018_card_3",
+          "도착해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-018_card_0",
+          "SEJONG-3B-08-V1-018_card_1",
+          "SEJONG-3B-08-V1-018_card_2",
+          "SEJONG-3B-08-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-019",
+      "displaySentence": "바쁘기는요, 이번 주는 여유로워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-019_card_0",
+          "바쁘기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-019_card_1",
+          "이번"
+        ],
+        [
+          "SEJONG-3B-08-V1-019_card_2",
+          "주는"
+        ],
+        [
+          "SEJONG-3B-08-V1-019_card_3",
+          "여유로워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-019_card_0",
+          "SEJONG-3B-08-V1-019_card_1",
+          "SEJONG-3B-08-V1-019_card_2",
+          "SEJONG-3B-08-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-08-V1-020",
+      "displaySentence": "관광지가 많기는요, 이틀이면 충분해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-08-V1-020_card_0",
+          "관광지가"
+        ],
+        [
+          "SEJONG-3B-08-V1-020_card_1",
+          "많기는요,"
+        ],
+        [
+          "SEJONG-3B-08-V1-020_card_2",
+          "이틀이면"
+        ],
+        [
+          "SEJONG-3B-08-V1-020_card_3",
+          "충분해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-08-V1-020_card_0",
+          "SEJONG-3B-08-V1-020_card_1",
+          "SEJONG-3B-08-V1-020_card_2",
+          "SEJONG-3B-08-V1-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 8과 문법 -느라고 / -기는요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 8과 범위 재구성"
+    }
+  ]
+}

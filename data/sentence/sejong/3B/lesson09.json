@@ -1,0 +1,798 @@
+{
+  "book": "3B",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 9과 범위",
+  "selectionPolicy": [
+    "9과 핵심 문법 -는/(으)ㄴ 모양이다·같이 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-09-V1-001",
+      "displaySentence": "두 사람이 많이 부러운 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-001_card_0",
+          "두"
+        ],
+        [
+          "SEJONG-3B-09-V1-001_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-3B-09-V1-001_card_2",
+          "많이"
+        ],
+        [
+          "SEJONG-3B-09-V1-001_card_3",
+          "부러운"
+        ],
+        [
+          "SEJONG-3B-09-V1-001_card_4",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-001_card_0",
+          "SEJONG-3B-09-V1-001_card_1",
+          "SEJONG-3B-09-V1-001_card_2",
+          "SEJONG-3B-09-V1-001_card_3",
+          "SEJONG-3B-09-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-002",
+      "displaySentence": "신랑과 신부가 행복한 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-002_card_0",
+          "신랑과"
+        ],
+        [
+          "SEJONG-3B-09-V1-002_card_1",
+          "신부가"
+        ],
+        [
+          "SEJONG-3B-09-V1-002_card_2",
+          "행복한"
+        ],
+        [
+          "SEJONG-3B-09-V1-002_card_3",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-002_card_0",
+          "SEJONG-3B-09-V1-002_card_1",
+          "SEJONG-3B-09-V1-002_card_2",
+          "SEJONG-3B-09-V1-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-003",
+      "displaySentence": "하객이 많은 걸 보니 유명한 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-003_card_0",
+          "하객이"
+        ],
+        [
+          "SEJONG-3B-09-V1-003_card_1",
+          "많은"
+        ],
+        [
+          "SEJONG-3B-09-V1-003_card_2",
+          "걸"
+        ],
+        [
+          "SEJONG-3B-09-V1-003_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-003_card_4",
+          "유명한"
+        ],
+        [
+          "SEJONG-3B-09-V1-003_card_5",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-003_card_0",
+          "SEJONG-3B-09-V1-003_card_1",
+          "SEJONG-3B-09-V1-003_card_2",
+          "SEJONG-3B-09-V1-003_card_3",
+          "SEJONG-3B-09-V1-003_card_4",
+          "SEJONG-3B-09-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-004",
+      "displaySentence": "친구가 웃는 걸 보니 화가 풀린 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-004_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-3B-09-V1-004_card_1",
+          "웃는"
+        ],
+        [
+          "SEJONG-3B-09-V1-004_card_2",
+          "걸"
+        ],
+        [
+          "SEJONG-3B-09-V1-004_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-004_card_4",
+          "화가"
+        ],
+        [
+          "SEJONG-3B-09-V1-004_card_5",
+          "풀린"
+        ],
+        [
+          "SEJONG-3B-09-V1-004_card_6",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-004_card_0",
+          "SEJONG-3B-09-V1-004_card_1",
+          "SEJONG-3B-09-V1-004_card_2",
+          "SEJONG-3B-09-V1-004_card_3",
+          "SEJONG-3B-09-V1-004_card_4",
+          "SEJONG-3B-09-V1-004_card_5",
+          "SEJONG-3B-09-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-005",
+      "displaySentence": "청첩장을 보니 곧 결혼하는 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-005_card_0",
+          "청첩장을"
+        ],
+        [
+          "SEJONG-3B-09-V1-005_card_1",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-005_card_2",
+          "곧"
+        ],
+        [
+          "SEJONG-3B-09-V1-005_card_3",
+          "결혼하는"
+        ],
+        [
+          "SEJONG-3B-09-V1-005_card_4",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-005_card_0",
+          "SEJONG-3B-09-V1-005_card_1",
+          "SEJONG-3B-09-V1-005_card_2",
+          "SEJONG-3B-09-V1-005_card_3",
+          "SEJONG-3B-09-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-006",
+      "displaySentence": "두 사람은 친구같이 편해 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-006_card_0",
+          "두"
+        ],
+        [
+          "SEJONG-3B-09-V1-006_card_1",
+          "사람은"
+        ],
+        [
+          "SEJONG-3B-09-V1-006_card_2",
+          "친구같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-006_card_3",
+          "편해"
+        ],
+        [
+          "SEJONG-3B-09-V1-006_card_4",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-006_card_0",
+          "SEJONG-3B-09-V1-006_card_1",
+          "SEJONG-3B-09-V1-006_card_2",
+          "SEJONG-3B-09-V1-006_card_3",
+          "SEJONG-3B-09-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-007",
+      "displaySentence": "신부가 정말 배우같이 아름다워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-007_card_0",
+          "신부가"
+        ],
+        [
+          "SEJONG-3B-09-V1-007_card_1",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-09-V1-007_card_2",
+          "배우같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-007_card_3",
+          "아름다워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-007_card_0",
+          "SEJONG-3B-09-V1-007_card_1",
+          "SEJONG-3B-09-V1-007_card_2",
+          "SEJONG-3B-09-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-008",
+      "displaySentence": "아이들이 가족같이 친하게 지내요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-008_card_0",
+          "아이들이"
+        ],
+        [
+          "SEJONG-3B-09-V1-008_card_1",
+          "가족같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-008_card_2",
+          "친하게"
+        ],
+        [
+          "SEJONG-3B-09-V1-008_card_3",
+          "지내요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-008_card_0",
+          "SEJONG-3B-09-V1-008_card_1",
+          "SEJONG-3B-09-V1-008_card_2",
+          "SEJONG-3B-09-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-009",
+      "displaySentence": "하객들이 축제같이 즐기고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-009_card_0",
+          "하객들이"
+        ],
+        [
+          "SEJONG-3B-09-V1-009_card_1",
+          "축제같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-009_card_2",
+          "즐기고"
+        ],
+        [
+          "SEJONG-3B-09-V1-009_card_3",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-009_card_0",
+          "SEJONG-3B-09-V1-009_card_1",
+          "SEJONG-3B-09-V1-009_card_2",
+          "SEJONG-3B-09-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-010",
+      "displaySentence": "신혼여행지가 정말 그림같이 아름다워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-010_card_0",
+          "신혼여행지가"
+        ],
+        [
+          "SEJONG-3B-09-V1-010_card_1",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-09-V1-010_card_2",
+          "그림같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-010_card_3",
+          "아름다워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-010_card_0",
+          "SEJONG-3B-09-V1-010_card_1",
+          "SEJONG-3B-09-V1-010_card_2",
+          "SEJONG-3B-09-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-011",
+      "displaySentence": "웨딩 홀이 조용한 걸 보니 식이 끝난 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-011_card_0",
+          "웨딩"
+        ],
+        [
+          "SEJONG-3B-09-V1-011_card_1",
+          "홀이"
+        ],
+        [
+          "SEJONG-3B-09-V1-011_card_2",
+          "조용한"
+        ],
+        [
+          "SEJONG-3B-09-V1-011_card_3",
+          "걸"
+        ],
+        [
+          "SEJONG-3B-09-V1-011_card_4",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-011_card_5",
+          "식이"
+        ],
+        [
+          "SEJONG-3B-09-V1-011_card_6",
+          "끝난"
+        ],
+        [
+          "SEJONG-3B-09-V1-011_card_7",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-011_card_0",
+          "SEJONG-3B-09-V1-011_card_1",
+          "SEJONG-3B-09-V1-011_card_2",
+          "SEJONG-3B-09-V1-011_card_3",
+          "SEJONG-3B-09-V1-011_card_4",
+          "SEJONG-3B-09-V1-011_card_5",
+          "SEJONG-3B-09-V1-011_card_6",
+          "SEJONG-3B-09-V1-011_card_7"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-012",
+      "displaySentence": "신랑이 긴장한 걸 보니 곧 입장할 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-012_card_0",
+          "신랑이"
+        ],
+        [
+          "SEJONG-3B-09-V1-012_card_1",
+          "긴장한"
+        ],
+        [
+          "SEJONG-3B-09-V1-012_card_2",
+          "걸"
+        ],
+        [
+          "SEJONG-3B-09-V1-012_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-012_card_4",
+          "곧"
+        ],
+        [
+          "SEJONG-3B-09-V1-012_card_5",
+          "입장할"
+        ],
+        [
+          "SEJONG-3B-09-V1-012_card_6",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-012_card_0",
+          "SEJONG-3B-09-V1-012_card_1",
+          "SEJONG-3B-09-V1-012_card_2",
+          "SEJONG-3B-09-V1-012_card_3",
+          "SEJONG-3B-09-V1-012_card_4",
+          "SEJONG-3B-09-V1-012_card_5",
+          "SEJONG-3B-09-V1-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-013",
+      "displaySentence": "폐백을 준비한 걸 보니 전통 혼례를 하는 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-013_card_0",
+          "폐백을"
+        ],
+        [
+          "SEJONG-3B-09-V1-013_card_1",
+          "준비한"
+        ],
+        [
+          "SEJONG-3B-09-V1-013_card_2",
+          "걸"
+        ],
+        [
+          "SEJONG-3B-09-V1-013_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-013_card_4",
+          "전통"
+        ],
+        [
+          "SEJONG-3B-09-V1-013_card_5",
+          "혼례를"
+        ],
+        [
+          "SEJONG-3B-09-V1-013_card_6",
+          "하는"
+        ],
+        [
+          "SEJONG-3B-09-V1-013_card_7",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-013_card_0",
+          "SEJONG-3B-09-V1-013_card_1",
+          "SEJONG-3B-09-V1-013_card_2",
+          "SEJONG-3B-09-V1-013_card_3",
+          "SEJONG-3B-09-V1-013_card_4",
+          "SEJONG-3B-09-V1-013_card_5",
+          "SEJONG-3B-09-V1-013_card_6",
+          "SEJONG-3B-09-V1-013_card_7"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-014",
+      "displaySentence": "친구가 반지를 산 걸 보니 프로포즈할 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-014_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-3B-09-V1-014_card_1",
+          "반지를"
+        ],
+        [
+          "SEJONG-3B-09-V1-014_card_2",
+          "산"
+        ],
+        [
+          "SEJONG-3B-09-V1-014_card_3",
+          "걸"
+        ],
+        [
+          "SEJONG-3B-09-V1-014_card_4",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-014_card_5",
+          "프로포즈할"
+        ],
+        [
+          "SEJONG-3B-09-V1-014_card_6",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-014_card_0",
+          "SEJONG-3B-09-V1-014_card_1",
+          "SEJONG-3B-09-V1-014_card_2",
+          "SEJONG-3B-09-V1-014_card_3",
+          "SEJONG-3B-09-V1-014_card_4",
+          "SEJONG-3B-09-V1-014_card_5",
+          "SEJONG-3B-09-V1-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-015",
+      "displaySentence": "두 가족이 만난 걸 보니 상견례를 하는 모양이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-015_card_0",
+          "두"
+        ],
+        [
+          "SEJONG-3B-09-V1-015_card_1",
+          "가족이"
+        ],
+        [
+          "SEJONG-3B-09-V1-015_card_2",
+          "만난"
+        ],
+        [
+          "SEJONG-3B-09-V1-015_card_3",
+          "걸"
+        ],
+        [
+          "SEJONG-3B-09-V1-015_card_4",
+          "보니"
+        ],
+        [
+          "SEJONG-3B-09-V1-015_card_5",
+          "상견례를"
+        ],
+        [
+          "SEJONG-3B-09-V1-015_card_6",
+          "하는"
+        ],
+        [
+          "SEJONG-3B-09-V1-015_card_7",
+          "모양이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-015_card_0",
+          "SEJONG-3B-09-V1-015_card_1",
+          "SEJONG-3B-09-V1-015_card_2",
+          "SEJONG-3B-09-V1-015_card_3",
+          "SEJONG-3B-09-V1-015_card_4",
+          "SEJONG-3B-09-V1-015_card_5",
+          "SEJONG-3B-09-V1-015_card_6",
+          "SEJONG-3B-09-V1-015_card_7"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-016",
+      "displaySentence": "주례사는 선생님같이 차분한 분이 해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-016_card_0",
+          "주례사는"
+        ],
+        [
+          "SEJONG-3B-09-V1-016_card_1",
+          "선생님같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-016_card_2",
+          "차분한"
+        ],
+        [
+          "SEJONG-3B-09-V1-016_card_3",
+          "분이"
+        ],
+        [
+          "SEJONG-3B-09-V1-016_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-016_card_0",
+          "SEJONG-3B-09-V1-016_card_1",
+          "SEJONG-3B-09-V1-016_card_2",
+          "SEJONG-3B-09-V1-016_card_3",
+          "SEJONG-3B-09-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-017",
+      "displaySentence": "결혼식장이 정말 궁전같이 화려해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-017_card_0",
+          "결혼식장이"
+        ],
+        [
+          "SEJONG-3B-09-V1-017_card_1",
+          "정말"
+        ],
+        [
+          "SEJONG-3B-09-V1-017_card_2",
+          "궁전같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-017_card_3",
+          "화려해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-017_card_0",
+          "SEJONG-3B-09-V1-017_card_1",
+          "SEJONG-3B-09-V1-017_card_2",
+          "SEJONG-3B-09-V1-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-018",
+      "displaySentence": "커플이 영화 주인공같이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-018_card_0",
+          "커플이"
+        ],
+        [
+          "SEJONG-3B-09-V1-018_card_1",
+          "영화"
+        ],
+        [
+          "SEJONG-3B-09-V1-018_card_2",
+          "주인공같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-018_card_3",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-018_card_0",
+          "SEJONG-3B-09-V1-018_card_1",
+          "SEJONG-3B-09-V1-018_card_2",
+          "SEJONG-3B-09-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-019",
+      "displaySentence": "축가를 가수같이 잘 불렀어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-019_card_0",
+          "축가를"
+        ],
+        [
+          "SEJONG-3B-09-V1-019_card_1",
+          "가수같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-019_card_2",
+          "잘"
+        ],
+        [
+          "SEJONG-3B-09-V1-019_card_3",
+          "불렀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-019_card_0",
+          "SEJONG-3B-09-V1-019_card_1",
+          "SEJONG-3B-09-V1-019_card_2",
+          "SEJONG-3B-09-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-09-V1-020",
+      "displaySentence": "신랑 신부가 오래된 친구같이 자연스러워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-09-V1-020_card_0",
+          "신랑"
+        ],
+        [
+          "SEJONG-3B-09-V1-020_card_1",
+          "신부가"
+        ],
+        [
+          "SEJONG-3B-09-V1-020_card_2",
+          "오래된"
+        ],
+        [
+          "SEJONG-3B-09-V1-020_card_3",
+          "친구같이"
+        ],
+        [
+          "SEJONG-3B-09-V1-020_card_4",
+          "자연스러워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-09-V1-020_card_0",
+          "SEJONG-3B-09-V1-020_card_1",
+          "SEJONG-3B-09-V1-020_card_2",
+          "SEJONG-3B-09-V1-020_card_3",
+          "SEJONG-3B-09-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 9과 문법 -는/(으)ㄴ 모양이다 / 같이 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 9과 범위 재구성"
+    }
+  ]
+}

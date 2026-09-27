@@ -1,0 +1,748 @@
+{
+  "book": "3B",
+  "lesson": 12,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 12과 범위",
+  "selectionPolicy": [
+    "12과 핵심 문법 -기는 하다·-는 중이다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-12-V1-001",
+      "displaySentence": "한국어를 잘하기는 하지만 아직 부족해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-001_card_0",
+          "한국어를"
+        ],
+        [
+          "SEJONG-3B-12-V1-001_card_1",
+          "잘하기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-001_card_2",
+          "하지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-001_card_3",
+          "아직"
+        ],
+        [
+          "SEJONG-3B-12-V1-001_card_4",
+          "부족해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-001_card_0",
+          "SEJONG-3B-12-V1-001_card_1",
+          "SEJONG-3B-12-V1-001_card_2",
+          "SEJONG-3B-12-V1-001_card_3",
+          "SEJONG-3B-12-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-002",
+      "displaySentence": "유학을 가고 싶기는 하지만 비용이 걱정돼요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-002_card_0",
+          "유학을"
+        ],
+        [
+          "SEJONG-3B-12-V1-002_card_1",
+          "가고"
+        ],
+        [
+          "SEJONG-3B-12-V1-002_card_2",
+          "싶기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-002_card_3",
+          "하지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-002_card_4",
+          "비용이"
+        ],
+        [
+          "SEJONG-3B-12-V1-002_card_5",
+          "걱정돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-002_card_0",
+          "SEJONG-3B-12-V1-002_card_1",
+          "SEJONG-3B-12-V1-002_card_2",
+          "SEJONG-3B-12-V1-002_card_3",
+          "SEJONG-3B-12-V1-002_card_4",
+          "SEJONG-3B-12-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-003",
+      "displaySentence": "집을 구하기는 했지만 학교에서 멀어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-003_card_0",
+          "집을"
+        ],
+        [
+          "SEJONG-3B-12-V1-003_card_1",
+          "구하기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-003_card_2",
+          "했지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-003_card_3",
+          "학교에서"
+        ],
+        [
+          "SEJONG-3B-12-V1-003_card_4",
+          "멀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-003_card_0",
+          "SEJONG-3B-12-V1-003_card_1",
+          "SEJONG-3B-12-V1-003_card_2",
+          "SEJONG-3B-12-V1-003_card_3",
+          "SEJONG-3B-12-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-004",
+      "displaySentence": "장학금을 받기는 했지만 생활비가 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-004_card_0",
+          "장학금을"
+        ],
+        [
+          "SEJONG-3B-12-V1-004_card_1",
+          "받기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-004_card_2",
+          "했지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-004_card_3",
+          "생활비가"
+        ],
+        [
+          "SEJONG-3B-12-V1-004_card_4",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-004_card_0",
+          "SEJONG-3B-12-V1-004_card_1",
+          "SEJONG-3B-12-V1-004_card_2",
+          "SEJONG-3B-12-V1-004_card_3",
+          "SEJONG-3B-12-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-005",
+      "displaySentence": "비자를 받기는 했지만 준비할 것이 많아요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-005_card_0",
+          "비자를"
+        ],
+        [
+          "SEJONG-3B-12-V1-005_card_1",
+          "받기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-005_card_2",
+          "했지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-005_card_3",
+          "준비할"
+        ],
+        [
+          "SEJONG-3B-12-V1-005_card_4",
+          "것이"
+        ],
+        [
+          "SEJONG-3B-12-V1-005_card_5",
+          "많아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-005_card_0",
+          "SEJONG-3B-12-V1-005_card_1",
+          "SEJONG-3B-12-V1-005_card_2",
+          "SEJONG-3B-12-V1-005_card_3",
+          "SEJONG-3B-12-V1-005_card_4",
+          "SEJONG-3B-12-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-006",
+      "displaySentence": "한국으로 유학을 가려고 준비하는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-006_card_0",
+          "한국으로"
+        ],
+        [
+          "SEJONG-3B-12-V1-006_card_1",
+          "유학을"
+        ],
+        [
+          "SEJONG-3B-12-V1-006_card_2",
+          "가려고"
+        ],
+        [
+          "SEJONG-3B-12-V1-006_card_3",
+          "준비하는"
+        ],
+        [
+          "SEJONG-3B-12-V1-006_card_4",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-006_card_0",
+          "SEJONG-3B-12-V1-006_card_1",
+          "SEJONG-3B-12-V1-006_card_2",
+          "SEJONG-3B-12-V1-006_card_3",
+          "SEJONG-3B-12-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-007",
+      "displaySentence": "지금 대학원에 등록하는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-007_card_0",
+          "지금"
+        ],
+        [
+          "SEJONG-3B-12-V1-007_card_1",
+          "대학원에"
+        ],
+        [
+          "SEJONG-3B-12-V1-007_card_2",
+          "등록하는"
+        ],
+        [
+          "SEJONG-3B-12-V1-007_card_3",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-007_card_0",
+          "SEJONG-3B-12-V1-007_card_1",
+          "SEJONG-3B-12-V1-007_card_2",
+          "SEJONG-3B-12-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-008",
+      "displaySentence": "유학 사이트를 검색하는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-008_card_0",
+          "유학"
+        ],
+        [
+          "SEJONG-3B-12-V1-008_card_1",
+          "사이트를"
+        ],
+        [
+          "SEJONG-3B-12-V1-008_card_2",
+          "검색하는"
+        ],
+        [
+          "SEJONG-3B-12-V1-008_card_3",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-008_card_0",
+          "SEJONG-3B-12-V1-008_card_1",
+          "SEJONG-3B-12-V1-008_card_2",
+          "SEJONG-3B-12-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-009",
+      "displaySentence": "비자 면접을 준비하는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-009_card_0",
+          "비자"
+        ],
+        [
+          "SEJONG-3B-12-V1-009_card_1",
+          "면접을"
+        ],
+        [
+          "SEJONG-3B-12-V1-009_card_2",
+          "준비하는"
+        ],
+        [
+          "SEJONG-3B-12-V1-009_card_3",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-009_card_0",
+          "SEJONG-3B-12-V1-009_card_1",
+          "SEJONG-3B-12-V1-009_card_2",
+          "SEJONG-3B-12-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-010",
+      "displaySentence": "재학 증명서를 떼는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-010_card_0",
+          "재학"
+        ],
+        [
+          "SEJONG-3B-12-V1-010_card_1",
+          "증명서를"
+        ],
+        [
+          "SEJONG-3B-12-V1-010_card_2",
+          "떼는"
+        ],
+        [
+          "SEJONG-3B-12-V1-010_card_3",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-010_card_0",
+          "SEJONG-3B-12-V1-010_card_1",
+          "SEJONG-3B-12-V1-010_card_2",
+          "SEJONG-3B-12-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-011",
+      "displaySentence": "아르바이트를 하기는 하지만 공부가 우선이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-011_card_0",
+          "아르바이트를"
+        ],
+        [
+          "SEJONG-3B-12-V1-011_card_1",
+          "하기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-011_card_2",
+          "하지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-011_card_3",
+          "공부가"
+        ],
+        [
+          "SEJONG-3B-12-V1-011_card_4",
+          "우선이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-011_card_0",
+          "SEJONG-3B-12-V1-011_card_1",
+          "SEJONG-3B-12-V1-011_card_2",
+          "SEJONG-3B-12-V1-011_card_3",
+          "SEJONG-3B-12-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-012",
+      "displaySentence": "한국 생활에 적응하기는 했지만 아직 어려워요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-012_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-3B-12-V1-012_card_1",
+          "생활에"
+        ],
+        [
+          "SEJONG-3B-12-V1-012_card_2",
+          "적응하기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-012_card_3",
+          "했지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-012_card_4",
+          "아직"
+        ],
+        [
+          "SEJONG-3B-12-V1-012_card_5",
+          "어려워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-012_card_0",
+          "SEJONG-3B-12-V1-012_card_1",
+          "SEJONG-3B-12-V1-012_card_2",
+          "SEJONG-3B-12-V1-012_card_3",
+          "SEJONG-3B-12-V1-012_card_4",
+          "SEJONG-3B-12-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-013",
+      "displaySentence": "항공편을 알아보기는 했지만 예약하지 않았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-013_card_0",
+          "항공편을"
+        ],
+        [
+          "SEJONG-3B-12-V1-013_card_1",
+          "알아보기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-013_card_2",
+          "했지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-013_card_3",
+          "예약하지"
+        ],
+        [
+          "SEJONG-3B-12-V1-013_card_4",
+          "않았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-013_card_0",
+          "SEJONG-3B-12-V1-013_card_1",
+          "SEJONG-3B-12-V1-013_card_2",
+          "SEJONG-3B-12-V1-013_card_3",
+          "SEJONG-3B-12-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-014",
+      "displaySentence": "수강 신청을 하기는 했지만 한 과목을 바꾸고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-014_card_0",
+          "수강"
+        ],
+        [
+          "SEJONG-3B-12-V1-014_card_1",
+          "신청을"
+        ],
+        [
+          "SEJONG-3B-12-V1-014_card_2",
+          "하기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-014_card_3",
+          "했지만"
+        ],
+        [
+          "SEJONG-3B-12-V1-014_card_4",
+          "한"
+        ],
+        [
+          "SEJONG-3B-12-V1-014_card_5",
+          "과목을"
+        ],
+        [
+          "SEJONG-3B-12-V1-014_card_6",
+          "바꾸고"
+        ],
+        [
+          "SEJONG-3B-12-V1-014_card_7",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-014_card_0",
+          "SEJONG-3B-12-V1-014_card_1",
+          "SEJONG-3B-12-V1-014_card_2",
+          "SEJONG-3B-12-V1-014_card_3",
+          "SEJONG-3B-12-V1-014_card_4",
+          "SEJONG-3B-12-V1-014_card_5",
+          "SEJONG-3B-12-V1-014_card_6",
+          "SEJONG-3B-12-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-015",
+      "displaySentence": "전문가에게 조언을 듣기는 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-015_card_0",
+          "전문가에게"
+        ],
+        [
+          "SEJONG-3B-12-V1-015_card_1",
+          "조언을"
+        ],
+        [
+          "SEJONG-3B-12-V1-015_card_2",
+          "듣기는"
+        ],
+        [
+          "SEJONG-3B-12-V1-015_card_3",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-015_card_0",
+          "SEJONG-3B-12-V1-015_card_1",
+          "SEJONG-3B-12-V1-015_card_2",
+          "SEJONG-3B-12-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-016",
+      "displaySentence": "외국인 등록증을 만드는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-016_card_0",
+          "외국인"
+        ],
+        [
+          "SEJONG-3B-12-V1-016_card_1",
+          "등록증을"
+        ],
+        [
+          "SEJONG-3B-12-V1-016_card_2",
+          "만드는"
+        ],
+        [
+          "SEJONG-3B-12-V1-016_card_3",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-016_card_0",
+          "SEJONG-3B-12-V1-016_card_1",
+          "SEJONG-3B-12-V1-016_card_2",
+          "SEJONG-3B-12-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-017",
+      "displaySentence": "등록금을 내려고 준비하는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-017_card_0",
+          "등록금을"
+        ],
+        [
+          "SEJONG-3B-12-V1-017_card_1",
+          "내려고"
+        ],
+        [
+          "SEJONG-3B-12-V1-017_card_2",
+          "준비하는"
+        ],
+        [
+          "SEJONG-3B-12-V1-017_card_3",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-017_card_0",
+          "SEJONG-3B-12-V1-017_card_1",
+          "SEJONG-3B-12-V1-017_card_2",
+          "SEJONG-3B-12-V1-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-018",
+      "displaySentence": "장학금 서류를 제출하는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-018_card_0",
+          "장학금"
+        ],
+        [
+          "SEJONG-3B-12-V1-018_card_1",
+          "서류를"
+        ],
+        [
+          "SEJONG-3B-12-V1-018_card_2",
+          "제출하는"
+        ],
+        [
+          "SEJONG-3B-12-V1-018_card_3",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-018_card_0",
+          "SEJONG-3B-12-V1-018_card_1",
+          "SEJONG-3B-12-V1-018_card_2",
+          "SEJONG-3B-12-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-019",
+      "displaySentence": "집을 구하려고 부동산에 가는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-019_card_0",
+          "집을"
+        ],
+        [
+          "SEJONG-3B-12-V1-019_card_1",
+          "구하려고"
+        ],
+        [
+          "SEJONG-3B-12-V1-019_card_2",
+          "부동산에"
+        ],
+        [
+          "SEJONG-3B-12-V1-019_card_3",
+          "가는"
+        ],
+        [
+          "SEJONG-3B-12-V1-019_card_4",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-019_card_0",
+          "SEJONG-3B-12-V1-019_card_1",
+          "SEJONG-3B-12-V1-019_card_2",
+          "SEJONG-3B-12-V1-019_card_3",
+          "SEJONG-3B-12-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-12-V1-020",
+      "displaySentence": "진로에 대해 전문가와 상담하는 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-3B-12-V1-020_card_0",
+          "진로에"
+        ],
+        [
+          "SEJONG-3B-12-V1-020_card_1",
+          "대해"
+        ],
+        [
+          "SEJONG-3B-12-V1-020_card_2",
+          "전문가와"
+        ],
+        [
+          "SEJONG-3B-12-V1-020_card_3",
+          "상담하는"
+        ],
+        [
+          "SEJONG-3B-12-V1-020_card_4",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-12-V1-020_card_0",
+          "SEJONG-3B-12-V1-020_card_1",
+          "SEJONG-3B-12-V1-020_card_2",
+          "SEJONG-3B-12-V1-020_card_3",
+          "SEJONG-3B-12-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 12과 문법 -기는 하다 / -는 중이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 12과 범위 재구성"
+    }
+  ]
+}

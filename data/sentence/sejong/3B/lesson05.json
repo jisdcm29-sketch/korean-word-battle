@@ -1,0 +1,693 @@
+{
+  "book": "3B",
+  "lesson": 5,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3B 본교재 + 익힘책 3B + 어휘 문법과 표현 3B + 더하기 활동 3B의 5과 범위",
+  "selectionPolicy": [
+    "5과 핵심 문법 -자마자·-아/어 버리다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3B-05-V1-001",
+      "displaySentence": "집에 도착하자마자 잠이 들었어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-001_card_0",
+          "집에"
+        ],
+        [
+          "SEJONG-3B-05-V1-001_card_1",
+          "도착하자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-001_card_2",
+          "잠이"
+        ],
+        [
+          "SEJONG-3B-05-V1-001_card_3",
+          "들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-001_card_0",
+          "SEJONG-3B-05-V1-001_card_1",
+          "SEJONG-3B-05-V1-001_card_2",
+          "SEJONG-3B-05-V1-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-002",
+      "displaySentence": "버스에서 내리자마자 우산을 떨어뜨렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-002_card_0",
+          "버스에서"
+        ],
+        [
+          "SEJONG-3B-05-V1-002_card_1",
+          "내리자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-002_card_2",
+          "우산을"
+        ],
+        [
+          "SEJONG-3B-05-V1-002_card_3",
+          "떨어뜨렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-002_card_0",
+          "SEJONG-3B-05-V1-002_card_1",
+          "SEJONG-3B-05-V1-002_card_2",
+          "SEJONG-3B-05-V1-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-003",
+      "displaySentence": "학교에 오자마자 숙제를 꺼냈어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-003_card_0",
+          "학교에"
+        ],
+        [
+          "SEJONG-3B-05-V1-003_card_1",
+          "오자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-003_card_2",
+          "숙제를"
+        ],
+        [
+          "SEJONG-3B-05-V1-003_card_3",
+          "꺼냈어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-003_card_0",
+          "SEJONG-3B-05-V1-003_card_1",
+          "SEJONG-3B-05-V1-003_card_2",
+          "SEJONG-3B-05-V1-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-004",
+      "displaySentence": "전화기를 찾자마자 바로 충전했어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-004_card_0",
+          "전화기를"
+        ],
+        [
+          "SEJONG-3B-05-V1-004_card_1",
+          "찾자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-004_card_2",
+          "바로"
+        ],
+        [
+          "SEJONG-3B-05-V1-004_card_3",
+          "충전했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-004_card_0",
+          "SEJONG-3B-05-V1-004_card_1",
+          "SEJONG-3B-05-V1-004_card_2",
+          "SEJONG-3B-05-V1-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-005",
+      "displaySentence": "비가 그치자마자 밖으로 나갔어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-005_card_0",
+          "비가"
+        ],
+        [
+          "SEJONG-3B-05-V1-005_card_1",
+          "그치자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-005_card_2",
+          "밖으로"
+        ],
+        [
+          "SEJONG-3B-05-V1-005_card_3",
+          "나갔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-005_card_0",
+          "SEJONG-3B-05-V1-005_card_1",
+          "SEJONG-3B-05-V1-005_card_2",
+          "SEJONG-3B-05-V1-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-006",
+      "displaySentence": "딴생각을 하다가 버스를 놓쳐 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-006_card_0",
+          "딴생각을"
+        ],
+        [
+          "SEJONG-3B-05-V1-006_card_1",
+          "하다가"
+        ],
+        [
+          "SEJONG-3B-05-V1-006_card_2",
+          "버스를"
+        ],
+        [
+          "SEJONG-3B-05-V1-006_card_3",
+          "놓쳐"
+        ],
+        [
+          "SEJONG-3B-05-V1-006_card_4",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-006_card_0",
+          "SEJONG-3B-05-V1-006_card_1",
+          "SEJONG-3B-05-V1-006_card_2",
+          "SEJONG-3B-05-V1-006_card_3",
+          "SEJONG-3B-05-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-007",
+      "displaySentence": "휴대폰을 떨어뜨려서 망가뜨려 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-007_card_0",
+          "휴대폰을"
+        ],
+        [
+          "SEJONG-3B-05-V1-007_card_1",
+          "떨어뜨려서"
+        ],
+        [
+          "SEJONG-3B-05-V1-007_card_2",
+          "망가뜨려"
+        ],
+        [
+          "SEJONG-3B-05-V1-007_card_3",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-007_card_0",
+          "SEJONG-3B-05-V1-007_card_1",
+          "SEJONG-3B-05-V1-007_card_2",
+          "SEJONG-3B-05-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-008",
+      "displaySentence": "중요한 약속을 깜빡해 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-008_card_0",
+          "중요한"
+        ],
+        [
+          "SEJONG-3B-05-V1-008_card_1",
+          "약속을"
+        ],
+        [
+          "SEJONG-3B-05-V1-008_card_2",
+          "깜빡해"
+        ],
+        [
+          "SEJONG-3B-05-V1-008_card_3",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-008_card_0",
+          "SEJONG-3B-05-V1-008_card_1",
+          "SEJONG-3B-05-V1-008_card_2",
+          "SEJONG-3B-05-V1-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-009",
+      "displaySentence": "용돈을 다 써 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-009_card_0",
+          "용돈을"
+        ],
+        [
+          "SEJONG-3B-05-V1-009_card_1",
+          "다"
+        ],
+        [
+          "SEJONG-3B-05-V1-009_card_2",
+          "써"
+        ],
+        [
+          "SEJONG-3B-05-V1-009_card_3",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-009_card_0",
+          "SEJONG-3B-05-V1-009_card_1",
+          "SEJONG-3B-05-V1-009_card_2",
+          "SEJONG-3B-05-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-010",
+      "displaySentence": "비밀을 친구에게 말해 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-010_card_0",
+          "비밀을"
+        ],
+        [
+          "SEJONG-3B-05-V1-010_card_1",
+          "친구에게"
+        ],
+        [
+          "SEJONG-3B-05-V1-010_card_2",
+          "말해"
+        ],
+        [
+          "SEJONG-3B-05-V1-010_card_3",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-010_card_0",
+          "SEJONG-3B-05-V1-010_card_1",
+          "SEJONG-3B-05-V1-010_card_2",
+          "SEJONG-3B-05-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-011",
+      "displaySentence": "아침에 일어나자마자 머리를 감았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-011_card_0",
+          "아침에"
+        ],
+        [
+          "SEJONG-3B-05-V1-011_card_1",
+          "일어나자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-011_card_2",
+          "머리를"
+        ],
+        [
+          "SEJONG-3B-05-V1-011_card_3",
+          "감았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-011_card_0",
+          "SEJONG-3B-05-V1-011_card_1",
+          "SEJONG-3B-05-V1-011_card_2",
+          "SEJONG-3B-05-V1-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-012",
+      "displaySentence": "집에 돌아오자마자 전화기를 찾았어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-012_card_0",
+          "집에"
+        ],
+        [
+          "SEJONG-3B-05-V1-012_card_1",
+          "돌아오자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-012_card_2",
+          "전화기를"
+        ],
+        [
+          "SEJONG-3B-05-V1-012_card_3",
+          "찾았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-012_card_0",
+          "SEJONG-3B-05-V1-012_card_1",
+          "SEJONG-3B-05-V1-012_card_2",
+          "SEJONG-3B-05-V1-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-013",
+      "displaySentence": "문을 열자마자 종이가 날아갔어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-013_card_0",
+          "문을"
+        ],
+        [
+          "SEJONG-3B-05-V1-013_card_1",
+          "열자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-013_card_2",
+          "종이가"
+        ],
+        [
+          "SEJONG-3B-05-V1-013_card_3",
+          "날아갔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-013_card_0",
+          "SEJONG-3B-05-V1-013_card_1",
+          "SEJONG-3B-05-V1-013_card_2",
+          "SEJONG-3B-05-V1-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-014",
+      "displaySentence": "수업이 끝나자마자 금방 집에 갔어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-014_card_0",
+          "수업이"
+        ],
+        [
+          "SEJONG-3B-05-V1-014_card_1",
+          "끝나자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-014_card_2",
+          "금방"
+        ],
+        [
+          "SEJONG-3B-05-V1-014_card_3",
+          "집에"
+        ],
+        [
+          "SEJONG-3B-05-V1-014_card_4",
+          "갔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-014_card_0",
+          "SEJONG-3B-05-V1-014_card_1",
+          "SEJONG-3B-05-V1-014_card_2",
+          "SEJONG-3B-05-V1-014_card_3",
+          "SEJONG-3B-05-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-015",
+      "displaySentence": "친구를 보자마자 얼굴이 빨개졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-015_card_0",
+          "친구를"
+        ],
+        [
+          "SEJONG-3B-05-V1-015_card_1",
+          "보자마자"
+        ],
+        [
+          "SEJONG-3B-05-V1-015_card_2",
+          "얼굴이"
+        ],
+        [
+          "SEJONG-3B-05-V1-015_card_3",
+          "빨개졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-015_card_0",
+          "SEJONG-3B-05-V1-015_card_1",
+          "SEJONG-3B-05-V1-015_card_2",
+          "SEJONG-3B-05-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-016",
+      "displaySentence": "그릇을 실수로 깨뜨려 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-016_card_0",
+          "그릇을"
+        ],
+        [
+          "SEJONG-3B-05-V1-016_card_1",
+          "실수로"
+        ],
+        [
+          "SEJONG-3B-05-V1-016_card_2",
+          "깨뜨려"
+        ],
+        [
+          "SEJONG-3B-05-V1-016_card_3",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-016_card_0",
+          "SEJONG-3B-05-V1-016_card_1",
+          "SEJONG-3B-05-V1-016_card_2",
+          "SEJONG-3B-05-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-017",
+      "displaySentence": "버스를 놓쳐서 지각해 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-017_card_0",
+          "버스를"
+        ],
+        [
+          "SEJONG-3B-05-V1-017_card_1",
+          "놓쳐서"
+        ],
+        [
+          "SEJONG-3B-05-V1-017_card_2",
+          "지각해"
+        ],
+        [
+          "SEJONG-3B-05-V1-017_card_3",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-017_card_0",
+          "SEJONG-3B-05-V1-017_card_1",
+          "SEJONG-3B-05-V1-017_card_2",
+          "SEJONG-3B-05-V1-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-018",
+      "displaySentence": "생활비를 거의 다 써 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-018_card_0",
+          "생활비를"
+        ],
+        [
+          "SEJONG-3B-05-V1-018_card_1",
+          "거의"
+        ],
+        [
+          "SEJONG-3B-05-V1-018_card_2",
+          "다"
+        ],
+        [
+          "SEJONG-3B-05-V1-018_card_3",
+          "써"
+        ],
+        [
+          "SEJONG-3B-05-V1-018_card_4",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-018_card_0",
+          "SEJONG-3B-05-V1-018_card_1",
+          "SEJONG-3B-05-V1-018_card_2",
+          "SEJONG-3B-05-V1-018_card_3",
+          "SEJONG-3B-05-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-019",
+      "displaySentence": "공포 영화를 보고 잠을 못 자 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-019_card_0",
+          "공포"
+        ],
+        [
+          "SEJONG-3B-05-V1-019_card_1",
+          "영화를"
+        ],
+        [
+          "SEJONG-3B-05-V1-019_card_2",
+          "보고"
+        ],
+        [
+          "SEJONG-3B-05-V1-019_card_3",
+          "잠을"
+        ],
+        [
+          "SEJONG-3B-05-V1-019_card_4",
+          "못"
+        ],
+        [
+          "SEJONG-3B-05-V1-019_card_5",
+          "자"
+        ],
+        [
+          "SEJONG-3B-05-V1-019_card_6",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-019_card_0",
+          "SEJONG-3B-05-V1-019_card_1",
+          "SEJONG-3B-05-V1-019_card_2",
+          "SEJONG-3B-05-V1-019_card_3",
+          "SEJONG-3B-05-V1-019_card_4",
+          "SEJONG-3B-05-V1-019_card_5",
+          "SEJONG-3B-05-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3B-05-V1-020",
+      "displaySentence": "결국 새 전화기를 사 버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-3B-05-V1-020_card_0",
+          "결국"
+        ],
+        [
+          "SEJONG-3B-05-V1-020_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-3B-05-V1-020_card_2",
+          "전화기를"
+        ],
+        [
+          "SEJONG-3B-05-V1-020_card_3",
+          "사"
+        ],
+        [
+          "SEJONG-3B-05-V1-020_card_4",
+          "버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3B-05-V1-020_card_0",
+          "SEJONG-3B-05-V1-020_card_1",
+          "SEJONG-3B-05-V1-020_card_2",
+          "SEJONG-3B-05-V1-020_card_3",
+          "SEJONG-3B-05-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 3B 5과 문법 -자마자 / -아/어 버리다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 3B 5과 범위 재구성"
+    }
+  ]
+}
