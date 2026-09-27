@@ -1,0 +1,968 @@
+{
+  "book": "3A",
+  "lesson": 7,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 7과 범위",
+  "selectionPolicy": [
+    "7과 핵심 문법 -(으)ㄴ 지·-자고 하다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 8과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-07-V1-001",
+      "displaySentence": "여자 친구를 만난 지 곧 3년이 돼요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-001_card_0",
+          "여자 친구"
+        ],
+        [
+          "SEJONG-3A-07-V1-001_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-001_card_2",
+          "만난"
+        ],
+        [
+          "SEJONG-3A-07-V1-001_card_3",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-001_card_4",
+          "곧"
+        ],
+        [
+          "SEJONG-3A-07-V1-001_card_5",
+          "3년"
+        ],
+        [
+          "SEJONG-3A-07-V1-001_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-001_card_7",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-001_card_0",
+          "SEJONG-3A-07-V1-001_card_1",
+          "SEJONG-3A-07-V1-001_card_2",
+          "SEJONG-3A-07-V1-001_card_3",
+          "SEJONG-3A-07-V1-001_card_4",
+          "SEJONG-3A-07-V1-001_card_5",
+          "SEJONG-3A-07-V1-001_card_6",
+          "SEJONG-3A-07-V1-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-002",
+      "displaySentence": "결혼한 지 벌써 1년이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-002_card_0",
+          "결혼한"
+        ],
+        [
+          "SEJONG-3A-07-V1-002_card_1",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-002_card_2",
+          "벌써"
+        ],
+        [
+          "SEJONG-3A-07-V1-002_card_3",
+          "1년"
+        ],
+        [
+          "SEJONG-3A-07-V1-002_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-002_card_5",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-002_card_0",
+          "SEJONG-3A-07-V1-002_card_1",
+          "SEJONG-3A-07-V1-002_card_2",
+          "SEJONG-3A-07-V1-002_card_3",
+          "SEJONG-3A-07-V1-002_card_4",
+          "SEJONG-3A-07-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-003",
+      "displaySentence": "운전면허를 딴 지 두 달이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-003_card_0",
+          "운전면허"
+        ],
+        [
+          "SEJONG-3A-07-V1-003_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-003_card_2",
+          "딴"
+        ],
+        [
+          "SEJONG-3A-07-V1-003_card_3",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-003_card_4",
+          "두"
+        ],
+        [
+          "SEJONG-3A-07-V1-003_card_5",
+          "달"
+        ],
+        [
+          "SEJONG-3A-07-V1-003_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-003_card_7",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-003_card_0",
+          "SEJONG-3A-07-V1-003_card_1",
+          "SEJONG-3A-07-V1-003_card_2",
+          "SEJONG-3A-07-V1-003_card_3",
+          "SEJONG-3A-07-V1-003_card_4",
+          "SEJONG-3A-07-V1-003_card_5",
+          "SEJONG-3A-07-V1-003_card_6",
+          "SEJONG-3A-07-V1-003_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-004",
+      "displaySentence": "한국에 온 지 100일이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-004_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-3A-07-V1-004_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-07-V1-004_card_2",
+          "온"
+        ],
+        [
+          "SEJONG-3A-07-V1-004_card_3",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-004_card_4",
+          "100일"
+        ],
+        [
+          "SEJONG-3A-07-V1-004_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-004_card_6",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-004_card_0",
+          "SEJONG-3A-07-V1-004_card_1",
+          "SEJONG-3A-07-V1-004_card_2",
+          "SEJONG-3A-07-V1-004_card_3",
+          "SEJONG-3A-07-V1-004_card_4",
+          "SEJONG-3A-07-V1-004_card_5",
+          "SEJONG-3A-07-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-005",
+      "displaySentence": "기념행사를 준비한 지 일주일이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-005_card_0",
+          "기념행사"
+        ],
+        [
+          "SEJONG-3A-07-V1-005_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-005_card_2",
+          "준비한"
+        ],
+        [
+          "SEJONG-3A-07-V1-005_card_3",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-005_card_4",
+          "일주일"
+        ],
+        [
+          "SEJONG-3A-07-V1-005_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-005_card_6",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-005_card_0",
+          "SEJONG-3A-07-V1-005_card_1",
+          "SEJONG-3A-07-V1-005_card_2",
+          "SEJONG-3A-07-V1-005_card_3",
+          "SEJONG-3A-07-V1-005_card_4",
+          "SEJONG-3A-07-V1-005_card_5",
+          "SEJONG-3A-07-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-006",
+      "displaySentence": "이벤트를 시작한 지 한 시간이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-006_card_0",
+          "이벤트"
+        ],
+        [
+          "SEJONG-3A-07-V1-006_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-006_card_2",
+          "시작한"
+        ],
+        [
+          "SEJONG-3A-07-V1-006_card_3",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-006_card_4",
+          "한"
+        ],
+        [
+          "SEJONG-3A-07-V1-006_card_5",
+          "시간"
+        ],
+        [
+          "SEJONG-3A-07-V1-006_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-006_card_7",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-006_card_0",
+          "SEJONG-3A-07-V1-006_card_1",
+          "SEJONG-3A-07-V1-006_card_2",
+          "SEJONG-3A-07-V1-006_card_3",
+          "SEJONG-3A-07-V1-006_card_4",
+          "SEJONG-3A-07-V1-006_card_5",
+          "SEJONG-3A-07-V1-006_card_6",
+          "SEJONG-3A-07-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-007",
+      "displaySentence": "상품권을 선물한 지 며칠이 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-007_card_0",
+          "상품권"
+        ],
+        [
+          "SEJONG-3A-07-V1-007_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-07-V1-007_card_2",
+          "선물한"
+        ],
+        [
+          "SEJONG-3A-07-V1-007_card_3",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-007_card_4",
+          "며칠"
+        ],
+        [
+          "SEJONG-3A-07-V1-007_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-007_card_6",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-007_card_0",
+          "SEJONG-3A-07-V1-007_card_1",
+          "SEJONG-3A-07-V1-007_card_2",
+          "SEJONG-3A-07-V1-007_card_3",
+          "SEJONG-3A-07-V1-007_card_4",
+          "SEJONG-3A-07-V1-007_card_5",
+          "SEJONG-3A-07-V1-007_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-008",
+      "displaySentence": "편지를 쓴 지 오래됐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-008_card_0",
+          "편지"
+        ],
+        [
+          "SEJONG-3A-07-V1-008_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-008_card_2",
+          "쓴"
+        ],
+        [
+          "SEJONG-3A-07-V1-008_card_3",
+          "지"
+        ],
+        [
+          "SEJONG-3A-07-V1-008_card_4",
+          "오래됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-008_card_0",
+          "SEJONG-3A-07-V1-008_card_1",
+          "SEJONG-3A-07-V1-008_card_2",
+          "SEJONG-3A-07-V1-008_card_3",
+          "SEJONG-3A-07-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-009",
+      "displaySentence": "친구가 어버이날에 부모님께 꽃을 달아 드리자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-009_card_0",
+          "어버이날"
+        ],
+        [
+          "SEJONG-3A-07-V1-009_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-07-V1-009_card_2",
+          "부모님"
+        ],
+        [
+          "SEJONG-3A-07-V1-009_card_3",
+          "께"
+        ],
+        [
+          "SEJONG-3A-07-V1-009_card_4",
+          "꽃"
+        ],
+        [
+          "SEJONG-3A-07-V1-009_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-07-V1-009_card_6",
+          "달아 드리자고 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-009_card_0",
+          "SEJONG-3A-07-V1-009_card_1",
+          "SEJONG-3A-07-V1-009_card_2",
+          "SEJONG-3A-07-V1-009_card_3",
+          "SEJONG-3A-07-V1-009_card_4",
+          "SEJONG-3A-07-V1-009_card_5",
+          "SEJONG-3A-07-V1-009_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-010",
+      "displaySentence": "동료가 스승의 날에 선생님께 편지를 쓰자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-010_card_0",
+          "스승의 날"
+        ],
+        [
+          "SEJONG-3A-07-V1-010_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-07-V1-010_card_2",
+          "선생님"
+        ],
+        [
+          "SEJONG-3A-07-V1-010_card_3",
+          "께"
+        ],
+        [
+          "SEJONG-3A-07-V1-010_card_4",
+          "편지"
+        ],
+        [
+          "SEJONG-3A-07-V1-010_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-010_card_6",
+          "쓰자고 했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-010_card_0",
+          "SEJONG-3A-07-V1-010_card_1",
+          "SEJONG-3A-07-V1-010_card_2",
+          "SEJONG-3A-07-V1-010_card_3",
+          "SEJONG-3A-07-V1-010_card_4",
+          "SEJONG-3A-07-V1-010_card_5",
+          "SEJONG-3A-07-V1-010_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -(으)ㄴ 지",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-011",
+      "displaySentence": "친구가 결혼기념일에 외식하자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-011_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-07-V1-011_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-07-V1-011_card_2",
+          "결혼기념일"
+        ],
+        [
+          "SEJONG-3A-07-V1-011_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-07-V1-011_card_4",
+          "외식하자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-011_card_5",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-011_card_0",
+          "SEJONG-3A-07-V1-011_card_1",
+          "SEJONG-3A-07-V1-011_card_2",
+          "SEJONG-3A-07-V1-011_card_3",
+          "SEJONG-3A-07-V1-011_card_4",
+          "SEJONG-3A-07-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-012",
+      "displaySentence": "동생이 밸런타인데이에 케이크를 주문하자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-012_card_0",
+          "동생"
+        ],
+        [
+          "SEJONG-3A-07-V1-012_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-012_card_2",
+          "밸런타인데이"
+        ],
+        [
+          "SEJONG-3A-07-V1-012_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-07-V1-012_card_4",
+          "케이크"
+        ],
+        [
+          "SEJONG-3A-07-V1-012_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-012_card_6",
+          "주문하자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-012_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-012_card_0",
+          "SEJONG-3A-07-V1-012_card_1",
+          "SEJONG-3A-07-V1-012_card_2",
+          "SEJONG-3A-07-V1-012_card_3",
+          "SEJONG-3A-07-V1-012_card_4",
+          "SEJONG-3A-07-V1-012_card_5",
+          "SEJONG-3A-07-V1-012_card_6",
+          "SEJONG-3A-07-V1-012_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-013",
+      "displaySentence": "부모님이 기념일을 꼭 챙기자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-013_card_0",
+          "부모님"
+        ],
+        [
+          "SEJONG-3A-07-V1-013_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-013_card_2",
+          "기념일"
+        ],
+        [
+          "SEJONG-3A-07-V1-013_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-07-V1-013_card_4",
+          "꼭"
+        ],
+        [
+          "SEJONG-3A-07-V1-013_card_5",
+          "챙기자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-013_card_6",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-013_card_0",
+          "SEJONG-3A-07-V1-013_card_1",
+          "SEJONG-3A-07-V1-013_card_2",
+          "SEJONG-3A-07-V1-013_card_3",
+          "SEJONG-3A-07-V1-013_card_4",
+          "SEJONG-3A-07-V1-013_card_5",
+          "SEJONG-3A-07-V1-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-014",
+      "displaySentence": "친구가 마음을 편지로 전하자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-014_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-07-V1-014_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-07-V1-014_card_2",
+          "마음"
+        ],
+        [
+          "SEJONG-3A-07-V1-014_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-07-V1-014_card_4",
+          "편지"
+        ],
+        [
+          "SEJONG-3A-07-V1-014_card_5",
+          "로"
+        ],
+        [
+          "SEJONG-3A-07-V1-014_card_6",
+          "전하자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-014_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-014_card_0",
+          "SEJONG-3A-07-V1-014_card_1",
+          "SEJONG-3A-07-V1-014_card_2",
+          "SEJONG-3A-07-V1-014_card_3",
+          "SEJONG-3A-07-V1-014_card_4",
+          "SEJONG-3A-07-V1-014_card_5",
+          "SEJONG-3A-07-V1-014_card_6",
+          "SEJONG-3A-07-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-015",
+      "displaySentence": "동료가 건강식품을 선물하자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-015_card_0",
+          "동료"
+        ],
+        [
+          "SEJONG-3A-07-V1-015_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-07-V1-015_card_2",
+          "건강식품"
+        ],
+        [
+          "SEJONG-3A-07-V1-015_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-07-V1-015_card_4",
+          "선물하자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-015_card_5",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-015_card_0",
+          "SEJONG-3A-07-V1-015_card_1",
+          "SEJONG-3A-07-V1-015_card_2",
+          "SEJONG-3A-07-V1-015_card_3",
+          "SEJONG-3A-07-V1-015_card_4",
+          "SEJONG-3A-07-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-016",
+      "displaySentence": "친구가 일회용품 대신 다회용품을 쓰자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-016_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-07-V1-016_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-07-V1-016_card_2",
+          "일회용품"
+        ],
+        [
+          "SEJONG-3A-07-V1-016_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-07-V1-016_card_4",
+          "다회용품"
+        ],
+        [
+          "SEJONG-3A-07-V1-016_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-07-V1-016_card_6",
+          "쓰자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-016_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-016_card_0",
+          "SEJONG-3A-07-V1-016_card_1",
+          "SEJONG-3A-07-V1-016_card_2",
+          "SEJONG-3A-07-V1-016_card_3",
+          "SEJONG-3A-07-V1-016_card_4",
+          "SEJONG-3A-07-V1-016_card_5",
+          "SEJONG-3A-07-V1-016_card_6",
+          "SEJONG-3A-07-V1-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-017",
+      "displaySentence": "동생이 플라스틱 사용을 줄이자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-017_card_0",
+          "동생"
+        ],
+        [
+          "SEJONG-3A-07-V1-017_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-07-V1-017_card_2",
+          "플라스틱"
+        ],
+        [
+          "SEJONG-3A-07-V1-017_card_3",
+          "사용"
+        ],
+        [
+          "SEJONG-3A-07-V1-017_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-07-V1-017_card_5",
+          "줄이자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-017_card_6",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-017_card_0",
+          "SEJONG-3A-07-V1-017_card_1",
+          "SEJONG-3A-07-V1-017_card_2",
+          "SEJONG-3A-07-V1-017_card_3",
+          "SEJONG-3A-07-V1-017_card_4",
+          "SEJONG-3A-07-V1-017_card_5",
+          "SEJONG-3A-07-V1-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-018",
+      "displaySentence": "친구가 장바구니를 가지고 다니자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-018_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-07-V1-018_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-07-V1-018_card_2",
+          "장바구니"
+        ],
+        [
+          "SEJONG-3A-07-V1-018_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-018_card_4",
+          "가지고"
+        ],
+        [
+          "SEJONG-3A-07-V1-018_card_5",
+          "다니자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-018_card_6",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-018_card_0",
+          "SEJONG-3A-07-V1-018_card_1",
+          "SEJONG-3A-07-V1-018_card_2",
+          "SEJONG-3A-07-V1-018_card_3",
+          "SEJONG-3A-07-V1-018_card_4",
+          "SEJONG-3A-07-V1-018_card_5",
+          "SEJONG-3A-07-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-019",
+      "displaySentence": "선배가 기념식에 같이 참가하자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-019_card_0",
+          "선배"
+        ],
+        [
+          "SEJONG-3A-07-V1-019_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-07-V1-019_card_2",
+          "기념식"
+        ],
+        [
+          "SEJONG-3A-07-V1-019_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-07-V1-019_card_4",
+          "같이"
+        ],
+        [
+          "SEJONG-3A-07-V1-019_card_5",
+          "참가하자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-019_card_6",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-019_card_0",
+          "SEJONG-3A-07-V1-019_card_1",
+          "SEJONG-3A-07-V1-019_card_2",
+          "SEJONG-3A-07-V1-019_card_3",
+          "SEJONG-3A-07-V1-019_card_4",
+          "SEJONG-3A-07-V1-019_card_5",
+          "SEJONG-3A-07-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-07-V1-020",
+      "displaySentence": "친구가 비닐 대신 장바구니를 사용하자고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-07-V1-020_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-07-V1-020_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-07-V1-020_card_2",
+          "비닐"
+        ],
+        [
+          "SEJONG-3A-07-V1-020_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-07-V1-020_card_4",
+          "장바구니"
+        ],
+        [
+          "SEJONG-3A-07-V1-020_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-07-V1-020_card_6",
+          "사용하자고"
+        ],
+        [
+          "SEJONG-3A-07-V1-020_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-07-V1-020_card_0",
+          "SEJONG-3A-07-V1-020_card_1",
+          "SEJONG-3A-07-V1-020_card_2",
+          "SEJONG-3A-07-V1-020_card_3",
+          "SEJONG-3A-07-V1-020_card_4",
+          "SEJONG-3A-07-V1-020_card_5",
+          "SEJONG-3A-07-V1-020_card_6",
+          "SEJONG-3A-07-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 7과 어휘·문법 범위 재구성 · -자고 하다",
+      "sourceRef": "세종한국어 3A 7과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

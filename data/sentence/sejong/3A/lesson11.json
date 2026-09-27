@@ -1,0 +1,943 @@
+{
+  "book": "3A",
+  "lesson": 11,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 11과 범위",
+  "selectionPolicy": [
+    "11과 핵심 문법 -다 보면·-더라고요를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 12과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-11-V1-001",
+      "displaySentence": "운동을 계속하다 보면 스트레스가 풀려요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-001_card_0",
+          "운동"
+        ],
+        [
+          "SEJONG-3A-11-V1-001_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-001_card_2",
+          "계속하다"
+        ],
+        [
+          "SEJONG-3A-11-V1-001_card_3",
+          "보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-001_card_4",
+          "스트레스"
+        ],
+        [
+          "SEJONG-3A-11-V1-001_card_5",
+          "가"
+        ],
+        [
+          "SEJONG-3A-11-V1-001_card_6",
+          "풀려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-001_card_0",
+          "SEJONG-3A-11-V1-001_card_1",
+          "SEJONG-3A-11-V1-001_card_2",
+          "SEJONG-3A-11-V1-001_card_3",
+          "SEJONG-3A-11-V1-001_card_4",
+          "SEJONG-3A-11-V1-001_card_5",
+          "SEJONG-3A-11-V1-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-002",
+      "displaySentence": "여행을 자주 하다 보면 일상에서 벗어날 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-002_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-3A-11-V1-002_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-002_card_2",
+          "자주 하다 보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-002_card_3",
+          "일상"
+        ],
+        [
+          "SEJONG-3A-11-V1-002_card_4",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-11-V1-002_card_5",
+          "벗어날"
+        ],
+        [
+          "SEJONG-3A-11-V1-002_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-3A-11-V1-002_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-002_card_0",
+          "SEJONG-3A-11-V1-002_card_1",
+          "SEJONG-3A-11-V1-002_card_2",
+          "SEJONG-3A-11-V1-002_card_3",
+          "SEJONG-3A-11-V1-002_card_4",
+          "SEJONG-3A-11-V1-002_card_5",
+          "SEJONG-3A-11-V1-002_card_6",
+          "SEJONG-3A-11-V1-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-003",
+      "displaySentence": "새로운 것을 배우다 보면 성취감을 느껴요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-003_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-3A-11-V1-003_card_1",
+          "것"
+        ],
+        [
+          "SEJONG-3A-11-V1-003_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-003_card_3",
+          "배우다"
+        ],
+        [
+          "SEJONG-3A-11-V1-003_card_4",
+          "보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-003_card_5",
+          "성취감"
+        ],
+        [
+          "SEJONG-3A-11-V1-003_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-003_card_7",
+          "느껴요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-003_card_0",
+          "SEJONG-3A-11-V1-003_card_1",
+          "SEJONG-3A-11-V1-003_card_2",
+          "SEJONG-3A-11-V1-003_card_3",
+          "SEJONG-3A-11-V1-003_card_4",
+          "SEJONG-3A-11-V1-003_card_5",
+          "SEJONG-3A-11-V1-003_card_6",
+          "SEJONG-3A-11-V1-003_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-004",
+      "displaySentence": "사람들을 만나다 보면 새로운 정보를 얻어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-004_card_0",
+          "사람들을"
+        ],
+        [
+          "SEJONG-3A-11-V1-004_card_1",
+          "만나다"
+        ],
+        [
+          "SEJONG-3A-11-V1-004_card_2",
+          "보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-004_card_3",
+          "새로운"
+        ],
+        [
+          "SEJONG-3A-11-V1-004_card_4",
+          "정보를"
+        ],
+        [
+          "SEJONG-3A-11-V1-004_card_5",
+          "얻어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-004_card_0",
+          "SEJONG-3A-11-V1-004_card_1",
+          "SEJONG-3A-11-V1-004_card_2",
+          "SEJONG-3A-11-V1-004_card_3",
+          "SEJONG-3A-11-V1-004_card_4",
+          "SEJONG-3A-11-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-005",
+      "displaySentence": "문화 생활을 즐기다 보면 생활에 활기가 생겨요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-005_card_0",
+          "문화 생활"
+        ],
+        [
+          "SEJONG-3A-11-V1-005_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-005_card_2",
+          "즐기다 보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-005_card_3",
+          "생활"
+        ],
+        [
+          "SEJONG-3A-11-V1-005_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-11-V1-005_card_5",
+          "활기"
+        ],
+        [
+          "SEJONG-3A-11-V1-005_card_6",
+          "가"
+        ],
+        [
+          "SEJONG-3A-11-V1-005_card_7",
+          "생겨요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-005_card_0",
+          "SEJONG-3A-11-V1-005_card_1",
+          "SEJONG-3A-11-V1-005_card_2",
+          "SEJONG-3A-11-V1-005_card_3",
+          "SEJONG-3A-11-V1-005_card_4",
+          "SEJONG-3A-11-V1-005_card_5",
+          "SEJONG-3A-11-V1-005_card_6",
+          "SEJONG-3A-11-V1-005_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-006",
+      "displaySentence": "자기 계발을 하다 보면 자신감이 생겨요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-006_card_0",
+          "자기"
+        ],
+        [
+          "SEJONG-3A-11-V1-006_card_1",
+          "계발"
+        ],
+        [
+          "SEJONG-3A-11-V1-006_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-006_card_3",
+          "하다"
+        ],
+        [
+          "SEJONG-3A-11-V1-006_card_4",
+          "보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-006_card_5",
+          "자신감"
+        ],
+        [
+          "SEJONG-3A-11-V1-006_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-3A-11-V1-006_card_7",
+          "생겨요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-006_card_0",
+          "SEJONG-3A-11-V1-006_card_1",
+          "SEJONG-3A-11-V1-006_card_2",
+          "SEJONG-3A-11-V1-006_card_3",
+          "SEJONG-3A-11-V1-006_card_4",
+          "SEJONG-3A-11-V1-006_card_5",
+          "SEJONG-3A-11-V1-006_card_6",
+          "SEJONG-3A-11-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-007",
+      "displaySentence": "여행기를 쓰다 보면 좋은 추억이 남아요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-007_card_0",
+          "여행기"
+        ],
+        [
+          "SEJONG-3A-11-V1-007_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-11-V1-007_card_2",
+          "쓰다"
+        ],
+        [
+          "SEJONG-3A-11-V1-007_card_3",
+          "보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-007_card_4",
+          "좋은"
+        ],
+        [
+          "SEJONG-3A-11-V1-007_card_5",
+          "추억"
+        ],
+        [
+          "SEJONG-3A-11-V1-007_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-3A-11-V1-007_card_7",
+          "남아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-007_card_0",
+          "SEJONG-3A-11-V1-007_card_1",
+          "SEJONG-3A-11-V1-007_card_2",
+          "SEJONG-3A-11-V1-007_card_3",
+          "SEJONG-3A-11-V1-007_card_4",
+          "SEJONG-3A-11-V1-007_card_5",
+          "SEJONG-3A-11-V1-007_card_6",
+          "SEJONG-3A-11-V1-007_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-008",
+      "displaySentence": "꾸준히 배우다 보면 쓸데없는 생각이 사라져요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-008_card_0",
+          "꾸준히"
+        ],
+        [
+          "SEJONG-3A-11-V1-008_card_1",
+          "배우다"
+        ],
+        [
+          "SEJONG-3A-11-V1-008_card_2",
+          "보면"
+        ],
+        [
+          "SEJONG-3A-11-V1-008_card_3",
+          "쓸데없는"
+        ],
+        [
+          "SEJONG-3A-11-V1-008_card_4",
+          "생각"
+        ],
+        [
+          "SEJONG-3A-11-V1-008_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-11-V1-008_card_6",
+          "사라져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-008_card_0",
+          "SEJONG-3A-11-V1-008_card_1",
+          "SEJONG-3A-11-V1-008_card_2",
+          "SEJONG-3A-11-V1-008_card_3",
+          "SEJONG-3A-11-V1-008_card_4",
+          "SEJONG-3A-11-V1-008_card_5",
+          "SEJONG-3A-11-V1-008_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-009",
+      "displaySentence": "주말에 집에서 쉬니까 정말 좋더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-009_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-3A-11-V1-009_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-11-V1-009_card_2",
+          "집"
+        ],
+        [
+          "SEJONG-3A-11-V1-009_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-11-V1-009_card_4",
+          "쉬니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-009_card_5",
+          "정말"
+        ],
+        [
+          "SEJONG-3A-11-V1-009_card_6",
+          "좋더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-009_card_0",
+          "SEJONG-3A-11-V1-009_card_1",
+          "SEJONG-3A-11-V1-009_card_2",
+          "SEJONG-3A-11-V1-009_card_3",
+          "SEJONG-3A-11-V1-009_card_4",
+          "SEJONG-3A-11-V1-009_card_5",
+          "SEJONG-3A-11-V1-009_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-010",
+      "displaySentence": "등산을 해 보니까 스트레스가 풀리더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-010_card_0",
+          "등산"
+        ],
+        [
+          "SEJONG-3A-11-V1-010_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-010_card_2",
+          "해"
+        ],
+        [
+          "SEJONG-3A-11-V1-010_card_3",
+          "보니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-010_card_4",
+          "스트레스"
+        ],
+        [
+          "SEJONG-3A-11-V1-010_card_5",
+          "가"
+        ],
+        [
+          "SEJONG-3A-11-V1-010_card_6",
+          "풀리더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-010_card_0",
+          "SEJONG-3A-11-V1-010_card_1",
+          "SEJONG-3A-11-V1-010_card_2",
+          "SEJONG-3A-11-V1-010_card_3",
+          "SEJONG-3A-11-V1-010_card_4",
+          "SEJONG-3A-11-V1-010_card_5",
+          "SEJONG-3A-11-V1-010_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -다 보면",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-011",
+      "displaySentence": "새로운 사람을 만나니까 재미있더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-011_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-3A-11-V1-011_card_1",
+          "사람"
+        ],
+        [
+          "SEJONG-3A-11-V1-011_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-011_card_3",
+          "만나니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-011_card_4",
+          "재미있더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-011_card_0",
+          "SEJONG-3A-11-V1-011_card_1",
+          "SEJONG-3A-11-V1-011_card_2",
+          "SEJONG-3A-11-V1-011_card_3",
+          "SEJONG-3A-11-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-012",
+      "displaySentence": "문화 공연을 보니까 인상적이더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-012_card_0",
+          "문화"
+        ],
+        [
+          "SEJONG-3A-11-V1-012_card_1",
+          "공연"
+        ],
+        [
+          "SEJONG-3A-11-V1-012_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-012_card_3",
+          "보니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-012_card_4",
+          "인상적이더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-012_card_0",
+          "SEJONG-3A-11-V1-012_card_1",
+          "SEJONG-3A-11-V1-012_card_2",
+          "SEJONG-3A-11-V1-012_card_3",
+          "SEJONG-3A-11-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-013",
+      "displaySentence": "여행을 다녀오니까 기분 전환이 되더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-013_card_0",
+          "여행"
+        ],
+        [
+          "SEJONG-3A-11-V1-013_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-013_card_2",
+          "다녀오니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-013_card_3",
+          "기분"
+        ],
+        [
+          "SEJONG-3A-11-V1-013_card_4",
+          "전환"
+        ],
+        [
+          "SEJONG-3A-11-V1-013_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-11-V1-013_card_6",
+          "되더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-013_card_0",
+          "SEJONG-3A-11-V1-013_card_1",
+          "SEJONG-3A-11-V1-013_card_2",
+          "SEJONG-3A-11-V1-013_card_3",
+          "SEJONG-3A-11-V1-013_card_4",
+          "SEJONG-3A-11-V1-013_card_5",
+          "SEJONG-3A-11-V1-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-014",
+      "displaySentence": "자기 계발을 시작하니까 뿌듯하더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-014_card_0",
+          "자기"
+        ],
+        [
+          "SEJONG-3A-11-V1-014_card_1",
+          "계발"
+        ],
+        [
+          "SEJONG-3A-11-V1-014_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-014_card_3",
+          "시작하니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-014_card_4",
+          "뿌듯하더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-014_card_0",
+          "SEJONG-3A-11-V1-014_card_1",
+          "SEJONG-3A-11-V1-014_card_2",
+          "SEJONG-3A-11-V1-014_card_3",
+          "SEJONG-3A-11-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-015",
+      "displaySentence": "운동을 규칙적으로 하니까 활기차더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-015_card_0",
+          "운동"
+        ],
+        [
+          "SEJONG-3A-11-V1-015_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-015_card_2",
+          "규칙적"
+        ],
+        [
+          "SEJONG-3A-11-V1-015_card_3",
+          "으로"
+        ],
+        [
+          "SEJONG-3A-11-V1-015_card_4",
+          "하니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-015_card_5",
+          "활기차더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-015_card_0",
+          "SEJONG-3A-11-V1-015_card_1",
+          "SEJONG-3A-11-V1-015_card_2",
+          "SEJONG-3A-11-V1-015_card_3",
+          "SEJONG-3A-11-V1-015_card_4",
+          "SEJONG-3A-11-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-016",
+      "displaySentence": "은퇴한 뒤에 여행하니까 여유가 생기더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-016_card_0",
+          "은퇴한"
+        ],
+        [
+          "SEJONG-3A-11-V1-016_card_1",
+          "뒤"
+        ],
+        [
+          "SEJONG-3A-11-V1-016_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-3A-11-V1-016_card_3",
+          "여행하니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-016_card_4",
+          "여유"
+        ],
+        [
+          "SEJONG-3A-11-V1-016_card_5",
+          "가"
+        ],
+        [
+          "SEJONG-3A-11-V1-016_card_6",
+          "생기더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-016_card_0",
+          "SEJONG-3A-11-V1-016_card_1",
+          "SEJONG-3A-11-V1-016_card_2",
+          "SEJONG-3A-11-V1-016_card_3",
+          "SEJONG-3A-11-V1-016_card_4",
+          "SEJONG-3A-11-V1-016_card_5",
+          "SEJONG-3A-11-V1-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-017",
+      "displaySentence": "새로운 것을 배우니까 생각보다 어렵지 않더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-017_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-3A-11-V1-017_card_1",
+          "것"
+        ],
+        [
+          "SEJONG-3A-11-V1-017_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-11-V1-017_card_3",
+          "배우니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-017_card_4",
+          "생각"
+        ],
+        [
+          "SEJONG-3A-11-V1-017_card_5",
+          "보다"
+        ],
+        [
+          "SEJONG-3A-11-V1-017_card_6",
+          "어렵지"
+        ],
+        [
+          "SEJONG-3A-11-V1-017_card_7",
+          "않더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-017_card_0",
+          "SEJONG-3A-11-V1-017_card_1",
+          "SEJONG-3A-11-V1-017_card_2",
+          "SEJONG-3A-11-V1-017_card_3",
+          "SEJONG-3A-11-V1-017_card_4",
+          "SEJONG-3A-11-V1-017_card_5",
+          "SEJONG-3A-11-V1-017_card_6",
+          "SEJONG-3A-11-V1-017_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-018",
+      "displaySentence": "정보를 찾아보니까 도움이 많이 되더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-018_card_0",
+          "정보를"
+        ],
+        [
+          "SEJONG-3A-11-V1-018_card_1",
+          "찾아보니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-018_card_2",
+          "도움"
+        ],
+        [
+          "SEJONG-3A-11-V1-018_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-3A-11-V1-018_card_4",
+          "많"
+        ],
+        [
+          "SEJONG-3A-11-V1-018_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-11-V1-018_card_6",
+          "되더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-018_card_0",
+          "SEJONG-3A-11-V1-018_card_1",
+          "SEJONG-3A-11-V1-018_card_2",
+          "SEJONG-3A-11-V1-018_card_3",
+          "SEJONG-3A-11-V1-018_card_4",
+          "SEJONG-3A-11-V1-018_card_5",
+          "SEJONG-3A-11-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-019",
+      "displaySentence": "주말마다 산책하니까 마음이 편안해지더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-019_card_0",
+          "주말마다"
+        ],
+        [
+          "SEJONG-3A-11-V1-019_card_1",
+          "산책하니까"
+        ],
+        [
+          "SEJONG-3A-11-V1-019_card_2",
+          "마음"
+        ],
+        [
+          "SEJONG-3A-11-V1-019_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-3A-11-V1-019_card_4",
+          "편안해지더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-019_card_0",
+          "SEJONG-3A-11-V1-019_card_1",
+          "SEJONG-3A-11-V1-019_card_2",
+          "SEJONG-3A-11-V1-019_card_3",
+          "SEJONG-3A-11-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-11-V1-020",
+      "displaySentence": "집에서 조용히 쉬는 게 가장 좋더라고요.",
+      "tokens": [
+        [
+          "SEJONG-3A-11-V1-020_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-3A-11-V1-020_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-11-V1-020_card_2",
+          "조용히"
+        ],
+        [
+          "SEJONG-3A-11-V1-020_card_3",
+          "쉬"
+        ],
+        [
+          "SEJONG-3A-11-V1-020_card_4",
+          "는"
+        ],
+        [
+          "SEJONG-3A-11-V1-020_card_5",
+          "게"
+        ],
+        [
+          "SEJONG-3A-11-V1-020_card_6",
+          "가장"
+        ],
+        [
+          "SEJONG-3A-11-V1-020_card_7",
+          "좋더라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-11-V1-020_card_0",
+          "SEJONG-3A-11-V1-020_card_1",
+          "SEJONG-3A-11-V1-020_card_2",
+          "SEJONG-3A-11-V1-020_card_3",
+          "SEJONG-3A-11-V1-020_card_4",
+          "SEJONG-3A-11-V1-020_card_5",
+          "SEJONG-3A-11-V1-020_card_6",
+          "SEJONG-3A-11-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 11과 어휘·문법 범위 재구성 · -더라고요",
+      "sourceRef": "세종한국어 3A 11과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

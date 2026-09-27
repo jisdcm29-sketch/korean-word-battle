@@ -1,0 +1,928 @@
+{
+  "book": "3A",
+  "lesson": 2,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 2과 범위",
+  "selectionPolicy": [
+    "2과 핵심 문법 -는다고/ㄴ다고/다고 하다·-나/(으)ㄴ가 보다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 3과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-02-V1-001",
+      "displaySentence": "민수 씨는 요즘 회사 일이 많다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-001_card_0",
+          "민수 씨"
+        ],
+        [
+          "SEJONG-3A-02-V1-001_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-3A-02-V1-001_card_2",
+          "요즘"
+        ],
+        [
+          "SEJONG-3A-02-V1-001_card_3",
+          "회사"
+        ],
+        [
+          "SEJONG-3A-02-V1-001_card_4",
+          "일"
+        ],
+        [
+          "SEJONG-3A-02-V1-001_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-02-V1-001_card_6",
+          "많다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-001_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-001_card_0",
+          "SEJONG-3A-02-V1-001_card_1",
+          "SEJONG-3A-02-V1-001_card_2",
+          "SEJONG-3A-02-V1-001_card_3",
+          "SEJONG-3A-02-V1-001_card_4",
+          "SEJONG-3A-02-V1-001_card_5",
+          "SEJONG-3A-02-V1-001_card_6",
+          "SEJONG-3A-02-V1-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-002",
+      "displaySentence": "수지 씨가 이번에 장학금을 받았다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-002_card_0",
+          "수지 씨"
+        ],
+        [
+          "SEJONG-3A-02-V1-002_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-002_card_2",
+          "이번"
+        ],
+        [
+          "SEJONG-3A-02-V1-002_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-02-V1-002_card_4",
+          "장학금"
+        ],
+        [
+          "SEJONG-3A-02-V1-002_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-02-V1-002_card_6",
+          "받았다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-002_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-002_card_0",
+          "SEJONG-3A-02-V1-002_card_1",
+          "SEJONG-3A-02-V1-002_card_2",
+          "SEJONG-3A-02-V1-002_card_3",
+          "SEJONG-3A-02-V1-002_card_4",
+          "SEJONG-3A-02-V1-002_card_5",
+          "SEJONG-3A-02-V1-002_card_6",
+          "SEJONG-3A-02-V1-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-003",
+      "displaySentence": "마리 씨는 내년에 졸업한다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-003_card_0",
+          "마리"
+        ],
+        [
+          "SEJONG-3A-02-V1-003_card_1",
+          "씨"
+        ],
+        [
+          "SEJONG-3A-02-V1-003_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-3A-02-V1-003_card_3",
+          "내년"
+        ],
+        [
+          "SEJONG-3A-02-V1-003_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-02-V1-003_card_5",
+          "졸업한다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-003_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-003_card_0",
+          "SEJONG-3A-02-V1-003_card_1",
+          "SEJONG-3A-02-V1-003_card_2",
+          "SEJONG-3A-02-V1-003_card_3",
+          "SEJONG-3A-02-V1-003_card_4",
+          "SEJONG-3A-02-V1-003_card_5",
+          "SEJONG-3A-02-V1-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-004",
+      "displaySentence": "친구가 새 회사에 지원한다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-004_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-02-V1-004_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-004_card_2",
+          "새"
+        ],
+        [
+          "SEJONG-3A-02-V1-004_card_3",
+          "회사"
+        ],
+        [
+          "SEJONG-3A-02-V1-004_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-02-V1-004_card_5",
+          "지원한다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-004_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-004_card_0",
+          "SEJONG-3A-02-V1-004_card_1",
+          "SEJONG-3A-02-V1-004_card_2",
+          "SEJONG-3A-02-V1-004_card_3",
+          "SEJONG-3A-02-V1-004_card_4",
+          "SEJONG-3A-02-V1-004_card_5",
+          "SEJONG-3A-02-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-005",
+      "displaySentence": "형은 다음 달에 일을 그만둔다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-005_card_0",
+          "형"
+        ],
+        [
+          "SEJONG-3A-02-V1-005_card_1",
+          "은"
+        ],
+        [
+          "SEJONG-3A-02-V1-005_card_2",
+          "다음 달"
+        ],
+        [
+          "SEJONG-3A-02-V1-005_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-02-V1-005_card_4",
+          "일"
+        ],
+        [
+          "SEJONG-3A-02-V1-005_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-02-V1-005_card_6",
+          "그만둔다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-005_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-005_card_0",
+          "SEJONG-3A-02-V1-005_card_1",
+          "SEJONG-3A-02-V1-005_card_2",
+          "SEJONG-3A-02-V1-005_card_3",
+          "SEJONG-3A-02-V1-005_card_4",
+          "SEJONG-3A-02-V1-005_card_5",
+          "SEJONG-3A-02-V1-005_card_6",
+          "SEJONG-3A-02-V1-005_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-006",
+      "displaySentence": "누나는 운전면허를 땄다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-006_card_0",
+          "누나는"
+        ],
+        [
+          "SEJONG-3A-02-V1-006_card_1",
+          "운전면허"
+        ],
+        [
+          "SEJONG-3A-02-V1-006_card_2",
+          "를"
+        ],
+        [
+          "SEJONG-3A-02-V1-006_card_3",
+          "땄다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-006_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-006_card_0",
+          "SEJONG-3A-02-V1-006_card_1",
+          "SEJONG-3A-02-V1-006_card_2",
+          "SEJONG-3A-02-V1-006_card_3",
+          "SEJONG-3A-02-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-007",
+      "displaySentence": "친구가 이번에 합격했다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-007_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-02-V1-007_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-007_card_2",
+          "이번"
+        ],
+        [
+          "SEJONG-3A-02-V1-007_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-02-V1-007_card_4",
+          "합격했다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-007_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-007_card_0",
+          "SEJONG-3A-02-V1-007_card_1",
+          "SEJONG-3A-02-V1-007_card_2",
+          "SEJONG-3A-02-V1-007_card_3",
+          "SEJONG-3A-02-V1-007_card_4",
+          "SEJONG-3A-02-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-008",
+      "displaySentence": "선배가 직장을 옮긴다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-008_card_0",
+          "선배"
+        ],
+        [
+          "SEJONG-3A-02-V1-008_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-008_card_2",
+          "직장"
+        ],
+        [
+          "SEJONG-3A-02-V1-008_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-02-V1-008_card_4",
+          "옮긴다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-008_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-008_card_0",
+          "SEJONG-3A-02-V1-008_card_1",
+          "SEJONG-3A-02-V1-008_card_2",
+          "SEJONG-3A-02-V1-008_card_3",
+          "SEJONG-3A-02-V1-008_card_4",
+          "SEJONG-3A-02-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-009",
+      "displaySentence": "민수 씨가 요즘 일자리를 구하나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-009_card_0",
+          "민수"
+        ],
+        [
+          "SEJONG-3A-02-V1-009_card_1",
+          "씨"
+        ],
+        [
+          "SEJONG-3A-02-V1-009_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-009_card_3",
+          "요즘"
+        ],
+        [
+          "SEJONG-3A-02-V1-009_card_4",
+          "일자리"
+        ],
+        [
+          "SEJONG-3A-02-V1-009_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-02-V1-009_card_6",
+          "구하나"
+        ],
+        [
+          "SEJONG-3A-02-V1-009_card_7",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-009_card_0",
+          "SEJONG-3A-02-V1-009_card_1",
+          "SEJONG-3A-02-V1-009_card_2",
+          "SEJONG-3A-02-V1-009_card_3",
+          "SEJONG-3A-02-V1-009_card_4",
+          "SEJONG-3A-02-V1-009_card_5",
+          "SEJONG-3A-02-V1-009_card_6",
+          "SEJONG-3A-02-V1-009_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-010",
+      "displaySentence": "수지 씨는 회사에서 중요한 업무를 맡았나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-010_card_0",
+          "수지 씨"
+        ],
+        [
+          "SEJONG-3A-02-V1-010_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-3A-02-V1-010_card_2",
+          "회사"
+        ],
+        [
+          "SEJONG-3A-02-V1-010_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-02-V1-010_card_4",
+          "중요한 업무"
+        ],
+        [
+          "SEJONG-3A-02-V1-010_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-02-V1-010_card_6",
+          "맡았나"
+        ],
+        [
+          "SEJONG-3A-02-V1-010_card_7",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-010_card_0",
+          "SEJONG-3A-02-V1-010_card_1",
+          "SEJONG-3A-02-V1-010_card_2",
+          "SEJONG-3A-02-V1-010_card_3",
+          "SEJONG-3A-02-V1-010_card_4",
+          "SEJONG-3A-02-V1-010_card_5",
+          "SEJONG-3A-02-V1-010_card_6",
+          "SEJONG-3A-02-V1-010_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -는다고/ㄴ다고/다고 하다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-011",
+      "displaySentence": "마리 씨가 휴학했나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-011_card_0",
+          "마리"
+        ],
+        [
+          "SEJONG-3A-02-V1-011_card_1",
+          "씨"
+        ],
+        [
+          "SEJONG-3A-02-V1-011_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-011_card_3",
+          "휴학했나"
+        ],
+        [
+          "SEJONG-3A-02-V1-011_card_4",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-011_card_0",
+          "SEJONG-3A-02-V1-011_card_1",
+          "SEJONG-3A-02-V1-011_card_2",
+          "SEJONG-3A-02-V1-011_card_3",
+          "SEJONG-3A-02-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-012",
+      "displaySentence": "친구가 승진했나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-012_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-02-V1-012_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-012_card_2",
+          "승진했나"
+        ],
+        [
+          "SEJONG-3A-02-V1-012_card_3",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-012_card_0",
+          "SEJONG-3A-02-V1-012_card_1",
+          "SEJONG-3A-02-V1-012_card_2",
+          "SEJONG-3A-02-V1-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-013",
+      "displaySentence": "누나가 새 직장인이 되었나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-013_card_0",
+          "누나가"
+        ],
+        [
+          "SEJONG-3A-02-V1-013_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-3A-02-V1-013_card_2",
+          "직장인"
+        ],
+        [
+          "SEJONG-3A-02-V1-013_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-3A-02-V1-013_card_4",
+          "되었나"
+        ],
+        [
+          "SEJONG-3A-02-V1-013_card_5",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-013_card_0",
+          "SEJONG-3A-02-V1-013_card_1",
+          "SEJONG-3A-02-V1-013_card_2",
+          "SEJONG-3A-02-V1-013_card_3",
+          "SEJONG-3A-02-V1-013_card_4",
+          "SEJONG-3A-02-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-014",
+      "displaySentence": "형이 요즘 회사에서 바쁜가 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-014_card_0",
+          "형"
+        ],
+        [
+          "SEJONG-3A-02-V1-014_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-02-V1-014_card_2",
+          "요즘"
+        ],
+        [
+          "SEJONG-3A-02-V1-014_card_3",
+          "회사"
+        ],
+        [
+          "SEJONG-3A-02-V1-014_card_4",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-02-V1-014_card_5",
+          "바쁜"
+        ],
+        [
+          "SEJONG-3A-02-V1-014_card_6",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-014_card_7",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-014_card_0",
+          "SEJONG-3A-02-V1-014_card_1",
+          "SEJONG-3A-02-V1-014_card_2",
+          "SEJONG-3A-02-V1-014_card_3",
+          "SEJONG-3A-02-V1-014_card_4",
+          "SEJONG-3A-02-V1-014_card_5",
+          "SEJONG-3A-02-V1-014_card_6",
+          "SEJONG-3A-02-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-015",
+      "displaySentence": "민수 씨가 대학에 입학했나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-015_card_0",
+          "민수"
+        ],
+        [
+          "SEJONG-3A-02-V1-015_card_1",
+          "씨"
+        ],
+        [
+          "SEJONG-3A-02-V1-015_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-015_card_3",
+          "대학"
+        ],
+        [
+          "SEJONG-3A-02-V1-015_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-02-V1-015_card_5",
+          "입학했나"
+        ],
+        [
+          "SEJONG-3A-02-V1-015_card_6",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-015_card_0",
+          "SEJONG-3A-02-V1-015_card_1",
+          "SEJONG-3A-02-V1-015_card_2",
+          "SEJONG-3A-02-V1-015_card_3",
+          "SEJONG-3A-02-V1-015_card_4",
+          "SEJONG-3A-02-V1-015_card_5",
+          "SEJONG-3A-02-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-016",
+      "displaySentence": "친구가 아이를 낳았나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-016_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-02-V1-016_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-016_card_2",
+          "아이"
+        ],
+        [
+          "SEJONG-3A-02-V1-016_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-3A-02-V1-016_card_4",
+          "낳았나"
+        ],
+        [
+          "SEJONG-3A-02-V1-016_card_5",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-016_card_0",
+          "SEJONG-3A-02-V1-016_card_1",
+          "SEJONG-3A-02-V1-016_card_2",
+          "SEJONG-3A-02-V1-016_card_3",
+          "SEJONG-3A-02-V1-016_card_4",
+          "SEJONG-3A-02-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-017",
+      "displaySentence": "선배가 회사에서 근무하나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-017_card_0",
+          "선배"
+        ],
+        [
+          "SEJONG-3A-02-V1-017_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-017_card_2",
+          "회사"
+        ],
+        [
+          "SEJONG-3A-02-V1-017_card_3",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-02-V1-017_card_4",
+          "근무하나"
+        ],
+        [
+          "SEJONG-3A-02-V1-017_card_5",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-017_card_0",
+          "SEJONG-3A-02-V1-017_card_1",
+          "SEJONG-3A-02-V1-017_card_2",
+          "SEJONG-3A-02-V1-017_card_3",
+          "SEJONG-3A-02-V1-017_card_4",
+          "SEJONG-3A-02-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-018",
+      "displaySentence": "그 사람은 청혼을 받았나 봐요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-018_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-3A-02-V1-018_card_1",
+          "사람"
+        ],
+        [
+          "SEJONG-3A-02-V1-018_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-3A-02-V1-018_card_3",
+          "청혼"
+        ],
+        [
+          "SEJONG-3A-02-V1-018_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-02-V1-018_card_5",
+          "받았나"
+        ],
+        [
+          "SEJONG-3A-02-V1-018_card_6",
+          "봐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-018_card_0",
+          "SEJONG-3A-02-V1-018_card_1",
+          "SEJONG-3A-02-V1-018_card_2",
+          "SEJONG-3A-02-V1-018_card_3",
+          "SEJONG-3A-02-V1-018_card_4",
+          "SEJONG-3A-02-V1-018_card_5",
+          "SEJONG-3A-02-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-019",
+      "displaySentence": "친구가 다음 달에 결혼한다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-019_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-02-V1-019_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-019_card_2",
+          "다음"
+        ],
+        [
+          "SEJONG-3A-02-V1-019_card_3",
+          "달"
+        ],
+        [
+          "SEJONG-3A-02-V1-019_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-02-V1-019_card_5",
+          "결혼한다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-019_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-019_card_0",
+          "SEJONG-3A-02-V1-019_card_1",
+          "SEJONG-3A-02-V1-019_card_2",
+          "SEJONG-3A-02-V1-019_card_3",
+          "SEJONG-3A-02-V1-019_card_4",
+          "SEJONG-3A-02-V1-019_card_5",
+          "SEJONG-3A-02-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-02-V1-020",
+      "displaySentence": "동료가 새 직장으로 옮겼다고 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-02-V1-020_card_0",
+          "동료"
+        ],
+        [
+          "SEJONG-3A-02-V1-020_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-02-V1-020_card_2",
+          "새"
+        ],
+        [
+          "SEJONG-3A-02-V1-020_card_3",
+          "직장"
+        ],
+        [
+          "SEJONG-3A-02-V1-020_card_4",
+          "으로"
+        ],
+        [
+          "SEJONG-3A-02-V1-020_card_5",
+          "옮겼다고"
+        ],
+        [
+          "SEJONG-3A-02-V1-020_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-02-V1-020_card_0",
+          "SEJONG-3A-02-V1-020_card_1",
+          "SEJONG-3A-02-V1-020_card_2",
+          "SEJONG-3A-02-V1-020_card_3",
+          "SEJONG-3A-02-V1-020_card_4",
+          "SEJONG-3A-02-V1-020_card_5",
+          "SEJONG-3A-02-V1-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 2과 어휘·문법 범위 재구성 · -나/(으)ㄴ가 보다",
+      "sourceRef": "세종한국어 3A 2과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

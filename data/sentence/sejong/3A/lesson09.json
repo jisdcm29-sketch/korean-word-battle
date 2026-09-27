@@ -1,0 +1,958 @@
+{
+  "book": "3A",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 9과 범위",
+  "selectionPolicy": [
+    "9과 핵심 문법 -아/어지다·-는/(으)ㄴ 대신에를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 10과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-09-V1-001",
+      "displaySentence": "날씨가 선선해져서 기분이 좋아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-001_card_0",
+          "날씨"
+        ],
+        [
+          "SEJONG-3A-09-V1-001_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-09-V1-001_card_2",
+          "선선해져서"
+        ],
+        [
+          "SEJONG-3A-09-V1-001_card_3",
+          "기분"
+        ],
+        [
+          "SEJONG-3A-09-V1-001_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-001_card_5",
+          "좋아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-001_card_0",
+          "SEJONG-3A-09-V1-001_card_1",
+          "SEJONG-3A-09-V1-001_card_2",
+          "SEJONG-3A-09-V1-001_card_3",
+          "SEJONG-3A-09-V1-001_card_4",
+          "SEJONG-3A-09-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-002",
+      "displaySentence": "비가 그치고 하늘이 화창해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-002_card_0",
+          "비"
+        ],
+        [
+          "SEJONG-3A-09-V1-002_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-09-V1-002_card_2",
+          "그치고"
+        ],
+        [
+          "SEJONG-3A-09-V1-002_card_3",
+          "하늘"
+        ],
+        [
+          "SEJONG-3A-09-V1-002_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-002_card_5",
+          "화창해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-002_card_0",
+          "SEJONG-3A-09-V1-002_card_1",
+          "SEJONG-3A-09-V1-002_card_2",
+          "SEJONG-3A-09-V1-002_card_3",
+          "SEJONG-3A-09-V1-002_card_4",
+          "SEJONG-3A-09-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-003",
+      "displaySentence": "장마가 끝나서 마음이 가벼워졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-003_card_0",
+          "장마"
+        ],
+        [
+          "SEJONG-3A-09-V1-003_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-09-V1-003_card_2",
+          "끝나서"
+        ],
+        [
+          "SEJONG-3A-09-V1-003_card_3",
+          "마음"
+        ],
+        [
+          "SEJONG-3A-09-V1-003_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-003_card_5",
+          "가벼워졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-003_card_0",
+          "SEJONG-3A-09-V1-003_card_1",
+          "SEJONG-3A-09-V1-003_card_2",
+          "SEJONG-3A-09-V1-003_card_3",
+          "SEJONG-3A-09-V1-003_card_4",
+          "SEJONG-3A-09-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-004",
+      "displaySentence": "태풍이 지나가서 마음이 편안해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-004_card_0",
+          "태풍"
+        ],
+        [
+          "SEJONG-3A-09-V1-004_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-004_card_2",
+          "지나가서"
+        ],
+        [
+          "SEJONG-3A-09-V1-004_card_3",
+          "마음"
+        ],
+        [
+          "SEJONG-3A-09-V1-004_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-004_card_5",
+          "편안해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-004_card_0",
+          "SEJONG-3A-09-V1-004_card_1",
+          "SEJONG-3A-09-V1-004_card_2",
+          "SEJONG-3A-09-V1-004_card_3",
+          "SEJONG-3A-09-V1-004_card_4",
+          "SEJONG-3A-09-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-005",
+      "displaySentence": "한파가 와서 날씨가 더 추워졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-005_card_0",
+          "한파"
+        ],
+        [
+          "SEJONG-3A-09-V1-005_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-09-V1-005_card_2",
+          "와서"
+        ],
+        [
+          "SEJONG-3A-09-V1-005_card_3",
+          "날씨"
+        ],
+        [
+          "SEJONG-3A-09-V1-005_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-3A-09-V1-005_card_5",
+          "더"
+        ],
+        [
+          "SEJONG-3A-09-V1-005_card_6",
+          "추워졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-005_card_0",
+          "SEJONG-3A-09-V1-005_card_1",
+          "SEJONG-3A-09-V1-005_card_2",
+          "SEJONG-3A-09-V1-005_card_3",
+          "SEJONG-3A-09-V1-005_card_4",
+          "SEJONG-3A-09-V1-005_card_5",
+          "SEJONG-3A-09-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-006",
+      "displaySentence": "소나기가 그치고 공기가 시원해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-006_card_0",
+          "소나기"
+        ],
+        [
+          "SEJONG-3A-09-V1-006_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-09-V1-006_card_2",
+          "그치고"
+        ],
+        [
+          "SEJONG-3A-09-V1-006_card_3",
+          "공기"
+        ],
+        [
+          "SEJONG-3A-09-V1-006_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-3A-09-V1-006_card_5",
+          "시원해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-006_card_0",
+          "SEJONG-3A-09-V1-006_card_1",
+          "SEJONG-3A-09-V1-006_card_2",
+          "SEJONG-3A-09-V1-006_card_3",
+          "SEJONG-3A-09-V1-006_card_4",
+          "SEJONG-3A-09-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-007",
+      "displaySentence": "꽃샘추위 때문에 다시 추워졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-007_card_0",
+          "꽃샘추위"
+        ],
+        [
+          "SEJONG-3A-09-V1-007_card_1",
+          "때문"
+        ],
+        [
+          "SEJONG-3A-09-V1-007_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-007_card_3",
+          "다시"
+        ],
+        [
+          "SEJONG-3A-09-V1-007_card_4",
+          "추워졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-007_card_0",
+          "SEJONG-3A-09-V1-007_card_1",
+          "SEJONG-3A-09-V1-007_card_2",
+          "SEJONG-3A-09-V1-007_card_3",
+          "SEJONG-3A-09-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-008",
+      "displaySentence": "음악을 들으니까 기분이 좋아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-008_card_0",
+          "음악"
+        ],
+        [
+          "SEJONG-3A-09-V1-008_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-008_card_2",
+          "들으니까"
+        ],
+        [
+          "SEJONG-3A-09-V1-008_card_3",
+          "기분"
+        ],
+        [
+          "SEJONG-3A-09-V1-008_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-008_card_5",
+          "좋아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-008_card_0",
+          "SEJONG-3A-09-V1-008_card_1",
+          "SEJONG-3A-09-V1-008_card_2",
+          "SEJONG-3A-09-V1-008_card_3",
+          "SEJONG-3A-09-V1-008_card_4",
+          "SEJONG-3A-09-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-009",
+      "displaySentence": "차를 타는 대신에 가까운 곳은 걸어가요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-009_card_0",
+          "차"
+        ],
+        [
+          "SEJONG-3A-09-V1-009_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-09-V1-009_card_2",
+          "타는 대신에"
+        ],
+        [
+          "SEJONG-3A-09-V1-009_card_3",
+          "가까운 곳"
+        ],
+        [
+          "SEJONG-3A-09-V1-009_card_4",
+          "은"
+        ],
+        [
+          "SEJONG-3A-09-V1-009_card_5",
+          "걸어가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-009_card_0",
+          "SEJONG-3A-09-V1-009_card_1",
+          "SEJONG-3A-09-V1-009_card_2",
+          "SEJONG-3A-09-V1-009_card_3",
+          "SEJONG-3A-09-V1-009_card_4",
+          "SEJONG-3A-09-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-010",
+      "displaySentence": "커피를 마시는 대신에 박하차를 마셔요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-010_card_0",
+          "커피"
+        ],
+        [
+          "SEJONG-3A-09-V1-010_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-09-V1-010_card_2",
+          "마시는 대신에"
+        ],
+        [
+          "SEJONG-3A-09-V1-010_card_3",
+          "박하차"
+        ],
+        [
+          "SEJONG-3A-09-V1-010_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-3A-09-V1-010_card_5",
+          "마셔요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-010_card_0",
+          "SEJONG-3A-09-V1-010_card_1",
+          "SEJONG-3A-09-V1-010_card_2",
+          "SEJONG-3A-09-V1-010_card_3",
+          "SEJONG-3A-09-V1-010_card_4",
+          "SEJONG-3A-09-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -아/어지다",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-011",
+      "displaySentence": "집에 있는 대신에 공원에서 운동해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-011_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-3A-09-V1-011_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-011_card_2",
+          "있는"
+        ],
+        [
+          "SEJONG-3A-09-V1-011_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-011_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-011_card_5",
+          "공원"
+        ],
+        [
+          "SEJONG-3A-09-V1-011_card_6",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-09-V1-011_card_7",
+          "운동해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-011_card_0",
+          "SEJONG-3A-09-V1-011_card_1",
+          "SEJONG-3A-09-V1-011_card_2",
+          "SEJONG-3A-09-V1-011_card_3",
+          "SEJONG-3A-09-V1-011_card_4",
+          "SEJONG-3A-09-V1-011_card_5",
+          "SEJONG-3A-09-V1-011_card_6",
+          "SEJONG-3A-09-V1-011_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-012",
+      "displaySentence": "짜증을 내는 대신에 음악을 들어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-012_card_0",
+          "짜증"
+        ],
+        [
+          "SEJONG-3A-09-V1-012_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-012_card_2",
+          "내는"
+        ],
+        [
+          "SEJONG-3A-09-V1-012_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-012_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-012_card_5",
+          "음악"
+        ],
+        [
+          "SEJONG-3A-09-V1-012_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-012_card_7",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-012_card_0",
+          "SEJONG-3A-09-V1-012_card_1",
+          "SEJONG-3A-09-V1-012_card_2",
+          "SEJONG-3A-09-V1-012_card_3",
+          "SEJONG-3A-09-V1-012_card_4",
+          "SEJONG-3A-09-V1-012_card_5",
+          "SEJONG-3A-09-V1-012_card_6",
+          "SEJONG-3A-09-V1-012_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-013",
+      "displaySentence": "무더위에는 밖에 나가는 대신에 집에서 쉬어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-013_card_0",
+          "무더위에"
+        ],
+        [
+          "SEJONG-3A-09-V1-013_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-3A-09-V1-013_card_2",
+          "밖"
+        ],
+        [
+          "SEJONG-3A-09-V1-013_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-013_card_4",
+          "나가는 대신에"
+        ],
+        [
+          "SEJONG-3A-09-V1-013_card_5",
+          "집"
+        ],
+        [
+          "SEJONG-3A-09-V1-013_card_6",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-09-V1-013_card_7",
+          "쉬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-013_card_0",
+          "SEJONG-3A-09-V1-013_card_1",
+          "SEJONG-3A-09-V1-013_card_2",
+          "SEJONG-3A-09-V1-013_card_3",
+          "SEJONG-3A-09-V1-013_card_4",
+          "SEJONG-3A-09-V1-013_card_5",
+          "SEJONG-3A-09-V1-013_card_6",
+          "SEJONG-3A-09-V1-013_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-014",
+      "displaySentence": "열대야에는 늦게 자는 대신에 일찍 쉬어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-014_card_0",
+          "열대야에"
+        ],
+        [
+          "SEJONG-3A-09-V1-014_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-3A-09-V1-014_card_2",
+          "늦게 자"
+        ],
+        [
+          "SEJONG-3A-09-V1-014_card_3",
+          "는"
+        ],
+        [
+          "SEJONG-3A-09-V1-014_card_4",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-014_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-014_card_6",
+          "일찍"
+        ],
+        [
+          "SEJONG-3A-09-V1-014_card_7",
+          "쉬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-014_card_0",
+          "SEJONG-3A-09-V1-014_card_1",
+          "SEJONG-3A-09-V1-014_card_2",
+          "SEJONG-3A-09-V1-014_card_3",
+          "SEJONG-3A-09-V1-014_card_4",
+          "SEJONG-3A-09-V1-014_card_5",
+          "SEJONG-3A-09-V1-014_card_6",
+          "SEJONG-3A-09-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-015",
+      "displaySentence": "우울할 때 혼자 있는 대신에 친구를 만나요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-015_card_0",
+          "우울할 때"
+        ],
+        [
+          "SEJONG-3A-09-V1-015_card_1",
+          "혼자"
+        ],
+        [
+          "SEJONG-3A-09-V1-015_card_2",
+          "있는"
+        ],
+        [
+          "SEJONG-3A-09-V1-015_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-015_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-015_card_5",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-09-V1-015_card_6",
+          "를"
+        ],
+        [
+          "SEJONG-3A-09-V1-015_card_7",
+          "만나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-015_card_0",
+          "SEJONG-3A-09-V1-015_card_1",
+          "SEJONG-3A-09-V1-015_card_2",
+          "SEJONG-3A-09-V1-015_card_3",
+          "SEJONG-3A-09-V1-015_card_4",
+          "SEJONG-3A-09-V1-015_card_5",
+          "SEJONG-3A-09-V1-015_card_6",
+          "SEJONG-3A-09-V1-015_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-016",
+      "displaySentence": "집중이 안 될 때 커피 대신에 물을 마셔요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-016_card_0",
+          "집중"
+        ],
+        [
+          "SEJONG-3A-09-V1-016_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-016_card_2",
+          "안 될 때 커피"
+        ],
+        [
+          "SEJONG-3A-09-V1-016_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-016_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-016_card_5",
+          "물"
+        ],
+        [
+          "SEJONG-3A-09-V1-016_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-016_card_7",
+          "마셔요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-016_card_0",
+          "SEJONG-3A-09-V1-016_card_1",
+          "SEJONG-3A-09-V1-016_card_2",
+          "SEJONG-3A-09-V1-016_card_3",
+          "SEJONG-3A-09-V1-016_card_4",
+          "SEJONG-3A-09-V1-016_card_5",
+          "SEJONG-3A-09-V1-016_card_6",
+          "SEJONG-3A-09-V1-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-017",
+      "displaySentence": "마그네슘을 먹는 대신에 균형 있게 식사해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-017_card_0",
+          "마그네슘"
+        ],
+        [
+          "SEJONG-3A-09-V1-017_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-017_card_2",
+          "먹는"
+        ],
+        [
+          "SEJONG-3A-09-V1-017_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-017_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-017_card_5",
+          "균형"
+        ],
+        [
+          "SEJONG-3A-09-V1-017_card_6",
+          "있게"
+        ],
+        [
+          "SEJONG-3A-09-V1-017_card_7",
+          "식사해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-017_card_0",
+          "SEJONG-3A-09-V1-017_card_1",
+          "SEJONG-3A-09-V1-017_card_2",
+          "SEJONG-3A-09-V1-017_card_3",
+          "SEJONG-3A-09-V1-017_card_4",
+          "SEJONG-3A-09-V1-017_card_5",
+          "SEJONG-3A-09-V1-017_card_6",
+          "SEJONG-3A-09-V1-017_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-018",
+      "displaySentence": "기분이 가라앉을 때 걱정하는 대신에 산책해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-018_card_0",
+          "기분"
+        ],
+        [
+          "SEJONG-3A-09-V1-018_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-018_card_2",
+          "가라앉"
+        ],
+        [
+          "SEJONG-3A-09-V1-018_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-018_card_4",
+          "때 걱정하는"
+        ],
+        [
+          "SEJONG-3A-09-V1-018_card_5",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-018_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-018_card_7",
+          "산책해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-018_card_0",
+          "SEJONG-3A-09-V1-018_card_1",
+          "SEJONG-3A-09-V1-018_card_2",
+          "SEJONG-3A-09-V1-018_card_3",
+          "SEJONG-3A-09-V1-018_card_4",
+          "SEJONG-3A-09-V1-018_card_5",
+          "SEJONG-3A-09-V1-018_card_6",
+          "SEJONG-3A-09-V1-018_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-019",
+      "displaySentence": "폭설이 오면 운전하는 대신에 대중교통을 이용해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-019_card_0",
+          "폭설"
+        ],
+        [
+          "SEJONG-3A-09-V1-019_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-09-V1-019_card_2",
+          "오면 운전하는"
+        ],
+        [
+          "SEJONG-3A-09-V1-019_card_3",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-019_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-019_card_5",
+          "대중교통"
+        ],
+        [
+          "SEJONG-3A-09-V1-019_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-019_card_7",
+          "이용해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-019_card_0",
+          "SEJONG-3A-09-V1-019_card_1",
+          "SEJONG-3A-09-V1-019_card_2",
+          "SEJONG-3A-09-V1-019_card_3",
+          "SEJONG-3A-09-V1-019_card_4",
+          "SEJONG-3A-09-V1-019_card_5",
+          "SEJONG-3A-09-V1-019_card_6",
+          "SEJONG-3A-09-V1-019_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-09-V1-020",
+      "displaySentence": "엔도르핀을 늘리기 위해서 걱정하는 대신에 운동해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-09-V1-020_card_0",
+          "엔도르핀"
+        ],
+        [
+          "SEJONG-3A-09-V1-020_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-09-V1-020_card_2",
+          "늘리기"
+        ],
+        [
+          "SEJONG-3A-09-V1-020_card_3",
+          "위해서"
+        ],
+        [
+          "SEJONG-3A-09-V1-020_card_4",
+          "걱정하는"
+        ],
+        [
+          "SEJONG-3A-09-V1-020_card_5",
+          "대신"
+        ],
+        [
+          "SEJONG-3A-09-V1-020_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-3A-09-V1-020_card_7",
+          "운동해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-09-V1-020_card_0",
+          "SEJONG-3A-09-V1-020_card_1",
+          "SEJONG-3A-09-V1-020_card_2",
+          "SEJONG-3A-09-V1-020_card_3",
+          "SEJONG-3A-09-V1-020_card_4",
+          "SEJONG-3A-09-V1-020_card_5",
+          "SEJONG-3A-09-V1-020_card_6",
+          "SEJONG-3A-09-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 9과 어휘·문법 범위 재구성 · -는/(으)ㄴ 대신에",
+      "sourceRef": "세종한국어 3A 9과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

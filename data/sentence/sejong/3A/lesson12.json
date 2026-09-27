@@ -1,0 +1,1048 @@
+{
+  "book": "3A",
+  "lesson": 12,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 12과 범위",
+  "selectionPolicy": [
+    "12과 핵심 문법 -는다/ㄴ다/다·-(으)라고 하다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 이후 과정의 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-12-V1-001",
+      "displaySentence": "이 영화는 연출이 뛰어나고 내용도 흥미진진하다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-001_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-001_card_1",
+          "영화"
+        ],
+        [
+          "SEJONG-3A-12-V1-001_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-001_card_3",
+          "연출"
+        ],
+        [
+          "SEJONG-3A-12-V1-001_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-001_card_5",
+          "뛰어나고 내용"
+        ],
+        [
+          "SEJONG-3A-12-V1-001_card_6",
+          "도"
+        ],
+        [
+          "SEJONG-3A-12-V1-001_card_7",
+          "흥미진진하다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-001_card_0",
+          "SEJONG-3A-12-V1-001_card_1",
+          "SEJONG-3A-12-V1-001_card_2",
+          "SEJONG-3A-12-V1-001_card_3",
+          "SEJONG-3A-12-V1-001_card_4",
+          "SEJONG-3A-12-V1-001_card_5",
+          "SEJONG-3A-12-V1-001_card_6",
+          "SEJONG-3A-12-V1-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-002",
+      "displaySentence": "그 배우는 연기가 뛰어나서 매우 인상적이다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-002_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-3A-12-V1-002_card_1",
+          "배우"
+        ],
+        [
+          "SEJONG-3A-12-V1-002_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-002_card_3",
+          "연기"
+        ],
+        [
+          "SEJONG-3A-12-V1-002_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-002_card_5",
+          "뛰어나서"
+        ],
+        [
+          "SEJONG-3A-12-V1-002_card_6",
+          "매우"
+        ],
+        [
+          "SEJONG-3A-12-V1-002_card_7",
+          "인상적이다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-002_card_0",
+          "SEJONG-3A-12-V1-002_card_1",
+          "SEJONG-3A-12-V1-002_card_2",
+          "SEJONG-3A-12-V1-002_card_3",
+          "SEJONG-3A-12-V1-002_card_4",
+          "SEJONG-3A-12-V1-002_card_5",
+          "SEJONG-3A-12-V1-002_card_6",
+          "SEJONG-3A-12-V1-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-003",
+      "displaySentence": "이 멜로 영화는 가슴이 찡하고 감동적이다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-003_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-003_card_1",
+          "멜로"
+        ],
+        [
+          "SEJONG-3A-12-V1-003_card_2",
+          "영화"
+        ],
+        [
+          "SEJONG-3A-12-V1-003_card_3",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-003_card_4",
+          "가슴"
+        ],
+        [
+          "SEJONG-3A-12-V1-003_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-003_card_6",
+          "찡하고"
+        ],
+        [
+          "SEJONG-3A-12-V1-003_card_7",
+          "감동적이다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-003_card_0",
+          "SEJONG-3A-12-V1-003_card_1",
+          "SEJONG-3A-12-V1-003_card_2",
+          "SEJONG-3A-12-V1-003_card_3",
+          "SEJONG-3A-12-V1-003_card_4",
+          "SEJONG-3A-12-V1-003_card_5",
+          "SEJONG-3A-12-V1-003_card_6",
+          "SEJONG-3A-12-V1-003_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-004",
+      "displaySentence": "그 공포 영화는 손에 땀을 쥐게 한다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-004_card_0",
+          "그 공포 영화"
+        ],
+        [
+          "SEJONG-3A-12-V1-004_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-004_card_2",
+          "손"
+        ],
+        [
+          "SEJONG-3A-12-V1-004_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-12-V1-004_card_4",
+          "땀"
+        ],
+        [
+          "SEJONG-3A-12-V1-004_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-004_card_6",
+          "쥐게"
+        ],
+        [
+          "SEJONG-3A-12-V1-004_card_7",
+          "한다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-004_card_0",
+          "SEJONG-3A-12-V1-004_card_1",
+          "SEJONG-3A-12-V1-004_card_2",
+          "SEJONG-3A-12-V1-004_card_3",
+          "SEJONG-3A-12-V1-004_card_4",
+          "SEJONG-3A-12-V1-004_card_5",
+          "SEJONG-3A-12-V1-004_card_6",
+          "SEJONG-3A-12-V1-004_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-005",
+      "displaySentence": "이 사극은 장면이 생생하고 박진감 넘친다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-005_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-005_card_1",
+          "사극"
+        ],
+        [
+          "SEJONG-3A-12-V1-005_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-3A-12-V1-005_card_3",
+          "장면"
+        ],
+        [
+          "SEJONG-3A-12-V1-005_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-005_card_5",
+          "생생"
+        ],
+        [
+          "SEJONG-3A-12-V1-005_card_6",
+          "하고"
+        ],
+        [
+          "SEJONG-3A-12-V1-005_card_7",
+          "박진감 넘친다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-005_card_0",
+          "SEJONG-3A-12-V1-005_card_1",
+          "SEJONG-3A-12-V1-005_card_2",
+          "SEJONG-3A-12-V1-005_card_3",
+          "SEJONG-3A-12-V1-005_card_4",
+          "SEJONG-3A-12-V1-005_card_5",
+          "SEJONG-3A-12-V1-005_card_6",
+          "SEJONG-3A-12-V1-005_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-006",
+      "displaySentence": "그 코미디는 재미있지만 내용은 조금 뻔하다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-006_card_0",
+          "그 코미디"
+        ],
+        [
+          "SEJONG-3A-12-V1-006_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-006_card_2",
+          "재미있지"
+        ],
+        [
+          "SEJONG-3A-12-V1-006_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-12-V1-006_card_4",
+          "내용"
+        ],
+        [
+          "SEJONG-3A-12-V1-006_card_5",
+          "은"
+        ],
+        [
+          "SEJONG-3A-12-V1-006_card_6",
+          "조금"
+        ],
+        [
+          "SEJONG-3A-12-V1-006_card_7",
+          "뻔하다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-006_card_0",
+          "SEJONG-3A-12-V1-006_card_1",
+          "SEJONG-3A-12-V1-006_card_2",
+          "SEJONG-3A-12-V1-006_card_3",
+          "SEJONG-3A-12-V1-006_card_4",
+          "SEJONG-3A-12-V1-006_card_5",
+          "SEJONG-3A-12-V1-006_card_6",
+          "SEJONG-3A-12-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-007",
+      "displaySentence": "이 콘서트는 기대에 못 미치지만 연주는 훌륭하다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-007_card_1",
+          "콘서트"
+        ],
+        [
+          "SEJONG-3A-12-V1-007_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-007_card_3",
+          "기대"
+        ],
+        [
+          "SEJONG-3A-12-V1-007_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-12-V1-007_card_5",
+          "못 미치지"
+        ],
+        [
+          "SEJONG-3A-12-V1-007_card_6",
+          "만"
+        ],
+        [
+          "SEJONG-3A-12-V1-007_card_7",
+          "연주는 훌륭하다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-007_card_0",
+          "SEJONG-3A-12-V1-007_card_1",
+          "SEJONG-3A-12-V1-007_card_2",
+          "SEJONG-3A-12-V1-007_card_3",
+          "SEJONG-3A-12-V1-007_card_4",
+          "SEJONG-3A-12-V1-007_card_5",
+          "SEJONG-3A-12-V1-007_card_6",
+          "SEJONG-3A-12-V1-007_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-008",
+      "displaySentence": "그 발라드는 잔잔하고 가슴을 따뜻하게 한다.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-008_card_0",
+          "그 발라드"
+        ],
+        [
+          "SEJONG-3A-12-V1-008_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-008_card_2",
+          "잔잔"
+        ],
+        [
+          "SEJONG-3A-12-V1-008_card_3",
+          "하고"
+        ],
+        [
+          "SEJONG-3A-12-V1-008_card_4",
+          "가슴"
+        ],
+        [
+          "SEJONG-3A-12-V1-008_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-008_card_6",
+          "따뜻하게"
+        ],
+        [
+          "SEJONG-3A-12-V1-008_card_7",
+          "한다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-008_card_0",
+          "SEJONG-3A-12-V1-008_card_1",
+          "SEJONG-3A-12-V1-008_card_2",
+          "SEJONG-3A-12-V1-008_card_3",
+          "SEJONG-3A-12-V1-008_card_4",
+          "SEJONG-3A-12-V1-008_card_5",
+          "SEJONG-3A-12-V1-008_card_6",
+          "SEJONG-3A-12-V1-008_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-009",
+      "displaySentence": "친구가 이 영화를 꼭 보라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-009_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-12-V1-009_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-009_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-009_card_3",
+          "영화"
+        ],
+        [
+          "SEJONG-3A-12-V1-009_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-3A-12-V1-009_card_5",
+          "꼭"
+        ],
+        [
+          "SEJONG-3A-12-V1-009_card_6",
+          "보라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-009_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-009_card_0",
+          "SEJONG-3A-12-V1-009_card_1",
+          "SEJONG-3A-12-V1-009_card_2",
+          "SEJONG-3A-12-V1-009_card_3",
+          "SEJONG-3A-12-V1-009_card_4",
+          "SEJONG-3A-12-V1-009_card_5",
+          "SEJONG-3A-12-V1-009_card_6",
+          "SEJONG-3A-12-V1-009_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-010",
+      "displaySentence": "선생님이 전통 음악을 들어 보라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-010_card_0",
+          "선생님"
+        ],
+        [
+          "SEJONG-3A-12-V1-010_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-010_card_2",
+          "전통"
+        ],
+        [
+          "SEJONG-3A-12-V1-010_card_3",
+          "음악"
+        ],
+        [
+          "SEJONG-3A-12-V1-010_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-010_card_5",
+          "들어"
+        ],
+        [
+          "SEJONG-3A-12-V1-010_card_6",
+          "보라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-010_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-010_card_0",
+          "SEJONG-3A-12-V1-010_card_1",
+          "SEJONG-3A-12-V1-010_card_2",
+          "SEJONG-3A-12-V1-010_card_3",
+          "SEJONG-3A-12-V1-010_card_4",
+          "SEJONG-3A-12-V1-010_card_5",
+          "SEJONG-3A-12-V1-010_card_6",
+          "SEJONG-3A-12-V1-010_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -는다/ㄴ다/다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-011",
+      "displaySentence": "친구가 그 뮤지컬을 보러 가라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-011_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-12-V1-011_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-011_card_2",
+          "그"
+        ],
+        [
+          "SEJONG-3A-12-V1-011_card_3",
+          "뮤지컬"
+        ],
+        [
+          "SEJONG-3A-12-V1-011_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-011_card_5",
+          "보러"
+        ],
+        [
+          "SEJONG-3A-12-V1-011_card_6",
+          "가라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-011_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-011_card_0",
+          "SEJONG-3A-12-V1-011_card_1",
+          "SEJONG-3A-12-V1-011_card_2",
+          "SEJONG-3A-12-V1-011_card_3",
+          "SEJONG-3A-12-V1-011_card_4",
+          "SEJONG-3A-12-V1-011_card_5",
+          "SEJONG-3A-12-V1-011_card_6",
+          "SEJONG-3A-12-V1-011_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-012",
+      "displaySentence": "형이 공포 영화는 혼자 보지 말라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-012_card_0",
+          "형"
+        ],
+        [
+          "SEJONG-3A-12-V1-012_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-012_card_2",
+          "공포 영화"
+        ],
+        [
+          "SEJONG-3A-12-V1-012_card_3",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-012_card_4",
+          "혼자"
+        ],
+        [
+          "SEJONG-3A-12-V1-012_card_5",
+          "보지"
+        ],
+        [
+          "SEJONG-3A-12-V1-012_card_6",
+          "말라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-012_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-012_card_0",
+          "SEJONG-3A-12-V1-012_card_1",
+          "SEJONG-3A-12-V1-012_card_2",
+          "SEJONG-3A-12-V1-012_card_3",
+          "SEJONG-3A-12-V1-012_card_4",
+          "SEJONG-3A-12-V1-012_card_5",
+          "SEJONG-3A-12-V1-012_card_6",
+          "SEJONG-3A-12-V1-012_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-013",
+      "displaySentence": "누나가 케이팝 콘서트에 같이 가라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-013_card_0",
+          "누나가"
+        ],
+        [
+          "SEJONG-3A-12-V1-013_card_1",
+          "케이팝"
+        ],
+        [
+          "SEJONG-3A-12-V1-013_card_2",
+          "콘서트"
+        ],
+        [
+          "SEJONG-3A-12-V1-013_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-12-V1-013_card_4",
+          "같이"
+        ],
+        [
+          "SEJONG-3A-12-V1-013_card_5",
+          "가라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-013_card_6",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-013_card_0",
+          "SEJONG-3A-12-V1-013_card_1",
+          "SEJONG-3A-12-V1-013_card_2",
+          "SEJONG-3A-12-V1-013_card_3",
+          "SEJONG-3A-12-V1-013_card_4",
+          "SEJONG-3A-12-V1-013_card_5",
+          "SEJONG-3A-12-V1-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-014",
+      "displaySentence": "친구가 지루한 영화는 보지 말라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-014_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-12-V1-014_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-014_card_2",
+          "지루한"
+        ],
+        [
+          "SEJONG-3A-12-V1-014_card_3",
+          "영화"
+        ],
+        [
+          "SEJONG-3A-12-V1-014_card_4",
+          "는"
+        ],
+        [
+          "SEJONG-3A-12-V1-014_card_5",
+          "보지"
+        ],
+        [
+          "SEJONG-3A-12-V1-014_card_6",
+          "말라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-014_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-014_card_0",
+          "SEJONG-3A-12-V1-014_card_1",
+          "SEJONG-3A-12-V1-014_card_2",
+          "SEJONG-3A-12-V1-014_card_3",
+          "SEJONG-3A-12-V1-014_card_4",
+          "SEJONG-3A-12-V1-014_card_5",
+          "SEJONG-3A-12-V1-014_card_6",
+          "SEJONG-3A-12-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-015",
+      "displaySentence": "선배가 이 작품에 꼭 도전해 보라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-015_card_0",
+          "선배"
+        ],
+        [
+          "SEJONG-3A-12-V1-015_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-015_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-015_card_3",
+          "작품"
+        ],
+        [
+          "SEJONG-3A-12-V1-015_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-12-V1-015_card_5",
+          "꼭 도전해"
+        ],
+        [
+          "SEJONG-3A-12-V1-015_card_6",
+          "보라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-015_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-015_card_0",
+          "SEJONG-3A-12-V1-015_card_1",
+          "SEJONG-3A-12-V1-015_card_2",
+          "SEJONG-3A-12-V1-015_card_3",
+          "SEJONG-3A-12-V1-015_card_4",
+          "SEJONG-3A-12-V1-015_card_5",
+          "SEJONG-3A-12-V1-015_card_6",
+          "SEJONG-3A-12-V1-015_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-016",
+      "displaySentence": "친구가 길을 헤매면 지도를 보라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-016_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-12-V1-016_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-016_card_2",
+          "길"
+        ],
+        [
+          "SEJONG-3A-12-V1-016_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-016_card_4",
+          "헤매면 지도"
+        ],
+        [
+          "SEJONG-3A-12-V1-016_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-12-V1-016_card_6",
+          "보라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-016_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-016_card_0",
+          "SEJONG-3A-12-V1-016_card_1",
+          "SEJONG-3A-12-V1-016_card_2",
+          "SEJONG-3A-12-V1-016_card_3",
+          "SEJONG-3A-12-V1-016_card_4",
+          "SEJONG-3A-12-V1-016_card_5",
+          "SEJONG-3A-12-V1-016_card_6",
+          "SEJONG-3A-12-V1-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-017",
+      "displaySentence": "선생님이 인상적인 장면을 발표하라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-017_card_0",
+          "선생님"
+        ],
+        [
+          "SEJONG-3A-12-V1-017_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-017_card_2",
+          "인상적인"
+        ],
+        [
+          "SEJONG-3A-12-V1-017_card_3",
+          "장면"
+        ],
+        [
+          "SEJONG-3A-12-V1-017_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-017_card_5",
+          "발표하라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-017_card_6",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-017_card_0",
+          "SEJONG-3A-12-V1-017_card_1",
+          "SEJONG-3A-12-V1-017_card_2",
+          "SEJONG-3A-12-V1-017_card_3",
+          "SEJONG-3A-12-V1-017_card_4",
+          "SEJONG-3A-12-V1-017_card_5",
+          "SEJONG-3A-12-V1-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-018",
+      "displaySentence": "친구가 향수병이 생기면 음악을 들으라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-018_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-12-V1-018_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-018_card_2",
+          "향수병"
+        ],
+        [
+          "SEJONG-3A-12-V1-018_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-018_card_4",
+          "생기면 음악"
+        ],
+        [
+          "SEJONG-3A-12-V1-018_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-018_card_6",
+          "들으라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-018_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-018_card_0",
+          "SEJONG-3A-12-V1-018_card_1",
+          "SEJONG-3A-12-V1-018_card_2",
+          "SEJONG-3A-12-V1-018_card_3",
+          "SEJONG-3A-12-V1-018_card_4",
+          "SEJONG-3A-12-V1-018_card_5",
+          "SEJONG-3A-12-V1-018_card_6",
+          "SEJONG-3A-12-V1-018_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-019",
+      "displaySentence": "감독이 배우에게 더 자연스럽게 연기하라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-019_card_0",
+          "감독"
+        ],
+        [
+          "SEJONG-3A-12-V1-019_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-12-V1-019_card_2",
+          "배우"
+        ],
+        [
+          "SEJONG-3A-12-V1-019_card_3",
+          "에게"
+        ],
+        [
+          "SEJONG-3A-12-V1-019_card_4",
+          "더"
+        ],
+        [
+          "SEJONG-3A-12-V1-019_card_5",
+          "자연스럽게"
+        ],
+        [
+          "SEJONG-3A-12-V1-019_card_6",
+          "연기하라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-019_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-019_card_0",
+          "SEJONG-3A-12-V1-019_card_1",
+          "SEJONG-3A-12-V1-019_card_2",
+          "SEJONG-3A-12-V1-019_card_3",
+          "SEJONG-3A-12-V1-019_card_4",
+          "SEJONG-3A-12-V1-019_card_5",
+          "SEJONG-3A-12-V1-019_card_6",
+          "SEJONG-3A-12-V1-019_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-12-V1-020",
+      "displaySentence": "친구가 용기를 내서 새로운 작품을 발견해 보라고 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-12-V1-020_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-12-V1-020_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-12-V1-020_card_2",
+          "용기"
+        ],
+        [
+          "SEJONG-3A-12-V1-020_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-3A-12-V1-020_card_4",
+          "내서 새로운 작품"
+        ],
+        [
+          "SEJONG-3A-12-V1-020_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-12-V1-020_card_6",
+          "발견해 보라고"
+        ],
+        [
+          "SEJONG-3A-12-V1-020_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-12-V1-020_card_0",
+          "SEJONG-3A-12-V1-020_card_1",
+          "SEJONG-3A-12-V1-020_card_2",
+          "SEJONG-3A-12-V1-020_card_3",
+          "SEJONG-3A-12-V1-020_card_4",
+          "SEJONG-3A-12-V1-020_card_5",
+          "SEJONG-3A-12-V1-020_card_6",
+          "SEJONG-3A-12-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 12과 어휘·문법 범위 재구성 · -(으)라고 하다",
+      "sourceRef": "세종한국어 3A 12과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

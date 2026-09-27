@@ -1,0 +1,898 @@
+{
+  "book": "3A",
+  "lesson": 1,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 1과 범위",
+  "selectionPolicy": [
+    "1과 핵심 문법 -니?/-자·-아/어 보이다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 2과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-01-V1-001",
+      "displaySentence": "수지야, 그동안 어떻게 지냈니?",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-001_card_0",
+          "수지야,"
+        ],
+        [
+          "SEJONG-3A-01-V1-001_card_1",
+          "그동안"
+        ],
+        [
+          "SEJONG-3A-01-V1-001_card_2",
+          "어떻게"
+        ],
+        [
+          "SEJONG-3A-01-V1-001_card_3",
+          "지냈니?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-001_card_0",
+          "SEJONG-3A-01-V1-001_card_1",
+          "SEJONG-3A-01-V1-001_card_2",
+          "SEJONG-3A-01-V1-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-002",
+      "displaySentence": "방학 동안 어디에 다녀왔니?",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-002_card_0",
+          "방학"
+        ],
+        [
+          "SEJONG-3A-01-V1-002_card_1",
+          "동안"
+        ],
+        [
+          "SEJONG-3A-01-V1-002_card_2",
+          "어디"
+        ],
+        [
+          "SEJONG-3A-01-V1-002_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-01-V1-002_card_4",
+          "다녀왔니?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-002_card_0",
+          "SEJONG-3A-01-V1-002_card_1",
+          "SEJONG-3A-01-V1-002_card_2",
+          "SEJONG-3A-01-V1-002_card_3",
+          "SEJONG-3A-01-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-003",
+      "displaySentence": "요즘 회사에서 정신없이 지내니?",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-003_card_0",
+          "요즘"
+        ],
+        [
+          "SEJONG-3A-01-V1-003_card_1",
+          "회사"
+        ],
+        [
+          "SEJONG-3A-01-V1-003_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-01-V1-003_card_3",
+          "정신없이"
+        ],
+        [
+          "SEJONG-3A-01-V1-003_card_4",
+          "지내니?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-003_card_0",
+          "SEJONG-3A-01-V1-003_card_1",
+          "SEJONG-3A-01-V1-003_card_2",
+          "SEJONG-3A-01-V1-003_card_3",
+          "SEJONG-3A-01-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-004",
+      "displaySentence": "주말에 특별한 일이 있었니?",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-004_card_0",
+          "주말"
+        ],
+        [
+          "SEJONG-3A-01-V1-004_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-01-V1-004_card_2",
+          "특별한"
+        ],
+        [
+          "SEJONG-3A-01-V1-004_card_3",
+          "일"
+        ],
+        [
+          "SEJONG-3A-01-V1-004_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-01-V1-004_card_5",
+          "있었니?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-004_card_0",
+          "SEJONG-3A-01-V1-004_card_1",
+          "SEJONG-3A-01-V1-004_card_2",
+          "SEJONG-3A-01-V1-004_card_3",
+          "SEJONG-3A-01-V1-004_card_4",
+          "SEJONG-3A-01-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-005",
+      "displaySentence": "다음에 시간 있으면 같이 밥 먹자.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-005_card_0",
+          "다음"
+        ],
+        [
+          "SEJONG-3A-01-V1-005_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-01-V1-005_card_2",
+          "시간"
+        ],
+        [
+          "SEJONG-3A-01-V1-005_card_3",
+          "있으면"
+        ],
+        [
+          "SEJONG-3A-01-V1-005_card_4",
+          "같이"
+        ],
+        [
+          "SEJONG-3A-01-V1-005_card_5",
+          "밥"
+        ],
+        [
+          "SEJONG-3A-01-V1-005_card_6",
+          "먹자."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-005_card_0",
+          "SEJONG-3A-01-V1-005_card_1",
+          "SEJONG-3A-01-V1-005_card_2",
+          "SEJONG-3A-01-V1-005_card_3",
+          "SEJONG-3A-01-V1-005_card_4",
+          "SEJONG-3A-01-V1-005_card_5",
+          "SEJONG-3A-01-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-006",
+      "displaySentence": "오랜만에 만났으니까 이런저런 이야기를 하자.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-006_card_0",
+          "오랜만"
+        ],
+        [
+          "SEJONG-3A-01-V1-006_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-01-V1-006_card_2",
+          "만났으니까"
+        ],
+        [
+          "SEJONG-3A-01-V1-006_card_3",
+          "이런저런"
+        ],
+        [
+          "SEJONG-3A-01-V1-006_card_4",
+          "이야기"
+        ],
+        [
+          "SEJONG-3A-01-V1-006_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-01-V1-006_card_6",
+          "하자."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-006_card_0",
+          "SEJONG-3A-01-V1-006_card_1",
+          "SEJONG-3A-01-V1-006_card_2",
+          "SEJONG-3A-01-V1-006_card_3",
+          "SEJONG-3A-01-V1-006_card_4",
+          "SEJONG-3A-01-V1-006_card_5",
+          "SEJONG-3A-01-V1-006_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-007",
+      "displaySentence": "날씨가 좋으니까 공원에 같이 가자.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-007_card_0",
+          "날씨"
+        ],
+        [
+          "SEJONG-3A-01-V1-007_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-01-V1-007_card_2",
+          "좋으니까"
+        ],
+        [
+          "SEJONG-3A-01-V1-007_card_3",
+          "공원"
+        ],
+        [
+          "SEJONG-3A-01-V1-007_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-01-V1-007_card_5",
+          "같이"
+        ],
+        [
+          "SEJONG-3A-01-V1-007_card_6",
+          "가자."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-007_card_0",
+          "SEJONG-3A-01-V1-007_card_1",
+          "SEJONG-3A-01-V1-007_card_2",
+          "SEJONG-3A-01-V1-007_card_3",
+          "SEJONG-3A-01-V1-007_card_4",
+          "SEJONG-3A-01-V1-007_card_5",
+          "SEJONG-3A-01-V1-007_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-008",
+      "displaySentence": "다음 주에도 다시 만나자.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-008_card_0",
+          "다음"
+        ],
+        [
+          "SEJONG-3A-01-V1-008_card_1",
+          "주에"
+        ],
+        [
+          "SEJONG-3A-01-V1-008_card_2",
+          "도"
+        ],
+        [
+          "SEJONG-3A-01-V1-008_card_3",
+          "다시"
+        ],
+        [
+          "SEJONG-3A-01-V1-008_card_4",
+          "만나자."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-008_card_0",
+          "SEJONG-3A-01-V1-008_card_1",
+          "SEJONG-3A-01-V1-008_card_2",
+          "SEJONG-3A-01-V1-008_card_3",
+          "SEJONG-3A-01-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-009",
+      "displaySentence": "민수 씨가 요즘 많이 피곤해 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-009_card_0",
+          "민수"
+        ],
+        [
+          "SEJONG-3A-01-V1-009_card_1",
+          "씨"
+        ],
+        [
+          "SEJONG-3A-01-V1-009_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-01-V1-009_card_3",
+          "요즘"
+        ],
+        [
+          "SEJONG-3A-01-V1-009_card_4",
+          "많"
+        ],
+        [
+          "SEJONG-3A-01-V1-009_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-01-V1-009_card_6",
+          "피곤해"
+        ],
+        [
+          "SEJONG-3A-01-V1-009_card_7",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-009_card_0",
+          "SEJONG-3A-01-V1-009_card_1",
+          "SEJONG-3A-01-V1-009_card_2",
+          "SEJONG-3A-01-V1-009_card_3",
+          "SEJONG-3A-01-V1-009_card_4",
+          "SEJONG-3A-01-V1-009_card_5",
+          "SEJONG-3A-01-V1-009_card_6",
+          "SEJONG-3A-01-V1-009_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-010",
+      "displaySentence": "마리 씨는 기분이 좋아 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-010_card_0",
+          "마리"
+        ],
+        [
+          "SEJONG-3A-01-V1-010_card_1",
+          "씨"
+        ],
+        [
+          "SEJONG-3A-01-V1-010_card_2",
+          "는"
+        ],
+        [
+          "SEJONG-3A-01-V1-010_card_3",
+          "기분"
+        ],
+        [
+          "SEJONG-3A-01-V1-010_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-01-V1-010_card_5",
+          "좋아"
+        ],
+        [
+          "SEJONG-3A-01-V1-010_card_6",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-010_card_0",
+          "SEJONG-3A-01-V1-010_card_1",
+          "SEJONG-3A-01-V1-010_card_2",
+          "SEJONG-3A-01-V1-010_card_3",
+          "SEJONG-3A-01-V1-010_card_4",
+          "SEJONG-3A-01-V1-010_card_5",
+          "SEJONG-3A-01-V1-010_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -니?/-자",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-011",
+      "displaySentence": "저 사람은 조금 바빠 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-011_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-3A-01-V1-011_card_1",
+          "사람"
+        ],
+        [
+          "SEJONG-3A-01-V1-011_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-3A-01-V1-011_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-3A-01-V1-011_card_4",
+          "바빠"
+        ],
+        [
+          "SEJONG-3A-01-V1-011_card_5",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-011_card_0",
+          "SEJONG-3A-01-V1-011_card_1",
+          "SEJONG-3A-01-V1-011_card_2",
+          "SEJONG-3A-01-V1-011_card_3",
+          "SEJONG-3A-01-V1-011_card_4",
+          "SEJONG-3A-01-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-012",
+      "displaySentence": "오늘 하늘이 흐려 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-012_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-3A-01-V1-012_card_1",
+          "하늘"
+        ],
+        [
+          "SEJONG-3A-01-V1-012_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-3A-01-V1-012_card_3",
+          "흐려"
+        ],
+        [
+          "SEJONG-3A-01-V1-012_card_4",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-012_card_0",
+          "SEJONG-3A-01-V1-012_card_1",
+          "SEJONG-3A-01-V1-012_card_2",
+          "SEJONG-3A-01-V1-012_card_3",
+          "SEJONG-3A-01-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-013",
+      "displaySentence": "그 가방은 아주 비싸 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-013_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-3A-01-V1-013_card_1",
+          "가방"
+        ],
+        [
+          "SEJONG-3A-01-V1-013_card_2",
+          "은"
+        ],
+        [
+          "SEJONG-3A-01-V1-013_card_3",
+          "아주"
+        ],
+        [
+          "SEJONG-3A-01-V1-013_card_4",
+          "비싸"
+        ],
+        [
+          "SEJONG-3A-01-V1-013_card_5",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-013_card_0",
+          "SEJONG-3A-01-V1-013_card_1",
+          "SEJONG-3A-01-V1-013_card_2",
+          "SEJONG-3A-01-V1-013_card_3",
+          "SEJONG-3A-01-V1-013_card_4",
+          "SEJONG-3A-01-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-014",
+      "displaySentence": "새로 산 신발이 편해 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-014_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-3A-01-V1-014_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-3A-01-V1-014_card_2",
+          "산"
+        ],
+        [
+          "SEJONG-3A-01-V1-014_card_3",
+          "신발"
+        ],
+        [
+          "SEJONG-3A-01-V1-014_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-01-V1-014_card_5",
+          "편해"
+        ],
+        [
+          "SEJONG-3A-01-V1-014_card_6",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-014_card_0",
+          "SEJONG-3A-01-V1-014_card_1",
+          "SEJONG-3A-01-V1-014_card_2",
+          "SEJONG-3A-01-V1-014_card_3",
+          "SEJONG-3A-01-V1-014_card_4",
+          "SEJONG-3A-01-V1-014_card_5",
+          "SEJONG-3A-01-V1-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-015",
+      "displaySentence": "친구가 한가하게 지내는 것처럼 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-015_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-01-V1-015_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-01-V1-015_card_2",
+          "한가하게"
+        ],
+        [
+          "SEJONG-3A-01-V1-015_card_3",
+          "지내는"
+        ],
+        [
+          "SEJONG-3A-01-V1-015_card_4",
+          "것"
+        ],
+        [
+          "SEJONG-3A-01-V1-015_card_5",
+          "처럼"
+        ],
+        [
+          "SEJONG-3A-01-V1-015_card_6",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-015_card_0",
+          "SEJONG-3A-01-V1-015_card_1",
+          "SEJONG-3A-01-V1-015_card_2",
+          "SEJONG-3A-01-V1-015_card_3",
+          "SEJONG-3A-01-V1-015_card_4",
+          "SEJONG-3A-01-V1-015_card_5",
+          "SEJONG-3A-01-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-016",
+      "displaySentence": "요즘 수지 씨가 정신없이 지내는 것처럼 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-016_card_0",
+          "요즘 수지"
+        ],
+        [
+          "SEJONG-3A-01-V1-016_card_1",
+          "씨"
+        ],
+        [
+          "SEJONG-3A-01-V1-016_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-01-V1-016_card_3",
+          "정신없이"
+        ],
+        [
+          "SEJONG-3A-01-V1-016_card_4",
+          "지내는"
+        ],
+        [
+          "SEJONG-3A-01-V1-016_card_5",
+          "것"
+        ],
+        [
+          "SEJONG-3A-01-V1-016_card_6",
+          "처럼"
+        ],
+        [
+          "SEJONG-3A-01-V1-016_card_7",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-016_card_0",
+          "SEJONG-3A-01-V1-016_card_1",
+          "SEJONG-3A-01-V1-016_card_2",
+          "SEJONG-3A-01-V1-016_card_3",
+          "SEJONG-3A-01-V1-016_card_4",
+          "SEJONG-3A-01-V1-016_card_5",
+          "SEJONG-3A-01-V1-016_card_6",
+          "SEJONG-3A-01-V1-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-017",
+      "displaySentence": "오랜만에 만난 친구가 반가워 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-017_card_0",
+          "오랜만"
+        ],
+        [
+          "SEJONG-3A-01-V1-017_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-01-V1-017_card_2",
+          "만난"
+        ],
+        [
+          "SEJONG-3A-01-V1-017_card_3",
+          "친구"
+        ],
+        [
+          "SEJONG-3A-01-V1-017_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-3A-01-V1-017_card_5",
+          "반가워"
+        ],
+        [
+          "SEJONG-3A-01-V1-017_card_6",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-017_card_0",
+          "SEJONG-3A-01-V1-017_card_1",
+          "SEJONG-3A-01-V1-017_card_2",
+          "SEJONG-3A-01-V1-017_card_3",
+          "SEJONG-3A-01-V1-017_card_4",
+          "SEJONG-3A-01-V1-017_card_5",
+          "SEJONG-3A-01-V1-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-018",
+      "displaySentence": "이곳저곳 다녀서 조금 피곤해 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-018_card_0",
+          "이곳저곳"
+        ],
+        [
+          "SEJONG-3A-01-V1-018_card_1",
+          "다녀서"
+        ],
+        [
+          "SEJONG-3A-01-V1-018_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-3A-01-V1-018_card_3",
+          "피곤해"
+        ],
+        [
+          "SEJONG-3A-01-V1-018_card_4",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-018_card_0",
+          "SEJONG-3A-01-V1-018_card_1",
+          "SEJONG-3A-01-V1-018_card_2",
+          "SEJONG-3A-01-V1-018_card_3",
+          "SEJONG-3A-01-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-019",
+      "displaySentence": "특별한 일 없이 잘 지낸 것처럼 보여요.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-019_card_0",
+          "특별한"
+        ],
+        [
+          "SEJONG-3A-01-V1-019_card_1",
+          "일"
+        ],
+        [
+          "SEJONG-3A-01-V1-019_card_2",
+          "없이"
+        ],
+        [
+          "SEJONG-3A-01-V1-019_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-3A-01-V1-019_card_4",
+          "지낸"
+        ],
+        [
+          "SEJONG-3A-01-V1-019_card_5",
+          "것"
+        ],
+        [
+          "SEJONG-3A-01-V1-019_card_6",
+          "처럼"
+        ],
+        [
+          "SEJONG-3A-01-V1-019_card_7",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-019_card_0",
+          "SEJONG-3A-01-V1-019_card_1",
+          "SEJONG-3A-01-V1-019_card_2",
+          "SEJONG-3A-01-V1-019_card_3",
+          "SEJONG-3A-01-V1-019_card_4",
+          "SEJONG-3A-01-V1-019_card_5",
+          "SEJONG-3A-01-V1-019_card_6",
+          "SEJONG-3A-01-V1-019_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-01-V1-020",
+      "displaySentence": "다음에 또 만나서 밥 한 끼 하자.",
+      "tokens": [
+        [
+          "SEJONG-3A-01-V1-020_card_0",
+          "다음"
+        ],
+        [
+          "SEJONG-3A-01-V1-020_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-01-V1-020_card_2",
+          "또"
+        ],
+        [
+          "SEJONG-3A-01-V1-020_card_3",
+          "만나서"
+        ],
+        [
+          "SEJONG-3A-01-V1-020_card_4",
+          "밥"
+        ],
+        [
+          "SEJONG-3A-01-V1-020_card_5",
+          "한"
+        ],
+        [
+          "SEJONG-3A-01-V1-020_card_6",
+          "끼"
+        ],
+        [
+          "SEJONG-3A-01-V1-020_card_7",
+          "하자."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-01-V1-020_card_0",
+          "SEJONG-3A-01-V1-020_card_1",
+          "SEJONG-3A-01-V1-020_card_2",
+          "SEJONG-3A-01-V1-020_card_3",
+          "SEJONG-3A-01-V1-020_card_4",
+          "SEJONG-3A-01-V1-020_card_5",
+          "SEJONG-3A-01-V1-020_card_6",
+          "SEJONG-3A-01-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 1과 어휘·문법 범위 재구성 · -아/어 보이다",
+      "sourceRef": "세종한국어 3A 1과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

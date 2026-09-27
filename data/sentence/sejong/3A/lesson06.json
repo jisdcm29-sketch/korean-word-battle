@@ -1,0 +1,1028 @@
+{
+  "book": "3A",
+  "lesson": 6,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 6과 범위",
+  "selectionPolicy": [
+    "6과 핵심 문법 -잖아요·-(으)려다가를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 7과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-06-V1-001",
+      "displaySentence": "화면이 안 나오잖아요. 전원을 다시 켜 보세요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-001_card_0",
+          "화면"
+        ],
+        [
+          "SEJONG-3A-06-V1-001_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-06-V1-001_card_2",
+          "안 나오잖아요."
+        ],
+        [
+          "SEJONG-3A-06-V1-001_card_3",
+          "전원"
+        ],
+        [
+          "SEJONG-3A-06-V1-001_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-001_card_5",
+          "다시"
+        ],
+        [
+          "SEJONG-3A-06-V1-001_card_6",
+          "켜"
+        ],
+        [
+          "SEJONG-3A-06-V1-001_card_7",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-001_card_0",
+          "SEJONG-3A-06-V1-001_card_1",
+          "SEJONG-3A-06-V1-001_card_2",
+          "SEJONG-3A-06-V1-001_card_3",
+          "SEJONG-3A-06-V1-001_card_4",
+          "SEJONG-3A-06-V1-001_card_5",
+          "SEJONG-3A-06-V1-001_card_6",
+          "SEJONG-3A-06-V1-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-002",
+      "displaySentence": "버튼이 안 눌러지잖아요. 서비스 센터에 가 보세요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-002_card_0",
+          "버튼"
+        ],
+        [
+          "SEJONG-3A-06-V1-002_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-06-V1-002_card_2",
+          "안 눌러지잖아요."
+        ],
+        [
+          "SEJONG-3A-06-V1-002_card_3",
+          "서비스"
+        ],
+        [
+          "SEJONG-3A-06-V1-002_card_4",
+          "센터"
+        ],
+        [
+          "SEJONG-3A-06-V1-002_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-3A-06-V1-002_card_6",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-002_card_7",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-002_card_0",
+          "SEJONG-3A-06-V1-002_card_1",
+          "SEJONG-3A-06-V1-002_card_2",
+          "SEJONG-3A-06-V1-002_card_3",
+          "SEJONG-3A-06-V1-002_card_4",
+          "SEJONG-3A-06-V1-002_card_5",
+          "SEJONG-3A-06-V1-002_card_6",
+          "SEJONG-3A-06-V1-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-003",
+      "displaySentence": "배터리가 나갔잖아요. 새 배터리로 바꿔 보세요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-003_card_0",
+          "배터리"
+        ],
+        [
+          "SEJONG-3A-06-V1-003_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-003_card_2",
+          "나갔잖아요."
+        ],
+        [
+          "SEJONG-3A-06-V1-003_card_3",
+          "새"
+        ],
+        [
+          "SEJONG-3A-06-V1-003_card_4",
+          "배터리"
+        ],
+        [
+          "SEJONG-3A-06-V1-003_card_5",
+          "로"
+        ],
+        [
+          "SEJONG-3A-06-V1-003_card_6",
+          "바꿔"
+        ],
+        [
+          "SEJONG-3A-06-V1-003_card_7",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-003_card_0",
+          "SEJONG-3A-06-V1-003_card_1",
+          "SEJONG-3A-06-V1-003_card_2",
+          "SEJONG-3A-06-V1-003_card_3",
+          "SEJONG-3A-06-V1-003_card_4",
+          "SEJONG-3A-06-V1-003_card_5",
+          "SEJONG-3A-06-V1-003_card_6",
+          "SEJONG-3A-06-V1-003_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-004",
+      "displaySentence": "리모컨이 고장 났잖아요. 수리를 맡겨 보세요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-004_card_0",
+          "리모컨"
+        ],
+        [
+          "SEJONG-3A-06-V1-004_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-06-V1-004_card_2",
+          "고장"
+        ],
+        [
+          "SEJONG-3A-06-V1-004_card_3",
+          "났잖아요."
+        ],
+        [
+          "SEJONG-3A-06-V1-004_card_4",
+          "수리"
+        ],
+        [
+          "SEJONG-3A-06-V1-004_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-004_card_6",
+          "맡겨"
+        ],
+        [
+          "SEJONG-3A-06-V1-004_card_7",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-004_card_0",
+          "SEJONG-3A-06-V1-004_card_1",
+          "SEJONG-3A-06-V1-004_card_2",
+          "SEJONG-3A-06-V1-004_card_3",
+          "SEJONG-3A-06-V1-004_card_4",
+          "SEJONG-3A-06-V1-004_card_5",
+          "SEJONG-3A-06-V1-004_card_6",
+          "SEJONG-3A-06-V1-004_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-005",
+      "displaySentence": "인터넷 연결이 안 되잖아요. 플러그를 확인해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-005_card_0",
+          "인터넷 연결"
+        ],
+        [
+          "SEJONG-3A-06-V1-005_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-06-V1-005_card_2",
+          "안"
+        ],
+        [
+          "SEJONG-3A-06-V1-005_card_3",
+          "되잖아요."
+        ],
+        [
+          "SEJONG-3A-06-V1-005_card_4",
+          "플러그"
+        ],
+        [
+          "SEJONG-3A-06-V1-005_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-005_card_6",
+          "확인해"
+        ],
+        [
+          "SEJONG-3A-06-V1-005_card_7",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-005_card_0",
+          "SEJONG-3A-06-V1-005_card_1",
+          "SEJONG-3A-06-V1-005_card_2",
+          "SEJONG-3A-06-V1-005_card_3",
+          "SEJONG-3A-06-V1-005_card_4",
+          "SEJONG-3A-06-V1-005_card_5",
+          "SEJONG-3A-06-V1-005_card_6",
+          "SEJONG-3A-06-V1-005_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-006",
+      "displaySentence": "액정이 깨졌잖아요. 직접 고치기 어려워요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-006_card_0",
+          "액정"
+        ],
+        [
+          "SEJONG-3A-06-V1-006_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-06-V1-006_card_2",
+          "깨졌잖아요."
+        ],
+        [
+          "SEJONG-3A-06-V1-006_card_3",
+          "직접"
+        ],
+        [
+          "SEJONG-3A-06-V1-006_card_4",
+          "고치기"
+        ],
+        [
+          "SEJONG-3A-06-V1-006_card_5",
+          "어려워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-006_card_0",
+          "SEJONG-3A-06-V1-006_card_1",
+          "SEJONG-3A-06-V1-006_card_2",
+          "SEJONG-3A-06-V1-006_card_3",
+          "SEJONG-3A-06-V1-006_card_4",
+          "SEJONG-3A-06-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-007",
+      "displaySentence": "이상한 소리가 나잖아요. 전원을 끄는 게 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-007_card_0",
+          "이상한 소리"
+        ],
+        [
+          "SEJONG-3A-06-V1-007_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-007_card_2",
+          "나잖아요. 전원"
+        ],
+        [
+          "SEJONG-3A-06-V1-007_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-007_card_4",
+          "끄"
+        ],
+        [
+          "SEJONG-3A-06-V1-007_card_5",
+          "는"
+        ],
+        [
+          "SEJONG-3A-06-V1-007_card_6",
+          "게"
+        ],
+        [
+          "SEJONG-3A-06-V1-007_card_7",
+          "좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-007_card_0",
+          "SEJONG-3A-06-V1-007_card_1",
+          "SEJONG-3A-06-V1-007_card_2",
+          "SEJONG-3A-06-V1-007_card_3",
+          "SEJONG-3A-06-V1-007_card_4",
+          "SEJONG-3A-06-V1-007_card_5",
+          "SEJONG-3A-06-V1-007_card_6",
+          "SEJONG-3A-06-V1-007_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-008",
+      "displaySentence": "바람이 안 나오잖아요. 에어컨을 점검해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-008_card_0",
+          "바람"
+        ],
+        [
+          "SEJONG-3A-06-V1-008_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-06-V1-008_card_2",
+          "안"
+        ],
+        [
+          "SEJONG-3A-06-V1-008_card_3",
+          "나오잖아요."
+        ],
+        [
+          "SEJONG-3A-06-V1-008_card_4",
+          "에어컨"
+        ],
+        [
+          "SEJONG-3A-06-V1-008_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-008_card_6",
+          "점검해"
+        ],
+        [
+          "SEJONG-3A-06-V1-008_card_7",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-008_card_0",
+          "SEJONG-3A-06-V1-008_card_1",
+          "SEJONG-3A-06-V1-008_card_2",
+          "SEJONG-3A-06-V1-008_card_3",
+          "SEJONG-3A-06-V1-008_card_4",
+          "SEJONG-3A-06-V1-008_card_5",
+          "SEJONG-3A-06-V1-008_card_6",
+          "SEJONG-3A-06-V1-008_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-009",
+      "displaySentence": "새로 사려다가 수리해서 쓰기로 했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-009_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-3A-06-V1-009_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-3A-06-V1-009_card_2",
+          "사려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-009_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-009_card_4",
+          "수리해서"
+        ],
+        [
+          "SEJONG-3A-06-V1-009_card_5",
+          "쓰기"
+        ],
+        [
+          "SEJONG-3A-06-V1-009_card_6",
+          "로"
+        ],
+        [
+          "SEJONG-3A-06-V1-009_card_7",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-009_card_0",
+          "SEJONG-3A-06-V1-009_card_1",
+          "SEJONG-3A-06-V1-009_card_2",
+          "SEJONG-3A-06-V1-009_card_3",
+          "SEJONG-3A-06-V1-009_card_4",
+          "SEJONG-3A-06-V1-009_card_5",
+          "SEJONG-3A-06-V1-009_card_6",
+          "SEJONG-3A-06-V1-009_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-010",
+      "displaySentence": "컴퓨터를 버리려다가 서비스 센터에 맡겼어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-010_card_0",
+          "컴퓨터"
+        ],
+        [
+          "SEJONG-3A-06-V1-010_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-010_card_2",
+          "버리려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-010_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-010_card_4",
+          "서비스"
+        ],
+        [
+          "SEJONG-3A-06-V1-010_card_5",
+          "센터"
+        ],
+        [
+          "SEJONG-3A-06-V1-010_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-3A-06-V1-010_card_7",
+          "맡겼어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-010_card_0",
+          "SEJONG-3A-06-V1-010_card_1",
+          "SEJONG-3A-06-V1-010_card_2",
+          "SEJONG-3A-06-V1-010_card_3",
+          "SEJONG-3A-06-V1-010_card_4",
+          "SEJONG-3A-06-V1-010_card_5",
+          "SEJONG-3A-06-V1-010_card_6",
+          "SEJONG-3A-06-V1-010_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -잖아요",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-011",
+      "displaySentence": "포기하려다가 다시 한 번 고쳐 봤어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-011_card_0",
+          "포기하려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-011_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-011_card_2",
+          "다시"
+        ],
+        [
+          "SEJONG-3A-06-V1-011_card_3",
+          "한"
+        ],
+        [
+          "SEJONG-3A-06-V1-011_card_4",
+          "번"
+        ],
+        [
+          "SEJONG-3A-06-V1-011_card_5",
+          "고쳐"
+        ],
+        [
+          "SEJONG-3A-06-V1-011_card_6",
+          "봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-011_card_0",
+          "SEJONG-3A-06-V1-011_card_1",
+          "SEJONG-3A-06-V1-011_card_2",
+          "SEJONG-3A-06-V1-011_card_3",
+          "SEJONG-3A-06-V1-011_card_4",
+          "SEJONG-3A-06-V1-011_card_5",
+          "SEJONG-3A-06-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-012",
+      "displaySentence": "새 휴대폰을 사려다가 수리비를 먼저 알아봤어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-012_card_0",
+          "새 휴대폰"
+        ],
+        [
+          "SEJONG-3A-06-V1-012_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-012_card_2",
+          "사려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-012_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-012_card_4",
+          "수리비"
+        ],
+        [
+          "SEJONG-3A-06-V1-012_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-012_card_6",
+          "먼저"
+        ],
+        [
+          "SEJONG-3A-06-V1-012_card_7",
+          "알아봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-012_card_0",
+          "SEJONG-3A-06-V1-012_card_1",
+          "SEJONG-3A-06-V1-012_card_2",
+          "SEJONG-3A-06-V1-012_card_3",
+          "SEJONG-3A-06-V1-012_card_4",
+          "SEJONG-3A-06-V1-012_card_5",
+          "SEJONG-3A-06-V1-012_card_6",
+          "SEJONG-3A-06-V1-012_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-013",
+      "displaySentence": "화를 내려다가 직원에게 차분히 부탁했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-013_card_0",
+          "화"
+        ],
+        [
+          "SEJONG-3A-06-V1-013_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-013_card_2",
+          "내려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-013_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-013_card_4",
+          "직원"
+        ],
+        [
+          "SEJONG-3A-06-V1-013_card_5",
+          "에게"
+        ],
+        [
+          "SEJONG-3A-06-V1-013_card_6",
+          "차분히"
+        ],
+        [
+          "SEJONG-3A-06-V1-013_card_7",
+          "부탁했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-013_card_0",
+          "SEJONG-3A-06-V1-013_card_1",
+          "SEJONG-3A-06-V1-013_card_2",
+          "SEJONG-3A-06-V1-013_card_3",
+          "SEJONG-3A-06-V1-013_card_4",
+          "SEJONG-3A-06-V1-013_card_5",
+          "SEJONG-3A-06-V1-013_card_6",
+          "SEJONG-3A-06-V1-013_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-014",
+      "displaySentence": "플러그를 빼려다가 먼저 전원을 껐어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-014_card_0",
+          "플러그"
+        ],
+        [
+          "SEJONG-3A-06-V1-014_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-014_card_2",
+          "빼려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-014_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-014_card_4",
+          "먼저"
+        ],
+        [
+          "SEJONG-3A-06-V1-014_card_5",
+          "전원"
+        ],
+        [
+          "SEJONG-3A-06-V1-014_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-014_card_7",
+          "껐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-014_card_0",
+          "SEJONG-3A-06-V1-014_card_1",
+          "SEJONG-3A-06-V1-014_card_2",
+          "SEJONG-3A-06-V1-014_card_3",
+          "SEJONG-3A-06-V1-014_card_4",
+          "SEJONG-3A-06-V1-014_card_5",
+          "SEJONG-3A-06-V1-014_card_6",
+          "SEJONG-3A-06-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-015",
+      "displaySentence": "리모컨을 바꾸려다가 배터리부터 확인했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-015_card_0",
+          "리모컨"
+        ],
+        [
+          "SEJONG-3A-06-V1-015_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-015_card_2",
+          "바꾸려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-015_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-015_card_4",
+          "배터리"
+        ],
+        [
+          "SEJONG-3A-06-V1-015_card_5",
+          "부터"
+        ],
+        [
+          "SEJONG-3A-06-V1-015_card_6",
+          "확인했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-015_card_0",
+          "SEJONG-3A-06-V1-015_card_1",
+          "SEJONG-3A-06-V1-015_card_2",
+          "SEJONG-3A-06-V1-015_card_3",
+          "SEJONG-3A-06-V1-015_card_4",
+          "SEJONG-3A-06-V1-015_card_5",
+          "SEJONG-3A-06-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-016",
+      "displaySentence": "새 제품을 사려다가 품질 보증서를 찾았어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-016_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-3A-06-V1-016_card_1",
+          "제품"
+        ],
+        [
+          "SEJONG-3A-06-V1-016_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-016_card_3",
+          "사려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-016_card_4",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-016_card_5",
+          "품질"
+        ],
+        [
+          "SEJONG-3A-06-V1-016_card_6",
+          "보증서를"
+        ],
+        [
+          "SEJONG-3A-06-V1-016_card_7",
+          "찾았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-016_card_0",
+          "SEJONG-3A-06-V1-016_card_1",
+          "SEJONG-3A-06-V1-016_card_2",
+          "SEJONG-3A-06-V1-016_card_3",
+          "SEJONG-3A-06-V1-016_card_4",
+          "SEJONG-3A-06-V1-016_card_5",
+          "SEJONG-3A-06-V1-016_card_6",
+          "SEJONG-3A-06-V1-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-017",
+      "displaySentence": "수리를 맡기려다가 보증 기간을 확인했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-017_card_0",
+          "수리"
+        ],
+        [
+          "SEJONG-3A-06-V1-017_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-017_card_2",
+          "맡기려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-017_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-017_card_4",
+          "보증"
+        ],
+        [
+          "SEJONG-3A-06-V1-017_card_5",
+          "기간"
+        ],
+        [
+          "SEJONG-3A-06-V1-017_card_6",
+          "을"
+        ],
+        [
+          "SEJONG-3A-06-V1-017_card_7",
+          "확인했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-017_card_0",
+          "SEJONG-3A-06-V1-017_card_1",
+          "SEJONG-3A-06-V1-017_card_2",
+          "SEJONG-3A-06-V1-017_card_3",
+          "SEJONG-3A-06-V1-017_card_4",
+          "SEJONG-3A-06-V1-017_card_5",
+          "SEJONG-3A-06-V1-017_card_6",
+          "SEJONG-3A-06-V1-017_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-018",
+      "displaySentence": "전체를 바꾸려다가 고장 난 부분만 고쳤어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-018_card_0",
+          "전체"
+        ],
+        [
+          "SEJONG-3A-06-V1-018_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-06-V1-018_card_2",
+          "바꾸려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-018_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-018_card_4",
+          "고장 난"
+        ],
+        [
+          "SEJONG-3A-06-V1-018_card_5",
+          "부분"
+        ],
+        [
+          "SEJONG-3A-06-V1-018_card_6",
+          "만"
+        ],
+        [
+          "SEJONG-3A-06-V1-018_card_7",
+          "고쳤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-018_card_0",
+          "SEJONG-3A-06-V1-018_card_1",
+          "SEJONG-3A-06-V1-018_card_2",
+          "SEJONG-3A-06-V1-018_card_3",
+          "SEJONG-3A-06-V1-018_card_4",
+          "SEJONG-3A-06-V1-018_card_5",
+          "SEJONG-3A-06-V1-018_card_6",
+          "SEJONG-3A-06-V1-018_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-019",
+      "displaySentence": "새로 사려다가 기존 제품이 더 낫다고 생각했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-019_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-3A-06-V1-019_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-3A-06-V1-019_card_2",
+          "사려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-019_card_3",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-019_card_4",
+          "기존 제품"
+        ],
+        [
+          "SEJONG-3A-06-V1-019_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-06-V1-019_card_6",
+          "더 낫다고"
+        ],
+        [
+          "SEJONG-3A-06-V1-019_card_7",
+          "생각했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-019_card_0",
+          "SEJONG-3A-06-V1-019_card_1",
+          "SEJONG-3A-06-V1-019_card_2",
+          "SEJONG-3A-06-V1-019_card_3",
+          "SEJONG-3A-06-V1-019_card_4",
+          "SEJONG-3A-06-V1-019_card_5",
+          "SEJONG-3A-06-V1-019_card_6",
+          "SEJONG-3A-06-V1-019_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-06-V1-020",
+      "displaySentence": "달러로 결제하려다가 카드로 계산했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-06-V1-020_card_0",
+          "달러로"
+        ],
+        [
+          "SEJONG-3A-06-V1-020_card_1",
+          "결제하려다"
+        ],
+        [
+          "SEJONG-3A-06-V1-020_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-06-V1-020_card_3",
+          "카드"
+        ],
+        [
+          "SEJONG-3A-06-V1-020_card_4",
+          "로"
+        ],
+        [
+          "SEJONG-3A-06-V1-020_card_5",
+          "계산했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-06-V1-020_card_0",
+          "SEJONG-3A-06-V1-020_card_1",
+          "SEJONG-3A-06-V1-020_card_2",
+          "SEJONG-3A-06-V1-020_card_3",
+          "SEJONG-3A-06-V1-020_card_4",
+          "SEJONG-3A-06-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 6과 어휘·문법 범위 재구성 · -(으)려다가",
+      "sourceRef": "세종한국어 3A 6과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

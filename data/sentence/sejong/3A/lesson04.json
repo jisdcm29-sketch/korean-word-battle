@@ -1,0 +1,1023 @@
+{
+  "book": "3A",
+  "lesson": 4,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 4과 범위",
+  "selectionPolicy": [
+    "4과 핵심 문법 -고 나서·-(으)ㄹ 테니까를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 5과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-04-V1-001",
+      "displaySentence": "바닥을 쓸고 나서 대걸레로 닦아요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-001_card_0",
+          "바닥"
+        ],
+        [
+          "SEJONG-3A-04-V1-001_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-001_card_2",
+          "쓸고"
+        ],
+        [
+          "SEJONG-3A-04-V1-001_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-001_card_4",
+          "대걸레"
+        ],
+        [
+          "SEJONG-3A-04-V1-001_card_5",
+          "로"
+        ],
+        [
+          "SEJONG-3A-04-V1-001_card_6",
+          "닦아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-001_card_0",
+          "SEJONG-3A-04-V1-001_card_1",
+          "SEJONG-3A-04-V1-001_card_2",
+          "SEJONG-3A-04-V1-001_card_3",
+          "SEJONG-3A-04-V1-001_card_4",
+          "SEJONG-3A-04-V1-001_card_5",
+          "SEJONG-3A-04-V1-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-002",
+      "displaySentence": "세탁기를 돌리고 나서 빨래를 널어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-002_card_0",
+          "세탁기"
+        ],
+        [
+          "SEJONG-3A-04-V1-002_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-002_card_2",
+          "돌리고"
+        ],
+        [
+          "SEJONG-3A-04-V1-002_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-002_card_4",
+          "빨래"
+        ],
+        [
+          "SEJONG-3A-04-V1-002_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-002_card_6",
+          "널어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-002_card_0",
+          "SEJONG-3A-04-V1-002_card_1",
+          "SEJONG-3A-04-V1-002_card_2",
+          "SEJONG-3A-04-V1-002_card_3",
+          "SEJONG-3A-04-V1-002_card_4",
+          "SEJONG-3A-04-V1-002_card_5",
+          "SEJONG-3A-04-V1-002_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-003",
+      "displaySentence": "설거지를 하고 나서 주방을 정리해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-003_card_0",
+          "설거지"
+        ],
+        [
+          "SEJONG-3A-04-V1-003_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-003_card_2",
+          "하고"
+        ],
+        [
+          "SEJONG-3A-04-V1-003_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-003_card_4",
+          "주방"
+        ],
+        [
+          "SEJONG-3A-04-V1-003_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-003_card_6",
+          "정리해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-003_card_0",
+          "SEJONG-3A-04-V1-003_card_1",
+          "SEJONG-3A-04-V1-003_card_2",
+          "SEJONG-3A-04-V1-003_card_3",
+          "SEJONG-3A-04-V1-003_card_4",
+          "SEJONG-3A-04-V1-003_card_5",
+          "SEJONG-3A-04-V1-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-004",
+      "displaySentence": "청소기를 돌리고 나서 먼지를 털어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-004_card_0",
+          "청소기"
+        ],
+        [
+          "SEJONG-3A-04-V1-004_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-004_card_2",
+          "돌리고"
+        ],
+        [
+          "SEJONG-3A-04-V1-004_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-004_card_4",
+          "먼지"
+        ],
+        [
+          "SEJONG-3A-04-V1-004_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-004_card_6",
+          "털어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-004_card_0",
+          "SEJONG-3A-04-V1-004_card_1",
+          "SEJONG-3A-04-V1-004_card_2",
+          "SEJONG-3A-04-V1-004_card_3",
+          "SEJONG-3A-04-V1-004_card_4",
+          "SEJONG-3A-04-V1-004_card_5",
+          "SEJONG-3A-04-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-005",
+      "displaySentence": "손빨래를 하고 나서 옷을 잘 개요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-005_card_0",
+          "손빨래"
+        ],
+        [
+          "SEJONG-3A-04-V1-005_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-005_card_2",
+          "하고"
+        ],
+        [
+          "SEJONG-3A-04-V1-005_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-005_card_4",
+          "옷"
+        ],
+        [
+          "SEJONG-3A-04-V1-005_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-005_card_6",
+          "잘"
+        ],
+        [
+          "SEJONG-3A-04-V1-005_card_7",
+          "개요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-005_card_0",
+          "SEJONG-3A-04-V1-005_card_1",
+          "SEJONG-3A-04-V1-005_card_2",
+          "SEJONG-3A-04-V1-005_card_3",
+          "SEJONG-3A-04-V1-005_card_4",
+          "SEJONG-3A-04-V1-005_card_5",
+          "SEJONG-3A-04-V1-005_card_6",
+          "SEJONG-3A-04-V1-005_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-006",
+      "displaySentence": "쓰레기를 버리고 나서 쓰레기통을 비워요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-006_card_0",
+          "쓰레기"
+        ],
+        [
+          "SEJONG-3A-04-V1-006_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-006_card_2",
+          "버리고"
+        ],
+        [
+          "SEJONG-3A-04-V1-006_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-006_card_4",
+          "쓰레기통"
+        ],
+        [
+          "SEJONG-3A-04-V1-006_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-006_card_6",
+          "비워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-006_card_0",
+          "SEJONG-3A-04-V1-006_card_1",
+          "SEJONG-3A-04-V1-006_card_2",
+          "SEJONG-3A-04-V1-006_card_3",
+          "SEJONG-3A-04-V1-006_card_4",
+          "SEJONG-3A-04-V1-006_card_5",
+          "SEJONG-3A-04-V1-006_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-007",
+      "displaySentence": "고무장갑을 끼고 나서 주방 세제를 사용해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-007_card_0",
+          "고무장갑"
+        ],
+        [
+          "SEJONG-3A-04-V1-007_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-007_card_2",
+          "끼고"
+        ],
+        [
+          "SEJONG-3A-04-V1-007_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-007_card_4",
+          "주방"
+        ],
+        [
+          "SEJONG-3A-04-V1-007_card_5",
+          "세제"
+        ],
+        [
+          "SEJONG-3A-04-V1-007_card_6",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-007_card_7",
+          "사용해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-007_card_0",
+          "SEJONG-3A-04-V1-007_card_1",
+          "SEJONG-3A-04-V1-007_card_2",
+          "SEJONG-3A-04-V1-007_card_3",
+          "SEJONG-3A-04-V1-007_card_4",
+          "SEJONG-3A-04-V1-007_card_5",
+          "SEJONG-3A-04-V1-007_card_6",
+          "SEJONG-3A-04-V1-007_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-008",
+      "displaySentence": "세탁이 끝나고 나서 건조기를 사용해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-008_card_0",
+          "세탁"
+        ],
+        [
+          "SEJONG-3A-04-V1-008_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-04-V1-008_card_2",
+          "끝나고"
+        ],
+        [
+          "SEJONG-3A-04-V1-008_card_3",
+          "나서"
+        ],
+        [
+          "SEJONG-3A-04-V1-008_card_4",
+          "건조기"
+        ],
+        [
+          "SEJONG-3A-04-V1-008_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-008_card_6",
+          "사용해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-008_card_0",
+          "SEJONG-3A-04-V1-008_card_1",
+          "SEJONG-3A-04-V1-008_card_2",
+          "SEJONG-3A-04-V1-008_card_3",
+          "SEJONG-3A-04-V1-008_card_4",
+          "SEJONG-3A-04-V1-008_card_5",
+          "SEJONG-3A-04-V1-008_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-009",
+      "displaySentence": "내가 청소기를 돌릴 테니까 바닥을 닦아 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-009_card_0",
+          "내가 청소기"
+        ],
+        [
+          "SEJONG-3A-04-V1-009_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-009_card_2",
+          "돌릴"
+        ],
+        [
+          "SEJONG-3A-04-V1-009_card_3",
+          "테니까"
+        ],
+        [
+          "SEJONG-3A-04-V1-009_card_4",
+          "바닥"
+        ],
+        [
+          "SEJONG-3A-04-V1-009_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-009_card_6",
+          "닦아"
+        ],
+        [
+          "SEJONG-3A-04-V1-009_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-009_card_0",
+          "SEJONG-3A-04-V1-009_card_1",
+          "SEJONG-3A-04-V1-009_card_2",
+          "SEJONG-3A-04-V1-009_card_3",
+          "SEJONG-3A-04-V1-009_card_4",
+          "SEJONG-3A-04-V1-009_card_5",
+          "SEJONG-3A-04-V1-009_card_6",
+          "SEJONG-3A-04-V1-009_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-010",
+      "displaySentence": "나는 설거지를 할 테니까 너는 빨래를 널어 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-010_card_0",
+          "나는 설거지"
+        ],
+        [
+          "SEJONG-3A-04-V1-010_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-010_card_2",
+          "할 테니까 너"
+        ],
+        [
+          "SEJONG-3A-04-V1-010_card_3",
+          "는"
+        ],
+        [
+          "SEJONG-3A-04-V1-010_card_4",
+          "빨래"
+        ],
+        [
+          "SEJONG-3A-04-V1-010_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-010_card_6",
+          "널어"
+        ],
+        [
+          "SEJONG-3A-04-V1-010_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-010_card_0",
+          "SEJONG-3A-04-V1-010_card_1",
+          "SEJONG-3A-04-V1-010_card_2",
+          "SEJONG-3A-04-V1-010_card_3",
+          "SEJONG-3A-04-V1-010_card_4",
+          "SEJONG-3A-04-V1-010_card_5",
+          "SEJONG-3A-04-V1-010_card_6",
+          "SEJONG-3A-04-V1-010_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -고 나서",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-011",
+      "displaySentence": "내가 쓰레기를 버릴 테니까 쓰레기통을 비워 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-011_card_0",
+          "내가 쓰레기"
+        ],
+        [
+          "SEJONG-3A-04-V1-011_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-011_card_2",
+          "버릴"
+        ],
+        [
+          "SEJONG-3A-04-V1-011_card_3",
+          "테니까"
+        ],
+        [
+          "SEJONG-3A-04-V1-011_card_4",
+          "쓰레기통"
+        ],
+        [
+          "SEJONG-3A-04-V1-011_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-011_card_6",
+          "비워"
+        ],
+        [
+          "SEJONG-3A-04-V1-011_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-011_card_0",
+          "SEJONG-3A-04-V1-011_card_1",
+          "SEJONG-3A-04-V1-011_card_2",
+          "SEJONG-3A-04-V1-011_card_3",
+          "SEJONG-3A-04-V1-011_card_4",
+          "SEJONG-3A-04-V1-011_card_5",
+          "SEJONG-3A-04-V1-011_card_6",
+          "SEJONG-3A-04-V1-011_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-012",
+      "displaySentence": "나는 주방을 청소할 테니까 방을 정리해 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-012_card_0",
+          "나는 주방"
+        ],
+        [
+          "SEJONG-3A-04-V1-012_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-012_card_2",
+          "청소할"
+        ],
+        [
+          "SEJONG-3A-04-V1-012_card_3",
+          "테니까"
+        ],
+        [
+          "SEJONG-3A-04-V1-012_card_4",
+          "방"
+        ],
+        [
+          "SEJONG-3A-04-V1-012_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-012_card_6",
+          "정리해"
+        ],
+        [
+          "SEJONG-3A-04-V1-012_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-012_card_0",
+          "SEJONG-3A-04-V1-012_card_1",
+          "SEJONG-3A-04-V1-012_card_2",
+          "SEJONG-3A-04-V1-012_card_3",
+          "SEJONG-3A-04-V1-012_card_4",
+          "SEJONG-3A-04-V1-012_card_5",
+          "SEJONG-3A-04-V1-012_card_6",
+          "SEJONG-3A-04-V1-012_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-013",
+      "displaySentence": "내가 세탁 세제를 넣을 테니까 버튼을 눌러 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-013_card_0",
+          "내가 세탁 세제"
+        ],
+        [
+          "SEJONG-3A-04-V1-013_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-013_card_2",
+          "넣"
+        ],
+        [
+          "SEJONG-3A-04-V1-013_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-013_card_4",
+          "테니까 버튼"
+        ],
+        [
+          "SEJONG-3A-04-V1-013_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-013_card_6",
+          "눌러"
+        ],
+        [
+          "SEJONG-3A-04-V1-013_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-013_card_0",
+          "SEJONG-3A-04-V1-013_card_1",
+          "SEJONG-3A-04-V1-013_card_2",
+          "SEJONG-3A-04-V1-013_card_3",
+          "SEJONG-3A-04-V1-013_card_4",
+          "SEJONG-3A-04-V1-013_card_5",
+          "SEJONG-3A-04-V1-013_card_6",
+          "SEJONG-3A-04-V1-013_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-014",
+      "displaySentence": "나는 수세미로 닦을 테니까 고무장갑을 껴 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-014_card_0",
+          "나는 수세미"
+        ],
+        [
+          "SEJONG-3A-04-V1-014_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-3A-04-V1-014_card_2",
+          "닦"
+        ],
+        [
+          "SEJONG-3A-04-V1-014_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-014_card_4",
+          "테니까 고무장갑"
+        ],
+        [
+          "SEJONG-3A-04-V1-014_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-014_card_6",
+          "껴"
+        ],
+        [
+          "SEJONG-3A-04-V1-014_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-014_card_0",
+          "SEJONG-3A-04-V1-014_card_1",
+          "SEJONG-3A-04-V1-014_card_2",
+          "SEJONG-3A-04-V1-014_card_3",
+          "SEJONG-3A-04-V1-014_card_4",
+          "SEJONG-3A-04-V1-014_card_5",
+          "SEJONG-3A-04-V1-014_card_6",
+          "SEJONG-3A-04-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-015",
+      "displaySentence": "내가 빨래를 개어 놓을 테니까 옷장에 넣어 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-015_card_0",
+          "내가 빨래"
+        ],
+        [
+          "SEJONG-3A-04-V1-015_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-015_card_2",
+          "개어 놓"
+        ],
+        [
+          "SEJONG-3A-04-V1-015_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-015_card_4",
+          "테니까 옷장"
+        ],
+        [
+          "SEJONG-3A-04-V1-015_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-3A-04-V1-015_card_6",
+          "넣어"
+        ],
+        [
+          "SEJONG-3A-04-V1-015_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-015_card_0",
+          "SEJONG-3A-04-V1-015_card_1",
+          "SEJONG-3A-04-V1-015_card_2",
+          "SEJONG-3A-04-V1-015_card_3",
+          "SEJONG-3A-04-V1-015_card_4",
+          "SEJONG-3A-04-V1-015_card_5",
+          "SEJONG-3A-04-V1-015_card_6",
+          "SEJONG-3A-04-V1-015_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-016",
+      "displaySentence": "나는 걸레질을 할 테니까 먼지를 털어 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-016_card_0",
+          "나는 걸레질"
+        ],
+        [
+          "SEJONG-3A-04-V1-016_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-016_card_2",
+          "할"
+        ],
+        [
+          "SEJONG-3A-04-V1-016_card_3",
+          "테니까"
+        ],
+        [
+          "SEJONG-3A-04-V1-016_card_4",
+          "먼지"
+        ],
+        [
+          "SEJONG-3A-04-V1-016_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-016_card_6",
+          "털어"
+        ],
+        [
+          "SEJONG-3A-04-V1-016_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-016_card_0",
+          "SEJONG-3A-04-V1-016_card_1",
+          "SEJONG-3A-04-V1-016_card_2",
+          "SEJONG-3A-04-V1-016_card_3",
+          "SEJONG-3A-04-V1-016_card_4",
+          "SEJONG-3A-04-V1-016_card_5",
+          "SEJONG-3A-04-V1-016_card_6",
+          "SEJONG-3A-04-V1-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-017",
+      "displaySentence": "세균이 많을 테니까 살균기를 사용해 주세요.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-017_card_0",
+          "세균"
+        ],
+        [
+          "SEJONG-3A-04-V1-017_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-04-V1-017_card_2",
+          "많"
+        ],
+        [
+          "SEJONG-3A-04-V1-017_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-04-V1-017_card_4",
+          "테니까 살균기"
+        ],
+        [
+          "SEJONG-3A-04-V1-017_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-017_card_6",
+          "사용해"
+        ],
+        [
+          "SEJONG-3A-04-V1-017_card_7",
+          "주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-017_card_0",
+          "SEJONG-3A-04-V1-017_card_1",
+          "SEJONG-3A-04-V1-017_card_2",
+          "SEJONG-3A-04-V1-017_card_3",
+          "SEJONG-3A-04-V1-017_card_4",
+          "SEJONG-3A-04-V1-017_card_5",
+          "SEJONG-3A-04-V1-017_card_6",
+          "SEJONG-3A-04-V1-017_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-018",
+      "displaySentence": "빨래가 산더미일 테니까 같이 정리해 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-018_card_0",
+          "빨래"
+        ],
+        [
+          "SEJONG-3A-04-V1-018_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-04-V1-018_card_2",
+          "산더미일"
+        ],
+        [
+          "SEJONG-3A-04-V1-018_card_3",
+          "테니까"
+        ],
+        [
+          "SEJONG-3A-04-V1-018_card_4",
+          "같이"
+        ],
+        [
+          "SEJONG-3A-04-V1-018_card_5",
+          "정리해"
+        ],
+        [
+          "SEJONG-3A-04-V1-018_card_6",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-018_card_0",
+          "SEJONG-3A-04-V1-018_card_1",
+          "SEJONG-3A-04-V1-018_card_2",
+          "SEJONG-3A-04-V1-018_card_3",
+          "SEJONG-3A-04-V1-018_card_4",
+          "SEJONG-3A-04-V1-018_card_5",
+          "SEJONG-3A-04-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-019",
+      "displaySentence": "건조기를 돌릴 테니까 세탁기를 먼저 비워 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-019_card_0",
+          "건조기"
+        ],
+        [
+          "SEJONG-3A-04-V1-019_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-019_card_2",
+          "돌릴 테니까"
+        ],
+        [
+          "SEJONG-3A-04-V1-019_card_3",
+          "세탁기"
+        ],
+        [
+          "SEJONG-3A-04-V1-019_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-019_card_5",
+          "먼저"
+        ],
+        [
+          "SEJONG-3A-04-V1-019_card_6",
+          "비워"
+        ],
+        [
+          "SEJONG-3A-04-V1-019_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-019_card_0",
+          "SEJONG-3A-04-V1-019_card_1",
+          "SEJONG-3A-04-V1-019_card_2",
+          "SEJONG-3A-04-V1-019_card_3",
+          "SEJONG-3A-04-V1-019_card_4",
+          "SEJONG-3A-04-V1-019_card_5",
+          "SEJONG-3A-04-V1-019_card_6",
+          "SEJONG-3A-04-V1-019_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-04-V1-020",
+      "displaySentence": "내가 청소를 끝낼 테니까 발명품 이야기를 해 줘.",
+      "tokens": [
+        [
+          "SEJONG-3A-04-V1-020_card_0",
+          "내가 청소"
+        ],
+        [
+          "SEJONG-3A-04-V1-020_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-020_card_2",
+          "끝낼 테니까"
+        ],
+        [
+          "SEJONG-3A-04-V1-020_card_3",
+          "발명품"
+        ],
+        [
+          "SEJONG-3A-04-V1-020_card_4",
+          "이야기"
+        ],
+        [
+          "SEJONG-3A-04-V1-020_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-04-V1-020_card_6",
+          "해"
+        ],
+        [
+          "SEJONG-3A-04-V1-020_card_7",
+          "줘."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-04-V1-020_card_0",
+          "SEJONG-3A-04-V1-020_card_1",
+          "SEJONG-3A-04-V1-020_card_2",
+          "SEJONG-3A-04-V1-020_card_3",
+          "SEJONG-3A-04-V1-020_card_4",
+          "SEJONG-3A-04-V1-020_card_5",
+          "SEJONG-3A-04-V1-020_card_6",
+          "SEJONG-3A-04-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 4과 어휘·문법 범위 재구성 · -(으)ㄹ 테니까",
+      "sourceRef": "세종한국어 3A 4과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

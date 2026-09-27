@@ -1,0 +1,993 @@
+{
+  "book": "3A",
+  "lesson": 3,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 3과 범위",
+  "selectionPolicy": [
+    "3과 핵심 문법 -(으)ㄹ까 하다·-지만 않으면를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 4과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-03-V1-001",
+      "displaySentence": "이번 주말에 이사할 집을 보러 갈까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-001_card_0",
+          "이번 주말"
+        ],
+        [
+          "SEJONG-3A-03-V1-001_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-03-V1-001_card_2",
+          "이사할"
+        ],
+        [
+          "SEJONG-3A-03-V1-001_card_3",
+          "집"
+        ],
+        [
+          "SEJONG-3A-03-V1-001_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-03-V1-001_card_5",
+          "보러"
+        ],
+        [
+          "SEJONG-3A-03-V1-001_card_6",
+          "갈까"
+        ],
+        [
+          "SEJONG-3A-03-V1-001_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-001_card_0",
+          "SEJONG-3A-03-V1-001_card_1",
+          "SEJONG-3A-03-V1-001_card_2",
+          "SEJONG-3A-03-V1-001_card_3",
+          "SEJONG-3A-03-V1-001_card_4",
+          "SEJONG-3A-03-V1-001_card_5",
+          "SEJONG-3A-03-V1-001_card_6",
+          "SEJONG-3A-03-V1-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-002",
+      "displaySentence": "시장과 가까운 집을 구할까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-002_card_0",
+          "시장"
+        ],
+        [
+          "SEJONG-3A-03-V1-002_card_1",
+          "과"
+        ],
+        [
+          "SEJONG-3A-03-V1-002_card_2",
+          "가까운"
+        ],
+        [
+          "SEJONG-3A-03-V1-002_card_3",
+          "집"
+        ],
+        [
+          "SEJONG-3A-03-V1-002_card_4",
+          "을"
+        ],
+        [
+          "SEJONG-3A-03-V1-002_card_5",
+          "구할까"
+        ],
+        [
+          "SEJONG-3A-03-V1-002_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-002_card_0",
+          "SEJONG-3A-03-V1-002_card_1",
+          "SEJONG-3A-03-V1-002_card_2",
+          "SEJONG-3A-03-V1-002_card_3",
+          "SEJONG-3A-03-V1-002_card_4",
+          "SEJONG-3A-03-V1-002_card_5",
+          "SEJONG-3A-03-V1-002_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-003",
+      "displaySentence": "교통이 편리한 곳으로 이사할까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-003_card_0",
+          "교통"
+        ],
+        [
+          "SEJONG-3A-03-V1-003_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-003_card_2",
+          "편리한"
+        ],
+        [
+          "SEJONG-3A-03-V1-003_card_3",
+          "곳"
+        ],
+        [
+          "SEJONG-3A-03-V1-003_card_4",
+          "으로"
+        ],
+        [
+          "SEJONG-3A-03-V1-003_card_5",
+          "이사할까"
+        ],
+        [
+          "SEJONG-3A-03-V1-003_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-003_card_0",
+          "SEJONG-3A-03-V1-003_card_1",
+          "SEJONG-3A-03-V1-003_card_2",
+          "SEJONG-3A-03-V1-003_card_3",
+          "SEJONG-3A-03-V1-003_card_4",
+          "SEJONG-3A-03-V1-003_card_5",
+          "SEJONG-3A-03-V1-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-004",
+      "displaySentence": "부동산에 가서 전세를 알아볼까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-004_card_0",
+          "부동산"
+        ],
+        [
+          "SEJONG-3A-03-V1-004_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-3A-03-V1-004_card_2",
+          "가서"
+        ],
+        [
+          "SEJONG-3A-03-V1-004_card_3",
+          "전세"
+        ],
+        [
+          "SEJONG-3A-03-V1-004_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-3A-03-V1-004_card_5",
+          "알아볼까"
+        ],
+        [
+          "SEJONG-3A-03-V1-004_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-004_card_0",
+          "SEJONG-3A-03-V1-004_card_1",
+          "SEJONG-3A-03-V1-004_card_2",
+          "SEJONG-3A-03-V1-004_card_3",
+          "SEJONG-3A-03-V1-004_card_4",
+          "SEJONG-3A-03-V1-004_card_5",
+          "SEJONG-3A-03-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-005",
+      "displaySentence": "공인중개사에게 계약금을 물어볼까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-005_card_0",
+          "공인중개사"
+        ],
+        [
+          "SEJONG-3A-03-V1-005_card_1",
+          "에게"
+        ],
+        [
+          "SEJONG-3A-03-V1-005_card_2",
+          "계약금"
+        ],
+        [
+          "SEJONG-3A-03-V1-005_card_3",
+          "을"
+        ],
+        [
+          "SEJONG-3A-03-V1-005_card_4",
+          "물어볼까"
+        ],
+        [
+          "SEJONG-3A-03-V1-005_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-005_card_0",
+          "SEJONG-3A-03-V1-005_card_1",
+          "SEJONG-3A-03-V1-005_card_2",
+          "SEJONG-3A-03-V1-005_card_3",
+          "SEJONG-3A-03-V1-005_card_4",
+          "SEJONG-3A-03-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-006",
+      "displaySentence": "다음 달에 이삿짐 센터를 예약할까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-006_card_0",
+          "다음"
+        ],
+        [
+          "SEJONG-3A-03-V1-006_card_1",
+          "달"
+        ],
+        [
+          "SEJONG-3A-03-V1-006_card_2",
+          "에"
+        ],
+        [
+          "SEJONG-3A-03-V1-006_card_3",
+          "이삿짐"
+        ],
+        [
+          "SEJONG-3A-03-V1-006_card_4",
+          "센터"
+        ],
+        [
+          "SEJONG-3A-03-V1-006_card_5",
+          "를"
+        ],
+        [
+          "SEJONG-3A-03-V1-006_card_6",
+          "예약할까"
+        ],
+        [
+          "SEJONG-3A-03-V1-006_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-006_card_0",
+          "SEJONG-3A-03-V1-006_card_1",
+          "SEJONG-3A-03-V1-006_card_2",
+          "SEJONG-3A-03-V1-006_card_3",
+          "SEJONG-3A-03-V1-006_card_4",
+          "SEJONG-3A-03-V1-006_card_5",
+          "SEJONG-3A-03-V1-006_card_6",
+          "SEJONG-3A-03-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-007",
+      "displaySentence": "친구들을 새 집에 초대할까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-007_card_0",
+          "친구들을"
+        ],
+        [
+          "SEJONG-3A-03-V1-007_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-3A-03-V1-007_card_2",
+          "집"
+        ],
+        [
+          "SEJONG-3A-03-V1-007_card_3",
+          "에"
+        ],
+        [
+          "SEJONG-3A-03-V1-007_card_4",
+          "초대할까"
+        ],
+        [
+          "SEJONG-3A-03-V1-007_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-007_card_0",
+          "SEJONG-3A-03-V1-007_card_1",
+          "SEJONG-3A-03-V1-007_card_2",
+          "SEJONG-3A-03-V1-007_card_3",
+          "SEJONG-3A-03-V1-007_card_4",
+          "SEJONG-3A-03-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-008",
+      "displaySentence": "이사가 끝나면 집들이를 할까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-008_card_0",
+          "이사"
+        ],
+        [
+          "SEJONG-3A-03-V1-008_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-03-V1-008_card_2",
+          "끝나면"
+        ],
+        [
+          "SEJONG-3A-03-V1-008_card_3",
+          "집들이"
+        ],
+        [
+          "SEJONG-3A-03-V1-008_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-3A-03-V1-008_card_5",
+          "할까"
+        ],
+        [
+          "SEJONG-3A-03-V1-008_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-008_card_0",
+          "SEJONG-3A-03-V1-008_card_1",
+          "SEJONG-3A-03-V1-008_card_2",
+          "SEJONG-3A-03-V1-008_card_3",
+          "SEJONG-3A-03-V1-008_card_4",
+          "SEJONG-3A-03-V1-008_card_5",
+          "SEJONG-3A-03-V1-008_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-009",
+      "displaySentence": "보증금이 너무 비싸지만 않으면 계약할 거예요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-009_card_0",
+          "보증금"
+        ],
+        [
+          "SEJONG-3A-03-V1-009_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-009_card_2",
+          "너무"
+        ],
+        [
+          "SEJONG-3A-03-V1-009_card_3",
+          "비싸지"
+        ],
+        [
+          "SEJONG-3A-03-V1-009_card_4",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-009_card_5",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-009_card_6",
+          "계약할"
+        ],
+        [
+          "SEJONG-3A-03-V1-009_card_7",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-009_card_0",
+          "SEJONG-3A-03-V1-009_card_1",
+          "SEJONG-3A-03-V1-009_card_2",
+          "SEJONG-3A-03-V1-009_card_3",
+          "SEJONG-3A-03-V1-009_card_4",
+          "SEJONG-3A-03-V1-009_card_5",
+          "SEJONG-3A-03-V1-009_card_6",
+          "SEJONG-3A-03-V1-009_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-010",
+      "displaySentence": "월세가 비싸지만 않으면 이 집으로 이사할 거예요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-010_card_0",
+          "월세"
+        ],
+        [
+          "SEJONG-3A-03-V1-010_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-3A-03-V1-010_card_2",
+          "비싸지만"
+        ],
+        [
+          "SEJONG-3A-03-V1-010_card_3",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-010_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-010_card_5",
+          "집"
+        ],
+        [
+          "SEJONG-3A-03-V1-010_card_6",
+          "으로"
+        ],
+        [
+          "SEJONG-3A-03-V1-010_card_7",
+          "이사할 거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-010_card_0",
+          "SEJONG-3A-03-V1-010_card_1",
+          "SEJONG-3A-03-V1-010_card_2",
+          "SEJONG-3A-03-V1-010_card_3",
+          "SEJONG-3A-03-V1-010_card_4",
+          "SEJONG-3A-03-V1-010_card_5",
+          "SEJONG-3A-03-V1-010_card_6",
+          "SEJONG-3A-03-V1-010_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -(으)ㄹ까 하다",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-011",
+      "displaySentence": "주변 환경이 시끄럽지만 않으면 괜찮아요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-011_card_0",
+          "주변"
+        ],
+        [
+          "SEJONG-3A-03-V1-011_card_1",
+          "환경"
+        ],
+        [
+          "SEJONG-3A-03-V1-011_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-011_card_3",
+          "시끄럽지"
+        ],
+        [
+          "SEJONG-3A-03-V1-011_card_4",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-011_card_5",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-011_card_6",
+          "괜찮아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-011_card_0",
+          "SEJONG-3A-03-V1-011_card_1",
+          "SEJONG-3A-03-V1-011_card_2",
+          "SEJONG-3A-03-V1-011_card_3",
+          "SEJONG-3A-03-V1-011_card_4",
+          "SEJONG-3A-03-V1-011_card_5",
+          "SEJONG-3A-03-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-012",
+      "displaySentence": "교통이 불편하지만 않으면 살 만해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-012_card_0",
+          "교통"
+        ],
+        [
+          "SEJONG-3A-03-V1-012_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-012_card_2",
+          "불편하지"
+        ],
+        [
+          "SEJONG-3A-03-V1-012_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-012_card_4",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-012_card_5",
+          "살"
+        ],
+        [
+          "SEJONG-3A-03-V1-012_card_6",
+          "만해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-012_card_0",
+          "SEJONG-3A-03-V1-012_card_1",
+          "SEJONG-3A-03-V1-012_card_2",
+          "SEJONG-3A-03-V1-012_card_3",
+          "SEJONG-3A-03-V1-012_card_4",
+          "SEJONG-3A-03-V1-012_card_5",
+          "SEJONG-3A-03-V1-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-013",
+      "displaySentence": "집이 너무 작지만 않으면 계약하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-013_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-3A-03-V1-013_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-013_card_2",
+          "너무 작지"
+        ],
+        [
+          "SEJONG-3A-03-V1-013_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-013_card_4",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-013_card_5",
+          "계약"
+        ],
+        [
+          "SEJONG-3A-03-V1-013_card_6",
+          "하고"
+        ],
+        [
+          "SEJONG-3A-03-V1-013_card_7",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-013_card_0",
+          "SEJONG-3A-03-V1-013_card_1",
+          "SEJONG-3A-03-V1-013_card_2",
+          "SEJONG-3A-03-V1-013_card_3",
+          "SEJONG-3A-03-V1-013_card_4",
+          "SEJONG-3A-03-V1-013_card_5",
+          "SEJONG-3A-03-V1-013_card_6",
+          "SEJONG-3A-03-V1-013_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-014",
+      "displaySentence": "시장에서 너무 멀지만 않으면 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-014_card_0",
+          "시장"
+        ],
+        [
+          "SEJONG-3A-03-V1-014_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-3A-03-V1-014_card_2",
+          "너무"
+        ],
+        [
+          "SEJONG-3A-03-V1-014_card_3",
+          "멀지"
+        ],
+        [
+          "SEJONG-3A-03-V1-014_card_4",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-014_card_5",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-014_card_6",
+          "좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-014_card_0",
+          "SEJONG-3A-03-V1-014_card_1",
+          "SEJONG-3A-03-V1-014_card_2",
+          "SEJONG-3A-03-V1-014_card_3",
+          "SEJONG-3A-03-V1-014_card_4",
+          "SEJONG-3A-03-V1-014_card_5",
+          "SEJONG-3A-03-V1-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-015",
+      "displaySentence": "계약 조건이 어렵지만 않으면 바로 계약할게요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-015_card_0",
+          "계약 조건"
+        ],
+        [
+          "SEJONG-3A-03-V1-015_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-015_card_2",
+          "어렵지"
+        ],
+        [
+          "SEJONG-3A-03-V1-015_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-015_card_4",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-015_card_5",
+          "바"
+        ],
+        [
+          "SEJONG-3A-03-V1-015_card_6",
+          "로"
+        ],
+        [
+          "SEJONG-3A-03-V1-015_card_7",
+          "계약할게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-015_card_0",
+          "SEJONG-3A-03-V1-015_card_1",
+          "SEJONG-3A-03-V1-015_card_2",
+          "SEJONG-3A-03-V1-015_card_3",
+          "SEJONG-3A-03-V1-015_card_4",
+          "SEJONG-3A-03-V1-015_card_5",
+          "SEJONG-3A-03-V1-015_card_6",
+          "SEJONG-3A-03-V1-015_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-016",
+      "displaySentence": "이삿짐이 너무 많지만 않으면 직접 옮길 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-016_card_0",
+          "이삿짐"
+        ],
+        [
+          "SEJONG-3A-03-V1-016_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-016_card_2",
+          "너무 많지"
+        ],
+        [
+          "SEJONG-3A-03-V1-016_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-016_card_4",
+          "않으면 직접"
+        ],
+        [
+          "SEJONG-3A-03-V1-016_card_5",
+          "옮길"
+        ],
+        [
+          "SEJONG-3A-03-V1-016_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-3A-03-V1-016_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-016_card_0",
+          "SEJONG-3A-03-V1-016_card_1",
+          "SEJONG-3A-03-V1-016_card_2",
+          "SEJONG-3A-03-V1-016_card_3",
+          "SEJONG-3A-03-V1-016_card_4",
+          "SEJONG-3A-03-V1-016_card_5",
+          "SEJONG-3A-03-V1-016_card_6",
+          "SEJONG-3A-03-V1-016_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-017",
+      "displaySentence": "거품이 많지만 않으면 청소하기 쉬워요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-017_card_0",
+          "거품"
+        ],
+        [
+          "SEJONG-3A-03-V1-017_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-017_card_2",
+          "많지"
+        ],
+        [
+          "SEJONG-3A-03-V1-017_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-017_card_4",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-017_card_5",
+          "청소하기"
+        ],
+        [
+          "SEJONG-3A-03-V1-017_card_6",
+          "쉬워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-017_card_0",
+          "SEJONG-3A-03-V1-017_card_1",
+          "SEJONG-3A-03-V1-017_card_2",
+          "SEJONG-3A-03-V1-017_card_3",
+          "SEJONG-3A-03-V1-017_card_4",
+          "SEJONG-3A-03-V1-017_card_5",
+          "SEJONG-3A-03-V1-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-018",
+      "displaySentence": "집이 너무 낡지만 않으면 꾸미고 살고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-018_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-3A-03-V1-018_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-018_card_2",
+          "너무 낡지"
+        ],
+        [
+          "SEJONG-3A-03-V1-018_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-018_card_4",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-018_card_5",
+          "꾸미고"
+        ],
+        [
+          "SEJONG-3A-03-V1-018_card_6",
+          "살고"
+        ],
+        [
+          "SEJONG-3A-03-V1-018_card_7",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-018_card_0",
+          "SEJONG-3A-03-V1-018_card_1",
+          "SEJONG-3A-03-V1-018_card_2",
+          "SEJONG-3A-03-V1-018_card_3",
+          "SEJONG-3A-03-V1-018_card_4",
+          "SEJONG-3A-03-V1-018_card_5",
+          "SEJONG-3A-03-V1-018_card_6",
+          "SEJONG-3A-03-V1-018_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-019",
+      "displaySentence": "이삿날 비가 오지만 않으면 좋겠어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-019_card_0",
+          "이삿날"
+        ],
+        [
+          "SEJONG-3A-03-V1-019_card_1",
+          "비"
+        ],
+        [
+          "SEJONG-3A-03-V1-019_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-03-V1-019_card_3",
+          "오지"
+        ],
+        [
+          "SEJONG-3A-03-V1-019_card_4",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-019_card_5",
+          "않으면"
+        ],
+        [
+          "SEJONG-3A-03-V1-019_card_6",
+          "좋겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-019_card_0",
+          "SEJONG-3A-03-V1-019_card_1",
+          "SEJONG-3A-03-V1-019_card_2",
+          "SEJONG-3A-03-V1-019_card_3",
+          "SEJONG-3A-03-V1-019_card_4",
+          "SEJONG-3A-03-V1-019_card_5",
+          "SEJONG-3A-03-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-03-V1-020",
+      "displaySentence": "보증금이 부담스럽지만 않으면 전세로 구할까 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-03-V1-020_card_0",
+          "보증금"
+        ],
+        [
+          "SEJONG-3A-03-V1-020_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-03-V1-020_card_2",
+          "부담스럽지"
+        ],
+        [
+          "SEJONG-3A-03-V1-020_card_3",
+          "만"
+        ],
+        [
+          "SEJONG-3A-03-V1-020_card_4",
+          "않으면 전세"
+        ],
+        [
+          "SEJONG-3A-03-V1-020_card_5",
+          "로"
+        ],
+        [
+          "SEJONG-3A-03-V1-020_card_6",
+          "구할까"
+        ],
+        [
+          "SEJONG-3A-03-V1-020_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-03-V1-020_card_0",
+          "SEJONG-3A-03-V1-020_card_1",
+          "SEJONG-3A-03-V1-020_card_2",
+          "SEJONG-3A-03-V1-020_card_3",
+          "SEJONG-3A-03-V1-020_card_4",
+          "SEJONG-3A-03-V1-020_card_5",
+          "SEJONG-3A-03-V1-020_card_6",
+          "SEJONG-3A-03-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 3과 어휘·문법 범위 재구성 · -지만 않으면",
+      "sourceRef": "세종한국어 3A 3과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}

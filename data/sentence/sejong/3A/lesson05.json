@@ -1,0 +1,948 @@
+{
+  "book": "3A",
+  "lesson": 5,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 3A 본교재 + 익힘책 3A + 어휘 문법과 표현 3A + 더하기 활동 3A의 5과 범위",
+  "selectionPolicy": [
+    "5과 핵심 문법 -아/어 보니까·-(으)려면를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "이전 과에서 학습한 문법은 누적 활용 가능",
+    "3A 6과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-3A-05-V1-001",
+      "displaySentence": "이 옷을 입어 보니까 사이즈가 딱 맞아요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-001_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-001_card_1",
+          "옷"
+        ],
+        [
+          "SEJONG-3A-05-V1-001_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-001_card_3",
+          "입어 보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-001_card_4",
+          "사이즈"
+        ],
+        [
+          "SEJONG-3A-05-V1-001_card_5",
+          "가"
+        ],
+        [
+          "SEJONG-3A-05-V1-001_card_6",
+          "딱"
+        ],
+        [
+          "SEJONG-3A-05-V1-001_card_7",
+          "맞아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-001_card_0",
+          "SEJONG-3A-05-V1-001_card_1",
+          "SEJONG-3A-05-V1-001_card_2",
+          "SEJONG-3A-05-V1-001_card_3",
+          "SEJONG-3A-05-V1-001_card_4",
+          "SEJONG-3A-05-V1-001_card_5",
+          "SEJONG-3A-05-V1-001_card_6",
+          "SEJONG-3A-05-V1-001_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-002",
+      "displaySentence": "신발을 신어 보니까 디자인이 마음에 들어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-002_card_0",
+          "신발"
+        ],
+        [
+          "SEJONG-3A-05-V1-002_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-002_card_2",
+          "신어 보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-002_card_3",
+          "디자인"
+        ],
+        [
+          "SEJONG-3A-05-V1-002_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-002_card_5",
+          "마음"
+        ],
+        [
+          "SEJONG-3A-05-V1-002_card_6",
+          "에"
+        ],
+        [
+          "SEJONG-3A-05-V1-002_card_7",
+          "들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-002_card_0",
+          "SEJONG-3A-05-V1-002_card_1",
+          "SEJONG-3A-05-V1-002_card_2",
+          "SEJONG-3A-05-V1-002_card_3",
+          "SEJONG-3A-05-V1-002_card_4",
+          "SEJONG-3A-05-V1-002_card_5",
+          "SEJONG-3A-05-V1-002_card_6",
+          "SEJONG-3A-05-V1-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-003",
+      "displaySentence": "세탁해 보니까 얼룩이 없어졌어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-003_card_0",
+          "세탁해"
+        ],
+        [
+          "SEJONG-3A-05-V1-003_card_1",
+          "보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-003_card_2",
+          "얼룩"
+        ],
+        [
+          "SEJONG-3A-05-V1-003_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-003_card_4",
+          "없어졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-003_card_0",
+          "SEJONG-3A-05-V1-003_card_1",
+          "SEJONG-3A-05-V1-003_card_2",
+          "SEJONG-3A-05-V1-003_card_3",
+          "SEJONG-3A-05-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-004",
+      "displaySentence": "교환해 보니까 새 상품이 더 잘 어울려요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-004_card_0",
+          "교환해"
+        ],
+        [
+          "SEJONG-3A-05-V1-004_card_1",
+          "보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-004_card_2",
+          "새"
+        ],
+        [
+          "SEJONG-3A-05-V1-004_card_3",
+          "상품"
+        ],
+        [
+          "SEJONG-3A-05-V1-004_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-004_card_5",
+          "더"
+        ],
+        [
+          "SEJONG-3A-05-V1-004_card_6",
+          "잘"
+        ],
+        [
+          "SEJONG-3A-05-V1-004_card_7",
+          "어울려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-004_card_0",
+          "SEJONG-3A-05-V1-004_card_1",
+          "SEJONG-3A-05-V1-004_card_2",
+          "SEJONG-3A-05-V1-004_card_3",
+          "SEJONG-3A-05-V1-004_card_4",
+          "SEJONG-3A-05-V1-004_card_5",
+          "SEJONG-3A-05-V1-004_card_6",
+          "SEJONG-3A-05-V1-004_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-005",
+      "displaySentence": "영수증을 확인해 보니까 기간이 지났어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-005_card_0",
+          "영수증"
+        ],
+        [
+          "SEJONG-3A-05-V1-005_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-005_card_2",
+          "확인해"
+        ],
+        [
+          "SEJONG-3A-05-V1-005_card_3",
+          "보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-005_card_4",
+          "기간"
+        ],
+        [
+          "SEJONG-3A-05-V1-005_card_5",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-005_card_6",
+          "지났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-005_card_0",
+          "SEJONG-3A-05-V1-005_card_1",
+          "SEJONG-3A-05-V1-005_card_2",
+          "SEJONG-3A-05-V1-005_card_3",
+          "SEJONG-3A-05-V1-005_card_4",
+          "SEJONG-3A-05-V1-005_card_5",
+          "SEJONG-3A-05-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-006",
+      "displaySentence": "태그를 살펴보니까 세탁 유의 사항이 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-006_card_0",
+          "태그"
+        ],
+        [
+          "SEJONG-3A-05-V1-006_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-05-V1-006_card_2",
+          "살펴보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-006_card_3",
+          "세탁"
+        ],
+        [
+          "SEJONG-3A-05-V1-006_card_4",
+          "유의"
+        ],
+        [
+          "SEJONG-3A-05-V1-006_card_5",
+          "사항"
+        ],
+        [
+          "SEJONG-3A-05-V1-006_card_6",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-006_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-006_card_0",
+          "SEJONG-3A-05-V1-006_card_1",
+          "SEJONG-3A-05-V1-006_card_2",
+          "SEJONG-3A-05-V1-006_card_3",
+          "SEJONG-3A-05-V1-006_card_4",
+          "SEJONG-3A-05-V1-006_card_5",
+          "SEJONG-3A-05-V1-006_card_6",
+          "SEJONG-3A-05-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-007",
+      "displaySentence": "현금으로 계산해 보니까 더 저렴했어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-007_card_0",
+          "현금"
+        ],
+        [
+          "SEJONG-3A-05-V1-007_card_1",
+          "으로"
+        ],
+        [
+          "SEJONG-3A-05-V1-007_card_2",
+          "계산해"
+        ],
+        [
+          "SEJONG-3A-05-V1-007_card_3",
+          "보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-007_card_4",
+          "더"
+        ],
+        [
+          "SEJONG-3A-05-V1-007_card_5",
+          "저렴했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-007_card_0",
+          "SEJONG-3A-05-V1-007_card_1",
+          "SEJONG-3A-05-V1-007_card_2",
+          "SEJONG-3A-05-V1-007_card_3",
+          "SEJONG-3A-05-V1-007_card_4",
+          "SEJONG-3A-05-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-008",
+      "displaySentence": "세일 상품을 사 보니까 생각보다 괜찮아요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-008_card_0",
+          "세일"
+        ],
+        [
+          "SEJONG-3A-05-V1-008_card_1",
+          "상품"
+        ],
+        [
+          "SEJONG-3A-05-V1-008_card_2",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-008_card_3",
+          "사"
+        ],
+        [
+          "SEJONG-3A-05-V1-008_card_4",
+          "보니까"
+        ],
+        [
+          "SEJONG-3A-05-V1-008_card_5",
+          "생각"
+        ],
+        [
+          "SEJONG-3A-05-V1-008_card_6",
+          "보다"
+        ],
+        [
+          "SEJONG-3A-05-V1-008_card_7",
+          "괜찮아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-008_card_0",
+          "SEJONG-3A-05-V1-008_card_1",
+          "SEJONG-3A-05-V1-008_card_2",
+          "SEJONG-3A-05-V1-008_card_3",
+          "SEJONG-3A-05-V1-008_card_4",
+          "SEJONG-3A-05-V1-008_card_5",
+          "SEJONG-3A-05-V1-008_card_6",
+          "SEJONG-3A-05-V1-008_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-009",
+      "displaySentence": "환불하려면 영수증이 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-009_card_0",
+          "환불하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-009_card_1",
+          "영수증"
+        ],
+        [
+          "SEJONG-3A-05-V1-009_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-009_card_3",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-009_card_0",
+          "SEJONG-3A-05-V1-009_card_1",
+          "SEJONG-3A-05-V1-009_card_2",
+          "SEJONG-3A-05-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-010",
+      "displaySentence": "교환하려면 태그가 있어야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-010_card_0",
+          "교환하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-010_card_1",
+          "태그"
+        ],
+        [
+          "SEJONG-3A-05-V1-010_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-3A-05-V1-010_card_3",
+          "있어야"
+        ],
+        [
+          "SEJONG-3A-05-V1-010_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-010_card_0",
+          "SEJONG-3A-05-V1-010_card_1",
+          "SEJONG-3A-05-V1-010_card_2",
+          "SEJONG-3A-05-V1-010_card_3",
+          "SEJONG-3A-05-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -아/어 보니까",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-011",
+      "displaySentence": "카드로 계산하려면 신분증이 필요할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-011_card_0",
+          "카드"
+        ],
+        [
+          "SEJONG-3A-05-V1-011_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-3A-05-V1-011_card_2",
+          "계산하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-011_card_3",
+          "신분증"
+        ],
+        [
+          "SEJONG-3A-05-V1-011_card_4",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-011_card_5",
+          "필요할"
+        ],
+        [
+          "SEJONG-3A-05-V1-011_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-3A-05-V1-011_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-011_card_0",
+          "SEJONG-3A-05-V1-011_card_1",
+          "SEJONG-3A-05-V1-011_card_2",
+          "SEJONG-3A-05-V1-011_card_3",
+          "SEJONG-3A-05-V1-011_card_4",
+          "SEJONG-3A-05-V1-011_card_5",
+          "SEJONG-3A-05-V1-011_card_6",
+          "SEJONG-3A-05-V1-011_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-012",
+      "displaySentence": "신청하려면 신청서를 작성해야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-012_card_0",
+          "신청하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-012_card_1",
+          "신청서를"
+        ],
+        [
+          "SEJONG-3A-05-V1-012_card_2",
+          "작성해야"
+        ],
+        [
+          "SEJONG-3A-05-V1-012_card_3",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-012_card_0",
+          "SEJONG-3A-05-V1-012_card_1",
+          "SEJONG-3A-05-V1-012_card_2",
+          "SEJONG-3A-05-V1-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-013",
+      "displaySentence": "옷을 환불하려면 사용하지 않아야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-013_card_0",
+          "옷"
+        ],
+        [
+          "SEJONG-3A-05-V1-013_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-013_card_2",
+          "환불하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-013_card_3",
+          "사용하지"
+        ],
+        [
+          "SEJONG-3A-05-V1-013_card_4",
+          "않아야"
+        ],
+        [
+          "SEJONG-3A-05-V1-013_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-013_card_0",
+          "SEJONG-3A-05-V1-013_card_1",
+          "SEJONG-3A-05-V1-013_card_2",
+          "SEJONG-3A-05-V1-013_card_3",
+          "SEJONG-3A-05-V1-013_card_4",
+          "SEJONG-3A-05-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-014",
+      "displaySentence": "사이즈를 바꾸려면 매장에 다시 가야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-014_card_0",
+          "사이즈"
+        ],
+        [
+          "SEJONG-3A-05-V1-014_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-05-V1-014_card_2",
+          "바꾸려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-014_card_3",
+          "매장"
+        ],
+        [
+          "SEJONG-3A-05-V1-014_card_4",
+          "에"
+        ],
+        [
+          "SEJONG-3A-05-V1-014_card_5",
+          "다시"
+        ],
+        [
+          "SEJONG-3A-05-V1-014_card_6",
+          "가야"
+        ],
+        [
+          "SEJONG-3A-05-V1-014_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-014_card_0",
+          "SEJONG-3A-05-V1-014_card_1",
+          "SEJONG-3A-05-V1-014_card_2",
+          "SEJONG-3A-05-V1-014_card_3",
+          "SEJONG-3A-05-V1-014_card_4",
+          "SEJONG-3A-05-V1-014_card_5",
+          "SEJONG-3A-05-V1-014_card_6",
+          "SEJONG-3A-05-V1-014_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-015",
+      "displaySentence": "가격을 비교하려면 단위를 확인해야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-015_card_0",
+          "가격"
+        ],
+        [
+          "SEJONG-3A-05-V1-015_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-015_card_2",
+          "비교하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-015_card_3",
+          "단위"
+        ],
+        [
+          "SEJONG-3A-05-V1-015_card_4",
+          "를"
+        ],
+        [
+          "SEJONG-3A-05-V1-015_card_5",
+          "확인해야"
+        ],
+        [
+          "SEJONG-3A-05-V1-015_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-015_card_0",
+          "SEJONG-3A-05-V1-015_card_1",
+          "SEJONG-3A-05-V1-015_card_2",
+          "SEJONG-3A-05-V1-015_card_3",
+          "SEJONG-3A-05-V1-015_card_4",
+          "SEJONG-3A-05-V1-015_card_5",
+          "SEJONG-3A-05-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-016",
+      "displaySentence": "세탁하려면 옷의 표기를 먼저 봐야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-016_card_0",
+          "세탁하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-016_card_1",
+          "옷의"
+        ],
+        [
+          "SEJONG-3A-05-V1-016_card_2",
+          "표기"
+        ],
+        [
+          "SEJONG-3A-05-V1-016_card_3",
+          "를"
+        ],
+        [
+          "SEJONG-3A-05-V1-016_card_4",
+          "먼저"
+        ],
+        [
+          "SEJONG-3A-05-V1-016_card_5",
+          "봐야"
+        ],
+        [
+          "SEJONG-3A-05-V1-016_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-016_card_0",
+          "SEJONG-3A-05-V1-016_card_1",
+          "SEJONG-3A-05-V1-016_card_2",
+          "SEJONG-3A-05-V1-016_card_3",
+          "SEJONG-3A-05-V1-016_card_4",
+          "SEJONG-3A-05-V1-016_card_5",
+          "SEJONG-3A-05-V1-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-017",
+      "displaySentence": "바가지를 쓰지 않으려면 가격을 확인해야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-017_card_0",
+          "바가지"
+        ],
+        [
+          "SEJONG-3A-05-V1-017_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-3A-05-V1-017_card_2",
+          "쓰지"
+        ],
+        [
+          "SEJONG-3A-05-V1-017_card_3",
+          "않으려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-017_card_4",
+          "가격"
+        ],
+        [
+          "SEJONG-3A-05-V1-017_card_5",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-017_card_6",
+          "확인해야"
+        ],
+        [
+          "SEJONG-3A-05-V1-017_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-017_card_0",
+          "SEJONG-3A-05-V1-017_card_1",
+          "SEJONG-3A-05-V1-017_card_2",
+          "SEJONG-3A-05-V1-017_card_3",
+          "SEJONG-3A-05-V1-017_card_4",
+          "SEJONG-3A-05-V1-017_card_5",
+          "SEJONG-3A-05-V1-017_card_6",
+          "SEJONG-3A-05-V1-017_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-018",
+      "displaySentence": "말이 잘 통하려면 천천히 설명해야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-018_card_0",
+          "말"
+        ],
+        [
+          "SEJONG-3A-05-V1-018_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-018_card_2",
+          "잘"
+        ],
+        [
+          "SEJONG-3A-05-V1-018_card_3",
+          "통하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-018_card_4",
+          "천천히"
+        ],
+        [
+          "SEJONG-3A-05-V1-018_card_5",
+          "설명해야"
+        ],
+        [
+          "SEJONG-3A-05-V1-018_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-018_card_0",
+          "SEJONG-3A-05-V1-018_card_1",
+          "SEJONG-3A-05-V1-018_card_2",
+          "SEJONG-3A-05-V1-018_card_3",
+          "SEJONG-3A-05-V1-018_card_4",
+          "SEJONG-3A-05-V1-018_card_5",
+          "SEJONG-3A-05-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-019",
+      "displaySentence": "영수증이 있으면 기간이 지나기 전에 환불해야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-019_card_0",
+          "영수증"
+        ],
+        [
+          "SEJONG-3A-05-V1-019_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-019_card_2",
+          "있으면 기간"
+        ],
+        [
+          "SEJONG-3A-05-V1-019_card_3",
+          "이"
+        ],
+        [
+          "SEJONG-3A-05-V1-019_card_4",
+          "지나기 전"
+        ],
+        [
+          "SEJONG-3A-05-V1-019_card_5",
+          "에"
+        ],
+        [
+          "SEJONG-3A-05-V1-019_card_6",
+          "환불해야"
+        ],
+        [
+          "SEJONG-3A-05-V1-019_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-019_card_0",
+          "SEJONG-3A-05-V1-019_card_1",
+          "SEJONG-3A-05-V1-019_card_2",
+          "SEJONG-3A-05-V1-019_card_3",
+          "SEJONG-3A-05-V1-019_card_4",
+          "SEJONG-3A-05-V1-019_card_5",
+          "SEJONG-3A-05-V1-019_card_6",
+          "SEJONG-3A-05-V1-019_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    },
+    {
+      "id": "SEJONG-3A-05-V1-020",
+      "displaySentence": "찢어진 상품을 교환하려면 직원에게 보여 줘야 해요.",
+      "tokens": [
+        [
+          "SEJONG-3A-05-V1-020_card_0",
+          "찢어진 상품"
+        ],
+        [
+          "SEJONG-3A-05-V1-020_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-3A-05-V1-020_card_2",
+          "교환하려면"
+        ],
+        [
+          "SEJONG-3A-05-V1-020_card_3",
+          "직원"
+        ],
+        [
+          "SEJONG-3A-05-V1-020_card_4",
+          "에게"
+        ],
+        [
+          "SEJONG-3A-05-V1-020_card_5",
+          "보여"
+        ],
+        [
+          "SEJONG-3A-05-V1-020_card_6",
+          "줘야"
+        ],
+        [
+          "SEJONG-3A-05-V1-020_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-3A-05-V1-020_card_0",
+          "SEJONG-3A-05-V1-020_card_1",
+          "SEJONG-3A-05-V1-020_card_2",
+          "SEJONG-3A-05-V1-020_card_3",
+          "SEJONG-3A-05-V1-020_card_4",
+          "SEJONG-3A-05-V1-020_card_5",
+          "SEJONG-3A-05-V1-020_card_6",
+          "SEJONG-3A-05-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 3A 5과 어휘·문법 범위 재구성 · -(으)려면",
+      "sourceRef": "세종한국어 3A 5과 본교재·익힘책·어휘문법과표현·더하기 활동 범위 재구성"
+    }
+  ]
+}
