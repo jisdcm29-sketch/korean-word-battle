@@ -11,7 +11,8 @@ export const CATALOG = {
   ],
   sejongBooks: [
     { id: '1A', title: '세종 1A', lessons: [1,2,3,4,5,6,7,8,9,10] },
-    { id: '1B', title: '세종 1B', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] }
+    { id: '1B', title: '세종 1B', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] },
+    { id: '2A', title: '세종 2A', lessons: [1,2,3,4,5,6,7,8,9,10,11,12] }
   ],
   collocationSets: Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
