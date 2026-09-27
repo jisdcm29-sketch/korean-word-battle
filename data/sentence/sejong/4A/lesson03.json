@@ -1,0 +1,778 @@
+{
+  "book": "4A",
+  "lesson": 3,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 3과 범위",
+  "selectionPolicy": [
+    "3과 핵심 문법 -는데요/-ㄴ데요/-데요·-냬요/-(으)래요/-재요 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-03-V1-001",
+      "displaySentence": "친구가 새 앨범이 나왔는데요 하고 알려 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-001_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4A-03-V1-001_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-4A-03-V1-001_card_2",
+          "앨범이"
+        ],
+        [
+          "SEJONG-4A-03-V1-001_card_3",
+          "나왔는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-001_card_4",
+          "하고"
+        ],
+        [
+          "SEJONG-4A-03-V1-001_card_5",
+          "알려"
+        ],
+        [
+          "SEJONG-4A-03-V1-001_card_6",
+          "줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-001_card_0",
+          "SEJONG-4A-03-V1-001_card_1",
+          "SEJONG-4A-03-V1-001_card_2",
+          "SEJONG-4A-03-V1-001_card_3",
+          "SEJONG-4A-03-V1-001_card_4",
+          "SEJONG-4A-03-V1-001_card_5",
+          "SEJONG-4A-03-V1-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-002",
+      "displaySentence": "다음 달에 콘서트가 열린다는데요 정말이에요?",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-002_card_0",
+          "다음"
+        ],
+        [
+          "SEJONG-4A-03-V1-002_card_1",
+          "달에"
+        ],
+        [
+          "SEJONG-4A-03-V1-002_card_2",
+          "콘서트가"
+        ],
+        [
+          "SEJONG-4A-03-V1-002_card_3",
+          "열린다는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-002_card_4",
+          "정말이에요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-002_card_0",
+          "SEJONG-4A-03-V1-002_card_1",
+          "SEJONG-4A-03-V1-002_card_2",
+          "SEJONG-4A-03-V1-002_card_3",
+          "SEJONG-4A-03-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-003",
+      "displaySentence": "새 영화가 개봉했는데요 같이 보러 갈래요?",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-003_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-4A-03-V1-003_card_1",
+          "영화가"
+        ],
+        [
+          "SEJONG-4A-03-V1-003_card_2",
+          "개봉했는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-003_card_3",
+          "같이"
+        ],
+        [
+          "SEJONG-4A-03-V1-003_card_4",
+          "보러"
+        ],
+        [
+          "SEJONG-4A-03-V1-003_card_5",
+          "갈래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-003_card_0",
+          "SEJONG-4A-03-V1-003_card_1",
+          "SEJONG-4A-03-V1-003_card_2",
+          "SEJONG-4A-03-V1-003_card_3",
+          "SEJONG-4A-03-V1-003_card_4",
+          "SEJONG-4A-03-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-004",
+      "displaySentence": "그 영화가 흥행에 성공했다는데요 대단하네요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-004_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-03-V1-004_card_1",
+          "영화가"
+        ],
+        [
+          "SEJONG-4A-03-V1-004_card_2",
+          "흥행에"
+        ],
+        [
+          "SEJONG-4A-03-V1-004_card_3",
+          "성공했다는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-004_card_4",
+          "대단하네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-004_card_0",
+          "SEJONG-4A-03-V1-004_card_1",
+          "SEJONG-4A-03-V1-004_card_2",
+          "SEJONG-4A-03-V1-004_card_3",
+          "SEJONG-4A-03-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-005",
+      "displaySentence": "감독이 큰 상을 수상했다는데요 축하할 일이에요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-005_card_0",
+          "감독이"
+        ],
+        [
+          "SEJONG-4A-03-V1-005_card_1",
+          "큰"
+        ],
+        [
+          "SEJONG-4A-03-V1-005_card_2",
+          "상을"
+        ],
+        [
+          "SEJONG-4A-03-V1-005_card_3",
+          "수상했다는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-005_card_4",
+          "축하할"
+        ],
+        [
+          "SEJONG-4A-03-V1-005_card_5",
+          "일이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-005_card_0",
+          "SEJONG-4A-03-V1-005_card_1",
+          "SEJONG-4A-03-V1-005_card_2",
+          "SEJONG-4A-03-V1-005_card_3",
+          "SEJONG-4A-03-V1-005_card_4",
+          "SEJONG-4A-03-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-006",
+      "displaySentence": "그 가수가 수익금을 기부했다는데요 멋지네요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-006_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-03-V1-006_card_1",
+          "가수가"
+        ],
+        [
+          "SEJONG-4A-03-V1-006_card_2",
+          "수익금을"
+        ],
+        [
+          "SEJONG-4A-03-V1-006_card_3",
+          "기부했다는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-006_card_4",
+          "멋지네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-006_card_0",
+          "SEJONG-4A-03-V1-006_card_1",
+          "SEJONG-4A-03-V1-006_card_2",
+          "SEJONG-4A-03-V1-006_card_3",
+          "SEJONG-4A-03-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-007",
+      "displaySentence": "이 노래가 요즘 유행한다는데요 자주 들려요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-03-V1-007_card_1",
+          "노래가"
+        ],
+        [
+          "SEJONG-4A-03-V1-007_card_2",
+          "요즘"
+        ],
+        [
+          "SEJONG-4A-03-V1-007_card_3",
+          "유행한다는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-007_card_4",
+          "자주"
+        ],
+        [
+          "SEJONG-4A-03-V1-007_card_5",
+          "들려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-007_card_0",
+          "SEJONG-4A-03-V1-007_card_1",
+          "SEJONG-4A-03-V1-007_card_2",
+          "SEJONG-4A-03-V1-007_card_3",
+          "SEJONG-4A-03-V1-007_card_4",
+          "SEJONG-4A-03-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-008",
+      "displaySentence": "그 회사가 해외에 진출했다는데요 규모가 커졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-008_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-03-V1-008_card_1",
+          "회사가"
+        ],
+        [
+          "SEJONG-4A-03-V1-008_card_2",
+          "해외에"
+        ],
+        [
+          "SEJONG-4A-03-V1-008_card_3",
+          "진출했다는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-008_card_4",
+          "규모가"
+        ],
+        [
+          "SEJONG-4A-03-V1-008_card_5",
+          "커졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-008_card_0",
+          "SEJONG-4A-03-V1-008_card_1",
+          "SEJONG-4A-03-V1-008_card_2",
+          "SEJONG-4A-03-V1-008_card_3",
+          "SEJONG-4A-03-V1-008_card_4",
+          "SEJONG-4A-03-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-009",
+      "displaySentence": "경제가 빠르게 발전했다는데요 변화가 크네요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-009_card_0",
+          "경제가"
+        ],
+        [
+          "SEJONG-4A-03-V1-009_card_1",
+          "빠르게"
+        ],
+        [
+          "SEJONG-4A-03-V1-009_card_2",
+          "발전했다는데요"
+        ],
+        [
+          "SEJONG-4A-03-V1-009_card_3",
+          "변화가"
+        ],
+        [
+          "SEJONG-4A-03-V1-009_card_4",
+          "크네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-009_card_0",
+          "SEJONG-4A-03-V1-009_card_1",
+          "SEJONG-4A-03-V1-009_card_2",
+          "SEJONG-4A-03-V1-009_card_3",
+          "SEJONG-4A-03-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-010",
+      "displaySentence": "친구가 콘서트에 같이 갈 거냬요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-010_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4A-03-V1-010_card_1",
+          "콘서트에"
+        ],
+        [
+          "SEJONG-4A-03-V1-010_card_2",
+          "같이"
+        ],
+        [
+          "SEJONG-4A-03-V1-010_card_3",
+          "갈"
+        ],
+        [
+          "SEJONG-4A-03-V1-010_card_4",
+          "거냬요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-010_card_0",
+          "SEJONG-4A-03-V1-010_card_1",
+          "SEJONG-4A-03-V1-010_card_2",
+          "SEJONG-4A-03-V1-010_card_3",
+          "SEJONG-4A-03-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-011",
+      "displaySentence": "언니가 새 영화를 보러 오래요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-011_card_0",
+          "언니가"
+        ],
+        [
+          "SEJONG-4A-03-V1-011_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-4A-03-V1-011_card_2",
+          "영화를"
+        ],
+        [
+          "SEJONG-4A-03-V1-011_card_3",
+          "보러"
+        ],
+        [
+          "SEJONG-4A-03-V1-011_card_4",
+          "오래요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-011_card_0",
+          "SEJONG-4A-03-V1-011_card_1",
+          "SEJONG-4A-03-V1-011_card_2",
+          "SEJONG-4A-03-V1-011_card_3",
+          "SEJONG-4A-03-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-012",
+      "displaySentence": "친구가 이번 주말에 같이 공연을 보재요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-012_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4A-03-V1-012_card_1",
+          "이번"
+        ],
+        [
+          "SEJONG-4A-03-V1-012_card_2",
+          "주말에"
+        ],
+        [
+          "SEJONG-4A-03-V1-012_card_3",
+          "같이"
+        ],
+        [
+          "SEJONG-4A-03-V1-012_card_4",
+          "공연을"
+        ],
+        [
+          "SEJONG-4A-03-V1-012_card_5",
+          "보재요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-012_card_0",
+          "SEJONG-4A-03-V1-012_card_1",
+          "SEJONG-4A-03-V1-012_card_2",
+          "SEJONG-4A-03-V1-012_card_3",
+          "SEJONG-4A-03-V1-012_card_4",
+          "SEJONG-4A-03-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-013",
+      "displaySentence": "동생이 새 앨범을 들어 봤냬요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-013_card_0",
+          "동생이"
+        ],
+        [
+          "SEJONG-4A-03-V1-013_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-4A-03-V1-013_card_2",
+          "앨범을"
+        ],
+        [
+          "SEJONG-4A-03-V1-013_card_3",
+          "들어"
+        ],
+        [
+          "SEJONG-4A-03-V1-013_card_4",
+          "봤냬요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-013_card_0",
+          "SEJONG-4A-03-V1-013_card_1",
+          "SEJONG-4A-03-V1-013_card_2",
+          "SEJONG-4A-03-V1-013_card_3",
+          "SEJONG-4A-03-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-014",
+      "displaySentence": "친구가 공연장 앞에서 만나재요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-014_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4A-03-V1-014_card_1",
+          "공연장"
+        ],
+        [
+          "SEJONG-4A-03-V1-014_card_2",
+          "앞에서"
+        ],
+        [
+          "SEJONG-4A-03-V1-014_card_3",
+          "만나재요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-014_card_0",
+          "SEJONG-4A-03-V1-014_card_1",
+          "SEJONG-4A-03-V1-014_card_2",
+          "SEJONG-4A-03-V1-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-015",
+      "displaySentence": "선생님이 좋은 영화를 추천해 달래요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-015_card_0",
+          "선생님이"
+        ],
+        [
+          "SEJONG-4A-03-V1-015_card_1",
+          "좋은"
+        ],
+        [
+          "SEJONG-4A-03-V1-015_card_2",
+          "영화를"
+        ],
+        [
+          "SEJONG-4A-03-V1-015_card_3",
+          "추천해"
+        ],
+        [
+          "SEJONG-4A-03-V1-015_card_4",
+          "달래요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-015_card_0",
+          "SEJONG-4A-03-V1-015_card_1",
+          "SEJONG-4A-03-V1-015_card_2",
+          "SEJONG-4A-03-V1-015_card_3",
+          "SEJONG-4A-03-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-016",
+      "displaySentence": "친구가 기부 행사에 같이 가재요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-016_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4A-03-V1-016_card_1",
+          "기부"
+        ],
+        [
+          "SEJONG-4A-03-V1-016_card_2",
+          "행사에"
+        ],
+        [
+          "SEJONG-4A-03-V1-016_card_3",
+          "같이"
+        ],
+        [
+          "SEJONG-4A-03-V1-016_card_4",
+          "가재요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-016_card_0",
+          "SEJONG-4A-03-V1-016_card_1",
+          "SEJONG-4A-03-V1-016_card_2",
+          "SEJONG-4A-03-V1-016_card_3",
+          "SEJONG-4A-03-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-017",
+      "displaySentence": "동생이 이 노래가 왜 유행하냬요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-017_card_0",
+          "동생이"
+        ],
+        [
+          "SEJONG-4A-03-V1-017_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-4A-03-V1-017_card_2",
+          "노래가"
+        ],
+        [
+          "SEJONG-4A-03-V1-017_card_3",
+          "왜"
+        ],
+        [
+          "SEJONG-4A-03-V1-017_card_4",
+          "유행하냬요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-017_card_0",
+          "SEJONG-4A-03-V1-017_card_1",
+          "SEJONG-4A-03-V1-017_card_2",
+          "SEJONG-4A-03-V1-017_card_3",
+          "SEJONG-4A-03-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-018",
+      "displaySentence": "친구가 새 영화가 재미있냬요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-018_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4A-03-V1-018_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-4A-03-V1-018_card_2",
+          "영화가"
+        ],
+        [
+          "SEJONG-4A-03-V1-018_card_3",
+          "재미있냬요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-018_card_0",
+          "SEJONG-4A-03-V1-018_card_1",
+          "SEJONG-4A-03-V1-018_card_2",
+          "SEJONG-4A-03-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-019",
+      "displaySentence": "언니가 콘서트 표를 같이 사재요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-019_card_0",
+          "언니가"
+        ],
+        [
+          "SEJONG-4A-03-V1-019_card_1",
+          "콘서트"
+        ],
+        [
+          "SEJONG-4A-03-V1-019_card_2",
+          "표를"
+        ],
+        [
+          "SEJONG-4A-03-V1-019_card_3",
+          "같이"
+        ],
+        [
+          "SEJONG-4A-03-V1-019_card_4",
+          "사재요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-019_card_0",
+          "SEJONG-4A-03-V1-019_card_1",
+          "SEJONG-4A-03-V1-019_card_2",
+          "SEJONG-4A-03-V1-019_card_3",
+          "SEJONG-4A-03-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-03-V1-020",
+      "displaySentence": "친구가 수상 소식을 들었냬요.",
+      "tokens": [
+        [
+          "SEJONG-4A-03-V1-020_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4A-03-V1-020_card_1",
+          "수상"
+        ],
+        [
+          "SEJONG-4A-03-V1-020_card_2",
+          "소식을"
+        ],
+        [
+          "SEJONG-4A-03-V1-020_card_3",
+          "들었냬요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-03-V1-020_card_0",
+          "SEJONG-4A-03-V1-020_card_1",
+          "SEJONG-4A-03-V1-020_card_2",
+          "SEJONG-4A-03-V1-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 3과 문법 -는데요/-ㄴ데요/-데요 / -냬요/-(으)래요/-재요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 3과 범위 재구성"
+    }
+  ]
+}

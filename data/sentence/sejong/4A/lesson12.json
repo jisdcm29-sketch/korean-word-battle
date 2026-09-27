@@ -1,0 +1,818 @@
+{
+  "book": "4A",
+  "lesson": 12,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 12과 범위",
+  "selectionPolicy": [
+    "12과 핵심 문법 -(으)며·-고자 하다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-12-V1-001",
+      "displaySentence": "한국은 사계절이 뚜렷하며 산이 많은 나라입니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-001_card_0",
+          "한국은"
+        ],
+        [
+          "SEJONG-4A-12-V1-001_card_1",
+          "사계절이"
+        ],
+        [
+          "SEJONG-4A-12-V1-001_card_2",
+          "뚜렷하며"
+        ],
+        [
+          "SEJONG-4A-12-V1-001_card_3",
+          "산이"
+        ],
+        [
+          "SEJONG-4A-12-V1-001_card_4",
+          "많은"
+        ],
+        [
+          "SEJONG-4A-12-V1-001_card_5",
+          "나라입니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-001_card_0",
+          "SEJONG-4A-12-V1-001_card_1",
+          "SEJONG-4A-12-V1-001_card_2",
+          "SEJONG-4A-12-V1-001_card_3",
+          "SEJONG-4A-12-V1-001_card_4",
+          "SEJONG-4A-12-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-002",
+      "displaySentence": "한국은 한글을 사용하며 다양한 문화를 가지고 있습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-002_card_0",
+          "한국은"
+        ],
+        [
+          "SEJONG-4A-12-V1-002_card_1",
+          "한글을"
+        ],
+        [
+          "SEJONG-4A-12-V1-002_card_2",
+          "사용하며"
+        ],
+        [
+          "SEJONG-4A-12-V1-002_card_3",
+          "다양한"
+        ],
+        [
+          "SEJONG-4A-12-V1-002_card_4",
+          "문화를"
+        ],
+        [
+          "SEJONG-4A-12-V1-002_card_5",
+          "가지고"
+        ],
+        [
+          "SEJONG-4A-12-V1-002_card_6",
+          "있습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-002_card_0",
+          "SEJONG-4A-12-V1-002_card_1",
+          "SEJONG-4A-12-V1-002_card_2",
+          "SEJONG-4A-12-V1-002_card_3",
+          "SEJONG-4A-12-V1-002_card_4",
+          "SEJONG-4A-12-V1-002_card_5",
+          "SEJONG-4A-12-V1-002_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-003",
+      "displaySentence": "이 나라는 여러 민족이 살며 다양한 종교가 있습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-003_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-12-V1-003_card_1",
+          "나라는"
+        ],
+        [
+          "SEJONG-4A-12-V1-003_card_2",
+          "여러"
+        ],
+        [
+          "SEJONG-4A-12-V1-003_card_3",
+          "민족이"
+        ],
+        [
+          "SEJONG-4A-12-V1-003_card_4",
+          "살며"
+        ],
+        [
+          "SEJONG-4A-12-V1-003_card_5",
+          "다양한"
+        ],
+        [
+          "SEJONG-4A-12-V1-003_card_6",
+          "종교가"
+        ],
+        [
+          "SEJONG-4A-12-V1-003_card_7",
+          "있습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-003_card_0",
+          "SEJONG-4A-12-V1-003_card_1",
+          "SEJONG-4A-12-V1-003_card_2",
+          "SEJONG-4A-12-V1-003_card_3",
+          "SEJONG-4A-12-V1-003_card_4",
+          "SEJONG-4A-12-V1-003_card_5",
+          "SEJONG-4A-12-V1-003_card_6",
+          "SEJONG-4A-12-V1-003_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-004",
+      "displaySentence": "열대 기후이며 관광업이 주요 산업입니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-004_card_0",
+          "열대"
+        ],
+        [
+          "SEJONG-4A-12-V1-004_card_1",
+          "기후이며"
+        ],
+        [
+          "SEJONG-4A-12-V1-004_card_2",
+          "관광업이"
+        ],
+        [
+          "SEJONG-4A-12-V1-004_card_3",
+          "주요"
+        ],
+        [
+          "SEJONG-4A-12-V1-004_card_4",
+          "산업입니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-004_card_0",
+          "SEJONG-4A-12-V1-004_card_1",
+          "SEJONG-4A-12-V1-004_card_2",
+          "SEJONG-4A-12-V1-004_card_3",
+          "SEJONG-4A-12-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-005",
+      "displaySentence": "국토 면적이 넓으며 자원이 풍부한 나라입니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-005_card_0",
+          "국토"
+        ],
+        [
+          "SEJONG-4A-12-V1-005_card_1",
+          "면적이"
+        ],
+        [
+          "SEJONG-4A-12-V1-005_card_2",
+          "넓으며"
+        ],
+        [
+          "SEJONG-4A-12-V1-005_card_3",
+          "자원이"
+        ],
+        [
+          "SEJONG-4A-12-V1-005_card_4",
+          "풍부한"
+        ],
+        [
+          "SEJONG-4A-12-V1-005_card_5",
+          "나라입니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-005_card_0",
+          "SEJONG-4A-12-V1-005_card_1",
+          "SEJONG-4A-12-V1-005_card_2",
+          "SEJONG-4A-12-V1-005_card_3",
+          "SEJONG-4A-12-V1-005_card_4",
+          "SEJONG-4A-12-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-006",
+      "displaySentence": "한국의 문화와 사회를 소개하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-006_card_0",
+          "한국의"
+        ],
+        [
+          "SEJONG-4A-12-V1-006_card_1",
+          "문화와"
+        ],
+        [
+          "SEJONG-4A-12-V1-006_card_2",
+          "사회를"
+        ],
+        [
+          "SEJONG-4A-12-V1-006_card_3",
+          "소개하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-006_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-006_card_0",
+          "SEJONG-4A-12-V1-006_card_1",
+          "SEJONG-4A-12-V1-006_card_2",
+          "SEJONG-4A-12-V1-006_card_3",
+          "SEJONG-4A-12-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-007",
+      "displaySentence": "이 나라의 주요 산업을 설명하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-12-V1-007_card_1",
+          "나라의"
+        ],
+        [
+          "SEJONG-4A-12-V1-007_card_2",
+          "주요"
+        ],
+        [
+          "SEJONG-4A-12-V1-007_card_3",
+          "산업을"
+        ],
+        [
+          "SEJONG-4A-12-V1-007_card_4",
+          "설명하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-007_card_5",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-007_card_0",
+          "SEJONG-4A-12-V1-007_card_1",
+          "SEJONG-4A-12-V1-007_card_2",
+          "SEJONG-4A-12-V1-007_card_3",
+          "SEJONG-4A-12-V1-007_card_4",
+          "SEJONG-4A-12-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-008",
+      "displaySentence": "화폐와 경제에 대해 발표하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-008_card_0",
+          "화폐와"
+        ],
+        [
+          "SEJONG-4A-12-V1-008_card_1",
+          "경제에"
+        ],
+        [
+          "SEJONG-4A-12-V1-008_card_2",
+          "대해"
+        ],
+        [
+          "SEJONG-4A-12-V1-008_card_3",
+          "발표하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-008_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-008_card_0",
+          "SEJONG-4A-12-V1-008_card_1",
+          "SEJONG-4A-12-V1-008_card_2",
+          "SEJONG-4A-12-V1-008_card_3",
+          "SEJONG-4A-12-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-009",
+      "displaySentence": "대표적인 종교와 문화를 소개하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-009_card_0",
+          "대표적인"
+        ],
+        [
+          "SEJONG-4A-12-V1-009_card_1",
+          "종교와"
+        ],
+        [
+          "SEJONG-4A-12-V1-009_card_2",
+          "문화를"
+        ],
+        [
+          "SEJONG-4A-12-V1-009_card_3",
+          "소개하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-009_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-009_card_0",
+          "SEJONG-4A-12-V1-009_card_1",
+          "SEJONG-4A-12-V1-009_card_2",
+          "SEJONG-4A-12-V1-009_card_3",
+          "SEJONG-4A-12-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-010",
+      "displaySentence": "정치 제도의 특징을 설명하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-010_card_0",
+          "정치"
+        ],
+        [
+          "SEJONG-4A-12-V1-010_card_1",
+          "제도의"
+        ],
+        [
+          "SEJONG-4A-12-V1-010_card_2",
+          "특징을"
+        ],
+        [
+          "SEJONG-4A-12-V1-010_card_3",
+          "설명하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-010_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-010_card_0",
+          "SEJONG-4A-12-V1-010_card_1",
+          "SEJONG-4A-12-V1-010_card_2",
+          "SEJONG-4A-12-V1-010_card_3",
+          "SEJONG-4A-12-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-011",
+      "displaySentence": "한국의 상징에 대해 이야기하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-011_card_0",
+          "한국의"
+        ],
+        [
+          "SEJONG-4A-12-V1-011_card_1",
+          "상징에"
+        ],
+        [
+          "SEJONG-4A-12-V1-011_card_2",
+          "대해"
+        ],
+        [
+          "SEJONG-4A-12-V1-011_card_3",
+          "이야기하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-011_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-011_card_0",
+          "SEJONG-4A-12-V1-011_card_1",
+          "SEJONG-4A-12-V1-011_card_2",
+          "SEJONG-4A-12-V1-011_card_3",
+          "SEJONG-4A-12-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-012",
+      "displaySentence": "이 나라의 기후를 자세히 소개하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-012_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-12-V1-012_card_1",
+          "나라의"
+        ],
+        [
+          "SEJONG-4A-12-V1-012_card_2",
+          "기후를"
+        ],
+        [
+          "SEJONG-4A-12-V1-012_card_3",
+          "자세히"
+        ],
+        [
+          "SEJONG-4A-12-V1-012_card_4",
+          "소개하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-012_card_5",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-012_card_0",
+          "SEJONG-4A-12-V1-012_card_1",
+          "SEJONG-4A-12-V1-012_card_2",
+          "SEJONG-4A-12-V1-012_card_3",
+          "SEJONG-4A-12-V1-012_card_4",
+          "SEJONG-4A-12-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-013",
+      "displaySentence": "주요 산업이 무엇인지 설명하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-013_card_0",
+          "주요"
+        ],
+        [
+          "SEJONG-4A-12-V1-013_card_1",
+          "산업이"
+        ],
+        [
+          "SEJONG-4A-12-V1-013_card_2",
+          "무엇인지"
+        ],
+        [
+          "SEJONG-4A-12-V1-013_card_3",
+          "설명하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-013_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-013_card_0",
+          "SEJONG-4A-12-V1-013_card_1",
+          "SEJONG-4A-12-V1-013_card_2",
+          "SEJONG-4A-12-V1-013_card_3",
+          "SEJONG-4A-12-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-014",
+      "displaySentence": "사용하는 언어에 대해 발표하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-014_card_0",
+          "사용하는"
+        ],
+        [
+          "SEJONG-4A-12-V1-014_card_1",
+          "언어에"
+        ],
+        [
+          "SEJONG-4A-12-V1-014_card_2",
+          "대해"
+        ],
+        [
+          "SEJONG-4A-12-V1-014_card_3",
+          "발표하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-014_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-014_card_0",
+          "SEJONG-4A-12-V1-014_card_1",
+          "SEJONG-4A-12-V1-014_card_2",
+          "SEJONG-4A-12-V1-014_card_3",
+          "SEJONG-4A-12-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-015",
+      "displaySentence": "국토 면적과 인구를 비교하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-015_card_0",
+          "국토"
+        ],
+        [
+          "SEJONG-4A-12-V1-015_card_1",
+          "면적과"
+        ],
+        [
+          "SEJONG-4A-12-V1-015_card_2",
+          "인구를"
+        ],
+        [
+          "SEJONG-4A-12-V1-015_card_3",
+          "비교하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-015_card_4",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-015_card_0",
+          "SEJONG-4A-12-V1-015_card_1",
+          "SEJONG-4A-12-V1-015_card_2",
+          "SEJONG-4A-12-V1-015_card_3",
+          "SEJONG-4A-12-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-016",
+      "displaySentence": "여러 민족이 함께 살며 다양한 문화를 만듭니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-016_card_0",
+          "여러"
+        ],
+        [
+          "SEJONG-4A-12-V1-016_card_1",
+          "민족이"
+        ],
+        [
+          "SEJONG-4A-12-V1-016_card_2",
+          "함께"
+        ],
+        [
+          "SEJONG-4A-12-V1-016_card_3",
+          "살며"
+        ],
+        [
+          "SEJONG-4A-12-V1-016_card_4",
+          "다양한"
+        ],
+        [
+          "SEJONG-4A-12-V1-016_card_5",
+          "문화를"
+        ],
+        [
+          "SEJONG-4A-12-V1-016_card_6",
+          "만듭니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-016_card_0",
+          "SEJONG-4A-12-V1-016_card_1",
+          "SEJONG-4A-12-V1-016_card_2",
+          "SEJONG-4A-12-V1-016_card_3",
+          "SEJONG-4A-12-V1-016_card_4",
+          "SEJONG-4A-12-V1-016_card_5",
+          "SEJONG-4A-12-V1-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-017",
+      "displaySentence": "관광업이 발달했으며 자연 경관도 아름답습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-017_card_0",
+          "관광업이"
+        ],
+        [
+          "SEJONG-4A-12-V1-017_card_1",
+          "발달했으며"
+        ],
+        [
+          "SEJONG-4A-12-V1-017_card_2",
+          "자연"
+        ],
+        [
+          "SEJONG-4A-12-V1-017_card_3",
+          "경관도"
+        ],
+        [
+          "SEJONG-4A-12-V1-017_card_4",
+          "아름답습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-017_card_0",
+          "SEJONG-4A-12-V1-017_card_1",
+          "SEJONG-4A-12-V1-017_card_2",
+          "SEJONG-4A-12-V1-017_card_3",
+          "SEJONG-4A-12-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-018",
+      "displaySentence": "농업이 중요하며 지역마다 생산물이 다릅니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-018_card_0",
+          "농업이"
+        ],
+        [
+          "SEJONG-4A-12-V1-018_card_1",
+          "중요하며"
+        ],
+        [
+          "SEJONG-4A-12-V1-018_card_2",
+          "지역마다"
+        ],
+        [
+          "SEJONG-4A-12-V1-018_card_3",
+          "생산물이"
+        ],
+        [
+          "SEJONG-4A-12-V1-018_card_4",
+          "다릅니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-018_card_0",
+          "SEJONG-4A-12-V1-018_card_1",
+          "SEJONG-4A-12-V1-018_card_2",
+          "SEJONG-4A-12-V1-018_card_3",
+          "SEJONG-4A-12-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-019",
+      "displaySentence": "민주주의 제도를 운영하며 선거를 실시합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-019_card_0",
+          "민주주의"
+        ],
+        [
+          "SEJONG-4A-12-V1-019_card_1",
+          "제도를"
+        ],
+        [
+          "SEJONG-4A-12-V1-019_card_2",
+          "운영하며"
+        ],
+        [
+          "SEJONG-4A-12-V1-019_card_3",
+          "선거를"
+        ],
+        [
+          "SEJONG-4A-12-V1-019_card_4",
+          "실시합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-019_card_0",
+          "SEJONG-4A-12-V1-019_card_1",
+          "SEJONG-4A-12-V1-019_card_2",
+          "SEJONG-4A-12-V1-019_card_3",
+          "SEJONG-4A-12-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-12-V1-020",
+      "displaySentence": "한국에 대해 핵심 정보를 발표하고자 합니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-12-V1-020_card_0",
+          "한국에"
+        ],
+        [
+          "SEJONG-4A-12-V1-020_card_1",
+          "대해"
+        ],
+        [
+          "SEJONG-4A-12-V1-020_card_2",
+          "핵심"
+        ],
+        [
+          "SEJONG-4A-12-V1-020_card_3",
+          "정보를"
+        ],
+        [
+          "SEJONG-4A-12-V1-020_card_4",
+          "발표하고자"
+        ],
+        [
+          "SEJONG-4A-12-V1-020_card_5",
+          "합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-12-V1-020_card_0",
+          "SEJONG-4A-12-V1-020_card_1",
+          "SEJONG-4A-12-V1-020_card_2",
+          "SEJONG-4A-12-V1-020_card_3",
+          "SEJONG-4A-12-V1-020_card_4",
+          "SEJONG-4A-12-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 12과 문법 -(으)며 / -고자 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 12과 범위 재구성"
+    }
+  ]
+}

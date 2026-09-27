@@ -1,0 +1,913 @@
+{
+  "book": "4A",
+  "lesson": 2,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 2과 범위",
+  "selectionPolicy": [
+    "2과 핵심 문법 -(으)로 말하다·-던데 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-02-V1-001",
+      "displaySentence": "이곳은 자연 경관이 아름답다고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-001_card_0",
+          "이곳은"
+        ],
+        [
+          "SEJONG-4A-02-V1-001_card_1",
+          "자연"
+        ],
+        [
+          "SEJONG-4A-02-V1-001_card_2",
+          "경관이"
+        ],
+        [
+          "SEJONG-4A-02-V1-001_card_3",
+          "아름답다고"
+        ],
+        [
+          "SEJONG-4A-02-V1-001_card_4",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-001_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-001_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-001_card_0",
+          "SEJONG-4A-02-V1-001_card_1",
+          "SEJONG-4A-02-V1-001_card_2",
+          "SEJONG-4A-02-V1-001_card_3",
+          "SEJONG-4A-02-V1-001_card_4",
+          "SEJONG-4A-02-V1-001_card_5",
+          "SEJONG-4A-02-V1-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-002",
+      "displaySentence": "이 도시는 현대적인 곳이라고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-002_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-02-V1-002_card_1",
+          "도시는"
+        ],
+        [
+          "SEJONG-4A-02-V1-002_card_2",
+          "현대적인"
+        ],
+        [
+          "SEJONG-4A-02-V1-002_card_3",
+          "곳이라고"
+        ],
+        [
+          "SEJONG-4A-02-V1-002_card_4",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-002_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-002_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-002_card_0",
+          "SEJONG-4A-02-V1-002_card_1",
+          "SEJONG-4A-02-V1-002_card_2",
+          "SEJONG-4A-02-V1-002_card_3",
+          "SEJONG-4A-02-V1-002_card_4",
+          "SEJONG-4A-02-V1-002_card_5",
+          "SEJONG-4A-02-V1-002_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-003",
+      "displaySentence": "그 휴양지는 여유로운 곳이라고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-003_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-02-V1-003_card_1",
+          "휴양지는"
+        ],
+        [
+          "SEJONG-4A-02-V1-003_card_2",
+          "여유로운"
+        ],
+        [
+          "SEJONG-4A-02-V1-003_card_3",
+          "곳이라고"
+        ],
+        [
+          "SEJONG-4A-02-V1-003_card_4",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-003_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-003_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-003_card_0",
+          "SEJONG-4A-02-V1-003_card_1",
+          "SEJONG-4A-02-V1-003_card_2",
+          "SEJONG-4A-02-V1-003_card_3",
+          "SEJONG-4A-02-V1-003_card_4",
+          "SEJONG-4A-02-V1-003_card_5",
+          "SEJONG-4A-02-V1-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-004",
+      "displaySentence": "이 시장은 활기가 넘치는 곳이라고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-004_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-02-V1-004_card_1",
+          "시장은"
+        ],
+        [
+          "SEJONG-4A-02-V1-004_card_2",
+          "활기가"
+        ],
+        [
+          "SEJONG-4A-02-V1-004_card_3",
+          "넘치는"
+        ],
+        [
+          "SEJONG-4A-02-V1-004_card_4",
+          "곳이라고"
+        ],
+        [
+          "SEJONG-4A-02-V1-004_card_5",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-004_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-004_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-004_card_0",
+          "SEJONG-4A-02-V1-004_card_1",
+          "SEJONG-4A-02-V1-004_card_2",
+          "SEJONG-4A-02-V1-004_card_3",
+          "SEJONG-4A-02-V1-004_card_4",
+          "SEJONG-4A-02-V1-004_card_5",
+          "SEJONG-4A-02-V1-004_card_6",
+          "SEJONG-4A-02-V1-004_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-005",
+      "displaySentence": "그 마을은 역사가 깊은 곳이라고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-005_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-02-V1-005_card_1",
+          "마을은"
+        ],
+        [
+          "SEJONG-4A-02-V1-005_card_2",
+          "역사가"
+        ],
+        [
+          "SEJONG-4A-02-V1-005_card_3",
+          "깊은"
+        ],
+        [
+          "SEJONG-4A-02-V1-005_card_4",
+          "곳이라고"
+        ],
+        [
+          "SEJONG-4A-02-V1-005_card_5",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-005_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-005_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-005_card_0",
+          "SEJONG-4A-02-V1-005_card_1",
+          "SEJONG-4A-02-V1-005_card_2",
+          "SEJONG-4A-02-V1-005_card_3",
+          "SEJONG-4A-02-V1-005_card_4",
+          "SEJONG-4A-02-V1-005_card_5",
+          "SEJONG-4A-02-V1-005_card_6",
+          "SEJONG-4A-02-V1-005_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-006",
+      "displaySentence": "이 거리는 이국적인 분위기가 난다고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-006_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-02-V1-006_card_1",
+          "거리는"
+        ],
+        [
+          "SEJONG-4A-02-V1-006_card_2",
+          "이국적인"
+        ],
+        [
+          "SEJONG-4A-02-V1-006_card_3",
+          "분위기가"
+        ],
+        [
+          "SEJONG-4A-02-V1-006_card_4",
+          "난다고"
+        ],
+        [
+          "SEJONG-4A-02-V1-006_card_5",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-006_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-006_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-006_card_0",
+          "SEJONG-4A-02-V1-006_card_1",
+          "SEJONG-4A-02-V1-006_card_2",
+          "SEJONG-4A-02-V1-006_card_3",
+          "SEJONG-4A-02-V1-006_card_4",
+          "SEJONG-4A-02-V1-006_card_5",
+          "SEJONG-4A-02-V1-006_card_6",
+          "SEJONG-4A-02-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-007",
+      "displaySentence": "전망대에 갔던데 경치가 정말 좋았어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-007_card_0",
+          "전망대에"
+        ],
+        [
+          "SEJONG-4A-02-V1-007_card_1",
+          "갔던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-007_card_2",
+          "경치가"
+        ],
+        [
+          "SEJONG-4A-02-V1-007_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4A-02-V1-007_card_4",
+          "좋았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-007_card_0",
+          "SEJONG-4A-02-V1-007_card_1",
+          "SEJONG-4A-02-V1-007_card_2",
+          "SEJONG-4A-02-V1-007_card_3",
+          "SEJONG-4A-02-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-008",
+      "displaySentence": "그 유적지에 가 봤던데 아주 인상적이었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-008_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-02-V1-008_card_1",
+          "유적지에"
+        ],
+        [
+          "SEJONG-4A-02-V1-008_card_2",
+          "가"
+        ],
+        [
+          "SEJONG-4A-02-V1-008_card_3",
+          "봤던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-008_card_4",
+          "아주"
+        ],
+        [
+          "SEJONG-4A-02-V1-008_card_5",
+          "인상적이었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-008_card_0",
+          "SEJONG-4A-02-V1-008_card_1",
+          "SEJONG-4A-02-V1-008_card_2",
+          "SEJONG-4A-02-V1-008_card_3",
+          "SEJONG-4A-02-V1-008_card_4",
+          "SEJONG-4A-02-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-009",
+      "displaySentence": "휴양지에서 쉬었던데 사람들이 많지 않았어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-009_card_0",
+          "휴양지에서"
+        ],
+        [
+          "SEJONG-4A-02-V1-009_card_1",
+          "쉬었던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-009_card_2",
+          "사람들이"
+        ],
+        [
+          "SEJONG-4A-02-V1-009_card_3",
+          "많지"
+        ],
+        [
+          "SEJONG-4A-02-V1-009_card_4",
+          "않았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-009_card_0",
+          "SEJONG-4A-02-V1-009_card_1",
+          "SEJONG-4A-02-V1-009_card_2",
+          "SEJONG-4A-02-V1-009_card_3",
+          "SEJONG-4A-02-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-010",
+      "displaySentence": "옛 시장을 걸었던데 분위기가 낭만적이었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-010_card_0",
+          "옛"
+        ],
+        [
+          "SEJONG-4A-02-V1-010_card_1",
+          "시장을"
+        ],
+        [
+          "SEJONG-4A-02-V1-010_card_2",
+          "걸었던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-010_card_3",
+          "분위기가"
+        ],
+        [
+          "SEJONG-4A-02-V1-010_card_4",
+          "낭만적이었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-010_card_0",
+          "SEJONG-4A-02-V1-010_card_1",
+          "SEJONG-4A-02-V1-010_card_2",
+          "SEJONG-4A-02-V1-010_card_3",
+          "SEJONG-4A-02-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-011",
+      "displaySentence": "그 도시는 현대적이던데 전통 건물도 많았어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-011_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-02-V1-011_card_1",
+          "도시는"
+        ],
+        [
+          "SEJONG-4A-02-V1-011_card_2",
+          "현대적이던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-011_card_3",
+          "전통"
+        ],
+        [
+          "SEJONG-4A-02-V1-011_card_4",
+          "건물도"
+        ],
+        [
+          "SEJONG-4A-02-V1-011_card_5",
+          "많았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-011_card_0",
+          "SEJONG-4A-02-V1-011_card_1",
+          "SEJONG-4A-02-V1-011_card_2",
+          "SEJONG-4A-02-V1-011_card_3",
+          "SEJONG-4A-02-V1-011_card_4",
+          "SEJONG-4A-02-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-012",
+      "displaySentence": "산 정상에 올랐던데 전망이 정말 좋았어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-012_card_0",
+          "산"
+        ],
+        [
+          "SEJONG-4A-02-V1-012_card_1",
+          "정상에"
+        ],
+        [
+          "SEJONG-4A-02-V1-012_card_2",
+          "올랐던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-012_card_3",
+          "전망이"
+        ],
+        [
+          "SEJONG-4A-02-V1-012_card_4",
+          "정말"
+        ],
+        [
+          "SEJONG-4A-02-V1-012_card_5",
+          "좋았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-012_card_0",
+          "SEJONG-4A-02-V1-012_card_1",
+          "SEJONG-4A-02-V1-012_card_2",
+          "SEJONG-4A-02-V1-012_card_3",
+          "SEJONG-4A-02-V1-012_card_4",
+          "SEJONG-4A-02-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-013",
+      "displaySentence": "그곳은 촬영지로 유명하다고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-013_card_0",
+          "그곳은"
+        ],
+        [
+          "SEJONG-4A-02-V1-013_card_1",
+          "촬영지로"
+        ],
+        [
+          "SEJONG-4A-02-V1-013_card_2",
+          "유명하다고"
+        ],
+        [
+          "SEJONG-4A-02-V1-013_card_3",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-013_card_4",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-013_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-013_card_0",
+          "SEJONG-4A-02-V1-013_card_1",
+          "SEJONG-4A-02-V1-013_card_2",
+          "SEJONG-4A-02-V1-013_card_3",
+          "SEJONG-4A-02-V1-013_card_4",
+          "SEJONG-4A-02-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-014",
+      "displaySentence": "이곳은 색다른 경치를 자랑한다고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-014_card_0",
+          "이곳은"
+        ],
+        [
+          "SEJONG-4A-02-V1-014_card_1",
+          "색다른"
+        ],
+        [
+          "SEJONG-4A-02-V1-014_card_2",
+          "경치를"
+        ],
+        [
+          "SEJONG-4A-02-V1-014_card_3",
+          "자랑한다고"
+        ],
+        [
+          "SEJONG-4A-02-V1-014_card_4",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-014_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-014_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-014_card_0",
+          "SEJONG-4A-02-V1-014_card_1",
+          "SEJONG-4A-02-V1-014_card_2",
+          "SEJONG-4A-02-V1-014_card_3",
+          "SEJONG-4A-02-V1-014_card_4",
+          "SEJONG-4A-02-V1-014_card_5",
+          "SEJONG-4A-02-V1-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-015",
+      "displaySentence": "그 마을은 신기한 풍경이 많다고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-015_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-02-V1-015_card_1",
+          "마을은"
+        ],
+        [
+          "SEJONG-4A-02-V1-015_card_2",
+          "신기한"
+        ],
+        [
+          "SEJONG-4A-02-V1-015_card_3",
+          "풍경이"
+        ],
+        [
+          "SEJONG-4A-02-V1-015_card_4",
+          "많다고"
+        ],
+        [
+          "SEJONG-4A-02-V1-015_card_5",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-015_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-015_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-015_card_0",
+          "SEJONG-4A-02-V1-015_card_1",
+          "SEJONG-4A-02-V1-015_card_2",
+          "SEJONG-4A-02-V1-015_card_3",
+          "SEJONG-4A-02-V1-015_card_4",
+          "SEJONG-4A-02-V1-015_card_5",
+          "SEJONG-4A-02-V1-015_card_6",
+          "SEJONG-4A-02-V1-015_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-016",
+      "displaySentence": "휴가 때 갔던데 여유를 즐기기 좋았어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-016_card_0",
+          "휴가"
+        ],
+        [
+          "SEJONG-4A-02-V1-016_card_1",
+          "때"
+        ],
+        [
+          "SEJONG-4A-02-V1-016_card_2",
+          "갔던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-016_card_3",
+          "여유를"
+        ],
+        [
+          "SEJONG-4A-02-V1-016_card_4",
+          "즐기기"
+        ],
+        [
+          "SEJONG-4A-02-V1-016_card_5",
+          "좋았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-016_card_0",
+          "SEJONG-4A-02-V1-016_card_1",
+          "SEJONG-4A-02-V1-016_card_2",
+          "SEJONG-4A-02-V1-016_card_3",
+          "SEJONG-4A-02-V1-016_card_4",
+          "SEJONG-4A-02-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-017",
+      "displaySentence": "그 유적지는 역사가 깊던데 관리도 잘되어 있었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-017_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-02-V1-017_card_1",
+          "유적지는"
+        ],
+        [
+          "SEJONG-4A-02-V1-017_card_2",
+          "역사가"
+        ],
+        [
+          "SEJONG-4A-02-V1-017_card_3",
+          "깊던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-017_card_4",
+          "관리도"
+        ],
+        [
+          "SEJONG-4A-02-V1-017_card_5",
+          "잘되어"
+        ],
+        [
+          "SEJONG-4A-02-V1-017_card_6",
+          "있었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-017_card_0",
+          "SEJONG-4A-02-V1-017_card_1",
+          "SEJONG-4A-02-V1-017_card_2",
+          "SEJONG-4A-02-V1-017_card_3",
+          "SEJONG-4A-02-V1-017_card_4",
+          "SEJONG-4A-02-V1-017_card_5",
+          "SEJONG-4A-02-V1-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-018",
+      "displaySentence": "해변에 갔던데 이국적인 분위기가 멋졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-018_card_0",
+          "해변에"
+        ],
+        [
+          "SEJONG-4A-02-V1-018_card_1",
+          "갔던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-018_card_2",
+          "이국적인"
+        ],
+        [
+          "SEJONG-4A-02-V1-018_card_3",
+          "분위기가"
+        ],
+        [
+          "SEJONG-4A-02-V1-018_card_4",
+          "멋졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-018_card_0",
+          "SEJONG-4A-02-V1-018_card_1",
+          "SEJONG-4A-02-V1-018_card_2",
+          "SEJONG-4A-02-V1-018_card_3",
+          "SEJONG-4A-02-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-019",
+      "displaySentence": "전망이 좋던데 사진도 아주 잘 나왔어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-019_card_0",
+          "전망이"
+        ],
+        [
+          "SEJONG-4A-02-V1-019_card_1",
+          "좋던데"
+        ],
+        [
+          "SEJONG-4A-02-V1-019_card_2",
+          "사진도"
+        ],
+        [
+          "SEJONG-4A-02-V1-019_card_3",
+          "아주"
+        ],
+        [
+          "SEJONG-4A-02-V1-019_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-4A-02-V1-019_card_5",
+          "나왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-019_card_0",
+          "SEJONG-4A-02-V1-019_card_1",
+          "SEJONG-4A-02-V1-019_card_2",
+          "SEJONG-4A-02-V1-019_card_3",
+          "SEJONG-4A-02-V1-019_card_4",
+          "SEJONG-4A-02-V1-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-02-V1-020",
+      "displaySentence": "한 번쯤 가 볼 만한 곳이라고 말할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-02-V1-020_card_0",
+          "한"
+        ],
+        [
+          "SEJONG-4A-02-V1-020_card_1",
+          "번쯤"
+        ],
+        [
+          "SEJONG-4A-02-V1-020_card_2",
+          "가 볼"
+        ],
+        [
+          "SEJONG-4A-02-V1-020_card_3",
+          "만한"
+        ],
+        [
+          "SEJONG-4A-02-V1-020_card_4",
+          "곳이라고"
+        ],
+        [
+          "SEJONG-4A-02-V1-020_card_5",
+          "말할"
+        ],
+        [
+          "SEJONG-4A-02-V1-020_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-4A-02-V1-020_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-02-V1-020_card_0",
+          "SEJONG-4A-02-V1-020_card_1",
+          "SEJONG-4A-02-V1-020_card_2",
+          "SEJONG-4A-02-V1-020_card_3",
+          "SEJONG-4A-02-V1-020_card_4",
+          "SEJONG-4A-02-V1-020_card_5",
+          "SEJONG-4A-02-V1-020_card_6",
+          "SEJONG-4A-02-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 2과 문법 -(으)로 말하다 / -던데 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 2과 범위 재구성"
+    }
+  ]
+}

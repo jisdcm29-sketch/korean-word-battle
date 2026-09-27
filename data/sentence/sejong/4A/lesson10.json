@@ -1,0 +1,848 @@
+{
+  "book": "4A",
+  "lesson": 10,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 10과 범위",
+  "selectionPolicy": [
+    "10과 핵심 문법 -더니·-는/(으)ㄴ 것이다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-10-V1-001",
+      "displaySentence": "주인공이 책상을 보더니 갑자기 깜짝 놀랐어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-001_card_0",
+          "주인공이"
+        ],
+        [
+          "SEJONG-4A-10-V1-001_card_1",
+          "책상을"
+        ],
+        [
+          "SEJONG-4A-10-V1-001_card_2",
+          "보더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-001_card_3",
+          "갑자기"
+        ],
+        [
+          "SEJONG-4A-10-V1-001_card_4",
+          "깜짝"
+        ],
+        [
+          "SEJONG-4A-10-V1-001_card_5",
+          "놀랐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-001_card_0",
+          "SEJONG-4A-10-V1-001_card_1",
+          "SEJONG-4A-10-V1-001_card_2",
+          "SEJONG-4A-10-V1-001_card_3",
+          "SEJONG-4A-10-V1-001_card_4",
+          "SEJONG-4A-10-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-002",
+      "displaySentence": "범인이 경찰을 보더니 바로 도망쳤어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-002_card_0",
+          "범인이"
+        ],
+        [
+          "SEJONG-4A-10-V1-002_card_1",
+          "경찰을"
+        ],
+        [
+          "SEJONG-4A-10-V1-002_card_2",
+          "보더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-002_card_3",
+          "바로"
+        ],
+        [
+          "SEJONG-4A-10-V1-002_card_4",
+          "도망쳤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-002_card_0",
+          "SEJONG-4A-10-V1-002_card_1",
+          "SEJONG-4A-10-V1-002_card_2",
+          "SEJONG-4A-10-V1-002_card_3",
+          "SEJONG-4A-10-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-003",
+      "displaySentence": "두 사람이 다시 만나더니 갈등이 시작됐어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-003_card_0",
+          "두"
+        ],
+        [
+          "SEJONG-4A-10-V1-003_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-4A-10-V1-003_card_2",
+          "다시"
+        ],
+        [
+          "SEJONG-4A-10-V1-003_card_3",
+          "만나더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-003_card_4",
+          "갈등이"
+        ],
+        [
+          "SEJONG-4A-10-V1-003_card_5",
+          "시작됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-003_card_0",
+          "SEJONG-4A-10-V1-003_card_1",
+          "SEJONG-4A-10-V1-003_card_2",
+          "SEJONG-4A-10-V1-003_card_3",
+          "SEJONG-4A-10-V1-003_card_4",
+          "SEJONG-4A-10-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-004",
+      "displaySentence": "주인공이 사진을 보더니 첫사랑을 떠올렸어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-004_card_0",
+          "주인공이"
+        ],
+        [
+          "SEJONG-4A-10-V1-004_card_1",
+          "사진을"
+        ],
+        [
+          "SEJONG-4A-10-V1-004_card_2",
+          "보더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-004_card_3",
+          "첫사랑을"
+        ],
+        [
+          "SEJONG-4A-10-V1-004_card_4",
+          "떠올렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-004_card_0",
+          "SEJONG-4A-10-V1-004_card_1",
+          "SEJONG-4A-10-V1-004_card_2",
+          "SEJONG-4A-10-V1-004_card_3",
+          "SEJONG-4A-10-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-005",
+      "displaySentence": "친구를 우연히 마주치더니 표정이 밝아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-005_card_0",
+          "친구를"
+        ],
+        [
+          "SEJONG-4A-10-V1-005_card_1",
+          "우연히"
+        ],
+        [
+          "SEJONG-4A-10-V1-005_card_2",
+          "마주치더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-005_card_3",
+          "표정이"
+        ],
+        [
+          "SEJONG-4A-10-V1-005_card_4",
+          "밝아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-005_card_0",
+          "SEJONG-4A-10-V1-005_card_1",
+          "SEJONG-4A-10-V1-005_card_2",
+          "SEJONG-4A-10-V1-005_card_3",
+          "SEJONG-4A-10-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-006",
+      "displaySentence": "새로운 인물이 등장한 것이 이야기의 시작이에요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-006_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-4A-10-V1-006_card_1",
+          "인물이"
+        ],
+        [
+          "SEJONG-4A-10-V1-006_card_2",
+          "등장한"
+        ],
+        [
+          "SEJONG-4A-10-V1-006_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-006_card_4",
+          "이야기의"
+        ],
+        [
+          "SEJONG-4A-10-V1-006_card_5",
+          "시작이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-006_card_0",
+          "SEJONG-4A-10-V1-006_card_1",
+          "SEJONG-4A-10-V1-006_card_2",
+          "SEJONG-4A-10-V1-006_card_3",
+          "SEJONG-4A-10-V1-006_card_4",
+          "SEJONG-4A-10-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-007",
+      "displaySentence": "두 사람이 갈등을 겪은 것이 중요한 장면이에요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-007_card_0",
+          "두"
+        ],
+        [
+          "SEJONG-4A-10-V1-007_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-4A-10-V1-007_card_2",
+          "갈등을"
+        ],
+        [
+          "SEJONG-4A-10-V1-007_card_3",
+          "겪은"
+        ],
+        [
+          "SEJONG-4A-10-V1-007_card_4",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-007_card_5",
+          "중요한"
+        ],
+        [
+          "SEJONG-4A-10-V1-007_card_6",
+          "장면이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-007_card_0",
+          "SEJONG-4A-10-V1-007_card_1",
+          "SEJONG-4A-10-V1-007_card_2",
+          "SEJONG-4A-10-V1-007_card_3",
+          "SEJONG-4A-10-V1-007_card_4",
+          "SEJONG-4A-10-V1-007_card_5",
+          "SEJONG-4A-10-V1-007_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-008",
+      "displaySentence": "마지막에 행복한 결말을 맺은 것이 인상적이에요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-008_card_0",
+          "마지막에"
+        ],
+        [
+          "SEJONG-4A-10-V1-008_card_1",
+          "행복한"
+        ],
+        [
+          "SEJONG-4A-10-V1-008_card_2",
+          "결말을"
+        ],
+        [
+          "SEJONG-4A-10-V1-008_card_3",
+          "맺은"
+        ],
+        [
+          "SEJONG-4A-10-V1-008_card_4",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-008_card_5",
+          "인상적이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-008_card_0",
+          "SEJONG-4A-10-V1-008_card_1",
+          "SEJONG-4A-10-V1-008_card_2",
+          "SEJONG-4A-10-V1-008_card_3",
+          "SEJONG-4A-10-V1-008_card_4",
+          "SEJONG-4A-10-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-009",
+      "displaySentence": "갑자기 사람이 사라진 것이 사건의 시작이에요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-009_card_0",
+          "갑자기"
+        ],
+        [
+          "SEJONG-4A-10-V1-009_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-4A-10-V1-009_card_2",
+          "사라진"
+        ],
+        [
+          "SEJONG-4A-10-V1-009_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-009_card_4",
+          "사건의"
+        ],
+        [
+          "SEJONG-4A-10-V1-009_card_5",
+          "시작이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-009_card_0",
+          "SEJONG-4A-10-V1-009_card_1",
+          "SEJONG-4A-10-V1-009_card_2",
+          "SEJONG-4A-10-V1-009_card_3",
+          "SEJONG-4A-10-V1-009_card_4",
+          "SEJONG-4A-10-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-010",
+      "displaySentence": "경찰이 범인을 쫓는 것이 가장 긴장되는 장면이에요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-010_card_0",
+          "경찰이"
+        ],
+        [
+          "SEJONG-4A-10-V1-010_card_1",
+          "범인을"
+        ],
+        [
+          "SEJONG-4A-10-V1-010_card_2",
+          "쫓는"
+        ],
+        [
+          "SEJONG-4A-10-V1-010_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-010_card_4",
+          "가장"
+        ],
+        [
+          "SEJONG-4A-10-V1-010_card_5",
+          "긴장되는"
+        ],
+        [
+          "SEJONG-4A-10-V1-010_card_6",
+          "장면이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-010_card_0",
+          "SEJONG-4A-10-V1-010_card_1",
+          "SEJONG-4A-10-V1-010_card_2",
+          "SEJONG-4A-10-V1-010_card_3",
+          "SEJONG-4A-10-V1-010_card_4",
+          "SEJONG-4A-10-V1-010_card_5",
+          "SEJONG-4A-10-V1-010_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-011",
+      "displaySentence": "주인공이 첫눈에 반한 것이 사랑 이야기의 시작이에요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-011_card_0",
+          "주인공이"
+        ],
+        [
+          "SEJONG-4A-10-V1-011_card_1",
+          "첫눈에"
+        ],
+        [
+          "SEJONG-4A-10-V1-011_card_2",
+          "반한"
+        ],
+        [
+          "SEJONG-4A-10-V1-011_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-011_card_4",
+          "사랑"
+        ],
+        [
+          "SEJONG-4A-10-V1-011_card_5",
+          "이야기의"
+        ],
+        [
+          "SEJONG-4A-10-V1-011_card_6",
+          "시작이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-011_card_0",
+          "SEJONG-4A-10-V1-011_card_1",
+          "SEJONG-4A-10-V1-011_card_2",
+          "SEJONG-4A-10-V1-011_card_3",
+          "SEJONG-4A-10-V1-011_card_4",
+          "SEJONG-4A-10-V1-011_card_5",
+          "SEJONG-4A-10-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-012",
+      "displaySentence": "작은 오해가 생긴 것이 두 사람의 갈등을 만들었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-012_card_0",
+          "작은"
+        ],
+        [
+          "SEJONG-4A-10-V1-012_card_1",
+          "오해가"
+        ],
+        [
+          "SEJONG-4A-10-V1-012_card_2",
+          "생긴"
+        ],
+        [
+          "SEJONG-4A-10-V1-012_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-012_card_4",
+          "두"
+        ],
+        [
+          "SEJONG-4A-10-V1-012_card_5",
+          "사람의"
+        ],
+        [
+          "SEJONG-4A-10-V1-012_card_6",
+          "갈등을"
+        ],
+        [
+          "SEJONG-4A-10-V1-012_card_7",
+          "만들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-012_card_0",
+          "SEJONG-4A-10-V1-012_card_1",
+          "SEJONG-4A-10-V1-012_card_2",
+          "SEJONG-4A-10-V1-012_card_3",
+          "SEJONG-4A-10-V1-012_card_4",
+          "SEJONG-4A-10-V1-012_card_5",
+          "SEJONG-4A-10-V1-012_card_6",
+          "SEJONG-4A-10-V1-012_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-013",
+      "displaySentence": "오랜 친구와 재회한 것이 가장 감동적이었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-013_card_0",
+          "오랜"
+        ],
+        [
+          "SEJONG-4A-10-V1-013_card_1",
+          "친구와"
+        ],
+        [
+          "SEJONG-4A-10-V1-013_card_2",
+          "재회한"
+        ],
+        [
+          "SEJONG-4A-10-V1-013_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-013_card_4",
+          "가장"
+        ],
+        [
+          "SEJONG-4A-10-V1-013_card_5",
+          "감동적이었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-013_card_0",
+          "SEJONG-4A-10-V1-013_card_1",
+          "SEJONG-4A-10-V1-013_card_2",
+          "SEJONG-4A-10-V1-013_card_3",
+          "SEJONG-4A-10-V1-013_card_4",
+          "SEJONG-4A-10-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-014",
+      "displaySentence": "이야기가 비극적으로 끝난 것이 아쉬웠어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-014_card_0",
+          "이야기가"
+        ],
+        [
+          "SEJONG-4A-10-V1-014_card_1",
+          "비극적으로"
+        ],
+        [
+          "SEJONG-4A-10-V1-014_card_2",
+          "끝난"
+        ],
+        [
+          "SEJONG-4A-10-V1-014_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-014_card_4",
+          "아쉬웠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-014_card_0",
+          "SEJONG-4A-10-V1-014_card_1",
+          "SEJONG-4A-10-V1-014_card_2",
+          "SEJONG-4A-10-V1-014_card_3",
+          "SEJONG-4A-10-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-015",
+      "displaySentence": "범인이 도망친 것이 사건을 더 복잡하게 만들었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-015_card_0",
+          "범인이"
+        ],
+        [
+          "SEJONG-4A-10-V1-015_card_1",
+          "도망친"
+        ],
+        [
+          "SEJONG-4A-10-V1-015_card_2",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-015_card_3",
+          "사건을"
+        ],
+        [
+          "SEJONG-4A-10-V1-015_card_4",
+          "더"
+        ],
+        [
+          "SEJONG-4A-10-V1-015_card_5",
+          "복잡하게"
+        ],
+        [
+          "SEJONG-4A-10-V1-015_card_6",
+          "만들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-015_card_0",
+          "SEJONG-4A-10-V1-015_card_1",
+          "SEJONG-4A-10-V1-015_card_2",
+          "SEJONG-4A-10-V1-015_card_3",
+          "SEJONG-4A-10-V1-015_card_4",
+          "SEJONG-4A-10-V1-015_card_5",
+          "SEJONG-4A-10-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-016",
+      "displaySentence": "마지막에 반전이 있었던 것이 정말 놀라웠어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-016_card_0",
+          "마지막에"
+        ],
+        [
+          "SEJONG-4A-10-V1-016_card_1",
+          "반전이"
+        ],
+        [
+          "SEJONG-4A-10-V1-016_card_2",
+          "있었던"
+        ],
+        [
+          "SEJONG-4A-10-V1-016_card_3",
+          "것이"
+        ],
+        [
+          "SEJONG-4A-10-V1-016_card_4",
+          "정말"
+        ],
+        [
+          "SEJONG-4A-10-V1-016_card_5",
+          "놀라웠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-016_card_0",
+          "SEJONG-4A-10-V1-016_card_1",
+          "SEJONG-4A-10-V1-016_card_2",
+          "SEJONG-4A-10-V1-016_card_3",
+          "SEJONG-4A-10-V1-016_card_4",
+          "SEJONG-4A-10-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-017",
+      "displaySentence": "주인공이 문을 열더니 아무도 없었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-017_card_0",
+          "주인공이"
+        ],
+        [
+          "SEJONG-4A-10-V1-017_card_1",
+          "문을"
+        ],
+        [
+          "SEJONG-4A-10-V1-017_card_2",
+          "열더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-017_card_3",
+          "아무도"
+        ],
+        [
+          "SEJONG-4A-10-V1-017_card_4",
+          "없었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-017_card_0",
+          "SEJONG-4A-10-V1-017_card_1",
+          "SEJONG-4A-10-V1-017_card_2",
+          "SEJONG-4A-10-V1-017_card_3",
+          "SEJONG-4A-10-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-018",
+      "displaySentence": "경찰이 사진을 보더니 범인을 알아봤어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-018_card_0",
+          "경찰이"
+        ],
+        [
+          "SEJONG-4A-10-V1-018_card_1",
+          "사진을"
+        ],
+        [
+          "SEJONG-4A-10-V1-018_card_2",
+          "보더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-018_card_3",
+          "범인을"
+        ],
+        [
+          "SEJONG-4A-10-V1-018_card_4",
+          "알아봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-018_card_0",
+          "SEJONG-4A-10-V1-018_card_1",
+          "SEJONG-4A-10-V1-018_card_2",
+          "SEJONG-4A-10-V1-018_card_3",
+          "SEJONG-4A-10-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-019",
+      "displaySentence": "두 사람이 대화하더니 오해가 풀렸어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-019_card_0",
+          "두"
+        ],
+        [
+          "SEJONG-4A-10-V1-019_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-4A-10-V1-019_card_2",
+          "대화하더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-019_card_3",
+          "오해가"
+        ],
+        [
+          "SEJONG-4A-10-V1-019_card_4",
+          "풀렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-019_card_0",
+          "SEJONG-4A-10-V1-019_card_1",
+          "SEJONG-4A-10-V1-019_card_2",
+          "SEJONG-4A-10-V1-019_card_3",
+          "SEJONG-4A-10-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-10-V1-020",
+      "displaySentence": "주인공이 편지를 읽더니 눈물을 흘렸어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-10-V1-020_card_0",
+          "주인공이"
+        ],
+        [
+          "SEJONG-4A-10-V1-020_card_1",
+          "편지를"
+        ],
+        [
+          "SEJONG-4A-10-V1-020_card_2",
+          "읽더니"
+        ],
+        [
+          "SEJONG-4A-10-V1-020_card_3",
+          "눈물을"
+        ],
+        [
+          "SEJONG-4A-10-V1-020_card_4",
+          "흘렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-10-V1-020_card_0",
+          "SEJONG-4A-10-V1-020_card_1",
+          "SEJONG-4A-10-V1-020_card_2",
+          "SEJONG-4A-10-V1-020_card_3",
+          "SEJONG-4A-10-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 10과 문법 -더니 / -는/(으)ㄴ 것이다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 10과 범위 재구성"
+    }
+  ]
+}

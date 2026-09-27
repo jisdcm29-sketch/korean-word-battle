@@ -1,0 +1,808 @@
+{
+  "book": "4A",
+  "lesson": 8,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 8과 범위",
+  "selectionPolicy": [
+    "8과 핵심 문법 -는/(으)ㄴ/(으)ㄹ 듯이·피동(-이-/-히-/-리-/-기-) 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-08-V1-001",
+      "displaySentence": "잘 익은 감이 주렁주렁 달린 듯이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-001_card_0",
+          "잘"
+        ],
+        [
+          "SEJONG-4A-08-V1-001_card_1",
+          "익은"
+        ],
+        [
+          "SEJONG-4A-08-V1-001_card_2",
+          "감이"
+        ],
+        [
+          "SEJONG-4A-08-V1-001_card_3",
+          "주렁주렁"
+        ],
+        [
+          "SEJONG-4A-08-V1-001_card_4",
+          "달린"
+        ],
+        [
+          "SEJONG-4A-08-V1-001_card_5",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-001_card_6",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-001_card_0",
+          "SEJONG-4A-08-V1-001_card_1",
+          "SEJONG-4A-08-V1-001_card_2",
+          "SEJONG-4A-08-V1-001_card_3",
+          "SEJONG-4A-08-V1-001_card_4",
+          "SEJONG-4A-08-V1-001_card_5",
+          "SEJONG-4A-08-V1-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-002",
+      "displaySentence": "푸른 들이 끝없이 펼쳐진 듯이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-002_card_0",
+          "푸른"
+        ],
+        [
+          "SEJONG-4A-08-V1-002_card_1",
+          "들이"
+        ],
+        [
+          "SEJONG-4A-08-V1-002_card_2",
+          "끝없이"
+        ],
+        [
+          "SEJONG-4A-08-V1-002_card_3",
+          "펼쳐진"
+        ],
+        [
+          "SEJONG-4A-08-V1-002_card_4",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-002_card_5",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-002_card_0",
+          "SEJONG-4A-08-V1-002_card_1",
+          "SEJONG-4A-08-V1-002_card_2",
+          "SEJONG-4A-08-V1-002_card_3",
+          "SEJONG-4A-08-V1-002_card_4",
+          "SEJONG-4A-08-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-003",
+      "displaySentence": "마을이 그림처럼 조용한 듯이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-003_card_0",
+          "마을이"
+        ],
+        [
+          "SEJONG-4A-08-V1-003_card_1",
+          "그림처럼"
+        ],
+        [
+          "SEJONG-4A-08-V1-003_card_2",
+          "조용한"
+        ],
+        [
+          "SEJONG-4A-08-V1-003_card_3",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-003_card_4",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-003_card_0",
+          "SEJONG-4A-08-V1-003_card_1",
+          "SEJONG-4A-08-V1-003_card_2",
+          "SEJONG-4A-08-V1-003_card_3",
+          "SEJONG-4A-08-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-004",
+      "displaySentence": "고층 빌딩이 하늘에 닿을 듯이 늘어서 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-004_card_0",
+          "고층"
+        ],
+        [
+          "SEJONG-4A-08-V1-004_card_1",
+          "빌딩이"
+        ],
+        [
+          "SEJONG-4A-08-V1-004_card_2",
+          "하늘에"
+        ],
+        [
+          "SEJONG-4A-08-V1-004_card_3",
+          "닿을"
+        ],
+        [
+          "SEJONG-4A-08-V1-004_card_4",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-004_card_5",
+          "늘어서"
+        ],
+        [
+          "SEJONG-4A-08-V1-004_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-004_card_0",
+          "SEJONG-4A-08-V1-004_card_1",
+          "SEJONG-4A-08-V1-004_card_2",
+          "SEJONG-4A-08-V1-004_card_3",
+          "SEJONG-4A-08-V1-004_card_4",
+          "SEJONG-4A-08-V1-004_card_5",
+          "SEJONG-4A-08-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-005",
+      "displaySentence": "산이 마을을 감싸는 듯이 둘러싸고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-005_card_0",
+          "산이"
+        ],
+        [
+          "SEJONG-4A-08-V1-005_card_1",
+          "마을을"
+        ],
+        [
+          "SEJONG-4A-08-V1-005_card_2",
+          "감싸는"
+        ],
+        [
+          "SEJONG-4A-08-V1-005_card_3",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-005_card_4",
+          "둘러싸고"
+        ],
+        [
+          "SEJONG-4A-08-V1-005_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-005_card_0",
+          "SEJONG-4A-08-V1-005_card_1",
+          "SEJONG-4A-08-V1-005_card_2",
+          "SEJONG-4A-08-V1-005_card_3",
+          "SEJONG-4A-08-V1-005_card_4",
+          "SEJONG-4A-08-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-006",
+      "displaySentence": "시장에는 사람들이 가득 모인 듯이 붐벼요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-006_card_0",
+          "시장에는"
+        ],
+        [
+          "SEJONG-4A-08-V1-006_card_1",
+          "사람들이"
+        ],
+        [
+          "SEJONG-4A-08-V1-006_card_2",
+          "가득"
+        ],
+        [
+          "SEJONG-4A-08-V1-006_card_3",
+          "모인"
+        ],
+        [
+          "SEJONG-4A-08-V1-006_card_4",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-006_card_5",
+          "붐벼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-006_card_0",
+          "SEJONG-4A-08-V1-006_card_1",
+          "SEJONG-4A-08-V1-006_card_2",
+          "SEJONG-4A-08-V1-006_card_3",
+          "SEJONG-4A-08-V1-006_card_4",
+          "SEJONG-4A-08-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-007",
+      "displaySentence": "언덕에서 마을이 한눈에 보였어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-007_card_0",
+          "언덕에서"
+        ],
+        [
+          "SEJONG-4A-08-V1-007_card_1",
+          "마을이"
+        ],
+        [
+          "SEJONG-4A-08-V1-007_card_2",
+          "한눈에"
+        ],
+        [
+          "SEJONG-4A-08-V1-007_card_3",
+          "보였어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-007_card_0",
+          "SEJONG-4A-08-V1-007_card_1",
+          "SEJONG-4A-08-V1-007_card_2",
+          "SEJONG-4A-08-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-008",
+      "displaySentence": "좁은 골목이 오래된 집 사이로 이어졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-008_card_0",
+          "좁은"
+        ],
+        [
+          "SEJONG-4A-08-V1-008_card_1",
+          "골목이"
+        ],
+        [
+          "SEJONG-4A-08-V1-008_card_2",
+          "오래된"
+        ],
+        [
+          "SEJONG-4A-08-V1-008_card_3",
+          "집"
+        ],
+        [
+          "SEJONG-4A-08-V1-008_card_4",
+          "사이로"
+        ],
+        [
+          "SEJONG-4A-08-V1-008_card_5",
+          "이어졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-008_card_0",
+          "SEJONG-4A-08-V1-008_card_1",
+          "SEJONG-4A-08-V1-008_card_2",
+          "SEJONG-4A-08-V1-008_card_3",
+          "SEJONG-4A-08-V1-008_card_4",
+          "SEJONG-4A-08-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-009",
+      "displaySentence": "푸른 들이 산 아래 넓게 펼쳐졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-009_card_0",
+          "푸른"
+        ],
+        [
+          "SEJONG-4A-08-V1-009_card_1",
+          "들이"
+        ],
+        [
+          "SEJONG-4A-08-V1-009_card_2",
+          "산"
+        ],
+        [
+          "SEJONG-4A-08-V1-009_card_3",
+          "아래"
+        ],
+        [
+          "SEJONG-4A-08-V1-009_card_4",
+          "넓게"
+        ],
+        [
+          "SEJONG-4A-08-V1-009_card_5",
+          "펼쳐졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-009_card_0",
+          "SEJONG-4A-08-V1-009_card_1",
+          "SEJONG-4A-08-V1-009_card_2",
+          "SEJONG-4A-08-V1-009_card_3",
+          "SEJONG-4A-08-V1-009_card_4",
+          "SEJONG-4A-08-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-010",
+      "displaySentence": "마을은 높은 산으로 둘러싸여 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-010_card_0",
+          "마을은"
+        ],
+        [
+          "SEJONG-4A-08-V1-010_card_1",
+          "높은"
+        ],
+        [
+          "SEJONG-4A-08-V1-010_card_2",
+          "산으로"
+        ],
+        [
+          "SEJONG-4A-08-V1-010_card_3",
+          "둘러싸여"
+        ],
+        [
+          "SEJONG-4A-08-V1-010_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-010_card_0",
+          "SEJONG-4A-08-V1-010_card_1",
+          "SEJONG-4A-08-V1-010_card_2",
+          "SEJONG-4A-08-V1-010_card_3",
+          "SEJONG-4A-08-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-011",
+      "displaySentence": "강 위에 작은 배가 떠 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-011_card_0",
+          "강"
+        ],
+        [
+          "SEJONG-4A-08-V1-011_card_1",
+          "위에"
+        ],
+        [
+          "SEJONG-4A-08-V1-011_card_2",
+          "작은"
+        ],
+        [
+          "SEJONG-4A-08-V1-011_card_3",
+          "배가"
+        ],
+        [
+          "SEJONG-4A-08-V1-011_card_4",
+          "떠"
+        ],
+        [
+          "SEJONG-4A-08-V1-011_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-011_card_0",
+          "SEJONG-4A-08-V1-011_card_1",
+          "SEJONG-4A-08-V1-011_card_2",
+          "SEJONG-4A-08-V1-011_card_3",
+          "SEJONG-4A-08-V1-011_card_4",
+          "SEJONG-4A-08-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-012",
+      "displaySentence": "거리에는 고층 빌딩이 늘어서 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-012_card_0",
+          "거리에는"
+        ],
+        [
+          "SEJONG-4A-08-V1-012_card_1",
+          "고층"
+        ],
+        [
+          "SEJONG-4A-08-V1-012_card_2",
+          "빌딩이"
+        ],
+        [
+          "SEJONG-4A-08-V1-012_card_3",
+          "늘어서"
+        ],
+        [
+          "SEJONG-4A-08-V1-012_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-012_card_0",
+          "SEJONG-4A-08-V1-012_card_1",
+          "SEJONG-4A-08-V1-012_card_2",
+          "SEJONG-4A-08-V1-012_card_3",
+          "SEJONG-4A-08-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-013",
+      "displaySentence": "전망대에서 도시가 한눈에 보였어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-013_card_0",
+          "전망대에서"
+        ],
+        [
+          "SEJONG-4A-08-V1-013_card_1",
+          "도시가"
+        ],
+        [
+          "SEJONG-4A-08-V1-013_card_2",
+          "한눈에"
+        ],
+        [
+          "SEJONG-4A-08-V1-013_card_3",
+          "보였어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-013_card_0",
+          "SEJONG-4A-08-V1-013_card_1",
+          "SEJONG-4A-08-V1-013_card_2",
+          "SEJONG-4A-08-V1-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-014",
+      "displaySentence": "시장 입구는 사람들로 붐볐어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-014_card_0",
+          "시장"
+        ],
+        [
+          "SEJONG-4A-08-V1-014_card_1",
+          "입구는"
+        ],
+        [
+          "SEJONG-4A-08-V1-014_card_2",
+          "사람들로"
+        ],
+        [
+          "SEJONG-4A-08-V1-014_card_3",
+          "붐볐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-014_card_0",
+          "SEJONG-4A-08-V1-014_card_1",
+          "SEJONG-4A-08-V1-014_card_2",
+          "SEJONG-4A-08-V1-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-015",
+      "displaySentence": "골목이 미로처럼 이어진 듯이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-015_card_0",
+          "골목이"
+        ],
+        [
+          "SEJONG-4A-08-V1-015_card_1",
+          "미로처럼"
+        ],
+        [
+          "SEJONG-4A-08-V1-015_card_2",
+          "이어진"
+        ],
+        [
+          "SEJONG-4A-08-V1-015_card_3",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-015_card_4",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-015_card_0",
+          "SEJONG-4A-08-V1-015_card_1",
+          "SEJONG-4A-08-V1-015_card_2",
+          "SEJONG-4A-08-V1-015_card_3",
+          "SEJONG-4A-08-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-016",
+      "displaySentence": "산들이 병풍처럼 둘러선 듯이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-016_card_0",
+          "산들이"
+        ],
+        [
+          "SEJONG-4A-08-V1-016_card_1",
+          "병풍처럼"
+        ],
+        [
+          "SEJONG-4A-08-V1-016_card_2",
+          "둘러선"
+        ],
+        [
+          "SEJONG-4A-08-V1-016_card_3",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-016_card_4",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-016_card_0",
+          "SEJONG-4A-08-V1-016_card_1",
+          "SEJONG-4A-08-V1-016_card_2",
+          "SEJONG-4A-08-V1-016_card_3",
+          "SEJONG-4A-08-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-017",
+      "displaySentence": "밤이 되자 도시의 불빛이 켜졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-017_card_0",
+          "밤이"
+        ],
+        [
+          "SEJONG-4A-08-V1-017_card_1",
+          "되자"
+        ],
+        [
+          "SEJONG-4A-08-V1-017_card_2",
+          "도시의"
+        ],
+        [
+          "SEJONG-4A-08-V1-017_card_3",
+          "불빛이"
+        ],
+        [
+          "SEJONG-4A-08-V1-017_card_4",
+          "켜졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-017_card_0",
+          "SEJONG-4A-08-V1-017_card_1",
+          "SEJONG-4A-08-V1-017_card_2",
+          "SEJONG-4A-08-V1-017_card_3",
+          "SEJONG-4A-08-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-018",
+      "displaySentence": "마을 주변에 푸른 들이 펼쳐져 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-018_card_0",
+          "마을"
+        ],
+        [
+          "SEJONG-4A-08-V1-018_card_1",
+          "주변에"
+        ],
+        [
+          "SEJONG-4A-08-V1-018_card_2",
+          "푸른"
+        ],
+        [
+          "SEJONG-4A-08-V1-018_card_3",
+          "들이"
+        ],
+        [
+          "SEJONG-4A-08-V1-018_card_4",
+          "펼쳐져"
+        ],
+        [
+          "SEJONG-4A-08-V1-018_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-018_card_0",
+          "SEJONG-4A-08-V1-018_card_1",
+          "SEJONG-4A-08-V1-018_card_2",
+          "SEJONG-4A-08-V1-018_card_3",
+          "SEJONG-4A-08-V1-018_card_4",
+          "SEJONG-4A-08-V1-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-019",
+      "displaySentence": "강가에 배들이 그림처럼 떠 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-019_card_0",
+          "강가에"
+        ],
+        [
+          "SEJONG-4A-08-V1-019_card_1",
+          "배들이"
+        ],
+        [
+          "SEJONG-4A-08-V1-019_card_2",
+          "그림처럼"
+        ],
+        [
+          "SEJONG-4A-08-V1-019_card_3",
+          "떠"
+        ],
+        [
+          "SEJONG-4A-08-V1-019_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-019_card_0",
+          "SEJONG-4A-08-V1-019_card_1",
+          "SEJONG-4A-08-V1-019_card_2",
+          "SEJONG-4A-08-V1-019_card_3",
+          "SEJONG-4A-08-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-08-V1-020",
+      "displaySentence": "가을 풍경이 한 폭의 그림인 듯이 아름다워요.",
+      "tokens": [
+        [
+          "SEJONG-4A-08-V1-020_card_0",
+          "가을"
+        ],
+        [
+          "SEJONG-4A-08-V1-020_card_1",
+          "풍경이"
+        ],
+        [
+          "SEJONG-4A-08-V1-020_card_2",
+          "한"
+        ],
+        [
+          "SEJONG-4A-08-V1-020_card_3",
+          "폭의"
+        ],
+        [
+          "SEJONG-4A-08-V1-020_card_4",
+          "그림인"
+        ],
+        [
+          "SEJONG-4A-08-V1-020_card_5",
+          "듯이"
+        ],
+        [
+          "SEJONG-4A-08-V1-020_card_6",
+          "아름다워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-08-V1-020_card_0",
+          "SEJONG-4A-08-V1-020_card_1",
+          "SEJONG-4A-08-V1-020_card_2",
+          "SEJONG-4A-08-V1-020_card_3",
+          "SEJONG-4A-08-V1-020_card_4",
+          "SEJONG-4A-08-V1-020_card_5",
+          "SEJONG-4A-08-V1-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 8과 문법 -는/(으)ㄴ/(으)ㄹ 듯이 / 피동(-이-/-히-/-리-/-기-) 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 8과 범위 재구성"
+    }
+  ]
+}

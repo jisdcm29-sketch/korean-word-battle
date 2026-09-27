@@ -1,0 +1,838 @@
+{
+  "book": "4A",
+  "lesson": 5,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 5과 범위",
+  "selectionPolicy": [
+    "5과 핵심 문법 -나면·-기가 쉽다/어렵다/힘들다/편하다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-05-V1-001",
+      "displaySentence": "앱을 설치하고 나면 바로 사용할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-001_card_0",
+          "앱을"
+        ],
+        [
+          "SEJONG-4A-05-V1-001_card_1",
+          "설치하고"
+        ],
+        [
+          "SEJONG-4A-05-V1-001_card_2",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-001_card_3",
+          "바로"
+        ],
+        [
+          "SEJONG-4A-05-V1-001_card_4",
+          "사용할"
+        ],
+        [
+          "SEJONG-4A-05-V1-001_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-05-V1-001_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-001_card_0",
+          "SEJONG-4A-05-V1-001_card_1",
+          "SEJONG-4A-05-V1-001_card_2",
+          "SEJONG-4A-05-V1-001_card_3",
+          "SEJONG-4A-05-V1-001_card_4",
+          "SEJONG-4A-05-V1-001_card_5",
+          "SEJONG-4A-05-V1-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-002",
+      "displaySentence": "회원 가입을 하고 나면 아이디가 만들어져요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-002_card_0",
+          "회원"
+        ],
+        [
+          "SEJONG-4A-05-V1-002_card_1",
+          "가입을"
+        ],
+        [
+          "SEJONG-4A-05-V1-002_card_2",
+          "하고"
+        ],
+        [
+          "SEJONG-4A-05-V1-002_card_3",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-002_card_4",
+          "아이디가"
+        ],
+        [
+          "SEJONG-4A-05-V1-002_card_5",
+          "만들어져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-002_card_0",
+          "SEJONG-4A-05-V1-002_card_1",
+          "SEJONG-4A-05-V1-002_card_2",
+          "SEJONG-4A-05-V1-002_card_3",
+          "SEJONG-4A-05-V1-002_card_4",
+          "SEJONG-4A-05-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-003",
+      "displaySentence": "파일을 다운 받고 나면 내용을 확인하세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-003_card_0",
+          "파일을"
+        ],
+        [
+          "SEJONG-4A-05-V1-003_card_1",
+          "다운"
+        ],
+        [
+          "SEJONG-4A-05-V1-003_card_2",
+          "받고"
+        ],
+        [
+          "SEJONG-4A-05-V1-003_card_3",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-003_card_4",
+          "내용을"
+        ],
+        [
+          "SEJONG-4A-05-V1-003_card_5",
+          "확인하세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-003_card_0",
+          "SEJONG-4A-05-V1-003_card_1",
+          "SEJONG-4A-05-V1-003_card_2",
+          "SEJONG-4A-05-V1-003_card_3",
+          "SEJONG-4A-05-V1-003_card_4",
+          "SEJONG-4A-05-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-004",
+      "displaySentence": "사진을 첨부하고 나면 메일을 보내세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-004_card_0",
+          "사진을"
+        ],
+        [
+          "SEJONG-4A-05-V1-004_card_1",
+          "첨부하고"
+        ],
+        [
+          "SEJONG-4A-05-V1-004_card_2",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-004_card_3",
+          "메일을"
+        ],
+        [
+          "SEJONG-4A-05-V1-004_card_4",
+          "보내세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-004_card_0",
+          "SEJONG-4A-05-V1-004_card_1",
+          "SEJONG-4A-05-V1-004_card_2",
+          "SEJONG-4A-05-V1-004_card_3",
+          "SEJONG-4A-05-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-005",
+      "displaySentence": "검색하고 나면 필요한 정보를 쉽게 찾을 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-005_card_0",
+          "검색하고"
+        ],
+        [
+          "SEJONG-4A-05-V1-005_card_1",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-005_card_2",
+          "필요한"
+        ],
+        [
+          "SEJONG-4A-05-V1-005_card_3",
+          "정보를"
+        ],
+        [
+          "SEJONG-4A-05-V1-005_card_4",
+          "쉽게"
+        ],
+        [
+          "SEJONG-4A-05-V1-005_card_5",
+          "찾을"
+        ],
+        [
+          "SEJONG-4A-05-V1-005_card_6",
+          "수"
+        ],
+        [
+          "SEJONG-4A-05-V1-005_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-005_card_0",
+          "SEJONG-4A-05-V1-005_card_1",
+          "SEJONG-4A-05-V1-005_card_2",
+          "SEJONG-4A-05-V1-005_card_3",
+          "SEJONG-4A-05-V1-005_card_4",
+          "SEJONG-4A-05-V1-005_card_5",
+          "SEJONG-4A-05-V1-005_card_6",
+          "SEJONG-4A-05-V1-005_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-006",
+      "displaySentence": "앱을 설치하면 사진을 올리기가 쉬워요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-006_card_0",
+          "앱을"
+        ],
+        [
+          "SEJONG-4A-05-V1-006_card_1",
+          "설치하면"
+        ],
+        [
+          "SEJONG-4A-05-V1-006_card_2",
+          "사진을"
+        ],
+        [
+          "SEJONG-4A-05-V1-006_card_3",
+          "올리기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-006_card_4",
+          "쉬워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-006_card_0",
+          "SEJONG-4A-05-V1-006_card_1",
+          "SEJONG-4A-05-V1-006_card_2",
+          "SEJONG-4A-05-V1-006_card_3",
+          "SEJONG-4A-05-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-007",
+      "displaySentence": "이 사이트는 회원 가입하기가 어렵지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-05-V1-007_card_1",
+          "사이트는"
+        ],
+        [
+          "SEJONG-4A-05-V1-007_card_2",
+          "회원"
+        ],
+        [
+          "SEJONG-4A-05-V1-007_card_3",
+          "가입하기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-007_card_4",
+          "어렵지"
+        ],
+        [
+          "SEJONG-4A-05-V1-007_card_5",
+          "않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-007_card_0",
+          "SEJONG-4A-05-V1-007_card_1",
+          "SEJONG-4A-05-V1-007_card_2",
+          "SEJONG-4A-05-V1-007_card_3",
+          "SEJONG-4A-05-V1-007_card_4",
+          "SEJONG-4A-05-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-008",
+      "displaySentence": "휴대폰으로 파일을 다운 받기가 편해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-008_card_0",
+          "휴대폰으로"
+        ],
+        [
+          "SEJONG-4A-05-V1-008_card_1",
+          "파일을"
+        ],
+        [
+          "SEJONG-4A-05-V1-008_card_2",
+          "다운"
+        ],
+        [
+          "SEJONG-4A-05-V1-008_card_3",
+          "받기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-008_card_4",
+          "편해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-008_card_0",
+          "SEJONG-4A-05-V1-008_card_1",
+          "SEJONG-4A-05-V1-008_card_2",
+          "SEJONG-4A-05-V1-008_card_3",
+          "SEJONG-4A-05-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-009",
+      "displaySentence": "온라인 강의를 집에서 듣기가 편해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-009_card_0",
+          "온라인"
+        ],
+        [
+          "SEJONG-4A-05-V1-009_card_1",
+          "강의를"
+        ],
+        [
+          "SEJONG-4A-05-V1-009_card_2",
+          "집에서"
+        ],
+        [
+          "SEJONG-4A-05-V1-009_card_3",
+          "듣기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-009_card_4",
+          "편해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-009_card_0",
+          "SEJONG-4A-05-V1-009_card_1",
+          "SEJONG-4A-05-V1-009_card_2",
+          "SEJONG-4A-05-V1-009_card_3",
+          "SEJONG-4A-05-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-010",
+      "displaySentence": "화상 회의는 인터넷이 느리면 하기가 힘들어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-010_card_0",
+          "화상"
+        ],
+        [
+          "SEJONG-4A-05-V1-010_card_1",
+          "회의는"
+        ],
+        [
+          "SEJONG-4A-05-V1-010_card_2",
+          "인터넷이"
+        ],
+        [
+          "SEJONG-4A-05-V1-010_card_3",
+          "느리면"
+        ],
+        [
+          "SEJONG-4A-05-V1-010_card_4",
+          "하기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-010_card_5",
+          "힘들어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-010_card_0",
+          "SEJONG-4A-05-V1-010_card_1",
+          "SEJONG-4A-05-V1-010_card_2",
+          "SEJONG-4A-05-V1-010_card_3",
+          "SEJONG-4A-05-V1-010_card_4",
+          "SEJONG-4A-05-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-011",
+      "displaySentence": "사진을 복사하고 붙여 넣기가 쉬워요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-011_card_0",
+          "사진을"
+        ],
+        [
+          "SEJONG-4A-05-V1-011_card_1",
+          "복사하고"
+        ],
+        [
+          "SEJONG-4A-05-V1-011_card_2",
+          "붙여"
+        ],
+        [
+          "SEJONG-4A-05-V1-011_card_3",
+          "넣기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-011_card_4",
+          "쉬워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-011_card_0",
+          "SEJONG-4A-05-V1-011_card_1",
+          "SEJONG-4A-05-V1-011_card_2",
+          "SEJONG-4A-05-V1-011_card_3",
+          "SEJONG-4A-05-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-012",
+      "displaySentence": "마우스로 원하는 메뉴를 클릭하기가 편해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-012_card_0",
+          "마우스로"
+        ],
+        [
+          "SEJONG-4A-05-V1-012_card_1",
+          "원하는"
+        ],
+        [
+          "SEJONG-4A-05-V1-012_card_2",
+          "메뉴를"
+        ],
+        [
+          "SEJONG-4A-05-V1-012_card_3",
+          "클릭하기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-012_card_4",
+          "편해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-012_card_0",
+          "SEJONG-4A-05-V1-012_card_1",
+          "SEJONG-4A-05-V1-012_card_2",
+          "SEJONG-4A-05-V1-012_card_3",
+          "SEJONG-4A-05-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-013",
+      "displaySentence": "검색창에 단어를 넣고 나면 결과가 나와요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-013_card_0",
+          "검색창에"
+        ],
+        [
+          "SEJONG-4A-05-V1-013_card_1",
+          "단어를"
+        ],
+        [
+          "SEJONG-4A-05-V1-013_card_2",
+          "넣고"
+        ],
+        [
+          "SEJONG-4A-05-V1-013_card_3",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-013_card_4",
+          "결과가"
+        ],
+        [
+          "SEJONG-4A-05-V1-013_card_5",
+          "나와요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-013_card_0",
+          "SEJONG-4A-05-V1-013_card_1",
+          "SEJONG-4A-05-V1-013_card_2",
+          "SEJONG-4A-05-V1-013_card_3",
+          "SEJONG-4A-05-V1-013_card_4",
+          "SEJONG-4A-05-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-014",
+      "displaySentence": "댓글을 쓰고 나면 다시 수정할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-014_card_0",
+          "댓글을"
+        ],
+        [
+          "SEJONG-4A-05-V1-014_card_1",
+          "쓰고"
+        ],
+        [
+          "SEJONG-4A-05-V1-014_card_2",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-014_card_3",
+          "다시"
+        ],
+        [
+          "SEJONG-4A-05-V1-014_card_4",
+          "수정할"
+        ],
+        [
+          "SEJONG-4A-05-V1-014_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-05-V1-014_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-014_card_0",
+          "SEJONG-4A-05-V1-014_card_1",
+          "SEJONG-4A-05-V1-014_card_2",
+          "SEJONG-4A-05-V1-014_card_3",
+          "SEJONG-4A-05-V1-014_card_4",
+          "SEJONG-4A-05-V1-014_card_5",
+          "SEJONG-4A-05-V1-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-015",
+      "displaySentence": "아이디를 만들고 나면 사이트에 접속할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-015_card_0",
+          "아이디를"
+        ],
+        [
+          "SEJONG-4A-05-V1-015_card_1",
+          "만들고"
+        ],
+        [
+          "SEJONG-4A-05-V1-015_card_2",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-015_card_3",
+          "사이트에"
+        ],
+        [
+          "SEJONG-4A-05-V1-015_card_4",
+          "접속할"
+        ],
+        [
+          "SEJONG-4A-05-V1-015_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-05-V1-015_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-015_card_0",
+          "SEJONG-4A-05-V1-015_card_1",
+          "SEJONG-4A-05-V1-015_card_2",
+          "SEJONG-4A-05-V1-015_card_3",
+          "SEJONG-4A-05-V1-015_card_4",
+          "SEJONG-4A-05-V1-015_card_5",
+          "SEJONG-4A-05-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-016",
+      "displaySentence": "파일이 크면 업로드하기가 어려워요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-016_card_0",
+          "파일이"
+        ],
+        [
+          "SEJONG-4A-05-V1-016_card_1",
+          "크면"
+        ],
+        [
+          "SEJONG-4A-05-V1-016_card_2",
+          "업로드하기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-016_card_3",
+          "어려워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-016_card_0",
+          "SEJONG-4A-05-V1-016_card_1",
+          "SEJONG-4A-05-V1-016_card_2",
+          "SEJONG-4A-05-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-017",
+      "displaySentence": "휴대폰에서는 글을 복사하기가 조금 불편해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-017_card_0",
+          "휴대폰에서는"
+        ],
+        [
+          "SEJONG-4A-05-V1-017_card_1",
+          "글을"
+        ],
+        [
+          "SEJONG-4A-05-V1-017_card_2",
+          "복사하기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-017_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-4A-05-V1-017_card_4",
+          "불편해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-017_card_0",
+          "SEJONG-4A-05-V1-017_card_1",
+          "SEJONG-4A-05-V1-017_card_2",
+          "SEJONG-4A-05-V1-017_card_3",
+          "SEJONG-4A-05-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-018",
+      "displaySentence": "온라인 강의는 반복해서 듣기가 편해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-018_card_0",
+          "온라인"
+        ],
+        [
+          "SEJONG-4A-05-V1-018_card_1",
+          "강의는"
+        ],
+        [
+          "SEJONG-4A-05-V1-018_card_2",
+          "반복해서"
+        ],
+        [
+          "SEJONG-4A-05-V1-018_card_3",
+          "듣기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-018_card_4",
+          "편해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-018_card_0",
+          "SEJONG-4A-05-V1-018_card_1",
+          "SEJONG-4A-05-V1-018_card_2",
+          "SEJONG-4A-05-V1-018_card_3",
+          "SEJONG-4A-05-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-019",
+      "displaySentence": "사이트에 가입하고 나면 자료를 받을 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-019_card_0",
+          "사이트에"
+        ],
+        [
+          "SEJONG-4A-05-V1-019_card_1",
+          "가입하고"
+        ],
+        [
+          "SEJONG-4A-05-V1-019_card_2",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-019_card_3",
+          "자료를"
+        ],
+        [
+          "SEJONG-4A-05-V1-019_card_4",
+          "받을"
+        ],
+        [
+          "SEJONG-4A-05-V1-019_card_5",
+          "수"
+        ],
+        [
+          "SEJONG-4A-05-V1-019_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-019_card_0",
+          "SEJONG-4A-05-V1-019_card_1",
+          "SEJONG-4A-05-V1-019_card_2",
+          "SEJONG-4A-05-V1-019_card_3",
+          "SEJONG-4A-05-V1-019_card_4",
+          "SEJONG-4A-05-V1-019_card_5",
+          "SEJONG-4A-05-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-05-V1-020",
+      "displaySentence": "앱 사용법을 익히고 나면 검색하기가 쉬워져요.",
+      "tokens": [
+        [
+          "SEJONG-4A-05-V1-020_card_0",
+          "앱"
+        ],
+        [
+          "SEJONG-4A-05-V1-020_card_1",
+          "사용법을"
+        ],
+        [
+          "SEJONG-4A-05-V1-020_card_2",
+          "익히고"
+        ],
+        [
+          "SEJONG-4A-05-V1-020_card_3",
+          "나면"
+        ],
+        [
+          "SEJONG-4A-05-V1-020_card_4",
+          "검색하기가"
+        ],
+        [
+          "SEJONG-4A-05-V1-020_card_5",
+          "쉬워져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-05-V1-020_card_0",
+          "SEJONG-4A-05-V1-020_card_1",
+          "SEJONG-4A-05-V1-020_card_2",
+          "SEJONG-4A-05-V1-020_card_3",
+          "SEJONG-4A-05-V1-020_card_4",
+          "SEJONG-4A-05-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 5과 문법 -나면 / -기가 쉽다/어렵다/힘들다/편하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 5과 범위 재구성"
+    }
+  ]
+}

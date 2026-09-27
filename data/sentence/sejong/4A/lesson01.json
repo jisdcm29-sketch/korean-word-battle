@@ -1,0 +1,903 @@
+{
+  "book": "4A",
+  "lesson": 1,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 1과 범위",
+  "selectionPolicy": [
+    "1과 핵심 문법 -는다면/-ㄴ다면/-다면·-았으면/었으면 하다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-01-V1-001",
+      "displaySentence": "여건이 된다면 세계 일주를 하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-001_card_0",
+          "여건이"
+        ],
+        [
+          "SEJONG-4A-01-V1-001_card_1",
+          "된다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-001_card_2",
+          "세계"
+        ],
+        [
+          "SEJONG-4A-01-V1-001_card_3",
+          "일주를"
+        ],
+        [
+          "SEJONG-4A-01-V1-001_card_4",
+          "하고"
+        ],
+        [
+          "SEJONG-4A-01-V1-001_card_5",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-001_card_0",
+          "SEJONG-4A-01-V1-001_card_1",
+          "SEJONG-4A-01-V1-001_card_2",
+          "SEJONG-4A-01-V1-001_card_3",
+          "SEJONG-4A-01-V1-001_card_4",
+          "SEJONG-4A-01-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-002",
+      "displaySentence": "시간이 많다면 해외 봉사 활동을 해 보고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-002_card_0",
+          "시간이"
+        ],
+        [
+          "SEJONG-4A-01-V1-002_card_1",
+          "많다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-002_card_2",
+          "해외"
+        ],
+        [
+          "SEJONG-4A-01-V1-002_card_3",
+          "봉사"
+        ],
+        [
+          "SEJONG-4A-01-V1-002_card_4",
+          "활동을"
+        ],
+        [
+          "SEJONG-4A-01-V1-002_card_5",
+          "해"
+        ],
+        [
+          "SEJONG-4A-01-V1-002_card_6",
+          "보고"
+        ],
+        [
+          "SEJONG-4A-01-V1-002_card_7",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-002_card_0",
+          "SEJONG-4A-01-V1-002_card_1",
+          "SEJONG-4A-01-V1-002_card_2",
+          "SEJONG-4A-01-V1-002_card_3",
+          "SEJONG-4A-01-V1-002_card_4",
+          "SEJONG-4A-01-V1-002_card_5",
+          "SEJONG-4A-01-V1-002_card_6",
+          "SEJONG-4A-01-V1-002_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-003",
+      "displaySentence": "돈을 모은다면 캠핑카 여행을 떠날 거예요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-003_card_0",
+          "돈을"
+        ],
+        [
+          "SEJONG-4A-01-V1-003_card_1",
+          "모은다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-003_card_2",
+          "캠핑카"
+        ],
+        [
+          "SEJONG-4A-01-V1-003_card_3",
+          "여행을"
+        ],
+        [
+          "SEJONG-4A-01-V1-003_card_4",
+          "떠날"
+        ],
+        [
+          "SEJONG-4A-01-V1-003_card_5",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-003_card_0",
+          "SEJONG-4A-01-V1-003_card_1",
+          "SEJONG-4A-01-V1-003_card_2",
+          "SEJONG-4A-01-V1-003_card_3",
+          "SEJONG-4A-01-V1-003_card_4",
+          "SEJONG-4A-01-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-004",
+      "displaySentence": "날씨가 좋다면 패러글라이딩을 해 보고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-004_card_0",
+          "날씨가"
+        ],
+        [
+          "SEJONG-4A-01-V1-004_card_1",
+          "좋다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-004_card_2",
+          "패러글라이딩을"
+        ],
+        [
+          "SEJONG-4A-01-V1-004_card_3",
+          "해"
+        ],
+        [
+          "SEJONG-4A-01-V1-004_card_4",
+          "보고"
+        ],
+        [
+          "SEJONG-4A-01-V1-004_card_5",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-004_card_0",
+          "SEJONG-4A-01-V1-004_card_1",
+          "SEJONG-4A-01-V1-004_card_2",
+          "SEJONG-4A-01-V1-004_card_3",
+          "SEJONG-4A-01-V1-004_card_4",
+          "SEJONG-4A-01-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-005",
+      "displaySentence": "기회가 된다면 개인 방송 채널을 만들고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-005_card_0",
+          "기회가"
+        ],
+        [
+          "SEJONG-4A-01-V1-005_card_1",
+          "된다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-005_card_2",
+          "개인"
+        ],
+        [
+          "SEJONG-4A-01-V1-005_card_3",
+          "방송"
+        ],
+        [
+          "SEJONG-4A-01-V1-005_card_4",
+          "채널을"
+        ],
+        [
+          "SEJONG-4A-01-V1-005_card_5",
+          "만들고"
+        ],
+        [
+          "SEJONG-4A-01-V1-005_card_6",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-005_card_0",
+          "SEJONG-4A-01-V1-005_card_1",
+          "SEJONG-4A-01-V1-005_card_2",
+          "SEJONG-4A-01-V1-005_card_3",
+          "SEJONG-4A-01-V1-005_card_4",
+          "SEJONG-4A-01-V1-005_card_5",
+          "SEJONG-4A-01-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-006",
+      "displaySentence": "시골에 산다면 내가 살 집을 직접 짓고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-006_card_0",
+          "시골에"
+        ],
+        [
+          "SEJONG-4A-01-V1-006_card_1",
+          "산다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-006_card_2",
+          "내가"
+        ],
+        [
+          "SEJONG-4A-01-V1-006_card_3",
+          "살"
+        ],
+        [
+          "SEJONG-4A-01-V1-006_card_4",
+          "집을"
+        ],
+        [
+          "SEJONG-4A-01-V1-006_card_5",
+          "직접"
+        ],
+        [
+          "SEJONG-4A-01-V1-006_card_6",
+          "짓고"
+        ],
+        [
+          "SEJONG-4A-01-V1-006_card_7",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-006_card_0",
+          "SEJONG-4A-01-V1-006_card_1",
+          "SEJONG-4A-01-V1-006_card_2",
+          "SEJONG-4A-01-V1-006_card_3",
+          "SEJONG-4A-01-V1-006_card_4",
+          "SEJONG-4A-01-V1-006_card_5",
+          "SEJONG-4A-01-V1-006_card_6",
+          "SEJONG-4A-01-V1-006_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-007",
+      "displaySentence": "체력이 좋아진다면 마라톤을 완주하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-007_card_0",
+          "체력이"
+        ],
+        [
+          "SEJONG-4A-01-V1-007_card_1",
+          "좋아진다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-007_card_2",
+          "마라톤을"
+        ],
+        [
+          "SEJONG-4A-01-V1-007_card_3",
+          "완주하고"
+        ],
+        [
+          "SEJONG-4A-01-V1-007_card_4",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-007_card_0",
+          "SEJONG-4A-01-V1-007_card_1",
+          "SEJONG-4A-01-V1-007_card_2",
+          "SEJONG-4A-01-V1-007_card_3",
+          "SEJONG-4A-01-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-008",
+      "displaySentence": "세계 일주를 하면서 맛있는 음식을 다 먹어 보고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-008_card_0",
+          "세계"
+        ],
+        [
+          "SEJONG-4A-01-V1-008_card_1",
+          "일주를"
+        ],
+        [
+          "SEJONG-4A-01-V1-008_card_2",
+          "하면서"
+        ],
+        [
+          "SEJONG-4A-01-V1-008_card_3",
+          "맛있는"
+        ],
+        [
+          "SEJONG-4A-01-V1-008_card_4",
+          "음식을"
+        ],
+        [
+          "SEJONG-4A-01-V1-008_card_5",
+          "다 먹어"
+        ],
+        [
+          "SEJONG-4A-01-V1-008_card_6",
+          "보고"
+        ],
+        [
+          "SEJONG-4A-01-V1-008_card_7",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-008_card_0",
+          "SEJONG-4A-01-V1-008_card_1",
+          "SEJONG-4A-01-V1-008_card_2",
+          "SEJONG-4A-01-V1-008_card_3",
+          "SEJONG-4A-01-V1-008_card_4",
+          "SEJONG-4A-01-V1-008_card_5",
+          "SEJONG-4A-01-V1-008_card_6",
+          "SEJONG-4A-01-V1-008_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-009",
+      "displaySentence": "외국에서 한 달쯤 살아 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-009_card_0",
+          "외국에서"
+        ],
+        [
+          "SEJONG-4A-01-V1-009_card_1",
+          "한"
+        ],
+        [
+          "SEJONG-4A-01-V1-009_card_2",
+          "달쯤"
+        ],
+        [
+          "SEJONG-4A-01-V1-009_card_3",
+          "살아"
+        ],
+        [
+          "SEJONG-4A-01-V1-009_card_4",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-009_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-009_card_0",
+          "SEJONG-4A-01-V1-009_card_1",
+          "SEJONG-4A-01-V1-009_card_2",
+          "SEJONG-4A-01-V1-009_card_3",
+          "SEJONG-4A-01-V1-009_card_4",
+          "SEJONG-4A-01-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-010",
+      "displaySentence": "언젠가 해외 봉사 활동을 해 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-010_card_0",
+          "언젠가"
+        ],
+        [
+          "SEJONG-4A-01-V1-010_card_1",
+          "해외"
+        ],
+        [
+          "SEJONG-4A-01-V1-010_card_2",
+          "봉사"
+        ],
+        [
+          "SEJONG-4A-01-V1-010_card_3",
+          "활동을"
+        ],
+        [
+          "SEJONG-4A-01-V1-010_card_4",
+          "해"
+        ],
+        [
+          "SEJONG-4A-01-V1-010_card_5",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-010_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-010_card_0",
+          "SEJONG-4A-01-V1-010_card_1",
+          "SEJONG-4A-01-V1-010_card_2",
+          "SEJONG-4A-01-V1-010_card_3",
+          "SEJONG-4A-01-V1-010_card_4",
+          "SEJONG-4A-01-V1-010_card_5",
+          "SEJONG-4A-01-V1-010_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-011",
+      "displaySentence": "캠핑카로 전국을 여행해 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-011_card_0",
+          "캠핑카로"
+        ],
+        [
+          "SEJONG-4A-01-V1-011_card_1",
+          "전국을"
+        ],
+        [
+          "SEJONG-4A-01-V1-011_card_2",
+          "여행해"
+        ],
+        [
+          "SEJONG-4A-01-V1-011_card_3",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-011_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-011_card_0",
+          "SEJONG-4A-01-V1-011_card_1",
+          "SEJONG-4A-01-V1-011_card_2",
+          "SEJONG-4A-01-V1-011_card_3",
+          "SEJONG-4A-01-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-012",
+      "displaySentence": "친구와 함께 패러글라이딩을 해 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-012_card_0",
+          "친구와"
+        ],
+        [
+          "SEJONG-4A-01-V1-012_card_1",
+          "함께"
+        ],
+        [
+          "SEJONG-4A-01-V1-012_card_2",
+          "패러글라이딩을"
+        ],
+        [
+          "SEJONG-4A-01-V1-012_card_3",
+          "해"
+        ],
+        [
+          "SEJONG-4A-01-V1-012_card_4",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-012_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-012_card_0",
+          "SEJONG-4A-01-V1-012_card_1",
+          "SEJONG-4A-01-V1-012_card_2",
+          "SEJONG-4A-01-V1-012_card_3",
+          "SEJONG-4A-01-V1-012_card_4",
+          "SEJONG-4A-01-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-013",
+      "displaySentence": "개인 방송 채널을 직접 운영해 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-013_card_0",
+          "개인"
+        ],
+        [
+          "SEJONG-4A-01-V1-013_card_1",
+          "방송"
+        ],
+        [
+          "SEJONG-4A-01-V1-013_card_2",
+          "채널을"
+        ],
+        [
+          "SEJONG-4A-01-V1-013_card_3",
+          "직접"
+        ],
+        [
+          "SEJONG-4A-01-V1-013_card_4",
+          "운영해"
+        ],
+        [
+          "SEJONG-4A-01-V1-013_card_5",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-013_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-013_card_0",
+          "SEJONG-4A-01-V1-013_card_1",
+          "SEJONG-4A-01-V1-013_card_2",
+          "SEJONG-4A-01-V1-013_card_3",
+          "SEJONG-4A-01-V1-013_card_4",
+          "SEJONG-4A-01-V1-013_card_5",
+          "SEJONG-4A-01-V1-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-014",
+      "displaySentence": "내가 살 집을 직접 지어 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-014_card_0",
+          "내가"
+        ],
+        [
+          "SEJONG-4A-01-V1-014_card_1",
+          "살"
+        ],
+        [
+          "SEJONG-4A-01-V1-014_card_2",
+          "집을"
+        ],
+        [
+          "SEJONG-4A-01-V1-014_card_3",
+          "직접"
+        ],
+        [
+          "SEJONG-4A-01-V1-014_card_4",
+          "지어"
+        ],
+        [
+          "SEJONG-4A-01-V1-014_card_5",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-014_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-014_card_0",
+          "SEJONG-4A-01-V1-014_card_1",
+          "SEJONG-4A-01-V1-014_card_2",
+          "SEJONG-4A-01-V1-014_card_3",
+          "SEJONG-4A-01-V1-014_card_4",
+          "SEJONG-4A-01-V1-014_card_5",
+          "SEJONG-4A-01-V1-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-015",
+      "displaySentence": "마라톤에서 끝까지 달려 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-015_card_0",
+          "마라톤에서"
+        ],
+        [
+          "SEJONG-4A-01-V1-015_card_1",
+          "끝까지"
+        ],
+        [
+          "SEJONG-4A-01-V1-015_card_2",
+          "달려"
+        ],
+        [
+          "SEJONG-4A-01-V1-015_card_3",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-015_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-015_card_0",
+          "SEJONG-4A-01-V1-015_card_1",
+          "SEJONG-4A-01-V1-015_card_2",
+          "SEJONG-4A-01-V1-015_card_3",
+          "SEJONG-4A-01-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-016",
+      "displaySentence": "세계 여러 나라를 일주해 봤으면 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-016_card_0",
+          "세계"
+        ],
+        [
+          "SEJONG-4A-01-V1-016_card_1",
+          "여러"
+        ],
+        [
+          "SEJONG-4A-01-V1-016_card_2",
+          "나라를"
+        ],
+        [
+          "SEJONG-4A-01-V1-016_card_3",
+          "일주해"
+        ],
+        [
+          "SEJONG-4A-01-V1-016_card_4",
+          "봤으면"
+        ],
+        [
+          "SEJONG-4A-01-V1-016_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-016_card_0",
+          "SEJONG-4A-01-V1-016_card_1",
+          "SEJONG-4A-01-V1-016_card_2",
+          "SEJONG-4A-01-V1-016_card_3",
+          "SEJONG-4A-01-V1-016_card_4",
+          "SEJONG-4A-01-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-017",
+      "displaySentence": "여건이 된다면 새로운 나라에서 살아 볼 거예요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-017_card_0",
+          "여건이"
+        ],
+        [
+          "SEJONG-4A-01-V1-017_card_1",
+          "된다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-017_card_2",
+          "새로운"
+        ],
+        [
+          "SEJONG-4A-01-V1-017_card_3",
+          "나라에서"
+        ],
+        [
+          "SEJONG-4A-01-V1-017_card_4",
+          "살아"
+        ],
+        [
+          "SEJONG-4A-01-V1-017_card_5",
+          "볼"
+        ],
+        [
+          "SEJONG-4A-01-V1-017_card_6",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-017_card_0",
+          "SEJONG-4A-01-V1-017_card_1",
+          "SEJONG-4A-01-V1-017_card_2",
+          "SEJONG-4A-01-V1-017_card_3",
+          "SEJONG-4A-01-V1-017_card_4",
+          "SEJONG-4A-01-V1-017_card_5",
+          "SEJONG-4A-01-V1-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-018",
+      "displaySentence": "휴가가 길다면 세계 여행을 떠나고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-018_card_0",
+          "휴가가"
+        ],
+        [
+          "SEJONG-4A-01-V1-018_card_1",
+          "길다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-018_card_2",
+          "세계"
+        ],
+        [
+          "SEJONG-4A-01-V1-018_card_3",
+          "여행을"
+        ],
+        [
+          "SEJONG-4A-01-V1-018_card_4",
+          "떠나고"
+        ],
+        [
+          "SEJONG-4A-01-V1-018_card_5",
+          "싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-018_card_0",
+          "SEJONG-4A-01-V1-018_card_1",
+          "SEJONG-4A-01-V1-018_card_2",
+          "SEJONG-4A-01-V1-018_card_3",
+          "SEJONG-4A-01-V1-018_card_4",
+          "SEJONG-4A-01-V1-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-019",
+      "displaySentence": "돈이 충분하다면 외국에서 한 달 살아 볼래요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-019_card_0",
+          "돈이"
+        ],
+        [
+          "SEJONG-4A-01-V1-019_card_1",
+          "충분하다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-019_card_2",
+          "외국에서"
+        ],
+        [
+          "SEJONG-4A-01-V1-019_card_3",
+          "한"
+        ],
+        [
+          "SEJONG-4A-01-V1-019_card_4",
+          "달"
+        ],
+        [
+          "SEJONG-4A-01-V1-019_card_5",
+          "살아"
+        ],
+        [
+          "SEJONG-4A-01-V1-019_card_6",
+          "볼래요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-019_card_0",
+          "SEJONG-4A-01-V1-019_card_1",
+          "SEJONG-4A-01-V1-019_card_2",
+          "SEJONG-4A-01-V1-019_card_3",
+          "SEJONG-4A-01-V1-019_card_4",
+          "SEJONG-4A-01-V1-019_card_5",
+          "SEJONG-4A-01-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-01-V1-020",
+      "displaySentence": "건강이 좋아진다면 마라톤에 다시 도전할 거예요.",
+      "tokens": [
+        [
+          "SEJONG-4A-01-V1-020_card_0",
+          "건강이"
+        ],
+        [
+          "SEJONG-4A-01-V1-020_card_1",
+          "좋아진다면"
+        ],
+        [
+          "SEJONG-4A-01-V1-020_card_2",
+          "마라톤에"
+        ],
+        [
+          "SEJONG-4A-01-V1-020_card_3",
+          "다시"
+        ],
+        [
+          "SEJONG-4A-01-V1-020_card_4",
+          "도전할"
+        ],
+        [
+          "SEJONG-4A-01-V1-020_card_5",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-01-V1-020_card_0",
+          "SEJONG-4A-01-V1-020_card_1",
+          "SEJONG-4A-01-V1-020_card_2",
+          "SEJONG-4A-01-V1-020_card_3",
+          "SEJONG-4A-01-V1-020_card_4",
+          "SEJONG-4A-01-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 1과 문법 -는다면/-ㄴ다면/-다면 / -았으면/었으면 하다 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 1과 범위 재구성"
+    }
+  ]
+}

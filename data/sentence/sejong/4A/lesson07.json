@@ -1,0 +1,778 @@
+{
+  "book": "4A",
+  "lesson": 7,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 7과 범위",
+  "selectionPolicy": [
+    "7과 핵심 문법 -(으)로 변하다·아무 명사(이)나 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-07-V1-001",
+      "displaySentence": "처음에는 창피했지만 나중에는 자랑스러움으로 변했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-001_card_0",
+          "처음에는"
+        ],
+        [
+          "SEJONG-4A-07-V1-001_card_1",
+          "창피했지만"
+        ],
+        [
+          "SEJONG-4A-07-V1-001_card_2",
+          "나중에는"
+        ],
+        [
+          "SEJONG-4A-07-V1-001_card_3",
+          "자랑스러움으로"
+        ],
+        [
+          "SEJONG-4A-07-V1-001_card_4",
+          "변했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-001_card_0",
+          "SEJONG-4A-07-V1-001_card_1",
+          "SEJONG-4A-07-V1-001_card_2",
+          "SEJONG-4A-07-V1-001_card_3",
+          "SEJONG-4A-07-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-002",
+      "displaySentence": "긴장이 심해지면서 얼굴이 빨간색으로 변했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-002_card_0",
+          "긴장이"
+        ],
+        [
+          "SEJONG-4A-07-V1-002_card_1",
+          "심해지면서"
+        ],
+        [
+          "SEJONG-4A-07-V1-002_card_2",
+          "얼굴이"
+        ],
+        [
+          "SEJONG-4A-07-V1-002_card_3",
+          "빨간색으로"
+        ],
+        [
+          "SEJONG-4A-07-V1-002_card_4",
+          "변했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-002_card_0",
+          "SEJONG-4A-07-V1-002_card_1",
+          "SEJONG-4A-07-V1-002_card_2",
+          "SEJONG-4A-07-V1-002_card_3",
+          "SEJONG-4A-07-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-003",
+      "displaySentence": "놀란 표정이 곧 웃는 표정으로 변했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-003_card_0",
+          "놀란"
+        ],
+        [
+          "SEJONG-4A-07-V1-003_card_1",
+          "표정이"
+        ],
+        [
+          "SEJONG-4A-07-V1-003_card_2",
+          "곧"
+        ],
+        [
+          "SEJONG-4A-07-V1-003_card_3",
+          "웃는"
+        ],
+        [
+          "SEJONG-4A-07-V1-003_card_4",
+          "표정으로"
+        ],
+        [
+          "SEJONG-4A-07-V1-003_card_5",
+          "변했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-003_card_0",
+          "SEJONG-4A-07-V1-003_card_1",
+          "SEJONG-4A-07-V1-003_card_2",
+          "SEJONG-4A-07-V1-003_card_3",
+          "SEJONG-4A-07-V1-003_card_4",
+          "SEJONG-4A-07-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-004",
+      "displaySentence": "당황스러운 마음이 안도감으로 변했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-004_card_0",
+          "당황스러운"
+        ],
+        [
+          "SEJONG-4A-07-V1-004_card_1",
+          "마음이"
+        ],
+        [
+          "SEJONG-4A-07-V1-004_card_2",
+          "안도감으로"
+        ],
+        [
+          "SEJONG-4A-07-V1-004_card_3",
+          "변했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-004_card_0",
+          "SEJONG-4A-07-V1-004_card_1",
+          "SEJONG-4A-07-V1-004_card_2",
+          "SEJONG-4A-07-V1-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-005",
+      "displaySentence": "긴장이 지나가자 떨림이 자신감으로 변했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-005_card_0",
+          "긴장이"
+        ],
+        [
+          "SEJONG-4A-07-V1-005_card_1",
+          "지나가자"
+        ],
+        [
+          "SEJONG-4A-07-V1-005_card_2",
+          "떨림이"
+        ],
+        [
+          "SEJONG-4A-07-V1-005_card_3",
+          "자신감으로"
+        ],
+        [
+          "SEJONG-4A-07-V1-005_card_4",
+          "변했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-005_card_0",
+          "SEJONG-4A-07-V1-005_card_1",
+          "SEJONG-4A-07-V1-005_card_2",
+          "SEJONG-4A-07-V1-005_card_3",
+          "SEJONG-4A-07-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-006",
+      "displaySentence": "발표할 때는 아무 질문이나 먼저 해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-006_card_0",
+          "발표할"
+        ],
+        [
+          "SEJONG-4A-07-V1-006_card_1",
+          "때는"
+        ],
+        [
+          "SEJONG-4A-07-V1-006_card_2",
+          "아무"
+        ],
+        [
+          "SEJONG-4A-07-V1-006_card_3",
+          "질문이나"
+        ],
+        [
+          "SEJONG-4A-07-V1-006_card_4",
+          "먼저"
+        ],
+        [
+          "SEJONG-4A-07-V1-006_card_5",
+          "해"
+        ],
+        [
+          "SEJONG-4A-07-V1-006_card_6",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-006_card_0",
+          "SEJONG-4A-07-V1-006_card_1",
+          "SEJONG-4A-07-V1-006_card_2",
+          "SEJONG-4A-07-V1-006_card_3",
+          "SEJONG-4A-07-V1-006_card_4",
+          "SEJONG-4A-07-V1-006_card_5",
+          "SEJONG-4A-07-V1-006_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-007",
+      "displaySentence": "모르는 내용은 아무 선생님에게나 물어보세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-007_card_0",
+          "모르는"
+        ],
+        [
+          "SEJONG-4A-07-V1-007_card_1",
+          "내용은"
+        ],
+        [
+          "SEJONG-4A-07-V1-007_card_2",
+          "아무"
+        ],
+        [
+          "SEJONG-4A-07-V1-007_card_3",
+          "선생님에게나"
+        ],
+        [
+          "SEJONG-4A-07-V1-007_card_4",
+          "물어보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-007_card_0",
+          "SEJONG-4A-07-V1-007_card_1",
+          "SEJONG-4A-07-V1-007_card_2",
+          "SEJONG-4A-07-V1-007_card_3",
+          "SEJONG-4A-07-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-008",
+      "displaySentence": "긴장될 때는 아무 자리나 잠깐 앉으세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-008_card_0",
+          "긴장될"
+        ],
+        [
+          "SEJONG-4A-07-V1-008_card_1",
+          "때는"
+        ],
+        [
+          "SEJONG-4A-07-V1-008_card_2",
+          "아무"
+        ],
+        [
+          "SEJONG-4A-07-V1-008_card_3",
+          "자리나"
+        ],
+        [
+          "SEJONG-4A-07-V1-008_card_4",
+          "잠깐"
+        ],
+        [
+          "SEJONG-4A-07-V1-008_card_5",
+          "앉으세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-008_card_0",
+          "SEJONG-4A-07-V1-008_card_1",
+          "SEJONG-4A-07-V1-008_card_2",
+          "SEJONG-4A-07-V1-008_card_3",
+          "SEJONG-4A-07-V1-008_card_4",
+          "SEJONG-4A-07-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-009",
+      "displaySentence": "발표 전에 아무 음료나 마시지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-009_card_0",
+          "발표"
+        ],
+        [
+          "SEJONG-4A-07-V1-009_card_1",
+          "전에"
+        ],
+        [
+          "SEJONG-4A-07-V1-009_card_2",
+          "아무"
+        ],
+        [
+          "SEJONG-4A-07-V1-009_card_3",
+          "음료나"
+        ],
+        [
+          "SEJONG-4A-07-V1-009_card_4",
+          "마시지"
+        ],
+        [
+          "SEJONG-4A-07-V1-009_card_5",
+          "마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-009_card_0",
+          "SEJONG-4A-07-V1-009_card_1",
+          "SEJONG-4A-07-V1-009_card_2",
+          "SEJONG-4A-07-V1-009_card_3",
+          "SEJONG-4A-07-V1-009_card_4",
+          "SEJONG-4A-07-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-010",
+      "displaySentence": "시험이 끝나면 아무 이야기나 편하게 하세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-010_card_0",
+          "시험이"
+        ],
+        [
+          "SEJONG-4A-07-V1-010_card_1",
+          "끝나면"
+        ],
+        [
+          "SEJONG-4A-07-V1-010_card_2",
+          "아무"
+        ],
+        [
+          "SEJONG-4A-07-V1-010_card_3",
+          "이야기나"
+        ],
+        [
+          "SEJONG-4A-07-V1-010_card_4",
+          "편하게"
+        ],
+        [
+          "SEJONG-4A-07-V1-010_card_5",
+          "하세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-010_card_0",
+          "SEJONG-4A-07-V1-010_card_1",
+          "SEJONG-4A-07-V1-010_card_2",
+          "SEJONG-4A-07-V1-010_card_3",
+          "SEJONG-4A-07-V1-010_card_4",
+          "SEJONG-4A-07-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-011",
+      "displaySentence": "사람들 앞에 서자 얼굴이 빨개졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-011_card_0",
+          "사람들"
+        ],
+        [
+          "SEJONG-4A-07-V1-011_card_1",
+          "앞에"
+        ],
+        [
+          "SEJONG-4A-07-V1-011_card_2",
+          "서자"
+        ],
+        [
+          "SEJONG-4A-07-V1-011_card_3",
+          "얼굴이"
+        ],
+        [
+          "SEJONG-4A-07-V1-011_card_4",
+          "빨개졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-011_card_0",
+          "SEJONG-4A-07-V1-011_card_1",
+          "SEJONG-4A-07-V1-011_card_2",
+          "SEJONG-4A-07-V1-011_card_3",
+          "SEJONG-4A-07-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-012",
+      "displaySentence": "실수해서 얼굴을 들 수가 없었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-012_card_0",
+          "실수해서"
+        ],
+        [
+          "SEJONG-4A-07-V1-012_card_1",
+          "얼굴을"
+        ],
+        [
+          "SEJONG-4A-07-V1-012_card_2",
+          "들"
+        ],
+        [
+          "SEJONG-4A-07-V1-012_card_3",
+          "수가"
+        ],
+        [
+          "SEJONG-4A-07-V1-012_card_4",
+          "없었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-012_card_0",
+          "SEJONG-4A-07-V1-012_card_1",
+          "SEJONG-4A-07-V1-012_card_2",
+          "SEJONG-4A-07-V1-012_card_3",
+          "SEJONG-4A-07-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-013",
+      "displaySentence": "발표 직전에 가슴이 두근거렸어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-013_card_0",
+          "발표"
+        ],
+        [
+          "SEJONG-4A-07-V1-013_card_1",
+          "직전에"
+        ],
+        [
+          "SEJONG-4A-07-V1-013_card_2",
+          "가슴이"
+        ],
+        [
+          "SEJONG-4A-07-V1-013_card_3",
+          "두근거렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-013_card_0",
+          "SEJONG-4A-07-V1-013_card_1",
+          "SEJONG-4A-07-V1-013_card_2",
+          "SEJONG-4A-07-V1-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-014",
+      "displaySentence": "갑자기 이름을 불러서 깜짝 놀랐어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-014_card_0",
+          "갑자기"
+        ],
+        [
+          "SEJONG-4A-07-V1-014_card_1",
+          "이름을"
+        ],
+        [
+          "SEJONG-4A-07-V1-014_card_2",
+          "불러서"
+        ],
+        [
+          "SEJONG-4A-07-V1-014_card_3",
+          "깜짝"
+        ],
+        [
+          "SEJONG-4A-07-V1-014_card_4",
+          "놀랐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-014_card_0",
+          "SEJONG-4A-07-V1-014_card_1",
+          "SEJONG-4A-07-V1-014_card_2",
+          "SEJONG-4A-07-V1-014_card_3",
+          "SEJONG-4A-07-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-015",
+      "displaySentence": "좋은 결과를 받아서 정말 자랑스러웠어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-015_card_0",
+          "좋은"
+        ],
+        [
+          "SEJONG-4A-07-V1-015_card_1",
+          "결과를"
+        ],
+        [
+          "SEJONG-4A-07-V1-015_card_2",
+          "받아서"
+        ],
+        [
+          "SEJONG-4A-07-V1-015_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4A-07-V1-015_card_4",
+          "자랑스러웠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-015_card_0",
+          "SEJONG-4A-07-V1-015_card_1",
+          "SEJONG-4A-07-V1-015_card_2",
+          "SEJONG-4A-07-V1-015_card_3",
+          "SEJONG-4A-07-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-016",
+      "displaySentence": "학생들이 성장하는 모습을 보며 보람을 느꼈어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-016_card_0",
+          "학생들이"
+        ],
+        [
+          "SEJONG-4A-07-V1-016_card_1",
+          "성장하는"
+        ],
+        [
+          "SEJONG-4A-07-V1-016_card_2",
+          "모습을"
+        ],
+        [
+          "SEJONG-4A-07-V1-016_card_3",
+          "보며"
+        ],
+        [
+          "SEJONG-4A-07-V1-016_card_4",
+          "보람을"
+        ],
+        [
+          "SEJONG-4A-07-V1-016_card_5",
+          "느꼈어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-016_card_0",
+          "SEJONG-4A-07-V1-016_card_1",
+          "SEJONG-4A-07-V1-016_card_2",
+          "SEJONG-4A-07-V1-016_card_3",
+          "SEJONG-4A-07-V1-016_card_4",
+          "SEJONG-4A-07-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-017",
+      "displaySentence": "예상하지 못한 질문에 조금 당황스러웠어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-017_card_0",
+          "예상하지"
+        ],
+        [
+          "SEJONG-4A-07-V1-017_card_1",
+          "못한"
+        ],
+        [
+          "SEJONG-4A-07-V1-017_card_2",
+          "질문에"
+        ],
+        [
+          "SEJONG-4A-07-V1-017_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-4A-07-V1-017_card_4",
+          "당황스러웠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-017_card_0",
+          "SEJONG-4A-07-V1-017_card_1",
+          "SEJONG-4A-07-V1-017_card_2",
+          "SEJONG-4A-07-V1-017_card_3",
+          "SEJONG-4A-07-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-018",
+      "displaySentence": "긴장하던 표정이 미소로 변했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-018_card_0",
+          "긴장하던"
+        ],
+        [
+          "SEJONG-4A-07-V1-018_card_1",
+          "표정이"
+        ],
+        [
+          "SEJONG-4A-07-V1-018_card_2",
+          "미소로"
+        ],
+        [
+          "SEJONG-4A-07-V1-018_card_3",
+          "변했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-018_card_0",
+          "SEJONG-4A-07-V1-018_card_1",
+          "SEJONG-4A-07-V1-018_card_2",
+          "SEJONG-4A-07-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-019",
+      "displaySentence": "아무 자리나 골라서 편하게 앉으세요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-019_card_0",
+          "아무"
+        ],
+        [
+          "SEJONG-4A-07-V1-019_card_1",
+          "자리나"
+        ],
+        [
+          "SEJONG-4A-07-V1-019_card_2",
+          "골라서"
+        ],
+        [
+          "SEJONG-4A-07-V1-019_card_3",
+          "편하게"
+        ],
+        [
+          "SEJONG-4A-07-V1-019_card_4",
+          "앉으세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-019_card_0",
+          "SEJONG-4A-07-V1-019_card_1",
+          "SEJONG-4A-07-V1-019_card_2",
+          "SEJONG-4A-07-V1-019_card_3",
+          "SEJONG-4A-07-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-07-V1-020",
+      "displaySentence": "아무 친구에게나 도움을 부탁해도 괜찮아요.",
+      "tokens": [
+        [
+          "SEJONG-4A-07-V1-020_card_0",
+          "아무"
+        ],
+        [
+          "SEJONG-4A-07-V1-020_card_1",
+          "친구에게나"
+        ],
+        [
+          "SEJONG-4A-07-V1-020_card_2",
+          "도움을"
+        ],
+        [
+          "SEJONG-4A-07-V1-020_card_3",
+          "부탁해도"
+        ],
+        [
+          "SEJONG-4A-07-V1-020_card_4",
+          "괜찮아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-07-V1-020_card_0",
+          "SEJONG-4A-07-V1-020_card_1",
+          "SEJONG-4A-07-V1-020_card_2",
+          "SEJONG-4A-07-V1-020_card_3",
+          "SEJONG-4A-07-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 7과 문법 -(으)로 변하다 / 아무 명사(이)나 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 7과 범위 재구성"
+    }
+  ]
+}

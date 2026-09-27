@@ -1,0 +1,778 @@
+{
+  "book": "4A",
+  "lesson": 4,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 4과 범위",
+  "selectionPolicy": [
+    "4과 핵심 문법 -(으)로 인해서·-(으)면서 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-04-V1-001",
+      "displaySentence": "폭우로 인해서 도로에 큰 피해가 발생했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-001_card_0",
+          "폭우로"
+        ],
+        [
+          "SEJONG-4A-04-V1-001_card_1",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-001_card_2",
+          "도로에"
+        ],
+        [
+          "SEJONG-4A-04-V1-001_card_3",
+          "큰"
+        ],
+        [
+          "SEJONG-4A-04-V1-001_card_4",
+          "피해가"
+        ],
+        [
+          "SEJONG-4A-04-V1-001_card_5",
+          "발생했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-001_card_0",
+          "SEJONG-4A-04-V1-001_card_1",
+          "SEJONG-4A-04-V1-001_card_2",
+          "SEJONG-4A-04-V1-001_card_3",
+          "SEJONG-4A-04-V1-001_card_4",
+          "SEJONG-4A-04-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-002",
+      "displaySentence": "폭설로 인해서 교통이 많이 막혔어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-002_card_0",
+          "폭설로"
+        ],
+        [
+          "SEJONG-4A-04-V1-002_card_1",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-002_card_2",
+          "교통이"
+        ],
+        [
+          "SEJONG-4A-04-V1-002_card_3",
+          "많이"
+        ],
+        [
+          "SEJONG-4A-04-V1-002_card_4",
+          "막혔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-002_card_0",
+          "SEJONG-4A-04-V1-002_card_1",
+          "SEJONG-4A-04-V1-002_card_2",
+          "SEJONG-4A-04-V1-002_card_3",
+          "SEJONG-4A-04-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-003",
+      "displaySentence": "가뭄으로 인해서 농작물이 큰 피해를 입었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-003_card_0",
+          "가뭄으로"
+        ],
+        [
+          "SEJONG-4A-04-V1-003_card_1",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-003_card_2",
+          "농작물이"
+        ],
+        [
+          "SEJONG-4A-04-V1-003_card_3",
+          "큰"
+        ],
+        [
+          "SEJONG-4A-04-V1-003_card_4",
+          "피해를"
+        ],
+        [
+          "SEJONG-4A-04-V1-003_card_5",
+          "입었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-003_card_0",
+          "SEJONG-4A-04-V1-003_card_1",
+          "SEJONG-4A-04-V1-003_card_2",
+          "SEJONG-4A-04-V1-003_card_3",
+          "SEJONG-4A-04-V1-003_card_4",
+          "SEJONG-4A-04-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-004",
+      "displaySentence": "홍수로 인해서 많은 사람들이 대피했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-004_card_0",
+          "홍수로"
+        ],
+        [
+          "SEJONG-4A-04-V1-004_card_1",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-004_card_2",
+          "많은"
+        ],
+        [
+          "SEJONG-4A-04-V1-004_card_3",
+          "사람들이"
+        ],
+        [
+          "SEJONG-4A-04-V1-004_card_4",
+          "대피했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-004_card_0",
+          "SEJONG-4A-04-V1-004_card_1",
+          "SEJONG-4A-04-V1-004_card_2",
+          "SEJONG-4A-04-V1-004_card_3",
+          "SEJONG-4A-04-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-005",
+      "displaySentence": "산사태로 인해서 도로가 통제되었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-005_card_0",
+          "산사태로"
+        ],
+        [
+          "SEJONG-4A-04-V1-005_card_1",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-005_card_2",
+          "도로가"
+        ],
+        [
+          "SEJONG-4A-04-V1-005_card_3",
+          "통제되었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-005_card_0",
+          "SEJONG-4A-04-V1-005_card_1",
+          "SEJONG-4A-04-V1-005_card_2",
+          "SEJONG-4A-04-V1-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-006",
+      "displaySentence": "전염병으로 인해서 학교가 잠시 문을 닫았어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-006_card_0",
+          "전염병으로"
+        ],
+        [
+          "SEJONG-4A-04-V1-006_card_1",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-006_card_2",
+          "학교가"
+        ],
+        [
+          "SEJONG-4A-04-V1-006_card_3",
+          "잠시"
+        ],
+        [
+          "SEJONG-4A-04-V1-006_card_4",
+          "문을"
+        ],
+        [
+          "SEJONG-4A-04-V1-006_card_5",
+          "닫았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-006_card_0",
+          "SEJONG-4A-04-V1-006_card_1",
+          "SEJONG-4A-04-V1-006_card_2",
+          "SEJONG-4A-04-V1-006_card_3",
+          "SEJONG-4A-04-V1-006_card_4",
+          "SEJONG-4A-04-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-007",
+      "displaySentence": "화산 폭발로 인해서 비행기가 결항되었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-007_card_0",
+          "화산"
+        ],
+        [
+          "SEJONG-4A-04-V1-007_card_1",
+          "폭발로"
+        ],
+        [
+          "SEJONG-4A-04-V1-007_card_2",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-007_card_3",
+          "비행기가"
+        ],
+        [
+          "SEJONG-4A-04-V1-007_card_4",
+          "결항되었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-007_card_0",
+          "SEJONG-4A-04-V1-007_card_1",
+          "SEJONG-4A-04-V1-007_card_2",
+          "SEJONG-4A-04-V1-007_card_3",
+          "SEJONG-4A-04-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-008",
+      "displaySentence": "구조대가 부상자를 옮기면서 상황을 확인했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-008_card_0",
+          "구조대가"
+        ],
+        [
+          "SEJONG-4A-04-V1-008_card_1",
+          "부상자를"
+        ],
+        [
+          "SEJONG-4A-04-V1-008_card_2",
+          "옮기면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-008_card_3",
+          "상황을"
+        ],
+        [
+          "SEJONG-4A-04-V1-008_card_4",
+          "확인했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-008_card_0",
+          "SEJONG-4A-04-V1-008_card_1",
+          "SEJONG-4A-04-V1-008_card_2",
+          "SEJONG-4A-04-V1-008_card_3",
+          "SEJONG-4A-04-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-009",
+      "displaySentence": "사람들이 대피하면서 가족에게 연락했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-009_card_0",
+          "사람들이"
+        ],
+        [
+          "SEJONG-4A-04-V1-009_card_1",
+          "대피하면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-009_card_2",
+          "가족에게"
+        ],
+        [
+          "SEJONG-4A-04-V1-009_card_3",
+          "연락했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-009_card_0",
+          "SEJONG-4A-04-V1-009_card_1",
+          "SEJONG-4A-04-V1-009_card_2",
+          "SEJONG-4A-04-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-010",
+      "displaySentence": "폭우가 내리면서 강물이 빠르게 불어났어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-010_card_0",
+          "폭우가"
+        ],
+        [
+          "SEJONG-4A-04-V1-010_card_1",
+          "내리면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-010_card_2",
+          "강물이"
+        ],
+        [
+          "SEJONG-4A-04-V1-010_card_3",
+          "빠르게"
+        ],
+        [
+          "SEJONG-4A-04-V1-010_card_4",
+          "불어났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-010_card_0",
+          "SEJONG-4A-04-V1-010_card_1",
+          "SEJONG-4A-04-V1-010_card_2",
+          "SEJONG-4A-04-V1-010_card_3",
+          "SEJONG-4A-04-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-011",
+      "displaySentence": "눈이 많이 오면서 길이 얼기 시작했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-011_card_0",
+          "눈이"
+        ],
+        [
+          "SEJONG-4A-04-V1-011_card_1",
+          "많이"
+        ],
+        [
+          "SEJONG-4A-04-V1-011_card_2",
+          "오면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-011_card_3",
+          "길이"
+        ],
+        [
+          "SEJONG-4A-04-V1-011_card_4",
+          "얼기"
+        ],
+        [
+          "SEJONG-4A-04-V1-011_card_5",
+          "시작했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-011_card_0",
+          "SEJONG-4A-04-V1-011_card_1",
+          "SEJONG-4A-04-V1-011_card_2",
+          "SEJONG-4A-04-V1-011_card_3",
+          "SEJONG-4A-04-V1-011_card_4",
+          "SEJONG-4A-04-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-012",
+      "displaySentence": "소방관들이 산불을 끄면서 주민을 대피시켰어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-012_card_0",
+          "소방관들이"
+        ],
+        [
+          "SEJONG-4A-04-V1-012_card_1",
+          "산불을"
+        ],
+        [
+          "SEJONG-4A-04-V1-012_card_2",
+          "끄면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-012_card_3",
+          "주민을"
+        ],
+        [
+          "SEJONG-4A-04-V1-012_card_4",
+          "대피시켰어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-012_card_0",
+          "SEJONG-4A-04-V1-012_card_1",
+          "SEJONG-4A-04-V1-012_card_2",
+          "SEJONG-4A-04-V1-012_card_3",
+          "SEJONG-4A-04-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-013",
+      "displaySentence": "경찰이 실종자를 찾으면서 주변을 조사했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-013_card_0",
+          "경찰이"
+        ],
+        [
+          "SEJONG-4A-04-V1-013_card_1",
+          "실종자를"
+        ],
+        [
+          "SEJONG-4A-04-V1-013_card_2",
+          "찾으면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-013_card_3",
+          "주변을"
+        ],
+        [
+          "SEJONG-4A-04-V1-013_card_4",
+          "조사했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-013_card_0",
+          "SEJONG-4A-04-V1-013_card_1",
+          "SEJONG-4A-04-V1-013_card_2",
+          "SEJONG-4A-04-V1-013_card_3",
+          "SEJONG-4A-04-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-014",
+      "displaySentence": "구급대가 부상자를 치료하면서 병원으로 옮겼어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-014_card_0",
+          "구급대가"
+        ],
+        [
+          "SEJONG-4A-04-V1-014_card_1",
+          "부상자를"
+        ],
+        [
+          "SEJONG-4A-04-V1-014_card_2",
+          "치료하면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-014_card_3",
+          "병원으로"
+        ],
+        [
+          "SEJONG-4A-04-V1-014_card_4",
+          "옮겼어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-014_card_0",
+          "SEJONG-4A-04-V1-014_card_1",
+          "SEJONG-4A-04-V1-014_card_2",
+          "SEJONG-4A-04-V1-014_card_3",
+          "SEJONG-4A-04-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-015",
+      "displaySentence": "홍수가 발생하면서 많은 집이 물에 잠겼어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-015_card_0",
+          "홍수가"
+        ],
+        [
+          "SEJONG-4A-04-V1-015_card_1",
+          "발생하면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-015_card_2",
+          "많은"
+        ],
+        [
+          "SEJONG-4A-04-V1-015_card_3",
+          "집이"
+        ],
+        [
+          "SEJONG-4A-04-V1-015_card_4",
+          "물에"
+        ],
+        [
+          "SEJONG-4A-04-V1-015_card_5",
+          "잠겼어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-015_card_0",
+          "SEJONG-4A-04-V1-015_card_1",
+          "SEJONG-4A-04-V1-015_card_2",
+          "SEJONG-4A-04-V1-015_card_3",
+          "SEJONG-4A-04-V1-015_card_4",
+          "SEJONG-4A-04-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-016",
+      "displaySentence": "전염병이 퍼지면서 병원이 매우 바빠졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-016_card_0",
+          "전염병이"
+        ],
+        [
+          "SEJONG-4A-04-V1-016_card_1",
+          "퍼지면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-016_card_2",
+          "병원이"
+        ],
+        [
+          "SEJONG-4A-04-V1-016_card_3",
+          "매우"
+        ],
+        [
+          "SEJONG-4A-04-V1-016_card_4",
+          "바빠졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-016_card_0",
+          "SEJONG-4A-04-V1-016_card_1",
+          "SEJONG-4A-04-V1-016_card_2",
+          "SEJONG-4A-04-V1-016_card_3",
+          "SEJONG-4A-04-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-017",
+      "displaySentence": "산사태가 나면서 도로 일부가 무너졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-017_card_0",
+          "산사태가"
+        ],
+        [
+          "SEJONG-4A-04-V1-017_card_1",
+          "나면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-017_card_2",
+          "도로"
+        ],
+        [
+          "SEJONG-4A-04-V1-017_card_3",
+          "일부가"
+        ],
+        [
+          "SEJONG-4A-04-V1-017_card_4",
+          "무너졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-017_card_0",
+          "SEJONG-4A-04-V1-017_card_1",
+          "SEJONG-4A-04-V1-017_card_2",
+          "SEJONG-4A-04-V1-017_card_3",
+          "SEJONG-4A-04-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-018",
+      "displaySentence": "폭설로 인해서 학교 수업이 취소되었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-018_card_0",
+          "폭설로"
+        ],
+        [
+          "SEJONG-4A-04-V1-018_card_1",
+          "인해서"
+        ],
+        [
+          "SEJONG-4A-04-V1-018_card_2",
+          "학교"
+        ],
+        [
+          "SEJONG-4A-04-V1-018_card_3",
+          "수업이"
+        ],
+        [
+          "SEJONG-4A-04-V1-018_card_4",
+          "취소되었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-018_card_0",
+          "SEJONG-4A-04-V1-018_card_1",
+          "SEJONG-4A-04-V1-018_card_2",
+          "SEJONG-4A-04-V1-018_card_3",
+          "SEJONG-4A-04-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-019",
+      "displaySentence": "피해를 입은 주민들이 복구 작업을 시작했어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-019_card_0",
+          "피해를"
+        ],
+        [
+          "SEJONG-4A-04-V1-019_card_1",
+          "입은"
+        ],
+        [
+          "SEJONG-4A-04-V1-019_card_2",
+          "주민들이"
+        ],
+        [
+          "SEJONG-4A-04-V1-019_card_3",
+          "복구"
+        ],
+        [
+          "SEJONG-4A-04-V1-019_card_4",
+          "작업을"
+        ],
+        [
+          "SEJONG-4A-04-V1-019_card_5",
+          "시작했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-019_card_0",
+          "SEJONG-4A-04-V1-019_card_1",
+          "SEJONG-4A-04-V1-019_card_2",
+          "SEJONG-4A-04-V1-019_card_3",
+          "SEJONG-4A-04-V1-019_card_4",
+          "SEJONG-4A-04-V1-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-04-V1-020",
+      "displaySentence": "재난이 발생하면서 구조 작업도 시작되었어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-04-V1-020_card_0",
+          "재난이"
+        ],
+        [
+          "SEJONG-4A-04-V1-020_card_1",
+          "발생하면서"
+        ],
+        [
+          "SEJONG-4A-04-V1-020_card_2",
+          "구조"
+        ],
+        [
+          "SEJONG-4A-04-V1-020_card_3",
+          "작업도"
+        ],
+        [
+          "SEJONG-4A-04-V1-020_card_4",
+          "시작되었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-04-V1-020_card_0",
+          "SEJONG-4A-04-V1-020_card_1",
+          "SEJONG-4A-04-V1-020_card_2",
+          "SEJONG-4A-04-V1-020_card_3",
+          "SEJONG-4A-04-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 4과 문법 -(으)로 인해서 / -(으)면서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 4과 범위 재구성"
+    }
+  ]
+}

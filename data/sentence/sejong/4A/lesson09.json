@@ -1,0 +1,793 @@
+{
+  "book": "4A",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 9과 범위",
+  "selectionPolicy": [
+    "9과 핵심 문법 -지 않아요?·얼마나 -는다고요/-ㄴ다고요/-다고요 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-09-V1-001",
+      "displaySentence": "이번 주 방송 정말 유익하지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-001_card_0",
+          "이번"
+        ],
+        [
+          "SEJONG-4A-09-V1-001_card_1",
+          "주"
+        ],
+        [
+          "SEJONG-4A-09-V1-001_card_2",
+          "방송"
+        ],
+        [
+          "SEJONG-4A-09-V1-001_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4A-09-V1-001_card_4",
+          "유익하지"
+        ],
+        [
+          "SEJONG-4A-09-V1-001_card_5",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-001_card_0",
+          "SEJONG-4A-09-V1-001_card_1",
+          "SEJONG-4A-09-V1-001_card_2",
+          "SEJONG-4A-09-V1-001_card_3",
+          "SEJONG-4A-09-V1-001_card_4",
+          "SEJONG-4A-09-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-002",
+      "displaySentence": "이 프로그램은 내용이 신선하지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-002_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-09-V1-002_card_1",
+          "프로그램은"
+        ],
+        [
+          "SEJONG-4A-09-V1-002_card_2",
+          "내용이"
+        ],
+        [
+          "SEJONG-4A-09-V1-002_card_3",
+          "신선하지"
+        ],
+        [
+          "SEJONG-4A-09-V1-002_card_4",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-002_card_0",
+          "SEJONG-4A-09-V1-002_card_1",
+          "SEJONG-4A-09-V1-002_card_2",
+          "SEJONG-4A-09-V1-002_card_3",
+          "SEJONG-4A-09-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-003",
+      "displaySentence": "그 장면은 우리 사회를 잘 반영하지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-003_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-09-V1-003_card_1",
+          "장면은"
+        ],
+        [
+          "SEJONG-4A-09-V1-003_card_2",
+          "우리"
+        ],
+        [
+          "SEJONG-4A-09-V1-003_card_3",
+          "사회를"
+        ],
+        [
+          "SEJONG-4A-09-V1-003_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-4A-09-V1-003_card_5",
+          "반영하지"
+        ],
+        [
+          "SEJONG-4A-09-V1-003_card_6",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-003_card_0",
+          "SEJONG-4A-09-V1-003_card_1",
+          "SEJONG-4A-09-V1-003_card_2",
+          "SEJONG-4A-09-V1-003_card_3",
+          "SEJONG-4A-09-V1-003_card_4",
+          "SEJONG-4A-09-V1-003_card_5",
+          "SEJONG-4A-09-V1-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-004",
+      "displaySentence": "이야기가 현실적이라 공감이 가지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-004_card_0",
+          "이야기가"
+        ],
+        [
+          "SEJONG-4A-09-V1-004_card_1",
+          "현실적이라"
+        ],
+        [
+          "SEJONG-4A-09-V1-004_card_2",
+          "공감이"
+        ],
+        [
+          "SEJONG-4A-09-V1-004_card_3",
+          "가지"
+        ],
+        [
+          "SEJONG-4A-09-V1-004_card_4",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-004_card_0",
+          "SEJONG-4A-09-V1-004_card_1",
+          "SEJONG-4A-09-V1-004_card_2",
+          "SEJONG-4A-09-V1-004_card_3",
+          "SEJONG-4A-09-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-005",
+      "displaySentence": "같은 내용이 반복되면 조금 식상하지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-005_card_0",
+          "같은"
+        ],
+        [
+          "SEJONG-4A-09-V1-005_card_1",
+          "내용이"
+        ],
+        [
+          "SEJONG-4A-09-V1-005_card_2",
+          "반복되면"
+        ],
+        [
+          "SEJONG-4A-09-V1-005_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-4A-09-V1-005_card_4",
+          "식상하지"
+        ],
+        [
+          "SEJONG-4A-09-V1-005_card_5",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-005_card_0",
+          "SEJONG-4A-09-V1-005_card_1",
+          "SEJONG-4A-09-V1-005_card_2",
+          "SEJONG-4A-09-V1-005_card_3",
+          "SEJONG-4A-09-V1-005_card_4",
+          "SEJONG-4A-09-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-006",
+      "displaySentence": "그 장면은 너무 자극적이지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-006_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-09-V1-006_card_1",
+          "장면은"
+        ],
+        [
+          "SEJONG-4A-09-V1-006_card_2",
+          "너무"
+        ],
+        [
+          "SEJONG-4A-09-V1-006_card_3",
+          "자극적이지"
+        ],
+        [
+          "SEJONG-4A-09-V1-006_card_4",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-006_card_0",
+          "SEJONG-4A-09-V1-006_card_1",
+          "SEJONG-4A-09-V1-006_card_2",
+          "SEJONG-4A-09-V1-006_card_3",
+          "SEJONG-4A-09-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-007",
+      "displaySentence": "이 방송은 상식을 쌓는 데 도움이 되지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-09-V1-007_card_1",
+          "방송은"
+        ],
+        [
+          "SEJONG-4A-09-V1-007_card_2",
+          "상식을"
+        ],
+        [
+          "SEJONG-4A-09-V1-007_card_3",
+          "쌓는"
+        ],
+        [
+          "SEJONG-4A-09-V1-007_card_4",
+          "데"
+        ],
+        [
+          "SEJONG-4A-09-V1-007_card_5",
+          "도움이"
+        ],
+        [
+          "SEJONG-4A-09-V1-007_card_6",
+          "되지"
+        ],
+        [
+          "SEJONG-4A-09-V1-007_card_7",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-007_card_0",
+          "SEJONG-4A-09-V1-007_card_1",
+          "SEJONG-4A-09-V1-007_card_2",
+          "SEJONG-4A-09-V1-007_card_3",
+          "SEJONG-4A-09-V1-007_card_4",
+          "SEJONG-4A-09-V1-007_card_5",
+          "SEJONG-4A-09-V1-007_card_6",
+          "SEJONG-4A-09-V1-007_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-008",
+      "displaySentence": "따뜻한 이야기가 위로를 주지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-008_card_0",
+          "따뜻한"
+        ],
+        [
+          "SEJONG-4A-09-V1-008_card_1",
+          "이야기가"
+        ],
+        [
+          "SEJONG-4A-09-V1-008_card_2",
+          "위로를"
+        ],
+        [
+          "SEJONG-4A-09-V1-008_card_3",
+          "주지"
+        ],
+        [
+          "SEJONG-4A-09-V1-008_card_4",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-008_card_0",
+          "SEJONG-4A-09-V1-008_card_1",
+          "SEJONG-4A-09-V1-008_card_2",
+          "SEJONG-4A-09-V1-008_card_3",
+          "SEJONG-4A-09-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-009",
+      "displaySentence": "이 프로그램은 영향력이 정말 크지 않아요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-009_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-09-V1-009_card_1",
+          "프로그램은"
+        ],
+        [
+          "SEJONG-4A-09-V1-009_card_2",
+          "영향력이"
+        ],
+        [
+          "SEJONG-4A-09-V1-009_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4A-09-V1-009_card_4",
+          "크지"
+        ],
+        [
+          "SEJONG-4A-09-V1-009_card_5",
+          "않아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-009_card_0",
+          "SEJONG-4A-09-V1-009_card_1",
+          "SEJONG-4A-09-V1-009_card_2",
+          "SEJONG-4A-09-V1-009_card_3",
+          "SEJONG-4A-09-V1-009_card_4",
+          "SEJONG-4A-09-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-010",
+      "displaySentence": "이 방송이 얼마나 유익하다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-010_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-09-V1-010_card_1",
+          "방송이"
+        ],
+        [
+          "SEJONG-4A-09-V1-010_card_2",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-010_card_3",
+          "유익하다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-010_card_0",
+          "SEJONG-4A-09-V1-010_card_1",
+          "SEJONG-4A-09-V1-010_card_2",
+          "SEJONG-4A-09-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-011",
+      "displaySentence": "진행 방식이 얼마나 신선하다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-011_card_0",
+          "진행"
+        ],
+        [
+          "SEJONG-4A-09-V1-011_card_1",
+          "방식이"
+        ],
+        [
+          "SEJONG-4A-09-V1-011_card_2",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-011_card_3",
+          "신선하다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-011_card_0",
+          "SEJONG-4A-09-V1-011_card_1",
+          "SEJONG-4A-09-V1-011_card_2",
+          "SEJONG-4A-09-V1-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-012",
+      "displaySentence": "이 드라마가 얼마나 현실적인 내용이라고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-012_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-09-V1-012_card_1",
+          "드라마가"
+        ],
+        [
+          "SEJONG-4A-09-V1-012_card_2",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-012_card_3",
+          "현실적인"
+        ],
+        [
+          "SEJONG-4A-09-V1-012_card_4",
+          "내용이라고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-012_card_0",
+          "SEJONG-4A-09-V1-012_card_1",
+          "SEJONG-4A-09-V1-012_card_2",
+          "SEJONG-4A-09-V1-012_card_3",
+          "SEJONG-4A-09-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-013",
+      "displaySentence": "시청자들이 이 방송에 얼마나 공감한다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-013_card_0",
+          "시청자들이"
+        ],
+        [
+          "SEJONG-4A-09-V1-013_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-4A-09-V1-013_card_2",
+          "방송에"
+        ],
+        [
+          "SEJONG-4A-09-V1-013_card_3",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-013_card_4",
+          "공감한다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-013_card_0",
+          "SEJONG-4A-09-V1-013_card_1",
+          "SEJONG-4A-09-V1-013_card_2",
+          "SEJONG-4A-09-V1-013_card_3",
+          "SEJONG-4A-09-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-014",
+      "displaySentence": "내용이 얼마나 사회를 잘 반영한다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-014_card_0",
+          "내용이"
+        ],
+        [
+          "SEJONG-4A-09-V1-014_card_1",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-014_card_2",
+          "사회를"
+        ],
+        [
+          "SEJONG-4A-09-V1-014_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-4A-09-V1-014_card_4",
+          "반영한다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-014_card_0",
+          "SEJONG-4A-09-V1-014_card_1",
+          "SEJONG-4A-09-V1-014_card_2",
+          "SEJONG-4A-09-V1-014_card_3",
+          "SEJONG-4A-09-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-015",
+      "displaySentence": "그 장면이 얼마나 자극적이었다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-015_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-09-V1-015_card_1",
+          "장면이"
+        ],
+        [
+          "SEJONG-4A-09-V1-015_card_2",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-015_card_3",
+          "자극적이었다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-015_card_0",
+          "SEJONG-4A-09-V1-015_card_1",
+          "SEJONG-4A-09-V1-015_card_2",
+          "SEJONG-4A-09-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-016",
+      "displaySentence": "프로그램이 얼마나 많은 교훈을 준다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-016_card_0",
+          "프로그램이"
+        ],
+        [
+          "SEJONG-4A-09-V1-016_card_1",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-016_card_2",
+          "많은"
+        ],
+        [
+          "SEJONG-4A-09-V1-016_card_3",
+          "교훈을"
+        ],
+        [
+          "SEJONG-4A-09-V1-016_card_4",
+          "준다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-016_card_0",
+          "SEJONG-4A-09-V1-016_card_1",
+          "SEJONG-4A-09-V1-016_card_2",
+          "SEJONG-4A-09-V1-016_card_3",
+          "SEJONG-4A-09-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-017",
+      "displaySentence": "이 방송으로 얼마나 상식을 쌓는다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-017_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-09-V1-017_card_1",
+          "방송으로"
+        ],
+        [
+          "SEJONG-4A-09-V1-017_card_2",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-017_card_3",
+          "상식을"
+        ],
+        [
+          "SEJONG-4A-09-V1-017_card_4",
+          "쌓는다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-017_card_0",
+          "SEJONG-4A-09-V1-017_card_1",
+          "SEJONG-4A-09-V1-017_card_2",
+          "SEJONG-4A-09-V1-017_card_3",
+          "SEJONG-4A-09-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-018",
+      "displaySentence": "따뜻한 장면이 얼마나 위로를 준다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-018_card_0",
+          "따뜻한"
+        ],
+        [
+          "SEJONG-4A-09-V1-018_card_1",
+          "장면이"
+        ],
+        [
+          "SEJONG-4A-09-V1-018_card_2",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-018_card_3",
+          "위로를"
+        ],
+        [
+          "SEJONG-4A-09-V1-018_card_4",
+          "준다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-018_card_0",
+          "SEJONG-4A-09-V1-018_card_1",
+          "SEJONG-4A-09-V1-018_card_2",
+          "SEJONG-4A-09-V1-018_card_3",
+          "SEJONG-4A-09-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-019",
+      "displaySentence": "그 배우의 영향력이 얼마나 크다고요.",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-019_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4A-09-V1-019_card_1",
+          "배우의"
+        ],
+        [
+          "SEJONG-4A-09-V1-019_card_2",
+          "영향력이"
+        ],
+        [
+          "SEJONG-4A-09-V1-019_card_3",
+          "얼마나"
+        ],
+        [
+          "SEJONG-4A-09-V1-019_card_4",
+          "크다고요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-019_card_0",
+          "SEJONG-4A-09-V1-019_card_1",
+          "SEJONG-4A-09-V1-019_card_2",
+          "SEJONG-4A-09-V1-019_card_3",
+          "SEJONG-4A-09-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-09-V1-020",
+      "displaySentence": "이번 주 방송이 정말 볼 만하지 않았어요?",
+      "tokens": [
+        [
+          "SEJONG-4A-09-V1-020_card_0",
+          "이번"
+        ],
+        [
+          "SEJONG-4A-09-V1-020_card_1",
+          "주"
+        ],
+        [
+          "SEJONG-4A-09-V1-020_card_2",
+          "방송이"
+        ],
+        [
+          "SEJONG-4A-09-V1-020_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4A-09-V1-020_card_4",
+          "볼"
+        ],
+        [
+          "SEJONG-4A-09-V1-020_card_5",
+          "만하지"
+        ],
+        [
+          "SEJONG-4A-09-V1-020_card_6",
+          "않았어요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-09-V1-020_card_0",
+          "SEJONG-4A-09-V1-020_card_1",
+          "SEJONG-4A-09-V1-020_card_2",
+          "SEJONG-4A-09-V1-020_card_3",
+          "SEJONG-4A-09-V1-020_card_4",
+          "SEJONG-4A-09-V1-020_card_5",
+          "SEJONG-4A-09-V1-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 9과 문법 -지 않아요? / 얼마나 -는다고요/-ㄴ다고요/-다고요 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 9과 범위 재구성"
+    }
+  ]
+}

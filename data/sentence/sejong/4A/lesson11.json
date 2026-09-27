@@ -1,0 +1,818 @@
+{
+  "book": "4A",
+  "lesson": 11,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4A 본교재 + 익힘책 4A + 어휘 문법과 표현 4A + 더하기 활동 4A의 11과 범위",
+  "selectionPolicy": [
+    "11과 핵심 문법 -(으)로서·-에 대해서 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 새 어휘 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계 문법과 앞선 4A 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4A-11-V1-001",
+      "displaySentence": "춘천은 관광 도시로서 아름다운 자연을 자랑해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-001_card_0",
+          "춘천은"
+        ],
+        [
+          "SEJONG-4A-11-V1-001_card_1",
+          "관광"
+        ],
+        [
+          "SEJONG-4A-11-V1-001_card_2",
+          "도시로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-001_card_3",
+          "아름다운"
+        ],
+        [
+          "SEJONG-4A-11-V1-001_card_4",
+          "자연을"
+        ],
+        [
+          "SEJONG-4A-11-V1-001_card_5",
+          "자랑해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-001_card_0",
+          "SEJONG-4A-11-V1-001_card_1",
+          "SEJONG-4A-11-V1-001_card_2",
+          "SEJONG-4A-11-V1-001_card_3",
+          "SEJONG-4A-11-V1-001_card_4",
+          "SEJONG-4A-11-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-002",
+      "displaySentence": "서울은 수도로서 정치와 경제의 중심지예요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-002_card_0",
+          "서울은"
+        ],
+        [
+          "SEJONG-4A-11-V1-002_card_1",
+          "수도로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-002_card_2",
+          "정치와"
+        ],
+        [
+          "SEJONG-4A-11-V1-002_card_3",
+          "경제의"
+        ],
+        [
+          "SEJONG-4A-11-V1-002_card_4",
+          "중심지예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-002_card_0",
+          "SEJONG-4A-11-V1-002_card_1",
+          "SEJONG-4A-11-V1-002_card_2",
+          "SEJONG-4A-11-V1-002_card_3",
+          "SEJONG-4A-11-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-003",
+      "displaySentence": "부산은 항구 도시로서 교통의 요충지 역할을 해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-003_card_0",
+          "부산은"
+        ],
+        [
+          "SEJONG-4A-11-V1-003_card_1",
+          "항구"
+        ],
+        [
+          "SEJONG-4A-11-V1-003_card_2",
+          "도시로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-003_card_3",
+          "교통의"
+        ],
+        [
+          "SEJONG-4A-11-V1-003_card_4",
+          "요충지"
+        ],
+        [
+          "SEJONG-4A-11-V1-003_card_5",
+          "역할을"
+        ],
+        [
+          "SEJONG-4A-11-V1-003_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-003_card_0",
+          "SEJONG-4A-11-V1-003_card_1",
+          "SEJONG-4A-11-V1-003_card_2",
+          "SEJONG-4A-11-V1-003_card_3",
+          "SEJONG-4A-11-V1-003_card_4",
+          "SEJONG-4A-11-V1-003_card_5",
+          "SEJONG-4A-11-V1-003_card_6"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-004",
+      "displaySentence": "이 지역은 산업 도시로서 공장이 많이 모여 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-004_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-11-V1-004_card_1",
+          "지역은"
+        ],
+        [
+          "SEJONG-4A-11-V1-004_card_2",
+          "산업"
+        ],
+        [
+          "SEJONG-4A-11-V1-004_card_3",
+          "도시로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-004_card_4",
+          "공장이"
+        ],
+        [
+          "SEJONG-4A-11-V1-004_card_5",
+          "많이"
+        ],
+        [
+          "SEJONG-4A-11-V1-004_card_6",
+          "모여"
+        ],
+        [
+          "SEJONG-4A-11-V1-004_card_7",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-004_card_0",
+          "SEJONG-4A-11-V1-004_card_1",
+          "SEJONG-4A-11-V1-004_card_2",
+          "SEJONG-4A-11-V1-004_card_3",
+          "SEJONG-4A-11-V1-004_card_4",
+          "SEJONG-4A-11-V1-004_card_5",
+          "SEJONG-4A-11-V1-004_card_6",
+          "SEJONG-4A-11-V1-004_card_7"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-005",
+      "displaySentence": "농촌 지역으로서 사람들이 주로 농사를 지어요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-005_card_0",
+          "농촌"
+        ],
+        [
+          "SEJONG-4A-11-V1-005_card_1",
+          "지역으로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-005_card_2",
+          "사람들이"
+        ],
+        [
+          "SEJONG-4A-11-V1-005_card_3",
+          "주로"
+        ],
+        [
+          "SEJONG-4A-11-V1-005_card_4",
+          "농사를"
+        ],
+        [
+          "SEJONG-4A-11-V1-005_card_5",
+          "지어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-005_card_0",
+          "SEJONG-4A-11-V1-005_card_1",
+          "SEJONG-4A-11-V1-005_card_2",
+          "SEJONG-4A-11-V1-005_card_3",
+          "SEJONG-4A-11-V1-005_card_4",
+          "SEJONG-4A-11-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-006",
+      "displaySentence": "춘천의 자연환경에 대해서 소개하겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-006_card_0",
+          "춘천의"
+        ],
+        [
+          "SEJONG-4A-11-V1-006_card_1",
+          "자연환경에"
+        ],
+        [
+          "SEJONG-4A-11-V1-006_card_2",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-006_card_3",
+          "소개하겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-006_card_0",
+          "SEJONG-4A-11-V1-006_card_1",
+          "SEJONG-4A-11-V1-006_card_2",
+          "SEJONG-4A-11-V1-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-007",
+      "displaySentence": "이 도시의 교통에 대해서 먼저 말씀드리겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-007_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-11-V1-007_card_1",
+          "도시의"
+        ],
+        [
+          "SEJONG-4A-11-V1-007_card_2",
+          "교통에"
+        ],
+        [
+          "SEJONG-4A-11-V1-007_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-007_card_4",
+          "먼저"
+        ],
+        [
+          "SEJONG-4A-11-V1-007_card_5",
+          "말씀드리겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-007_card_0",
+          "SEJONG-4A-11-V1-007_card_1",
+          "SEJONG-4A-11-V1-007_card_2",
+          "SEJONG-4A-11-V1-007_card_3",
+          "SEJONG-4A-11-V1-007_card_4",
+          "SEJONG-4A-11-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-008",
+      "displaySentence": "지역의 주요 산업에 대해서 설명하겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-008_card_0",
+          "지역의"
+        ],
+        [
+          "SEJONG-4A-11-V1-008_card_1",
+          "주요"
+        ],
+        [
+          "SEJONG-4A-11-V1-008_card_2",
+          "산업에"
+        ],
+        [
+          "SEJONG-4A-11-V1-008_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-008_card_4",
+          "설명하겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-008_card_0",
+          "SEJONG-4A-11-V1-008_card_1",
+          "SEJONG-4A-11-V1-008_card_2",
+          "SEJONG-4A-11-V1-008_card_3",
+          "SEJONG-4A-11-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-009",
+      "displaySentence": "인구가 집중되는 이유에 대해서 이야기하겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-009_card_0",
+          "인구가"
+        ],
+        [
+          "SEJONG-4A-11-V1-009_card_1",
+          "집중되는"
+        ],
+        [
+          "SEJONG-4A-11-V1-009_card_2",
+          "이유에"
+        ],
+        [
+          "SEJONG-4A-11-V1-009_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-009_card_4",
+          "이야기하겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-009_card_0",
+          "SEJONG-4A-11-V1-009_card_1",
+          "SEJONG-4A-11-V1-009_card_2",
+          "SEJONG-4A-11-V1-009_card_3",
+          "SEJONG-4A-11-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-010",
+      "displaySentence": "일자리 문제에 대해서 자료를 보여 드리겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-010_card_0",
+          "일자리"
+        ],
+        [
+          "SEJONG-4A-11-V1-010_card_1",
+          "문제에"
+        ],
+        [
+          "SEJONG-4A-11-V1-010_card_2",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-010_card_3",
+          "자료를"
+        ],
+        [
+          "SEJONG-4A-11-V1-010_card_4",
+          "보여"
+        ],
+        [
+          "SEJONG-4A-11-V1-010_card_5",
+          "드리겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-010_card_0",
+          "SEJONG-4A-11-V1-010_card_1",
+          "SEJONG-4A-11-V1-010_card_2",
+          "SEJONG-4A-11-V1-010_card_3",
+          "SEJONG-4A-11-V1-010_card_4",
+          "SEJONG-4A-11-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-011",
+      "displaySentence": "이 지역은 관광지로서 환경이 쾌적해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-011_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-11-V1-011_card_1",
+          "지역은"
+        ],
+        [
+          "SEJONG-4A-11-V1-011_card_2",
+          "관광지로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-011_card_3",
+          "환경이"
+        ],
+        [
+          "SEJONG-4A-11-V1-011_card_4",
+          "쾌적해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-011_card_0",
+          "SEJONG-4A-11-V1-011_card_1",
+          "SEJONG-4A-11-V1-011_card_2",
+          "SEJONG-4A-11-V1-011_card_3",
+          "SEJONG-4A-11-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-012",
+      "displaySentence": "산업 중심지로서 일자리가 비교적 풍부해요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-012_card_0",
+          "산업"
+        ],
+        [
+          "SEJONG-4A-11-V1-012_card_1",
+          "중심지로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-012_card_2",
+          "일자리가"
+        ],
+        [
+          "SEJONG-4A-11-V1-012_card_3",
+          "비교적"
+        ],
+        [
+          "SEJONG-4A-11-V1-012_card_4",
+          "풍부해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-012_card_0",
+          "SEJONG-4A-11-V1-012_card_1",
+          "SEJONG-4A-11-V1-012_card_2",
+          "SEJONG-4A-11-V1-012_card_3",
+          "SEJONG-4A-11-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-013",
+      "displaySentence": "농업 지역으로서 넓은 들이 많이 보여요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-013_card_0",
+          "농업"
+        ],
+        [
+          "SEJONG-4A-11-V1-013_card_1",
+          "지역으로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-013_card_2",
+          "넓은"
+        ],
+        [
+          "SEJONG-4A-11-V1-013_card_3",
+          "들이"
+        ],
+        [
+          "SEJONG-4A-11-V1-013_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-4A-11-V1-013_card_5",
+          "보여요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-013_card_0",
+          "SEJONG-4A-11-V1-013_card_1",
+          "SEJONG-4A-11-V1-013_card_2",
+          "SEJONG-4A-11-V1-013_card_3",
+          "SEJONG-4A-11-V1-013_card_4",
+          "SEJONG-4A-11-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-014",
+      "displaySentence": "이 도시의 문화에 대해서 자세히 소개하겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-014_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4A-11-V1-014_card_1",
+          "도시의"
+        ],
+        [
+          "SEJONG-4A-11-V1-014_card_2",
+          "문화에"
+        ],
+        [
+          "SEJONG-4A-11-V1-014_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-014_card_4",
+          "자세히"
+        ],
+        [
+          "SEJONG-4A-11-V1-014_card_5",
+          "소개하겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-014_card_0",
+          "SEJONG-4A-11-V1-014_card_1",
+          "SEJONG-4A-11-V1-014_card_2",
+          "SEJONG-4A-11-V1-014_card_3",
+          "SEJONG-4A-11-V1-014_card_4",
+          "SEJONG-4A-11-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-015",
+      "displaySentence": "교통의 요충지라는 점에 대해서 설명하겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-015_card_0",
+          "교통의"
+        ],
+        [
+          "SEJONG-4A-11-V1-015_card_1",
+          "요충지라는"
+        ],
+        [
+          "SEJONG-4A-11-V1-015_card_2",
+          "점에"
+        ],
+        [
+          "SEJONG-4A-11-V1-015_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-015_card_4",
+          "설명하겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-015_card_0",
+          "SEJONG-4A-11-V1-015_card_1",
+          "SEJONG-4A-11-V1-015_card_2",
+          "SEJONG-4A-11-V1-015_card_3",
+          "SEJONG-4A-11-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-016",
+      "displaySentence": "자원이 풍부한 이유에 대해서 알아보겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-016_card_0",
+          "자원이"
+        ],
+        [
+          "SEJONG-4A-11-V1-016_card_1",
+          "풍부한"
+        ],
+        [
+          "SEJONG-4A-11-V1-016_card_2",
+          "이유에"
+        ],
+        [
+          "SEJONG-4A-11-V1-016_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-016_card_4",
+          "알아보겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-016_card_0",
+          "SEJONG-4A-11-V1-016_card_1",
+          "SEJONG-4A-11-V1-016_card_2",
+          "SEJONG-4A-11-V1-016_card_3",
+          "SEJONG-4A-11-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-017",
+      "displaySentence": "인구 변화에 대해서 통계를 보여 드리겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-017_card_0",
+          "인구"
+        ],
+        [
+          "SEJONG-4A-11-V1-017_card_1",
+          "변화에"
+        ],
+        [
+          "SEJONG-4A-11-V1-017_card_2",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-017_card_3",
+          "통계를"
+        ],
+        [
+          "SEJONG-4A-11-V1-017_card_4",
+          "보여"
+        ],
+        [
+          "SEJONG-4A-11-V1-017_card_5",
+          "드리겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-017_card_0",
+          "SEJONG-4A-11-V1-017_card_1",
+          "SEJONG-4A-11-V1-017_card_2",
+          "SEJONG-4A-11-V1-017_card_3",
+          "SEJONG-4A-11-V1-017_card_4",
+          "SEJONG-4A-11-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-018",
+      "displaySentence": "환경이 쾌적한 지역으로서 살기 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-018_card_0",
+          "환경이"
+        ],
+        [
+          "SEJONG-4A-11-V1-018_card_1",
+          "쾌적한"
+        ],
+        [
+          "SEJONG-4A-11-V1-018_card_2",
+          "지역으로서"
+        ],
+        [
+          "SEJONG-4A-11-V1-018_card_3",
+          "살기"
+        ],
+        [
+          "SEJONG-4A-11-V1-018_card_4",
+          "좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-018_card_0",
+          "SEJONG-4A-11-V1-018_card_1",
+          "SEJONG-4A-11-V1-018_card_2",
+          "SEJONG-4A-11-V1-018_card_3",
+          "SEJONG-4A-11-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-019",
+      "displaySentence": "춘천의 아름다운 자연에 대해서 발표하겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-019_card_0",
+          "춘천의"
+        ],
+        [
+          "SEJONG-4A-11-V1-019_card_1",
+          "아름다운"
+        ],
+        [
+          "SEJONG-4A-11-V1-019_card_2",
+          "자연에"
+        ],
+        [
+          "SEJONG-4A-11-V1-019_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-019_card_4",
+          "발표하겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-019_card_0",
+          "SEJONG-4A-11-V1-019_card_1",
+          "SEJONG-4A-11-V1-019_card_2",
+          "SEJONG-4A-11-V1-019_card_3",
+          "SEJONG-4A-11-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4A-11-V1-020",
+      "displaySentence": "지역의 경제와 사회에 대해서 함께 살펴보겠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4A-11-V1-020_card_0",
+          "지역의"
+        ],
+        [
+          "SEJONG-4A-11-V1-020_card_1",
+          "경제와"
+        ],
+        [
+          "SEJONG-4A-11-V1-020_card_2",
+          "사회에"
+        ],
+        [
+          "SEJONG-4A-11-V1-020_card_3",
+          "대해서"
+        ],
+        [
+          "SEJONG-4A-11-V1-020_card_4",
+          "함께"
+        ],
+        [
+          "SEJONG-4A-11-V1-020_card_5",
+          "살펴보겠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4A-11-V1-020_card_0",
+          "SEJONG-4A-11-V1-020_card_1",
+          "SEJONG-4A-11-V1-020_card_2",
+          "SEJONG-4A-11-V1-020_card_3",
+          "SEJONG-4A-11-V1-020_card_4",
+          "SEJONG-4A-11-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4A 11과 문법 -(으)로서 / -에 대해서 및 해당 과 어휘 재구성",
+      "sourceRef": "세종한국어 4A 11과 범위 재구성"
+    }
+  ]
+}
