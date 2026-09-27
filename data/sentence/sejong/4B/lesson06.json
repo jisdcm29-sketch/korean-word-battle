@@ -1,0 +1,773 @@
+{
+  "book": "4B",
+  "lesson": 6,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 6과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "6과 핵심 문법 -는지/(으)ㄴ지 알다, 모르다·-는다면서요?/-ㄴ다면서요?/-다면서요? 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-06-V1-001",
+      "displaySentence": "식당에서 직원을 어떻게 부르는지 알아요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-001_card_0",
+          "식당에서"
+        ],
+        [
+          "SEJONG-4B-06-V1-001_card_1",
+          "직원을"
+        ],
+        [
+          "SEJONG-4B-06-V1-001_card_2",
+          "어떻게"
+        ],
+        [
+          "SEJONG-4B-06-V1-001_card_3",
+          "부르는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-001_card_4",
+          "알아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-001_card_0",
+          "SEJONG-4B-06-V1-001_card_1",
+          "SEJONG-4B-06-V1-001_card_2",
+          "SEJONG-4B-06-V1-001_card_3",
+          "SEJONG-4B-06-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-002",
+      "displaySentence": "한국에서 높임말을 언제 쓰는지 알아요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-002_card_0",
+          "한국에서"
+        ],
+        [
+          "SEJONG-4B-06-V1-002_card_1",
+          "높임말을"
+        ],
+        [
+          "SEJONG-4B-06-V1-002_card_2",
+          "언제"
+        ],
+        [
+          "SEJONG-4B-06-V1-002_card_3",
+          "쓰는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-002_card_4",
+          "알아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-002_card_0",
+          "SEJONG-4B-06-V1-002_card_1",
+          "SEJONG-4B-06-V1-002_card_2",
+          "SEJONG-4B-06-V1-002_card_3",
+          "SEJONG-4B-06-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-003",
+      "displaySentence": "이 지역에 어떤 사투리가 있는지 알아요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-003_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4B-06-V1-003_card_1",
+          "지역에"
+        ],
+        [
+          "SEJONG-4B-06-V1-003_card_2",
+          "어떤"
+        ],
+        [
+          "SEJONG-4B-06-V1-003_card_3",
+          "사투리가"
+        ],
+        [
+          "SEJONG-4B-06-V1-003_card_4",
+          "있는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-003_card_5",
+          "알아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-003_card_0",
+          "SEJONG-4B-06-V1-003_card_1",
+          "SEJONG-4B-06-V1-003_card_2",
+          "SEJONG-4B-06-V1-003_card_3",
+          "SEJONG-4B-06-V1-003_card_4",
+          "SEJONG-4B-06-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-004",
+      "displaySentence": "가족을 어떻게 부르는지 잘 모르겠어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-004_card_0",
+          "가족을"
+        ],
+        [
+          "SEJONG-4B-06-V1-004_card_1",
+          "어떻게"
+        ],
+        [
+          "SEJONG-4B-06-V1-004_card_2",
+          "부르는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-004_card_3",
+          "잘"
+        ],
+        [
+          "SEJONG-4B-06-V1-004_card_4",
+          "모르겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-004_card_0",
+          "SEJONG-4B-06-V1-004_card_1",
+          "SEJONG-4B-06-V1-004_card_2",
+          "SEJONG-4B-06-V1-004_card_3",
+          "SEJONG-4B-06-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-005",
+      "displaySentence": "어른과 식사할 때 어떻게 하는지 알아요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-005_card_0",
+          "어른과"
+        ],
+        [
+          "SEJONG-4B-06-V1-005_card_1",
+          "식사할"
+        ],
+        [
+          "SEJONG-4B-06-V1-005_card_2",
+          "때"
+        ],
+        [
+          "SEJONG-4B-06-V1-005_card_3",
+          "어떻게"
+        ],
+        [
+          "SEJONG-4B-06-V1-005_card_4",
+          "하는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-005_card_5",
+          "알아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-005_card_0",
+          "SEJONG-4B-06-V1-005_card_1",
+          "SEJONG-4B-06-V1-005_card_2",
+          "SEJONG-4B-06-V1-005_card_3",
+          "SEJONG-4B-06-V1-005_card_4",
+          "SEJONG-4B-06-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-006",
+      "displaySentence": "한국에서 집 안에 신발을 신고 들어가는지 알아요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-006_card_0",
+          "한국에서"
+        ],
+        [
+          "SEJONG-4B-06-V1-006_card_1",
+          "집"
+        ],
+        [
+          "SEJONG-4B-06-V1-006_card_2",
+          "안에"
+        ],
+        [
+          "SEJONG-4B-06-V1-006_card_3",
+          "신발을"
+        ],
+        [
+          "SEJONG-4B-06-V1-006_card_4",
+          "신고"
+        ],
+        [
+          "SEJONG-4B-06-V1-006_card_5",
+          "들어가는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-006_card_6",
+          "알아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-006_card_0",
+          "SEJONG-4B-06-V1-006_card_1",
+          "SEJONG-4B-06-V1-006_card_2",
+          "SEJONG-4B-06-V1-006_card_3",
+          "SEJONG-4B-06-V1-006_card_4",
+          "SEJONG-4B-06-V1-006_card_5",
+          "SEJONG-4B-06-V1-006_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-007",
+      "displaySentence": "한국에서는 웃어른을 존경한다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-007_card_0",
+          "한국에서는"
+        ],
+        [
+          "SEJONG-4B-06-V1-007_card_1",
+          "웃어른을"
+        ],
+        [
+          "SEJONG-4B-06-V1-007_card_2",
+          "존경한다"
+        ],
+        [
+          "SEJONG-4B-06-V1-007_card_3",
+          "면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-007_card_0",
+          "SEJONG-4B-06-V1-007_card_1",
+          "SEJONG-4B-06-V1-007_card_2",
+          "SEJONG-4B-06-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-008",
+      "displaySentence": "가족을 부르는 말이 아주 다양하다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-008_card_0",
+          "가족을"
+        ],
+        [
+          "SEJONG-4B-06-V1-008_card_1",
+          "부르는"
+        ],
+        [
+          "SEJONG-4B-06-V1-008_card_2",
+          "말이"
+        ],
+        [
+          "SEJONG-4B-06-V1-008_card_3",
+          "아주"
+        ],
+        [
+          "SEJONG-4B-06-V1-008_card_4",
+          "다양하다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-008_card_0",
+          "SEJONG-4B-06-V1-008_card_1",
+          "SEJONG-4B-06-V1-008_card_2",
+          "SEJONG-4B-06-V1-008_card_3",
+          "SEJONG-4B-06-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-009",
+      "displaySentence": "한국에는 지역 사투리가 많다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-009_card_0",
+          "한국에는"
+        ],
+        [
+          "SEJONG-4B-06-V1-009_card_1",
+          "지역"
+        ],
+        [
+          "SEJONG-4B-06-V1-009_card_2",
+          "사투리가"
+        ],
+        [
+          "SEJONG-4B-06-V1-009_card_3",
+          "많다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-009_card_0",
+          "SEJONG-4B-06-V1-009_card_1",
+          "SEJONG-4B-06-V1-009_card_2",
+          "SEJONG-4B-06-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-010",
+      "displaySentence": "식사할 때 숟가락과 젓가락을 사용한다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-010_card_0",
+          "식사할"
+        ],
+        [
+          "SEJONG-4B-06-V1-010_card_1",
+          "때"
+        ],
+        [
+          "SEJONG-4B-06-V1-010_card_2",
+          "숟가락과"
+        ],
+        [
+          "SEJONG-4B-06-V1-010_card_3",
+          "젓가락을"
+        ],
+        [
+          "SEJONG-4B-06-V1-010_card_4",
+          "사용한다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-010_card_0",
+          "SEJONG-4B-06-V1-010_card_1",
+          "SEJONG-4B-06-V1-010_card_2",
+          "SEJONG-4B-06-V1-010_card_3",
+          "SEJONG-4B-06-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-011",
+      "displaySentence": "한국에서는 반말과 높임말이 있다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-011_card_0",
+          "한국에서는"
+        ],
+        [
+          "SEJONG-4B-06-V1-011_card_1",
+          "반말과"
+        ],
+        [
+          "SEJONG-4B-06-V1-011_card_2",
+          "높임말이"
+        ],
+        [
+          "SEJONG-4B-06-V1-011_card_3",
+          "있다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-011_card_0",
+          "SEJONG-4B-06-V1-011_card_1",
+          "SEJONG-4B-06-V1-011_card_2",
+          "SEJONG-4B-06-V1-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-012",
+      "displaySentence": "한국 사람들은 정이 많다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-012_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-4B-06-V1-012_card_1",
+          "사람들은"
+        ],
+        [
+          "SEJONG-4B-06-V1-012_card_2",
+          "정이"
+        ],
+        [
+          "SEJONG-4B-06-V1-012_card_3",
+          "많다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-012_card_0",
+          "SEJONG-4B-06-V1-012_card_1",
+          "SEJONG-4B-06-V1-012_card_2",
+          "SEJONG-4B-06-V1-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-013",
+      "displaySentence": "어른 앞에서 어떤 말을 써야 하는지 알아요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-013_card_0",
+          "어른"
+        ],
+        [
+          "SEJONG-4B-06-V1-013_card_1",
+          "앞에서"
+        ],
+        [
+          "SEJONG-4B-06-V1-013_card_2",
+          "어떤"
+        ],
+        [
+          "SEJONG-4B-06-V1-013_card_3",
+          "말을"
+        ],
+        [
+          "SEJONG-4B-06-V1-013_card_4",
+          "써야"
+        ],
+        [
+          "SEJONG-4B-06-V1-013_card_5",
+          "하는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-013_card_6",
+          "알아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-013_card_0",
+          "SEJONG-4B-06-V1-013_card_1",
+          "SEJONG-4B-06-V1-013_card_2",
+          "SEJONG-4B-06-V1-013_card_3",
+          "SEJONG-4B-06-V1-013_card_4",
+          "SEJONG-4B-06-V1-013_card_5",
+          "SEJONG-4B-06-V1-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-014",
+      "displaySentence": "이 표현이 어느 지역 사투리인지 모르겠어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-014_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4B-06-V1-014_card_1",
+          "표현이"
+        ],
+        [
+          "SEJONG-4B-06-V1-014_card_2",
+          "어느"
+        ],
+        [
+          "SEJONG-4B-06-V1-014_card_3",
+          "지역"
+        ],
+        [
+          "SEJONG-4B-06-V1-014_card_4",
+          "사투리인지"
+        ],
+        [
+          "SEJONG-4B-06-V1-014_card_5",
+          "모르겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-014_card_0",
+          "SEJONG-4B-06-V1-014_card_1",
+          "SEJONG-4B-06-V1-014_card_2",
+          "SEJONG-4B-06-V1-014_card_3",
+          "SEJONG-4B-06-V1-014_card_4",
+          "SEJONG-4B-06-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-015",
+      "displaySentence": "식사 속도를 누구에게 맞추는지 알아요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-015_card_0",
+          "식사"
+        ],
+        [
+          "SEJONG-4B-06-V1-015_card_1",
+          "속도를"
+        ],
+        [
+          "SEJONG-4B-06-V1-015_card_2",
+          "누구에게"
+        ],
+        [
+          "SEJONG-4B-06-V1-015_card_3",
+          "맞추는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-015_card_4",
+          "알아요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-015_card_0",
+          "SEJONG-4B-06-V1-015_card_1",
+          "SEJONG-4B-06-V1-015_card_2",
+          "SEJONG-4B-06-V1-015_card_3",
+          "SEJONG-4B-06-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-016",
+      "displaySentence": "한국에서는 집에서 신발을 벗는다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-016_card_0",
+          "한국에서는"
+        ],
+        [
+          "SEJONG-4B-06-V1-016_card_1",
+          "집에서"
+        ],
+        [
+          "SEJONG-4B-06-V1-016_card_2",
+          "신발을"
+        ],
+        [
+          "SEJONG-4B-06-V1-016_card_3",
+          "벗는다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-016_card_0",
+          "SEJONG-4B-06-V1-016_card_1",
+          "SEJONG-4B-06-V1-016_card_2",
+          "SEJONG-4B-06-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-017",
+      "displaySentence": "소리와 모양을 나타내는 표현이 많다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-017_card_0",
+          "소리와"
+        ],
+        [
+          "SEJONG-4B-06-V1-017_card_1",
+          "모양을"
+        ],
+        [
+          "SEJONG-4B-06-V1-017_card_2",
+          "나타내는"
+        ],
+        [
+          "SEJONG-4B-06-V1-017_card_3",
+          "표현이"
+        ],
+        [
+          "SEJONG-4B-06-V1-017_card_4",
+          "많다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-017_card_0",
+          "SEJONG-4B-06-V1-017_card_1",
+          "SEJONG-4B-06-V1-017_card_2",
+          "SEJONG-4B-06-V1-017_card_3",
+          "SEJONG-4B-06-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-018",
+      "displaySentence": "사람들이 왜 고개를 돌리는지 잘 모르겠어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-018_card_0",
+          "사람들이"
+        ],
+        [
+          "SEJONG-4B-06-V1-018_card_1",
+          "왜"
+        ],
+        [
+          "SEJONG-4B-06-V1-018_card_2",
+          "고개를"
+        ],
+        [
+          "SEJONG-4B-06-V1-018_card_3",
+          "돌리는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-018_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-4B-06-V1-018_card_5",
+          "모르겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-018_card_0",
+          "SEJONG-4B-06-V1-018_card_1",
+          "SEJONG-4B-06-V1-018_card_2",
+          "SEJONG-4B-06-V1-018_card_3",
+          "SEJONG-4B-06-V1-018_card_4",
+          "SEJONG-4B-06-V1-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-019",
+      "displaySentence": "한국에서는 우리를 중요하게 생각한다면서요?",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-019_card_0",
+          "한국에서는"
+        ],
+        [
+          "SEJONG-4B-06-V1-019_card_1",
+          "우리를"
+        ],
+        [
+          "SEJONG-4B-06-V1-019_card_2",
+          "중요하게"
+        ],
+        [
+          "SEJONG-4B-06-V1-019_card_3",
+          "생각한다면서요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-019_card_0",
+          "SEJONG-4B-06-V1-019_card_1",
+          "SEJONG-4B-06-V1-019_card_2",
+          "SEJONG-4B-06-V1-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-06-V1-020",
+      "displaySentence": "어른을 어떻게 존경해야 하는지 이야기해 주세요.",
+      "tokens": [
+        [
+          "SEJONG-4B-06-V1-020_card_0",
+          "어른을"
+        ],
+        [
+          "SEJONG-4B-06-V1-020_card_1",
+          "어떻게"
+        ],
+        [
+          "SEJONG-4B-06-V1-020_card_2",
+          "존경해야"
+        ],
+        [
+          "SEJONG-4B-06-V1-020_card_3",
+          "하는지"
+        ],
+        [
+          "SEJONG-4B-06-V1-020_card_4",
+          "이야기해"
+        ],
+        [
+          "SEJONG-4B-06-V1-020_card_5",
+          "주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-06-V1-020_card_0",
+          "SEJONG-4B-06-V1-020_card_1",
+          "SEJONG-4B-06-V1-020_card_2",
+          "SEJONG-4B-06-V1-020_card_3",
+          "SEJONG-4B-06-V1-020_card_4",
+          "SEJONG-4B-06-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 6과 문법 -는지/(으)ㄴ지 알다, 모르다 / -는다면서요?/-ㄴ다면서요?/-다면서요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 6과 범위 재구성"
+    }
+  ]
+}

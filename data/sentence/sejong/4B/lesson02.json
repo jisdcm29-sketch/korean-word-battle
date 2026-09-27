@@ -1,0 +1,858 @@
+{
+  "book": "4B",
+  "lesson": 2,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 2과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "2과 핵심 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다·-던 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-02-V1-001",
+      "displaySentence": "처음에는 그가 내성적인 사람인 줄 알았어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-001_card_0",
+          "처음에는"
+        ],
+        [
+          "SEJONG-4B-02-V1-001_card_1",
+          "그가"
+        ],
+        [
+          "SEJONG-4B-02-V1-001_card_2",
+          "내성적인"
+        ],
+        [
+          "SEJONG-4B-02-V1-001_card_3",
+          "사람인"
+        ],
+        [
+          "SEJONG-4B-02-V1-001_card_4",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-001_card_5",
+          "알았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-001_card_0",
+          "SEJONG-4B-02-V1-001_card_1",
+          "SEJONG-4B-02-V1-001_card_2",
+          "SEJONG-4B-02-V1-001_card_3",
+          "SEJONG-4B-02-V1-001_card_4",
+          "SEJONG-4B-02-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-002",
+      "displaySentence": "저는 친구가 낯을 많이 가리는 줄 알았어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-002_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-4B-02-V1-002_card_1",
+          "친구가"
+        ],
+        [
+          "SEJONG-4B-02-V1-002_card_2",
+          "낯을"
+        ],
+        [
+          "SEJONG-4B-02-V1-002_card_3",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-02-V1-002_card_4",
+          "가리는"
+        ],
+        [
+          "SEJONG-4B-02-V1-002_card_5",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-002_card_6",
+          "알았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-002_card_0",
+          "SEJONG-4B-02-V1-002_card_1",
+          "SEJONG-4B-02-V1-002_card_2",
+          "SEJONG-4B-02-V1-002_card_3",
+          "SEJONG-4B-02-V1-002_card_4",
+          "SEJONG-4B-02-V1-002_card_5",
+          "SEJONG-4B-02-V1-002_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-003",
+      "displaySentence": "그 사람이 차가운 성격인 줄 알았거든요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-003_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-02-V1-003_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-4B-02-V1-003_card_2",
+          "차가운"
+        ],
+        [
+          "SEJONG-4B-02-V1-003_card_3",
+          "성격인"
+        ],
+        [
+          "SEJONG-4B-02-V1-003_card_4",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-003_card_5",
+          "알았거든요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-003_card_0",
+          "SEJONG-4B-02-V1-003_card_1",
+          "SEJONG-4B-02-V1-003_card_2",
+          "SEJONG-4B-02-V1-003_card_3",
+          "SEJONG-4B-02-V1-003_card_4",
+          "SEJONG-4B-02-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-004",
+      "displaySentence": "처음에는 동생이 얌전한 아이인 줄 알았어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-004_card_0",
+          "처음에는"
+        ],
+        [
+          "SEJONG-4B-02-V1-004_card_1",
+          "동생이"
+        ],
+        [
+          "SEJONG-4B-02-V1-004_card_2",
+          "얌전한"
+        ],
+        [
+          "SEJONG-4B-02-V1-004_card_3",
+          "아이인"
+        ],
+        [
+          "SEJONG-4B-02-V1-004_card_4",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-004_card_5",
+          "알았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-004_card_0",
+          "SEJONG-4B-02-V1-004_card_1",
+          "SEJONG-4B-02-V1-004_card_2",
+          "SEJONG-4B-02-V1-004_card_3",
+          "SEJONG-4B-02-V1-004_card_4",
+          "SEJONG-4B-02-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-005",
+      "displaySentence": "저는 그가 고집이 센 줄 몰랐어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-005_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-4B-02-V1-005_card_1",
+          "그가"
+        ],
+        [
+          "SEJONG-4B-02-V1-005_card_2",
+          "고집이"
+        ],
+        [
+          "SEJONG-4B-02-V1-005_card_3",
+          "센"
+        ],
+        [
+          "SEJONG-4B-02-V1-005_card_4",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-005_card_5",
+          "몰랐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-005_card_0",
+          "SEJONG-4B-02-V1-005_card_1",
+          "SEJONG-4B-02-V1-005_card_2",
+          "SEJONG-4B-02-V1-005_card_3",
+          "SEJONG-4B-02-V1-005_card_4",
+          "SEJONG-4B-02-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-006",
+      "displaySentence": "친구가 이렇게 사교적인 줄 몰랐어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-006_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4B-02-V1-006_card_1",
+          "이렇게"
+        ],
+        [
+          "SEJONG-4B-02-V1-006_card_2",
+          "사교적인"
+        ],
+        [
+          "SEJONG-4B-02-V1-006_card_3",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-006_card_4",
+          "몰랐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-006_card_0",
+          "SEJONG-4B-02-V1-006_card_1",
+          "SEJONG-4B-02-V1-006_card_2",
+          "SEJONG-4B-02-V1-006_card_3",
+          "SEJONG-4B-02-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-007",
+      "displaySentence": "예전에 자주 만나던 친구가 지금은 밝아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-007_card_0",
+          "예전에"
+        ],
+        [
+          "SEJONG-4B-02-V1-007_card_1",
+          "자주"
+        ],
+        [
+          "SEJONG-4B-02-V1-007_card_2",
+          "만나던"
+        ],
+        [
+          "SEJONG-4B-02-V1-007_card_3",
+          "친구가"
+        ],
+        [
+          "SEJONG-4B-02-V1-007_card_4",
+          "지금은"
+        ],
+        [
+          "SEJONG-4B-02-V1-007_card_5",
+          "밝아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-007_card_0",
+          "SEJONG-4B-02-V1-007_card_1",
+          "SEJONG-4B-02-V1-007_card_2",
+          "SEJONG-4B-02-V1-007_card_3",
+          "SEJONG-4B-02-V1-007_card_4",
+          "SEJONG-4B-02-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-008",
+      "displaySentence": "제가 다니던 학교에서 그 친구를 만났어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-008_card_0",
+          "제가"
+        ],
+        [
+          "SEJONG-4B-02-V1-008_card_1",
+          "다니던"
+        ],
+        [
+          "SEJONG-4B-02-V1-008_card_2",
+          "학교에서"
+        ],
+        [
+          "SEJONG-4B-02-V1-008_card_3",
+          "그"
+        ],
+        [
+          "SEJONG-4B-02-V1-008_card_4",
+          "친구를"
+        ],
+        [
+          "SEJONG-4B-02-V1-008_card_5",
+          "만났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-008_card_0",
+          "SEJONG-4B-02-V1-008_card_1",
+          "SEJONG-4B-02-V1-008_card_2",
+          "SEJONG-4B-02-V1-008_card_3",
+          "SEJONG-4B-02-V1-008_card_4",
+          "SEJONG-4B-02-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-009",
+      "displaySentence": "어릴 때 살던 동네가 많이 달라졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-009_card_0",
+          "어릴"
+        ],
+        [
+          "SEJONG-4B-02-V1-009_card_1",
+          "때"
+        ],
+        [
+          "SEJONG-4B-02-V1-009_card_2",
+          "살던"
+        ],
+        [
+          "SEJONG-4B-02-V1-009_card_3",
+          "동네가"
+        ],
+        [
+          "SEJONG-4B-02-V1-009_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-02-V1-009_card_5",
+          "달라졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-009_card_0",
+          "SEJONG-4B-02-V1-009_card_1",
+          "SEJONG-4B-02-V1-009_card_2",
+          "SEJONG-4B-02-V1-009_card_3",
+          "SEJONG-4B-02-V1-009_card_4",
+          "SEJONG-4B-02-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-010",
+      "displaySentence": "전에 사용하던 방을 동생이 쓰고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-010_card_0",
+          "전에"
+        ],
+        [
+          "SEJONG-4B-02-V1-010_card_1",
+          "사용하던"
+        ],
+        [
+          "SEJONG-4B-02-V1-010_card_2",
+          "방을"
+        ],
+        [
+          "SEJONG-4B-02-V1-010_card_3",
+          "동생이"
+        ],
+        [
+          "SEJONG-4B-02-V1-010_card_4",
+          "쓰고"
+        ],
+        [
+          "SEJONG-4B-02-V1-010_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-010_card_0",
+          "SEJONG-4B-02-V1-010_card_1",
+          "SEJONG-4B-02-V1-010_card_2",
+          "SEJONG-4B-02-V1-010_card_3",
+          "SEJONG-4B-02-V1-010_card_4",
+          "SEJONG-4B-02-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-011",
+      "displaySentence": "늘 조용하던 친구가 오늘은 말을 많이 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-011_card_0",
+          "늘"
+        ],
+        [
+          "SEJONG-4B-02-V1-011_card_1",
+          "조용하던"
+        ],
+        [
+          "SEJONG-4B-02-V1-011_card_2",
+          "친구가"
+        ],
+        [
+          "SEJONG-4B-02-V1-011_card_3",
+          "오늘은"
+        ],
+        [
+          "SEJONG-4B-02-V1-011_card_4",
+          "말을"
+        ],
+        [
+          "SEJONG-4B-02-V1-011_card_5",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-02-V1-011_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-011_card_0",
+          "SEJONG-4B-02-V1-011_card_1",
+          "SEJONG-4B-02-V1-011_card_2",
+          "SEJONG-4B-02-V1-011_card_3",
+          "SEJONG-4B-02-V1-011_card_4",
+          "SEJONG-4B-02-V1-011_card_5",
+          "SEJONG-4B-02-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-012",
+      "displaySentence": "제가 좋아하던 선생님을 다시 만났어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-012_card_0",
+          "제가"
+        ],
+        [
+          "SEJONG-4B-02-V1-012_card_1",
+          "좋아하던"
+        ],
+        [
+          "SEJONG-4B-02-V1-012_card_2",
+          "선생님을"
+        ],
+        [
+          "SEJONG-4B-02-V1-012_card_3",
+          "다시"
+        ],
+        [
+          "SEJONG-4B-02-V1-012_card_4",
+          "만났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-012_card_0",
+          "SEJONG-4B-02-V1-012_card_1",
+          "SEJONG-4B-02-V1-012_card_2",
+          "SEJONG-4B-02-V1-012_card_3",
+          "SEJONG-4B-02-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-013",
+      "displaySentence": "표정이 어두운 줄 알았는데 긴장한 거였어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-013_card_0",
+          "표정이"
+        ],
+        [
+          "SEJONG-4B-02-V1-013_card_1",
+          "어두운"
+        ],
+        [
+          "SEJONG-4B-02-V1-013_card_2",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-013_card_3",
+          "알았는데"
+        ],
+        [
+          "SEJONG-4B-02-V1-013_card_4",
+          "긴장한"
+        ],
+        [
+          "SEJONG-4B-02-V1-013_card_5",
+          "거였어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-013_card_0",
+          "SEJONG-4B-02-V1-013_card_1",
+          "SEJONG-4B-02-V1-013_card_2",
+          "SEJONG-4B-02-V1-013_card_3",
+          "SEJONG-4B-02-V1-013_card_4",
+          "SEJONG-4B-02-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-014",
+      "displaySentence": "그 친구가 자신감이 넘치는 줄은 몰랐어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-014_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-02-V1-014_card_1",
+          "친구가"
+        ],
+        [
+          "SEJONG-4B-02-V1-014_card_2",
+          "자신감이"
+        ],
+        [
+          "SEJONG-4B-02-V1-014_card_3",
+          "넘치는"
+        ],
+        [
+          "SEJONG-4B-02-V1-014_card_4",
+          "줄은"
+        ],
+        [
+          "SEJONG-4B-02-V1-014_card_5",
+          "몰랐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-014_card_0",
+          "SEJONG-4B-02-V1-014_card_1",
+          "SEJONG-4B-02-V1-014_card_2",
+          "SEJONG-4B-02-V1-014_card_3",
+          "SEJONG-4B-02-V1-014_card_4",
+          "SEJONG-4B-02-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-015",
+      "displaySentence": "낯을 가리지 않는 사람인 줄 알았어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-015_card_0",
+          "낯을"
+        ],
+        [
+          "SEJONG-4B-02-V1-015_card_1",
+          "가리지"
+        ],
+        [
+          "SEJONG-4B-02-V1-015_card_2",
+          "않는"
+        ],
+        [
+          "SEJONG-4B-02-V1-015_card_3",
+          "사람인"
+        ],
+        [
+          "SEJONG-4B-02-V1-015_card_4",
+          "줄"
+        ],
+        [
+          "SEJONG-4B-02-V1-015_card_5",
+          "알았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-015_card_0",
+          "SEJONG-4B-02-V1-015_card_1",
+          "SEJONG-4B-02-V1-015_card_2",
+          "SEJONG-4B-02-V1-015_card_3",
+          "SEJONG-4B-02-V1-015_card_4",
+          "SEJONG-4B-02-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-016",
+      "displaySentence": "예전에 자주 웃던 아이가 많이 어른스러워졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-016_card_0",
+          "예전에"
+        ],
+        [
+          "SEJONG-4B-02-V1-016_card_1",
+          "자주"
+        ],
+        [
+          "SEJONG-4B-02-V1-016_card_2",
+          "웃던"
+        ],
+        [
+          "SEJONG-4B-02-V1-016_card_3",
+          "아이가"
+        ],
+        [
+          "SEJONG-4B-02-V1-016_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-02-V1-016_card_5",
+          "어른스러워졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-016_card_0",
+          "SEJONG-4B-02-V1-016_card_1",
+          "SEJONG-4B-02-V1-016_card_2",
+          "SEJONG-4B-02-V1-016_card_3",
+          "SEJONG-4B-02-V1-016_card_4",
+          "SEJONG-4B-02-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-017",
+      "displaySentence": "제가 알던 사람보다 훨씬 부드러운 성격이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-017_card_0",
+          "제가"
+        ],
+        [
+          "SEJONG-4B-02-V1-017_card_1",
+          "알던"
+        ],
+        [
+          "SEJONG-4B-02-V1-017_card_2",
+          "사람보다"
+        ],
+        [
+          "SEJONG-4B-02-V1-017_card_3",
+          "훨씬"
+        ],
+        [
+          "SEJONG-4B-02-V1-017_card_4",
+          "부드러운"
+        ],
+        [
+          "SEJONG-4B-02-V1-017_card_5",
+          "성격이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-017_card_0",
+          "SEJONG-4B-02-V1-017_card_1",
+          "SEJONG-4B-02-V1-017_card_2",
+          "SEJONG-4B-02-V1-017_card_3",
+          "SEJONG-4B-02-V1-017_card_4",
+          "SEJONG-4B-02-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-018",
+      "displaySentence": "항상 날카롭던 표정이 요즘 많이 밝아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-018_card_0",
+          "항상"
+        ],
+        [
+          "SEJONG-4B-02-V1-018_card_1",
+          "날카롭던"
+        ],
+        [
+          "SEJONG-4B-02-V1-018_card_2",
+          "표정이"
+        ],
+        [
+          "SEJONG-4B-02-V1-018_card_3",
+          "요즘"
+        ],
+        [
+          "SEJONG-4B-02-V1-018_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-02-V1-018_card_5",
+          "밝아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-018_card_0",
+          "SEJONG-4B-02-V1-018_card_1",
+          "SEJONG-4B-02-V1-018_card_2",
+          "SEJONG-4B-02-V1-018_card_3",
+          "SEJONG-4B-02-V1-018_card_4",
+          "SEJONG-4B-02-V1-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-019",
+      "displaySentence": "처음 만났던 날에는 서로 많이 긴장했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-019_card_0",
+          "처음"
+        ],
+        [
+          "SEJONG-4B-02-V1-019_card_1",
+          "만났던"
+        ],
+        [
+          "SEJONG-4B-02-V1-019_card_2",
+          "날에는"
+        ],
+        [
+          "SEJONG-4B-02-V1-019_card_3",
+          "서로"
+        ],
+        [
+          "SEJONG-4B-02-V1-019_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-02-V1-019_card_5",
+          "긴장했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-019_card_0",
+          "SEJONG-4B-02-V1-019_card_1",
+          "SEJONG-4B-02-V1-019_card_2",
+          "SEJONG-4B-02-V1-019_card_3",
+          "SEJONG-4B-02-V1-019_card_4",
+          "SEJONG-4B-02-V1-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-02-V1-020",
+      "displaySentence": "차갑던 첫인상과 달리 정말 따뜻한 사람이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-02-V1-020_card_0",
+          "차갑던"
+        ],
+        [
+          "SEJONG-4B-02-V1-020_card_1",
+          "첫인상과"
+        ],
+        [
+          "SEJONG-4B-02-V1-020_card_2",
+          "달리"
+        ],
+        [
+          "SEJONG-4B-02-V1-020_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4B-02-V1-020_card_4",
+          "따뜻한"
+        ],
+        [
+          "SEJONG-4B-02-V1-020_card_5",
+          "사람이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-02-V1-020_card_0",
+          "SEJONG-4B-02-V1-020_card_1",
+          "SEJONG-4B-02-V1-020_card_2",
+          "SEJONG-4B-02-V1-020_card_3",
+          "SEJONG-4B-02-V1-020_card_4",
+          "SEJONG-4B-02-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 2과 문법 -는/(으)ㄴ/(으)ㄹ 줄 알다 / -던 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 2과 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "book": "4B",
+  "lesson": 8,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 8과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "8과 핵심 문법 -는다는/ㄴ다는/다는 점에서·-(으)ㄴ 결과 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-08-V1-001",
+      "displaySentence": "많은 생명을 구했다는 점에서 존경을 받습니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-001_card_0",
+          "많은"
+        ],
+        [
+          "SEJONG-4B-08-V1-001_card_1",
+          "생명을"
+        ],
+        [
+          "SEJONG-4B-08-V1-001_card_2",
+          "구했다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-001_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-001_card_4",
+          "존경을"
+        ],
+        [
+          "SEJONG-4B-08-V1-001_card_5",
+          "받습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-001_card_0",
+          "SEJONG-4B-08-V1-001_card_1",
+          "SEJONG-4B-08-V1-001_card_2",
+          "SEJONG-4B-08-V1-001_card_3",
+          "SEJONG-4B-08-V1-001_card_4",
+          "SEJONG-4B-08-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-002",
+      "displaySentence": "세계 평화에 기여했다는 점에서 의미가 큽니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-002_card_0",
+          "세계"
+        ],
+        [
+          "SEJONG-4B-08-V1-002_card_1",
+          "평화에"
+        ],
+        [
+          "SEJONG-4B-08-V1-002_card_2",
+          "기여했다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-002_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-002_card_4",
+          "의미가"
+        ],
+        [
+          "SEJONG-4B-08-V1-002_card_5",
+          "큽니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-002_card_0",
+          "SEJONG-4B-08-V1-002_card_1",
+          "SEJONG-4B-08-V1-002_card_2",
+          "SEJONG-4B-08-V1-002_card_3",
+          "SEJONG-4B-08-V1-002_card_4",
+          "SEJONG-4B-08-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-003",
+      "displaySentence": "훌륭한 작품을 남겼다는 점에서 유명합니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-003_card_0",
+          "훌륭한"
+        ],
+        [
+          "SEJONG-4B-08-V1-003_card_1",
+          "작품을"
+        ],
+        [
+          "SEJONG-4B-08-V1-003_card_2",
+          "남겼다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-003_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-003_card_4",
+          "유명합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-003_card_0",
+          "SEJONG-4B-08-V1-003_card_1",
+          "SEJONG-4B-08-V1-003_card_2",
+          "SEJONG-4B-08-V1-003_card_3",
+          "SEJONG-4B-08-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-004",
+      "displaySentence": "권리 보호에 앞장섰다는 점에서 존경할 만합니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-004_card_0",
+          "권리"
+        ],
+        [
+          "SEJONG-4B-08-V1-004_card_1",
+          "보호에"
+        ],
+        [
+          "SEJONG-4B-08-V1-004_card_2",
+          "앞장섰다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-004_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-004_card_4",
+          "존경할"
+        ],
+        [
+          "SEJONG-4B-08-V1-004_card_5",
+          "만합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-004_card_0",
+          "SEJONG-4B-08-V1-004_card_1",
+          "SEJONG-4B-08-V1-004_card_2",
+          "SEJONG-4B-08-V1-004_card_3",
+          "SEJONG-4B-08-V1-004_card_4",
+          "SEJONG-4B-08-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-005",
+      "displaySentence": "새로운 물건을 발명했다는 점에서 큰 업적입니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-005_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-08-V1-005_card_1",
+          "물건을"
+        ],
+        [
+          "SEJONG-4B-08-V1-005_card_2",
+          "발명했다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-005_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-005_card_4",
+          "큰"
+        ],
+        [
+          "SEJONG-4B-08-V1-005_card_5",
+          "업적입니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-005_card_0",
+          "SEJONG-4B-08-V1-005_card_1",
+          "SEJONG-4B-08-V1-005_card_2",
+          "SEJONG-4B-08-V1-005_card_3",
+          "SEJONG-4B-08-V1-005_card_4",
+          "SEJONG-4B-08-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-006",
+      "displaySentence": "평생 몸소 실천했다는 점에서 본받을 만합니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-006_card_0",
+          "평생"
+        ],
+        [
+          "SEJONG-4B-08-V1-006_card_1",
+          "몸소"
+        ],
+        [
+          "SEJONG-4B-08-V1-006_card_2",
+          "실천했다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-006_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-006_card_4",
+          "본받을"
+        ],
+        [
+          "SEJONG-4B-08-V1-006_card_5",
+          "만합니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-006_card_0",
+          "SEJONG-4B-08-V1-006_card_1",
+          "SEJONG-4B-08-V1-006_card_2",
+          "SEJONG-4B-08-V1-006_card_3",
+          "SEJONG-4B-08-V1-006_card_4",
+          "SEJONG-4B-08-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-007",
+      "displaySentence": "백신을 개발한 결과 많은 생명을 구했습니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-007_card_0",
+          "백신을"
+        ],
+        [
+          "SEJONG-4B-08-V1-007_card_1",
+          "개발한"
+        ],
+        [
+          "SEJONG-4B-08-V1-007_card_2",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-007_card_3",
+          "많은"
+        ],
+        [
+          "SEJONG-4B-08-V1-007_card_4",
+          "생명을"
+        ],
+        [
+          "SEJONG-4B-08-V1-007_card_5",
+          "구했습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-007_card_0",
+          "SEJONG-4B-08-V1-007_card_1",
+          "SEJONG-4B-08-V1-007_card_2",
+          "SEJONG-4B-08-V1-007_card_3",
+          "SEJONG-4B-08-V1-007_card_4",
+          "SEJONG-4B-08-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-008",
+      "displaySentence": "꾸준히 연구한 결과 새로운 물건을 발명했습니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-008_card_0",
+          "꾸준히"
+        ],
+        [
+          "SEJONG-4B-08-V1-008_card_1",
+          "연구한"
+        ],
+        [
+          "SEJONG-4B-08-V1-008_card_2",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-008_card_3",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-08-V1-008_card_4",
+          "물건을"
+        ],
+        [
+          "SEJONG-4B-08-V1-008_card_5",
+          "발명했습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-008_card_0",
+          "SEJONG-4B-08-V1-008_card_1",
+          "SEJONG-4B-08-V1-008_card_2",
+          "SEJONG-4B-08-V1-008_card_3",
+          "SEJONG-4B-08-V1-008_card_4",
+          "SEJONG-4B-08-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-009",
+      "displaySentence": "평화를 위해 노력한 결과 많은 사람이 함께했습니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-009_card_0",
+          "평화를"
+        ],
+        [
+          "SEJONG-4B-08-V1-009_card_1",
+          "위해"
+        ],
+        [
+          "SEJONG-4B-08-V1-009_card_2",
+          "노력한"
+        ],
+        [
+          "SEJONG-4B-08-V1-009_card_3",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-009_card_4",
+          "많은"
+        ],
+        [
+          "SEJONG-4B-08-V1-009_card_5",
+          "사람이"
+        ],
+        [
+          "SEJONG-4B-08-V1-009_card_6",
+          "함께했습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-009_card_0",
+          "SEJONG-4B-08-V1-009_card_1",
+          "SEJONG-4B-08-V1-009_card_2",
+          "SEJONG-4B-08-V1-009_card_3",
+          "SEJONG-4B-08-V1-009_card_4",
+          "SEJONG-4B-08-V1-009_card_5",
+          "SEJONG-4B-08-V1-009_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-010",
+      "displaySentence": "권리 보호에 앞장선 결과 사회가 달라졌습니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-010_card_0",
+          "권리"
+        ],
+        [
+          "SEJONG-4B-08-V1-010_card_1",
+          "보호에"
+        ],
+        [
+          "SEJONG-4B-08-V1-010_card_2",
+          "앞장선"
+        ],
+        [
+          "SEJONG-4B-08-V1-010_card_3",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-010_card_4",
+          "사회가"
+        ],
+        [
+          "SEJONG-4B-08-V1-010_card_5",
+          "달라졌습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-010_card_0",
+          "SEJONG-4B-08-V1-010_card_1",
+          "SEJONG-4B-08-V1-010_card_2",
+          "SEJONG-4B-08-V1-010_card_3",
+          "SEJONG-4B-08-V1-010_card_4",
+          "SEJONG-4B-08-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-011",
+      "displaySentence": "한계에 계속 도전한 결과 기록을 세웠습니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-011_card_0",
+          "한계에"
+        ],
+        [
+          "SEJONG-4B-08-V1-011_card_1",
+          "계속"
+        ],
+        [
+          "SEJONG-4B-08-V1-011_card_2",
+          "도전한"
+        ],
+        [
+          "SEJONG-4B-08-V1-011_card_3",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-011_card_4",
+          "기록을"
+        ],
+        [
+          "SEJONG-4B-08-V1-011_card_5",
+          "세웠습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-011_card_0",
+          "SEJONG-4B-08-V1-011_card_1",
+          "SEJONG-4B-08-V1-011_card_2",
+          "SEJONG-4B-08-V1-011_card_3",
+          "SEJONG-4B-08-V1-011_card_4",
+          "SEJONG-4B-08-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-012",
+      "displaySentence": "일생을 바친 결과 훌륭한 작품을 남겼습니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-012_card_0",
+          "일생을"
+        ],
+        [
+          "SEJONG-4B-08-V1-012_card_1",
+          "바친"
+        ],
+        [
+          "SEJONG-4B-08-V1-012_card_2",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-012_card_3",
+          "훌륭한"
+        ],
+        [
+          "SEJONG-4B-08-V1-012_card_4",
+          "작품을"
+        ],
+        [
+          "SEJONG-4B-08-V1-012_card_5",
+          "남겼습니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-012_card_0",
+          "SEJONG-4B-08-V1-012_card_1",
+          "SEJONG-4B-08-V1-012_card_2",
+          "SEJONG-4B-08-V1-012_card_3",
+          "SEJONG-4B-08-V1-012_card_4",
+          "SEJONG-4B-08-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-013",
+      "displaySentence": "사람들의 생명을 구했다는 점에서 큰 의미가 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-013_card_0",
+          "사람들의"
+        ],
+        [
+          "SEJONG-4B-08-V1-013_card_1",
+          "생명을"
+        ],
+        [
+          "SEJONG-4B-08-V1-013_card_2",
+          "구했다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-013_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-013_card_4",
+          "큰"
+        ],
+        [
+          "SEJONG-4B-08-V1-013_card_5",
+          "의미가"
+        ],
+        [
+          "SEJONG-4B-08-V1-013_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-013_card_0",
+          "SEJONG-4B-08-V1-013_card_1",
+          "SEJONG-4B-08-V1-013_card_2",
+          "SEJONG-4B-08-V1-013_card_3",
+          "SEJONG-4B-08-V1-013_card_4",
+          "SEJONG-4B-08-V1-013_card_5",
+          "SEJONG-4B-08-V1-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-014",
+      "displaySentence": "위기에서 나라를 구했다는 점에서 기억되고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-014_card_0",
+          "위기에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-014_card_1",
+          "나라를"
+        ],
+        [
+          "SEJONG-4B-08-V1-014_card_2",
+          "구했다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-014_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-014_card_4",
+          "기억되고"
+        ],
+        [
+          "SEJONG-4B-08-V1-014_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-014_card_0",
+          "SEJONG-4B-08-V1-014_card_1",
+          "SEJONG-4B-08-V1-014_card_2",
+          "SEJONG-4B-08-V1-014_card_3",
+          "SEJONG-4B-08-V1-014_card_4",
+          "SEJONG-4B-08-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-015",
+      "displaySentence": "예술에 일생을 바쳤다는 점에서 존경받고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-015_card_0",
+          "예술에"
+        ],
+        [
+          "SEJONG-4B-08-V1-015_card_1",
+          "일생을"
+        ],
+        [
+          "SEJONG-4B-08-V1-015_card_2",
+          "바쳤다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-015_card_3",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-015_card_4",
+          "존경받고"
+        ],
+        [
+          "SEJONG-4B-08-V1-015_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-015_card_0",
+          "SEJONG-4B-08-V1-015_card_1",
+          "SEJONG-4B-08-V1-015_card_2",
+          "SEJONG-4B-08-V1-015_card_3",
+          "SEJONG-4B-08-V1-015_card_4",
+          "SEJONG-4B-08-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-016",
+      "displaySentence": "오랫동안 연구한 결과 백신 개발에 성공했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-016_card_0",
+          "오랫동안"
+        ],
+        [
+          "SEJONG-4B-08-V1-016_card_1",
+          "연구한"
+        ],
+        [
+          "SEJONG-4B-08-V1-016_card_2",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-016_card_3",
+          "백신"
+        ],
+        [
+          "SEJONG-4B-08-V1-016_card_4",
+          "개발에"
+        ],
+        [
+          "SEJONG-4B-08-V1-016_card_5",
+          "성공했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-016_card_0",
+          "SEJONG-4B-08-V1-016_card_1",
+          "SEJONG-4B-08-V1-016_card_2",
+          "SEJONG-4B-08-V1-016_card_3",
+          "SEJONG-4B-08-V1-016_card_4",
+          "SEJONG-4B-08-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-017",
+      "displaySentence": "작은 생각을 실천한 결과 큰 변화가 생겼어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-017_card_0",
+          "작은"
+        ],
+        [
+          "SEJONG-4B-08-V1-017_card_1",
+          "생각을"
+        ],
+        [
+          "SEJONG-4B-08-V1-017_card_2",
+          "실천한"
+        ],
+        [
+          "SEJONG-4B-08-V1-017_card_3",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-017_card_4",
+          "큰"
+        ],
+        [
+          "SEJONG-4B-08-V1-017_card_5",
+          "변화가"
+        ],
+        [
+          "SEJONG-4B-08-V1-017_card_6",
+          "생겼어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-017_card_0",
+          "SEJONG-4B-08-V1-017_card_1",
+          "SEJONG-4B-08-V1-017_card_2",
+          "SEJONG-4B-08-V1-017_card_3",
+          "SEJONG-4B-08-V1-017_card_4",
+          "SEJONG-4B-08-V1-017_card_5",
+          "SEJONG-4B-08-V1-017_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-018",
+      "displaySentence": "새 기술을 발명한 결과 생활이 편리해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-018_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-4B-08-V1-018_card_1",
+          "기술을"
+        ],
+        [
+          "SEJONG-4B-08-V1-018_card_2",
+          "발명한"
+        ],
+        [
+          "SEJONG-4B-08-V1-018_card_3",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-018_card_4",
+          "생활이"
+        ],
+        [
+          "SEJONG-4B-08-V1-018_card_5",
+          "편리해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-018_card_0",
+          "SEJONG-4B-08-V1-018_card_1",
+          "SEJONG-4B-08-V1-018_card_2",
+          "SEJONG-4B-08-V1-018_card_3",
+          "SEJONG-4B-08-V1-018_card_4",
+          "SEJONG-4B-08-V1-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-019",
+      "displaySentence": "평화에 기여했다는 점에서 모두가 존경해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-019_card_0",
+          "평화에"
+        ],
+        [
+          "SEJONG-4B-08-V1-019_card_1",
+          "기여했다는"
+        ],
+        [
+          "SEJONG-4B-08-V1-019_card_2",
+          "점에서"
+        ],
+        [
+          "SEJONG-4B-08-V1-019_card_3",
+          "모두가"
+        ],
+        [
+          "SEJONG-4B-08-V1-019_card_4",
+          "존경해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-019_card_0",
+          "SEJONG-4B-08-V1-019_card_1",
+          "SEJONG-4B-08-V1-019_card_2",
+          "SEJONG-4B-08-V1-019_card_3",
+          "SEJONG-4B-08-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-08-V1-020",
+      "displaySentence": "인간의 한계에 도전한 결과 새로운 기록을 만들었어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-08-V1-020_card_0",
+          "인간의"
+        ],
+        [
+          "SEJONG-4B-08-V1-020_card_1",
+          "한계에"
+        ],
+        [
+          "SEJONG-4B-08-V1-020_card_2",
+          "도전한"
+        ],
+        [
+          "SEJONG-4B-08-V1-020_card_3",
+          "결과"
+        ],
+        [
+          "SEJONG-4B-08-V1-020_card_4",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-08-V1-020_card_5",
+          "기록을"
+        ],
+        [
+          "SEJONG-4B-08-V1-020_card_6",
+          "만들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-08-V1-020_card_0",
+          "SEJONG-4B-08-V1-020_card_1",
+          "SEJONG-4B-08-V1-020_card_2",
+          "SEJONG-4B-08-V1-020_card_3",
+          "SEJONG-4B-08-V1-020_card_4",
+          "SEJONG-4B-08-V1-020_card_5",
+          "SEJONG-4B-08-V1-020_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 8과 문법 -는다는/ㄴ다는/다는 점에서 / -(으)ㄴ 결과 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 8과 범위 재구성"
+    }
+  ]
+}

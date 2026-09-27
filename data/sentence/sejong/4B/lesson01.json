@@ -1,0 +1,828 @@
+{
+  "book": "4B",
+  "lesson": 1,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 1과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "1과 핵심 문법 -는/(으)ㄴ 데다가·-든지 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-01-V1-001",
+      "displaySentence": "민수 씨는 적극적인 데다가 책임감도 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-001_card_0",
+          "민수"
+        ],
+        [
+          "SEJONG-4B-01-V1-001_card_1",
+          "씨는"
+        ],
+        [
+          "SEJONG-4B-01-V1-001_card_2",
+          "적극적인"
+        ],
+        [
+          "SEJONG-4B-01-V1-001_card_3",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-001_card_4",
+          "책임감도"
+        ],
+        [
+          "SEJONG-4B-01-V1-001_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-001_card_0",
+          "SEJONG-4B-01-V1-001_card_1",
+          "SEJONG-4B-01-V1-001_card_2",
+          "SEJONG-4B-01-V1-001_card_3",
+          "SEJONG-4B-01-V1-001_card_4",
+          "SEJONG-4B-01-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-002",
+      "displaySentence": "유진 씨는 성실한 데다가 유머 감각도 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-002_card_0",
+          "유진"
+        ],
+        [
+          "SEJONG-4B-01-V1-002_card_1",
+          "씨는"
+        ],
+        [
+          "SEJONG-4B-01-V1-002_card_2",
+          "성실한"
+        ],
+        [
+          "SEJONG-4B-01-V1-002_card_3",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-002_card_4",
+          "유머"
+        ],
+        [
+          "SEJONG-4B-01-V1-002_card_5",
+          "감각도"
+        ],
+        [
+          "SEJONG-4B-01-V1-002_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-002_card_0",
+          "SEJONG-4B-01-V1-002_card_1",
+          "SEJONG-4B-01-V1-002_card_2",
+          "SEJONG-4B-01-V1-002_card_3",
+          "SEJONG-4B-01-V1-002_card_4",
+          "SEJONG-4B-01-V1-002_card_5",
+          "SEJONG-4B-01-V1-002_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-003",
+      "displaySentence": "그 친구는 외향적인 데다가 사교적이기도 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-003_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-01-V1-003_card_1",
+          "친구는"
+        ],
+        [
+          "SEJONG-4B-01-V1-003_card_2",
+          "외향적인"
+        ],
+        [
+          "SEJONG-4B-01-V1-003_card_3",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-003_card_4",
+          "사교적이기도"
+        ],
+        [
+          "SEJONG-4B-01-V1-003_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-003_card_0",
+          "SEJONG-4B-01-V1-003_card_1",
+          "SEJONG-4B-01-V1-003_card_2",
+          "SEJONG-4B-01-V1-003_card_3",
+          "SEJONG-4B-01-V1-003_card_4",
+          "SEJONG-4B-01-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-004",
+      "displaySentence": "동생은 내성적인 데다가 낯도 많이 가려요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-004_card_0",
+          "동생은"
+        ],
+        [
+          "SEJONG-4B-01-V1-004_card_1",
+          "내성적인"
+        ],
+        [
+          "SEJONG-4B-01-V1-004_card_2",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-004_card_3",
+          "낯도"
+        ],
+        [
+          "SEJONG-4B-01-V1-004_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-01-V1-004_card_5",
+          "가려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-004_card_0",
+          "SEJONG-4B-01-V1-004_card_1",
+          "SEJONG-4B-01-V1-004_card_2",
+          "SEJONG-4B-01-V1-004_card_3",
+          "SEJONG-4B-01-V1-004_card_4",
+          "SEJONG-4B-01-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-005",
+      "displaySentence": "그 직원은 급한 데다가 실수도 자주 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-005_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-01-V1-005_card_1",
+          "직원은"
+        ],
+        [
+          "SEJONG-4B-01-V1-005_card_2",
+          "급한"
+        ],
+        [
+          "SEJONG-4B-01-V1-005_card_3",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-005_card_4",
+          "실수도"
+        ],
+        [
+          "SEJONG-4B-01-V1-005_card_5",
+          "자주"
+        ],
+        [
+          "SEJONG-4B-01-V1-005_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-005_card_0",
+          "SEJONG-4B-01-V1-005_card_1",
+          "SEJONG-4B-01-V1-005_card_2",
+          "SEJONG-4B-01-V1-005_card_3",
+          "SEJONG-4B-01-V1-005_card_4",
+          "SEJONG-4B-01-V1-005_card_5",
+          "SEJONG-4B-01-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-006",
+      "displaySentence": "우리 팀장은 느긋한 데다가 책임감도 강해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-006_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-4B-01-V1-006_card_1",
+          "팀장은"
+        ],
+        [
+          "SEJONG-4B-01-V1-006_card_2",
+          "느긋한"
+        ],
+        [
+          "SEJONG-4B-01-V1-006_card_3",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-006_card_4",
+          "책임감도"
+        ],
+        [
+          "SEJONG-4B-01-V1-006_card_5",
+          "강해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-006_card_0",
+          "SEJONG-4B-01-V1-006_card_1",
+          "SEJONG-4B-01-V1-006_card_2",
+          "SEJONG-4B-01-V1-006_card_3",
+          "SEJONG-4B-01-V1-006_card_4",
+          "SEJONG-4B-01-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-007",
+      "displaySentence": "무슨 일이든지 먼저 실행에 옮겨 보세요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-007_card_0",
+          "무슨"
+        ],
+        [
+          "SEJONG-4B-01-V1-007_card_1",
+          "일이든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-007_card_2",
+          "먼저"
+        ],
+        [
+          "SEJONG-4B-01-V1-007_card_3",
+          "실행에"
+        ],
+        [
+          "SEJONG-4B-01-V1-007_card_4",
+          "옮겨"
+        ],
+        [
+          "SEJONG-4B-01-V1-007_card_5",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-007_card_0",
+          "SEJONG-4B-01-V1-007_card_1",
+          "SEJONG-4B-01-V1-007_card_2",
+          "SEJONG-4B-01-V1-007_card_3",
+          "SEJONG-4B-01-V1-007_card_4",
+          "SEJONG-4B-01-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-008",
+      "displaySentence": "누구든지 책임감을 가지고 일해야 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-008_card_0",
+          "누구든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-008_card_1",
+          "책임감을"
+        ],
+        [
+          "SEJONG-4B-01-V1-008_card_2",
+          "가지고"
+        ],
+        [
+          "SEJONG-4B-01-V1-008_card_3",
+          "일해야"
+        ],
+        [
+          "SEJONG-4B-01-V1-008_card_4",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-008_card_0",
+          "SEJONG-4B-01-V1-008_card_1",
+          "SEJONG-4B-01-V1-008_card_2",
+          "SEJONG-4B-01-V1-008_card_3",
+          "SEJONG-4B-01-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-009",
+      "displaySentence": "어디에서든지 적극적으로 의견을 말해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-009_card_0",
+          "어디에서든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-009_card_1",
+          "적극적으로"
+        ],
+        [
+          "SEJONG-4B-01-V1-009_card_2",
+          "의견을"
+        ],
+        [
+          "SEJONG-4B-01-V1-009_card_3",
+          "말해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-009_card_0",
+          "SEJONG-4B-01-V1-009_card_1",
+          "SEJONG-4B-01-V1-009_card_2",
+          "SEJONG-4B-01-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-010",
+      "displaySentence": "어떤 일이든지 성실하게 하면 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-010_card_0",
+          "어떤"
+        ],
+        [
+          "SEJONG-4B-01-V1-010_card_1",
+          "일이든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-010_card_2",
+          "성실하게"
+        ],
+        [
+          "SEJONG-4B-01-V1-010_card_3",
+          "하면"
+        ],
+        [
+          "SEJONG-4B-01-V1-010_card_4",
+          "좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-010_card_0",
+          "SEJONG-4B-01-V1-010_card_1",
+          "SEJONG-4B-01-V1-010_card_2",
+          "SEJONG-4B-01-V1-010_card_3",
+          "SEJONG-4B-01-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-011",
+      "displaySentence": "저는 누구든지 편하게 이야기할 수 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-011_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-4B-01-V1-011_card_1",
+          "누구든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-011_card_2",
+          "편하게"
+        ],
+        [
+          "SEJONG-4B-01-V1-011_card_3",
+          "이야기할"
+        ],
+        [
+          "SEJONG-4B-01-V1-011_card_4",
+          "수"
+        ],
+        [
+          "SEJONG-4B-01-V1-011_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-011_card_0",
+          "SEJONG-4B-01-V1-011_card_1",
+          "SEJONG-4B-01-V1-011_card_2",
+          "SEJONG-4B-01-V1-011_card_3",
+          "SEJONG-4B-01-V1-011_card_4",
+          "SEJONG-4B-01-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-012",
+      "displaySentence": "무엇이든지 시작하면 끝까지 해 보세요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-012_card_0",
+          "무엇이든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-012_card_1",
+          "시작하면"
+        ],
+        [
+          "SEJONG-4B-01-V1-012_card_2",
+          "끝까지"
+        ],
+        [
+          "SEJONG-4B-01-V1-012_card_3",
+          "해"
+        ],
+        [
+          "SEJONG-4B-01-V1-012_card_4",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-012_card_0",
+          "SEJONG-4B-01-V1-012_card_1",
+          "SEJONG-4B-01-V1-012_card_2",
+          "SEJONG-4B-01-V1-012_card_3",
+          "SEJONG-4B-01-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-013",
+      "displaySentence": "그는 자신감이 있는 데다가 발표도 잘해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-013_card_0",
+          "그는"
+        ],
+        [
+          "SEJONG-4B-01-V1-013_card_1",
+          "자신감이"
+        ],
+        [
+          "SEJONG-4B-01-V1-013_card_2",
+          "있는"
+        ],
+        [
+          "SEJONG-4B-01-V1-013_card_3",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-013_card_4",
+          "발표도"
+        ],
+        [
+          "SEJONG-4B-01-V1-013_card_5",
+          "잘해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-013_card_0",
+          "SEJONG-4B-01-V1-013_card_1",
+          "SEJONG-4B-01-V1-013_card_2",
+          "SEJONG-4B-01-V1-013_card_3",
+          "SEJONG-4B-01-V1-013_card_4",
+          "SEJONG-4B-01-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-014",
+      "displaySentence": "친구는 소극적인 데다가 말수도 적어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-014_card_0",
+          "친구는"
+        ],
+        [
+          "SEJONG-4B-01-V1-014_card_1",
+          "소극적인"
+        ],
+        [
+          "SEJONG-4B-01-V1-014_card_2",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-014_card_3",
+          "말수도"
+        ],
+        [
+          "SEJONG-4B-01-V1-014_card_4",
+          "적어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-014_card_0",
+          "SEJONG-4B-01-V1-014_card_1",
+          "SEJONG-4B-01-V1-014_card_2",
+          "SEJONG-4B-01-V1-014_card_3",
+          "SEJONG-4B-01-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-015",
+      "displaySentence": "언제든지 도움이 필요하면 연락하세요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-015_card_0",
+          "언제든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-015_card_1",
+          "도움이"
+        ],
+        [
+          "SEJONG-4B-01-V1-015_card_2",
+          "필요하면"
+        ],
+        [
+          "SEJONG-4B-01-V1-015_card_3",
+          "연락하세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-015_card_0",
+          "SEJONG-4B-01-V1-015_card_1",
+          "SEJONG-4B-01-V1-015_card_2",
+          "SEJONG-4B-01-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-016",
+      "displaySentence": "어디든지 새로운 사람을 만나면 인사해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-016_card_0",
+          "어디든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-016_card_1",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-01-V1-016_card_2",
+          "사람을"
+        ],
+        [
+          "SEJONG-4B-01-V1-016_card_3",
+          "만나면"
+        ],
+        [
+          "SEJONG-4B-01-V1-016_card_4",
+          "인사해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-016_card_0",
+          "SEJONG-4B-01-V1-016_card_1",
+          "SEJONG-4B-01-V1-016_card_2",
+          "SEJONG-4B-01-V1-016_card_3",
+          "SEJONG-4B-01-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-017",
+      "displaySentence": "그 사람은 불성실한 데다가 책임감도 없어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-017_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-01-V1-017_card_1",
+          "사람은"
+        ],
+        [
+          "SEJONG-4B-01-V1-017_card_2",
+          "불성실한"
+        ],
+        [
+          "SEJONG-4B-01-V1-017_card_3",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-017_card_4",
+          "책임감도"
+        ],
+        [
+          "SEJONG-4B-01-V1-017_card_5",
+          "없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-017_card_0",
+          "SEJONG-4B-01-V1-017_card_1",
+          "SEJONG-4B-01-V1-017_card_2",
+          "SEJONG-4B-01-V1-017_card_3",
+          "SEJONG-4B-01-V1-017_card_4",
+          "SEJONG-4B-01-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-018",
+      "displaySentence": "언니는 외향적인 데다가 부끄러움도 잘 타지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-018_card_0",
+          "언니는"
+        ],
+        [
+          "SEJONG-4B-01-V1-018_card_1",
+          "외향적인"
+        ],
+        [
+          "SEJONG-4B-01-V1-018_card_2",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-018_card_3",
+          "부끄러움도"
+        ],
+        [
+          "SEJONG-4B-01-V1-018_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-4B-01-V1-018_card_5",
+          "타지"
+        ],
+        [
+          "SEJONG-4B-01-V1-018_card_6",
+          "않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-018_card_0",
+          "SEJONG-4B-01-V1-018_card_1",
+          "SEJONG-4B-01-V1-018_card_2",
+          "SEJONG-4B-01-V1-018_card_3",
+          "SEJONG-4B-01-V1-018_card_4",
+          "SEJONG-4B-01-V1-018_card_5",
+          "SEJONG-4B-01-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-019",
+      "displaySentence": "무슨 주제든지 유머 감각 있게 이야기해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-019_card_0",
+          "무슨"
+        ],
+        [
+          "SEJONG-4B-01-V1-019_card_1",
+          "주제든지"
+        ],
+        [
+          "SEJONG-4B-01-V1-019_card_2",
+          "유머"
+        ],
+        [
+          "SEJONG-4B-01-V1-019_card_3",
+          "감각"
+        ],
+        [
+          "SEJONG-4B-01-V1-019_card_4",
+          "있게"
+        ],
+        [
+          "SEJONG-4B-01-V1-019_card_5",
+          "이야기해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-019_card_0",
+          "SEJONG-4B-01-V1-019_card_1",
+          "SEJONG-4B-01-V1-019_card_2",
+          "SEJONG-4B-01-V1-019_card_3",
+          "SEJONG-4B-01-V1-019_card_4",
+          "SEJONG-4B-01-V1-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-01-V1-020",
+      "displaySentence": "성격이 밝은 데다가 사람들과도 잘 어울려요.",
+      "tokens": [
+        [
+          "SEJONG-4B-01-V1-020_card_0",
+          "성격이"
+        ],
+        [
+          "SEJONG-4B-01-V1-020_card_1",
+          "밝은"
+        ],
+        [
+          "SEJONG-4B-01-V1-020_card_2",
+          "데다가"
+        ],
+        [
+          "SEJONG-4B-01-V1-020_card_3",
+          "사람들과도"
+        ],
+        [
+          "SEJONG-4B-01-V1-020_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-4B-01-V1-020_card_5",
+          "어울려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-01-V1-020_card_0",
+          "SEJONG-4B-01-V1-020_card_1",
+          "SEJONG-4B-01-V1-020_card_2",
+          "SEJONG-4B-01-V1-020_card_3",
+          "SEJONG-4B-01-V1-020_card_4",
+          "SEJONG-4B-01-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 1과 문법 -는/(으)ㄴ 데다가 / -든지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 1과 범위 재구성"
+    }
+  ]
+}

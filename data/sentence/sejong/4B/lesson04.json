@@ -1,0 +1,863 @@
+{
+  "book": "4B",
+  "lesson": 4,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 4과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "4과 핵심 문법 -았어야/었어야 했는데·-았을/었을 텐데 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-04-V1-001",
+      "displaySentence": "그때 꿈을 포기하지 말았어야 했는데 후회돼요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-001_card_0",
+          "그때"
+        ],
+        [
+          "SEJONG-4B-04-V1-001_card_1",
+          "꿈을"
+        ],
+        [
+          "SEJONG-4B-04-V1-001_card_2",
+          "포기하지"
+        ],
+        [
+          "SEJONG-4B-04-V1-001_card_3",
+          "말았어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-001_card_4",
+          "했는데"
+        ],
+        [
+          "SEJONG-4B-04-V1-001_card_5",
+          "후회돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-001_card_0",
+          "SEJONG-4B-04-V1-001_card_1",
+          "SEJONG-4B-04-V1-001_card_2",
+          "SEJONG-4B-04-V1-001_card_3",
+          "SEJONG-4B-04-V1-001_card_4",
+          "SEJONG-4B-04-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-002",
+      "displaySentence": "친구에게 상처를 주지 말았어야 했는데 미안해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-002_card_0",
+          "친구에게"
+        ],
+        [
+          "SEJONG-4B-04-V1-002_card_1",
+          "상처를"
+        ],
+        [
+          "SEJONG-4B-04-V1-002_card_2",
+          "주지"
+        ],
+        [
+          "SEJONG-4B-04-V1-002_card_3",
+          "말았어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-002_card_4",
+          "했는데"
+        ],
+        [
+          "SEJONG-4B-04-V1-002_card_5",
+          "미안해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-002_card_0",
+          "SEJONG-4B-04-V1-002_card_1",
+          "SEJONG-4B-04-V1-002_card_2",
+          "SEJONG-4B-04-V1-002_card_3",
+          "SEJONG-4B-04-V1-002_card_4",
+          "SEJONG-4B-04-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-003",
+      "displaySentence": "그 기회를 놓치지 말았어야 했는데 아쉬워요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-003_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-04-V1-003_card_1",
+          "기회를"
+        ],
+        [
+          "SEJONG-4B-04-V1-003_card_2",
+          "놓치지"
+        ],
+        [
+          "SEJONG-4B-04-V1-003_card_3",
+          "말았어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-003_card_4",
+          "했는데"
+        ],
+        [
+          "SEJONG-4B-04-V1-003_card_5",
+          "아쉬워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-003_card_0",
+          "SEJONG-4B-04-V1-003_card_1",
+          "SEJONG-4B-04-V1-003_card_2",
+          "SEJONG-4B-04-V1-003_card_3",
+          "SEJONG-4B-04-V1-003_card_4",
+          "SEJONG-4B-04-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-004",
+      "displaySentence": "화를 내기 전에 조금 참았어야 했는데 후회해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-004_card_0",
+          "화를"
+        ],
+        [
+          "SEJONG-4B-04-V1-004_card_1",
+          "내기"
+        ],
+        [
+          "SEJONG-4B-04-V1-004_card_2",
+          "전에"
+        ],
+        [
+          "SEJONG-4B-04-V1-004_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-4B-04-V1-004_card_4",
+          "참았어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-004_card_5",
+          "했는데"
+        ],
+        [
+          "SEJONG-4B-04-V1-004_card_6",
+          "후회해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-004_card_0",
+          "SEJONG-4B-04-V1-004_card_1",
+          "SEJONG-4B-04-V1-004_card_2",
+          "SEJONG-4B-04-V1-004_card_3",
+          "SEJONG-4B-04-V1-004_card_4",
+          "SEJONG-4B-04-V1-004_card_5",
+          "SEJONG-4B-04-V1-004_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-005",
+      "displaySentence": "부탁을 바로 거절했어야 했는데 그러지 못했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-005_card_0",
+          "부탁을"
+        ],
+        [
+          "SEJONG-4B-04-V1-005_card_1",
+          "바로"
+        ],
+        [
+          "SEJONG-4B-04-V1-005_card_2",
+          "거절했어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-005_card_3",
+          "했는데"
+        ],
+        [
+          "SEJONG-4B-04-V1-005_card_4",
+          "그러지"
+        ],
+        [
+          "SEJONG-4B-04-V1-005_card_5",
+          "못했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-005_card_0",
+          "SEJONG-4B-04-V1-005_card_1",
+          "SEJONG-4B-04-V1-005_card_2",
+          "SEJONG-4B-04-V1-005_card_3",
+          "SEJONG-4B-04-V1-005_card_4",
+          "SEJONG-4B-04-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-006",
+      "displaySentence": "결정하기 전에 더 신중했어야 했는데 아쉬워요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-006_card_0",
+          "결정하기"
+        ],
+        [
+          "SEJONG-4B-04-V1-006_card_1",
+          "전에"
+        ],
+        [
+          "SEJONG-4B-04-V1-006_card_2",
+          "더"
+        ],
+        [
+          "SEJONG-4B-04-V1-006_card_3",
+          "신중했어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-006_card_4",
+          "했는데"
+        ],
+        [
+          "SEJONG-4B-04-V1-006_card_5",
+          "아쉬워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-006_card_0",
+          "SEJONG-4B-04-V1-006_card_1",
+          "SEJONG-4B-04-V1-006_card_2",
+          "SEJONG-4B-04-V1-006_card_3",
+          "SEJONG-4B-04-V1-006_card_4",
+          "SEJONG-4B-04-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-007",
+      "displaySentence": "최선을 다했으면 결과가 더 좋았을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-007_card_0",
+          "최선을"
+        ],
+        [
+          "SEJONG-4B-04-V1-007_card_1",
+          "다했으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-007_card_2",
+          "결과가"
+        ],
+        [
+          "SEJONG-4B-04-V1-007_card_3",
+          "더"
+        ],
+        [
+          "SEJONG-4B-04-V1-007_card_4",
+          "좋았을"
+        ],
+        [
+          "SEJONG-4B-04-V1-007_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-007_card_0",
+          "SEJONG-4B-04-V1-007_card_1",
+          "SEJONG-4B-04-V1-007_card_2",
+          "SEJONG-4B-04-V1-007_card_3",
+          "SEJONG-4B-04-V1-007_card_4",
+          "SEJONG-4B-04-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-008",
+      "displaySentence": "조금만 더 참았으면 실수하지 않았을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-008_card_0",
+          "조금만"
+        ],
+        [
+          "SEJONG-4B-04-V1-008_card_1",
+          "더"
+        ],
+        [
+          "SEJONG-4B-04-V1-008_card_2",
+          "참았으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-008_card_3",
+          "실수하지"
+        ],
+        [
+          "SEJONG-4B-04-V1-008_card_4",
+          "않았을"
+        ],
+        [
+          "SEJONG-4B-04-V1-008_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-008_card_0",
+          "SEJONG-4B-04-V1-008_card_1",
+          "SEJONG-4B-04-V1-008_card_2",
+          "SEJONG-4B-04-V1-008_card_3",
+          "SEJONG-4B-04-V1-008_card_4",
+          "SEJONG-4B-04-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-009",
+      "displaySentence": "그때 기회를 잡았으면 지금 달라졌을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-009_card_0",
+          "그때"
+        ],
+        [
+          "SEJONG-4B-04-V1-009_card_1",
+          "기회를"
+        ],
+        [
+          "SEJONG-4B-04-V1-009_card_2",
+          "잡았으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-009_card_3",
+          "지금"
+        ],
+        [
+          "SEJONG-4B-04-V1-009_card_4",
+          "달라졌을"
+        ],
+        [
+          "SEJONG-4B-04-V1-009_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-009_card_0",
+          "SEJONG-4B-04-V1-009_card_1",
+          "SEJONG-4B-04-V1-009_card_2",
+          "SEJONG-4B-04-V1-009_card_3",
+          "SEJONG-4B-04-V1-009_card_4",
+          "SEJONG-4B-04-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-010",
+      "displaySentence": "친구에게 잘해 줬으면 후회하지 않았을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-010_card_0",
+          "친구에게"
+        ],
+        [
+          "SEJONG-4B-04-V1-010_card_1",
+          "잘해"
+        ],
+        [
+          "SEJONG-4B-04-V1-010_card_2",
+          "줬으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-010_card_3",
+          "후회하지"
+        ],
+        [
+          "SEJONG-4B-04-V1-010_card_4",
+          "않았을"
+        ],
+        [
+          "SEJONG-4B-04-V1-010_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-010_card_0",
+          "SEJONG-4B-04-V1-010_card_1",
+          "SEJONG-4B-04-V1-010_card_2",
+          "SEJONG-4B-04-V1-010_card_3",
+          "SEJONG-4B-04-V1-010_card_4",
+          "SEJONG-4B-04-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-011",
+      "displaySentence": "남의 시선을 덜 신경 썼으면 편했을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-011_card_0",
+          "남의"
+        ],
+        [
+          "SEJONG-4B-04-V1-011_card_1",
+          "시선을"
+        ],
+        [
+          "SEJONG-4B-04-V1-011_card_2",
+          "덜"
+        ],
+        [
+          "SEJONG-4B-04-V1-011_card_3",
+          "신경"
+        ],
+        [
+          "SEJONG-4B-04-V1-011_card_4",
+          "썼으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-011_card_5",
+          "편했을"
+        ],
+        [
+          "SEJONG-4B-04-V1-011_card_6",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-011_card_0",
+          "SEJONG-4B-04-V1-011_card_1",
+          "SEJONG-4B-04-V1-011_card_2",
+          "SEJONG-4B-04-V1-011_card_3",
+          "SEJONG-4B-04-V1-011_card_4",
+          "SEJONG-4B-04-V1-011_card_5",
+          "SEJONG-4B-04-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-012",
+      "displaySentence": "천천히 찾았으면 필요한 자료를 찾았을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-012_card_0",
+          "천천히"
+        ],
+        [
+          "SEJONG-4B-04-V1-012_card_1",
+          "찾았으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-012_card_2",
+          "필요한"
+        ],
+        [
+          "SEJONG-4B-04-V1-012_card_3",
+          "자료를"
+        ],
+        [
+          "SEJONG-4B-04-V1-012_card_4",
+          "찾았을"
+        ],
+        [
+          "SEJONG-4B-04-V1-012_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-012_card_0",
+          "SEJONG-4B-04-V1-012_card_1",
+          "SEJONG-4B-04-V1-012_card_2",
+          "SEJONG-4B-04-V1-012_card_3",
+          "SEJONG-4B-04-V1-012_card_4",
+          "SEJONG-4B-04-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-013",
+      "displaySentence": "결정하기 전에 충분히 생각했어야 했는데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-013_card_0",
+          "결정하기"
+        ],
+        [
+          "SEJONG-4B-04-V1-013_card_1",
+          "전에"
+        ],
+        [
+          "SEJONG-4B-04-V1-013_card_2",
+          "충분히"
+        ],
+        [
+          "SEJONG-4B-04-V1-013_card_3",
+          "생각했어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-013_card_4",
+          "했는데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-013_card_0",
+          "SEJONG-4B-04-V1-013_card_1",
+          "SEJONG-4B-04-V1-013_card_2",
+          "SEJONG-4B-04-V1-013_card_3",
+          "SEJONG-4B-04-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-014",
+      "displaySentence": "화가 나도 말을 조심했어야 했는데 후회돼요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-014_card_0",
+          "화가"
+        ],
+        [
+          "SEJONG-4B-04-V1-014_card_1",
+          "나도"
+        ],
+        [
+          "SEJONG-4B-04-V1-014_card_2",
+          "말을"
+        ],
+        [
+          "SEJONG-4B-04-V1-014_card_3",
+          "조심했어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-014_card_4",
+          "했는데"
+        ],
+        [
+          "SEJONG-4B-04-V1-014_card_5",
+          "후회돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-014_card_0",
+          "SEJONG-4B-04-V1-014_card_1",
+          "SEJONG-4B-04-V1-014_card_2",
+          "SEJONG-4B-04-V1-014_card_3",
+          "SEJONG-4B-04-V1-014_card_4",
+          "SEJONG-4B-04-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-015",
+      "displaySentence": "쉽게 포기하지 않았으면 성공했을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-015_card_0",
+          "쉽게"
+        ],
+        [
+          "SEJONG-4B-04-V1-015_card_1",
+          "포기하지"
+        ],
+        [
+          "SEJONG-4B-04-V1-015_card_2",
+          "않았으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-015_card_3",
+          "성공했을"
+        ],
+        [
+          "SEJONG-4B-04-V1-015_card_4",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-015_card_0",
+          "SEJONG-4B-04-V1-015_card_1",
+          "SEJONG-4B-04-V1-015_card_2",
+          "SEJONG-4B-04-V1-015_card_3",
+          "SEJONG-4B-04-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-016",
+      "displaySentence": "그 부탁을 거절했으면 일이 줄었을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-016_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-04-V1-016_card_1",
+          "부탁을"
+        ],
+        [
+          "SEJONG-4B-04-V1-016_card_2",
+          "거절했으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-016_card_3",
+          "일이"
+        ],
+        [
+          "SEJONG-4B-04-V1-016_card_4",
+          "줄었을"
+        ],
+        [
+          "SEJONG-4B-04-V1-016_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-016_card_0",
+          "SEJONG-4B-04-V1-016_card_1",
+          "SEJONG-4B-04-V1-016_card_2",
+          "SEJONG-4B-04-V1-016_card_3",
+          "SEJONG-4B-04-V1-016_card_4",
+          "SEJONG-4B-04-V1-016_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-017",
+      "displaySentence": "다른 사람에게 상처를 주지 않았어야 했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-017_card_0",
+          "다른"
+        ],
+        [
+          "SEJONG-4B-04-V1-017_card_1",
+          "사람에게"
+        ],
+        [
+          "SEJONG-4B-04-V1-017_card_2",
+          "상처를"
+        ],
+        [
+          "SEJONG-4B-04-V1-017_card_3",
+          "주지"
+        ],
+        [
+          "SEJONG-4B-04-V1-017_card_4",
+          "않았어야"
+        ],
+        [
+          "SEJONG-4B-04-V1-017_card_5",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-017_card_0",
+          "SEJONG-4B-04-V1-017_card_1",
+          "SEJONG-4B-04-V1-017_card_2",
+          "SEJONG-4B-04-V1-017_card_3",
+          "SEJONG-4B-04-V1-017_card_4",
+          "SEJONG-4B-04-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-018",
+      "displaySentence": "한 번 더 확인했으면 실수를 막았을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-018_card_0",
+          "한"
+        ],
+        [
+          "SEJONG-4B-04-V1-018_card_1",
+          "번"
+        ],
+        [
+          "SEJONG-4B-04-V1-018_card_2",
+          "더"
+        ],
+        [
+          "SEJONG-4B-04-V1-018_card_3",
+          "확인했으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-018_card_4",
+          "실수를"
+        ],
+        [
+          "SEJONG-4B-04-V1-018_card_5",
+          "막았을"
+        ],
+        [
+          "SEJONG-4B-04-V1-018_card_6",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-018_card_0",
+          "SEJONG-4B-04-V1-018_card_1",
+          "SEJONG-4B-04-V1-018_card_2",
+          "SEJONG-4B-04-V1-018_card_3",
+          "SEJONG-4B-04-V1-018_card_4",
+          "SEJONG-4B-04-V1-018_card_5",
+          "SEJONG-4B-04-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-019",
+      "displaySentence": "그때 신중하게 선택했으면 후회하지 않았을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-019_card_0",
+          "그때"
+        ],
+        [
+          "SEJONG-4B-04-V1-019_card_1",
+          "신중하게"
+        ],
+        [
+          "SEJONG-4B-04-V1-019_card_2",
+          "선택했으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-019_card_3",
+          "후회하지"
+        ],
+        [
+          "SEJONG-4B-04-V1-019_card_4",
+          "않았을"
+        ],
+        [
+          "SEJONG-4B-04-V1-019_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-019_card_0",
+          "SEJONG-4B-04-V1-019_card_1",
+          "SEJONG-4B-04-V1-019_card_2",
+          "SEJONG-4B-04-V1-019_card_3",
+          "SEJONG-4B-04-V1-019_card_4",
+          "SEJONG-4B-04-V1-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-04-V1-020",
+      "displaySentence": "기회를 놓치지 않았으면 꿈에 가까워졌을 텐데요.",
+      "tokens": [
+        [
+          "SEJONG-4B-04-V1-020_card_0",
+          "기회를"
+        ],
+        [
+          "SEJONG-4B-04-V1-020_card_1",
+          "놓치지"
+        ],
+        [
+          "SEJONG-4B-04-V1-020_card_2",
+          "않았으면"
+        ],
+        [
+          "SEJONG-4B-04-V1-020_card_3",
+          "꿈에"
+        ],
+        [
+          "SEJONG-4B-04-V1-020_card_4",
+          "가까워졌을"
+        ],
+        [
+          "SEJONG-4B-04-V1-020_card_5",
+          "텐데요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-04-V1-020_card_0",
+          "SEJONG-4B-04-V1-020_card_1",
+          "SEJONG-4B-04-V1-020_card_2",
+          "SEJONG-4B-04-V1-020_card_3",
+          "SEJONG-4B-04-V1-020_card_4",
+          "SEJONG-4B-04-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 4과 문법 -았어야/었어야 했는데 / -았을/었을 텐데 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 4과 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,788 @@
+{
+  "book": "4B",
+  "lesson": 12,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 12과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "12과 핵심 문법 -는다니/ㄴ다니/다니·-기를 바라다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-12-V1-001",
+      "displaySentence": "벌써 졸업을 한다니 정말 믿기지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-001_card_0",
+          "벌써"
+        ],
+        [
+          "SEJONG-4B-12-V1-001_card_1",
+          "졸업을"
+        ],
+        [
+          "SEJONG-4B-12-V1-001_card_2",
+          "한다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-001_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4B-12-V1-001_card_4",
+          "믿기지"
+        ],
+        [
+          "SEJONG-4B-12-V1-001_card_5",
+          "않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-001_card_0",
+          "SEJONG-4B-12-V1-001_card_1",
+          "SEJONG-4B-12-V1-001_card_2",
+          "SEJONG-4B-12-V1-001_card_3",
+          "SEJONG-4B-12-V1-001_card_4",
+          "SEJONG-4B-12-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-002",
+      "displaySentence": "친구가 벌써 떠난다니 너무 아쉬워요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-002_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4B-12-V1-002_card_1",
+          "벌써"
+        ],
+        [
+          "SEJONG-4B-12-V1-002_card_2",
+          "떠난다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-002_card_3",
+          "너무"
+        ],
+        [
+          "SEJONG-4B-12-V1-002_card_4",
+          "아쉬워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-002_card_0",
+          "SEJONG-4B-12-V1-002_card_1",
+          "SEJONG-4B-12-V1-002_card_2",
+          "SEJONG-4B-12-V1-002_card_3",
+          "SEJONG-4B-12-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-003",
+      "displaySentence": "우리 팀이 우승했다니 꿈만 같아요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-003_card_0",
+          "우리"
+        ],
+        [
+          "SEJONG-4B-12-V1-003_card_1",
+          "팀이"
+        ],
+        [
+          "SEJONG-4B-12-V1-003_card_2",
+          "우승했다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-003_card_3",
+          "꿈만"
+        ],
+        [
+          "SEJONG-4B-12-V1-003_card_4",
+          "같아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-003_card_0",
+          "SEJONG-4B-12-V1-003_card_1",
+          "SEJONG-4B-12-V1-003_card_2",
+          "SEJONG-4B-12-V1-003_card_3",
+          "SEJONG-4B-12-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-004",
+      "displaySentence": "오랜 친구를 다시 만난다니 마음이 설레요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-004_card_0",
+          "오랜"
+        ],
+        [
+          "SEJONG-4B-12-V1-004_card_1",
+          "친구를"
+        ],
+        [
+          "SEJONG-4B-12-V1-004_card_2",
+          "다시"
+        ],
+        [
+          "SEJONG-4B-12-V1-004_card_3",
+          "만난다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-004_card_4",
+          "마음이"
+        ],
+        [
+          "SEJONG-4B-12-V1-004_card_5",
+          "설레요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-004_card_0",
+          "SEJONG-4B-12-V1-004_card_1",
+          "SEJONG-4B-12-V1-004_card_2",
+          "SEJONG-4B-12-V1-004_card_3",
+          "SEJONG-4B-12-V1-004_card_4",
+          "SEJONG-4B-12-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-005",
+      "displaySentence": "선생님이 은퇴하신다니 시원섭섭해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-005_card_0",
+          "선생님이"
+        ],
+        [
+          "SEJONG-4B-12-V1-005_card_1",
+          "은퇴하신다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-005_card_2",
+          "시원섭"
+        ],
+        [
+          "SEJONG-4B-12-V1-005_card_3",
+          "섭해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-005_card_0",
+          "SEJONG-4B-12-V1-005_card_1",
+          "SEJONG-4B-12-V1-005_card_2",
+          "SEJONG-4B-12-V1-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-006",
+      "displaySentence": "모두가 저를 칭찬한다니 몸 둘 바를 모르겠어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-006_card_0",
+          "모두가"
+        ],
+        [
+          "SEJONG-4B-12-V1-006_card_1",
+          "저를"
+        ],
+        [
+          "SEJONG-4B-12-V1-006_card_2",
+          "칭찬한다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-006_card_3",
+          "몸"
+        ],
+        [
+          "SEJONG-4B-12-V1-006_card_4",
+          "둘"
+        ],
+        [
+          "SEJONG-4B-12-V1-006_card_5",
+          "바를"
+        ],
+        [
+          "SEJONG-4B-12-V1-006_card_6",
+          "모르겠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-006_card_0",
+          "SEJONG-4B-12-V1-006_card_1",
+          "SEJONG-4B-12-V1-006_card_2",
+          "SEJONG-4B-12-V1-006_card_3",
+          "SEJONG-4B-12-V1-006_card_4",
+          "SEJONG-4B-12-V1-006_card_5",
+          "SEJONG-4B-12-V1-006_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-007",
+      "displaySentence": "앞으로도 늘 건강하게 지내기를 바라요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-007_card_0",
+          "앞으로도"
+        ],
+        [
+          "SEJONG-4B-12-V1-007_card_1",
+          "늘"
+        ],
+        [
+          "SEJONG-4B-12-V1-007_card_2",
+          "건강하게"
+        ],
+        [
+          "SEJONG-4B-12-V1-007_card_3",
+          "지내기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-007_card_4",
+          "바라요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-007_card_0",
+          "SEJONG-4B-12-V1-007_card_1",
+          "SEJONG-4B-12-V1-007_card_2",
+          "SEJONG-4B-12-V1-007_card_3",
+          "SEJONG-4B-12-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-008",
+      "displaySentence": "친구가 원하는 일을 하기를 바라요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-008_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-4B-12-V1-008_card_1",
+          "원하는"
+        ],
+        [
+          "SEJONG-4B-12-V1-008_card_2",
+          "일을"
+        ],
+        [
+          "SEJONG-4B-12-V1-008_card_3",
+          "하기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-008_card_4",
+          "바라요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-008_card_0",
+          "SEJONG-4B-12-V1-008_card_1",
+          "SEJONG-4B-12-V1-008_card_2",
+          "SEJONG-4B-12-V1-008_card_3",
+          "SEJONG-4B-12-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-009",
+      "displaySentence": "모두의 꿈이 꼭 이루어지기를 바랍니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-009_card_0",
+          "모두의"
+        ],
+        [
+          "SEJONG-4B-12-V1-009_card_1",
+          "꿈이"
+        ],
+        [
+          "SEJONG-4B-12-V1-009_card_2",
+          "꼭"
+        ],
+        [
+          "SEJONG-4B-12-V1-009_card_3",
+          "이루어지기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-009_card_4",
+          "바랍니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-009_card_0",
+          "SEJONG-4B-12-V1-009_card_1",
+          "SEJONG-4B-12-V1-009_card_2",
+          "SEJONG-4B-12-V1-009_card_3",
+          "SEJONG-4B-12-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-010",
+      "displaySentence": "졸업 후에도 자주 만나기를 바라요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-010_card_0",
+          "졸업"
+        ],
+        [
+          "SEJONG-4B-12-V1-010_card_1",
+          "후에도"
+        ],
+        [
+          "SEJONG-4B-12-V1-010_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-4B-12-V1-010_card_3",
+          "만나기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-010_card_4",
+          "바라요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-010_card_0",
+          "SEJONG-4B-12-V1-010_card_1",
+          "SEJONG-4B-12-V1-010_card_2",
+          "SEJONG-4B-12-V1-010_card_3",
+          "SEJONG-4B-12-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-011",
+      "displaySentence": "새로운 생활에 잘 적응하기를 바랍니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-011_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-12-V1-011_card_1",
+          "생활에"
+        ],
+        [
+          "SEJONG-4B-12-V1-011_card_2",
+          "잘"
+        ],
+        [
+          "SEJONG-4B-12-V1-011_card_3",
+          "적응하기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-011_card_4",
+          "바랍니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-011_card_0",
+          "SEJONG-4B-12-V1-011_card_1",
+          "SEJONG-4B-12-V1-011_card_2",
+          "SEJONG-4B-12-V1-011_card_3",
+          "SEJONG-4B-12-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-012",
+      "displaySentence": "가족 모두 행복하기를 진심으로 바라요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-012_card_0",
+          "가족"
+        ],
+        [
+          "SEJONG-4B-12-V1-012_card_1",
+          "모두"
+        ],
+        [
+          "SEJONG-4B-12-V1-012_card_2",
+          "행복하기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-012_card_3",
+          "진심으로"
+        ],
+        [
+          "SEJONG-4B-12-V1-012_card_4",
+          "바라요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-012_card_0",
+          "SEJONG-4B-12-V1-012_card_1",
+          "SEJONG-4B-12-V1-012_card_2",
+          "SEJONG-4B-12-V1-012_card_3",
+          "SEJONG-4B-12-V1-012_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-013",
+      "displaySentence": "시간이 이렇게 빨리 갔다니 믿기지 않아요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-013_card_0",
+          "시간이"
+        ],
+        [
+          "SEJONG-4B-12-V1-013_card_1",
+          "이렇게"
+        ],
+        [
+          "SEJONG-4B-12-V1-013_card_2",
+          "빨리"
+        ],
+        [
+          "SEJONG-4B-12-V1-013_card_3",
+          "갔다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-013_card_4",
+          "믿기지"
+        ],
+        [
+          "SEJONG-4B-12-V1-013_card_5",
+          "않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-013_card_0",
+          "SEJONG-4B-12-V1-013_card_1",
+          "SEJONG-4B-12-V1-013_card_2",
+          "SEJONG-4B-12-V1-013_card_3",
+          "SEJONG-4B-12-V1-013_card_4",
+          "SEJONG-4B-12-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-014",
+      "displaySentence": "헤어질 시간이 왔다니 눈물이 앞을 가려요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-014_card_0",
+          "헤어질"
+        ],
+        [
+          "SEJONG-4B-12-V1-014_card_1",
+          "시간이"
+        ],
+        [
+          "SEJONG-4B-12-V1-014_card_2",
+          "왔다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-014_card_3",
+          "눈물이"
+        ],
+        [
+          "SEJONG-4B-12-V1-014_card_4",
+          "앞을"
+        ],
+        [
+          "SEJONG-4B-12-V1-014_card_5",
+          "가려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-014_card_0",
+          "SEJONG-4B-12-V1-014_card_1",
+          "SEJONG-4B-12-V1-014_card_2",
+          "SEJONG-4B-12-V1-014_card_3",
+          "SEJONG-4B-12-V1-014_card_4",
+          "SEJONG-4B-12-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-015",
+      "displaySentence": "좋은 소식을 들었다니 마음이 따뜻해져요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-015_card_0",
+          "좋은"
+        ],
+        [
+          "SEJONG-4B-12-V1-015_card_1",
+          "소식을"
+        ],
+        [
+          "SEJONG-4B-12-V1-015_card_2",
+          "들었다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-015_card_3",
+          "마음이"
+        ],
+        [
+          "SEJONG-4B-12-V1-015_card_4",
+          "따뜻해져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-015_card_0",
+          "SEJONG-4B-12-V1-015_card_1",
+          "SEJONG-4B-12-V1-015_card_2",
+          "SEJONG-4B-12-V1-015_card_3",
+          "SEJONG-4B-12-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-016",
+      "displaySentence": "새로운 시작을 앞두었다니 걱정이 앞서요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-016_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-12-V1-016_card_1",
+          "시작을"
+        ],
+        [
+          "SEJONG-4B-12-V1-016_card_2",
+          "앞두었다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-016_card_3",
+          "걱정이"
+        ],
+        [
+          "SEJONG-4B-12-V1-016_card_4",
+          "앞서요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-016_card_0",
+          "SEJONG-4B-12-V1-016_card_1",
+          "SEJONG-4B-12-V1-016_card_2",
+          "SEJONG-4B-12-V1-016_card_3",
+          "SEJONG-4B-12-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-017",
+      "displaySentence": "그리운 친구를 만난다니 정말 기뻐요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-017_card_0",
+          "그리운"
+        ],
+        [
+          "SEJONG-4B-12-V1-017_card_1",
+          "친구를"
+        ],
+        [
+          "SEJONG-4B-12-V1-017_card_2",
+          "만난다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-017_card_3",
+          "정말"
+        ],
+        [
+          "SEJONG-4B-12-V1-017_card_4",
+          "기뻐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-017_card_0",
+          "SEJONG-4B-12-V1-017_card_1",
+          "SEJONG-4B-12-V1-017_card_2",
+          "SEJONG-4B-12-V1-017_card_3",
+          "SEJONG-4B-12-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-018",
+      "displaySentence": "큰 책임을 맡았다니 조금 부담스러워요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-018_card_0",
+          "큰"
+        ],
+        [
+          "SEJONG-4B-12-V1-018_card_1",
+          "책임을"
+        ],
+        [
+          "SEJONG-4B-12-V1-018_card_2",
+          "맡았다니"
+        ],
+        [
+          "SEJONG-4B-12-V1-018_card_3",
+          "조금"
+        ],
+        [
+          "SEJONG-4B-12-V1-018_card_4",
+          "부담스러워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-018_card_0",
+          "SEJONG-4B-12-V1-018_card_1",
+          "SEJONG-4B-12-V1-018_card_2",
+          "SEJONG-4B-12-V1-018_card_3",
+          "SEJONG-4B-12-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-019",
+      "displaySentence": "앞으로 후회 없는 시간을 보내기를 바라요.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-019_card_0",
+          "앞으로"
+        ],
+        [
+          "SEJONG-4B-12-V1-019_card_1",
+          "후회"
+        ],
+        [
+          "SEJONG-4B-12-V1-019_card_2",
+          "없는"
+        ],
+        [
+          "SEJONG-4B-12-V1-019_card_3",
+          "시간을"
+        ],
+        [
+          "SEJONG-4B-12-V1-019_card_4",
+          "보내기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-019_card_5",
+          "바라요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-019_card_0",
+          "SEJONG-4B-12-V1-019_card_1",
+          "SEJONG-4B-12-V1-019_card_2",
+          "SEJONG-4B-12-V1-019_card_3",
+          "SEJONG-4B-12-V1-019_card_4",
+          "SEJONG-4B-12-V1-019_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-12-V1-020",
+      "displaySentence": "언젠가 다시 이곳에서 만나기를 바랍니다.",
+      "tokens": [
+        [
+          "SEJONG-4B-12-V1-020_card_0",
+          "언젠가"
+        ],
+        [
+          "SEJONG-4B-12-V1-020_card_1",
+          "다시"
+        ],
+        [
+          "SEJONG-4B-12-V1-020_card_2",
+          "이곳에서"
+        ],
+        [
+          "SEJONG-4B-12-V1-020_card_3",
+          "만나기를"
+        ],
+        [
+          "SEJONG-4B-12-V1-020_card_4",
+          "바랍니다."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-12-V1-020_card_0",
+          "SEJONG-4B-12-V1-020_card_1",
+          "SEJONG-4B-12-V1-020_card_2",
+          "SEJONG-4B-12-V1-020_card_3",
+          "SEJONG-4B-12-V1-020_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 12과 문법 -는다니/ㄴ다니/다니 / -기를 바라다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 12과 범위 재구성"
+    }
+  ]
+}

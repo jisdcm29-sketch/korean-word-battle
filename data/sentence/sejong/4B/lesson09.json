@@ -1,0 +1,783 @@
+{
+  "book": "4B",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 9과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "9과 핵심 문법 -(으)ㄹ수록·-(으)나 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-09-V1-001",
+      "displaySentence": "시간이 갈수록 현금 사용이 줄어들고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-001_card_0",
+          "시간이"
+        ],
+        [
+          "SEJONG-4B-09-V1-001_card_1",
+          "갈수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-001_card_2",
+          "현금"
+        ],
+        [
+          "SEJONG-4B-09-V1-001_card_3",
+          "사용이"
+        ],
+        [
+          "SEJONG-4B-09-V1-001_card_4",
+          "줄어들고"
+        ],
+        [
+          "SEJONG-4B-09-V1-001_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-001_card_0",
+          "SEJONG-4B-09-V1-001_card_1",
+          "SEJONG-4B-09-V1-001_card_2",
+          "SEJONG-4B-09-V1-001_card_3",
+          "SEJONG-4B-09-V1-001_card_4",
+          "SEJONG-4B-09-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-002",
+      "displaySentence": "기술이 발달할수록 생활이 더 편리해져요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-002_card_0",
+          "기술이"
+        ],
+        [
+          "SEJONG-4B-09-V1-002_card_1",
+          "발달할수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-002_card_2",
+          "생활이"
+        ],
+        [
+          "SEJONG-4B-09-V1-002_card_3",
+          "더"
+        ],
+        [
+          "SEJONG-4B-09-V1-002_card_4",
+          "편리해져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-002_card_0",
+          "SEJONG-4B-09-V1-002_card_1",
+          "SEJONG-4B-09-V1-002_card_2",
+          "SEJONG-4B-09-V1-002_card_3",
+          "SEJONG-4B-09-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-003",
+      "displaySentence": "나이가 들수록 건강의 중요성을 느껴요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-003_card_0",
+          "나이가"
+        ],
+        [
+          "SEJONG-4B-09-V1-003_card_1",
+          "들수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-003_card_2",
+          "건강의"
+        ],
+        [
+          "SEJONG-4B-09-V1-003_card_3",
+          "중요성을"
+        ],
+        [
+          "SEJONG-4B-09-V1-003_card_4",
+          "느껴요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-003_card_0",
+          "SEJONG-4B-09-V1-003_card_1",
+          "SEJONG-4B-09-V1-003_card_2",
+          "SEJONG-4B-09-V1-003_card_3",
+          "SEJONG-4B-09-V1-003_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-004",
+      "displaySentence": "사람이 많아질수록 교통이 복잡해져요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-004_card_0",
+          "사람이"
+        ],
+        [
+          "SEJONG-4B-09-V1-004_card_1",
+          "많아질수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-004_card_2",
+          "교통이"
+        ],
+        [
+          "SEJONG-4B-09-V1-004_card_3",
+          "복잡해져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-004_card_0",
+          "SEJONG-4B-09-V1-004_card_1",
+          "SEJONG-4B-09-V1-004_card_2",
+          "SEJONG-4B-09-V1-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-005",
+      "displaySentence": "연습할수록 실력이 꾸준히 늘어나요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-005_card_0",
+          "연습할수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-005_card_1",
+          "실력이"
+        ],
+        [
+          "SEJONG-4B-09-V1-005_card_2",
+          "꾸준히"
+        ],
+        [
+          "SEJONG-4B-09-V1-005_card_3",
+          "늘어나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-005_card_0",
+          "SEJONG-4B-09-V1-005_card_1",
+          "SEJONG-4B-09-V1-005_card_2",
+          "SEJONG-4B-09-V1-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-006",
+      "displaySentence": "날씨가 추워질수록 난방 사용이 증가해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-006_card_0",
+          "날씨가"
+        ],
+        [
+          "SEJONG-4B-09-V1-006_card_1",
+          "추워질수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-006_card_2",
+          "난방"
+        ],
+        [
+          "SEJONG-4B-09-V1-006_card_3",
+          "사용이"
+        ],
+        [
+          "SEJONG-4B-09-V1-006_card_4",
+          "증가해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-006_card_0",
+          "SEJONG-4B-09-V1-006_card_1",
+          "SEJONG-4B-09-V1-006_card_2",
+          "SEJONG-4B-09-V1-006_card_3",
+          "SEJONG-4B-09-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-007",
+      "displaySentence": "경제는 성장하고 있으나 문제도 남아 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-007_card_0",
+          "경제는"
+        ],
+        [
+          "SEJONG-4B-09-V1-007_card_1",
+          "성장하고"
+        ],
+        [
+          "SEJONG-4B-09-V1-007_card_2",
+          "있으나"
+        ],
+        [
+          "SEJONG-4B-09-V1-007_card_3",
+          "문제도"
+        ],
+        [
+          "SEJONG-4B-09-V1-007_card_4",
+          "남아"
+        ],
+        [
+          "SEJONG-4B-09-V1-007_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-007_card_0",
+          "SEJONG-4B-09-V1-007_card_1",
+          "SEJONG-4B-09-V1-007_card_2",
+          "SEJONG-4B-09-V1-007_card_3",
+          "SEJONG-4B-09-V1-007_card_4",
+          "SEJONG-4B-09-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-008",
+      "displaySentence": "사용자는 늘어났으나 현금 사용은 감소했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-008_card_0",
+          "사용자는"
+        ],
+        [
+          "SEJONG-4B-09-V1-008_card_1",
+          "늘어났으나"
+        ],
+        [
+          "SEJONG-4B-09-V1-008_card_2",
+          "현금"
+        ],
+        [
+          "SEJONG-4B-09-V1-008_card_3",
+          "사용은"
+        ],
+        [
+          "SEJONG-4B-09-V1-008_card_4",
+          "감소했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-008_card_0",
+          "SEJONG-4B-09-V1-008_card_1",
+          "SEJONG-4B-09-V1-008_card_2",
+          "SEJONG-4B-09-V1-008_card_3",
+          "SEJONG-4B-09-V1-008_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-009",
+      "displaySentence": "기술은 발달했으나 불편한 점도 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-009_card_0",
+          "기술은"
+        ],
+        [
+          "SEJONG-4B-09-V1-009_card_1",
+          "발달했으나"
+        ],
+        [
+          "SEJONG-4B-09-V1-009_card_2",
+          "불편한"
+        ],
+        [
+          "SEJONG-4B-09-V1-009_card_3",
+          "점도"
+        ],
+        [
+          "SEJONG-4B-09-V1-009_card_4",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-009_card_0",
+          "SEJONG-4B-09-V1-009_card_1",
+          "SEJONG-4B-09-V1-009_card_2",
+          "SEJONG-4B-09-V1-009_card_3",
+          "SEJONG-4B-09-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-010",
+      "displaySentence": "생활은 편리해졌으나 새로운 문제도 생겼어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-010_card_0",
+          "생활은"
+        ],
+        [
+          "SEJONG-4B-09-V1-010_card_1",
+          "편리해졌으나"
+        ],
+        [
+          "SEJONG-4B-09-V1-010_card_2",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-09-V1-010_card_3",
+          "문제도"
+        ],
+        [
+          "SEJONG-4B-09-V1-010_card_4",
+          "생겼어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-010_card_0",
+          "SEJONG-4B-09-V1-010_card_1",
+          "SEJONG-4B-09-V1-010_card_2",
+          "SEJONG-4B-09-V1-010_card_3",
+          "SEJONG-4B-09-V1-010_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-011",
+      "displaySentence": "결제 방법이 다양해지고 있으나 현금도 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-011_card_0",
+          "결제"
+        ],
+        [
+          "SEJONG-4B-09-V1-011_card_1",
+          "방법이"
+        ],
+        [
+          "SEJONG-4B-09-V1-011_card_2",
+          "다양해지고"
+        ],
+        [
+          "SEJONG-4B-09-V1-011_card_3",
+          "있으나"
+        ],
+        [
+          "SEJONG-4B-09-V1-011_card_4",
+          "현금도"
+        ],
+        [
+          "SEJONG-4B-09-V1-011_card_5",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-011_card_0",
+          "SEJONG-4B-09-V1-011_card_1",
+          "SEJONG-4B-09-V1-011_card_2",
+          "SEJONG-4B-09-V1-011_card_3",
+          "SEJONG-4B-09-V1-011_card_4",
+          "SEJONG-4B-09-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-012",
+      "displaySentence": "인구는 줄어들고 있으나 도시 인구는 늘고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-012_card_0",
+          "인구는"
+        ],
+        [
+          "SEJONG-4B-09-V1-012_card_1",
+          "줄어들고"
+        ],
+        [
+          "SEJONG-4B-09-V1-012_card_2",
+          "있으나"
+        ],
+        [
+          "SEJONG-4B-09-V1-012_card_3",
+          "도시"
+        ],
+        [
+          "SEJONG-4B-09-V1-012_card_4",
+          "인구는"
+        ],
+        [
+          "SEJONG-4B-09-V1-012_card_5",
+          "늘고"
+        ],
+        [
+          "SEJONG-4B-09-V1-012_card_6",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-012_card_0",
+          "SEJONG-4B-09-V1-012_card_1",
+          "SEJONG-4B-09-V1-012_card_2",
+          "SEJONG-4B-09-V1-012_card_3",
+          "SEJONG-4B-09-V1-012_card_4",
+          "SEJONG-4B-09-V1-012_card_5",
+          "SEJONG-4B-09-V1-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-013",
+      "displaySentence": "시간이 지날수록 사회가 점점 달라져요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-013_card_0",
+          "시간이"
+        ],
+        [
+          "SEJONG-4B-09-V1-013_card_1",
+          "지날수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-013_card_2",
+          "사회가"
+        ],
+        [
+          "SEJONG-4B-09-V1-013_card_3",
+          "점점"
+        ],
+        [
+          "SEJONG-4B-09-V1-013_card_4",
+          "달라져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-013_card_0",
+          "SEJONG-4B-09-V1-013_card_1",
+          "SEJONG-4B-09-V1-013_card_2",
+          "SEJONG-4B-09-V1-013_card_3",
+          "SEJONG-4B-09-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-014",
+      "displaySentence": "기술이 발달할수록 선택이 더 다양해져요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-014_card_0",
+          "기술이"
+        ],
+        [
+          "SEJONG-4B-09-V1-014_card_1",
+          "발달할수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-014_card_2",
+          "선택이"
+        ],
+        [
+          "SEJONG-4B-09-V1-014_card_3",
+          "더"
+        ],
+        [
+          "SEJONG-4B-09-V1-014_card_4",
+          "다양해져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-014_card_0",
+          "SEJONG-4B-09-V1-014_card_1",
+          "SEJONG-4B-09-V1-014_card_2",
+          "SEJONG-4B-09-V1-014_card_3",
+          "SEJONG-4B-09-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-015",
+      "displaySentence": "가격이 오를수록 소비가 줄어드는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-015_card_0",
+          "가격이"
+        ],
+        [
+          "SEJONG-4B-09-V1-015_card_1",
+          "오를수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-015_card_2",
+          "소비가"
+        ],
+        [
+          "SEJONG-4B-09-V1-015_card_3",
+          "줄어드는"
+        ],
+        [
+          "SEJONG-4B-09-V1-015_card_4",
+          "편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-015_card_0",
+          "SEJONG-4B-09-V1-015_card_1",
+          "SEJONG-4B-09-V1-015_card_2",
+          "SEJONG-4B-09-V1-015_card_3",
+          "SEJONG-4B-09-V1-015_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-016",
+      "displaySentence": "변화가 급격하나 사람들은 곧 적응해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-016_card_0",
+          "변화가"
+        ],
+        [
+          "SEJONG-4B-09-V1-016_card_1",
+          "급격하나"
+        ],
+        [
+          "SEJONG-4B-09-V1-016_card_2",
+          "사람들은"
+        ],
+        [
+          "SEJONG-4B-09-V1-016_card_3",
+          "곧"
+        ],
+        [
+          "SEJONG-4B-09-V1-016_card_4",
+          "적응해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-016_card_0",
+          "SEJONG-4B-09-V1-016_card_1",
+          "SEJONG-4B-09-V1-016_card_2",
+          "SEJONG-4B-09-V1-016_card_3",
+          "SEJONG-4B-09-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-017",
+      "displaySentence": "사용량은 감소하나 필요성은 아직 남아 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-017_card_0",
+          "사용량은"
+        ],
+        [
+          "SEJONG-4B-09-V1-017_card_1",
+          "감소하나"
+        ],
+        [
+          "SEJONG-4B-09-V1-017_card_2",
+          "필요성은"
+        ],
+        [
+          "SEJONG-4B-09-V1-017_card_3",
+          "아직"
+        ],
+        [
+          "SEJONG-4B-09-V1-017_card_4",
+          "남아"
+        ],
+        [
+          "SEJONG-4B-09-V1-017_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-017_card_0",
+          "SEJONG-4B-09-V1-017_card_1",
+          "SEJONG-4B-09-V1-017_card_2",
+          "SEJONG-4B-09-V1-017_card_3",
+          "SEJONG-4B-09-V1-017_card_4",
+          "SEJONG-4B-09-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-018",
+      "displaySentence": "꾸준히 연습할수록 실력이 빠르게 늘어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-018_card_0",
+          "꾸준히"
+        ],
+        [
+          "SEJONG-4B-09-V1-018_card_1",
+          "연습할수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-018_card_2",
+          "실력이"
+        ],
+        [
+          "SEJONG-4B-09-V1-018_card_3",
+          "빠르게"
+        ],
+        [
+          "SEJONG-4B-09-V1-018_card_4",
+          "늘어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-018_card_0",
+          "SEJONG-4B-09-V1-018_card_1",
+          "SEJONG-4B-09-V1-018_card_2",
+          "SEJONG-4B-09-V1-018_card_3",
+          "SEJONG-4B-09-V1-018_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-019",
+      "displaySentence": "환경이 달라질수록 생활 방식도 변화해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-019_card_0",
+          "환경이"
+        ],
+        [
+          "SEJONG-4B-09-V1-019_card_1",
+          "달라질수록"
+        ],
+        [
+          "SEJONG-4B-09-V1-019_card_2",
+          "생활"
+        ],
+        [
+          "SEJONG-4B-09-V1-019_card_3",
+          "방식도"
+        ],
+        [
+          "SEJONG-4B-09-V1-019_card_4",
+          "변화해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-019_card_0",
+          "SEJONG-4B-09-V1-019_card_1",
+          "SEJONG-4B-09-V1-019_card_2",
+          "SEJONG-4B-09-V1-019_card_3",
+          "SEJONG-4B-09-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-09-V1-020",
+      "displaySentence": "현금 사용은 줄어드나 완전히 사라지지는 않아요.",
+      "tokens": [
+        [
+          "SEJONG-4B-09-V1-020_card_0",
+          "현금"
+        ],
+        [
+          "SEJONG-4B-09-V1-020_card_1",
+          "사용은"
+        ],
+        [
+          "SEJONG-4B-09-V1-020_card_2",
+          "줄어드나"
+        ],
+        [
+          "SEJONG-4B-09-V1-020_card_3",
+          "완전히"
+        ],
+        [
+          "SEJONG-4B-09-V1-020_card_4",
+          "사라지지는"
+        ],
+        [
+          "SEJONG-4B-09-V1-020_card_5",
+          "않아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-09-V1-020_card_0",
+          "SEJONG-4B-09-V1-020_card_1",
+          "SEJONG-4B-09-V1-020_card_2",
+          "SEJONG-4B-09-V1-020_card_3",
+          "SEJONG-4B-09-V1-020_card_4",
+          "SEJONG-4B-09-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 9과 문법 -(으)ㄹ수록 / -(으)나 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 9과 범위 재구성"
+    }
+  ]
+}

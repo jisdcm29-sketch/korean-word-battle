@@ -1,0 +1,863 @@
+{
+  "book": "4B",
+  "lesson": 3,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 3과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "3과 핵심 문법 -(으)ㄹ까 -(으)ㄹ까·-지 그래요? 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-03-V1-001",
+      "displaySentence": "회사를 다닐까 사업을 시작할까 고민이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-001_card_0",
+          "회사를"
+        ],
+        [
+          "SEJONG-4B-03-V1-001_card_1",
+          "다닐까"
+        ],
+        [
+          "SEJONG-4B-03-V1-001_card_2",
+          "사업을"
+        ],
+        [
+          "SEJONG-4B-03-V1-001_card_3",
+          "시작할까"
+        ],
+        [
+          "SEJONG-4B-03-V1-001_card_4",
+          "고민이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-001_card_0",
+          "SEJONG-4B-03-V1-001_card_1",
+          "SEJONG-4B-03-V1-001_card_2",
+          "SEJONG-4B-03-V1-001_card_3",
+          "SEJONG-4B-03-V1-001_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-002",
+      "displaySentence": "진학할까 취업할까 아직 결정하지 못했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-002_card_0",
+          "진학할까"
+        ],
+        [
+          "SEJONG-4B-03-V1-002_card_1",
+          "취업할까"
+        ],
+        [
+          "SEJONG-4B-03-V1-002_card_2",
+          "아직"
+        ],
+        [
+          "SEJONG-4B-03-V1-002_card_3",
+          "결정하지"
+        ],
+        [
+          "SEJONG-4B-03-V1-002_card_4",
+          "못했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-002_card_0",
+          "SEJONG-4B-03-V1-002_card_1",
+          "SEJONG-4B-03-V1-002_card_2",
+          "SEJONG-4B-03-V1-002_card_3",
+          "SEJONG-4B-03-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-003",
+      "displaySentence": "여행을 갈까 집에서 쉴까 생각 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-003_card_0",
+          "여행을"
+        ],
+        [
+          "SEJONG-4B-03-V1-003_card_1",
+          "갈까"
+        ],
+        [
+          "SEJONG-4B-03-V1-003_card_2",
+          "집에서"
+        ],
+        [
+          "SEJONG-4B-03-V1-003_card_3",
+          "쉴까"
+        ],
+        [
+          "SEJONG-4B-03-V1-003_card_4",
+          "생각"
+        ],
+        [
+          "SEJONG-4B-03-V1-003_card_5",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-003_card_0",
+          "SEJONG-4B-03-V1-003_card_1",
+          "SEJONG-4B-03-V1-003_card_2",
+          "SEJONG-4B-03-V1-003_card_3",
+          "SEJONG-4B-03-V1-003_card_4",
+          "SEJONG-4B-03-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-004",
+      "displaySentence": "연애를 시작할까 공부에 집중할까 고민이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-004_card_0",
+          "연애를"
+        ],
+        [
+          "SEJONG-4B-03-V1-004_card_1",
+          "시작할까"
+        ],
+        [
+          "SEJONG-4B-03-V1-004_card_2",
+          "공부에"
+        ],
+        [
+          "SEJONG-4B-03-V1-004_card_3",
+          "집중할까"
+        ],
+        [
+          "SEJONG-4B-03-V1-004_card_4",
+          "고민이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-004_card_0",
+          "SEJONG-4B-03-V1-004_card_1",
+          "SEJONG-4B-03-V1-004_card_2",
+          "SEJONG-4B-03-V1-004_card_3",
+          "SEJONG-4B-03-V1-004_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-005",
+      "displaySentence": "직장을 옮길까 그냥 계속 다닐까 고민이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-005_card_0",
+          "직장을"
+        ],
+        [
+          "SEJONG-4B-03-V1-005_card_1",
+          "옮길까"
+        ],
+        [
+          "SEJONG-4B-03-V1-005_card_2",
+          "그냥"
+        ],
+        [
+          "SEJONG-4B-03-V1-005_card_3",
+          "계속"
+        ],
+        [
+          "SEJONG-4B-03-V1-005_card_4",
+          "다닐까"
+        ],
+        [
+          "SEJONG-4B-03-V1-005_card_5",
+          "고민이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-005_card_0",
+          "SEJONG-4B-03-V1-005_card_1",
+          "SEJONG-4B-03-V1-005_card_2",
+          "SEJONG-4B-03-V1-005_card_3",
+          "SEJONG-4B-03-V1-005_card_4",
+          "SEJONG-4B-03-V1-005_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-006",
+      "displaySentence": "전공을 바꿀까 그대로 공부할까 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-006_card_0",
+          "전공을"
+        ],
+        [
+          "SEJONG-4B-03-V1-006_card_1",
+          "바꿀까"
+        ],
+        [
+          "SEJONG-4B-03-V1-006_card_2",
+          "그대로"
+        ],
+        [
+          "SEJONG-4B-03-V1-006_card_3",
+          "공부할까"
+        ],
+        [
+          "SEJONG-4B-03-V1-006_card_4",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-006_card_0",
+          "SEJONG-4B-03-V1-006_card_1",
+          "SEJONG-4B-03-V1-006_card_2",
+          "SEJONG-4B-03-V1-006_card_3",
+          "SEJONG-4B-03-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-007",
+      "displaySentence": "진로 상담을 받아 보지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-007_card_0",
+          "진로"
+        ],
+        [
+          "SEJONG-4B-03-V1-007_card_1",
+          "상담을"
+        ],
+        [
+          "SEJONG-4B-03-V1-007_card_2",
+          "받아"
+        ],
+        [
+          "SEJONG-4B-03-V1-007_card_3",
+          "보지"
+        ],
+        [
+          "SEJONG-4B-03-V1-007_card_4",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-007_card_0",
+          "SEJONG-4B-03-V1-007_card_1",
+          "SEJONG-4B-03-V1-007_card_2",
+          "SEJONG-4B-03-V1-007_card_3",
+          "SEJONG-4B-03-V1-007_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-008",
+      "displaySentence": "업무가 너무 많으면 쉬어 가지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-008_card_0",
+          "업무가"
+        ],
+        [
+          "SEJONG-4B-03-V1-008_card_1",
+          "너무"
+        ],
+        [
+          "SEJONG-4B-03-V1-008_card_2",
+          "많으면"
+        ],
+        [
+          "SEJONG-4B-03-V1-008_card_3",
+          "쉬어"
+        ],
+        [
+          "SEJONG-4B-03-V1-008_card_4",
+          "가지"
+        ],
+        [
+          "SEJONG-4B-03-V1-008_card_5",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-008_card_0",
+          "SEJONG-4B-03-V1-008_card_1",
+          "SEJONG-4B-03-V1-008_card_2",
+          "SEJONG-4B-03-V1-008_card_3",
+          "SEJONG-4B-03-V1-008_card_4",
+          "SEJONG-4B-03-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-009",
+      "displaySentence": "인간관계가 힘들면 먼저 대화하지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-009_card_0",
+          "인간관계가"
+        ],
+        [
+          "SEJONG-4B-03-V1-009_card_1",
+          "힘들면"
+        ],
+        [
+          "SEJONG-4B-03-V1-009_card_2",
+          "먼저"
+        ],
+        [
+          "SEJONG-4B-03-V1-009_card_3",
+          "대화하지"
+        ],
+        [
+          "SEJONG-4B-03-V1-009_card_4",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-009_card_0",
+          "SEJONG-4B-03-V1-009_card_1",
+          "SEJONG-4B-03-V1-009_card_2",
+          "SEJONG-4B-03-V1-009_card_3",
+          "SEJONG-4B-03-V1-009_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-010",
+      "displaySentence": "미래가 불안하면 계획을 세워 보지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-010_card_0",
+          "미래가"
+        ],
+        [
+          "SEJONG-4B-03-V1-010_card_1",
+          "불안하면"
+        ],
+        [
+          "SEJONG-4B-03-V1-010_card_2",
+          "계획을"
+        ],
+        [
+          "SEJONG-4B-03-V1-010_card_3",
+          "세워"
+        ],
+        [
+          "SEJONG-4B-03-V1-010_card_4",
+          "보지"
+        ],
+        [
+          "SEJONG-4B-03-V1-010_card_5",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-010_card_0",
+          "SEJONG-4B-03-V1-010_card_1",
+          "SEJONG-4B-03-V1-010_card_2",
+          "SEJONG-4B-03-V1-010_card_3",
+          "SEJONG-4B-03-V1-010_card_4",
+          "SEJONG-4B-03-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-011",
+      "displaySentence": "실력이 늘지 않으면 매일 연습하지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-011_card_0",
+          "실력이"
+        ],
+        [
+          "SEJONG-4B-03-V1-011_card_1",
+          "늘지"
+        ],
+        [
+          "SEJONG-4B-03-V1-011_card_2",
+          "않으면"
+        ],
+        [
+          "SEJONG-4B-03-V1-011_card_3",
+          "매일"
+        ],
+        [
+          "SEJONG-4B-03-V1-011_card_4",
+          "연습하지"
+        ],
+        [
+          "SEJONG-4B-03-V1-011_card_5",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-011_card_0",
+          "SEJONG-4B-03-V1-011_card_1",
+          "SEJONG-4B-03-V1-011_card_2",
+          "SEJONG-4B-03-V1-011_card_3",
+          "SEJONG-4B-03-V1-011_card_4",
+          "SEJONG-4B-03-V1-011_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-012",
+      "displaySentence": "경제 상황이 어렵다면 지출을 줄이지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-012_card_0",
+          "경제"
+        ],
+        [
+          "SEJONG-4B-03-V1-012_card_1",
+          "상황이"
+        ],
+        [
+          "SEJONG-4B-03-V1-012_card_2",
+          "어렵다면"
+        ],
+        [
+          "SEJONG-4B-03-V1-012_card_3",
+          "지출을"
+        ],
+        [
+          "SEJONG-4B-03-V1-012_card_4",
+          "줄이지"
+        ],
+        [
+          "SEJONG-4B-03-V1-012_card_5",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-012_card_0",
+          "SEJONG-4B-03-V1-012_card_1",
+          "SEJONG-4B-03-V1-012_card_2",
+          "SEJONG-4B-03-V1-012_card_3",
+          "SEJONG-4B-03-V1-012_card_4",
+          "SEJONG-4B-03-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-013",
+      "displaySentence": "취업할까 대학원에 갈까 계속 고민하고 있어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-013_card_0",
+          "취업할까"
+        ],
+        [
+          "SEJONG-4B-03-V1-013_card_1",
+          "대학원에"
+        ],
+        [
+          "SEJONG-4B-03-V1-013_card_2",
+          "갈까"
+        ],
+        [
+          "SEJONG-4B-03-V1-013_card_3",
+          "계속"
+        ],
+        [
+          "SEJONG-4B-03-V1-013_card_4",
+          "고민하고"
+        ],
+        [
+          "SEJONG-4B-03-V1-013_card_5",
+          "있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-013_card_0",
+          "SEJONG-4B-03-V1-013_card_1",
+          "SEJONG-4B-03-V1-013_card_2",
+          "SEJONG-4B-03-V1-013_card_3",
+          "SEJONG-4B-03-V1-013_card_4",
+          "SEJONG-4B-03-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-014",
+      "displaySentence": "한국에 남을까 고향으로 돌아갈까 생각 중이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-014_card_0",
+          "한국에"
+        ],
+        [
+          "SEJONG-4B-03-V1-014_card_1",
+          "남을까"
+        ],
+        [
+          "SEJONG-4B-03-V1-014_card_2",
+          "고향으로"
+        ],
+        [
+          "SEJONG-4B-03-V1-014_card_3",
+          "돌아갈까"
+        ],
+        [
+          "SEJONG-4B-03-V1-014_card_4",
+          "생각"
+        ],
+        [
+          "SEJONG-4B-03-V1-014_card_5",
+          "중이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-014_card_0",
+          "SEJONG-4B-03-V1-014_card_1",
+          "SEJONG-4B-03-V1-014_card_2",
+          "SEJONG-4B-03-V1-014_card_3",
+          "SEJONG-4B-03-V1-014_card_4",
+          "SEJONG-4B-03-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-015",
+      "displaySentence": "회사를 그만둘까 계속 다닐까 결정을 못 했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-015_card_0",
+          "회사를"
+        ],
+        [
+          "SEJONG-4B-03-V1-015_card_1",
+          "그만둘까"
+        ],
+        [
+          "SEJONG-4B-03-V1-015_card_2",
+          "계속"
+        ],
+        [
+          "SEJONG-4B-03-V1-015_card_3",
+          "다닐까"
+        ],
+        [
+          "SEJONG-4B-03-V1-015_card_4",
+          "결정을"
+        ],
+        [
+          "SEJONG-4B-03-V1-015_card_5",
+          "못"
+        ],
+        [
+          "SEJONG-4B-03-V1-015_card_6",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-015_card_0",
+          "SEJONG-4B-03-V1-015_card_1",
+          "SEJONG-4B-03-V1-015_card_2",
+          "SEJONG-4B-03-V1-015_card_3",
+          "SEJONG-4B-03-V1-015_card_4",
+          "SEJONG-4B-03-V1-015_card_5",
+          "SEJONG-4B-03-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-016",
+      "displaySentence": "연애를 하고 싶으면 모임에 나가 보지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-016_card_0",
+          "연애를"
+        ],
+        [
+          "SEJONG-4B-03-V1-016_card_1",
+          "하고"
+        ],
+        [
+          "SEJONG-4B-03-V1-016_card_2",
+          "싶으면"
+        ],
+        [
+          "SEJONG-4B-03-V1-016_card_3",
+          "모임에"
+        ],
+        [
+          "SEJONG-4B-03-V1-016_card_4",
+          "나가"
+        ],
+        [
+          "SEJONG-4B-03-V1-016_card_5",
+          "보지"
+        ],
+        [
+          "SEJONG-4B-03-V1-016_card_6",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-016_card_0",
+          "SEJONG-4B-03-V1-016_card_1",
+          "SEJONG-4B-03-V1-016_card_2",
+          "SEJONG-4B-03-V1-016_card_3",
+          "SEJONG-4B-03-V1-016_card_4",
+          "SEJONG-4B-03-V1-016_card_5",
+          "SEJONG-4B-03-V1-016_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-017",
+      "displaySentence": "직장 생활이 안 맞으면 다른 일을 찾아보지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-017_card_0",
+          "직장"
+        ],
+        [
+          "SEJONG-4B-03-V1-017_card_1",
+          "생활이"
+        ],
+        [
+          "SEJONG-4B-03-V1-017_card_2",
+          "안"
+        ],
+        [
+          "SEJONG-4B-03-V1-017_card_3",
+          "맞으면"
+        ],
+        [
+          "SEJONG-4B-03-V1-017_card_4",
+          "다른"
+        ],
+        [
+          "SEJONG-4B-03-V1-017_card_5",
+          "일을"
+        ],
+        [
+          "SEJONG-4B-03-V1-017_card_6",
+          "찾아보지"
+        ],
+        [
+          "SEJONG-4B-03-V1-017_card_7",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-017_card_0",
+          "SEJONG-4B-03-V1-017_card_1",
+          "SEJONG-4B-03-V1-017_card_2",
+          "SEJONG-4B-03-V1-017_card_3",
+          "SEJONG-4B-03-V1-017_card_4",
+          "SEJONG-4B-03-V1-017_card_5",
+          "SEJONG-4B-03-V1-017_card_6",
+          "SEJONG-4B-03-V1-017_card_7"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-018",
+      "displaySentence": "진로를 못 정했으면 여러 일을 경험해 보지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-018_card_0",
+          "진로를"
+        ],
+        [
+          "SEJONG-4B-03-V1-018_card_1",
+          "못"
+        ],
+        [
+          "SEJONG-4B-03-V1-018_card_2",
+          "정했으면"
+        ],
+        [
+          "SEJONG-4B-03-V1-018_card_3",
+          "여러"
+        ],
+        [
+          "SEJONG-4B-03-V1-018_card_4",
+          "일을"
+        ],
+        [
+          "SEJONG-4B-03-V1-018_card_5",
+          "경험해"
+        ],
+        [
+          "SEJONG-4B-03-V1-018_card_6",
+          "보지"
+        ],
+        [
+          "SEJONG-4B-03-V1-018_card_7",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-018_card_0",
+          "SEJONG-4B-03-V1-018_card_1",
+          "SEJONG-4B-03-V1-018_card_2",
+          "SEJONG-4B-03-V1-018_card_3",
+          "SEJONG-4B-03-V1-018_card_4",
+          "SEJONG-4B-03-V1-018_card_5",
+          "SEJONG-4B-03-V1-018_card_6",
+          "SEJONG-4B-03-V1-018_card_7"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-019",
+      "displaySentence": "업무량이 많다면 우선순위를 정하지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-019_card_0",
+          "업무량이"
+        ],
+        [
+          "SEJONG-4B-03-V1-019_card_1",
+          "많다면"
+        ],
+        [
+          "SEJONG-4B-03-V1-019_card_2",
+          "우선순위를"
+        ],
+        [
+          "SEJONG-4B-03-V1-019_card_3",
+          "정하지"
+        ],
+        [
+          "SEJONG-4B-03-V1-019_card_4",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-019_card_0",
+          "SEJONG-4B-03-V1-019_card_1",
+          "SEJONG-4B-03-V1-019_card_2",
+          "SEJONG-4B-03-V1-019_card_3",
+          "SEJONG-4B-03-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-03-V1-020",
+      "displaySentence": "미래가 불안할수록 지금 할 일을 정해 보지 그래요?",
+      "tokens": [
+        [
+          "SEJONG-4B-03-V1-020_card_0",
+          "미래가"
+        ],
+        [
+          "SEJONG-4B-03-V1-020_card_1",
+          "불안할수록"
+        ],
+        [
+          "SEJONG-4B-03-V1-020_card_2",
+          "지금"
+        ],
+        [
+          "SEJONG-4B-03-V1-020_card_3",
+          "할"
+        ],
+        [
+          "SEJONG-4B-03-V1-020_card_4",
+          "일을"
+        ],
+        [
+          "SEJONG-4B-03-V1-020_card_5",
+          "정해"
+        ],
+        [
+          "SEJONG-4B-03-V1-020_card_6",
+          "보지"
+        ],
+        [
+          "SEJONG-4B-03-V1-020_card_7",
+          "그래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-03-V1-020_card_0",
+          "SEJONG-4B-03-V1-020_card_1",
+          "SEJONG-4B-03-V1-020_card_2",
+          "SEJONG-4B-03-V1-020_card_3",
+          "SEJONG-4B-03-V1-020_card_4",
+          "SEJONG-4B-03-V1-020_card_5",
+          "SEJONG-4B-03-V1-020_card_6",
+          "SEJONG-4B-03-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 4B 3과 문법 -(으)ㄹ까 -(으)ㄹ까 / -지 그래요? 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 3과 범위 재구성"
+    }
+  ]
+}

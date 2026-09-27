@@ -1,0 +1,858 @@
+{
+  "book": "4B",
+  "lesson": 7,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 7과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "7과 핵심 문법 -는 데에·-다 보니 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-07-V1-001",
+      "displaySentence": "새 제품을 개발하는 데에 많은 시간이 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-001_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-4B-07-V1-001_card_1",
+          "제품을"
+        ],
+        [
+          "SEJONG-4B-07-V1-001_card_2",
+          "개발하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-001_card_3",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-001_card_4",
+          "많은"
+        ],
+        [
+          "SEJONG-4B-07-V1-001_card_5",
+          "시간이"
+        ],
+        [
+          "SEJONG-4B-07-V1-001_card_6",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-001_card_0",
+          "SEJONG-4B-07-V1-001_card_1",
+          "SEJONG-4B-07-V1-001_card_2",
+          "SEJONG-4B-07-V1-001_card_3",
+          "SEJONG-4B-07-V1-001_card_4",
+          "SEJONG-4B-07-V1-001_card_5",
+          "SEJONG-4B-07-V1-001_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-002",
+      "displaySentence": "자료를 분석하는 데에 정확한 기준이 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-002_card_0",
+          "자료를"
+        ],
+        [
+          "SEJONG-4B-07-V1-002_card_1",
+          "분석하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-002_card_2",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-002_card_3",
+          "정확한"
+        ],
+        [
+          "SEJONG-4B-07-V1-002_card_4",
+          "기준이"
+        ],
+        [
+          "SEJONG-4B-07-V1-002_card_5",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-002_card_0",
+          "SEJONG-4B-07-V1-002_card_1",
+          "SEJONG-4B-07-V1-002_card_2",
+          "SEJONG-4B-07-V1-002_card_3",
+          "SEJONG-4B-07-V1-002_card_4",
+          "SEJONG-4B-07-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-003",
+      "displaySentence": "공항을 관리하는 데에 여러 사람이 참여해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-003_card_0",
+          "공항을"
+        ],
+        [
+          "SEJONG-4B-07-V1-003_card_1",
+          "관리하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-003_card_2",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-003_card_3",
+          "여러"
+        ],
+        [
+          "SEJONG-4B-07-V1-003_card_4",
+          "사람이"
+        ],
+        [
+          "SEJONG-4B-07-V1-003_card_5",
+          "참여해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-003_card_0",
+          "SEJONG-4B-07-V1-003_card_1",
+          "SEJONG-4B-07-V1-003_card_2",
+          "SEJONG-4B-07-V1-003_card_3",
+          "SEJONG-4B-07-V1-003_card_4",
+          "SEJONG-4B-07-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-004",
+      "displaySentence": "영상을 제작하는 데에 좋은 장비가 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-004_card_0",
+          "영상을"
+        ],
+        [
+          "SEJONG-4B-07-V1-004_card_1",
+          "제작하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-004_card_2",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-004_card_3",
+          "좋은"
+        ],
+        [
+          "SEJONG-4B-07-V1-004_card_4",
+          "장비가"
+        ],
+        [
+          "SEJONG-4B-07-V1-004_card_5",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-004_card_0",
+          "SEJONG-4B-07-V1-004_card_1",
+          "SEJONG-4B-07-V1-004_card_2",
+          "SEJONG-4B-07-V1-004_card_3",
+          "SEJONG-4B-07-V1-004_card_4",
+          "SEJONG-4B-07-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-005",
+      "displaySentence": "문제를 해결하는 데에 경험이 큰 도움이 돼요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-005_card_0",
+          "문제를"
+        ],
+        [
+          "SEJONG-4B-07-V1-005_card_1",
+          "해결하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-005_card_2",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-005_card_3",
+          "경험이"
+        ],
+        [
+          "SEJONG-4B-07-V1-005_card_4",
+          "큰"
+        ],
+        [
+          "SEJONG-4B-07-V1-005_card_5",
+          "도움이"
+        ],
+        [
+          "SEJONG-4B-07-V1-005_card_6",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-005_card_0",
+          "SEJONG-4B-07-V1-005_card_1",
+          "SEJONG-4B-07-V1-005_card_2",
+          "SEJONG-4B-07-V1-005_card_3",
+          "SEJONG-4B-07-V1-005_card_4",
+          "SEJONG-4B-07-V1-005_card_5",
+          "SEJONG-4B-07-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-006",
+      "displaySentence": "서비스를 제공하는 데에 친절한 태도가 중요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-006_card_0",
+          "서비스를"
+        ],
+        [
+          "SEJONG-4B-07-V1-006_card_1",
+          "제공하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-006_card_2",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-006_card_3",
+          "친절한"
+        ],
+        [
+          "SEJONG-4B-07-V1-006_card_4",
+          "태도가"
+        ],
+        [
+          "SEJONG-4B-07-V1-006_card_5",
+          "중요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-006_card_0",
+          "SEJONG-4B-07-V1-006_card_1",
+          "SEJONG-4B-07-V1-006_card_2",
+          "SEJONG-4B-07-V1-006_card_3",
+          "SEJONG-4B-07-V1-006_card_4",
+          "SEJONG-4B-07-V1-006_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-007",
+      "displaySentence": "계속 연구하다 보니 새로운 방법을 찾았어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-007_card_0",
+          "계속"
+        ],
+        [
+          "SEJONG-4B-07-V1-007_card_1",
+          "연구하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-007_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-007_card_3",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-07-V1-007_card_4",
+          "방법을"
+        ],
+        [
+          "SEJONG-4B-07-V1-007_card_5",
+          "찾았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-007_card_0",
+          "SEJONG-4B-07-V1-007_card_1",
+          "SEJONG-4B-07-V1-007_card_2",
+          "SEJONG-4B-07-V1-007_card_3",
+          "SEJONG-4B-07-V1-007_card_4",
+          "SEJONG-4B-07-V1-007_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-008",
+      "displaySentence": "제품을 검사하다 보니 작은 문제를 발견했어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-008_card_0",
+          "제품을"
+        ],
+        [
+          "SEJONG-4B-07-V1-008_card_1",
+          "검사하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-008_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-008_card_3",
+          "작은"
+        ],
+        [
+          "SEJONG-4B-07-V1-008_card_4",
+          "문제를"
+        ],
+        [
+          "SEJONG-4B-07-V1-008_card_5",
+          "발견했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-008_card_0",
+          "SEJONG-4B-07-V1-008_card_1",
+          "SEJONG-4B-07-V1-008_card_2",
+          "SEJONG-4B-07-V1-008_card_3",
+          "SEJONG-4B-07-V1-008_card_4",
+          "SEJONG-4B-07-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-009",
+      "displaySentence": "여러 사람을 관리하다 보니 책임감이 커졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-009_card_0",
+          "여러"
+        ],
+        [
+          "SEJONG-4B-07-V1-009_card_1",
+          "사람을"
+        ],
+        [
+          "SEJONG-4B-07-V1-009_card_2",
+          "관리하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-009_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-009_card_4",
+          "책임감이"
+        ],
+        [
+          "SEJONG-4B-07-V1-009_card_5",
+          "커졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-009_card_0",
+          "SEJONG-4B-07-V1-009_card_1",
+          "SEJONG-4B-07-V1-009_card_2",
+          "SEJONG-4B-07-V1-009_card_3",
+          "SEJONG-4B-07-V1-009_card_4",
+          "SEJONG-4B-07-V1-009_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-010",
+      "displaySentence": "콘텐츠를 제작하다 보니 편집도 배우게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-010_card_0",
+          "콘텐츠를"
+        ],
+        [
+          "SEJONG-4B-07-V1-010_card_1",
+          "제작하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-010_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-010_card_3",
+          "편집도"
+        ],
+        [
+          "SEJONG-4B-07-V1-010_card_4",
+          "배우게"
+        ],
+        [
+          "SEJONG-4B-07-V1-010_card_5",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-010_card_0",
+          "SEJONG-4B-07-V1-010_card_1",
+          "SEJONG-4B-07-V1-010_card_2",
+          "SEJONG-4B-07-V1-010_card_3",
+          "SEJONG-4B-07-V1-010_card_4",
+          "SEJONG-4B-07-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-011",
+      "displaySentence": "새 기술을 개발하다 보니 시간이 많이 걸렸어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-011_card_0",
+          "새"
+        ],
+        [
+          "SEJONG-4B-07-V1-011_card_1",
+          "기술을"
+        ],
+        [
+          "SEJONG-4B-07-V1-011_card_2",
+          "개발하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-011_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-011_card_4",
+          "시간이"
+        ],
+        [
+          "SEJONG-4B-07-V1-011_card_5",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-07-V1-011_card_6",
+          "걸렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-011_card_0",
+          "SEJONG-4B-07-V1-011_card_1",
+          "SEJONG-4B-07-V1-011_card_2",
+          "SEJONG-4B-07-V1-011_card_3",
+          "SEJONG-4B-07-V1-011_card_4",
+          "SEJONG-4B-07-V1-011_card_5",
+          "SEJONG-4B-07-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-012",
+      "displaySentence": "회사를 홍보하다 보니 사람들을 많이 만났어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-012_card_0",
+          "회사를"
+        ],
+        [
+          "SEJONG-4B-07-V1-012_card_1",
+          "홍보하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-012_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-012_card_3",
+          "사람들을"
+        ],
+        [
+          "SEJONG-4B-07-V1-012_card_4",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-07-V1-012_card_5",
+          "만났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-012_card_0",
+          "SEJONG-4B-07-V1-012_card_1",
+          "SEJONG-4B-07-V1-012_card_2",
+          "SEJONG-4B-07-V1-012_card_3",
+          "SEJONG-4B-07-V1-012_card_4",
+          "SEJONG-4B-07-V1-012_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-013",
+      "displaySentence": "좋은 서비스를 제공하는 데에 준비가 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-013_card_0",
+          "좋은"
+        ],
+        [
+          "SEJONG-4B-07-V1-013_card_1",
+          "서비스를"
+        ],
+        [
+          "SEJONG-4B-07-V1-013_card_2",
+          "제공하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-013_card_3",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-013_card_4",
+          "준비가"
+        ],
+        [
+          "SEJONG-4B-07-V1-013_card_5",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-013_card_0",
+          "SEJONG-4B-07-V1-013_card_1",
+          "SEJONG-4B-07-V1-013_card_2",
+          "SEJONG-4B-07-V1-013_card_3",
+          "SEJONG-4B-07-V1-013_card_4",
+          "SEJONG-4B-07-V1-013_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-014",
+      "displaySentence": "새로운 것을 창조하는 데에 상상력이 중요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-014_card_0",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-07-V1-014_card_1",
+          "것을"
+        ],
+        [
+          "SEJONG-4B-07-V1-014_card_2",
+          "창조하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-014_card_3",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-014_card_4",
+          "상상력이"
+        ],
+        [
+          "SEJONG-4B-07-V1-014_card_5",
+          "중요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-014_card_0",
+          "SEJONG-4B-07-V1-014_card_1",
+          "SEJONG-4B-07-V1-014_card_2",
+          "SEJONG-4B-07-V1-014_card_3",
+          "SEJONG-4B-07-V1-014_card_4",
+          "SEJONG-4B-07-V1-014_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-015",
+      "displaySentence": "문제를 분석하다 보니 원인을 알게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-015_card_0",
+          "문제를"
+        ],
+        [
+          "SEJONG-4B-07-V1-015_card_1",
+          "분석하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-015_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-015_card_3",
+          "원인을"
+        ],
+        [
+          "SEJONG-4B-07-V1-015_card_4",
+          "알게"
+        ],
+        [
+          "SEJONG-4B-07-V1-015_card_5",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-015_card_0",
+          "SEJONG-4B-07-V1-015_card_1",
+          "SEJONG-4B-07-V1-015_card_2",
+          "SEJONG-4B-07-V1-015_card_3",
+          "SEJONG-4B-07-V1-015_card_4",
+          "SEJONG-4B-07-V1-015_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-016",
+      "displaySentence": "계속 검사하다 보니 품질이 좋아졌어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-016_card_0",
+          "계속"
+        ],
+        [
+          "SEJONG-4B-07-V1-016_card_1",
+          "검사하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-016_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-016_card_3",
+          "품질이"
+        ],
+        [
+          "SEJONG-4B-07-V1-016_card_4",
+          "좋아졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-016_card_0",
+          "SEJONG-4B-07-V1-016_card_1",
+          "SEJONG-4B-07-V1-016_card_2",
+          "SEJONG-4B-07-V1-016_card_3",
+          "SEJONG-4B-07-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-017",
+      "displaySentence": "일정을 관리하다 보니 실수가 줄었어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-017_card_0",
+          "일정을"
+        ],
+        [
+          "SEJONG-4B-07-V1-017_card_1",
+          "관리하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-017_card_2",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-017_card_3",
+          "실수가"
+        ],
+        [
+          "SEJONG-4B-07-V1-017_card_4",
+          "줄었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-017_card_0",
+          "SEJONG-4B-07-V1-017_card_1",
+          "SEJONG-4B-07-V1-017_card_2",
+          "SEJONG-4B-07-V1-017_card_3",
+          "SEJONG-4B-07-V1-017_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-018",
+      "displaySentence": "연구 결과를 홍보하는 데에 자료가 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-018_card_0",
+          "연구"
+        ],
+        [
+          "SEJONG-4B-07-V1-018_card_1",
+          "결과를"
+        ],
+        [
+          "SEJONG-4B-07-V1-018_card_2",
+          "홍보하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-018_card_3",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-018_card_4",
+          "자료가"
+        ],
+        [
+          "SEJONG-4B-07-V1-018_card_5",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-018_card_0",
+          "SEJONG-4B-07-V1-018_card_1",
+          "SEJONG-4B-07-V1-018_card_2",
+          "SEJONG-4B-07-V1-018_card_3",
+          "SEJONG-4B-07-V1-018_card_4",
+          "SEJONG-4B-07-V1-018_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-019",
+      "displaySentence": "기술을 개발하는 데에 팀워크가 중요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-019_card_0",
+          "기술을"
+        ],
+        [
+          "SEJONG-4B-07-V1-019_card_1",
+          "개발하는"
+        ],
+        [
+          "SEJONG-4B-07-V1-019_card_2",
+          "데에"
+        ],
+        [
+          "SEJONG-4B-07-V1-019_card_3",
+          "팀워크가"
+        ],
+        [
+          "SEJONG-4B-07-V1-019_card_4",
+          "중요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-019_card_0",
+          "SEJONG-4B-07-V1-019_card_1",
+          "SEJONG-4B-07-V1-019_card_2",
+          "SEJONG-4B-07-V1-019_card_3",
+          "SEJONG-4B-07-V1-019_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-07-V1-020",
+      "displaySentence": "여러 문제를 해결하다 보니 자신감이 생겼어요.",
+      "tokens": [
+        [
+          "SEJONG-4B-07-V1-020_card_0",
+          "여러"
+        ],
+        [
+          "SEJONG-4B-07-V1-020_card_1",
+          "문제를"
+        ],
+        [
+          "SEJONG-4B-07-V1-020_card_2",
+          "해결하다"
+        ],
+        [
+          "SEJONG-4B-07-V1-020_card_3",
+          "보니"
+        ],
+        [
+          "SEJONG-4B-07-V1-020_card_4",
+          "자신감이"
+        ],
+        [
+          "SEJONG-4B-07-V1-020_card_5",
+          "생겼어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-07-V1-020_card_0",
+          "SEJONG-4B-07-V1-020_card_1",
+          "SEJONG-4B-07-V1-020_card_2",
+          "SEJONG-4B-07-V1-020_card_3",
+          "SEJONG-4B-07-V1-020_card_4",
+          "SEJONG-4B-07-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 7과 문법 -는 데에 / -다 보니 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 7과 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,803 @@
+{
+  "book": "4B",
+  "lesson": 5,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 5과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "5과 핵심 문법 에 비해서·-아야지/어야지 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-05-V1-001",
+      "displaySentence": "청년은 노인에 비해서 새로운 기술에 익숙해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-001_card_0",
+          "청년은"
+        ],
+        [
+          "SEJONG-4B-05-V1-001_card_1",
+          "노인에"
+        ],
+        [
+          "SEJONG-4B-05-V1-001_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-001_card_3",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-05-V1-001_card_4",
+          "기술에"
+        ],
+        [
+          "SEJONG-4B-05-V1-001_card_5",
+          "익숙해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-001_card_0",
+          "SEJONG-4B-05-V1-001_card_1",
+          "SEJONG-4B-05-V1-001_card_2",
+          "SEJONG-4B-05-V1-001_card_3",
+          "SEJONG-4B-05-V1-001_card_4",
+          "SEJONG-4B-05-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-002",
+      "displaySentence": "신세대는 구세대에 비해서 변화에 빠르게 적응해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-002_card_0",
+          "신세대는"
+        ],
+        [
+          "SEJONG-4B-05-V1-002_card_1",
+          "구세대에"
+        ],
+        [
+          "SEJONG-4B-05-V1-002_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-002_card_3",
+          "변화에"
+        ],
+        [
+          "SEJONG-4B-05-V1-002_card_4",
+          "빠르게"
+        ],
+        [
+          "SEJONG-4B-05-V1-002_card_5",
+          "적응해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-002_card_0",
+          "SEJONG-4B-05-V1-002_card_1",
+          "SEJONG-4B-05-V1-002_card_2",
+          "SEJONG-4B-05-V1-002_card_3",
+          "SEJONG-4B-05-V1-002_card_4",
+          "SEJONG-4B-05-V1-002_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-003",
+      "displaySentence": "중년은 청소년에 비해서 경험이 많은 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-003_card_0",
+          "중년은"
+        ],
+        [
+          "SEJONG-4B-05-V1-003_card_1",
+          "청소년에"
+        ],
+        [
+          "SEJONG-4B-05-V1-003_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-003_card_3",
+          "경험이"
+        ],
+        [
+          "SEJONG-4B-05-V1-003_card_4",
+          "많은"
+        ],
+        [
+          "SEJONG-4B-05-V1-003_card_5",
+          "편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-003_card_0",
+          "SEJONG-4B-05-V1-003_card_1",
+          "SEJONG-4B-05-V1-003_card_2",
+          "SEJONG-4B-05-V1-003_card_3",
+          "SEJONG-4B-05-V1-003_card_4",
+          "SEJONG-4B-05-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-004",
+      "displaySentence": "아동은 청년에 비해서 보호가 더 필요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-004_card_0",
+          "아동은"
+        ],
+        [
+          "SEJONG-4B-05-V1-004_card_1",
+          "청년에"
+        ],
+        [
+          "SEJONG-4B-05-V1-004_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-004_card_3",
+          "보호가"
+        ],
+        [
+          "SEJONG-4B-05-V1-004_card_4",
+          "더"
+        ],
+        [
+          "SEJONG-4B-05-V1-004_card_5",
+          "필요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-004_card_0",
+          "SEJONG-4B-05-V1-004_card_1",
+          "SEJONG-4B-05-V1-004_card_2",
+          "SEJONG-4B-05-V1-004_card_3",
+          "SEJONG-4B-05-V1-004_card_4",
+          "SEJONG-4B-05-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-005",
+      "displaySentence": "개혁적인 사람은 보수적인 사람에 비해서 변화를 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-005_card_0",
+          "개혁적인"
+        ],
+        [
+          "SEJONG-4B-05-V1-005_card_1",
+          "사람은"
+        ],
+        [
+          "SEJONG-4B-05-V1-005_card_2",
+          "보수적인"
+        ],
+        [
+          "SEJONG-4B-05-V1-005_card_3",
+          "사람에"
+        ],
+        [
+          "SEJONG-4B-05-V1-005_card_4",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-005_card_5",
+          "변화를"
+        ],
+        [
+          "SEJONG-4B-05-V1-005_card_6",
+          "좋아해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-005_card_0",
+          "SEJONG-4B-05-V1-005_card_1",
+          "SEJONG-4B-05-V1-005_card_2",
+          "SEJONG-4B-05-V1-005_card_3",
+          "SEJONG-4B-05-V1-005_card_4",
+          "SEJONG-4B-05-V1-005_card_5",
+          "SEJONG-4B-05-V1-005_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-006",
+      "displaySentence": "청소년기는 아동기에 비해서 고민이 많아져요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-006_card_0",
+          "청소년기는"
+        ],
+        [
+          "SEJONG-4B-05-V1-006_card_1",
+          "아동기에"
+        ],
+        [
+          "SEJONG-4B-05-V1-006_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-006_card_3",
+          "고민이"
+        ],
+        [
+          "SEJONG-4B-05-V1-006_card_4",
+          "많아져요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-006_card_0",
+          "SEJONG-4B-05-V1-006_card_1",
+          "SEJONG-4B-05-V1-006_card_2",
+          "SEJONG-4B-05-V1-006_card_3",
+          "SEJONG-4B-05-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-007",
+      "displaySentence": "약속을 했으면 시간을 지켜야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-007_card_0",
+          "약속을"
+        ],
+        [
+          "SEJONG-4B-05-V1-007_card_1",
+          "했으면"
+        ],
+        [
+          "SEJONG-4B-05-V1-007_card_2",
+          "시간을"
+        ],
+        [
+          "SEJONG-4B-05-V1-007_card_3",
+          "지켜야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-007_card_0",
+          "SEJONG-4B-05-V1-007_card_1",
+          "SEJONG-4B-05-V1-007_card_2",
+          "SEJONG-4B-05-V1-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-008",
+      "displaySentence": "어른이 되면 자기 일에 책임을 져야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-008_card_0",
+          "어른이"
+        ],
+        [
+          "SEJONG-4B-05-V1-008_card_1",
+          "되면"
+        ],
+        [
+          "SEJONG-4B-05-V1-008_card_2",
+          "자기"
+        ],
+        [
+          "SEJONG-4B-05-V1-008_card_3",
+          "일에"
+        ],
+        [
+          "SEJONG-4B-05-V1-008_card_4",
+          "책임을"
+        ],
+        [
+          "SEJONG-4B-05-V1-008_card_5",
+          "져야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-008_card_0",
+          "SEJONG-4B-05-V1-008_card_1",
+          "SEJONG-4B-05-V1-008_card_2",
+          "SEJONG-4B-05-V1-008_card_3",
+          "SEJONG-4B-05-V1-008_card_4",
+          "SEJONG-4B-05-V1-008_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-009",
+      "displaySentence": "청년이라면 미래를 위해 준비해야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-009_card_0",
+          "청년이라면"
+        ],
+        [
+          "SEJONG-4B-05-V1-009_card_1",
+          "미래를"
+        ],
+        [
+          "SEJONG-4B-05-V1-009_card_2",
+          "위해"
+        ],
+        [
+          "SEJONG-4B-05-V1-009_card_3",
+          "준비해야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-009_card_0",
+          "SEJONG-4B-05-V1-009_card_1",
+          "SEJONG-4B-05-V1-009_card_2",
+          "SEJONG-4B-05-V1-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-010",
+      "displaySentence": "건강을 위해 꾸준히 운동해야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-010_card_0",
+          "건강을"
+        ],
+        [
+          "SEJONG-4B-05-V1-010_card_1",
+          "위해"
+        ],
+        [
+          "SEJONG-4B-05-V1-010_card_2",
+          "꾸준히"
+        ],
+        [
+          "SEJONG-4B-05-V1-010_card_3",
+          "운동해야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-010_card_0",
+          "SEJONG-4B-05-V1-010_card_1",
+          "SEJONG-4B-05-V1-010_card_2",
+          "SEJONG-4B-05-V1-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-011",
+      "displaySentence": "사춘기 아이들과는 대화를 많이 해야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-011_card_0",
+          "사춘기"
+        ],
+        [
+          "SEJONG-4B-05-V1-011_card_1",
+          "아이들과는"
+        ],
+        [
+          "SEJONG-4B-05-V1-011_card_2",
+          "대화를"
+        ],
+        [
+          "SEJONG-4B-05-V1-011_card_3",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-05-V1-011_card_4",
+          "해야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-011_card_0",
+          "SEJONG-4B-05-V1-011_card_1",
+          "SEJONG-4B-05-V1-011_card_2",
+          "SEJONG-4B-05-V1-011_card_3",
+          "SEJONG-4B-05-V1-011_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-012",
+      "displaySentence": "세대가 달라도 서로 존중해야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-012_card_0",
+          "세대가"
+        ],
+        [
+          "SEJONG-4B-05-V1-012_card_1",
+          "달라도"
+        ],
+        [
+          "SEJONG-4B-05-V1-012_card_2",
+          "서로"
+        ],
+        [
+          "SEJONG-4B-05-V1-012_card_3",
+          "존중해야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-012_card_0",
+          "SEJONG-4B-05-V1-012_card_1",
+          "SEJONG-4B-05-V1-012_card_2",
+          "SEJONG-4B-05-V1-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-013",
+      "displaySentence": "노인은 청년에 비해서 건강 관리가 더 중요해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-013_card_0",
+          "노인은"
+        ],
+        [
+          "SEJONG-4B-05-V1-013_card_1",
+          "청년에"
+        ],
+        [
+          "SEJONG-4B-05-V1-013_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-013_card_3",
+          "건강"
+        ],
+        [
+          "SEJONG-4B-05-V1-013_card_4",
+          "관리가"
+        ],
+        [
+          "SEJONG-4B-05-V1-013_card_5",
+          "더"
+        ],
+        [
+          "SEJONG-4B-05-V1-013_card_6",
+          "중요해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-013_card_0",
+          "SEJONG-4B-05-V1-013_card_1",
+          "SEJONG-4B-05-V1-013_card_2",
+          "SEJONG-4B-05-V1-013_card_3",
+          "SEJONG-4B-05-V1-013_card_4",
+          "SEJONG-4B-05-V1-013_card_5",
+          "SEJONG-4B-05-V1-013_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-014",
+      "displaySentence": "청년기는 중년에 비해서 새로운 도전을 많이 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-014_card_0",
+          "청년기는"
+        ],
+        [
+          "SEJONG-4B-05-V1-014_card_1",
+          "중년에"
+        ],
+        [
+          "SEJONG-4B-05-V1-014_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-014_card_3",
+          "새로운"
+        ],
+        [
+          "SEJONG-4B-05-V1-014_card_4",
+          "도전을"
+        ],
+        [
+          "SEJONG-4B-05-V1-014_card_5",
+          "많이"
+        ],
+        [
+          "SEJONG-4B-05-V1-014_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-014_card_0",
+          "SEJONG-4B-05-V1-014_card_1",
+          "SEJONG-4B-05-V1-014_card_2",
+          "SEJONG-4B-05-V1-014_card_3",
+          "SEJONG-4B-05-V1-014_card_4",
+          "SEJONG-4B-05-V1-014_card_5",
+          "SEJONG-4B-05-V1-014_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-015",
+      "displaySentence": "신세대는 구세대에 비해서 디지털 기기를 잘 사용해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-015_card_0",
+          "신세대는"
+        ],
+        [
+          "SEJONG-4B-05-V1-015_card_1",
+          "구세대에"
+        ],
+        [
+          "SEJONG-4B-05-V1-015_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-015_card_3",
+          "디지털"
+        ],
+        [
+          "SEJONG-4B-05-V1-015_card_4",
+          "기기를"
+        ],
+        [
+          "SEJONG-4B-05-V1-015_card_5",
+          "잘"
+        ],
+        [
+          "SEJONG-4B-05-V1-015_card_6",
+          "사용해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-015_card_0",
+          "SEJONG-4B-05-V1-015_card_1",
+          "SEJONG-4B-05-V1-015_card_2",
+          "SEJONG-4B-05-V1-015_card_3",
+          "SEJONG-4B-05-V1-015_card_4",
+          "SEJONG-4B-05-V1-015_card_5",
+          "SEJONG-4B-05-V1-015_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-016",
+      "displaySentence": "가족이라면 서로의 생각을 이해해야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-016_card_0",
+          "가족이라면"
+        ],
+        [
+          "SEJONG-4B-05-V1-016_card_1",
+          "서로의"
+        ],
+        [
+          "SEJONG-4B-05-V1-016_card_2",
+          "생각을"
+        ],
+        [
+          "SEJONG-4B-05-V1-016_card_3",
+          "이해해야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-016_card_0",
+          "SEJONG-4B-05-V1-016_card_1",
+          "SEJONG-4B-05-V1-016_card_2",
+          "SEJONG-4B-05-V1-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-017",
+      "displaySentence": "보수적이어도 다른 의견을 존중해야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-017_card_0",
+          "보수적이어도"
+        ],
+        [
+          "SEJONG-4B-05-V1-017_card_1",
+          "다른"
+        ],
+        [
+          "SEJONG-4B-05-V1-017_card_2",
+          "의견을"
+        ],
+        [
+          "SEJONG-4B-05-V1-017_card_3",
+          "존중해야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-017_card_0",
+          "SEJONG-4B-05-V1-017_card_1",
+          "SEJONG-4B-05-V1-017_card_2",
+          "SEJONG-4B-05-V1-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-018",
+      "displaySentence": "변화가 필요하면 개혁적으로 생각해야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-018_card_0",
+          "변화가"
+        ],
+        [
+          "SEJONG-4B-05-V1-018_card_1",
+          "필요하면"
+        ],
+        [
+          "SEJONG-4B-05-V1-018_card_2",
+          "개혁적으로"
+        ],
+        [
+          "SEJONG-4B-05-V1-018_card_3",
+          "생각해야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-018_card_0",
+          "SEJONG-4B-05-V1-018_card_1",
+          "SEJONG-4B-05-V1-018_card_2",
+          "SEJONG-4B-05-V1-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-019",
+      "displaySentence": "청소년은 아동에 비해서 스스로 결정하는 일이 많아요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-019_card_0",
+          "청소년은"
+        ],
+        [
+          "SEJONG-4B-05-V1-019_card_1",
+          "아동에"
+        ],
+        [
+          "SEJONG-4B-05-V1-019_card_2",
+          "비해서"
+        ],
+        [
+          "SEJONG-4B-05-V1-019_card_3",
+          "스스로"
+        ],
+        [
+          "SEJONG-4B-05-V1-019_card_4",
+          "결정하는"
+        ],
+        [
+          "SEJONG-4B-05-V1-019_card_5",
+          "일이"
+        ],
+        [
+          "SEJONG-4B-05-V1-019_card_6",
+          "많아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-019_card_0",
+          "SEJONG-4B-05-V1-019_card_1",
+          "SEJONG-4B-05-V1-019_card_2",
+          "SEJONG-4B-05-V1-019_card_3",
+          "SEJONG-4B-05-V1-019_card_4",
+          "SEJONG-4B-05-V1-019_card_5",
+          "SEJONG-4B-05-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-05-V1-020",
+      "displaySentence": "중년이 되면 건강을 더 잘 챙겨야지요.",
+      "tokens": [
+        [
+          "SEJONG-4B-05-V1-020_card_0",
+          "중년이"
+        ],
+        [
+          "SEJONG-4B-05-V1-020_card_1",
+          "되면"
+        ],
+        [
+          "SEJONG-4B-05-V1-020_card_2",
+          "건강을"
+        ],
+        [
+          "SEJONG-4B-05-V1-020_card_3",
+          "더"
+        ],
+        [
+          "SEJONG-4B-05-V1-020_card_4",
+          "잘"
+        ],
+        [
+          "SEJONG-4B-05-V1-020_card_5",
+          "챙겨야지요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-05-V1-020_card_0",
+          "SEJONG-4B-05-V1-020_card_1",
+          "SEJONG-4B-05-V1-020_card_2",
+          "SEJONG-4B-05-V1-020_card_3",
+          "SEJONG-4B-05-V1-020_card_4",
+          "SEJONG-4B-05-V1-020_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 5과 문법 에 비해서 / -아야지/어야지 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 5과 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "book": "4B",
+  "lesson": 10,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 1,
+  "source": "개정판 세종한국어 4B 본교재 + 어휘 문법과 표현 4B + 더하기 활동 4B의 10과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "10과 핵심 문법 -는다고/ㄴ다고/다고 생각하다·-는/(으)ㄴ 거 아닐까 하다 중심",
+    "공통 어휘는 공식 어휘표와 더하기 활동 어휘를 병합 사용",
+    "최종 어휘가 15개 미만이면 이전 과 어휘를 복습용으로 보충",
+    "이전 단계·이전 과 문법은 누적 활용 가능, 이후 과 핵심 문법은 선행 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답 제외",
+    "4~8카드 문장 완성형 우선"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-4B-10-V1-001",
+      "displaySentence": "저는 인터넷에서 실명을 써야 한다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-001_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-4B-10-V1-001_card_1",
+          "인터넷에서"
+        ],
+        [
+          "SEJONG-4B-10-V1-001_card_2",
+          "실명을"
+        ],
+        [
+          "SEJONG-4B-10-V1-001_card_3",
+          "써야"
+        ],
+        [
+          "SEJONG-4B-10-V1-001_card_4",
+          "한다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-001_card_5",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-001_card_0",
+          "SEJONG-4B-10-V1-001_card_1",
+          "SEJONG-4B-10-V1-001_card_2",
+          "SEJONG-4B-10-V1-001_card_3",
+          "SEJONG-4B-10-V1-001_card_4",
+          "SEJONG-4B-10-V1-001_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-002",
+      "displaySentence": "저는 그 의견이 적절하다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-002_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-4B-10-V1-002_card_1",
+          "그"
+        ],
+        [
+          "SEJONG-4B-10-V1-002_card_2",
+          "의견이"
+        ],
+        [
+          "SEJONG-4B-10-V1-002_card_3",
+          "적절하다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-002_card_4",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-002_card_0",
+          "SEJONG-4B-10-V1-002_card_1",
+          "SEJONG-4B-10-V1-002_card_2",
+          "SEJONG-4B-10-V1-002_card_3",
+          "SEJONG-4B-10-V1-002_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-003",
+      "displaySentence": "많은 사람이 이 정책에 찬성한다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-003_card_0",
+          "많은"
+        ],
+        [
+          "SEJONG-4B-10-V1-003_card_1",
+          "사람이"
+        ],
+        [
+          "SEJONG-4B-10-V1-003_card_2",
+          "이"
+        ],
+        [
+          "SEJONG-4B-10-V1-003_card_3",
+          "정책에"
+        ],
+        [
+          "SEJONG-4B-10-V1-003_card_4",
+          "찬성한다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-003_card_5",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-003_card_0",
+          "SEJONG-4B-10-V1-003_card_1",
+          "SEJONG-4B-10-V1-003_card_2",
+          "SEJONG-4B-10-V1-003_card_3",
+          "SEJONG-4B-10-V1-003_card_4",
+          "SEJONG-4B-10-V1-003_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-004",
+      "displaySentence": "저는 그 방법에는 단점이 있다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-004_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-4B-10-V1-004_card_1",
+          "그"
+        ],
+        [
+          "SEJONG-4B-10-V1-004_card_2",
+          "방법에는"
+        ],
+        [
+          "SEJONG-4B-10-V1-004_card_3",
+          "단점이"
+        ],
+        [
+          "SEJONG-4B-10-V1-004_card_4",
+          "있다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-004_card_5",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-004_card_0",
+          "SEJONG-4B-10-V1-004_card_1",
+          "SEJONG-4B-10-V1-004_card_2",
+          "SEJONG-4B-10-V1-004_card_3",
+          "SEJONG-4B-10-V1-004_card_4",
+          "SEJONG-4B-10-V1-004_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-005",
+      "displaySentence": "익명 사용에도 장점이 있다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-005_card_0",
+          "익명"
+        ],
+        [
+          "SEJONG-4B-10-V1-005_card_1",
+          "사용에도"
+        ],
+        [
+          "SEJONG-4B-10-V1-005_card_2",
+          "장점이"
+        ],
+        [
+          "SEJONG-4B-10-V1-005_card_3",
+          "있다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-005_card_4",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-005_card_0",
+          "SEJONG-4B-10-V1-005_card_1",
+          "SEJONG-4B-10-V1-005_card_2",
+          "SEJONG-4B-10-V1-005_card_3",
+          "SEJONG-4B-10-V1-005_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-006",
+      "displaySentence": "갑자기 바꾸면 부작용이 생긴다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-006_card_0",
+          "갑자기"
+        ],
+        [
+          "SEJONG-4B-10-V1-006_card_1",
+          "바꾸면"
+        ],
+        [
+          "SEJONG-4B-10-V1-006_card_2",
+          "부작용이"
+        ],
+        [
+          "SEJONG-4B-10-V1-006_card_3",
+          "생긴다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-006_card_4",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-006_card_0",
+          "SEJONG-4B-10-V1-006_card_1",
+          "SEJONG-4B-10-V1-006_card_2",
+          "SEJONG-4B-10-V1-006_card_3",
+          "SEJONG-4B-10-V1-006_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-007",
+      "displaySentence": "실명을 쓰는 것이 더 안전한 거 아닐까 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-007_card_0",
+          "실명을"
+        ],
+        [
+          "SEJONG-4B-10-V1-007_card_1",
+          "쓰는"
+        ],
+        [
+          "SEJONG-4B-10-V1-007_card_2",
+          "것이"
+        ],
+        [
+          "SEJONG-4B-10-V1-007_card_3",
+          "더"
+        ],
+        [
+          "SEJONG-4B-10-V1-007_card_4",
+          "안전한"
+        ],
+        [
+          "SEJONG-4B-10-V1-007_card_5",
+          "거"
+        ],
+        [
+          "SEJONG-4B-10-V1-007_card_6",
+          "아닐까"
+        ],
+        [
+          "SEJONG-4B-10-V1-007_card_7",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-007_card_0",
+          "SEJONG-4B-10-V1-007_card_1",
+          "SEJONG-4B-10-V1-007_card_2",
+          "SEJONG-4B-10-V1-007_card_3",
+          "SEJONG-4B-10-V1-007_card_4",
+          "SEJONG-4B-10-V1-007_card_5",
+          "SEJONG-4B-10-V1-007_card_6",
+          "SEJONG-4B-10-V1-007_card_7"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-008",
+      "displaySentence": "그 의견에도 문제가 있는 거 아닐까 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-008_card_0",
+          "그"
+        ],
+        [
+          "SEJONG-4B-10-V1-008_card_1",
+          "의견에도"
+        ],
+        [
+          "SEJONG-4B-10-V1-008_card_2",
+          "문제가"
+        ],
+        [
+          "SEJONG-4B-10-V1-008_card_3",
+          "있는"
+        ],
+        [
+          "SEJONG-4B-10-V1-008_card_4",
+          "거"
+        ],
+        [
+          "SEJONG-4B-10-V1-008_card_5",
+          "아닐까"
+        ],
+        [
+          "SEJONG-4B-10-V1-008_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-008_card_0",
+          "SEJONG-4B-10-V1-008_card_1",
+          "SEJONG-4B-10-V1-008_card_2",
+          "SEJONG-4B-10-V1-008_card_3",
+          "SEJONG-4B-10-V1-008_card_4",
+          "SEJONG-4B-10-V1-008_card_5",
+          "SEJONG-4B-10-V1-008_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-009",
+      "displaySentence": "이 규칙이 조금 부적절한 거 아닐까 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-009_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4B-10-V1-009_card_1",
+          "규칙이"
+        ],
+        [
+          "SEJONG-4B-10-V1-009_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-4B-10-V1-009_card_3",
+          "부적절한"
+        ],
+        [
+          "SEJONG-4B-10-V1-009_card_4",
+          "거"
+        ],
+        [
+          "SEJONG-4B-10-V1-009_card_5",
+          "아닐까"
+        ],
+        [
+          "SEJONG-4B-10-V1-009_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-009_card_0",
+          "SEJONG-4B-10-V1-009_card_1",
+          "SEJONG-4B-10-V1-009_card_2",
+          "SEJONG-4B-10-V1-009_card_3",
+          "SEJONG-4B-10-V1-009_card_4",
+          "SEJONG-4B-10-V1-009_card_5",
+          "SEJONG-4B-10-V1-009_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-010",
+      "displaySentence": "너무 강하게 반대하는 건 아닌가 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-010_card_0",
+          "너무"
+        ],
+        [
+          "SEJONG-4B-10-V1-010_card_1",
+          "강하게"
+        ],
+        [
+          "SEJONG-4B-10-V1-010_card_2",
+          "반대하는"
+        ],
+        [
+          "SEJONG-4B-10-V1-010_card_3",
+          "건"
+        ],
+        [
+          "SEJONG-4B-10-V1-010_card_4",
+          "아닌가"
+        ],
+        [
+          "SEJONG-4B-10-V1-010_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-010_card_0",
+          "SEJONG-4B-10-V1-010_card_1",
+          "SEJONG-4B-10-V1-010_card_2",
+          "SEJONG-4B-10-V1-010_card_3",
+          "SEJONG-4B-10-V1-010_card_4",
+          "SEJONG-4B-10-V1-010_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-011",
+      "displaySentence": "서로 동의할 부분도 있는 거 아닐까 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-011_card_0",
+          "서로"
+        ],
+        [
+          "SEJONG-4B-10-V1-011_card_1",
+          "동의할"
+        ],
+        [
+          "SEJONG-4B-10-V1-011_card_2",
+          "부분도"
+        ],
+        [
+          "SEJONG-4B-10-V1-011_card_3",
+          "있는"
+        ],
+        [
+          "SEJONG-4B-10-V1-011_card_4",
+          "거"
+        ],
+        [
+          "SEJONG-4B-10-V1-011_card_5",
+          "아닐까"
+        ],
+        [
+          "SEJONG-4B-10-V1-011_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-011_card_0",
+          "SEJONG-4B-10-V1-011_card_1",
+          "SEJONG-4B-10-V1-011_card_2",
+          "SEJONG-4B-10-V1-011_card_3",
+          "SEJONG-4B-10-V1-011_card_4",
+          "SEJONG-4B-10-V1-011_card_5",
+          "SEJONG-4B-10-V1-011_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-012",
+      "displaySentence": "이 방법이 가장 적절한 거 아닐까 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-012_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-4B-10-V1-012_card_1",
+          "방법이"
+        ],
+        [
+          "SEJONG-4B-10-V1-012_card_2",
+          "가장"
+        ],
+        [
+          "SEJONG-4B-10-V1-012_card_3",
+          "적절한"
+        ],
+        [
+          "SEJONG-4B-10-V1-012_card_4",
+          "거"
+        ],
+        [
+          "SEJONG-4B-10-V1-012_card_5",
+          "아닐까"
+        ],
+        [
+          "SEJONG-4B-10-V1-012_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-012_card_0",
+          "SEJONG-4B-10-V1-012_card_1",
+          "SEJONG-4B-10-V1-012_card_2",
+          "SEJONG-4B-10-V1-012_card_3",
+          "SEJONG-4B-10-V1-012_card_4",
+          "SEJONG-4B-10-V1-012_card_5",
+          "SEJONG-4B-10-V1-012_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-013",
+      "displaySentence": "저는 그 설명이 맞다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-013_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-4B-10-V1-013_card_1",
+          "그"
+        ],
+        [
+          "SEJONG-4B-10-V1-013_card_2",
+          "설명이"
+        ],
+        [
+          "SEJONG-4B-10-V1-013_card_3",
+          "맞다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-013_card_4",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-013_card_0",
+          "SEJONG-4B-10-V1-013_card_1",
+          "SEJONG-4B-10-V1-013_card_2",
+          "SEJONG-4B-10-V1-013_card_3",
+          "SEJONG-4B-10-V1-013_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-014",
+      "displaySentence": "친구는 제 생각이 틀렸다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-014_card_0",
+          "친구는"
+        ],
+        [
+          "SEJONG-4B-10-V1-014_card_1",
+          "제"
+        ],
+        [
+          "SEJONG-4B-10-V1-014_card_2",
+          "생각이"
+        ],
+        [
+          "SEJONG-4B-10-V1-014_card_3",
+          "틀렸다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-014_card_4",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-014_card_0",
+          "SEJONG-4B-10-V1-014_card_1",
+          "SEJONG-4B-10-V1-014_card_2",
+          "SEJONG-4B-10-V1-014_card_3",
+          "SEJONG-4B-10-V1-014_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-015",
+      "displaySentence": "찬성하는 사람도 많다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-015_card_0",
+          "찬성하는"
+        ],
+        [
+          "SEJONG-4B-10-V1-015_card_1",
+          "사람도"
+        ],
+        [
+          "SEJONG-4B-10-V1-015_card_2",
+          "많다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-015_card_3",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-015_card_0",
+          "SEJONG-4B-10-V1-015_card_1",
+          "SEJONG-4B-10-V1-015_card_2",
+          "SEJONG-4B-10-V1-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-016",
+      "displaySentence": "반대 의견도 존중해야 한다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-016_card_0",
+          "반대"
+        ],
+        [
+          "SEJONG-4B-10-V1-016_card_1",
+          "의견도"
+        ],
+        [
+          "SEJONG-4B-10-V1-016_card_2",
+          "존중해야"
+        ],
+        [
+          "SEJONG-4B-10-V1-016_card_3",
+          "한다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-016_card_4",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-016_card_0",
+          "SEJONG-4B-10-V1-016_card_1",
+          "SEJONG-4B-10-V1-016_card_2",
+          "SEJONG-4B-10-V1-016_card_3",
+          "SEJONG-4B-10-V1-016_card_4"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-017",
+      "displaySentence": "장점만 보고 결정하는 건 아닌가 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-017_card_0",
+          "장점만"
+        ],
+        [
+          "SEJONG-4B-10-V1-017_card_1",
+          "보고"
+        ],
+        [
+          "SEJONG-4B-10-V1-017_card_2",
+          "결정하는"
+        ],
+        [
+          "SEJONG-4B-10-V1-017_card_3",
+          "건"
+        ],
+        [
+          "SEJONG-4B-10-V1-017_card_4",
+          "아닌가"
+        ],
+        [
+          "SEJONG-4B-10-V1-017_card_5",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-017_card_0",
+          "SEJONG-4B-10-V1-017_card_1",
+          "SEJONG-4B-10-V1-017_card_2",
+          "SEJONG-4B-10-V1-017_card_3",
+          "SEJONG-4B-10-V1-017_card_4",
+          "SEJONG-4B-10-V1-017_card_5"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-018",
+      "displaySentence": "단점을 너무 크게 보는 건 아닌가 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-018_card_0",
+          "단점을"
+        ],
+        [
+          "SEJONG-4B-10-V1-018_card_1",
+          "너무"
+        ],
+        [
+          "SEJONG-4B-10-V1-018_card_2",
+          "크게"
+        ],
+        [
+          "SEJONG-4B-10-V1-018_card_3",
+          "보는"
+        ],
+        [
+          "SEJONG-4B-10-V1-018_card_4",
+          "건"
+        ],
+        [
+          "SEJONG-4B-10-V1-018_card_5",
+          "아닌가"
+        ],
+        [
+          "SEJONG-4B-10-V1-018_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-018_card_0",
+          "SEJONG-4B-10-V1-018_card_1",
+          "SEJONG-4B-10-V1-018_card_2",
+          "SEJONG-4B-10-V1-018_card_3",
+          "SEJONG-4B-10-V1-018_card_4",
+          "SEJONG-4B-10-V1-018_card_5",
+          "SEJONG-4B-10-V1-018_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-019",
+      "displaySentence": "부작용을 먼저 확인해야 하는 거 아닐까 해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-019_card_0",
+          "부작용을"
+        ],
+        [
+          "SEJONG-4B-10-V1-019_card_1",
+          "먼저"
+        ],
+        [
+          "SEJONG-4B-10-V1-019_card_2",
+          "확인해야"
+        ],
+        [
+          "SEJONG-4B-10-V1-019_card_3",
+          "하는"
+        ],
+        [
+          "SEJONG-4B-10-V1-019_card_4",
+          "거"
+        ],
+        [
+          "SEJONG-4B-10-V1-019_card_5",
+          "아닐까"
+        ],
+        [
+          "SEJONG-4B-10-V1-019_card_6",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-019_card_0",
+          "SEJONG-4B-10-V1-019_card_1",
+          "SEJONG-4B-10-V1-019_card_2",
+          "SEJONG-4B-10-V1-019_card_3",
+          "SEJONG-4B-10-V1-019_card_4",
+          "SEJONG-4B-10-V1-019_card_5",
+          "SEJONG-4B-10-V1-019_card_6"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-4B-10-V1-020",
+      "displaySentence": "서로의 의견에 동의할 부분을 찾는 게 좋다고 생각해요.",
+      "tokens": [
+        [
+          "SEJONG-4B-10-V1-020_card_0",
+          "서로의"
+        ],
+        [
+          "SEJONG-4B-10-V1-020_card_1",
+          "의견에"
+        ],
+        [
+          "SEJONG-4B-10-V1-020_card_2",
+          "동의할"
+        ],
+        [
+          "SEJONG-4B-10-V1-020_card_3",
+          "부분을"
+        ],
+        [
+          "SEJONG-4B-10-V1-020_card_4",
+          "찾는"
+        ],
+        [
+          "SEJONG-4B-10-V1-020_card_5",
+          "게"
+        ],
+        [
+          "SEJONG-4B-10-V1-020_card_6",
+          "좋다고"
+        ],
+        [
+          "SEJONG-4B-10-V1-020_card_7",
+          "생각해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-4B-10-V1-020_card_0",
+          "SEJONG-4B-10-V1-020_card_1",
+          "SEJONG-4B-10-V1-020_card_2",
+          "SEJONG-4B-10-V1-020_card_3",
+          "SEJONG-4B-10-V1-020_card_4",
+          "SEJONG-4B-10-V1-020_card_5",
+          "SEJONG-4B-10-V1-020_card_6",
+          "SEJONG-4B-10-V1-020_card_7"
+        ]
+      ],
+      "note": "세종한국어 4B 10과 문법 -는다고/ㄴ다고/다고 생각하다 / -는/(으)ㄴ 거 아닐까 하다 및 해당 과·누적 어휘 재구성",
+      "sourceRef": "세종한국어 4B 10과 범위 재구성"
+    }
+  ]
+}
