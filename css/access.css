@@ -7,3 +7,6 @@
 
 .student-entry-card{width:min(600px,100%);margin:14px auto 0;padding:15px 16px;border-radius:18px;background:rgba(7,25,59,.78);border:1px solid rgba(113,221,255,.18);display:flex;align-items:center;justify-content:space-between;gap:14px;box-shadow:0 14px 34px rgba(0,0,0,.18)}.student-entry-card>div{display:grid;gap:4px}.student-entry-card strong{font-size:13px;color:#eaf6ff}.student-entry-card span{font-size:10.5px;color:#91aecd}.student-entry-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 15px;border-radius:12px;background:linear-gradient(135deg,#ffd95a,#ff9d3f);color:#102449;text-decoration:none;font-size:12px;font-weight:1000;white-space:nowrap;box-shadow:0 8px 20px rgba(255,157,63,.18)}
 @media(max-width:640px){.student-entry-card{align-items:stretch;flex-direction:column}.student-entry-btn{width:100%}}
+.developer-contact{margin-top:11px;text-align:center;color:#a9c0de;font-size:12px;line-height:1.4}
+.developer-contact a{margin-left:6px;color:#7fdfff;font-weight:800;text-decoration:none;border-bottom:1px solid rgba(127,223,255,.55)}
+.developer-contact a:hover,.developer-contact a:focus-visible{color:#fff;border-bottom-color:#fff}
