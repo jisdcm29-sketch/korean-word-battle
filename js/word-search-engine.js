@@ -74,7 +74,7 @@ export function eligibleWordSearchItems(items,{size=7}={}){
   if(base.length>=6)return base;
   return (items||[]).map((v,i)=>({id:String(v.id||`w${i+1}`),ko:String(v.ko||'').trim(),mn:String(v.mn||'').trim(),koNorm:normalizeSearchWord(v.ko)})).filter(v=>v.ko&&v.mn&&v.koNorm.length>=1&&v.koNorm.length<=size);
 }
-export function buildWordSearchRounds(items,{roundCount=3,wordsPerRound=6,size=7,sizes=null}={}){
+export function buildWordSearchRounds(items,{roundCount=3,wordsPerRound=6,size=7,sizes=null,adaptive=false}={}){
   const count=Math.max(1,Number(roundCount)||3);
   const plan=Array.isArray(sizes)&&sizes.length
     ? Array.from({length:count},(_,i)=>Math.max(5,Math.min(10,Number(sizes[i]??sizes[sizes.length-1])||7)))
@@ -82,20 +82,27 @@ export function buildWordSearchRounds(items,{roundCount=3,wordsPerRound=6,size=7
   const rounds=[];
   const used=new Set();
   for(let r=0;r<count;r++){
-    const roundSize=plan[r];
-    const eligible=eligibleWordSearchItems(items,{size:roundSize});
-    if(eligible.length<wordsPerRound)throw new Error(`ROUND ${r+1}의 ${roundSize}×${roundSize} 글자판에 사용할 수 있는 한국어 어휘가 ${wordsPerRound}개 이상 필요합니다.`);
-    // Smaller boards favor shorter words so 5×5/6×6 rounds remain readable and reliably placeable.
-    const preferred=shuffle(eligible.filter(v=>!used.has(v.id))).sort((a,b)=>a.koNorm.length-b.koNorm.length+Math.random()-.5);
-    const fallback=shuffle(eligible).sort((a,b)=>a.koNorm.length-b.koNorm.length+Math.random()-.5);
-    const picked=[];
-    for(const v of [...preferred,...fallback]){
-      if(picked.some(x=>x.id===v.id))continue;
-      picked.push(v);
-      if(picked.length>=wordsPerRound)break;
+    const firstSize=adaptive&&r?Math.max(plan[r],Math.min(10,plan[r-1]+1)):plan[r];
+    let built=null,lastError=null;
+    for(let roundSize=firstSize;roundSize<=(adaptive?10:firstSize)&&!built;roundSize++){
+      const eligible=eligibleWordSearchItems(items,{size:roundSize});
+      if(eligible.length<wordsPerRound){lastError=new Error(`ROUND ${r+1}의 ${roundSize}×${roundSize} 글자판에 사용할 수 있는 한국어 어휘가 ${wordsPerRound}개 이상 필요합니다.`);continue;}
+      // Retry a different group of short words before enlarging the board.
+      for(let attempt=0;attempt<(adaptive?6:1)&&!built;attempt++){
+        const preferred=shuffle(eligible.filter(v=>!used.has(v.id))).sort((a,b)=>a.koNorm.length-b.koNorm.length+Math.random()-.5);
+        const fallback=shuffle(eligible).sort((a,b)=>a.koNorm.length-b.koNorm.length+Math.random()-.5);
+        const picked=[];
+        for(const v of [...preferred,...fallback]){
+          if(picked.some(x=>x.id===v.id))continue;
+          picked.push(v);
+          if(picked.length>=wordsPerRound)break;
+        }
+        try{built=buildRound(picked,r,roundSize);picked.forEach(v=>used.add(v.id));plan[r]=roundSize;}
+        catch(error){lastError=error;}
+      }
     }
-    picked.forEach(v=>used.add(v.id));
-    rounds.push(buildRound(picked,r,roundSize));
+    if(!built)throw lastError||new Error('단어 찾기 글자판을 만들지 못했습니다.');
+    rounds.push(built);
   }
   return {rounds,roundCount:count,wordsPerRound,size:plan[0],sizes:plan};
 }
