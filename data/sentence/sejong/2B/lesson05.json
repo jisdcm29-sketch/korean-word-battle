@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 5,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 5과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "5과 핵심 문법 -네요 · -지 말다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 6과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-05-V2-001",
+      "displaySentence": "공연 중에는 핸드폰을 사용하지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-001_card_0",
+          "공연"
+        ],
+        [
+          "SEJONG-2B-05-V2-001_card_1",
+          "중에는"
+        ],
+        [
+          "SEJONG-2B-05-V2-001_card_2",
+          "핸드폰을"
+        ],
+        [
+          "SEJONG-2B-05-V2-001_card_3",
+          "사용하지 마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-001_card_0",
+          "SEJONG-2B-05-V2-001_card_1",
+          "SEJONG-2B-05-V2-001_card_2",
+          "SEJONG-2B-05-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-002",
+      "displaySentence": "공연장에서 큰 소리로 떠들지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-002_card_0",
+          "공연장에서"
+        ],
+        [
+          "SEJONG-2B-05-V2-002_card_1",
+          "큰"
+        ],
+        [
+          "SEJONG-2B-05-V2-002_card_2",
+          "소리로"
+        ],
+        [
+          "SEJONG-2B-05-V2-002_card_3",
+          "떠들지 마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-002_card_0",
+          "SEJONG-2B-05-V2-002_card_1",
+          "SEJONG-2B-05-V2-002_card_2",
+          "SEJONG-2B-05-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-003",
+      "displaySentence": "앞자리에서 일어나지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-003_card_0",
+          "앞자리"
+        ],
+        [
+          "SEJONG-2B-05-V2-003_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2B-05-V2-003_card_2",
+          "일어나지"
+        ],
+        [
+          "SEJONG-2B-05-V2-003_card_3",
+          "마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-003_card_0",
+          "SEJONG-2B-05-V2-003_card_1",
+          "SEJONG-2B-05-V2-003_card_2",
+          "SEJONG-2B-05-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-004",
+      "displaySentence": "노래가 정말 좋네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-004_card_0",
+          "노래"
+        ],
+        [
+          "SEJONG-2B-05-V2-004_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2B-05-V2-004_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-2B-05-V2-004_card_3",
+          "좋네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-004_card_0",
+          "SEJONG-2B-05-V2-004_card_1",
+          "SEJONG-2B-05-V2-004_card_2",
+          "SEJONG-2B-05-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-005",
+      "displaySentence": "배우가 아주 잘생겼네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-005_card_0",
+          "배우"
+        ],
+        [
+          "SEJONG-2B-05-V2-005_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2B-05-V2-005_card_2",
+          "아주"
+        ],
+        [
+          "SEJONG-2B-05-V2-005_card_3",
+          "잘생겼네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-005_card_0",
+          "SEJONG-2B-05-V2-005_card_1",
+          "SEJONG-2B-05-V2-005_card_2",
+          "SEJONG-2B-05-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-006",
+      "displaySentence": "무대가 생각보다 크네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-006_card_0",
+          "무대"
+        ],
+        [
+          "SEJONG-2B-05-V2-006_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2B-05-V2-006_card_2",
+          "생각보다"
+        ],
+        [
+          "SEJONG-2B-05-V2-006_card_3",
+          "크네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-006_card_0",
+          "SEJONG-2B-05-V2-006_card_1",
+          "SEJONG-2B-05-V2-006_card_2",
+          "SEJONG-2B-05-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-007",
+      "displaySentence": "연주회가 벌써 끝났네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-007_card_0",
+          "연주회"
+        ],
+        [
+          "SEJONG-2B-05-V2-007_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2B-05-V2-007_card_2",
+          "벌써"
+        ],
+        [
+          "SEJONG-2B-05-V2-007_card_3",
+          "끝났네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-007_card_0",
+          "SEJONG-2B-05-V2-007_card_1",
+          "SEJONG-2B-05-V2-007_card_2",
+          "SEJONG-2B-05-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-008",
+      "displaySentence": "뮤지컬 배우가 노래를 잘하네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-008_card_0",
+          "뮤지컬"
+        ],
+        [
+          "SEJONG-2B-05-V2-008_card_1",
+          "배우가"
+        ],
+        [
+          "SEJONG-2B-05-V2-008_card_2",
+          "노래를"
+        ],
+        [
+          "SEJONG-2B-05-V2-008_card_3",
+          "잘하네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-008_card_0",
+          "SEJONG-2B-05-V2-008_card_1",
+          "SEJONG-2B-05-V2-008_card_2",
+          "SEJONG-2B-05-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-009",
+      "displaySentence": "공연 중에 노래를 따라 부르지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-009_card_0",
+          "공연"
+        ],
+        [
+          "SEJONG-2B-05-V2-009_card_1",
+          "중에"
+        ],
+        [
+          "SEJONG-2B-05-V2-009_card_2",
+          "노래를 따라 부르지"
+        ],
+        [
+          "SEJONG-2B-05-V2-009_card_3",
+          "마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-009_card_0",
+          "SEJONG-2B-05-V2-009_card_1",
+          "SEJONG-2B-05-V2-009_card_2",
+          "SEJONG-2B-05-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-010",
+      "displaySentence": "빈자리가 있어도 마음대로 자리를 바꾸지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-010_card_0",
+          "빈자리가"
+        ],
+        [
+          "SEJONG-2B-05-V2-010_card_1",
+          "있어도"
+        ],
+        [
+          "SEJONG-2B-05-V2-010_card_2",
+          "마음대로"
+        ],
+        [
+          "SEJONG-2B-05-V2-010_card_3",
+          "자리를 바꾸지 마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-010_card_0",
+          "SEJONG-2B-05-V2-010_card_1",
+          "SEJONG-2B-05-V2-010_card_2",
+          "SEJONG-2B-05-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-011",
+      "displaySentence": "극장 안에서 쓰레기를 버리지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-011_card_0",
+          "극장"
+        ],
+        [
+          "SEJONG-2B-05-V2-011_card_1",
+          "안에서"
+        ],
+        [
+          "SEJONG-2B-05-V2-011_card_2",
+          "쓰레기를"
+        ],
+        [
+          "SEJONG-2B-05-V2-011_card_3",
+          "버리지 마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-011_card_0",
+          "SEJONG-2B-05-V2-011_card_1",
+          "SEJONG-2B-05-V2-011_card_2",
+          "SEJONG-2B-05-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-012",
+      "displaySentence": "전시 작품을 손으로 만지지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-012_card_0",
+          "전시"
+        ],
+        [
+          "SEJONG-2B-05-V2-012_card_1",
+          "작품을"
+        ],
+        [
+          "SEJONG-2B-05-V2-012_card_2",
+          "손으로"
+        ],
+        [
+          "SEJONG-2B-05-V2-012_card_3",
+          "만지지 마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-012_card_0",
+          "SEJONG-2B-05-V2-012_card_1",
+          "SEJONG-2B-05-V2-012_card_2",
+          "SEJONG-2B-05-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-013",
+      "displaySentence": "공연장 앞에 주차하지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-013_card_0",
+          "공연장"
+        ],
+        [
+          "SEJONG-2B-05-V2-013_card_1",
+          "앞에"
+        ],
+        [
+          "SEJONG-2B-05-V2-013_card_2",
+          "주차하지"
+        ],
+        [
+          "SEJONG-2B-05-V2-013_card_3",
+          "마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-013_card_0",
+          "SEJONG-2B-05-V2-013_card_1",
+          "SEJONG-2B-05-V2-013_card_2",
+          "SEJONG-2B-05-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-014",
+      "displaySentence": "여기에서 담배를 피우지 마세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-014_card_0",
+          "여기에서"
+        ],
+        [
+          "SEJONG-2B-05-V2-014_card_1",
+          "담배를"
+        ],
+        [
+          "SEJONG-2B-05-V2-014_card_2",
+          "피우지"
+        ],
+        [
+          "SEJONG-2B-05-V2-014_card_3",
+          "마세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-014_card_0",
+          "SEJONG-2B-05-V2-014_card_1",
+          "SEJONG-2B-05-V2-014_card_2",
+          "SEJONG-2B-05-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-015",
+      "displaySentence": "관람 예절을 미리 확인하세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-015_card_0",
+          "관람"
+        ],
+        [
+          "SEJONG-2B-05-V2-015_card_1",
+          "예절을"
+        ],
+        [
+          "SEJONG-2B-05-V2-015_card_2",
+          "미리"
+        ],
+        [
+          "SEJONG-2B-05-V2-015_card_3",
+          "확인하세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-015_card_0",
+          "SEJONG-2B-05-V2-015_card_1",
+          "SEJONG-2B-05-V2-015_card_2",
+          "SEJONG-2B-05-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-016",
+      "displaySentence": "뮤지컬 신청 순서가 조금 복잡하네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-016_card_0",
+          "뮤지컬"
+        ],
+        [
+          "SEJONG-2B-05-V2-016_card_1",
+          "신청 순서가"
+        ],
+        [
+          "SEJONG-2B-05-V2-016_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-2B-05-V2-016_card_3",
+          "복잡하네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-016_card_0",
+          "SEJONG-2B-05-V2-016_card_1",
+          "SEJONG-2B-05-V2-016_card_2",
+          "SEJONG-2B-05-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-017",
+      "displaySentence": "연주회 댓글이 많이 달렸네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-017_card_0",
+          "연주회"
+        ],
+        [
+          "SEJONG-2B-05-V2-017_card_1",
+          "댓글이"
+        ],
+        [
+          "SEJONG-2B-05-V2-017_card_2",
+          "많이"
+        ],
+        [
+          "SEJONG-2B-05-V2-017_card_3",
+          "달렸네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-017_card_0",
+          "SEJONG-2B-05-V2-017_card_1",
+          "SEJONG-2B-05-V2-017_card_2",
+          "SEJONG-2B-05-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-018",
+      "displaySentence": "공연 정보를 친구와 공유했네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-018_card_0",
+          "공연"
+        ],
+        [
+          "SEJONG-2B-05-V2-018_card_1",
+          "정보를"
+        ],
+        [
+          "SEJONG-2B-05-V2-018_card_2",
+          "친구와"
+        ],
+        [
+          "SEJONG-2B-05-V2-018_card_3",
+          "공유했네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-018_card_0",
+          "SEJONG-2B-05-V2-018_card_1",
+          "SEJONG-2B-05-V2-018_card_2",
+          "SEJONG-2B-05-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-019",
+      "displaySentence": "교통 카드 할인도 받을 수 있네요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-019_card_0",
+          "교통"
+        ],
+        [
+          "SEJONG-2B-05-V2-019_card_1",
+          "카드 할인도"
+        ],
+        [
+          "SEJONG-2B-05-V2-019_card_2",
+          "받을 수"
+        ],
+        [
+          "SEJONG-2B-05-V2-019_card_3",
+          "있네요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-019_card_0",
+          "SEJONG-2B-05-V2-019_card_1",
+          "SEJONG-2B-05-V2-019_card_2",
+          "SEJONG-2B-05-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-05-V2-020",
+      "displaySentence": "안내 자료를 인쇄해서 가져가세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-05-V2-020_card_0",
+          "안내"
+        ],
+        [
+          "SEJONG-2B-05-V2-020_card_1",
+          "자료를"
+        ],
+        [
+          "SEJONG-2B-05-V2-020_card_2",
+          "인쇄해서"
+        ],
+        [
+          "SEJONG-2B-05-V2-020_card_3",
+          "가져가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-05-V2-020_card_0",
+          "SEJONG-2B-05-V2-020_card_1",
+          "SEJONG-2B-05-V2-020_card_2",
+          "SEJONG-2B-05-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 5과 어휘·문법 범위 재구성 · -네요 · -지 말다",
+      "sourceRef": "개정판 세종한국어 2B 5과 범위 재구성"
+    }
+  ]
+}

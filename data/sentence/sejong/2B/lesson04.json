@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 4,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 4과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "4과 핵심 문법 -다가 · -아/어 주다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 5과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-04-V2-001",
+      "displaySentence": "세종학당에 오다가 중학교 때 친구를 만났어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-001_card_0",
+          "세종학당에"
+        ],
+        [
+          "SEJONG-2B-04-V2-001_card_1",
+          "오다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-001_card_2",
+          "중학교 때 친구를"
+        ],
+        [
+          "SEJONG-2B-04-V2-001_card_3",
+          "만났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-001_card_0",
+          "SEJONG-2B-04-V2-001_card_1",
+          "SEJONG-2B-04-V2-001_card_2",
+          "SEJONG-2B-04-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-002",
+      "displaySentence": "집에 가다가 꽃집에 들렀어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-002_card_0",
+          "집에"
+        ],
+        [
+          "SEJONG-2B-04-V2-002_card_1",
+          "가다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-002_card_2",
+          "꽃집에"
+        ],
+        [
+          "SEJONG-2B-04-V2-002_card_3",
+          "들렀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-002_card_0",
+          "SEJONG-2B-04-V2-002_card_1",
+          "SEJONG-2B-04-V2-002_card_2",
+          "SEJONG-2B-04-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-003",
+      "displaySentence": "운동하다가 친구에게 전화를 했어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-003_card_0",
+          "운동하다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-003_card_1",
+          "친구에게"
+        ],
+        [
+          "SEJONG-2B-04-V2-003_card_2",
+          "전화를"
+        ],
+        [
+          "SEJONG-2B-04-V2-003_card_3",
+          "했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-003_card_0",
+          "SEJONG-2B-04-V2-003_card_1",
+          "SEJONG-2B-04-V2-003_card_2",
+          "SEJONG-2B-04-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-004",
+      "displaySentence": "길을 걷다가 지갑을 주웠어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-004_card_0",
+          "길을"
+        ],
+        [
+          "SEJONG-2B-04-V2-004_card_1",
+          "걷다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-004_card_2",
+          "지갑을"
+        ],
+        [
+          "SEJONG-2B-04-V2-004_card_3",
+          "주웠어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-004_card_0",
+          "SEJONG-2B-04-V2-004_card_1",
+          "SEJONG-2B-04-V2-004_card_2",
+          "SEJONG-2B-04-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-005",
+      "displaySentence": "친구가 무거운 짐을 들어 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-005_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-04-V2-005_card_1",
+          "무거운"
+        ],
+        [
+          "SEJONG-2B-04-V2-005_card_2",
+          "짐을"
+        ],
+        [
+          "SEJONG-2B-04-V2-005_card_3",
+          "들어 줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-005_card_0",
+          "SEJONG-2B-04-V2-005_card_1",
+          "SEJONG-2B-04-V2-005_card_2",
+          "SEJONG-2B-04-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-006",
+      "displaySentence": "제가 친구에게 길을 알려 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-006_card_0",
+          "제가"
+        ],
+        [
+          "SEJONG-2B-04-V2-006_card_1",
+          "친구에게"
+        ],
+        [
+          "SEJONG-2B-04-V2-006_card_2",
+          "길을"
+        ],
+        [
+          "SEJONG-2B-04-V2-006_card_3",
+          "알려 줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-006_card_0",
+          "SEJONG-2B-04-V2-006_card_1",
+          "SEJONG-2B-04-V2-006_card_2",
+          "SEJONG-2B-04-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-007",
+      "displaySentence": "바람이 불어서 모자가 날아갔어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-007_card_0",
+          "바람이"
+        ],
+        [
+          "SEJONG-2B-04-V2-007_card_1",
+          "불어서"
+        ],
+        [
+          "SEJONG-2B-04-V2-007_card_2",
+          "모자가"
+        ],
+        [
+          "SEJONG-2B-04-V2-007_card_3",
+          "날아갔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-007_card_0",
+          "SEJONG-2B-04-V2-007_card_1",
+          "SEJONG-2B-04-V2-007_card_2",
+          "SEJONG-2B-04-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-008",
+      "displaySentence": "조깅하다가 비가 와서 멈췄어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-008_card_0",
+          "조깅하다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-008_card_1",
+          "비가"
+        ],
+        [
+          "SEJONG-2B-04-V2-008_card_2",
+          "와서"
+        ],
+        [
+          "SEJONG-2B-04-V2-008_card_3",
+          "멈췄어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-008_card_0",
+          "SEJONG-2B-04-V2-008_card_1",
+          "SEJONG-2B-04-V2-008_card_2",
+          "SEJONG-2B-04-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-009",
+      "displaySentence": "자격증 공부를 하다가 친구에게 도움을 요청했어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-009_card_0",
+          "자격증"
+        ],
+        [
+          "SEJONG-2B-04-V2-009_card_1",
+          "공부를 하다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-009_card_2",
+          "친구에게"
+        ],
+        [
+          "SEJONG-2B-04-V2-009_card_3",
+          "도움을 요청했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-009_card_0",
+          "SEJONG-2B-04-V2-009_card_1",
+          "SEJONG-2B-04-V2-009_card_2",
+          "SEJONG-2B-04-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-010",
+      "displaySentence": "서핑을 하다가 휴대폰을 잃어버렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-010_card_0",
+          "서핑을"
+        ],
+        [
+          "SEJONG-2B-04-V2-010_card_1",
+          "하다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-010_card_2",
+          "휴대폰을"
+        ],
+        [
+          "SEJONG-2B-04-V2-010_card_3",
+          "잃어버렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-010_card_0",
+          "SEJONG-2B-04-V2-010_card_1",
+          "SEJONG-2B-04-V2-010_card_2",
+          "SEJONG-2B-04-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-011",
+      "displaySentence": "친구가 사인 뒷면을 보여 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-011_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-04-V2-011_card_1",
+          "사인"
+        ],
+        [
+          "SEJONG-2B-04-V2-011_card_2",
+          "뒷면을"
+        ],
+        [
+          "SEJONG-2B-04-V2-011_card_3",
+          "보여 줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-011_card_0",
+          "SEJONG-2B-04-V2-011_card_1",
+          "SEJONG-2B-04-V2-011_card_2",
+          "SEJONG-2B-04-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-012",
+      "displaySentence": "팬클럽 친구가 공연 정보를 알려 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-012_card_0",
+          "팬클럽"
+        ],
+        [
+          "SEJONG-2B-04-V2-012_card_1",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-04-V2-012_card_2",
+          "공연 정보를"
+        ],
+        [
+          "SEJONG-2B-04-V2-012_card_3",
+          "알려 줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-012_card_0",
+          "SEJONG-2B-04-V2-012_card_1",
+          "SEJONG-2B-04-V2-012_card_2",
+          "SEJONG-2B-04-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-013",
+      "displaySentence": "드라마를 찍다가 유명한 배우를 만났어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-013_card_0",
+          "드라마를"
+        ],
+        [
+          "SEJONG-2B-04-V2-013_card_1",
+          "찍다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-013_card_2",
+          "유명한 배우를"
+        ],
+        [
+          "SEJONG-2B-04-V2-013_card_3",
+          "만났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-013_card_0",
+          "SEJONG-2B-04-V2-013_card_1",
+          "SEJONG-2B-04-V2-013_card_2",
+          "SEJONG-2B-04-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-014",
+      "displaySentence": "뉴스를 보다가 중학교 친구가 생각났어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-014_card_0",
+          "뉴스를"
+        ],
+        [
+          "SEJONG-2B-04-V2-014_card_1",
+          "보다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-014_card_2",
+          "중학교 친구가"
+        ],
+        [
+          "SEJONG-2B-04-V2-014_card_3",
+          "생각났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-014_card_0",
+          "SEJONG-2B-04-V2-014_card_1",
+          "SEJONG-2B-04-V2-014_card_2",
+          "SEJONG-2B-04-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-015",
+      "displaySentence": "친한 친구가 걱정을 들어 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-015_card_0",
+          "친한"
+        ],
+        [
+          "SEJONG-2B-04-V2-015_card_1",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-04-V2-015_card_2",
+          "걱정을"
+        ],
+        [
+          "SEJONG-2B-04-V2-015_card_3",
+          "들어 줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-015_card_0",
+          "SEJONG-2B-04-V2-015_card_1",
+          "SEJONG-2B-04-V2-015_card_2",
+          "SEJONG-2B-04-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-016",
+      "displaySentence": "시험에 합격해서 정말 기뻤어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-016_card_0",
+          "시험에"
+        ],
+        [
+          "SEJONG-2B-04-V2-016_card_1",
+          "합격해서"
+        ],
+        [
+          "SEJONG-2B-04-V2-016_card_2",
+          "정말"
+        ],
+        [
+          "SEJONG-2B-04-V2-016_card_3",
+          "기뻤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-016_card_0",
+          "SEJONG-2B-04-V2-016_card_1",
+          "SEJONG-2B-04-V2-016_card_2",
+          "SEJONG-2B-04-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-017",
+      "displaySentence": "게임에서 져서 조금 짜증이 났어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-017_card_0",
+          "게임에서"
+        ],
+        [
+          "SEJONG-2B-04-V2-017_card_1",
+          "져서"
+        ],
+        [
+          "SEJONG-2B-04-V2-017_card_2",
+          "조금"
+        ],
+        [
+          "SEJONG-2B-04-V2-017_card_3",
+          "짜증이 났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-017_card_0",
+          "SEJONG-2B-04-V2-017_card_1",
+          "SEJONG-2B-04-V2-017_card_2",
+          "SEJONG-2B-04-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-018",
+      "displaySentence": "옛날 사진을 보다가 그때 모습이 생각났어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-018_card_0",
+          "옛날"
+        ],
+        [
+          "SEJONG-2B-04-V2-018_card_1",
+          "사진을 보다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-018_card_2",
+          "그때 모습이"
+        ],
+        [
+          "SEJONG-2B-04-V2-018_card_3",
+          "생각났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-018_card_0",
+          "SEJONG-2B-04-V2-018_card_1",
+          "SEJONG-2B-04-V2-018_card_2",
+          "SEJONG-2B-04-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-019",
+      "displaySentence": "친구 관계가 어려워서 선생님께 도움을 요청했어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-019_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2B-04-V2-019_card_1",
+          "관계가 어려워서"
+        ],
+        [
+          "SEJONG-2B-04-V2-019_card_2",
+          "선생님께"
+        ],
+        [
+          "SEJONG-2B-04-V2-019_card_3",
+          "도움을 요청했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-019_card_0",
+          "SEJONG-2B-04-V2-019_card_1",
+          "SEJONG-2B-04-V2-019_card_2",
+          "SEJONG-2B-04-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-04-V2-020",
+      "displaySentence": "지하철역에 가다가 꽃집에서 선물을 샀어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-04-V2-020_card_0",
+          "지하철역에"
+        ],
+        [
+          "SEJONG-2B-04-V2-020_card_1",
+          "가다가"
+        ],
+        [
+          "SEJONG-2B-04-V2-020_card_2",
+          "꽃집에서"
+        ],
+        [
+          "SEJONG-2B-04-V2-020_card_3",
+          "선물을 샀어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-04-V2-020_card_0",
+          "SEJONG-2B-04-V2-020_card_1",
+          "SEJONG-2B-04-V2-020_card_2",
+          "SEJONG-2B-04-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 4과 어휘·문법 범위 재구성 · -다가 · -아/어 주다",
+      "sourceRef": "개정판 세종한국어 2B 4과 범위 재구성"
+    }
+  ]
+}

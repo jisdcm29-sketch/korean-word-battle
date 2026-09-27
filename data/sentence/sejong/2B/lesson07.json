@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 7,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 7과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "7과 핵심 문법 에게서/한테서/께 · -(으)니까를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 8과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-07-V2-001",
+      "displaySentence": "마리 씨한테서 그 친구 이야기를 들었어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-001_card_0",
+          "마리"
+        ],
+        [
+          "SEJONG-2B-07-V2-001_card_1",
+          "씨한테서"
+        ],
+        [
+          "SEJONG-2B-07-V2-001_card_2",
+          "그 친구 이야기를"
+        ],
+        [
+          "SEJONG-2B-07-V2-001_card_3",
+          "들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-001_card_0",
+          "SEJONG-2B-07-V2-001_card_1",
+          "SEJONG-2B-07-V2-001_card_2",
+          "SEJONG-2B-07-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-002",
+      "displaySentence": "선생님께 숙제를 냈어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-002_card_0",
+          "선생님"
+        ],
+        [
+          "SEJONG-2B-07-V2-002_card_1",
+          "께"
+        ],
+        [
+          "SEJONG-2B-07-V2-002_card_2",
+          "숙제를"
+        ],
+        [
+          "SEJONG-2B-07-V2-002_card_3",
+          "냈어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-002_card_0",
+          "SEJONG-2B-07-V2-002_card_1",
+          "SEJONG-2B-07-V2-002_card_2",
+          "SEJONG-2B-07-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-003",
+      "displaySentence": "친구에게서 꽃다발을 받았어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-003_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2B-07-V2-003_card_1",
+          "에게서"
+        ],
+        [
+          "SEJONG-2B-07-V2-003_card_2",
+          "꽃다발을"
+        ],
+        [
+          "SEJONG-2B-07-V2-003_card_3",
+          "받았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-003_card_0",
+          "SEJONG-2B-07-V2-003_card_1",
+          "SEJONG-2B-07-V2-003_card_2",
+          "SEJONG-2B-07-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-004",
+      "displaySentence": "과장님께 회의 시간을 물어봤어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-004_card_0",
+          "과장님께"
+        ],
+        [
+          "SEJONG-2B-07-V2-004_card_1",
+          "회의"
+        ],
+        [
+          "SEJONG-2B-07-V2-004_card_2",
+          "시간을"
+        ],
+        [
+          "SEJONG-2B-07-V2-004_card_3",
+          "물어봤어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-004_card_0",
+          "SEJONG-2B-07-V2-004_card_1",
+          "SEJONG-2B-07-V2-004_card_2",
+          "SEJONG-2B-07-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-005",
+      "displaySentence": "성격이 밝으니까 친구가 많아요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-005_card_0",
+          "성격이"
+        ],
+        [
+          "SEJONG-2B-07-V2-005_card_1",
+          "밝으니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-005_card_2",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-07-V2-005_card_3",
+          "많아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-005_card_0",
+          "SEJONG-2B-07-V2-005_card_1",
+          "SEJONG-2B-07-V2-005_card_2",
+          "SEJONG-2B-07-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-006",
+      "displaySentence": "부지런하니까 일을 빨리 끝내요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-006_card_0",
+          "부지런하니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-006_card_1",
+          "일을"
+        ],
+        [
+          "SEJONG-2B-07-V2-006_card_2",
+          "빨리"
+        ],
+        [
+          "SEJONG-2B-07-V2-006_card_3",
+          "끝내요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-006_card_0",
+          "SEJONG-2B-07-V2-006_card_1",
+          "SEJONG-2B-07-V2-006_card_2",
+          "SEJONG-2B-07-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-007",
+      "displaySentence": "급하니까 실수를 자주 해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-007_card_0",
+          "급하니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-007_card_1",
+          "실수를"
+        ],
+        [
+          "SEJONG-2B-07-V2-007_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2B-07-V2-007_card_3",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-007_card_0",
+          "SEJONG-2B-07-V2-007_card_1",
+          "SEJONG-2B-07-V2-007_card_2",
+          "SEJONG-2B-07-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-008",
+      "displaySentence": "날씨가 좋으니까 창밖을 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-008_card_0",
+          "날씨가"
+        ],
+        [
+          "SEJONG-2B-07-V2-008_card_1",
+          "좋으니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-008_card_2",
+          "창밖을"
+        ],
+        [
+          "SEJONG-2B-07-V2-008_card_3",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-008_card_0",
+          "SEJONG-2B-07-V2-008_card_1",
+          "SEJONG-2B-07-V2-008_card_2",
+          "SEJONG-2B-07-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-009",
+      "displaySentence": "헬스장에 등록했으니까 매일 운동해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-009_card_0",
+          "헬스장에"
+        ],
+        [
+          "SEJONG-2B-07-V2-009_card_1",
+          "등록했으니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-009_card_2",
+          "매일"
+        ],
+        [
+          "SEJONG-2B-07-V2-009_card_3",
+          "운동해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-009_card_0",
+          "SEJONG-2B-07-V2-009_card_1",
+          "SEJONG-2B-07-V2-009_card_2",
+          "SEJONG-2B-07-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-010",
+      "displaySentence": "교육팀 과장님께서 일을 시켰어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-010_card_0",
+          "교육팀"
+        ],
+        [
+          "SEJONG-2B-07-V2-010_card_1",
+          "과장님께서"
+        ],
+        [
+          "SEJONG-2B-07-V2-010_card_2",
+          "일을"
+        ],
+        [
+          "SEJONG-2B-07-V2-010_card_3",
+          "시켰어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-010_card_0",
+          "SEJONG-2B-07-V2-010_card_1",
+          "SEJONG-2B-07-V2-010_card_2",
+          "SEJONG-2B-07-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-011",
+      "displaySentence": "친구한테서 옛날이야기를 들었어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-011_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2B-07-V2-011_card_1",
+          "한테서"
+        ],
+        [
+          "SEJONG-2B-07-V2-011_card_2",
+          "옛날이야기를"
+        ],
+        [
+          "SEJONG-2B-07-V2-011_card_3",
+          "들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-011_card_0",
+          "SEJONG-2B-07-V2-011_card_1",
+          "SEJONG-2B-07-V2-011_card_2",
+          "SEJONG-2B-07-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-012",
+      "displaySentence": "택배 기사에게서 상자를 받았어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-012_card_0",
+          "택배"
+        ],
+        [
+          "SEJONG-2B-07-V2-012_card_1",
+          "기사에게서"
+        ],
+        [
+          "SEJONG-2B-07-V2-012_card_2",
+          "상자를"
+        ],
+        [
+          "SEJONG-2B-07-V2-012_card_3",
+          "받았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-012_card_0",
+          "SEJONG-2B-07-V2-012_card_1",
+          "SEJONG-2B-07-V2-012_card_2",
+          "SEJONG-2B-07-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-013",
+      "displaySentence": "서로 친하니까 아이디어를 자주 나눠요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-013_card_0",
+          "서로"
+        ],
+        [
+          "SEJONG-2B-07-V2-013_card_1",
+          "친하니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-013_card_2",
+          "아이디어를"
+        ],
+        [
+          "SEJONG-2B-07-V2-013_card_3",
+          "자주 나눠요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-013_card_0",
+          "SEJONG-2B-07-V2-013_card_1",
+          "SEJONG-2B-07-V2-013_card_2",
+          "SEJONG-2B-07-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-014",
+      "displaySentence": "화가 났으니까 잠깐 쉬세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-014_card_0",
+          "화가"
+        ],
+        [
+          "SEJONG-2B-07-V2-014_card_1",
+          "났으니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-014_card_2",
+          "잠깐"
+        ],
+        [
+          "SEJONG-2B-07-V2-014_card_3",
+          "쉬세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-014_card_0",
+          "SEJONG-2B-07-V2-014_card_1",
+          "SEJONG-2B-07-V2-014_card_2",
+          "SEJONG-2B-07-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-015",
+      "displaySentence": "게으르니까 방이 자주 어지러워요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-015_card_0",
+          "게으르니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-015_card_1",
+          "방이"
+        ],
+        [
+          "SEJONG-2B-07-V2-015_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2B-07-V2-015_card_3",
+          "어지러워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-015_card_0",
+          "SEJONG-2B-07-V2-015_card_1",
+          "SEJONG-2B-07-V2-015_card_2",
+          "SEJONG-2B-07-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-016",
+      "displaySentence": "활발하니까 사람들 앞에서 말을 잘해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-016_card_0",
+          "활발하니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-016_card_1",
+          "사람들"
+        ],
+        [
+          "SEJONG-2B-07-V2-016_card_2",
+          "앞에서"
+        ],
+        [
+          "SEJONG-2B-07-V2-016_card_3",
+          "말을 잘해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-016_card_0",
+          "SEJONG-2B-07-V2-016_card_1",
+          "SEJONG-2B-07-V2-016_card_2",
+          "SEJONG-2B-07-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-017",
+      "displaySentence": "실수했으니까 상황을 자세히 설명하세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-017_card_0",
+          "실수했으니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-017_card_1",
+          "상황을"
+        ],
+        [
+          "SEJONG-2B-07-V2-017_card_2",
+          "자세히"
+        ],
+        [
+          "SEJONG-2B-07-V2-017_card_3",
+          "설명하세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-017_card_0",
+          "SEJONG-2B-07-V2-017_card_1",
+          "SEJONG-2B-07-V2-017_card_2",
+          "SEJONG-2B-07-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-018",
+      "displaySentence": "새가 뜨는 해 쪽으로 날아가니까 예뻐요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-018_card_0",
+          "새가"
+        ],
+        [
+          "SEJONG-2B-07-V2-018_card_1",
+          "뜨는 해 쪽으로"
+        ],
+        [
+          "SEJONG-2B-07-V2-018_card_2",
+          "날아가니까"
+        ],
+        [
+          "SEJONG-2B-07-V2-018_card_3",
+          "예뻐요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-018_card_0",
+          "SEJONG-2B-07-V2-018_card_1",
+          "SEJONG-2B-07-V2-018_card_2",
+          "SEJONG-2B-07-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-019",
+      "displaySentence": "묘사한 내용을 친구에게 읽어 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-019_card_0",
+          "묘사한"
+        ],
+        [
+          "SEJONG-2B-07-V2-019_card_1",
+          "내용을"
+        ],
+        [
+          "SEJONG-2B-07-V2-019_card_2",
+          "친구에게"
+        ],
+        [
+          "SEJONG-2B-07-V2-019_card_3",
+          "읽어 줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-019_card_0",
+          "SEJONG-2B-07-V2-019_card_1",
+          "SEJONG-2B-07-V2-019_card_2",
+          "SEJONG-2B-07-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-07-V2-020",
+      "displaySentence": "옆집 사람에게서 좋은 소식을 들었어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-07-V2-020_card_0",
+          "옆집"
+        ],
+        [
+          "SEJONG-2B-07-V2-020_card_1",
+          "사람에게서"
+        ],
+        [
+          "SEJONG-2B-07-V2-020_card_2",
+          "좋은 소식을"
+        ],
+        [
+          "SEJONG-2B-07-V2-020_card_3",
+          "들었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-07-V2-020_card_0",
+          "SEJONG-2B-07-V2-020_card_1",
+          "SEJONG-2B-07-V2-020_card_2",
+          "SEJONG-2B-07-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 7과 어휘·문법 범위 재구성 · 에게서/한테서/께 · -(으)니까",
+      "sourceRef": "개정판 세종한국어 2B 7과 범위 재구성"
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 10,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 10과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "10과 핵심 문법 -는/(으)ㄴ 편이다 · -게를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 11과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-10-V2-001",
+      "displaySentence": "산악자전거는 조금 위험한 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-001_card_0",
+          "산악자전거는"
+        ],
+        [
+          "SEJONG-2B-10-V2-001_card_1",
+          "조금"
+        ],
+        [
+          "SEJONG-2B-10-V2-001_card_2",
+          "위험한"
+        ],
+        [
+          "SEJONG-2B-10-V2-001_card_3",
+          "편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-001_card_0",
+          "SEJONG-2B-10-V2-001_card_1",
+          "SEJONG-2B-10-V2-001_card_2",
+          "SEJONG-2B-10-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-002",
+      "displaySentence": "저는 전통 놀이를 좋아하는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-002_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-2B-10-V2-002_card_1",
+          "전통"
+        ],
+        [
+          "SEJONG-2B-10-V2-002_card_2",
+          "놀이를"
+        ],
+        [
+          "SEJONG-2B-10-V2-002_card_3",
+          "좋아하는 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-002_card_0",
+          "SEJONG-2B-10-V2-002_card_1",
+          "SEJONG-2B-10-V2-002_card_2",
+          "SEJONG-2B-10-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-003",
+      "displaySentence": "요즘은 건강하게 먹으려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-003_card_0",
+          "요즘은"
+        ],
+        [
+          "SEJONG-2B-10-V2-003_card_1",
+          "건강하게"
+        ],
+        [
+          "SEJONG-2B-10-V2-003_card_2",
+          "먹으려고"
+        ],
+        [
+          "SEJONG-2B-10-V2-003_card_3",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-003_card_0",
+          "SEJONG-2B-10-V2-003_card_1",
+          "SEJONG-2B-10-V2-003_card_2",
+          "SEJONG-2B-10-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-004",
+      "displaySentence": "사진을 예쁘게 찍어 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-004_card_0",
+          "사진을"
+        ],
+        [
+          "SEJONG-2B-10-V2-004_card_1",
+          "예쁘게"
+        ],
+        [
+          "SEJONG-2B-10-V2-004_card_2",
+          "찍어"
+        ],
+        [
+          "SEJONG-2B-10-V2-004_card_3",
+          "주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-004_card_0",
+          "SEJONG-2B-10-V2-004_card_1",
+          "SEJONG-2B-10-V2-004_card_2",
+          "SEJONG-2B-10-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-005",
+      "displaySentence": "돈이 많이 드는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-005_card_0",
+          "돈이"
+        ],
+        [
+          "SEJONG-2B-10-V2-005_card_1",
+          "많이"
+        ],
+        [
+          "SEJONG-2B-10-V2-005_card_2",
+          "드는"
+        ],
+        [
+          "SEJONG-2B-10-V2-005_card_3",
+          "편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-005_card_0",
+          "SEJONG-2B-10-V2-005_card_1",
+          "SEJONG-2B-10-V2-005_card_2",
+          "SEJONG-2B-10-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-006",
+      "displaySentence": "이 방송국은 사람들이 많이 방문하는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-006_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-10-V2-006_card_1",
+          "방송국은"
+        ],
+        [
+          "SEJONG-2B-10-V2-006_card_2",
+          "사람들이"
+        ],
+        [
+          "SEJONG-2B-10-V2-006_card_3",
+          "많이 방문하는 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-006_card_0",
+          "SEJONG-2B-10-V2-006_card_1",
+          "SEJONG-2B-10-V2-006_card_2",
+          "SEJONG-2B-10-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-007",
+      "displaySentence": "저는 할인을 자주 받는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-007_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-2B-10-V2-007_card_1",
+          "할인을"
+        ],
+        [
+          "SEJONG-2B-10-V2-007_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2B-10-V2-007_card_3",
+          "받는 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-007_card_0",
+          "SEJONG-2B-10-V2-007_card_1",
+          "SEJONG-2B-10-V2-007_card_2",
+          "SEJONG-2B-10-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-008",
+      "displaySentence": "올해는 다이어트를 열심히 하는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-008_card_0",
+          "올해는"
+        ],
+        [
+          "SEJONG-2B-10-V2-008_card_1",
+          "다이어트를"
+        ],
+        [
+          "SEJONG-2B-10-V2-008_card_2",
+          "열심히"
+        ],
+        [
+          "SEJONG-2B-10-V2-008_card_3",
+          "하는 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-008_card_0",
+          "SEJONG-2B-10-V2-008_card_1",
+          "SEJONG-2B-10-V2-008_card_2",
+          "SEJONG-2B-10-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-009",
+      "displaySentence": "새벽에 일찍 일어나는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-009_card_0",
+          "새벽에"
+        ],
+        [
+          "SEJONG-2B-10-V2-009_card_1",
+          "일찍"
+        ],
+        [
+          "SEJONG-2B-10-V2-009_card_2",
+          "일어나는"
+        ],
+        [
+          "SEJONG-2B-10-V2-009_card_3",
+          "편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-009_card_0",
+          "SEJONG-2B-10-V2-009_card_1",
+          "SEJONG-2B-10-V2-009_card_2",
+          "SEJONG-2B-10-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-010",
+      "displaySentence": "동전을 상자에 잘 넣어 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-010_card_0",
+          "동전을"
+        ],
+        [
+          "SEJONG-2B-10-V2-010_card_1",
+          "상자에"
+        ],
+        [
+          "SEJONG-2B-10-V2-010_card_2",
+          "잘"
+        ],
+        [
+          "SEJONG-2B-10-V2-010_card_3",
+          "넣어 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-010_card_0",
+          "SEJONG-2B-10-V2-010_card_1",
+          "SEJONG-2B-10-V2-010_card_2",
+          "SEJONG-2B-10-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-011",
+      "displaySentence": "레저 스포츠는 밖에서 하는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-011_card_0",
+          "레저"
+        ],
+        [
+          "SEJONG-2B-10-V2-011_card_1",
+          "스포츠는"
+        ],
+        [
+          "SEJONG-2B-10-V2-011_card_2",
+          "밖에서"
+        ],
+        [
+          "SEJONG-2B-10-V2-011_card_3",
+          "하는 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-011_card_0",
+          "SEJONG-2B-10-V2-011_card_1",
+          "SEJONG-2B-10-V2-011_card_2",
+          "SEJONG-2B-10-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-012",
+      "displaySentence": "자연환경을 깨끗하게 지켜야 해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-012_card_0",
+          "자연환경을"
+        ],
+        [
+          "SEJONG-2B-10-V2-012_card_1",
+          "깨끗하게"
+        ],
+        [
+          "SEJONG-2B-10-V2-012_card_2",
+          "지켜야"
+        ],
+        [
+          "SEJONG-2B-10-V2-012_card_3",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-012_card_0",
+          "SEJONG-2B-10-V2-012_card_1",
+          "SEJONG-2B-10-V2-012_card_2",
+          "SEJONG-2B-10-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-013",
+      "displaySentence": "사막은 낮에 더운 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-013_card_0",
+          "사막은"
+        ],
+        [
+          "SEJONG-2B-10-V2-013_card_1",
+          "낮에"
+        ],
+        [
+          "SEJONG-2B-10-V2-013_card_2",
+          "더운"
+        ],
+        [
+          "SEJONG-2B-10-V2-013_card_3",
+          "편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-013_card_0",
+          "SEJONG-2B-10-V2-013_card_1",
+          "SEJONG-2B-10-V2-013_card_2",
+          "SEJONG-2B-10-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-014",
+      "displaySentence": "섬에서는 캠핑을 많이 하는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-014_card_0",
+          "섬에서는"
+        ],
+        [
+          "SEJONG-2B-10-V2-014_card_1",
+          "캠핑을"
+        ],
+        [
+          "SEJONG-2B-10-V2-014_card_2",
+          "많이"
+        ],
+        [
+          "SEJONG-2B-10-V2-014_card_3",
+          "하는 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-014_card_0",
+          "SEJONG-2B-10-V2-014_card_1",
+          "SEJONG-2B-10-V2-014_card_2",
+          "SEJONG-2B-10-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-015",
+      "displaySentence": "기름 사용을 조금씩 줄이려고 해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-015_card_0",
+          "기름"
+        ],
+        [
+          "SEJONG-2B-10-V2-015_card_1",
+          "사용을"
+        ],
+        [
+          "SEJONG-2B-10-V2-015_card_2",
+          "조금씩"
+        ],
+        [
+          "SEJONG-2B-10-V2-015_card_3",
+          "줄이려고 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-015_card_0",
+          "SEJONG-2B-10-V2-015_card_1",
+          "SEJONG-2B-10-V2-015_card_2",
+          "SEJONG-2B-10-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-016",
+      "displaySentence": "엽서를 예쁘게 꾸며 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-016_card_0",
+          "엽서를"
+        ],
+        [
+          "SEJONG-2B-10-V2-016_card_1",
+          "예쁘게"
+        ],
+        [
+          "SEJONG-2B-10-V2-016_card_2",
+          "꾸며"
+        ],
+        [
+          "SEJONG-2B-10-V2-016_card_3",
+          "주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-016_card_0",
+          "SEJONG-2B-10-V2-016_card_1",
+          "SEJONG-2B-10-V2-016_card_2",
+          "SEJONG-2B-10-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-017",
+      "displaySentence": "온라인으로 전통 놀이를 체험하게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-017_card_0",
+          "온라인으로"
+        ],
+        [
+          "SEJONG-2B-10-V2-017_card_1",
+          "전통"
+        ],
+        [
+          "SEJONG-2B-10-V2-017_card_2",
+          "놀이를"
+        ],
+        [
+          "SEJONG-2B-10-V2-017_card_3",
+          "체험하게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-017_card_0",
+          "SEJONG-2B-10-V2-017_card_1",
+          "SEJONG-2B-10-V2-017_card_2",
+          "SEJONG-2B-10-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-018",
+      "displaySentence": "꿈을 이루려고 매일 노력하는 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-018_card_0",
+          "꿈을"
+        ],
+        [
+          "SEJONG-2B-10-V2-018_card_1",
+          "이루려고"
+        ],
+        [
+          "SEJONG-2B-10-V2-018_card_2",
+          "매일"
+        ],
+        [
+          "SEJONG-2B-10-V2-018_card_3",
+          "노력하는 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-018_card_0",
+          "SEJONG-2B-10-V2-018_card_1",
+          "SEJONG-2B-10-V2-018_card_2",
+          "SEJONG-2B-10-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-019",
+      "displaySentence": "문제를 정확하게 맞춰 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-019_card_0",
+          "문제를"
+        ],
+        [
+          "SEJONG-2B-10-V2-019_card_1",
+          "정확하게"
+        ],
+        [
+          "SEJONG-2B-10-V2-019_card_2",
+          "맞춰"
+        ],
+        [
+          "SEJONG-2B-10-V2-019_card_3",
+          "보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-019_card_0",
+          "SEJONG-2B-10-V2-019_card_1",
+          "SEJONG-2B-10-V2-019_card_2",
+          "SEJONG-2B-10-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-10-V2-020",
+      "displaySentence": "건강을 위해 음식을 싱겁게 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-10-V2-020_card_0",
+          "건강을"
+        ],
+        [
+          "SEJONG-2B-10-V2-020_card_1",
+          "위해"
+        ],
+        [
+          "SEJONG-2B-10-V2-020_card_2",
+          "음식을"
+        ],
+        [
+          "SEJONG-2B-10-V2-020_card_3",
+          "싱겁게 먹어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-10-V2-020_card_0",
+          "SEJONG-2B-10-V2-020_card_1",
+          "SEJONG-2B-10-V2-020_card_2",
+          "SEJONG-2B-10-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 10과 어휘·문법 범위 재구성 · -는/(으)ㄴ 편이다 · -게",
+      "sourceRef": "개정판 세종한국어 2B 10과 범위 재구성"
+    }
+  ]
+}

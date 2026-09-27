@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 6,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 6과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "6과 핵심 문법 -아도/어도 되다 · -(으)면 안 되다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 7과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-06-V2-001",
+      "displaySentence": "여기에서 노트북을 사용해도 돼요?",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-001_card_0",
+          "여기에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-001_card_1",
+          "노트북을"
+        ],
+        [
+          "SEJONG-2B-06-V2-001_card_2",
+          "사용해도"
+        ],
+        [
+          "SEJONG-2B-06-V2-001_card_3",
+          "돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-001_card_0",
+          "SEJONG-2B-06-V2-001_card_1",
+          "SEJONG-2B-06-V2-001_card_2",
+          "SEJONG-2B-06-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-002",
+      "displaySentence": "이곳에서 사진을 찍어도 돼요?",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-002_card_0",
+          "이곳에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-002_card_1",
+          "사진을"
+        ],
+        [
+          "SEJONG-2B-06-V2-002_card_2",
+          "찍어도"
+        ],
+        [
+          "SEJONG-2B-06-V2-002_card_3",
+          "돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-002_card_0",
+          "SEJONG-2B-06-V2-002_card_1",
+          "SEJONG-2B-06-V2-002_card_2",
+          "SEJONG-2B-06-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-003",
+      "displaySentence": "안전선을 넘으면 안 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-003_card_0",
+          "안전선을"
+        ],
+        [
+          "SEJONG-2B-06-V2-003_card_1",
+          "넘으면"
+        ],
+        [
+          "SEJONG-2B-06-V2-003_card_2",
+          "안"
+        ],
+        [
+          "SEJONG-2B-06-V2-003_card_3",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-003_card_0",
+          "SEJONG-2B-06-V2-003_card_1",
+          "SEJONG-2B-06-V2-003_card_2",
+          "SEJONG-2B-06-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-004",
+      "displaySentence": "계단에서 뛰면 안 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-004_card_0",
+          "계단에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-004_card_1",
+          "뛰면"
+        ],
+        [
+          "SEJONG-2B-06-V2-004_card_2",
+          "안"
+        ],
+        [
+          "SEJONG-2B-06-V2-004_card_3",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-004_card_0",
+          "SEJONG-2B-06-V2-004_card_1",
+          "SEJONG-2B-06-V2-004_card_2",
+          "SEJONG-2B-06-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-005",
+      "displaySentence": "놀이 기구 안에서 일어나면 안 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-005_card_0",
+          "놀이"
+        ],
+        [
+          "SEJONG-2B-06-V2-005_card_1",
+          "기구 안에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-005_card_2",
+          "일어나면"
+        ],
+        [
+          "SEJONG-2B-06-V2-005_card_3",
+          "안 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-005_card_0",
+          "SEJONG-2B-06-V2-005_card_1",
+          "SEJONG-2B-06-V2-005_card_2",
+          "SEJONG-2B-06-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-006",
+      "displaySentence": "여기에서 조용히 통화해도 돼요?",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-006_card_0",
+          "여기에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-006_card_1",
+          "조용히"
+        ],
+        [
+          "SEJONG-2B-06-V2-006_card_2",
+          "통화해도"
+        ],
+        [
+          "SEJONG-2B-06-V2-006_card_3",
+          "돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-006_card_0",
+          "SEJONG-2B-06-V2-006_card_1",
+          "SEJONG-2B-06-V2-006_card_2",
+          "SEJONG-2B-06-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-007",
+      "displaySentence": "스터디 카페에서 음료를 마셔도 돼요?",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-007_card_0",
+          "스터디"
+        ],
+        [
+          "SEJONG-2B-06-V2-007_card_1",
+          "카페에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-007_card_2",
+          "음료를"
+        ],
+        [
+          "SEJONG-2B-06-V2-007_card_3",
+          "마셔도 돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-007_card_0",
+          "SEJONG-2B-06-V2-007_card_1",
+          "SEJONG-2B-06-V2-007_card_2",
+          "SEJONG-2B-06-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-008",
+      "displaySentence": "전시회에서 사진을 찍으면 안 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-008_card_0",
+          "전시회에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-008_card_1",
+          "사진을"
+        ],
+        [
+          "SEJONG-2B-06-V2-008_card_2",
+          "찍으면"
+        ],
+        [
+          "SEJONG-2B-06-V2-008_card_3",
+          "안 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-008_card_0",
+          "SEJONG-2B-06-V2-008_card_1",
+          "SEJONG-2B-06-V2-008_card_2",
+          "SEJONG-2B-06-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-009",
+      "displaySentence": "입구에 줄을 서도 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-009_card_0",
+          "입구에"
+        ],
+        [
+          "SEJONG-2B-06-V2-009_card_1",
+          "줄을"
+        ],
+        [
+          "SEJONG-2B-06-V2-009_card_2",
+          "서도"
+        ],
+        [
+          "SEJONG-2B-06-V2-009_card_3",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-009_card_0",
+          "SEJONG-2B-06-V2-009_card_1",
+          "SEJONG-2B-06-V2-009_card_2",
+          "SEJONG-2B-06-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-010",
+      "displaySentence": "관리실에 들어가도 돼요?",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-010_card_0",
+          "관리실"
+        ],
+        [
+          "SEJONG-2B-06-V2-010_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2B-06-V2-010_card_2",
+          "들어가도"
+        ],
+        [
+          "SEJONG-2B-06-V2-010_card_3",
+          "돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-010_card_0",
+          "SEJONG-2B-06-V2-010_card_1",
+          "SEJONG-2B-06-V2-010_card_2",
+          "SEJONG-2B-06-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-011",
+      "displaySentence": "사람을 밀면 안 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-011_card_0",
+          "사람을"
+        ],
+        [
+          "SEJONG-2B-06-V2-011_card_1",
+          "밀면"
+        ],
+        [
+          "SEJONG-2B-06-V2-011_card_2",
+          "안"
+        ],
+        [
+          "SEJONG-2B-06-V2-011_card_3",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-011_card_0",
+          "SEJONG-2B-06-V2-011_card_1",
+          "SEJONG-2B-06-V2-011_card_2",
+          "SEJONG-2B-06-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-012",
+      "displaySentence": "복도에서 뛰어다니면 안 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-012_card_0",
+          "복도에서"
+        ],
+        [
+          "SEJONG-2B-06-V2-012_card_1",
+          "뛰어다니면"
+        ],
+        [
+          "SEJONG-2B-06-V2-012_card_2",
+          "안"
+        ],
+        [
+          "SEJONG-2B-06-V2-012_card_3",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-012_card_0",
+          "SEJONG-2B-06-V2-012_card_1",
+          "SEJONG-2B-06-V2-012_card_2",
+          "SEJONG-2B-06-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-013",
+      "displaySentence": "이 의자에 앉아도 돼요?",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-013_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-06-V2-013_card_1",
+          "의자에"
+        ],
+        [
+          "SEJONG-2B-06-V2-013_card_2",
+          "앉아도"
+        ],
+        [
+          "SEJONG-2B-06-V2-013_card_3",
+          "돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-013_card_0",
+          "SEJONG-2B-06-V2-013_card_1",
+          "SEJONG-2B-06-V2-013_card_2",
+          "SEJONG-2B-06-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-014",
+      "displaySentence": "소리를 크게 내면 안 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-014_card_0",
+          "소리를"
+        ],
+        [
+          "SEJONG-2B-06-V2-014_card_1",
+          "크게"
+        ],
+        [
+          "SEJONG-2B-06-V2-014_card_2",
+          "내면"
+        ],
+        [
+          "SEJONG-2B-06-V2-014_card_3",
+          "안 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-014_card_0",
+          "SEJONG-2B-06-V2-014_card_1",
+          "SEJONG-2B-06-V2-014_card_2",
+          "SEJONG-2B-06-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-015",
+      "displaySentence": "급하면 먼저 가도 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-015_card_0",
+          "급하면"
+        ],
+        [
+          "SEJONG-2B-06-V2-015_card_1",
+          "먼저"
+        ],
+        [
+          "SEJONG-2B-06-V2-015_card_2",
+          "가도"
+        ],
+        [
+          "SEJONG-2B-06-V2-015_card_3",
+          "돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-015_card_0",
+          "SEJONG-2B-06-V2-015_card_1",
+          "SEJONG-2B-06-V2-015_card_2",
+          "SEJONG-2B-06-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-016",
+      "displaySentence": "전시물을 계속 쳐다봐도 돼요?",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-016_card_0",
+          "전시물을"
+        ],
+        [
+          "SEJONG-2B-06-V2-016_card_1",
+          "계속"
+        ],
+        [
+          "SEJONG-2B-06-V2-016_card_2",
+          "쳐다봐도"
+        ],
+        [
+          "SEJONG-2B-06-V2-016_card_3",
+          "돼요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-016_card_0",
+          "SEJONG-2B-06-V2-016_card_1",
+          "SEJONG-2B-06-V2-016_card_2",
+          "SEJONG-2B-06-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-017",
+      "displaySentence": "너무 놀라서 깜짝 소리를 냈어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-017_card_0",
+          "너무"
+        ],
+        [
+          "SEJONG-2B-06-V2-017_card_1",
+          "놀라서"
+        ],
+        [
+          "SEJONG-2B-06-V2-017_card_2",
+          "깜짝"
+        ],
+        [
+          "SEJONG-2B-06-V2-017_card_3",
+          "소리를 냈어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-017_card_0",
+          "SEJONG-2B-06-V2-017_card_1",
+          "SEJONG-2B-06-V2-017_card_2",
+          "SEJONG-2B-06-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-018",
+      "displaySentence": "건물 안에서는 깨끗이 사용해야 해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-018_card_0",
+          "건물"
+        ],
+        [
+          "SEJONG-2B-06-V2-018_card_1",
+          "안에서는"
+        ],
+        [
+          "SEJONG-2B-06-V2-018_card_2",
+          "깨끗이"
+        ],
+        [
+          "SEJONG-2B-06-V2-018_card_3",
+          "사용해야 해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-018_card_0",
+          "SEJONG-2B-06-V2-018_card_1",
+          "SEJONG-2B-06-V2-018_card_2",
+          "SEJONG-2B-06-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-019",
+      "displaySentence": "아이들은 천천히 걸어야 해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-019_card_0",
+          "아이들은"
+        ],
+        [
+          "SEJONG-2B-06-V2-019_card_1",
+          "천천히"
+        ],
+        [
+          "SEJONG-2B-06-V2-019_card_2",
+          "걸어야"
+        ],
+        [
+          "SEJONG-2B-06-V2-019_card_3",
+          "해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-019_card_0",
+          "SEJONG-2B-06-V2-019_card_1",
+          "SEJONG-2B-06-V2-019_card_2",
+          "SEJONG-2B-06-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-06-V2-020",
+      "displaySentence": "이따 다시 와서 노트북을 사용해도 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-06-V2-020_card_0",
+          "이따"
+        ],
+        [
+          "SEJONG-2B-06-V2-020_card_1",
+          "다시 와서"
+        ],
+        [
+          "SEJONG-2B-06-V2-020_card_2",
+          "노트북을"
+        ],
+        [
+          "SEJONG-2B-06-V2-020_card_3",
+          "사용해도 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-06-V2-020_card_0",
+          "SEJONG-2B-06-V2-020_card_1",
+          "SEJONG-2B-06-V2-020_card_2",
+          "SEJONG-2B-06-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 6과 어휘·문법 범위 재구성 · -아도/어도 되다 · -(으)면 안 되다",
+      "sourceRef": "개정판 세종한국어 2B 6과 범위 재구성"
+    }
+  ]
+}

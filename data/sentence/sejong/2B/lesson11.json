@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 11,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 11과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "11과 핵심 문법 -아/어 · 에는/에서는를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 12과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-11-V2-001",
+      "displaySentence": "처음에는 모르는 게 많아서 답답했어.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-001_card_0",
+          "처음에는"
+        ],
+        [
+          "SEJONG-2B-11-V2-001_card_1",
+          "모르는"
+        ],
+        [
+          "SEJONG-2B-11-V2-001_card_2",
+          "게 많아서"
+        ],
+        [
+          "SEJONG-2B-11-V2-001_card_3",
+          "답답했어."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-001_card_0",
+          "SEJONG-2B-11-V2-001_card_1",
+          "SEJONG-2B-11-V2-001_card_2",
+          "SEJONG-2B-11-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-002",
+      "displaySentence": "한국어 발음은 처음에 어려웠어.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-002_card_0",
+          "한국어"
+        ],
+        [
+          "SEJONG-2B-11-V2-002_card_1",
+          "발음은"
+        ],
+        [
+          "SEJONG-2B-11-V2-002_card_2",
+          "처음에"
+        ],
+        [
+          "SEJONG-2B-11-V2-002_card_3",
+          "어려웠어."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-002_card_0",
+          "SEJONG-2B-11-V2-002_card_1",
+          "SEJONG-2B-11-V2-002_card_2",
+          "SEJONG-2B-11-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-003",
+      "displaySentence": "학교에서는 한국어로 말해.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-003_card_0",
+          "학교"
+        ],
+        [
+          "SEJONG-2B-11-V2-003_card_1",
+          "에서는"
+        ],
+        [
+          "SEJONG-2B-11-V2-003_card_2",
+          "한국어로"
+        ],
+        [
+          "SEJONG-2B-11-V2-003_card_3",
+          "말해."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-003_card_0",
+          "SEJONG-2B-11-V2-003_card_1",
+          "SEJONG-2B-11-V2-003_card_2",
+          "SEJONG-2B-11-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-004",
+      "displaySentence": "집에서는 편하게 쉬어.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-004_card_0",
+          "집"
+        ],
+        [
+          "SEJONG-2B-11-V2-004_card_1",
+          "에서는"
+        ],
+        [
+          "SEJONG-2B-11-V2-004_card_2",
+          "편하게"
+        ],
+        [
+          "SEJONG-2B-11-V2-004_card_3",
+          "쉬어."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-004_card_0",
+          "SEJONG-2B-11-V2-004_card_1",
+          "SEJONG-2B-11-V2-004_card_2",
+          "SEJONG-2B-11-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-005",
+      "displaySentence": "실수해도 너무 부끄러워하지 마.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-005_card_0",
+          "실수해도"
+        ],
+        [
+          "SEJONG-2B-11-V2-005_card_1",
+          "너무"
+        ],
+        [
+          "SEJONG-2B-11-V2-005_card_2",
+          "부끄러워하지"
+        ],
+        [
+          "SEJONG-2B-11-V2-005_card_3",
+          "마."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-005_card_0",
+          "SEJONG-2B-11-V2-005_card_1",
+          "SEJONG-2B-11-V2-005_card_2",
+          "SEJONG-2B-11-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-006",
+      "displaySentence": "넘어졌어도 괜찮아 다시 해.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-006_card_0",
+          "넘어졌어도"
+        ],
+        [
+          "SEJONG-2B-11-V2-006_card_1",
+          "괜찮아"
+        ],
+        [
+          "SEJONG-2B-11-V2-006_card_2",
+          "다시"
+        ],
+        [
+          "SEJONG-2B-11-V2-006_card_3",
+          "해."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-006_card_0",
+          "SEJONG-2B-11-V2-006_card_1",
+          "SEJONG-2B-11-V2-006_card_2",
+          "SEJONG-2B-11-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-007",
+      "displaySentence": "요즘은 한국말이 많이 좋아졌어.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-007_card_0",
+          "요즘은"
+        ],
+        [
+          "SEJONG-2B-11-V2-007_card_1",
+          "한국말이"
+        ],
+        [
+          "SEJONG-2B-11-V2-007_card_2",
+          "많이"
+        ],
+        [
+          "SEJONG-2B-11-V2-007_card_3",
+          "좋아졌어."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-007_card_0",
+          "SEJONG-2B-11-V2-007_card_1",
+          "SEJONG-2B-11-V2-007_card_2",
+          "SEJONG-2B-11-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-008",
+      "displaySentence": "한 학기 동안 한국 생활에 익숙해졌어.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-008_card_0",
+          "한"
+        ],
+        [
+          "SEJONG-2B-11-V2-008_card_1",
+          "학기 동안"
+        ],
+        [
+          "SEJONG-2B-11-V2-008_card_2",
+          "한국 생활에"
+        ],
+        [
+          "SEJONG-2B-11-V2-008_card_3",
+          "익숙해졌어."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-008_card_0",
+          "SEJONG-2B-11-V2-008_card_1",
+          "SEJONG-2B-11-V2-008_card_2",
+          "SEJONG-2B-11-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-009",
+      "displaySentence": "외국인 친구에게 안부 인사를 보내.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-009_card_0",
+          "외국인"
+        ],
+        [
+          "SEJONG-2B-11-V2-009_card_1",
+          "친구에게"
+        ],
+        [
+          "SEJONG-2B-11-V2-009_card_2",
+          "안부 인사를"
+        ],
+        [
+          "SEJONG-2B-11-V2-009_card_3",
+          "보내."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-009_card_0",
+          "SEJONG-2B-11-V2-009_card_1",
+          "SEJONG-2B-11-V2-009_card_2",
+          "SEJONG-2B-11-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-010",
+      "displaySentence": "편지에는 목적을 분명히 써.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-010_card_0",
+          "편지에는"
+        ],
+        [
+          "SEJONG-2B-11-V2-010_card_1",
+          "목적을"
+        ],
+        [
+          "SEJONG-2B-11-V2-010_card_2",
+          "분명히"
+        ],
+        [
+          "SEJONG-2B-11-V2-010_card_3",
+          "써."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-010_card_0",
+          "SEJONG-2B-11-V2-010_card_1",
+          "SEJONG-2B-11-V2-010_card_2",
+          "SEJONG-2B-11-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-011",
+      "displaySentence": "마지막에는 마무리 인사를 써.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-011_card_0",
+          "마지막에는"
+        ],
+        [
+          "SEJONG-2B-11-V2-011_card_1",
+          "마무리"
+        ],
+        [
+          "SEJONG-2B-11-V2-011_card_2",
+          "인사를"
+        ],
+        [
+          "SEJONG-2B-11-V2-011_card_3",
+          "써."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-011_card_0",
+          "SEJONG-2B-11-V2-011_card_1",
+          "SEJONG-2B-11-V2-011_card_2",
+          "SEJONG-2B-11-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-012",
+      "displaySentence": "한국에서는 인사를 자주 해.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-012_card_0",
+          "한국에서는"
+        ],
+        [
+          "SEJONG-2B-11-V2-012_card_1",
+          "인사를"
+        ],
+        [
+          "SEJONG-2B-11-V2-012_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2B-11-V2-012_card_3",
+          "해."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-012_card_0",
+          "SEJONG-2B-11-V2-012_card_1",
+          "SEJONG-2B-11-V2-012_card_2",
+          "SEJONG-2B-11-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-013",
+      "displaySentence": "수업 시간에는 질문을 많이 해.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-013_card_0",
+          "수업"
+        ],
+        [
+          "SEJONG-2B-11-V2-013_card_1",
+          "시간에는"
+        ],
+        [
+          "SEJONG-2B-11-V2-013_card_2",
+          "질문을"
+        ],
+        [
+          "SEJONG-2B-11-V2-013_card_3",
+          "많이 해."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-013_card_0",
+          "SEJONG-2B-11-V2-013_card_1",
+          "SEJONG-2B-11-V2-013_card_2",
+          "SEJONG-2B-11-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-014",
+      "displaySentence": "부족한 부분은 매일 연습해.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-014_card_0",
+          "부족한"
+        ],
+        [
+          "SEJONG-2B-11-V2-014_card_1",
+          "부분은"
+        ],
+        [
+          "SEJONG-2B-11-V2-014_card_2",
+          "매일"
+        ],
+        [
+          "SEJONG-2B-11-V2-014_card_3",
+          "연습해."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-014_card_0",
+          "SEJONG-2B-11-V2-014_card_1",
+          "SEJONG-2B-11-V2-014_card_2",
+          "SEJONG-2B-11-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-015",
+      "displaySentence": "잘 못 알아들으면 다시 물어봐.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-015_card_0",
+          "잘"
+        ],
+        [
+          "SEJONG-2B-11-V2-015_card_1",
+          "못 알아들으면"
+        ],
+        [
+          "SEJONG-2B-11-V2-015_card_2",
+          "다시"
+        ],
+        [
+          "SEJONG-2B-11-V2-015_card_3",
+          "물어봐."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-015_card_0",
+          "SEJONG-2B-11-V2-015_card_1",
+          "SEJONG-2B-11-V2-015_card_2",
+          "SEJONG-2B-11-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-016",
+      "displaySentence": "쌍둥이 형제는 생일날에 같이 축하해.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-016_card_0",
+          "쌍둥이"
+        ],
+        [
+          "SEJONG-2B-11-V2-016_card_1",
+          "형제는"
+        ],
+        [
+          "SEJONG-2B-11-V2-016_card_2",
+          "생일날에"
+        ],
+        [
+          "SEJONG-2B-11-V2-016_card_3",
+          "같이 축하해."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-016_card_0",
+          "SEJONG-2B-11-V2-016_card_1",
+          "SEJONG-2B-11-V2-016_card_2",
+          "SEJONG-2B-11-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-017",
+      "displaySentence": "네 실수는 조금씩 고치면 돼.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-017_card_0",
+          "네"
+        ],
+        [
+          "SEJONG-2B-11-V2-017_card_1",
+          "실수는"
+        ],
+        [
+          "SEJONG-2B-11-V2-017_card_2",
+          "조금씩"
+        ],
+        [
+          "SEJONG-2B-11-V2-017_card_3",
+          "고치면 돼."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-017_card_0",
+          "SEJONG-2B-11-V2-017_card_1",
+          "SEJONG-2B-11-V2-017_card_2",
+          "SEJONG-2B-11-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-018",
+      "displaySentence": "처음에는 어려웠어도 지금은 잘해.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-018_card_0",
+          "처음에는"
+        ],
+        [
+          "SEJONG-2B-11-V2-018_card_1",
+          "어려웠어도"
+        ],
+        [
+          "SEJONG-2B-11-V2-018_card_2",
+          "지금은"
+        ],
+        [
+          "SEJONG-2B-11-V2-018_card_3",
+          "잘해."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-018_card_0",
+          "SEJONG-2B-11-V2-018_card_1",
+          "SEJONG-2B-11-V2-018_card_2",
+          "SEJONG-2B-11-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-019",
+      "displaySentence": "친구들과 지내면서 성격도 많이 변했어.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-019_card_0",
+          "친구들과"
+        ],
+        [
+          "SEJONG-2B-11-V2-019_card_1",
+          "지내면서"
+        ],
+        [
+          "SEJONG-2B-11-V2-019_card_2",
+          "성격도"
+        ],
+        [
+          "SEJONG-2B-11-V2-019_card_3",
+          "많이 변했어."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-019_card_0",
+          "SEJONG-2B-11-V2-019_card_1",
+          "SEJONG-2B-11-V2-019_card_2",
+          "SEJONG-2B-11-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-11-V2-020",
+      "displaySentence": "선생님은 나에게 천사 같았어.",
+      "tokens": [
+        [
+          "SEJONG-2B-11-V2-020_card_0",
+          "선생님은"
+        ],
+        [
+          "SEJONG-2B-11-V2-020_card_1",
+          "나에게"
+        ],
+        [
+          "SEJONG-2B-11-V2-020_card_2",
+          "천사"
+        ],
+        [
+          "SEJONG-2B-11-V2-020_card_3",
+          "같았어."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-11-V2-020_card_0",
+          "SEJONG-2B-11-V2-020_card_1",
+          "SEJONG-2B-11-V2-020_card_2",
+          "SEJONG-2B-11-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 11과 어휘·문법 범위 재구성 · -아/어 · 에는/에서는",
+      "sourceRef": "개정판 세종한국어 2B 11과 범위 재구성"
+    }
+  ]
+}

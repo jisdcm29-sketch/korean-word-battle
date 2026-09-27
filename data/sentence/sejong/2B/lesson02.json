@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 2,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 2과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "2과 핵심 문법 에서부터 · -(으)로를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 3과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-02-V2-001",
+      "displaySentence": "세종학당에서부터 걸어서 10분쯤 걸려요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-001_card_0",
+          "세종학당에서부터"
+        ],
+        [
+          "SEJONG-2B-02-V2-001_card_1",
+          "걸어서"
+        ],
+        [
+          "SEJONG-2B-02-V2-001_card_2",
+          "10분쯤"
+        ],
+        [
+          "SEJONG-2B-02-V2-001_card_3",
+          "걸려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-001_card_0",
+          "SEJONG-2B-02-V2-001_card_1",
+          "SEJONG-2B-02-V2-001_card_2",
+          "SEJONG-2B-02-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-002",
+      "displaySentence": "정문에서부터 앞으로 쭉 가세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-002_card_0",
+          "정문에서부터"
+        ],
+        [
+          "SEJONG-2B-02-V2-002_card_1",
+          "앞으로"
+        ],
+        [
+          "SEJONG-2B-02-V2-002_card_2",
+          "쭉"
+        ],
+        [
+          "SEJONG-2B-02-V2-002_card_3",
+          "가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-002_card_0",
+          "SEJONG-2B-02-V2-002_card_1",
+          "SEJONG-2B-02-V2-002_card_2",
+          "SEJONG-2B-02-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-003",
+      "displaySentence": "사거리에서 오른쪽으로 가세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-003_card_0",
+          "사거리"
+        ],
+        [
+          "SEJONG-2B-02-V2-003_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2B-02-V2-003_card_2",
+          "오른쪽으로"
+        ],
+        [
+          "SEJONG-2B-02-V2-003_card_3",
+          "가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-003_card_0",
+          "SEJONG-2B-02-V2-003_card_1",
+          "SEJONG-2B-02-V2-003_card_2",
+          "SEJONG-2B-02-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-004",
+      "displaySentence": "신호등에서 왼쪽으로 가세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-004_card_0",
+          "신호등"
+        ],
+        [
+          "SEJONG-2B-02-V2-004_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2B-02-V2-004_card_2",
+          "왼쪽으로"
+        ],
+        [
+          "SEJONG-2B-02-V2-004_card_3",
+          "가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-004_card_0",
+          "SEJONG-2B-02-V2-004_card_1",
+          "SEJONG-2B-02-V2-004_card_2",
+          "SEJONG-2B-02-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-005",
+      "displaySentence": "횡단보도를 건너서 직진하세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-005_card_0",
+          "횡단보도"
+        ],
+        [
+          "SEJONG-2B-02-V2-005_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2B-02-V2-005_card_2",
+          "건너서"
+        ],
+        [
+          "SEJONG-2B-02-V2-005_card_3",
+          "직진하세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-005_card_0",
+          "SEJONG-2B-02-V2-005_card_1",
+          "SEJONG-2B-02-V2-005_card_2",
+          "SEJONG-2B-02-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-006",
+      "displaySentence": "육교로 길을 건너세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-006_card_0",
+          "육교"
+        ],
+        [
+          "SEJONG-2B-02-V2-006_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-2B-02-V2-006_card_2",
+          "길을"
+        ],
+        [
+          "SEJONG-2B-02-V2-006_card_3",
+          "건너세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-006_card_0",
+          "SEJONG-2B-02-V2-006_card_1",
+          "SEJONG-2B-02-V2-006_card_2",
+          "SEJONG-2B-02-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-007",
+      "displaySentence": "지하도로 건너가면 안전해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-007_card_0",
+          "지하도"
+        ],
+        [
+          "SEJONG-2B-02-V2-007_card_1",
+          "로"
+        ],
+        [
+          "SEJONG-2B-02-V2-007_card_2",
+          "건너가면"
+        ],
+        [
+          "SEJONG-2B-02-V2-007_card_3",
+          "안전해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-007_card_0",
+          "SEJONG-2B-02-V2-007_card_1",
+          "SEJONG-2B-02-V2-007_card_2",
+          "SEJONG-2B-02-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-008",
+      "displaySentence": "저는 학교에서부터 걸어왔어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-008_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-2B-02-V2-008_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2B-02-V2-008_card_2",
+          "학교에서부터"
+        ],
+        [
+          "SEJONG-2B-02-V2-008_card_3",
+          "걸어왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-008_card_0",
+          "SEJONG-2B-02-V2-008_card_1",
+          "SEJONG-2B-02-V2-008_card_2",
+          "SEJONG-2B-02-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-009",
+      "displaySentence": "친구가 정문으로 뛰어왔어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-009_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2B-02-V2-009_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2B-02-V2-009_card_2",
+          "정문으로"
+        ],
+        [
+          "SEJONG-2B-02-V2-009_card_3",
+          "뛰어왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-009_card_0",
+          "SEJONG-2B-02-V2-009_card_1",
+          "SEJONG-2B-02-V2-009_card_2",
+          "SEJONG-2B-02-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-010",
+      "displaySentence": "이 도로로 쭉 가면 돼요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-010_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-02-V2-010_card_1",
+          "도로로"
+        ],
+        [
+          "SEJONG-2B-02-V2-010_card_2",
+          "쭉"
+        ],
+        [
+          "SEJONG-2B-02-V2-010_card_3",
+          "가면 돼요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-010_card_0",
+          "SEJONG-2B-02-V2-010_card_1",
+          "SEJONG-2B-02-V2-010_card_2",
+          "SEJONG-2B-02-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-011",
+      "displaySentence": "바퀴가 이상해서 자전거로 못 가요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-011_card_0",
+          "바퀴가"
+        ],
+        [
+          "SEJONG-2B-02-V2-011_card_1",
+          "이상해서"
+        ],
+        [
+          "SEJONG-2B-02-V2-011_card_2",
+          "자전거로"
+        ],
+        [
+          "SEJONG-2B-02-V2-011_card_3",
+          "못 가요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-011_card_0",
+          "SEJONG-2B-02-V2-011_card_1",
+          "SEJONG-2B-02-V2-011_card_2",
+          "SEJONG-2B-02-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-012",
+      "displaySentence": "지하철을 이용해서 오세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-012_card_0",
+          "지하철"
+        ],
+        [
+          "SEJONG-2B-02-V2-012_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2B-02-V2-012_card_2",
+          "이용해서"
+        ],
+        [
+          "SEJONG-2B-02-V2-012_card_3",
+          "오세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-012_card_0",
+          "SEJONG-2B-02-V2-012_card_1",
+          "SEJONG-2B-02-V2-012_card_2",
+          "SEJONG-2B-02-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-013",
+      "displaySentence": "안내문을 문에 붙였어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-013_card_0",
+          "안내문"
+        ],
+        [
+          "SEJONG-2B-02-V2-013_card_1",
+          "을"
+        ],
+        [
+          "SEJONG-2B-02-V2-013_card_2",
+          "문에"
+        ],
+        [
+          "SEJONG-2B-02-V2-013_card_3",
+          "붙였어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-013_card_0",
+          "SEJONG-2B-02-V2-013_card_1",
+          "SEJONG-2B-02-V2-013_card_2",
+          "SEJONG-2B-02-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-014",
+      "displaySentence": "한글날 행사는 오후 두 시부터 시작해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-014_card_0",
+          "한글날"
+        ],
+        [
+          "SEJONG-2B-02-V2-014_card_1",
+          "행사는"
+        ],
+        [
+          "SEJONG-2B-02-V2-014_card_2",
+          "오후 두 시부터"
+        ],
+        [
+          "SEJONG-2B-02-V2-014_card_3",
+          "시작해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-014_card_0",
+          "SEJONG-2B-02-V2-014_card_1",
+          "SEJONG-2B-02-V2-014_card_2",
+          "SEJONG-2B-02-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-015",
+      "displaySentence": "캘리그래피 행사는 정문에서부터 가까워요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-015_card_0",
+          "캘리그래피"
+        ],
+        [
+          "SEJONG-2B-02-V2-015_card_1",
+          "행사는"
+        ],
+        [
+          "SEJONG-2B-02-V2-015_card_2",
+          "정문에서부터"
+        ],
+        [
+          "SEJONG-2B-02-V2-015_card_3",
+          "가까워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-015_card_0",
+          "SEJONG-2B-02-V2-015_card_1",
+          "SEJONG-2B-02-V2-015_card_2",
+          "SEJONG-2B-02-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-016",
+      "displaySentence": "세종 대왕 동상으로 어떻게 가요?",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-016_card_0",
+          "세종"
+        ],
+        [
+          "SEJONG-2B-02-V2-016_card_1",
+          "대왕 동상으로"
+        ],
+        [
+          "SEJONG-2B-02-V2-016_card_2",
+          "어떻게"
+        ],
+        [
+          "SEJONG-2B-02-V2-016_card_3",
+          "가요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-016_card_0",
+          "SEJONG-2B-02-V2-016_card_1",
+          "SEJONG-2B-02-V2-016_card_2",
+          "SEJONG-2B-02-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-017",
+      "displaySentence": "행사에 따로 참석할 거예요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-017_card_0",
+          "행사에"
+        ],
+        [
+          "SEJONG-2B-02-V2-017_card_1",
+          "따로"
+        ],
+        [
+          "SEJONG-2B-02-V2-017_card_2",
+          "참석할"
+        ],
+        [
+          "SEJONG-2B-02-V2-017_card_3",
+          "거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-017_card_0",
+          "SEJONG-2B-02-V2-017_card_1",
+          "SEJONG-2B-02-V2-017_card_2",
+          "SEJONG-2B-02-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-018",
+      "displaySentence": "멀리에서부터 친구가 걸어왔어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-018_card_0",
+          "멀리에서"
+        ],
+        [
+          "SEJONG-2B-02-V2-018_card_1",
+          "부터"
+        ],
+        [
+          "SEJONG-2B-02-V2-018_card_2",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-02-V2-018_card_3",
+          "걸어왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-018_card_0",
+          "SEJONG-2B-02-V2-018_card_1",
+          "SEJONG-2B-02-V2-018_card_2",
+          "SEJONG-2B-02-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-019",
+      "displaySentence": "궁금한 내용은 안내 데스크로 가세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-019_card_0",
+          "궁금한"
+        ],
+        [
+          "SEJONG-2B-02-V2-019_card_1",
+          "내용은"
+        ],
+        [
+          "SEJONG-2B-02-V2-019_card_2",
+          "안내 데스크로"
+        ],
+        [
+          "SEJONG-2B-02-V2-019_card_3",
+          "가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-019_card_0",
+          "SEJONG-2B-02-V2-019_card_1",
+          "SEJONG-2B-02-V2-019_card_2",
+          "SEJONG-2B-02-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-02-V2-020",
+      "displaySentence": "사거리에서부터 두 블록 쭉 가세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-02-V2-020_card_0",
+          "사거리에서부터"
+        ],
+        [
+          "SEJONG-2B-02-V2-020_card_1",
+          "두"
+        ],
+        [
+          "SEJONG-2B-02-V2-020_card_2",
+          "블록"
+        ],
+        [
+          "SEJONG-2B-02-V2-020_card_3",
+          "쭉 가세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-02-V2-020_card_0",
+          "SEJONG-2B-02-V2-020_card_1",
+          "SEJONG-2B-02-V2-020_card_2",
+          "SEJONG-2B-02-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 2과 어휘·문법 범위 재구성 · 에서부터 · -(으)로",
+      "sourceRef": "개정판 세종한국어 2B 2과 범위 재구성"
+    }
+  ]
+}

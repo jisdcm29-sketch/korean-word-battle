@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 8,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 8과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "8과 핵심 문법 -는데/(으)ㄴ데 · 밖에를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 9과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-08-V2-001",
+      "displaySentence": "어렸을 때는 머리가 길었는데 지금은 짧아요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-001_card_0",
+          "어렸을"
+        ],
+        [
+          "SEJONG-2B-08-V2-001_card_1",
+          "때는"
+        ],
+        [
+          "SEJONG-2B-08-V2-001_card_2",
+          "머리가 길었는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-001_card_3",
+          "지금은 짧아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-001_card_0",
+          "SEJONG-2B-08-V2-001_card_1",
+          "SEJONG-2B-08-V2-001_card_2",
+          "SEJONG-2B-08-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-002",
+      "displaySentence": "예전에는 말랐는데 지금은 조금 통통해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-002_card_0",
+          "예전에는"
+        ],
+        [
+          "SEJONG-2B-08-V2-002_card_1",
+          "말랐는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-002_card_2",
+          "지금은"
+        ],
+        [
+          "SEJONG-2B-08-V2-002_card_3",
+          "조금 통통해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-002_card_0",
+          "SEJONG-2B-08-V2-002_card_1",
+          "SEJONG-2B-08-V2-002_card_2",
+          "SEJONG-2B-08-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-003",
+      "displaySentence": "키는 큰데 몸은 마른 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-003_card_0",
+          "키는"
+        ],
+        [
+          "SEJONG-2B-08-V2-003_card_1",
+          "큰데"
+        ],
+        [
+          "SEJONG-2B-08-V2-003_card_2",
+          "몸은"
+        ],
+        [
+          "SEJONG-2B-08-V2-003_card_3",
+          "마른 편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-003_card_0",
+          "SEJONG-2B-08-V2-003_card_1",
+          "SEJONG-2B-08-V2-003_card_2",
+          "SEJONG-2B-08-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-004",
+      "displaySentence": "초콜릿은 좋아하는데 비타민은 잘 안 먹어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-004_card_0",
+          "초콜릿은"
+        ],
+        [
+          "SEJONG-2B-08-V2-004_card_1",
+          "좋아하는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-004_card_2",
+          "비타민은"
+        ],
+        [
+          "SEJONG-2B-08-V2-004_card_3",
+          "잘 안 먹어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-004_card_0",
+          "SEJONG-2B-08-V2-004_card_1",
+          "SEJONG-2B-08-V2-004_card_2",
+          "SEJONG-2B-08-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-005",
+      "displaySentence": "오늘은 천 원밖에 없어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-005_card_0",
+          "오늘은"
+        ],
+        [
+          "SEJONG-2B-08-V2-005_card_1",
+          "천"
+        ],
+        [
+          "SEJONG-2B-08-V2-005_card_2",
+          "원밖에"
+        ],
+        [
+          "SEJONG-2B-08-V2-005_card_3",
+          "없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-005_card_0",
+          "SEJONG-2B-08-V2-005_card_1",
+          "SEJONG-2B-08-V2-005_card_2",
+          "SEJONG-2B-08-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-006",
+      "displaySentence": "시간이 한 시간밖에 안 남았어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-006_card_0",
+          "시간이"
+        ],
+        [
+          "SEJONG-2B-08-V2-006_card_1",
+          "한"
+        ],
+        [
+          "SEJONG-2B-08-V2-006_card_2",
+          "시간밖에"
+        ],
+        [
+          "SEJONG-2B-08-V2-006_card_3",
+          "안 남았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-006_card_0",
+          "SEJONG-2B-08-V2-006_card_1",
+          "SEJONG-2B-08-V2-006_card_2",
+          "SEJONG-2B-08-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-007",
+      "displaySentence": "친구가 한 명밖에 안 왔어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-007_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-08-V2-007_card_1",
+          "한"
+        ],
+        [
+          "SEJONG-2B-08-V2-007_card_2",
+          "명밖에"
+        ],
+        [
+          "SEJONG-2B-08-V2-007_card_3",
+          "안 왔어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-007_card_0",
+          "SEJONG-2B-08-V2-007_card_1",
+          "SEJONG-2B-08-V2-007_card_2",
+          "SEJONG-2B-08-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-008",
+      "displaySentence": "손가락이 아픈데 병원에 갈까요?",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-008_card_0",
+          "손가락이"
+        ],
+        [
+          "SEJONG-2B-08-V2-008_card_1",
+          "아픈데"
+        ],
+        [
+          "SEJONG-2B-08-V2-008_card_2",
+          "병원에"
+        ],
+        [
+          "SEJONG-2B-08-V2-008_card_3",
+          "갈까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-008_card_0",
+          "SEJONG-2B-08-V2-008_card_1",
+          "SEJONG-2B-08-V2-008_card_2",
+          "SEJONG-2B-08-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-009",
+      "displaySentence": "살이 쪘는데 요즘 운동을 시작했어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-009_card_0",
+          "살이"
+        ],
+        [
+          "SEJONG-2B-08-V2-009_card_1",
+          "쪘는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-009_card_2",
+          "요즘"
+        ],
+        [
+          "SEJONG-2B-08-V2-009_card_3",
+          "운동을 시작했어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-009_card_0",
+          "SEJONG-2B-08-V2-009_card_1",
+          "SEJONG-2B-08-V2-009_card_2",
+          "SEJONG-2B-08-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-010",
+      "displaySentence": "정답을 알면 손을 들어 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-010_card_0",
+          "정답을"
+        ],
+        [
+          "SEJONG-2B-08-V2-010_card_1",
+          "알면"
+        ],
+        [
+          "SEJONG-2B-08-V2-010_card_2",
+          "손을"
+        ],
+        [
+          "SEJONG-2B-08-V2-010_card_3",
+          "들어 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-010_card_0",
+          "SEJONG-2B-08-V2-010_card_1",
+          "SEJONG-2B-08-V2-010_card_2",
+          "SEJONG-2B-08-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-011",
+      "displaySentence": "방에 커튼밖에 없어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-011_card_0",
+          "방"
+        ],
+        [
+          "SEJONG-2B-08-V2-011_card_1",
+          "에"
+        ],
+        [
+          "SEJONG-2B-08-V2-011_card_2",
+          "커튼밖에"
+        ],
+        [
+          "SEJONG-2B-08-V2-011_card_3",
+          "없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-011_card_0",
+          "SEJONG-2B-08-V2-011_card_1",
+          "SEJONG-2B-08-V2-011_card_2",
+          "SEJONG-2B-08-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-012",
+      "displaySentence": "쓰레기통이 하나밖에 없어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-012_card_0",
+          "쓰레기통"
+        ],
+        [
+          "SEJONG-2B-08-V2-012_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2B-08-V2-012_card_2",
+          "하나밖에"
+        ],
+        [
+          "SEJONG-2B-08-V2-012_card_3",
+          "없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-012_card_0",
+          "SEJONG-2B-08-V2-012_card_1",
+          "SEJONG-2B-08-V2-012_card_2",
+          "SEJONG-2B-08-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-013",
+      "displaySentence": "고모는 부산에 사는데 고모부는 서울에 살아요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-013_card_0",
+          "고모는"
+        ],
+        [
+          "SEJONG-2B-08-V2-013_card_1",
+          "부산에 사는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-013_card_2",
+          "고모부는"
+        ],
+        [
+          "SEJONG-2B-08-V2-013_card_3",
+          "서울에 살아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-013_card_0",
+          "SEJONG-2B-08-V2-013_card_1",
+          "SEJONG-2B-08-V2-013_card_2",
+          "SEJONG-2B-08-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-014",
+      "displaySentence": "공항에 마중 나갔는데 비행기가 늦었어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-014_card_0",
+          "공항에"
+        ],
+        [
+          "SEJONG-2B-08-V2-014_card_1",
+          "마중 나갔는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-014_card_2",
+          "비행기가"
+        ],
+        [
+          "SEJONG-2B-08-V2-014_card_3",
+          "늦었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-014_card_0",
+          "SEJONG-2B-08-V2-014_card_1",
+          "SEJONG-2B-08-V2-014_card_2",
+          "SEJONG-2B-08-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-015",
+      "displaySentence": "친구에게 부탁했는데 아직 답이 없어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-015_card_0",
+          "친구에게"
+        ],
+        [
+          "SEJONG-2B-08-V2-015_card_1",
+          "부탁했는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-015_card_2",
+          "아직"
+        ],
+        [
+          "SEJONG-2B-08-V2-015_card_3",
+          "답이 없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-015_card_0",
+          "SEJONG-2B-08-V2-015_card_1",
+          "SEJONG-2B-08-V2-015_card_2",
+          "SEJONG-2B-08-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-016",
+      "displaySentence": "그때 모습은 사진으로밖에 볼 수 없어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-016_card_0",
+          "그때"
+        ],
+        [
+          "SEJONG-2B-08-V2-016_card_1",
+          "모습은"
+        ],
+        [
+          "SEJONG-2B-08-V2-016_card_2",
+          "사진으로밖에"
+        ],
+        [
+          "SEJONG-2B-08-V2-016_card_3",
+          "볼 수 없어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-016_card_0",
+          "SEJONG-2B-08-V2-016_card_1",
+          "SEJONG-2B-08-V2-016_card_2",
+          "SEJONG-2B-08-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-017",
+      "displaySentence": "축구장에는 선수밖에 없었어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-017_card_0",
+          "축구장에"
+        ],
+        [
+          "SEJONG-2B-08-V2-017_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2B-08-V2-017_card_2",
+          "선수밖에"
+        ],
+        [
+          "SEJONG-2B-08-V2-017_card_3",
+          "없었어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-017_card_0",
+          "SEJONG-2B-08-V2-017_card_1",
+          "SEJONG-2B-08-V2-017_card_2",
+          "SEJONG-2B-08-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-018",
+      "displaySentence": "하루 종일 바빴는데 일이 조금 남았어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-018_card_0",
+          "하루"
+        ],
+        [
+          "SEJONG-2B-08-V2-018_card_1",
+          "종일 바빴는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-018_card_2",
+          "일이"
+        ],
+        [
+          "SEJONG-2B-08-V2-018_card_3",
+          "조금 남았어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-018_card_0",
+          "SEJONG-2B-08-V2-018_card_1",
+          "SEJONG-2B-08-V2-018_card_2",
+          "SEJONG-2B-08-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-019",
+      "displaySentence": "저는 그림에 관심이 있는데 동생은 음악을 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-019_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-2B-08-V2-019_card_1",
+          "그림에 관심이 있는데"
+        ],
+        [
+          "SEJONG-2B-08-V2-019_card_2",
+          "동생은"
+        ],
+        [
+          "SEJONG-2B-08-V2-019_card_3",
+          "음악을 좋아해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-019_card_0",
+          "SEJONG-2B-08-V2-019_card_1",
+          "SEJONG-2B-08-V2-019_card_2",
+          "SEJONG-2B-08-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-08-V2-020",
+      "displaySentence": "지금은 짧은 머리가 더 편해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-08-V2-020_card_0",
+          "지금은"
+        ],
+        [
+          "SEJONG-2B-08-V2-020_card_1",
+          "짧은"
+        ],
+        [
+          "SEJONG-2B-08-V2-020_card_2",
+          "머리가"
+        ],
+        [
+          "SEJONG-2B-08-V2-020_card_3",
+          "더 편해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-08-V2-020_card_0",
+          "SEJONG-2B-08-V2-020_card_1",
+          "SEJONG-2B-08-V2-020_card_2",
+          "SEJONG-2B-08-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 8과 어휘·문법 범위 재구성 · -는데/(으)ㄴ데 · 밖에",
+      "sourceRef": "개정판 세종한국어 2B 8과 범위 재구성"
+    }
+  ]
+}

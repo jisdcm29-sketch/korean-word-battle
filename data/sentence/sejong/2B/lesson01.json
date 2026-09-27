@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 1,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 1과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "1과 핵심 문법 -(으)ㄹ래요? · -(으)ㄹ게요를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 2과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-01-V2-001",
+      "displaySentence": "이번 주 금요일에 동아리 모임 할래요?",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-001_card_0",
+          "이번"
+        ],
+        [
+          "SEJONG-2B-01-V2-001_card_1",
+          "주 금요일에"
+        ],
+        [
+          "SEJONG-2B-01-V2-001_card_2",
+          "동아리 모임"
+        ],
+        [
+          "SEJONG-2B-01-V2-001_card_3",
+          "할래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-001_card_0",
+          "SEJONG-2B-01-V2-001_card_1",
+          "SEJONG-2B-01-V2-001_card_2",
+          "SEJONG-2B-01-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-002",
+      "displaySentence": "저는 사진 동아리에 가입할래요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-002_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-2B-01-V2-002_card_1",
+          "사진"
+        ],
+        [
+          "SEJONG-2B-01-V2-002_card_2",
+          "동아리에"
+        ],
+        [
+          "SEJONG-2B-01-V2-002_card_3",
+          "가입할래요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-002_card_0",
+          "SEJONG-2B-01-V2-002_card_1",
+          "SEJONG-2B-01-V2-002_card_2",
+          "SEJONG-2B-01-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-003",
+      "displaySentence": "주말에 같이 영화 볼래요?",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-003_card_0",
+          "주말에"
+        ],
+        [
+          "SEJONG-2B-01-V2-003_card_1",
+          "같이"
+        ],
+        [
+          "SEJONG-2B-01-V2-003_card_2",
+          "영화"
+        ],
+        [
+          "SEJONG-2B-01-V2-003_card_3",
+          "볼래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-003_card_0",
+          "SEJONG-2B-01-V2-003_card_1",
+          "SEJONG-2B-01-V2-003_card_2",
+          "SEJONG-2B-01-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-004",
+      "displaySentence": "제가 모임 장소를 찾아볼게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-004_card_0",
+          "제가"
+        ],
+        [
+          "SEJONG-2B-01-V2-004_card_1",
+          "모임"
+        ],
+        [
+          "SEJONG-2B-01-V2-004_card_2",
+          "장소를"
+        ],
+        [
+          "SEJONG-2B-01-V2-004_card_3",
+          "찾아볼게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-004_card_0",
+          "SEJONG-2B-01-V2-004_card_1",
+          "SEJONG-2B-01-V2-004_card_2",
+          "SEJONG-2B-01-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-005",
+      "displaySentence": "제가 친구들에게 답장할게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-005_card_0",
+          "제"
+        ],
+        [
+          "SEJONG-2B-01-V2-005_card_1",
+          "가"
+        ],
+        [
+          "SEJONG-2B-01-V2-005_card_2",
+          "친구들에게"
+        ],
+        [
+          "SEJONG-2B-01-V2-005_card_3",
+          "답장할게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-005_card_0",
+          "SEJONG-2B-01-V2-005_card_1",
+          "SEJONG-2B-01-V2-005_card_2",
+          "SEJONG-2B-01-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-006",
+      "displaySentence": "잠깐 여기에서 기다릴래요?",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-006_card_0",
+          "잠깐"
+        ],
+        [
+          "SEJONG-2B-01-V2-006_card_1",
+          "여기"
+        ],
+        [
+          "SEJONG-2B-01-V2-006_card_2",
+          "에서"
+        ],
+        [
+          "SEJONG-2B-01-V2-006_card_3",
+          "기다릴래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-006_card_0",
+          "SEJONG-2B-01-V2-006_card_1",
+          "SEJONG-2B-01-V2-006_card_2",
+          "SEJONG-2B-01-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-007",
+      "displaySentence": "취향에 맞는 동아리를 결정할게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-007_card_0",
+          "취향에"
+        ],
+        [
+          "SEJONG-2B-01-V2-007_card_1",
+          "맞는"
+        ],
+        [
+          "SEJONG-2B-01-V2-007_card_2",
+          "동아리를"
+        ],
+        [
+          "SEJONG-2B-01-V2-007_card_3",
+          "결정할게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-007_card_0",
+          "SEJONG-2B-01-V2-007_card_1",
+          "SEJONG-2B-01-V2-007_card_2",
+          "SEJONG-2B-01-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-008",
+      "displaySentence": "저는 우표를 모을래요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-008_card_0",
+          "저"
+        ],
+        [
+          "SEJONG-2B-01-V2-008_card_1",
+          "는"
+        ],
+        [
+          "SEJONG-2B-01-V2-008_card_2",
+          "우표를"
+        ],
+        [
+          "SEJONG-2B-01-V2-008_card_3",
+          "모을래요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-008_card_0",
+          "SEJONG-2B-01-V2-008_card_1",
+          "SEJONG-2B-01-V2-008_card_2",
+          "SEJONG-2B-01-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-009",
+      "displaySentence": "오늘 저녁에 기타를 연습할래요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-009_card_0",
+          "오늘"
+        ],
+        [
+          "SEJONG-2B-01-V2-009_card_1",
+          "저녁에"
+        ],
+        [
+          "SEJONG-2B-01-V2-009_card_2",
+          "기타를"
+        ],
+        [
+          "SEJONG-2B-01-V2-009_card_3",
+          "연습할래요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-009_card_0",
+          "SEJONG-2B-01-V2-009_card_1",
+          "SEJONG-2B-01-V2-009_card_2",
+          "SEJONG-2B-01-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-010",
+      "displaySentence": "이번 주말은 가족과 시간을 보낼게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-010_card_0",
+          "이번"
+        ],
+        [
+          "SEJONG-2B-01-V2-010_card_1",
+          "주말은"
+        ],
+        [
+          "SEJONG-2B-01-V2-010_card_2",
+          "가족과"
+        ],
+        [
+          "SEJONG-2B-01-V2-010_card_3",
+          "시간을 보낼게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-010_card_0",
+          "SEJONG-2B-01-V2-010_card_1",
+          "SEJONG-2B-01-V2-010_card_2",
+          "SEJONG-2B-01-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-011",
+      "displaySentence": "이 책은 제가 빌려줄게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-011_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-01-V2-011_card_1",
+          "책은"
+        ],
+        [
+          "SEJONG-2B-01-V2-011_card_2",
+          "제가"
+        ],
+        [
+          "SEJONG-2B-01-V2-011_card_3",
+          "빌려줄게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-011_card_0",
+          "SEJONG-2B-01-V2-011_card_1",
+          "SEJONG-2B-01-V2-011_card_2",
+          "SEJONG-2B-01-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-012",
+      "displaySentence": "카드를 뒤집어서 확인할래요?",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-012_card_0",
+          "카드"
+        ],
+        [
+          "SEJONG-2B-01-V2-012_card_1",
+          "를"
+        ],
+        [
+          "SEJONG-2B-01-V2-012_card_2",
+          "뒤집어서"
+        ],
+        [
+          "SEJONG-2B-01-V2-012_card_3",
+          "확인할래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-012_card_0",
+          "SEJONG-2B-01-V2-012_card_1",
+          "SEJONG-2B-01-V2-012_card_2",
+          "SEJONG-2B-01-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-013",
+      "displaySentence": "세계 여행 동아리에 같이 가입할래요?",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-013_card_0",
+          "세계"
+        ],
+        [
+          "SEJONG-2B-01-V2-013_card_1",
+          "여행 동아리에"
+        ],
+        [
+          "SEJONG-2B-01-V2-013_card_2",
+          "같이"
+        ],
+        [
+          "SEJONG-2B-01-V2-013_card_3",
+          "가입할래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-013_card_0",
+          "SEJONG-2B-01-V2-013_card_1",
+          "SEJONG-2B-01-V2-013_card_2",
+          "SEJONG-2B-01-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-014",
+      "displaySentence": "정확한 시간을 제가 알아볼게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-014_card_0",
+          "정확한"
+        ],
+        [
+          "SEJONG-2B-01-V2-014_card_1",
+          "시간을"
+        ],
+        [
+          "SEJONG-2B-01-V2-014_card_2",
+          "제가"
+        ],
+        [
+          "SEJONG-2B-01-V2-014_card_3",
+          "알아볼게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-014_card_0",
+          "SEJONG-2B-01-V2-014_card_1",
+          "SEJONG-2B-01-V2-014_card_2",
+          "SEJONG-2B-01-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-015",
+      "displaySentence": "인기 있는 동아리를 먼저 찾아볼게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-015_card_0",
+          "인기"
+        ],
+        [
+          "SEJONG-2B-01-V2-015_card_1",
+          "있는 동아리를"
+        ],
+        [
+          "SEJONG-2B-01-V2-015_card_2",
+          "먼저"
+        ],
+        [
+          "SEJONG-2B-01-V2-015_card_3",
+          "찾아볼게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-015_card_0",
+          "SEJONG-2B-01-V2-015_card_1",
+          "SEJONG-2B-01-V2-015_card_2",
+          "SEJONG-2B-01-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-016",
+      "displaySentence": "모임 날짜는 금요일로 결정할게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-016_card_0",
+          "모임"
+        ],
+        [
+          "SEJONG-2B-01-V2-016_card_1",
+          "날짜는"
+        ],
+        [
+          "SEJONG-2B-01-V2-016_card_2",
+          "금요일로"
+        ],
+        [
+          "SEJONG-2B-01-V2-016_card_3",
+          "결정할게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-016_card_0",
+          "SEJONG-2B-01-V2-016_card_1",
+          "SEJONG-2B-01-V2-016_card_2",
+          "SEJONG-2B-01-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-017",
+      "displaySentence": "저는 친구에게 먼저 답장할게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-017_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-2B-01-V2-017_card_1",
+          "친구에게"
+        ],
+        [
+          "SEJONG-2B-01-V2-017_card_2",
+          "먼저"
+        ],
+        [
+          "SEJONG-2B-01-V2-017_card_3",
+          "답장할게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-017_card_0",
+          "SEJONG-2B-01-V2-017_card_1",
+          "SEJONG-2B-01-V2-017_card_2",
+          "SEJONG-2B-01-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-018",
+      "displaySentence": "주말에 사진을 같이 찍을래요?",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-018_card_0",
+          "주말에"
+        ],
+        [
+          "SEJONG-2B-01-V2-018_card_1",
+          "사진을"
+        ],
+        [
+          "SEJONG-2B-01-V2-018_card_2",
+          "같이"
+        ],
+        [
+          "SEJONG-2B-01-V2-018_card_3",
+          "찍을래요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-018_card_0",
+          "SEJONG-2B-01-V2-018_card_1",
+          "SEJONG-2B-01-V2-018_card_2",
+          "SEJONG-2B-01-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-019",
+      "displaySentence": "동아리에서 한국어를 연습할래요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-019_card_0",
+          "동아리"
+        ],
+        [
+          "SEJONG-2B-01-V2-019_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2B-01-V2-019_card_2",
+          "한국어를"
+        ],
+        [
+          "SEJONG-2B-01-V2-019_card_3",
+          "연습할래요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-019_card_0",
+          "SEJONG-2B-01-V2-019_card_1",
+          "SEJONG-2B-01-V2-019_card_2",
+          "SEJONG-2B-01-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-01-V2-020",
+      "displaySentence": "저는 이번 모임에 꼭 갈게요.",
+      "tokens": [
+        [
+          "SEJONG-2B-01-V2-020_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-2B-01-V2-020_card_1",
+          "이번"
+        ],
+        [
+          "SEJONG-2B-01-V2-020_card_2",
+          "모임에"
+        ],
+        [
+          "SEJONG-2B-01-V2-020_card_3",
+          "꼭 갈게요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-01-V2-020_card_0",
+          "SEJONG-2B-01-V2-020_card_1",
+          "SEJONG-2B-01-V2-020_card_2",
+          "SEJONG-2B-01-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 1과 어휘·문법 범위 재구성 · -(으)ㄹ래요? · -(으)ㄹ게요",
+      "sourceRef": "개정판 세종한국어 2B 1과 범위 재구성"
+    }
+  ]
+}

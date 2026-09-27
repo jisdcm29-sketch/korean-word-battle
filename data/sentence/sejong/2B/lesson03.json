@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 3,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 3과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "3과 핵심 문법 -(으)시- · 에게만/에게도를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 4과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-03-V2-001",
+      "displaySentence": "이 목걸이는 할머니께서 직접 만드셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-001_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-03-V2-001_card_1",
+          "목걸이는"
+        ],
+        [
+          "SEJONG-2B-03-V2-001_card_2",
+          "할머니께서"
+        ],
+        [
+          "SEJONG-2B-03-V2-001_card_3",
+          "직접 만드셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-001_card_0",
+          "SEJONG-2B-03-V2-001_card_1",
+          "SEJONG-2B-03-V2-001_card_2",
+          "SEJONG-2B-03-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-002",
+      "displaySentence": "할아버지께서 선물을 주셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-002_card_0",
+          "할아버지"
+        ],
+        [
+          "SEJONG-2B-03-V2-002_card_1",
+          "께서"
+        ],
+        [
+          "SEJONG-2B-03-V2-002_card_2",
+          "선물을"
+        ],
+        [
+          "SEJONG-2B-03-V2-002_card_3",
+          "주셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-002_card_0",
+          "SEJONG-2B-03-V2-002_card_1",
+          "SEJONG-2B-03-V2-002_card_2",
+          "SEJONG-2B-03-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-003",
+      "displaySentence": "선생님께 향수를 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-003_card_0",
+          "선생님"
+        ],
+        [
+          "SEJONG-2B-03-V2-003_card_1",
+          "께"
+        ],
+        [
+          "SEJONG-2B-03-V2-003_card_2",
+          "향수를"
+        ],
+        [
+          "SEJONG-2B-03-V2-003_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-003_card_0",
+          "SEJONG-2B-03-V2-003_card_1",
+          "SEJONG-2B-03-V2-003_card_2",
+          "SEJONG-2B-03-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-004",
+      "displaySentence": "할머니께만 이 사진을 보여 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-004_card_0",
+          "할머니께만"
+        ],
+        [
+          "SEJONG-2B-03-V2-004_card_1",
+          "이"
+        ],
+        [
+          "SEJONG-2B-03-V2-004_card_2",
+          "사진을"
+        ],
+        [
+          "SEJONG-2B-03-V2-004_card_3",
+          "보여 드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-004_card_0",
+          "SEJONG-2B-03-V2-004_card_1",
+          "SEJONG-2B-03-V2-004_card_2",
+          "SEJONG-2B-03-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-005",
+      "displaySentence": "친구에게도 선물을 줬어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-005_card_0",
+          "친구"
+        ],
+        [
+          "SEJONG-2B-03-V2-005_card_1",
+          "에게도"
+        ],
+        [
+          "SEJONG-2B-03-V2-005_card_2",
+          "선물을"
+        ],
+        [
+          "SEJONG-2B-03-V2-005_card_3",
+          "줬어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-005_card_0",
+          "SEJONG-2B-03-V2-005_card_1",
+          "SEJONG-2B-03-V2-005_card_2",
+          "SEJONG-2B-03-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-006",
+      "displaySentence": "어머니께 분홍색 목걸이를 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-006_card_0",
+          "어머니께"
+        ],
+        [
+          "SEJONG-2B-03-V2-006_card_1",
+          "분홍색"
+        ],
+        [
+          "SEJONG-2B-03-V2-006_card_2",
+          "목걸이를"
+        ],
+        [
+          "SEJONG-2B-03-V2-006_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-006_card_0",
+          "SEJONG-2B-03-V2-006_card_1",
+          "SEJONG-2B-03-V2-006_card_2",
+          "SEJONG-2B-03-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-007",
+      "displaySentence": "아버지께서 포장을 푸셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-007_card_0",
+          "아버지"
+        ],
+        [
+          "SEJONG-2B-03-V2-007_card_1",
+          "께서"
+        ],
+        [
+          "SEJONG-2B-03-V2-007_card_2",
+          "포장을"
+        ],
+        [
+          "SEJONG-2B-03-V2-007_card_3",
+          "푸셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-007_card_0",
+          "SEJONG-2B-03-V2-007_card_1",
+          "SEJONG-2B-03-V2-007_card_2",
+          "SEJONG-2B-03-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-008",
+      "displaySentence": "선생님께서 상자에서 노트북을 꺼내셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-008_card_0",
+          "선생님께서"
+        ],
+        [
+          "SEJONG-2B-03-V2-008_card_1",
+          "상자에서"
+        ],
+        [
+          "SEJONG-2B-03-V2-008_card_2",
+          "노트북을"
+        ],
+        [
+          "SEJONG-2B-03-V2-008_card_3",
+          "꺼내셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-008_card_0",
+          "SEJONG-2B-03-V2-008_card_1",
+          "SEJONG-2B-03-V2-008_card_2",
+          "SEJONG-2B-03-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-009",
+      "displaySentence": "할머니께서 하늘색 옷을 좋아하세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-009_card_0",
+          "할머니께서"
+        ],
+        [
+          "SEJONG-2B-03-V2-009_card_1",
+          "하늘색"
+        ],
+        [
+          "SEJONG-2B-03-V2-009_card_2",
+          "옷을"
+        ],
+        [
+          "SEJONG-2B-03-V2-009_card_3",
+          "좋아하세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-009_card_0",
+          "SEJONG-2B-03-V2-009_card_1",
+          "SEJONG-2B-03-V2-009_card_2",
+          "SEJONG-2B-03-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-010",
+      "displaySentence": "할아버지께 홍삼을 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-010_card_0",
+          "할아버지"
+        ],
+        [
+          "SEJONG-2B-03-V2-010_card_1",
+          "께"
+        ],
+        [
+          "SEJONG-2B-03-V2-010_card_2",
+          "홍삼을"
+        ],
+        [
+          "SEJONG-2B-03-V2-010_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-010_card_0",
+          "SEJONG-2B-03-V2-010_card_1",
+          "SEJONG-2B-03-V2-010_card_2",
+          "SEJONG-2B-03-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-011",
+      "displaySentence": "이 선물은 저에게도 소중해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-011_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-03-V2-011_card_1",
+          "선물은"
+        ],
+        [
+          "SEJONG-2B-03-V2-011_card_2",
+          "저에게도"
+        ],
+        [
+          "SEJONG-2B-03-V2-011_card_3",
+          "소중해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-011_card_0",
+          "SEJONG-2B-03-V2-011_card_1",
+          "SEJONG-2B-03-V2-011_card_2",
+          "SEJONG-2B-03-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-012",
+      "displaySentence": "그때 추억이 갑자기 생각났어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-012_card_0",
+          "그때"
+        ],
+        [
+          "SEJONG-2B-03-V2-012_card_1",
+          "추억이"
+        ],
+        [
+          "SEJONG-2B-03-V2-012_card_2",
+          "갑자기"
+        ],
+        [
+          "SEJONG-2B-03-V2-012_card_3",
+          "생각났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-012_card_0",
+          "SEJONG-2B-03-V2-012_card_1",
+          "SEJONG-2B-03-V2-012_card_2",
+          "SEJONG-2B-03-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-013",
+      "displaySentence": "취직하신 형에게 선물을 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-013_card_0",
+          "취직하신"
+        ],
+        [
+          "SEJONG-2B-03-V2-013_card_1",
+          "형에게"
+        ],
+        [
+          "SEJONG-2B-03-V2-013_card_2",
+          "선물을"
+        ],
+        [
+          "SEJONG-2B-03-V2-013_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-013_card_0",
+          "SEJONG-2B-03-V2-013_card_1",
+          "SEJONG-2B-03-V2-013_card_2",
+          "SEJONG-2B-03-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-014",
+      "displaySentence": "수학 선생님께서 문제를 설명하셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-014_card_0",
+          "수학"
+        ],
+        [
+          "SEJONG-2B-03-V2-014_card_1",
+          "선생님께서"
+        ],
+        [
+          "SEJONG-2B-03-V2-014_card_2",
+          "문제를"
+        ],
+        [
+          "SEJONG-2B-03-V2-014_card_3",
+          "설명하셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-014_card_0",
+          "SEJONG-2B-03-V2-014_card_1",
+          "SEJONG-2B-03-V2-014_card_2",
+          "SEJONG-2B-03-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-015",
+      "displaySentence": "이 사진은 기억에 오래 남아요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-015_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-03-V2-015_card_1",
+          "사진은"
+        ],
+        [
+          "SEJONG-2B-03-V2-015_card_2",
+          "기억에"
+        ],
+        [
+          "SEJONG-2B-03-V2-015_card_3",
+          "오래 남아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-015_card_0",
+          "SEJONG-2B-03-V2-015_card_1",
+          "SEJONG-2B-03-V2-015_card_2",
+          "SEJONG-2B-03-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-016",
+      "displaySentence": "할머니께서 게임에서 이기셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-016_card_0",
+          "할머니"
+        ],
+        [
+          "SEJONG-2B-03-V2-016_card_1",
+          "께서"
+        ],
+        [
+          "SEJONG-2B-03-V2-016_card_2",
+          "게임에서"
+        ],
+        [
+          "SEJONG-2B-03-V2-016_card_3",
+          "이기셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-016_card_0",
+          "SEJONG-2B-03-V2-016_card_1",
+          "SEJONG-2B-03-V2-016_card_2",
+          "SEJONG-2B-03-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-017",
+      "displaySentence": "어머니께만 새 소식을 말씀드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-017_card_0",
+          "어머니께만"
+        ],
+        [
+          "SEJONG-2B-03-V2-017_card_1",
+          "새"
+        ],
+        [
+          "SEJONG-2B-03-V2-017_card_2",
+          "소식을"
+        ],
+        [
+          "SEJONG-2B-03-V2-017_card_3",
+          "말씀드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-017_card_0",
+          "SEJONG-2B-03-V2-017_card_1",
+          "SEJONG-2B-03-V2-017_card_2",
+          "SEJONG-2B-03-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-018",
+      "displaySentence": "선생님께도 감사 인사를 드렸어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-018_card_0",
+          "선생님께도"
+        ],
+        [
+          "SEJONG-2B-03-V2-018_card_1",
+          "감사"
+        ],
+        [
+          "SEJONG-2B-03-V2-018_card_2",
+          "인사를"
+        ],
+        [
+          "SEJONG-2B-03-V2-018_card_3",
+          "드렸어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-018_card_0",
+          "SEJONG-2B-03-V2-018_card_1",
+          "SEJONG-2B-03-V2-018_card_2",
+          "SEJONG-2B-03-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-019",
+      "displaySentence": "할머니께서 새로 만드신 목걸이를 저에게도 주셨어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-019_card_0",
+          "할머니께서 새로 만드신"
+        ],
+        [
+          "SEJONG-2B-03-V2-019_card_1",
+          "목걸이를"
+        ],
+        [
+          "SEJONG-2B-03-V2-019_card_2",
+          "저에게도"
+        ],
+        [
+          "SEJONG-2B-03-V2-019_card_3",
+          "주셨어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-019_card_0",
+          "SEJONG-2B-03-V2-019_card_1",
+          "SEJONG-2B-03-V2-019_card_2",
+          "SEJONG-2B-03-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-03-V2-020",
+      "displaySentence": "포장을 풀고 선물을 꺼내 보세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-03-V2-020_card_0",
+          "포장을"
+        ],
+        [
+          "SEJONG-2B-03-V2-020_card_1",
+          "풀고"
+        ],
+        [
+          "SEJONG-2B-03-V2-020_card_2",
+          "선물을"
+        ],
+        [
+          "SEJONG-2B-03-V2-020_card_3",
+          "꺼내 보세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-03-V2-020_card_0",
+          "SEJONG-2B-03-V2-020_card_1",
+          "SEJONG-2B-03-V2-020_card_2",
+          "SEJONG-2B-03-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 3과 어휘·문법 범위 재구성 · -(으)시- · 에게만/에게도",
+      "sourceRef": "개정판 세종한국어 2B 3과 범위 재구성"
+    }
+  ]
+}

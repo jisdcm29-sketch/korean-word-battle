@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 9,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 9과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "9과 핵심 문법 -기 때문에 · -는데요/(으)ㄴ데요를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 10과 이후 핵심 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-09-V2-001",
+      "displaySentence": "비가 많이 오기 때문에 오늘은 집에 있어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-001_card_0",
+          "비가"
+        ],
+        [
+          "SEJONG-2B-09-V2-001_card_1",
+          "많이 오기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-001_card_2",
+          "오늘은"
+        ],
+        [
+          "SEJONG-2B-09-V2-001_card_3",
+          "집에 있어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-001_card_0",
+          "SEJONG-2B-09-V2-001_card_1",
+          "SEJONG-2B-09-V2-001_card_2",
+          "SEJONG-2B-09-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-002",
+      "displaySentence": "말이 잘 통하기 때문에 그 친구를 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-002_card_0",
+          "말이"
+        ],
+        [
+          "SEJONG-2B-09-V2-002_card_1",
+          "잘 통하기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-002_card_2",
+          "그 친구를"
+        ],
+        [
+          "SEJONG-2B-09-V2-002_card_3",
+          "좋아해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-002_card_0",
+          "SEJONG-2B-09-V2-002_card_1",
+          "SEJONG-2B-09-V2-002_card_2",
+          "SEJONG-2B-09-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-003",
+      "displaySentence": "마음이 따뜻한데요 사람들도 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-003_card_0",
+          "마음이"
+        ],
+        [
+          "SEJONG-2B-09-V2-003_card_1",
+          "따뜻한데요"
+        ],
+        [
+          "SEJONG-2B-09-V2-003_card_2",
+          "사람들도"
+        ],
+        [
+          "SEJONG-2B-09-V2-003_card_3",
+          "좋아해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-003_card_0",
+          "SEJONG-2B-09-V2-003_card_1",
+          "SEJONG-2B-09-V2-003_card_2",
+          "SEJONG-2B-09-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-004",
+      "displaySentence": "저도 그런 사람을 만나고 싶은데요!",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-004_card_0",
+          "저도"
+        ],
+        [
+          "SEJONG-2B-09-V2-004_card_1",
+          "그런 사람을"
+        ],
+        [
+          "SEJONG-2B-09-V2-004_card_2",
+          "만나고"
+        ],
+        [
+          "SEJONG-2B-09-V2-004_card_3",
+          "싶은데요!"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-004_card_0",
+          "SEJONG-2B-09-V2-004_card_1",
+          "SEJONG-2B-09-V2-004_card_2",
+          "SEJONG-2B-09-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-005",
+      "displaySentence": "알람 시계가 고장 났기 때문에 늦게 일어났어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-005_card_0",
+          "알람"
+        ],
+        [
+          "SEJONG-2B-09-V2-005_card_1",
+          "시계가 고장 났기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-005_card_2",
+          "늦게"
+        ],
+        [
+          "SEJONG-2B-09-V2-005_card_3",
+          "일어났어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-005_card_0",
+          "SEJONG-2B-09-V2-005_card_1",
+          "SEJONG-2B-09-V2-005_card_2",
+          "SEJONG-2B-09-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-006",
+      "displaySentence": "기숙사가 멀기 때문에 버스를 타요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-006_card_0",
+          "기숙사가"
+        ],
+        [
+          "SEJONG-2B-09-V2-006_card_1",
+          "멀기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-006_card_2",
+          "버스를"
+        ],
+        [
+          "SEJONG-2B-09-V2-006_card_3",
+          "타요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-006_card_0",
+          "SEJONG-2B-09-V2-006_card_1",
+          "SEJONG-2B-09-V2-006_card_2",
+          "SEJONG-2B-09-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-007",
+      "displaySentence": "발음이 어렵기 때문에 매일 연습해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-007_card_0",
+          "발음이"
+        ],
+        [
+          "SEJONG-2B-09-V2-007_card_1",
+          "어렵기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-007_card_2",
+          "매일"
+        ],
+        [
+          "SEJONG-2B-09-V2-007_card_3",
+          "연습해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-007_card_0",
+          "SEJONG-2B-09-V2-007_card_1",
+          "SEJONG-2B-09-V2-007_card_2",
+          "SEJONG-2B-09-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-008",
+      "displaySentence": "친구와 싸웠는데요 먼저 사과할 거예요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-008_card_0",
+          "친구와"
+        ],
+        [
+          "SEJONG-2B-09-V2-008_card_1",
+          "싸웠는데요"
+        ],
+        [
+          "SEJONG-2B-09-V2-008_card_2",
+          "먼저"
+        ],
+        [
+          "SEJONG-2B-09-V2-008_card_3",
+          "사과할 거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-008_card_0",
+          "SEJONG-2B-09-V2-008_card_1",
+          "SEJONG-2B-09-V2-008_card_2",
+          "SEJONG-2B-09-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-009",
+      "displaySentence": "유학생이기 때문에 한국 문화가 궁금해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-009_card_0",
+          "유학생이기"
+        ],
+        [
+          "SEJONG-2B-09-V2-009_card_1",
+          "때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-009_card_2",
+          "한국 문화가"
+        ],
+        [
+          "SEJONG-2B-09-V2-009_card_3",
+          "궁금해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-009_card_0",
+          "SEJONG-2B-09-V2-009_card_1",
+          "SEJONG-2B-09-V2-009_card_2",
+          "SEJONG-2B-09-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-010",
+      "displaySentence": "제가 먼저 말을 걸었기 때문에 금방 친해졌어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-010_card_0",
+          "제가"
+        ],
+        [
+          "SEJONG-2B-09-V2-010_card_1",
+          "먼저 말을 걸었기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-010_card_2",
+          "금방"
+        ],
+        [
+          "SEJONG-2B-09-V2-010_card_3",
+          "친해졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-010_card_0",
+          "SEJONG-2B-09-V2-010_card_1",
+          "SEJONG-2B-09-V2-010_card_2",
+          "SEJONG-2B-09-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-011",
+      "displaySentence": "평소에 운동하기 때문에 건강한 편이에요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-011_card_0",
+          "평소에"
+        ],
+        [
+          "SEJONG-2B-09-V2-011_card_1",
+          "운동하기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-011_card_2",
+          "건강한"
+        ],
+        [
+          "SEJONG-2B-09-V2-011_card_3",
+          "편이에요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-011_card_0",
+          "SEJONG-2B-09-V2-011_card_1",
+          "SEJONG-2B-09-V2-011_card_2",
+          "SEJONG-2B-09-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-012",
+      "displaySentence": "배낭여행을 좋아하는데요 올해도 갈 거예요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-012_card_0",
+          "배낭여행을"
+        ],
+        [
+          "SEJONG-2B-09-V2-012_card_1",
+          "좋아하는데요"
+        ],
+        [
+          "SEJONG-2B-09-V2-012_card_2",
+          "올해도"
+        ],
+        [
+          "SEJONG-2B-09-V2-012_card_3",
+          "갈 거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-012_card_0",
+          "SEJONG-2B-09-V2-012_card_1",
+          "SEJONG-2B-09-V2-012_card_2",
+          "SEJONG-2B-09-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-013",
+      "displaySentence": "마라톤을 준비하기 때문에 매일 달려요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-013_card_0",
+          "마라톤을"
+        ],
+        [
+          "SEJONG-2B-09-V2-013_card_1",
+          "준비하기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-013_card_2",
+          "매일"
+        ],
+        [
+          "SEJONG-2B-09-V2-013_card_3",
+          "달려요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-013_card_0",
+          "SEJONG-2B-09-V2-013_card_1",
+          "SEJONG-2B-09-V2-013_card_2",
+          "SEJONG-2B-09-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-014",
+      "displaySentence": "팔로워가 적기 때문에 게시물을 더 올릴 거예요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-014_card_0",
+          "팔로워가"
+        ],
+        [
+          "SEJONG-2B-09-V2-014_card_1",
+          "적기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-014_card_2",
+          "게시물을"
+        ],
+        [
+          "SEJONG-2B-09-V2-014_card_3",
+          "더 올릴 거예요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-014_card_0",
+          "SEJONG-2B-09-V2-014_card_1",
+          "SEJONG-2B-09-V2-014_card_2",
+          "SEJONG-2B-09-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-015",
+      "displaySentence": "생각이 깊은 사람인데요 말도 잘 통해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-015_card_0",
+          "생각이"
+        ],
+        [
+          "SEJONG-2B-09-V2-015_card_1",
+          "깊은 사람인데요"
+        ],
+        [
+          "SEJONG-2B-09-V2-015_card_2",
+          "말도"
+        ],
+        [
+          "SEJONG-2B-09-V2-015_card_3",
+          "잘 통해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-015_card_0",
+          "SEJONG-2B-09-V2-015_card_1",
+          "SEJONG-2B-09-V2-015_card_2",
+          "SEJONG-2B-09-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-016",
+      "displaySentence": "마음이 잘 맞기 때문에 자주 만나요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-016_card_0",
+          "마음이"
+        ],
+        [
+          "SEJONG-2B-09-V2-016_card_1",
+          "잘 맞기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-016_card_2",
+          "자주"
+        ],
+        [
+          "SEJONG-2B-09-V2-016_card_3",
+          "만나요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-016_card_0",
+          "SEJONG-2B-09-V2-016_card_1",
+          "SEJONG-2B-09-V2-016_card_2",
+          "SEJONG-2B-09-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-017",
+      "displaySentence": "하늘이 맑은데요 밖에 나갈까요?",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-017_card_0",
+          "하늘이"
+        ],
+        [
+          "SEJONG-2B-09-V2-017_card_1",
+          "맑은데요"
+        ],
+        [
+          "SEJONG-2B-09-V2-017_card_2",
+          "밖에"
+        ],
+        [
+          "SEJONG-2B-09-V2-017_card_3",
+          "나갈까요?"
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-017_card_0",
+          "SEJONG-2B-09-V2-017_card_1",
+          "SEJONG-2B-09-V2-017_card_2",
+          "SEJONG-2B-09-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-018",
+      "displaySentence": "친구가 강아지를 데려왔기 때문에 기숙사가 시끄러워요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-018_card_0",
+          "친구가"
+        ],
+        [
+          "SEJONG-2B-09-V2-018_card_1",
+          "강아지를 데려왔기 때문에"
+        ],
+        [
+          "SEJONG-2B-09-V2-018_card_2",
+          "기숙사가"
+        ],
+        [
+          "SEJONG-2B-09-V2-018_card_3",
+          "시끄러워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-018_card_0",
+          "SEJONG-2B-09-V2-018_card_1",
+          "SEJONG-2B-09-V2-018_card_2",
+          "SEJONG-2B-09-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-019",
+      "displaySentence": "이 답이 맞는 것 같은데요 한번 확인해 주세요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-019_card_0",
+          "이"
+        ],
+        [
+          "SEJONG-2B-09-V2-019_card_1",
+          "답이 맞는 것 같은데요"
+        ],
+        [
+          "SEJONG-2B-09-V2-019_card_2",
+          "한번"
+        ],
+        [
+          "SEJONG-2B-09-V2-019_card_3",
+          "확인해 주세요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-019_card_0",
+          "SEJONG-2B-09-V2-019_card_1",
+          "SEJONG-2B-09-V2-019_card_2",
+          "SEJONG-2B-09-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-09-V2-020",
+      "displaySentence": "고장 난 이후로 이 알람 시계를 안 써요.",
+      "tokens": [
+        [
+          "SEJONG-2B-09-V2-020_card_0",
+          "고장"
+        ],
+        [
+          "SEJONG-2B-09-V2-020_card_1",
+          "난 이후로"
+        ],
+        [
+          "SEJONG-2B-09-V2-020_card_2",
+          "이 알람 시계를"
+        ],
+        [
+          "SEJONG-2B-09-V2-020_card_3",
+          "안 써요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-09-V2-020_card_0",
+          "SEJONG-2B-09-V2-020_card_1",
+          "SEJONG-2B-09-V2-020_card_2",
+          "SEJONG-2B-09-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 9과 어휘·문법 범위 재구성 · -기 때문에 · -는데요/(으)ㄴ데요",
+      "sourceRef": "개정판 세종한국어 2B 9과 범위 재구성"
+    }
+  ]
+}

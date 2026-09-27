@@ -1,0 +1,658 @@
+{
+  "book": "2B",
+  "lesson": 12,
+  "textbook": "SEJONG_REVISED",
+  "dataRevision": 2,
+  "source": "개정판 세종한국어 익힘책 2B + 어휘 문법과 표현 2B + 더하기 활동 2B의 12과 범위를 바탕으로 게임용 문장 재구성",
+  "selectionPolicy": [
+    "12과 핵심 문법 처럼 · -게 되다를 중심으로 구성",
+    "공통 어휘는 어휘·문법과 표현 공식 어휘표와 더하기 활동 해당 과 하단 새 어휘를 합쳐 사용",
+    "2A까지 학습한 문법과 2B 이전 과 문법은 누적 활용 가능",
+    "2B 이후 단계 문법은 미리 사용하지 않음",
+    "문장 앞 접속사·간투사·단순 네/아니요 응답은 제외",
+    "4~8카드 문장 완성형을 우선하고 단순 반복을 피함"
+  ],
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "SEJONG-2B-12-V2-001",
+      "displaySentence": "저는 엄마처럼 따뜻한 사람이 되고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-001_card_0",
+          "저는"
+        ],
+        [
+          "SEJONG-2B-12-V2-001_card_1",
+          "엄마처럼"
+        ],
+        [
+          "SEJONG-2B-12-V2-001_card_2",
+          "따뜻한"
+        ],
+        [
+          "SEJONG-2B-12-V2-001_card_3",
+          "사람이 되고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-001_card_0",
+          "SEJONG-2B-12-V2-001_card_1",
+          "SEJONG-2B-12-V2-001_card_2",
+          "SEJONG-2B-12-V2-001_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-002",
+      "displaySentence": "한국에서 유학하게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-002_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-2B-12-V2-002_card_1",
+          "에서"
+        ],
+        [
+          "SEJONG-2B-12-V2-002_card_2",
+          "유학하게"
+        ],
+        [
+          "SEJONG-2B-12-V2-002_card_3",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-002_card_0",
+          "SEJONG-2B-12-V2-002_card_1",
+          "SEJONG-2B-12-V2-002_card_2",
+          "SEJONG-2B-12-V2-002_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-003",
+      "displaySentence": "내년에 대학원에 진학하게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-003_card_0",
+          "내년에"
+        ],
+        [
+          "SEJONG-2B-12-V2-003_card_1",
+          "대학원에"
+        ],
+        [
+          "SEJONG-2B-12-V2-003_card_2",
+          "진학하게"
+        ],
+        [
+          "SEJONG-2B-12-V2-003_card_3",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-003_card_0",
+          "SEJONG-2B-12-V2-003_card_1",
+          "SEJONG-2B-12-V2-003_card_2",
+          "SEJONG-2B-12-V2-003_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-004",
+      "displaySentence": "친구처럼 세계 여행을 하고 싶어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-004_card_0",
+          "친구처럼"
+        ],
+        [
+          "SEJONG-2B-12-V2-004_card_1",
+          "세계"
+        ],
+        [
+          "SEJONG-2B-12-V2-004_card_2",
+          "여행을"
+        ],
+        [
+          "SEJONG-2B-12-V2-004_card_3",
+          "하고 싶어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-004_card_0",
+          "SEJONG-2B-12-V2-004_card_1",
+          "SEJONG-2B-12-V2-004_card_2",
+          "SEJONG-2B-12-V2-004_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-005",
+      "displaySentence": "한국 문화를 배우면서 생각도 달라지게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-005_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-2B-12-V2-005_card_1",
+          "문화를 배우면서"
+        ],
+        [
+          "SEJONG-2B-12-V2-005_card_2",
+          "생각도"
+        ],
+        [
+          "SEJONG-2B-12-V2-005_card_3",
+          "달라지게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-005_card_0",
+          "SEJONG-2B-12-V2-005_card_1",
+          "SEJONG-2B-12-V2-005_card_2",
+          "SEJONG-2B-12-V2-005_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-006",
+      "displaySentence": "운동을 시작해서 건강을 관리하게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-006_card_0",
+          "운동을"
+        ],
+        [
+          "SEJONG-2B-12-V2-006_card_1",
+          "시작해서"
+        ],
+        [
+          "SEJONG-2B-12-V2-006_card_2",
+          "건강을"
+        ],
+        [
+          "SEJONG-2B-12-V2-006_card_3",
+          "관리하게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-006_card_0",
+          "SEJONG-2B-12-V2-006_card_1",
+          "SEJONG-2B-12-V2-006_card_2",
+          "SEJONG-2B-12-V2-006_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-007",
+      "displaySentence": "자막 없이 영화를 보게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-007_card_0",
+          "자막"
+        ],
+        [
+          "SEJONG-2B-12-V2-007_card_1",
+          "없이"
+        ],
+        [
+          "SEJONG-2B-12-V2-007_card_2",
+          "영화를"
+        ],
+        [
+          "SEJONG-2B-12-V2-007_card_3",
+          "보게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-007_card_0",
+          "SEJONG-2B-12-V2-007_card_1",
+          "SEJONG-2B-12-V2-007_card_2",
+          "SEJONG-2B-12-V2-007_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-008",
+      "displaySentence": "탁구를 배우면서 친구를 많이 사귀게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-008_card_0",
+          "탁구를"
+        ],
+        [
+          "SEJONG-2B-12-V2-008_card_1",
+          "배우면서"
+        ],
+        [
+          "SEJONG-2B-12-V2-008_card_2",
+          "친구를"
+        ],
+        [
+          "SEJONG-2B-12-V2-008_card_3",
+          "많이 사귀게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-008_card_0",
+          "SEJONG-2B-12-V2-008_card_1",
+          "SEJONG-2B-12-V2-008_card_2",
+          "SEJONG-2B-12-V2-008_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-009",
+      "displaySentence": "바이올린처럼 첼로도 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-009_card_0",
+          "바이올린"
+        ],
+        [
+          "SEJONG-2B-12-V2-009_card_1",
+          "처럼"
+        ],
+        [
+          "SEJONG-2B-12-V2-009_card_2",
+          "첼로도"
+        ],
+        [
+          "SEJONG-2B-12-V2-009_card_3",
+          "좋아해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-009_card_0",
+          "SEJONG-2B-12-V2-009_card_1",
+          "SEJONG-2B-12-V2-009_card_2",
+          "SEJONG-2B-12-V2-009_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-010",
+      "displaySentence": "첫날부터 플루트를 배우게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-010_card_0",
+          "첫날부터"
+        ],
+        [
+          "SEJONG-2B-12-V2-010_card_1",
+          "플루트를"
+        ],
+        [
+          "SEJONG-2B-12-V2-010_card_2",
+          "배우게"
+        ],
+        [
+          "SEJONG-2B-12-V2-010_card_3",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-010_card_0",
+          "SEJONG-2B-12-V2-010_card_1",
+          "SEJONG-2B-12-V2-010_card_2",
+          "SEJONG-2B-12-V2-010_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-011",
+      "displaySentence": "친구와 추억을 나누게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-011_card_0",
+          "친구와"
+        ],
+        [
+          "SEJONG-2B-12-V2-011_card_1",
+          "추억을"
+        ],
+        [
+          "SEJONG-2B-12-V2-011_card_2",
+          "나누게"
+        ],
+        [
+          "SEJONG-2B-12-V2-011_card_3",
+          "됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-011_card_0",
+          "SEJONG-2B-12-V2-011_card_1",
+          "SEJONG-2B-12-V2-011_card_2",
+          "SEJONG-2B-12-V2-011_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-012",
+      "displaySentence": "매달 미래를 위해 저축하게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-012_card_0",
+          "매달"
+        ],
+        [
+          "SEJONG-2B-12-V2-012_card_1",
+          "미래를"
+        ],
+        [
+          "SEJONG-2B-12-V2-012_card_2",
+          "위해"
+        ],
+        [
+          "SEJONG-2B-12-V2-012_card_3",
+          "저축하게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-012_card_0",
+          "SEJONG-2B-12-V2-012_card_1",
+          "SEJONG-2B-12-V2-012_card_2",
+          "SEJONG-2B-12-V2-012_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-013",
+      "displaySentence": "토끼처럼 귀여운 동물을 좋아해요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-013_card_0",
+          "토끼처럼"
+        ],
+        [
+          "SEJONG-2B-12-V2-013_card_1",
+          "귀여운"
+        ],
+        [
+          "SEJONG-2B-12-V2-013_card_2",
+          "동물을"
+        ],
+        [
+          "SEJONG-2B-12-V2-013_card_3",
+          "좋아해요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-013_card_0",
+          "SEJONG-2B-12-V2-013_card_1",
+          "SEJONG-2B-12-V2-013_card_2",
+          "SEJONG-2B-12-V2-013_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-014",
+      "displaySentence": "여러 문화를 만나면서 생각이 자유로워지게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-014_card_0",
+          "여러"
+        ],
+        [
+          "SEJONG-2B-12-V2-014_card_1",
+          "문화를 만나면서"
+        ],
+        [
+          "SEJONG-2B-12-V2-014_card_2",
+          "생각이"
+        ],
+        [
+          "SEJONG-2B-12-V2-014_card_3",
+          "자유로워지게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-014_card_0",
+          "SEJONG-2B-12-V2-014_card_1",
+          "SEJONG-2B-12-V2-014_card_2",
+          "SEJONG-2B-12-V2-014_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-015",
+      "displaySentence": "전시회에서 다양한 작품을 보게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-015_card_0",
+          "전시회에서"
+        ],
+        [
+          "SEJONG-2B-12-V2-015_card_1",
+          "다양한"
+        ],
+        [
+          "SEJONG-2B-12-V2-015_card_2",
+          "작품을"
+        ],
+        [
+          "SEJONG-2B-12-V2-015_card_3",
+          "보게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-015_card_0",
+          "SEJONG-2B-12-V2-015_card_1",
+          "SEJONG-2B-12-V2-015_card_2",
+          "SEJONG-2B-12-V2-015_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-016",
+      "displaySentence": "운동을 계속하면서 건강을 유지하게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-016_card_0",
+          "운동을"
+        ],
+        [
+          "SEJONG-2B-12-V2-016_card_1",
+          "계속하면서"
+        ],
+        [
+          "SEJONG-2B-12-V2-016_card_2",
+          "건강을"
+        ],
+        [
+          "SEJONG-2B-12-V2-016_card_3",
+          "유지하게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-016_card_0",
+          "SEJONG-2B-12-V2-016_card_1",
+          "SEJONG-2B-12-V2-016_card_2",
+          "SEJONG-2B-12-V2-016_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-017",
+      "displaySentence": "스무 대가 되면서 생활도 많이 달라졌어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-017_card_0",
+          "스무"
+        ],
+        [
+          "SEJONG-2B-12-V2-017_card_1",
+          "대가 되면서"
+        ],
+        [
+          "SEJONG-2B-12-V2-017_card_2",
+          "생활도"
+        ],
+        [
+          "SEJONG-2B-12-V2-017_card_3",
+          "많이 달라졌어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-017_card_0",
+          "SEJONG-2B-12-V2-017_card_1",
+          "SEJONG-2B-12-V2-017_card_2",
+          "SEJONG-2B-12-V2-017_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-018",
+      "displaySentence": "혼자 살게 돼서 가끔 외로워요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-018_card_0",
+          "혼자"
+        ],
+        [
+          "SEJONG-2B-12-V2-018_card_1",
+          "살게 돼서"
+        ],
+        [
+          "SEJONG-2B-12-V2-018_card_2",
+          "가끔"
+        ],
+        [
+          "SEJONG-2B-12-V2-018_card_3",
+          "외로워요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-018_card_0",
+          "SEJONG-2B-12-V2-018_card_1",
+          "SEJONG-2B-12-V2-018_card_2",
+          "SEJONG-2B-12-V2-018_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-019",
+      "displaySentence": "역시 친구처럼 편한 사람이 좋아요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-019_card_0",
+          "역시"
+        ],
+        [
+          "SEJONG-2B-12-V2-019_card_1",
+          "친구처럼"
+        ],
+        [
+          "SEJONG-2B-12-V2-019_card_2",
+          "편한 사람이"
+        ],
+        [
+          "SEJONG-2B-12-V2-019_card_3",
+          "좋아요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-019_card_0",
+          "SEJONG-2B-12-V2-019_card_1",
+          "SEJONG-2B-12-V2-019_card_2",
+          "SEJONG-2B-12-V2-019_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    },
+    {
+      "id": "SEJONG-2B-12-V2-020",
+      "displaySentence": "한국 생활 덕분에 세상을 다르게 보게 됐어요.",
+      "tokens": [
+        [
+          "SEJONG-2B-12-V2-020_card_0",
+          "한국"
+        ],
+        [
+          "SEJONG-2B-12-V2-020_card_1",
+          "생활 덕분에"
+        ],
+        [
+          "SEJONG-2B-12-V2-020_card_2",
+          "세상을"
+        ],
+        [
+          "SEJONG-2B-12-V2-020_card_3",
+          "다르게 보게 됐어요."
+        ]
+      ],
+      "acceptedOrders": [
+        [
+          "SEJONG-2B-12-V2-020_card_0",
+          "SEJONG-2B-12-V2-020_card_1",
+          "SEJONG-2B-12-V2-020_card_2",
+          "SEJONG-2B-12-V2-020_card_3"
+        ]
+      ],
+      "note": "세종한국어 2B 12과 어휘·문법 범위 재구성 · 처럼 · -게 되다",
+      "sourceRef": "개정판 세종한국어 2B 12과 범위 재구성"
+    }
+  ]
+}
