@@ -5,6 +5,7 @@ const gameNames={word:'어휘 배틀',sentence:'문장 배틀',matching:'카드 
 document.querySelectorAll('.game-card[data-game]').forEach(card=>{
   const game=card.dataset.game;
   if(!isGameAllowedForAccess(access,game)){
+    card.dataset.accessDenied='true';
     card.disabled=true;card.classList.remove('active');card.style.opacity='.35';card.title=`${gameNames[game]||game} 사용 권한이 없습니다.`;
   }
 });
@@ -15,4 +16,5 @@ Object.assign(bar.style,{display:'flex',justifyContent:'space-between',alignItem
 const btn=bar.querySelector('button');Object.assign(btn.style,{border:'1px solid rgba(255,255,255,.18)',background:'rgba(255,255,255,.06)',color:'#fff',borderRadius:'10px',padding:'6px 10px',cursor:'pointer'});
 btn.addEventListener('click',async()=>{await logoutTeacher();location.replace('index.html');});
 document.querySelector('.platform-shell')?.prepend(bar);
+window.dispatchEvent(new Event('arena-access-ready'));
 document.documentElement.style.visibility='visible';

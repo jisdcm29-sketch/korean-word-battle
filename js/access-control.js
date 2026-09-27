@@ -66,6 +66,7 @@ export function getStoredAccess(){
 
 export function clearTeacherAccess(){
   localStorage.removeItem(ACCESS_STORAGE_KEY);
+  localStorage.removeItem('kwb_arena_source_v1');
   if(watchTimer) clearInterval(watchTimer);
   if(expiryTimer) clearTimeout(expiryTimer);
   if(inactivityTimer) clearTimeout(inactivityTimer);
