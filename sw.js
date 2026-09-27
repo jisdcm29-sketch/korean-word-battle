@@ -1,4 +1,4 @@
-const CACHE_NAME='kwb-offline-v1.0.12';
+const CACHE_NAME='kwb-offline-v1.0.13';
 const CORE_ASSETS=[
   './','./index.html','./arena.html','./join.html',
   './word-battle.html','./play.html','./matching-pairs.html','./matching-play.html',
