@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#07152f" />
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
-  <title>종합 배틀 · 어휘 배틀 교사 화면 · v3.5</title>
+  <title>종합 배틀 · 어휘 배틀 교사 화면 · v3.6</title>
   <link rel="stylesheet" href="css/app.css?v=7.6" />
+  <link rel="stylesheet" href="css/combined-stage-ui.css?v=1.0" />
   <style>
     html,body{min-height:100%;}
     body{margin:0;}
@@ -88,6 +89,12 @@
       font-size:15px!important;
     }
     .game-controls{justify-content:center!important}
+    /* The parent page owns fullscreen across all three games. Keep the word
+       stage's standalone fullscreen surface when this iframe is replaced. */
+    body.combined-fullscreen #hostView{
+      border:0;border-radius:0;
+      background:linear-gradient(145deg,#eef4ff 0%,#fff 54%,#f2edff 100%);
+    }
 
     @media (max-height:760px){
       body.game-active .host-question-card{min-height:520px!important;padding:18px 22px 14px!important}
@@ -110,6 +117,7 @@
 </head>
 <body class="teacher-page game-active">
   <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="combined-stage-controls"><button id="endRoomBtn" type="button">🏠 종합게임 종료</button><button id="fullscreenBtn" type="button" class="fullscreen-btn" title="전체 화면으로 전환">⛶ 전체 화면</button></div>
   <header class="topbar battle-topbar">
     <div class="flag-showdown" aria-label="대한민국과 몽골">
       <span class="flag-card korea"><b>🇰🇷</b><small>KOREA</small></span>
@@ -127,7 +135,6 @@
   <main class="page-shell">
     <div class="platform-context-bar combined-stage-context"><span>종합 배틀 · ROUND 1 · 어휘 배틀</span><span id="combinedContext">서울대 한국어</span></div>
     <section id="hostView" class="panel host-panel game-panel">
-      <button id="fullscreenBtn" type="button" class="fullscreen-btn" title="전체 화면으로 전환">⛶ 전체 화면</button>
       <div id="gameArea" class="host-section arena-game-area">
         <div class="arena-titlebar live"><span>🇰🇷</span><strong>LIVE WORD BATTLE</strong><span>🇲🇳</span></div>
         <div class="game-topline">
@@ -147,17 +154,16 @@
             <div id="hostOptions" class="host-options"></div>
             <div id="hostResultLine" class="result-line"></div>
           </section>
-          <aside class="ranking-card arena-ranking-card">
-            <div class="ranking-header"><h3>🏆 실시간 순위</h3><span id="answeredCount">0/0 제출</span></div>
+          <aside class="ranking-card arena-ranking-card combined-stage-ranking">
+            <div class="ranking-header"><h3>🏆 종합 실시간 순위</h3><span id="answeredCount">누적 점수</span></div>
             <div id="podium" class="podium"></div>
-            <div id="rankingList" class="ranking-list"></div>
+            <div id="rankingList" class="ranking-list combined-score-list"></div>
             <div id="blindCover" class="blind-cover hidden"><div>?</div><strong>마지막 승부 중</strong><span>최종 순위는 게임 종료 후 공개됩니다.</span></div>
           </aside>
         </div>
-        <div class="action-row left game-controls"><button id="endRoomBtn" class="btn ghost">게임 종료</button></div>
       </div>
     </section>
   </main>
-  <script type="module" src="js/combined-stage-word.js?v=1.1"></script>
+  <script type="module" src="js/combined-stage-word.js?v=1.3"></script>
 </body>
 </html>

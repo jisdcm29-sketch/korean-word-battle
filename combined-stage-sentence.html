@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#08162f" />
   <title>종합 배틀 · 문장 배틀 교사 화면</title>
-  <link rel="stylesheet" href="sentence-battle-sample/css/sentence-sample.css?v=3.0" />
-  <style>html,body{min-height:100%}body{margin:0}</style>
+  <link rel="stylesheet" href="sentence-battle-sample/css/sentence-sample.css?v=3.1" />
+  <link rel="stylesheet" href="css/combined-stage-ui.css?v=1.0" />
+  <style>html,body{min-height:100%}body{margin:0}.monitor-header.compact .teacher-controls{margin-right:310px}@media(max-width:700px){.monitor-header.compact .teacher-controls{margin-right:0;margin-top:30px}}</style>
 </head>
 <body>
+  <div class="combined-stage-controls"><button id="gameHomeBtn" type="button">🏠 종합게임 종료</button><button id="fullscreenBtn" type="button">⛶ 전체 화면</button></div>
   <div class="bg-grid" aria-hidden="true"></div>
   <div id="fireworksLayer" class="fireworks-layer" aria-hidden="true"></div>
   <div id="correctToast" class="correct-toast hidden" aria-live="polite"></div>
@@ -17,8 +19,6 @@
       <header class="monitor-header compact">
         <div class="game-meta"><span id="questionLabel">Q 1/6</span><span>참가 <b id="playerCount">0</b>명</span></div>
         <div class="teacher-controls">
-          <button id="gameHomeBtn" class="control-btn" type="button">🏠 종합게임 종료</button>
-          <button id="fullscreenBtn" class="control-btn" type="button">⛶ 전체화면</button>
           <div class="volume-box"><button id="soundToggle" class="sound-toggle" type="button">🔊</button><input id="volumeSlider" class="volume-slider" type="range" min="0" max="100" step="5" value="75" /><b id="volumeLabel" class="volume-label">75%</b></div>
         </div>
       </header>
@@ -37,15 +37,15 @@
             <div class="reveal-countdown"><span>다음 문제까지</span><b id="revealTimer">2.5</b></div>
           </div>
         </section>
-        <aside id="rankPanel" class="rank-panel">
-          <div class="rank-head"><span id="rankTitle">🏆 실시간 순위</span><small id="rankSubtitle">동시 문장 배틀</small></div>
-          <div id="rankList" class="rank-list"></div>
+        <aside id="rankPanel" class="rank-panel combined-stage-ranking">
+          <div class="rank-head"><span id="rankTitle">🏆 종합 실시간 순위</span><small id="rankSubtitle">누적 점수</small></div>
+          <div id="rankList" class="rank-list combined-score-list"></div>
           <div id="rankBlindMessage" class="rank-blind-message hidden"><div class="rank-lock">🔒</div><strong>순위 비공개</strong><span>마지막 30% 문항입니다.</span><small>최종 결과에서 공개됩니다.</small></div>
         </aside>
       </div>
       <div id="countdown" class="countdown hidden"><span id="countdownText">3</span></div>
     </section>
   </main>
-  <script type="module" src="js/combined-stage-sentence.js?v=1.1"></script>
+  <script type="module" src="js/combined-stage-sentence.js?v=1.4"></script>
 </body>
 </html>
