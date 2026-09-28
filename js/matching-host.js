@@ -449,9 +449,31 @@ function renderTimer(){
   if(!room||room.status!=='playing')return; $('countdownOverlay').classList.add('hidden'); const duration=room.config.roundTime*1000; const remaining=Math.max(0,Math.min(duration,room.roundEndAt-nowMs())); timerVisual($('hostCircleTimer'),$('hostTimerText'),remaining,duration); const sec=Math.ceil(remaining/1000); if(sec<=5&&sec>0&&sec!==lastTimerTick){lastTimerTick=sec;audio.playTimerTick(sec);} renderGame(false);
 }
 function sortedPlayers(){ return Object.values(room?.players||{}).sort((a,b)=>(Number(b.score)||0)-(Number(a.score)||0)||a.name.localeCompare(b.name,'ko')); }
+function fitHostVocabText(){
+  if(window.innerWidth<901)return;
+  $('hostVocabStrip').querySelectorAll('.vocab-pill').forEach((pill)=>{
+    const label=pill.querySelector('.vocab-pill-text');
+    if(!label)return;
+    const style=getComputedStyle(pill);
+    const availableHeight=pill.clientHeight-parseFloat(style.paddingTop)-parseFloat(style.paddingBottom);
+    label.style.fontSize='';
+    let size=parseFloat(style.fontSize);
+    while(size>14 && (label.scrollHeight>availableHeight+1 || label.scrollWidth>label.clientWidth+1)){
+      size-=1;
+      label.style.fontSize=`${size}px`;
+    }
+  });
+}
+window.addEventListener('resize',fitHostVocabText);
+document.addEventListener('fullscreenchange',fitHostVocabText);
+document.addEventListener('webkitfullscreenchange',fitHostVocabText);
+document.fonts?.ready.then(fitHostVocabText);
 function renderGame(refreshVocab=true){
   if(!room||room.roundIndex<0)return; const round=currentRound(); if(!round)return; $('countdownOverlay').classList.toggle('hidden',room.status!=='countdown'); $('hostRoundLabel').textContent=`ROUND ${room.roundIndex+1}/${room.matching.roundCount}`; const blind=isMatchingBlind(room,nowMs())||room.blindActive; $('blindBadge').classList.toggle('hidden',!blind); $('rankBlindCover').classList.toggle('hidden',!blind);
-  if(refreshVocab) $('hostVocabStrip').innerHTML=round.cards.map((c)=>`<span class="vocab-pill ${c.lang==='mn'?'mn':'ko'}">${escapeHtml(c.text)}</span>`).join('');
+  if(refreshVocab){
+    $('hostVocabStrip').innerHTML=round.cards.map((c)=>`<span class="vocab-pill ${c.lang==='mn'?'mn':'ko'}"><span class="vocab-pill-text">${escapeHtml(c.text)}</span></span>`).join('');
+    fitHostVocabText();
+  }
   const players=sortedPlayers(); const complete=players.filter((p)=>(p.matchedPairIds||[]).length>=room.config.pairsPerRound).length; $('progressText').textContent=`${complete}/${players.length}명 완료`; const avg=players.length?players.reduce((a,p)=>a+(p.matchedPairIds?.length||0),0)/players.length:0; $('hostMatchedSummary').textContent=`평균 ${avg.toFixed(1)}/${room.config.pairsPerRound}쌍`;
   $('rankingList').innerHTML=players.map((p,i)=>{const matched=p.matchedPairIds?.length||0;const pct=Math.min(100,matched/room.config.pairsPerRound*100);return `<div class="rank-row"><span class="rank-num">${i+1}</span><span class="rank-avatar">${p.avatar}</span><span class="rank-copy"><strong>${escapeHtml(p.name)}${p.bot?' · DEMO':''}</strong><span>${matched}/${room.config.pairsPerRound}쌍 · 실수 ${p.mistakes||0}</span><span class="progress-mini"><i style="width:${pct}%"></i></span></span><strong class="rank-score">${blind?'••••':`${(p.score||0).toLocaleString()} pt`}</strong></div>`;}).join('');
 }

@@ -83,6 +83,34 @@ export function publicRoomState(room) {
     };
   }
 
+  if (room?.config?.gameType === 'word-search') {
+    const currentRound = room.search?.rounds?.[room.roundIndex] || null;
+    return {
+      pin: room.pin,
+      title: room.title || '한·몽 단어 찾기 배틀',
+      status: room.status,
+      config: { ...room.config, gameType:'word-search' },
+      players: Object.fromEntries(Object.entries(room.players || {}).map(([uid,p]) => [uid, {
+        uid, name:p.name, avatar:p.avatar, score:Number(p.score)||0,
+        foundTargetIds:Array.isArray(p.foundTargetIds)?p.foundTargetIds:[],
+        foundPaths:Array.isArray(p.foundPaths)?p.foundPaths:[],
+        totalFound:Number(p.totalFound)||0, mistakes:Number(p.mistakes)||0, combo:Number(p.combo)||0
+      }])),
+      roundIndex:Number(room.roundIndex)||0,
+      roundTotal:Number(room.search?.rounds?.length || room.config?.roundCount || 1),
+      countdownEndAt:Number(room.countdownEndAt)||0,
+      roundStartAt:Number(room.roundStartAt)||0,
+      roundEndAt:Number(room.roundEndAt)||0,
+      currentRound:currentRound ? {
+        id:currentRound.id, number:currentRound.number, size:currentRound.size,
+        difficulty:currentRound.difficulty, grid:[...(currentRound.grid||[])],
+        targets:(currentRound.targets||[]).map(t=>({id:t.id,mn:t.mn}))
+      } : null,
+      luckyAward:room.luckyAward||null,
+      finishedAt:Number(room.finishedAt)||0
+    };
+  }
+
   if (room?.config?.gameType === 'matching-pairs') {
     const currentRound = room.matching?.rounds?.[room.roundIndex] || null;
     const blind = Boolean(room.blindActive) && room.status !== 'finished';

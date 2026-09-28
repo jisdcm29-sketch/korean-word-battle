@@ -8,3 +8,9 @@ if(field&&source&&source===selected&&[...field.options].some(option=>option.valu
   field.value=source;
   field.closest('label')?.classList.add('hidden');
 }
+
+// Keep the late-entry QR in the same bottom-left position used by the live Arena screens.
+const moveLateJoinLeft=()=>document.getElementById('kwbLateJoinPanel')?.classList.add('left');
+moveLateJoinLeft();
+const qrObserver=new MutationObserver(moveLateJoinLeft);
+qrObserver.observe(document.documentElement,{subtree:true,childList:true});
