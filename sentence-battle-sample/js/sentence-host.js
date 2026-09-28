@@ -358,7 +358,7 @@ function canonicalSentence(q){return String(q?.displaySentence||'').trim()||asse
 
 function phase3HashSeed(value){let h=2166136261;for(const ch of String(value??'')){h^=ch.charCodeAt(0);h=Math.imul(h,16777619);}return h>>>0;}
 function phase3ShuffleTokens(tokens,seedText){const a=(tokens||[]).map(t=>[String(t[0]),String(t[1])]);let seed=phase3HashSeed(seedText)||1;const rand=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};for(let i=a.length-1;i>0;i--){const j=Math.floor(rand()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
-function phase3SentencePackage(){return{version:3,kind:'sentence',questions:fullQuestions.map((q,i)=>({id:q.id,tokens:phase3ShuffleTokens(q.tokens,`${room?.pin||'room'}:${q.id}:${i}`)})),timing:{initialCountdownMs:3300,resultMs:Number(room?.config?.revealSeconds||5)*1000}};}
+function phase3SentencePackage(){return{version:3,kind:'sentence',questions:fullQuestions.map((q,i)=>({id:q.id,tokens:phase3ShuffleTokens(q.tokens,`${room?.pin||'room'}:${q.id}:${i}`),firstCardId:q.tokens.length>=5?String(q.acceptedOrders?.[0]?.[0]||''):''})),timing:{initialCountdownMs:3300,resultMs:Number(room?.config?.revealSeconds||5)*1000}};}
 
 function publicRoomState(){
   return {
@@ -396,9 +396,9 @@ function renderRank(){
 }
 function renderPromptCards(){
   if(!els.promptCards)return;
-  const tokens=room?.currentQuestion?.tokens||[];
+  const tokens=room?.currentQuestion?.tokens||[],firstCardId=tokens.length>=5?room?.currentQuestion?.firstCardId:'';
   els.promptCards.innerHTML=tokens.length
-    ? tokens.map(([,text])=>`<span class="prompt-card">${safeText(text)}</span>`).join('')
+    ? tokens.map(([id,text])=>`<span class="prompt-card${firstCardId&&String(id)===firstCardId?' sentence-start-card':''}">${safeText(text)}</span>`).join('')
     : '';
 }
 function renderGameMeta(){els.questionLabel.textContent=`Q ${room.questionIndex+1}/${fullQuestions.length}`;els.roundNumber.textContent=String(room.questionIndex+1);els.playerCount.textContent=String(activePlayerCount());els.submittedTotal.textContent=String(activePlayerCount());els.submittedCount.textContent=String(room.answerCount||0);renderPromptCards();renderRank();}
@@ -459,7 +459,7 @@ async function startRound(){
   if(!room||room.questionIndex<0||room.questionIndex>=fullQuestions.length)return;
   if(roundEndGuard){clearTimeout(roundEndGuard);roundEndGuard=null;}if(revealEndGuard){clearTimeout(revealEndGuard);revealEndGuard=null;}
   currentQuestion=fullQuestions[room.questionIndex];roundSubmissions=new Map();correctCount=0;room.status='playing';room.answerCount=0;room.roundResults={};room.revealSentence='';room.variantCount=flexibleOrderCount(currentQuestion);
-  const roundIndex=room.questionIndex,t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;phase4EnsureSentenceRecord(roundIndex,room.questionStartAt,room.questionEndAt);room.currentQuestion={id:currentQuestion.id,tokens:phase3ShuffleTokens(currentQuestion.tokens,`${room.pin}:${currentQuestion.id}:${room.questionIndex}`)};
+  const roundIndex=room.questionIndex,t=now();room.questionStartAt=t;room.questionEndAt=t+room.config.timeLimit*1000;phase4EnsureSentenceRecord(roundIndex,room.questionStartAt,room.questionEndAt);room.currentQuestion={id:currentQuestion.id,tokens:phase3ShuffleTokens(currentQuestion.tokens,`${room.pin}:${currentQuestion.id}:${room.questionIndex}`),firstCardId:currentQuestion.tokens.length>=5?String(currentQuestion.acceptedOrders?.[0]?.[0]||''):''};
   els.playingStage.classList.remove('hidden');els.revealStage.classList.add('hidden');renderGameMeta();void persist();runHostTimer();startTensionAudio();if(isDemo)scheduleDemoSubmissions();
   roundEndGuard=setTimeout(()=>{if(room?.status==='playing'&&room.questionIndex===roundIndex)endRound();},room.config.timeLimit*1000+900);
 }
