@@ -102,3 +102,6 @@ button,select,input{font:inherit}.visually-hidden{position:absolute!important;wi
 .weekly-award-dev small{font-size:11px;color:#718096}
 .weekly-test-badge{background:#5b21b6!important;color:#fff!important}
 .weekly-test-clear{border:1px solid #d7dce5;border-radius:999px;padding:5px 9px;background:#fff;color:#7c2d12;font-size:11px;font-weight:900;cursor:pointer}
+
+/* Center both lines inside the class selection buttons. */
+.class-choice{align-content:center;justify-items:center;text-align:center}
