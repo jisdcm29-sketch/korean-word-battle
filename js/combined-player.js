@@ -1,4 +1,4 @@
-import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.2';
+import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.3';
 import { directionLabel } from './game-engine.js';
 
 const $ = (id) => document.getElementById(id);
@@ -508,9 +508,10 @@ function renderSentenceAnswer(tokens){
 function renderSentenceCards(tokens,submitted,animate=false){
   const used = new Set(sentenceOrder.map(String));
   const available = tokens.filter(token => !used.has(String(token[0])));
+  const firstCardId=tokens.length>=5?String(state?.currentQuestion?.firstCardId||''):'';
   $('sentenceCards').innerHTML = available.map((token,i) => {
     const style = animate ? ` style="--delay:${i*65}ms;--x:${Math.floor(Math.random()*220-110)}px;--r:${Math.floor(Math.random()*26-13)}deg"` : '';
-    return `<button class="sentence-card${animate?' drop':''}" data-id="${esc(token[0])}" type="button" ${submitted?'disabled':''}${style}>${esc(token[1])}</button>`;
+    return `<button class="sentence-card${firstCardId&&String(token[0])===firstCardId?' sentence-start-card':''}${animate?' drop':''}" data-id="${esc(token[0])}" type="button" ${submitted?'disabled':''}${style}>${esc(token[1])}</button>`;
   }).join('');
   renderSentenceAnswer(tokens);
   $('sentenceSubmitBtn').disabled = submitted || available.length > 0;

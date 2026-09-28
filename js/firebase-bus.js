@@ -143,7 +143,8 @@ function phase3OfflinePackage(room) {
       matchingRounds:(room.matching?.rounds || []).map(phase3PublicMatchingRound).filter(Boolean),
       sentenceQuestions:(room.sentenceSet || []).map((q, i) => ({
         id:q.id,
-        tokens:phase3ShuffleTokens(q.tokens || [], `${room.pin}:${q.id}:${i}`)
+        tokens:phase3ShuffleTokens(q.tokens || [], `${room.pin}:${q.id}:${i}`),
+        firstCardId:(q.tokens || []).length >= 5 ? String(q.acceptedOrders?.[0]?.[0] || '') : ''
       })),
       timing:{ transitionMs:2450, firstCountdownMs:3000, nextCountdownMs:1600, unitStartDelayMs:150, resultMs:2500 }
     };
@@ -217,7 +218,8 @@ export function publicRoomState(room) {
       const q = room.currentSentenceQuestion;
       currentQuestion = {
         id: q.id,
-        tokens: (q.shuffledTokens || q.tokens || []).map(t => [String(t[0]), String(t[1])])
+        tokens: (q.shuffledTokens || q.tokens || []).map(t => [String(t[0]), String(t[1])]),
+        firstCardId:(q.tokens || []).length >= 5 ? String(q.acceptedOrders?.[0]?.[0] || '') : ''
       };
       if (room.status === 'result') revealSentence = q.displaySentence || null;
     }

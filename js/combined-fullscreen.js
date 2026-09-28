@@ -8,6 +8,7 @@ export function bindCombinedFullscreen(button) {
   function sync() {
     clearTimeout(messageTimer);
     const active = Boolean(hostDocument.fullscreenElement);
+    document.body.classList.toggle('combined-fullscreen', active);
     button.textContent = active ? '⛶ 전체 화면 종료' : normalText;
     button.title = active ? '전체 화면 종료 (Esc)' : '전체 화면으로 전환';
     button.setAttribute('aria-pressed', String(active));

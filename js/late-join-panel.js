@@ -11,6 +11,7 @@ function ensureStyle(){
   style.id='kwbLateJoinPanelStyle';
   style.textContent=`
   .kwb-late-join{position:fixed;right:12px;top:58px;z-index:99980;width:148px;padding:10px;border-radius:16px;background:rgba(5,21,50,.94);border:1px solid rgba(93,202,255,.42);box-shadow:0 14px 34px rgba(0,0,0,.34);color:#fff;font-family:system-ui,-apple-system,"Noto Sans KR",sans-serif;backdrop-filter:blur(10px)}
+  .kwb-late-join.left{right:auto;left:12px;top:auto;bottom:16px}
   .kwb-late-join[hidden]{display:none!important}.kwb-late-join.collapsed{width:auto;padding:0;background:transparent;border:0;box-shadow:none;backdrop-filter:none}
   .kwb-late-join-toggle{width:100%;border:0;border-radius:12px;background:linear-gradient(135deg,#35d7ff,#6c70ff);color:#07152f;font-weight:1000;font-size:12px;padding:8px 9px;cursor:pointer;box-shadow:0 7px 18px rgba(41,163,255,.25)}
   .kwb-late-join.collapsed .kwb-late-join-body{display:none}.kwb-late-join:not(.collapsed) .kwb-late-join-toggle{margin-bottom:8px}
@@ -18,17 +19,17 @@ function ensureStyle(){
   .kwb-late-join-qr{width:112px;height:112px;margin:0 auto 7px;padding:5px;border-radius:10px;background:#fff;display:grid;place-items:center;overflow:hidden}.kwb-late-join-qr img,.kwb-late-join-qr canvas{max-width:100%;max-height:100%}
   .kwb-late-join-pin{display:flex;align-items:center;justify-content:center;gap:6px;padding:7px;border-radius:10px;background:rgba(255,255,255,.09)}.kwb-late-join-pin span{font-size:9px;color:#9fb4d2;letter-spacing:.08em}.kwb-late-join-pin b{font-size:18px;letter-spacing:.08em;color:#ffe486}
   .kwb-late-join-note{margin-top:6px;text-align:center;font-size:9px;line-height:1.35;color:#b8c9e3}
-  @media(max-width:900px){.kwb-late-join{right:7px;top:50px;width:132px;padding:8px}.kwb-late-join-qr{width:96px;height:96px}.kwb-late-join-pin b{font-size:16px}}
+  @media(max-width:900px){.kwb-late-join{right:7px;top:50px;width:132px;padding:8px}.kwb-late-join.left{right:auto;left:7px;top:auto;bottom:12px}.kwb-late-join-qr{width:96px;height:96px}.kwb-late-join-pin b{font-size:16px}}
   `;
   document.head.appendChild(style);
 }
 
-export function createLateJoinPanel({pin,url,getStatus=()=>'',enabled=()=>true}={}){
+export function createLateJoinPanel({pin,url,getStatus=()=>'',enabled=()=>true,side='right'}={}){
   ensureStyle();
   document.getElementById('kwbLateJoinPanel')?.remove();
   const root=document.createElement('aside');
   root.id='kwbLateJoinPanel';
-  root.className='kwb-late-join';
+  root.className=`kwb-late-join${side==='left'?' left':''}`;
   root.hidden=true;
   root.setAttribute('aria-label','게임 중 늦은 입장 QR');
   root.innerHTML=`<button type="button" class="kwb-late-join-toggle">📱 참여 QR 접기</button><div class="kwb-late-join-body"><div class="kwb-late-join-head"><strong>늦은 입장 · 재입장</strong><span>게임 진행 중에도 참여 가능</span></div><div class="kwb-late-join-qr"></div><div class="kwb-late-join-pin"><span>PIN</span><b></b></div><div class="kwb-late-join-note">같은 기기로 재입장하면 기존 점수를 이어갑니다.</div></div>`;
