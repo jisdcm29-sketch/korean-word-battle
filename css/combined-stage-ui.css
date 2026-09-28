@@ -1,0 +1,18 @@
+/* Shared teacher controls and cumulative standings for all combined stages. */
+.combined-stage-controls{position:fixed;top:8px;right:12px;z-index:100;display:flex;align-items:center;gap:8px}
+.combined-stage-controls button,.combined-stage-controls .fullscreen-btn{position:static!important;display:inline-flex;align-items:center;justify-content:center;min-height:35px;padding:7px 12px!important;border:1px solid rgba(171,205,255,.35);border-radius:11px;background:#143b79;color:#fff;font:900 12px/1.1 Arial,"Noto Sans KR",sans-serif;white-space:nowrap;cursor:pointer;box-shadow:0 5px 14px rgba(0,0,0,.18)}
+.combined-stage-controls button:hover{background:#24549a}
+.combined-stage-ranking{min-width:0;background:linear-gradient(180deg,#102c5b,#091e40)!important;border:1px solid rgba(255,255,255,.13)!important;border-radius:18px!important;padding:14px!important;display:flex!important;flex-direction:column!important;overflow:hidden!important}
+.combined-stage-ranking .ranking-header,.combined-stage-ranking .rank-head{flex:0 0 auto;min-height:32px;display:flex;align-items:center;justify-content:space-between;gap:8px;padding-bottom:8px;border-bottom:1px solid rgba(255,255,255,.14);color:#fff}
+.combined-stage-ranking .ranking-header h3,.combined-stage-ranking .rank-head h3,.combined-stage-ranking .rank-head #rankTitle{margin:0;color:#fff;font-size:18px;font-weight:900}
+.combined-stage-ranking .ranking-header span,.combined-stage-ranking .rank-head span,.combined-stage-ranking .rank-head small{color:#a9bedf;font-size:11px}
+.combined-stage-ranking .podium{display:none!important}
+.combined-stage-ranking .combined-score-list{flex:1 1 auto;min-height:0;display:flex!important;flex-direction:column!important;align-content:start!important;justify-content:flex-start!important;gap:7px!important;margin:9px 0 0!important;padding:0!important;overflow:auto!important}
+.combined-score-row{flex:none;min-width:0;display:grid;grid-template-columns:28px 30px minmax(0,1fr) auto;align-items:center;gap:7px;min-height:40px;padding:7px 9px;border-radius:11px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.08);color:#fff}
+.combined-score-row:first-child{background:rgba(255,194,60,.15)}
+.combined-score-place{text-align:center;color:#bcd4ff;font-weight:1000}
+.combined-score-avatar{text-align:center;font-size:19px}
+.combined-score-name{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:15px}
+.combined-score-points{white-space:nowrap;color:#ffdc74;font-size:15px}
+.combined-stage-context{padding-right:315px!important}
+@media(max-width:700px){.combined-stage-controls{top:6px;right:7px;gap:4px}.combined-stage-controls button,.combined-stage-controls .fullscreen-btn{min-height:31px;padding:5px 7px!important;font-size:10px}.combined-stage-context{padding-right:230px!important}}
