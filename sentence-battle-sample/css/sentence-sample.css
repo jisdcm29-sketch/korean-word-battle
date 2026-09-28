@@ -39,6 +39,9 @@
 .rank-blind-message small{font-size:11px;color:#829bc1}
 @media(max-height:760px) and (min-width:901px){.circle-timer{width:clamp(300px,39vh,370px);padding:24px}.big-timer{font-size:clamp(72px,8vw,108px)}.playing-stage{gap:10px}.prompt-cards{min-height:74px;padding:10px 16px}.prompt-card{min-height:46px;padding:8px 16px}}
 
+/* 5장 이상 문장에서는 실제 문장의 첫 카드를 강조합니다. */
+.prompt-card.sentence-start-card{background:linear-gradient(180deg,#fff2ad,#ffd66a);border-color:#e7ad36;color:#54360a;box-shadow:0 5px 0 #b87925,0 9px 18px rgba(0,0,0,.22)}
+
 /* v2.7 통합 게임 플랫폼 선택 문맥 */
 .sentence-platform-context{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:-8px 0 18px;padding:10px 12px;border-radius:15px;background:rgba(4,20,45,.66);border:1px solid rgba(255,255,255,.09);font-size:11px}.sentence-platform-context a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 17px;border-radius:12px;background:linear-gradient(135deg,#37d8ff,#5d8cff);border:1px solid rgba(255,255,255,.28);box-shadow:0 7px 18px rgba(55,216,255,.18);color:#07162f;text-decoration:none;font-size:14px;font-weight:1000;letter-spacing:-.01em;transition:.16s transform,.16s filter,.16s box-shadow}.sentence-platform-context a:hover{transform:translateY(-1px);filter:brightness(1.06);box-shadow:0 9px 22px rgba(55,216,255,.24)}.sentence-platform-context span{color:#dce9fc;font-weight:900;font-size:12px}.sentence-context-note{margin:12px auto 17px;max-width:680px;padding:10px 13px;border-radius:13px;background:rgba(255,200,61,.07);border:1px solid rgba(255,200,61,.14);color:#d7e4f7;font-size:11px;line-height:1.55}.sentence-context-note b{color:#ffd568}
 
