@@ -525,3 +525,134 @@
   border-color:#37d8ff!important;
   box-shadow:0 0 0 3px rgba(55,216,255,.10)!important;
 }
+
+/* V1.3 teacher-stage scale sync -------------------------------------------------
+   Standalone teacher screen now uses the same card/timer scale as the
+   combined-battle matching teacher stage. Student/mobile styles are untouched. */
+@media (min-width:901px){
+  .standalone-matching-host .host-game-layout{
+    grid-template-columns:minmax(0,1.72fr) minmax(300px,.78fr);
+    gap:12px;
+  }
+  .standalone-matching-host .host-stage{
+    grid-template-rows:auto auto minmax(0,1fr) auto;
+    padding:14px 18px;
+  }
+  .standalone-matching-host .host-vocab-strip{
+    min-height:0;
+    display:grid;
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    align-content:center;
+    padding:10px 8px;
+    gap:12px;
+  }
+  .standalone-matching-host .vocab-pill{
+    min-width:0;
+    width:100%;
+    min-height:76px;
+    padding:12px 10px;
+    font-size:clamp(20px,1.65vw,30px);
+    overflow-wrap:anywhere;
+    word-break:keep-all;
+  }
+  .standalone-matching-host .circle-timer{
+    width:clamp(320px,44vh,430px);
+    max-width:min(48vw,430px);
+    padding:28px;
+  }
+  .standalone-matching-host #hostView:fullscreen .host-vocab-strip,
+  .standalone-matching-host #hostView:-webkit-full-screen .host-vocab-strip{
+    display:grid;
+    grid-template-columns:repeat(6,minmax(0,1fr));
+    padding:10px 8px;
+    gap:12px;
+  }
+  .standalone-matching-host #hostView:fullscreen .vocab-pill,
+  .standalone-matching-host #hostView:-webkit-full-screen .vocab-pill{
+    min-width:0;
+    width:100%;
+    min-height:76px;
+    padding:12px 10px;
+    font-size:clamp(20px,1.65vw,30px);
+  }
+  .standalone-matching-host #hostView:fullscreen .circle-timer,
+  .standalone-matching-host #hostView:-webkit-full-screen .circle-timer{
+    width:clamp(320px,44vh,430px);
+    max-width:min(48vw,430px);
+    padding:28px;
+  }
+}
+@media (min-width:901px) and (max-height:700px){
+  .standalone-matching-host .vocab-pill,
+  .standalone-matching-host #hostView:fullscreen .vocab-pill,
+  .standalone-matching-host #hostView:-webkit-full-screen .vocab-pill{
+    min-height:60px;
+    padding:7px 9px;
+    font-size:clamp(17px,1.4vw,25px);
+  }
+  .standalone-matching-host .circle-timer,
+  .standalone-matching-host #hostView:fullscreen .circle-timer,
+  .standalone-matching-host #hostView:-webkit-full-screen .circle-timer{
+    width:clamp(300px,39vh,370px);
+    max-width:min(48vw,370px);
+    padding:24px;
+  }
+}
+
+/* V1.4 exact combined-stage matching scale -----------------------------------
+   Final authority: copy the visible card/timer dimensions used by
+   combined-stage-matching.html. !important is intentional here because the
+   legacy fullscreen/short-screen rules otherwise shrink these elements. */
+@media (min-width:901px){
+  body.standalone-matching-host #hostView .host-vocab-strip,
+  body.standalone-matching-host #hostView:fullscreen .host-vocab-strip,
+  body.standalone-matching-host #hostView:-webkit-full-screen .host-vocab-strip{
+    display:grid!important;
+    grid-template-columns:repeat(6,minmax(0,1fr))!important;
+    align-content:center!important;
+    min-height:0!important;
+    padding:10px 8px!important;
+    gap:12px!important;
+  }
+  body.standalone-matching-host #hostView .vocab-pill,
+  body.standalone-matching-host #hostView:fullscreen .vocab-pill,
+  body.standalone-matching-host #hostView:-webkit-full-screen .vocab-pill{
+    width:100%!important;
+    min-width:0!important;
+    height:76px!important;
+    min-height:76px!important;
+    max-height:76px!important;
+    padding:12px 10px!important;
+    border-radius:16px!important;
+    font-size:clamp(20px,1.65vw,30px)!important;
+    line-height:1.08!important;
+    overflow-wrap:anywhere!important;
+    word-break:keep-all!important;
+    overflow:hidden!important;
+  }
+  body.standalone-matching-host #hostView .vocab-pill-text{
+    display:block;
+    width:100%;
+    min-width:0;
+    line-height:1.05;
+    overflow-wrap:anywhere;
+    word-break:normal;
+  }
+  body.standalone-matching-host #hostView .circle-timer,
+  body.standalone-matching-host #hostView:fullscreen .circle-timer,
+  body.standalone-matching-host #hostView:-webkit-full-screen .circle-timer{
+    width:clamp(320px,44vh,430px)!important;
+    min-width:320px!important;
+    max-width:min(48vw,430px)!important;
+    height:auto!important;
+    aspect-ratio:1!important;
+    padding:28px!important;
+  }
+  /* Give the teacher timer the additional stage space available in fullscreen. */
+  body.standalone-matching-host #hostView:fullscreen .circle-timer,
+  body.standalone-matching-host #hostView:-webkit-full-screen .circle-timer{
+    width:min(52vh,42vw,560px)!important;
+    min-width:0!important;
+    max-width:none!important;
+  }
+}
