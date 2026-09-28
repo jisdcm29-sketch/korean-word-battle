@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#07152f" />
   <title>한·몽 한국어 게임 아레나</title>
-  <link rel="stylesheet" href="css/platform.css?v=2.4" />
+  <link rel="stylesheet" href="css/platform.css?v=2.8" />
 </head>
 <body>
   <div class="platform-bg" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -15,7 +15,24 @@
       <p class="eyebrow">KOREAN · MONGOLIAN GAME PLATFORM</p>
       <h1>한국어 게임 아레나</h1>
     </header>
+
+    <section id="classView" class="platform-panel class-panel hidden">
+      <div class="compact-head"><h2>수업 반을 선택하세요</h2></div>
+      <p class="source-intro">주간 점수를 누적하려면 반을 선택하세요. 반 이름은 이 화면에서 직접 등록할 수 있습니다.</p>
+      <div id="classList" class="class-list"></div>
+      <div class="class-create-row">
+        <input id="classNameInput" type="text" maxlength="40" placeholder="예: 서울대 1A 오전반" autocomplete="off" />
+        <button id="addClassBtn" type="button">반 추가</button>
+      </div>
+      <p id="classMessage" class="class-message" aria-live="polite"></p>
+      <div class="class-skip-wrap">
+        <button id="skipClassBtn" class="class-skip-btn" type="button">건너뛰기 — 오늘 게임만 하기</button>
+        <small>건너뛰면 당일 게임과 당일 시상만 사용하며 주간 누적에는 포함되지 않습니다.</small>
+      </div>
+    </section>
+
     <section id="sourceView" class="platform-panel source-panel hidden">
+      <div class="selected-class-bar"><span id="selectedClassLabel"></span><div class="selected-class-actions"><button class="weekly-ranking-btn" type="button">이번 주 순위</button><button class="weekly-award-btn" type="button">주간 시상</button><button class="student-manage-btn" type="button">학생 관리</button><button id="changeClassBtn" type="button">반 변경</button></div></div>
       <div class="compact-head"><h2>먼저 사용할 자료를 선택하세요</h2></div>
       <p class="source-intro">한 번 선택하면 게임을 바꿀 때 다시 고르지 않아도 됩니다.</p>
       <div class="source-card-grid">
@@ -26,6 +43,7 @@
       </div>
     </section>
     <section id="gameView" class="platform-panel platform-main-panel hidden">
+      <div class="selected-class-bar"><span id="selectedClassLabelGame"></span><div class="selected-class-actions"><button class="weekly-ranking-btn" type="button">이번 주 순위</button><button class="weekly-award-btn" type="button">주간 시상</button><button class="student-manage-btn" type="button">학생 관리</button><button id="changeClassBtnGame" type="button">반 변경</button></div></div>
       <div class="selected-source-bar"><span>선택 자료 <strong id="selectedSourceName"></strong></span><button id="changeSourceBtn" type="button">자료 종류 변경</button></div>
       <div class="compact-head"><h2>게임 선택</h2></div>
       <div id="gameGrid" class="game-grid">
@@ -52,7 +70,10 @@
     </section>
   </main>
   <script type="module" src="js/arena-access.js?v=1.4"></script>
-  <script type="module" src="js/platform.js?v=2.0"></script>
+  <script type="module" src="js/platform.js?v=2.2"></script>
+  <script type="module" src="js/student-manager-ui.js?v=1.0"></script>
+  <script type="module" src="js/weekly-ranking-ui.js?v=1.0"></script>
+  <script type="module" src="js/weekly-awards-ui.js?v=1.1"></script>
 
   <script>/* KWB_OFFLINE_SW_V1 */if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>
 </body>
