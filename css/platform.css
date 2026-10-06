@@ -286,3 +286,16 @@ button,select,input{font:inherit}.visually-hidden{position:absolute!important;wi
 .weekly-v8-draw-stage .weekly-v8-single-spin strong{color:#082819!important;text-shadow:0 2px 0 rgba(255,255,255,.55);font-weight:1000!important}
 .weekly-v8-draw-stage .weekly-v8-single-spin small{color:#24543c!important}
 .weekly-v8-draw-stage:has(.weekly-v8-single-spin) .weekly-v8-draw-title{color:#f6fff9!important;text-shadow:0 2px 10px rgba(0,0,0,.32)}
+
+
+/* V20: class rename/delete controls */
+.class-item{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:stretch}
+.class-item .class-choice{width:100%;min-width:0}
+.class-item-actions{display:grid;grid-template-rows:1fr 1fr;gap:6px;min-width:64px}
+.class-item-actions button{border-radius:11px;border:1px solid rgba(255,255,255,.16);font-size:12px;font-weight:900;cursor:pointer;padding:0 11px;transition:.16s ease}
+.class-edit-btn{background:rgba(56,217,255,.10);color:#bdefff;border-color:rgba(56,217,255,.30)!important}
+.class-edit-btn:hover,.class-edit-btn:focus-visible{background:rgba(56,217,255,.20);border-color:#38d9ff!important}
+.class-delete-btn{background:rgba(255,92,116,.08);color:#ffc2cb;border-color:rgba(255,92,116,.28)!important}
+.class-delete-btn:hover,.class-delete-btn:focus-visible{background:rgba(255,92,116,.18);border-color:#ff6f82!important}
+.class-item-actions button:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:560px){.class-item{grid-template-columns:minmax(0,1fr) 62px}.class-item-actions button{padding:0 8px;font-size:11px}}
