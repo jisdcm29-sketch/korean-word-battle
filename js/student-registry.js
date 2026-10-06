@@ -50,20 +50,20 @@ export function saveDailyResults(classId,{gameSessionId='',gameId='',players=[],
 export function getWeeklyRanking(classId,weekId=''){
   return callApi('getWeeklyRanking',{...authPayload(),classId:clean(classId),weekId:clean(weekId)});
 }
-export function getWeeklyAwardState(classId,weekId=''){
-  return callApi('getWeeklyAwardState',{...authPayload(),classId:clean(classId),weekId:clean(weekId)});
+export function getWeeklyAwardState(classId,weekId='',endDate=''){
+  return callApi('getWeeklyAwardState',{...authPayload(),classId:clean(classId),weekId:clean(weekId),endDate:clean(endDate)});
 }
-export function finalizeWeeklyAwards(classId,weekId=''){
-  return callApi('finalizeWeeklyAwards',{...authPayload(),classId:clean(classId),weekId:clean(weekId)});
+export function finalizeWeeklyAwards(classId,weekId='',endDate=''){
+  return callApi('finalizeWeeklyAwards',{...authPayload(),classId:clean(classId),weekId:clean(weekId),endDate:clean(endDate)});
 }
-export function drawWeeklyLucky(classId,weekId=''){
-  return callApi('drawWeeklyLucky',{...authPayload(),classId:clean(classId),weekId:clean(weekId)});
+export function drawWeeklyLucky(classId,weekId='',endDate=''){
+  return callApi('drawWeeklyLucky',{...authPayload(),classId:clean(classId),weekId:clean(weekId),endDate:clean(endDate)});
 }
-export function drawWeeklyConsolation(classId,weekId=''){
-  return callApi('drawWeeklyConsolation',{...authPayload(),classId:clean(classId),weekId:clean(weekId)});
+export function drawWeeklyConsolation(classId,weekId='',endDate=''){
+  return callApi('drawWeeklyConsolation',{...authPayload(),classId:clean(classId),weekId:clean(weekId),endDate:clean(endDate)});
 }
-export function createWeeklyTestData(classId){
-  return callApi('createWeeklyTestData',{...authPayload(),classId:clean(classId)});
+export function createWeeklyTestData(classId,weekId='',endDate=''){
+  return callApi('createWeeklyTestData',{...authPayload(),classId:clean(classId),weekId:clean(weekId),endDate:clean(endDate)});
 }
 export function clearWeeklyTestData(classId,weekId=''){
   return callApi('clearWeeklyTestData',{...authPayload(),classId:clean(classId),weekId:clean(weekId)});
