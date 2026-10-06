@@ -76,6 +76,7 @@ function bridgeRequest(payloadJson) {
     if(action==='logout') return logout_(body);
     if(action==='listClasses') return listClasses_(body);
     if(action==='saveClass') return saveClass_(body);
+    if(action==='deleteClass') return deleteClass_(body);
     if(action==='listStudents') return listStudents_(body);
     if(action==='saveStudent') return saveStudent_(body);
     if(action==='deleteStudent') return deleteStudent_(body);
@@ -343,7 +344,7 @@ function saveClass_(body) {
   const sheet=ensureClassSheet_(auth.ctx), tz=text_(auth.ctx.settings.TIMEZONE)||DEFAULT_TZ, now=fmt_(new Date(),tz), requestedId=text_(body.classId);
   const rows=classRowsForTeacher_(sheet,auth.teacherId);
   const sameName=rows.find(x=>text_(x.row['ClassName']).toLocaleLowerCase()===className.toLocaleLowerCase()&&text_(x.row['Active']).toUpperCase()!=='FALSE'&&text_(x.row['Active']).toUpperCase()!=='INACTIVE');
-  if(!requestedId&&sameName)return {ok:false,code:'DUPLICATE_CLASS',message:'같은 이름의 반이 이미 등록되어 있습니다.',classes:classPayloadList_(sheet,auth.teacherId)};
+  if(sameName&&(!requestedId||text_(sameName.row['ClassID'])!==requestedId))return {ok:false,code:'DUPLICATE_CLASS',message:'같은 이름의 반이 이미 등록되어 있습니다.',classes:classPayloadList_(sheet,auth.teacherId)};
   let classId=requestedId;
   if(classId){
     const hit=rows.find(x=>text_(x.row['ClassID'])===classId);
@@ -356,6 +357,22 @@ function saveClass_(body) {
     sheet.appendRow([auth.teacherId,classId,className,'TRUE',now,now]);
   }
   return {ok:true,classItem:{classId,className},classes:classPayloadList_(sheet,auth.teacherId)};
+}
+
+
+function deleteClass_(body) {
+  const auth=teacherRequestContext_(body);if(!auth.ok)return auth.result;
+  const classId=text_(body.classId);
+  if(!classId)return {ok:false,code:'BAD_CLASS_ID',message:'삭제할 반을 확인해 주세요.'};
+  const sheet=ensureClassSheet_(auth.ctx),rows=classRowsForTeacher_(sheet,auth.teacherId),hit=rows.find(x=>text_(x.row['ClassID'])===classId);
+  if(!hit)return {ok:false,code:'CLASS_NOT_FOUND',message:'삭제할 반을 찾을 수 없습니다.'};
+  const active=text_(hit.row['Active']).toUpperCase();
+  if(active==='FALSE'||active==='INACTIVE')return {ok:true,classId:classId,classes:classPayloadList_(sheet,auth.teacherId)};
+  const tz=text_(auth.ctx.settings.TIMEZONE)||DEFAULT_TZ,now=fmt_(new Date(),tz);
+  // 안전한 소프트 삭제: 학생/점수/시상 기록은 보존하고 반만 선택 목록에서 숨깁니다.
+  sheet.getRange(hit.rowNumber,4).setValue('FALSE');
+  sheet.getRange(hit.rowNumber,6).setValue(now);
+  return {ok:true,classId:classId,className:text_(hit.row['ClassName']),classes:classPayloadList_(sheet,auth.teacherId)};
 }
 
 
