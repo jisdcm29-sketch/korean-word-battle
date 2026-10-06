@@ -105,3 +105,184 @@ button,select,input{font:inherit}.visually-hidden{position:absolute!important;wi
 
 /* Center both lines inside the class selection buttons. */
 .class-choice{align-content:center;justify-items:center;text-align:center}
+
+
+/* ===== Weekly ceremony V6: full-screen teacher presentation ===== */
+.weekly-award-backdrop{padding:0;place-items:stretch;background:rgba(2,8,20,.94)}
+.weekly-award-modal.weekly-ceremony-modal{width:100vw;max-width:none;height:100dvh;max-height:none;border:0;border-radius:0;box-shadow:none}
+.weekly-ceremony-modal .weekly-award-head{padding:24px 34px 20px;min-height:98px;align-items:center}
+.weekly-ceremony-modal .weekly-award-head h2{font-size:clamp(30px,3vw,48px)}
+.weekly-ceremony-modal .weekly-award-head p{font-size:clamp(14px,1.25vw,20px)}
+.weekly-ceremony-modal .weekly-award-close{font-size:18px;padding:12px 18px;border-radius:14px}
+.weekly-ceremony-toolbar{padding:14px 30px;display:flex;align-items:end;gap:12px;background:#fff7dd;border-bottom:1px solid #ead69a}
+.weekly-ceremony-toolbar label{display:grid;gap:6px;font-size:12px;font-weight:1000;color:#6b5117}.weekly-ceremony-toolbar input{height:46px;border:1px solid #d9bc66;border-radius:12px;padding:0 12px;background:#fff;color:#18243a;font-weight:900}.weekly-ceremony-toolbar button{height:46px;border:1px solid #d5b65c;border-radius:12px;background:#fff;color:#553d07;font-weight:1000;padding:0 18px;cursor:pointer}
+.weekly-ceremony-modal .weekly-award-meta{padding:11px 30px;min-height:46px;font-size:14px;background:#f8fbff}
+.weekly-ceremony-modal .weekly-award-body{flex:1;overflow:auto;padding:24px 34px 34px;align-content:start;gap:20px;background:radial-gradient(circle at 50% 0%,rgba(255,206,75,.13),transparent 34%),linear-gradient(180deg,#f8fbff,#eef5fd)}
+.weekly-ceremony-stage{min-height:calc(100dvh - 260px);border:1px solid #ebd38c;border-radius:24px;background:rgba(255,255,255,.96);padding:26px;display:flex;flex-direction:column;gap:22px;justify-content:center}
+.weekly-ceremony-title{display:flex;align-items:end;justify-content:space-between;gap:20px}.weekly-ceremony-title strong{font-size:clamp(24px,2.2vw,36px)}.weekly-ceremony-title small{font-size:14px;color:#6d7484;font-weight:900}
+.weekly-ceremony-candidates{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;padding:22px;border:2px dashed #c8d7ea;border-radius:20px;background:#f3f7fd}.weekly-ceremony-candidates>span{min-width:132px;min-height:60px;border:1px solid #c9d7e8;border-radius:999px;background:#fff;display:grid;place-items:center;align-content:center;padding:10px 18px;font-size:clamp(18px,1.5vw,26px);font-weight:1000;box-shadow:0 8px 22px rgba(30,61,100,.08)}.weekly-ceremony-candidates>span small{display:block;margin-top:4px;font-size:11px;color:#cf7b1a}.weekly-ceremony-candidates>span.excluded{opacity:.58;background:#f6f7f9}
+.weekly-ceremony-stage .weekly-award-finalize{height:68px;font-size:clamp(20px,1.8vw,30px);border-radius:18px}
+.weekly-main-reveal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch;margin:4px 0 8px}
+.weekly-main-reveal-slot{min-height:300px;border:3px solid #d6deea;border-radius:28px;background:linear-gradient(180deg,#fff,#eef5fd);display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:24px;box-shadow:0 20px 48px rgba(26,51,85,.15);transition:.25s transform,.25s box-shadow}
+.weekly-main-reveal-slot strong{font-size:clamp(25px,2.1vw,36px);margin-bottom:24px}.weekly-main-reveal-slot b{font-size:clamp(34px,4vw,68px);line-height:1.06;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.weekly-main-reveal-slot small{margin-top:20px;font-size:clamp(14px,1.3vw,20px);font-weight:900;color:#677991}
+.weekly-main-reveal-slot.rank1{border-color:#e0b52e;background:linear-gradient(180deg,#fff0a6,#fff9df)}.weekly-main-reveal-slot.rank2{border-color:#bfc9d8;background:linear-gradient(180deg,#eef2f7,#fff)}.weekly-main-reveal-slot.rank3{border-color:#d7a47b;background:linear-gradient(180deg,#ffe1c6,#fff6ed)}
+.weekly-main-reveal-slot.revealed{transform:translateY(-8px) scale(1.02);box-shadow:0 28px 70px rgba(86,64,10,.24)}
+.weekly-ceremony-podium{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.weekly-ceremony-winner{min-height:300px;border-radius:28px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:28px;box-shadow:0 20px 48px rgba(26,51,85,.15)}.weekly-ceremony-winner strong{font-size:clamp(26px,2.3vw,38px);margin-bottom:24px}.weekly-ceremony-winner b{font-size:clamp(38px,4vw,72px);line-height:1.04}.weekly-ceremony-winner.first{background:linear-gradient(180deg,#ffe987,#fff9d6);border:3px solid #e0b52e}.weekly-ceremony-winner.second{background:linear-gradient(180deg,#e8edf4,#fff);border:3px solid #bfc9d8}.weekly-ceremony-winner.third{background:linear-gradient(180deg,#ffd7b6,#fff5eb);border:3px solid #d7a47b}
+@media(max-width:900px){.weekly-ceremony-modal .weekly-award-head{padding:16px 18px}.weekly-ceremony-toolbar{padding:10px 14px;flex-wrap:wrap}.weekly-ceremony-modal .weekly-award-meta{padding:9px 14px;flex-wrap:wrap}.weekly-ceremony-modal .weekly-award-body{padding:14px}.weekly-ceremony-stage{padding:16px;min-height:auto}.weekly-main-reveal,.weekly-ceremony-podium{grid-template-columns:1fr}.weekly-main-reveal-slot,.weekly-ceremony-winner{min-height:150px}.weekly-ceremony-title{align-items:flex-start;flex-direction:column}}
+
+
+/* ===== Weekly ceremony V7: true full-viewport stage + clean top-3 reveal ===== */
+.weekly-award-backdrop{
+  position:fixed!important;
+  inset:0!important;
+  width:100vw!important;
+  height:100dvh!important;
+  padding:0!important;
+  display:flex!important;
+  align-items:stretch!important;
+  justify-content:stretch!important;
+  background:#06142e!important;
+}
+.weekly-award-backdrop.hidden{display:none!important}
+.weekly-award-modal.weekly-ceremony-modal{
+  width:100vw!important;
+  max-width:none!important;
+  height:100dvh!important;
+  max-height:none!important;
+  margin:0!important;
+  border:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+}
+.weekly-ceremony-modal .weekly-award-body{min-height:0!important}
+
+/* During the actual 1-2-3 announcement, candidates and setup controls disappear. */
+.weekly-award-backdrop.weekly-presenting-main .weekly-ceremony-toolbar,
+.weekly-award-backdrop.weekly-presenting-main .weekly-award-meta,
+.weekly-award-backdrop.weekly-presenting-main .weekly-ceremony-title,
+.weekly-award-backdrop.weekly-presenting-main .weekly-ceremony-candidates,
+.weekly-award-backdrop.weekly-presenting-main .weekly-award-finalize,
+.weekly-award-backdrop.weekly-presenting-main .weekly-award-note{
+  display:none!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-award-head{
+  min-height:78px!important;
+  height:78px!important;
+  padding:12px 28px!important;
+  flex:0 0 78px!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-award-head h2{font-size:32px!important}
+.weekly-award-backdrop.weekly-presenting-main .weekly-award-head p{font-size:15px!important}
+.weekly-award-backdrop.weekly-presenting-main .weekly-award-body{
+  flex:1 1 auto!important;
+  height:calc(100dvh - 78px)!important;
+  padding:22px!important;
+  overflow:hidden!important;
+  display:block!important;
+  background:radial-gradient(circle at 50% 0%,rgba(255,206,75,.18),transparent 38%),linear-gradient(180deg,#071a39,#06142e)!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-ceremony-stage{
+  width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  padding:0!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent!important;
+  display:flex!important;
+  align-items:stretch!important;
+  justify-content:stretch!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal{
+  width:100%!important;
+  height:100%!important;
+  margin:0!important;
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:22px!important;
+  align-items:stretch!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal.hidden{display:grid!important}
+.weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot{
+  min-height:0!important;
+  height:100%!important;
+  border-width:4px!important;
+  border-radius:30px!important;
+  padding:34px 24px!important;
+  box-shadow:0 28px 70px rgba(0,0,0,.34)!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot strong{
+  font-size:clamp(30px,3vw,48px)!important;
+  margin-bottom:34px!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot b{
+  font-size:clamp(50px,6vw,104px)!important;
+  line-height:1.02!important;
+}
+.weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot small{
+  font-size:clamp(17px,1.6vw,26px)!important;
+  margin-top:30px!important;
+}
+
+@media(max-width:900px){
+  .weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:8px!important;
+  }
+  .weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot{padding:16px 8px!important;border-radius:18px!important}
+  .weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot strong{font-size:clamp(18px,3.5vw,30px)!important;margin-bottom:18px!important}
+  .weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot b{font-size:clamp(28px,7vw,58px)!important}
+  .weekly-award-backdrop.weekly-presenting-main .weekly-main-reveal-slot small{font-size:12px!important;margin-top:16px!important}
+}
+
+/* ===== Weekly ceremony V8: sequential full-screen award flow ===== */
+.weekly-ceremony-v8.weekly-award-backdrop{
+  position:fixed!important;inset:0!important;width:100vw!important;height:100dvh!important;padding:0!important;
+  display:flex!important;align-items:stretch!important;justify-content:stretch!important;background:#06142e!important;z-index:100700!important;
+}
+.weekly-ceremony-v8.weekly-award-backdrop.hidden{display:none!important}
+.weekly-ceremony-v8 .weekly-ceremony-modal{
+  width:100vw!important;height:100dvh!important;max-width:none!important;max-height:none!important;margin:0!important;
+  border:0!important;border-radius:0!important;box-shadow:none!important;background:#f7fbff!important;display:flex!important;flex-direction:column!important;
+}
+.weekly-ceremony-v8 .weekly-award-head{flex:0 0 86px!important;min-height:86px!important;padding:14px 30px!important;align-items:center!important}
+.weekly-ceremony-v8 .weekly-award-head h2{font-size:34px!important}.weekly-ceremony-v8 .weekly-award-head p{font-size:15px!important}
+.weekly-ceremony-v8 .weekly-award-close{font-size:18px!important;padding:12px 18px!important}
+.weekly-ceremony-v8 .weekly-ceremony-toolbar{flex:0 0 68px!important;padding:10px 28px!important;align-items:center!important}
+.weekly-ceremony-v8 .weekly-ceremony-toolbar label{display:flex!important;align-items:center!important;gap:10px!important;font-size:14px!important}
+.weekly-ceremony-v8 .weekly-ceremony-toolbar input,.weekly-ceremony-v8 .weekly-ceremony-toolbar button{height:46px!important}
+.weekly-ceremony-v8 .weekly-award-meta{flex:0 0 46px!important;min-height:46px!important;padding:10px 28px!important;font-size:14px!important;background:#f4f8fd!important}
+.weekly-ceremony-v8 .weekly-award-body{flex:1 1 auto!important;min-height:0!important;overflow:hidden!important;padding:20px 28px 28px!important;display:block!important;background:radial-gradient(circle at 50% 0%,rgba(255,205,66,.13),transparent 32%),linear-gradient(180deg,#f8fbff,#edf4fb)!important}
+.weekly-v8-stage{width:100%!important;height:100%!important;min-height:0!important;border:1px solid #d7e3f0;border-radius:26px;background:rgba(255,255,255,.97);box-shadow:0 20px 55px rgba(16,42,76,.12);padding:28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:26px;overflow:hidden}
+.weekly-v8-home{background:radial-gradient(circle at 50% 15%,rgba(255,205,66,.22),transparent 35%),linear-gradient(180deg,#fffdf6,#f8fbff)}
+.weekly-v8-center-copy{text-align:center}.weekly-v8-kicker{font-size:14px;font-weight:1000;letter-spacing:.18em;color:#b77c0a}.weekly-v8-center-copy h3{margin:8px 0 10px;font-size:clamp(38px,5vw,76px);letter-spacing:-.05em}.weekly-v8-center-copy p{margin:0;color:#62748c;font-size:clamp(16px,1.4vw,22px);font-weight:900}
+.weekly-v8-primary{width:min(760px,80%);min-height:82px;border:0;border-radius:22px;background:linear-gradient(135deg,#d69512,#ffc83d);color:#251700;font-size:clamp(24px,2.2vw,36px);font-weight:1000;cursor:pointer;box-shadow:0 18px 38px rgba(202,137,10,.23)}
+.weekly-v8-primary:hover{filter:brightness(1.04);transform:translateY(-2px)}.weekly-v8-primary:disabled{opacity:.42;cursor:not-allowed;transform:none}.weekly-v8-primary.lucky{background:linear-gradient(135deg,#2fa86c,#66e0a4);color:#042719}.weekly-v8-primary.consolation{background:linear-gradient(135deg,#6a5ab5,#9c89ef);color:white}.weekly-v8-primary.next{margin-top:4px}
+.weekly-v8-title{width:100%;display:flex;align-items:center;justify-content:center;gap:18px;text-align:center}.weekly-v8-title>span{font-size:52px}.weekly-v8-title h3{margin:0;font-size:clamp(34px,4vw,62px);letter-spacing:-.05em}.weekly-v8-title p{margin:7px 0 0;color:#65758a;font-size:clamp(14px,1.25vw,20px);font-weight:900}
+.weekly-v8-candidate-grid{width:min(1320px,96%);display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;align-content:center;overflow:auto;padding:6px}
+.weekly-v8-candidate{min-height:92px;border:2px solid #c7d8ea;border-radius:22px;background:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px 16px;box-shadow:0 10px 24px rgba(26,55,91,.08)}
+.weekly-v8-candidate strong{font-size:clamp(24px,2vw,34px)}.weekly-v8-candidate small{margin-top:7px;font-size:13px;font-weight:1000;color:#c97917}.weekly-v8-candidate.excluded{opacity:.48;background:#f3f5f8}
+.weekly-v8-draw-stage{background:radial-gradient(circle at 50% 20%,rgba(255,203,57,.18),transparent 34%),linear-gradient(180deg,#071b3a,#06142e);color:white;border-color:#29466d}
+.weekly-v8-draw-title{font-size:clamp(34px,4vw,62px);font-weight:1000;text-align:center;letter-spacing:-.04em}
+.weekly-v8-top3-results{width:100%;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+.weekly-v8-rank{min-height:310px;border-radius:30px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px;box-shadow:0 24px 62px rgba(0,0,0,.18)}
+.weekly-v8-rank span{font-size:clamp(24px,2.2vw,38px);font-weight:1000;margin-bottom:28px}.weekly-v8-rank strong{font-size:clamp(48px,5.4vw,92px);line-height:1.03;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}.weekly-v8-rank small{margin-top:24px;font-size:clamp(16px,1.4vw,23px);font-weight:1000}.weekly-v8-rank.rank1{background:linear-gradient(180deg,#ffe886,#fff9d9);border:4px solid #e1b72b;color:#2c2100}.weekly-v8-rank.rank2{background:linear-gradient(180deg,#e8edf4,#fff);border:4px solid #bfc9d8;color:#17243a}.weekly-v8-rank.rank3{background:linear-gradient(180deg,#ffd8b8,#fff5ec);border:4px solid #d3a077;color:#2d1b10}
+.weekly-v8-draw-stage .weekly-v8-rank{min-height:420px}
+.weekly-v8-result-stage{justify-content:center}
+.weekly-v8-single-spin,.weekly-v8-single-winner{width:min(1050px,88%);min-height:420px;border-radius:34px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:34px;background:linear-gradient(180deg,#fff4b8,#fff);border:4px solid #e0b52e;box-shadow:0 28px 72px rgba(0,0,0,.25)}
+.weekly-v8-single-spin strong,.weekly-v8-single-winner strong{font-size:clamp(58px,7vw,118px);line-height:1.02}.weekly-v8-single-spin small{margin-top:28px;font-size:clamp(18px,1.7vw,28px);font-weight:1000;color:#6b7890}.weekly-v8-single-winner span{font-size:clamp(30px,3vw,52px);font-weight:1000;margin-bottom:28px}.weekly-v8-single-winner.lucky{background:linear-gradient(180deg,#caffdf,#f4fff8);border-color:#4fc98a}.weekly-v8-single-winner.consolation{background:linear-gradient(180deg,#e4ddff,#faf8ff);border-color:#8c79dc}
+.weekly-v8-finish{font-size:clamp(28px,3vw,48px);font-weight:1000;color:#243b63}.weekly-v8-empty{font-size:24px;font-weight:900;color:#6a7b91;padding:40px;text-align:center}
+@media(max-width:900px){.weekly-ceremony-v8 .weekly-award-head{flex-basis:72px!important;min-height:72px!important;padding:10px 14px!important}.weekly-ceremony-v8 .weekly-award-head h2{font-size:24px!important}.weekly-ceremony-v8 .weekly-ceremony-toolbar{flex-basis:auto!important;padding:8px 10px!important;flex-wrap:wrap}.weekly-ceremony-v8 .weekly-award-meta{padding:8px 10px!important}.weekly-ceremony-v8 .weekly-award-body{padding:10px!important}.weekly-v8-stage{padding:14px;gap:14px;border-radius:18px}.weekly-v8-primary{width:94%;min-height:62px}.weekly-v8-candidate-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.weekly-v8-candidate{min-height:68px}.weekly-v8-top3-results{gap:8px}.weekly-v8-rank{min-height:220px;padding:12px;border-radius:18px}.weekly-v8-rank span{margin-bottom:16px}.weekly-v8-draw-stage .weekly-v8-rank{min-height:260px}.weekly-v8-single-spin,.weekly-v8-single-winner{width:94%;min-height:280px}}
+
+
+/* V9: teacher-controlled browser fullscreen button */
+.weekly-ceremony-v8 #weeklyCeremonyFullscreen{
+  min-width:132px!important;border:1px solid #d2a53a!important;background:#fffaf0!important;color:#5f430f!important;font-weight:1000!important;border-radius:12px!important;padding:0 16px!important;cursor:pointer!important;
+}
+.weekly-ceremony-v8 #weeklyCeremonyFullscreen:hover{background:#fff0c8!important}
+
+/* V12 weekly ceremony: stronger single-draw contrast */
+.weekly-v8-draw-stage .weekly-v8-single-spin{background:linear-gradient(180deg,#dfffea,#ffffff)!important;border-color:#43c57f!important;color:#082819!important;box-shadow:0 28px 72px rgba(0,0,0,.32),0 0 0 2px rgba(255,255,255,.55) inset!important}
+.weekly-v8-draw-stage .weekly-v8-single-spin strong{color:#082819!important;text-shadow:0 2px 0 rgba(255,255,255,.55);font-weight:1000!important}
+.weekly-v8-draw-stage .weekly-v8-single-spin small{color:#24543c!important}
+.weekly-v8-draw-stage:has(.weekly-v8-single-spin) .weekly-v8-draw-title{color:#f6fff9!important;text-shadow:0 2px 10px rgba(0,0,0,.32)}
