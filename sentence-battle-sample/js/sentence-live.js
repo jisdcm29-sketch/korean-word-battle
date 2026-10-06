@@ -5,6 +5,7 @@ import {
   onValue, onChildAdded, onDisconnect, serverTimestamp
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig, isFirebaseConfigured } from '../../js/firebase-config.js?v=7.4';
+import { startPlayerConnectionRecovery } from '../../js/player-connection-recovery.js?v=1';
 
 
 const SENTENCE_PENDING_MAX_AGE_MS=30*60*1000;
@@ -187,14 +188,16 @@ export class SentencePlayerBus{
     this.uid=null;
     this.handlers=new Set();
     this.unsubs=[];
-    this.connected=true;
+    this.connected=null;
+    this.closed=false;
+    this.playerRecovery=null;
     this.latestState=null;
     this.flushingPending=false;
     this.hostDisconnected=false;
     this.offlinePackage=null;
     this.packageCached=false;
   }
-  on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
+  on(fn){this.handlers.add(fn);if(typeof this.connected==='boolean')queueMicrotask(()=>{if(!this.closed&&this.handlers.has(fn))fn({type:'connection',connected:this.connected,at:this.now()});});return()=>this.handlers.delete(fn);}
   emit(msg){this.handlers.forEach(fn=>fn(msg));}
   now(){return serverNow();}
   _domEvent(name,detail={}){try{window.dispatchEvent(new CustomEvent(name,{detail:{pin:this.pin,role:'player',...detail}}));}catch{}}
@@ -229,15 +232,15 @@ export class SentencePlayerBus{
     await set(msgRef,{type:item.type,uid:this.uid,payload:item.payload,at:Number(item.at)||this.now(),queuedAt:Number(item.queuedAt)||Date.now()});
   }
   async _flush(){
-    if(!this.db||!this.connected||this.flushingPending)return;this.flushingPending=true;
+    if(!this.db||!this.connected||this.flushingPending||this.closed)return;this.flushingPending=true;
     try{
       let list=this._readPending();
-      while(list.length&&this.connected){
+      while(list.length&&this.connected&&!this.closed){
         const item=list[0];
         try{await this._deliver(item);list=this._readPending().filter(x=>x.id!==item.id);this._writePending(list);this._domEvent('kwb-delivery',{status:'sent',messageType:item.type});}
         catch(err){console.warn('문장 배틀 대기 제출 전송이 일시 중단되었습니다.',err);break;}
       }
-    }finally{this.flushingPending=false;if(this.connected&&this._readPending().length)setTimeout(()=>this._flush().catch(()=>{}),900);}
+    }finally{this.flushingPending=false;if(this.connected&&!this.closed&&this._readPending().length)setTimeout(()=>this._flush().catch(()=>{}),900);}
   }
   async init(){
     const {db,auth}=await context();
@@ -246,18 +249,21 @@ export class SentencePlayerBus{
     const connUnsub=onValue(connectedRef,snap=>{
       const next=snap.val()===true;
       if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});this._domEvent('kwb-connection',{connected:next});updateNetworkBadge(next);}
-      if(next)this._flush().catch(()=>{});
+      if(next&&!this.closed){this._flush().catch(()=>{});this.playerRecovery?.recover();}
     });
     this.unsubs.push(connUnsub);
 
     const stateRef=ref(db,`rooms/${this.pin}/state`);
-    const unsub=onValue(stateRef,snap=>{
-      if(!snap.exists())return;
-      const state=snap.val();this._cacheState(state);
+    this.playerRecovery=startPlayerConnectionRecovery({
+      subscribe:(next,error)=>onValue(stateRef,next,error),read:()=>get(stateRef),
+      isConnected:()=>this.connected===true&&!this.closed,flush:()=>this._flush(),
+      apply:state=>{
+      this._cacheState(state);
       if(state?.status==='closed'){try{const k=this._stateKey(),pk=this._packageKey(),qk=this._pendingKey();if(k)localStorage.removeItem(k);if(pk)localStorage.removeItem(pk);if(qk)localStorage.removeItem(qk);this.offlinePackage=null;this.packageCached=false;}catch{}this.emit({type:'closed'});}
       else this.emit({type:'state',state});
-    },err=>{console.warn('문장 배틀 상태 수신이 일시 중단되었습니다. Firebase가 자동 재연결합니다.',err);});
-    this.unsubs.push(unsub);
+    }
+    });
+    this.playerRecovery.recover();
     this._flush().catch(()=>{});
     return this;
   }
@@ -282,5 +288,6 @@ export class SentencePlayerBus{
     if(!this.connected){this._domEvent('kwb-delivery',{status:'queued',messageType:type});return{queued:true,id:item.id};}
     this._flush().catch(()=>{});return{queued:false,id:item.id};
   }
-  close(){this.unsubs.forEach(fn=>{try{fn();}catch{}});this.unsubs=[];}
+  close(){this.closed=true;this.playerRecovery?.stop();this.handlers.clear();this.unsubs.forEach(fn=>{try{fn();}catch{}});this.unsubs=[];}
 }
+
