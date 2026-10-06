@@ -5,6 +5,7 @@ import {
   onValue, onChildAdded, onDisconnect, serverTimestamp
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig, isFirebaseConfigured } from './firebase-config.js?v=7.3';
+import { startPlayerConnectionRecovery } from './player-connection-recovery.js?v=1';
 
 export { isFirebaseConfigured };
 
@@ -424,7 +425,8 @@ export class FirebaseBus {
     this.seen = new Set();
     this.hostInboxAttached = false;
     this.disconnectOp = null;
-    this.connected = true;
+    this.connected = null;
+    this.playerRecovery = null;
     this.connectionListenerAttached = false;
     this.latestState = null;
     this.resumeRoom = null;
@@ -438,6 +440,9 @@ export class FirebaseBus {
 
   on(fn) {
     this.handlers.add(fn);
+    if (typeof this.connected === 'boolean') queueMicrotask(() => {
+      if (!this.closed && this.handlers.has(fn)) fn({ type:'connection', connected:this.connected, at:this.now() });
+    });
     return () => this.handlers.delete(fn);
   }
 
@@ -676,6 +681,7 @@ export class FirebaseBus {
       }
       if (connected && this.role !== 'host' && !this.closed) {
         this._flushPending().catch(() => {});
+        this.playerRecovery?.recover();
       }
     });
     this.unsubscribers.push(unsub);
@@ -716,9 +722,12 @@ export class FirebaseBus {
 
     if (this.role !== 'host') {
       const stateRef = ref(db, `rooms/${this.pin}/state`);
-      const unsub = onValue(stateRef, (snapshot) => {
-        if (!snapshot.exists()) return;
-        const state = snapshot.val();
+      this.playerRecovery = startPlayerConnectionRecovery({
+        subscribe: (next, error) => onValue(stateRef, next, error),
+        read: () => get(stateRef),
+        flush: () => this._flushPending(),
+        isConnected: () => this.connected === true && !this.closed,
+        apply: (state) => {
         this._cacheState(state);
         if (state?.status === 'closed') {
           this._clearPlayerCache();
@@ -726,10 +735,9 @@ export class FirebaseBus {
         } else {
           this._dispatch({ type:'state', payload:{ room:state }, at:this.now() });
         }
-      }, (err) => {
-        console.warn('Firebase room state listener paused; SDK will retry automatically:', err);
+        }
       });
-      this.unsubscribers.push(unsub);
+      this.playerRecovery.recover();
       this._flushPending().catch(() => {});
     }
     return this;
@@ -855,6 +863,8 @@ export class FirebaseBus {
   }
 
   close() {
+    this.closed = true;
+    this.playerRecovery?.stop();
     try { this.disconnectOp?.cancel?.().catch?.(() => {}); } catch {}
     this.unsubscribers.forEach((unsub) => { try { unsub(); } catch {} });
     this.unsubscribers = [];

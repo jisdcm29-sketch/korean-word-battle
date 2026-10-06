@@ -33,14 +33,19 @@
     el.style.background=ok?'rgba(10,135,83,.94)':'rgba(159,86,12,.96)'; el.style.color='#fff';
     if(autoHide)hideTimer=setTimeout(()=>{el.style.display='none';},autoHide);
   }
+  let transportConnected = null, hostConnected = true;
+  const forThisPlayer = e => e.detail?.role !== 'host' && (!pin || String(e.detail?.pin) === pin);
   function disconnected(){hadDisconnect=true;showBadge('연결 복구 중… 게임 화면은 유지됩니다.');}
-  function connected(){if(hadDisconnect){showBadge('연결 복구됨',true,1400);hadDisconnect=false;}}
+  function connected(){
+    if(navigator.onLine===false || transportConnected!==true || !hostConnected)return;
+    if(hadDisconnect){showBadge('연결 복구됨 · 답안 동기화 중',true,1400);hadDisconnect=false;}
+  }
 
-  window.addEventListener('offline', disconnected);
-  window.addEventListener('online', connected);
-  window.addEventListener('kwb-connection', e => e.detail?.connected ? connected() : disconnected());
-  window.addEventListener('kwb-host-connection', e => { if(e.detail?.connected){connected();}else{hadDisconnect=true;showBadge('교사 연결 복구 중… 게임은 계속 진행됩니다.');} });
-  window.addEventListener('kwb-preload', e => { if(e.detail?.ready && !preloadShown){preloadShown=true;const n=Number(e.detail?.itemCount)||0;showBadge(n?`게임 자료 준비 완료 · ${n}개`:'게임 자료 준비 완료',true,1300);} });
+  window.addEventListener('offline', () => {transportConnected=false;disconnected();});
+  window.addEventListener('online', () => {if(hadDisconnect)showBadge('인터넷 감지 · 게임 연결 확인 중…');});
+  window.addEventListener('kwb-connection', e => {if(!forThisPlayer(e))return;transportConnected=e.detail?.connected===true;transportConnected?connected():disconnected();});
+  window.addEventListener('kwb-host-connection', e => {if(!forThisPlayer(e))return;hostConnected=e.detail?.connected===true;if(hostConnected){connected();}else{hadDisconnect=true;showBadge('교사 연결 복구 중… 게임 화면은 유지됩니다.');} });
+  window.addEventListener('kwb-preload', e => { if(forThisPlayer(e) && e.detail?.ready && !preloadShown){preloadShown=true;if(hadDisconnect)return;const n=Number(e.detail?.itemCount)||0;showBadge(n?`게임 자료 준비 완료 · ${n}개`:'게임 자료 준비 완료',true,1300);} });
   window.addEventListener('kwb-delivery', e => {
     if(e.detail?.status==='queued') showBadge('답안 저장됨 · 연결되면 자동 전송됩니다.');
     if(e.detail?.status==='sent' && hadDisconnect===false) showBadge('저장한 답안 전송 완료',true,1100);

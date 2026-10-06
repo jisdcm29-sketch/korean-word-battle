@@ -2,6 +2,7 @@ import { initializeApp,getApps,getApp } from 'https://www.gstatic.com/firebasejs
 import { getAuth,signInAnonymously } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-auth.js';
 import { getDatabase,ref,get,set,update,push,onValue,onChildAdded,remove,onDisconnect,serverTimestamp } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig,isFirebaseConfigured } from './firebase-config.js?v=7.3';
+import { startPlayerConnectionRecovery } from './player-connection-recovery.js?v=1';
 
 const PENDING_MAX_AGE_MS=30*60*1000;
 let shared=null;
@@ -19,10 +20,10 @@ export async function createSearchPin(){const {db}=await context();for(let i=0;i
 
 export class WordSearchBus{
   constructor(pin,role='player'){
-    this.pin=String(pin);this.role=role;this.db=null;this.auth=null;this.uid=null;this.handlers=new Set();this.unsubs=[];this.offset=0;this.inboxReady=false;this.connected=true;this.closed=false;this.connectionReady=false;this.disconnectOp=null;this.latestState=null;this.resumeRoom=null;this.offlinePackage=null;this.flushingPending=false;this.pendingHostState=null;this.hostWriteInFlight=false;this.writeQueue=Promise.resolve();
+    this.pin=String(pin);this.role=role;this.db=null;this.auth=null;this.uid=null;this.handlers=new Set();this.unsubs=[];this.offset=0;this.inboxReady=false;this.connected=null;this.closed=false;this.playerRecovery=null;this.connectionReady=false;this.disconnectOp=null;this.latestState=null;this.resumeRoom=null;this.offlinePackage=null;this.flushingPending=false;this.pendingHostState=null;this.hostWriteInFlight=false;this.writeQueue=Promise.resolve();
   }
   now(){return Date.now()+this.offset;}
-  on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
+  on(fn){this.handlers.add(fn);if(typeof this.connected==='boolean')queueMicrotask(()=>{if(!this.closed&&this.handlers.has(fn))fn({type:'connection',connected:this.connected,at:this.now()});});return()=>this.handlers.delete(fn);}
   _emit(msg){this.handlers.forEach(fn=>{try{fn(msg);}catch(e){console.error(e);}});}
   _stateKey(){return this.uid?`kws_room_state_v2_${this.pin}_${this.uid}`:null;}
   _packageKey(){return this.uid?`kws_room_package_v3_${this.pin}_${this.uid}`:null;}
@@ -38,8 +39,16 @@ export class WordSearchBus{
   _cacheHostState(state){try{localStorage.setItem(this._hostCheckpointKey(),JSON.stringify({savedAt:Date.now(),state}));}catch{}}
   _flushHostState(){if(this.role!=='host'||!this.db||!this.connected||this.closed||this.hostWriteInFlight||!this.pendingHostState)return Promise.resolve();const state=this.pendingHostState;this.pendingHostState=null;this.hostWriteInFlight=true;const task=update(ref(this.db,`rooms/${this.pin}/state`),state).catch(err=>{if(!this.pendingHostState)this.pendingHostState=state;console.warn('단어 찾기 상태 동기화 대기:',err);}).finally(()=>{this.hostWriteInFlight=false;if(this.connected&&this.pendingHostState&&!this.closed)setTimeout(()=>this._flushHostState(),0);});this.writeQueue=task;return task;}
   async _rearmHostMarker(){if(this.role!=='host'||!this.db||this.closed)return;try{if(this.disconnectOp)await this.disconnectOp.cancel();}catch{}await update(ref(this.db,`rooms/${this.pin}/state`),{hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()});const op=onDisconnect(ref(this.db,`rooms/${this.pin}/state/hostDisconnectedAt`));await op.set(serverTimestamp());this.disconnectOp=op;}
-  _watchConnection(){if(!this.db||this.connectionReady)return;const u=onValue(ref(this.db,'.info/connected'),snap=>{const connected=snap.val()===true,changed=connected!==this.connected;this.connected=connected;if(changed||!connected)updateNetworkBadge(connected);if(changed)this._emit({type:'connection',connected,at:this.now()});if(connected&&this.role==='host'&&!this.closed)this.attachInbox().then(()=>this._rearmHostMarker()).then(()=>this._flushHostState()).catch(()=>{});if(connected&&this.role!=='host'&&!this.closed)this._flushPending().catch(()=>{});});this.unsubs.push(u);this.connectionReady=true;}
-  async init(){const {db,auth}=await context();this.db=db;this.auth=auth;this.uid=auth.currentUser.uid;const off=onValue(ref(db,'.info/serverTimeOffset'),s=>{this.offset=Number(s.val())||0;});this.unsubs.push(off);this._watchConnection();if(this.role==='player'){const u=onValue(ref(db,`rooms/${this.pin}/state`),s=>{if(!s.exists())return;const room=s.val();this._cacheState(room);this._emit(room?.status==='closed'?{type:'room-closed'}:{type:'state',payload:{room}});},()=>{});this.unsubs.push(u);this._flushPending().catch(()=>{});}return this;}
+  _watchConnection(){if(!this.db||this.connectionReady)return;const u=onValue(ref(this.db,'.info/connected'),snap=>{const connected=snap.val()===true,changed=connected!==this.connected;this.connected=connected;if(changed||!connected)updateNetworkBadge(connected);if(changed){this._emit({type:'connection',connected,at:this.now()});try{window.dispatchEvent(new CustomEvent('kwb-connection',{detail:{pin:this.pin,role:this.role,connected}}));}catch{}}if(connected&&this.role==='host'&&!this.closed)this.attachInbox().then(()=>this._rearmHostMarker()).then(()=>this._flushHostState()).catch(()=>{});if(connected&&this.role!=='host'&&!this.closed){this._flushPending().catch(()=>{});this.playerRecovery?.recover();}});this.unsubs.push(u);this.connectionReady=true;}
+  async init(){const {db,auth}=await context();this.db=db;this.auth=auth;this.uid=auth.currentUser.uid;const off=onValue(ref(db,'.info/serverTimeOffset'),s=>{this.offset=Number(s.val())||0;});this.unsubs.push(off);this._watchConnection();if(this.role==='player'){
+      const stateRef=ref(db,`rooms/${this.pin}/state`);
+      this.playerRecovery=startPlayerConnectionRecovery({
+        subscribe:(next,error)=>onValue(stateRef,next,error),read:()=>get(stateRef),
+        isConnected:()=>this.connected===true&&!this.closed,flush:()=>this._flushPending(),
+        apply:room=>{this._cacheState(room);this._emit(room?.status==='closed'?{type:'room-closed'}:{type:'state',payload:{room}});}
+      });
+      this.playerRecovery.recover();this._flushPending().catch(()=>{});
+    }return this;}
   async createRoom(publicState){if(this.role!=='host')throw new Error('호스트 전용 기능입니다.');if(!this.db)await this.init();const owner=ref(this.db,`rooms/${this.pin}/ownerUid`),existing=await get(owner);if(existing.exists())throw new Error('이미 사용 중인 PIN입니다.');await set(owner,this.uid);await set(ref(this.db,`rooms/${this.pin}/createdAt`),serverTimestamp());const state={...clean(publicState),hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()};await set(ref(this.db,`rooms/${this.pin}/state`),state);this._cacheHostState(state);await this.attachInbox();await this._rearmHostMarker();}
   async attachInbox(){
     if(this.role!=='host'||this.inboxReady||!this.db||this.closed)return false;
@@ -59,5 +68,5 @@ export class WordSearchBus{
   async loadRoom(){if(!this.db)await this.init();let state=null;try{const s=await get(ref(this.db,`rooms/${this.pin}/state`));if(s.exists())state=s.val();}catch(err){state=this._readCachedState();if(!state)throw err;}if(!state)return null;this._cacheState(state);if(this.role!=='host'&&state.status!=='closed'&&state.status!=='lobby'&&state.players?.[this.uid]){this.resumeRoom=state;return {...state,status:'lobby',__resumeStatus:state.status};}return state;}
   async send(type,payload={}){if(this.role==='host')return;if(!this.db)await this.init();const resume=this.resumeRoom||this.latestState;if(type==='join'&&resume?.status!=='closed'&&resume?.status!=='lobby'&&resume?.players?.[this.uid]){this.resumeRoom=null;setTimeout(()=>this._emit({type:'state',payload:{room:resume},resumed:true}),0);return{resumed:true};}const item=this._queue(type,payload);if(!this.connected)return{queued:true,id:item.id};this._flushPending().catch(()=>{});return{queued:false,id:item.id};}
   async closeRoom(){if(this.role!=='host'||!this.db||this.closed)return;this.closed=true;try{await update(ref(this.db,`rooms/${this.pin}/state`),{status:'closed',closedAt:serverTimestamp()});}catch{}try{await this.disconnectOp?.cancel?.();}catch{}}
-  close(){try{this.disconnectOp?.cancel?.().catch?.(()=>{});}catch{}this.unsubs.splice(0).forEach(fn=>{try{fn();}catch{}});this.handlers.clear();this.connectionReady=false;}
+  close(){this.closed=true;this.playerRecovery?.stop();try{this.disconnectOp?.cancel?.().catch?.(()=>{});}catch{}this.unsubs.splice(0).forEach(fn=>{try{fn();}catch{}});this.handlers.clear();this.connectionReady=false;}
 }
