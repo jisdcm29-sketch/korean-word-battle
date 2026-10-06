@@ -1,5 +1,5 @@
 import { booksForSource, textbookName } from './catalog.js';
-import { getClassContext, setClassContext, clearClassContext, listClasses, saveClass, teacherId } from './class-manager.js?v=1.0';
+import { getClassContext, setClassContext, clearClassContext, listClasses, saveClass, deleteClass, teacherId } from './class-manager.js?v=1.1';
 
 const $=id=>document.getElementById(id);
 const SOURCE_KEY='kwb_arena_source_v1';
@@ -34,7 +34,13 @@ function showStep(){
 function classMsg(text,type='info'){els.classMessage.textContent=text||'';els.classMessage.dataset.type=type;}
 function renderClassList(classes=[]){
   if(!classes.length){els.classList.innerHTML='<div class="class-empty">등록된 반이 없습니다. 아래에서 첫 반을 추가하세요.</div>';return;}
-  els.classList.innerHTML=classes.map(c=>`<button type="button" class="class-choice" data-class-id="${escapeHtml(c.classId)}" data-class-name="${escapeHtml(c.className)}"><strong>${escapeHtml(c.className)}</strong><small>주간 점수 누적 사용</small></button>`).join('');
+  els.classList.innerHTML=classes.map(c=>`<div class="class-item" data-class-id="${escapeHtml(c.classId)}" data-class-name="${escapeHtml(c.className)}">
+    <button type="button" class="class-choice" data-class-id="${escapeHtml(c.classId)}" data-class-name="${escapeHtml(c.className)}"><strong>${escapeHtml(c.className)}</strong><small>주간 점수 누적 사용</small></button>
+    <div class="class-item-actions">
+      <button type="button" class="class-edit-btn" data-class-id="${escapeHtml(c.classId)}" data-class-name="${escapeHtml(c.className)}" aria-label="${escapeHtml(c.className)} 반 이름 수정">수정</button>
+      <button type="button" class="class-delete-btn" data-class-id="${escapeHtml(c.classId)}" data-class-name="${escapeHtml(c.className)}" aria-label="${escapeHtml(c.className)} 반 삭제">삭제</button>
+    </div>
+  </div>`).join('');
 }
 function escapeHtml(v){return String(v??'').replace(/[&<>'"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));}
 async function loadClassStep(){
@@ -69,7 +75,40 @@ document.querySelector('.source-card-grid').addEventListener('click',e=>{const c
 $('changeSourceBtn').addEventListener('click',()=>{selectedSource=null;showStep();});
 els.gameGrid.addEventListener('click',e=>{const card=e.target.closest('.game-card');if(card&&!card.disabled){selectedGame=card.dataset.game;fillLessons();render();}});
 els.book.addEventListener('change',()=>{fillLessons();render();});els.lesson.addEventListener('change',render);els.launchBtn.addEventListener('click',launch);
-els.classList.addEventListener('click',e=>{const btn=e.target.closest('.class-choice[data-class-id]');if(btn)chooseClass(btn.dataset.classId,btn.dataset.className);});
+els.classList.addEventListener('click',async e=>{
+  const editBtn=e.target.closest('.class-edit-btn[data-class-id]');
+  if(editBtn){
+    e.preventDefault();e.stopPropagation();
+    const classId=editBtn.dataset.classId,className=editBtn.dataset.className||'';
+    const nextName=prompt('수정할 반 이름을 입력하세요.',className);
+    if(nextName===null)return;
+    const name=nextName.trim();
+    if(!name){classMsg('반 이름을 입력하세요.','error');return;}
+    editBtn.disabled=true;classMsg('반 이름을 수정하는 중입니다…');
+    try{
+      const r=await saveClass(name,classId);
+      if(!r.ok){classMsg(r.message||'반 이름을 수정하지 못했습니다.','error');return;}
+      renderClassList(r.classes||[]);classMsg(`'${className}' → '${r.classItem?.className||name}'으로 수정했습니다.`,'success');
+    }catch(err){console.error('[KWB class rename]',err);classMsg('반 이름 수정 서버에 연결하지 못했습니다.','error');}
+    finally{if(document.body.contains(editBtn))editBtn.disabled=false;}
+    return;
+  }
+  const deleteBtn=e.target.closest('.class-delete-btn[data-class-id]');
+  if(deleteBtn){
+    e.preventDefault();e.stopPropagation();
+    const classId=deleteBtn.dataset.classId,className=deleteBtn.dataset.className||'';
+    if(!confirm(`'${className}' 반을 목록에서 삭제할까요?\n\n학생/점수 기록은 삭제하지 않고 보관되며, 반만 비활성화됩니다.`))return;
+    deleteBtn.disabled=true;classMsg('반을 삭제하는 중입니다…');
+    try{
+      const r=await deleteClass(classId);
+      if(!r.ok){classMsg(r.message||'반을 삭제하지 못했습니다.','error');return;}
+      renderClassList(r.classes||[]);classMsg(`'${className}' 반을 삭제했습니다. 기존 학생/점수 기록은 보관됩니다.`,'success');
+    }catch(err){console.error('[KWB class delete]',err);classMsg('반 삭제 서버에 연결하지 못했습니다.','error');}
+    finally{if(document.body.contains(deleteBtn))deleteBtn.disabled=false;}
+    return;
+  }
+  const btn=e.target.closest('.class-choice[data-class-id]');if(btn)chooseClass(btn.dataset.classId,btn.dataset.className);
+});
 $('skipClassBtn').addEventListener('click',chooseDailyOnly);
 $('changeClassBtn').addEventListener('click',changeClass);$('changeClassBtnGame').addEventListener('click',changeClass);
 $('addClassBtn').addEventListener('click',async()=>{
