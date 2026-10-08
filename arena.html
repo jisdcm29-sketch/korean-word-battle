@@ -75,6 +75,6 @@
   <script type="module" src="js/weekly-ranking-ui.js?v=1.0"></script>
   <script type="module" src="js/weekly-awards-ui.js?v=1.1"></script>
 
-  <script>/* KWB_OFFLINE_SW_V1 */if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>
+  <script>/* KWB_OFFLINE_SW_V1 */if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{}));}</script>
 </body>
 </html>
