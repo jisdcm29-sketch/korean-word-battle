@@ -2,7 +2,7 @@ import { initializeApp,getApps,getApp } from 'https://www.gstatic.com/firebasejs
 import { getAuth,signInAnonymously } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-auth.js';
 import { getDatabase,ref,get,set,update,push,onValue,onChildAdded,remove,onDisconnect,serverTimestamp } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig,isFirebaseConfigured } from './firebase-config.js?v=7.3';
-import { startPlayerConnectionRecovery } from './player-connection-recovery.js?v=1';
+import { startPlayerConnectionRecovery } from './player-connection-recovery.js?v=2';
 
 const PENDING_MAX_AGE_MS=30*60*1000;
 let shared=null;
@@ -43,6 +43,7 @@ export class WordSearchBus{
   async init(){const {db,auth}=await context();this.db=db;this.auth=auth;this.uid=auth.currentUser.uid;const off=onValue(ref(db,'.info/serverTimeOffset'),s=>{this.offset=Number(s.val())||0;});this.unsubs.push(off);this._watchConnection();if(this.role==='player'){
       const stateRef=ref(db,`rooms/${this.pin}/state`);
       this.playerRecovery=startPlayerConnectionRecovery({
+        now: () => this.now(),
         subscribe:(next,error)=>onValue(stateRef,next,error),read:()=>get(stateRef),
         isConnected:()=>this.connected===true&&!this.closed,flush:()=>this._flushPending(),
         apply:room=>{this._cacheState(room);this._emit(room?.status==='closed'?{type:'room-closed'}:{type:'state',payload:{room}});}

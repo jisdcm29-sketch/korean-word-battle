@@ -5,7 +5,7 @@ import {
   onValue, onChildAdded, onDisconnect, serverTimestamp
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig, isFirebaseConfigured } from './firebase-config.js?v=7.3';
-import { startPlayerConnectionRecovery } from './player-connection-recovery.js?v=1';
+import { startPlayerConnectionRecovery } from './player-connection-recovery.js?v=2';
 
 export { isFirebaseConfigured };
 
@@ -723,6 +723,7 @@ export class FirebaseBus {
     if (this.role !== 'host') {
       const stateRef = ref(db, `rooms/${this.pin}/state`);
       this.playerRecovery = startPlayerConnectionRecovery({
+        now: () => this.now(),
         subscribe: (next, error) => onValue(stateRef, next, error),
         read: () => get(stateRef),
         flush: () => this._flushPending(),
