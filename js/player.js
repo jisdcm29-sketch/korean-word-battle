@@ -1,5 +1,6 @@
+import { isConfirmedInputOpen } from './confirmed-game-state.js?v=1';
 import { LocalBus } from './local-bus.js?v=7.3';
-import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.2';
+import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.4';
 import { calculateScore, directionLabel } from './game-engine.js';
 
 const $=(id)=>document.getElementById(id);
@@ -76,7 +77,7 @@ function setError(t){$('joinError').textContent=t;}
 function readLocalRoom(pin){try{return JSON.parse(localStorage.getItem(`kwb_room_${pin}`)||'null')}catch{return null}}
 function toPublic(room){const q=room.quiz?.questions?.[room.questionIndex]||null;return {pin:room.pin,status:room.status,config:room.config,players:room.players,questionIndex:room.questionIndex,questionTotal:room.quiz?.questions?.length||0,questionStartAt:room.questionStartAt||0,questionEndAt:room.questionEndAt||0,countdownEndAt:room.countdownEndAt||0,resultEndAt:room.resultEndAt||0,currentQuestion:q?{id:q.id,direction:q.direction,prompt:q.prompt,options:q.options}:null,answeredUids:Object.keys(room.questionResults||{}),myResults:room.questionResults||{},revealAnswer:room.status==='result'&&q?q.answer:null};}
 function offlineActive(){return !networkConnected||hostDisconnected;}
-function syncOfflineLoop(){if(offlineActive()){if(!offlineLoop)offlineLoop=setInterval(advanceOfflineState,90);}else if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
+function syncOfflineLoop(){if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
 function handleMessage(msg){
   if(msg.type==='connection'){networkConnected=msg.connected!==false;syncOfflineLoop();return;}
   if(msg.type==='state'){
@@ -95,20 +96,7 @@ function phase3WordStart(index,startAt){
   state={...state,status:'playing',questionIndex:index,questionTotal:questions.length,questionStartAt:startAt,questionEndAt:startAt+duration,resultEndAt:0,currentQuestion:q,answeredUids:[],myResults:{},revealAnswer:null,offlineSynthetic:true,offlineFinal:false};
   renderState();return true;
 }
-function advanceOfflineState(){
-  if(!offlineActive()||!state||offlinePackage?.kind!=='word'||state.status==='lobby'||state.status==='finished')return;
-  const t=nowMs(),timing=offlinePackage.timing||{},delay=Number(timing.questionStartDelayMs)||250,resultMs=Number(timing.resultMs)||1900;
-  if(state.status==='countdown'&&t>=Number(state.countdownEndAt||0)){
-    const idx=Math.max(0,Number(state.questionIndex)>=0?Number(state.questionIndex):0);phase3WordStart(idx,Number(state.countdownEndAt||t)+delay);return;
-  }
-  if(state.status==='playing'&&t>=Number(state.questionEndAt||0)){
-    const last=Number(state.questionIndex)>=Number((offlinePackage.questions||[]).length)-1;
-    state={...state,status:'result',resultEndAt:Number(state.questionEndAt||t)+resultMs,revealAnswer:null,myResults:{},offlineSynthetic:true,offlineFinal:last};renderState();return;
-  }
-  if(state.status==='result'&&t>=Number(state.resultEndAt||0)&&!state.offlineFinal){
-    phase3WordStart(Number(state.questionIndex)+1,Number(state.resultEndAt||t)+delay);
-  }
-}
+function advanceOfflineState(){/* Wait for the next authoritative host state. */}
 
 function renderState(){
   if(!joined||!state)return;
@@ -147,6 +135,7 @@ function renderQuiz(me){
   if(confirmed){submittedFor=state.questionIndex;submittedChoice=chosen;}
 }
 function answer(i){
+  if(!isConfirmedInputOpen(state,(bus?.now?bus.now():Date.now())))return;
   if(!state||state.status!=='playing'||submittedFor===state.questionIndex)return;
   submittedFor=state.questionIndex;submittedChoice=i;
   document.querySelectorAll('.answer-btn').forEach(b=>{b.disabled=true;b.classList.toggle('chosen',Number(b.dataset.i)===i)});

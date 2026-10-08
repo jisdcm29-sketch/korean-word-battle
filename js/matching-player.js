@@ -1,5 +1,6 @@
+import { isConfirmedInputOpen } from './confirmed-game-state.js?v=1';
 import { LocalBus, publicRoomState as localPublicRoomState } from './local-bus.js?v=7.6';
-import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.2';
+import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.4';
 import { calculateMatchingPairScore, calculateRoundClearBonus } from './matching-engine.js';
 
 const $=(id)=>document.getElementById(id);
@@ -37,7 +38,7 @@ async function join(){
 }
 function readLocalRoom(pin){try{return JSON.parse(localStorage.getItem(`kwb_room_${pin}`)||'null');}catch{return null;}}
 function offlineActive(){return !networkConnected||hostDisconnected;}
-function syncOfflineLoop(){if(offlineActive()){if(!offlineLoop)offlineLoop=setInterval(advanceOfflineState,90);}else if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
+function syncOfflineLoop(){if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
 function handleMessage(msg){
   if(msg.type==='connection'){networkConnected=msg.connected!==false;syncOfflineLoop();return;}
   if(msg.type==='state'){state=msg.payload.room;offlinePackage=state?.offlinePackage||offlinePackage;hostDisconnected=Boolean(state?.hostDisconnectedAt);syncOfflineLoop();renderState();}
@@ -46,13 +47,7 @@ function handleMessage(msg){
 
 function phase3ResetMatchingPlayers(){Object.values(state?.players||{}).forEach(p=>{p.matchedPairIds=[];p.matchedCount=0;p.mistakes=0;p.combo=0;p.roundFinishedAt=0;p.lastGain=0;});}
 function phase3MatchingStart(index,startAt){const rounds=offlinePackage?.rounds||[],round=rounds[index];if(!round||!state)return false;phase3ResetMatchingPlayers();const duration=Math.max(1000,Number(state.config?.roundTime||45)*1000);state={...state,status:'playing',roundIndex:index,roundTotal:rounds.length,roundStartAt:startAt,roundEndAt:startAt+duration,roundResultEndAt:0,currentRound:round,offlineSynthetic:true,offlineFinal:false};renderState();return true;}
-function advanceOfflineState(){
-  if(!offlineActive()||!state||offlinePackage?.kind!=='matching'||state.status==='lobby'||state.status==='finished')return;
-  const t=nowMs(),timing=offlinePackage.timing||{},delay=Number(timing.roundStartDelayMs)||260,resultMs=Number(timing.resultMs)||2800;
-  if(state.status==='countdown'&&t>=Number(state.countdownEndAt||0)){const idx=Math.max(0,Number(state.roundIndex)>=0?Number(state.roundIndex):0);phase3MatchingStart(idx,Number(state.countdownEndAt||t)+delay);return;}
-  if(state.status==='playing'&&t>=Number(state.roundEndAt||0)){const last=Number(state.roundIndex)>=Number((offlinePackage.rounds||[]).length)-1;state={...state,status:'round-result',roundResultEndAt:Number(state.roundEndAt||t)+resultMs,offlineSynthetic:true,offlineFinal:last};renderState();return;}
-  if(state.status==='round-result'&&t>=Number(state.roundResultEndAt||0)&&!state.offlineFinal){phase3MatchingStart(Number(state.roundIndex)+1,Number(state.roundResultEndAt||t)+delay);}
-}
+function advanceOfflineState(){/* Wait for the next authoritative host state. */}
 
 function renderState(){
   if(!joined||!state)return; const me=state.players?.[uid]; if(!me)return;
@@ -86,7 +81,7 @@ function renderBoard(cards,matched){
 }
 function findCard(id){return state?.currentRound?.cards?.find((c)=>c.id===id)||null;}
 function clickCard(cardEl){
-  if(!state||state.status!=='playing'||cardEl.disabled)return;const id=cardEl.dataset.id;const card=findCard(id);if(!card)return;const me=state.players?.[uid];if(!me)return;const matched=new Set([...(me.matchedPairIds||[]),...optimisticMatched]);if(matched.has(card.pairId))return;
+  if(!isConfirmedInputOpen(state,(bus?.now?bus.now():Date.now()))||cardEl.disabled)return;const id=cardEl.dataset.id;const card=findCard(id);if(!card)return;const me=state.players?.[uid];if(!me)return;const matched=new Set([...(me.matchedPairIds||[]),...optimisticMatched]);if(matched.has(card.pairId))return;
   if(!selectedCardId){selectedCardId=id;cardEl.classList.add('selected');setFeedback(card.lang==='ko'?'같은 뜻의 몽골어 카드를 선택하세요.':'같은 뜻의 한국어 카드를 선택하세요.','');return;}
   if(selectedCardId===id){selectedCardId=null;cardEl.classList.remove('selected');return;}
   const first=findCard(selectedCardId);if(!first){selectedCardId=id;renderPlay(me);return;}
@@ -117,7 +112,7 @@ function startSoloRound(index){
   clearTimeout(soloRoundTimer);if(index>=solo.matching.rounds.length)return finishSolo();soloPlayer.matchedPairIds=[];soloPlayer.matchedCount=0;soloPlayer.mistakes=0;soloPlayer.combo=0;soloPlayer.roundFinishedAt=0;optimisticMatched=new Set();selectedCardId=null;boardRoundIndex=-99;const start=Date.now()+180;const end=start+solo.config.roundTime*1000;state={status:'playing',config:solo.config,players:{solo:soloPlayer},roundIndex:index,roundTotal:solo.matching.roundCount,roundStartAt:start,roundEndAt:end,currentRound:solo.matching.rounds[index],blindActive:false};show('playView');renderPlay(soloPlayer);runTimer();soloRoundTimer=setTimeout(()=>finishSoloRound(),solo.config.roundTime*1000+240);
 }
 function soloMatch(pairId){
-  if(!state||state.status!=='playing'||soloPlayer.matchedPairIds.includes(pairId))return;const at=Date.now();soloPlayer.matchedPairIds.push(pairId);soloPlayer.matchedCount=soloPlayer.matchedPairIds.length;soloPlayer.combo+=1;const duration=solo.config.roundTime*1000;const elapsed=Math.max(0,at-state.roundStartAt);let points=calculateMatchingPairScore(duration,elapsed,soloPlayer.combo);if(soloPlayer.matchedCount>=solo.config.pairsPerRound&&!soloPlayer.roundFinishedAt){soloPlayer.roundFinishedAt=at;points+=calculateRoundClearBonus(duration,elapsed);}soloPlayer.score+=points;soloPlayer.lastGain=points;soloPlayer.lastGainAt=at;state.players.solo={...soloPlayer};renderPlay(soloPlayer);if(soloPlayer.matchedCount>=solo.config.pairsPerRound){clearTimeout(soloRoundTimer);soloRoundTimer=setTimeout(()=>finishSoloRound(),650);}
+  if(!isConfirmedInputOpen(state,(bus?.now?bus.now():Date.now()))||soloPlayer.matchedPairIds.includes(pairId))return;const at=Date.now();soloPlayer.matchedPairIds.push(pairId);soloPlayer.matchedCount=soloPlayer.matchedPairIds.length;soloPlayer.combo+=1;const duration=solo.config.roundTime*1000;const elapsed=Math.max(0,at-state.roundStartAt);let points=calculateMatchingPairScore(duration,elapsed,soloPlayer.combo);if(soloPlayer.matchedCount>=solo.config.pairsPerRound&&!soloPlayer.roundFinishedAt){soloPlayer.roundFinishedAt=at;points+=calculateRoundClearBonus(duration,elapsed);}soloPlayer.score+=points;soloPlayer.lastGain=points;soloPlayer.lastGainAt=at;state.players.solo={...soloPlayer};renderPlay(soloPlayer);if(soloPlayer.matchedCount>=solo.config.pairsPerRound){clearTimeout(soloRoundTimer);soloRoundTimer=setTimeout(()=>finishSoloRound(),650);}
 }
 function soloMiss(){if(!state||state.status!=='playing')return;soloPlayer.combo=0;soloPlayer.mistakes+=1;state.players.solo={...soloPlayer};renderPlay(soloPlayer);}
 function finishSoloRound(){

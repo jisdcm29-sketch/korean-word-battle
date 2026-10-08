@@ -1,4 +1,5 @@
-import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.3';
+import { isConfirmedInputOpen } from './confirmed-game-state.js?v=1';
+import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.4';
 import { directionLabel } from './game-engine.js';
 
 const $ = (id) => document.getElementById(id);
@@ -159,7 +160,7 @@ async function join(){
   }
 }
 function offlineActive(){return !networkConnected||hostDisconnected;}
-function syncOfflineLoop(){if(offlineActive()){if(!offlineLoop)offlineLoop=setInterval(advanceOfflineState,90);}else if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
+function syncOfflineLoop(){if(offlineLoop){clearInterval(offlineLoop);offlineLoop=null;}}
 function handleMessage(msg){
   if(msg.type === 'connection'){
     networkConnected=msg.connected!==false;
@@ -195,26 +196,7 @@ function phase3BeginCombinedCountdown(stage,index,endAt){
   state={...state,status:'countdown',stageIndex:stage,stageType:['word','matching','sentence'][stage],unitIndex:index,unitTotal:phase3StageItems(stage).length,countdownEndAt:endAt,unitStartAt:0,unitEndAt:0,resultEndAt:0,currentQuestion:null,currentRound:null,answeredUids:[],unitResults:{},revealAnswer:null,revealSentence:null,offlineSynthetic:true,offlineFinal:false};
   renderState();
 }
-function advanceOfflineState(){
-  if(!offlineActive()||!state||offlinePackage?.kind!=='combined'||state.status==='lobby'||state.status==='finished')return;
-  const t=now(),timing=offlinePackage.timing||{},firstCountdown=Number(timing.firstCountdownMs)||3000,nextCountdown=Number(timing.nextCountdownMs)||1600,startDelay=Number(timing.unitStartDelayMs)||150,resultMs=Number(timing.resultMs)||2500;
-  const stage=Math.max(0,Math.min(2,Number(state.stageIndex)||0));
-  if(state.status==='transition'&&t>=Number(state.transitionEndAt||0)+40){phase3BeginCombinedCountdown(stage,0,Number(state.transitionEndAt||t)+50+firstCountdown);return;}
-  if(state.status==='countdown'&&t>=Number(state.countdownEndAt||0)){phase3StartCombinedUnit(stage,Math.max(0,Number(state.unitIndex)||0),Number(state.countdownEndAt||t)+startDelay);return;}
-  if(state.status==='playing'&&t>=Number(state.unitEndAt||0)){
-    const items=phase3StageItems(stage),last=Number(state.unitIndex)>=items.length-1;
-    const completed=Math.min(Number(state.totalSteps)||1,Number(state.completedSteps||0)+1);
-    state={...state,status:'result',completedSteps:completed,resultEndAt:Number(state.unitEndAt||t)+resultMs,unitResults:{},answeredUids:[],revealAnswer:null,revealSentence:null,offlineSynthetic:true,offlineFinal:last&&stage===2};renderState();return;
-  }
-  if(state.status==='result'&&t>=Number(state.resultEndAt||0)){
-    const items=phase3StageItems(stage),next=Number(state.unitIndex)+1;
-    if(next<items.length){phase3BeginCombinedCountdown(stage,next,Number(state.resultEndAt||t)+nextCountdown);return;}
-    if(stage<2){
-      const nextStage=stage+1;
-      state={...state,status:'transition',stageIndex:nextStage,stageType:['word','matching','sentence'][nextStage],unitIndex:0,unitTotal:phase3StageItems(nextStage).length,transitionEndAt:Number(state.resultEndAt||t)+2400,countdownEndAt:0,unitStartAt:0,unitEndAt:0,resultEndAt:0,currentQuestion:null,currentRound:null,answeredUids:[],unitResults:{},offlineSynthetic:true,offlineFinal:false};renderState();
-    }
-  }
-}
+function advanceOfflineState(){/* Wait for the next authoritative host state. */}
 
 function renderState(){
   if(!joined || !state) return;
@@ -334,6 +316,7 @@ function renderWord(me){
   updateTimer();
 }
 function submitWord(choice){
+  if(!isConfirmedInputOpen(state,(bus?.now?bus.now():Date.now())))return;
   if(!state || state.status !== 'playing' || state.stageIndex !== 0 || wordSubmittedKey === unitKey()) return;
   wordSubmittedKey = unitKey();
   document.querySelectorAll('#wordOptions .answer-btn').forEach(button => {
@@ -418,7 +401,7 @@ function renderMatching(me){
   updateTimer();
 }
 function clickMatchCard(cardEl){
-  if(!state || state.status !== 'playing' || state.stageIndex !== 1 || cardEl.disabled) return;
+  if(!isConfirmedInputOpen(state,(bus?.now?bus.now():Date.now())) || state.stageIndex !== 1 || cardEl.disabled) return;
   const id = cardEl.dataset.id;
   const card = findMatchingCard(id);
   if(!card) return;
@@ -559,6 +542,7 @@ function resetSentence(){
   renderSentence(myPlayer(),false);
 }
 function submitSentence(){
+  if(!isConfirmedInputOpen(state,(bus?.now?bus.now():Date.now())))return;
   const tokens = sentenceTokens();
   if(!state?.currentQuestion || sentenceSubmittedKey === unitKey() || sentenceOrder.length !== tokens.length) return;
   sentenceSubmittedKey = unitKey();
