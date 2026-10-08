@@ -5,7 +5,7 @@ import {
   onValue, onChildAdded, onDisconnect, serverTimestamp
 } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-database.js';
 import { firebaseConfig, isFirebaseConfigured } from '../../js/firebase-config.js?v=7.4';
-import { startPlayerConnectionRecovery } from '../../js/player-connection-recovery.js?v=1';
+import { startPlayerConnectionRecovery } from '../../js/player-connection-recovery.js?v=2';
 
 
 const SENTENCE_PENDING_MAX_AGE_MS=30*60*1000;
@@ -255,6 +255,7 @@ export class SentencePlayerBus{
 
     const stateRef=ref(db,`rooms/${this.pin}/state`);
     this.playerRecovery=startPlayerConnectionRecovery({
+        now: () => this.now(),
       subscribe:(next,error)=>onValue(stateRef,next,error),read:()=>get(stateRef),
       isConnected:()=>this.connected===true&&!this.closed,flush:()=>this._flush(),
       apply:state=>{
