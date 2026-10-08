@@ -1,11 +1,12 @@
+import { createHostGameRecovery } from './host-game-recovery.js?v=1';
 import { CATALOG, booksForSource, textbookName } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore, directionLabel, getQuizCapacity } from './game-engine.js';
 import { LocalBus } from './local-bus.js?v=7.3';
-import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
+import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.4';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.5';
+import { requireTeacherAccess } from './access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
@@ -32,6 +33,7 @@ const DEMO_STUDENTS = [
   { name:'Марал', avatar:'🐸', accuracy:.65, speed:.58 }
 ];
 
+var hostRecovery;
 let room = null;
 let bus = null;
 let loop = null;
@@ -876,6 +878,7 @@ function startLoop() {
 }
 
 function persistAndBroadcast() {
+  hostRecovery?.capture();
   if (!room||!bus) return;
   const pending = bus.saveRoom(room);
   if (pending?.catch) pending.catch((e) => console.error('room sync failed', e));
@@ -1142,3 +1145,20 @@ $('startGameBtn').addEventListener('click',startGame);
 $('backSetupBtn').addEventListener('click',resetToSetup);
 $('endRoomBtn').addEventListener('click',resetToSetup);
 $('newGameBtn').addEventListener('click',resetToSetup);
+
+async function restoreHostGame(saved){
+  setupAudioSettings();await audio.unlock();
+  const restored=new FirebaseBus(saved.room.pin,'host');
+  try{
+    await restored.resumeHost(saved,()=>{room=saved.room;bus=restored;bus.seen=new Set(saved.processedIds||[]);bus.on(handleMessage);});
+    const pin=room.pin,url=buildStudentEntryUrl(pin);
+    $('setupView').classList.add('hidden');$('hostView').classList.remove('hidden');$('roomPin').textContent=pin;
+    $('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);
+    createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'});
+    $('lobbyArea').classList.toggle('hidden',room.status!=='lobby');$('gameArea').classList.toggle('hidden',['lobby','finished'].includes(room.status));$('finalArea').classList.toggle('hidden',room.status!=='finished');
+    setGameFocus(room.status!=='lobby');
+    if(room.status==='lobby')renderLobby();else if(room.status==='finished')renderFinal();else renderGame();
+    persistAndBroadcast();startLoop();
+  }catch(err){restored.close();bus=null;room=null;throw err;}
+}
+hostRecovery=createHostGameRecovery({getSnapshot:()=>room&&bus&&!room.demoMode&&bus.mode==='firebase'&&bus.hostSessionId?{room:room,uid:bus.uid,sessionId:bus.hostSessionId,processedIds:[...bus.seen]}:null,restore:restoreHostGame});

@@ -1,6 +1,7 @@
-import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.2';
+import { createHostGameRecovery } from '../../js/host-game-recovery.js?v=1';
+import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.4';
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
-import { requireTeacherAccess } from '../../js/access-control.js?v=1.5';
+import { requireTeacherAccess } from '../../js/access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from '../../js/late-join-panel.js?v=1.0';
 import { normalizeSentenceCards, suggestSentenceCards } from '../../js/sentence-card-rules.js?v=1.0';
 function buildStudentEntryUrl(pin){
@@ -197,6 +198,7 @@ const els={
   fireworksLayer:$('fireworksLayer'),correctToast:$('correctToast')
 };
 
+var hostRecovery;
 let room=null,bus=null,isDemo=false,fullQuestions=[],currentQuestion=null,roundSubmissions=new Map(),correctCount=0,roundTimers=[],raf=null,revealRaf=null,countdownTimer=null,roundEndGuard=null,revealEndGuard=null;
 let audioCtx=null,muted=false,volume=1,editingQuestionIndex=null,lastMode='actual';
 let tensionTimer=null,toastTimer=null;
@@ -371,7 +373,7 @@ function publicRoomState(){
     offlinePackage:phase3SentencePackage()
   };
 }
-async function persist(){if(!bus||isDemo)return true;try{await bus.saveState(publicRoomState());return true;}catch(err){console.error('문장 배틀 상태 동기화 실패:',err);return false;}}
+async function persist(){hostRecovery?.capture();if(!bus||isDemo)return true;try{await bus.saveState(publicRoomState());return true;}catch(err){console.error('문장 배틀 상태 동기화 실패:',err);return false;}}
 
 function renderLobby(){
   const players=Object.values(room?.players||{});
@@ -418,7 +420,7 @@ async function createRoom(demo=false){
     room={pin,status:'lobby',config:{timeLimit,sourceType:selectedSource,snuBook:selectedBook,snuLesson:selectedLesson},players:{},questionIndex:-1,answerCount:0,roundResults:{},createdAt:Date.now()};
     if(demo){DEMO_NAMES.forEach(([name,avatar],i)=>{room.players[`demo-${i+1}`]={uid:`demo-${i+1}`,name,avatar,score:0};});}
     else{
-      bus=new SentenceHostBus(pin);bus.on(handleMessage);await bus.init();await bus.createRoom(publicRoomState());
+      bus=new SentenceHostBus(pin);bus.on(handleMessage);await bus.init();await bus.createRoom(publicRoomState());hostRecovery?.capture();
     }
     els.roomPin.textContent=demo?'DEMO':pin;els.joinLabel.textContent=demo?'10명 자동 시연':'GAME PIN';
     const join=buildJoinUrl();els.joinUrl.textContent=join;renderQr(join);if(!demo)createLateJoinPanel({pin,url:join,getStatus:()=>room?.status,enabled:()=>!isDemo});els.openPlayerBtn.onclick=()=>{const preview=new URL(join);preview.searchParams.set('preview','1');window.open(preview.href,'_blank');};
@@ -571,7 +573,7 @@ els.questionList.addEventListener('click',e=>{const b=e.target.closest('[data-ac
 
 [...document.querySelectorAll('.time-chip')].forEach(ch=>ch.addEventListener('click',()=>{els.timeInput.value=ch.dataset.time;document.querySelectorAll('.time-chip').forEach(x=>x.classList.toggle('active',x===ch));}));els.timeInput.addEventListener('input',()=>{const v=Number(els.timeInput.value);document.querySelectorAll('.time-chip').forEach(x=>x.classList.toggle('active',Number(x.dataset.time)===v));});
 els.createRoomBtn.addEventListener('click',()=>createRoom(false));els.demoBtn.addEventListener('click',()=>createRoom(true));els.startGameBtn.addEventListener('click',beginGame);els.lobbyHomeBtn.addEventListener('click',goHome);els.gameHomeBtn.addEventListener('click',goHome);els.finalHomeBtn.addEventListener('click',goHome);els.finalAgainBtn.addEventListener('click',()=>{goHome().then(()=>createRoom(lastMode==='demo'));});
-window.addEventListener('beforeunload',()=>{try{bus?.closeRoom();}catch{}});
+window.addEventListener('beforeunload',()=>{hostRecovery?.capture();try{bus?.close();}catch{}});
 
 async function initializeSentenceBattle(){
   if(els.sentenceBookContext)els.sentenceBookContext.textContent=`문장 배틀 · ${selectedTextbookName} ${selectedBook} · ${selectedLesson}과`;
@@ -594,3 +596,22 @@ async function initializeSentenceBattle(){
   }
 }
 initializeSentenceBattle();
+
+async function restoreHostGame(saved){
+  initAudio();const restored=new SentenceHostBus(saved.room.pin);
+  try{
+    await restored.resumeHost(saved,()=>{room=saved.room;fullQuestions=saved.fullQuestions;currentQuestion=fullQuestions[room.questionIndex]||null;bus=restored;bus.seen=new Set(saved.processedIds||[]);isDemo=false;bus.on(handleMessage);});
+    els.roomPin.textContent=room.pin;els.joinLabel.textContent='GAME PIN';const join=buildJoinUrl();els.joinUrl.textContent=join;renderQr(join);
+    createLateJoinPanel({pin:room.pin,url:join,getStatus:()=>room?.status,enabled:()=>true});els.openPlayerBtn.onclick=()=>window.open(join,'_blank');
+    if(room.status==='lobby'){renderLobby();setView('lobby');}
+    else if(room.status==='finished'){renderFinal();setView('final');startFinalCeremonyMusic();}
+    else{
+      setView('game');renderGameMeta();
+      if(room.status==='countdown'){showCountdown(room.countdownEndAt);countdownTimer=setTimeout(startRound,Math.max(0,room.countdownEndAt-now()));}
+      else if(room.status==='playing'){els.playingStage.classList.remove('hidden');els.revealStage.classList.add('hidden');runHostTimer();startTensionAudio();}
+      else if(room.status==='result'){els.playingStage.classList.add('hidden');els.revealStage.classList.remove('hidden');els.revealedSentence.textContent=room.revealSentence;els.variantNote.classList.toggle('hidden',room.variantCount<=1);requestAnimationFrame(fitRevealedSentence);runRevealTimer();}
+    }
+    void persist();
+  }catch(err){restored.close();bus=null;room=null;throw err;}
+}
+hostRecovery=createHostGameRecovery({getSnapshot:()=>room&&bus&&!isDemo&&bus.hostSessionId?{room:room,uid:bus.uid,sessionId:bus.hostSessionId,processedIds:[...bus.seen],fullQuestions}:null,restore:restoreHostGame});

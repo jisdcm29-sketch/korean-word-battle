@@ -1,3 +1,5 @@
+import { updateConnectionBadge, clearConnectionBadge } from '../../js/network-connection-status.js?v=1';
+import { PendingAnswerQueue, showAnswerStorageWarning } from '../../js/pending-answer-queue.js?v=1';
 import { initializeApp, getApps, getApp } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-app.js';
 import { getAuth, signInAnonymously } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-auth.js';
 import {
@@ -9,8 +11,8 @@ import { startPlayerConnectionRecovery } from '../../js/player-connection-recove
 
 
 const SENTENCE_PENDING_MAX_AGE_MS=30*60*1000;
-function registerOfflineWorker(){try{if(!('serviceWorker' in navigator))return;const url=new URL('../../sw.js',import.meta.url);navigator.serviceWorker.register(url).catch(()=>{});}catch{}}
-function updateNetworkBadge(connected){if(typeof document==='undefined')return;let el=document.querySelector('.kwb-network-badge');if(!el){el=document.createElement('div');el.className='kwb-network-badge';Object.assign(el.style,{position:'fixed',left:'12px',bottom:'10px',zIndex:'99998',padding:'8px 12px',borderRadius:'999px',font:'800 12px/1.25 system-ui,sans-serif',boxShadow:'0 8px 24px rgba(0,0,0,.25)',pointerEvents:'none'});document.body?.appendChild(el);}if(!el)return;if(!connected){el.dataset.offline='1';el.textContent='⚠ 인터넷 연결 끊김 · 게임 계속 진행 · 답안 저장 중';el.style.background='rgba(117,72,0,.94)';el.style.color='#fff2bd';el.style.display='block';el.style.opacity='1';}else{delete el.dataset.offline;el.textContent='✓ 인터넷 연결 복구 · 자동 동기화 중';el.style.background='rgba(5,92,67,.94)';el.style.color='#d7fff1';el.style.display='block';el.style.opacity='1';setTimeout(()=>{if(el&&!el.dataset.offline)el.style.opacity='0';},2400);}}
+function registerOfflineWorker(){try{if(!('serviceWorker' in navigator))return;const url=new URL('../../sw.js',import.meta.url);navigator.serviceWorker.register(url,{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{});}catch{}}
+
 registerOfflineWorker();
 
 let ctxPromise = null;
@@ -84,7 +86,7 @@ export class SentenceHostBus{
     this.db=null;
     this.auth=null;
     this.uid=null;
-    this.handlers=new Set();
+    this.handlers=new Set();this.seen=new Set();
     this.unsubs=[];
     this.writeQueue=Promise.resolve();
     this.closed=false;
@@ -94,7 +96,7 @@ export class SentenceHostBus{
     this.connected=true;
   }
   on(fn){this.handlers.add(fn);return()=>this.handlers.delete(fn);}
-  emit(msg){this.handlers.forEach(fn=>fn(msg));}
+  emit(msg){if(msg?.id){if(this.seen.has(msg.id))return;this.seen.add(msg.id);if(this.seen.size>5000)this.seen.delete(this.seen.values().next().value);}this.handlers.forEach(fn=>fn(msg));}
   now(){return serverNow();}
   async _rearmDisconnectMarker(){
     if(!this.db||this.closed)return;
@@ -111,11 +113,29 @@ export class SentenceHostBus{
     const connectedRef=ref(db,'.info/connected');
     const unsub=onValue(connectedRef,snap=>{
       const next=snap.val()===true;
-      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});updateNetworkBadge(next);}
-      if(next&&!this.closed)this._rearmDisconnectMarker().then(()=>this._flushHostState()).catch(err=>console.warn('문장 배틀 호스트 재연결 복구 실패:',err));
+      updateConnectionBadge(this,next);
+      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});}
+      if(next&&!this.closed && !this.hostRecoveryPending)this._rearmDisconnectMarker().then(()=>this._flushHostState()).catch(err=>console.warn('문장 배틀 호스트 재연결 복구 실패:',err));
     });
     this.unsubs.push(unsub);
     return this;
+  }
+  async resumeHost(checkpoint, apply){
+    this.hostRecoveryPending=true;
+    try{
+      if(!this.db)await this.init();
+      const owner=await get(ref(this.db,`rooms/${this.pin}/ownerUid`));
+      const snapshot=await get(ref(this.db,`rooms/${this.pin}/state`));
+      const state=snapshot.exists()?snapshot.val():null;
+      if(!owner.exists()||owner.val()!==this.uid||checkpoint.uid!==this.uid||!state||state.status==='closed'||!checkpoint.sessionId||state.hostRecoverySessionId!==checkpoint.sessionId)
+        throw new Error('기존 게임의 소유자 또는 방 상태를 확인할 수 없습니다. 새 방을 만들어 주세요.');
+      this.hostSessionId=checkpoint.sessionId;
+      await apply();
+      this.hostRecoveryPending=false;
+      await this.attachInbox();
+      await this._rearmDisconnectMarker();
+      return state;
+    }catch(err){this.close();throw err;}
   }
   async createRoom(state){
     if(!this.db) await this.init();
@@ -125,14 +145,9 @@ export class SentenceHostBus{
     await set(ownerRef,this.uid);
     try{
       await set(ref(this.db,`rooms/${this.pin}/createdAt`),serverTimestamp());
-      await set(ref(this.db,`rooms/${this.pin}/state`),{...state,hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()});
-      const inboxRef=ref(this.db,`rooms/${this.pin}/inbox`);
-      const unsub=onChildAdded(inboxRef,async snap=>{
-        const msg=snap.val();
-        if(msg) this.emit({...msg,id:snap.key});
-        try{await remove(snap.ref);}catch{}
-      });
-      this.unsubs.push(unsub);
+      this.hostSessionId=`${this.uid}-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+      await set(ref(this.db,`rooms/${this.pin}/state`),{...state,hostRecoverySessionId:this.hostSessionId,hostDisconnectedAt:null,hostUpdatedAt:serverTimestamp()});
+      this.attachInbox();
 
       // 통신 단절을 게임 종료로 처리하지 않습니다.
       // 서버에는 호스트 연결이 끊긴 시각만 기록합니다.
@@ -141,6 +156,16 @@ export class SentenceHostBus{
       try{await remove(ownerRef);}catch{}
       throw err;
     }
+  }
+  attachInbox(){
+    if(this.inboxReady||this.closed||this.hostRecoveryPending)return;
+    this.inboxReady=true;
+    const inboxRef=ref(this.db,`rooms/${this.pin}/inbox`);
+    const unsub=onChildAdded(inboxRef,async snap=>{
+      const msg=snap.val();if(msg)this.emit({...msg,id:snap.key});
+      try{await remove(snap.ref);}catch{}
+    },()=>{this.inboxReady=false;});
+    this.unsubs.push(unsub);
   }
   _hostCheckpointKey(){return `kwb_sentence_host_checkpoint_v1_${this.pin}`;}
   _cacheHostState(state){try{localStorage.setItem(this._hostCheckpointKey(),JSON.stringify({savedAt:Date.now(),state}));}catch{}}
@@ -174,6 +199,8 @@ export class SentenceHostBus{
     this.close();
   }
   close(){
+    clearConnectionBadge(this);
+    this.closed=true;
     try{this.disconnectOp?.cancel?.().catch?.(()=>{});}catch{}
     this.unsubs.forEach(fn=>{try{fn();}catch{}});
     this.unsubs=[];
@@ -217,15 +244,16 @@ export class SentencePlayerBus{
     const key=this._stateKey();if(!key)return null;
     try{const p=JSON.parse(localStorage.getItem(key)||'null');if(!p?.state)return null;if(Date.now()-Number(p.savedAt||0)>30*60*1000){localStorage.removeItem(key);return null;}const pack=this._readPackage();return pack?{...p.state,offlinePackage:pack}:p.state;}catch{return null;}
   }
-  _readPending(){
-    const key=this._pendingKey();if(!key)return[];
-    try{const list=JSON.parse(localStorage.getItem(key)||'[]');if(!Array.isArray(list))return[];const fresh=list.filter(x=>x?.id&&Date.now()-Number(x.queuedAt||0)<=SENTENCE_PENDING_MAX_AGE_MS);if(fresh.length!==list.length)localStorage.setItem(key,JSON.stringify(fresh));return fresh;}catch{return[];}
+  _answerQueue(){
+    if(!this.pendingAnswers)this.pendingAnswers=new PendingAnswerQueue({key:()=>this._pendingKey(),maxAge:SENTENCE_PENDING_MAX_AGE_MS,onStorageChange:showAnswerStorageWarning});
+    return this.pendingAnswers;
   }
-  _writePending(list){const key=this._pendingKey();if(!key)return;try{if(list.length)localStorage.setItem(key,JSON.stringify(list));else localStorage.removeItem(key);}catch{}}
+  _readPending(){return this._answerQueue().read();}
+  _writePending(list){return this._answerQueue().write(list);}
   _queue(type,payload={}){
     const at=this.now(),id=`${this.uid||'u'}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,10)}`;
     const item={id,type,at,queuedAt:Date.now(),payload:{...payload,uid:this.uid,clientAt:at}};
-    const list=this._readPending();list.push(item);this._writePending(list.slice(-500));return item;
+    const list=this._readPending();list.push(item);this._writePending(list);return item;
   }
   async _deliver(item){
     const msgRef=ref(this.db,`rooms/${this.pin}/inbox/${item.id}`);
@@ -248,8 +276,9 @@ export class SentencePlayerBus{
     const connectedRef=ref(db,'.info/connected');
     const connUnsub=onValue(connectedRef,snap=>{
       const next=snap.val()===true;
-      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});this._domEvent('kwb-connection',{connected:next});updateNetworkBadge(next);}
-      if(next&&!this.closed){this._flush().catch(()=>{});this.playerRecovery?.recover();}
+      updateConnectionBadge(this,next);
+      if(next!==this.connected){this.connected=next;this.emit({type:'connection',connected:next,at:this.now()});this._domEvent('kwb-connection',{connected:next});}
+      if(next&&!this.closed && !this.hostRecoveryPending){this._flush().catch(()=>{});this.playerRecovery?.recover();}
     });
     this.unsubs.push(connUnsub);
 
@@ -289,6 +318,6 @@ export class SentencePlayerBus{
     if(!this.connected){this._domEvent('kwb-delivery',{status:'queued',messageType:type});return{queued:true,id:item.id};}
     this._flush().catch(()=>{});return{queued:false,id:item.id};
   }
-  close(){this.closed=true;this.playerRecovery?.stop();this.handlers.clear();this.unsubs.forEach(fn=>{try{fn();}catch{}});this.unsubs=[];}
+  close(){clearConnectionBadge(this);this.closed=true;this.playerRecovery?.stop();this.handlers.clear();this.unsubs.forEach(fn=>{try{fn();}catch{}});this.unsubs=[];}
 }
 

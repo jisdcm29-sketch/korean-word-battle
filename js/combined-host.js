@@ -1,12 +1,14 @@
+var hostRecovery;
+import { createHostGameRecovery } from './host-game-recovery.js?v=1';
 import { loadByConfig } from './data-loader.js';
 import { buildQuiz, calculateScore } from './game-engine.js';
 import { buildMatchingRounds } from './matching-engine.js';
-import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore } from './firebase-bus.js?v=8.3';
-import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-sample/js/sentence-live.js?v=3.2';
+import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore } from './firebase-bus.js?v=8.4';
+import { firebaseReady, loadSentenceTeacherStore } from '../sentence-battle-sample/js/sentence-live.js?v=3.4';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { CombinedSentenceAudio } from './combined-sentence-audio.js?v=1.0';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.5';
+import { requireTeacherAccess } from './access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.1';
 import { normalizeSentenceCards } from './sentence-card-rules.js?v=1.0';
 function buildStudentEntryUrl(pin){
@@ -250,7 +252,7 @@ function renderLobby(){if(!liveRoom)return;const players=Object.values(liveRoom.
 function updateLiveStageLabels(){const list=Object.values(liveRoom?.players||{}),max=key=>list.length?Math.max(...list.map(p=>Math.round(Number(p.scores?.[key])||0))):0;$('wordStageScore').textContent=`최고 ${max('word')}/1000`;$('matchingStageScore').textContent=`최고 ${max('matching')}/1000`;$('sentenceStageScore').textContent=`최고 ${max('sentence')}/1000`;}
 function renderLiveRank(){if(!liveRoom)return;const blind=!!liveRoom.blindActive&&liveRoom.status!=='finished';$('rankBlind').classList.toggle('hidden',!blind);if(blind)return;$('rankList').innerHTML=sortedLive().map((p,i)=>`<div class="rank-row ${i<3?'top':''}"><span class="rank-no">${i+1}</span><span class="rank-avatar">${esc(p.avatar)}</span><span class="rank-name">${esc(p.name)}</span><span class="rank-score">${liveTotal(p).toLocaleString()}</span></div>`).join('');}
 function stageProgressPct(){return liveRoom?clamp(Math.round((Number(liveRoom.completedSteps)||0)/Math.max(1,Number(liveRoom.totalSteps)||1)*100),0,100):0;}
-function persistLive(){if(!liveRoom||!liveBus)return Promise.resolve();Object.values(liveRoom.players||{}).forEach(recalcLivePlayer);return liveBus.saveRoom(liveRoom).catch(err=>console.warn('종합 배틀 상태 저장 실패',err));}
+function persistLive(){hostRecovery?.capture();if(!liveRoom||!liveBus)return Promise.resolve();Object.values(liveRoom.players||{}).forEach(recalcLivePlayer);return liveBus.saveRoom(liveRoom).catch(err=>console.warn('종합 배틀 상태 저장 실패',err));}
 function currentLiveQuestion(){if(!liveRoom)return null;if(liveRoom.stageIndex===0)return liveRoom.currentWordQuestion;if(liveRoom.stageIndex===2)return liveRoom.currentSentenceQuestion;return null;}
 
 async function createLiveRoom(){
@@ -258,7 +260,7 @@ async function createLiveRoom(){
   try{
     const s=settings();quiz=buildQuiz(vocabItems,{direction:'mixed',questionCount:s.wordCount});validateQuizIntegrity(quiz);matching=buildMatchingRounds(vocabItems,{roundCount:s.matchRounds,pairsPerRound:s.pairsPerRound});validateMatchingIntegrity(matching);const selectedSentence=shuffle(sentenceQuestions).slice(0,s.sentenceCount);
     const pin=await createUniqueFirebasePin();liveRoom={pin,title:`종합 배틀 · ${textbookName} ${book} ${lesson}과`,status:'lobby',config:{gameType:'combined',sourceType:source,snuBook:book,snuLesson:lesson,...s},players:{},stageIndex:-1,unitIndex:-1,unitTotal:0,unitResults:{},completedSteps:0,totalSteps:s.wordCount+s.matchRounds+s.sentenceCount,blindActive:false,quiz,matching,sentenceSet:selectedSentence,createdAt:Date.now()};
-    liveBus?.close();liveBus=new FirebaseBus(pin,'host');liveBus.on(handleLiveMessage);await liveBus.init();liveRoom.createdAt=now();await liveBus.createRoom(liveRoom);mode='live';setView('lobby');$('roomPin').textContent=pin;const url=buildStudentEntryUrl(pin);$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);createLateJoinPanel({pin,url:url.href,getStatus:()=>liveRoom?.status,enabled:()=>mode==='live',side:'left'});renderLobby();startLiveTick();audio.startBgm('lobby');audio.playChime();
+    liveBus?.close();liveBus=new FirebaseBus(pin,'host');liveBus.on(handleLiveMessage);await liveBus.init();liveRoom.createdAt=now();await liveBus.createRoom(liveRoom);hostRecovery?.capture();mode='live';setView('lobby');$('roomPin').textContent=pin;const url=buildStudentEntryUrl(pin);$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);createLateJoinPanel({pin,url:url.href,getStatus:()=>liveRoom?.status,enabled:()=>mode==='live',side:'left'});renderLobby();startLiveTick();audio.startBgm('lobby');audio.playChime();
   }catch(err){console.error(err);alert(err?.message||'실제 학생 종합 배틀 방을 만들지 못했습니다.');}
 }
 function handleLiveMessage(msg){if(!liveRoom)return;const p=msg.payload||{},uid=String(p.uid||msg.uid||'');if(msg.type==='join'){if(!uid||!p.name||!canAcceptLateJoin(liveRoom.status))return;const existing=liveRoom.players[uid];if(existing){existing.name=String(p.name).slice(0,20);existing.avatar=AVATARS.includes(p.avatar)?p.avatar:(existing.avatar||'🐻');}else liveRoom.players[uid]={uid,name:String(p.name).slice(0,20),avatar:AVATARS.includes(p.avatar)?p.avatar:'🐻',scores:{word:0,matching:0,sentence:0},score:0,matchedPairIds:[],matchingMistakes:0,matchingCombo:0,lateJoin:liveRoom.status!=='lobby',joinedAt:now()};persistLive();if(liveRoom.status==='lobby')renderLobby();else renderLive();return;}if(msg.type==='request-state'){persistLive();return;}if(msg.type==='combined-word-answer')handleWordAnswer(uid,p,msg.at);if(msg.type==='combined-match-pair')handleMatchPair(uid,p,msg.at);if(msg.type==='combined-match-mistake')handleMatchMistake(uid,p,msg.at);if(msg.type==='combined-sentence-submit')handleSentenceSubmit(uid,p,msg.at);}
@@ -289,8 +291,29 @@ $('startLiveBtn').addEventListener('click',startLiveGame);
 $('closeRoomBtn').addEventListener('click',()=>closeLiveRoom(true));
 $('stopDemoBtn').addEventListener('click',stopCurrent);
 $('againBtn').addEventListener('click',async()=>{if(mode==='demo')startDemo();else{await closeLiveRoom(false);mode='setup';setView('setup');}});
-window.addEventListener('beforeunload',()=>{sentenceAudio.stopAll();audio.stopAll();if(mode==='live'&&liveBus&&liveRoom){try{liveBus.removeRoom();}catch{}}});
+window.addEventListener('beforeunload',()=>{sentenceAudio.stopAll();audio.stopAll();if(mode==='live'&&liveBus&&liveRoom){try{hostRecovery?.capture();liveBus.close();}catch{}}});
 
 function bindAudioControls(){setupAudio();$('bgmEnabled')?.addEventListener('change',()=>{setupAudio();if(mode==='live'&&liveRoom?.status==='lobby')audio.startBgm('lobby');});$('sfxEnabled')?.addEventListener('change',setupAudio);$('masterVolume')?.addEventListener('input',setupAudio);$('audioPreviewBtn')?.addEventListener('click',async()=>{await unlockAudio();audio.preview();});}
 bindAudioControls();
 preload();
+
+async function restoreHostGame(saved){
+  await unlockAudio();const restored=new FirebaseBus(saved.room.pin,'host');
+  try{
+    await restored.resumeHost(saved,()=>{liveRoom=saved.room;liveBus=restored;liveBus.seen=new Set(saved.processedIds||[]);mode='live';liveBus.on(handleLiveMessage);});
+    const pin=liveRoom.pin,url=buildStudentEntryUrl(pin);
+    $('roomPin').textContent=pin;$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);
+    createLateJoinPanel({pin,url:url.href,getStatus:()=>liveRoom?.status,enabled:()=>mode==='live',side:'left'});
+    if(liveRoom.status==='lobby'){setView('lobby');renderLobby();}
+    else if(liveRoom.status==='finished')renderLiveFinal();
+    else{
+      setView('replica');renderLive();
+      if(liveRoom.status==='transition')scheduleLive(()=>prepareCountdown(liveRoom.stageIndex,0,3000),Math.max(0,liveRoom.transitionEndAt-now()));
+      else if(liveRoom.status==='countdown')scheduleLive(()=>startLiveUnit(liveRoom.stageIndex,liveRoom.unitIndex),Math.max(0,liveRoom.countdownEndAt-now()));
+      else if(liveRoom.status==='playing')scheduleLive(()=>endLiveUnit('time'),Math.max(0,liveRoom.unitEndAt-now()));
+      else if(liveRoom.status==='result')scheduleLive(advanceLive,Math.max(0,liveRoom.resultEndAt-now()));
+    }
+    persistLive();startLiveTick();
+  }catch(err){restored.close();liveBus=null;liveRoom=null;mode='setup';throw err;}
+}
+hostRecovery=createHostGameRecovery({getSnapshot:()=>liveRoom&&liveBus&&liveBus.mode==='firebase'&&liveBus.hostSessionId?{room:liveRoom,uid:liveBus.uid,sessionId:liveBus.hostSessionId,processedIds:[...liveBus.seen]}:null,restore:restoreHostGame});

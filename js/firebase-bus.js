@@ -1,3 +1,5 @@
+import { updateConnectionBadge, clearConnectionBadge } from './network-connection-status.js?v=1';
+import { PendingAnswerQueue, showAnswerStorageWarning } from './pending-answer-queue.js?v=1';
 import { initializeApp, getApps, getApp } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-app.js';
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/12.18.0/firebase-auth.js';
 import {
@@ -10,15 +12,8 @@ import { startPlayerConnectionRecovery } from './player-connection-recovery.js?v
 export { isFirebaseConfigured };
 
 const KWB_PENDING_MAX_AGE_MS=30*60*1000;
-function registerOfflineWorker(){try{if(!('serviceWorker' in navigator))return;const url=new URL('../sw.js',import.meta.url);navigator.serviceWorker.register(url).catch(()=>{});}catch{}}
-function updateNetworkBadge(connected){
-  if(typeof document==='undefined')return;
-  let el=document.querySelector('.kwb-network-badge');
-  if(!el){el=document.createElement('div');el.className='kwb-network-badge';Object.assign(el.style,{position:'fixed',left:'12px',bottom:'10px',zIndex:'99998',padding:'8px 12px',borderRadius:'999px',font:'800 12px/1.25 system-ui,sans-serif',boxShadow:'0 8px 24px rgba(0,0,0,.25)',pointerEvents:'none',transition:'opacity .2s ease'});document.body?.appendChild(el);}
-  if(!el)return;
-  if(!connected){el.dataset.offline='1';el.textContent='⚠ 인터넷 연결 끊김 · 게임 계속 진행 · 답안 저장 중';el.style.background='rgba(117,72,0,.94)';el.style.color='#fff2bd';el.style.border='1px solid rgba(255,211,96,.45)';el.style.display='block';el.style.opacity='1';}
-  else{delete el.dataset.offline;el.textContent='✓ 인터넷 연결 복구 · 자동 동기화 중';el.style.background='rgba(5,92,67,.94)';el.style.color='#d7fff1';el.style.border='1px solid rgba(91,235,184,.42)';el.style.display='block';el.style.opacity='1';setTimeout(()=>{if(el&&!el.dataset.offline)el.style.opacity='0';},2400);}
-}
+function registerOfflineWorker(){try{if(!('serviceWorker' in navigator))return;const url=new URL('../sw.js',import.meta.url);navigator.serviceWorker.register(url,{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{});}catch{}}
+
 registerOfflineWorker();
 
 
@@ -452,7 +447,7 @@ export class FirebaseBus {
     if (key && this.seen.has(key)) return;
     if (key) {
       this.seen.add(key);
-      if (this.seen.size > 500) this.seen.clear();
+      if (this.seen.size > 5000) this.seen.delete(this.seen.values().next().value);
     }
     this.handlers.forEach((fn) => fn(msg));
   }
@@ -555,29 +550,12 @@ export class FirebaseBus {
     } catch {}
   }
 
-  _readPending() {
-    const key = this._pendingKey();
-    if (!key) return [];
-    try {
-      const list = JSON.parse(localStorage.getItem(key) || '[]');
-      if (!Array.isArray(list)) return [];
-      const fresh = list.filter((item) => item?.id && Date.now() - Number(item.queuedAt || 0) <= KWB_PENDING_MAX_AGE_MS);
-      if (fresh.length !== list.length) localStorage.setItem(key, JSON.stringify(fresh));
-      return fresh;
-    } catch {
-      return [];
-    }
+  _answerQueue(){
+    if(!this.pendingAnswers)this.pendingAnswers=new PendingAnswerQueue({key:()=>this._pendingKey(),maxAge:KWB_PENDING_MAX_AGE_MS,onStorageChange:showAnswerStorageWarning});
+    return this.pendingAnswers;
   }
-
-  _writePending(list) {
-    const key = this._pendingKey();
-    if (!key) return;
-    try {
-      if (list.length) localStorage.setItem(key, JSON.stringify(list));
-      else localStorage.removeItem(key);
-    } catch {}
-  }
-
+  _readPending(){return this._answerQueue().read();}
+  _writePending(list){return this._answerQueue().write(list);}
   _queueMessage(type, payload = {}) {
     const at = this.now();
     const id = `${this.uid || 'u'}-${Date.now().toString(36)}-${Math.random().toString(36).slice(2,10)}`;
@@ -590,7 +568,7 @@ export class FirebaseBus {
     };
     const list = this._readPending();
     list.push(item);
-    this._writePending(list.slice(-500));
+    this._writePending(list);
     return item;
   }
 
@@ -670,8 +648,8 @@ export class FirebaseBus {
         this._dispatch({ type:'connection', connected, at:this.now() });
         this._domEvent('kwb-connection', { connected });
       }
-      if(changed||!connected) updateNetworkBadge(connected);
-      if (connected && this.role === 'host' && !this.closed) {
+      updateConnectionBadge(this,connected);
+      if (connected && this.role === 'host' && !this.closed && !this.hostRecoveryPending) {
         this._attachHostInboxListener()
           .then(() => this._rearmHostDisconnectMarker())
           .then(() => this._flushHostState())
@@ -786,6 +764,23 @@ export class FirebaseBus {
     return state;
   }
 
+  async resumeHost(checkpoint, apply){
+    this.hostRecoveryPending=true;
+    try{
+      if(!this.db)await this.init();
+      const owner=await get(ref(this.db,`rooms/${this.pin}/ownerUid`));
+      const snapshot=await get(ref(this.db,`rooms/${this.pin}/state`));
+      const state=snapshot.exists()?snapshot.val():null;
+      if(!owner.exists()||owner.val()!==this.uid||checkpoint.uid!==this.uid||!state||state.status==='closed'||!checkpoint.sessionId||state.hostRecoverySessionId!==checkpoint.sessionId)
+        throw new Error('기존 게임의 소유자 또는 방 상태를 확인할 수 없습니다. 새 방을 만들어 주세요.');
+      this.hostSessionId=checkpoint.sessionId;
+      await apply();
+      this.hostRecoveryPending=false;
+      await this._attachHostInboxListener();
+      await this._rearmHostDisconnectMarker();
+      return state;
+    }catch(err){this.close();throw err;}
+  }
   async createRoom(room) {
     if (this.role !== 'host') throw new Error('호스트만 방을 만들 수 있습니다.');
     if (!this.db) await this.init();
@@ -798,6 +793,8 @@ export class FirebaseBus {
     try {
       await set(ref(this.db, `rooms/${this.pin}/createdAt`), serverTimestamp());
       const initialState = publicRoomState(room);
+      this.hostSessionId=`${this.uid}-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+      initialState.hostRecoverySessionId=this.hostSessionId;
       initialState.hostDisconnectedAt = null;
       initialState.hostUpdatedAt = serverTimestamp();
       await set(ref(this.db, `rooms/${this.pin}/state`), initialState);
@@ -864,6 +861,7 @@ export class FirebaseBus {
   }
 
   close() {
+    clearConnectionBadge(this);
     this.closed = true;
     this.playerRecovery?.stop();
     try { this.disconnectOp?.cancel?.().catch?.(() => {}); } catch {}

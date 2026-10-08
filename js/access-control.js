@@ -268,6 +268,20 @@ function showAccessExpired(message='사용 허가 기간이 종료되었거나 �
   document.body.appendChild(box);
 }
 
+let activeHostGameUntil=0;
+let activeHostGameProbe=null;
+export function setHostGameActivityProbe(probe){activeHostGameProbe=probe;}
+function keepActiveHostGame(){
+  let active=false;
+  try{active=Boolean(activeHostGameProbe?.());}catch{}
+  if(!active&&nowMs()>=activeHostGameUntil)return false;
+  lastTeacherActivityAt=nowMs();
+  return true;
+}
+window.addEventListener('kwb-host-progress',event=>{
+  if(event.detail?.active){activeHostGameUntil=nowMs()+5000;lastTeacherActivityAt=nowMs();}
+  else if(activeHostGameUntil){activeHostGameUntil=0;lastTeacherActivityAt=nowMs();armInactivityTimer();}
+});
 function armInactivityTimer(){
   if(inactivityTimer) clearTimeout(inactivityTimer);
   if(!getStoredAccess()?.sessionToken) return;
@@ -275,7 +289,7 @@ function armInactivityTimer(){
   const remaining=Math.max(250,INACTIVITY_TIMEOUT_MS-elapsed);
   inactivityTimer=setTimeout(()=>{
     if(!getStoredAccess()?.sessionToken) return;
-    if(nowMs()-lastTeacherActivityAt<INACTIVITY_TIMEOUT_MS){armInactivityTimer();return;}
+    if(keepActiveHostGame()||nowMs()-lastTeacherActivityAt<INACTIVITY_TIMEOUT_MS){armInactivityTimer();return;}
     const access=getStoredAccess();
     const logoutPayload=access?.sessionToken?{sessionToken:access.sessionToken,deviceId:getDeviceId()}:null;
     clearTeacherAccess();
@@ -303,10 +317,11 @@ function startInactivityWatch(){
   });
   document.addEventListener('visibilitychange',()=>{
     if(document.visibilityState!=='visible'||!getStoredAccess()?.sessionToken) return;
+    if(keepActiveHostGame()){armInactivityTimer();return;}
     if(nowMs()-lastTeacherActivityAt>=INACTIVITY_TIMEOUT_MS){
       if(inactivityTimer) clearTimeout(inactivityTimer);
       inactivityTimer=setTimeout(()=>{
-        if(nowMs()-lastTeacherActivityAt>=INACTIVITY_TIMEOUT_MS){
+        if(!keepActiveHostGame()&&nowMs()-lastTeacherActivityAt>=INACTIVITY_TIMEOUT_MS){
           const access=getStoredAccess();
           const logoutPayload=access?.sessionToken?{sessionToken:access.sessionToken,deviceId:getDeviceId()}:null;
           clearTeacherAccess();

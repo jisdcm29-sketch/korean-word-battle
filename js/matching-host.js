@@ -1,11 +1,12 @@
+import { createHostGameRecovery } from './host-game-recovery.js?v=1';
 import { CATALOG, booksForSource } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildMatchingRounds, calculateMatchingPairScore, calculateRoundClearBonus, isMatchingBlind } from './matching-engine.js';
 import { LocalBus } from './local-bus.js?v=7.6';
-import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
+import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.4';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.5';
+import { requireTeacherAccess } from './access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
@@ -27,6 +28,7 @@ const DEMO_STUDENTS = [
   {name:'Төгөлдөр',avatar:'🦁',finish:.82,accuracy:.76},{name:'Марал',avatar:'🐸',finish:.88,accuracy:.73}
 ];
 
+var hostRecovery;
 let room = null;
 let bus = null;
 let loop = null;
@@ -435,7 +437,7 @@ function startLoop(){
     else if(room.status==='round-result'){ renderRoundResultCountdown(); if(now>=room.roundResultEndAt){ const next=room.roundIndex+1; if(next>=room.matching.rounds.length)finishGame(); else {showHostSubView('gameView');startRound(next);} } }
   },80);
 }
-function persistAndBroadcast(){ if(!room||!bus)return; const pending=bus.saveRoom(room); if(pending?.catch)pending.catch((e)=>console.error('room sync failed',e)); if(bus.mode==='local')broadcastState(); }
+function persistAndBroadcast(){hostRecovery?.capture(); if(!room||!bus)return; const pending=bus.saveRoom(room); if(pending?.catch)pending.catch((e)=>console.error('room sync failed',e)); if(bus.mode==='local')broadcastState(); }
 function broadcastState(){ if(room&&bus?.mode==='local')bus.send('state',{room:publicRoomState(room)}); }
 
 function renderLobby(){
@@ -535,3 +537,19 @@ $('masterVolume').addEventListener('input',()=>{const v=Number($('masterVolume')
 $('gameBgmBtn').addEventListener('click',()=>applyLiveAudio({bgmEnabled:!audio.getSettings().bgmEnabled})); $('gameSfxBtn').addEventListener('click',()=>applyLiveAudio({sfxEnabled:!audio.getSettings().sfxEnabled}));
 $('soloBtn').addEventListener('click',startSolo); $('demoBtn').addEventListener('click',()=>createRoom(true)); $('createRoomBtn').addEventListener('click',()=>createRoom(false)); $('addDemoBtn').addEventListener('click',()=>addDemoStudents(10,true)); $('startGameBtn').addEventListener('click',startGame); $('backSetupBtn').addEventListener('click',backToSetup); $('endRoomBtn').addEventListener('click',endRoom); $('newGameBtn').addEventListener('click',endRoom); $('fullscreenBtn').addEventListener('click',toggleFullscreen);
 window.addEventListener('beforeunload',()=>{clearBotTimers();clearTimeout(earlyEndTimer);if(room&&bus?.mode==='local')bus.removeRoom();bus?.close();});
+
+async function restoreHostGame(saved){
+  setupAudio();await audio.unlock();
+  const restored=new FirebaseBus(saved.room.pin,'host');
+  try{
+    await restored.resumeHost(saved,()=>{room=saved.room;bus=restored;bus.seen=new Set(saved.processedIds||[]);bus.on(handleMessage);});
+    const pin=room.pin,url=buildStudentEntryUrl(pin);
+    $('setupView').classList.add('hidden');$('hostView').classList.remove('hidden');$('roomPin').textContent=pin;
+    $('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);
+    createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'});
+    showHostSubView(room.status==='lobby'?'lobbyView':room.status==='finished'?'finalView':room.status==='round-result'?'roundResultView':'gameView');
+    if(room.status==='lobby')renderLobby();else if(room.status==='finished')renderFinal();else if(room.status==='round-result')renderRoundResult();else renderGame();
+    persistAndBroadcast();startLoop();
+  }catch(err){restored.close();bus=null;room=null;throw err;}
+}
+hostRecovery=createHostGameRecovery({getSnapshot:()=>room&&bus&&!room.demoMode&&bus.mode==='firebase'&&bus.hostSessionId?{room:room,uid:bus.uid,sessionId:bus.hostSessionId,processedIds:[...bus.seen]}:null,restore:restoreHostGame});

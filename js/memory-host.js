@@ -1,11 +1,12 @@
+import { createHostGameRecovery } from './host-game-recovery.js?v=1';
 import { CATALOG, booksForSource } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
 import { buildMemoryRounds, calculateMemoryPairScore, memoryCompletionBonus, isMemoryBlind } from './memory-engine.js';
 import { LocalBus, publicRoomState as localPublicRoomState } from './local-bus.js?v=7.7';
-import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.2';
+import { FirebaseBus, isFirebaseConfigured, createUniqueFirebasePin, loadVocabularyTeacherStore, saveVocabularyTeacherStore } from './firebase-bus.js?v=8.4';
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
-import { requireTeacherAccess } from './access-control.js?v=1.5';
+import { requireTeacherAccess } from './access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
@@ -27,6 +28,7 @@ const DEMO_STUDENTS=[
   {name:'Төгөлдөр',avatar:'🦁',finish:.83,accuracy:.76},{name:'Марал',avatar:'🐸',finish:.90,accuracy:.73}
 ];
 
+var hostRecovery;
 let room=null,bus=null,loop=null,botTimers=[],earlyEndTimer=null,toastTimer=null;
 let sourceItems=[],currentItems=[],activeSourceKey='',draftSelection=new Set(),selectionBySource=new Map();
 let lastCountdownNumber=null,lastTimerSecond=null,blindTransitionPlayed=false,currentMusicMode='normal';
@@ -89,7 +91,7 @@ async function handleVocabAction(action,id){const item=sourceItems.find(v=>Strin
 function setupAudio(){audio.setSettings(getConfig().audio);syncAudioControls();}
 function syncAudioControls(){const s=audio.getSettings(),pct=Math.round(s.volume*100);$('volumeValue').textContent=`${pct}%`;$('masterVolume').value=String(pct);$('gameBgmBtn').textContent=s.bgmEnabled?'BGM ON':'BGM OFF';$('gameSfxBtn').textContent=s.sfxEnabled?'SFX ON':'SFX OFF';}
 function setMusicMode(mode){currentMusicMode=mode;const labels={lobby:'🎵 LOBBY',countdown:'⏱ COUNTDOWN',preview:'🧠 MEMORIZE',normal:'🎵 BATTLE',blind:'⚠️ TENSION',final:'🔥 FINAL'};$('musicMode').textContent=labels[mode]||labels.normal;}
-function persistAndBroadcast(){if(!room||!bus)return;if(bus.mode==='local'){bus.saveRoom(room);bus.send('state',{room:localPublicRoomState(room)});}else bus.saveRoom(room).catch(e=>console.warn('room save failed',e));}
+function persistAndBroadcast(){hostRecovery?.capture();if(!room||!bus)return;if(bus.mode==='local'){bus.saveRoom(room);bus.send('state',{room:localPublicRoomState(room)});}else bus.saveRoom(room).catch(e=>console.warn('room save failed',e));}
 function broadcastState(){if(bus?.mode==='local'&&room)bus.send('state',{room:localPublicRoomState(room)});}
 function makeLocalPin(){for(let i=0;i<40;i++){const p=String(Math.floor(100000+Math.random()*900000));if(!localStorage.getItem(`kwb_room_${p}`))return p;}return String(Math.floor(100000+Math.random()*900000));}
 async function createRoom(demoMode=false){try{setupAudio();await audio.unlock();if(!demoMode&&!isFirebaseConfigured())throw new Error('실제 학생 게임방은 Firebase 연결이 필요합니다.');const data=await ensureData(),config=validateConfig(data),memory=buildMemoryRounds(data.items,config);const pin=demoMode?makeLocalPin():await createUniqueFirebasePin();room={pin,title:data.title,status:'lobby',config,players:{},memory,roundIndex:-1,roundStartAt:0,roundEndAt:0,previewEndAt:0,roundResultEndAt:0,blindActive:false,demoMode:Boolean(demoMode),roundFinishCounter:0,createdAt:Date.now()};bus?.close();if(demoMode){bus=new LocalBus(pin);bus.on(handleMessage);bus.saveRoom(room);}else{bus=new FirebaseBus(pin,'host');bus.on(handleMessage);await bus.init();room.createdAt=nowMs();await bus.createRoom(room);}if(demoMode)addDemoStudents(10,false);else persistAndBroadcast();$('setupView').classList.add('hidden');$('hostView').classList.remove('hidden');showHostSubView('lobbyView');$('roomPin').textContent=pin;const url=bus.mode==='local'?new URL('memory-play.html',location.href):buildStudentEntryUrl(pin);if(bus.mode==='local'){url.searchParams.set('pin',pin);url.searchParams.set('local','1');}$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'});renderLobby();startLoop();setMusicMode('lobby');audio.startBgm('lobby');if(demoMode)toast('가상 학생 10명이 입장했습니다. [게임 시작]을 눌러 주세요.');}catch(e){toast(e?.message||'게임방을 만들지 못했습니다.');}}
@@ -134,3 +136,19 @@ $('vocabBtn').addEventListener('click',openVocabModal);$('closeVocabBtn').addEve
 $('soundTestBtn').addEventListener('click',async()=>{setupAudio();await audio.preview();});$('bgmEnabled').addEventListener('change',()=>{setupAudio();if(room)audio.startBgm(currentMusicMode);});$('sfxEnabled').addEventListener('change',setupAudio);$('masterVolume').addEventListener('input',setupAudio);$('gameBgmBtn').addEventListener('click',()=>{const s=audio.getSettings();audio.setSettings({...s,bgmEnabled:!s.bgmEnabled});$('bgmEnabled').checked=audio.getSettings().bgmEnabled;syncAudioControls();if(audio.getSettings().bgmEnabled)audio.startBgm(currentMusicMode);});$('gameSfxBtn').addEventListener('click',()=>{const s=audio.getSettings();audio.setSettings({...s,sfxEnabled:!s.sfxEnabled});$('sfxEnabled').checked=audio.getSettings().sfxEnabled;syncAudioControls();});
 $('createRoomBtn').addEventListener('click',()=>createRoom(false));$('demoBtn').addEventListener('click',()=>createRoom(true));$('soloBtn').addEventListener('click',startSolo);$('addDemoBtn').addEventListener('click',()=>addDemoStudents(10,true));$('startGameBtn').addEventListener('click',startGame);$('backSetupBtn').addEventListener('click',backSetup);$('endRoomBtn').addEventListener('click',endRoom);$('newGameBtn').addEventListener('click',()=>location.href='memory-pairs.html');$('fullscreenBtn').addEventListener('click',()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.());
 window.addEventListener('beforeunload',()=>{clearBotTimers();if(loop)clearInterval(loop);bus?.close();});
+
+async function restoreHostGame(saved){
+  setupAudio();await audio.unlock();
+  const restored=new FirebaseBus(saved.room.pin,'host');
+  try{
+    await restored.resumeHost(saved,()=>{room=saved.room;bus=restored;bus.seen=new Set(saved.processedIds||[]);bus.on(handleMessage);});
+    const pin=room.pin,url=buildStudentEntryUrl(pin);
+    $('setupView').classList.add('hidden');$('hostView').classList.remove('hidden');$('roomPin').textContent=pin;
+    $('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);
+    createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'});
+    showHostSubView(room.status==='lobby'?'lobbyView':room.status==='finished'?'finalView':room.status==='round-result'?'roundResultView':'gameView');
+    if(room.status==='lobby')renderLobby();else if(room.status==='finished')renderFinal();else if(room.status==='round-result')renderRoundResult();else renderGame();
+    persistAndBroadcast();startLoop();
+  }catch(err){restored.close();bus=null;room=null;throw err;}
+}
+hostRecovery=createHostGameRecovery({getSnapshot:()=>room&&bus&&!room.demoMode&&bus.mode==='firebase'&&bus.hostSessionId?{room:room,uid:bus.uid,sessionId:bus.hostSessionId,processedIds:[...bus.seen]}:null,restore:restoreHostGame});

@@ -26,6 +26,6 @@
   </main>
   <script type="module" src="js/join.js?v=1.2"></script>
 
-  <script>/* KWB_OFFLINE_SW_V1 */if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));}</script>
+  <script>/* KWB_OFFLINE_SW_V1 */if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(reg=>reg.update()).catch(()=>{}));}</script>
 </body>
 </html>
