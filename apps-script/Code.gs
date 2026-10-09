@@ -817,7 +817,9 @@ function weeklyAwardStateFor_(auth,body) {
   const mainEligibleCandidates=ranking.filter(x=>mainMap[text_(x.studentId)]&&awardDayIds[text_(x.studentId)]).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal,presentOnAwardDay:true}));
   const topTypes=['FIRST','SECOND','THIRD'],topIds=topTypes.map(t=>awards[t]&&awards[t].studentId).filter(Boolean),finalized=topIds.length===3;
   const recentAwardIds=recentWeeklyAwardWinnerIds_(awardSheet,auth.teacherId,classId,endDate,28);
-  const luckyBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&Number(x.dailyLuckyCount||0)>0&&topIds.indexOf(text_(x.studentId))<0).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
+  // Weekly lucky award: any resolved student present on the award day is eligible,
+  // except the finalized top-3 winners. Daily lucky wins do not gate eligibility.
+  const luckyBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&topIds.indexOf(text_(x.studentId))<0).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
   const luckyId=awards.LUCKY&&awards.LUCKY.studentId;
   const luckyCandidates=preferFreshAwardCandidates_(luckyBase,recentAwardIds,luckyId);
   const consolationBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&topIds.indexOf(text_(x.studentId))<0&&text_(x.studentId)!==text_(luckyId)).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
