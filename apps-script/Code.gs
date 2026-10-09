@@ -817,7 +817,8 @@ function weeklyAwardStateFor_(auth,body) {
   const mainEligibleCandidates=ranking.filter(x=>mainMap[text_(x.studentId)]&&awardDayIds[text_(x.studentId)]).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal,presentOnAwardDay:true}));
   const topTypes=['FIRST','SECOND','THIRD'],topIds=topTypes.map(t=>awards[t]&&awards[t].studentId).filter(Boolean),finalized=topIds.length===3;
   const recentAwardIds=recentWeeklyAwardWinnerIds_(awardSheet,auth.teacherId,classId,endDate,28);
-  const luckyBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&Number(x.dailyLuckyCount||0)>0&&topIds.indexOf(text_(x.studentId))<0).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
+  // Friday weekly lucky draw: eligible on the award date, without requiring a daily lucky win.
+  const luckyBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&topIds.indexOf(text_(x.studentId))<0).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
   const luckyId=awards.LUCKY&&awards.LUCKY.studentId;
   const luckyCandidates=preferFreshAwardCandidates_(luckyBase,recentAwardIds,luckyId);
   const consolationBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&topIds.indexOf(text_(x.studentId))<0&&text_(x.studentId)!==text_(luckyId)).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
@@ -852,6 +853,8 @@ function drawWeeklyLucky_(body) {
   const auth=teacherRequestContext_(body);if(!auth.ok)return auth.result;
   let state=weeklyAwardStateFor_(auth,body);if(!state.ok)return state;
   if(!state.finalized)return {ok:false,code:'TOP3_NOT_FINALIZED',message:'먼저 주간 1·2·3위를 추첨해 주세요.'};
+  // A saved award is final; never replace a winner on retry or refresh.
+  if(state.awards&&state.awards.LUCKY)return state;
   const candidates=Array.isArray(state.luckyCandidates)?state.luckyCandidates:[];
   if(!candidates.length)return {ok:false,code:'NO_LUCKY_CANDIDATE',message:'시상 기준일에 참여한 주간 행운상 후보가 없습니다.'};
   const winner=candidates[Math.floor(Math.random()*candidates.length)],sheet=ensureWeeklyAwardSheet_(auth.ctx),now=fmt_(new Date(),text_(auth.ctx.settings.TIMEZONE)||DEFAULT_TZ);
@@ -864,6 +867,7 @@ function drawWeeklyConsolation_(body) {
   let state=weeklyAwardStateFor_(auth,body);if(!state.ok)return state;
   if(!state.finalized)return {ok:false,code:'TOP3_NOT_FINALIZED',message:'먼저 주간 1·2·3위를 추첨해 주세요.'};
   if(state.luckyRequiredBeforeConsolation)return {ok:false,code:'LUCKY_NOT_DONE',message:'먼저 주간 행운상을 뽑아 주세요.'};
+  if(state.awards&&state.awards.CONSOLATION)return state;
   const candidates=Array.isArray(state.consolationCandidates)?state.consolationCandidates:[];
   if(!candidates.length)return {ok:false,code:'NO_CONSOLATION_CANDIDATE',message:'시상 기준일에 참여한 아차상 후보가 없습니다.'};
   const winner=candidates[Math.floor(Math.random()*candidates.length)],sheet=ensureWeeklyAwardSheet_(auth.ctx),now=fmt_(new Date(),text_(auth.ctx.settings.TIMEZONE)||DEFAULT_TZ);
