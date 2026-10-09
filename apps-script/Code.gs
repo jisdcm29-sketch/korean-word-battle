@@ -565,6 +565,7 @@ function resolveNameCandidate_(body) {
   const status=decision==='REJECT'?'REJECTED':'CONFIRMED';
   candidateSheet.getRange(hit.rowNumber,5,1,7).setValues([[linkedId,linkedName,status,text_(hit.row['FirstSeenAt'])||now,now,Math.max(1,positiveInt_(hit.row['SeenCount'],1)),now]]);
   if(linkedId)linkPendingGameResults_(auth.ctx,auth.teacherId,classId,enteredName,linkedId,linkedName);
+  if(decision==='REJECT')rejectPendingGameResults_(auth.ctx,auth.teacherId,classId,enteredName);
   return {ok:true,message,students:studentPayloadList_(studentSheet,auth.teacherId,classId),candidates:candidatePayloadList_(candidateSheet,auth.teacherId,classId)};
 }
 
@@ -610,6 +611,19 @@ function linkPendingGameResults_(ctx,teacherId,classId,enteredName,studentId,dis
     sheet.getRange(x.rowNumber,5,1,2).setValues([[studentId,displayName]]);
     sheet.getRange(x.rowNumber,8).setValue('RESOLVED');
     sheet.getRange(x.rowNumber,15).setValue(now);
+    changed++;
+  });
+  return changed;
+}
+
+function rejectPendingGameResults_(ctx,teacherId,classId,enteredName) {
+  if(!enteredName)return 0;
+  const sheet=ensureGameResultSheet_(ctx),key=nameKey_(enteredName);
+  let changed=0;
+  gameResultRows_(sheet,teacherId,classId).forEach(x=>{
+    if(text_(x.row['IdentityStatus']).toUpperCase()!=='PENDING'||text_(x.row['StudentID']))return;
+    if(nameKey_(x.row['EnteredName'])!==key)return;
+    sheet.getRange(x.rowNumber,8).setValue('REJECTED');
     changed++;
   });
   return changed;
@@ -681,7 +695,8 @@ function getWeeklyRanking_(body) {
   if(endDate&&derivedWeek&&derivedWeek!==weekId)return {ok:false,code:'BAD_PERIOD',message:'선택한 마감일과 주차가 일치하지 않습니다.'};
   const sheet=ensureGameResultSheet_(auth.ctx);
   const source=gameResultRows_(sheet,auth.teacherId,classId).filter(x=>text_(x.row['WeekID'])===weekId&&(!endDate||weeklyResultDateText_(x.row['Date'],tz)<=endDate));
-  const pendingCount=source.filter(x=>text_(x.row['IdentityStatus']).toUpperCase()!=='RESOLVED'||!text_(x.row['StudentID'])).length;
+  const pendingCount=source.filter(x=>{const status=text_(x.row['IdentityStatus']).toUpperCase();return status!=='REJECTED'&&(status!=='RESOLVED'||!text_(x.row['StudentID']));}).length;
+  const resolvedResultCount=source.filter(x=>text_(x.row['IdentityStatus']).toUpperCase()==='RESOLVED'&&!!text_(x.row['StudentID'])).length;
   const map={};
   source.forEach(x=>{
     const row=x.row,status=text_(row['IdentityStatus']).toUpperCase(),studentId=text_(row['StudentID']);
@@ -696,7 +711,7 @@ function getWeeklyRanking_(body) {
   });
   const ranking=Object.keys(map).map(k=>map[k]).sort((a,b)=>b.weeklyPointTotal-a.weeklyPointTotal||b.firstCount-a.firstCount||b.secondCount-a.secondCount||b.thirdCount-a.thirdCount||String(a.studentName).localeCompare(String(b.studentName),'ko'));
   ranking.forEach((x,i)=>x.rank=i+1);
-  return {ok:true,weekId:weekId,endDate:endDate,ranking:ranking,pendingCount:pendingCount,resolvedResultCount:source.length-pendingCount,totalResultCount:source.length};
+  return {ok:true,weekId:weekId,endDate:endDate,ranking:ranking,pendingCount:pendingCount,resolvedResultCount:resolvedResultCount,totalResultCount:source.length};
 }
 
 function ensureWeeklyAwardSheet_(ctx) {
