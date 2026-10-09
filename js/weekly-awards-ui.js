@@ -81,8 +81,8 @@ function singleWinner(type,a){
 
 function phaseForState(state){
   if(!state?.finalized)return 'MAIN_READY';
-  // Today's lucky award is handled independently by the game result ceremony.
-  if(!state?.awards?.CONSOLATION)return 'MAIN_RESULT';
+  if(!state?.awards?.LUCKY)return 'MAIN_RESULT';
+  if(!state?.awards?.CONSOLATION)return 'LUCKY_RESULT';
   return 'CONSOLATION_RESULT';
 }
 
@@ -135,7 +135,7 @@ function renderPhase(state,pending){
     return `<section class="weekly-v8-stage weekly-v8-result-stage">
       <div class="weekly-v8-draw-title">🎉 주간 1·2·3위</div>
       ${top3Result(state)}
-      <button class="weekly-v8-primary next" data-v8-action="show-consolation">🎁 아차상 후보 보기</button>
+      <button class="weekly-v8-primary next" data-v8-action="show-lucky">🍀 행운상 후보 보기</button>
     </section>`;
   }
   if(phase==='LUCKY_CANDIDATES'){
@@ -155,7 +155,7 @@ function renderPhase(state,pending){
     return `<section class="weekly-v8-stage">
       <div class="weekly-v8-title"><span>🎁</span><div><h3>아차상 후보</h3><p>앞선 수상자를 제외한 시상일 참여 후보 중 추첨합니다.</p></div></div>
       ${candidateCards(state.consolationCandidates)}
-      <button class="weekly-v8-primary consolation" data-v8-action="draw-consolation" ${Number(state.consolationCandidateCount)<1?'disabled':''}>🎁 아차상 추첨</button>
+      <button class="weekly-v8-primary consolation" data-v8-action="draw-consolation" ${state.luckyRequiredBeforeConsolation||Number(state.consolationCandidateCount)<1?'disabled':''}>🎁 아차상 추첨</button>
     </section>`;
   }
   if(phase==='CONSOLATION_DRAW'){
