@@ -865,7 +865,7 @@ function drawWeeklyConsolation_(body) {
   const auth=teacherRequestContext_(body);if(!auth.ok)return auth.result;
   let state=weeklyAwardStateFor_(auth,body);if(!state.ok)return state;
   if(!state.finalized)return {ok:false,code:'TOP3_NOT_FINALIZED',message:'먼저 주간 1·2·3위를 추첨해 주세요.'};
-  if(state.luckyRequiredBeforeConsolation)return {ok:false,code:'LUCKY_NOT_DONE',message:'먼저 주간 행운상을 뽑아 주세요.'};
+  // Daily lucky award is separate from the weekly top-3/consolation ceremony.
   const candidates=Array.isArray(state.consolationCandidates)?state.consolationCandidates:[];
   if(!candidates.length)return {ok:false,code:'NO_CONSOLATION_CANDIDATE',message:'시상 기준일에 참여한 아차상 후보가 없습니다.'};
   const winner=candidates[Math.floor(Math.random()*candidates.length)],sheet=ensureWeeklyAwardSheet_(auth.ctx),now=fmt_(new Date(),text_(auth.ctx.settings.TIMEZONE)||DEFAULT_TZ);
