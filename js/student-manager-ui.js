@@ -1,3 +1,4 @@
+// KGA_ALIAS_UI_V1: hide legacy alias UI; preserve alias data and APIs.
 import { getClassContext } from './class-manager.js?v=1.0';
 import { listStudents, saveStudent, deleteStudent, resolveStudentName, resolveNameCandidate } from './student-registry.js?v=1.1';
 
@@ -18,17 +19,18 @@ function ensureOverlay(){
     <div class="student-manager-head"><div><h2 id="studentManagerTitle">학생 관리</h2><p id="studentManagerClass"></p></div><button class="student-manager-close" type="button">닫기</button></div>
     <div class="student-manager-grid">
       <div class="student-registry-card"><h3>등록 학생</h3><div id="studentList" class="student-list"></div></div>
-      <div class="student-registry-card"><h3 id="studentFormTitle">학생 추가</h3>
+      <div class="student-registry-card"><h3 id="studentFormTitle">학생 추가</h3><button id="studentAddNewBtn" class="student-cancel-btn" type="button" style="margin:8px 0 12px">+ 학생 추가</button>
         <form id="studentForm" class="student-form">
           <label>대표 이름<input id="studentDisplayName" maxlength="60" placeholder="예: Бат-Эрдэнэ" required /></label>
-          <label>확정 별칭<textarea id="studentAliases" placeholder="예: Бат, Bat, 바트&#10;같은 학생으로 확정된 이름만 입력"></textarea></label>
-          <label>동일인 가능성 이름<textarea id="studentPossibleNames" placeholder="예: Bataa, 바타&#10;아직 확정하지 않은 이름"></textarea></label>
+          <label>전화번호 (선택)<input id="studentPhoneNumber" type="tel" inputmode="tel" maxlength="24" autocomplete="off" placeholder="예: 99112233" /></label>
+          <label style="display:none" aria-hidden="true">확정 별칭<textarea id="studentAliases" placeholder="예: Бат, Bat, 바트&#10;같은 학생으로 확정된 이름만 입력"></textarea></label>
+          <label style="display:none" aria-hidden="true">동일인 가능성 이름<textarea id="studentPossibleNames" placeholder="예: Bataa, 바타&#10;아직 확정하지 않은 이름"></textarea></label>
           <div class="student-form-actions"><button class="student-save-btn" type="submit">저장</button><button id="studentCancelEdit" class="student-cancel-btn hidden" type="button">수정 취소</button></div>
         </form>
         <p id="studentRegistryMessage" class="student-registry-message" aria-live="polite"></p>
       </div>
     </div>
-    <div class="student-registry-card student-name-test-card" style="margin-top:16px">
+    <div class="student-registry-card student-name-test-card" style="display:none">
       <h3>게임 입장 이름 확인</h3>
       <p class="student-test-guide">학생이 실제 게임에서 입력할 이름을 넣어 보세요. 대표 이름 또는 확정 별칭이면 즉시 같은 학생으로 확인되고, 미확정 이름은 아래 확인 목록에 자동 등록됩니다.</p>
       <form id="studentNameTestForm" class="student-name-test-form">
@@ -37,7 +39,7 @@ function ensureOverlay(){
       </form>
       <div id="studentNameTestResult" class="student-name-test-result hidden" aria-live="polite"></div>
     </div>
-    <div class="student-registry-card" style="margin-top:16px"><h3>동일인 확인이 필요한 이름</h3><div id="candidateList" class="candidate-list"></div></div>
+    <div class="student-registry-card" style="display:none"><h3>동일인 확인이 필요한 이름</h3><div id="candidateList" class="candidate-list"></div></div>
   </section>`;
   document.body.appendChild(overlay);
   overlay.querySelector('.student-manager-close').addEventListener('click',closeManager);
@@ -45,6 +47,7 @@ function ensureOverlay(){
   overlay.querySelector('#studentForm').addEventListener('submit',saveForm);
   overlay.querySelector('#studentNameTestForm').addEventListener('submit',testEnteredName);
   overlay.querySelector('#studentCancelEdit').addEventListener('click',resetForm);
+  overlay.querySelector('#studentAddNewBtn').addEventListener('click',()=>{resetForm();overlay.querySelector('#studentDisplayName').focus();});
   overlay.querySelector('#studentList').addEventListener('click',e=>{const b=e.target.closest('button[data-student-id]');if(!b)return;if(b.classList.contains('student-edit-btn'))startEdit(b.dataset.studentId);else if(b.classList.contains('student-delete-btn'))deleteStudentRecord(b.dataset.studentId);});
   overlay.querySelector('#candidateList').addEventListener('click',handleCandidateAction);
   return overlay;
@@ -54,7 +57,7 @@ function openManager(){
   const ctx=getClassContext();
   if(!ctx||ctx.mode!=='CLASS'||!ctx.classId){return;}
   ensureOverlay();overlay.classList.remove('hidden');
-  overlay.querySelector('#studentManagerClass').textContent=`${ctx.className} · 대표 이름과 별칭을 관리합니다.`;
+  overlay.querySelector('#studentManagerClass').textContent=`${ctx.className} · 학생 이름과 전화번호를 관리합니다.`;
   resetForm();setNameTestResult('');const testInput=overlay.querySelector('#studentNameTestInput');if(testInput)testInput.value='';loadData();
 }
 function closeManager(){overlay?.classList.add('hidden');}
@@ -108,7 +111,7 @@ function renderStudents(){
   box.innerHTML=currentData.students.map(s=>{
     const a=(s.aliases||[]).length?`확정 별칭: ${(s.aliases||[]).map(esc).join(', ')}`:'확정 별칭 없음';
     const p=(s.possibleNames||[]).length?`동일인 가능성: ${(s.possibleNames||[]).map(esc).join(', ')}`:'동일인 가능성 이름 없음';
-    return `<div class="student-item"><div><strong>${esc(s.displayName)}</strong><small>${a}<br>${p}</small></div><div class="student-item-actions"><button class="student-edit-btn" type="button" data-student-id="${esc(s.studentId)}">수정</button><button class="student-delete-btn" type="button" data-student-id="${esc(s.studentId)}">삭제</button></div></div>`;
+    return `<div class="student-item"><div><strong>${esc(s.displayName)}</strong><small>전화번호: ${esc(s.phoneNumber||'미입력')}<br></small></div><div class="student-item-actions"><button class="student-edit-btn" type="button" data-student-id="${esc(s.studentId)}">수정</button><button class="student-delete-btn" type="button" data-student-id="${esc(s.studentId)}">삭제</button></div></div>`;
   }).join('');
 }
 
@@ -129,6 +132,7 @@ function startEdit(studentId){
   const s=currentData.students.find(x=>x.studentId===studentId);if(!s)return;
   editingId=studentId;overlay.querySelector('#studentFormTitle').textContent='학생 수정';
   overlay.querySelector('#studentDisplayName').value=s.displayName||'';
+  overlay.querySelector('#studentPhoneNumber').value=s.phoneNumber||'';
   overlay.querySelector('#studentAliases').value=joinNames(s.aliases);
   overlay.querySelector('#studentPossibleNames').value=joinNames(s.possibleNames);
   overlay.querySelector('#studentCancelEdit').classList.remove('hidden');
@@ -143,7 +147,7 @@ async function deleteStudentRecord(studentId){
   const student=currentData.students.find(x=>x.studentId===studentId);if(!student)return;
   if(!confirm(`'${student.displayName}' 학생 정보를 삭제할까요?
 
-대표 이름과 확정 별칭은 현재 반의 학생 목록에서 제거됩니다. 과거 기록을 보호하기 위해 서버에서는 비활성 상태로 보존합니다.`))return;
+대표 이름은 현재 반의 학생 목록에서 제거됩니다. 과거 기록을 보호하기 위해 서버에서는 비활성 상태로 보존합니다.`))return;
   msg(`'${student.displayName}' 학생 정보를 삭제하는 중입니다…`);
   overlay.querySelectorAll(`button[data-student-id="${CSS.escape(studentId)}"]`).forEach(b=>b.disabled=true);
   try{
@@ -158,10 +162,11 @@ async function deleteStudentRecord(studentId){
 async function saveForm(e){
   e.preventDefault();const ctx=getClassContext();if(!ctx||ctx.mode!=='CLASS')return;
   const displayName=overlay.querySelector('#studentDisplayName').value.trim();
+  const phoneNumber=overlay.querySelector('#studentPhoneNumber').value.trim();
   if(!displayName){msg('대표 이름을 입력하세요.','error');return;}
   const btn=overlay.querySelector('.student-save-btn');btn.disabled=true;msg('저장 중입니다…');
   try{
-    const r=await saveStudent(ctx.classId,{studentId:editingId,displayName,aliases:splitNames(overlay.querySelector('#studentAliases').value),possibleNames:splitNames(overlay.querySelector('#studentPossibleNames').value)});
+    const r=await saveStudent(ctx.classId,{studentId:editingId,displayName,phoneNumber,aliases:splitNames(overlay.querySelector('#studentAliases').value),possibleNames:splitNames(overlay.querySelector('#studentPossibleNames').value)});
     if(!r.ok){msg(r.message||'학생을 저장하지 못했습니다.','error');return;}
     currentData={students:r.students||[],candidates:r.candidates||[]};renderStudents();renderCandidates();resetForm();msg(`'${r.student?.displayName||displayName}' 학생 정보를 저장했습니다.`,'success');
   }catch(err){console.error('[KWB student save]',err);msg('학생 저장 서버에 연결하지 못했습니다.','error');}
