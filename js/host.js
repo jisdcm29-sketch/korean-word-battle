@@ -1,3 +1,8 @@
+import { getClassContext } from './class-manager.js?v=1.0';
+import { listStudents } from './student-registry.js?v=1.1';
+import { phase64SelectClass, phase64IsEnabled } from './phase64-pre-room-class.js?v=1';
+import { phase65BindRoom } from './phase65-room-binding.js?v=1';
+import { mountPhase70ApprovalPanel } from './phase70-teacher-approval-panel.js?v=71';
 import { createHostGameRecovery } from './host-game-recovery.js?v=1';
 import { CATALOG, booksForSource, textbookName } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
@@ -7,6 +12,9 @@ import { FirebaseBus, publicRoomState, isFirebaseConfigured, createUniqueFirebas
 import { GameAudioEngine } from './audio-engine.js?v=7.5';
 import { ensureLuckyAward, renderLuckyAward } from './lucky-award.js?v=1.6';
 import { requireTeacherAccess } from './access-control.js?v=1.6';
+import { phase51AfterFinish } from './phase51-finish-loopback.js?v=1';
+import { phase52HandleNoClass } from './phase52-class-selection.js?v=1';
+import { phase41AfterFinish } from './phase41-finish-preview.js?v=1';
 import { createLateJoinPanel, canAcceptLateJoin } from './late-join-panel.js?v=1.0';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
@@ -34,6 +42,7 @@ const DEMO_STUDENTS = [
 ];
 
 var hostRecovery;
+let phase71DisposePanel = null;
 let room = null;
 let bus = null;
 let loop = null;
@@ -591,6 +600,11 @@ function validateQuestionCount() {
 
 async function startSolo() {
   try {
+    // Phase64: explicit localhost opt-in. Do not publish class IDs to Firebase.
+    if (!demoMode && phase64IsEnabled()) {
+      const selection = await phase64SelectClass();
+      if (!selection) { toast('반 선택이 취소되어 게임방을 만들지 않았습니다.'); return; }
+    }
     const data = await ensureData();
     validateQuestionCount();
     const config = getConfig();
@@ -609,6 +623,22 @@ async function makePin() {
   return String(Math.floor(100000 + Math.random()*900000));
 }
 
+// KGA_PHONE_WORD_HOST_V2 -- local-only integration; no data mutation.
+let kgaPhoneRoster=null;
+let kgaRoomClassMode=false;
+function resolvePhoneForRoom(value){
+  const text=String(value||'').trim();
+  if(!text)return {ok:false,message:'이름 또는 전화번호를 입력하세요.'};
+  if(!kgaRoomClassMode)return {ok:true,name:text};
+  const num=text.replace(/[\s()+-]/g,'');
+  // Only registered numbers get a canonical student name. Others remain guest participants.
+  if(!/^\d{7,15}$/.test(num))return {ok:true,name:text};
+  const matches=(kgaPhoneRoster||[]).filter(s=>String(s.phoneNumber||'').replace(/[^0-9]/g,'')===num);
+  if(matches.length===0)return {ok:true,name:text};
+  if(matches.length!==1)return {ok:false,message:'중복된 전화번호입니다. 교사에게 확인하세요.'};
+  const name=String(matches[0].displayName||'').trim();
+  return name?{ok:true,name}:{ok:false,message:'학생 이름이 비어 있습니다. 교사에게 확인하세요.'};
+}
 async function createRoom(demoMode = false) {
   try {
     setupAudioSettings();
@@ -616,11 +646,27 @@ async function createRoom(demoMode = false) {
     if (!demoMode && !isFirebaseConfigured()) {
       throw new Error('실제 학생이 입장하는 게임방은 Firebase 설정이 필요합니다. 먼저 Firebase 프로젝트를 연결해 주세요.');
     }
+    if (!demoMode && phase64IsEnabled()) {
+      const selection = await phase64SelectClass();
+      if (!selection) { toast('반 선택 취소: 게임방을 만들지 않았습니다.'); return; }
+    }
+    const ctx=getClassContext();
+    const nextClassMode=ctx?.mode==='CLASS' && Boolean(ctx.classId) && !demoMode;
+    let nextRoster=null;
+    if(nextClassMode){
+      const fetched=await listStudents(ctx.classId);
+      if(!fetched?.ok||!Array.isArray(fetched.students))throw new Error('선택한 반의 학생 명단을 불러올 수 없습니다.');
+      nextRoster=fetched.students;
+      // Production: registered phone numbers come only from authenticated listStudents.
+      // Do not load or publish local private roster snapshots.
+    }
     const data = await ensureData();
     validateQuestionCount();
     const config = getConfig();
     const quiz = buildQuiz(data.items, config);
     const pin = await makePin();
+    kgaRoomClassMode=Boolean(nextClassMode);
+    kgaPhoneRoster=nextRoster;
     room = {
       pin,
       status:'lobby',
@@ -647,6 +693,12 @@ async function createRoom(demoMode = false) {
       bus.saveRoom(room);
     }
 
+    // Phase65 staging: teacher-only server registration (no public player lookup).
+    // Keep the room usable for existing free-name joining even if the staging API is absent.
+    if (!demoMode && phase64IsEnabled()) {
+      const binding = await phase65BindRoom({pin, roomCreatedAt:room.createdAt, ownerUid:bus.uid});
+      if (!binding.ok) toast('전화번호 입장 준비 미완료: 반 연결 서버 미배포. 이름 입장은 가능합니다.');
+    }
     if (demoMode) addDemoStudents(10, false);
     else persistAndBroadcast();
 
@@ -664,6 +716,11 @@ async function createRoom(demoMode = false) {
     renderQr(url.href);
     createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'});
     renderLobby();
+    if (phase71DisposePanel) { phase71DisposePanel(); phase71DisposePanel = null; }
+    if (!demoMode && new URLSearchParams(location.search).get('phase71') === '1' &&
+        ['localhost','127.0.0.1'].includes(location.hostname) && bus?.mode === 'firebase') {
+      phase71DisposePanel = mountPhase70ApprovalPanel({pin, container:$('lobbyArea')});
+    }
     startLoop();
     blindTransitionPlayed = false;
     lastCountdownNumber = null;
@@ -710,13 +767,16 @@ function handleMessage(msg) {
   if (msg.type === 'join') {
     const {uid,name,avatar} = msg.payload||{};
     if (!uid || !name || !canAcceptLateJoin(room.status)) return;
+    const matched=resolvePhoneForRoom(name);
+    if(!matched.ok){toast(matched.message);return;}
+    const resolvedName=String(matched.name).slice(0,20);
     const existing=room.players[uid];
     if(existing){
-      existing.name=String(name).slice(0,20);
+      existing.name=resolvedName;
       existing.avatar=AVATARS.includes(avatar)?avatar:(existing.avatar||'🐻');
       existing.bot=false;
     }else{
-      room.players[uid]={uid,name:String(name).slice(0,20),avatar:AVATARS.includes(avatar)?avatar:'🐻',score:0,bot:false,lateJoin:room.status!=='lobby',joinedAt:nowMs()};
+      room.players[uid]={uid,name:resolvedName,avatar:AVATARS.includes(avatar)?avatar:'🐻',score:0,bot:false,lateJoin:room.status!=='lobby',joinedAt:nowMs()};
     }
     persistAndBroadcast();
     if(room.status==='lobby')renderLobby(); else renderGame();
@@ -842,6 +902,13 @@ function endQuestion() {
   renderGame();
 }
 
+function phase41GetClassContext() {
+  try {
+    const value=JSON.parse(sessionStorage.getItem('kwb_arena_class_context_v1')||'null');
+    return value && typeof value==='object' ? {classId:value.classId} : null;
+  } catch { return null; }
+}
+
 function finishGame() {
   clearBotTimers();
   setMusicMode('final');
@@ -853,6 +920,12 @@ function finishGame() {
   $('gameArea').classList.add('hidden');
   $('finalArea').classList.remove('hidden');
   renderFinal();
+  // Phase41: read-only preview. Never send results to server here.
+  phase41AfterFinish(room, phase41GetClassContext(), info => console.info('[KGA41 PREVIEW]', info));
+  // KGA51: loopback preview after award rendering; no production server calls.
+  void phase51AfterFinish(room, phase41GetClassContext(), {hostname:location.hostname})
+    .then(result=>{console.info('[KGA51 LOOPBACK]',result.code||'UNKNOWN',result.ok===true);return phase52HandleNoClass(room,result,{hostname:location.hostname});})
+    .catch(()=>console.info('[KGA51 LOOPBACK] LOCAL_RECEIVER_UNAVAILABLE'));
 }
 
 function startLoop() {
@@ -1027,6 +1100,10 @@ function resetToSetup() {
   }
   bus=null;
   room=null;
+  // Clear only previous game screen visibility when returning to settings.
+  $('lobbyArea').classList.add('hidden');
+  $('gameArea').classList.add('hidden');
+  $('finalArea').classList.add('hidden');
   $('hostView').classList.add('hidden');
   $('setupView').classList.remove('hidden');
   refreshSummary();
