@@ -72,7 +72,7 @@ export function createHostGameRecovery({getSnapshot, restore}) {
     document.body.appendChild(el);
   }
 
-  if (candidate?.snapshot?.room?.pin && candidate.snapshot.room.status !== 'closed') {
+  if (candidate?.snapshot?.room?.pin && ACTIVE.has(candidate.snapshot.room.status)) {
     banner = document.createElement('div');
     Object.assign(banner.style,{position:'fixed',top:'8px',left:'8px',right:'8px',zIndex:'99999',padding:'14px',background:'#102b52',color:'#fff',borderRadius:'12px',font:'700 15px/1.5 system-ui',textAlign:'center'});
     const label = document.createElement('span');

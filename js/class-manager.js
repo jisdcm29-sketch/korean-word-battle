@@ -49,3 +49,7 @@ export function clearClassContext(){sessionStorage.removeItem(SESSION_KEY);}
 export async function listClasses(){return callApi('listClasses',authPayload());}
 export async function saveClass(className,classId=''){return callApi('saveClass',{...authPayload(),className:clean(className),classId:clean(classId)});}
 export async function deleteClass(classId){return callApi('deleteClass',{...authPayload(),classId:clean(classId)});}
+
+export async function bindGameRoom({pin,classId,roomCreatedAt,ownerUid}) {
+  return callApi('kga65BindRoom', {...authPayload(), pin, classId, roomCreatedAt, ownerUid});
+}

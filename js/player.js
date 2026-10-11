@@ -1,3 +1,4 @@
+import {phoneEntryAvailable,phoneEntryRequest} from './phase68-phone-entry-api.js?v=1';
 import { isConfirmedInputOpen } from './confirmed-game-state.js?v=1';
 import { LocalBus } from './local-bus.js?v=7.3';
 import { FirebaseBus, isFirebaseConfigured } from './firebase-bus.js?v=8.4';
@@ -17,12 +18,32 @@ function initAvatars(){ $('avatarGrid').innerHTML=AVATARS.map((a,i)=>`<button cl
 const params=new URLSearchParams(location.search); const pinParam=params.get('pin'); const soloMode=params.get('solo')==='1'; const localMode=params.get('local')==='1';
 if(pinParam)$('pinInput').value=pinParam;
 
+let entryMode='name', phoneRequest=null, phonePoll=null, phoneBusy=false;
+function stopPhonePoll(){if(phonePoll){clearInterval(phonePoll);phonePoll=null;} phoneRequest=null;}
+
+function setEntryMode(mode){
+  if(mode!=='phone')stopPhonePoll();
+  entryMode=mode==='phone'?'phone':'name';
+  $('nameField').classList.toggle('hidden',entryMode!=='name');
+  $('phoneField').classList.toggle('hidden',entryMode!=='phone');
+  $('phoneNote').classList.toggle('hidden',entryMode!=='phone');
+  $('nameModeBtn').setAttribute('aria-pressed',String(entryMode==='name'));
+  $('phoneModeBtn').setAttribute('aria-pressed',String(entryMode==='phone'));
+  $('joinBtn').textContent=entryMode==='name'?'입장하기':(phoneEntryAvailable()?'전화번호로 입장 요청':'전화번호 조회 서버 연결 전');
+  $('joinBtn').disabled=entryMode==='phone'&&!phoneEntryAvailable();
+  setError('');
+}
+$('nameModeBtn').addEventListener('click',()=>setEntryMode('name'));
+$('phoneModeBtn').addEventListener('click',()=>setEntryMode('phone'));
+setEntryMode('name');
+
 function nowMs(){ return bus?.now ? bus.now() : Date.now(); }
 
-async function join(){
-  const pin=$('pinInput').value.trim(); const name=$('nameInput').value.trim();
+async function join(approvedName){
+  if(entryMode==='phone'&&!approvedName)return requestPhoneEntry();
+  const pin=$('pinInput').value.trim(); const name=(typeof approvedName==='string'?approvedName:$('nameInput').value).trim();
   if(!/^\d{6}$/.test(pin))return setError('6자리 PIN을 입력하세요.');
-  if(!name)return setError('이름을 입력하세요.');
+  if(!name||name==='[object Object]')return setError('올바른 이름을 입력하세요.');
   setError('');
   $('joinBtn').disabled=true;
   try {
@@ -72,6 +93,40 @@ async function join(){
     $('joinBtn').disabled=false;
   }
 }
+
+async function requestPhoneEntry(){
+ if(!phoneEntryAvailable())return setError('실제 서버 연결 전입니다. 이름 입장으로 전환해 주세요.');
+ const pin=$('pinInput').value.trim(), phone=$('phoneInput').value.trim();
+ if(!/^\d{6}$/.test(pin))return setError('6자리 PIN을 확인해 주세요.');
+ if(!/^[+\d()\s-]{8,20}$/.test(phone))return setError('등록 전화번호 형식을 확인해 주세요.');
+ if(phoneBusy)return;
+ phoneBusy=true;$('joinBtn').disabled=true;setError('게임방을 확인하는 중입니다.');
+ try{
+  // Firebase anonymous UID must be resolved before requesting teacher approval.
+  if(!isFirebaseConfigured())throw new Error('Firebase 설정이 필요합니다.');
+  if(!bus||bus.pin!==pin){bus?.close();bus=new FirebaseBus(pin,'player');await bus.init();uid=bus.uid;}
+  const room=await bus.loadRoom();if(!room||room.status==='closed')throw new Error('게임 PIN을 확인해 주세요.');
+  const out=await phoneEntryRequest('kga67StudentRequest',{pin,uid,phone});
+  if(!out?.ok||out.status!=='PENDING'||!out.requestId||!out.claimSecret)throw new Error('입장 요청을 접수하지 못했습니다. 교사에게 확인하거나 이름 입장을 이용해 주세요.');
+  // Do not retain the raw number after request.
+  $('phoneInput').value='';phoneRequest={pin,uid,requestId:out.requestId,claimSecret:out.claimSecret};
+  setError('교사 승인 대기 중입니다. 교사 화면에서 요청을 확인해 주세요.');
+  phonePoll=setInterval(checkPhoneClaim,3500);
+ }catch(err){setError(err?.message||'요청 오류. 이름 입장으로 전환해 주세요.');}
+ finally{phoneBusy=false;$('joinBtn').disabled=!!phoneRequest||!phoneEntryAvailable();}
+}
+let polling=false;
+async function checkPhoneClaim(){
+ const x=phoneRequest;if(!x||polling)return;polling=true;
+ try{
+  const out=await phoneEntryRequest('kga67StudentClaim',x);
+  if(phoneRequest!==x)return;
+  if(out?.status==='APPROVED'&&out.displayName){const name=String(out.displayName).trim();stopPhonePoll();$('joinBtn').disabled=false;await join(name);}
+  else if(out?.status==='REJECTED'||out?.code==='EXPIRED'||out?.code==='DENIED'){stopPhonePoll();$('joinBtn').disabled=false;setError('입장 승인에 실패했습니다. 이름으로 입장해 주세요.');}
+ }catch(_){/* A network timeout must not auto-approve. */}
+ finally{polling=false;}
+}
+window.addEventListener('beforeunload',stopPhonePoll);
 
 function setError(t){$('joinError').textContent=t;}
 function readLocalRoom(pin){try{return JSON.parse(localStorage.getItem(`kwb_room_${pin}`)||'null')}catch{return null}}
@@ -165,5 +220,5 @@ function runSoloQuestion(index){
 function soloReveal(index,answerText,pts,correct){state.status='result';show('resultView');$('resultView').classList.toggle('wrong',!correct);$('resultIcon').textContent=correct?'✓':'×';$('resultTitle').textContent=correct?'정답!':'아쉬워요';$('resultAnswer').textContent=`정답: ${answerText||solo.quiz.questions[index].answer}`;$('resultPoints').textContent=`+${pts.toLocaleString()} pt`;setTimeout(()=>runSoloQuestion(index+1),1600);}
 function finishSolo(){stopTimerLoop();show('finishView');$('finishAvatar').textContent='🧑‍🏫';$('finishName').textContent='테스트 완료';$('finishScore').textContent=soloScore.toLocaleString();$('finishRank').textContent=`${solo.quiz.questions.length}문제 완료`;$('finishNote').textContent='창을 닫고 교사용 설정 화면으로 돌아가세요.';}
 
-initAvatars();$('joinBtn').addEventListener('click',join);$('nameInput').addEventListener('keydown',e=>{if(e.key==='Enter')join()});
+initAvatars();$('joinBtn').addEventListener('click',()=>join());$('nameInput').addEventListener('keydown',e=>{if(e.key==='Enter')join()});
 if(soloMode)startSoloMode();else show('joinView');

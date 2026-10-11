@@ -657,8 +657,18 @@ async function createRoom(demoMode = false) {
       const fetched=await listStudents(ctx.classId);
       if(!fetched?.ok||!Array.isArray(fetched.students))throw new Error('선택한 반의 학생 명단을 불러올 수 없습니다.');
       nextRoster=fetched.students;
-      // Production: registered phone numbers come only from authenticated listStudents.
-      // Do not load or publish local private roster snapshots.
+      // KGA_REAL_CLASS_LOCAL_TEST_V1: development-only existing roster snapshot.
+      // No production/API write; NEVER publish this test file or its private roster.
+      if(!nextRoster.some(x=>String(x.phoneNumber||'').trim())){
+        if(location.hostname!=='localhost'&&location.hostname!=='127.0.0.1')throw new Error('현재 서버에서 전화번호가 제공되지 않습니다. 방을 생성하지 않았습니다.');
+        const snapshotResponse=await fetch(new URL('./kga-local-private-phone-roster.json',location.href),{cache:'no-store'});
+        if(!snapshotResponse.ok)throw new Error('로컬 테스트 명단을 읽을 수 없습니다.');
+        const snapshot=await snapshotResponse.json();
+        if(!Array.isArray(snapshot))throw new Error('로컬 테스트 명단 형식이 다릅니다.');
+        nextRoster=snapshot.filter(s=>String(s.classId||'')===String(ctx.classId));
+        if(!nextRoster.length)throw new Error('선택한 반의 로컬 테스트 명단이 없습니다.');
+        console.info('[KGA] local real student roster snapshot in use; TEST ONLY');
+      }
     }
     const data = await ensureData();
     validateQuestionCount();
