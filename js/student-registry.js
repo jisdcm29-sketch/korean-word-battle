@@ -34,8 +34,8 @@ function callApi(action,payload={}){
 }
 
 export function listStudents(classId){return callApi('listStudents',{...authPayload(),classId:clean(classId)});}
-export function saveStudent(classId,{studentId='',displayName='',aliases='',possibleNames=''}={}){
-  return callApi('saveStudent',{...authPayload(),classId:clean(classId),studentId:clean(studentId),displayName:clean(displayName),aliases,possibleNames});
+export function saveStudent(classId,{studentId='',displayName='',phoneNumber='',aliases='',possibleNames=''}={}){
+  return callApi('saveStudent',{...authPayload(),classId:clean(classId),studentId:clean(studentId),displayName:clean(displayName),phoneNumber:clean(phoneNumber),aliases,possibleNames});
 }
 export function deleteStudent(classId,studentId){
   return callApi('deleteStudent',{...authPayload(),classId:clean(classId),studentId:clean(studentId)});
