@@ -1,4 +1,4 @@
-import { loginTeacher, validateTeacherAccess, clearTeacherAccess, isAccessApiConfigured } from './access-control.js?v=1.6';
+import { loginTeacher, clearTeacherAccess, isAccessApiConfigured } from './access-control.js?v=1.6';
 
 const $=id=>document.getElementById(id);
 const form=$('accessForm'),auth=$('authCode'),permit=$('permitCode'),submit=$('accessSubmit'),message=$('accessMessage'),setup=$('setupWarning');
@@ -15,9 +15,7 @@ if(!isAccessApiConfigured()){
   setup.classList.remove('hidden');
   submit.disabled=true;
   msg('관리자 설정이 아직 완료되지 않았습니다.','error');
-}else{
-  const existing=await validateTeacherAccess({force:true});
-  if(existing.ok){msg(`${existing.access.teacherName||'교사'}님, 인증된 사용권을 확인했습니다. 이동합니다.`,'success');setTimeout(go,450);}
+
 }
 
 form.addEventListener('submit',async e=>{
