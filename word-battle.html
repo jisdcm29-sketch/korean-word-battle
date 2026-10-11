@@ -6,6 +6,13 @@
   <title>어휘 배틀 · 게임 호스트</title>
   <link rel="stylesheet" href="css/app.css?v=7.7" />
   <link rel="stylesheet" href="css/standalone-ui-sync-v2.css?v=3.0" />
+  <style id="KGA_FINAL_VISIBILITY_V2_TEST_ONLY">
+    /* Room-stage visibility guard; do not hide a completed game's ceremony. */
+    #hostView #lobbyArea:not(.hidden) ~ #finalArea,
+    #hostView #gameArea:not(.hidden) ~ #finalArea {
+      display: none !important;
+    }
+  </style>
 </head>
 <body class="teacher-page standalone-word-host">
   <div class="arena-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
