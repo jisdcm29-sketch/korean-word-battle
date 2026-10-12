@@ -29,7 +29,7 @@ async function joinRoom(){
     bus?.close();bus=new SentencePlayerBus(pin);bus.on(handleBus);await bus.init();
     if(!(await bus.exists()))throw new Error('문장 배틀 게임방을 찾을 수 없습니다.');
     const initial=bus.latestState;if(initial?.status==='finished'&&!initial.players?.[bus.uid])throw new Error('이미 종료된 게임입니다.');
-    localStorage.setItem('sentence_sample_name',name);localStorage.setItem('sentence_sample_avatar',selectedAvatar);
+    localStorage.setItem(`sentence_sample_name_${pin}`,name);localStorage.setItem(`sentence_sample_avatar_${pin}`,selectedAvatar);
     await bus.send('join',{name,avatar:selectedAvatar});
     els.myAvatar.textContent=selectedAvatar;els.waitName.textContent=initial?.status&&initial.status!=='lobby'?`${name} · 진행 중 입장` : name;els.waitPin.textContent=pin;setView('wait');els.joinMessage.textContent='';
   }catch(err){els.joinMessage.textContent=err.message;bus?.close();bus=null;setView('join');}finally{els.joinBtn.disabled=false;}
@@ -107,4 +107,4 @@ function resetHome(){stopLoops();bus?.close();bus=null;state=null;currentQuestio
 els.joinBtn.addEventListener('click',joinRoom);els.pinInput.addEventListener('keydown',e=>{if(e.key==='Enter')els.nameInput.focus();});els.nameInput.addEventListener('keydown',e=>{if(e.key==='Enter')joinRoom();});els.undoBtn.addEventListener('click',undo);els.resetBtn.addEventListener('click',reset);els.submitBtn.addEventListener('click',submit);els.leaveBtn.addEventListener('click',resetHome);els.closedHomeBtn.addEventListener('click',resetHome);
 window.addEventListener('pagehide',()=>{try{if(bus&&state?.status==='lobby')bus.send('leave',{});}catch{}});
 
-const params=new URLSearchParams(location.search);const pin=params.get('pin')||'';if(pin)els.pinInput.value=pin;els.nameInput.value=localStorage.getItem('sentence_sample_name')||'';const savedAvatar=localStorage.getItem('sentence_sample_avatar');if(savedAvatar&&AVATARS.includes(savedAvatar))selectedAvatar=savedAvatar;initAvatars();setView('join');
+const params=new URLSearchParams(location.search);const pin=params.get('pin')||'';if(pin)els.pinInput.value=pin;els.nameInput.value=localStorage.getItem(`sentence_sample_name_${pin}`)||'';const savedAvatar=localStorage.getItem(`sentence_sample_avatar_${pin}`);if(savedAvatar&&AVATARS.includes(savedAvatar))selectedAvatar=savedAvatar;initAvatars();setView('join');

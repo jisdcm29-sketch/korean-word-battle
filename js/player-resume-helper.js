@@ -5,7 +5,7 @@
   const path = location.pathname.toLowerCase();
 
   function profileKeys() {
-    if (path.includes('sentence-battle-sample')) return { name:'sentence_sample_name', avatar:'sentence_sample_avatar' };
+    if (path.includes('sentence-battle-sample')) return { name:`sentence_sample_name_${pin}`, avatar:`sentence_sample_avatar_${pin}` };
     if (path.endsWith('/matching-play.html') || path.endsWith('matching-play.html')) return { name:`kmp_name_${pin}`, avatar:`kmp_avatar_${pin}` };
     if (path.endsWith('/memory-play.html') || path.endsWith('memory-play.html')) return { name:`kmb_name_${pin}`, avatar:`kmb_avatar_${pin}` };
     if (path.endsWith('/word-search-play.html') || path.endsWith('word-search-play.html')) return { name:`kws_name_${pin}`, avatar:`kws_avatar_${pin}` };
