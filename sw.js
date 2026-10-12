@@ -1,5 +1,6 @@
-const CACHE_NAME='kwb-offline-v1.0.35';
+const CACHE_NAME='kwb-offline-entry-20261012-v1';
 const CORE_ASSETS=[
+  './css/student-entry.css','./js/student-entry-ui.js','./js/student-entry-host.js','./js/phone-name-resolver.js',
   './','./index.html','./arena.html','./join.html',
   './word-battle.html','./play.html','./matching-pairs.html','./matching-play.html',
   './memory-pairs.html','./memory-play.html','./word-search.html','./word-search-play.html',

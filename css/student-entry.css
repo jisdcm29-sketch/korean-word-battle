@@ -1,0 +1,32 @@
+/* Vocabulary entry design. Every rule is limited to the entry screen. */
+body.kga-entry-active{margin:0!important;min-height:100dvh!important;color:#13233a!important;background:radial-gradient(circle at 50% -10%,#264f9e 0,#101f48 27%,#eef4ff 27.2%,#edf2f8 100%)!important;font-family:Inter,"Pretendard","Noto Sans KR","Malgun Gothic",system-ui,sans-serif!important;overflow-x:hidden!important}
+body.kga-entry-active>div[aria-hidden="true"]{display:none!important}
+body.kga-entry-active>main>:not(#joinView):not(#joinView){display:none!important}
+body.kga-entry-active>main{position:relative!important;width:min(620px,100%)!important;max-width:620px!important;min-height:100dvh!important;height:auto!important;margin:0 auto!important;padding:18px!important;display:flex!important;align-items:center!important;justify-content:initial!important;box-sizing:border-box!important;background:transparent!important;border:0!important;box-shadow:none!important}
+#joinView.kga-entry{width:100%!important;max-width:none!important;height:auto!important;min-height:0!important;margin:0!important;padding:24px!important;background:linear-gradient(180deg,#fff,#f8faff)!important;border:1px solid rgba(171,194,226,.8)!important;border-radius:22px!important;box-shadow:0 22px 50px rgba(11,38,84,.22)!important;box-sizing:border-box!important;color:#13233a!important;text-align:left!important;font-family:Inter,"Pretendard","Noto Sans KR","Malgun Gothic",system-ui,sans-serif!important;line-height:normal!important;overflow:visible!important}
+#joinView.kga-entry *{box-sizing:border-box}
+#joinView.kga-entry:not(.hidden):not(.combined-off){display:block!important}
+#joinView.kga-entry #avatarGrid button{font-family:inherit!important}
+#joinView.kga-entry .kga-brand{text-align:center;margin:0 0 22px;padding:0}
+#joinView.kga-entry .kga-flags{display:flex;align-items:center;justify-content:center;gap:12px;margin:-4px 0 9px}
+#joinView.kga-entry .kga-flags span{font-size:38px;filter:drop-shadow(0 4px 4px rgba(0,0,0,.12))}
+#joinView.kga-entry .kga-flags b{font-size:12px;color:#e29318;letter-spacing:.08em}
+#joinView.kga-entry .kga-live{display:inline-block;background:#edf3ff;padding:4px 8px;border-radius:999px;font-size:11px;letter-spacing:.18em;color:#2f6fed;font-weight:900}
+#joinView.kga-entry .kga-brand h1{font-size:28px;line-height:normal;margin:5px;font-weight:700;color:#153d7c;letter-spacing:normal;text-shadow:none}
+#joinView.kga-entry .kga-brand p{margin:0;color:#6b778c;font-size:14px;font-weight:400;line-height:normal;letter-spacing:normal}
+#joinView.kga-entry .kga-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:-6px 0 18px}
+#joinView.kga-entry .kga-steps span{background:#f5f8fd;border:1px solid #e2e9f2;border-radius:10px;padding:8px 5px;text-align:center;font-size:10px;font-weight:800;color:#52627a}
+#joinView.kga-entry .kga-steps b{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:#2f6fed;color:#fff;margin-right:2px;font-size:9px}
+#joinView.kga-entry .kga-field{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:700;margin:0;padding:0;color:#3b4960}
+#joinView.kga-entry input{width:100%!important;height:auto!important;min-height:0!important;border:1px solid #dfe6ef!important;border-radius:12px!important;background:#fff!important;padding:13px 14px!important;margin:0!important;color:#13233a!important;outline:none;font:inherit!important;letter-spacing:normal!important;text-align:left!important;box-shadow:none!important}
+#joinView.kga-entry input::placeholder{color:#757575;opacity:1}
+#joinView.kga-entry input:focus{border-color:#8db0f3!important;box-shadow:0 0 0 3px #e9f0ff!important}
+#joinView.kga-entry .kga-avatar-section{margin:16px 0}
+#joinView.kga-entry .kga-avatar-label{font-size:16px;font-weight:400;color:#3b4960}
+#joinView.kga-entry #avatarGrid{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;gap:7px!important;margin:8px 0 0!important;padding:0!important}
+#joinView.kga-entry #avatarGrid button{display:block!important;width:auto!important;height:auto!important;min-height:0!important;margin:0!important;border:2px solid transparent!important;background:#f4f7fb!important;border-radius:11px!important;font-size:27px!important;line-height:normal!important;padding:8px 0!important;cursor:pointer;box-shadow:none!important;transform:none!important;filter:none!important}
+#joinView.kga-entry #avatarGrid button.selected,#joinView.kga-entry #avatarGrid button.active{border-color:#2f6fed!important;background:#eaf1ff!important}
+#joinView.kga-entry #joinBtn{display:block!important;width:100%!important;margin:0!important;min-height:0!important;padding:13px 18px!important;border:0!important;border-radius:12px!important;background:linear-gradient(135deg,#ff754d,#e43f67 48%,#7446da)!important;box-shadow:0 10px 23px rgba(217,63,102,.25)!important;color:#fff!important;font-family:inherit!important;font-size:14px!important;font-weight:800!important;line-height:normal!important;letter-spacing:normal!important;cursor:pointer;transform:none!important}
+#joinView.kga-entry #joinBtn:disabled{opacity:.55;cursor:wait}
+#joinView.kga-entry .kga-error{color:#e45454!important;font-size:13px!important;font-weight:400!important;line-height:normal!important;margin:10px 0 0!important;padding:0!important;text-align:center!important;min-height:18px!important}
+@media(max-width:560px){body.kga-entry-active>main{padding:10px!important}#joinView.kga-entry{border-radius:17px!important}}

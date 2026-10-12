@@ -425,7 +425,7 @@ function activeStudentRowsForClass_(sheet,teacherId,classId) {
   return studentRowsForClass_(sheet,teacherId,classId).filter(x=>text_(x.row['Active']).toUpperCase()!=='FALSE'&&text_(x.row['Active']).toUpperCase()!=='INACTIVE');
 }
 function studentPayload_(x) {
-  return {studentId:text_(x.row['StudentID']),displayName:text_(x.row['DisplayName']),aliases:parseNameList_(x.row['Aliases']),possibleNames:parseNameList_(x.row['PossibleNames'])};
+  return {studentId:text_(x.row['StudentID']),displayName:text_(x.row['DisplayName']),phoneNumber:text_(x.row['PhoneNumber']),aliases:parseNameList_(x.row['Aliases']),possibleNames:parseNameList_(x.row['PossibleNames'])};
 }
 function studentPayloadList_(sheet,teacherId,classId) {
   return activeStudentRowsForClass_(sheet,teacherId,classId).map(studentPayload_).filter(x=>x.studentId&&x.displayName).sort((a,b)=>a.displayName.localeCompare(b.displayName,'ko'));

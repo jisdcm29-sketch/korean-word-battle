@@ -7,11 +7,19 @@
   <title>한·몽 기억력 배틀 · 학생</title>
   <link rel="stylesheet" href="css/memory.css?v=1.1" />
   <link rel="stylesheet" href="css/memory-player-mobile.css?v=1.1" />
+  <link rel="stylesheet" href="css/student-entry.css?v=entry-20261012" />
 </head>
-<body class="memory-player-page">
+<body class="memory-player-page kga-entry-active">
   <div class="memory-bg player-bg" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
   <main class="phone-shell">
-    <section id="joinView" class="player-screen join-screen"><div class="player-logo">🇰🇷 <b>🧠</b> 🇲🇳</div><p class="eyebrow">MEMORY ARENA</p><h1>기억력 배틀</h1><p class="mn-sub">Солонгос · Монгол үгийн ой тогтоолтын тоглоом</p><div class="how-strip"><span><b>1</b>카드 위치 기억</span><span><b>2</b>두 카드 뒤집기</span><span><b>3</b>같은 뜻 짝 찾기</span></div><label class="field"><span>PIN</span><input id="pinInput" inputmode="numeric" maxlength="6" placeholder="6자리 PIN" /></label><label class="field"><span>이름 / Нэр</span><input id="nameInput" maxlength="20" placeholder="이름 또는 별명" /></label><div class="avatar-title">캐릭터 선택</div><div id="avatarGrid" class="avatar-grid"></div><button id="joinBtn" class="btn btn-primary full" type="button">입장하기 🧠</button><p id="joinError" class="error-text"></p></section>
+    <section id="joinView" class="player-screen join-screen kga-entry">
+      <div class="kga-brand"><div class="kga-flags"><span>🇰🇷</span><b>⚡ VS ⚡</b><span>🇲🇳</span></div><span class="kga-live">LIVE GAME</span><h1>기억력 배틀</h1><p>Солонгос · Монгол үгийн ой тогтоолтын тоглоом</p></div>
+      <div class="kga-steps"><span><b>1</b> PIN으로 입장</span><span><b>2</b> 문제 풀기</span><span><b>3</b> 점수·순위 경쟁</span></div>
+      <label class="kga-field"><span>PIN</span><input id="pinInput" inputmode="numeric" maxlength="6" placeholder="6자리 PIN" /></label>
+      <label class="kga-field"><span>전화번호 또는 이름 / Утас эсвэл нэр</span><input id="nameInput" maxlength="60" placeholder="전화번호 또는 이름을 입력하세요" /></label>
+      <div class="kga-avatar-section"><span class="kga-avatar-label">캐릭터 선택</span><div id="avatarGrid"></div></div>
+      <button id="joinBtn" type="button">입장하기</button><div id="joinError" class="kga-error" role="status"></div>
+    </section>
     <section id="waitingView" class="player-screen center-screen hidden"><div id="myAvatar" class="big-avatar">🐻</div><h2 id="waitingName">입장 완료!</h2><p>선생님이 게임을 시작할 때까지 기다려 주세요.</p><div class="wait-pulse">● ● ●</div></section>
     <section id="countdownView" class="player-screen center-screen countdown-screen hidden"><p>READY</p><div id="playerCountdown" class="big-countdown">3</div></section>
     <section id="playView" class="player-screen play-screen hidden"><header class="player-game-head"><div><strong id="playerRoundLabel">ROUND 1/3</strong><span id="pairProgress">0/6쌍</span></div><div class="head-right"><div class="score-box"><span>내 점수</span><strong id="myScore">0</strong><em id="blindScoreText" class="hidden">비공개</em></div><div id="playerTimerText" class="timer-text">60.0</div></div></header><div id="playerBlindBadge" class="player-blind-badge hidden">🙈 마지막 30% · 점수 비공개</div><div class="timer-track"><i id="playerTimerBar"></i></div><div class="memory-guide"><span id="selectionHint">카드 위치를 기억하세요.</span><b id="comboText">COMBO 0</b></div><div id="cardBoard" class="memory-board"></div><div id="pairFeedback" class="pair-feedback"></div></section>
@@ -19,7 +27,8 @@
     <section id="finishView" class="player-screen center-screen finish-screen hidden"><div class="trophy">🏆</div><p class="eyebrow">MEMORY BATTLE COMPLETE</p><h2 id="finishName">수고했어요!</h2><div class="finish-score"><span>최종 점수</span><strong id="finishScore">0</strong></div><div id="finishRank" class="finish-rank">1위</div><p>교실 화면에서 최종 시상식을 확인하세요.</p><button id="homeBtn" class="btn btn-primary full" type="button">처음으로</button></section>
   </main>
   <div id="scoreFloat" class="score-float hidden">+100</div>
-  <script type="module" src="js/memory-player.js?v=connection-fix3-20261009"></script>
+  <script type="module" src="js/memory-player.js?v=entry-20261012"></script>
   <script src="js/player-resume-helper.js?v=3.1"></script>
+  <script src="js/student-entry-ui.js?v=entry-20261012"></script>
 </body>
 </html>

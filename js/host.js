@@ -1,5 +1,5 @@
+import { withRegisteredStudentNames } from './student-entry-host.js?v=entry-20261012';
 import { getClassContext } from './class-manager.js?v=1.0';
-import { listStudents } from './student-registry.js?v=1.1';
 import { phase64SelectClass, phase64IsEnabled } from './phase64-pre-room-class.js?v=1';
 import { phase65BindRoom } from './phase65-room-binding.js?v=1';
 import { mountPhase70ApprovalPanel } from './phase70-teacher-approval-panel.js?v=71';
@@ -623,22 +623,6 @@ async function makePin() {
   return String(Math.floor(100000 + Math.random()*900000));
 }
 
-// KGA_PHONE_WORD_HOST_V2 -- local-only integration; no data mutation.
-let kgaPhoneRoster=null;
-let kgaRoomClassMode=false;
-function resolvePhoneForRoom(value){
-  const text=String(value||'').trim();
-  if(!text)return {ok:false,message:'이름 또는 전화번호를 입력하세요.'};
-  if(!kgaRoomClassMode)return {ok:true,name:text};
-  const num=text.replace(/[\s()+-]/g,'');
-  // Only registered numbers get a canonical student name. Others remain guest participants.
-  if(!/^\d{7,15}$/.test(num))return {ok:true,name:text};
-  const matches=(kgaPhoneRoster||[]).filter(s=>String(s.phoneNumber||'').replace(/[^0-9]/g,'')===num);
-  if(matches.length===0)return {ok:true,name:text};
-  if(matches.length!==1)return {ok:false,message:'중복된 전화번호입니다. 교사에게 확인하세요.'};
-  const name=String(matches[0].displayName||'').trim();
-  return name?{ok:true,name}:{ok:false,message:'학생 이름이 비어 있습니다. 교사에게 확인하세요.'};
-}
 async function createRoom(demoMode = false) {
   try {
     setupAudioSettings();
@@ -650,33 +634,11 @@ async function createRoom(demoMode = false) {
       const selection = await phase64SelectClass();
       if (!selection) { toast('반 선택 취소: 게임방을 만들지 않았습니다.'); return; }
     }
-    const ctx=getClassContext();
-    const nextClassMode=ctx?.mode==='CLASS' && Boolean(ctx.classId) && !demoMode;
-    let nextRoster=null;
-    if(nextClassMode){
-      const fetched=await listStudents(ctx.classId);
-      if(!fetched?.ok||!Array.isArray(fetched.students))throw new Error('선택한 반의 학생 명단을 불러올 수 없습니다.');
-      nextRoster=fetched.students;
-      // KGA_REAL_CLASS_LOCAL_TEST_V1: development-only existing roster snapshot.
-      // No production/API write; NEVER publish this test file or its private roster.
-      if(!nextRoster.some(x=>String(x.phoneNumber||'').trim())){
-        if(location.hostname!=='localhost'&&location.hostname!=='127.0.0.1')throw new Error('현재 서버에서 전화번호가 제공되지 않습니다. 방을 생성하지 않았습니다.');
-        const snapshotResponse=await fetch(new URL('./kga-local-private-phone-roster.json',location.href),{cache:'no-store'});
-        if(!snapshotResponse.ok)throw new Error('로컬 테스트 명단을 읽을 수 없습니다.');
-        const snapshot=await snapshotResponse.json();
-        if(!Array.isArray(snapshot))throw new Error('로컬 테스트 명단 형식이 다릅니다.');
-        nextRoster=snapshot.filter(s=>String(s.classId||'')===String(ctx.classId));
-        if(!nextRoster.length)throw new Error('선택한 반의 로컬 테스트 명단이 없습니다.');
-        console.info('[KGA] local real student roster snapshot in use; TEST ONLY');
-      }
-    }
     const data = await ensureData();
     validateQuestionCount();
     const config = getConfig();
     const quiz = buildQuiz(data.items, config);
     const pin = await makePin();
-    kgaRoomClassMode=Boolean(nextClassMode);
-    kgaPhoneRoster=nextRoster;
     room = {
       pin,
       status:'lobby',
@@ -693,13 +655,13 @@ async function createRoom(demoMode = false) {
 
     if (isFirebaseConfigured()) {
       bus = new FirebaseBus(pin, 'host');
-      bus.on(handleMessage);
+      bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>bus?.mode!=='local'&&!room?.demoMode,onError:toast}));
       await bus.init();
       room.createdAt = nowMs();
       await bus.createRoom(room);
     } else {
       bus = new LocalBus(pin);
-      bus.on(handleMessage);
+      bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>bus?.mode!=='local'&&!room?.demoMode,onError:toast}));
       bus.saveRoom(room);
     }
 
@@ -777,9 +739,7 @@ function handleMessage(msg) {
   if (msg.type === 'join') {
     const {uid,name,avatar} = msg.payload||{};
     if (!uid || !name || !canAcceptLateJoin(room.status)) return;
-    const matched=resolvePhoneForRoom(name);
-    if(!matched.ok){toast(matched.message);return;}
-    const resolvedName=String(matched.name).slice(0,20);
+    const resolvedName=String(name);
     const existing=room.players[uid];
     if(existing){
       existing.name=resolvedName;
@@ -1237,7 +1197,7 @@ async function restoreHostGame(saved){
   setupAudioSettings();await audio.unlock();
   const restored=new FirebaseBus(saved.room.pin,'host');
   try{
-    await restored.resumeHost(saved,()=>{room=saved.room;bus=restored;bus.seen=new Set(saved.processedIds||[]);bus.on(handleMessage);});
+    await restored.resumeHost(saved,()=>{room=saved.room;bus=restored;bus.seen=new Set(saved.processedIds||[]);bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>bus?.mode!=='local'&&!room?.demoMode,onError:toast}));});
     const pin=room.pin,url=buildStudentEntryUrl(pin);
     $('setupView').classList.add('hidden');$('hostView').classList.remove('hidden');$('roomPin').textContent=pin;
     $('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);

@@ -1,3 +1,4 @@
+import { withRegisteredStudentNames } from './student-entry-host.js?v=entry-20261012';
 var hostRecovery;
 import { createHostGameRecovery } from './host-game-recovery.js?v=1';
 import { loadByConfig } from './data-loader.js';
@@ -21,6 +22,7 @@ function buildStudentEntryUrl(pin){
 await requireTeacherAccess({ game:'combined' });
 
 const $=id=>document.getElementById(id);
+function toast(message){alert(String(message||'학생 이름 확인 중 오류가 발생했습니다.'));}
 const params=new URLSearchParams(location.search);
 const source=params.get('source')==='sejong'?'sejong':'snu';
 const textbookName=source==='sejong'?'세종한국어(개정판)':'서울대 한국어';
@@ -260,10 +262,10 @@ async function createLiveRoom(){
   try{
     const s=settings();quiz=buildQuiz(vocabItems,{direction:'mixed',questionCount:s.wordCount});validateQuizIntegrity(quiz);matching=buildMatchingRounds(vocabItems,{roundCount:s.matchRounds,pairsPerRound:s.pairsPerRound});validateMatchingIntegrity(matching);const selectedSentence=shuffle(sentenceQuestions).slice(0,s.sentenceCount);
     const pin=await createUniqueFirebasePin();liveRoom={pin,title:`종합 배틀 · ${textbookName} ${book} ${lesson}과`,status:'lobby',config:{gameType:'combined',sourceType:source,snuBook:book,snuLesson:lesson,...s},players:{},stageIndex:-1,unitIndex:-1,unitTotal:0,unitResults:{},completedSteps:0,totalSteps:s.wordCount+s.matchRounds+s.sentenceCount,blindActive:false,quiz,matching,sentenceSet:selectedSentence,createdAt:Date.now()};
-    liveBus?.close();liveBus=new FirebaseBus(pin,'host');liveBus.on(handleLiveMessage);await liveBus.init();liveRoom.createdAt=now();await liveBus.createRoom(liveRoom);hostRecovery?.capture();mode='live';setView('lobby');$('roomPin').textContent=pin;const url=buildStudentEntryUrl(pin);$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);createLateJoinPanel({pin,url:url.href,getStatus:()=>liveRoom?.status,enabled:()=>mode==='live',side:'left'});renderLobby();startLiveTick();audio.startBgm('lobby');audio.playChime();
+    liveBus?.close();liveBus=new FirebaseBus(pin,'host');liveBus.on(withRegisteredStudentNames(handleLiveMessage,{getRoom:()=>liveRoom,enabled:()=>!liveRoom?.demoMode,onError:toast}));await liveBus.init();liveRoom.createdAt=now();await liveBus.createRoom(liveRoom);hostRecovery?.capture();mode='live';setView('lobby');$('roomPin').textContent=pin;const url=buildStudentEntryUrl(pin);$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);createLateJoinPanel({pin,url:url.href,getStatus:()=>liveRoom?.status,enabled:()=>mode==='live',side:'left'});renderLobby();startLiveTick();audio.startBgm('lobby');audio.playChime();
   }catch(err){console.error(err);alert(err?.message||'실제 학생 종합 배틀 방을 만들지 못했습니다.');}
 }
-function handleLiveMessage(msg){if(!liveRoom)return;const p=msg.payload||{},uid=String(p.uid||msg.uid||'');if(msg.type==='join'){if(!uid||!p.name||!canAcceptLateJoin(liveRoom.status))return;const existing=liveRoom.players[uid];if(existing){existing.name=String(p.name).slice(0,20);existing.avatar=AVATARS.includes(p.avatar)?p.avatar:(existing.avatar||'🐻');}else liveRoom.players[uid]={uid,name:String(p.name).slice(0,20),avatar:AVATARS.includes(p.avatar)?p.avatar:'🐻',scores:{word:0,matching:0,sentence:0},score:0,matchedPairIds:[],matchingMistakes:0,matchingCombo:0,lateJoin:liveRoom.status!=='lobby',joinedAt:now()};persistLive();if(liveRoom.status==='lobby')renderLobby();else renderLive();return;}if(msg.type==='request-state'){persistLive();return;}if(msg.type==='combined-word-answer')handleWordAnswer(uid,p,msg.at);if(msg.type==='combined-match-pair')handleMatchPair(uid,p,msg.at);if(msg.type==='combined-match-mistake')handleMatchMistake(uid,p,msg.at);if(msg.type==='combined-sentence-submit')handleSentenceSubmit(uid,p,msg.at);}
+function handleLiveMessage(msg){if(!liveRoom)return;const p=msg.payload||{},uid=String(p.uid||msg.uid||'');if(msg.type==='join'){if(!uid||!p.name||!canAcceptLateJoin(liveRoom.status))return;const existing=liveRoom.players[uid];if(existing){existing.name=String(p.name);existing.avatar=AVATARS.includes(p.avatar)?p.avatar:(existing.avatar||'🐻');}else liveRoom.players[uid]={uid,name:String(p.name),avatar:AVATARS.includes(p.avatar)?p.avatar:'🐻',scores:{word:0,matching:0,sentence:0},score:0,matchedPairIds:[],matchingMistakes:0,matchingCombo:0,lateJoin:liveRoom.status!=='lobby',joinedAt:now()};persistLive();if(liveRoom.status==='lobby')renderLobby();else renderLive();return;}if(msg.type==='request-state'){persistLive();return;}if(msg.type==='combined-word-answer')handleWordAnswer(uid,p,msg.at);if(msg.type==='combined-match-pair')handleMatchPair(uid,p,msg.at);if(msg.type==='combined-match-mistake')handleMatchMistake(uid,p,msg.at);if(msg.type==='combined-sentence-submit')handleSentenceSubmit(uid,p,msg.at);}
 function activeLiveCount(){return Object.keys(liveRoom?.players||{}).length;}
 function allLiveResponded(){return activeLiveCount()>0&&Object.keys(liveRoom?.unitResults||{}).length>=activeLiveCount();}
 
@@ -300,7 +302,7 @@ preload();
 async function restoreHostGame(saved){
   await unlockAudio();const restored=new FirebaseBus(saved.room.pin,'host');
   try{
-    await restored.resumeHost(saved,()=>{liveRoom=saved.room;liveBus=restored;liveBus.seen=new Set(saved.processedIds||[]);mode='live';liveBus.on(handleLiveMessage);});
+    await restored.resumeHost(saved,()=>{liveRoom=saved.room;liveBus=restored;liveBus.seen=new Set(saved.processedIds||[]);mode='live';liveBus.on(withRegisteredStudentNames(handleLiveMessage,{getRoom:()=>liveRoom,enabled:()=>!liveRoom?.demoMode,onError:toast}));});
     const pin=liveRoom.pin,url=buildStudentEntryUrl(pin);
     $('roomPin').textContent=pin;$('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);
     createLateJoinPanel({pin,url:url.href,getStatus:()=>liveRoom?.status,enabled:()=>mode==='live',side:'left'});

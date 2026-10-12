@@ -1,3 +1,4 @@
+import { withRegisteredStudentNames } from './student-entry-host.js?v=entry-20261012';
 import { createHostGameRecovery } from './host-game-recovery.js?v=1';
 import { CATALOG, booksForSource } from './catalog.js';
 import { loadByConfig } from './data-loader.js';
@@ -343,8 +344,8 @@ async function createRoom(demoMode=false){
     const pin=demoMode?await makeLocalPin():await createUniqueFirebasePin();
     room={pin,title:data.title,status:'lobby',config,players:{},matching,roundIndex:-1,roundStartAt:0,roundEndAt:0,blindActive:false,demoMode:Boolean(demoMode),createdAt:Date.now()};
     bus?.close();
-    if(demoMode){ bus=new LocalBus(pin); bus.on(handleMessage); bus.saveRoom(room); }
-    else { bus=new FirebaseBus(pin,'host'); bus.on(handleMessage); await bus.init(); room.createdAt=nowMs(); await bus.createRoom(room); }
+    if(demoMode){ bus=new LocalBus(pin); bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>bus?.mode!=='local'&&!room?.demoMode,onError:toast})); bus.saveRoom(room); }
+    else { bus=new FirebaseBus(pin,'host'); bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>bus?.mode!=='local'&&!room?.demoMode,onError:toast})); await bus.init(); room.createdAt=nowMs(); await bus.createRoom(room); }
     if(demoMode) addDemoStudents(10,false); else persistAndBroadcast();
     $('setupView').classList.add('hidden'); $('hostView').classList.remove('hidden'); showHostSubView('lobbyView'); $('roomPin').textContent=pin;
     const url=bus.mode==='local'?new URL('matching-play.html',location.href):buildStudentEntryUrl(pin); if(bus.mode==='local'){url.searchParams.set('pin',pin);url.searchParams.set('local','1');} $('joinUrl').textContent=url.href; $('openPlayerBtn').onclick=()=>window.open(url.href,'_blank'); renderQr(url.href); createLateJoinPanel({pin,url:url.href,getStatus:()=>room?.status,enabled:()=>bus?.mode==='firebase'}); renderLobby(); startLoop();
@@ -365,8 +366,8 @@ function handleMessage(msg){
   if(msg.type==='join'){
     const {uid,name,avatar}=msg.payload||{}; if(!uid||!name||!canAcceptLateJoin(room.status))return;
     const existing=room.players[uid];
-    if(existing){existing.name=String(name).slice(0,20);existing.avatar=AVATARS.includes(avatar)?avatar:(existing.avatar||'🐻');existing.bot=false;}
-    else room.players[uid]={uid,name:String(name).slice(0,20),avatar:AVATARS.includes(avatar)?avatar:'🐻',score:0,bot:false,matchedPairIds:[],matchedCount:0,totalMatched:0,mistakes:0,totalMistakes:0,combo:0,roundFinishedAt:0,lastGain:0,lastGainAt:0,lateJoin:room.status!=='lobby',joinedAt:nowMs()};
+    if(existing){existing.name=String(name);existing.avatar=AVATARS.includes(avatar)?avatar:(existing.avatar||'🐻');existing.bot=false;}
+    else room.players[uid]={uid,name:String(name),avatar:AVATARS.includes(avatar)?avatar:'🐻',score:0,bot:false,matchedPairIds:[],matchedCount:0,totalMatched:0,mistakes:0,totalMistakes:0,combo:0,roundFinishedAt:0,lastGain:0,lastGainAt:0,lateJoin:room.status!=='lobby',joinedAt:nowMs()};
     persistAndBroadcast();
     if(room.status==='lobby')renderLobby();else if(room.status==='round-result')renderRoundResult();else renderGame(false);
   }
@@ -542,7 +543,7 @@ async function restoreHostGame(saved){
   setupAudio();await audio.unlock();
   const restored=new FirebaseBus(saved.room.pin,'host');
   try{
-    await restored.resumeHost(saved,()=>{room=saved.room;bus=restored;bus.seen=new Set(saved.processedIds||[]);bus.on(handleMessage);});
+    await restored.resumeHost(saved,()=>{room=saved.room;bus=restored;bus.seen=new Set(saved.processedIds||[]);bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>bus?.mode!=='local'&&!room?.demoMode,onError:toast}));});
     const pin=room.pin,url=buildStudentEntryUrl(pin);
     $('setupView').classList.add('hidden');$('hostView').classList.remove('hidden');$('roomPin').textContent=pin;
     $('joinUrl').textContent=url.href;$('openPlayerBtn').onclick=()=>window.open(url.href,'_blank');renderQr(url.href);

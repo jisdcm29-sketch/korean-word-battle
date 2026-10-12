@@ -18,29 +18,21 @@
     .combined-off{display:none!important}
     .combined-stage-root{min-height:100dvh}
   </style>
+  <link rel="stylesheet" href="css/student-entry.css?v=entry-20261012" />
 </head>
-<body class="combined-ui">
+<body class="combined-ui kga-entry-active">
   <!-- =========================================================
        종합 배틀 공통 화면: 한 번 입장 / 게임 사이 전환 / 최종 결과
        ========================================================= -->
   <div id="sharedBg" class="combined-bg" aria-hidden="true"><i></i><i></i><i></i></div>
   <main id="sharedShell" class="combined-shell">
-    <section id="joinView" class="combined-card combined-join-card">
-      <div class="combined-brand">
-        <span>🏆 ALL-IN-ONE</span>
-        <h1>종합 배틀</h1>
-        <p>어휘 · 카드 매칭 · 문장 배틀</p>
-      </div>
-      <div class="combined-steps">
-        <span><b>1</b> 한 번 입장</span>
-        <span><b>2</b> 세 게임 연속</span>
-        <span><b>3</b> 종합 순위</span>
-      </div>
-      <label class="combined-field"><span>PIN</span><input id="pinInput" inputmode="numeric" maxlength="6" placeholder="6자리 PIN"></label>
-      <label class="combined-field"><span>이름 / Нэр</span><input id="nameInput" maxlength="20" placeholder="이름을 입력하세요"></label>
-      <div class="combined-avatar-section"><span class="combined-field-title">캐릭터 선택</span><div id="avatarGrid" class="combined-avatar-grid"></div></div>
-      <button id="joinBtn" class="combined-btn combined-primary" type="button">입장하기</button>
-      <div id="joinError" class="combined-error"></div>
+    <section id="joinView" class="combined-card combined-join-card kga-entry">
+      <div class="kga-brand"><div class="kga-flags"><span>🇰🇷</span><b>⚡ VS ⚡</b><span>🇲🇳</span></div><span class="kga-live">LIVE GAME</span><h1>종합 배틀</h1><p>어휘 · 카드 매칭 · 문장 배틀</p></div>
+      <div class="kga-steps"><span><b>1</b> PIN으로 입장</span><span><b>2</b> 문제 풀기</span><span><b>3</b> 점수·순위 경쟁</span></div>
+      <label class="kga-field"><span>PIN</span><input id="pinInput" inputmode="numeric" maxlength="6" placeholder="6자리 PIN" /></label>
+      <label class="kga-field"><span>전화번호 또는 이름 / Утас эсвэл нэр</span><input id="nameInput" maxlength="60" placeholder="전화번호 또는 이름을 입력하세요" /></label>
+      <div class="kga-avatar-section"><span class="kga-avatar-label">캐릭터 선택</span><div id="avatarGrid"></div></div>
+      <button id="joinBtn" type="button">입장하기</button><div id="joinError" class="kga-error" role="status"></div>
     </section>
 
     <section id="waitingView" class="combined-card combined-center combined-off">
@@ -214,7 +206,8 @@
     </div>
   </section>
 
-  <script type="module" src="js/combined-player.js?v=connection-fix3-20261009"></script>
+  <script type="module" src="js/combined-player.js?v=entry-20261012"></script>
   <script src="js/player-resume-helper.js?v=3.1"></script>
+  <script src="js/student-entry-ui.js?v=entry-20261012"></script>
 </body>
 </html>

@@ -3,11 +3,11 @@ import { SentencePlayerBus } from './sentence-live.js?v=3.4';
 
 const $=id=>document.getElementById(id);
 const els={joinView:$('joinView'),waitView:$('waitView'),countdownView:$('countdownView'),playView:$('playView'),resultView:$('resultView'),studentFinalView:$('studentFinalView'),closedView:$('closedView'),pinInput:$('pinInput'),nameInput:$('nameInput'),avatarGrid:$('avatarGrid'),joinBtn:$('joinBtn'),joinMessage:$('joinMessage'),myAvatar:$('myAvatar'),waitName:$('waitName'),waitPin:$('waitPin'),studentCountdown:$('studentCountdown'),studentQuestion:$('studentQuestion'),studentScore:$('studentScore'),studentTimer:$('studentTimer'),studentTimerBar:$('studentTimerBar'),studentAnswer:$('studentAnswer'),studentCards:$('studentCards'),submitState:$('submitState'),undoBtn:$('undoBtn'),resetBtn:$('resetBtn'),submitBtn:$('submitBtn'),studentReveal:$('studentReveal'),myRoundResult:$('myRoundResult'),myFinalScore:$('myFinalScore'),myFinalRank:$('myFinalRank'),studentFinalRanking:$('studentFinalRanking'),leaveBtn:$('leaveBtn'),closedHomeBtn:$('closedHomeBtn')};
-const AVATARS=['🦊','🐰','🐯','🐼','🐱','🐻','🐸','🦁'];
+const AVATARS=['🐻','🐱','🐼','🐰','🐯','🦊','🐧','🐸','🐨','🦁','🐵','🐶'];
 const BOUND_TEXTS=new Set(['은','는','이','가','을','를','에','에서','에게','한테','께','하고','와','과','도','만','부터','까지','으로','로','의','보다','처럼','입니다','입니까','이에요','예요']);
 function terminalBase(text){return String(text||'').trim().replace(/[.。!！?？]+$/g,'');}
 function isBoundText(text){return BOUND_TEXTS.has(terminalBase(text));}
-let selectedAvatar='🦊',bus=null,state=null,currentQuestionIndex=-1,currentTokens=[],available=[],chosen=[],submitted=false,timerRaf=null,countdownRaf=null;
+let selectedAvatar='🐻',bus=null,state=null,currentQuestionIndex=-1,currentTokens=[],available=[],chosen=[],submitted=false,timerRaf=null,countdownRaf=null;
 let networkConnected=true,hostDisconnected=false,offlinePackage=null,offlineLoop=null;
 
 function setView(name){['join','wait','countdown','play','result','studentFinal','closed'].forEach(v=>els[`${v}View`]?.classList.toggle('hidden',v!==name));}

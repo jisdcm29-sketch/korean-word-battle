@@ -1,3 +1,5 @@
+import { withRegisteredStudentNames } from '../../js/student-entry-host.js?v=entry-20261012';
+const entryNameError=message=>alert(message);
 import { createHostGameRecovery } from '../../js/host-game-recovery.js?v=1';
 import { SentenceHostBus, createUniquePin, serverNow, firebaseReady, loadSentenceTeacherStore, saveSentenceTeacherStore } from './sentence-live.js?v=3.4';
 import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.6';
@@ -420,7 +422,7 @@ async function createRoom(demo=false){
     room={pin,status:'lobby',config:{timeLimit,sourceType:selectedSource,snuBook:selectedBook,snuLesson:selectedLesson},players:{},questionIndex:-1,answerCount:0,roundResults:{},createdAt:Date.now()};
     if(demo){DEMO_NAMES.forEach(([name,avatar],i)=>{room.players[`demo-${i+1}`]={uid:`demo-${i+1}`,name,avatar,score:0};});}
     else{
-      bus=new SentenceHostBus(pin);bus.on(handleMessage);await bus.init();await bus.createRoom(publicRoomState());hostRecovery?.capture();
+      bus=new SentenceHostBus(pin);bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>!isDemo,onError:entryNameError}));await bus.init();await bus.createRoom(publicRoomState());hostRecovery?.capture();
     }
     els.roomPin.textContent=demo?'DEMO':pin;els.joinLabel.textContent=demo?'10명 자동 시연':'GAME PIN';
     const join=buildJoinUrl();els.joinUrl.textContent=join;renderQr(join);if(!demo)createLateJoinPanel({pin,url:join,getStatus:()=>room?.status,enabled:()=>!isDemo});els.openPlayerBtn.onclick=()=>{const preview=new URL(join);preview.searchParams.set('preview','1');window.open(preview.href,'_blank');};
@@ -434,7 +436,7 @@ async function handleMessage(msg){
   const uid=msg.uid||msg.payload?.uid;if(!uid)return;
   if(msg.type==='join'){
     if(!canAcceptLateJoin(room.status))return;
-    const name=String(msg.payload?.name||'학생').trim().slice(0,18),avatar=String(msg.payload?.avatar||'🙂'),existing=room.players[uid];
+    const name=String(msg.payload?.name||'학생').trim(),avatar=String(msg.payload?.avatar||'🙂'),existing=room.players[uid];
     if(existing){existing.name=name;existing.avatar=avatar;}else room.players[uid]={uid,name,avatar,score:0,lateJoin:room.status!=='lobby',joinedAt:now()};
     if(room.status==='lobby')renderLobby();else renderGameMeta();sfx('join');await persist();
   }else if(msg.type==='submit'){
@@ -600,7 +602,7 @@ initializeSentenceBattle();
 async function restoreHostGame(saved){
   initAudio();const restored=new SentenceHostBus(saved.room.pin);
   try{
-    await restored.resumeHost(saved,()=>{room=saved.room;fullQuestions=saved.fullQuestions;currentQuestion=fullQuestions[room.questionIndex]||null;bus=restored;bus.seen=new Set(saved.processedIds||[]);isDemo=false;bus.on(handleMessage);});
+    await restored.resumeHost(saved,()=>{room=saved.room;fullQuestions=saved.fullQuestions;currentQuestion=fullQuestions[room.questionIndex]||null;bus=restored;bus.seen=new Set(saved.processedIds||[]);isDemo=false;bus.on(withRegisteredStudentNames(handleMessage,{getRoom:()=>room,enabled:()=>!isDemo,onError:entryNameError}));});
     els.roomPin.textContent=room.pin;els.joinLabel.textContent='GAME PIN';const join=buildJoinUrl();els.joinUrl.textContent=join;renderQr(join);
     createLateJoinPanel({pin:room.pin,url:join,getStatus:()=>room?.status,enabled:()=>true});els.openPlayerBtn.onclick=()=>window.open(join,'_blank');
     if(room.status==='lobby'){renderLobby();setView('lobby');}
