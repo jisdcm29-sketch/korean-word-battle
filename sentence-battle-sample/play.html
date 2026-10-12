@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#08162f" />
   <title>문장 배틀 · 학생</title>
   <script>if(new URLSearchParams(location.search).get("preview")==="1")document.documentElement.classList.add("desktop-phone-preview");</script>
-  <link rel="stylesheet" href="css/sentence-player.css?v=3.1" />
+  <link rel="stylesheet" href="css/sentence-player.css?v=3.2-wait" />
   <link rel="stylesheet" href="../css/standalone-ui-sync-v2.css?v=2.0" />
   <link rel="stylesheet" href="../css/student-entry.css?v=entry-20261012" />
 </head>
@@ -22,7 +22,7 @@
     </section>
 
     <section id="waitView" class="screen wait-screen hidden">
-      <div class="wait-icon" id="myAvatar">🙂</div><h2 id="waitName">학생</h2><p>입장 완료</p><div class="pin-chip">PIN <b id="waitPin">------</b></div><div class="spinner"></div><strong>선생님의 시작을 기다리고 있습니다.</strong>
+      <div class="wait-icon" id="myAvatar">🙂</div><h2 id="waitName">입장 확인 중...</h2><p>선생님이 게임을 시작할 때까지 기다려 주세요.</p><div class="wait-pulse" aria-hidden="true">● ● ●</div>
     </section>
 
     <section id="countdownView" class="screen countdown-screen hidden"><p>READY</p><div id="studentCountdown" class="student-countdown">3</div></section>
@@ -46,7 +46,7 @@
 
     <section id="closedView" class="screen closed-screen hidden"><div>🏠</div><h2>게임방이 종료되었습니다.</h2><button id="closedHomeBtn" class="primary-btn" type="button">처음으로</button></section>
   </main>
-  <script type="module" src="js/sentence-player.js?v=entry-20261012"></script>
+  <script type="module" src="js/sentence-player.js?v=entry-20261013-wait"></script>
   <script src="../js/player-resume-helper.js?v=3.1"></script>
   <script src="../js/student-entry-ui.js?v=entry-20261012"></script>
 </body>

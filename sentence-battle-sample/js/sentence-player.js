@@ -2,7 +2,7 @@ import { isConfirmedInputOpen } from '../../js/confirmed-game-state.js?v=1';
 import { SentencePlayerBus } from './sentence-live.js?v=3.4';
 
 const $=id=>document.getElementById(id);
-const els={joinView:$('joinView'),waitView:$('waitView'),countdownView:$('countdownView'),playView:$('playView'),resultView:$('resultView'),studentFinalView:$('studentFinalView'),closedView:$('closedView'),pinInput:$('pinInput'),nameInput:$('nameInput'),avatarGrid:$('avatarGrid'),joinBtn:$('joinBtn'),joinMessage:$('joinMessage'),myAvatar:$('myAvatar'),waitName:$('waitName'),waitPin:$('waitPin'),studentCountdown:$('studentCountdown'),studentQuestion:$('studentQuestion'),studentScore:$('studentScore'),studentTimer:$('studentTimer'),studentTimerBar:$('studentTimerBar'),studentAnswer:$('studentAnswer'),studentCards:$('studentCards'),submitState:$('submitState'),undoBtn:$('undoBtn'),resetBtn:$('resetBtn'),submitBtn:$('submitBtn'),studentReveal:$('studentReveal'),myRoundResult:$('myRoundResult'),myFinalScore:$('myFinalScore'),myFinalRank:$('myFinalRank'),studentFinalRanking:$('studentFinalRanking'),leaveBtn:$('leaveBtn'),closedHomeBtn:$('closedHomeBtn')};
+const els={joinView:$('joinView'),waitView:$('waitView'),countdownView:$('countdownView'),playView:$('playView'),resultView:$('resultView'),studentFinalView:$('studentFinalView'),closedView:$('closedView'),pinInput:$('pinInput'),nameInput:$('nameInput'),avatarGrid:$('avatarGrid'),joinBtn:$('joinBtn'),joinMessage:$('joinMessage'),myAvatar:$('myAvatar'),waitName:$('waitName'),studentCountdown:$('studentCountdown'),studentQuestion:$('studentQuestion'),studentScore:$('studentScore'),studentTimer:$('studentTimer'),studentTimerBar:$('studentTimerBar'),studentAnswer:$('studentAnswer'),studentCards:$('studentCards'),submitState:$('submitState'),undoBtn:$('undoBtn'),resetBtn:$('resetBtn'),submitBtn:$('submitBtn'),studentReveal:$('studentReveal'),myRoundResult:$('myRoundResult'),myFinalScore:$('myFinalScore'),myFinalRank:$('myFinalRank'),studentFinalRanking:$('studentFinalRanking'),leaveBtn:$('leaveBtn'),closedHomeBtn:$('closedHomeBtn')};
 const AVATARS=['🐻','🐱','🐼','🐰','🐯','🦊','🐧','🐸','🐨','🦁','🐵','🐶'];
 const BOUND_TEXTS=new Set(['은','는','이','가','을','를','에','에서','에게','한테','께','하고','와','과','도','만','부터','까지','으로','로','의','보다','처럼','입니다','입니까','이에요','예요']);
 function terminalBase(text){return String(text||'').trim().replace(/[.。!！?？]+$/g,'');}
@@ -31,7 +31,7 @@ async function joinRoom(){
     const initial=bus.latestState;if(initial?.status==='finished'&&!initial.players?.[bus.uid])throw new Error('이미 종료된 게임입니다.');
     localStorage.setItem(`sentence_sample_name_${pin}`,name);localStorage.setItem(`sentence_sample_avatar_${pin}`,selectedAvatar);
     await bus.send('join',{name,avatar:selectedAvatar});
-    els.myAvatar.textContent=selectedAvatar;els.waitName.textContent=initial?.status&&initial.status!=='lobby'?`${name} · 진행 중 입장` : name;els.waitPin.textContent=pin;setView('wait');els.joinMessage.textContent='';
+    els.myAvatar.textContent=selectedAvatar;const confirmed=myPlayer();els.waitName.textContent=confirmed?.name?`${confirmed.name}님, 입장 완료!`:'입장 확인 중...';setView('wait');els.joinMessage.textContent='';
   }catch(err){els.joinMessage.textContent=err.message;bus?.close();bus=null;setView('join');}finally{els.joinBtn.disabled=false;}
 }
 
@@ -48,7 +48,7 @@ function phase3SentenceStart(index,startAt){const qs=offlinePackage?.questions||
 function advanceOfflineState(){/* Wait for the next authoritative host state. */}
 
 function renderState(){
-  const p=myPlayer();if(p)els.studentScore.textContent=Number(p.score||0).toLocaleString();
+  const p=myPlayer();if(p){els.studentScore.textContent=Number(p.score||0).toLocaleString();if(p.name)els.waitName.textContent=`${p.name}님, 입장 완료!`;}
   if(state.status==='lobby'){setView('wait');return;}
   if(state.status==='countdown'){setView('countdown');runCountdown();return;}
   if(state.status==='playing'){setView('play');if(currentQuestionIndex!==state.questionIndex)loadQuestion();else updateTimer();return;}
