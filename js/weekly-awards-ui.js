@@ -142,7 +142,7 @@ function renderPhase(state,pending){
     return `<section class="weekly-v8-stage">
       <div class="weekly-v8-title"><span>🍀</span><div><h3>주간 행운상 후보</h3><p>1·2·3위를 제외한 시상일 참여 학생 중 추첨합니다.</p></div></div>
       ${candidateCards(state.luckyCandidates)}
-      <button class="weekly-v8-primary lucky" data-v8-action="draw-lucky" ${Number(state.luckyCandidateCount)<1?'disabled':''}>🍀 행운상 추첨</button>
+      <button class="weekly-v8-primary lucky" data-v8-action="draw-lucky" ${Number(state.luckyCandidateCount)<1?'disabled':''}>${state.awards?.LUCKY?"🍀 저장된 행운상 결과 보기":"🍀 행운상 추첨"}</button>
     </section>`;
   }
   if(phase==='LUCKY_DRAW'){
@@ -155,7 +155,7 @@ function renderPhase(state,pending){
     return `<section class="weekly-v8-stage">
       <div class="weekly-v8-title"><span>🎁</span><div><h3>아차상 후보</h3><p>앞선 수상자를 제외한 시상일 참여 후보 중 추첨합니다.</p></div></div>
       ${candidateCards(state.consolationCandidates)}
-      <button class="weekly-v8-primary consolation" data-v8-action="draw-consolation" ${state.luckyRequiredBeforeConsolation||Number(state.consolationCandidateCount)<1?'disabled':''}>🎁 아차상 추첨</button>
+      <button class="weekly-v8-primary consolation" data-v8-action="draw-consolation" ${state.luckyRequiredBeforeConsolation||Number(state.consolationCandidateCount)<1?'disabled':''}>${state.awards?.CONSOLATION?"🎁 저장된 아차상 결과 보기":"🎁 아차상 추첨"}</button>
     </section>`;
   }
   if(phase==='CONSOLATION_DRAW'){
@@ -371,9 +371,16 @@ async function drawSingle(type){
   if(spinning)return;const ctx=getClassContext();if(!ctx)return;const before=currentState;const isLucky=type==='LUCKY';
   phase=isLucky?'LUCKY_DRAW':'CONSOLATION_DRAW';render(before,{keepPhase:true});
   const candidates=isLucky?before?.luckyCandidates:before?.consolationCandidates;
+  const ids=(Array.isArray(candidates)?candidates:[]).map(x=>String(x.studentId));
+  const saved=before?.awards?.[type];
+  if(saved){
+    if(!ids.includes(String(saved.studentId))){phase=isLucky?'LUCKY_CANDIDATES':'CONSOLATION_CANDIDATES';render(before,{keepPhase:true});showCeremonyError('기존 수상자가 현재 후보 명단에 없습니다. 저장된 시상 기록을 확인해 주세요.');return;}
+    phase=isLucky?'LUCKY_RESULT':'CONSOLATION_RESULT';render(before,{keepPhase:true});return;
+  }
   const resultPromise=(async()=>{
     const r=isLucky?await drawWeeklyLucky(ctx.classId,before?.weekId||'',before?.endDate||selectedEndDate()):await drawWeeklyConsolation(ctx.classId,before?.weekId||'',before?.endDate||selectedEndDate());
     if(!r?.ok)throw new Error(r?.message||(isLucky?'행운상을 뽑지 못했습니다.':'아차상을 뽑지 못했습니다.'));
+    if(!ids.includes(String(r?.awards?.[type]?.studentId||'')))throw new Error('추첨 결과가 표시된 후보 명단에 없습니다. 저장된 시상 기록을 확인해 주세요.');
     return r;
   })();
   try{

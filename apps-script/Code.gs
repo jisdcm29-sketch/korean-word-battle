@@ -820,10 +820,10 @@ function weeklyAwardStateFor_(auth,body) {
   // Friday weekly lucky draw: eligible on the award date, without requiring a daily lucky win.
   const luckyBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&topIds.indexOf(text_(x.studentId))<0).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
   const luckyId=awards.LUCKY&&awards.LUCKY.studentId;
-  const luckyCandidates=preferFreshAwardCandidates_(luckyBase,recentAwardIds,luckyId);
+  const luckyCandidates=luckyBase;
   const consolationBase=ranking.filter(x=>awardDayIds[text_(x.studentId)]&&topIds.indexOf(text_(x.studentId))<0&&text_(x.studentId)!==text_(luckyId)).map(x=>({studentId:x.studentId,studentName:x.studentName,weeklyPointTotal:x.weeklyPointTotal}));
   const consolationId=awards.CONSOLATION&&awards.CONSOLATION.studentId;
-  const consolationCandidates=preferFreshAwardCandidates_(consolationBase,recentAwardIds,consolationId);
+  const consolationCandidates=consolationBase;
   const presentRankedCount=ranking.filter(x=>awardDayIds[text_(x.studentId)]).length,absentRankedCount=Math.max(0,ranking.length-presentRankedCount);
   const testDataCount=resultRows.filter(x=>text_(x.row['GameID'])==='DEV_WEEKLY_TEST').length;
   return {ok:true,weekId:weekId,endDate:endDate,ranking:ranking,pendingCount:Number(rankingResult.pendingCount)||0,totalResultCount:Number(rankingResult.totalResultCount)||0,resolvedResultCount:Number(rankingResult.resolvedResultCount)||0,finalized:finalized,awards:awards,mainCandidates:mainCandidates,mainCandidateCount:mainCandidates.length,mainEligibleCandidates:mainEligibleCandidates,mainEligibleCandidateCount:mainEligibleCandidates.length,mainExcludedCandidateCount:Math.max(0,mainCandidates.length-mainEligibleCandidates.length),luckyCandidates:luckyCandidates,luckyCandidateCount:luckyCandidates.length,consolationCandidates:consolationCandidates,consolationCandidateCount:consolationCandidates.length,luckyRequiredBeforeConsolation:luckyCandidates.length>0&&!awards.LUCKY,presentRankedCount:presentRankedCount,absentRankedCount:absentRankedCount,testDataCount:testDataCount};
