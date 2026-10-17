@@ -140,7 +140,7 @@ function renderPhase(state,pending){
   }
   if(phase==='LUCKY_CANDIDATES'){
     return `<section class="weekly-v8-stage">
-      <div class="weekly-v8-title"><span>🍀</span><div><h3>주간 행운상 후보</h3><p>1·2·3위를 제외한 시상일 참여 학생 중 추첨합니다.</p></div></div>
+      <div class="weekly-v8-title"><span>🍀</span><div><h3>주간 행운상 후보</h3><p>이번 주 일일 행운상 수상자 중 1·2·3위와 시상일 결석자를 제외합니다.</p></div></div>
       ${candidateCards(state.luckyCandidates)}
       <button class="weekly-v8-primary lucky" data-v8-action="draw-lucky" ${Number(state.luckyCandidateCount)<1?'disabled':''}>${state.awards?.LUCKY?"🍀 저장된 행운상 결과 보기":"🍀 행운상 추첨"}</button>
     </section>`;
@@ -153,7 +153,7 @@ function renderPhase(state,pending){
   }
   if(phase==='CONSOLATION_CANDIDATES'){
     return `<section class="weekly-v8-stage">
-      <div class="weekly-v8-title"><span>🎁</span><div><h3>아차상 후보</h3><p>앞선 수상자를 제외한 시상일 참여 후보 중 추첨합니다.</p></div></div>
+      <div class="weekly-v8-title"><span>🎁</span><div><h3>아차상 후보</h3><p>이번 주 참여자 중 1·2·3위·주간 행운상 수상자와 시상일 결석자를 제외합니다.</p></div></div>
       ${candidateCards(state.consolationCandidates)}
       <button class="weekly-v8-primary consolation" data-v8-action="draw-consolation" ${state.luckyRequiredBeforeConsolation||Number(state.consolationCandidateCount)<1?'disabled':''}>${state.awards?.CONSOLATION?"🎁 저장된 아차상 결과 보기":"🎁 아차상 추첨"}</button>
     </section>`;
