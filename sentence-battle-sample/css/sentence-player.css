@@ -52,3 +52,15 @@
 /* Sentence lobby matches other student waiting screens. */
 .wait-screen .wait-pulse{margin-top:28px;color:#6ce4ff;letter-spacing:.4em;animation:kgaSentenceWaitPulse 1s ease-in-out infinite alternate}
 @keyframes kgaSentenceWaitPulse{to{opacity:.35}}
+
+/* Sentence Card V1 pilot: independent visually magnetic answer cards. */
+.sentence-pilot-answer-flow{width:100%;display:flex;align-items:center;align-content:center;justify-content:center;flex-wrap:wrap;gap:10px 13px;max-height:190px;overflow-y:auto;padding:4px 0}
+.sentence-placed-group{display:inline-flex;align-items:stretch;min-width:0;border-radius:10px;overflow:hidden;box-shadow:0 2px 7px rgba(8,27,59,.16)}
+.sentence-placed-card{border:1px solid #9ab4cf;background:#fffdf4;color:#102449;padding:7px 9px;font-size:clamp(15px,4.2vw,22px);font-weight:900;white-space:nowrap;line-height:1.3;cursor:pointer}
+.sentence-placed-card+.sentence-placed-card.snap-attached{border-left:1px dashed rgba(33,106,172,.2);padding-left:4px;border-top-left-radius:0;border-bottom-left-radius:0}
+.sentence-placed-card.type-particle{color:#095ca5;background:#e5f6ff}
+.sentence-placed-card.type-ending{color:#6644a0;background:#eee9ff}
+.sentence-placed-card.type-adverb{color:#315d24;background:#eff9e9}
+.sentence-card.sentence-card-invalid{animation:sentencePilotShake .32s ease-in-out 1;border-color:#ee586f;box-shadow:0 6px 0 #ac3048,0 12px 25px rgba(238,88,111,.26)}
+@keyframes sentencePilotShake{0%,100%{transform:translateX(0)}25%{transform:translateX(-7px)}50%{transform:translateX(6px)}75%{transform:translateX(-4px)}}
+@media(max-width:380px){.sentence-pilot-answer-flow{gap:7px 8px}.sentence-placed-card{padding:5px 6px;font-size:15px}}

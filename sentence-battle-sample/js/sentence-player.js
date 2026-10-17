@@ -1,5 +1,6 @@
 import { isConfirmedInputOpen } from '../../js/confirmed-game-state.js?v=1';
 import { SentencePlayerBus } from './sentence-live.js?v=3.4';
+import { canPlaceSentenceCardV1, groupPlacedSentenceCardsV1 } from './sentence-card-v1.js?v=pilot-20261017';
 
 const $=id=>document.getElementById(id);
 const els={joinView:$('joinView'),waitView:$('waitView'),countdownView:$('countdownView'),playView:$('playView'),resultView:$('resultView'),studentFinalView:$('studentFinalView'),closedView:$('closedView'),pinInput:$('pinInput'),nameInput:$('nameInput'),avatarGrid:$('avatarGrid'),joinBtn:$('joinBtn'),joinMessage:$('joinMessage'),myAvatar:$('myAvatar'),waitName:$('waitName'),studentCountdown:$('studentCountdown'),studentQuestion:$('studentQuestion'),studentScore:$('studentScore'),studentTimer:$('studentTimer'),studentTimerBar:$('studentTimerBar'),studentAnswer:$('studentAnswer'),studentCards:$('studentCards'),submitState:$('submitState'),undoBtn:$('undoBtn'),resetBtn:$('resetBtn'),submitBtn:$('submitBtn'),studentReveal:$('studentReveal'),myRoundResult:$('myRoundResult'),myFinalScore:$('myFinalScore'),myFinalRank:$('myFinalRank'),studentFinalRanking:$('studentFinalRanking'),leaveBtn:$('leaveBtn'),closedHomeBtn:$('closedHomeBtn')};
@@ -8,6 +9,7 @@ const BOUND_TEXTS=new Set(['은','는','이','가','을','를','에','에서','�
 function terminalBase(text){return String(text||'').trim().replace(/[.。!！?？]+$/g,'');}
 function isBoundText(text){return BOUND_TEXTS.has(terminalBase(text));}
 let selectedAvatar='🐻',bus=null,state=null,currentQuestionIndex=-1,currentTokens=[],available=[],chosen=[],submitted=false,timerRaf=null,countdownRaf=null;
+let cardMeta=null,cardRuleVersion=null;
 let networkConnected=true,hostDisconnected=false,offlinePackage=null,offlineLoop=null;
 
 function setView(name){['join','wait','countdown','play','result','studentFinal','closed'].forEach(v=>els[`${v}View`]?.classList.toggle('hidden',v!==name));}
@@ -59,14 +61,54 @@ function renderState(){
 function runCountdown(){cancelAnimationFrame(countdownRaf);const frame=()=>{if(!state||state.status!=='countdown')return;const left=Math.max(0,(state.countdownEndAt||0)-now());els.studentCountdown.textContent=left<=0?'GO!':String(Math.max(1,Math.ceil(left/1000)));if(left>0)countdownRaf=requestAnimationFrame(frame);};countdownRaf=requestAnimationFrame(frame);}
 
 function loadQuestion(){
-  currentQuestionIndex=state.questionIndex;currentTokens=(state.currentQuestion?.tokens||[]).map(t=>[...t]);available=[...currentTokens];chosen=[];submitted=false;els.studentQuestion.textContent=`Q ${state.questionIndex+1}/${state.questionTotal}`;els.submitState.textContent='';els.submitState.className='submit-state';renderCards(true);updateTimer();runTimer();
+  currentQuestionIndex=state.questionIndex;cardMeta=state.currentQuestion?.cardRuleVersion==='V1-PILOT'?(state.currentQuestion.cardMeta||null):null;cardRuleVersion=state.currentQuestion?.cardRuleVersion||null;currentTokens=(state.currentQuestion?.tokens||[]).map(t=>[...t]);available=[...currentTokens];chosen=[];submitted=false;els.studentQuestion.textContent=`Q ${state.questionIndex+1}/${state.questionTotal}`;els.submitState.textContent='';els.submitState.className='submit-state';renderCards(true);updateTimer();runTimer();
 }
 function renderCards(animate=false){
   const firstCardId=currentTokens.length>=5?String(state?.currentQuestion?.firstCardId||''):'';
   els.studentCards.innerHTML='';available.forEach((tok,i)=>{const b=document.createElement('button');b.type='button';b.className='sentence-card'+(firstCardId&&String(tok[0])===firstCardId?' sentence-start-card':'')+(animate?' drop':'');b.textContent=tok[1];b.dataset.id=tok[0];if(animate){b.style.setProperty('--delay',`${i*65}ms`);b.style.setProperty('--x',`${Math.floor(Math.random()*220-110)}px`);b.style.setProperty('--r',`${Math.floor(Math.random()*26-13)}deg`);}b.addEventListener('click',()=>choose(tok[0]));els.studentCards.append(b);});renderAnswer();els.submitBtn.disabled=submitted||available.length>0;els.undoBtn.disabled=submitted||chosen.length===0;els.resetBtn.disabled=submitted||chosen.length===0;}
-function choose(id){if(submitted)return;const i=available.findIndex(t=>t[0]===id);if(i<0)return;const [tok]=available.splice(i,1);chosen.push(tok);renderCards(false);}
-function renderAnswer(){if(!chosen.length){els.studentAnswer.textContent='카드를 순서대로 눌러 주세요';els.studentAnswer.classList.add('empty');return;}els.studentAnswer.classList.remove('empty');const words=[];for(const [,text] of chosen){if(words.length&&isBoundText(text))words[words.length-1]+=text;else words.push(text);}let s=words.join(' ');if(!available.length&&!/[.!?]$/.test(s))s+='.';els.studentAnswer.textContent=s;}
-function undo(){if(submitted||!chosen.length)return;available.push(chosen.pop());renderCards(false);}
+function choose(id){
+  if(submitted)return;
+  const i=available.findIndex(t=>t[0]===id);if(i<0)return;
+  if(cardRuleVersion==='V1-PILOT'&&!canPlaceSentenceCardV1(chosen.map(t=>t[0]),id,cardMeta)){
+    const el=Array.from(els.studentCards.children).find(b=>b.dataset.id===id);
+    if(el){el.classList.remove('sentence-card-invalid');void el.offsetWidth;el.classList.add('sentence-card-invalid');}
+    els.submitState.textContent='조사·어미는 알맞은 말 뒤에 놓아 주세요.';
+    return;
+  }
+  const [tok]=available.splice(i,1);chosen.push(tok);
+  if(cardRuleVersion==='V1-PILOT')els.submitState.textContent='';
+  renderCards(false);
+}
+function renderAnswer(){
+  if(!chosen.length){els.studentAnswer.textContent='카드를 순서대로 눌러 주세요';els.studentAnswer.classList.add('empty');return;}
+  els.studentAnswer.classList.remove('empty');
+  if(cardRuleVersion==='V1-PILOT'&&cardMeta){
+    const flow=document.createElement('div');flow.className='sentence-pilot-answer-flow';
+    for(const group of groupPlacedSentenceCardsV1(chosen,cardMeta)){
+      const piece=document.createElement('div');piece.className='sentence-placed-group';
+      for(const [id,text] of group){
+        const card=document.createElement('button');card.type='button';card.textContent=text;
+        const m=cardMeta[id]||{};
+        card.className='sentence-placed-card type-'+(m.type||'word')+(m.attachToPrev?' snap-attached':'');
+        card.setAttribute('aria-label',text+' 카드 되돌리기');
+        card.addEventListener('click',()=>returnPlacedGroup(id));
+        piece.append(card);
+      }
+      flow.append(piece);
+    }
+    els.studentAnswer.replaceChildren(flow);return;
+  }
+  const words=[];for(const [,text] of chosen){if(words.length&&isBoundText(text))words[words.length-1]+=text;else words.push(text);}
+  let s=words.join(' ');if(!available.length&&!/[.!?]$/.test(s))s+='.';els.studentAnswer.textContent=s;
+}
+function returnPlacedGroup(id){
+  if(submitted||cardRuleVersion!=='V1-PILOT'||!cardMeta)return;
+  const group=groupPlacedSentenceCardsV1(chosen,cardMeta).find(g=>g.some(t=>t[0]===id));
+  if(!group)return;
+  const ids=new Set(group.map(t=>t[0]));chosen=chosen.filter(t=>!ids.has(t[0]));
+  available.push(...group);renderCards(false);
+}
+function undo(){if(submitted||!chosen.length)return;if(cardRuleVersion==='V1-PILOT'&&cardMeta){returnPlacedGroup(chosen[chosen.length-1][0]);return;}available.push(chosen.pop());renderCards(false);}
 function reset(){if(submitted)return;available=[...currentTokens];chosen=[];renderCards(false);}
 async function submit(){if(!isConfirmedInputOpen(state,(bus?.now?bus.now():Date.now())))return;if(submitted||available.length)return;submitted=true;renderCards(false);els.submitState.textContent='제출 완료 · 결과를 기다리는 중';els.submitState.className='submit-state done';try{await bus.send('submit',{questionIndex:state.questionIndex,order:chosen.map(t=>t[0]),questionStartAt:state.questionStartAt,questionEndAt:state.questionEndAt});}catch{els.submitState.textContent='제출 전송에 실패했습니다.';}}
 function updateTimer(){if(!state||state.status!=='playing')return;const total=(state.config?.timeLimit||20)*1000,left=Math.max(0,(state.questionEndAt||0)-now());els.studentTimer.textContent=(left/1000).toFixed(1);els.studentTimerBar.style.width=`${Math.max(0,left/total*100)}%`;if(left<=0&&!submitted){submitted=true;renderCards(false);els.submitState.textContent='시간 종료';}}
