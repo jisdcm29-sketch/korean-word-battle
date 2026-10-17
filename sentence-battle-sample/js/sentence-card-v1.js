@@ -1,6 +1,6 @@
 /**
  * Korean Game Arena - Sentence Card Presentation V1 (isolated pilot).
- * Scope: SNU 1A 01-08 + 1B 09-10 beginner; SNU 2B 10-18 + 3A 01 intermediate.
+ * Scope: SNU 1A 01-08 + 1B 09-11 beginner; SNU 2B 10-18 + 3A 01-02 intermediate.
  * Never changes original lesson JSON, persisted teacher edits, or scores.
  */
 const PARTICLES = new Set(['은','는','이','가','을','를','에','에서','에게','한테','께','도','만','부터','까지','으로','로','의','보다','처럼','와','과','하고']);
@@ -430,6 +430,287 @@ const THREE_A_ONE_CARDS = Object.freeze({
   "SNU-3A-01-020":["그럼", "저도", "꼭", "가야겠네요."]
 });
 
+/* 24th stage only: curated 1B 11 beginner noun/particle + intact negative and -지 마세요 / -아어야 돼요. */
+const ONE_B_ELEVEN_CARDS = Object.freeze({
+  "SNU-1B-11-001": [
+    "감기",
+    "에",
+    "걸려서",
+    "기침",
+    "이",
+    "심해요."
+  ],
+  "SNU-1B-11-002": [
+    "오늘",
+    "은",
+    "열",
+    "이",
+    "있지만",
+    "수업",
+    "에",
+    "왔어요."
+  ],
+  "SNU-1B-11-003": [
+    "목",
+    "이",
+    "아파서",
+    "말",
+    "을",
+    "많이",
+    "안 해요."
+  ],
+  "SNU-1B-11-004": [
+    "허리",
+    "가",
+    "아프지만",
+    "천천히",
+    "걸을 수 있어요."
+  ],
+  "SNU-1B-11-005": [
+    "여기",
+    "에서는",
+    "담배",
+    "를",
+    "피우지 마세요."
+  ],
+  "SNU-1B-11-006": [
+    "감기",
+    "에",
+    "걸렸을 때",
+    "술",
+    "을",
+    "마시지 마세요."
+  ],
+  "SNU-1B-11-007": [
+    "머리",
+    "가",
+    "아프면",
+    "너무",
+    "걱정하지 마세요."
+  ],
+  "SNU-1B-11-008": [
+    "오늘",
+    "은",
+    "물",
+    "만",
+    "많이",
+    "마셨어요."
+  ],
+  "SNU-1B-11-009": [
+    "아침",
+    "에는",
+    "빵",
+    "만",
+    "먹었어요."
+  ],
+  "SNU-1B-11-010": [
+    "저",
+    "는",
+    "오른쪽",
+    "다리",
+    "만",
+    "아파요."
+  ],
+  "SNU-1B-11-011": [
+    "내일",
+    "까지",
+    "리포트",
+    "를",
+    "써야 돼요."
+  ],
+  "SNU-1B-11-012": [
+    "오늘",
+    "저녁",
+    "에는",
+    "일찍",
+    "자야 돼요."
+  ],
+  "SNU-1B-11-013": [
+    "밥",
+    "을",
+    "먹고",
+    "약",
+    "을",
+    "먹어야 돼요."
+  ],
+  "SNU-1B-11-014": [
+    "수업",
+    "전에",
+    "휴대폰",
+    "을",
+    "꺼야 돼요."
+  ],
+  "SNU-1B-11-015": [
+    "몸",
+    "이",
+    "아프면",
+    "충분히",
+    "쉬어야 돼요."
+  ],
+  "SNU-1B-11-016": [
+    "무릎",
+    "이",
+    "아파서",
+    "운동",
+    "을",
+    "안 했어요."
+  ],
+  "SNU-1B-11-017": [
+    "콧물",
+    "이",
+    "나지만",
+    "열",
+    "은",
+    "없어요."
+  ],
+  "SNU-1B-11-018": [
+    "어깨",
+    "가",
+    "아파서",
+    "무거운",
+    "가방",
+    "을",
+    "안 들어요."
+  ],
+  "SNU-1B-11-019": [
+    "안내문",
+    "을",
+    "읽고",
+    "규칙",
+    "을",
+    "지켜야 돼요."
+  ],
+  "SNU-1B-11-020": [
+    "친구",
+    "에게",
+    "걱정거리",
+    "를",
+    "이야기하고",
+    "조언",
+    "을",
+    "들었어요."
+  ]
+});
+/* 24th stage only: curated 3A 02 middle grammar chunks for -자마자, reported commands, -느라고, negative verbs. */
+const THREE_A_TWO_CARDS = Object.freeze({
+  "SNU-3A-02-001": [
+    "시험이",
+    "끝나자마자",
+    "고향에",
+    "돌아갈 거예요."
+  ],
+  "SNU-3A-02-002": [
+    "내 친구는",
+    "항상",
+    "밥을",
+    "먹자마자",
+    "이를",
+    "닦아."
+  ],
+  "SNU-3A-02-003": [
+    "동생한테",
+    "청소하라고 했어요."
+  ],
+  "SNU-3A-02-004": [
+    "어머니께서",
+    "게임을",
+    "하지 말라고 하셨어요."
+  ],
+  "SNU-3A-02-005": [
+    "친구가",
+    "나에게",
+    "돈을",
+    "빌려 달라고 했어요."
+  ],
+  "SNU-3A-02-006": [
+    "선생님께서",
+    "나나 씨에게",
+    "책을",
+    "보여 주라고 하셨어요."
+  ],
+  "SNU-3A-02-007": [
+    "청소하느라고",
+    "점심을",
+    "못 먹었어요."
+  ],
+  "SNU-3A-02-008": [
+    "요즘",
+    "결혼 준비하느라고",
+    "바쁘시죠?"
+  ],
+  "SNU-3A-02-009": [
+    "어젯밤에",
+    "책을",
+    "읽느라고",
+    "잠을",
+    "못 잤어요."
+  ],
+  "SNU-3A-02-010": [
+    "한국 사람은",
+    "누구나",
+    "김치를",
+    "좋아하는 것 같아요."
+  ],
+  "SNU-3A-02-011": [
+    "출퇴근 시간에는",
+    "언제나",
+    "길이",
+    "막혀요."
+  ],
+  "SNU-3A-02-012": [
+    "스티븐 씨는",
+    "무슨 운동이나",
+    "잘해요."
+  ],
+  "SNU-3A-02-013": [
+    "네,",
+    "요즘",
+    "잠을",
+    "잘 못 자서",
+    "그래요."
+  ],
+  "SNU-3A-02-014": [
+    "할 일이",
+    "많아요?"
+  ],
+  "SNU-3A-02-015": [
+    "어제도",
+    "룸메이트 때문에",
+    "한숨도",
+    "못 잤어요."
+  ],
+  "SNU-3A-02-016": [
+    "매일",
+    "새벽에",
+    "들어와요."
+  ],
+  "SNU-3A-02-017": [
+    "그리고",
+    "눕자마자",
+    "코를",
+    "골아요."
+  ],
+  "SNU-3A-02-018": [
+    "게다가",
+    "밤새도록",
+    "시끄럽게",
+    "잠꼬대도",
+    "해요."
+  ],
+  "SNU-3A-02-019": [
+    "기숙사 조교한테",
+    "방을",
+    "바꿔 달라고 했어요."
+  ],
+  "SNU-3A-02-020": [
+    "알람이",
+    "울리자마자",
+    "일어나서",
+    "스트레칭을",
+    "해요."
+  ]
+});
+
 /* Two checked positions of 요즘; no cross-clause automatic permutation. */
 const THREE_A_ONE_EXTRA_PATHS = Object.freeze({
   'SNU-3A-01-001':[[1,0,2]],
@@ -486,15 +767,15 @@ function isPermutation(order, total) {
 export function isSentenceCardV1Pilot({source,book,lesson}) {
   return source === 'snu' &&
     ((book === '1A' && (Number(lesson) === 1 || Number(lesson) === 2 || Number(lesson) === 3 || Number(lesson) === 4 || Number(lesson) === 5 || Number(lesson) === 6 || Number(lesson) === 7 || Number(lesson) === 8)) ||
-      (book === '1B' && (Number(lesson) === 9 || Number(lesson) === 10)) ||
-      (book === '3A' && Number(lesson) === 1) ||
+      (book === '1B' && (Number(lesson) === 9 || Number(lesson) === 10 || Number(lesson) === 11)) ||
+      (book === '3A' && (Number(lesson) === 1 || Number(lesson) === 2)) ||
       (book === '2B' && (Number(lesson) === 10 || Number(lesson) === 11 || Number(lesson) === 12 || Number(lesson) === 13 || Number(lesson) === 14 || Number(lesson) === 15 || Number(lesson) === 16 || Number(lesson) === 17 || Number(lesson) === 18)));
 }
 export function prepareSentenceCardV1(question, {source,book,lesson}) {
   if (!isSentenceCardV1Pilot({source,book,lesson})) return question;
   const q = {...question};
   if (book === '1B') {
-    const parts = ONE_B_NINE_CARDS[q.id] || ONE_B_TEN_CARDS[q.id];
+    const parts = ONE_B_NINE_CARDS[q.id] || ONE_B_TEN_CARDS[q.id] || ONE_B_ELEVEN_CARDS[q.id];
     if (!parts) return question; // Never touch unscreened or teacher-created questions.
     const tokens = parts.map((text,i) => [String(q.id) + '__v1_' + i,text]);
     const meta = {};
@@ -505,13 +786,13 @@ export function prepareSentenceCardV1(question, {source,book,lesson}) {
       // '이' in '이를 닦아요' is the noun tooth, not the nominative particle.
       const isToothNoun = q.id === 'SNU-1B-10-002' && base === '이';
       const ending = ENDINGS.has(base);
-      const particle = PARTICLES.has(base) && !isDepartment && !isToothNoun;
+      const particle = (PARTICLES.has(base) || (Number(lesson) === 11 && ['에는','에서는'].includes(base))) && !isDepartment && !isToothNoun;
       const attach = particle || ending;
-      const timeAdverb = ['아침마다','지금','항상','일찍'].includes(base) ||
+      const timeAdverb = (Number(lesson) === 11 && ['오늘','내일','일찍'].includes(base) && !['은','는'].includes(terminalBase(tokens[i+1]?.[1]))) || ['아침마다','지금','항상','일찍'].includes(base) ||
         (Number(lesson) === 10 && ['내일','매일','오전','오후','오늘'].includes(base) &&
         // Today + topic particle: [오늘][은] must allow the bound topic particle.
         !PARTICLES.has(terminalBase(tokens[i+1]?.[1] || '')));
-      const mannerAdverb = ['아주','잘','모두'].includes(base) ||
+      const mannerAdverb = (Number(lesson) === 11 && ['많이','천천히','너무','충분히'].includes(base)) || ['아주','잘','모두'].includes(base) ||
         (Number(lesson) === 10 && ['바로','같이'].includes(base));
       const type = ending ? 'ending' : particle ? 'particle' : i === tokens.length - 1 ? 'predicate' :
         timeAdverb || mannerAdverb ? 'adverb' : 'noun';
@@ -599,17 +880,17 @@ export function prepareSentenceCardV1(question, {source,book,lesson}) {
   }
   if (book === '3A') {
     // Only audited textbook sentences; preserve any teacher-edited or unknown question.
-    const parts = THREE_A_ONE_CARDS[q.id];
+    const parts = THREE_A_ONE_CARDS[q.id] || THREE_A_TWO_CARDS[q.id];
     if (!parts) return question;
     if (normalizedDisplay(parts.join(' ')) !== normalizedDisplay(q.displaySentence)) {
       console.warn('Sentence Card V1 skipped: 3A sentence differs from audited original',q.id);
       return question;
     }
     const tokens = parts.map((text,i) => [String(q.id) + '__v1_' + i,text]);
-    const timeWords = new Set(['요즘','매일','한번']);
-    const mannerWords = new Set(['꼭']);
+    const timeWords = new Set(['요즘','매일','한번','항상','언제나','어제도','그리고','게다가','어젯밤에']);
+    const mannerWords = new Set(['꼭','밤새도록','시끄럽게']);
     const internalClauses = new Set(['약을 먹고','회사 일 때문에','먹는다고 들었는데',
-      '안 먹는 사람들이','많이 오고','인사할 수 있는']);
+      '안 먹는 사람들이','많이 오고','인사할 수 있는','먹자마자','끝나자마자','울리자마자','눕자마자','청소하느라고','결혼 준비하느라고','읽느라고','잘 못 자서','하지 말라고 하셨어요.','빌려 달라고 했어요.','보여 주라고 하셨어요.','바꿔 달라고 했어요.']);
     const meta = {};
     tokens.forEach(([id,text],i) => {
       const last = i === tokens.length-1;
@@ -688,5 +969,5 @@ export function groupPlacedSentenceCardsV1(chosenTokens, cardMeta) {
   return groups;
 }
 export function sentenceCardV1ExpectedCount() {
-  return {beginner:160 + Object.keys(ONE_B_NINE_CARDS).length + Object.keys(ONE_B_TEN_CARDS).length, intermediate:Object.keys(TWO_B_CARDS).length + Object.keys(TWO_B_ELEVEN_CARDS).length + Object.keys(TWO_B_TWELVE_CARDS).length + Object.keys(TWO_B_THIRTEEN_CARDS).length + Object.keys(TWO_B_FOURTEEN_CARDS).length + Object.keys(TWO_B_FIFTEEN_CARDS).length + Object.keys(TWO_B_SIXTEEN_CARDS).length + Object.keys(TWO_B_SEVENTEEN_CARDS).length + Object.keys(TWO_B_EIGHTEEN_CARDS).length + Object.keys(THREE_A_ONE_CARDS).length};
+  return {beginner:160 + Object.keys(ONE_B_NINE_CARDS).length + Object.keys(ONE_B_TEN_CARDS).length + Object.keys(ONE_B_ELEVEN_CARDS).length, intermediate:Object.keys(TWO_B_CARDS).length + Object.keys(TWO_B_ELEVEN_CARDS).length + Object.keys(TWO_B_TWELVE_CARDS).length + Object.keys(TWO_B_THIRTEEN_CARDS).length + Object.keys(TWO_B_FOURTEEN_CARDS).length + Object.keys(TWO_B_FIFTEEN_CARDS).length + Object.keys(TWO_B_SIXTEEN_CARDS).length + Object.keys(TWO_B_SEVENTEEN_CARDS).length + Object.keys(TWO_B_EIGHTEEN_CARDS).length + Object.keys(THREE_A_ONE_CARDS).length + Object.keys(THREE_A_TWO_CARDS).length};
 }
