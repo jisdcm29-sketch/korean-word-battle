@@ -6,6 +6,7 @@ import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.
 import { requireTeacherAccess } from '../../js/access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from '../../js/late-join-panel.js?v=1.0';
 import { normalizeSentenceCards, suggestSentenceCards } from '../../js/sentence-card-rules.js?v=1.0';
+import { applyAuditedSentenceCardBreaks } from './sentence-card-segmentation.js?v=splits-only-20261018';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
@@ -169,8 +170,9 @@ async function loadLessonQuestions(){
     const rawTokens=Array.isArray(q.tokens)?q.tokens.map(t=>[String(t[0]),String(t[1])]):[];
     const rawOrders=Array.isArray(q.acceptedOrders)?q.acceptedOrders.map(o=>o.map(String)):[];
     const cleaned=applySentenceRules(String(q.displaySentence||''),rawTokens,rawOrders);
-    const flexibleFrames=inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders);
-    return {...q,id,tokens:cleaned.tokens,acceptedOrders:cleaned.acceptedOrders,flexibleFrames,displaySentence:cleaned.displaySentence,enabled:true,edited:false,custom:false,persistent:false};
+    const breaks=applyAuditedSentenceCardBreaks({...q,id,...cleaned},{source:selectedSource,book:selectedBook,lesson:selectedLesson});
+    const flexibleFrames=inferFlexibleFrames(breaks.tokens,breaks.acceptedOrders);
+    return {...q,id,tokens:breaks.tokens,acceptedOrders:breaks.acceptedOrders,flexibleFrames,displaySentence:cleaned.displaySentence,enabled:true,edited:false,custom:false,persistent:false};
   }).filter(q=>q.tokens.length>=2&&q.acceptedOrders.length);
   if(!baseQuestions.length)throw new Error(`${selectedTextbookName} ${selectedBook} ${selectedLesson}과 문장 데이터 형식이 올바르지 않습니다.`);
   sourceQuestions=baseQuestions.map(cloneQuestion);
