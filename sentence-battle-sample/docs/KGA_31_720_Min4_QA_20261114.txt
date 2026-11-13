@@ -1,0 +1,24 @@
+REVIEW BRANCH ONLY — NOT RELEASED TO MAIN OR LIVE FIREBASE.
+All 720 audited textbook questions have >=4 card tokens after audited overrides.
+26 replacements staged, original source JSON unchanged.
+Teacher host guarded for future edited/added sentences, but existing Firebase/PC teacher overrides are not migrated.
+No live student-phone, scoring/rank, or Firebase end-to-end verification was performed after this batch.
+
+KGA BATCH 31 QA REPORT / 2026-11-14
+-------------------------------
+Prior baseline: 680 static SNU sentences (all MIN4).
+This batch: 2A02 20 sentences + 3A09 20 sentences.
+Result: 720 total, 720 pass, 0 below 4 cards.
+Prior entries byte-for-byte equivalent within mapping JSON: 680 / 680.
+New replacements: 0. Existing 26 staged replacements preserved.
+Real mapping function pass: 720 / 720.
+Nonmatching source/teacher override safeguards: 2880 / 2880.
+Manual teacher-host editor patch: prepared and tested against copied host only.
+Original lesson JSON, Firebase and GitHub main: NOT MODIFIED.
+Production/mobile test: NOT PERFORMED, deferred by user.
+Specification: v1.2 integrated card count rule (4+ for all levels), precedence over v1.0.
+Sources: 2A02 Git blob b6cd165df0e4720cda04a233e7f96b79d6330e75;
+         3A09 Git blob 3906c5ecab6ad8482f445df310428a7a247f3dba.
+
+Potential limitation: Existing teacher-saved questions stored in Firebase/PC
+need a final separate audit; no automatic migration is authorized.
