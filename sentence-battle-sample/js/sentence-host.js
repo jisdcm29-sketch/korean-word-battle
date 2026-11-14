@@ -6,7 +6,7 @@ import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.
 import { requireTeacherAccess } from '../../js/access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from '../../js/late-join-panel.js?v=1.0';
 import { normalizeSentenceCards, suggestSentenceCards } from '../../js/sentence-card-rules.js?v=1.0';
-import { applyAuditedSentenceCardBreaks } from './sentence-card-segmentation.js?v=splits-only-20261018';
+import { applyAuditedSentenceCardBreaks } from './sentence-card-segmentation.js?v=sentence-min4-1080-20261114';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
@@ -172,7 +172,7 @@ async function loadLessonQuestions(){
     const cleaned=applySentenceRules(String(q.displaySentence||''),rawTokens,rawOrders);
     const breaks=applyAuditedSentenceCardBreaks({...q,id,...cleaned},{source:selectedSource,book:selectedBook,lesson:selectedLesson});
     const flexibleFrames=inferFlexibleFrames(breaks.tokens,breaks.acceptedOrders);
-    return {...q,id,tokens:breaks.tokens,acceptedOrders:breaks.acceptedOrders,flexibleFrames,displaySentence:cleaned.displaySentence,enabled:true,edited:false,custom:false,persistent:false};
+    return {...q,id,tokens:breaks.tokens,acceptedOrders:breaks.acceptedOrders,flexibleFrames,displaySentence:breaks.displaySentence||cleaned.displaySentence,enabled:true,edited:false,custom:false,persistent:false};
   }).filter(q=>q.tokens.length>=2&&q.acceptedOrders.length);
   if(!baseQuestions.length)throw new Error(`${selectedTextbookName} ${selectedBook} ${selectedLesson}과 문장 데이터 형식이 올바르지 않습니다.`);
   sourceQuestions=baseQuestions.map(cloneQuestion);
@@ -556,7 +556,7 @@ function inferFlexibleFrames(tokens,orders){
   for(const order of orders){const f=inferFlexibleFrame(tokens,order);if(!f)continue;const key=JSON.stringify(f);if(!seen.has(key)){seen.add(key);frames.push(f);}}
   return frames;
 }
-function buildQuestionParts(id,cards,answers){if(cards.length<2)return{error:'문장 배틀은 배열할 카드가 필요하므로 카드는 2개 이상이어야 합니다.'};if(!answers.length)return{error:'대표 문장을 입력해야 합니다.'};const tokens=cards.map((label,i)=>[`${id}_card_${i}`,label]),orders=[];for(const line of answers){const idxs=orderFromSentence(cards,line);if(!idxs)return{error:`“${line}” 문장은 입력한 카드를 모두 한 번씩 사용해 만들 수 없습니다.`};orders.push(idxs.map(i=>tokens[i][0]));}const cleaned=applySentenceRules(answers[0],tokens,orders);if(cleaned.tokens.length<2)return{error:'문법 덩어리 규칙을 적용하면 카드가 1개가 되어 문장 배틀 출제 대상이 아닙니다.'};return{tokens:cleaned.tokens,orders:cleaned.acceptedOrders,displaySentence:cleaned.displaySentence,flexibleFrames:inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders)};}
+function buildQuestionParts(id,cards,answers){if(cards.length<4)return{error:'문장 배틀의 모든 문항은 카드를 4개 이상 사용해야 합니다.'};if(!answers.length)return{error:'대표 문장을 입력해야 합니다.'};const tokens=cards.map((label,i)=>[`${id}_card_${i}`,label]),orders=[];for(const line of answers){const idxs=orderFromSentence(cards,line);if(!idxs)return{error:`“${line}” 문장은 입력한 카드를 모두 한 번씩 사용해 만들 수 없습니다.`};orders.push(idxs.map(i=>tokens[i][0]));}const cleaned=applySentenceRules(answers[0],tokens,orders);if(cleaned.tokens.length<4)return{error:'문법 규칙 적용 후에도 카드가 4개 이상이어야 합니다. 문장을 바꾸거나 가능한 조사를 분리하세요.'};return{tokens:cleaned.tokens,orders:cleaned.acceptedOrders,displaySentence:cleaned.displaySentence,flexibleFrames:inferFlexibleFrames(cleaned.tokens,cleaned.acceptedOrders)};}
 function suggestCards(sentence){return suggestSentenceCards(sentence);}
 function questionSentence(q,index=0){if(index===0&&String(q?.displaySentence||'').trim())return String(q.displaySentence).trim();return assembleSentence(q.acceptedOrders[index]||q.acceptedOrders[0]||[],q);}
 function updateQuestionSelectionUI(){const selected=teacherQuestions.filter(q=>q.enabled).length,total=teacherQuestions.length;els.selectedQuestionBadge.textContent=`${selected}/${total}`;els.managerSelectedCount.textContent=String(selected);els.managerTotalCount.textContent=String(total);els.createRoomBtn.disabled=selected===0;els.demoBtn.disabled=selected===0;}
