@@ -1,0 +1,76 @@
+KGA SENTENCE BATTLE - BATCH 35 MINIMUM FOUR-CARD QA
+NONPRODUCTION REVIEW BRANCH ONLY - 2026-11-14
+================================================
+Baseline: 840 audited static SNU questions, 28 staged replacement candidates.
+This batch: SNU 2A lesson06 (20) + SNU 3B lesson13 (20).
+Source GitHub main blobs:
+  2A lesson06.json: 25c8e1aefc5ba989290602c9bf59e4743975897d
+  3B lesson13.json: 623bb5495a825cd2b05248322472ed04cb6fc4c8
+Original previous review mapping blob: bc5cbc0c4eb1653b3c19c31fe9f490f956b0e5de
+Result: 880 cumulative audited records; >=4 cards 880/880; below4 0.
+New batch: all 40 cards >=4 and <=10; 250 uniquely generated card IDs.
+Prior 840 audit records preserved exactly: 840/840.
+No new sentence replacement proposals; prior 28 unchanged.
+Text reconstructed against the actual display sentence (whitespace-insensitive): 40/40.
+Source original display text matched: 39/40. One known normalization:
+  SNU-3B-13-014 original JSON: "네, 좀 차려입고 가야 할 것 같아서 한 벌 마련했어요."
+  Existing normalizeSentenceCards strips initial response prefix "네, " because
+  original token #1 is "네". Mapper therefore keys off normalized display:
+  "좀 차려입고 가야 할 것 같아서 한 벌 마련했어요."
+  Original JSON remains unchanged; teacher screen display uses existing
+  normalization and should agree with this audit mapping. Device QA pending.
+Core grammar preserved in new tokens: -려고 하다, -(으)면 되다, -은 것 같다,
+-(으)ㄹ까 봐, -지 않도록, -아/어야 할 것 같다. No mechanical suffix splits.
+Original textbook JSON unchanged. Teacher PC saved data and Firebase not read/written.
+Host game logic, auth, score, ranking, timer, award, other games unchanged.
+Production main NOT MODIFIED; no live hardware or Firebase end-to-end tests.
+
+GitHub main SNU index currently has 70 lesson files x 20 = 1,400 sentences:
+After batch 35: 880 mapped / 520 remaining = 13 batches of 40, batches 36-48.
+Planned: 36-38: 2A07-09 with 3B14-16.
+39: 3B17-18.
+40-48: 4A01-09 paired with 4B10-18.
+NOTE: 4A/4B require allowing their book IDs in the audited mapping guard
+before those later batches apply. Do NOT enable unreviewed 4A/4B data now.
+
+New 40 segmentation details:
+SNU-2A-06-001 | 5 | 비행기 / 로 / 소포 / 를 / 보내려고 해요.
+SNU-2A-06-002 | 7 | 배 / 로 / 보내면 / 요금 / 이 / 더 / 싸요.
+SNU-2A-06-003 | 7 | 연필 / 로 / 상자 / 에 / 주소 / 를 / 썼어요.
+SNU-2A-06-004 | 7 | 휴대 전화 / 로 / 친구 / 에게 / 문자 / 를 / 보냈어요.
+SNU-2A-06-005 | 6 | 현금 인출기 / 로 / 필요한 / 돈 / 을 / 찾았어요.
+SNU-2A-06-006 | 6 | 오늘 / 은 / 일요일이라서 / 은행 / 이 / 쉬어요.
+SNU-2A-06-007 | 6 | 해외 / 로 / 보낼 / 소포라서 / 단단하게 / 포장했어요.
+SNU-2A-06-008 | 5 | 외국인이라서 / 신분증 / 을 / 먼저 / 보여 줬어요.
+SNU-2A-06-009 | 5 | 선물이라서 / 상자 / 에 / 예쁘게 / 넣었어요.
+SNU-2A-06-010 | 5 | 봉투 / 에 / 우표 / 를 / 붙이면 돼요.
+SNU-2A-06-011 | 7 | 여기 / 에 / 받는 / 사람 / 주소 / 를 / 쓰면 돼요.
+SNU-2A-06-012 | 6 | 번호표 / 를 / 뽑고 / 차례 / 를 / 기다리면 돼요.
+SNU-2A-06-013 | 5 | 현금 인출기 / 에서 / 비밀번호 / 를 / 누르면 돼요.
+SNU-2A-06-014 | 6 | 통장 / 을 / 만들려면 / 여기 / 에 / 서명하면 돼요.
+SNU-2A-06-015 | 6 | 이 / 소포 / 는 / 비행기 / 로 / 보낸 것 같아요.
+SNU-2A-06-016 | 7 | 저 / 사람 / 은 / 방금 / 돈 / 을 / 찾은 것 같아요.
+SNU-2A-06-017 | 7 | 친구 / 가 / 제 / 문자 / 를 / 이미 / 받은 것 같아요.
+SNU-2A-06-018 | 4 | 우체국 / 에서 / 오래 / 기다린 것 같아요.
+SNU-2A-06-019 | 6 | 소포 / 안 / 에 / 겨울옷 / 이 / 들어 있는 것 같아요.
+SNU-2A-06-020 | 8 | 환전 / 방법 / 을 / 모르면 / 은행 / 직원 / 에게 / 물으면 돼요.
+SNU-3B-13-001 | 7 | 내일 / 소풍 / 가는데 / 날씨 / 가 / 나쁠까 봐 / 걱정이에요.
+SNU-3B-13-002 | 8 | 비빔밥 / 이 / 너무 / 매울까 봐 / 고추장 / 을 / 조금만 / 넣었어요.
+SNU-3B-13-003 | 5 | 어머니 / 가 / 걱정하실까 봐 / 미리 / 전화했어요.
+SNU-3B-13-004 | 7 | 지금 / 입고 있는 / 청바지 / 아주 / 편해 보이는데 / 어디서 / 샀어요?
+SNU-3B-13-005 | 7 | 꼭 / 사야 하는 / 책 / 이 / 다 / 팔리고 / 없다.
+SNU-3B-13-006 | 7 | 어제 / 보고서 / 를 / 다 / 쓰고 / 퇴근했어야 했는데, / 죄송합니다.
+SNU-3B-13-007 | 6 | 위험한 / 곳 / 에 / 간 게 / 내 / 실수다.
+SNU-3B-13-008 | 4 | 잘 / 들리도록 / 크게 / 말씀해 주세요.
+SNU-3B-13-009 | 5 | 유리컵 / 을 / 떨어뜨리지 않도록 / 조심해서 / 들고 가세요.
+SNU-3B-13-010 | 6 | 비행기 / 시간 / 에 / 늦지 않도록 / 일찍 / 출발해야 합니다.
+SNU-3B-13-011 | 5 | 민수 씨 / 부탁이니까 / 하겠다고는 했는데 / 실수할까 봐 / 걱정이에요.
+SNU-3B-13-012 | 8 | 지난번 / 회의 때 / 보니까 / 한국어 / 를 / 아주 / 잘하던데요, / 뭘.
+SNU-3B-13-013 | 7 | 근데 / 지금 / 입고 있는 / 양복 / 은 / 처음 / 보네요.
+SNU-3B-13-014 | 5 | 좀 / 차려입고 / 가야 할 것 같아서 / 한 벌 / 마련했어요.
+SNU-3B-13-015 | 10 | 그 / 양복 / 에 / 하늘색 / 넥타이 / 를 / 매면 / 아주 / 잘 / 어울리겠는데요.
+SNU-3B-13-016 | 7 | 그럼 / 그날 / 하늘색 / 넥타이 / 를 / 매고 / 가야겠네요.
+SNU-3B-13-017 | 4 | 또 / 신경 / 써야 할 게 / 있을까요?
+SNU-3B-13-018 | 8 | 양복 / 색깔 / 에 / 맞춰서 / 갈색 / 구두 / 를 / 신으면 어때요?
+SNU-3B-13-019 | 5 | 이제 / 옷차림에는 / 자신 / 이 / 생겼어요.
+SNU-3B-13-020 | 8 | 부장님 / 은 / 오늘 / 중요한 바이어와의 미팅을 위해 / 고급스러운 / 시계 / 를 / 차고 계십니다.
