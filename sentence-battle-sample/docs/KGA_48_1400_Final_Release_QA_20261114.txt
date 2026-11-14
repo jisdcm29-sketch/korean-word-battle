@@ -1,0 +1,42 @@
+KOREAN GAME ARENA / SENTENCE BATTLE / FINAL BATCH48 + 1,400-QUESTION RELEASE QA
+Date: 2026-11-14 (Asia/Ulaanbaatar)
+Scope: SNU 1A,1B,2A,2B,3A,3B,4A,4B, all 70 source lesson JSON files (20 items per lesson).
+
+SOURCE BASELINE
+Before release main GitHub commit: c6510a704937976369e3f3287dbaa003aeb9c1ff
+Previous static mapping 1080 audited entries; all prior entries preserved except one expressly requested grammar boundary correction:
+SNU-3B-13-014: [가야 할 것 같아서] -> [가야] [할 것 같아서].
+Previous replacement candidates: 32.
+
+NEW BATCHES 41-48
+16 lessons x 20 sentences = 320 newly audited source items.
+Batch48 4A09 source Git blob: c3bcb93372f492a5ac4c75a5733dfc5a32074500.
+Batch48 4B18 source Git blob: d102b81058fe5e31118f6db23455830b350e52fa.
+All 320 source canonical texts checked with known verified GitHub source lesson contents (14 fetched again for release, 2 verified immediately prior).
+New entries min 4 cards, max 10 cards. Every displayed sentence reconstructed by its card list without character loss (ignoring whitespace).
+Card IDs use the original question ID plus '__split_' and a zero-based index, and canonical acceptedOrders include each new card exactly once.
+Total cumulative audited entries: 1400. All at least 4 cards. Total unique generated card IDs across all 1400: 8094. ID collisions: 0.
+New replacement proposals in batches 41-48: 6; cumulative 38.
+Batch48 replacement proposals:
+  SNU-4A-09-012: '정말 꿈만 같았어요.' -> '그날은 정말 꿈만 같았어요.'
+  SNU-4A-09-014: '직접 만난 거예요?' -> '그 배우를 직접 만난 거예요?'
+Owner instruction on grammatical chunks:
+  SNU-4A-05-004 -> [강아지] [를] [병원] [에] [데려가야] [할 것 같아요.]
+  SNU-3B-13-014 -> [좀] [차려입고] [가야] [할 것 같아서] [한 벌] [마련했어요.]
+Protect -거든, -더라면, -(으)ㄹ 뻔하다, -(으)ㄹ 듯하다, -어 대다, N이며, -는 사이에, -곤 하다, and grammatical ending chunks.
+Never silently modify the original source textbook JSON.
+
+DEPLOYMENT SCOPE
+Only sentence-battle-sample/js/sentence-card-segmentation.js
+and sentence-battle-sample/js/sentence-host.js (import cache version),
+and sentence-battle-sample/index.html (entry cache version),
+and this release QA report are changed.
+No direct writes to Firebase; no student records or scores altered; no changes to unrelated Arena games, login, ranking, lucky award.
+Saved teacher overrides retain priority and may not yet satisfy MIN4 without an independent audit.
+Teacher review flags: natural wording of SNU-4A-05-014, 4B17 historical source -었었어요 forms; existing source preserved.
+
+VALIDATION SCOPE AND REMAINING TESTS
+Static mapping/source/ID/card reconstruction succeeded. These are not real-device game tests.
+After GitHub commit, verify GitHub main read-back, GitHub Pages deployment status, and a fresh browser reload.
+Teacher PC and student-phone PIN/QR joining, real-time submission, score/rank and Firebase persistence need user field tests.
+If user observes issues, report precise lesson/question and screenshots. Roll back by reverting the final production commit, preserving Firebase.

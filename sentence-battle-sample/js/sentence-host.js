@@ -6,7 +6,7 @@ import { ensureLuckyAward, renderLuckyAward } from '../../js/lucky-award.js?v=1.
 import { requireTeacherAccess } from '../../js/access-control.js?v=1.6';
 import { createLateJoinPanel, canAcceptLateJoin } from '../../js/late-join-panel.js?v=1.0';
 import { normalizeSentenceCards, suggestSentenceCards } from '../../js/sentence-card-rules.js?v=1.0';
-import { applyAuditedSentenceCardBreaks } from './sentence-card-segmentation.js?v=sentence-min4-1080-20261114';
+import { applyAuditedSentenceCardBreaks } from './sentence-card-segmentation.js?v=sentence-min4-1400-20261114';
 function buildStudentEntryUrl(pin){
   const nested=location.pathname.includes('/sentence-battle-sample/');
   const u=new URL(nested?'../join.html':'join.html',location.href);
