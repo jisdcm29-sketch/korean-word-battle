@@ -1,0 +1,26 @@
+KGA Sentence Battle Consolidated Static QA: Batches 36-40
+NONPRODUCTION REVIEW BRANCH ONLY / 2026-11-14
+GitHub main baseline: 880 audited questions (all min4), preserved 880/880.
+New audited batches 36-40: 200 (each 40), now 1080 static questions.
+All 1080: minimum 4 cards; below4: 0; unique IDs: 1080; unique generated card identifiers: 5955.
+Source lesson JSON SHA-1s:
+Batch36 2A07: 204e09ab07eec7eecf6dbd4f6193005c4881b21b
+Batch36 3B14: e6457075d4a5ef6708771104dfb871fa868237d2
+Batch37 2A08: c48e4da71d034d52882c211204332fc7884a7f70
+Batch37 3B15: 57244fb40dcbc2c2132703b9d019f44722c4bd2e
+Batch38 2A09: 7ffea78b801e5de24fa8db021385629880480ec9
+Batch38 3B16: a4e3dd0de962c48d8ab91e5fe1093ef5a0223676
+Batch39 3B17: 7fb725902f3092e2e9b00429d0d7bb6d0fb29cf8
+Batch39 3B18: 05d13ac0166a34a75470eb737979c3eb19f78494
+Batch40 4A01: da299e4420cb9994fc8746cdc42e0541965fa948
+Batch40 4B10: e39748cfaf485b0f97e3506f4108b3fae67e7175
+New staged replacements 4:
+SNU-3B-15-016: 전기가 안 들어온다고요? -> 방에 전기가 안 들어온다고요?
+SNU-3B-15-020: 여기선 따로 내야 돼요. -> 여기서는 전기 요금을 따로 내야 돼요.
+SNU-3B-18-014: 거울이라는 건데 아주 신기해요. -> 이 물건은 거울이라는 건데 아주 신기해요.
+SNU-4A-01-005: 소리 내서 읽어 보세요. -> 한국어를 연습할 때 소리 내서 읽어 보세요.
+Prior staged replacements unchanged: 28, total now 32 (pending teacher educational approval).
+Known normalizations of leading '네,': 3; matching existing normalizeSentenceCards behavior.
+4A/4B book ID whitelist updated to make newly audited mappings effective on matching SNU sources.
+Original lesson JSON, Firebase, existing teacher edits, operational main, scoring, award, authentication and other games unchanged.
+Static QA does not replace teacher PC and real student phone integration tests.
