@@ -1,0 +1,31 @@
+REVIEW BRANCH ONLY - NOT RELEASED TO MAIN / FIREBASE
+KGA Sentence Battle: 33rd batch, SNU lesson 2A04 and 3B11
+Date: 2026-11-14
+================================================
+Source-of-truth: GitHub main textbook JSON; existing audit mapping from review branch.
+Baseline: 760 audited static sentences (all >=4 cards).
+New batch: 2A lesson 04 = 20, 3B lesson 11 = 20.
+Sources:
+2A/lesson04.json blob: f5874bdfd50b4f4ddea5c7d9254a41c85c28c034
+3B/lesson11.json blob: e65762e8cf3262aa1a820c7333679b8866ddb4a1
+Total: 800 static audited sentences.
+New batch cards: 7, 6, 6, 7, 7, 7, 8, 9, 8, 10, 7, 7, 6, 5, 6, 5, 6, 6, 6, 7, 4, 5, 8, 9, 7, 8, 8, 7, 4, 5, 4, 6, 8, 6, 4, 5, 8, 6, 6, 9 (2A first 20, then 3B 20).
+Minimum cards: 4 / 800. Below minimum: 0.
+Original source sentence and all punctuation reconstructed, ignoring card boundaries: 40/40.
+Existing 760 audited entries preserved byte-for-byte at JSON-entry level: 760/760.
+Existing 26 prior staged sentence replacements preserved.
+New sentence replacements required: 0.
+SNU item ID / order preserved: 40/40.
+Unique generated card ID = question.id + '__split_' + card index.
+Unsupported -이라도 / -이든지 NOT split from their host words.
+Core grammar retained: -는 것 같아요; -았으면 좋겠어요;
+-지 않을 것입니다; -아/어 주고 있다; -겠어요.
+Negative forms and verb endings are NOT mechanically split.
+The card mapping applies only to source 'snu', an approved book + lesson ID,
+an exact unedited original displaySentence, and a valid original question.
+Unmatched, teacher-edited, teacher-added and non-SNU content unchanged by mapping.
+The reviewer branch mapping file is the only code file modified in this batch.
+Original lesson JSON, teacher persisted data (PC/Firebase), production main,
+score/rank/auth/timer/award/room and other games NOT modified.
+Teacher/phone live interaction and Firebase end-to-end NOT tested this batch.
+Final release requires owner approval and real-device integration QA.
