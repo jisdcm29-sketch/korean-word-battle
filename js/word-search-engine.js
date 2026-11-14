@@ -69,10 +69,20 @@ function buildRound(targets,roundIndex,size){
   }
   throw new Error('단어 찾기 글자판을 만들지 못했습니다. 다른 어휘를 선택해 주세요.');
 }
+// Word Search only: require complete Korean headwords, never strip spaces
+// or punctuation to convert collocations into artificial one-word targets.
+const SEARCH_ALLOWED_POS=new Set(['명사','동사','형용사','부사','noun','verb','adjective','adverb','n','v','adj','adv']);
+const SEARCH_NON_HEADWORDS=new Set(['네','예','아니요','여보세요','그리고','그러나','하지만','그런데','또는','혹은','왜냐하면']);
+export function isStandaloneSearchEntry(item){
+  const ko=String(item?.ko??'').trim().normalize('NFC');
+  if(!/^[가-힣]{1,4}$/.test(ko)||!String(item?.mn??'').trim()||SEARCH_NON_HEADWORDS.has(ko))return false;
+  const pos=String(item?.pos??item?.partOfSpeech??item?.품사??'').trim().toLowerCase();
+  return !pos||SEARCH_ALLOWED_POS.has(pos);
+}
 export function eligibleWordSearchItems(items,{size=7}={}){
-  const base=(items||[]).map((v,i)=>({id:String(v.id||`w${i+1}`),ko:String(v.ko||'').trim(),mn:String(v.mn||'').trim(),koNorm:normalizeSearchWord(v.ko)})).filter(v=>v.ko&&v.mn&&v.koNorm.length>=2&&v.koNorm.length<=size);
-  if(base.length>=6)return base;
-  return (items||[]).map((v,i)=>({id:String(v.id||`w${i+1}`),ko:String(v.ko||'').trim(),mn:String(v.mn||'').trim(),koNorm:normalizeSearchWord(v.ko)})).filter(v=>v.ko&&v.mn&&v.koNorm.length>=1&&v.koNorm.length<=size);
+  const eligible=(items||[]).filter(isStandaloneSearchEntry).map((v,i)=>({id:String(v.id||`w${i+1}`),ko:String(v.ko||'').trim().normalize('NFC'),mn:String(v.mn||'').trim(),koNorm:normalizeSearchWord(v.ko)})).filter(v=>v.koNorm.length<=size);
+  const preferred=eligible.filter(v=>v.koNorm.length>=2);
+  return preferred.length>=6?preferred:eligible;
 }
 export function buildWordSearchRounds(items,{roundCount=3,wordsPerRound=6,size=7,sizes=null,adaptive=false}={}){
   const count=Math.max(1,Number(roundCount)||3);
